@@ -16,7 +16,8 @@
     "start": "npm run start --workspace @hoggie/server",
     "typecheck": "npm run typecheck --workspace @hoggie/server",
     "test": "vitest run",
-    "test-client": "node server/scripts/testclient.mjs"
+    "test-client": "node server/scripts/testclient.mjs",
+    "make-users": "node server/scripts/make-test-users.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

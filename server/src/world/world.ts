@@ -12,6 +12,7 @@ import type {
   MobPrototype,
   ObjPrototype,
   RaceDef,
+  Reset,
   Room,
   SkillDef,
 } from "./model.ts";
@@ -35,6 +36,20 @@ export class World {
   readonly races = new Map<number, RaceDef>();
   /** Skills are keyed by lowercased name (their natural identifier in the content). */
   readonly skills = new Map<string, SkillDef>();
+  /** Reset instructions for loaded areas (used to repopulate the world). */
+  readonly resets: Reset[] = [];
+
+  getClassByName(name: string): ClassDef | undefined {
+    const lc = name.toLowerCase();
+    for (const c of this.classes.values()) if (c.name.toLowerCase() === lc) return c;
+    return undefined;
+  }
+
+  getRaceByName(name: string): RaceDef | undefined {
+    const lc = name.toLowerCase();
+    for (const r of this.races.values()) if (r.name.toLowerCase() === lc) return r;
+    return undefined;
+  }
 
   getRoom(vnum: number): Room | undefined {
     return this.rooms.get(vnum);

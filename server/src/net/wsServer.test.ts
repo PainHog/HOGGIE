@@ -5,8 +5,17 @@ import type { ServerMessage } from "@hoggie/shared";
 
 let server: WsHandle;
 
+// A minimal transport-level handler (no game): echoes and pongs.
+const createHandler = (conn: { send: (m: ServerMessage) => void }) => ({
+  handle(msg: { t: string; text?: string }) {
+    if (msg.t === "ping") conn.send({ t: "pong" });
+    else if (msg.t === "echo") conn.send({ t: "echo", text: msg.text ?? "" });
+  },
+  onClose() {},
+});
+
 beforeAll(async () => {
-  server = await startWsServer({ port: 0 }); // ephemeral port
+  server = await startWsServer({ port: 0, createHandler: createHandler as never }); // ephemeral port
 });
 
 afterAll(async () => {

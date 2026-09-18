@@ -34,23 +34,38 @@ cp .env.example .env        # then paste your Supabase service_role key into .en
 `.env` is gitignored. The `SUPABASE_URL` and publishable key are already filled in
 `.env.example`; the `service_role` key is a secret you add yourself.
 
-## Run (Phase 1)
+## Run
 
 ```bash
 npm run dev            # start the server (ws://localhost:4100)
-npm run test-client    # in a second terminal: connect + echo loop
 npm test               # unit tests
 npm run typecheck      # TypeScript, no emit
 ```
 
-In the test client, type a line to have it echoed, `/ping` for a pong, `/quit` to exit.
-Supabase is optional at boot in Phase 1 — the server runs the connect/echo loop with or
-without the service key set, and reports Supabase status on startup.
+### Play (Phase 2)
+
+```bash
+npm run make-users     # one-time: create two confirmed Supabase test accounts
+
+# in two more terminals, log in as each tester and share a room:
+TEST_EMAIL=tester1@hoggie.local TEST_PASSWORD=ghoulish1 npm run test-client
+TEST_EMAIL=tester2@hoggie.local TEST_PASSWORD=ghoulish2 npm run test-client
+```
+
+In the client: `/create <name> <race> <class>` (races: Human/Elf/Ghoul, classes:
+Warrior/Mage/Cleric) or `/select <n>`, then play with `look`, `north`/`n` etc., `say hi`,
+`who`, `score`, `quit`. Two logged-in players in the same room see each other move and talk.
+
+`node server/scripts/smoke.mjs` runs an automated two-client end-to-end check.
+
+The world is loaded from `content/` JSON at boot — widen it by adding area filenames to
+`WORLD_AREAS` in `.env`, no code change. New characters start in `START_ROOM` (default 10300,
+the University of Alden).
 
 ## Build phases
 
-1. **Server foundation** — WS server, Supabase wiring, in-memory world model, connect/echo. ← current
-2. Accounts + world — auth, character creation, load zones, movement, presence.
+1. Server foundation — WS server, Supabase wiring, in-memory world model, connect/echo. ✓
+2. **Accounts + world** — auth, character creation, load zones, movement, presence. ← current
 3. Combat identity — stances, ascending-hit/RIS/PLUS damage, 2s round, position regen, LCK.
 4. Expo client — the real text client.
 5. Roles — player/builder/moderator/admin + builder area/vnum sandbox.

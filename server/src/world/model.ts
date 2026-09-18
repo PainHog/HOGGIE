@@ -171,6 +171,27 @@ export interface RaceDef {
   restrictedClasses: string[];
 }
 
+/** A world reset: how the area repopulates (spawns mobs, places/gives/equips objects). */
+export interface Reset {
+  area: string;
+  kind:
+    | "spawn_mob"
+    | "equip_mob"
+    | "give_to_mob"
+    | "place_object"
+    | "put_in_container"
+    | "door_state"
+    | "other";
+  mobVnum?: number;
+  objVnum?: number;
+  roomVnum?: number;
+  containerVnum?: number;
+  wearLoc?: string | number;
+  maxInWorld?: number;
+  door?: number;
+  state?: number;
+}
+
 /** Skill/spell/tongue/weapon-prof definition. `handlerKey` binds to a fresh TS implementation. */
 export interface SkillDef {
   name: string;

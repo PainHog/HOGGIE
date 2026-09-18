@@ -1,44 +1,47 @@
 /**
  * Server boot.
  *
- * Phase 1: load config, stand up the empty World, probe Supabase (optional), start the
- * WebSocket server, and wait. No game loop yet — that arrives with combat in Phase 3.
+ * Load config -> proxy wiring -> load the world from content JSON -> wire Supabase (auth + db)
+ * -> start the WebSocket server, handing each connection a game Session. The live game runs in
+ * this process's memory; Supabase is persistence + auth behind it.
  */
 import { loadConfig } from "./config.ts";
 import { log } from "./log.ts";
 import { configureOutboundProxy } from "./net/httpProxy.ts";
-import { checkSupabase } from "./db/supabase.ts";
-import { World } from "./world/world.ts";
+import { checkSupabase, getServiceClient } from "./db/supabase.ts";
+import { loadWorld } from "./world/loader.ts";
+import { Authenticator } from "./auth/verify.ts";
+import { Db } from "./db/repos.ts";
+import { LiveWorld } from "./game/liveWorld.ts";
+import { Session, type GameServices } from "./game/session.ts";
 import { startWsServer, type WsHandle } from "./net/wsServer.ts";
 
 async function main(): Promise<void> {
-  // Must run before any outbound request (Supabase health check below).
   configureOutboundProxy();
-
   const cfg = loadConfig();
 
-  log.info("House of Ghouls server booting", {
-    port: cfg.port,
-    contentDir: cfg.contentDir,
-  });
+  log.info("House of Ghouls server booting", { port: cfg.port, startRoom: cfg.startRoom });
 
-  // The authoritative in-memory world. Empty in Phase 1; loaded from content JSON in Phase 2.
-  const world = new World();
-  log.info("world model ready (empty)", world.summary());
+  const world = await loadWorld(cfg.contentDir, cfg.worldAreas);
+  const live = new LiveWorld(world);
+  const auth = new Authenticator(cfg);
+  const serviceClient = getServiceClient(cfg);
+  const db = serviceClient ? new Db(serviceClient) : null;
 
-  // Supabase is optional at boot: no service key yet just means Phase 2 persistence is not
-  // wired. The connect/echo loop runs regardless.
   const health = await checkSupabase(cfg);
-  if (!health.configured) {
-    log.warn("Supabase not configured", { detail: health.detail });
-  } else if (health.reachable) {
-    log.info("Supabase reachable", { detail: health.detail });
-  } else {
-    log.warn("Supabase configured but not reachable", { detail: health.detail });
+  if (health.reachable) log.info("Supabase reachable", { detail: health.detail });
+  else log.warn("Supabase not reachable", { detail: health.detail });
+  if (!db) {
+    log.warn("no Supabase service key — accounts/persistence disabled (set SUPABASE_SERVICE_ROLE_KEY)");
   }
 
-  const server: WsHandle = await startWsServer({ port: cfg.port });
-  log.info(`WebSocket server listening on ws://localhost:${server.port}`, {
+  const services: GameServices = { config: cfg, world, live, auth, db };
+  const server: WsHandle = await startWsServer({
+    port: cfg.port,
+    createHandler: (conn) => new Session(conn, services),
+  });
+  log.info(`House of Ghouls is live on ws://localhost:${server.port}`, {
+    accounts: db ? "enabled" : "disabled",
     hint: "run `npm run test-client` in another terminal",
   });
 

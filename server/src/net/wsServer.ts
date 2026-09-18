@@ -1,34 +1,46 @@
 /**
  * WebSocket game server — the front door.
  *
- * Phase 1 scope: accept connections, hand each a `welcome`, validate every inbound frame,
- * and answer ping/echo. No gameplay yet. The message handler is deliberately a small switch
- * that later phases extend (the `cmd` case currently just acknowledges).
+ * Accepts sockets, sends a `welcome`, validates every inbound frame, and routes it to a
+ * per-connection handler (a game Session in production). The server itself stays decoupled
+ * from game logic via the `createHandler` factory, which also keeps it unit-testable.
  */
 import { WebSocketServer, type WebSocket } from "ws";
-import { parseClientMessage, PROTOCOL_VERSION, type ClientMessage } from "@hoggie/shared";
+import {
+  parseClientMessage,
+  PROTOCOL_VERSION,
+  type ClientMessage,
+} from "@hoggie/shared";
 import { log } from "../log.ts";
 import { Connection } from "./connection.ts";
 
 const SERVER_NAME = "House of Ghouls";
 const HEARTBEAT_MS = 30_000;
 
-export interface WsHandle {
-  /** The bound port (useful when starting on port 0 in tests). */
+export interface ConnectionHandler {
+  handle(msg: ClientMessage): void | Promise<void>;
+  onClose(): void | Promise<void>;
+}
+
+export interface WsServerOptions {
   port: number;
-  /** Number of currently connected sockets. */
+  createHandler: (conn: Connection) => ConnectionHandler;
+}
+
+export interface WsHandle {
+  port: number;
   connectionCount(): number;
-  /** Close the server and all sockets. */
   close(): Promise<void>;
 }
 
-export function startWsServer(opts: { port: number }): Promise<WsHandle> {
+export function startWsServer(opts: WsServerOptions): Promise<WsHandle> {
   const wss = new WebSocketServer({ port: opts.port });
   const connections = new Map<string, Connection>();
 
   wss.on("connection", (ws: WebSocket) => {
     const conn = new Connection(ws);
     connections.set(conn.id, conn);
+    const handler = opts.createHandler(conn);
     log.info("connection opened", { id: conn.id, total: connections.size });
 
     conn.send({
@@ -48,11 +60,17 @@ export function startWsServer(opts: { port: number }): Promise<WsHandle> {
         conn.send({ t: "error", message: "malformed or unsupported message" });
         return;
       }
-      handleMessage(conn, msg);
+      Promise.resolve(handler.handle(msg)).catch((err) => {
+        log.error("handler error", { id: conn.id, err: String(err) });
+        conn.send({ t: "error", message: "internal error" });
+      });
     });
 
     ws.on("close", () => {
       connections.delete(conn.id);
+      Promise.resolve(handler.onClose()).catch((err) =>
+        log.warn("onClose error", { id: conn.id, err: String(err) }),
+      );
       log.info("connection closed", { id: conn.id, total: connections.size });
     });
 
@@ -61,7 +79,6 @@ export function startWsServer(opts: { port: number }): Promise<WsHandle> {
     });
   });
 
-  // Drop sockets that stopped answering pings.
   const heartbeat = setInterval(() => {
     for (const conn of connections.values()) {
       if (!conn.isAlive) {
@@ -79,6 +96,7 @@ export function startWsServer(opts: { port: number }): Promise<WsHandle> {
     wss.on("listening", () => {
       const addr = wss.address();
       const port = typeof addr === "object" && addr ? addr.port : opts.port;
+      log.info("ws listening", { name: SERVER_NAME, port });
       resolve({
         port,
         connectionCount: () => connections.size,
@@ -91,22 +109,4 @@ export function startWsServer(opts: { port: number }): Promise<WsHandle> {
       });
     });
   });
-}
-
-function handleMessage(conn: Connection, msg: ClientMessage): void {
-  switch (msg.t) {
-    case "ping":
-      conn.send({ t: "pong" });
-      return;
-    case "echo":
-      conn.send({ t: "echo", text: msg.text });
-      return;
-    case "cmd":
-      // Command handling lands in Phase 2 (accounts + world). Acknowledge for now.
-      conn.send({
-        t: "system",
-        text: `commands arrive in Phase 2 — ignored: ${JSON.stringify(msg.raw)}`,
-      });
-      return;
-  }
 }
