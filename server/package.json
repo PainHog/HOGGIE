@@ -13,6 +13,7 @@
     "@hoggie/shared": "*",
     "@supabase/supabase-js": "^2.47.10",
     "dotenv": "^16.4.7",
+    "undici": "^8.10.2",
     "ws": "^8.18.0",
     "zod": "^3.24.1"
   },

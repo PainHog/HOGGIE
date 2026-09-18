@@ -6,11 +6,15 @@
  */
 import { loadConfig } from "./config.ts";
 import { log } from "./log.ts";
+import { configureOutboundProxy } from "./net/httpProxy.ts";
 import { checkSupabase } from "./db/supabase.ts";
 import { World } from "./world/world.ts";
 import { startWsServer, type WsHandle } from "./net/wsServer.ts";
 
 async function main(): Promise<void> {
+  // Must run before any outbound request (Supabase health check below).
+  configureOutboundProxy();
+
   const cfg = loadConfig();
 
   log.info("House of Ghouls server booting", {
