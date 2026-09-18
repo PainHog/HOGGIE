@@ -1,0 +1,5067 @@
+#AREA   Wulftuuf Sea~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG The warm current flows around your body...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 62693997
+
+#CLIMATE 3 3 2
+
+#MOBILES
+#10101
+fish pilotfish light~
+a pilotfish~
+A strange light bobs about in the dark waters.
+~
+A strange light approaches you in the water.  As it gets closer, you realize
+that the light comes from a long appendage that hangs off of an ugly fish.  It
+opens its mouth and the sharp teeth give you second thoughts about attacking
+it.
+~
+1090519041 -2143289344&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 156672 0 0 0 1 2
+#10102
+fish pilotfish light~
+a pilotfish~
+A strange light bobs about in the dark waters.
+~
+A strange light approaches you in the water.  As it gets closer, you realize
+that the light comes from a long appendage that hangs off of an ugly fish.  It
+opens its mouth and the sharp teeth give you second thoughts about attacking
+it.
+~
+1090519041 -2143289344&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 156672 0 0 0 1 2
+#10103
+fish pilotfish light~
+a pilotfish~
+A strange light bobs about in the dark waters.
+~
+A strange light approaches you in the water.  As it gets closer, you realize
+that the light comes from a long appendage that hangs off of an ugly fish.  It
+opens its mouth and the sharp teeth give you second thoughts about attacking
+it.
+~
+1090519041 -2143289344&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 156672 0 0 0 1 2
+#10104
+gull sea~
+a seagull~
+A bright white seagull floats about on the breeze.
+~
+A white gull floats about on the breeze, making noisy squawks and hoping for a
+bit of dead fish to float by.
+~
+553648129 -2146959360 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809993 0 0 0 513 2
+#10105
+gull sea~
+a seagull~
+A bright white seagull floats about on the breeze.
+~
+A white gull floats about on the breeze, making noisy squawks and hoping for a
+bit of dead fish to float by.
+~
+553648129 -2146959360 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809993 0 0 0 513 2
+#10106
+gull sea~
+a seagull~
+A bright white seagull floats about on the breeze.
+~
+A white gull floats about on the breeze, making noisy squawks and hoping for a
+bit of dead fish to float by.
+~
+553648129 -2146959360 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809993 0 0 0 513 2
+#10107
+gull sea~
+a seagull~
+A bright white seagull floats about on the breeze.
+~
+A white gull floats about on the breeze, making noisy squawks and hoping for a
+bit of dead fish to float by.
+~
+553648129 -2146959360 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809993 0 0 0 513 2
+#10108
+gull sea~
+a seagull~
+A bright white seagull floats about on the breeze.
+~
+A white gull floats about on the breeze, making noisy squawks and hoping for a
+bit of dead fish to float by.
+~
+553648129 -2146959360 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809993 0 0 0 513 2
+#10109
+perch fish~
+a perch~
+A small perch swims about the warm waters.
+~
+Enjoying the warmth of the waters, a small perch swims about, eating algae and
+the occasional smaller fish.
+~
+1090519041 -2147483648 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10110
+perch fish~
+a perch~
+A small perch swims about the warm waters.
+~
+Enjoying the warmth of the waters, a small perch swims about, eating algae and
+the occasional smaller fish.
+~
+1090519041 -2147483648 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10111
+perch fish~
+a perch~
+A small perch swims about the warm waters.
+~
+Enjoying the warmth of the waters, a small perch swims about, eating algae and
+the occasional smaller fish.
+~
+1090519041 -2147483648 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10112
+grouper giant~
+a giant grouper~
+A large fish with a larger mouth attempts to swallow you whole!
+~
+With a mouth as big as a full-grown minotaur, this giant grouper swims at you
+quickly, sucking in water, algae and smaller fish in an attempt to swallow you
+whole!
+~
+1073741857 -2147483648&64 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82968 0 0 0 133 0
+#10113
+shark sand~
+a sand shark~
+A small sand shark swims about chasing schools of perch.
+~
+Unlike its killer cousins up north, the sand shark is relatively peaceful,
+unless provoked.
+~
+1090519041 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10114
+shark sand~
+a sand shark~
+A small sand shark swims about chasing schools of perch.
+~
+Unlike its killer cousins up north, the sand shark is relatively peaceful,
+unless provoked.
+~
+1090519041 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10115
+shark sand~
+a sand shark~
+A small sand shark swims about chasing schools of perch.
+~
+Unlike its killer cousins up north, the sand shark is relatively peaceful,
+unless provoked.
+~
+1090519041 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10116
+whale shark~
+a whale shark~
+A huge whale shark floats calmly in the sea.
+~
+This fish is as big as a whale.  While a member of the shark family, it eats
+mostly algae and smaller fish, and usually does not attack large creatures
+unless provoked.
+~
+1090519041 -2147483648&64 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10117
+whale shark~
+a whale shark~
+A huge whale shark floats calmly in the sea.
+~
+This fish is as big as a whale.  While a member of the shark family, it eats
+mostly algae and smaller fish, and usually does not attack large creatures
+unless provoked.
+~
+1090519041 -2147483648&64 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 82960 0 0 0 1 0
+#10118
+jelly fish~
+a jellyfish~
+A small jellyfish floats about in the warm sea.
+~
+Dangling its poisonous tentacles down below, the jellyfish hopes to ensnare a
+small perch or other tasty fish for its daily meal.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8208 0 0 0 131073 1
+#10119
+jelly fish~
+a jellyfish~
+A small jellyfish floats about in the warm sea.
+~
+Dangling its poisonous tentacles down below, the jellyfish hopes to ensnare a
+small perch or other tasty fish for its daily meal.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8208 0 0 0 131073 1
+#10120
+jelly fish~
+a jellyfish~
+A small jellyfish floats about in the warm sea.
+~
+Dangling its poisonous tentacles down below, the jellyfish hopes to ensnare a
+small perch or other tasty fish for its daily meal.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8208 0 0 0 131073 1
+#10299
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10101
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#10299
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#10101
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10102
+D2
+~
+~
+0 0 10107
+S
+#10102
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10103
+D2
+~
+~
+0 0 10108
+D3
+~
+~
+0 0 10101
+S
+#10103
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10104
+D2
+~
+~
+0 0 10109
+D3
+~
+~
+0 0 10102
+S
+#10104
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10105
+D2
+~
+~
+0 0 10110
+D3
+~
+~
+0 0 10103
+S
+#10105
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10106
+D2
+~
+~
+0 0 10111
+D3
+~
+~
+0 0 10104
+S
+#10106
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 3096
+D2
+~
+~
+0 0 10112
+D3
+~
+~
+0 0 10105
+S
+#10107
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10101
+D1
+~
+~
+0 0 10108
+D2
+~
+~
+0 0 10113
+S
+#10108
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10102
+D1
+~
+~
+0 0 10109
+D2
+~
+~
+0 0 10114
+D3
+~
+~
+0 0 10107
+S
+#10109
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10103
+D1
+~
+~
+0 0 10110
+D2
+~
+~
+0 0 10115
+D3
+~
+~
+0 0 10108
+S
+#10110
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10104
+D1
+~
+~
+0 0 10111
+D2
+~
+~
+0 0 10116
+D3
+~
+~
+0 0 10109
+S
+#10111
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10105
+D1
+~
+~
+0 0 10112
+D2
+~
+~
+0 0 10117
+D3
+~
+~
+0 0 10110
+S
+#10112
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10106
+D1
+~
+~
+0 0 3095
+D2
+~
+~
+0 0 10118
+D3
+~
+~
+0 0 10111
+S
+#10113
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10107
+D1
+~
+~
+0 0 10114
+D2
+~
+~
+0 0 10119
+S
+#10114
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10108
+D1
+~
+~
+0 0 10115
+D2
+~
+~
+0 0 10120
+D3
+~
+~
+0 0 10113
+S
+#10115
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10109
+D1
+~
+~
+0 0 10116
+D2
+~
+~
+0 0 10121
+D3
+~
+~
+0 0 10114
+S
+#10116
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10110
+D1
+~
+~
+0 0 10117
+D2
+~
+~
+0 0 10122
+D3
+~
+~
+0 0 10115
+S
+#10117
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10111
+D1
+~
+~
+0 0 10118
+D2
+~
+~
+0 0 10123
+D3
+~
+~
+0 0 10116
+S
+#10118
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10112
+D1
+~
+~
+0 0 3094
+D2
+~
+~
+0 0 10124
+D3
+~
+~
+0 0 10117
+S
+#10119
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10113
+D1
+~
+~
+0 0 10120
+D2
+~
+~
+0 0 10128
+D5
+~
+~
+0 0 10231
+S
+#10120
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10114
+D1
+~
+~
+0 0 10121
+D2
+~
+~
+0 0 10129
+D3
+~
+~
+0 0 10119
+D5
+~
+~
+0 0 10232
+S
+#10121
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10115
+D1
+~
+~
+0 0 10122
+D2
+~
+~
+0 0 10130
+D3
+~
+~
+0 0 10120
+D5
+~
+~
+0 0 10233
+S
+#10122
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10116
+D1
+~
+~
+0 0 10123
+D2
+~
+~
+0 0 10131
+D3
+~
+~
+0 0 10121
+D5
+~
+~
+0 0 10234
+S
+#10123
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10117
+D1
+~
+~
+0 0 10124
+D2
+~
+~
+0 0 10132
+D3
+~
+~
+0 0 10122
+D5
+~
+~
+0 0 10235
+S
+#10124
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10118
+D1
+~
+~
+0 0 10125
+D2
+~
+~
+0 0 10133
+D3
+~
+~
+0 0 10123
+D5
+~
+~
+0 0 10236
+S
+#10125
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 3094
+D1
+~
+~
+0 0 10126
+D2
+~
+~
+0 0 10134
+D3
+~
+~
+0 0 10124
+D5
+~
+~
+0 0 10237
+S
+#10126
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 3093
+D1
+~
+~
+0 0 10127
+D2
+~
+~
+0 0 10135
+D3
+~
+~
+0 0 10125
+D5
+~
+~
+0 0 10238
+S
+#10127
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 3092
+D1
+~
+~
+0 0 3090
+D2
+~
+~
+0 0 10136
+D3
+~
+~
+0 0 10126
+D5
+~
+~
+0 0 10240
+S
+#10128
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10119
+D1
+~
+~
+0 0 10129
+D2
+~
+~
+0 0 10142
+S
+#10129
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10120
+D1
+~
+~
+0 0 10130
+D2
+~
+~
+0 0 10143
+D3
+~
+~
+0 0 10128
+D5
+~
+~
+0 0 10240
+S
+#10130
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10121
+D1
+~
+~
+0 0 10131
+D2
+~
+~
+0 0 10144
+D3
+~
+~
+0 0 10129
+D5
+~
+~
+0 0 10241
+S
+#10131
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10122
+D1
+~
+~
+0 0 10132
+D2
+~
+~
+0 0 10145
+D3
+~
+~
+0 0 10130
+D5
+~
+~
+0 0 10242
+S
+#10132
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10123
+D1
+~
+~
+0 0 10133
+D2
+~
+~
+0 0 10146
+D3
+~
+~
+0 0 10131
+D5
+~
+~
+0 0 10243
+S
+#10133
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10124
+D1
+~
+~
+0 0 10134
+D2
+~
+~
+0 0 10147
+D3
+~
+~
+0 0 10132
+D5
+~
+~
+0 0 10244
+S
+#10134
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10125
+D1
+~
+~
+0 0 10135
+D2
+~
+~
+0 0 10148
+D3
+~
+~
+0 0 10133
+D5
+~
+~
+0 0 10245
+S
+#10135
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10126
+D1
+~
+~
+0 0 10136
+D2
+~
+~
+0 0 10149
+D3
+~
+~
+0 0 10134
+D5
+~
+~
+0 0 10246
+S
+#10136
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10127
+D1
+~
+~
+0 0 10137
+D2
+~
+~
+0 0 10150
+D3
+~
+~
+0 0 10135
+S
+#10137
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 3090
+D2
+~
+~
+0 0 10151
+D3
+~
+~
+0 0 10136
+S
+#10138
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10139
+D2
+~
+~
+0 0 10152
+S
+#10139
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10140
+D2
+~
+~
+0 0 10153
+D3
+~
+~
+0 0 10138
+S
+#10140
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10141
+D2
+~
+~
+0 0 10154
+D3
+~
+~
+0 0 10139
+S
+#10141
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D1
+~
+~
+0 0 10142
+D2
+~
+~
+0 0 10155
+D3
+~
+~
+0 0 10140
+S
+#10142
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10128
+D1
+~
+~
+0 0 10143
+D2
+~
+~
+0 0 10156
+D3
+~
+~
+0 0 10141
+D5
+~
+~
+0 0 10247
+S
+#10143
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10129
+D1
+~
+~
+0 0 10144
+D2
+~
+~
+0 0 10157
+D3
+~
+~
+0 0 10142
+D5
+~
+~
+0 0 10248
+S
+#10144
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10130
+D1
+~
+~
+0 0 10145
+D2
+~
+~
+0 0 10158
+D3
+~
+~
+0 0 10143
+D5
+~
+~
+0 0 10249
+S
+#10145
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10131
+D1
+~
+~
+0 0 10146
+D2
+~
+~
+0 0 10159
+D3
+~
+~
+0 0 10144
+D5
+~
+~
+0 0 10250
+S
+#10146
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10132
+D1
+~
+~
+0 0 10147
+D2
+~
+~
+0 0 10160
+D3
+~
+~
+0 0 10145
+D5
+~
+~
+0 0 10251
+S
+#10147
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10133
+D1
+~
+~
+0 0 10148
+D2
+~
+~
+0 0 10161
+D3
+~
+~
+0 0 10146
+D5
+~
+~
+0 0 10252
+S
+#10148
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10134
+D1
+~
+~
+0 0 10149
+D2
+~
+~
+0 0 10162
+D3
+~
+~
+0 0 10147
+D5
+~
+~
+0 0 10253
+S
+#10149
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10135
+D1
+~
+~
+0 0 10150
+D2
+~
+~
+0 0 10163
+D3
+~
+~
+0 0 10148
+D5
+~
+~
+0 0 10254
+S
+#10150
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10136
+D1
+~
+~
+0 0 10151
+D2
+~
+~
+0 0 10164
+D3
+~
+~
+0 0 10149
+S
+#10151
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10137
+D2
+~
+~
+0 0 10165
+D3
+~
+~
+0 0 10150
+S
+#10152
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10138
+D1
+~
+~
+0 0 10153
+D2
+~
+~
+0 0 10166
+S
+#10153
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10139
+D1
+~
+~
+0 0 10154
+D2
+~
+~
+0 0 10167
+D3
+~
+~
+0 0 10152
+S
+#10154
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10140
+D1
+~
+~
+0 0 10155
+D2
+~
+~
+0 0 10168
+D3
+~
+~
+0 0 10153
+S
+#10155
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10141
+D1
+~
+~
+0 0 10156
+D2
+~
+~
+0 0 10169
+D3
+~
+~
+0 0 10154
+S
+#10156
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10142
+D1
+~
+~
+0 0 10157
+D2
+~
+~
+0 0 10170
+D3
+~
+~
+0 0 10155
+D5
+~
+~
+0 0 10255
+S
+#10157
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10143
+D1
+~
+~
+0 0 10158
+D2
+~
+~
+0 0 10171
+D3
+~
+~
+0 0 10156
+D5
+~
+~
+0 0 10256
+S
+#10158
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10144
+D1
+~
+~
+0 0 10159
+D2
+~
+~
+0 0 10172
+D3
+~
+~
+0 0 10157
+D5
+~
+~
+0 0 10257
+S
+#10159
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10145
+D1
+~
+~
+0 0 10160
+D2
+~
+~
+0 0 10173
+D3
+~
+~
+0 0 10158
+D5
+~
+~
+0 0 10258
+S
+#10160
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10146
+D1
+~
+~
+0 0 10161
+D2
+~
+~
+0 0 10174
+D3
+~
+~
+0 0 10159
+D5
+~
+~
+0 0 10259
+S
+#10161
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10147
+D1
+~
+~
+0 0 10162
+D2
+~
+~
+0 0 10175
+D3
+~
+~
+0 0 10160
+D5
+~
+~
+0 0 10260
+S
+#10162
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10148
+D1
+~
+~
+0 0 10163
+D2
+~
+~
+0 0 10176
+D3
+~
+~
+0 0 10161
+D5
+~
+~
+0 0 10261
+S
+#10163
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10149
+D1
+~
+~
+0 0 10164
+D2
+~
+~
+0 0 10177
+D3
+~
+~
+0 0 10162
+D5
+~
+~
+0 0 10262
+S
+#10164
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10150
+D1
+~
+~
+0 0 10165
+D2
+~
+~
+0 0 10178
+D3
+~
+~
+0 0 10163
+S
+#10165
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10151
+D2
+~
+~
+0 0 10179
+D3
+~
+~
+0 0 10164
+S
+#10166
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10152
+D1
+~
+~
+0 0 10167
+D2
+~
+~
+0 0 10180
+S
+#10167
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10153
+D1
+~
+~
+0 0 10168
+D2
+~
+~
+0 0 10181
+D3
+~
+~
+0 0 10166
+S
+#10168
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10154
+D1
+~
+~
+0 0 10169
+D2
+~
+~
+0 0 10182
+D3
+~
+~
+0 0 10167
+S
+#10169
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10155
+D1
+~
+~
+0 0 10170
+D2
+~
+~
+0 0 10183
+D3
+~
+~
+0 0 10168
+S
+#10170
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10156
+D1
+~
+~
+0 0 10171
+D2
+~
+~
+0 0 10184
+D3
+~
+~
+0 0 10169
+D5
+~
+~
+0 0 10263
+S
+#10171
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10157
+D1
+~
+~
+0 0 10172
+D2
+~
+~
+0 0 10185
+D3
+~
+~
+0 0 10170
+D5
+~
+~
+0 0 10264
+S
+#10172
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10158
+D1
+~
+~
+0 0 10173
+D2
+~
+~
+0 0 10186
+D3
+~
+~
+0 0 10171
+D5
+~
+~
+0 0 10265
+S
+#10173
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10159
+D1
+~
+~
+0 0 10174
+D2
+~
+~
+0 0 10187
+D3
+~
+~
+0 0 10172
+D5
+~
+~
+0 0 10266
+S
+#10174
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10160
+D1
+~
+~
+0 0 10175
+D2
+~
+~
+0 0 10188
+D3
+~
+~
+0 0 10173
+D5
+~
+~
+0 0 10267
+S
+#10175
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10161
+D1
+~
+~
+0 0 10176
+D2
+~
+~
+0 0 10189
+D3
+~
+~
+0 0 10174
+D5
+~
+~
+0 0 10268
+S
+#10176
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10162
+D1
+~
+~
+0 0 10177
+D2
+~
+~
+0 0 10190
+D3
+~
+~
+0 0 10175
+D5
+~
+~
+0 0 10269
+S
+#10177
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10163
+D1
+~
+~
+0 0 10178
+D2
+~
+~
+0 0 10191
+D3
+~
+~
+0 0 10176
+D5
+~
+~
+0 0 10270
+S
+#10178
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10164
+D1
+~
+~
+0 0 10179
+D2
+~
+~
+0 0 10192
+D3
+~
+~
+0 0 10177
+S
+#10179
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10165
+D2
+~
+~
+0 0 10193
+D3
+~
+~
+0 0 10178
+S
+#10180
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10166
+D1
+~
+~
+0 0 10181
+D2
+~
+~
+0 0 10194
+S
+#10181
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10167
+D1
+~
+~
+0 0 10182
+D2
+~
+~
+0 0 10195
+D3
+~
+~
+0 0 10180
+S
+#10182
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10168
+D1
+~
+~
+0 0 10183
+D2
+~
+~
+0 0 10196
+D3
+~
+~
+0 0 10181
+S
+#10183
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10169
+D1
+~
+~
+0 0 10184
+D2
+~
+~
+0 0 10197
+D3
+~
+~
+0 0 10182
+S
+#10184
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10170
+D1
+~
+~
+0 0 10185
+D2
+~
+~
+0 0 10198
+D3
+~
+~
+0 0 10183
+D5
+~
+~
+0 0 10271
+S
+#10185
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10171
+D1
+~
+~
+0 0 10186
+D2
+~
+~
+0 0 10199
+D3
+~
+~
+0 0 10184
+D5
+~
+~
+0 0 10272
+S
+#10186
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10172
+D1
+~
+~
+0 0 10187
+D2
+~
+~
+0 0 10200
+D3
+~
+~
+0 0 10185
+D5
+~
+~
+0 0 10273
+S
+#10187
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10173
+D1
+~
+~
+0 0 10188
+D2
+~
+~
+0 0 10201
+D3
+~
+~
+0 0 10186
+D5
+~
+~
+0 0 10274
+S
+#10188
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10174
+D1
+~
+~
+0 0 10189
+D2
+~
+~
+0 0 10202
+D3
+~
+~
+0 0 10187
+D5
+~
+~
+0 0 10275
+S
+#10189
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10175
+D1
+~
+~
+0 0 10190
+D2
+~
+~
+0 0 10203
+D3
+~
+~
+0 0 10188
+D5
+~
+~
+0 0 10276
+S
+#10190
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10176
+D1
+~
+~
+0 0 10191
+D2
+~
+~
+0 0 10204
+D3
+~
+~
+0 0 10189
+D5
+~
+~
+0 0 10277
+S
+#10191
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10177
+D1
+~
+~
+0 0 10192
+D2
+~
+~
+0 0 10205
+D3
+~
+~
+0 0 10190
+D5
+~
+~
+0 0 10278
+S
+#10192
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10178
+D1
+~
+~
+0 0 10193
+D2
+~
+~
+0 0 10206
+D3
+~
+~
+0 0 10191
+S
+#10193
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10179
+D3
+~
+~
+0 0 10192
+S
+#10194
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10180
+D1
+~
+~
+0 0 10195
+D2
+~
+~
+0 0 10207
+S
+#10195
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10181
+D1
+~
+~
+0 0 10196
+D2
+~
+~
+0 0 10208
+D3
+~
+~
+0 0 10194
+S
+#10196
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10182
+D1
+~
+~
+0 0 10197
+D2
+~
+~
+0 0 10209
+D3
+~
+~
+0 0 10195
+S
+#10197
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10183
+D1
+~
+~
+0 0 10198
+D2
+~
+~
+0 0 10210
+D3
+~
+~
+0 0 10196
+S
+#10198
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10184
+D1
+~
+~
+0 0 10199
+D2
+~
+~
+0 0 10211
+D3
+~
+~
+0 0 10197
+S
+#10199
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10185
+D1
+~
+~
+0 0 10200
+D2
+~
+~
+0 0 10212
+D3
+~
+~
+0 0 10198
+S
+#10200
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10186
+D1
+~
+~
+0 0 10201
+D2
+~
+~
+0 0 10213
+D3
+~
+~
+0 0 10199
+S
+#10201
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10187
+D1
+~
+~
+0 0 10202
+D2
+~
+~
+0 0 10214
+D3
+~
+~
+0 0 10200
+S
+#10202
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10188
+D1
+~
+~
+0 0 10203
+D2
+~
+~
+0 0 10215
+D3
+~
+~
+0 0 10201
+S
+#10203
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10189
+D1
+~
+~
+0 0 10204
+D2
+~
+~
+0 0 10216
+D3
+~
+~
+0 0 10202
+S
+#10204
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10190
+D1
+~
+~
+0 0 10205
+D2
+~
+~
+0 0 10217
+D3
+~
+~
+0 0 10203
+S
+#10205
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10191
+D1
+~
+~
+0 0 10206
+D2
+~
+~
+0 0 10218
+D3
+~
+~
+0 0 10204
+S
+#10206
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10192
+D2
+~
+~
+0 0 10219
+D3
+~
+~
+0 0 10205
+S
+#10207
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10194
+D1
+~
+~
+0 0 10208
+S
+#10208
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10195
+D1
+~
+~
+0 0 10209
+D3
+~
+~
+0 0 10207
+S
+#10209
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10196
+D1
+~
+~
+0 0 10210
+D3
+~
+~
+0 0 10208
+S
+#10210
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10197
+D1
+~
+~
+0 0 10211
+D3
+~
+~
+0 0 10209
+S
+#10211
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10198
+D1
+~
+~
+0 0 10212
+D3
+~
+~
+0 0 10210
+S
+#10212
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  What appears to be a
+seaport can be seen to the south.
+
+~
+0 0 7
+D0
+~
+~
+0 0 10199
+D1
+~
+~
+0 0 10213
+D2
+~
+~
+0 0 12101
+D3
+~
+~
+0 0 10211
+S
+#10213
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10200
+D1
+~
+~
+0 0 10214
+D3
+~
+~
+0 0 10212
+S
+#10214
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10201
+D1
+~
+~
+0 0 10215
+D2
+~
+~
+0 0 10220
+D3
+~
+~
+0 0 10213
+S
+#10215
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10202
+D1
+~
+~
+0 0 10216
+D2
+~
+~
+0 0 10221
+D3
+~
+~
+0 0 10214
+S
+#10216
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10203
+D1
+~
+~
+0 0 10217
+D2
+~
+~
+0 0 10222
+D3
+~
+~
+0 0 10215
+S
+#10217
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10204
+D1
+~
+~
+0 0 10218
+D2
+~
+~
+0 0 10223
+D3
+~
+~
+0 0 10216
+S
+#10218
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10205
+D1
+~
+~
+0 0 10219
+D2
+~
+~
+0 0 10224
+D3
+~
+~
+0 0 10217
+S
+#10219
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10206
+D2
+~
+~
+0 0 10225
+D3
+~
+~
+0 0 10218
+S
+#10220
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the south and west, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10214
+D1
+~
+~
+0 0 10221
+S
+#10221
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10215
+D1
+~
+~
+0 0 10222
+D2
+~
+~
+0 0 10226
+D3
+~
+~
+0 0 10220
+S
+#10222
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10216
+D1
+~
+~
+0 0 10223
+D2
+~
+~
+0 0 10227
+D3
+~
+~
+0 0 10221
+S
+#10223
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10217
+D1
+~
+~
+0 0 10224
+D2
+~
+~
+0 0 10228
+D3
+~
+~
+0 0 10222
+S
+#10224
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10218
+D1
+~
+~
+0 0 10225
+D2
+~
+~
+0 0 10229
+D3
+~
+~
+0 0 10223
+S
+#10225
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10219
+D2
+~
+~
+0 0 10230
+D3
+~
+~
+0 0 10224
+S
+#10226
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.  Waves crash against the
+rocks to the west, making them impossible to climb up on.
+~
+0 0 7
+D0
+~
+~
+0 0 10221
+D1
+~
+~
+0 0 10227
+S
+#10227
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10222
+D1
+~
+~
+0 0 10228
+D3
+~
+~
+0 0 10226
+S
+#10228
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10223
+D1
+~
+~
+0 0 10229
+D3
+~
+~
+0 0 10227
+S
+#10229
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10224
+D1
+~
+~
+0 0 10230
+D3
+~
+~
+0 0 10228
+S
+#10230
+In Warm Waters~
+The water of this sea is warmer than its sister seas up north.  Due to the
+warmth, more algae seems to be growing here, giving the sea a dark green hue.
+Occasionally, small bits of plant and wood float over the swells.  Cries of
+seabirds can be heard faintly, from far overhead.
+~
+0 0 7
+D0
+~
+~
+0 0 10225
+D3
+~
+~
+0 0 10229
+S
+#10231
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10232
+D2
+~
+~
+0 0 10239
+D4
+~
+~
+0 0 10119
+S
+#10232
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10233
+D2
+~
+~
+0 0 10240
+D3
+~
+~
+0 0 10231
+D4
+~
+~
+0 0 10120
+S
+#10233
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10234
+D2
+~
+~
+0 0 10241
+D3
+~
+~
+0 0 10232
+D4
+~
+~
+0 0 10121
+S
+#10234
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10235
+D2
+~
+~
+0 0 10242
+D3
+~
+~
+0 0 10233
+D4
+~
+~
+0 0 10122
+S
+#10235
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10236
+D2
+~
+~
+0 0 10243
+D3
+~
+~
+0 0 10234
+D4
+~
+~
+0 0 10123
+S
+#10236
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10237
+D2
+~
+~
+0 0 10244
+D3
+~
+~
+0 0 10235
+D4
+~
+~
+0 0 10124
+S
+#10237
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D1
+~
+~
+0 0 10238
+D2
+~
+~
+0 0 10245
+D3
+~
+~
+0 0 10236
+D4
+~
+~
+0 0 10125
+S
+#10238
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D2
+~
+~
+0 0 10246
+D3
+~
+~
+0 0 10237
+D4
+~
+~
+0 0 10126
+S
+#10239
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10231
+D1
+~
+~
+0 0 10240
+D2
+~
+~
+0 0 10247
+D4
+~
+~
+0 0 10128
+S
+#10240
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10232
+D1
+~
+~
+0 0 10241
+D2
+~
+~
+0 0 10248
+D3
+~
+~
+0 0 10239
+D4
+~
+~
+0 0 10129
+S
+#10241
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10233
+D1
+~
+~
+0 0 10242
+D2
+~
+~
+0 0 10249
+D3
+~
+~
+0 0 10240
+D4
+~
+~
+0 0 10130
+S
+#10242
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10234
+D1
+~
+~
+0 0 10243
+D2
+~
+~
+0 0 10250
+D3
+~
+~
+0 0 10241
+D4
+~
+~
+0 0 10131
+S
+#10243
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10235
+D1
+~
+~
+0 0 10244
+D2
+~
+~
+0 0 10251
+D3
+~
+~
+0 0 10242
+D4
+~
+~
+0 0 10132
+S
+#10244
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10236
+D1
+~
+~
+0 0 10245
+D2
+~
+~
+0 0 10252
+D3
+~
+~
+0 0 10243
+D4
+~
+~
+0 0 10133
+S
+#10245
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10237
+D1
+~
+~
+0 0 10246
+D2
+~
+~
+0 0 10253
+D3
+~
+~
+0 0 10244
+D4
+~
+~
+0 0 10134
+S
+#10246
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10238
+D2
+~
+~
+0 0 10254
+D3
+~
+~
+0 0 10245
+D4
+~
+~
+0 0 10135
+S
+#10247
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10239
+D1
+~
+~
+0 0 10248
+D2
+~
+~
+0 0 10255
+D4
+~
+~
+0 0 10142
+S
+#10248
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10240
+D1
+~
+~
+0 0 10249
+D2
+~
+~
+0 0 10256
+D3
+~
+~
+0 0 10247
+D4
+~
+~
+0 0 10143
+S
+#10249
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10241
+D1
+~
+~
+0 0 10250
+D2
+~
+~
+0 0 10257
+D3
+~
+~
+0 0 10248
+D4
+~
+~
+0 0 10144
+S
+#10250
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10242
+D1
+~
+~
+0 0 10251
+D2
+~
+~
+0 0 10258
+D3
+~
+~
+0 0 10249
+D4
+~
+~
+0 0 10145
+S
+#10251
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10243
+D1
+~
+~
+0 0 10252
+D2
+~
+~
+0 0 10259
+D3
+~
+~
+0 0 10250
+D4
+~
+~
+0 0 10146
+S
+#10252
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10244
+D1
+~
+~
+0 0 10253
+D2
+~
+~
+0 0 10260
+D3
+~
+~
+0 0 10251
+D4
+~
+~
+0 0 10147
+S
+#10253
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10245
+D1
+~
+~
+0 0 10254
+D2
+~
+~
+0 0 10261
+D3
+~
+~
+0 0 10252
+D4
+~
+~
+0 0 10148
+S
+#10254
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10246
+D2
+~
+~
+0 0 10262
+D3
+~
+~
+0 0 10253
+D4
+~
+~
+0 0 10149
+S
+#10255
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10247
+D1
+~
+~
+0 0 10256
+D2
+~
+~
+0 0 10263
+D4
+~
+~
+0 0 10156
+S
+#10256
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10248
+D1
+~
+~
+0 0 10257
+D2
+~
+~
+0 0 10264
+D3
+~
+~
+0 0 10255
+D4
+~
+~
+0 0 10157
+S
+#10257
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10249
+D1
+~
+~
+0 0 10258
+D2
+~
+~
+0 0 10265
+D3
+~
+~
+0 0 10256
+D4
+~
+~
+0 0 10158
+S
+#10258
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10250
+D1
+~
+~
+0 0 10259
+D2
+~
+~
+0 0 10266
+D3
+~
+~
+0 0 10257
+D4
+~
+~
+0 0 10159
+S
+#10259
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10251
+D1
+~
+~
+0 0 10260
+D2
+~
+~
+0 0 10267
+D3
+~
+~
+0 0 10258
+D4
+~
+~
+0 0 10160
+S
+#10260
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10252
+D1
+~
+~
+0 0 10261
+D2
+~
+~
+0 0 10268
+D3
+~
+~
+0 0 10259
+D4
+~
+~
+0 0 10161
+S
+#10261
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10253
+D1
+~
+~
+0 0 10262
+D2
+~
+~
+0 0 10269
+D3
+~
+~
+0 0 10260
+D4
+~
+~
+0 0 10162
+S
+#10262
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10254
+D2
+~
+~
+0 0 10270
+D3
+~
+~
+0 0 10261
+D4
+~
+~
+0 0 10163
+S
+#10263
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10255
+D1
+~
+~
+0 0 10264
+D2
+~
+~
+0 0 10271
+D4
+~
+~
+0 0 10170
+S
+#10264
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10256
+D1
+~
+~
+0 0 10265
+D2
+~
+~
+0 0 10272
+D3
+~
+~
+0 0 10263
+D4
+~
+~
+0 0 10171
+S
+#10265
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10257
+D1
+~
+~
+0 0 10266
+D2
+~
+~
+0 0 10273
+D3
+~
+~
+0 0 10264
+D4
+~
+~
+0 0 10172
+S
+#10266
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10258
+D1
+~
+~
+0 0 10267
+D2
+~
+~
+0 0 10274
+D3
+~
+~
+0 0 10265
+D4
+~
+~
+0 0 10173
+S
+#10267
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10259
+D1
+~
+~
+0 0 10268
+D2
+~
+~
+0 0 10275
+D3
+~
+~
+0 0 10266
+D4
+~
+~
+0 0 10174
+S
+#10268
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10260
+D1
+~
+~
+0 0 10269
+D2
+~
+~
+0 0 10276
+D3
+~
+~
+0 0 10267
+D4
+~
+~
+0 0 10175
+S
+#10269
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10261
+D1
+~
+~
+0 0 10270
+D2
+~
+~
+0 0 10277
+D3
+~
+~
+0 0 10268
+D4
+~
+~
+0 0 10176
+S
+#10270
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10262
+D2
+~
+~
+0 0 10278
+D3
+~
+~
+0 0 10269
+D4
+~
+~
+0 0 10177
+S
+#10271
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10263
+D1
+~
+~
+0 0 10272
+D4
+~
+~
+0 0 10184
+S
+#10272
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10264
+D1
+~
+~
+0 0 10273
+D3
+~
+~
+0 0 10271
+D4
+~
+~
+0 0 10185
+S
+#10273
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10265
+D1
+~
+~
+0 0 10274
+D3
+~
+~
+0 0 10272
+D4
+~
+~
+0 0 10186
+S
+#10274
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10266
+D1
+~
+~
+0 0 10275
+D3
+~
+~
+0 0 10273
+D4
+~
+~
+0 0 10187
+S
+#10275
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10267
+D1
+~
+~
+0 0 10276
+D3
+~
+~
+0 0 10274
+D4
+~
+~
+0 0 10188
+S
+#10276
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10268
+D1
+~
+~
+0 0 10277
+D3
+~
+~
+0 0 10275
+D4
+~
+~
+0 0 10189
+S
+#10277
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10269
+D1
+~
+~
+0 0 10278
+D3
+~
+~
+0 0 10276
+D4
+~
+~
+0 0 10190
+S
+#10278
+Under Dark Waters~
+The abundant algae making these seas home blocks any vision past a few feet.
+The dark, warm water surrounds and comforts you.  If it wasn't for the fact
+that breathing water is a hardship, its almost quite comfortable here.
+Bubbles slowly float up from the ocean bottom, evidence of other creatures
+swimming in your vicinity.
+~
+0 1 8
+D0
+~
+~
+0 0 10270
+D3
+~
+~
+0 0 10277
+D4
+~
+~
+0 0 10191
+S
+#10299
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 10120 3 10185
+M 0 10120 3 10185
+M 0 10120 3 10185
+M 0 10119 3 10202
+M 0 10119 3 10202
+M 0 10119 3 10202
+M 0 10118 3 10146
+M 0 10118 3 10146
+M 0 10118 3 10146
+M 0 10117 2 10270
+M 0 10117 2 10270
+M 0 10116 2 10118
+M 0 10116 2 10118
+M 0 10115 3 10211
+M 0 10115 3 10211
+M 0 10115 3 10211
+M 0 10114 3 10264
+M 0 10114 3 10264
+M 0 10114 3 10264
+M 0 10113 3 10110
+M 0 10113 3 10110
+M 0 10113 3 10110
+M 0 10112 1 10256
+M 0 10111 3 10181
+M 0 10111 3 10181
+M 0 10111 3 10181
+M 0 10110 3 10139
+M 0 10110 3 10139
+M 0 10110 3 10139
+M 0 10109 3 10101
+M 0 10109 3 10101
+M 0 10109 3 10101
+M 0 10108 2 10229
+M 0 10108 2 10229
+M 0 10107 2 10198
+M 0 10107 2 10198
+M 0 10106 2 10166
+M 0 10106 2 10166
+M 0 10105 2 10157
+M 0 10105 2 10157
+M 0 10104 2 10109
+M 0 10104 2 10109
+M 0 10103 3 10272
+M 0 10103 3 10272
+M 0 10103 3 10272
+M 0 10102 3 10170
+M 0 10102 3 10170
+M 0 10102 3 10170
+M 0 10101 3 10104
+M 0 10101 3 10104
+M 0 10101 3 10104
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

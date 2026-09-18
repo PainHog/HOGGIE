@@ -1,0 +1,1254 @@
+#AREA   Thorny Thicket~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 30 0 65
+$
+
+#RESETMSG An eerie silence descends throughout the thicket...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1158172362
+
+#CLIMATE 3 3 1
+
+#MOBILES
+#2401
+snake brown~
+a brown snake~
+What you thought was a vine at first is a long brown snake!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular one crawls under the thicket, looking for prey.
+~
+97 32768 0 C
+22 0 -30 4d8+450 3d5+12
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#2402
+snake brown~
+a brown snake~
+What you thought was a vine at first is a long brown snake!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular one crawls under the thicket, looking for prey.
+~
+65 32768 0 C
+22 0 -30 4d8+450 3d5+12
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#2403
+snake brown~
+a brown snake~
+What you thought was a vine at first is a long brown snake!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular one crawls under the thicket, looking for prey.
+~
+65 32768 0 C
+22 0 -30 4d8+450 3d5+12
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#2404
+snake green tree vine~
+a green tree snake~
+A dangling vine strikes at you as you pass by!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular variety is hanging in the trees above you, looking
+like a green vine until closer inspection identifies it as a poisonous
+creature!
+~
+65 2129920 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2405
+snake green tree vine~
+a green tree snake~
+A dangling vine strikes at you as you pass by!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular variety is hanging in the trees above you, looking
+like a green vine until closer inspection identifies it as a poisonous
+creature!
+~
+65 2129920 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2406
+snake green tree vine~
+a green tree snake~
+A dangling vine strikes at you as you pass by!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This particular variety is hanging in the trees above you, looking
+like a green vine until closer inspection identifies it as a poisonous
+creature!
+~
+65 2129920 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2407
+snake rattler rattlesnake rattle~
+a rattlesnake~
+You hear the rattle of this coiled snake before you see it amongst small rocks.
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  An abrupt rattle draws your attention and you look down amongst the
+small rocks on the ground to see that a coiled rattlesnake is watching you
+closely.
+~
+65 32768 0 C
+28 0 -60 4d10+680 3d5+18
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 536870913 0
+#2408
+snake rattler rattlesnake rattle~
+a rattlesnake~
+You hear the rattle of this coiled snake before you see it amongst small rocks.
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  An abrupt rattle draws your attention and you look down amongst the
+small rocks on the ground to see that a coiled rattlesnake is watching you
+closely.
+~
+65 32768 0 C
+28 0 -60 4d10+680 3d5+18
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 536870913 0
+#2409
+snake rattler rattlesnake rattle~
+a rattlesnake~
+You hear the rattle of this coiled snake before you see it amongst small rocks.
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  An abrupt rattle draws your attention and you look down amongst the
+small rocks on the ground to see that a coiled rattlesnake is watching you
+closely.
+~
+97 32768 0 C
+28 0 -60 4d10+680 3d5+18
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 536870913 0
+#2410
+snake python branch~
+a python~
+Did that large branch just move?
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This one is about as thick around as your arm, and its length is
+easily the height of 2 tall ghouls.  It slowly crawls along the ground.
+~
+65 32768 0 C
+30 0 0 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 6 0 0 1 1 0
+0 0 1 0 0 0 193 0
+#2411
+snake python branch~
+a python~
+Did that large branch just move?
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This one is about as thick around as your arm, and its length is
+easily the height of 2 tall ghouls.  It slowly crawls along the ground.
+~
+65 32768 0 C
+30 0 0 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 6 0 0 1 1 0
+0 0 1 0 0 0 193 0
+#2412
+snake anaconda green~
+a giant anaconda~
+A huge green snake rises from the thicket and attacks!
+~
+Even worse than the vines is the realization that some of the vines are
+snakes.  This vicious beast rises from the thicket, and attempts to bite you
+with its huge fangs, and coil around you!
+~
+97 32768 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 4 0 0 1 1 0
+0 0 9 2097152 0 0 131457 1
+#2450
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2401
+fang anaconda snake~
+a large snake fang~
+A large snake fang lies in the dust.~
+~
+5 64 131073
+12 3 3 2
+1 0 0
+A
+2 2
+A
+18 5
+A
+30 33
+#2402
+venom jelly snake~
+a bit of snake venom jelly~
+A small amount of snake venom has congealed into a jelly.~
+~
+60 64 1048577
+45 3 3 18 -1 -1
+1 0 0
+'cure light' 'cure poison'
+#2403
+rattle snake rattlesnake~
+a rattlesnakes rattle~
+A small rattle from the tail of a rattlesnake.~
+~
+9 2 9
+2 2 0 0
+1 0 0
+A
+13 15
+A
+27 256
+#2450
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2401
+Through A Light Forest~
+A tiny path leads through a lightly forested area.  This now seems like less a
+path, and more of just a space with a little less growth then around you.  The
+game path lies back to the east.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 957
+D3
+~
+~
+0 0 2402
+S
+#2402
+Through A Light Forest~
+A tiny path leads through a lightly forested area.  This now seems like less a
+path, and more of just a space with a little less growth then around you.  The
+undergrowth seems to thicken towards the west.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 2401
+D3
+~
+~
+0 0 2403
+S
+#2403
+Through A Light Forest~
+A tiny path leads through a lightly forested area.  This now seems like less a
+path, and more of just a space with a little less growth then around you.  The
+undergrowth seems to thicken towards the west.
+~
+0 0 3
+D0
+~
+~
+0 0 2404
+D1
+Exit description~
+~
+0 0 2402
+S
+#2404
+Through A Light Forest~
+A tiny path leads through a lightly forested area.  This now seems like less a
+path, and more of just a space with a little less growth then around you.  The
+undergrowth seems to thicken towards the west.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 2403
+D3
+~
+~
+0 0 2405
+S
+#2405
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2413
+D1
+Exit description~
+~
+0 0 2404
+D2
+~
+~
+0 0 2406
+D3
+~
+~
+0 0 2410
+S
+#2406
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2405
+D3
+~
+~
+0 0 2407
+S
+#2407
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2410
+D1
+Exit description~
+~
+0 0 2406
+D2
+~
+~
+0 0 2434
+D3
+~
+~
+0 0 2408
+S
+#2408
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2409
+D1
+Exit description~
+~
+0 0 2407
+S
+#2409
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2412
+D1
+~
+~
+0 0 2410
+D2
+Exit description~
+~
+0 0 2408
+S
+#2410
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2411
+D1
+Exit description~
+~
+0 0 2405
+D2
+Exit description~
+~
+0 0 2407
+D3
+Exit description~
+~
+0 0 2409
+S
+#2411
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2414
+D1
+~
+~
+0 0 2413
+D2
+Exit description~
+~
+0 0 2410
+D3
+~
+~
+0 0 2412
+S
+#2412
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 2411
+D2
+Exit description~
+~
+0 0 2409
+S
+#2413
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 2405
+D3
+Exit description~
+~
+0 0 2411
+S
+#2414
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2422
+D1
+~
+~
+0 0 2421
+D2
+Exit description~
+~
+0 0 2411
+D3
+~
+~
+0 0 2415
+S
+#2415
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2416
+D1
+Exit description~
+~
+0 0 2414
+S
+#2416
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2417
+D1
+~
+~
+0 0 2422
+D2
+Exit description~
+~
+0 0 2415
+D3
+Exit description~
+~
+0 0 2423
+S
+#2417
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+~
+~
+0 0 2418
+D2
+Exit description~
+~
+0 0 2416
+S
+#2418
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+~
+~
+0 0 2419
+D2
+~
+~
+0 0 2422
+D3
+Exit description~
+~
+0 0 2417
+S
+#2419
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D2
+~
+~
+0 0 2420
+D3
+Exit description~
+~
+0 0 2418
+S
+#2420
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2419
+D2
+~
+~
+0 0 2421
+D3
+~
+~
+0 0 2422
+S
+#2421
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2420
+D3
+Exit description~
+~
+0 0 2414
+S
+#2422
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2418
+D1
+Exit description~
+~
+0 0 2420
+D2
+Exit description~
+~
+0 0 2414
+D3
+Exit description~
+~
+0 0 2416
+S
+#2423
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2424
+D1
+~
+~
+0 0 2416
+D2
+~
+~
+0 0 2430
+D3
+~
+~
+0 0 2426
+S
+#2424
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 2423
+D3
+~
+~
+0 0 2425
+S
+#2425
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 2424
+D2
+~
+~
+0 0 2426
+S
+#2426
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2425
+D1
+Exit description~
+~
+0 0 2423
+D2
+~
+~
+0 0 2427
+S
+#2427
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2426
+D1
+~
+~
+0 0 2430
+D2
+~
+~
+0 0 2428
+S
+#2428
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2427
+D1
+~
+~
+0 0 2429
+D2
+Exit description~
+~
+0 0 2431
+S
+#2429
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2430
+D3
+Exit description~
+~
+0 0 2428
+S
+#2430
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2423
+D2
+Exit description~
+~
+0 0 2429
+D3
+Exit description~
+~
+0 0 2427
+S
+#2431
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2428
+D3
+~
+~
+0 0 2432
+S
+#2432
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 2431
+D3
+~
+~
+0 0 2433
+S
+#2433
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.  A large pile of rocks almost hides an opening in
+the earth.
+~
+0 0 3
+D1
+~
+~
+0 0 2432
+D5
+~
+~
+65664 0 2451
+S
+#2434
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2407
+D1
+~
+~
+0 0 2443
+D2
+~
+~
+0 0 2445
+D3
+~
+~
+0 0 2435
+S
+#2435
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 2434
+D2
+~
+~
+0 0 2436
+S
+#2436
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2435
+D1
+~
+~
+0 0 2445
+D2
+~
+~
+0 0 2437
+S
+#2437
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2436
+D1
+~
+~
+0 0 2444
+D2
+~
+~
+0 0 2438
+S
+#2438
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2437
+D1
+~
+~
+0 0 2439
+S
+#2439
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2444
+D1
+~
+~
+0 0 2440
+D3
+Exit description~
+~
+0 0 2438
+S
+#2440
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2441
+D3
+Exit description~
+~
+0 0 2439
+S
+#2441
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2442
+D2
+Exit description~
+~
+0 0 2440
+D3
+~
+~
+0 0 2444
+S
+#2442
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2443
+D2
+Exit description~
+~
+0 0 2441
+D3
+~
+~
+0 0 2445
+S
+#2443
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 2442
+D3
+Exit description~
+~
+0 0 2434
+S
+#2444
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+~
+~
+0 0 2445
+D1
+Exit description~
+~
+0 0 2441
+D2
+~
+~
+0 0 2439
+D3
+Exit description~
+~
+0 0 2437
+S
+#2445
+In A Thorny Thicket~
+You push your way through a large thicket, the tough branches covered in sharp
+thorns.  Even the toughest armor has a few scratches after forcing your way
+past the vines.  The light forest stands around you, just enough scrawny trees
+to obscure your view a bit.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 2434
+D1
+~
+~
+0 0 2442
+D2
+Exit description~
+~
+0 0 2444
+D3
+Exit description~
+~
+0 0 2436
+S
+#2450
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 2412 1 2433
+E 0 2401 1 4
+M 0 2411 2 2419
+M 0 2411 2 2419
+M 0 2410 2 2429
+M 0 2410 2 2429
+M 0 2409 2 2433
+E 0 2403 1 15
+M 0 2409 2 2433
+M 0 2408 2 2442
+M 0 2408 2 2442
+E 0 2403 1 15
+M 0 2407 2 2409
+M 0 2407 2 2409
+M 0 2406 3 2438
+M 0 2406 3 2438
+G 0 2402 1
+M 0 2406 3 2438
+M 0 2405 3 2422
+M 0 2405 3 2422
+M 0 2405 3 2422
+M 0 2404 3 2425
+G 0 2402 1
+M 0 2404 3 2425
+M 0 2404 3 2425
+M 0 2403 3 2444
+M 0 2403 3 2444
+M 0 2403 3 2444
+G 0 2402 1
+M 0 2402 3 2410
+M 0 2402 3 2410
+M 0 2402 3 2410
+M 0 2401 3 2432
+M 0 2401 3 2432
+G 0 2402 1
+M 0 2401 3 2432
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

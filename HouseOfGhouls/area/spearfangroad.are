@@ -1,0 +1,975 @@
+#AREA   Spearfang Road~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 25 0 65
+$
+
+#RESETMSG The sounds of forest critters comes from all around you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 155332043
+
+#CLIMATE 3 2 2
+
+#MOBILES
+#10601
+wren small~
+a small wren~
+A small wren flits from branch to branch, singing a sweet song.
+~
+This little wren flits from branch to branch, stopping long enough to sing a
+little song before it heads off deeper into the trees.
+~
+16777281 524288 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809984 0 0 0 0 2
+#10602
+wren small~
+a small wren~
+A small wren flits from branch to branch, singing a sweet song.
+~
+This little wren flits from branch to branch, stopping long enough to sing a
+little song before it heads off deeper into the trees.
+~
+16777281 524288 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809984 0 0 0 0 2
+#10603
+wren small~
+a small wren~
+A small wren flits from branch to branch, singing a sweet song.
+~
+This little wren flits from branch to branch, stopping long enough to sing a
+little song before it heads off deeper into the trees.
+~
+16777281 524288 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809984 0 0 0 0 2
+#10604
+wolfen hunter~
+a wolfen hunter~
+A wolfen hunter stalks through the woods.
+~
+Sniffing and snarling at your approach, this looks annoyed to have you
+trampling over any game tracks that might of been left in the dust.  Try as he
+might, he can't help but bare his fangs at you.
+~
+16777281 4259840&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 6 0 0 8388608 8388608 0
+0 0 65563 0 0 0 3 524291
+#10605
+wolfen hunter~
+a wolfen hunter~
+A wolfen hunter stalks through the woods.
+~
+Sniffing and snarling at your approach, this looks annoyed to have you
+trampling over any game tracks that might of been left in the dust.  Try as he
+might, he can't help but bare his fangs at you.
+~
+16777281 4259840&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 6 0 0 8388608 8388608 0
+0 0 65563 0 0 0 3 524291
+#10606
+wolfen hunter~
+a wolfen hunter~
+A wolfen hunter stalks through the woods.
+~
+Sniffing and snarling at your approach, this looks annoyed to have you
+trampling over any game tracks that might of been left in the dust.  Try as he
+might, he can't help but bare his fangs at you.
+~
+16777281 4259840&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 6 0 0 8388608 8388608 0
+0 0 65563 0 0 0 3 524291
+#10607
+goblin traveller~
+a goblin traveller~
+A goblin with a heavy pack huffs and puffs his way along the track.
+~
+Heavily burdened under a huge backpack, this small goblin pants his way down
+the road.  He looks up long enough to register your presence, but puts his
+head back down and keeps on trudging along.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1227 0 0 0 48 2
+#10608
+goblin traveller~
+a goblin traveller~
+A goblin with a heavy pack huffs and puffs his way along the track.
+~
+Heavily burdened under a huge backpack, this small goblin pants his way down
+the road.  He looks up long enough to register your presence, but puts his
+head back down and keeps on trudging along.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1227 0 0 0 48 2
+#10650
+new mob~
+Dont Change This Mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10601
+goblin backpack~
+a goblin backpack~
+A strange backpack crafted from pine, and covered with tiny pouches.~
+~
+15 0 4097
+75 0 0 0
+10 50 0
+E
+goblin backpack~
+Different from many other backpacks, this is more of a pine frame, with many
+small pouches and bags nailed to the wood.  It is still quite useful for
+storing many objects.
+~
+#10602
+red silk ribbon~
+a red silk ribbon~
+A wren might of tried to use this ribbon to make a nest.~
+~
+8 0 3
+0 0 0 0
+1 25 0
+E
+red silk ribbon~
+Perhaps stolen from a pretty dress, or the head of a little girl, this ribbon
+has seen better days.  It appears to have been used to provide a bird with a
+home at some point.
+~
+#10603
+hunting spear~
+a hunting spear~
+A wicked spear with a sturdy crossbar to protect its wielder lies here.~
+~
+5 0 131073
+12 4 3 24
+1 0 0
+E
+hunting spear~
+A solid crossbar near the head of this spear marks it as specially made for
+hunting boar, or other large, vicious creatures.  The crossbar is supposed to
+keep the creatures from impaling themselves far enough down the shaft that
+they can attack the wielder.
+~
+#10650
+Object name~
+Dont Change This Object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#10601
+Spearfang Road~
+To the north sits the sturdy gates of Niralis.  Headed off to the south is a
+dirt track, that quickly enters the dark pines of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D0
+~
+~
+0 0 12183
+D2
+~
+~
+0 0 10602
+S
+#10602
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 10601
+D3
+~
+~
+0 0 10603
+S
+#10603
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10602
+D3
+~
+~
+0 0 10604
+S
+#10604
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10603
+D3
+~
+~
+0 0 10605
+S
+#10605
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10604
+D3
+~
+~
+0 0 10606
+S
+#10606
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10605
+D3
+~
+~
+0 0 10607
+S
+#10607
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10606
+D3
+~
+~
+0 0 10608
+S
+#10608
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10607
+D2
+~
+~
+0 0 10609
+S
+#10609
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 10608
+D3
+~
+~
+0 0 10610
+S
+#10610
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10609
+D2
+~
+~
+0 0 10611
+S
+#10611
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10610
+D3
+~
+~
+0 0 10612
+S
+#10612
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10611
+D2
+~
+~
+0 0 10613
+S
+#10613
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10612
+D2
+~
+~
+0 0 10614
+S
+#10614
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10613
+D2
+~
+~
+0 0 10615
+S
+#10615
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10614
+D2
+~
+~
+0 0 10616
+S
+#10616
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10615
+D3
+~
+~
+0 0 10617
+S
+#10617
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10616
+D2
+~
+~
+0 0 10618
+S
+#10618
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10617
+D2
+~
+~
+0 0 10619
+S
+#10619
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10618
+D2
+~
+~
+0 0 10620
+S
+#10620
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10619
+D2
+~
+~
+0 0 10621
+S
+#10621
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10620
+D3
+~
+~
+0 0 10622
+S
+#10622
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10621
+D2
+~
+~
+0 0 10623
+S
+#10623
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10622
+D2
+~
+~
+0 0 10624
+S
+#10624
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10623
+D2
+~
+~
+0 0 10625
+S
+#10625
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10624
+D2
+~
+~
+0 0 10626
+S
+#10626
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10625
+D2
+~
+~
+0 0 10627
+S
+#10627
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10626
+D2
+~
+~
+0 0 10628
+S
+#10628
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10627
+D1
+~
+~
+0 0 10629
+S
+#10629
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D2
+~
+~
+0 0 10630
+D3
+~
+~
+0 0 10628
+S
+#10630
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10629
+D2
+~
+~
+0 0 10631
+S
+#10631
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10630
+D2
+~
+~
+0 0 10632
+S
+#10632
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10631
+D2
+~
+~
+0 0 10633
+S
+#10633
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10632
+D3
+~
+~
+0 0 10634
+S
+#10634
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10633
+D2
+~
+~
+0 0 10635
+S
+#10635
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 10634
+D2
+~
+~
+0 0 10636
+S
+#10636
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 10635
+D3
+~
+~
+0 0 10637
+S
+#10637
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10636
+D2
+~
+~
+0 0 10638
+S
+#10638
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 10637
+D3
+~
+~
+0 0 10639
+S
+#10639
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10638
+D3
+~
+~
+0 0 10640
+S
+#10640
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 10639
+D2
+~
+~
+0 0 10641
+S
+#10641
+Spearfang Road~
+A narrow dirt track leads through the middle of the Spearfang Forest.  The
+sounds of forest critters can be heard off in the trees and scuttling through
+the undergrowth.  A warm breeze causes the tops of the pines to sway, creating
+an eerie windy moan.  To the south, the track joins a more established road.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 10640
+D2
+~
+~
+0 0 10686
+S
+#10650
+Dont Change This Room~
+You stumble into a newly created room.
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 10608 1 10640
+E 0 10601 1 15
+M 0 10607 1 10613
+E 0 10601 1 15
+M 0 10606 1 10639
+E 0 10603 1 21
+M 0 10605 2 10628
+E 0 10603 1 21
+M 0 10605 2 10628
+E 0 10603 1 21
+M 0 10604 1 10615
+E 0 10603 1 21
+M 0 10603 2 10637
+M 0 10603 2 10637
+G 0 10602 1
+M 0 10602 2 10623
+M 0 10602 2 10623
+G 0 10602 1
+M 0 10601 2 10607
+M 0 10601 2 10607
+G 0 10602 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

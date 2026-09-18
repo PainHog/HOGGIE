@@ -1,0 +1,1051 @@
+#AREA   Smokey Caves~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG You catch a whiff of sulfur and smoke in the air...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1969683613
+
+#CLIMATE 4 0 3
+
+#MOBILES
+#2351
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+4 0 60 2d5+60 1d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2352
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+4 0 60 2d5+60 1d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2353
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+4 0 60 2d5+60 1d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2354
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+4 0 60 2d5+60 1d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2355
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+4 0 60 2d5+60 1d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2356
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 0 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2357
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 0 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2358
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 0 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2359
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 0 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2360
+newt fire mother~
+a fire newt mother~
+A large fire newt sits amongst her eggs.
+~
+Sitting amongst a large cluster of orange eggs, the mother fire newt watches
+you closely.  Her tongue flickers in and out, small flames rising from her
+back as she prepares to protect her young.
+~
+16777283 0 0 C
+11 0 25 3d6+170 3d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65545 1 0 0 4096 0
+#2400
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2351
+egg fire newt~
+a fire newt egg~
+A large orange egg...it feels warm to the touch.~
+~
+26 1 1048577
+35 -1 -1 -1
+1 0 0
+'inner warmth' 'blazeward' 'cure critical'
+#2400
+Placeholder~
+Placeholder~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2351
+A Small Tunnel~
+This small tunnel appears to have been created with intense heat, as the rock
+looks melted instead of carved away.  It is smooth and has an almost glassy
+appearance.  Above you, the tunnel seems to enter a large cavern, but in the
+dark, it is difficult to tell.
+~
+0 513 13
+D4
+Exit description~
+~
+0 0 2068
+D5
+~
+~
+0 0 2352
+S
+#2352
+A Small Tunnel~
+This small tunnel appears to have been created with intense heat, as the rock
+looks melted instead of carved away.  It is smooth and has an almost glassy
+appearance.  Below you, the tunnel seems to get a little larger.
+~
+0 513 13
+D4
+Exit description~
+~
+0 0 2351
+D5
+~
+~
+0 0 2353
+S
+#2353
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+The tunnel heads off to the east, and a small opening above you looks
+climbable as well.
+~
+0 1 13
+D1
+~
+~
+0 0 2354
+D4
+Exit description~
+~
+0 0 2352
+S
+#2354
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2355
+D3
+Exit description~
+~
+0 0 2353
+S
+#2355
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2356
+D3
+Exit description~
+~
+0 0 2354
+S
+#2356
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2357
+D2
+Exit description~
+~
+0 0 2355
+S
+#2357
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2358
+D2
+Exit description~
+~
+0 0 2356
+S
+#2358
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2359
+D3
+Exit description~
+~
+0 0 2357
+S
+#2359
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D2
+~
+~
+0 0 2360
+D3
+Exit description~
+~
+0 0 2358
+S
+#2360
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2359
+D3
+~
+~
+0 0 2361
+S
+#2361
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 2360
+D2
+~
+~
+0 0 2362
+S
+#2362
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2361
+D2
+~
+~
+0 0 2363
+S
+#2363
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2362
+D1
+~
+~
+0 0 2364
+S
+#2364
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2365
+D3
+Exit description~
+~
+0 0 2363
+S
+#2365
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2366
+D3
+Exit description~
+~
+0 0 2364
+S
+#2366
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2367
+D3
+Exit description~
+~
+0 0 2365
+S
+#2367
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2368
+D1
+~
+~
+0 0 2382
+D2
+Exit description~
+~
+0 0 2366
+S
+#2368
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 2367
+D3
+~
+~
+0 0 2369
+S
+#2369
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2370
+D1
+Exit description~
+~
+0 0 2368
+S
+#2370
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2371
+D2
+Exit description~
+~
+0 0 2369
+S
+#2371
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 2370
+D3
+~
+~
+0 0 2372
+S
+#2372
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2373
+D1
+Exit description~
+~
+0 0 2371
+S
+#2373
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2374
+D2
+Exit description~
+~
+0 0 2372
+S
+#2374
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2375
+D3
+Exit description~
+~
+0 0 2373
+S
+#2375
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2376
+D3
+Exit description~
+~
+0 0 2374
+S
+#2376
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2377
+D3
+Exit description~
+~
+0 0 2375
+S
+#2377
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D2
+~
+~
+0 0 2378
+D3
+Exit description~
+~
+0 0 2376
+S
+#2378
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2377
+D2
+~
+~
+0 0 2379
+S
+#2379
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2378
+D3
+~
+~
+0 0 2380
+S
+#2380
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 2379
+D2
+~
+~
+0 0 2381
+S
+#2381
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2380
+D2
+~
+~
+0 0 2382
+S
+#2382
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2381
+D2
+~
+~
+0 0 2383
+D3
+~
+~
+0 0 2367
+S
+#2383
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2382
+D2
+~
+~
+0 0 2384
+S
+#2384
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2383
+D1
+~
+~
+0 0 2385
+S
+#2385
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2386
+D3
+Exit description~
+~
+0 0 2384
+S
+#2386
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2387
+D3
+Exit description~
+~
+0 0 2385
+S
+#2387
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2388
+D3
+Exit description~
+~
+0 0 2386
+S
+#2388
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2389
+D2
+Exit description~
+~
+0 0 2387
+S
+#2389
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 2388
+D3
+~
+~
+0 0 2390
+S
+#2390
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 2389
+D2
+~
+~
+0 0 2391
+S
+#2391
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 2390
+D3
+~
+~
+0 0 2392
+S
+#2392
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2393
+D1
+Exit description~
+~
+0 0 2391
+S
+#2393
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D0
+~
+~
+0 0 2394
+D2
+Exit description~
+~
+0 0 2392
+S
+#2394
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2395
+D2
+Exit description~
+~
+0 0 2393
+S
+#2395
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+~
+0 1 13
+D1
+~
+~
+0 0 2396
+D3
+Exit description~
+~
+0 0 2394
+S
+#2396
+A Warm Tunnel~
+You stand in a round tunnel, the walls about you smooth and glassy, as if
+something burned its way right through the rock of the underground.  The smell
+of smoke and sulfur is strong down here, and breathing is a little difficult.
+East of here, the small tunnel seems to get wider.
+~
+0 1 13
+D1
+~
+~
+0 0 2397
+D3
+Exit description~
+~
+0 0 2395
+S
+#2397
+A Warm Cavern~
+You enter a small cavern, wider than the tunnel itself, but not by a whole
+lot.  The smell of smoke and sulfur is very strong here.  Small depressions
+are formed into the rock floor, almost like a birds nest, but formed from
+melted stone.
+~
+0 1 13
+D3
+Exit description~
+~
+0 0 2396
+S
+#2400
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+O 0 2351 4 2397
+O 0 2351 4 2397
+O 0 2351 4 2397
+O 0 2351 4 2397
+M 0 2360 1 2397
+M 0 2359 3 2395
+M 0 2359 3 2395
+M 0 2359 3 2395
+M 0 2358 3 2382
+M 0 2358 3 2382
+M 0 2358 3 2382
+M 0 2357 3 2372
+M 0 2357 3 2372
+M 0 2357 3 2372
+M 0 2356 3 2361
+M 0 2356 3 2361
+M 0 2356 3 2361
+M 0 2355 3 2380
+M 0 2355 3 2380
+M 0 2355 3 2380
+M 0 2354 3 2394
+M 0 2354 3 2394
+M 0 2354 3 2394
+M 0 2353 3 2366
+M 0 2353 3 2366
+M 0 2353 3 2366
+M 0 2352 3 2360
+M 0 2352 3 2360
+M 0 2352 3 2360
+M 0 2351 3 2355
+M 0 2351 3 2355
+M 0 2351 3 2355
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

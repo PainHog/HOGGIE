@@ -1,0 +1,1585 @@
+#AREA   Unicorn Grove~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+5 20 0 65
+$
+
+#RESETMSG A slight breeze rustles the leaves above you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1016418246
+
+#CLIMATE 2 2 1
+
+#MOBILES
+#4001
+unicorn~
+the unicorn~
+A bright white unicorn stands majestically before you.
+~
+Just being in the presence of this majestic creature gives you a moments
+pause.  A feeling of peace washes over you, and for just one small minute,
+everything seems right in the world.
+~
+17039425 4202624&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 67108877 0 0 0 512 134
+> death_prog 5~
+emote looks at you with sad eyes and falls slowly to the ground...
+rinvoke artifact
+~
+|
+#4002
+bird blue~
+a small bluebird~
+A little blue bird chirps at you from the branches.
+~
+You hear a chirping up in the branches of a tree.  Looking up, you spy a small
+bird, with brilliant blue feathers.  It hops about and watches you closely.
+~
+16777281 532480 1000 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 536903681 0 0 0 0 0
+#4003
+bird blue~
+a small bluebird~
+A little blue bird chirps at you from the branches.
+~
+You hear a chirping up in the branches of a tree.  Looking up, you spy a small
+bird, with brilliant blue feathers.  It hops about and watches you closely.
+~
+16777281 532480 1000 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 536903681 0 0 0 0 0
+#4004
+bird blue~
+a small bluebird~
+A little blue bird chirps at you from the branches.
+~
+You hear a chirping up in the branches of a tree.  Looking up, you spy a small
+bird, with brilliant blue feathers.  It hops about and watches you closely.
+~
+16777281 532480 1000 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 536903681 0 0 0 0 0
+#4005
+bird blue~
+a small bluebird~
+A little blue bird chirps at you from the branches.
+~
+You hear a chirping up in the branches of a tree.  Looking up, you spy a small
+bird, with brilliant blue feathers.  It hops about and watches you closely.
+~
+16777281 532480 1000 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 536903681 0 0 0 0 0
+#4006
+doe deer~
+a doe~
+A pale brown doe chews on the green grass.
+~
+A pretty female deer calmly grazes on the green grass of the grove.  She looks
+at you with big brown eyes, and hopes you aren't going to be a problem.
+~
+16777281 8192 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 33554445 0 0 0 0 0
+#4007
+doe deer~
+a doe~
+A pale brown doe chews on the green grass.
+~
+A pretty female deer calmly grazes on the green grass of the grove.  She looks
+at you with big brown eyes, and hopes you aren't going to be a problem.
+~
+16777281 8192 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 33554437 0 0 0 0 0
+#4008
+doe deer~
+a doe~
+A pale brown doe chews on the green grass.
+~
+A pretty female deer calmly grazes on the green grass of the grove.  She looks
+at you with big brown eyes, and hopes you aren't going to be a problem.
+~
+16777281 8192 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 33554437 0 0 0 0 0
+#4009
+deer~
+a deer~
+A male deer rubs his antlers up against a tree.
+~
+This deer is rubbing his newly grown antlers up against a tree, trying to mark
+a bit of territory.  Someday he may be able to challenge the stag of the herd
+for dominance, but for now, he is content to wander the grove.
+~
+16777281 8192 1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 100663297 0 0 0 128 0
+#4010
+deer~
+a deer~
+A male deer rubs his antlers up against a tree.
+~
+This deer is rubbing his newly grown antlers up against a tree, trying to mark
+a bit of territory.  Someday he may be able to challenge the stag of the herd
+for dominance, but for now, he is content to wander the grove.
+~
+16777281 8192 1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 100663297 0 0 0 128 0
+#4011
+deer~
+a deer~
+A male deer rubs his antlers up against a tree.
+~
+This deer is rubbing his newly grown antlers up against a tree, trying to mark
+a bit of territory.  Someday he may be able to challenge the stag of the herd
+for dominance, but for now, he is content to wander the grove.
+~
+16777281 8192 1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 100663297 0 0 0 128 0
+#4012
+stag deer large~
+the stag~
+This large male deer watches you closely from the trees.
+~
+This must be the leader of the herd, for this stag is quite large.  He has to
+be careful not to get his large rack of antlers stuck in the lower branches of
+the trees.  He watches you closely, ready to protect the herd if it comes to
+that.
+~
+65 8192 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 33554441 0 0 0 256 0
+#4013
+squirrel~
+a red squirrel~
+A small red squirrel jumps away from you and scampers up a tree.
+~
+The red blur you just saw stops for a moment, and you realize that it is a
+small squirrel.  It runs up the side of a tree, and then stops to look back at
+you and chatter noisily.
+~
+16777409 40960 1000 C
+7 0 45 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 2 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#4014
+squirrel~
+a red squirrel~
+A small red squirrel jumps away from you and scampers up a tree.
+~
+The red blur you just saw stops for a moment, and you realize that it is a
+small squirrel.  It runs up the side of a tree, and then stops to look back at
+you and chatter noisily.
+~
+16777409 40960 1000 C
+7 0 45 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 2 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#4015
+squirrel~
+a red squirrel~
+A small red squirrel jumps away from you and scampers up a tree.
+~
+The red blur you just saw stops for a moment, and you realize that it is a
+small squirrel.  It runs up the side of a tree, and then stops to look back at
+you and chatter noisily.
+~
+16777409 40960 1000 C
+7 0 45 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 2 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#4016
+dragon gold~
+the gold dragon~
+A beautiful golden dragon flashes a toothy grin as you enter the cave.
+~
+This enormous beast slowly raises her head, and gives what appears to be the
+dragon version of a grin.  It would seem friendly, if it wasn't for the
+sword-length teeth and fumes of vapour slowing emitting from her throat.
+~
+16778307 4202624&320 1000 C
+65 0 -250 10d50+4000 5d5+50
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 2049 1 0
+0 0 1245193 3145728 0 0 131076 524288
+> death_prog 5~
+roar
+say You're lack of Love is horrifying!  Go then, claim my treasure, but I shall return....!
+rinvoke artifact
+
+~
+|
+#4100
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4001
+horn unicorn~
+the horn of a unicorn~
+A long, sharp horn, glowing with a bright light.~
+~
+8 3137&2 1048577
+0 0 0 0
+1 500 0
+A
+4 2
+A
+3 2
+A
+13 25
+#4002
+dragon love light~
+the Love of the Dragon~
+A softly glowing ball of light floats on the breeze.~
+~
+1 65&2 1
+0 0 -1 0
+1 1000 0
+A
+2 3
+A
+13 35
+A
+1 3
+A
+27 8
+#4003
+spring forest~
+the forest spring~
+A small spring bubbles amongst the trees.~
+~
+25 0 0
+0 1 0 0
+1 0 0
+#4004
+acorn bundle~
+a bundle of acorns~
+A small bundle of acorns must of been placed here by the squirrels.~
+~
+19 0 1
+15 0 0 0
+1 50 0
+#4005
+pelt stag~
+the pelt of the stag~
+A crude tunic cut from thick deerskin sits here.~
+~
+9 0 2049
+6 6 0 0
+3 250 0
+A
+18 2
+A
+5 2
+#4100
+Placeholder~
+Placeholder~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4001
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  South of here is the main road through the plains.
+~
+0 0 2
+D0
+~
+~
+0 0 4002
+D2
+~
+~
+0 0 740
+S
+#4002
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4003
+D2
+Exit description~
+~
+0 0 4001
+S
+#4003
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D1
+~
+~
+0 0 4004
+D2
+Exit description~
+~
+0 0 4002
+S
+#4004
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4005
+D3
+~
+~
+0 0 4003
+S
+#4005
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4006
+D2
+Exit description~
+~
+0 0 4004
+S
+#4006
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4007
+D2
+Exit description~
+~
+0 0 4005
+S
+#4007
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4008
+D2
+Exit description~
+~
+0 0 4006
+S
+#4008
+A Path To The Grove~
+This small dirt path leads north to small grove of sweet-smelling pine trees.
+The sound of birds fills the air, and there is a feeling of happiness in the
+air.  You sight the motion of small creatures moving about through the
+branches of the grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4009
+D2
+Exit description~
+~
+0 0 4007
+S
+#4009
+A Path To The Grove~
+The dirt path twists and turns through the pines of a small grove.  Small
+birds fly around, unconcerned with your intrusion upon their territory.  A
+feeling of peace seems to overtake you.
+~
+0 0 3
+D2
+~
+~
+16777216 0 4008
+D3
+~
+~
+0 0 4010
+S
+#4010
+A Path To The Grove~
+The dirt path twists and turns through the pines of a small grove.  Small
+birds fly around, unconcerned with your intrusion upon their territory.  A
+feeling of peace seems to overtake you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4009
+D3
+~
+~
+0 0 4011
+S
+#4011
+A Path To The Grove~
+The dirt path twists and turns through the pines of a small grove.  Small
+birds fly around, unconcerned with your intrusion upon their territory.  A
+feeling of peace seems to overtake you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4010
+D3
+~
+~
+0 0 4012
+S
+#4012
+A Path To The Grove~
+The dirt path twists and turns through the pines of a small grove.  Small
+birds fly around, unconcerned with your intrusion upon their territory.  A
+feeling of peace seems to overtake you.
+~
+0 0 3
+D0
+~
+~
+0 0 4013
+D1
+Exit description~
+~
+0 0 4011
+S
+#4013
+A Path To The Grove~
+The dirt path twists and turns through the pines of a small grove.  Small
+birds fly around, unconcerned with your intrusion upon their territory.  A
+feeling of peace seems to overtake you.
+~
+0 0 3
+D0
+~
+~
+0 0 4014
+D2
+Exit description~
+~
+0 0 4012
+S
+#4014
+In The Pine Grove~
+The path ends here, placing you amongst the pine trees of the grove.  Despite
+the many branches entwined above you, light still flows down, giving the whole
+area a safe feeling.  Various woodland creatures walk about, ignoring your
+presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4053
+D1
+~
+~
+0 0 4015
+D2
+Exit description~
+~
+0 0 4013
+D3
+Exit description~
+~
+0 0 4037
+S
+#4015
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4052
+D1
+~
+~
+0 0 4016
+D3
+Exit description~
+~
+0 0 4014
+S
+#4016
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4017
+D3
+Exit description~
+~
+0 0 4015
+S
+#4017
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4050
+D1
+~
+~
+0 0 4018
+D2
+Exit description~
+~
+0 0 4016
+D3
+Exit description~
+~
+0 0 4052
+S
+#4018
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4051
+D1
+~
+~
+0 0 4019
+D3
+Exit description~
+~
+0 0 4017
+S
+#4019
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4020
+D3
+Exit description~
+~
+0 0 4018
+S
+#4020
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4021
+D2
+Exit description~
+~
+0 0 4019
+D3
+Exit description~
+~
+0 0 4051
+S
+#4021
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4020
+D3
+~
+~
+0 0 4022
+S
+#4022
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4021
+D2
+Exit description~
+~
+0 0 4051
+D3
+~
+~
+0 0 4023
+S
+#4023
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4024
+D1
+Exit description~
+~
+0 0 4022
+D2
+Exit description~
+~
+0 0 4050
+D3
+Exit description~
+~
+0 0 4042
+S
+#4024
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4023
+D3
+~
+~
+0 0 4025
+S
+#4025
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4024
+D2
+Exit description~
+~
+0 0 4042
+D3
+~
+~
+0 0 4026
+S
+#4026
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.  The trees seem to thin out a bit to the north.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4038
+D1
+Exit description~
+~
+0 0 4025
+D2
+Exit description~
+~
+0 0 4043
+D3
+~
+~
+0 0 4027
+S
+#4027
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4026
+D2
+Exit description~
+~
+0 0 4044
+D3
+~
+~
+0 0 4028
+S
+#4028
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4027
+D2
+~
+~
+0 0 4029
+S
+#4029
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4028
+D1
+Exit description~
+~
+0 0 4044
+D2
+Exit description~
+~
+0 0 4046
+D3
+~
+~
+0 0 4030
+S
+#4030
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4029
+D2
+Exit description~
+~
+0 0 4047
+D3
+~
+~
+0 0 4031
+S
+#4031
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4030
+D2
+~
+~
+0 0 4032
+S
+#4032
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4031
+D1
+Exit description~
+~
+0 0 4047
+D2
+~
+~
+0 0 4033
+S
+#4033
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4032
+D1
+~
+~
+0 0 4034
+S
+#4034
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4047
+D1
+~
+~
+0 0 4035
+D3
+Exit description~
+~
+0 0 4033
+S
+#4035
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4046
+D1
+Exit description~
+~
+0 0 4054
+D2
+~
+~
+0 0 4036
+D3
+Exit description~
+~
+0 0 4034
+S
+#4036
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4035
+D1
+~
+~
+0 0 4037
+S
+#4037
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4054
+D1
+~
+~
+0 0 4014
+D3
+Exit description~
+~
+0 0 4036
+S
+#4038
+A Gap In The Trees~
+For some reason, the trees here have not grown as closely together as in the
+rest of the grove.  Through the gap north of the grove, you spy the entrance
+of a large cave.  The area is quite clean of the usual forest debris, as if
+someone was deliberately keeping this area nice and neat.
+~
+0 0 3
+D0
+~
+~
+0 0 4039
+D2
+~
+~
+0 0 4026
+S
+#4039
+The Cave Entrance~
+You stand before the entrance to the large cave.  You sight the tracks of what
+appears to be deer heading in and out of the cave.  Perhaps this is some sort
+of den.
+~
+0 0 3
+D1
+~
+~
+0 0 4040
+D2
+Exit description~
+~
+0 0 4038
+S
+#4040
+A Huge Cavern~
+The tracks lead deeper into the cave, which you now realize is quite a bit
+larger than you thought.  Although dark, the temperature is quite comfortable,
+and the ground is nice and clean.
+~
+0 0 3
+D1
+~
+~
+0 0 4041
+D3
+Exit description~
+~
+0 0 4039
+S
+#4041
+A Huge Cavern~
+You reach the back of the huge cavern.  Looking about, you notice markings
+that could only be left be sleeping creatures.  You guess that the deer of the
+grove occasionally use the cave as shelter.
+~
+0 0 3
+D3
+Exit description~
+~
+0 0 4040
+S
+#4042
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4025
+D1
+~
+~
+0 0 4023
+D2
+~
+~
+0 0 4049
+D3
+~
+~
+0 0 4043
+S
+#4043
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4026
+D1
+Exit description~
+~
+0 0 4042
+D2
+~
+~
+0 0 4048
+D3
+~
+~
+0 0 4044
+S
+#4044
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4027
+D1
+Exit description~
+~
+0 0 4043
+D2
+~
+~
+0 0 4045
+D3
+~
+~
+0 0 4029
+S
+#4045
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4044
+D1
+~
+~
+0 0 4048
+D2
+~
+~
+0 0 4054
+D3
+~
+~
+0 0 4046
+S
+#4046
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4029
+D1
+Exit description~
+~
+0 0 4045
+D2
+~
+~
+0 0 4035
+D3
+~
+~
+0 0 4047
+S
+#4047
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4030
+D1
+Exit description~
+~
+0 0 4046
+D2
+~
+~
+0 0 4034
+D3
+~
+~
+0 0 4032
+S
+#4048
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4043
+D1
+~
+~
+0 0 4049
+D2
+~
+~
+0 0 4053
+D3
+Exit description~
+~
+0 0 4045
+S
+#4049
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4042
+D1
+~
+~
+0 0 4050
+D2
+~
+~
+0 0 4052
+D3
+Exit description~
+~
+0 0 4048
+S
+#4050
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4023
+D1
+~
+~
+0 0 4051
+D2
+~
+~
+0 0 4017
+D3
+Exit description~
+~
+0 0 4049
+S
+#4051
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+~
+~
+0 0 4022
+D1
+~
+~
+0 0 4020
+D2
+~
+~
+0 0 4018
+D3
+Exit description~
+~
+0 0 4050
+S
+#4052
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4049
+D1
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4015
+D3
+~
+~
+0 0 4053
+S
+#4053
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4048
+D1
+Exit description~
+~
+0 0 4052
+D2
+~
+~
+0 0 4014
+D3
+~
+~
+0 0 4054
+S
+#4054
+In The Pine Grove~
+You wander amongst the pine trees of the grove.  Although the growth is thick,
+there is enough room to comfortable walk among the sweet-smelling trees.
+Despite the many branches entwined above you, light still flows down, giving
+the whole area a safe feeling.  Various woodland creatures walk about,
+ignoring your presence.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4045
+D1
+Exit description~
+~
+0 0 4053
+D2
+~
+~
+0 0 4037
+D3
+~
+~
+0 0 4035
+S
+#4100
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 4015 3 4013
+M 0 4015 3 4013
+M 0 4015 3 4013
+M 0 4014 3 4022
+M 0 4014 3 4022
+M 0 4014 3 4022
+M 0 4013 3 4030
+M 0 4013 3 4030
+M 0 4013 3 4030
+M 0 4012 1 4048
+E 0 4005 1 7
+M 0 4011 2 4043
+M 0 4011 2 4043
+M 0 4010 2 4019
+M 0 4010 2 4019
+M 0 4009 2 4031
+M 0 4009 2 4031
+M 0 4008 2 4053
+M 0 4008 2 4053
+M 0 4007 2 4020
+M 0 4007 2 4020
+M 0 4006 2 4032
+M 0 4006 2 4032
+M 0 4005 2 4051
+M 0 4005 2 4051
+M 0 4004 2 4047
+M 0 4004 2 4047
+M 0 4003 2 4014
+M 0 4003 2 4014
+M 0 4002 2 4011
+M 0 4002 2 4011
+M 0 4001 1 4043
+E 0 4001 1 1
+M 0 4016 1 4041
+E 0 4002 10 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4001 spec_cast_druid
+M  4016 spec_breath_gas
+S
+
+
+#$

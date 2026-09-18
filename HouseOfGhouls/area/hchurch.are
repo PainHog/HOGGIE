@@ -1,0 +1,8589 @@
+#AREA   Haunted Church~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 1 65
+$
+
+#RESETMSG The hum of protective magic grows louder for a second...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 325798889
+
+#CLIMATE 1 3 1
+
+#MOBILES
+#15000
+black crow~
+a black crow~
+A large black crow lands nearby and squawks at you!
+~
+A large black crow hops around and stares at you.  Perhaps it wants something
+shiny?
+~
+16777285 524328 0 C
+10 0 5 3d6+155 2d5+5
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809985 0 0 0 512 0
+#15001
+large rat~
+a large rat~
+A large ugly rat sniffs at you as you approach.
+~
+This rat is enormous!  I'd be careful if I were you...
+~
+16777281 32768 0 C
+10 0 5 3d6+155 2d5+5
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 262145 256 0 0 3 0
+#15002
+male ghost~
+a ghost~
+A ghost floats about here restlessly.
+~
+This ghost floats about, with no real goal in mind.  Perhaps you should try to
+free him from this world.
+~
+16777281&8 3145728 0 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 0 0 1048576 4096 0
+#15003
+female ghost~
+a ghost~
+A ghost floats about here restlessly.
+~
+This ghost floats about, with no real goal in mind.  Perhaps you should try to
+free her from this world.
+~
+16777281&8 3145728 0 C
+15 0 -20 3d5+250 3d5+5
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 1 0
+0 0 0 0 0 1048576 4096 0
+#15004
+priest ghost~
+the ghost of the priest~
+This ghost looks like he was once the priest here.
+~
+This ghost is dressed in old tattered priest robes.  It must of been the
+caretaker of this church back in the day.
+~
+16777283&8 8360 1000 C
+20 0 -70 4d8+380 3d5+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 1 0 0 4096 4096 0
+0 0 0 0 0 0 33554432 8
+#15005
+angry spirit~
+an angry spirit~
+A spirit materializes in front of you and attacks!
+~
+This ghost looks very frightening!  Perhaps you should not have provoked it...
+~
+97 40 -1000 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 4096 4096 0
+0 0 0 0 0 0 33554432 0
+#15006
+starved ghoul malnourished~
+a starved ghoul~
+A very malnourished ghoul jumps at you!
+~
+This ghoul has gone for so long without food, that it is insane.  It jumps at
+you, smelling fresh meat!
+~
+97 4194304&256 0 C
+25 0 -56 4d10+540 3d5+15
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 65536 65536 0
+0 0 7 256 0 0 515 0
+#15007
+ghoul adventurer~
+the ghoul adventurer~
+A well-equipped ghoul watches you closely.
+~
+This ghoul must be heading somewhere on the surface.  He is well-equipped to
+face many dangers.
+~
+16777281 6324392 1000 C
+40 0 -150 4d30+1255 3d5+30
+2500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 2 0 0 65537 65536 0
+0 0 2047 256 0 0 33554947 2621441
+#15008
+shuffling zombie~
+a shuffling zombie~
+A zombie shuffles down the hallway with a dead look in its eye.
+~
+This zombie ignores you as it eternally makes the rounds of the catacombs.
+~
+16777281&8 0 0 C
+20 0 -45 4d8+380 3d5+10
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 8192 8192 0
+0 0 3 2098176 0 1 16 0
+#15009
+skeleton priest~
+the skeletal priest~
+A skeleton of one of the old priests tends to the dead.
+~
+This old priest has seen better days.  It is his curse to eternally walk these
+hallways and take care of the dead.
+~
+69&8 168 0 C
+30 0 -95 4d15+760 3d5+20
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 4096 4096 0
+0 0 0 354 0 17 33554448 4
+#15010
+guardian mummy warrior embalmed~
+a guardian mummy~
+An embalmed warrior stands at attention.
+~
+A large armored mummy stands before you.  He must of been placed here to
+protect the tombs of the royalty.
+~
+32835 4194344 0 C
+35 0 -120 4d20+975 3d5+25
+200 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 8192 8192 0
+0 0 5 8194 4 1 33555024 2621440
+#15011
+ghoul knight~
+a ghoul knight~
+This ghoul protects the door to the Kingdom.
+~
+A strong and vicious looking ghoul, this armored creature has been charged
+with protecting the Kingdom from any intruders.  Careful dealing with him.
+~
+32835 268435624 1000 C
+40 0 -150 4d30+1255 3d5+30
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 65536 65536 0
+0 0 2047 256 0 0 67 2621441
+#15012
+ghoul child~
+a ghoul child~
+This young ghoul stops its chores to watch you.
+~
+This young ghoul has many errands to do today.  It stops and stares at you
+with wonder, not sure how you got down here, or why you are here.
+~
+16777285 32768 1000 C
+30 0 -95 4d15+760 3d5+20
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 65536 65536 0
+0 0 15 256 0 0 3 0
+#15013
+male ghoul~
+a male ghoul~
+This ghoul is out doing whatever ghouls do.
+~
+This ghoul stares back at you, wondering why you would come down so far under
+the surface.
+~
+16777285 32808 1000 C
+35 0 -120 4d20+975 3d5+25
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 65536 65536 0
+0 0 15 256 0 0 515 0
+#15014
+female ghoul~
+a female ghoul~
+This ghoul stops working to look up at you.
+~
+This ghoul was working hard before you walked in.  She stares at you with a
+bit of supervise in her eyes...she hasn't seen many adventurer's venture this
+far.
+~
+16777285 32808 1000 C
+35 0 -118 4d20+975 3d5+25
+200 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 65536 65536 0
+0 0 15 256 0 0 67 0
+#15015
+ghoul priestess~
+a ghoul priestess~
+A ghoul priestess glares at you for your intrusion.
+~
+This ghoul looks young.  She is dressed in the robes of a priestess, which
+means she wields some fairly strong powers.  Not many who cross her live to
+tell the tale.
+~
+32833 71303296&256 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 1 0 0 65536 65536 0
+0 0 2047 256 0 0 579 18
+#15016
+ghoul mage~
+a ghoul mage~
+This ghoul glances up from his book to look at you.
+~
+A young male ghoul, this one wears the robes of a magical order.  He has his
+nose deep into a copy of the Book of Knowledge, which all ghoul mages must
+learn.
+~
+32833 37748864&256 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 65536 65536 0
+0 0 2047 256 0 0 268435523 2
+#15017
+ghoul priestess high~
+the High Priestess~
+The High Priestess seems disturbed by your arrival.
+~
+The High Priestess of the Ghouls stares at you with an upset look in her eye.
+Perhaps she is planning on how to feed you to the Old Ones for your
+indiscretions.
+~
+1049667 71303296&256 1000 C
+50 0 -212 4d50+1805 3d5+40
+1000 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 13 0 0 65536 65536 0
+0 0 2047 2097408 0 0 167772739 6
+> death_prog 5~
+say The curse of the Elder Gods on you mortal!
+scream
+
+~
+|
+#15018
+ghoul mage master~
+the Master Mage~
+The Master Mage frowns at your entrance.
+~
+The Master Mage of the Ghouls is the holder of the true Book of Knowledge.
+Great power comes from the book, and this ghoul must be very strong to lay
+claim to it.
+~
+1049667 37748864&256 1000 C
+50 0 -212 4d50+1805 3d5+40
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 15 0 0 65536 65536 0
+0 0 2047 2097408 0 0 270536771 16450
+> death_prog 5~
+emote looks amazed as his powerful magic fails him for the last time...
+gasp
+~
+|
+#15019
+night gaunt nightgaunt bat creature~
+the nightgaunt~
+A large, black, bat-winged creature stalks about.
+~
+Shocking and uncouth black beings with smooth, oily, whale-like surfaces,
+unpleasant horns that curved inward toward each other, bat-wings whose beating
+made no sound, ugly prehensile paws, and barbed tails that lashed needlessly
+and disquietingly. And worst of all, they never spoke or laughed, and never
+smiled because they had no faces at all to smile with, but only a suggestive
+blankness where a face ought to be. All they ever did was clutch and fly and
+tickle; that was the way of night-gaunts.  -- H.P. Lovecraft "The Dream-Quest
+of Unknown Kadath"
+~
+17039425 4751360&256 0 C
+45 0 -181 4d40+1515 3d5+35
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 269582361 3145731 0 0 519 0
+#15020
+Azathoth daemon~
+the daemon-sultan Azathoth~
+A huge, horrifying darkness arises before you!
+~
+...that last amorphous blight of nethermost confusion which blasphemes and
+bubbles at the centre of all infinity -- the boundless daemon-sultan Azathoth,
+whose name no lips dare speak aloud, and who gnaws hungrily in inconceivable,
+unlighted chambers beyond time amidst the muffled, maddening beating of vile
+drums and the thin, monotonous whine of accursed flutes; to which detestable
+pounding and piping dance slowly, awkwardly, and absurdly the gigantic
+ultimate gods, the blind, voiceless, tenebrous, mindless Other Gods whose soul
+and messenger is the crawling chaos Nyarlathotep. -- H.P. Lovecraft  "The
+Dream-Quest of Unknown Kadath"
+~
+4194403 373819520&320 -1000 C
+65 0 -300 10d50+4000 5d5+50
+5000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+15 15 8402952 2104735 512 0 33556297 2621511
+> death_prog 25~
+roar
+emote takes a few staggering steps to the edge of the pentagram...
+say You may of won this time, but I advise you to leave, for I shall return soon!
+rinvoke artifact
+rinvoke artifact
+
+~
+|
+#15021
+dagon monster fish~
+Dagon~
+A huge fish-like monster roars at you!
+~
+Vast, Polyphemus-like, and loathsome, it darted like a stupendous monster of
+nightmares to the monolith, about which it flung its gigantic scaly arms, the
+while it bowed its hideous head and gave vent to certain measured sounds....
+Once I sought out a celebrated ethnologist, and amused him with peculiar
+questions regarding the ancient Philistine legend of Dagon, the Fish-God; but
+soon perceiving that he was hopelessly conventional, I did not press my
+inquiries. -- H.P. Lovecraft  "Dagon"
+~
+20971619 -2143287168&320 -1000 C
+65 0 -300 10d50+2500 5d5+45
+4500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 65536 65536 0
+10 10 16415 2097154 512 0 135266608 2621443
+> death_prog 5~
+emote falls to the ground, shiny scales now battered and bloody...
+rinvoke artifact
+~
+|
+#15022
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194401 6293504&256 -1000 C
+55 0 -220 6d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 2097152 0 4 3 2
+#15023
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194405 -2143287296&256 -1000 C
+55 0 -220 6d5+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 2097152 0 1 130 524288
+#15024
+Nyarlathotep black man~
+Nyarlathotep~
+A sinister, black man stands near the strange equipment.
+~
+And it was then that Nyarlathotep came out of Egypt. Who he was, none could
+tell, but he was of the old native blood and looked like a Pharaoh. The
+fellahin knelt when they saw him, yet could not say why. He said he had risen
+up out of the blackness of twenty-seven centuries, and that he had heard
+messages from places not on this planet. Into the lands of civilization came
+Nyarlathotep, swarthy, slender, and sinister, always buying strange
+instruments of glass and metal and combining them into instruments yet
+stranger. He spoke much of the sciences -- of electricity and psychology --
+and gave exhibitions of power which sent his spectators away speechless, yet
+which swelled his fame to exceeding magnitude. Men advised one another to see
+Nyarlathotep, and shuddered. And where Nyarlathotep went, rest vanished; for
+the small hours were rent with the screams of a nightmare. -- H.P. Lovecraft
+"Nyarlathotep"
+~
+4227107 71305344&320 -1000 C
+65 0 -300 10d50+2500 5d5+45
+3500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 65536 65536 0
+10 10 31 2105344 512 0 268435760 524291
+> death_prog 5~
+snarl
+say You may have beat me now...but this is just the beginning for you!
+cackle
+rinvoke artifact
+~
+|
+#15025
+monster giant shoggoth~
+the shoggoth~
+This giant monster fills nearly the entire cavern!
+~
+We were on the track ahead as the nightmare plastic column of foetid black
+iridescence oozed tightly onward through its fifteen-foot sinus; gathering
+unholy speed and driving before it a spiral, re-thickening cloud of the pallid
+abyss-vapour. It was a terrible, indescribable thing vaster than any subway
+train -- a shapeless congeries of protoplasmic bubbles, faintly self-luminous,
+and with myriads of temporary eyes forming and unforming as pustules of
+greenish light all over the tunnel-filling front that bore down upon us,
+crushing the frantic penguins and slithering over the glistening floor that it
+and its kind had swept so evilly free of all litter. -- H.P. Lovecraft
+"At the Mountains of Madness"
+~
+4194403 1073744001&64 -1000 C
+65 0 -275 10d50+3500 5d5+50
+2500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 1048616 2097172 512 0 3180544 2
+> fight_prog 10~
+emote shakes the room  as another huge bubble of slime grows onto it!
+mpecho You couldn't imagine it possible but this thing just grew larger!
+mprestore shoggoth 1500
+~
+> death_prog 5~
+emote falls to the ground with an earth-shaking crash!
+rinvoke artifact
+~
+|
+#15026
+Shub-Niggurath woman monster female~
+Shub-Niggurath~
+A hideous female growls at your entrance...
+~
+One squat, black temple of Tsathoggua was encountered, but it had been turned
+into a shrine of Shub-Niggurath, the All-Mother and wife of the the
+Not-to-Be-Named-One. This deity was a kind of sophisticated Astarte, and her
+worship struck the pious Catholic as supremely obnoxious. -- H.P. Lovecraft
+"The Mound"
+~
+4194403 37750912&320 -1000 C
+65 0 -300 10d50+2500 5d5+45
+2500 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 65536 65536 0
+0 0 31 2097155 512 0 33554466 2621443
+> death_prog 5~
+cackle
+say My Children shall avenge me!
+mpmload 15022
+mpmload 15022
+rinvoke artifact
+~
+|
+#15027
+Tsathoggua toad beast~
+Tsathoggua~
+A croaking toad-like beast hops towards you!
+~
+They've been inside the earth, too -- there are openings which human beings
+know nothing of -- some of them are in these very Vermont hills -- and great
+worlds of unknown life down there; blue-litten K’n-yan, red-litten Yoth, and
+black, lightless N’kai. It’s from N’kai that frightful Tsathoggua came -- you
+know, the amorphous, toad-like god-creature mentioned in the Pnakotic
+Manuscripts and the Necronomicon and the Commoriom myth-cycle preserved by the
+Atlantean high-priest Klarkash-Ton. -- H.P. Lovecraft  "The Whisperer in
+Darkness"
+~
+4194403 272631936&320 -1000 C
+65 0 -300 10d50+2500 5d5+45
+2500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 1 0 0 65536 65536 0
+0 0 22536 2097408 512 0 321 2
+> death_prog 5~
+croak
+cough
+croak
+mpmload 15023
+mpmload 15023
+rinvoke artifact
+
+~
+|
+#15028
+Yog-Sothoth monster gate guardian~
+Yog-Sothoth~
+The gate guardian Yog-Sothoth stands before you!
+~
+Yog-Sothoth knows the gate. Yog-Sothoth is the gate. Yog-Sothoth is the key
+and guardian of the gate. Past, present, future, all are one in Yog-Sothoth.
+He knows where the Old Ones broke through of old, and where They shall break
+through again. He knows where They have trod earth’s fields, and where They
+still tread them, and why no one can behold Them as They tread. -- H.P.
+Lovecraft  "The Dunwich Horror"
+~
+4227139 4718720&320 0 C
+65 0 -300 10d50+3500 5d5+45
+2500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 3
+25 25 8400904 2097152 512 0 32792 6
+> death_prog 50~
+emote sinks to his knees, surrounding by a pool of his own blood...
+emote looks up at you with angry eyes...
+say Fools!  Do you wish to undo the Seals and bring Doom to this Realm?
+cough
+~
+|
+#15029
+ghoul shopkeeper Darok~
+Darok~
+The shopkeeper looks at you and wonders how much gold you brought.
+~
+The shopkeeper hesitates a moment before nodding towards your
+direction...perhaps he wasn't sure if you could afford any of his items.
+~
+16777283 4194304&256 0 C
+50 0 -150 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 19 0 0 65536 65536 0
+0 0 2047 256 0 0 67 524291
+#15030
+drow weaponsmith smith Thayzar~
+Thayzar~
+A shady looking drow says 'Interested in Drow weapons?'
+~
+The drow smith steps out from the shadows.  'I bear fine weapons of my own
+design and craft.  They are pricey, but you won't be disappointed'
+~
+16777283 -1771042688&256 -1000 C
+50 0 -212 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 19 0 0 65538 65536 0
+0 0 2047 1048576 7168 0 167773024 2621447
+#15031
+night gaunt nightgaunt bat creature~
+the nightgaunt~
+A large, black, bat-winged creature stalks about.
+~
+Shocking and uncouth black beings with smooth, oily, whale-like surfaces,
+unpleasant horns that curved inward toward each other, bat-wings whose beating
+made no sound, ugly prehensile paws, and barbed tails that lashed needlessly
+and disquietingly. And worst of all, they never spoke or laughed, and never
+smiled because they had no faces at all to smile with, but only a suggestive
+blankness where a face ought to be. All they ever did was clutch and fly and
+tickle; that was the way of night-gaunts.  -- H.P. Lovecraft "The Dream-Quest
+of Unknown Kadath"
+~
+17039427 4751360&256 -1000 C
+45 0 -181 4d40+1515 3d5+35
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 269582361 3145731 0 0 519 0
+#15032
+guardian mummy warrior embalmed~
+a guardian mummy~
+An embalmed warrior stands at attention.
+~
+A large armored mummy stands before you.  He must of been placed here to
+protect the tombs of the royalty.
+~
+32835 4194344 0 C
+35 0 -118 4d20+975 3d5+25
+200 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 8192 8192 0
+0 0 5 8194 4 1 33555024 2621440
+#15033
+skeleton priest~
+the skeletal priest~
+A skeleton of one of the old priests tends to the dead.
+~
+This old priest has seen better days.  It is his curse to eternally walk these
+hallways and take care of the dead.  This priest is still wearing the robes of
+its office.
+~
+69&8 168 0 C
+30 0 -87 4d15+760 3d5+20
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 4096 4096 0
+0 0 0 354 0 17 33554448 4
+#15034
+skeleton priest~
+the skeletal priest~
+A skeleton of one of the old priests tends to the dead.
+~
+This old priest has seen better days.  It is his curse to eternally walk these
+hallways and take care of the dead.  This priest wields its old weapon of
+choice.
+~
+69&8 168 0 C
+30 0 -87 4d15+760 3d5+20
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 4096 4096 0
+0 0 0 354 0 17 33554448 4
+#15035
+privatekurt~
+the ghoul jester~
+A small ghoul, dressed as a jester, prances about here.
+~
+This small, malformed ghoul is dressed in the clothes of a jester.  He grins
+back at you as if there is something he knows that you don't.
+~
+20971523 4194304&256 1000 C
+10 0 -50 3d6+155 2d5+5
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 10 0 0 1 1 0
+0 0 1 0 0 0 0 7
+#15036
+ghoul mage~
+a ghoul mage~
+This ghoul glances up from his book to look at you.
+~
+A young male ghoul, this one wears the robes of a magical order.  He has his
+nose deep into a copy of the Book of Knowledge, which all ghoul mages must
+learn.
+~
+32835 33554600 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 65536 65536 0
+0 0 2047 256 0 0 268435523 66
+#15037
+ghoul priestess~
+a ghoul priestess~
+A ghoul priestess glares at you for your intrusion.
+~
+This ghoul looks young.  She is dressed in the robes of a priestess, which
+means she wields some fairly strong powers.  Not many who cross her live to
+tell the tale.
+~
+32835 67109032 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 1 0 0 65536 65536 0
+0 0 2047 256 0 0 579 18
+#15038
+ghoul mage~
+a ghoul mage~
+This ghoul glances up from his book to look at you.
+~
+A young male ghoul, this one wears the robes of a magical order.  He has his
+nose deep into a copy of the Book of Knowledge, which all ghoul mages must
+learn.
+~
+32835 33554600 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 65536 65536 0
+0 0 2047 256 0 0 268435523 66
+#15039
+ghoul priestess~
+a ghoul priestess~
+A ghoul priestess glares at you for your intrusion.
+~
+This ghoul looks young.  She is dressed in the robes of a priestess, which
+means she wields some fairly strong powers.  Not many who cross her live to
+tell the tale.
+~
+32835 67109032 1000 C
+40 0 -150 4d30+1255 3d5+30
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 1 0 0 65536 65536 0
+0 0 2047 256 0 0 579 18
+#15040
+night gaunt nightgaunt bat creature~
+the nightgaunt~
+A large, black, bat-winged creature stalks about.
+~
+Shocking and uncouth black beings with smooth, oily, whale-like surfaces,
+unpleasant horns that curved inward toward each other, bat-wings whose beating
+made no sound, ugly prehensile paws, and barbed tails that lashed needlessly
+and disquietingly. And worst of all, they never spoke or laughed, and never
+smiled because they had no faces at all to smile with, but only a suggestive
+blankness where a face ought to be. All they ever did was clutch and fly and
+tickle; that was the way of night-gaunts.  -- H.P. Lovecraft "The Dream-Quest
+of Unknown Kadath"
+~
+17039425 557096 -1000 C
+45 0 -181 4d40+1515 3d5+35
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 269582361 1048579 0 0 519 0
+#15041
+male ghoul~
+a male ghoul~
+This ghoul is out doing whatever ghouls do.
+~
+This ghoul stares back at you, wondering why you would come down so far under
+the surface.
+~
+16777287 32808 1000 C
+35 0 -118 4d20+975 3d5+25
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 65536 65536 0
+0 0 7 256 0 0 515 0
+#15042
+female ghoul~
+a female ghoul~
+This ghoul stops working to look up at you.
+~
+This ghoul was working hard before you walked in.  She stares at you with a
+bit of supervise in her eyes...she hasn't seen many adventurer's venture this
+far.
+~
+16777287 32808 1000 C
+35 0 -118 4d20+975 3d5+25
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 65536 65536 0
+0 0 15 256 0 0 67 0
+#15043
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194401 6291456&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 2097152 0 4 3 2
+#15044
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194401 6291456&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 0 0 4 3 2
+#15045
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194405 -2143289344&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 2097152 0 1 130 524288
+#15046
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194405 -2143289344&320 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 2097152 0 1 130 524288
+#15047
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194405 -2143289344&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 0 0 1 130 524288
+#15048
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194401 6291456&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 2097152 0 4 3 2
+#15049
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194403 6291456&320 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 0 0 4 3 2
+#15050
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194407 -2143289344&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 0 0 1 130 524288
+#15051
+ghoul ranger Bandek Runewriter~
+the ghoul ranger, Bandek Runewriter~
+A strong and smiling ghoul bows as you approach.
+~
+Being a ghoul out of his home kingdom makes him unusual already, but the two
+long swords hanging at his side marks this adventurer as Bandek Runewriter,
+the ghoul ranger.  Many stories have been sung about Bandek, but his most
+famous tale is how he helped craft the runes that seal the Elder Gods in their
+prison.
+~
+17826817 -1771011968&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1835007 1 0
+0 0 2047 3153920 0 0 546310131 2621447
+> death_prog 5~
+emote drops to his knees, a strange smile upon his face...
+emote falls in a heap into the pool of blood
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#15052
+ghoul combatwizard Aeris Seal White~
+Aeris of the White Seal~
+A tall female ghoul, dressed in the robes of a high mage, stands proudly.
+~
+The large symbol of the White Seal embroided in gold on the chest of this
+ghoul's robes is a dead giveaway.  Aeris of the White Seal is famous
+throughout the land for her awesome powers.  She alone was the ghoul who
+wrestled Azathoth into his dark prison.  Her powers are near godlike.
+~
+17826817 -2106548096&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 15 0 0 1835007 1 0
+0 0 2047 3153920 0 0 1041303539 2621447
+> rand_prog 5~
+ponder
+say You know, I can "TEACH ASTRAL RIFT" if you are advanced enough!
+~
+> speech_prog 'teach astral rift'~
+if isnohero($n)
+    say Sorry $n, you need to be a hero before you can learn my skill
+    smile $n
+    break
+else
+   if questpoints($n) < 25000
+       say Sorry $n, you need more quest points to learn my skill
+        smile $n
+        break
+   else
+       nod $n
+       mppractice $n 'astral rift' 100
+       mpmset $n questpoints 25000
+       say Use your new skill wisely!
+       salute $n
+    endif
+endif
+~
+> death_prog 5~
+laugh
+say You may have won this fight young one, but I shall be back!
+rinvoke artifact
+
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#15053
+human shackled~
+a shackled human~
+A human slave in shackles stands with his head bowed.
+~
+I need a real description (;
+~
+67 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#15055
+deep ones monster creature~
+a deep one~
+A scaly, half-fish, half-frog creature croaks at you!
+~
+I think their predominant colour was a greyish-green, though they had white
+bellies. They were mostly shiny and slippery, but the ridges of their backs
+were scaly. Their forms vaguely suggested the anthropoid, while their heads
+were the heads of fish, with prodigious bulging eyes that never closed. At the
+sides of their necks were palpitating gills, and their long paws were webbed.
+They hopped irregularly, sometimes on two legs and sometimes on four. I was
+somehow glad that they had no more than four limbs. Their croaking, baying
+voices, clearly used for articulate speech, held all the dark shades of
+expression which their staring faces lacked. -- H.P. Lovecraft  "The Shadow
+Over Innsmouth"
+~
+4194401 6291456&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 147480 0 0 4 3 2
+#15056
+mi-go crab monster~
+a Mi-Go~
+This crab-like, winged monster jumps around the cavern.
+~
+They were pinkish things about five feet long; with crustaceous bodies bearing
+vast pairs of dorsal fins or membraneous wings and several sets of articulated
+limbs, and with a sort of convoluted ellipsoid, covered with multitudes of
+very short antennae, where a head would ordinarily be.... As it was, nearly
+all the rumours had several points in common; averring that the creatures were
+a sort of huge, light-red crab with many pairs of legs and with two great
+bat-like wings in the middle of their back. They sometimes walked on all their
+legs, and sometimes on the hindmost pair only, using the others to convey
+large objects of indeterminate nature. On one occasion they were spied in
+considerable numbers, a detachment of them wading along a shallow woodland
+watercourse three abreast in evidently disciplined formation. Once a specimen
+was seen flying -- launching itself from the top of a bald, lonely hill at
+night and vanishing in the sky after its great flapping wings had been
+silhouetted an instant against the full moon. -- H.P. Lovecraft  "The
+Whisperer in Darkness"
+~
+4194407 -2143289344&256 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 268472328 2097152 0 1 130 524288
+#15057
+ogre barman bartender~
+an ogre bartender~
+An ugly ogre tends the long, root bar.
+~
+A strange looking ogre grunts as you look him over, wondering if you're just
+going to gawk, or get a drink.
+~
+67 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 1~
+grunt
+~
+> rand_prog 1~
+frown
+~
+> rand_prog 1~
+grin
+~
+|
+#15350
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194407 -2147483648 -1000 C
+55 0 -220 5d50+2000 5d5+20
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 65536 65536 0
+0 0 268472320 0 0 1 130 524288
+#0
+
+
+#OBJECTS
+#15000
+sparkly jewel~
+a sparkly jewel~
+A sparkly jewel must of dropped from some looters bag!~
+~
+8 0 1048577
+0 0 0 0
+1 25 0
+#15001
+stone key small~
+a small stone key~
+A small key carved from stone lies in the dust.
+~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#15002
+copper ring~
+a copper ring~
+A small copper ring rolls onto the floor.~
+~
+9 1 1025
+2 2 0 0
+1 150 0
+A
+13 15
+A
+5 1
+#15003
+helmet bronze jeweled bejeweled~
+a bejeweled bronze helmet~
+A large bronze helmet covered in jewels rolls about the floor.
+~
+~
+9 524353 3
+10 10 0 0
+4 250 0
+A
+12 15
+A
+3 1
+#15004
+bronze etched etch breast plate breastplate~
+an etched bronze breastplate~
+A bronze breastplate with arcane etchings lies on the floor.~
+~
+9 524352 65
+12 12 0 0
+15 550 0
+A
+2 1
+A
+1 1
+#15005
+mace steel~
+a solid steel mace~
+A strong-looking metal mace lies in the dirt.~
+~
+5 64 131073
+10 1 11 7
+7 450 0
+A
+24 -2
+A
+18 2
+#15006
+double bladed battleaxe battle axe~
+a double-bladed battleaxe~
+A nasty looking double-edged axe gleams here.~
+~
+5 64&16 131073
+12 4 7 18
+8 400 0
+A
+18 2
+A
+22 -3
+#15007
+robes tattered robe~
+tattered old robes~
+The remnants of priestly robes lie in a heap.~
+~
+9 320 2049
+4 4 0 0
+2 100 0
+A
+4 2
+#15008
+dark forged breast plate breastplate~
+a dark-forged breastplate~
+An armored plate made of some magical metal lies in the dirt.~
+~
+9 524356 65
+15 15 0 0
+5 600 0
+A
+13 20
+A
+19 1
+#15009
+dagger eye gouger eyegouger~
+the dagger "Eye-Gouger"~
+A slender dagger with a small eye-shaped gem in the hilt.~
+~
+5 192 131073
+12 2 4 11
+1 850 0
+A
+24 -2
+A
+19 5
+A
+18 5
+#15010
+clever backpack~
+a cleverly-designed backpack~
+This backpack looks like it could hold everything!~
+~
+15 0 4097
+550 0 0 0
+3 250 0
+#15011
+boots dark forged dark-forged~
+a set of dark-forged boots~
+Boots crafted of a gleaming dark metal sit here.~
+~
+9 524356 65537
+15 15 0 0
+3 300 0
+A
+2 2
+A
+14 40
+#15012
+vambraces dark forged dark-forged~
+some dark-forged vambraces~
+Vambraces designed from a dark metal lay here.~
+~
+9 524356 129
+15 15 0 0
+3 350 0
+A
+13 15
+A
+1 2
+#15013
+bladed staff~
+a bladed staff~
+A long staff with a wicked blade leans against the wall.~
+~
+5 64&16 131073
+13 4 9 17
+10 600 0
+A
+19 3
+A
+24 -3
+A
+2 2
+#15014
+cold iron cold-iron bracer~
+a cold-iron bracer~
+A bracer made of rough iron rolls about.~
+~
+9 524352 257
+12 12 0 0
+1 100 0
+A
+5 2
+#15015
+leather bracer etched~
+an etched leather bracer~
+A leather bracer with runes scratched into it lies in the dust.~
+~
+9 64 257
+5 5 0 0
+1 150 0
+A
+4 1
+A
+3 1
+#15016
+old long sword longsword~
+an old longsword~
+An old used longsword lies in the dirt.~
+~
+5 0 131073
+10 1 9 1
+3 50 0
+#15017
+potion green bubbling~
+a bubbling green potion~
+A small flask containing a bubbling, green liquid.~
+~
+10 64 1048577
+50 -1 -1 -1
+1 20500 0
+'heal' 'remove curse' 'cure poison'
+#15018
+scroll return~
+a return scroll~
+A small scroll with silver lettering.~
+~
+2 64 1048577
+10 -1 -1 -1
+1 14650 0
+'word of recall' 'heal' 'shield'
+#15019
+wand darkness dark~
+a dark wand~
+This wand seems to absorb the light around it.~
+~
+3 64 1048577
+50 10 10 -1
+1 50000 0
+'quantum spike'
+#15020
+bandoleer daggers~
+a bandoleer of daggers~
+A leather strap for holding numerous daggers hangs here.~
+~
+5 0 2049
+12 1 1 11
+3 2000000 0
+A
+2 4
+#15021
+book knowledge~
+The Book of Knowledge~
+A huge leather-bound tome, covered with runes, lies on the floor.~
+~
+35 84 1048577
+0 0 0 0
+10 2000 0
+E
+book knowledge~
+Upon closer inspection, this book isn't bound in leather, but in the skin of a
+human!  Contained within are the secrets of the universe that the ghouls hold
+the key too.  Too bad you don't read the Old Tongue.
+~
+A
+12 40
+A
+3 2
+A
+79 2
+#15022
+scepter eyes eye~
+The Scepter of the Eyes~
+A large brass sceptre, covered in small carvings of eyes, with a huge eye-shaped ruby at the top.
+~
+~
+3 82 1048577
+50 25 25 -1
+7 1500 0
+'unravel defense'
+A
+31 2
+A
+18 1
+#15023
+ring tiger-eye tiger eye~
+a tiger-eye ring~
+A small golden ring with a tiger-eye jewel stares back at you.~
+~
+9 64 1025
+6 6 0 0
+1 500 0
+A
+14 50
+A
+24 -3
+A
+22 -3
+#15024
+hand crossbow~
+a deadly hand crossbow~
+This small hand crossbow looks deadly!~
+~
+5 0 131073
+12 4 4 13
+3 500000 0
+A
+18 1
+#15025
+rapier whisper thin~
+a whisper-thin rapier~
+A rapier so slim it almost disappears lies here.~
+~
+5 2 131073
+12 4 4 11
+4 500000 0
+A
+2 1
+#15026
+oak cudgel~
+a solid oak cudgel~
+A stout cudgel carved from a solid oak branch sits here.~
+~
+5 0 131073
+12 4 4 7
+5 500000 0
+A
+1 1
+#15027
+parrying dagger~
+a parrying dagger~
+A dagger designed to block blows lies in the dirt.~
+~
+5 0 131073
+12 4 4 2
+2 500000 0
+A
+17 -10
+#15028
+mithril silvery mace~
+a silvery mace~
+A mace crafted of a gleaming silver metal lies here.~
+~
+5 1 131073
+12 4 4 7
+7 500000 0
+A
+4 1
+#15029
+wicked blade long longblade dark~
+a dark wicked longblade~
+A newly created object sits here.
+~
+~
+5 0 131073
+12 4 4 1
+4 500000 0
+A
+5 1
+#15030
+key ornate granite gold kingdom~
+a kingdom key~
+A key to the ghoul kingdom, crafted of granite and gold~
+~
+18 0 1048577
+2 0 0 0
+1 0 0
+#15031
+ghoul priestess robes~
+the robes of a ghoul priestess~
+The gleaming white robes of a ghoul priestess hang here.~
+~
+9 321 65
+5 5 0 0
+4 700 0
+A
+79 1
+A
+27 32
+A
+12 20
+A
+4 1
+#15032
+robes ghoul mage~
+the robes of a ghoul mage~
+A black silken robe covered in runes lies in a ball here.~
+~
+9 68 65
+5 5 0 0
+3 700 0
+A
+79 1
+A
+27 16
+A
+12 20
+A
+3 1
+#15033
+robes white silver elaborate~
+elaborate white robes, with silver runes~
+A white robe, covered in enchanting silver runes hangs on a post.
+~
+~
+9 321 65
+7 7 0 0
+3 1000 0
+A
+79 2
+A
+18 2
+A
+13 20
+A
+5 1
+A
+4 2
+#15034
+robes black sinister silk gold~
+sinister black robes, with golden runes~
+A black silken robes hangs on a post here, its golden runes giving off a feel of evil.~
+~
+9 84 65
+7 7 0 0
+3 1500 0
+A
+79 2
+A
+24 -2
+A
+12 35
+A
+2 1
+A
+3 2
+#15035
+ring ivory silver~
+a silver-runed ivory ring~
+A small ivory ring set with silver runes.~
+~
+8 65 1025
+0 0 0 0
+1 500 0
+A
+18 2
+A
+19 1
+#15036
+ring ebony gold~
+a golden-runed ebony ring~
+A dark little ebony ring with golden runes gleams in the dust.~
+~
+8 66 1025
+0 0 0 0
+1 500 0
+A
+18 1
+A
+19 2
+#15037
+eye elder gods~
+The Eye of the Elder Gods~
+A sickening looking old eye lies in the dirt.~
+~
+1 65 1
+0 0 -1 0
+1 2000 0
+A
+13 75
+A
+12 75
+A
+24 -4
+A
+18 4
+A
+19 4
+#15038
+shield sea dragon scale~
+a sea dragon scale shield~
+A shield made of the glistening blue scales of a sea dragon.~
+~
+9 65 524289
+9 9 0 0
+3 2000 0
+A
+13 75
+A
+3 4
+A
+22 -4
+A
+4 4
+#15039
+amulet nightmares~
+an Amulet of Nightmares~
+An amulet crafted of the twisted tentacles of some disgusting beast.~
+~
+8 84 33
+0 0 0 0
+1 1500 0
+A
+3 4
+A
+12 50
+A
+18 4
+A
+19 4
+#15040
+cloud vapour vapor~
+a cloud of abyss-vapour~
+A amorphous cloud of dark, smelly vapour floats about here.
+~
+~
+9 68 2049
+9 9 0 0
+1 0 0
+A
+18 4
+A
+19 4
+A
+2 4
+A
+5 4
+A
+1 4
+#15041
+plate guardian mithril~
+the Plate of the Guardian~
+A stout breastplate of gleaming mithril lies in the dirt.~
+~
+9 524353 65
+20 20 0 0
+6 2000 0
+A
+79 4
+A
+17 -20
+A
+23 -4
+A
+22 -4
+A
+24 -4
+#15042
+staff black mother~
+the Black Staff of the Mother~
+An evil looking black wooden staff leans in the corner.~
+~
+4 84 1048577
+50 40 40 -1
+4 2000 0
+'black lightning'
+A
+24 -4
+A
+18 4
+A
+19 4
+A
+12 100
+#15043
+toad claw~
+the claw of a toad~
+A huge, sharp claw from some creature lies here.~
+~
+9 84 1048577
+7 7 0 0
+1 1500 0
+A
+27 32
+A
+12 75
+A
+3 4
+A
+18 4
+A
+19 4
+#15044
+key royal~
+a royal key~
+A key crafted of gold and silver.~
+~
+18 1 1048577
+3 0 0 0
+1 0 0
+#15045
+gate key silver~
+a silver gate key~
+A large key crafted from silver lies here.~
+~
+18 0 1048577
+4 0 0 0
+1 0 0
+#15046
+key black blackened~
+a blackened key~
+A blackened and corroded key lies here.~
+~
+18 0 1048577
+5 0 0 0
+1 0 0
+#15047
+key fish fishy scale~
+a fishy looking key~
+A key crafted from the scales of a large fish.~
+~
+18 0 1048577
+6 0 0 0
+1 0 0
+#15048
+key huge metal~
+a huge key~
+This metal key is huge!~
+~
+18 0 1048577
+7 0 0 0
+1 0 0
+#15049
+key slimy~
+a slimy key~
+This small key is covered in a sticky slime.~
+~
+18 0 1048577
+8 0 0 0
+1 0 0
+#15050
+key warm heat~
+a warm key~
+This key radiates heat for some reason.~
+~
+18 0 1048577
+9 0 0 0
+1 0 0
+#15051
+key golden gate~
+a golden gate key~
+A large key crafted from gold lies here.~
+~
+18 0 1048577
+9 0 0 0
+1 0 0
+#15052
+badge insanity~
+The Badge of Insanity~
+This swirling badge makes you feel crazy!~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+24 -3
+A
+19 3
+#15053
+badge sea~
+The Badge of the Sea~
+This badge makes the sound of the ocean!
+~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+28 2
+A
+69 31
+#15054
+badge creator~
+The Badge of the Creator~
+This badge makes you feel like an Elder!~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+12 50
+A
+13 50
+#15055
+badge beast~
+The Badge of the Beast~
+A furry badge, it makes you feel wild.~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+5 3
+A
+1 3
+#15056
+badge guard guardian~
+The Badge of the Guardian~
+This badge bestows an aura of protection.~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+13 35
+A
+17 -15
+#15057
+badge mother~
+The Badge of the Mother~
+This black badge casts a dark shadow.~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+28 256
+A
+22 -4
+#15058
+badge toad~
+The Badge of the Toad~
+A small piece of toadskin makes up most of this badge.~
+~
+9 84 2097153
+4 4 0 0
+1 250 0
+A
+18 4
+A
+3 4
+#15059
+sign rotting wooden~
+a rotting wooden sign~
+A rotting wooden sign is nailed to the trunk of an old dead tree.
+~
+~
+12 0 0
+0 0 0 0
+9999 0 0
+E
+sign wooden rotting~
+&RWARNING!  &wThis area is quite large.  It is easy to get lost, and easy to
+wander into dangerous places.  Adventurers under level 10 are advised to find
+somewhere else to explore.  Adventurers under level 20 may be fine at first,
+but should probably not venture under the surface.  The deeper you go, the
+more dangerous it gets.  The very bottom level should not be explored by
+anything less than a large group of level 50 adventurers.
+~
+#15060
+sign small~
+a small sign~
+A small sign hangs on the wall.
+~
+~
+12 0 0
+0 0 0 0
+9999 0 0
+E
+sign small~
+The Gods of Above protect thee while you are standing in this room, but only
+adventurers rated levels 20 and over should head deeper...and only if they are
+well prepared!
+~
+#15061
+small sign~
+a small sign~
+A small sign hangs on the wall under one of the lights.
+~
+~
+12 0 0
+0 0 0 0
+9999 0 0
+E
+sign small~
+The caverns ahead lead to the Ghoul Kingdom.  The creatures within avoid the
+ghouls at this point, but may attack outsiders.  Skill level 40 and above, or
+nice groups is recommended.
+~
+#15062
+battle hammer daemon acid dripping~
+(&YDripping&G) a battle hammer~
+A pitted and etched battle hammer lies on the ground.~
+~
+5 16&16 131073
+12 6 5 6
+25 0 0
+A
+30 308
+#15063
+key shajaan~
+a key to Shajaans~
+A key with a large runic "S" on it.~
+~
+9 0 1048577
+1 1 0 0
+1 0 0
+#15064
+absinthe bottle~
+a bottle of absinthe~
+A small bottle of absinthe.~
+~
+17 0 1048577
+5 5 8 0
+1 50 0
+#15065
+grog bottle~
+a bottle of grog~
+A small bottle of grog.~
+~
+17 0 1048577
+5 5 17 0
+1 50 0
+#15066
+firewater bottle~
+a bottle of firewater~
+A small bottle of firewater.~
+~
+17 0 1048577
+5 5 7 0
+1 50 0
+#15067
+mushroom glowing~
+a glowing mushroom~
+A large glowing mushroom.~
+~
+19 0 1048577
+50 0 0 0
+1 50 0
+#15068
+skeleton key drezden~
+a skeleton key~
+A strange key, carved out of bone.~
+~
+9 0&36 1048577
+0 0 0 0
+1 0 0
+#15078
+black fang key~
+a key-shaped black fang~
+The key to Nickillis's house lies here...give it back!~
+~
+13 0&36 1048577
+0 0 0 0
+1 0 0
+#15079
+green eyeball~
+a glass of green liquid with an eyeball~
+A glass of green liquid with an eyeball floating in it.
+~
+~
+17 0 1048577
+3 3 9 0
+1 10 0
+#15080
+dripping vine~
+a glass of liquid from a dripping vine~
+A glass of liquid from a dripping vine.
+~
+~
+17 0 1048577
+3 3 5 0
+1 10 0
+#15081
+stein ale~
+a stein of dark, black, smoking ale~
+A stein of dark black smoking ale.~
+~
+17 0 1048577
+3 3 4 0
+1 10 0
+#15082
+schooner red~
+a schooner of a thick red liquid~
+A schooner of a thick red liquid.
+~
+~
+17 0 1048577
+3 3 13 0
+1 10 0
+#15083
+pint elf~
+a pint of blended elf~
+A pint of blended elf.~
+~
+17 0 1048577
+3 3 2 0
+1 10 0
+#15084
+red bull vodka~
+a glass of Red Bull and Vodka~
+A glass of Red Bull and Vodka.
+~
+~
+17 0 1048577
+3 3 16 0
+1 10 0
+#15350
+Placeholder~
+Placeholder~
+Placeholder~
+~
+9 84 4194305
+4 4 0 0
+1 250 0
+#0
+
+
+#ROOMS
+#15000
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 5 3 0 0 10
+D1
+More of this creepy forest lies ahead.
+~
+east~
+0 -1 15001
+D2
+~
+~
+0 0 16037
+S
+#15001
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 1 3 0 0 10
+D1
+More of this creepy forest lies ahead.
+~
+east~
+0 -1 15002
+D3
+More of this creepy forest lies ahead.
+~
+west~
+0 -1 15000
+S
+#15002
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 1 3 0 0 10
+D0
+More of this creepy forest lies ahead.
+~
+north~
+0 -1 15003
+D3
+More of this creepy forest lies ahead.
+~
+west~
+0 -1 15001
+S
+#15003
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 1 3 0 0 10
+D0
+More of this creepy forest lies ahead.
+~
+north~
+0 -1 15004
+D2
+More of this creepy forest lies ahead.
+~
+south~
+0 -1 15002
+S
+#15004
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 1 3 0 0 10
+D2
+More of this creepy forest lies ahead.
+~
+south~
+0 -1 15003
+D3
+More of this creepy forest lies ahead.
+~
+west~
+0 -1 15005
+S
+#15005
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.
+~
+0 1 3 0 0 10
+D0
+More of this creepy forest lies ahead.
+~
+north~
+0 -1 15006
+D1
+More of this creepy forest lies ahead.
+~
+east~
+0 -1 15004
+S
+#15006
+A Spooky Path~
+A dark path can barely be seen through all the undergrowth.  Most of the
+vegetation around here is dead and withered.  Although the wind is slight, you
+hear a moaning sound in the trees.  North of here is a small gate, which
+appears to lead into some sort of cemetery.  A church is in the distance.
+~
+0 1 3 0 0 10
+D0
+Through the gate lies the grounds of the church.
+~
+gate north~
+3 -1 15007
+D2
+More of this creepy forest lies ahead.
+~
+south~
+0 -1 15005
+S
+#15007
+Inside The Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  An old
+church stands before you, slowly losing the battle against time.  South of you
+is the gate out of here.  North is the old wooden doors of the church.
+~
+0 1 2
+D0
+A doorway leads into the church
+~
+door north~
+3 -1 15029
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15008
+D2
+This trail leads back down a spooky path.
+~
+gate north~
+3 -1 15006
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15028
+S
+#15008
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15009
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15007
+S
+#15009
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15010
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15008
+S
+#15010
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15011
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15009
+S
+#15011
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15012
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15010
+S
+#15012
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15013
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15011
+S
+#15013
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15014
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15012
+S
+#15014
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!  A hole was smashed into
+the wall to the east.  A small path through the forest heads off beyond it.
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15015
+D1
+~
+~
+0 0 10550
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15013
+S
+#15015
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15016
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15014
+S
+#15016
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15015
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15017
+S
+#15017
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15016
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15018
+S
+#15018
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15017
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15019
+S
+#15019
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15018
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15020
+S
+#15020
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15019
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15021
+S
+#15021
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15020
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15022
+S
+#15022
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15021
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15023
+S
+#15023
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15022
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15024
+S
+#15024
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15023
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15025
+S
+#15025
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15024
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15026
+S
+#15026
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15025
+D2
+More gravesites lie in this direction.
+~
+south~
+0 -1 15027
+S
+#15027
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D0
+More gravesites lie in this direction.
+~
+north~
+0 -1 15026
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15028
+S
+#15028
+On The Church Grounds~
+You stand amongst the ruins of old grave sites.  No leaves remain on any of
+the trees, and the only vegetation living are some thorny weeds.  Be careful
+not to trip over the broken headstones lying about!
+~
+0 1 2
+D1
+More gravesites lie in this direction.
+~
+east~
+0 -1 15007
+D3
+More gravesites lie in this direction.
+~
+west~
+0 -1 15027
+S
+#15029
+The Foyer~
+The foyer of the old church is very run down.  Splinters lay where benches
+once stood, and shards of colorful glass indicate that once-beautiful
+stained-glass windows were once in place here.  Cobwebs fill the corners.  You
+feel disturbed when you realize that something has walked through the dust
+recently.
+~
+0 9 0
+D0
+A lighted hallway lies north.
+~
+north~
+0 -1 15033
+D1
+There is an old door to the east.
+~
+door east~
+3 -1 15031
+D2
+The door here heads back outside.
+~
+door south~
+3 -1 15007
+D3
+There is an old door to the west.
+~
+door west~
+3 -1 15030
+S
+#15030
+The Cloak Room~
+This small room has what looks like several rotting wood pegs set into the
+wall.  Some lumps of old cloth are gathered about on the floor under them.
+This must of been a place for the worshippers to hang cloaks and robes.
+~
+0 9 0
+D1
+The door back into the Foyer is here.
+~
+door east~
+3 -1 15029
+S
+#15031
+The Confessional~
+This small room only fits one person.  It isn't as dark in here as the rest of
+the church seems to be, and a feeling of relief settles into your bones.  You
+could probably rest in here without worrying about the other residents
+bothering you.
+~
+0 1051656 0 0 0 1
+D3
+The door back into the Foyer is here.
+~
+door west~
+3 -1 15029
+S
+#15032
+Prayer Room~
+This small room is almost bare, except for a small wooden stand and the few
+remaining tatters of some cloth wall hangings.
+~
+0 9 0
+D1
+A doorway back to the hallway stands before you.
+~
+door east~
+3 -1 15033
+S
+#15033
+Hallway~
+Small candles light your way down this hallway.  You feel a little unnerved
+when the wind blows one out and it re-lights itself a few seconds later.
+
+~
+0 8 0
+D0
+A lighted hallway lies north.
+~
+north~
+0 -1 15036
+D1
+A small doorway is before you.
+~
+door east~
+3 -1 15034
+D2
+The hallway leads towards the Foyer.
+~
+south~
+0 -1 15029
+D3
+A small doorway is before you.
+~
+door west~
+3 -1 15032
+S
+#15034
+Prayer Room~
+This small room is almost bare, except for a small wooden stand and the few
+remaining tatters of some cloth wall hangings.
+~
+0 9 0
+D3
+A doorway back to the hallway stands before you.
+~
+door west~
+3 -1 15033
+S
+#15035
+Prayer Room~
+This small room is almost bare, except for a small wooden stand and the few
+remaining tatters of some cloth wall hangings.
+~
+0 9 0
+D1
+A doorway back to the hallway stands before you.
+~
+door east~
+3 -1 15036
+S
+#15036
+Hallway~
+Small candles light your way down this hallway.  You feel a little unnerved
+when the wind blows one out and it re-lights itself a few seconds later.
+
+~
+0 8 0
+D0
+The hallway opens up into a large hall.
+~
+north~
+0 -1 15039
+D1
+A small doorway is before you.
+~
+door east~
+3 -1 15037
+D2
+You look south down the hallway.
+~
+south~
+0 -1 15033
+D3
+A small doorway is before you.
+~
+door west~
+3 -1 15035
+S
+#15037
+Prayer Room~
+This small room is almost bare, except for a small wooden stand and the few
+remaining tatters of some cloth wall hangings.
+~
+0 9 0
+D3
+A doorway back to the hallway stands before you.
+~
+door west~
+3 -1 15036
+S
+#15038
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D0
+The church hall lies open to you.
+~
+north~
+0 -1 15041
+D1
+The church hall lies open to you.
+~
+east~
+0 -1 15039
+S
+#15039
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D0
+The church hall lies open to you.
+~
+north~
+0 -1 15042
+D1
+The church hall lies open to you.
+~
+east~
+0 -1 15040
+D2
+You look back down the hallway.
+~
+south~
+0 -1 15036
+D3
+The church hall lies open to you.
+~
+west~
+0 -1 15038
+S
+#15040
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D0
+The church hall lies open to you.
+~
+north~
+0 -1 15043
+D3
+The church hall lies open to you.
+~
+west~
+0 -1 15039
+S
+#15041
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D1
+The church hall lies open to you.
+~
+east~
+0 -1 15042
+D2
+The church hall lies open to you.
+~
+south~
+0 -1 15038
+S
+#15042
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D0
+A large stone altar stands north of you.
+~
+north~
+0 -1 15045
+D1
+The church hall lies open to you.
+~
+east~
+0 -1 15043
+D2
+The church hall lies open to you.
+~
+south~
+0 -1 15039
+D3
+The church hall lies open to you.
+~
+west~
+0 -1 15041
+S
+#15043
+Church Hall~
+You stand amongst the rotting pews of the old church hall.  Many small candles
+illuminate scary old statues and the remains of broken stained-glass windows.
+You see the altar to the north of the hall.
+~
+0 8 0
+D2
+The church hall lies open to you.
+~
+south~
+0 -1 15040
+D3
+The church hall lies open to you.
+~
+west~
+0 -1 15042
+S
+#15044
+Priests Quarters~
+This small chamber houses the remains of a bed and some other old wooden
+furniture.  The priest of this church must of used this room as his living
+quarters.
+~
+0 9 0
+D1
+This doorway heads back to the altar.
+~
+door east~
+3 -1 15045
+S
+#15045
+The Altar~
+You stand in front of a large stone altar.  A feeling of safety washes over
+your body as you gaze upon the holy symbols carved into the top.  Something
+looks strange about a crack around the bottom of the altar however...
+A large spiral staircase, blocked by a  black steel gate, leads up into
+darkness.  A plain looking wooden door is placed behind the altar to the
+north.  A dull, bronze sign is nailed into the center of the northern door.
+
+~
+0 1032 0
+D0
+~
+~
+3 0 15319
+D1
+A small doorway is before you.
+~
+door east~
+3 -1 15046
+D2
+The church hall lies open to you.
+~
+south~
+0 -1 15042
+D3
+A small doorway is before you.
+~
+door west~
+3 -1 15044
+D5
+It appears that there is an opening that leads down under the altar.
+~
+altar down~
+7 15001 15047
+E
+sign dull bronze~
+WARNING:  Proceeding through this door may be extremely hazardous to your
+health!  Only large groups of the most experienced adventurers should risk
+travelling any further, and then only if they have the stoutest muscle and
+sharpest minds.  You have been warned...
+~
+S
+#15046
+The Store Room~
+An old store room is now empty, having been looted quite some time ago.  Some
+bits of trash still lie in the middle of the floor, however.
+~
+0 9 0
+D3
+This doorway heads back to the altar.
+~
+door west~
+3 -1 15045
+S
+#15047
+Under The Altar~
+You are in a small alcove under the altar.  The stench of long dead creatures
+fills the air.  Bones are scattered about the floor, along with equipment used
+in embalming.  This must be the catacombs of the small church!  You feel
+fairly secure here, but the idea of moving on further into the dark makes you
+nervous.
+
+~
+0 1032 0
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15048
+D4
+This small hole lead up to the Altar room of the church.
+~
+altar up~
+7 15001 15045
+S
+#15048
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The catacomb entrance lies ahead.
+~
+north~
+0 -1 15047
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15049
+S
+#15049
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15048
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15050
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15072
+S
+#15050
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15051
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15049
+S
+#15051
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15052
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15050
+S
+#15052
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15053
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15051
+S
+#15053
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15052
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15054
+S
+#15054
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15053
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15055
+S
+#15055
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15054
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15073
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15056
+S
+#15056
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15055
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15057
+S
+#15057
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15056
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15058
+S
+#15058
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15057
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15059
+S
+#15059
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15058
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15060
+S
+#15060
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15059
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15061
+S
+#15061
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15077
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15060
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15062
+S
+#15062
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15061
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15063
+S
+#15063
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15062
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15064
+S
+#15064
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15065
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15063
+S
+#15065
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15066
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15064
+S
+#15066
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15067
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15065
+S
+#15067
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15068
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15066
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15075
+S
+#15068
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15069
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15067
+S
+#15069
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.
+~
+north~
+0 -1 15070
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15068
+S
+#15070
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15071
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15069
+S
+#15071
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15072
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15070
+S
+#15072
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The sounds of moans and shuffling feet come from the darkness.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15049
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15071
+S
+#15073
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  There is some sort of light coming from the east.
+~
+0 9 0
+D1
+A lighted room lies ahead.
+~
+east~
+0 -1 15074
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15055
+S
+#15074
+Royal Tomb~
+This tomb is a lot fancier than the small alcoves carved into the walls.
+Whomever had been buried here must of been fairly important.  The mess of
+litter and bones shows that looters have definitely been here before.
+~
+0 8 0
+D3
+The darkness of the catacombs lie ahead.
+~
+west~
+0 -1 15073
+S
+#15075
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  There is some sort of light coming from the west.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15067
+D3
+A lighted room lies ahead.
+~
+west~
+0 -1 15076
+S
+#15076
+Royal Tomb~
+This tomb is a lot fancier than the small alcoves carved into the walls.
+Whomever had been buried here must of been fairly important.  The mess of
+litter and bones shows that looters have definitely been here before.
+~
+0 8 0
+D1
+The darkness of the catacombs lie ahead.
+~
+east~
+0 -1 15075
+S
+#15077
+Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  Old bones lie on the floor,
+disturbed from their rest in the alcoves on the wall by looters or worse
+creatures.  The halls seem to get darker north of here, and a chill breeze
+wafts into your face.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15078
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15061
+S
+#15078
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15079
+D2
+The darkness of the catacombs lie ahead.
+~
+south~
+0 -1 15077
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15091
+S
+#15079
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15080
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15078
+S
+#15080
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15081
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15079
+S
+#15081
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15082
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15080
+S
+#15082
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15083
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15081
+S
+#15083
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15082
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15084
+S
+#15084
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15083
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15085
+S
+#15085
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15084
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15092
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15086
+S
+#15086
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15085
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15087
+S
+#15087
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15086
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15088
+S
+#15088
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15087
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15089
+S
+#15089
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15088
+D2
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+south~
+0 -1 15090
+S
+#15090
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15089
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15091
+S
+#15091
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  The litter on the floor here
+includes bones that are a bit fresher than those in the outer hallways.
+Something must be bringing them here, and from what you remember of the church
+above, its surely not priests.
+~
+0 9 0
+D1
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+east~
+0 -1 15078
+D3
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+west~
+0 -1 15090
+S
+#15092
+Inner Catacomb Hallways~
+The hallway of the catacomb is dark and cold.  A bright light comes from south
+of you.  The cold breeze is strongest here; it must be coming from the room to
+the south, but how?
+~
+0 9 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15085
+D2
+A lighted room is at the end of the hall.
+~
+south~
+0 -1 15093
+S
+#15093
+Guard Room~
+This room is surprisingly quite bare and clean.  Torches stay lit on the
+walls, despite the strong cold breeze that comes from around the edges of what
+appears to be a huge steel trapdoor on the floor.
+~
+0 8 0
+D0
+The darkness of the catacombs lie ahead.  A cold breeze blows around
+you.
+~
+north~
+0 -1 15092
+D5
+A metal door covers the exit here.
+~
+door stairs down~
+7 15030 15094
+S
+#15094
+The Entrance Cavern~
+This cavern has some small magical lights placed in the ceiling, and the sand
+of the floor is nice and brushed.  This looks like a good place to rest before
+venturing into the dark.
+
+~
+0 1024 13
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15095
+D4
+A large metal door blocks the stairs up.
+~
+door stairs up~
+7 15030 15093
+S
+#15095
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+The cavern seems to brighten up in this direction
+~
+~
+0 0 15094
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15096
+S
+#15096
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15095
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15097
+S
+#15097
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15096
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15098
+S
+#15098
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15097
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15099
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15117
+S
+#15099
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15100
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15098
+S
+#15100
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15101
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15116
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15099
+S
+#15101
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15102
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15100
+S
+#15102
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15103
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15101
+S
+#15103
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+~
+~
+8389671 15068 15310
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15104
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15102
+S
+#15104
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15105
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15103
+S
+#15105
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15104
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15106
+S
+#15106
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15105
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15107
+S
+#15107
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15106
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15109
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15108
+S
+#15108
+A Large Cavern~
+You step into a large chamber.  The floor is the same dry sand that makes of
+the caverns, but there seems to be more bones mixed into it in here.  The cold
+breeze swirls about you and you feel a chill to the bone.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15107
+S
+#15109
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15107
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15110
+S
+#15110
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15109
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15111
+S
+#15111
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15110
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15112
+S
+#15112
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15111
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15163
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15113
+S
+#15113
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 15114
+D1
+Exit description~
+~
+0 0 15112
+S
+#15114
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15115
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15113
+S
+#15115
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15116
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15114
+S
+#15116
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15100
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15115
+S
+#15117
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15098
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15118
+S
+#15118
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15117
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15119
+S
+#15119
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15118
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15120
+S
+#15120
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15119
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15121
+S
+#15121
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15120
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15122
+S
+#15122
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15121
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15123
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15124
+S
+#15123
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15122
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15153
+S
+#15124
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15122
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15125
+S
+#15125
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15124
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15126
+S
+#15126
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15125
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15127
+S
+#15127
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15126
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15128
+S
+#15128
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15127
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15129
+S
+#15129
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15128
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15130
+S
+#15130
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15129
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15154
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15131
+S
+#15131
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15130
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15132
+S
+#15132
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15131
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15133
+S
+#15133
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15132
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15134
+S
+#15134
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15133
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15135
+S
+#15135
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15134
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15136
+S
+#15136
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15137
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15135
+S
+#15137
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15138
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15136
+S
+#15138
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15139
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15137
+S
+#15139
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15140
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15138
+S
+#15140
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15142
+D2
+The cavern seems lighter in that direction.
+~
+~
+0 0 15141
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15139
+S
+#15141
+Old Caverns~
+These cavern seem to be less dark.  You spot several arcane marking carved in
+the walls of this small cavern.  To the south of you, the carved walls of the
+Ghoul Kingdom lie.
+~
+0 1024 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15140
+D2
+~
+~
+0 0 15164
+S
+#15142
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15143
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15140
+S
+#15143
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15144
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15142
+S
+#15144
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15145
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15143
+S
+#15145
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15146
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15144
+S
+#15146
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15147
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15145
+S
+#15147
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15148
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15146
+S
+#15148
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.  The path
+splits up into different directions here.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15149
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15158
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15147
+S
+#15149
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15150
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15148
+S
+#15150
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15149
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15151
+S
+#15151
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15150
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15152
+S
+#15152
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15151
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15153
+S
+#15153
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15152
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15123
+S
+#15154
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15155
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15130
+S
+#15155
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15156
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15154
+S
+#15156
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15157
+D3
+Exit description~
+~
+0 0 15155
+S
+#15157
+A Huge Cavern~
+You step into a cavern so huge, your light does not illuminate the roof, nor
+penetrate the darkness at the back of the cavern.  A short search through the
+sand throughout this cavern should find something useful.
+~
+0 1 13
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15156
+S
+#15158
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D1
+All you see ahead is darkness.
+~
+~
+0 0 15159
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15148
+S
+#15159
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15160
+D3
+All you see ahead is darkness.
+~
+~
+0 0 15158
+S
+#15160
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+~
+0 0 15161
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15159
+S
+#15161
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+north~
+0 0 15162
+D2
+All you see ahead is darkness.
+~
+~
+0 0 15160
+S
+#15162
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+north~
+0 0 15163
+D2
+All you see ahead is darkness.
+~
+south~
+0 0 15161
+S
+#15163
+Dark Caverns~
+You wander through the cold dark caverns.  Your light doesn't shine as far as
+you'd hope here, and there is a breeze blowing past you, despite the fact that
+you are underground.  The whole place gives you a sick feeling.
+~
+0 1 13
+D0
+All you see ahead is darkness.
+~
+north~
+0 0 15112
+D2
+All you see ahead is darkness.
+~
+south~
+0 0 15162
+S
+#15164
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+All you see ahead is darkness.
+~
+north~
+0 0 15141
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15165
+S
+#15165
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15164
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15166
+S
+#15166
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15165
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15167
+S
+#15167
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15166
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15168
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15175
+S
+#15168
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15169
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15167
+S
+#15169
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15170
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15168
+S
+#15170
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D0
+This hallway leads to a home-cave.
+~
+~
+0 0 15173
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15171
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15169
+S
+#15171
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D1
+This hallway leads to a home-cave.
+~
+~
+0 0 15172
+D2
+This hallway leads to a home-cave.
+~
+~
+0 0 15174
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15170
+S
+#15172
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+
+~
+0 8 0
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15171
+S
+#15173
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+~
+0 8 0
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15170
+S
+#15174
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15171
+S
+#15175
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15167
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15176
+S
+#15176
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15175
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15177
+S
+#15177
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15176
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15183
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15178
+S
+#15178
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15177
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15179
+S
+#15179
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15178
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15180
+S
+#15180
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway splits towards some shops here.
+~
+0 8 0
+D0
+The hallway continues into a lighted shop.
+~
+~
+0 0 15181
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15179
+D2
+The hallway disappears into a darkened alcove.
+~
+~
+0 0 15182
+D3
+Exit description~
+~
+0 0 15306
+S
+#15181
+Darok's General Goods~
+As you enter this shop, a wizened old ghoul steps forward to the counter.
+"Feel free to look around my shop, I'm sure there is something here that will
+interest you, no matter how powerful you may be."
+~
+0 8 0
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15180
+S
+#15182
+Thayzar's Back Alley Emporium~
+This darkened room is more of an alcove in the hallway than an actual store.
+You can barely make out the form of a drow in the shadows towards the back of
+this cave.
+~
+0 9 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15180
+S
+#15183
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15184
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15177
+S
+#15184
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15185
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15183
+S
+#15185
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15186
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15184
+S
+#15186
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+~
+0 8 0
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15187
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15185
+S
+#15187
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15186
+D1
+This hallway leads to a home-cave.
+~
+~
+0 0 15239
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15188
+S
+#15188
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15187
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15189
+S
+#15189
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15188
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15190
+S
+#15190
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15189
+D1
+This hallway leads to a home-cave.
+~
+~
+0 0 15240
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15191
+S
+#15191
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15190
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15192
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15204
+S
+#15192
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15191
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15193
+S
+#15193
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15192
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15194
+S
+#15194
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15193
+D1
+This hallway leads to a home-cave.
+~
+~
+0 0 15241
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15195
+S
+#15195
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15194
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15196
+S
+#15196
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15195
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15197
+S
+#15197
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15196
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15198
+S
+#15198
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15197
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15199
+S
+#15199
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15198
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15200
+S
+#15200
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+runes of protection are much thicker than normal here.
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15199
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15201
+S
+#15201
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+runes of protection are much thicker than normal here.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15200
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15202
+S
+#15202
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+runes of protection are much thicker than normal here.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15201
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15203
+S
+#15203
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+runes of protection are much thicker than normal here.  The magic is so strong
+here, you can almost taste it in the air.  A bright silvery glow comes from
+south of you.
+
+~
+0 12 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15202
+D2
+~
+~
+0 0 15242
+S
+#15204
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15191
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15205
+S
+#15205
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15204
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15206
+S
+#15206
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15207
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15205
+D2
+~
+~
+0 0 15229
+S
+#15207
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15208
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15206
+S
+#15208
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15209
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15207
+S
+#15209
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15208
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15210
+S
+#15210
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15209
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15211
+S
+#15211
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15210
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15212
+S
+#15212
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15211
+D2
+A dark hallway lies ahead.
+~
+~
+0 0 15230
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15213
+S
+#15213
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15212
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15214
+S
+#15214
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15213
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15215
+S
+#15215
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15214
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15216
+S
+#15216
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15215
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15217
+S
+#15217
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15216
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15218
+S
+#15218
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15217
+D1
+A hallway filled with fun magic and music.
+~
+~
+0 0 15234
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15219
+S
+#15219
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15218
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15220
+S
+#15220
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15219
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15221
+S
+#15221
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15220
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15222
+S
+#15222
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15223
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15221
+S
+#15223
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15224
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15222
+S
+#15224
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.  The
+hallway branches here.
+~
+0 8 0
+D0
+A bright hallway lies ahead.
+~
+~
+0 0 15232
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15225
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15223
+S
+#15225
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15226
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15224
+S
+#15226
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D1
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15227
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15225
+S
+#15227
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15228
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15226
+S
+#15228
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15229
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15227
+S
+#15229
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+
+~
+0 8 0
+D0
+~
+~
+0 0 15206
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15228
+S
+#15230
+Dark Sigil-Covered Hallway~
+You enter a dark hallway, covered in small gold sigils.  The feeling of magic
+hits you especially hard in this location.
+~
+0 9 0
+D0
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15212
+D2
+This hallway leads back to the Library commons.
+~
+~
+0 0 15231
+S
+#15231
+The Black Room~
+A large black room, filled with the implements of magic.  Against one wall is
+a huge potion-distilling setup.  Across the other wall is a huge case of
+various books, most with magical lore you've never even heard or thought
+about.  In the center is a magical circle, used to confine experiments to that
+section of the room, protecting other occupants from the spells of others.
+
+
+
+~
+0 8 0
+D0
+A dark hallway lies ahead.
+~
+~
+0 0 15230
+D1
+A strong metal door.
+~
+door~
+3 0 15237
+S
+#15232
+Light Sigil-Covered Hallway~
+You enter a bright hallway, the walls covered in small silver sigils.  The
+feeling of protection spells is so strong here, you feel you are very close to
+the source.
+
+~
+0 8 0
+D0
+This hallway leads back to the Temple commons.
+~
+~
+0 0 15233
+D2
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15224
+S
+#15233
+The White Room~
+You enter a room filled with a collection of many relics, of the various
+religions you have heard about, and some that you don't recognize.  Many
+priestess's wander about here, praying, studying, and testing new items they
+have discovered.
+
+~
+0 8 0
+D1
+A strong wooden door
+~
+door~
+3 0 15238
+D2
+A bright hallway lies ahead.
+~
+~
+0 0 15232
+S
+#15234
+Enchanted Hallway~
+You have a feeling of safety wash over you as you step into this hallway.
+Bright colored lights dance about to a wonderful music that floats through the
+air.  A smile comes to your face as you realize you have entered a fantastic
+place.
+~
+0 1032 0
+D1
+~
+The Throne Room lies ahead.~
+0 0 15235
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15218
+S
+#15235
+Throne Room Of The Ghouls~
+You step into an ornately decorated throne room, home of the King and Queen of
+the Ghoul Kingdom.  Decorations and trophies from all over the Realm stand in
+places of honor about the room.  Your eye is drawn to two large thrones,
+carved of a strange wood, sitting in the back of the room.
+~
+0 1032 0
+D1
+This portal leads somewhere mysterious.
+~
+portal~
+8389671 15044 15236
+D3
+A hallway filled with fun magic and music.
+~
+~
+0 0 15234
+E
+throne thrones~
+The two majestic thrones are not actually carved of wood but, more accurately,
+are shaped from 2 tree's, grown for the purpose of seating the most mighty of
+the Ghouls.  The larger has the ghoul rune for "D" placed in it, while the
+other has the ghoul rune for "E" engraved.
+~
+S
+#15236
+The Ghoul Suite~
+This special room is for the King and Queen of the Ghouls, and any special
+guests they may let enter.  A large ebony dining table sits at one end,
+surrounded by plush, comfortable chairs.  An inviting pile of sleeping
+pillows, crafted of the finest of magical materials, lies at the other end of
+the room.  Fantastic decorations hang from the walls and stand on small
+pedestals.  What a great place to either have a party or just relax!
+~
+0 1048584 0
+D3
+This portal leads back to the Throne Room.
+~
+portal~
+8389671 15044 15235
+E
+pillows plush sleeping~
+Ghouls being more decadent then other races, sleep in piles of pillows instead
+of having dedicated beds.  This allows them to reshape and recreate the
+sleeping area as needs and moods see fit.  These particular pillows are indeed
+magical, and shift at will to the desires of the King and Queen of the Ghouls.
+~
+E
+table dining chairs~
+The large table in the room is crafted of ebony, yet you get the feel of
+strong magic emanating from it.  This table has the ability to enlarge, shrink
+and create chairs depending on how many are needed at the time.  It was a gift
+from the Lord of the Elves to King Drazuk, in return for some help with a
+nasty demon.
+~
+S
+#15237
+The Dark Library~
+You enter a dark room, which obviously belongs to the Master Mage of the
+Ghouls.  Many artifacts of extreme power lie about, covered by their own
+special spells of protection.  You get the feeling you don't belong in this
+room at all.
+~
+0 9 0
+D3
+This hallway leads back to the Library commons.
+~
+~
+3 0 15231
+S
+#15238
+The Light Temple~
+You step into what appears to be the temple of the High Priestess of the
+Ghouls.  You shiver as you realize you are not worthy to even look upon this
+room, let alone set foot in it.  You feel like you have made a bad choice
+coming here.
+~
+0 8 0
+D3
+This hallway leads back to the Temple commons.
+~
+~
+3 0 15233
+S
+#15239
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+
+~
+0 8 0
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15187
+S
+#15240
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+
+~
+0 8 0
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15190
+S
+#15241
+Ghoul Home~
+You step into the home-cave of a ghoul family.  Not many possessions lie
+about, nothing you are interested at least.  The cave is comfortable and
+clean, and you could see the appeal of living in such a place.
+
+~
+0 8 0
+D3
+The ancient stone hallways of the ghoul kingdom.
+~
+~
+0 0 15194
+S
+#15242
+The Cavern of the Silver Gate~
+You walk into a bright room, and are nearly blinded by the silver glare that
+springs from every corner.  The south wall of the room is made up of a huge
+silver gate, with a strange lock.  There are runes carved all around the
+gate...you better read them before doing anything else.
+~
+0 3145736 13
+D0
+~
+~
+0 0 15203
+D2
+It's hard to find your way around these dark caverns.
+~
+gate~
+25166887 15045 15243
+E
+runes gate~
+"Yog-Sothoth guards the gate to the prison of the Elder Gods.  The only way to
+obtain the key to the gate is to defeat him, and that won't be easy.  If you
+can defeat him, you might have a chance at the creatures beyond this gate, but
+once you enter, there is no turning back, and safety is not to be taken for
+granted.  Any less than a group of level 50 adventurer's should head back
+now."
+~
+S
+#15243
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D2
+Exit description~
+~
+0 0 15244
+S
+#15244
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15243
+D2
+~
+~
+0 0 15245
+S
+#15245
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  The blackness thickens to
+the south.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15244
+D2
+~
+~
+16777216 0 15246
+S
+#15246
+The Black Study~
+Stumbling from the cave, you enter what appears to be a study or laboratory.
+Foul smells and hideous noises greet you, the results of many ungodly
+experiments.  You feel sick to your stomach.
+~
+0 137371657 13
+D1
+~
+~
+8389671 15046 15247
+D3
+~
+~
+8389671 15046 15269
+S
+#15247
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+~
+~
+0 0 15248
+S
+#15248
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+~
+~
+0 0 15249
+D3
+Exit description~
+~
+0 0 15247
+S
+#15249
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D2
+~
+~
+0 0 15250
+D3
+Exit description~
+~
+0 0 15248
+S
+#15250
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15249
+D2
+~
+~
+0 0 15251
+S
+#15251
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15250
+D2
+~
+~
+0 0 15252
+S
+#15252
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15251
+D2
+~
+~
+0 0 15253
+S
+#15253
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15252
+D2
+~
+~
+0 0 15254
+S
+#15254
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15253
+D2
+~
+~
+0 0 15255
+S
+#15255
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15254
+D3
+~
+~
+0 0 15256
+S
+#15256
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15255
+D3
+~
+~
+0 0 15257
+S
+#15257
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  You hear the splashing of
+water to the west.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15256
+D3
+~
+~
+16777216 0 15258
+S
+#15258
+A Huge Underground Lake~
+The water you heard as you approached was the drips plopping from the rock
+ceiling into the huge lake underneath.  The water smells rancid and the muck
+at the edges won't let you turn back the way you came.  To the south appears
+to be a door in the rock of some sort, but how to open it, you have no clue.
+~
+0 137371657 6
+D2
+~
+~
+8389671 15047 15270
+S
+#15259
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  You hear the splashing of
+water to the east.
+~
+0 137371657 13
+D1
+~
+~
+16777216 0 15258
+D3
+~
+~
+0 0 15260
+S
+#15260
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+~
+~
+0 0 15259
+D3
+~
+~
+0 0 15261
+S
+#15261
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15262
+D1
+~
+~
+0 0 15260
+S
+#15262
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15263
+D2
+Exit description~
+~
+0 0 15261
+S
+#15263
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15264
+D2
+Exit description~
+~
+0 0 15262
+S
+#15264
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15265
+D2
+Exit description~
+~
+0 0 15263
+S
+#15265
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15266
+D2
+Exit description~
+~
+0 0 15264
+S
+#15266
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15267
+D2
+Exit description~
+~
+0 0 15265
+S
+#15267
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+~
+~
+0 0 15268
+D2
+Exit description~
+~
+0 0 15266
+S
+#15268
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+~
+~
+0 0 15269
+D3
+Exit description~
+~
+0 0 15267
+S
+#15269
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D3
+Exit description~
+~
+0 0 15268
+S
+#15270
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D2
+~
+~
+0 0 15271
+S
+#15271
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15270
+D2
+~
+~
+0 0 15272
+S
+#15272
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  It seems even darker to the
+south.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15271
+D2
+~
+~
+16777216 0 15273
+S
+#15273
+A Gigantic Cavern~
+As you enter, you quickly notice how huge this cavern is.  You cannot even see
+the ceiling above you, and the walls also disappear into the blackness.
+Skulls and other assorted bones litter the floor about you.
+~
+0 137371657 13
+D1
+~
+~
+1063 15048 15274
+D3
+~
+~
+1063 15048 15300
+S
+#15274
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15275
+S
+#15275
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15276
+D3
+Exit description~
+~
+0 0 15274
+S
+#15276
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15277
+D3
+Exit description~
+~
+0 0 15275
+S
+#15277
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D2
+Exit description~
+~
+0 0 15278
+D3
+Exit description~
+~
+0 0 15276
+S
+#15278
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15277
+D2
+Exit description~
+~
+0 0 15279
+S
+#15279
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15278
+D2
+Exit description~
+~
+0 0 15280
+S
+#15280
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15279
+D2
+Exit description~
+~
+0 0 15281
+S
+#15281
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15280
+D2
+Exit description~
+~
+0 0 15282
+S
+#15282
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15281
+D2
+Exit description~
+~
+0 0 15283
+S
+#15283
+The Temple of the Mother~
+You step into the next cavern and quickly take note of the various evil
+carvings and statues placed about.  The smell in here is enough to make you
+nauseous, and strange fumes burn your eyes.  The sound of wicked chanting
+comes from somewhere above.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15282
+D3
+Exit description~
+~
+0 0 15284
+S
+#15284
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15283
+D3
+Exit description~
+~
+0 0 15285
+S
+#15285
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15284
+D3
+Exit description~
+~
+0 0 15286
+S
+#15286
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15285
+D3
+Exit description~
+~
+0 0 15287
+S
+#15287
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15286
+D2
+~
+~
+0 0 15301
+D3
+Exit description~
+~
+0 0 15288
+S
+#15288
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15287
+D3
+Exit description~
+~
+0 0 15289
+S
+#15289
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15288
+D3
+Exit description~
+~
+0 0 15290
+S
+#15290
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15289
+D3
+Exit description~
+~
+0 0 15291
+S
+#15291
+The Temple of the Toad~
+This cavern echoes with the croakings of various toad's and their brethren.
+The floor is slick with a slime on the ground, which makes walking difficult.
+Evil chanting fills the air, but you don't see any source for that particular
+noise.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15292
+D1
+Exit description~
+~
+0 0 15290
+S
+#15292
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15293
+D2
+Exit description~
+~
+0 0 15291
+S
+#15293
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15294
+D2
+Exit description~
+~
+0 0 15292
+S
+#15294
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15295
+D2
+Exit description~
+~
+0 0 15293
+S
+#15295
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15296
+D2
+Exit description~
+~
+0 0 15294
+S
+#15296
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15297
+D2
+Exit description~
+~
+0 0 15295
+S
+#15297
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15298
+D2
+Exit description~
+~
+0 0 15296
+S
+#15298
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15299
+D3
+Exit description~
+~
+0 0 15297
+S
+#15299
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D1
+Exit description~
+~
+0 0 15300
+D3
+Exit description~
+~
+0 0 15298
+S
+#15300
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.
+~
+0 137371657 13
+D3
+Exit description~
+~
+0 0 15299
+S
+#15301
+Dark Slimy Caverns~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  A wave of protection magics
+is coming from the caverns to the south.
+~
+0 137371657 13
+D0
+Exit description~
+~
+0 0 15287
+D2
+~
+~
+16777216 0 15302
+S
+#15302
+A Barrier Gate~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  South of you is a huge
+barrier covered in runes of protection.
+~
+0 137371657 13
+D0
+~
+~
+0 0 15301
+D2
+~
+~
+8389671 15049 15303
+S
+#15303
+A Barrier Gate~
+You stumble about in the dark, tripping over bones of previous visitors.
+Strange noises assault you ears and you swear you see things moving that are
+not there on a second glance.  You feel what sanity you had left slowly
+slipping away the further you walk into the dark.  South of you is an even
+large gate, with spells of imprisonment weaved around the locks.
+~
+0 137371657 13
+D2
+~
+~
+8389671 15050 15304
+S
+#15304
+The Black Pentagram~
+A wave of pure evil strikes you as you enter this room.  A huge black
+pentagram is carved into the rock of the floor here, obviously used to lock
+some potent being inside.  Just entering this room will upset the balance of
+magical powers here.
+~
+0 137371657 13
+D2
+~
+~
+8389671 15051 15305
+S
+#15305
+Room Of The Hero~
+You step into a brightly lit room, of the likes you've never seen.  Rich food
+and drink sit on a huge table to one side of the room, and comfortable chairs
+are placed so you can relax.  You stop a moment and realize that this has been
+the most exciting moment of your adventuring career up to this point.  Where
+to go next?
+~
+0 1036 13
+S
+#15306
+Old Stone Hallway~
+You move about through the old stone hallways of the ghoul kingdom.  Strange
+runes are carved onto the walls, writings of ages past.  The feel of powerful
+magic wards and spells of protection surge throughout the whole kingdom.
+~
+0 8 0
+D0
+~
+~
+8389671 15063 15307
+D1
+~
+~
+0 0 15180
+D2
+~
+~
+8389671 15078 15316
+S
+#15307
+Shajaans -- Main Foyer~
+Upon walking into the foyer of this large abode, you see a large, orangish
+blood stain in the corner of the room. A fierce warrior hangs his blood
+stained armor here. The room is furnished with blood red tapestries upon
+the walls and floors, and black pelt furniture. The walls are covered in
+skins and scales from the battles of this great warrior. Sitting in the
+corner of the room is a large liquor cabinet full of some of the most
+expensive and exotic alcohols known to the world. The warriors obvious
+favorite, absinthe, fills the majority of the cabinet, with a special candle
+and sugar to mix in sitting next to it. Glaring down at you is the
+decapitated head of the great golden dragon from the south. To the east
+can be seen what looks to be a trophy room, and to the west a storage room.
+~
+0 3146760 0
+D1
+~
+~
+0 0 15309
+D2
+~
+~
+8389671 15063 15306
+D3
+~
+~
+0 0 15308
+S
+#15308
+Shajaans -- Storage Room~
+All kinds of armor and weapons are sorted all along the walls and hanging
+on racks in the room. The warrior of this home has completed many a
+quest and achievements to gather such a large collection of artifacts
+and beautiful armor. Contemplating stealing any of this equipment will
+bring certain death to that unfortunate soul. Above this room is a
+beautiful stained glass mosaic of the warrior slaying the fierce
+black dragon. A large voice bellows from the area around and says,
+"Get Out!" A cold shiver runs down your spine and you know; you
+shouldn't be here.
+~
+0 271582216 0
+D1
+Exit description~
+~
+0 0 15307
+S
+#15309
+Shajaans -- Trophy Room~
+This is a great room. Walls are covered in skulls of dragons, and heads
+kept as trophy's from the great escapades of this evil warrior. A large
+stone round table sits in the middle of this room. Upon the table sits
+a grouping of ceremonial candles with a red stained glass candelas sitting
+around each candle. The flames flicker and shine through the stained
+glass filling the room with a red glowing light. The red light shines
+upon the trophies and skulls decapitated and collected by the warrior.
+Back to the west is the foyer.
+~
+0 3146760 0
+D3
+Exit description~
+~
+0 0 15307
+S
+#15310
+The Misty Graveyard~
+As you step through the dark gateway, you realize that you have stumbled
+into some type of graveyard.  The mist flows like water here, hampering your
+vision of the ground.  You can however make out what looks like broken
+tombstones, and what appears to be an arm.  To the north you see an enormous
+obsidian structure, but you will need to move closer for further inspection.
+Suddenly you feel something brush by your leg, and quickly step aside only to
+hear the crunching of bones.
+~
+0 3146760 13
+D0
+~
+~
+0 0 15311
+D2
+~
+~
+8389671 15068 15103
+S
+#15311
+The Misty Graveyard~
+You are now standing directly in front of the obsidian keep.  Looking both
+east and west, you see the walls of the keep stretch onward into the darkness.
+You are also able to see what looks to be a tower streaking toward the heavens
+through the ceiling in this cavern.  There are no tombstones here, but piles
+of bodies are stacked up against the wall.  It would seem that the caretaker
+here has more work then he can handle.  You can hear some demonic noises
+coming from within the keep, and if you are not careful, you just might end up
+with these poor souls against the wall.
+~
+0 3146760 13
+D0
+~
+~
+0 0 15312
+D2
+~
+~
+0 0 15310
+S
+#15312
+Main Hall~
+Immediately you realize the demonic noises you vaguely heard are actually
+many demons chanting a long forgotten hymn.  The melody is somewhat soothing
+as it echoes down the long dark corridors.  Looking around, you are almost
+caught in a state of awe at the beauty of this place.  In a large display case
+you see a set of lacquered bone armor, accompanied by a wicked looking helmet,
+and the fabled "Bad Karma" long sword.  The floors, walls and ceiling are made
+from same obsidian as the exterior of the keep.  Covering the ceiling
+you realize that the obsidian has been painted over with pictures of epic
+battles and huge beasts.  In the largest picture in this room, a menacing
+looking ghoul stands in victory over his prey with one sword raised in the air
+and the other still in his victim.  Below this artwork you notice a small imp
+writing the words, "The Impaler vs. The Warlord Zanzen".  To the
+north it appears that the hallway expands to a much larger room.  There are
+also hallways to the east and west, neither more inviting then the other.
+~
+0 271582216 0
+D2
+Exit description~
+~
+0 0 15311
+S
+#15316
+Entry Hall~
+You step through a large, black fang-handled door with symbols and markings
+that look to have been chewed into the door by some kind of beast.  As you
+step forward into this room the door then slams loudly behind you and proceeds
+to latch itself closed.  Once into the room, the first thing that you notice
+is that across the room there are two large gargoyle statues on either side of
+an enormous fire place with a raging black flamed fire burning hotly inside of
+it.  Something appears to be on a spit above the flames...it looks to be the
+head of something???  In front of the fireplace there is a rug of human skin
+roughly stitched together with what appears to be some sort of vine and two
+large arm chairs facing the fire.  Along the wall on the right there is a
+large blackened book shelf.  It holds many ancient and dusty books.  Off to
+the left you see a large black root coming through the ceiling and across to
+the corner, with many bottles and a strange looking Ogre barman standing
+behind it.  There is another black root that looks to be a stairway that leads
+up and to the left.  The handrails are lined with many of the same markings
+and symbols as the door.
+~
+0 3146760 0
+D0
+~
+~
+8389671 15078 15306
+D4
+Exit description~
+~
+0 0 15317
+S
+#15317
+Top Of The Stairs~
+You enter past two ogres with their mouths stitched close.  As you step into
+the room you notice that it is an enchanted room.  Where the ceiling should be
+you see the mid-night sky with stars shooting through the sky and swirling
+clouds of color dancing through the cosmos above you.  Straight out from the
+door in the middle of the room is a contraption that looks like it is to be
+used to look at the stars.  The floor of this room is the softest, greenest
+grass that you have even seen.  There are vines climbing the walls all around
+you.  Off to the right there is a large steaming pool of water with a small
+waterfall that drops into it.  Off to the left there appears to be a passage
+between the vines into a dark place.
+~
+0 3146760 0
+D3
+Exit description~
+~
+0 0 15318
+D5
+Exit description~
+~
+0 0 15316
+S
+#15318
+Side Chamber~
+As you come through the vines, they open into a dark canopy, formed from the
+under side of a large tree.  The roots seem to cover the ceiling and grow down
+the walls.  The floor appears to be the same grass that you saw in the room
+prior.  In the center of the room lies a large pile of different skins of dead
+animals and beasts.
+~
+0 271582216 0
+D1
+Exit description~
+~
+0 0 15317
+S
+#15319
+A Dark Passage~
+You stand in a dark passage.  A rough-hewn stone staircase heads up into
+darkness...you can only see the first few steps.  An aura of fear seems to
+almost drip down all around you, like some sort of nightmarish coating.  For
+some reason, a tired feeling seems to be seeping right through your skin and
+lodging itself deep in your body.  Your eyes begin to droop...
+
+~
+0 1 0
+D2
+~
+~
+3 0 15045
+D4
+~
+~
+0 0 15320
+S
+#15320
+A Dark Passage~
+Climbing the stairs into darkness causes you to feel even sleepier.  This must
+be the product of powerful magic, since you felt much more rested just a
+little while ago.  It seems as if some sort of light is coming from above you,
+but maybe it's just your eyes playing tricks with your mind.
+~
+0 1 0
+D4
+~
+~
+0 0 14000
+D5
+~
+~
+0 0 15319
+S
+#15350
+Placeholder~
+Placeholder
+~
+0 1036 13
+S
+#0
+
+
+#RESETS
+D 0 15045 0 1
+D 0 15319 2 1
+M 0 15057 1 15316
+G 1 15084 1
+G 1 15083 1
+G 1 15082 1
+G 1 15081 1
+G 1 15080 1
+G 1 15079 1
+D 0 15306 2 2
+D 0 15316 0 2
+M 0 15056 4 15275
+M 0 15056 4 15275
+M 0 15056 4 15275
+M 0 15056 4 15275
+M 0 15055 4 15296
+M 0 15055 4 15296
+M 0 15055 4 15296
+M 0 15055 4 15296
+M 0 15053 1 15307
+G 1 15067 1
+G 1 15066 1
+G 1 15065 1
+G 1 15064 1
+M 0 15052 1 15007
+M 0 15051 1 15003
+O 0 15061 1 15094
+O 0 15060 1 15047
+O 0 15059 1 15000
+M 0 15023 3 15244
+M 0 15022 3 15243
+M 0 15043 4 15249
+M 0 15043 4 15249
+M 0 15043 4 15249
+M 0 15043 4 15249
+M 0 15045 4 15267
+M 0 15045 4 15267
+M 0 15045 4 15267
+M 0 15045 4 15267
+M 0 15044 4 15273
+M 0 15046 4 15273
+M 0 15047 4 15277
+M 0 15047 4 15277
+M 0 15047 4 15277
+M 0 15047 4 15277
+M 0 15048 4 15297
+M 0 15048 4 15297
+M 0 15048 4 15297
+M 0 15048 4 15297
+M 0 15048 4 15297
+M 0 15049 4 15302
+M 0 15050 4 15303
+M 0 15020 1 15304
+E 0 15062 1 21
+E 0 15052 15 25
+G 0 15051 1
+E 0 15037 10 0
+M 0 15026 1 15283
+E 0 15057 1 25
+G 0 15050 1
+E 0 15042 10 24
+M 0 15027 1 15291
+E 0 15058 1 25
+G 0 15049 1
+E 0 15043 10 24
+M 0 15025 1 15273
+E 0 15055 1 25
+G 0 15048 1
+E 0 15040 10 14
+M 0 15021 1 15258
+E 0 15053 1 25
+G 0 15047 1
+E 0 15038 15 23
+M 0 15024 1 15246
+E 0 15054 1 25
+G 0 15046 1
+E 0 15039 10 5
+M 0 15028 1 15242
+E 0 15056 1 25
+G 0 15045 1
+E 0 15041 15 7
+D 0 15304 2 2
+D 0 15303 2 2
+D 0 15302 2 2
+D 0 15273 1 2
+D 0 15273 3 2
+D 0 15258 2 2
+D 0 15246 1 2
+D 0 15246 3 2
+D 0 15242 2 2
+M 0 15040 5 15198
+M 0 15040 5 15198
+M 0 15014 6 15241
+M 0 15014 6 15241
+M 0 15014 6 15240
+M 0 15014 6 15240
+M 0 15013 6 15239
+M 0 15013 6 15239
+M 0 15013 6 15241
+M 0 15013 6 15241
+M 0 15012 25 15241
+M 0 15012 25 15241
+M 0 15012 25 15241
+M 0 15012 25 15240
+M 0 15012 25 15240
+M 0 15012 25 15240
+M 0 15012 25 15239
+M 0 15012 25 15239
+M 0 15012 25 15239
+M 0 15042 5 15173
+M 0 15042 5 15173
+M 0 15042 5 15173
+M 0 15042 5 15173
+M 0 15042 5 15173
+M 0 15041 5 15172
+M 0 15041 5 15172
+M 0 15041 5 15172
+M 0 15041 5 15172
+M 0 15041 5 15172
+M 0 15030 1 15182
+G 0 15029 1
+G 0 15028 1
+G 0 15027 1
+G 0 15026 1
+G 0 15025 1
+G 0 15024 1
+M 0 15029 1 15181
+G 0 15020 1
+G 0 15019 1
+G 0 15018 1
+G 0 15017 1
+M 0 15016 5 15230
+M 0 15016 5 15230
+M 0 15016 5 15230
+M 0 15016 5 15230
+M 0 15016 5 15230
+M 0 15015 5 15232
+M 0 15015 5 15232
+M 0 15015 5 15232
+M 0 15015 5 15232
+M 0 15015 5 15232
+M 0 15036 3 15231
+M 0 15036 3 15231
+M 0 15036 3 15231
+E 0 15032 1 7
+M 0 15037 3 15233
+M 0 15037 3 15233
+M 0 15037 3 15233
+E 0 15031 1 7
+M 0 15038 3 15237
+M 0 15038 3 15237
+M 0 15038 3 15237
+E 0 15032 1 7
+M 0 15018 1 15237
+E 0 15021 1 24
+E 0 15036 1 12
+E 0 15034 1 7
+M 0 15039 3 15238
+M 0 15039 3 15238
+M 0 15039 3 15238
+E 0 15031 1 7
+M 0 15017 1 15238
+E 0 15022 1 24
+E 0 15035 1 12
+E 0 15033 1 7
+M 0 15035 1 15235
+E 0 15044 1 24
+D 0 15236 3 2
+D 0 15235 1 2
+D 0 15238 3 1
+D 0 15233 1 1
+D 0 15237 3 1
+D 0 15231 1 1
+D 0 15094 4 2
+D 0 15093 5 2
+O 0 15023 1 15157
+H 0 15023 1 0
+M 0 15006 12 15108
+M 0 15006 12 15108
+M 0 15006 12 15108
+M 0 15006 12 15108
+M 0 15006 12 15108
+M 0 15006 12 15108
+M 0 15006 12 15157
+M 0 15006 12 15157
+M 0 15006 12 15157
+M 0 15006 12 15157
+M 0 15006 12 15157
+M 0 15006 12 15157
+M 0 15015 5 15109
+M 0 15015 5 15109
+M 0 15015 5 15109
+M 0 15015 5 15109
+M 0 15015 5 15109
+M 0 15016 5 15155
+M 0 15016 5 15155
+M 0 15016 5 15155
+M 0 15016 5 15155
+M 0 15016 5 15155
+M 0 15014 8 15119
+M 0 15014 8 15119
+M 0 15014 8 15119
+M 0 15014 8 15119
+M 0 15014 8 15136
+M 0 15014 8 15136
+M 0 15014 8 15136
+M 0 15014 8 15136
+M 0 15013 6 15146
+M 0 15013 6 15146
+M 0 15013 6 15146
+M 0 15013 6 15121
+M 0 15013 6 15121
+M 0 15013 6 15121
+M 0 15012 16 15098
+M 0 15012 16 15098
+M 0 15012 16 15098
+M 0 15012 16 15098
+M 0 15012 16 15132
+M 0 15012 16 15132
+M 0 15012 16 15132
+M 0 15012 16 15132
+M 0 15012 16 15162
+M 0 15012 16 15162
+M 0 15012 16 15162
+M 0 15012 16 15162
+M 0 15012 16 15112
+M 0 15012 16 15112
+M 0 15012 16 15112
+M 0 15012 16 15112
+M 0 15019 4 15108
+M 0 15019 4 15108
+M 0 15019 4 15108
+M 0 15031 4 15108
+M 0 15031 4 15108
+M 0 15031 4 15108
+M 0 15019 4 15157
+M 0 15031 4 15157
+D 0 15046 3 1
+D 0 15044 1 1
+D 0 15045 1 1
+D 0 15045 3 1
+D 0 15047 4 2
+D 0 15045 5 2
+D 0 15037 3 1
+D 0 15035 1 1
+D 0 15036 3 1
+D 0 15036 1 1
+D 0 15034 3 1
+D 0 15032 1 1
+D 0 15033 1 1
+D 0 15033 3 1
+D 0 15031 3 1
+D 0 15030 1 1
+D 0 15029 1 1
+D 0 15029 3 1
+D 0 15029 2 1
+D 0 15007 2 1
+D 0 15007 0 1
+D 0 15006 0 1
+M 0 15011 5 15093
+M 0 15011 5 15093
+M 0 15011 5 15093
+M 0 15011 5 15093
+E 0 15030 1 24
+E 0 15012 1 8
+E 0 15011 1 20
+E 0 15013 1 21
+M 0 15011 5 15093
+E 0 15013 1 21
+E 0 15012 1 8
+E 0 15011 1 20
+M 0 15010 4 15076
+M 0 15010 4 15076
+E 0 15006 1 21
+E 0 15004 1 7
+E 0 15003 1 1
+M 0 15010 4 15076
+M 0 15010 4 15076
+E 0 15006 1 21
+E 0 15004 1 7
+E 0 15003 1 1
+M 0 15032 4 15074
+M 0 15032 4 15074
+E 0 15003 1 1
+E 0 15004 1 7
+E 0 15006 1 21
+M 0 15032 4 15074
+M 0 15032 4 15074
+E 0 15006 1 21
+E 0 15004 1 7
+E 0 15003 1 1
+M 0 15009 9 15066
+M 0 15033 3 15066
+M 0 15033 3 15066
+M 0 15033 3 15066
+E 0 15007 1 7
+M 0 15009 9 15091
+M 0 15009 9 15091
+M 0 15009 9 15091
+M 0 15009 9 15091
+M 0 15009 9 15050
+M 0 15009 9 15050
+M 0 15009 9 15050
+M 0 15009 9 15050
+M 0 15034 4 15050
+M 0 15034 4 15050
+M 0 15034 4 15050
+M 0 15034 4 15050
+E 0 15005 1 21
+M 0 15008 8 15082
+M 0 15008 8 15082
+M 0 15008 8 15082
+M 0 15008 8 15082
+E 0 15014 1 9
+M 0 15008 8 15062
+M 0 15008 8 15062
+E 0 15016 1 21
+M 0 15008 8 15070
+M 0 15008 8 15070
+E 0 15015 1 9
+M 0 15007 1 15093
+E 0 15010 1 15
+E 0 15009 1 21
+E 0 15008 1 7
+M 0 15006 4 15058
+M 0 15006 4 15058
+M 0 15006 4 15065
+M 0 15006 4 15065
+M 0 15005 1 15046
+E 0 15002 1 12
+M 0 15000 10 15002
+M 0 15000 10 15002
+M 0 15000 10 15007
+M 0 15000 10 15007
+M 0 15000 10 15013
+M 0 15000 10 15013
+M 0 15000 10 15024
+M 0 15000 10 15024
+M 0 15000 10 15018
+M 0 15000 10 15018
+M 0 15001 4 15017
+M 0 15001 4 15017
+M 0 15001 4 15019
+M 0 15001 4 15019
+O 0 15000 2 15021
+O 0 15000 2 15011
+M 0 15003 3 15029
+M 0 15002 4 15030
+M 0 15002 4 15034
+M 0 15003 3 15035
+M 0 15002 4 15038
+M 0 15003 3 15040
+M 0 15002 4 15043
+M 0 15004 1 15044
+E 0 15001 1 24
+S
+
+
+#SHOPS
+ 15029    8  9  5  3  4   120  90         7 18    ; Darok
+ 15030    9  5  8  0  0   120  90         7 18    ; Thayzar
+ 15053   17 19  8  5  9   120  90         0 23    ; a shackled human
+ 15057   17  0  0  0  0   120  90         0 23    ; an ogre bartender
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  15000 spec_janitor
+M  15001 spec_fido
+M  15004 spec_cast_undead
+M  15006 spec_fido
+M  15009 spec_janitor
+M  15010 spec_guard
+M  15011 spec_guard
+M  15012 spec_janitor
+M  15015 spec_cast_undead
+M  15016 spec_cast_mage
+M  15017 spec_cast_bishop
+M  15018 spec_cast_archmagi
+M  15020 spec_breath_any
+M  15021 spec_cast_bishop
+M  15023 spec_janitor
+M  15024 spec_cast_archmagi
+M  15025 spec_breath_acid
+M  15026 spec_cast_bishop
+M  15027 spec_cast_archmagi
+M  15028 spec_cast_bishop
+M  15029 spec_cast_mage
+M  15030 spec_cast_undead
+M  15032 spec_guard
+M  15033 spec_janitor
+M  15034 spec_janitor
+M  15036 spec_cast_mage
+M  15037 spec_cast_cleric
+M  15038 spec_cast_diabolist
+M  15039 spec_cast_druid
+M  15045 spec_janitor
+M  15046 spec_janitor
+M  15047 spec_janitor
+M  15050 spec_janitor
+M  15051 spec_executioner
+M  15052 spec_cast_archmagi
+M  15056 spec_janitor
+S
+
+
+#$

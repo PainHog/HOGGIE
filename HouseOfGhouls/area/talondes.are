@@ -1,0 +1,4622 @@
+#AREA   Talon Desert~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+5 50 1 65
+$
+
+#RESETMSG Sand stings your eyes as it whips past your face...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 57939355
+
+#CLIMATE 4 0 1
+
+#MOBILES
+#1301
+hawk redtail~
+a redtail hawk~
+A circling redtail hawk rides the winds and lets out a lonely screech.
+~
+This hawk is quite beautiful, soaring amongst the hot winds that rise from the
+dunes of the desert.  It looks for smaller game to feed itself, and ignores
+you for now.
+~
+16777281 4718592 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 1 1 0
+0 0 17072129 0 0 0 514 0
+#1302
+lizard scaled~
+a small scaled lizard~
+A small lizard, covered in gray scales.
+~
+A small, gray-scaled lizard sits in the warmth of the sun.  His eyes watch
+your approach, but he doesn't move from his spot.
+~
+16777281 32768 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 39 0 0 0 3 0
+#1303
+tumbleweed weed~
+a tumbleweed~
+A prickly tumbleweed blows right at you!
+~
+This tumbleweed has made itself up out of some very sharp thorny plant.  The
+wind launched it right off the dune, right into your face!
+~
+97 6815784 0 C
+3 0 65 2d5+45 1d5+3
+5 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 6 0 0 1 1 0
+0 0 0 0 0 1 0 0
+#1304
+jinn minor~
+a minor jinn~
+A small jinn flits about, trying to get your attention.
+~
+This little jinn flits about annoyingly, trying to get your attention to tell
+you some tale tale or another.  Everyone knows these little genies are nothing
+but trouble.
+~
+16777281 524288 1000 C
+7 0 45 3d6+110 2d5+2
+15 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 32771 1048576 0 0 33554433 2
+#1305
+scorpion red~
+a small red scorpion~
+A small scorpion scuttles along, his tail held high.
+~
+This little scorpion is aware of you and has his tail held up high over his
+body, ready to inject you with poison if you try to mess with it.  Perhaps you
+should just leave it alone?
+~
+16777285 4194304 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4456449 256 0 0 131080 0
+#1306
+snake rattle~
+a sandy rattlesnake~
+You barely spot the sand-colored rattlesnake!
+~
+Right before you step on it, the sand covered rattlesnake shakes its rattle at
+you...a sign of danger!  You should slowly step away, and allow the snake time
+to move on.
+~
+16777281 512 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 524289 2 0 0 131073 0
+#1307
+hawk redtail~
+a redtail hawk~
+A circling redtail hawk rides the winds and lets out a lonely screech.
+~
+This hawk is quite beautiful, soaring amongst the hot winds that rise from the
+dunes of the desert.  It looks for smaller game to feed itself, and ignores
+you for now.
+~
+16777281 4718592 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 1 1 0
+0 0 17072129 0 0 0 514 0
+#1308
+hawk redtail~
+a redtail hawk~
+A circling redtail hawk rides the winds and lets out a lonely screech.
+~
+This hawk is quite beautiful, soaring amongst the hot winds that rise from the
+dunes of the desert.  It looks for smaller game to feed itself, and ignores
+you for now.
+~
+16777281 4718592 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 1 1 0
+0 0 17072129 0 0 0 514 0
+#1309
+lizard scaled~
+a small scaled lizard~
+A small lizard, covered in gray scales.
+~
+A small, gray-scaled lizard sits in the warmth of the sun.  His eyes watch
+your approach, but he doesn't move from his spot.
+~
+16777281 32768 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 39 0 0 0 3 0
+#1310
+lizard scaled~
+a small scaled lizard~
+A small lizard, covered in gray scales.
+~
+A small, gray-scaled lizard sits in the warmth of the sun.  His eyes watch
+your approach, but he doesn't move from his spot.
+~
+16777281 32768 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 39 0 0 0 3 0
+#1311
+tumbleweed weed~
+a tumbleweed~
+A prickly tumbleweed blows right at you!
+~
+This tumbleweed has made itself up out of some very sharp thorny plant.  The
+wind launched it right off the dune, right into your face!
+~
+97 6815784 0 C
+3 0 65 2d5+45 1d5+3
+5 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 6 0 0 1 1 0
+0 0 0 0 0 1 0 0
+#1312
+jinn minor~
+a minor jinn~
+A small jinn flits about, trying to get your attention.
+~
+This little jinn flits about annoyingly, trying to get your attention to tell
+you some tale tale or another.  Everyone knows these little genies are nothing
+but trouble.
+~
+16777281 524288&256 1000 C
+7 0 45 3d6+110 2d5+2
+15 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 2 0 0 8192 8192 0
+0 0 32771 1048576 0 0 33554433 2
+#1313
+scorpion red~
+a small red scorpion~
+A small scorpion scuttles along, his tail held high.
+~
+This little scorpion is aware of you and has his tail held up high over his
+body, ready to inject you with poison if you try to mess with it.  Perhaps you
+should just leave it alone?
+~
+16777285 4194304 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4456449 256 0 0 131080 0
+#1314
+scorpion red~
+a small red scorpion~
+A small scorpion scuttles along, his tail held high.
+~
+This little scorpion is aware of you and has his tail held up high over his
+body, ready to inject you with poison if you try to mess with it.  Perhaps you
+should just leave it alone?
+~
+16777285 4194304 0 C
+6 0 50 2d5+90 2d5+1
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4456449 256 0 0 131080 0
+#1315
+snake rattle~
+a sandy rattlesnake~
+You barely spot the sand-colored rattlesnake!
+~
+Right before you step on it, the sand covered rattlesnake shakes its rattle at
+you...a sign of danger!  You should slowly step away, and allow the snake time
+to move on.
+~
+16777281 512 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 524289 2 0 0 131073 0
+#1316
+snake rattle~
+a sandy rattlesnake~
+You barely spot the sand-colored rattlesnake!
+~
+Right before you step on it, the sand covered rattlesnake shakes its rattle at
+you...a sign of danger!  You should slowly step away, and allow the snake time
+to move on.
+~
+16777281 512 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 524289 2 0 0 131073 0
+#1317
+scarab beetle~
+a large scarab~
+A huge scarab beetle crawls along the floor.
+~
+This giant beetle scuttles about, trying to stay at the edge of your light.
+It seems to be avoiding you.  Its armor looks pretty thick, and you wonder if
+your weapon could even hurt such a beast.
+~
+16777281 32768 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4097 8192 0 0 65 0
+#1318
+scarab beetle~
+a large scarab~
+A huge scarab beetle crawls along the floor.
+~
+This giant beetle scuttles about, trying to stay at the edge of your light.
+It seems to be avoiding you.  Its armor looks pretty thick, and you wonder if
+your weapon could even hurt such a beast.
+~
+16777281 32768 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4097 8192 0 0 65 0
+#1319
+scarab beetle~
+a large scarab~
+A huge scarab beetle crawls along the floor.
+~
+This giant beetle scuttles about, trying to stay at the edge of your light.
+It seems to be avoiding you.  Its armor looks pretty thick, and you wonder if
+your weapon could even hurt such a beast.
+~
+16777281 32768 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4097 8192 0 0 65 0
+#1320
+scarab beetle~
+a large scarab~
+A huge scarab beetle crawls along the floor.
+~
+This giant beetle scuttles about, trying to stay at the edge of your light.
+It seems to be avoiding you.  Its armor looks pretty thick, and you wonder if
+your weapon could even hurt such a beast.
+~
+16777281 32768 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4097 8192 0 0 65 0
+#1321
+cobra snake~
+a king cobra~
+A large snake with a strange mark on its neck slithers along.
+~
+As you stop and look at the snake, it slowly raises its own head to look back
+at you, and a large hood uncurls on his neck.  It slowly sways and hisses at
+you.
+~
+16777281 0&256 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 589825 256 0 0 131073 0
+#1322
+cobra snake~
+a king cobra~
+A large snake with a strange mark on its neck slithers along.
+~
+As you stop and look at the snake, it slowly raises its own head to look back
+at you, and a large hood uncurls on his neck.  It slowly sways and hisses at
+you.
+~
+16777281 0&256 0 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 589825 256 0 0 131073 0
+#1323
+skeleton undead slave~
+a skeleton of a slave~
+This skeleton is dressed in the rags of a slave.
+~
+The rags of the slave mark this skeleton as one who labored hard on the
+pyramid.  Its reward for the grueling work was to be walled up inside his own
+creation, and to die gloriously with his pharaoh.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 0
+0 0 7 96 0 0 2 0
+#1324
+skeleton undead slave~
+a skeleton of a slave~
+This skeleton is dressed in the rags of a slave.
+~
+The rags of the slave mark this skeleton as one who labored hard on the
+pyramid.  Its reward for the grueling work was to be walled up inside his own
+creation, and to die gloriously with his pharaoh.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 0
+0 0 7 96 0 0 2 0
+#1325
+skeleton undead slave~
+a skeleton of a slave~
+This skeleton is dressed in the rags of a slave.
+~
+The rags of the slave mark this skeleton as one who labored hard on the
+pyramid.  Its reward for the grueling work was to be walled up inside his own
+creation, and to die gloriously with his pharaoh.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 0
+0 0 7 96 0 0 2 0
+#1326
+skeleton undead slave~
+a skeleton of a slave~
+This skeleton is dressed in the rags of a slave.
+~
+The rags of the slave mark this skeleton as one who labored hard on the
+pyramid.  Its reward for the grueling work was to be walled up inside his own
+creation, and to die gloriously with his pharaoh.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 0
+0 0 7 96 0 0 2 0
+#1327
+skeleton guard armored~
+a skeleton guard~
+An armored skeleton strolls into view.
+~
+This skeleton is wearing armor, and carrying a weapon.  His job was once to
+ensure cooperation with the slaves, now he is doomed to watch them for
+eternity.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 21 0 0 1 1 0
+0 0 7 96 0 0 66 1
+#1328
+skeleton guard armored~
+a skeleton guard~
+An armored skeleton strolls into view.
+~
+This skeleton is wearing armor, and carrying a weapon.  His job was once to
+ensure cooperation with the slaves, now he is doomed to watch them for
+eternity.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 21 0 0 1 1 0
+0 0 7 96 0 0 66 1
+#1329
+skeleton guard armored~
+a skeleton guard~
+An armored skeleton strolls into view.
+~
+This skeleton is wearing armor, and carrying a weapon.  His job was once to
+ensure cooperation with the slaves, now he is doomed to watch them for
+eternity.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 21 0 0 1 1 0
+0 0 7 96 0 0 66 1
+#1330
+acolyte skeleton junior~
+a skeleton acolyte~
+A skeleton dressed in the robes of a junior priest walks by.
+~
+This skeleton is dressed in the robes of an acolyte, and must of been placed
+here to serve the priests to the finish.  He continues his job of helping them
+in their duties to this day.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 1 1 0
+0 0 7 96 0 0 34 16
+#1331
+acolyte skeleton junior~
+a skeleton acolyte~
+A skeleton dressed in the robes of a junior priest walks by.
+~
+This skeleton is dressed in the robes of an acolyte, and must of been placed
+here to serve the priests to the finish.  He continues his job of helping them
+in their duties to this day.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 1 1 0
+0 0 7 96 0 0 34 16
+#1332
+acolyte skeleton junior~
+a skeleton acolyte~
+A skeleton dressed in the robes of a junior priest walks by.
+~
+This skeleton is dressed in the robes of an acolyte, and must of been placed
+here to serve the priests to the finish.  He continues his job of helping them
+in their duties to this day.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+30 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 1 0 0 1 1 0
+0 0 7 96 0 0 34 16
+#1333
+mummy priest~
+a mummified priest~
+A mummy garbed as a priest shuffles along the corridor.
+~
+With a low moan, the mummified priest shuffles along down the corridor.  It
+never thought that it's time in the afterlife with his pharaoh would be spent
+like this.
+~
+16777281 0 0 C
+16 0 0 3d6+270 3d5+6
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 1 0 0 1 1 0
+0 0 7 0 0 1 33554448 32
+#1334
+mummy priest~
+a mummified priest~
+A mummy garbed as a priest shuffles along the corridor.
+~
+With a low moan, the mummified priest shuffles along down the corridor.  It
+never thought that it's time in the afterlife with his pharaoh would be spent
+like this.
+~
+16777281 0 0 C
+16 0 0 3d6+270 3d5+6
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 1 0 0 1 1 0
+0 0 7 0 0 1 33554448 32
+#1335
+prince mummy~
+the mummy prince~
+This mummy's gold and gems jangle as it shuffles along.
+~
+This mummy is decorated with a lot of jewelry, it must of been one of the
+royal family.  A prince, from the looks of things.
+~
+16777281 0 0 C
+18 0 -10 4d7+320 3d5+8
+150 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 7 0 0 1 33 1
+#1336
+queen mummy female~
+the mummy queen~
+A richly dressed female mummy shuffles along.
+~
+This mummy must be the queen.  Its easy to tell, with all the gold and gems
+that hang from her body.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+150 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 25 0 0 1 1 0
+0 0 7 2 0 1 3 1
+#1337
+pharaoh mummy~
+the mummy of the pharaoh~
+The mighty mummy of the desert pharaoh stands before you!
+~
+This huge mummy is dressed in golden armor, and bears a mighty flail at his
+side.  As you enter, he stands from his throne to confront you!
+~
+99 128 0 C
+23 0 -35 4d8+470 3d5+13
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 24 0 0 1 1 0
+0 0 7 2 0 1 129 1
+#1338
+mummy servant~
+a mummified servant~
+A mummy garbed as a servant shuffles along the corridor.
+~
+With a low moan, the mummified servant shuffles along down the corridor.  It
+never thought that it's time in the afterlife with his pharaoh would be spent
+like this.
+~
+16777281 0 0 C
+16 0 0 3d6+270 3d5+6
+35 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 7 0 0 1 16 0
+#1339
+Ben hermit~
+old Ben~
+An old hermit smiles up at you from under his hood.
+~
+What appears to be a kindly old hermit smiles up at you from under his hood.
+"Stay a while with me, you are safe from any danger here," he tells you,
+motioning about his small homecave.
+~
+17826883 71311416&320 1000 C
+65 0 -250 10d50+4000 5d5+50
+1500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 13 0 0 2097151 1 0
+0 0 23 3153920 0 0 256 2621575
+#1340
+bandit hood small~
+a small hooded bandit~
+A small bandit in a hooded robe watches you closely.
+~
+This little bandit stands barely three feet tall, and is so covered by his
+hooded robe, that you can't make out any of his features at all.  You think
+you might be able to see the gleam of its eyes, but they move so quickly, its
+hard to tell.
+~
+16777285 4194344 -1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 2 0 0 65536 65536 0
+0 0 40 0 0 1048576 536870960 524290
+#1341
+bandit hood small~
+a small hooded bandit~
+A small bandit in a hooded robe watches you closely.
+~
+This little bandit stands barely three feet tall, and is so covered by his
+hooded robe, that you can't make out any of his features at all.  You think
+you might be able to see the gleam of its eyes, but they move so quickly, its
+hard to tell.
+~
+16777281 4194344 -1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 2 0 0 65536 65536 0
+0 0 40 0 0 1048576 536870960 524290
+#1342
+bandit hood small~
+a small hooded bandit~
+A small bandit in a hooded robe watches you closely.
+~
+This little bandit stands barely three feet tall, and is so covered by his
+hooded robe, that you can't make out any of his features at all.  You think
+you might be able to see the gleam of its eyes, but they move so quickly, its
+hard to tell.
+~
+16777281 4194344 -1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 2 0 0 65536 65536 0
+0 0 40 0 0 1048576 536870960 524290
+#1343
+bandit hood small~
+a small hooded bandit~
+A small bandit in a hooded robe watches you closely.
+~
+This little bandit stands barely three feet tall, and is so covered by his
+hooded robe, that you can't make out any of his features at all.  You think
+you might be able to see the gleam of its eyes, but they move so quickly, its
+hard to tell.
+~
+16777285 4194344 -1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 2 0 0 65536 65536 0
+0 0 40 0 0 1048576 536870960 524290
+#1344
+dragon brass~
+a large brass dragon~
+The next thing you notice is the huge brass dragon glaring back at you.
+~
+Enjoying the feel of the lightning bolts arcing across her scales, this large
+brass dragon is gazing back at you with interest in her eyes.  "Why have you
+come to seek me out adventurer?" she growls.  "I have nothing here for you."
+~
+1049667 4194472&320 1000 C
+65 0 -250 10d50+4000 5d5+50
+1500 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 65537 65536 0
+0 0 2293775 2105344 4 0 66051 524417
+> death_prog 5~
+roar
+emote hisses through its dagger-shaped teeth...
+emote tries to lift its mighty claw for one last strike, but then falls lifeless!
+rinvoke artifact
+~
+|
+#1500
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1301
+jinn charm~
+a small jinn charm~
+The little metal charm of a jinn lies in the dust.~
+~
+9 64 9
+2 2 0 0
+1 2000 0
+A
+26 2097152
+#1302
+oasis pool~
+a small oasis~
+A crystal clear pool stands in the middle of the oasis.~
+~
+25 0 0
+0 1 0 0
+1 0 0
+#1303
+coconut~
+a small coconut~
+This coconut is hollow, and could hold liquids.~
+~
+17 0 1048577
+15 5 0 0
+1 25 0
+#1304
+rattle snakes~
+a rattlesnakes rattle~
+A long rattle from a rattlesnake sits in the dust.~
+~
+9 66 9
+3 3 0 0
+1 50 0
+A
+27 256
+#1305
+tail scorpion~
+a small red scorpions tail~
+The tail from a little red scorpion twitches here.~
+~
+26 65 1048577
+25 -1 -1 -1 10 0
+1 50 0
+'cure poison' 'cause light' 'NONE'
+#1306
+cowl nomad cloth cotton~
+a nomads cowl~
+A sturdy cotton cloth, meant to be drawn over the face.~
+~
+9 64 17
+4 4 0 0
+1 250 0
+A
+26 32
+#1307
+key tarnished silver~
+a tarnished silver key~
+A small silver key, corroded by the desert air.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#1308
+chain mail ragged~
+a shirt of ragged chainmail~
+A twisted and torn pile of chainmail lies here.~
+~
+9 524288 65
+8 8 0 0
+4 100 0
+A
+9 15
+#1309
+sickle rusty~
+a rusty sickle~
+A half-moon sickle, covered in a dull red rust.~
+~
+5 0 131073
+8 2 3 12
+2 50 0
+A
+17 -5
+#1310
+manacle labor~
+a manacle of labor~
+A strangely glowing manacle sits in the dust here.~
+This bronze manacle seems to almost shine with a strange glow.  It is made to
+b
+e clasped around the leg, yet you don't see a place to attach a chain too.
+~
+9 65 32769
+4 4 0 0
+2 50 0
+A
+3 -2
+A
+1 1
+#1311
+ring signet pharaoh~
+a pharaoh's signet ring~
+This small gold ring has the rune of the Pharaoh stamped into it.~
+~
+9 65 1025
+2 2 0 0
+1 150 0
+A
+24 -2
+#1312
+sash priest~
+a priests sash~
+The embroidered sash of the pharaoh's priests sits here.~
+~
+9 64 2049
+5 5 0 0
+2 200 0
+A
+12 10
+A
+4 2
+#1313
+shield bamboo back~
+a bamboo backshield~
+A curved shield of bamboo, meant to protect the wearers back from arrows.~
+~
+9 4160 4097
+6 6 0 0
+3 250 0
+A
+40 5
+A
+17 -5
+#1314
+staff priests snake~
+a priests snake staff~
+A large black staff, with the head of snake on top.~
+~
+5 320 1048577
+12 3 3 7
+3 200 0
+A
+18 2
+A
+4 1
+#1315
+helm jackal bronze~
+the Helm of the Jackal~
+An ornate bronze helm lies in the sand.~
+~
+9 524352 3
+15 15 0 0
+3 300 0
+A
+19 2
+#1316
+cuff bronze~
+a bronze cuff~
+A shiny bronze cuff sits on the ground.~
+~
+9 524289 257
+4 4 0 0
+1 150 0
+A
+18 1
+A
+24 -2
+#1317
+rod jackal~
+the Jackal's Rod~
+A small bronze rod, topped with the head of a jackal sits here.~
+~
+3 66 1048577
+25 15 15 -1
+2 100 0
+'magnetic thrust'
+#1318
+ring snake eye~
+a snake-eye ring~
+A golden ring, with a cleverly worked snake-eye gem set within.~
+~
+9 65 1025
+4 4 0 0
+1 300 0
+A
+2 1
+A
+36 5
+#1319
+sash jewel~
+a jewel-encrusted sash~
+This heavy sash is covered with small jewels.~
+~
+9 65 2049
+5 5 0 0
+3 350 0
+A
+13 15
+A
+25 2
+#1320
+visor eye asp~
+the Visor of the Asp's Eye~
+A strange visor, with images of snakes etched around the edges.~
+~
+9 65 5
+7 7 0 0
+1 400 0
+A
+40 10
+A
+3 2
+#1321
+flail jewel~
+a jewel-encrusted flail~
+The large jewels embedded in this mighty flail just make it look more painful.~
+~
+5 65 131073
+12 4 2 8
+5 350 0
+A
+4 2
+A
+12 15
+#1322
+bracelet red yarn~
+a red yarn bracelet~
+A small bracelet, made from a loop of red yarn rests here.~
+~
+9 64 257
+2 2 0 0
+1 150 0
+A
+14 50
+#1323
+sleeves spiked gold~
+a set of spiked golden sleeves~
+An ornate set of golden sleeves, covered with spikes.~
+~
+9 524352 129
+14 14 0 0
+3 250 0
+A
+19 1
+#1324
+pants brass scale~
+a pair of brass scale pants~
+This pair of pants is heavily armored with small brass scales.~
+~
+9 524352 16385
+11 11 0 0
+4 150 0
+A
+13 10
+A
+5 2
+#1325
+robe hermits~
+the robe of an old hermit~
+A plain brown robe lies in a heap here.~
+~
+9 256 65
+25 25 0 0
+1 1000 0
+A
+26 128
+A
+24 -4
+A
+19 4
+A
+18 4
+A
+12 75
+A
+13 25
+#1326
+sword long glowing blue~
+a long, bright blue sword~
+A long sword with a bright blue glow is sitting nearby.~
+~
+5 4235 131073
+12 5 4 1
+2 1000 0
+A
+5 3
+A
+2 3
+A
+1 3
+A
+19 7
+A
+18 7
+#1327
+robe desert~
+a desert robe~
+A robe especially made to resist desert conditions lies here.~
+~
+9 0 2049
+5 5 0 0
+5 150 0
+A
+14 75
+A
+27 1
+#1328
+ring silver amber~
+a silver ring with an amber stone~
+A small silver ring, with a small yellow stone set in it.~
+~
+8 64 1025
+0 0 0 0
+1 250 0
+A
+4 2
+#1329
+earring brass~
+an engraved brass earring~
+A small brass earring, with strange runes engraved, sits in the dust.~
+~
+8 64 9
+0 0 0 0
+1 500 0
+A
+23 -2
+A
+25 2
+#1330
+light dragon charge~
+The Charge of the Dragon~
+A floating sphere of lightning crackles in the air here.
+~
+~
+1 65 1
+0 0 -1 0
+1 300 0
+A
+22 -3
+A
+4 3
+A
+3 3
+A
+27 4
+#1331
+toothpick key~
+a slightly used toothpick~
+A small pointy piece of wood, with some gunk on one end, lies here.~
+~
+13 0&32 1048577
+0 0 0 0
+1 0 0
+#1500
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1301
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1302
+D3
+~
+~
+0 0 225
+S
+#1302
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1303
+D2
+~
+~
+0 0 1319
+D3
+Exit description~
+~
+0 0 1301
+S
+#1303
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1304
+D2
+Exit description~
+~
+0 0 1302
+S
+#1304
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1305
+D2
+Exit description~
+~
+0 0 1303
+S
+#1305
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1306
+D3
+Exit description~
+~
+0 0 1304
+S
+#1306
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1307
+D3
+Exit description~
+~
+0 0 1305
+S
+#1307
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1323
+D1
+~
+~
+0 0 1308
+D3
+Exit description~
+~
+0 0 1306
+S
+#1308
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1309
+D3
+Exit description~
+~
+0 0 1307
+S
+#1309
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D2
+~
+~
+0 0 1310
+D3
+Exit description~
+~
+0 0 1308
+S
+#1310
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1309
+D1
+Exit description~
+~
+0 0 1347
+D2
+~
+~
+0 0 1311
+S
+#1311
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1310
+D2
+~
+~
+0 0 1312
+D3
+Exit description~
+~
+0 0 1320
+S
+#1312
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1311
+D1
+Exit description~
+~
+0 0 1345
+D2
+~
+~
+0 0 1313
+S
+#1313
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1312
+D3
+~
+~
+0 0 1314
+S
+#1314
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1313
+D2
+~
+~
+0 0 1344
+D3
+~
+~
+0 0 1315
+S
+#1315
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1322
+D1
+~
+~
+0 0 1314
+D3
+~
+~
+0 0 1316
+S
+#1316
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1315
+D3
+~
+~
+0 0 1317
+S
+#1317
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1316
+D3
+~
+~
+0 0 1318
+S
+#1318
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1319
+D1
+Exit description~
+~
+0 0 1317
+S
+#1319
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1302
+D2
+Exit description~
+~
+0 0 1318
+S
+#1320
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1311
+D3
+~
+~
+0 0 1321
+S
+#1321
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1320
+D2
+~
+~
+0 0 1322
+S
+#1322
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1321
+D2
+~
+~
+0 0 1315
+S
+#1323
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1324
+D2
+~
+~
+0 0 1307
+S
+#1324
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1325
+D2
+Exit description~
+~
+0 0 1323
+S
+#1325
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1326
+D3
+Exit description~
+~
+0 0 1324
+S
+#1326
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1327
+D3
+Exit description~
+~
+0 0 1325
+S
+#1327
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1328
+D2
+Exit description~
+~
+0 0 1349
+D3
+Exit description~
+~
+0 0 1326
+S
+#1328
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1329
+D3
+Exit description~
+~
+0 0 1327
+S
+#1329
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1358
+D1
+~
+~
+0 0 1330
+D3
+Exit description~
+~
+0 0 1328
+S
+#1330
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  There seems to be faint footprints in
+the sand heading off to the east.
+~
+0 0 10
+D1
+~
+~
+0 0 3901
+D2
+~
+~
+0 0 1331
+D3
+~
+~
+0 0 1329
+S
+#1331
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1330
+D2
+~
+~
+0 0 1332
+S
+#1332
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1331
+D1
+Exit description~
+~
+0 0 1352
+D2
+~
+~
+0 0 1333
+S
+#1333
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1332
+D2
+~
+~
+0 0 1334
+D3
+Exit description~
+~
+0 0 1351
+S
+#1334
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1333
+D2
+~
+~
+0 0 1335
+S
+#1335
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1334
+D1
+Exit description~
+~
+0 0 1357
+D2
+~
+~
+0 0 1336
+S
+#1336
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1335
+D3
+~
+~
+0 0 1337
+S
+#1337
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1336
+D3
+~
+~
+0 0 1338
+S
+#1338
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1346
+D1
+Exit description~
+~
+0 0 1337
+D2
+~
+~
+0 0 1339
+S
+#1339
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1338
+D1
+Exit description~
+~
+0 0 1359
+D2
+~
+~
+0 0 1340
+S
+#1340
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1339
+D3
+~
+~
+0 0 1341
+S
+#1341
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1340
+D3
+~
+~
+0 0 1342
+S
+#1342
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1341
+D3
+~
+~
+0 0 1343
+S
+#1343
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1344
+D1
+Exit description~
+~
+0 0 1342
+S
+#1344
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1314
+D2
+~
+~
+0 0 1343
+S
+#1345
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1346
+D3
+~
+~
+0 0 1312
+S
+#1346
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D2
+~
+~
+0 0 1338
+D3
+Exit description~
+~
+0 0 1345
+S
+#1347
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1348
+D1
+~
+~
+0 0 1350
+D3
+~
+~
+0 0 1310
+S
+#1348
+The Oasis~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.  A
+small pool of water lies protected from the sun by the very plants it
+supports.
+~
+0 0 10
+D0
+~
+~
+0 0 1349
+D2
+Exit description~
+~
+0 0 1347
+S
+#1349
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+~
+~
+0 0 1327
+D2
+Exit description~
+~
+0 0 1348
+S
+#1350
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1351
+D3
+Exit description~
+~
+0 0 1347
+S
+#1351
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1333
+D3
+Exit description~
+~
+0 0 1350
+S
+#1352
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+~
+~
+0 0 1353
+D3
+~
+~
+0 0 1332
+S
+#1353
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D2
+~
+~
+0 0 1354
+D3
+Exit description~
+~
+0 0 1352
+S
+#1354
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1353
+D2
+~
+~
+0 0 1355
+S
+#1355
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1354
+D1
+Exit description~
+~
+0 0 1360
+D2
+~
+~
+0 0 1356
+S
+#1356
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1355
+D3
+~
+~
+0 0 1357
+S
+#1357
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1356
+D3
+~
+~
+0 0 1335
+S
+#1358
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+North of you, it appears as if some sort of structure is built amongst the
+dunes.
+~
+0 0 10
+D0
+~
+~
+16777216 0 1361
+D2
+~
+~
+0 0 1329
+S
+#1359
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.  A
+small canyon, carved out of red sandstone, leads off to the east.
+~
+0 0 10
+D1
+~
+~
+16777216 0 1447
+D3
+~
+~
+0 0 1339
+S
+#1360
+Walking Sandy Dunes~
+You travel across the tops and curves of massive sand dunes, that stretch as
+far as the eye can see.  It is warm, but not uncomfortably so, but there is no
+water visible in any direction either.  You keep on the most likely paths.
+Several large rocks are tossed about to the east, breaking up the smooth flow
+of the sand dunes.
+~
+0 0 10
+D1
+~
+~
+0 0 1473
+D3
+~
+~
+16777216 0 1355
+S
+#1361
+Before The Pyramid~
+You stand in front of a huge pyramid, and can see the large mountain range
+that stands behind it, to the north.  The entrance lies wide open, and quite
+a few different prints can be identified in the sand around opening.  A
+moaning sound comes from deep within the pyramid itself...maybe its a freak
+breeze.
+~
+0 0 10
+D0
+~
+~
+0 0 1362
+D2
+~
+~
+16777216 0 1358
+S
+#1362
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1363
+D2
+Exit description~
+~
+16777216 0 1361
+D3
+Exit description~
+~
+0 0 1393
+S
+#1363
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1364
+D3
+Exit description~
+~
+0 0 1362
+S
+#1364
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1365
+D3
+Exit description~
+~
+0 0 1363
+S
+#1365
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1366
+D3
+Exit description~
+~
+0 0 1364
+S
+#1366
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1367
+D3
+Exit description~
+~
+0 0 1365
+S
+#1367
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1368
+D2
+Exit description~
+~
+0 0 1366
+S
+#1368
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1369
+D2
+Exit description~
+~
+0 0 1367
+S
+#1369
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1370
+D2
+Exit description~
+~
+0 0 1368
+S
+#1370
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1371
+D2
+Exit description~
+~
+0 0 1369
+S
+#1371
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1372
+D2
+Exit description~
+~
+0 0 1370
+S
+#1372
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1373
+D2
+Exit description~
+~
+0 0 1371
+S
+#1373
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+~
+~
+0 0 1374
+D2
+Exit description~
+~
+0 0 1372
+S
+#1374
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 1373
+D3
+~
+~
+0 0 1375
+S
+#1375
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1374
+D3
+~
+~
+0 0 1376
+S
+#1376
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1375
+D3
+~
+~
+0 0 1377
+S
+#1377
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1376
+D3
+~
+~
+0 0 1378
+S
+#1378
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1377
+D2
+Exit description~
+~
+0 0 1394
+D3
+~
+~
+0 0 1379
+S
+#1379
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1378
+D3
+~
+~
+0 0 1380
+S
+#1380
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1379
+D3
+~
+~
+0 0 1381
+S
+#1381
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1380
+D3
+~
+~
+0 0 1382
+S
+#1382
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1381
+D2
+~
+~
+0 0 1383
+S
+#1383
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1382
+D2
+~
+~
+0 0 1384
+S
+#1384
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1383
+D2
+~
+~
+0 0 1385
+S
+#1385
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1384
+D2
+~
+~
+0 0 1386
+S
+#1386
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1385
+D2
+~
+~
+0 0 1387
+S
+#1387
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1386
+D2
+~
+~
+0 0 1388
+S
+#1388
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1387
+D2
+~
+~
+0 0 1389
+S
+#1389
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1388
+D2
+~
+~
+0 0 1390
+S
+#1390
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1389
+D1
+~
+~
+0 0 1391
+S
+#1391
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1392
+D3
+Exit description~
+~
+0 0 1390
+S
+#1392
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1393
+D3
+Exit description~
+~
+0 0 1391
+S
+#1393
+Pyramid Outer Corridor~
+You stand in the musty and dusty outer corridor of the huge pyramid.  Your
+light doesn't penetrate far into the darkness.  The sounds of shuffling and
+moaning can be heard deep within the pyramid.
+~
+0 1 0
+D1
+~
+~
+0 0 1362
+D3
+Exit description~
+~
+0 0 1392
+S
+#1394
+A Small Passageway~
+This small passageway leads to a path further up into the pyramid.  Many
+tracks mar the dust on the floor about you, showing that something is indeed
+moving about this old place.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1378
+D4
+~
+~
+16777216 0 1395
+S
+#1395
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1396
+D3
+Exit description~
+~
+0 0 1418
+D5
+Exit description~
+~
+16777216 0 1394
+S
+#1396
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1397
+D3
+Exit description~
+~
+0 0 1395
+S
+#1397
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1398
+D3
+Exit description~
+~
+0 0 1396
+S
+#1398
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 1399
+D3
+Exit description~
+~
+0 0 1397
+S
+#1399
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1398
+D2
+Exit description~
+~
+0 0 1400
+S
+#1400
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1399
+D2
+Exit description~
+~
+0 0 1401
+S
+#1401
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1400
+D2
+Exit description~
+~
+0 0 1402
+S
+#1402
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1401
+D2
+Exit description~
+~
+0 0 1403
+S
+#1403
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1402
+D2
+Exit description~
+~
+0 0 1404
+S
+#1404
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1403
+D3
+Exit description~
+~
+0 0 1405
+S
+#1405
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1404
+D3
+Exit description~
+~
+0 0 1406
+S
+#1406
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1405
+D3
+Exit description~
+~
+0 0 1407
+S
+#1407
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1419
+D1
+Exit description~
+~
+0 0 1406
+D3
+Exit description~
+~
+0 0 1408
+S
+#1408
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1407
+D3
+Exit description~
+~
+0 0 1409
+S
+#1409
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1408
+D3
+Exit description~
+~
+0 0 1410
+S
+#1410
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1411
+D1
+Exit description~
+~
+0 0 1409
+S
+#1411
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1412
+D2
+Exit description~
+~
+0 0 1410
+S
+#1412
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1413
+D2
+Exit description~
+~
+0 0 1411
+S
+#1413
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1414
+D2
+Exit description~
+~
+0 0 1412
+S
+#1414
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1415
+D2
+Exit description~
+~
+0 0 1413
+S
+#1415
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1416
+D2
+Exit description~
+~
+0 0 1414
+S
+#1416
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1417
+D2
+Exit description~
+~
+0 0 1415
+S
+#1417
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1418
+D3
+Exit description~
+~
+0 0 1416
+S
+#1418
+The Lower Catacombs~
+These hallways are stuff with the remains of mummies and corpses, all in poor
+condition.  They must of been the commoners and workers, who helped build and
+take care of the pyramid and its occupants.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1395
+D3
+Exit description~
+~
+0 0 1417
+S
+#1419
+A Small Passageway~
+This small passageway leads to a path further up into the pyramid.  Many
+tracks mar the dust on the floor about you, showing that something is indeed
+moving about this old place.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 1407
+D4
+Exit description~
+~
+16777216 0 1420
+S
+#1420
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1421
+D3
+Exit description~
+~
+0 0 1435
+D5
+Exit description~
+~
+16777216 0 1419
+S
+#1421
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1422
+D3
+Exit description~
+~
+0 0 1420
+S
+#1422
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1423
+D3
+Exit description~
+~
+0 0 1421
+S
+#1423
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1424
+D2
+Exit description~
+~
+0 0 1422
+S
+#1424
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1425
+D2
+Exit description~
+~
+0 0 1423
+S
+#1425
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1426
+D2
+Exit description~
+~
+0 0 1424
+S
+#1426
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 1425
+D3
+Exit description~
+~
+0 0 1427
+S
+#1427
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1426
+D3
+Exit description~
+~
+0 0 1428
+S
+#1428
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1427
+D2
+Exit description~
+~
+0 0 1436
+D3
+Exit description~
+~
+0 0 1429
+S
+#1429
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1428
+D3
+Exit description~
+~
+0 0 1430
+S
+#1430
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1429
+D2
+Exit description~
+~
+0 0 1431
+S
+#1431
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1430
+D2
+Exit description~
+~
+0 0 1432
+S
+#1432
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1431
+D2
+Exit description~
+~
+0 0 1433
+S
+#1433
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1432
+D2
+Exit description~
+~
+0 0 1434
+S
+#1434
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1433
+D1
+Exit description~
+~
+0 0 1435
+S
+#1435
+The Priests Halls~
+This smaller ring of the pyramid must of been where the priests and other
+religious elders lived and worked, preparing the way for their leaders
+afterlife.  The dust is a bit thicker up here, but some tracks can still be
+seen.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 1420
+D3
+Exit description~
+~
+0 0 1434
+S
+#1436
+A Small Passageway~
+This small passageway leads to a path further up into the pyramid.  Many
+tracks mar the dust on the floor about you, showing that something is indeed
+moving about this old place.
+~
+0 1 0
+D0
+~
+~
+0 0 1428
+D4
+~
+~
+16777216 0 1437
+S
+#1437
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D1
+~
+~
+0 0 1438
+D3
+Exit description~
+~
+0 0 1444
+D5
+Exit description~
+~
+16777216 0 1436
+S
+#1438
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D2
+~
+~
+0 0 1439
+D3
+Exit description~
+~
+0 0 1437
+S
+#1439
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1438
+D2
+~
+~
+0 0 1440
+S
+#1440
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D0
+~
+~
+0 0 1439
+D3
+~
+~
+0 0 1441
+S
+#1441
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 1445
+D1
+Exit description~
+~
+0 0 1440
+D3
+~
+~
+0 0 1442
+S
+#1442
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D0
+~
+~
+0 0 1443
+D1
+Exit description~
+~
+0 0 1441
+S
+#1443
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D0
+~
+~
+0 0 1444
+D2
+Exit description~
+~
+0 0 1442
+S
+#1444
+The Royal Tomb~
+You stand at what appears to be almost the very top of the pyramid.  Great
+statues and intricate carvings of religious value cast strange shadows from
+your lights.  The sarcophagi you see are more ornate than those lower down.
+~
+0 1 0
+D1
+~
+~
+0 0 1437
+D2
+Exit description~
+~
+0 0 1443
+S
+#1445
+A Small Passageway~
+This small passageway leads to a path further up into the pyramid.  Many
+tracks mar the dust on the floor about you, showing that something is indeed
+moving about this old place.
+~
+0 1 0
+D2
+~
+~
+0 0 1441
+D4
+~
+~
+25165863 1307 1446
+S
+#1446
+The Ancient Pharaohs Chamber~
+The first thing you notice in this room is how the giant golden throne
+glistens so nicely in your light.  Then the piles of jewels and coins draw
+your gaze.  Next, your sight is taken by racks and heaps of magical weapons
+and armor.  Then the huge mummy in front of you comes into focus...
+~
+0 1 0
+D5
+~
+~
+16777249 1307 1445
+S
+#1447
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1448
+D3
+~
+~
+16777216 0 1359
+S
+#1448
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1449
+D3
+Exit description~
+~
+0 0 1447
+S
+#1449
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1450
+D3
+Exit description~
+~
+0 0 1448
+S
+#1450
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1451
+D2
+~
+~
+0 0 1449
+S
+#1451
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1452
+D2
+Exit description~
+~
+0 0 1450
+S
+#1452
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1453
+D3
+Exit description~
+~
+0 0 1451
+S
+#1453
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D2
+~
+~
+0 0 1454
+D3
+Exit description~
+~
+0 0 1452
+S
+#1454
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+Exit description~
+~
+0 0 1453
+D2
+~
+~
+0 0 1455
+S
+#1455
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+Exit description~
+~
+0 0 1454
+D2
+~
+~
+0 0 1456
+S
+#1456
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+Exit description~
+~
+0 0 1455
+D3
+~
+~
+0 0 1457
+S
+#1457
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+Exit description~
+~
+0 0 1456
+D2
+~
+~
+0 0 1458
+S
+#1458
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+Exit description~
+~
+0 0 1457
+D1
+~
+~
+0 0 1459
+S
+#1459
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1460
+D3
+Exit description~
+~
+0 0 1458
+S
+#1460
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1461
+D3
+Exit description~
+~
+0 0 1459
+S
+#1461
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1462
+D3
+Exit description~
+~
+0 0 1460
+S
+#1462
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1463
+D2
+Exit description~
+~
+0 0 1461
+S
+#1463
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1464
+D2
+Exit description~
+~
+0 0 1462
+S
+#1464
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D2
+Exit description~
+~
+0 0 1463
+D3
+~
+~
+0 0 1465
+S
+#1465
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1466
+D1
+Exit description~
+~
+0 0 1464
+S
+#1466
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D0
+~
+~
+0 0 1467
+D2
+Exit description~
+~
+0 0 1465
+S
+#1467
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1468
+D2
+Exit description~
+~
+0 0 1466
+S
+#1468
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1469
+D3
+Exit description~
+~
+0 0 1467
+S
+#1469
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D1
+~
+~
+0 0 1470
+D3
+~
+~
+0 0 1468
+S
+#1470
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.
+~
+0 0 4
+D2
+~
+~
+0 0 1471
+D3
+Exit description~
+~
+0 0 1469
+D5
+~
+~
+25168935 1331 1497
+S
+#1471
+A Red Sandstone Canyon~
+You walk along a narrow canyon, carved out of a deep red sandstone.  A strange
+whistle comes from overhead, as the wind blows thru the narrow opening and
+into little holes carved by an ancient water flow.  You have to occasionally
+move around large rocks, but the going is not too rough.  A small cave opening
+can be seen south of you, but it is dark inside.
+~
+0 0 4
+D0
+Exit description~
+~
+0 0 1470
+D2
+~
+~
+16777216 0 1472
+S
+#1472
+A Small Cave~
+You enter a small clean cave.  Shelves and furniture have been carved into the
+sandstone itself, and a small bed is placed against the south wall.  The floor
+is freshly swept, and everything is in the right place.  The resident of this
+cave must be pretty tidy.
+~
+0 3146753 13
+D0
+Exit description~
+~
+16777216 0 1471
+S
+#1473
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby, but
+can't quite place the direction.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1474
+D3
+Exit description~
+~
+16777216 0 1360
+S
+#1474
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby, but
+can't quite place the direction.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1475
+D3
+Exit description~
+~
+0 0 1473
+S
+#1475
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby, but
+can't quite place the direction.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 1476
+D2
+Exit description~
+~
+0 0 1474
+S
+#1476
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby, but
+can't quite place the direction.
+~
+0 0 10
+D2
+Exit description~
+~
+0 0 1477
+D3
+Exit description~
+~
+0 0 1475
+S
+#1477
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby, but
+can't quite place the direction.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1476
+D2
+Exit description~
+~
+0 0 1478
+S
+#1478
+Stumbling Amongst Rocks~
+The sand gives way to several large rocks and boulders, most with rough, sharp
+edges on them.  You swear you hear some sort of humming sound nearby and it
+seems it may be coming from this location, a large hole in the ground.  This
+must be the source of the rocks, as it appears to have been dug out of the
+hard earth with huge claws.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 1477
+D5
+Exit description~
+~
+0 0 1479
+S
+#1479
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1480
+D4
+Exit description~
+~
+0 0 1478
+S
+#1480
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1481
+D2
+Exit description~
+~
+0 0 1479
+S
+#1481
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 1482
+D3
+Exit description~
+~
+0 0 1480
+S
+#1482
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1481
+D2
+Exit description~
+~
+0 0 1483
+S
+#1483
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1482
+D3
+Exit description~
+~
+0 0 1484
+S
+#1484
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1483
+D2
+Exit description~
+~
+0 0 1485
+S
+#1485
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1484
+D1
+Exit description~
+~
+0 0 1486
+S
+#1486
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1487
+D3
+Exit description~
+~
+0 0 1485
+S
+#1487
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1488
+D3
+Exit description~
+~
+0 0 1486
+S
+#1488
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1489
+D2
+Exit description~
+~
+0 0 1487
+S
+#1489
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1490
+D2
+Exit description~
+~
+0 0 1488
+S
+#1490
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 1491
+D3
+Exit description~
+~
+0 0 1489
+S
+#1491
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1490
+D1
+Exit description~
+~
+0 0 1492
+S
+#1492
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1493
+D3
+Exit description~
+~
+0 0 1491
+S
+#1493
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1494
+D2
+Exit description~
+~
+0 0 1492
+S
+#1494
+A Large Passageway~
+You stand in a large rock passageway.  A crackling hum can be heard further
+down the dark passage.  It is quite warm down here, and without a light
+source, you'd be stumbling on all the small rocks laying about.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 1493
+D3
+Exit description~
+~
+0 0 1495
+S
+#1495
+A Large Passageway~
+You stand in a large rock passageway.  The crackling hum has gotten quite
+loud, and appears to be coming from the cavern to the west.  It is quite warm
+down here, and without a light source, you'd be stumbling on all the small
+rocks laying about.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1494
+D3
+Exit description~
+~
+0 0 1496
+S
+#1496
+A Huge Cavern~
+The first thing you notice as you enter this chamber is the large lightning
+bolts arcing back and forth across the sturdy rock roof.  As each bolt
+wriggles its way along the ceiling, it emits a loud, crackling hum.  The bolts
+light up the cave with an eerie blue glow.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1495
+S
+#1497
+A Private Lair~
+On one side of this spacious chamber are works of art and other riches are
+fully arranged in display cases.  The owner of this chamber evidently has
+spent some time collecting treasures found throughout the world.  A powerful
+energy field is protecting the valuables and once in awhile a zapping sound
+can be heard as an unfortunate insect wanders too close to the field.
+Elsewhere, cages and chains of all sizes are stacked up.  Inside one of the
+cages is a small daemon who claws furiously to escape.
+~
+0 271582216 0
+D4
+~
+~
+8391719 1331 1470
+S
+#1500
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+D 0 1497 4 2
+D 0 1470 5 2
+M 0 1344 1 1496
+E 0 1330 10 0
+M 0 1343 3 1468
+E 0 1327 1 14
+M 0 1343 3 1468
+M 0 1343 3 1468
+M 0 1342 3 1461
+E 0 1328 1 12
+M 0 1342 3 1461
+M 0 1342 3 1461
+M 0 1341 3 1454
+E 0 1329 1 3
+M 0 1341 3 1454
+M 0 1341 3 1454
+M 0 1340 3 1450
+M 0 1340 3 1450
+M 0 1340 3 1450
+M 0 1339 1 1472
+E 0 1326 1 21
+E 0 1325 1 7
+M 0 1337 1 1446
+E 0 1324 1 17
+E 0 1323 1 8
+E 0 1321 1 21
+E 0 1320 1 2
+M 0 1338 2 1441
+E 0 1322 1 9
+M 0 1338 2 1441
+M 0 1336 1 1439
+G 0 1307 1
+E 0 1319 1 14
+E 0 1318 1 12
+M 0 1335 1 1444
+E 0 1317 1 24
+E 0 1316 1 9
+E 0 1315 1 1
+M 0 1334 3 1423
+E 0 1313 1 15
+M 0 1334 3 1423
+E 0 1312 1 14
+M 0 1334 3 1423
+E 0 1314 1 24
+M 0 1333 3 1430
+M 0 1333 3 1430
+E 0 1312 1 14
+M 0 1333 3 1430
+E 0 1314 1 24
+M 0 1332 2 1431
+M 0 1332 2 1431
+M 0 1331 2 1422
+E 0 1311 1 12
+M 0 1331 2 1422
+M 0 1330 2 1427
+M 0 1330 2 1427
+E 0 1311 1 12
+M 0 1329 2 1410
+E 0 1308 1 7
+M 0 1329 2 1410
+E 0 1309 1 21
+M 0 1328 2 1403
+E 0 1308 1 7
+M 0 1328 2 1403
+E 0 1309 1 21
+M 0 1327 2 1417
+E 0 1308 1 7
+M 0 1327 2 1417
+E 0 1309 1 21
+M 0 1326 2 1414
+M 0 1326 2 1414
+E 0 1310 1 18
+M 0 1325 2 1408
+M 0 1325 2 1408
+M 0 1324 2 1401
+M 0 1324 2 1401
+E 0 1310 1 18
+M 0 1323 2 1396
+M 0 1323 2 1396
+E 0 1310 1 18
+M 0 1322 2 1370
+M 0 1322 2 1370
+M 0 1321 2 1384
+M 0 1321 2 1384
+M 0 1320 2 1368
+M 0 1320 2 1368
+M 0 1319 2 1376
+M 0 1319 2 1376
+M 0 1318 2 1384
+M 0 1318 2 1384
+M 0 1317 2 1392
+M 0 1317 2 1392
+M 0 1316 2 1335
+G 0 1304 1
+M 0 1316 2 1335
+M 0 1315 2 1348
+M 0 1315 2 1348
+M 0 1314 2 1356
+G 0 1305 1
+M 0 1314 2 1356
+M 0 1313 2 1342
+G 0 1305 1
+M 0 1313 2 1342
+M 0 1312 2 1341
+E 0 1301 1 3
+M 0 1312 2 1341
+M 0 1311 1 1334
+G 0 1306 1
+M 0 1310 2 1354
+M 0 1310 2 1354
+M 0 1309 2 1350
+M 0 1309 2 1350
+M 0 1308 2 1336
+M 0 1308 2 1336
+M 0 1307 2 1329
+M 0 1307 2 1329
+M 0 1306 2 1324
+M 0 1306 2 1324
+M 0 1305 2 1316
+M 0 1305 2 1316
+G 0 1305 1
+M 0 1304 2 1320
+E 0 1301 1 3
+M 0 1304 2 1320
+M 0 1303 1 1309
+M 0 1302 2 1305
+M 0 1302 2 1305
+M 0 1301 2 1303
+M 0 1301 2 1303
+O 0 1303 2 1348
+O 0 1303 2 1348
+O 0 1302 1 1348
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1304 spec_cast_druid
+M  1312 spec_cast_druid
+M  1336 spec_cast_cleric
+M  1337 spec_cast_mage
+M  1339 spec_cast_adept
+M  1340 spec_thief
+M  1344 spec_breath_lightning
+S
+
+
+#$

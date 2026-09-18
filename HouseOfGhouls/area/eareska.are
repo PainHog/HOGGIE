@@ -1,0 +1,2194 @@
+#AREA   Eareska~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A small school of fish swims past you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 55702745
+
+#CLIMATE 3 4 0
+
+#MOBILES
+#1701
+fish small~
+a small fish~
+A small fish swims about the caves.
+~
+This small fish seems to be lost.  It swims about the caves, sometimes
+nibbling at the strange glowing algae growing on the walls.
+~
+1090519169 -2147483648 0 C
+5 0 55 2d5+75 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 16385 0 0 0 0 0
+#1702
+fish small~
+a small fish~
+A small fish swims about the caves.
+~
+This small fish seems to be lost.  It swims about the caves, sometimes
+nibbling at the strange glowing algae growing on the walls.
+~
+1090519169 -2147483648 0 C
+5 0 55 2d5+75 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 16385 0 0 0 0 0
+#1703
+elf sea man male~
+a sea-elf man~
+A male sea-elf swims about the town.
+~
+This young sea-elf swims about the town.  He looks at you curiously, wondering
+how you manage not to drown, or how you swim without webbed hands and feet.
+~
+16777281 -2147483648 1000 C
+10 0 30 3d5+155 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 0 0
+#1704
+elf sea man male~
+a sea-elf man~
+A male sea-elf swims about the town.
+~
+This young sea-elf swims about the town.  He looks at you curiously, wondering
+how you manage not to drown, or how you swim without webbed hands and feet.
+~
+16777281 -2147483648 1000 C
+10 0 30 3d5+155 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 0 0
+#1705
+elf sea man male~
+a sea-elf man~
+A male sea-elf swims about the town.
+~
+This young sea-elf swims about the town.  He looks at you curiously, wondering
+how you manage not to drown, or how you swim without webbed hands and feet.
+~
+16777281 -2147483648 1000 C
+10 0 30 3d5+155 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 0 0
+#1706
+elf sea woman female~
+a sea-elf woman~
+A female sea-elf swims about the town.
+~
+This young sea-elf swims about the town.  She looks at you curiously,
+wondering how you manage not to drown, or how you swim without webbed hands
+and feet.
+~
+16777281 -2147483648 1000 C
+10 0 30 3d5+155 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 0 0
+#1707
+elf sea woman female~
+a sea-elf woman~
+A female sea-elf swims about the town.
+~
+This young sea-elf swims about the town.  She looks at you curiously,
+wondering how you manage not to drown, or how you swim without webbed hands
+and feet.
+~
+16777281 -2147483648 1000 C
+10 0 30 3d5+155 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 0 0
+#1708
+king sea elf~
+the Sea-Elf King~
+The King of the Sea Elves watches you closely.
+~
+This large sea-elf has a coral crown perched on his head, marking him as the
+King of their kind.  He paces about his great hall, pondering the issues that
+affect the sea-elves.
+~
+17826883 -2143289216&320 1000 C
+65 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 24 0 0 2 2 0
+0 0 31 2097152 0 0 4194320 2097153
+> death_prog 5~
+say This is supposed to be a place of Learning!
+say Do not defile this room with your presence!
+gasp
+rinvoke artifact
+~
+|
+#1709
+koren elf sea armorer~
+Koren the Armorer~
+Koren, the sea-elf armorer, works with some scales.
+~
+Koren has mastered the art of crafting armor from the supple scales of the sea
+dragon.  He is now too old to collect the scales himself, but there is no
+shortage of sea-elf warriors who wish to prove themselves against such a
+beast.
+~
+16777283 -2143289344&256 1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 23 0 0 0 0 2097153
+#1710
+taklaugh sea elf weaponsmith~
+Taklaugh the Smith~
+Taklaugh chips away at a large piece of obsidian.
+~
+The sea-elf weaponsmith, Taklaugh, works diligently at chipping a sharp edge
+into a large piece of obsidian rock.  His non-metal weapons are famous
+throughout the realms.
+~
+16777283 -2143289344&256 1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 23 0 0 0 0 2097153
+#1711
+Terlissan sea elf storemaid~
+Terlissan the Storemaid~
+The storemaid, Terlissan, looks up from her stitching at you.
+~
+Terlissan sews away at a large scrap of fishskin, crafted the supple leather
+into a fine pouch.  She looks at you expectantly, hoping you buy some of her
+items.
+~
+16777283 -2143289344&256 1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 23 0 0 0 0 2097153
+#1712
+Jenrath alchemist sea elf~
+Jenrath the Alchemist~
+Jenrath moves about the room, keeping an eye on her chemicals.
+~
+Jenrath moves about the various concoctions in her laboratory.  She lowers the
+heat on one, and adds some reagents to another.  She finally notices you
+watching her, and approaches you.
+~
+16777283 -2143289344&256 1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 23 0 0 0 0 2097153
+#1713
+elf sea guard female~
+a sea-elf guard~
+A female sea-elf guard patrols this area.
+~
+A young sea-elf guard swims by you, her seadragon scale armor glimmering in
+the strange light.  She watches you closely, hoping you aren't here to cause
+trouble.
+~
+32833 -2147483648 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 32 0
+#1714
+elf sea guard female~
+a sea-elf guard~
+A female sea-elf guard patrols this area.
+~
+A young sea-elf guard swims by you, her seadragon scale armor glimmering in
+the strange light.  She watches you closely, hoping you aren't here to cause
+trouble.
+~
+32833 -2147483648 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 32 0
+#1715
+elf sea guard male~
+a sea-elf guard~
+A male sea-elf guard patrols this area.
+~
+A young sea-elf guard swims by you, his seadragon scale armor glimmering in
+the strange light.  He watches you closely, hoping you aren't here to cause
+trouble.
+~
+32833 -2147483648 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 32 0
+#1716
+elf sea guard male~
+a sea-elf guard~
+A male sea-elf guard patrols this area.
+~
+A young sea-elf guard swims by you, his seadragon scale armor glimmering in
+the strange light.  He watches you closely, hoping you aren't here to cause
+trouble.
+~
+32833 -2147483648 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 32 0
+#1717
+elf sea guard male elite~
+a elite sea-elf guard~
+A male sea-elf guard stands watch here.
+~
+This young sea-elf stands guard in the temple.  His seadragon armor shines
+under the strange lights.  He watches you closely, not happy with your
+intrusion of the temple.
+~
+32835 -2147483648 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 160 0
+#1718
+elf sea guard female elite~
+a elite sea-elf guard~
+A female sea-elf guard stands watch here.
+~
+This young sea-elf stands guard in the temple.  Her seadragon armor shines
+under the strange lights.  She watches you closely, not happy with your
+intrusion of the temple.
+~
+32835 -2147483648 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 160 0
+#1719
+elf sea guard female elite~
+a elite sea-elf guard~
+A female sea-elf guard stands watch here.
+~
+This young sea-elf stands guard in the temple.  Her seadragon armor shines
+under the strange lights.  She watches you closely, not happy with your
+intrusion of the temple.
+~
+32835 -2147483648 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 160 0
+#1720
+dragon sea seadragon~
+the seadragon~
+A huge serpent, covered with fins and shiny scales blows bubbles at you!
+~
+You stare back at a huge silvery serpent.  It watches you with large yellow
+eyes, and slowly blows tiny bubbles through its thin snout.  The faint light
+in this cavern shimmers off of the dragon's silvery scales.
+~
+99 -1874853760&320 0 C
+65 0 0 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 0
+0 0 81945 2097154 0 0 5 1
+> death_prog 5~
+roar
+emote causes the water to froth around it as it lashes about in pain!
+emote barely misses you with a final lunge, and slowly sinks to the caverns floor...
+rinvoke artifact
+
+~
+|
+#1721
+sea-elf mage Kalter Coralbrow~
+the sea-elf mage, Kalter Coralbrow~
+A tall sea-elf mage walks slowly down the path.
+~
+From the power emanating from this magnificent sea-elf, you know it can only
+by Kalter Coralbrow.  Many stories have you heard late at night about his
+adventures under the blue sea, and the strange creatures he has fought and
+befriended.
+~
+17826817 -2039480192&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 15 0 0 1835007 1 0
+0 0 2047 3153920 0 0 256 2621443
+> speech_prog 'teach willpower'~
+if isnohero($n)
+    say Sorry $n, you need to be a hero before you can learn my skill
+    smile $n
+    break
+else
+   if questpoints($n) < 15000
+       say Sorry $n, you need more quest points to learn my skill
+        smile $n
+        break
+   else
+       nod $n
+       mppractice $n willpower 100
+       mpmset $n questpoints 15000
+       say Use your new skill wisely!
+       salute $n
+    endif
+endif
+~
+> rand_prog 5~
+ponder
+say You know, I can "TEACH WILLPOWER" if you are advanced enough!~
+> death_prog 5~
+emote prepares one last spell, designed to cause great pain!
+emote chokes on his own blood, ruining the spell, and then falls to the ground
+rinvoke artifact
+
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#1722
+lifeguard life guard~
+the lifeguard~
+A lifeguard is in a chair overlooking all pool activities.
+~
+The lifeguard is here to make sure noone drowns and tries to sue Bouddica.
+~
+3 4194304&256 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 2~
+say Hey!  No horse-play around the pool!
+frown
+~
+> rand_prog 2~
+emote blows a whistle loudly!
+~
+|
+#1723
+daemon servant bartender~
+the daemon servant~
+A tall daemon servant is busy behind the round bar.
+~
+A tall daemon stands behind the bar....his four arms can surely mix and sling
+drinks like no other!
+~
+3 4194304&256 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 1~
+emote picks his fangs with one of his four hands...~
+> rand_prog 1~
+sigh
+~
+|
+#1800
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1701
+spear obsidian~
+an obsidian spear~
+A long wooden spear, with an obsidian tip stands here.~
+~
+5 0 131073
+12 1 9 24
+4 250 0
+#1702
+sword obsidian~
+an obsidian sword~
+A jagged sword, chipped from obsidian, lies here~
+~
+5 0 131073
+12 2 4 3
+5 350 0
+#1703
+mace obsidian~
+an obsidian mace~
+A solid obsidian mace, with a long wooden handle~
+~
+5 0 131073
+12 4 2 7
+10 400 0
+#1704
+axe obsidian~
+an obsidian axe~
+A wicked axe, with chipped obsidian blades.~
+~
+5 0 131073
+12 1 9 18
+7 300 0
+#1705
+dagger obsidian~
+an obsidian dagger~
+A long slender dagger, crafted from obsidian.~
+~
+5 0 131073
+12 1 5 11
+2 200 0
+#1706
+tunic scale seadragon~
+a seadragon scale tunic~
+A tunic, crafted from supple scales.~
+~
+9 0 65
+6 6 0 0
+4 600 0
+#1707
+boots scale seadragon~
+a pair of seadragon scale boots~
+A pair of boots, crafted from shiny scales.~
+~
+9 0 65537
+6 6 0 0
+2 450 0
+#1708
+gloves scale seadragon~
+a set of seadragon scale gloves~
+A small pair of gloves, crafted from shiny scales.~
+~
+9 0 513
+6 6 0 0
+1 400 0
+#1709
+sleeves scale seadragon~
+a set of seadragon scale sleeves~
+A set of sleeves, crafted from supple scales.~
+~
+9 0 129
+6 6 0 0
+2 500 0
+#1710
+leggings scale seadragon~
+a set of seadragon scale leggings~
+A set of leggings, crafted from supple scales.~
+~
+9 0 16385
+6 6 0 0
+3 550 0
+#1711
+girth scale seadragon~
+a seadragon scale girth~
+A wide girth, crafted from supple scales.~
+~
+9 0 8193
+6 6 0 0
+2 450 0
+#1712
+pouch belt~
+a small belt pouch~
+A small pouch, designed to be attached to the belt.~
+~
+15 0 8193
+100 0 0 0
+3 400 0
+#1713
+cape pocketed pocket~
+a pocketed cape~
+A light cape, with many pockets sewn on.~
+~
+15 0 2049
+200 0 0 0
+4 700 0
+#1714
+sack fishscale~
+a fishscale sack~
+A good-sized sack, made from fishscales.~
+~
+15 0 1048577
+300 0 0 0
+5 100 0
+#1715
+pack seadragon scale~
+a seadragon scale pack~
+A large pack, made from shiny scales.~
+~
+15 0 4097
+600 0 0 0
+8 150 0
+#1716
+recall vial silver~
+a recall vial~
+A small silver vial sits here.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 150 0
+'word of recall' 'NONE' 'NONE'
+#1717
+air bottle~
+a bottle of air~
+A small bottle, apparently empty, sits here.~
+~
+10 64 1048577
+40 -1 -1 -1
+1 1000 0
+'aqua breath' 'NONE' 'NONE'
+#1718
+medicinal vial~
+a medicinal vial~
+A small vial, filled with medicine, sits here.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 9000 0
+'cure critical' 'NONE' 'NONE'
+#1719
+sizzling vial~
+a sizzling vial~
+A faint sizzling sound escapes from this vial.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 1500 0
+'teleport' 'NONE' 'NONE'
+#1720
+vial gold~
+a golden vial~
+A small golden vial stands here.~
+~
+10 64 1048577
+15 -1 -1 -1
+1 7500 0
+'detect invis' 'detect magic' 'detect hidden'
+#1721
+vial white~
+a white vial~
+A small white vial sits here.~
+~
+10 64 1048577
+15 -1 -1 -1
+1 20000 0
+'sanctuary' 'armor' 'shield'
+#1722
+crown coral~
+a coral crown~
+A crown made of delicate coral sits here.~
+~
+9 64 3
+3 3 0 0
+2 1500 0
+A
+79 3
+A
+13 25
+A
+19 2
+#1723
+badge eareska~
+the badge of Eareska~
+A small badge, with a picture of a fish on it.~
+~
+9 65 2097153
+2 2 0 0
+1 500 0
+A
+27 1
+#1724
+trident mithril~
+a mithril trident~
+A long trident, crafted from a gleaming silvery metal.~
+~
+5 65&16 131073
+12 5 7 24
+5 2000 0
+A
+19 5
+A
+18 5
+A
+5 2
+#1725
+dragon light thought~
+The Thought of the Dragon~
+A silvery light floats in the air.
+~
+~
+1 65 1
+0 0 -1 0
+1 1000 0
+A
+69 31
+A
+12 45
+A
+4 3
+A
+3 3
+#1726
+pool swimming~
+a swimming pool~
+A pool is here, why not relax and jump in.
+~
+~
+12 0 0
+0 0 1170 0
+1 0 0
+#1727
+cosmic brownie~
+a cosmic brownie~
+A small brownie sits here.~
+~
+19 0 1048577
+10 0 0 0
+1 5 0
+#1728
+triple chocolate cake~
+triple chocolate cake~
+A piece of triple chocolate cake sits here.~
+~
+19 0 1048577
+10 0 0 0
+1 5 0
+#1729
+ice cream cone~
+an ice cream cone~
+An ice cream cone lies here, melting.~
+~
+19 0 1048577
+10 0 0 0
+1 5 0
+#1730
+strawberry shortcake~
+strawberry shortcake~
+A strawberry shortcake sits here.~
+~
+19 0 1048577
+10 0 0 0
+1 5 0
+#1731
+cup mushroom tea~
+a cup of mushroom tea~
+A small cup of mushroom tea.~
+~
+17 0 1048577
+10 10 11 0
+1 5 0
+#1732
+pizza slice~
+a slice of pizza~
+A slice of pizza lies here.~
+~
+19 0 1048577
+10 0 0 0
+1 5 0
+#1733
+key bouddica~
+a small key~
+This is Bouddica's key!~
+~
+13 0&36 1048577
+0 0 0 0
+1 0 0
+#1800
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1701
+A Ruined Temple~
+Crumbled columns of an old ruined temple lay in a pile.  Ocean grasses grow
+all around them obscuring most of the rubble from view.  Poking around, you
+notice that there is a cave entrance underneath the stone.
+~
+0 0 12
+D2
+~
+~
+0 0 1702
+D4
+~
+~
+0 0 3407
+S
+#1702
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1701
+D2
+~
+~
+0 0 1703
+S
+#1703
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1702
+D2
+~
+~
+0 0 1704
+S
+#1704
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1703
+D2
+~
+~
+0 0 1705
+S
+#1705
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1704
+D1
+~
+~
+8389671 1733 1768
+D3
+~
+~
+0 0 1706
+S
+#1706
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 1705
+D3
+~
+~
+0 0 1707
+S
+#1707
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 1706
+D2
+~
+~
+0 0 1708
+S
+#1708
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1707
+D2
+~
+~
+0 0 1709
+S
+#1709
+An Old Tunnel~
+This tunnel has definitely been created by some type of intelligent creature.
+Strange art, mostly of the ocean and its various denizens, graces the walls.
+The water is a little warmer than that found in the open ocean.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1708
+D2
+~
+~
+0 0 1710
+S
+#1710
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1709
+D1
+~
+~
+0 0 1711
+D3
+Exit description~
+~
+0 0 1739
+S
+#1711
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1712
+D3
+Exit description~
+~
+0 0 1710
+S
+#1712
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1713
+D2
+Exit description~
+~
+0 0 1741
+D3
+Exit description~
+~
+0 0 1711
+S
+#1713
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D1
+~
+~
+0 0 1714
+D3
+Exit description~
+~
+0 0 1712
+S
+#1714
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  To the south, a small cave stands.
+~
+0 0 12
+D1
+~
+~
+0 0 1715
+D2
+Exit description~
+~
+0 0 1755
+D3
+Exit description~
+~
+0 0 1713
+S
+#1715
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1716
+D3
+Exit description~
+~
+0 0 1714
+S
+#1716
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D2
+~
+~
+0 0 1717
+D3
+Exit description~
+~
+0 0 1715
+S
+#1717
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1716
+D2
+~
+~
+0 0 1718
+S
+#1718
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1717
+D2
+~
+~
+0 0 1719
+S
+#1719
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1718
+D3
+~
+~
+0 0 1720
+S
+#1720
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1719
+D3
+~
+~
+0 0 1721
+S
+#1721
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1720
+D3
+~
+~
+0 0 1722
+S
+#1722
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1721
+D3
+~
+~
+0 0 1723
+S
+#1723
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1740
+D1
+Exit description~
+~
+0 0 1722
+D3
+~
+~
+0 0 1724
+S
+#1724
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  An entrance to a large temple lies to the south.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1723
+D2
+Exit description~
+~
+0 0 1744
+D3
+~
+~
+0 0 1725
+S
+#1725
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  The entrance to the Potionmasters shop lies
+north of here.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1754
+D1
+Exit description~
+~
+0 0 1724
+D3
+~
+~
+0 0 1726
+S
+#1726
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  An entrance to a large temple lies to the south.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1725
+D2
+Exit description~
+~
+0 0 1742
+D3
+~
+~
+0 0 1727
+S
+#1727
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1726
+D3
+~
+~
+0 0 1728
+S
+#1728
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1727
+D3
+~
+~
+0 0 1729
+S
+#1729
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1728
+D3
+~
+~
+0 0 1730
+S
+#1730
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+Exit description~
+~
+0 0 1729
+D3
+~
+~
+0 0 1731
+S
+#1731
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D0
+~
+~
+0 0 1732
+D1
+Exit description~
+~
+0 0 1730
+S
+#1732
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+~
+~
+0 0 1733
+D2
+Exit description~
+~
+0 0 1731
+S
+#1733
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.  East of you stands a small cave.
+~
+0 0 12
+D0
+~
+~
+0 0 1734
+D1
+Exit description~
+~
+0 0 1752
+D2
+Exit description~
+~
+0 0 1732
+S
+#1734
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1735
+D2
+Exit description~
+~
+0 0 1733
+S
+#1735
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1736
+D3
+Exit description~
+~
+0 0 1734
+S
+#1736
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D1
+~
+~
+0 0 1737
+D3
+Exit description~
+~
+0 0 1735
+S
+#1737
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  North of you lies a cave.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1753
+D1
+~
+~
+0 0 1738
+D3
+Exit description~
+~
+0 0 1736
+S
+#1738
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D1
+~
+~
+0 0 1739
+D3
+Exit description~
+~
+0 0 1737
+S
+#1739
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.  You occasionally pass by the small homecave of
+one of the sea-elves who lives here.
+~
+0 0 12
+D1
+~
+~
+0 0 1710
+D3
+Exit description~
+~
+0 0 1738
+S
+#1740
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+~
+~
+0 0 1741
+D2
+~
+~
+0 0 1723
+S
+#1741
+The Halls Of Eareska~
+You stand in the halls of Eareska, the home of the sea-elves.  Hallways are
+carved from the rock, most likely form some sort of magic, as opposed to
+manual work, such as that of the dwarves.  The walls are lit with some sort of
+strange phosphorescent algae.
+~
+0 0 12
+D0
+~
+~
+0 0 1712
+D2
+Exit description~
+~
+0 0 1740
+S
+#1742
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D0
+~
+~
+0 0 1726
+D1
+~
+~
+0 0 1743
+D2
+~
+~
+0 0 1748
+S
+#1743
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D1
+~
+~
+0 0 1744
+D2
+~
+~
+0 0 1745
+D3
+Exit description~
+~
+0 0 1742
+S
+#1744
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D0
+~
+~
+0 0 1724
+D2
+~
+~
+0 0 1751
+D3
+Exit description~
+~
+0 0 1743
+S
+#1745
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1743
+D2
+~
+~
+0 0 1746
+S
+#1746
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.  South of you is a room that appears to be a large
+meeting hall.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1745
+D1
+~
+~
+0 0 1750
+D2
+~
+~
+0 0 1747
+D3
+~
+~
+0 0 1749
+S
+#1747
+Hall Of The Sea King~
+A huge throne takes up most of the southern side of this grand hall.  Crafted
+from several different types of coral, the throne stands tall, and it appears
+to have several small sea creatures making their home in it.  The ceiling here
+is high above you and is covered in the glowing algae, giving the hall an
+eerie blue glow.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1746
+S
+#1748
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.  This particular room appears to be some sort of barracks
+for the local guard.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1742
+D2
+~
+~
+0 0 1749
+S
+#1749
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1748
+D1
+Exit description~
+~
+0 0 1746
+S
+#1750
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.
+~
+0 0 12
+D0
+~
+~
+0 0 1751
+D3
+Exit description~
+~
+0 0 1746
+S
+#1751
+The Temple Of The Sea~
+You stand in the hallway of the Temple Of The Sea.  Carved from white marble,
+soaring columns shaped like various seashells soar up above you.  You tread
+upon a path created by the creative growth of different colored algae, which
+create hypnotic designs on the floor.  The walls are lit with the same glowing
+algae found outside.  This room appears to be some sort of food-preparation
+area.
+~
+0 0 12
+D0
+Exit description~
+~
+0 0 1744
+D2
+Exit description~
+~
+0 0 1750
+S
+#1752
+Weaponsmiths Cave~
+The materials and gear used to craft weapons can be seen lying about this
+cave.  Long shafts of treated wood stand in one corner and a bucket of
+obsidian shards sits nearby.  Large chunks of obsidian line the far wall.
+~
+0 0 12
+D3
+~
+~
+0 0 1733
+S
+#1753
+The Storemaid~
+Different types of containers, most designed to allow a swimmer maximum
+movement, hang on the walls and sit on small pedestals placed around the cave.
+ A large countertop runs along the back, and strange materials sit upon it.
+~
+0 0 12
+D2
+~
+~
+0 0 1737
+S
+#1754
+The Potionmaster~
+This room must have some magical spell placed on it to keep the water out,
+probably so the salt water won't interfere with whatever concoction is being
+made in the large alchemist still in the back.  The air has a strange smell to
+it.
+~
+0 0 13
+D2
+~
+~
+0 0 1725
+S
+#1755
+The Armorers Cave~
+You stand in a large cave.  Sheets of a strange scaly skin hang along one
+wall.  In various places about the room, you see where these scales are being
+formed into some sort of armor.  Cutting tools and sewing implements sit on
+small tables placed about.
+~
+0 0 12
+D0
+~
+~
+0 0 1714
+S
+#1756
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D2
+~
+~
+0 0 1757
+D4
+~
+~
+0 0 3385
+S
+#1757
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1756
+D5
+~
+~
+0 0 1758
+S
+#1758
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D1
+~
+~
+0 0 1759
+D4
+Exit description~
+~
+0 0 1757
+S
+#1759
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D2
+~
+~
+0 0 1760
+D3
+Exit description~
+~
+0 0 1758
+S
+#1760
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1759
+D5
+~
+~
+0 0 1761
+S
+#1761
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D3
+~
+~
+0 0 1762
+D4
+Exit description~
+~
+0 0 1760
+S
+#1762
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 1761
+D3
+~
+~
+0 0 1763
+S
+#1763
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 1762
+D2
+~
+~
+0 0 1764
+S
+#1764
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1763
+D2
+~
+~
+0 0 1765
+S
+#1765
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+~
+0 1 12
+D0
+~
+~
+0 0 1764
+D5
+~
+~
+0 0 1766
+S
+#1766
+A Deep Cavern~
+You swim about in a large dark cavern, that seems to head deep into the earth.
+Strangely enough, you don't sight any sea creatures hanging out in this area.
+The cave is clear of any vegetation, and the water seems a bit colder here.
+The cavern seems to open up even larger to the south.
+~
+0 1 12
+D2
+~
+~
+0 0 1767
+D4
+Exit description~
+~
+0 0 1765
+S
+#1767
+A Huge Cavern~
+This cavern is huge!  You can barely see the back of it...which might have
+something to do with the body of a large beast blocking your vision!
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 1766
+S
+#1768
+Entrance~
+Upon passing through the doors the first this you see after the door closes is
+that the water is ebbing  out of this small entrance room. This room has no
+real furniture and nothing hanging on the walls. After the water has receded
+to beneath floor you hear a hiss and then feel the room becoming pressurized.
+A pair of doors opens by withdrawing into the walls to the east making it the
+only exit now. The floor is tiled with exquisite marble. you proceed to the
+door to the next room.
+~
+0 3146760 0
+D1
+~
+~
+0 0 1769
+D3
+~
+~
+8389671 1733 1705
+S
+#1769
+Atrium~
+The marble tile continues into this room surrounding a pool that looks to be
+eighty feet by forty feet. Between you and the pool you see a stairway that
+leads down. When you look up you are taken aback a tic noticing that the
+ceiling ,which begins where the walls end approximately twenty feet from the
+ground, is clear and one can see the sky. You can see all the fish swimming by
+above you doing what they do and not taking notice of anything in this room.
+The pool is crystal clear and on the bottom you see a mural of the Seadragon.
+you see a few chairs placed on each side of the pool. Tapestries hang from the
+walls from the ceiling to the floor. You look down the stairs but with the way
+they curve on the way down you can not see the bottom.
+~
+0 3146760 0
+D3
+~
+~
+0 0 1768
+D5
+Exit description~
+~
+0 0 1770
+S
+#1770
+Living Room~
+You descend the stairway and enter the living room.  This room is huge,
+stretching out in the cardinal directions and the ceiling must be fifty foot
+high. The northern wall is a gigantic fishtank stocked with a very diverse
+collection of different species There is a round beverage area in the center
+of the room with a 4 armed daemon working. There are seating of all kinds in
+this room with no real arrangement. A few tables are placed throughout the
+room also some with ashtrays others with arrangements of flowers on them.
+Along the eastern wall is a stage that rises a few feet above the rest of the
+room . Along the south and west walls are paintings.
+~
+0 271582216 0
+D4
+~
+~
+0 0 1769
+S
+#1800
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+O 0 1726 1 1769
+M 0 1723 1 1770
+G 1 1731 1
+G 1 1732 1
+G 1 1730 1
+G 1 1729 1
+G 1 1728 1
+G 1 1727 1
+M 0 1722 1 1769
+D 0 1768 3 2
+D 0 1705 1 2
+M 0 1721 1 1707
+M 0 1720 1 1767
+E 0 1725 1 0
+M 0 1719 1 1744
+E 0 1707 1 20
+E 0 1706 1 7
+E 0 1701 1 21
+E 0 1723 1 25
+M 0 1718 1 1742
+E 0 1704 1 21
+E 0 1708 1 11
+E 0 1706 1 7
+E 0 1723 1 25
+M 0 1717 2 1746
+E 0 1702 1 21
+E 0 1709 1 8
+E 0 1706 1 7
+E 0 1723 1 25
+M 0 1717 2 1746
+E 0 1705 1 21
+E 0 1710 1 17
+E 0 1706 1 7
+E 0 1723 1 25
+M 0 1716 2 1717
+E 0 1705 1 21
+M 0 1716 2 1717
+E 0 1707 1 20
+M 0 1714 2 1733
+E 0 1701 1 21
+M 0 1714 2 1733
+E 0 1708 1 11
+M 0 1715 2 1709
+E 0 1703 1 21
+M 0 1715 2 1709
+E 0 1709 1 8
+M 0 1713 2 1701
+E 0 1704 1 21
+M 0 1713 2 1701
+E 0 1710 1 17
+M 0 1712 1 1754
+G 1 35 1
+G 1 34 1
+G 1 1721 1
+G 1 1720 1
+G 1 1719 1
+G 1 1718 1
+G 1 1717 1
+G 1 1716 1
+M 0 1711 1 1753
+G 1 1715 1
+G 1 1714 1
+G 1 1713 1
+G 1 1712 1
+M 0 1710 1 1752
+G 1 1705 1
+G 1 1704 1
+G 1 1703 1
+G 1 1702 1
+G 1 1701 1
+M 0 1709 1 1755
+G 1 1711 1
+G 1 1710 1
+G 1 1709 1
+G 1 1708 1
+G 1 1707 1
+G 1 1706 1
+M 0 1708 1 1747
+E 0 1724 1 21
+E 0 1722 1 1
+M 0 1707 2 1719
+M 0 1707 2 1719
+M 0 1706 2 1731
+M 0 1706 2 1731
+M 0 1705 2 1740
+M 0 1705 2 1740
+M 0 1704 2 1716
+M 0 1704 2 1716
+M 0 1703 2 1734
+M 0 1703 2 1734
+M 0 1702 2 1725
+M 0 1702 2 1725
+M 0 1701 2 1703
+M 0 1701 2 1703
+S
+
+
+#SHOPS
+ 1709    9  8 11  0  0   120  90         7 18    ; Koren the Armorer
+ 1710    8  5  0  0  0   120  90         7 18    ; Taklaugh the Smith
+ 1711   15  8 17  0  0   120  90         7 18    ; Terlissan the Storemaid
+ 1712   10  2 26 60  8   120  90         7 18    ; Jenrath the Alchemist
+ 1723   17 19  0  0  0   120  90         0 23    ; the daemon servant
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1708 spec_cast_bishop
+M  1712 spec_cast_mage
+M  1713 spec_guard
+M  1714 spec_guard
+M  1715 spec_guard
+M  1716 spec_guard
+M  1717 spec_guard
+M  1718 spec_guard
+M  1719 spec_guard
+M  1720 spec_breath_frost
+M  1721 spec_cast_archmagi
+S
+
+
+#$

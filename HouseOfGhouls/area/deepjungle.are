@@ -1,0 +1,2046 @@
+#AREA   Deep Jungle~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 40 0 65
+$
+
+#RESETMSG You hear the shriek of some strange animal in the distance...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 253937934
+
+#CLIMATE 4 3 1
+
+#MOBILES
+#4101
+parrot bird~
+a parrot~
+A brightly-colored parrot lands on a branch.
+~
+Colored in brilliant reds, yellows, and blues, this large parrot lands on a
+branch and gives you the eye.  Its powerful beak looks like it could snap
+right through a large tree-limb or perhaps an arm.
+~
+16777281 524288 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#4102
+parrot bird~
+a parrot~
+A brightly-colored parrot lands on a branch.
+~
+Colored in brilliant reds, yellows, and blues, this large parrot lands on a
+branch and gives you the eye.  Its powerful beak looks like it could snap
+right through a large tree-limb or perhaps an arm.
+~
+16777281 524288 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#4103
+lemur critter raccoon~
+a lemur~
+A small raccoon-like critter scurries about the undergrowth.
+~
+A small critter, the lemur looks like a raccoon, with it's long striped tail
+and pointed snout.  It looks for grubs and bugs in the wet earth of the
+jungle.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 32769 0 0 0 3 0
+#4104
+lemur critter raccoon~
+a lemur~
+A small raccoon-like critter scurries about the undergrowth.
+~
+A small critter, the lemur looks like a raccoon, with it's long striped tail
+and pointed snout.  It looks for grubs and bugs in the wet earth of the
+jungle.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 32769 0 0 0 3 0
+#4105
+tree snake green~
+a tree snake~
+A bright green snake slides through the leaves.
+~
+This bright green snake was hard to see amongst the leaves until it began to
+move.  Hopefully there aren't others right above you!
+~
+16777281 32768 0 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#4106
+tree snake green~
+a tree snake~
+A bright green snake slides through the leaves.
+~
+This bright green snake was hard to see amongst the leaves until it began to
+move.  Hopefully there aren't others right above you!
+~
+16777281 32768 0 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#4107
+headhunter man~
+a headhunter~
+A man covered in strange inks watches you closely.
+~
+This strange man must be one of the members of the local jungle tribe.  He is
+covered in mystical designs made with bright inks.  A large hunting spear is
+held at the ready.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4108
+headhunter man~
+a headhunter~
+A man covered in strange inks watches you closely.
+~
+This strange man must be one of the members of the local jungle tribe.  He is
+covered in mystical designs made with bright inks.  A large hunting spear is
+held at the ready.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4109
+headhunter woman~
+a headhunter~
+A woman covered wearing a wooden mask searches the brush.
+~
+This woman must be one of the members of the local jungle tribe.  She is
+wearing a large mask made of wood.  She digs under the brush, looking for
+edible plants and small creatures to use for dinner.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4110
+headhunter woman~
+a headhunter~
+A woman covered wearing a wooden mask searches the brush.
+~
+This woman must be one of the members of the local jungle tribe.  She is
+wearing a large mask made of wood.  She digs under the brush, looking for
+edible plants and small creatures to use for dinner.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4111
+boar~
+a wild boar~
+A huge boar, with razor sharp tusks, crawls from the bushes!
+~
+This boar has tusks the size and shape of a fine daggers.  It snuffles
+about, looking for food, but stops and watches you as it catches your scent.
+Be careful, for it could be a mighty foe if provoked!
+~
+16777281 0 0 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 1 1 0
+0 0 35651593 3153920 0 0 385 1
+#4112
+boar~
+a wild boar~
+A huge boar, with razor sharp tusks, crawls from the bushes!
+~
+This boar has tusks the size and shape of a fine daggers.  It snuffles
+about, looking for food, but stops and watches you as it catches your scent.
+Be careful, for it could be a mighty foe if provoked!
+~
+16777281 0 0 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 1 1 0
+0 0 35651593 3153920 0 0 385 1
+#4113
+boar~
+a wild boar~
+A huge boar, with razor sharp tusks, crawls from the bushes!
+~
+This boar has tusks the size and shape of a fine daggers.  It snuffles
+about, looking for food, but stops and watches you as it catches your scent.
+Be careful, for it could be a mighty foe if provoked!
+~
+16777281 0 0 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 1 1 0
+0 0 35651593 3153920 0 0 385 1
+#4114
+jaguar cat jungle~
+a jaguar~
+A sleek jungle cat stalks through the leaves.
+~
+A sleek jaguar comes prowling stealthily through the leaves of the jungle,
+stalking its prey.  Its bright eyes flash over you, and the cat pauses,
+wondering if you might be a threat.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 6 0 0 1 1 0
+0 0 402653209 0 0 0 3 2
+#4115
+jaguar cat jungle~
+a jaguar~
+A sleek jungle cat stalks through the leaves.
+~
+A sleek jaguar comes prowling stealthily through the leaves of the jungle,
+stalking its prey.  Its bright eyes flash over you, and the cat pauses,
+wondering if you might be a threat.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 6 0 0 1 1 0
+0 0 402653209 0 0 0 3 2
+#4116
+dog wild~
+a wild dog~
+A mangy wild dog snarls as you approach.
+~
+Hoping to find some carrion left behind by the larger predators, this wild dog
+looks like it has seen better days.  Its coat is dirty and tangled, and it
+bears the scars of many fights.  It growls deep in its throat when it notices
+you.
+~
+16777281 4194304 0 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 268502017 0 0 0 1 0
+#4117
+dog wild~
+a wild dog~
+A mangy wild dog snarls as you approach.
+~
+Hoping to find some carrion left behind by the larger predators, this wild dog
+looks like it has seen better days.  Its coat is dirty and tangled, and it
+bears the scars of many fights.  It growls deep in its throat when it notices
+you.
+~
+16777281 4194304 0 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 268502017 0 0 0 1 0
+#4118
+dog wild~
+a wild dog~
+A mangy wild dog snarls as you approach.
+~
+Hoping to find some carrion left behind by the larger predators, this wild dog
+looks like it has seen better days.  Its coat is dirty and tangled, and it
+bears the scars of many fights.  It growls deep in its throat when it notices
+you.
+~
+16777281 4194304 0 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 268502017 0 0 0 1 0
+#4119
+mantis praying giant bug~
+a giant praying mantis~
+A giant green bug steps through the trees!
+~
+On your second glance, you recognize this huge bug as a praying mantis, but
+this one is the size of a horse!  It clicks its sharp mandibles together, and
+its eyestalks wiggle about as it watches you closely.
+~
+16777281 0 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4129 0 0 0 513 1
+#4120
+mantis praying giant bug~
+a giant praying mantis~
+A giant green bug steps through the trees!
+~
+On your second glance, you recognize this huge bug as a praying mantis, but
+this one is the size of a horse!  It clicks its sharp mandibles together, and
+its eyestalks wiggle about as it watches you closely.
+~
+16777281 0 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4129 0 0 0 513 1
+#4121
+mantis praying giant bug~
+a giant praying mantis~
+A giant green bug steps through the trees!
+~
+On your second glance, you recognize this huge bug as a praying mantis, but
+this one is the size of a horse!  It clicks its sharp mandibles together, and
+its eyestalks wiggle about as it watches you closely.
+~
+16777281 0 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4129 0 0 0 513 1
+#4122
+wasp giant bug~
+a giant wasp~
+A giant wasp comes buzzing through the growth.
+~
+Alerted by the loud buzzing of its wings, a giant moth come flying through the
+thick jungle growth.  It zooms about the branches, looking for smaller insects
+to eat.
+~
+16777281 524288 0 C
+33 0 -85 4d15+880 3d5+23
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 33792 0 0 0 8 0
+#4123
+wasp giant bug~
+a giant wasp~
+A giant wasp comes buzzing through the growth.
+~
+Alerted by the loud buzzing of its wings, a giant moth come flying through the
+thick jungle growth.  It zooms about the branches, looking for smaller insects
+to eat.
+~
+16777281 524288 0 C
+33 0 -85 4d15+880 3d5+23
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 33792 0 0 0 8 0
+#4124
+wasp giant bug~
+a giant wasp~
+A giant wasp comes buzzing through the growth.
+~
+Alerted by the loud buzzing of its wings, a giant moth come flying through the
+thick jungle growth.  It zooms about the branches, looking for smaller insects
+to eat.
+~
+16777281 524288 0 C
+33 0 -85 4d15+880 3d5+23
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 33792 0 0 0 8 0
+#4125
+parrot bird~
+a parrot~
+A brightly-colored parrot lands on a branch.
+~
+Colored in brilliant reds, yellows, and blues, this large parrot lands on a
+branch and gives you the eye.  Its powerful beak looks like it could snap
+right through a large tree-limb or perhaps an arm.
+~
+16777281 524288 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#4126
+lemur critter raccoon~
+a lemur~
+A small raccoon-like critter scurries about the undergrowth.
+~
+A small critter, the lemur looks like a raccoon, with it's long striped tail
+and pointed snout.  It looks for grubs and bugs in the wet earth of the
+jungle.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 3 0
+#4127
+tree snake green~
+a tree snake~
+A bright green snake slides through the leaves.
+~
+This bright green snake was hard to see amongst the leaves until it began to
+move.  Hopefully there aren't others right above you!
+~
+16777281 32768 0 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131072 0
+#4128
+headhunter man~
+a headhunter~
+A man covered in strange inks watches you closely.
+~
+This strange man must be one of the members of the local jungle tribe.  He is
+covered in mystical designs made with bright inks.  A large hunting spear is
+held at the ready.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4129
+headhunter woman~
+a headhunter~
+A woman covered wearing a wooden mask searches the brush.
+~
+This woman must be one of the members of the local jungle tribe.  She is
+wearing a large mask made of wood.  She digs under the brush, looking for
+edible plants and small creatures to use for dinner.
+~
+16777281 4194304 0 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 22 0 0 1 1 0
+0 0 207 0 0 0 64 2
+#4200
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4101
+mask wooden jungle~
+a wooden jungle mask~
+A wooden mask, worn by the jungle tribes, lies here.~
+~
+9 64 17
+4 4 0 0
+2 0 0
+A
+25 2
+A
+18 2
+#4102
+spear hunting~
+a hunting spear~
+A long spear, with a broad, sharp head on it.~
+~
+5 0&16 131073
+12 5 5 24
+3 0 0
+#4103
+banana fruit~
+a banana~
+A yellow banana has fallen from the tree.~
+~
+19 0 1048577
+35 0 0 0
+1 0 0
+#4104
+banana fruit~
+a banana~
+A yellow banana has fallen from the tree.~
+~
+19 0 1048577
+35 0 0 0
+1 0 0
+#4105
+banana fruit~
+a banana~
+A yellow banana has fallen from the tree.~
+~
+19 0 1048577
+35 0 0 0
+1 0 0
+#4106
+banana fruit~
+a banana~
+A yellow banana has fallen from the tree.~
+~
+19 0 1048577
+35 0 0 0
+1 0 0
+#4107
+banana fruit~
+a banana~
+A yellow banana has fallen from the tree.~
+~
+19 0 1048577
+35 0 0 0
+1 0 0
+#4108
+pool puddle~
+a small puddle~
+A small puddle of clear water has gathered under the trees.~
+~
+25 0 0
+0 1 0 0
+1 0 0
+#4109
+pool puddle~
+a small puddle~
+A small puddle of clear water has gathered under the trees.~
+~
+25 0 0
+0 1 0 0
+1 0 0
+#4110
+pool puddle~
+a small puddle~
+A small puddle of clear water has gathered under the trees.~
+~
+25 0 0
+0 1 0 0
+1 0 0
+#4200
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4101
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+You spy a small path through the undergrowth to the east.
+~
+0 0 3
+D1
+~
+~
+0 0 762
+D3
+~
+~
+0 0 4102
+S
+#4102
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4101
+D3
+~
+~
+0 0 4103
+S
+#4103
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4104
+D1
+Exit description~
+~
+0 0 4102
+S
+#4104
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4105
+D2
+Exit description~
+~
+0 0 4103
+S
+#4105
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4108
+D2
+Exit description~
+~
+0 0 4104
+D3
+~
+~
+0 0 4106
+S
+#4106
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4107
+D1
+Exit description~
+~
+0 0 4105
+S
+#4107
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4128
+D1
+~
+~
+0 0 4108
+D2
+Exit description~
+~
+0 0 4106
+D3
+~
+~
+0 0 4109
+S
+#4108
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4105
+D3
+Exit description~
+~
+0 0 4107
+S
+#4109
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4107
+D3
+~
+~
+0 0 4110
+S
+#4110
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4109
+D3
+~
+~
+0 0 4111
+S
+#4111
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4112
+D1
+Exit description~
+~
+0 0 4110
+S
+#4112
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4115
+D1
+~
+~
+0 0 4113
+D2
+Exit description~
+~
+0 0 4111
+S
+#4113
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4114
+D3
+Exit description~
+~
+0 0 4112
+S
+#4114
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4113
+D3
+~
+~
+0 0 4115
+S
+#4115
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4114
+D2
+Exit description~
+~
+0 0 4112
+D3
+~
+~
+0 0 4116
+S
+#4116
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4117
+D1
+Exit description~
+~
+0 0 4115
+S
+#4117
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4120
+D2
+Exit description~
+~
+0 0 4116
+D3
+~
+~
+0 0 4118
+S
+#4118
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4119
+D1
+~
+~
+0 0 4117
+S
+#4119
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4120
+D2
+Exit description~
+~
+0 0 4118
+S
+#4120
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4121
+D2
+Exit description~
+~
+0 0 4117
+D3
+Exit description~
+~
+0 0 4119
+S
+#4121
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+~
+~
+0 0 4122
+D3
+Exit description~
+~
+0 0 4120
+S
+#4122
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4121
+D1
+~
+~
+0 0 4123
+S
+#4123
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4124
+D3
+Exit description~
+~
+0 0 4122
+S
+#4124
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4151
+D1
+~
+~
+0 0 4127
+D2
+~
+~
+0 0 4125
+D3
+Exit description~
+~
+0 0 4123
+S
+#4125
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4124
+D1
+~
+~
+0 0 4126
+S
+#4126
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4127
+D2
+~
+~
+0 0 4128
+D3
+Exit description~
+~
+0 0 4125
+S
+#4127
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4126
+D3
+Exit description~
+~
+0 0 4124
+S
+#4128
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4126
+D1
+~
+~
+0 0 4129
+D2
+Exit description~
+~
+0 0 4107
+S
+#4129
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4130
+D3
+Exit description~
+~
+0 0 4128
+S
+#4130
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4133
+D2
+~
+~
+0 0 4131
+D3
+Exit description~
+~
+0 0 4129
+S
+#4131
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4130
+D1
+~
+~
+0 0 4132
+S
+#4132
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4133
+D3
+Exit description~
+~
+0 0 4131
+S
+#4133
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4134
+D2
+Exit description~
+~
+0 0 4132
+D3
+Exit description~
+~
+0 0 4130
+S
+#4134
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4133
+D3
+~
+~
+0 0 4135
+S
+#4135
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4136
+D1
+Exit description~
+~
+0 0 4134
+S
+#4136
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4138
+D1
+~
+~
+0 0 4137
+D2
+Exit description~
+~
+0 0 4135
+S
+#4137
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4139
+D3
+Exit description~
+~
+0 0 4136
+S
+#4138
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4139
+D2
+Exit description~
+~
+0 0 4136
+S
+#4139
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4140
+D2
+Exit description~
+~
+0 0 4137
+D3
+Exit description~
+~
+0 0 4138
+S
+#4140
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4141
+D2
+Exit description~
+~
+0 0 4139
+S
+#4141
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4140
+D3
+~
+~
+0 0 4142
+S
+#4142
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4143
+D1
+Exit description~
+~
+0 0 4141
+D3
+~
+~
+0 0 4145
+S
+#4143
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4142
+D3
+~
+~
+0 0 4144
+S
+#4144
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4143
+D2
+~
+~
+0 0 4145
+S
+#4145
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4144
+D1
+Exit description~
+~
+0 0 4142
+D2
+~
+~
+0 0 4146
+S
+#4146
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4145
+D3
+~
+~
+0 0 4147
+S
+#4147
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4152
+D1
+Exit description~
+~
+0 0 4146
+D3
+~
+~
+0 0 4148
+S
+#4148
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4147
+D2
+~
+~
+0 0 4151
+D3
+~
+~
+0 0 4149
+S
+#4149
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4148
+D2
+~
+~
+0 0 4150
+S
+#4150
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4149
+D1
+~
+~
+0 0 4151
+S
+#4151
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4148
+D2
+Exit description~
+~
+0 0 4124
+D3
+Exit description~
+~
+0 0 4150
+S
+#4152
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4153
+D2
+Exit description~
+~
+0 0 4147
+S
+#4153
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 4152
+D3
+~
+~
+0 0 4154
+S
+#4154
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 4153
+D2
+~
+~
+0 0 4155
+D3
+~
+~
+0 0 4157
+S
+#4155
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 4154
+D3
+~
+~
+0 0 4156
+S
+#4156
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4157
+D1
+Exit description~
+~
+0 0 4155
+S
+#4157
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4158
+D1
+Exit description~
+~
+0 0 4154
+D2
+Exit description~
+~
+0 0 4156
+S
+#4158
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4159
+D2
+Exit description~
+~
+0 0 4157
+S
+#4159
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4161
+D1
+~
+~
+0 0 4160
+D2
+Exit description~
+~
+0 0 4158
+S
+#4160
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4162
+D3
+Exit description~
+~
+0 0 4159
+S
+#4161
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4166
+D1
+~
+~
+0 0 4162
+D2
+Exit description~
+~
+0 0 4159
+S
+#4162
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4165
+D1
+~
+~
+0 0 4163
+D2
+Exit description~
+~
+0 0 4160
+D3
+Exit description~
+~
+0 0 4161
+S
+#4163
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D0
+~
+~
+0 0 4164
+D3
+Exit description~
+~
+0 0 4162
+S
+#4164
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D2
+~
+~
+0 0 4163
+D3
+~
+~
+0 0 4165
+S
+#4165
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4164
+D2
+~
+~
+0 0 4162
+D3
+~
+~
+0 0 4166
+S
+#4166
+Deep In The Jungle~
+You push your way through the heavy jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+and you catch glimpses of exotic creatures as they dash away under the brush.
+It is difficult to travel with all the vines and plants in the way.
+
+~
+0 0 3
+D1
+~
+~
+0 0 4165
+D2
+~
+~
+0 0 4161
+S
+#4200
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+O 0 4110 1 4119
+O 0 4109 1 4138
+O 0 4108 1 4162
+O 0 4107 2 4162
+O 0 4107 2 4162
+O 0 4106 2 4144
+O 0 4106 2 4144
+O 0 4105 2 4125
+O 0 4105 2 4125
+O 0 4104 2 4120
+O 0 4104 2 4120
+O 0 4103 2 4111
+O 0 4103 2 4111
+M 0 4129 3 4135
+E 0 4101 1 4
+M 0 4129 3 4135
+M 0 4129 3 4135
+M 0 4128 3 4129
+M 0 4128 3 4129
+E 0 4102 1 21
+M 0 4128 3 4129
+M 0 4127 2 4155
+M 0 4127 2 4155
+M 0 4126 3 4140
+M 0 4126 3 4140
+M 0 4126 3 4140
+M 0 4125 3 4136
+M 0 4125 3 4136
+M 0 4125 3 4136
+M 0 4124 2 4144
+M 0 4124 2 4144
+M 0 4123 2 4121
+M 0 4123 2 4121
+M 0 4122 2 4113
+M 0 4122 2 4113
+M 0 4121 2 4149
+M 0 4121 2 4149
+M 0 4120 2 4111
+M 0 4120 2 4111
+M 0 4119 2 4130
+M 0 4119 2 4130
+M 0 4118 3 4136
+M 0 4118 3 4136
+M 0 4118 3 4136
+M 0 4117 3 4139
+M 0 4117 3 4139
+M 0 4117 3 4139
+M 0 4116 3 4141
+M 0 4116 3 4141
+M 0 4116 3 4141
+M 0 4115 2 4108
+M 0 4115 2 4108
+M 0 4114 2 4154
+M 0 4114 2 4154
+M 0 4113 2 4117
+M 0 4113 2 4117
+M 0 4112 2 4142
+M 0 4112 2 4142
+M 0 4111 2 4165
+M 0 4111 2 4165
+M 0 4110 3 4139
+E 0 4101 1 4
+M 0 4110 3 4139
+M 0 4110 3 4139
+E 0 4101 1 4
+M 0 4109 3 4160
+M 0 4109 3 4160
+M 0 4109 3 4160
+E 0 4101 1 4
+M 0 4108 3 4166
+E 0 4102 1 21
+M 0 4108 3 4166
+M 0 4108 3 4166
+E 0 4102 1 21
+M 0 4107 3 4118
+M 0 4107 3 4118
+E 0 4102 1 21
+M 0 4107 3 4118
+M 0 4106 3 4119
+M 0 4106 3 4119
+M 0 4106 3 4119
+M 0 4105 3 4137
+M 0 4105 3 4137
+M 0 4105 3 4137
+M 0 4104 3 4132
+M 0 4104 3 4132
+M 0 4104 3 4132
+M 0 4103 3 4107
+M 0 4103 3 4107
+M 0 4103 3 4107
+M 0 4102 3 4151
+M 0 4102 3 4151
+M 0 4102 3 4151
+M 0 4101 3 4105
+M 0 4101 3 4105
+M 0 4101 3 4105
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

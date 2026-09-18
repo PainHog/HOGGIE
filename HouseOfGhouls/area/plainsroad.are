@@ -1,0 +1,1297 @@
+#AREA   Plains Road~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A warm breeze brushes by your face...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 255568840
+
+#CLIMATE 3 1 2
+
+#MOBILES
+#701
+dragon blue~
+a mighty blue dragon~
+A huge blue dragon roars as you enter and attacks!
+~
+This mighty beast has arcs of lightning crackling up and down her huge body.
+Your scent must of woken her up long before you reached this point, for she is
+awake and ready to attack!
+~
+99 71305344&320 -1000 C
+65 0 -220 10d50+3500 5d5+50
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 0
+0 0 1409037 2105344 4 0 7 524288
+> death_prog 5~
+roar
+emote pulls in a mighty breath, and prepares to spray lightning all around you!
+emote chokes, coughs, and falls to the ground...dead.
+rinvoke artifact
+~
+|
+#702
+half-elf half elf traveller~
+a half-elf traveller~
+A half-elf, dressed for travelling, walks down the road.
+~
+A half-elf, dressed in ragged travelling clothes, trudges along the road.  He
+looks up as you approach and stops, hoping you aren't going to be a threat.
+~
+16777281 0 1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 6 0 0 3 1 0
+0 0 31 0 0 0 0 2
+#703
+half-elf half elf traveller~
+a half-elf traveller~
+A half-elf, dressed for travelling, walks down the road.
+~
+A half-elf, dressed in ragged travelling clothes, trudges along the road.  He
+looks up as you approach and stops, hoping you aren't going to be a threat.
+~
+16777281 0 1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 6 0 0 3 1 0
+0 0 31 0 0 0 0 2
+#704
+half-elf half elf traveller~
+a half-elf traveller~
+A half-elf, dressed for travelling, walks down the road.
+~
+A half-elf, dressed in ragged travelling clothes, trudges along the road.  He
+looks up as you approach and stops, hoping you aren't going to be a threat.
+~
+16777281 0 1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 6 0 0 3 1 0
+0 0 31 0 0 0 0 2
+#705
+condor bird~
+a large condor~
+A large condor circles the sky above you.
+~
+This bird is huge!  It's wingspan is longer than you are tall.  It slowly
+circles about on the warm breeze, watching for a small creature to come out of
+hiding so it can have its dinner.
+~
+16777285 524288 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 1 1 0
+0 0 553648129 0 0 0 1 0
+#706
+condor bird~
+a large condor~
+A large condor circles the sky above you.
+~
+This bird is huge!  It's wingspan is longer than you are tall.  It slowly
+circles about on the warm breeze, watching for a small creature to come out of
+hiding so it can have its dinner.
+~
+16777285 524288 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 1 1 0
+0 0 553648129 0 0 0 1 0
+#800
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#701
+bolt dragon light~
+The Bolt of the Dragon~
+A crackling arc of electricity jumps around the room!~
+~
+1 67 1
+0 0 -1 0
+1 0 0
+A
+23 -3
+A
+5 3
+A
+27 4
+A
+19 3
+#702
+map sign roadmap roadsign~
+a roadsign~
+An old wooden roadsign stands next to the path.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+map sign roadmap roadsign~
+Hunting Grounds -- 4w1n
+Unicorn Grove -- 4w2s8w3n15w2s5w1n
+Trials Of Pain -- 4w2s8w3n15w2s5w1s1w1s
+~
+#800
+Placeholder~
+Placeholder~
+Placeholder~
+Placeholder
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#701
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.  To the east is the
+Southern Road.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 236
+D3
+~
+~
+0 0 702
+S
+#702
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 701
+D3
+~
+~
+0 0 703
+S
+#703
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 702
+D3
+~
+~
+0 0 704
+S
+#704
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 703
+D3
+~
+~
+0 0 705
+S
+#705
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 2151
+D1
+Exit description~
+~
+0 0 704
+D2
+~
+~
+0 0 706
+S
+#706
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 705
+D2
+~
+~
+0 0 707
+S
+#707
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 706
+D3
+~
+~
+0 0 708
+S
+#708
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.  A strange cloud
+formation sits overhead, not moving in the breeze like the other clouds.
+~
+0 0 2
+D1
+~
+~
+0 0 707
+D3
+~
+~
+0 0 709
+D4
+~
+~
+0 0 3801
+S
+#709
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 708
+D3
+~
+~
+0 0 710
+S
+#710
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 709
+D3
+~
+~
+0 0 711
+S
+#711
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 710
+D3
+~
+~
+0 0 712
+S
+#712
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 711
+D3
+~
+~
+0 0 713
+S
+#713
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 712
+D3
+~
+~
+0 0 714
+S
+#714
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 713
+D3
+~
+~
+0 0 715
+S
+#715
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+~
+~
+0 0 716
+D1
+Exit description~
+~
+0 0 714
+S
+#716
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+~
+~
+0 0 717
+D2
+Exit description~
+~
+0 0 715
+S
+#717
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+~
+~
+0 0 718
+D2
+Exit description~
+~
+0 0 716
+S
+#718
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D2
+Exit description~
+~
+0 0 717
+D3
+~
+~
+0 0 719
+S
+#719
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 718
+D3
+~
+~
+0 0 720
+S
+#720
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 719
+D3
+~
+~
+0 0 721
+S
+#721
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 720
+D3
+~
+~
+0 0 722
+S
+#722
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 721
+D3
+~
+~
+0 0 723
+S
+#723
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 722
+D3
+~
+~
+0 0 724
+S
+#724
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 723
+D3
+~
+~
+0 0 725
+S
+#725
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 724
+D3
+~
+~
+0 0 726
+S
+#726
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 725
+D3
+~
+~
+0 0 727
+S
+#727
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 726
+D3
+~
+~
+0 0 728
+S
+#728
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 727
+D3
+~
+~
+0 0 729
+S
+#729
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 728
+D3
+~
+~
+0 0 730
+S
+#730
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 729
+D3
+~
+~
+0 0 731
+S
+#731
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 730
+D3
+~
+~
+0 0 732
+S
+#732
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 731
+D3
+~
+~
+0 0 733
+S
+#733
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 732
+D2
+~
+~
+0 0 734
+S
+#734
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 733
+D2
+~
+~
+0 0 735
+S
+#735
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 734
+D3
+~
+~
+0 0 736
+S
+#736
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 735
+D3
+~
+~
+0 0 737
+S
+#737
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 736
+D3
+~
+~
+0 0 738
+S
+#738
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 737
+D3
+~
+~
+0 0 739
+S
+#739
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 738
+D3
+~
+~
+0 0 740
+S
+#740
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.  A small path heads
+north from here, entering a small pine grove.
+~
+0 0 2
+D0
+~
+~
+0 0 4001
+D1
+Exit description~
+~
+0 0 739
+D2
+~
+~
+0 0 741
+S
+#741
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 740
+D3
+~
+~
+0 0 742
+S
+#742
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.  A small path leads
+south here, but it is hard to see under all the growth.
+~
+0 0 2
+D1
+~
+~
+0 0 741
+D2
+~
+~
+0 0 755
+D3
+~
+~
+0 0 743
+S
+#743
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 742
+D3
+~
+~
+0 0 744
+S
+#744
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  Bright flowers grow at the edges of the road.  The hum
+of bees can be heard as they fly from flower to flower.
+~
+0 0 2
+D0
+~
+~
+0 0 745
+D1
+Exit description~
+~
+0 0 743
+S
+#745
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains, but the grass is slowly being replaced by pure white sand.  About you,
+you hear the sound of birds singing, and the sun shines warmly down upon you.
+Bright flowers grow at the edges of the road.
+~
+0 0 2
+D0
+~
+~
+0 0 746
+D2
+Exit description~
+~
+0 0 744
+S
+#746
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through grassy
+plains, but the grass is slowly being replaced by pure white sand.  About you,
+you hear the sound of birds singing, and the sun shines warmly down upon you.
+Bright flowers grow at the edges of the road.
+~
+0 0 2
+D2
+Exit description~
+~
+0 0 745
+D3
+~
+~
+0 0 747
+S
+#747
+The Plains Road~
+You travel down a narrow road.  The road meanders its way through dunes of
+pure white sand.  About you, you hear the sound of birds singing, and the sun
+shines warmly down upon you.  There aren't as many flowers here, and what
+flowers you see look dried out and sickly.  To the west, the dunes rise up and
+the road seems to end.
+~
+0 0 2
+D1
+~
+~
+0 0 746
+D3
+~
+~
+0 0 748
+S
+#748
+A Hole In The Sand~
+The Plains Road abruptly ends here, running into a stretch of sand dunes.
+Curiously enough, a large hole heads down into the sand here.  A strange
+prickly feeling is all about you, and the hairs on your body seem to want to
+stand upright.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 747
+D5
+~
+~
+16777216 0 749
+S
+#749
+A Sandy Tunnel~
+You stand in a wide tunnel carved out of sandstone.  The top of the tunnel is
+quite far above your head.  The floor is made up of pure white sand.  Pieces
+of bone can be seen sticking out of the sand in places, and what appears to be
+the tracks of a large clawed beast run down the center.
+~
+0 1 13
+D2
+~
+~
+0 0 750
+D4
+Exit description~
+~
+0 0 748
+S
+#750
+A Sandy Tunnel~
+You stand in a wide tunnel carved out of sandstone.  The top of the tunnel is
+quite far above your head.  The floor is made up of pure white sand.  Pieces
+of bone can be seen sticking out of the sand in places, and what appears to be
+the tracks of a large clawed beast run down the center.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 749
+D2
+~
+~
+0 0 751
+S
+#751
+A Sandy Tunnel~
+You stand in a wide tunnel carved out of sandstone.  The top of the tunnel is
+quite far above your head.  The floor is made up of pure white sand.  Pieces
+of bone can be seen sticking out of the sand in places, and what appears to be
+the tracks of a large clawed beast run down the center.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 750
+D2
+~
+~
+0 0 752
+S
+#752
+A Sandy Tunnel~
+You stand in a wide tunnel carved out of sandstone.  The top of the tunnel is
+quite far above your head.  The floor is made up of pure white sand.  Pieces
+of bone can be seen sticking out of the sand in places, and what appears to be
+the tracks of a large clawed beast run down the center.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 751
+D1
+~
+~
+0 0 753
+S
+#753
+A Sandy Tunnel~
+You stand in a wide tunnel carved out of sandstone.  The top of the tunnel is
+quite far above your head.  The floor is made up of pure white sand.  Pieces
+of bone can be seen sticking out of the sand in places, and what appears to be
+the tracks of a large clawed beast run down the center.
+~
+0 1 13
+D1
+~
+~
+0 0 754
+D3
+Exit description~
+~
+0 0 752
+S
+#754
+A Large Sandstone Cave~
+The sandstone tunnel opens up into a huge cavern.  Bleached white bones of
+various creatures litter the floor.  The air about you literally crackles with
+a static charge.
+~
+0 1 13
+D3
+Exit description~
+~
+0 0 753
+S
+#755
+An Overgrown Path~
+This small path is heavily covered with weeds and other plants.  Not much
+traffic seems to have traveled down it recently.  To the south, the beginnings
+of a jungle rise up.
+~
+0 0 3
+D0
+~
+~
+0 0 742
+D2
+~
+~
+0 0 756
+S
+#756
+An Overgrown Path~
+This small path is heavily covered with weeds and other plants.  Not much
+traffic seems to have traveled down it recently.  To the south, the beginnings
+of a jungle rise up.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 755
+D2
+~
+~
+0 0 757
+S
+#757
+An Overgrown Path~
+This small path is heavily covered with weeds and other plants.  Not much
+traffic seems to have traveled down it recently.  To the south, the beginnings
+of a jungle rise up.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 756
+D2
+~
+~
+0 0 758
+S
+#758
+An Overgrown Path~
+This small path is heavily covered with weeds and other plants.  Not much
+traffic seems to have traveled down it recently.  To the south, the beginnings
+of a jungle rise up.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 757
+D2
+~
+~
+0 0 759
+S
+#759
+An Overgrown Path~
+This small path is heavily covered with weeds and other plants.  Not much
+traffic seems to have traveled down it recently.  You stand right up against
+the growth of the jungle.  Tall trees and many plants grown thickly here.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 758
+D2
+~
+~
+0 0 760
+S
+#760
+An Overgrown Path~
+The small path twists and turns through the jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+but you can still see the path.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 759
+D3
+~
+~
+0 0 761
+S
+#761
+An Overgrown Path~
+The small path twists and turns through the jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+but you can still see the path.  It also looks possible to work your way
+through the vegetation to the west.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 760
+D3
+~
+~
+0 0 762
+S
+#762
+An Overgrown Path~
+The small path twists and turns through the jungle growth.  Many strange
+animal cries echo about you.  The trees above you block out most of the light,
+but you can still see the path.  What appears to be an old stone tower appears
+through the bushes to the south.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 761
+D2
+~
+~
+0 0 14101
+D3
+~
+~
+0 0 4101
+S
+#800
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+O 0 702 1 701
+M 0 706 2 735
+M 0 706 2 735
+M 0 705 2 710
+M 0 705 2 710
+M 0 704 1 740
+M 0 703 1 724
+M 0 702 1 707
+M 0 701 1 754
+E 0 701 10 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  701 spec_breath_lightning
+M  702 spec_cast_druid
+M  705 spec_fido
+M  706 spec_fido
+S
+
+
+#$

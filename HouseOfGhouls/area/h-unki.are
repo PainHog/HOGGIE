@@ -1,0 +1,2734 @@
+#AREA   H'Unki~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+20 30 0 65
+$
+
+#RESETMSG The forges of the city fill the tunnels with an eerie light.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 174087094
+
+#CLIMATE 1 3 0
+
+#MOBILES
+#14401
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14402
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14403
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14404
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14405
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14406
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14407
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14408
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14409
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14410
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14411
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14412
+goblin cave guard~
+a goblin cave-guard~
+This goblin patrols the caves, keep an eye on things.
+~
+This goblin has the thankless job of ensuring the city stays safe as well as
+making sure the goblins themselves behave.  They carry simple weapons
+and from their rather large belly and chubby cheeks, they don't train
+themselves too hard.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14413
+goblin adventurer~
+a goblin adventurer~
+This goblin is taking a break from their constant adventurers.
+~
+This goblin has spent most of their life out in the wilds, exploring the
+cities of other races and mapping the entire world.  They look quite capable
+of taking care of themselves and seem a bit restless lounging back at home.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14414
+goblin adventurer~
+a goblin adventurer~
+This goblin is taking a break from their constant adventurers.
+~
+This goblin has spent most of their life out in the wilds, exploring the
+cities of other races and mapping the entire world.  They look quite capable
+of taking care of themselves and seem a bit restless lounging back at home.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14415
+goblin adventurer~
+a goblin adventurer~
+This goblin is taking a break from their constant adventurers.
+~
+This goblin has spent most of their life out in the wilds, exploring the
+cities of other races and mapping the entire world.  They look quite capable
+of taking care of themselves and seem a bit restless lounging back at home.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14416
+goblin adventurer~
+a goblin adventurer~
+This goblin is taking a break from their constant adventurers.
+~
+This goblin has spent most of their life out in the wilds, exploring the
+cities of other races and mapping the entire world.  They look quite capable
+of taking care of themselves and seem a bit restless lounging back at home.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14417
+goblin adventurer~
+a goblin adventurer~
+This goblin is taking a break from their constant adventurers.
+~
+This goblin has spent most of their life out in the wilds, exploring the
+cities of other races and mapping the entire world.  They look quite capable
+of taking care of themselves and seem a bit restless lounging back at home.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14418
+goblin mother~
+a goblin mother~
+This poor goblin is trying to keep track of her kids.
+~
+This poor woman must have near ten kids, all of them running about and causing
+trouble.  She does her best to keep them close and from playing on top of
+other sleeping goblins but she doesn't seem to be very successful.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14419
+goblin mother~
+a goblin mother~
+This poor goblin is trying to keep track of her kids.
+~
+This poor woman must have near ten kids, all of them running about and causing
+trouble.  She does her best to keep them close and from playing on top of
+other sleeping goblins but she doesn't seem to be very successful.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14420
+goblin mother~
+a goblin mother~
+This poor goblin is trying to keep track of her kids.
+~
+This poor woman must have near ten kids, all of them running about and causing
+trouble.  She does her best to keep them close and from playing on top of
+other sleeping goblins but she doesn't seem to be very successful.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14421
+goblin mother~
+a goblin mother~
+This poor goblin is trying to keep track of her kids.
+~
+This poor woman must have near ten kids, all of them running about and causing
+trouble.  She does her best to keep them close and from playing on top of
+other sleeping goblins but she doesn't seem to be very successful.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14423
+goblin father~
+a goblin father~
+This goblin is trying to help keep the children in one place.
+~
+This poor man has come home from a shift in the mines and now has to try and
+keep his children from running amok.  He chases after one or another but never
+manages to keep them still.  He looks tired and haggard.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14424
+goblin father~
+a goblin father~
+This goblin is trying to help keep the children in one place.
+~
+This poor man has come home from a shift in the mines and now has to try and
+keep his children from running amok.  He chases after one or another but never
+manages to keep them still.  He looks tired and haggard.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14425
+goblin father~
+a goblin father~
+This goblin is trying to help keep the children in one place.
+~
+This poor man has come home from a shift in the mines and now has to try and
+keep his children from running amok.  He chases after one or another but never
+manages to keep them still.  He looks tired and haggard.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14426
+goblin father~
+a goblin father~
+This goblin is trying to help keep the children in one place.
+~
+This poor man has come home from a shift in the mines and now has to try and
+keep his children from running amok.  He chases after one or another but never
+manages to keep them still.  He looks tired and haggard.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14427
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14428
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14429
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14430
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14431
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14432
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14433
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14434
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14435
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14436
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14437
+goblin child young~
+a goblin child~
+This young goblin is running amok.
+~
+This small goblin is having the time of their life running around like they
+were on fire.  They have dozens upon dozens of playmates but are also stepping
+on sleeping miners or running through other's dinners.  Their parents are
+trying to chase them down but they are surprisingly quick.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14438
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14439
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14440
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14441
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14442
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14443
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14444
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is taking a leisurely stroll through the commons, stopping to talk
+to friends at one make-shift pub before saying hello to another group
+huddled around a vendor.  They seem quite content.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14445
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is hawking his wares.  He has several handmade cloaks, armors, and
+even a few weapons for sale to all the wannabe adventurers.  He looks at you
+and asks if you would like to get your hands on genuine wolfen-skin pants.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14446
+goblin resident~
+a goblin resident~
+This goblin is taking a stroll through the commons.
+~
+This goblin is trying to sell a few items he has collected in his time.  He
+offers you the chance to try some of his homemade wine or perhaps a bite of
+his wife's famous cooking.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14447
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14449
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14450
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14451
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14452
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14453
+goblin sapper~
+a goblin sapper~
+This goblin works the mines of the city.
+~
+This sturdy looking goblin has the glorious job of digging deep into the
+mountains, looking for veins of ore or gems.  They carry a belt of explosive
+devices and they seem to not consider the fact that one stray flame will bring
+the entire cave down on you.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14454
+goblin librarian~
+a goblin librarian~
+This goblin is carefully indexing all the collected works.
+~
+This older goblin woman has been working in this library for a long time. She
+seems to know where all the books are and where to put each new hand-made copy
+that chronicles life outside of the mountains.  She smiles at you and asks you
+if you would like to borrow a book.  You notice she has a large collection
+of magical items on her small desk.
+~
+17956931 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14455
+goblin shaman~
+a goblin shaman~
+This elderly shaman is wandering the city, muttering.
+~
+This old goblin woman is clearly a shaman, judging by the various charms
+and baubles she wears.  She is talking to herself as she walks by,
+occasionally stopping to read a person's aura before making her way to
+where ever it is she thinks she is going.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14456
+goblin shaman~
+a goblin shaman~
+This elderly shaman is wandering the city, muttering.
+~
+This old goblin woman is clearly a shaman, judging by the various charms
+and baubles she wears.  She is talking to herself as she walks by,
+occasionally stopping to read a person's aura before making her way to
+where ever it is she thinks she is going.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14457
+goblin engineer~
+a goblin engineer~
+This goblin mixes both science and magic to find new veins.
+~
+This young goblin has carefully studied the principles of mining as well as
+the magical arts.  He looks over some plans in his hands and then casts an odd
+spell to help guide him.  Judging by the scars he has been too close to a few
+sappers.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14458
+goblin engineer~
+a goblin engineer~
+This goblin mixes both science and magic to find new veins.
+~
+This young goblin has carefully studied the principles of mining as well as
+the magical arts.  He looks over some plans in his hands and then casts an odd
+spell to help guide him.  Judging by the scars he has been too close to a few
+sappers.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16384 16384 0
+0 0 1154 3 0 0 144 2
+#14500
+Ryik goblin chief~
+Ryik, the goblin chief~
+This regal looking goblin wears a crown of earth and steel.
+~
+This Goblin is in charge and he knows it. His small frame and thin hair are
+insignificant next to the crown and scepter he proudly displays.  You feel
+that he is not a foolish or simple creature but one who preys on those that
+believe him to be such.  He watches you and waits for you to bow.
+~
+16777283 4194304&328 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 10 0 0 16384 16384 0
+0 0 106 3 0 0 176 2621447
+#0
+
+
+#OBJECTS
+#14401
+goblin grenade~
+a goblin grenade~
+This tiny ball of metal is full of an explosive powder.~
+~
+4 64 1048577
+25 1 1 -1
+1 200 0
+'fireball'
+E
+grenade goblin~
+Forged by the clever goblins, this small metal ball is filled with explosive 
+powders.  When used, it explodes in a large ball of fire!
+
+~
+#14402
+pill home~
+a pill of home~
+This pill will get you back home.~
+~
+26 64 1048577
+2 -1 -1 -1
+1 100 0
+'word of recall' 'NONE' 'NONE'
+E
+home pill~
+A small pill, this gives the power of recall to a safe location.
+~
+#14403
+pill traveller~
+a traveller's pill~
+This tiny pill will help make long trips faster.~
+~
+26 64 1048577
+2 -1 -1 -1
+1 500 0
+'refresh' 'NONE' 'NONE'
+E
+travellers traveller's pill~
+This small green pill can refresh one to the point where a long days hike 
+isn't such a chore.
+~
+#14404
+goblin longblade~
+a goblin longblade~
+This long thin blade makes a decent weapon.~
+~
+5 0&16 131073
+12 5 4 1
+4 300 0
+E
+goblin longblade~
+While not known as master forgers, this thin longblade can definitely get the 
+job done.
+~
+#14405
+goblin claw whip~
+a goblin claw-whip~
+This whip has a claw at the end.~
+~
+5 0 131073
+12 3 3 4
+4 300 0
+E
+goblin claw-whip claw whip~
+A vicious weapon that only a goblin could devise, this long leather whip has a 
+small metal claw set at the end, for tearing the flesh of its victims.
+~
+#14406
+goblin pick axe~
+a goblin pick-axe~
+This weapon makes it easy to dig through rock.~
+~
+5 0&16 131073
+12 5 4 24
+4 300 0
+E
+goblin pick axe pick-axe~
+Made for digging through the hard stone of the goblins homecaves, this 
+pick-axe could be used as a weapon if the need arises.
+~
+#14407
+leather miner jerkin~
+a miner's leather jerkin~
+This heavy shirt helps keep you safe in the mines.~
+~
+9 0 65
+3 3 0 0
+4 200 0
+E
+miners miner's leather jerkin~
+A stout leather shirt, made to protect the wearer from the scratches of sharp 
+rocks and the dangers of falling stone.
+~
+#14408
+goblin chest guard~
+a goblin chest-guard~
+This thin metal guard won't stop much.~
+~
+9 524288 65
+5 5 0 0
+4 200 0
+E
+goblin chest-guard~
+This thin plate of metal might protect the wearer from a weak attack, but 
+wouldn't be too effective against someone really trying to hurt you.
+~
+#14410
+goblin meditation scroll~
+a scroll of goblin meditation~
+This scroll is an imperfect way to quickly gain back magic.~
+~
+2 64 1048577
+35 -1 -1 -1
+1 5000 0
+'restore mana' 'black lightning' 'blindness'
+E
+scroll goblin meditation~
+Goblin wizards invented a small incantation that helps restore their stores of 
+mana, at the cost of a blinding headache!
+
+~
+#14411
+scroll goblin heritage~
+a scroll of goblin heritage~
+This scroll will grant you the traits of the goblins.~
+~
+2 64 1048577
+35 -1 -1 -1
+1 5000 0
+'slink' 'dragon wit' 'NONE'
+E
+scroll goblin heritage~
+One of the few goblin magics that functions well, this was created for those 
+sneaky goblins who love theft.  It makes them sneakier, and smart enough not 
+to try anything crazy.
+~
+#14412
+goblin ale mug~
+a mug of goblin ale~
+This light beer makes the days go by fast.~
+~
+17 0 1048577
+2 2 2 0
+1 300 0
+E
+mug goblin ale~
+Light in color and quite bubbly, goblins love this ale...it makes them burp 
+twice as loud!
+~
+#14413
+goblin ale flagon~
+a flagon of goblin ale~
+This light beer makes the days go by fast.~
+~
+17 0 1048577
+6 6 2 0
+1 600 0
+E
+flagon goblin ale~
+Light in color and quite bubbly, goblins love this ale...it makes them burp 
+twice as loud!
+~
+#14414
+barrel goblin dirt-beer~
+a barrel of goblin dirt-beer~
+This will get you drunk! Mmmmhmmm.~
+~
+17 0 1048577
+20 20 2 0
+9 1000 0
+E
+barrel goblin dirt beer dirt-beer~
+Sometimes you want to drink a fine lager.  Sometimes you just want to get 
+drunk.  This will get you drunk, and after the first ten or twenty drinks, the 
+taste won't matter.
+~
+#14415
+wood fire rat~
+a wood-fired rat~
+This rat is crispy on the outside and pink in the center.~
+~
+19 0 1048577
+3 3 0 0
+1 100 0
+E
+wood-fired rat~
+Goblin cuisine is a little different than what most races are used too...and a 
+crispy, barbecued rat is proof.
+~
+#14416
+wood fire mole~
+a wood-fired mole~
+This mole is skewered and tasty.~
+~
+19 0 1048577
+6 6 0 0
+1 200 0
+E
+wood-fired mole~
+Goblin cuisine is a little different than what most races are used too...and a 
+moist, roasted mole is proof.
+~
+#14500
+Crown Goblins~
+The Crown of the Goblins~
+This delicate crown is made of steel and dirt.~
+~
+9 64 3
+3 3 0 0
+2 1000 0
+E
+crown goblins~
+Made with a mixture of what appears to be steel and dirt, this ugly little 
+crown denotes the wearer as the ruler of the goblins.
+
+~
+A
+3 2
+A
+2 3
+#0
+
+
+#ROOMS
+#14401
+A Noisy Tunnel~
+The cave behind you gives way to a carefully carved tunnel.  The walls have
+been exactly cut and measured with torches hanging in neat rows.  A great
+amount of noise is coming from deep down, a mixture of goblin songs, forges,
+and a few explosions.  A few goblins carrying tools casually walk back.
+~
+0 0 13
+D1
+~
+~
+0 0 14402
+D3
+~
+~
+0 0 10719
+S
+#14402
+A Noisy Tunnel~
+The cave behind you gives way to a carefully carved tunnel.  The walls have
+been exactly cut and measured with torches hanging in neat rows.  A great
+amount of noise is coming from deep down, a mixture of goblin songs, forges,
+and a few explosions.  A few goblins carrying tools casually walk back.
+~
+0 0 13
+D3
+~
+~
+0 0 14401
+D5
+~
+~
+0 0 14403
+S
+#14403
+A Noisy Tunnel~
+The cave behind you gives way to a carefully carved tunnel.  The walls have
+been exactly cut and measured with torches hanging in neat rows.  A great
+amount of noise is coming from deep down, a mixture of goblin songs, forges,
+and a few explosions.  A few goblins carrying tools casually walk back.
+~
+0 0 13
+D3
+~
+~
+0 0 14404
+D4
+Exit description~
+~
+0 0 14402
+S
+#14404
+The Tunnels To H'Unki~
+The tunnel has been precisely crafted by the goblin workers.  They are
+numerous now many taking smaller tunnels above and below you.  The floor and
+the ceiling are both made of crystal, allowing you to see the dozens of goblin
+workers that are expanding their tunnels or perhaps correcting the width and
+height.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14403
+D5
+~
+~
+0 0 14405
+S
+#14405
+The Tunnels To H'Unki~
+The tunnel has been precisely crafted by the goblin workers.  They are
+numerous now many taking smaller tunnels above and below you.  The floor and
+the ceiling are both made of crystal, allowing you to see the dozens of goblin
+workers that are expanding their tunnels or perhaps correcting the width and
+height.
+~
+0 0 13
+D3
+~
+~
+0 0 14406
+D4
+Exit description~
+~
+0 0 14404
+S
+#14406
+The Tunnels To H'Unki~
+The tunnel has been precisely crafted by the goblin workers.  They are
+numerous now many taking smaller tunnels above and below you.  The floor and
+the ceiling are both made of crystal, allowing you to see the dozens of goblin
+workers that are expanding their tunnels or perhaps correcting the width and
+height.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14405
+D5
+~
+~
+0 0 14407
+S
+#14407
+The Tunnels To H'Unki~
+The tunnel has been precisely crafted by the goblin workers.  They are
+numerous now many taking smaller tunnels above and below you.  The floor and
+the ceiling are both made of crystal, allowing you to see the dozens of goblin
+workers that are expanding their tunnels or perhaps correcting the width and
+height.
+~
+0 0 13
+D0
+~
+~
+0 0 14408
+D2
+~
+~
+0 0 14417
+D3
+~
+~
+0 0 14425
+D4
+Exit description~
+~
+0 0 14406
+S
+#14408
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of children and younger goblins that make their way
+through the tunnel.
+~
+0 0 13
+D0
+~
+~
+0 0 14409
+D2
+Exit description~
+~
+0 0 14407
+S
+#14409
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of children and younger goblins that make their way
+through the tunnel.
+~
+0 0 13
+D0
+~
+~
+0 0 14410
+D2
+Exit description~
+~
+0 0 14408
+S
+#14410
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of children and younger goblins that make their way
+through the tunnel.
+~
+0 0 13
+D0
+~
+~
+0 0 14411
+D2
+Exit description~
+~
+0 0 14409
+S
+#14411
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of children and younger goblins that make their way
+through the tunnel.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 14410
+D3
+~
+~
+0 0 14412
+S
+#14412
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of children and younger goblins that make their way
+through the tunnel.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14411
+D5
+~
+~
+16777216 0 14413
+S
+#14413
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D0
+~
+~
+0 0 14414
+D4
+Exit description~
+~
+16777216 0 14412
+S
+#14414
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D0
+~
+~
+0 0 14415
+D2
+Exit description~
+~
+0 0 14413
+S
+#14415
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D0
+~
+~
+0 0 14416
+D2
+Exit description~
+~
+0 0 14414
+S
+#14416
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 14415
+D5
+~
+~
+0 0 14455
+S
+#14417
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of miners and sappers making their way through the
+tunnel.  The smell of sulfur and ore is getting much heavier as you walk down
+the tunnel.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14407
+D2
+~
+~
+0 0 14418
+S
+#14418
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of miners and sappers making their way through the
+tunnel.  The smell of sulfur and ore is getting much heavier as you walk down
+the tunnel.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14417
+D2
+~
+~
+0 0 14419
+S
+#14419
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of miners and sappers making their way through the
+tunnel.  The smell of sulfur and ore is getting much heavier as you walk down
+the tunnel.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14418
+D5
+~
+~
+0 0 14420
+S
+#14420
+An Off-Shoot~
+This tunnel deviates from the larger one that leads straight through the
+center of the goblin city.  The number of goblins has not decreased but you
+notice a large number of miners and sappers making their way through the
+tunnel.  The smell of sulfur and ore is getting much heavier as you walk down
+the tunnel.
+~
+0 0 13
+D2
+~
+~
+16777216 0 14421
+D4
+Exit description~
+~
+0 0 14419
+S
+#14421
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D0
+Exit description~
+~
+16777216 0 14420
+D2
+~
+~
+0 0 14422
+S
+#14422
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14421
+D1
+~
+~
+0 0 14423
+S
+#14423
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D3
+Exit description~
+~
+0 0 14422
+D5
+~
+~
+0 0 14424
+S
+#14424
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D2
+~
+~
+0 0 14440
+D4
+Exit description~
+~
+0 0 14423
+S
+#14425
+The Tunnels To H'Unki~
+The tunnel has been precisely crafted by the goblin workers.  They are
+numerous now many taking smaller tunnels above and below you.  The floor and
+the ceiling are both made of crystal, allowing you to see the dozens of goblin
+workers that are expanding their tunnels or perhaps correcting the width and
+height.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14407
+D3
+~
+~
+16777216 0 14426
+S
+#14426
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+~
+~
+0 0 14433
+D1
+~
+~
+16777216 0 14425
+D2
+~
+~
+0 0 14434
+D3
+~
+~
+0 0 14427
+S
+#14427
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+~
+~
+0 0 14432
+D1
+Exit description~
+~
+0 0 14426
+D2
+~
+~
+0 0 14435
+D3
+~
+~
+0 0 14428
+S
+#14428
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+~
+~
+0 0 14431
+D1
+Exit description~
+~
+0 0 14427
+D2
+~
+~
+0 0 14436
+D3
+~
+~
+0 0 14429
+S
+#14429
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+~
+~
+0 0 14430
+D1
+Exit description~
+~
+0 0 14428
+D2
+~
+~
+0 0 14437
+S
+#14430
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D1
+~
+~
+0 0 14431
+D2
+Exit description~
+~
+0 0 14429
+D3
+~
+~
+16777216 0 14438
+S
+#14431
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D1
+~
+~
+0 0 14432
+D2
+Exit description~
+~
+0 0 14428
+D3
+Exit description~
+~
+0 0 14430
+S
+#14432
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D1
+~
+~
+0 0 14433
+D2
+Exit description~
+~
+0 0 14427
+D3
+Exit description~
+~
+0 0 14431
+S
+#14433
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 14426
+D3
+Exit description~
+~
+0 0 14432
+S
+#14434
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14426
+D3
+~
+~
+0 0 14435
+S
+#14435
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14427
+D1
+Exit description~
+~
+0 0 14434
+D3
+~
+~
+0 0 14436
+S
+#14436
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14428
+D1
+Exit description~
+~
+0 0 14435
+D3
+~
+~
+0 0 14437
+S
+#14437
+The Commons Cave~
+This massive cavern is packed with goblins.  You see collections of tables and
+chairs that form small pubs while some goblins have simply laid out their
+wares to sell on a blanket before them.   There is no reason to the madness,
+the goblins seem content to just set up wherever seems convenient.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14429
+D1
+Exit description~
+~
+0 0 14436
+S
+#14438
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D1
+Exit description~
+~
+16777216 0 14430
+D3
+~
+~
+0 0 14439
+S
+#14439
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14438
+D3
+~
+~
+0 0 14466
+S
+#14440
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14424
+D2
+~
+~
+0 0 14441
+S
+#14441
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14440
+D5
+~
+~
+0 0 14442
+S
+#14442
+The H'Unki Mines~
+This tunnel is both a means of getting through the mines but it also is the
+mines.  Numerous goblins are busy hacking or drilling into the tunnel walls or
+making their way down deep into the earth to the other veins below you.   A
+great heat rises from the floor.
+~
+0 0 13
+D1
+~
+~
+0 0 14443
+D4
+Exit description~
+~
+0 0 14441
+S
+#14443
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D1
+~
+~
+0 0 14444
+D2
+~
+~
+0 0 14446
+D3
+Exit description~
+~
+0 0 14442
+S
+#14444
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D2
+~
+~
+0 0 14445
+D3
+Exit description~
+~
+0 0 14443
+S
+#14445
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14444
+D3
+~
+~
+0 0 14446
+S
+#14446
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14443
+D1
+Exit description~
+~
+0 0 14445
+D5
+~
+~
+0 0 14447
+S
+#14447
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D2
+~
+~
+0 0 14448
+D4
+Exit description~
+~
+0 0 14446
+S
+#14448
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14447
+D1
+~
+~
+0 0 14449
+D2
+~
+~
+0 0 14451
+S
+#14449
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D2
+~
+~
+0 0 14450
+D3
+Exit description~
+~
+0 0 14448
+S
+#14450
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14449
+D2
+~
+~
+0 0 14453
+D3
+~
+~
+0 0 14451
+S
+#14451
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14448
+D1
+Exit description~
+~
+0 0 14450
+D2
+~
+~
+0 0 14452
+S
+#14452
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14451
+D1
+~
+~
+0 0 14453
+S
+#14453
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14450
+D3
+Exit description~
+~
+0 0 14452
+D5
+~
+~
+0 0 14454
+S
+#14454
+The H'Unki Mines~
+The system of caverns is amazing.  The goblins seem to prefer to just blast
+throw a piece of rock and continue blasting down rather than slowly move down
+level by level.  They use crude rope ladders to lift their treasures and
+themselves out of the holes.  You wonder just how far down they go.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 14453
+S
+#14455
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D0
+~
+~
+0 0 14460
+D1
+~
+~
+0 0 14456
+D4
+Exit description~
+~
+0 0 14416
+S
+#14456
+The H'Unki Homecaves~
+This wider tunnel is both a means of transit throughout the city but also
+appears to be the living area of the goblins.  There is little concept of
+personal space as numerous goblins sleep in makeshift beds next to one other
+and large groups are crowded around cooking pits that seem to heat the food
+rather than actually cook it.
+~
+0 0 13
+D0
+~
+~
+0 0 14459
+D1
+~
+~
+0 0 14457
+D2
+~
+~
+0 0 14465
+D3
+Exit description~
+~
+0 0 14455
+S
+#14457
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 14458
+D3
+Exit description~
+~
+0 0 14456
+S
+#14458
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 14463
+D2
+Exit description~
+~
+0 0 14457
+D3
+~
+~
+0 0 14459
+S
+#14459
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 14462
+D1
+Exit description~
+~
+0 0 14458
+D2
+Exit description~
+~
+0 0 14456
+D3
+~
+~
+0 0 14460
+S
+#14460
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 14461
+D1
+Exit description~
+~
+0 0 14459
+D2
+Exit description~
+~
+0 0 14455
+S
+#14461
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D1
+~
+~
+0 0 14462
+D2
+Exit description~
+~
+0 0 14460
+S
+#14462
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 14464
+D1
+~
+~
+0 0 14463
+D2
+Exit description~
+~
+0 0 14459
+D3
+Exit description~
+~
+0 0 14461
+S
+#14463
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 14458
+D3
+Exit description~
+~
+0 0 14462
+S
+#14464
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 14462
+S
+#14465
+The H'Unki Homecaves~
+This massive cavern is really just one large room where the residents of the
+city sleep.  There are hundreds of goblins here, most of them sitting on
+makeshift beds or pillows while they play odd games or talk.  Some just sleep,
+exhausted after hours working down in the mine or trying to sell their goods
+up in the commons cavern.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14456
+S
+#14466
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 14439
+D3
+~
+~
+0 0 14467
+S
+#14467
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D1
+~
+~
+0 0 14466
+D5
+~
+~
+0 0 14468
+S
+#14468
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D3
+~
+~
+0 0 14469
+D4
+Exit description~
+~
+0 0 14467
+D5
+~
+~
+0 0 14470
+S
+#14469
+The Quiet Tunnels~
+This tunnel is much smaller than any of the others.  They have been made with
+the same care and craft of the others but you notice very few goblins make
+their way through here.  Most of them appear to guards, shamans,  or
+engineers.  It is oddly quiet, several runes of power burned into the ground
+must create a barrier.
+~
+0 0 13
+D0
+~
+~
+16777216 0 14500
+D1
+Exit description~
+~
+0 0 14468
+S
+#14470
+The H'Unki Library~
+This small room has been carved from the tunnels, offering an interesting
+library.  There are no bookshelves or even piles of books but rather small
+cubby's have been slashed into the walls for the books and various scrolls.
+The collection of books is actually quite amazing, most of them seem to be
+hand-written accounts of various goblin's outing into the wider world.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 14468
+S
+#14500
+A Massive Alcove~
+This is the only room you have seen that has any measure of privacy. There are
+dozens of thick curtains and paper walls that form small rooms and private
+parlors.  There is no shortage of fine food or wine and several servants are
+making themselves busy preparing more food.  A huge iron throne sits in the
+far back, fit for a giant but occupied by a small goblin.
+~
+0 0 13
+D2
+~
+~
+16777216 0 14469
+S
+#0
+
+
+#RESETS
+M 0 14500 1 14500
+E 1 14405 1 21
+E 1 14500 1 1
+M 0 14454 1 14470
+G 1 14411 1
+G 1 14410 1
+M 0 14402 1 14469
+E 1 14404 1 21
+M 0 14403 1 14467
+E 1 14405 1 21
+M 0 14418 1 14465
+M 0 14427 1 14465
+M 0 14428 1 14465
+M 0 14423 1 14464
+M 0 14429 1 14464
+M 0 14430 1 14464
+M 0 14419 1 14462
+M 0 14431 1 14462
+M 0 14432 1 14462
+M 0 14424 1 14459
+M 0 14433 1 14459
+M 0 14434 1 14459
+M 0 14420 1 14456
+M 0 14425 1 14456
+M 0 14401 1 14454
+G 1 14401 1
+M 0 14447 1 14453
+E 1 14406 1 21
+M 0 14449 1 14451
+E 1 14406 1 21
+M 0 14457 1 14449
+G 1 14401 1
+M 0 14449 1 14447
+M 0 14450 1 14447
+M 0 14451 1 14443
+M 0 14404 1 14439
+E 1 14408 1 7
+M 0 14405 1 14437
+E 1 14405 1 21
+M 0 14438 1 14437
+M 0 14406 1 14435
+E 1 14404 1 21
+M 0 14439 1 14435
+M 0 14440 1 14435
+G 1 14407 1
+G 1 14416 1
+G 1 14414 1
+M 0 14407 1 14433
+E 1 14404 1 21
+M 0 14413 1 14433
+M 0 14441 1 14433
+M 0 14442 1 14433
+M 0 14408 1 14431
+E 1 14405 1 21
+E 1 14408 1 7
+M 0 14414 1 14431
+G 1 14403 1
+M 0 14442 1 14431
+M 0 14443 1 14431
+G 1 14415 1
+G 1 14413 1
+M 0 14409 1 14429
+E 1 14404 1 21
+M 0 14415 1 14429
+G 1 14406 1
+G 1 14404 1
+G 1 14402 1
+M 0 14444 1 14429
+M 0 14445 1 14429
+M 0 14446 1 14427
+G 1 14406 1
+G 1 14405 1
+G 1 14408 1
+G 1 14412 1
+M 0 14410 1 14425
+E 1 14405 1 21
+M 0 14451 1 14423
+E 1 14407 1 7
+M 0 14452 1 14421
+E 1 14407 1 7
+M 0 14412 1 14419
+E 1 14408 1 7
+M 0 14453 1 14417
+E 1 14407 1 7
+M 0 14421 1 14416
+M 0 14434 1 14416
+M 0 14435 1 14416
+M 0 14426 1 14414
+M 0 14436 1 14414
+M 0 14437 1 14414
+M 0 14411 1 14406
+E 1 14404 1 21
+M 0 14410 1 14404
+E 1 14405 1 21
+M 0 14455 1 14462
+M 0 14456 1 14459
+M 0 14458 1 14454
+M 0 14416 1 14402
+M 0 14417 1 14405
+S
+
+
+#SHOPS
+ 14414   19 26 10  0  0   120  90         9 20    ; a goblin adventurer
+ 14415    9  5  4  0  0   120  90         9 20    ; a goblin adventurer
+ 14440   17 65 66  8  0   120  90        14  4    ; a goblin resident
+ 14443   68  1 60 11  0   120  90         6 18    ; a goblin resident
+ 14446   67 22 15  3 13   120  90         8 18    ; a goblin resident
+ 14454    5  3  2  0  0   120  90         8 20    ; a goblin librarian
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  14402 spec_guard
+M  14403 spec_guard
+M  14404 spec_guard
+M  14405 spec_racist
+M  14406 spec_guard
+M  14407 spec_guard
+M  14408 spec_guard
+M  14409 spec_guard
+M  14410 spec_racist
+M  14411 spec_guard
+M  14412 spec_guard
+M  14455 spec_cast_shaman
+M  14456 spec_cast_shaman
+M  14457 spec_cast_mage
+M  14458 spec_cast_mage
+S
+
+
+#$

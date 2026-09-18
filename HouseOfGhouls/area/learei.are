@@ -1,0 +1,1683 @@
+#AREA   Learei~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+25 35 0 65
+$
+
+#RESETMSG A few giggling pixies float by followed by their half-orc servants.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 1008675518
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7601
+young pixie~
+a young pixie~
+This young pixie is giggling and playing games.
+~
+This young pixie is not very old and the size of a large wasp.  They laugh and
+giggle as they chase the other pixies and a few of the younger half-orcs.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7602
+young pixie~
+a young pixie~
+This young pixie is giggling and playing games.
+~
+This young pixie is not very old and the size of a large wasp.  They laugh and
+giggle as they chase the other pixies and a few of the younger half-orcs.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7603
+young pixie~
+a young pixie~
+This young pixie is giggling and playing games.
+~
+This young pixie is not very old and the size of a large wasp.  They laugh and
+giggle as they chase the other pixies and a few of the younger half-orcs.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7604
+young pixie~
+a young pixie~
+This young pixie is giggling and playing games.
+~
+This young pixie is not very old and the size of a large wasp.  They laugh and
+giggle as they chase the other pixies and a few of the younger half-orcs.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7605
+pixie mage watcher~
+a pixie watcher~
+This serious pixie is watching the city for trouble.
+~
+This pixie is a bit older than the others and does not have the same playful
+manner.  They float about, watching for signs of any trouble, either from
+rebels or the half-orc servants.  They do not carry any weapons but judging by
+the look in their eyes they have some tricks up their sleeves.
+~
+16777281 524288 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7606
+pixie mage watcher~
+a pixie watcher~
+This serious pixie is watching the city for trouble.
+~
+This pixie is a bit older than the others and does not have the same playful
+manner.  They float about, watching for signs of any trouble, either from
+rebels or the half-orc servants.  They do not carry any weapons but judging by
+the look in their eyes they have some tricks up their sleeves.
+~
+16777281 524288 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7607
+pixie mage watcher~
+a pixie watcher~
+This serious pixie is watching the city for trouble.
+~
+This pixie is a bit older than the others and does not have the same playful
+manner.  They float about, watching for signs of any trouble, either from
+rebels or the half-orc servants.  They do not carry any weapons but judging by
+the look in their eyes they have some tricks up their sleeves.
+~
+16777281 524288 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7608
+pixie mage watcher~
+a pixie watcher~
+This serious pixie is watching the city for trouble.
+~
+This pixie is a bit older than the others and does not have the same playful
+manner.  They float about, watching for signs of any trouble, either from
+rebels or the half-orc servants.  They do not carry any weapons but judging by
+the look in their eyes they have some tricks up their sleeves.
+~
+16777281 524288 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7609
+Lea pixie mayor woman~
+Lea, the Pixie Mayor~
+This cute pixie woman looks over some papers on her desk.
+~
+This older pixie woman is still quite cute despite her age.  She shuffles
+through the papers on her desk and ignores you staring at her.  Her auburn
+hair has several sublte hints of gray that only serve to add to her beauty.
+~
+16777283 524416 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 1107296256 3
+#7610
+uri pixie alchemist~
+Uri, the Pixie Alchemist~
+This pixie is mixing different potions together.
+~
+This older pixie is hunched over a concotion of numerous potions and
+components in a search for a new thing to sell.  His face is scarred from fire
+and acid, leading to the assumption his mixtures aren't always stable.
+~
+16777283 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7611
+Haeli barmaid pixie~
+Haeli, the Pixie Barmaid~
+This pixie barmaid is busy mixing drinks.
+~
+This beautiful young pixie is mixing up several drinks behind the bar. She
+floats up to the top shelf to get the rarer and more expensive bottles of ale
+or wine.  She smiles at you and gives a wink.
+~
+16777283 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7612
+relaxing pixie~
+a relaxing pixie~
+This pixie is relaxing in their home.
+~
+This middle-aged pixie is taking a break from whatever work they were doing
+and resting in the comfort of their home.  They smoke a small pipe and call
+out to their orc-servant for another glass of wine.  They seem quite content.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7613
+relaxing pixie~
+a relaxing pixie~
+This pixie is relaxing in their home.
+~
+This middle-aged pixie is taking a break from whatever work they were doing
+and resting in the comfort of their home.  They smoke a small pipe and call
+out to their orc-servant for another glass of wine.  They seem quite content.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 9 9 0
+0 0 32806 0 0 0 0 2
+#7614
+young half-orc~
+a young half-orc~
+This young half-orc is busy enjoying their freedom.
+~
+This young half-orc is far to young to be of any use by the Pixies or the
+Imperials, so for the time they are free to play.  They chase around the other
+young half-orcs or even the more open minded or naive pixies that join their
+game.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7615
+young half-orc~
+a young half-orc~
+This young half-orc is busy enjoying their freedom.
+~
+This young half-orc is far to young to be of any use by the Pixies or the
+Imperials, so for the time they are free to play.  They chase around the other
+young half-orcs or even the more open minded or naive pixies that join their
+game.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7616
+young half-orc~
+a young half-orc~
+This young half-orc is busy enjoying their freedom.
+~
+This young half-orc is far to young to be of any use by the Pixies or the
+Imperials, so for the time they are free to play.  They chase around the other
+young half-orcs or even the more open minded or naive pixies that join their
+game.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7617
+young half-orc~
+a young half-orc~
+This young half-orc is busy enjoying their freedom.
+~
+This young half-orc is far to young to be of any use by the Pixies or the
+Imperials, so for the time they are free to play.  They chase around the other
+young half-orcs or even the more open minded or naive pixies that join their
+game.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7618
+old half orc~
+an old half-orc~
+This old half-orc is too weak to work.
+~
+This poor old half-orc must have had a hard life.  Their face is weathered and
+thin, their limbs sinewed yet frail.  They are too old and too weak to be of
+any service, so now they are free to sit and spend the rest of their days in
+peace.
+~
+16777281 0 0 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7619
+old half orc~
+an old half-orc~
+This old half-orc is too weak to work.
+~
+This poor old half-orc must have had a hard life.  Their face is weathered and
+thin, their limbs sinewed yet frail.  They are too old and too weak to be of
+any service, so now they are free to sit and spend the rest of their days in
+peace.
+~
+16777281 0 0 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7620
+old half orc~
+an old half-orc~
+This old half-orc is too weak to work.
+~
+This poor old half-orc must have had a hard life.  Their face is weathered and
+thin, their limbs sinewed yet frail.  They are too old and too weak to be of
+any service, so now they are free to sit and spend the rest of their days in
+peace.
+~
+16777281 0 0 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7621
+half orc cityguard~
+a half-orc cityguard~
+This brawny half-orc is trusted with defense of the city.
+~
+This large half-orc has been put into service as a police force for the city.
+They are decently armored and patrol every part of the city.  They must be
+extremely trusted to be given access to such weaponary and training.
+~
+16777281 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 416 2
+#7622
+half orc cityguard~
+a half-orc cityguard~
+This brawny half-orc is trusted with defense of the city.
+~
+This large half-orc has been put into service as a police force for the city.
+They are decently armored and patrol every part of the city.  They must be
+extremely trusted to be given access to such weaponary and training.
+~
+16777281 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 416 2
+#7623
+half orc cityguard~
+a half-orc cityguard~
+This brawny half-orc is trusted with defense of the city.
+~
+This large half-orc has been put into service as a police force for the city.
+They are decently armored and patrol every part of the city.  They must be
+extremely trusted to be given access to such weaponary and training.
+~
+16777281 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 416 2
+#7624
+half orc cityguard~
+a half-orc cityguard~
+This brawny half-orc is trusted with defense of the city.
+~
+This large half-orc has been put into service as a police force for the city.
+They are decently armored and patrol every part of the city.  They must be
+extremely trusted to be given access to such weaponary and training.
+~
+16777281 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 416 2
+#7626
+half orc servant~
+a half-orc servant~
+This half-orc is busy running errands for their master.
+~
+This half-orc is in service of one of the pixies.  They seem to be running
+errands and attending to the pixies every need.  They are also carrying
+supplies and groceries on their monstrous frames.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7627
+half orc servant~
+a half-orc servant~
+This half-orc is busy running errands for their master.
+~
+This half-orc is in service of one of the pixies.  They seem to be running
+errands and attending to the pixies every need.  They are also carrying
+supplies and groceries on their monstrous frames.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7628
+half orc servant~
+a half-orc servant~
+This half-orc is busy running errands for their master.
+~
+This half-orc is in service of one of the pixies.  They seem to be running
+errands and attending to the pixies every need.  They are also carrying
+supplies and groceries on their monstrous frames.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7630
+half orc servant~
+a half-orc servant~
+This half-orc is busy running errands for their master.
+~
+This half-orc is in service of one of the pixies.  They seem to be running
+errands and attending to the pixies every need.  They are also carrying
+supplies and groceries on their monstrous frames.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7631
+half orc servant~
+a half-orc servant~
+This half-orc is busy running errands for their master.
+~
+This half-orc is in service of one of the pixies.  They seem to be running
+errands and attending to the pixies every need.  They are also carrying
+supplies and groceries on their monstrous frames.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7632
+imperial guardian man soldier~
+an Imperial guardian~
+This Imperial soldier is helping to guard Learei.
+~
+The guardians were formed shortly after the Imperial army destroyed the last
+major clan of pure blood orcs.  The bastard children that remained were put to
+work under the eye of the faithful pixies and Bazabel pledged a battalion of
+soldiers to help defend their city.  This soldier is keeping that pledge.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7633
+imperial guardian man soldier~
+an Imperial guardian~
+This Imperial soldier is helping to guard Learei.
+~
+The guardians were formed shortly after the Imperial army destroyed the last
+major clan of pure blood orcs.  The bastard children that remained were put to
+work under the eye of the faithful pixies and Bazabel pledged a battalion of
+soldiers to help defend their city.  This soldier is keeping that pledge.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7634
+imperial guardian man soldier~
+an Imperial guardian~
+This Imperial soldier is helping to guard Learei.
+~
+The guardians were formed shortly after the Imperial army destroyed the last
+major clan of pure blood orcs.  The bastard children that remained were put to
+work under the eye of the faithful pixies and Bazabel pledged a battalion of
+soldiers to help defend their city.  This soldier is keeping that pledge.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7636
+Gregaz supplier half-orc~
+Gregaz, the Half-orc supplier.~
+This large half-orc supplies the local community.
+~
+This large half-orc's shop is simple as are his clothes.  He caters to the
+half-orc population that is forced to live in the ghetto and does his best to
+make sure everyone has something to eat and something to keep them warm.  He
+smiles at you and welcomes you in, despite your race.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#7647
+Imperial armorer man~
+the Imperial Armorer~
+This Imperial is busy working on some armor.
+~
+This large man is the local blacksmith and the official supplier of all
+weapons and armor in the city.  He is busy repairing a breastplate that a
+stupid half-orc broke during a training exercise.  He curses his luck to get
+landed in a city filled with buck-tooth dullards and flying laughing idiots.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 33 33 0
+0 0 1059 0 0 0 0 2
+#0
+
+
+#OBJECTS
+#7601
+iron halberd~
+a iron halberd~
+This heavy polearm is vicious in the right hands.~
+~
+5 0&128 131073
+12 4 5 19
+12 200 0
+#7602
+imperial naginata~
+an Imperial naginata~
+This long sword has an Imperial seal burned into it.~
+~
+5 0&128 131073
+12 4 5 1
+12 200 0
+#7603
+silk robe~
+a silk robe~
+This light robe is more fashionable than protective.~
+~
+9 0 2049
+1 1 0 0
+1 1000 0
+#7604
+Imperial leather plate~
+An Imperial leather plate~
+This light leather armor doesn't add much protection.~
+~
+9 0 65
+3 3 0 0
+1 100 0
+#7605
+Imperial iron plate~
+an Imperial iron plate~
+This heavy iron armor could stop a solid blow.~
+~
+9 524288 65
+9 9 0 0
+9 100 0
+#7606
+minor ache pill~
+a pill for minor aches~
+This pill will help relieve minor pains.~
+~
+26 64 1048577
+25 -1 -1 -1
+1 100 0
+'cure light' 'cure light' 'aggressive style'
+#7607
+potion quick escape~
+a potion of quick escape~
+This potion will help you get away.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 2000 0
+'cure light' 'cure light' 'teleport'
+#7608
+potion recall~
+a potion of recall~
+This potion will let you recall.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 200 0
+'aggressive style' 'aggressive style' 'word of recall'
+#7609
+potion fire bane~
+a potion of fire bane~
+This potion glows a sweet red.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 5000 0
+'aggressive style' 'fireshield' 'blazeward'
+#7610
+potion cold bane~
+a potion of cold bane~
+This potion glows a sweet blue.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 5000 0
+'aggressive style' 'inner warmth' 'iceshield'
+#7611
+bag of hard tack~
+a bag of hard tack~
+This tasteless flour-bread is filling.~
+~
+19 0 1048577
+4 0 0 0
+1 100 0
+#7612
+thin crispy bread~
+a piece of thin crispy bread~
+This bread is think and crispy.~
+~
+19 0 1048577
+4 0 0 0
+1 100 0
+#7613
+bottle of pixie wine~
+a bottle of pixie wine~
+This fine wine is made by the pixies.~
+~
+17 0 1048577
+5 5 3 0
+1 500 0
+#0
+
+
+#ROOMS
+#7601
+The Road to Learei~
+The forest seems to pull back to reveal a small city of trees and a few
+scattered ground level buildings.  You can make out a few very tall trees that
+are covered in banners and flags.  The road is well traveled and heavily
+patrolled.
+~
+0 0 3
+D0
+~
+~
+0 0 7602
+S
+#7602
+The Road to Learei~
+The forest seems to pull back to reveal a small city of trees and a few
+scattered ground level buildings.  You can make out a few very tall trees that
+are covered in banners and flags.  The road is well traveled and heavily
+patrolled.
+~
+0 0 3
+D0
+~
+~
+0 0 7603
+D2
+Exit description~
+~
+0 0 7601
+S
+#7603
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7604
+D2
+Exit description~
+~
+0 0 7602
+S
+#7604
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7605
+D2
+Exit description~
+~
+0 0 7603
+S
+#7605
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7606
+D2
+Exit description~
+~
+0 0 7604
+D3
+Exit description~
+~
+0 0 7621
+S
+#7606
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7607
+D2
+Exit description~
+~
+0 0 7605
+S
+#7607
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7608
+D2
+Exit description~
+~
+0 0 7606
+S
+#7608
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7609
+D2
+Exit description~
+~
+0 0 7607
+S
+#7609
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7610
+D2
+Exit description~
+~
+0 0 7608
+D4
+Exit description~
+~
+0 0 7640
+S
+#7610
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7611
+D2
+Exit description~
+~
+0 0 7609
+D4
+Exit description~
+~
+0 0 7639
+S
+#7611
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7612
+D2
+Exit description~
+~
+0 0 7610
+S
+#7612
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D1
+~
+~
+0 0 7613
+D2
+Exit description~
+~
+0 0 7611
+D4
+Exit description~
+~
+0 0 7638
+S
+#7613
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D1
+~
+~
+0 0 7614
+D3
+Exit description~
+~
+0 0 7612
+S
+#7614
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 7642
+D1
+~
+~
+0 0 7615
+D3
+Exit description~
+~
+0 0 7613
+S
+#7615
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7616
+D2
+Exit description~
+~
+0 0 7641
+D3
+Exit description~
+~
+0 0 7614
+S
+#7616
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7617
+D2
+Exit description~
+~
+0 0 7615
+D4
+Exit description~
+~
+0 0 7643
+S
+#7617
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D0
+~
+~
+0 0 7618
+D2
+Exit description~
+~
+0 0 7616
+S
+#7618
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D1
+~
+~
+0 0 7619
+D2
+~
+~
+0 0 7617
+D4
+Exit description~
+~
+0 0 7644
+S
+#7619
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D1
+~
+~
+0 0 7620
+D3
+Exit description~
+~
+0 0 7618
+S
+#7620
+The Main Road of Learei~
+This is the main road that goes through all of Learei.  The buildings blend
+perfectly into the forest that surrounds the area, offering a great amount of
+camoflauge as well as natural defenses.  Numerous pixies float about while you
+notice there are also numerous half-orc servants and even a few younger
+ones playing games back and forth
+~
+0 0 3
+D1
+~
+~
+0 0 7645
+D3
+Exit description~
+~
+0 0 7619
+S
+#7621
+Off the Main Road~
+This road is in considerable less use then the main road.  It is hastily made
+and little more than a dirty path.  It leads to a collection of dirty and
+broken down buildings and judging by the lack of pixies, this must be the way
+to the half-orc part of town.
+~
+0 0 3
+D1
+~
+~
+0 0 7605
+D3
+~
+~
+0 0 7622
+S
+#7622
+Off the Main Road~
+This road is in considerable less use then the main road.  It is hastily made
+and little more than a dirty path.  It leads to a collection of dirty and
+broken down buildings and judging by the lack of pixies, this must be the way
+to the half-orc part of town.
+~
+0 0 3
+D1
+~
+~
+0 0 7621
+D3
+~
+~
+0 0 7623
+S
+#7623
+Off the Main Road~
+This road is in considerable less use then the main road.  It is hastily made
+and little more than a dirty path.  It leads to a collection of dirty and
+broken down buildings and judging by the lack of pixies, this must be the way
+to the half-orc part of town.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 7622
+D2
+Exit description~
+~
+0 0 7632
+D3
+~
+~
+0 0 7624
+S
+#7624
+Off the Main Road~
+This road is in considerable less use then the main road.  It is hastily made
+and little more than a dirty path.  It leads to a collection of dirty and
+broken down buildings and judging by the lack of pixies, this must be the way
+to the half-orc part of town.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 7623
+D3
+~
+~
+0 0 7625
+S
+#7625
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+~
+~
+0 0 7626
+D1
+Exit description~
+~
+0 0 7624
+D3
+Exit description~
+~
+0 0 7630
+S
+#7626
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+~
+~
+0 0 7627
+D2
+Exit description~
+~
+0 0 7625
+D3
+Exit description~
+~
+0 0 7629
+S
+#7627
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 7626
+D3
+~
+~
+0 0 7628
+S
+#7628
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 7627
+D2
+~
+~
+0 0 7629
+S
+#7629
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7628
+D1
+~
+~
+0 0 7626
+D2
+~
+~
+0 0 7630
+S
+#7630
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7629
+D1
+~
+~
+0 0 7625
+D2
+~
+~
+0 0 7631
+S
+#7631
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7630
+S
+#7632
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+~
+~
+0 0 7623
+D1
+~
+~
+0 0 7637
+D2
+~
+~
+0 0 7633
+S
+#7633
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7632
+D1
+~
+~
+0 0 7636
+D2
+~
+~
+0 0 7634
+S
+#7634
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7633
+D1
+~
+~
+0 0 7635
+S
+#7635
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+~
+~
+0 0 7636
+D3
+Exit description~
+~
+0 0 7634
+S
+#7636
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D0
+~
+~
+0 0 7637
+D2
+Exit description~
+~
+0 0 7635
+D3
+Exit description~
+~
+0 0 7633
+S
+#7637
+The Half-orc Ghetto~
+The rooms of these buildings are little more than huts.  The room and walls
+have large holes in them that let rain, snow, and whatever else in.  There are
+numerous spiders and snake and a cold draft seems to always be floating by.
+The half-orcs that live here are quiet as they rest from a hard day of working
+for the pixies, if you could call it working, others would call it slavery.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 7636
+D3
+Exit description~
+~
+0 0 7632
+S
+#7638
+A Pixie Home~
+This pixie residence is built into the very trees of the forest itself. While
+it is not large enough for a normal size person to feel comfortable, it is
+perfect for a pixie.  The half-orc servant has to duck and constantly be aware
+of the vases and other breakables inside the house.  The pixie master watches
+with a cold eye.
+~
+0 0 0
+D5
+~
+~
+128 0 7612
+S
+#7639
+A Pixie Home~
+This pixie residence is built into the very trees of the forest itself. While
+it is not large enough for a normal size person to feel comfortable, it is
+perfect for a pixie.  The half-orc servant has to duck and constantly be aware
+of the vases and other breakables inside the house.  The pixie master watches
+with a cold eye.
+~
+0 0 0
+D5
+Exit description~
+~
+128 0 7610
+S
+#7640
+A Pixie Home~
+This pixie residence is built into the very trees of the forest itself. While
+it is not large enough for a normal size person to feel comfortable, it is
+perfect for a pixie.  The half-orc servant has to duck and constantly be aware
+of the vases and other breakables inside the house.  The pixie master watches
+with a cold eye.
+~
+0 0 0
+D5
+Exit description~
+~
+128 0 7609
+S
+#7641
+A Run Down Shop~
+This shop is poorly constructed and mainted with the same zeal. It is merely a
+shack constructed with several pieces of thin wood and held together with
+rusty nails and twine.  Yet the shop itself seems to do good business and you
+notice it is mostly the half-orcs that frequent it.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 7615
+S
+#7642
+The Imperial Blacksmith~
+This shop is one of the few that is constucted with metal and stone rather
+than wood or fashioned out of a tree. A huge furnace sits in the back along
+with all the tools needed for a smart blacksmith to make a good living.  The
+smell of burning coal and steel is heavy.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 7614
+S
+#7643
+A Burnt Tree~
+This shop shows sign of a fire or other accident.  The bark of the tree is
+blackened and the branches that form the floor seem a bit charred.  The smell
+of sulfur and smoke is still heavy in the air.  Judging by all the potions and
+components sitting on the shelves, the owner of the shop is responisble.
+~
+0 8 0
+D5
+Exit description~
+~
+0 0 7616
+S
+#7644
+The Singing Fae~
+This beautiful pub is built upon a massive oak tree.  Their is plenty of room
+for dozens of half-orcs as well as three times as many pixies.  However, you
+see only pixies and a few Imperial soldiers drinking here.  The few half-orcs
+that are here are either guards or servants, loading in a new shipment of ale
+or wine.
+~
+0 8 0
+D5
+Exit description~
+~
+0 0 7618
+S
+#7645
+A Massive Tree of Emerald~
+This mighty tree has the color of a precious gem. It is at least ten times
+thicker than oak or sequioa. Numerous important looking pixies and Imperial
+officers make their way up the tree. The pixies have an easier time of it but
+they politely added several foot holds that make climbing the tree easier.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 7620
+D4
+Exit description~
+~
+0 0 7646
+S
+#7646
+A Massive Tree of Emerald~
+This mighty tree has the color of a precious gem. It is at least ten times
+thicker than oak or sequioa. Numerous important looking pixies and Imperial
+officers make their way up the tree. The pixies have an easier time of it but
+they politely added several foot holds that make climbing the tree easier.
+~
+0 0 0
+D4
+Exit description~
+~
+0 0 7647
+D5
+Exit description~
+~
+0 0 7645
+S
+#7647
+The Mayor's Branch~
+This large Branch is dedicated to the office of the mayor of Learei.  The room
+is filled with numerous shiny objects, baubles, and other things that seem
+more for entertainment that any actual business matter.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 7646
+S
+#0
+
+
+#RESETS
+M 0 7605 1 7603
+E 1 7603 1 14
+M 0 7621 1 7605
+E 1 7604 1 7
+E 1 7601 1 21
+M 0 7601 1 7607
+M 0 7614 1 7609
+M 0 7626 1 7611
+M 0 7606 1 7613
+E 1 7603 1 14
+M 0 7622 1 7615
+E 1 7601 1 21
+E 1 7604 1 7
+M 0 7602 1 7617
+M 0 7615 1 7619
+M 0 7627 1 7621
+M 0 7632 1 7623
+E 1 7602 1 21
+E 1 7605 1 7
+M 0 7616 1 7625
+M 0 7618 1 7627
+M 0 7623 1 7629
+E 1 7601 1 21
+M 0 7617 1 7632
+M 0 7619 1 7633
+M 0 7620 1 7634
+M 0 7624 1 7636
+E 1 7604 1 7
+M 0 7628 1 7634
+M 0 7628 1 7637
+M 0 7612 1 7638
+M 0 7613 1 7640
+M 0 7603 1 7639
+M 0 7604 1 7644
+M 0 7633 1 7646
+E 1 7605 1 7
+E 1 7602 1 21
+M 0 7607 1 7645
+E 1 7603 1 14
+M 0 7610 1 7643
+G 1 7610 1
+G 1 7609 1
+G 1 7608 1
+G 1 7607 1
+M 0 7611 1 7644
+G 1 6034 1
+G 1 6022 1
+G 1 6023 1
+G 1 7613 1
+M 0 7609 1 7647
+M 0 7647 1 7642
+G 1 7604 1
+G 1 7605 1
+G 1 7602 1
+G 1 7601 1
+M 0 7636 1 7641
+G 1 7612 1
+G 1 7611 1
+G 1 7606 1
+M 0 7604 1 7611
+M 0 7608 1 7607
+E 1 7603 1 14
+M 0 7630 1 7605
+M 0 7631 1 7616
+M 0 7634 1 7620
+E 1 7602 1 21
+S
+
+
+#SHOPS
+ 7610   63 26 10  3  0   120  90         0 23    ; Uri, the Pixie Alchemist
+ 7611   15 17 19  0  0   120  90         0 23    ; Haeli, the Pixie Barmaid
+ 7636    9  5 19 17  0   120  90         0 23    ; Gregaz, the Half-orc supplier.
+ 7647    9  5  0  0  0   120  90         0 23    ; the Imperial Armorer
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7605 spec_cast_mage
+M  7606 spec_cast_mage
+M  7607 spec_cast_mage
+M  7608 spec_cast_mage
+M  7621 spec_guard
+M  7622 spec_guard
+M  7623 spec_guard
+M  7624 spec_guard
+S
+
+
+#$

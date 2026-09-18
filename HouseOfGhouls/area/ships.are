@@ -1,0 +1,3226 @@
+#AREA   Ships At Sea~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG The ring of a ships bell echoes through the air...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 399449999
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#5201
+pirate boy lad~
+a pirate lad~
+A young boy polishes the brass fittings of the ship.
+~
+This young lad is happily polishing the brass fittings of the large frigate.
+He doesn't look too unhappy to be living a life of piracy on the seas.
+Perhaps he figures that life could definitely be worse.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1613 0 0 0 0 0
+> rand_prog 5~
+emote whistles a sea tune.~
+|
+#5202
+pirate boy lad~
+a pirate lad~
+A young boy polishes the brass fittings of the ship.
+~
+This young lad is happily polishing the brass fittings of the large frigate.
+He doesn't look too unhappy to be living a life of piracy on the seas.
+Perhaps he figures that life could definitely be worse.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1997 0 0 0 0 0
+> rand_prog 5~
+emote smiles at the shiny brass before him.~
+|
+#5203
+pirate lookout elf~
+a pirate lookout~
+This young elf scans the seas with her sharp eyesight, looking for loot!
+~
+Standing high in the crows nest, this young elf stares out across the waves,
+her golden hair blowing in the salty breeze.  Hoping to sight a fat
+merchantman, she also makes sure the frigate doesn't come too close to any
+Imperial warships.
+~
+67 0&8 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 0 0 3 1 0
+0 0 1039 0 2 0 48 3
+> rand_prog 5~
+say One of these days, I am going to get myself a parrot!~
+> rand_prog 5~
+emote scans the sea, looking for plunder.~
+|
+#5204
+pirate man~
+a pirate~
+A rowdy pirate attends to the ship.
+~
+Forgoing a normal life for a dangerous life at sea, this pirate has a grin on
+his face as he goes about his regular chores on the ship.  The pirate life has
+given him many adventures and even more gold coins.  It is definitely a
+pirates life for him!
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 1679 0 0 0 48 524291
+> rand_prog 5~
+say Shiver me timbers!~
+|
+#5205
+pirate man~
+a pirate~
+A rowdy pirate attends to the ship.
+~
+Forgoing a normal life for a dangerous life at sea, this pirate has a grin on
+his face as he goes about his regular chores on the ship.  The pirate life has
+given him many adventures and even more gold coins.  It is definitely a
+pirates life for him!
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 2 0 0 4194305 1 0
+0 0 1679 0 0 0 48 524291
+> rand_prog 5~
+say Aye!  Landlubbers aboard the ship!
+~
+|
+#5206
+pirate man~
+a pirate~
+A rowdy pirate attends to the ship.
+~
+Forgoing a normal life for a dangerous life at sea, this pirate has a grin on
+his face as he goes about his regular chores on the ship.  The pirate life has
+given him many adventures and even more gold coins.  It is definitely a
+pirates life for him!
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 3 1 0
+0 0 1679 0 0 0 48 524291
+> rand_prog 5~
+say I don't think the Captain is looking for new recruits...
+~
+|
+#5207
+pirate woman~
+a pirate~
+A rowdy pirate attends to the ship.
+~
+Forgoing a normal life for a dangerous life at sea, this pirate has a grin on
+her face as she goes about her regular chores on the ship.  The pirate life has
+given her many adventures and even more gold coins.  It is definitely a
+pirates life for her!
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 1679 0 0 0 48 524291
+> greet_prog 5~
+say Ahoy!
+~
+|
+#5208
+pirate man~
+a pirate~
+A rowdy pirate attends to the ship.
+~
+Forgoing a normal life for a dangerous life at sea, this pirate has a grin on
+her face as she goes about her regular chores on the ship.  The pirate life has
+given her many adventures and even more gold coins.  It is definitely a
+pirates life for her!
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1048577 1 0
+0 0 1679 0 0 0 48 524291
+> rand_prog 5~
+emote looks at you suspiciously.~
+|
+#5209
+captain kallisto pirate~
+Captain Kallisto~
+The pirate captain walks the decks, ensuring everyone is doing their jobs.
+~
+Ahh, a quite infamous man is Captain Kallisto.  Once the noble son of a family
+of famous healers, he grew tired with the quiet life of spells and potions,
+and ran away to find adventure.  After serving his time on many a sailing
+vessel, he eventually gained control of his own ship, and has sailed the
+realms thrice-over, searching for excitement.
+~
+1 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 5~
+say Harrrrr!
+~
+> rand_prog 5~
+emote scratches his good eye, careful not to use the hook hand.~
+> rand_prog 5~
+say Healing?  I gave that up...but my sister in Alden is one of the best!
+~
+|
+#5210
+pirate cook woman~
+the pirate cook~
+This old woman is drunkenly cooking a stew for the crew.
+~
+Cackling to herself and sipping grog, this old woman is working on a great
+smelling fish stew for the crew.  She moves about the galley, getting bits and
+pieces of spices and tosses them into the pot.
+~
+67 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 1039 0 1 0 64 3
+> rand_prog 5~
+mmm
+say Fish for dinner again!
+~
+> rand_prog 5~
+emote tastes the stew, then adds more salt.
+emote sips some grog, then adds some to the stew.
+~
+|
+#5211
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+groan~
+|
+#5212
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+12 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+#5213
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 17 0 0 3 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+moan
+~
+|
+#5214
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then her
+only hope is that someone not too cruel will buy her, and not work her into an
+early grave.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+#5215
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 17 0 0 4194305 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+cry
+~
+|
+#5216
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+14 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+#5217
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+12 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 17 0 0 2097153 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+gasp~
+|
+#5218
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then her
+only hope is that someone not too cruel will buy her, and not work her into an
+early grave.
+~
+16777283 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 17 0 0 131073 1 0
+0 0 1743 0 0 0 0 0
+#5219
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+sigh~
+|
+#5220
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+#5221
+slave~
+a slave~
+A miserable slave sits at her oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then her
+only hope is that someone not too cruel will buy her, and not work her into an
+early grave.
+~
+16777283 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 17 0 0 16385 1 0
+0 0 1743 0 0 0 0 0
+> rand_prog 2~
+shiver~
+|
+#5222
+slave~
+a slave~
+A miserable slave sits at his oar.
+~
+Captured by the raiding slavers, this poor slave is doomed to row this boat
+from shore to distant shore, until the raiders have a full load.  Then his
+only hope is that someone not too cruel will buy him, and not work him into an
+early grave.
+~
+16777283 0 0 C
+14 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1743 0 0 0 0 0
+#5223
+slaver raider~
+a slaver raider~
+A cruel slaver raider patrols the boat, whipping the slaves when they slow down.
+~
+A cruel grin crosses this raiders face as you approach.  Perhaps he things he
+might take YOU as a slave.  Perhaps he just likes the idea of swinging his
+whip at someone stronger than his cargo.
+~
+65 0 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1743 16 0 0 176 2
+> rand_prog 5~
+snarl~
+|
+#5224
+slaver raider~
+a slaver raider~
+A cruel slaver raider patrols the boat, whipping the slaves when they slow down.
+~
+A cruel grin crosses this raiders face as you approach.  Perhaps he things he
+might take YOU as a slave.  Perhaps he just likes the idea of swinging his
+whip at someone stronger than his cargo.
+~
+65 0 -1000 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1743 16 0 0 176 2
+> rand_prog 5~
+say Row faster you maggots!
+~
+|
+#5225
+slaver raider~
+a slaver raider~
+A cruel slaver raider patrols the boat, whipping the slaves when they slow down.
+~
+A cruel grin crosses this raiders face as you approach.  Perhaps he things he
+might take YOU as a slave.  Perhaps he just likes the idea of swinging his
+whip at someone stronger than his cargo.
+~
+65 0 -1000 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1743 16 0 0 176 2
+> rand_prog 5~
+chuckle self~
+|
+#5226
+slaver raider~
+a slaver raider~
+A cruel slaver raider patrols the boat, whipping the slaves when they slow down.
+~
+A cruel grin crosses this raiders face as you approach.  Perhaps he things he
+might take YOU as a slave.  Perhaps he just likes the idea of swinging his
+whip at someone stronger than his cargo.
+~
+65 0 -1000 C
+24 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1743 16 0 0 176 2
+> rand_prog 5~
+frown~
+|
+#5227
+slaver beater drum-beater~
+the drum-beater~
+The drum-beater scowls as you approach, trying to not lose his rhythm.
+~
+This large slaver is trying to ignore you, for he knows if he loses the beat,
+the boat will lose speed.  If that happens, he also knows he may very well
+become one of the cargo, instead of the crew.
+~
+67 2048 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 96 0 0 400 1
+> rand_prog 2~
+say Row faster!
+~
+> rand_prog 2~
+emote sings a quiet tune to himself, to the beat of the drum.~
+|
+#5228
+slaver captain man~
+the slaver captain~
+This arrogant man struts about the ship, punishing those who don't obey.
+~
+A strong warrior struts up and down his galley, beating slaves and guards
+alike.  It seems one needs only to look at him to gain his evil favor.  He
+eyes you up and down, and calculates how much gold he could get for such a
+fine specimen.
+~
+65 2048 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 96 0 0 848 3
+> rand_prog 5~
+emote fingers his whip and looks for a victim...~
+> rand_prog 2~
+cackle
+~
+|
+#5229
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5230
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5231
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5232
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5233
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5234
+ghost pirate~
+the ghost of a pirate~
+A moaning ghost of a pirate swoops towards you!
+~
+The ghostly visage of a battle-scarred pirate swoops over the rotten decks
+towards you, caught in a fight it can never leave.  You are just another
+victim in a long line of victims...
+~
+97&8 275775552&264 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 14 0 0 4096 4096 0
+0 0 0 1056768 0 0 621805568 6
+#5235
+ghost captain helena~
+Captain Helena~
+The horrible visage of the ghostly captain shrieks as she approaches!
+~
+Her ghostly head hanging by...well...nothing, Captain Helena shrieks a
+horrible scream as she flies rapidly towards you!  Slain by Imperial sailors
+in a sea battle long ago, she is cursed to continue to sail these waters by a
+powerful shaman.  The terror of the seas when alive, she will continue to be
+the terror of the seas for the rest of time.
+~
+1&8 0 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#5236
+sailor rebel~
+a rebel sailor~
+A rebel sailor moves about the skiff, keeping it sailing straight.
+~
+Born for a life on the sea, this sailor cruises from continent to continent,
+smuggling war-goods to the various rebel bases, keeping the fight alive.
+Knowing his life is over if caught by an Imperial warship, he is a master at
+keeping the skiff cruising at top speeds.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 0 0 0 224 2
+#5237
+sailor rebel~
+a rebel sailor~
+A rebel sailor moves about the skiff, keeping it sailing straight.
+~
+Born for a life on the sea, this sailor cruises from continent to continent,
+smuggling war-goods to the various rebel bases, keeping the fight alive.
+Knowing his life is over if caught by an Imperial warship, he is a master at
+keeping the skiff cruising at top speeds.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 0 0 0 224 2
+#5238
+sailor rebel~
+a rebel sailor~
+A rebel sailor moves about the skiff, keeping it sailing straight.
+~
+Born for a life on the sea, this sailor cruises from continent to continent,
+smuggling war-goods to the various rebel bases, keeping the fight alive.
+Knowing his life is over if caught by an Imperial warship, he is a master at
+keeping the skiff cruising at top speeds.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 0 0 0 224 2
+#5239
+sailor rebel~
+a rebel sailor~
+A rebel sailor moves about the skiff, keeping it sailing straight.
+~
+Born for a life on the sea, this sailor cruises from continent to continent,
+smuggling war-goods to the various rebel bases, keeping the fight alive.
+Knowing his life is over if caught by an Imperial warship, he is a master at
+keeping the skiff cruising at top speeds.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 0 0 0 224 2
+#5240
+sailor rebel~
+a rebel sailor~
+A rebel sailor moves about the skiff, keeping it sailing straight.
+~
+Born for a life on the sea, this sailor cruises from continent to continent,
+smuggling war-goods to the various rebel bases, keeping the fight alive.
+Knowing his life is over if caught by an Imperial warship, he is a master at
+keeping the skiff cruising at top speeds.
+~
+65 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1743 0 0 0 224 2
+#5600
+new mob~
+Dont Change This Mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#5201
+black eye patch~
+a black eyepatch~
+A black eyepatch lies crumpled on the ground.~
+~
+9 0 5
+2 2 0 0
+1 0 0
+E
+black eye patch~
+Usually used to cover a wounded or missing eye, this eyepatch can make almost
+anyone look tough and scary.
+~
+A
+39 10
+A
+2 1
+#5202
+hook hand~
+a hook hand~
+A hook hand with a sharp point gleams in the sun.~
+~
+5 0 131073
+12 2 2 22
+1 0 0
+E
+hook hand~
+While normally attached to an arm without a hand, this sharp hook can be held
+and used in combat if necessary.
+~
+A
+18 2
+#5203
+chest seachest sea-chest~
+a sea-chest~
+A large sea-chest, waterproofed and locked, sits in the corner.~
+~
+15 0 0
+50 13 0 0
+1 0 0
+E
+chest seachest sea-chest~
+A large sea-chest, its wood waterproofed and painted to protect it from the
+corrosion of the ocean elements.  It is bolted to the floor to keep it from
+sliding about in rough seas.
+~
+#5204
+explosion trap~
+an explosion trap~
+An explosion trap.
+~
+~
+44 0 0
+15 9 200 274
+1 0 0
+#5205
+ruby gem brilliant~
+a brilliant ruby~
+A huge red gem sparkles in the light.~
+~
+8 0 1048577
+0 0 0 0
+1 1000 0
+E
+ruby gem brilliant~
+This bright red gem sparkles in the light.  It is probably worth quite a bit
+of gold to the right merchant.
+~
+A
+79 2
+A
+25 2
+#5206
+potion healing~
+a healing potion~
+A small bottle with a white liquid inside sits here.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 0 0
+'heal' 'remove curse' 'aqua breath'
+E
+potion healing~
+This small potion has the pirate run of healing marked on the side of the
+bottle.
+~
+#5207
+cutlass~
+a cutlass~
+A sharp cutlass catches your eye.~
+~
+5 0 131073
+12 2 4 1
+1 0 0
+E
+cutlass~
+Short and sharp, this cutlass is the preferred weapon of pirates and sailors.
+~
+#5208
+grog bottle~
+a bottle of grog~
+A small ceramic bottle lies on its side.~
+~
+17 0 1048577
+5 5 17 0
+1 0 0
+E
+grog bottle~
+This small ceramic bottle smells of cheap rum when opened.
+~
+#5209
+looking glass spyglass~
+a looking glass~
+A spyglass rolls about under your feet.~
+~
+9 0 1048577
+1 1 0 0
+1 0 0
+E
+looking glass spyglass~
+A ship pilots spyglass, this helps the user see things far away.
+~
+A
+48 5
+A
+42 15
+#5210
+drum large~
+a large drum~
+A large drum sits high up on the stern.~
+~
+13 0 1
+0 0 0 0
+150 0 0
+E
+drum large~
+A gigantic drum, made of some strange hide stretched over what appears to have
+been a giant ale cask.
+~
+#5211
+whip rawhide~
+a rawhide whip~
+A nasty whip made of braided rawhide.~
+~
+5 0 131073
+12 2 4 4
+1 0 0
+E
+whip rawhide~
+This rough, rawhide whip is stained with blood, and still has small pieces of
+flesh stuck in the braids.
+~
+#5212
+black leather whip~
+a black leather whip~
+A vicious whip, crafted from thick black leather.~
+~
+5 2576 131073
+0 3 3 4
+1 0 0
+E
+black leather whip~
+This dark whip just plain looks scary.  It's weighted tip would lash right
+through the skin of its victims.
+~
+A
+19 2
+#5213
+cudgel wooden~
+a wooden cudgel~
+A large cudgel rolls about on the floor.~
+~
+5 0 131073
+12 2 4 7
+1 0 0
+E
+cudgel wooden~
+A small wooden cudgel, while simple, can knock out a person if used correctly.
+~
+A
+1 2
+#5214
+rapier ghostly~
+a ghostly rapier~
+A ghostly rapier can barely be seen here.~
+~
+5 32 131073
+12 5 1 11
+1 0 0
+E
+rapier ghostly~
+Barely visible, this rapier seems to dance about, making it hard to avoid in
+combat.
+~
+A
+18 4
+#5215
+cape ghostly~
+a ghostly cape~
+The shadowy shape of a cape can be seen here.~
+~
+9 96 2049
+6 6 0 0
+1 0 0
+E
+cape ghostly~
+What at first glance looks like a layer of mist soon coalesces into a cape
+made of some ghostly material.
+~
+A
+12 25
+A
+19 3
+A
+5 3
+#5216
+bandanna ghostly~
+a ghostly bandanna~
+A ghostly bandanna lies in the dust.~
+~
+9 96 3
+4 4 0 0
+1 0 0
+E
+bandanna ghostly~
+A small cloud of fog actually appears to be a strange ghostly bandanna!
+~
+A
+27 2
+A
+3 2
+A
+18 2
+#5600
+Object name~
+Dont Change This Object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#5201
+The Prow~
+You stand on the jutting prow of the pirate frigate.  Underneath you, you
+catch glimpses of dolphins riding the waves of the ship and flying fish
+leaping into the air.  The pleasant sound of a ship cutting through the water
+rises up, and the sweet sea air is all around you.
+~
+0 137363456 16
+D2
+~
+~
+0 0 5202
+S
+#5202
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5201
+D1
+~
+~
+0 0 5214
+D2
+~
+~
+0 0 5203
+D3
+~
+~
+0 0 5213
+S
+#5203
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5202
+D1
+~
+~
+0 0 5215
+D2
+~
+~
+0 0 5204
+D3
+~
+~
+0 0 5212
+S
+#5204
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+The main mast shoots up into the sky, and it looks like it can be easily
+climbed.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5203
+D1
+~
+~
+0 0 5216
+D2
+~
+~
+0 0 5205
+D3
+~
+~
+0 0 5211
+D4
+~
+~
+65664 0 5220
+S
+#5205
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A small hatch leads down into the belly of the ship.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5204
+D1
+~
+~
+0 0 5217
+D2
+~
+~
+0 0 5206
+D3
+~
+~
+0 0 5210
+D5
+Exit description~
+~
+0 0 5229
+S
+#5206
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+The large wooden wheel used to steer the frigate is set into the deck here.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5205
+D1
+~
+~
+0 0 5218
+D2
+~
+~
+0 0 5207
+D3
+~
+~
+0 0 5209
+S
+#5207
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5206
+D1
+~
+~
+0 0 5219
+D3
+~
+~
+0 0 5208
+S
+#5208
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5209
+D1
+Exit description~
+~
+0 0 5207
+S
+#5209
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5210
+D1
+~
+~
+0 0 5206
+D2
+Exit description~
+~
+0 0 5208
+S
+#5210
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5211
+D1
+Exit description~
+~
+0 0 5205
+D2
+Exit description~
+~
+0 0 5209
+S
+#5211
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5212
+D1
+~
+~
+0 0 5204
+D2
+Exit description~
+~
+0 0 5210
+S
+#5212
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5213
+D1
+Exit description~
+~
+0 0 5203
+D2
+Exit description~
+~
+0 0 5211
+S
+#5213
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D1
+~
+~
+0 0 5202
+D2
+~
+~
+0 0 5212
+S
+#5214
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D2
+~
+~
+0 0 5215
+D3
+Exit description~
+~
+0 0 5202
+S
+#5215
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5214
+D2
+~
+~
+0 0 5216
+D3
+Exit description~
+~
+0 0 5203
+S
+#5216
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A small rope ladder hangs over the side, for boarding and disembarking.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5215
+D2
+~
+~
+0 0 5217
+D3
+Exit description~
+~
+0 0 5204
+> act_prog disembark~
+mpechoat $n You climb over the rail of the ship.
+mpechoat $n Grabbing the rope ladder, you scale back down towards the sea.
+mpechoaround $n $n climbs over the rail and descends down towards the sea.
+mptransfer $n piratefrigatetransfer
+mpat $n mpechoat $n You splash down back into the sea!~
+|
+S
+#5217
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5216
+D2
+~
+~
+0 0 5218
+D3
+Exit description~
+~
+0 0 5205
+S
+#5218
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5217
+D2
+~
+~
+0 0 5219
+D3
+Exit description~
+~
+0 0 5206
+S
+#5219
+A Pirate Ship~
+You stand on the deck of a large frigate, that rolls easily over the waves of
+the ocean.  For a band of pirates, this ship is quite clean.  The ropes are
+coiled, the wood is oiled, and every bit of brass shines like the day it was
+poured.  The shouts of the pirates can be heard coming from all over the ship.
+A large bronze cannon points out over the ocean, ready for a rich target.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5218
+D3
+Exit description~
+~
+0 0 5207
+S
+#5220
+Climbing The Mast~
+Small handholds and a swinging rope allow you to climb up the mast of the
+ship.  Below you is the wide deck.   High above you is the crows nest, a great
+place for a lookout to be standing.
+~
+0 137363968 16
+D4
+Exit description~
+~
+65664 0 5221
+D5
+Exit description~
+~
+65664 0 5204
+S
+#5221
+In The Crows Nest~
+The salty-sweet wind of the sea rushes around you as you stand high above the
+deck of the pirate frigate.  From here you can see quite a ways off into the
+distance.  Any ship sailing nearby would be quickly sighted by the lookout,
+and the pirates would have plenty of time to depart the area, or attack and
+loot the cargo.
+~
+0 137363968 16
+D5
+Exit description~
+~
+65664 0 5220
+S
+#5222
+A Storage Room~
+The smells of foreign spices and old oak casks fills this small storage room.
+Nets hang from the ceiling so the pirates can maximize the space they
+have...the better for packing in all the loot they can get!
+~
+0 137363464 16
+D1
+Exit description~
+~
+0 0 5223
+S
+#5223
+Inside The Pirate Ship~
+The creak of wood and the sway of the ship are your biggest sensations as you
+stand belowdecks.  Occasionally you spy a small rodent, one of the inevitable
+stowaways on a large sailing ship.  Otherwise the small spaces under the ship
+are quite clean and tidy.
+~
+0 137363464 16
+D1
+Exit description~
+~
+0 0 5224
+D2
+Exit description~
+~
+0 0 5226
+D3
+Exit description~
+~
+0 0 5222
+S
+#5224
+The Captains Quarters~
+For a small room on a ship, these quarters are quite amazing.  Silk tapestries
+hang from the walls, a thick, red velvet curtain is set to block the morning
+light from the portholes, and a vibrant, cherrywood dining set is set into the
+floor, to avoid having it slide about in a storm.  Gold tassels hang from the
+edges of a comfortable looking hammock.  A large sea-chest is place in the far
+corner.
+~
+0 137363464 16
+D3
+Exit description~
+~
+0 0 5223
+S
+#5225
+A Storage Room~
+The smells of foreign spices and old oak casks fills this small storage room.
+Nets hang from the ceiling so the pirates can maximize the space they
+have...the better for packing in all the loot they can get!
+~
+0 137363464 16
+D1
+Exit description~
+~
+0 0 5226
+S
+#5226
+Inside The Pirate Ship~
+The creak of wood and the sway of the ship are your biggest sensations as you
+stand belowdecks.  Occasionally you spy a small rodent, one of the inevitable
+stowaways on a large sailing ship.  Otherwise the small spaces under the ship
+are quite clean and tidy.
+~
+0 137363464 16
+D0
+Exit description~
+~
+0 0 5223
+D1
+Exit description~
+~
+0 0 5227
+D2
+Exit description~
+~
+0 0 5229
+D3
+Exit description~
+~
+0 0 5225
+S
+#5227
+The Pirate Galley~
+This small galley has a thick iron stove, the better to contain the burning
+coals inside.  Buckets of water line one of the walls, just in case a fire was
+to break out.  Pots and pans hang from hooks in the ceiling, and casks and
+boxes take up much of the other space.  Salt pork and stale bread makes up
+most of the foodstuffs, but some watered down rum and a small crate of limes
+is also available.
+~
+0 137363464 16
+D3
+Exit description~
+~
+0 0 5226
+S
+#5228
+The Pirate Bunks~
+This small room is filled with the hanging hammocks that are much more safe
+and comfortable on a sailing ship, then the normal bed.  By swinging in the
+air, the sleepers have a stable bunk, especially in storms and rough seas.
+Small chests are placed about, but seem to only contain old sailing clothes
+and worthless personal items.
+~
+0 137363464 16
+D1
+Exit description~
+~
+0 0 5229
+S
+#5229
+Inside The Pirate Ship~
+The creak of wood and the sway of the ship are your biggest sensations as you
+stand belowdecks.  Occasionally you spy a small rodent, one of the inevitable
+stowaways on a large sailing ship.  Otherwise the small spaces under the ship
+are quite clean and tidy.  A small ladder leads up to a hatch, which allows
+access to the upper deck.
+~
+0 137363464 16
+D0
+Exit description~
+~
+0 0 5226
+D1
+Exit description~
+~
+0 0 5230
+D2
+Exit description~
+~
+0 0 5232
+D3
+Exit description~
+~
+0 0 5228
+D4
+Exit description~
+~
+0 0 5205
+S
+#5230
+The Pirate Bunks~
+This small room is filled with the hanging hammocks that are much more safe
+and comfortable on a sailing ship, then the normal bed.  By swinging in the
+air, the sleepers have a stable bunk, especially in storms and rough seas.
+Small chests are placed about, but seem to only contain old sailing clothes
+and worthless personal items.
+~
+0 137363464 16
+D3
+Exit description~
+~
+0 0 5229
+S
+#5231
+The Pirate Bunks~
+This small room is filled with the hanging hammocks that are much more safe
+and comfortable on a sailing ship, then the normal bed.  By swinging in the
+air, the sleepers have a stable bunk, especially in storms and rough seas.
+Small chests are placed about, but seem to only contain old sailing clothes
+and worthless personal items.
+~
+0 137363464 16
+D1
+Exit description~
+~
+0 0 5232
+S
+#5232
+Inside The Pirate Ship~
+The creak of wood and the sway of the ship are your biggest sensations as you
+stand belowdecks.  Occasionally you spy a small rodent, one of the inevitable
+stowaways on a large sailing ship.  Otherwise the small spaces under the ship
+are quite clean and tidy.
+~
+0 137363464 16
+D0
+Exit description~
+~
+0 0 5229
+D1
+Exit description~
+~
+0 0 5233
+D3
+Exit description~
+~
+0 0 5231
+S
+#5233
+The Pirate Bunks~
+This small room is filled with the hanging hammocks that are much more safe
+and comfortable on a sailing ship, then the normal bed.  By swinging in the
+air, the sleepers have a stable bunk, especially in storms and rough seas.
+Small chests are placed about, but seem to only contain old sailing clothes
+and worthless personal items.
+~
+0 137363464 16
+D3
+Exit description~
+~
+0 0 5232
+S
+#5234
+The Bow~
+You stand out on the bow of a large slave galley.  Looking back behind you,
+you can see the rows of benches where the slaves sit and man the long oars.
+Below you, the bright blue water of the sea stretches out before you.  The
+cries of gulls come from far off, a mournful sound on this ship of misery.  A
+small rope hangs from the side, probably for disembarking the ship.
+~
+0 137363456 16
+D2
+~
+~
+0 0 5235
+> act_prog disembark~
+mpechoat $n You climb over the rail of the ship.
+mpechoat $n Grabbing the rope ladder, you scale back down towards the sea.
+mpechoaround $n $n climbs over the rail and descends down towards the sea.
+mptransfer $n slavegalleytransfer
+mpat $n mpechoat $n You splash down back into the sea!~
+|
+S
+#5235
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5234
+D1
+~
+~
+0 0 5248
+D2
+~
+~
+0 0 5236
+D3
+~
+~
+0 0 5242
+S
+#5236
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5235
+D1
+~
+~
+0 0 5249
+D2
+~
+~
+0 0 5237
+D3
+~
+~
+0 0 5243
+S
+#5237
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5236
+D1
+~
+~
+0 0 5250
+D2
+~
+~
+0 0 5238
+D3
+~
+~
+0 0 5244
+S
+#5238
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5237
+D1
+~
+~
+0 0 5251
+D2
+~
+~
+0 0 5239
+D3
+~
+~
+0 0 5245
+S
+#5239
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5238
+D1
+~
+~
+0 0 5252
+D2
+~
+~
+0 0 5240
+D3
+~
+~
+0 0 5246
+S
+#5240
+A Slave Galley~
+You stand in the aisle of a large slave galley.  On either side of you sit
+long wooden benches, where slaves sit and man the oar which propel the mighty
+ship.  Dark stains show where slaves may of decided to disobey their captors
+and paid the ultimate price.
+~
+0 137363456 16
+D0
+Exit description~
+~
+0 0 5239
+D1
+~
+~
+0 0 5253
+D2
+~
+~
+0 0 5241
+D3
+~
+~
+0 0 5247
+S
+#5241
+The Stern~
+You stand high up in the stern of the slave galley.  A large drum is placed
+here.  This is where the beater stands to set the pace of the slaves.  Just a
+simple increase in the steady pounding can boost the ship to great speeds, at
+the cost of the pain and suffering of the slaves.
+~
+0 137363456 16
+D0
+~
+~
+0 0 5240
+S
+#5242
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+Exit description~
+~
+0 0 5235
+S
+#5243
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+Exit description~
+~
+0 0 5236
+S
+#5244
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+Exit description~
+~
+0 0 5237
+S
+#5245
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+~
+~
+0 0 5238
+S
+#5246
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+Exit description~
+~
+0 0 5239
+S
+#5247
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D1
+~
+~
+0 0 5240
+S
+#5248
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+Exit description~
+~
+0 0 5235
+S
+#5249
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+Exit description~
+~
+0 0 5236
+S
+#5250
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+Exit description~
+~
+0 0 5237
+S
+#5251
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+~
+~
+0 0 5238
+S
+#5252
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+~
+~
+0 0 5239
+S
+#5253
+The Slave Benches~
+A long wooden bench sits here, a fairly uncomfortable place for the slaves to
+sit on and row the large ship.  Dark, rust-colored stains spot the bench and
+floor, where whipped and beaten slaves slowly bled into the wood.  Towards the
+outside of the ship, you see the long oars stretch out into the sea.
+~
+0 137363456 16
+D3
+~
+~
+0 0 5240
+S
+#5254
+On The Prow~
+The jagged prow of the ship juts out far over the sea.  Once shaped like a
+mermaid or some sort of angel, time and abuse has changed this once lovely
+figurehead to now look like some sort of aged hag.  Colors have faded to ugly
+browns and greens, and the eyes look sunken in, as if a corpse has been nailed
+to the bow of the ship.
+~
+0 137371648 16
+D2
+~
+~
+0 0 5255
+S
+#5255
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5254
+D1
+~
+~
+0 0 5267
+D2
+~
+~
+0 0 5256
+D3
+~
+~
+0 0 5261
+S
+#5256
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5255
+D1
+~
+~
+0 0 5268
+D2
+~
+~
+0 0 5257
+D3
+~
+~
+0 0 5262
+S
+#5257
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5256
+D1
+~
+~
+0 0 5269
+D2
+~
+~
+0 0 5258
+D3
+~
+~
+0 0 5263
+D4
+Exit description~
+~
+65664 0 5273
+S
+#5258
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.  An old hatch leads down into the belly of the vessel.
+
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5257
+D1
+~
+~
+0 0 5270
+D2
+~
+~
+0 0 5259
+D3
+~
+~
+0 0 5264
+D5
+Exit description~
+~
+16842880 0 5281
+S
+#5259
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5258
+D1
+~
+~
+0 0 5271
+D2
+~
+~
+0 0 5260
+D3
+~
+~
+0 0 5265
+S
+#5260
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5259
+D1
+~
+~
+0 0 5272
+D3
+~
+~
+0 0 5266
+S
+#5261
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D1
+Exit description~
+~
+0 0 5255
+D2
+~
+~
+0 0 5262
+S
+#5262
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5261
+D1
+~
+~
+0 0 5256
+D2
+~
+~
+0 0 5263
+S
+#5263
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5262
+D1
+Exit description~
+~
+0 0 5257
+D2
+~
+~
+0 0 5264
+S
+#5264
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5263
+D1
+Exit description~
+~
+0 0 5258
+D2
+~
+~
+0 0 5265
+S
+#5265
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5264
+D1
+Exit description~
+~
+0 0 5259
+D2
+~
+~
+0 0 5266
+S
+#5266
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5265
+D1
+Exit description~
+~
+0 0 5260
+S
+#5267
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D2
+~
+~
+0 0 5268
+D3
+Exit description~
+~
+0 0 5255
+S
+#5268
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5267
+D2
+~
+~
+0 0 5269
+D3
+Exit description~
+~
+0 0 5256
+S
+#5269
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.  An old rope ladder is thrown over the side.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5268
+D2
+~
+~
+0 0 5270
+D3
+Exit description~
+~
+0 0 5257
+D5
+Exit description~
+~
+16842880 0 5275
+S
+#5270
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5269
+D2
+~
+~
+0 0 5271
+D3
+Exit description~
+~
+0 0 5258
+S
+#5271
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5270
+D2
+~
+~
+0 0 5272
+D3
+Exit description~
+~
+0 0 5259
+S
+#5272
+A Ghostly Galleon~
+The smell of rotted wood and unkept rope lies about the deck of this ship like
+an evil fog.  While in places it seems as if one might just collapse through
+the old planks, so far your feet feel firm on the deck.  Dark blotches on the
+wood show the signs of battle and death...although they should of faded some
+time ago.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5271
+D3
+~
+~
+0 0 5260
+S
+#5273
+Up The Mast~
+The mast of this old ship is twisted and splintered.  Rusted nails poke out of
+the wood, as if trying to catch and tear the flesh of anyone trying to reach
+the top.  The wind blowing about carries the sharp lash of small chips of ice,
+despite the calm weather surrounding the ship earlier.
+~
+0 137371648 16
+D4
+~
+~
+65664 0 5274
+D5
+~
+~
+65664 0 5257
+S
+#5274
+Hanging On!~
+The wood of the crows nest is definitely rotted through, enough so that it
+cannot support any weight at all.  It is surprising to see that it is even
+held together at all.  The old rigging hangs about like a spider web, and in
+the wind, there is a danger of becoming tangled up in the mess.  The rolling
+deck of the ghost ship can be seen down below, but a fog obscures all around.
+~
+0 137371648 16
+D5
+~
+~
+65664 0 5273
+S
+#5275
+A Rotted Rope Ladder~
+You hang on a rotten rope ladder, attached to the side of an old, rotten
+sailing frigate.  This ship appears to have been long dead, and it is
+surprising to see such a vessel still sailing the seas.  A chill fills the
+air, and the moaning of the wind sounds sad and mournful.  You hesitate,
+wondering if it is smart to proceed onto the deck.
+~
+0 137363456 16
+D4
+Exit description~
+~
+16842880 0 5269
+> act_prog disembark~
+mpechoat $n You climb over the rail of the ship.
+mpechoat $n Grabbing the rope ladder, you scale back down towards the sea.
+mpechoaround $n $n climbs over the rail and descends down towards the sea.
+mptransfer $n ghostgalleontransfer
+mpat $n mpechoat $n You splash down back into the sea!~
+|
+S
+#5276
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D1
+Exit description~
+~
+0 0 5280
+D2
+Exit description~
+~
+0 0 5277
+S
+#5277
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5276
+D1
+Exit description~
+~
+0 0 5281
+D2
+Exit description~
+~
+0 0 5278
+S
+#5278
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5277
+D1
+Exit description~
+~
+0 0 5282
+D2
+Exit description~
+~
+0 0 5279
+S
+#5279
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5278
+D1
+Exit description~
+~
+0 0 5283
+S
+#5280
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D1
+Exit description~
+~
+0 0 5284
+D2
+Exit description~
+~
+0 0 5281
+D3
+Exit description~
+~
+0 0 5276
+S
+#5281
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.  Above you, a hatch leads
+back to the deck.
+
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5280
+D1
+Exit description~
+~
+0 0 5285
+D2
+Exit description~
+~
+0 0 5282
+D3
+Exit description~
+~
+0 0 5277
+D4
+~
+~
+16842880 0 5258
+S
+#5282
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5281
+D1
+Exit description~
+~
+0 0 5286
+D2
+Exit description~
+~
+0 0 5283
+D3
+Exit description~
+~
+0 0 5278
+S
+#5283
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5282
+D1
+Exit description~
+~
+0 0 5287
+D3
+Exit description~
+~
+0 0 5279
+S
+#5284
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D2
+Exit description~
+~
+0 0 5285
+D3
+Exit description~
+~
+0 0 5280
+S
+#5285
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5284
+D2
+Exit description~
+~
+0 0 5286
+D3
+Exit description~
+~
+0 0 5281
+S
+#5286
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5285
+D2
+Exit description~
+~
+0 0 5287
+D3
+Exit description~
+~
+0 0 5282
+S
+#5287
+An Empty Hold~
+The reek of rot and mold fills this large, empty hold.  The walls and supports
+have long been gone, eaten by woodworms and the wet of the sea.  The air is
+thick and hard to breathe.  The remains of barrels, crates, and piles of
+other, once expensive, goods are scattered about.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5286
+D3
+Exit description~
+~
+0 0 5283
+S
+#5288
+The Bow~
+The crash of the waves against the bow of the small skiff send a salty spray
+up into your face.  The wind whistles past you as the boat cuts through the
+seas.  Flying fish jump out of the breaking waves in front, sailing through
+the sky before landing back down into the water.
+~
+0 137371648 16
+D2
+~
+~
+0 0 5289
+S
+#5289
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5288
+D1
+~
+~
+0 0 5297
+D2
+~
+~
+0 0 5290
+D3
+~
+~
+0 0 5293
+S
+#5290
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5289
+D1
+~
+~
+0 0 5298
+D2
+~
+~
+0 0 5291
+D3
+~
+~
+0 0 5294
+S
+#5291
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5290
+D1
+~
+~
+0 0 5299
+D2
+~
+~
+0 0 5292
+D3
+~
+~
+0 0 5295
+S
+#5292
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5291
+D1
+~
+~
+0 0 5300
+D3
+~
+~
+0 0 5296
+S
+#5293
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D1
+Exit description~
+~
+0 0 5289
+D2
+~
+~
+0 0 5294
+S
+#5294
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5293
+D1
+Exit description~
+~
+0 0 5290
+D2
+~
+~
+0 0 5295
+S
+#5295
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5294
+D1
+Exit description~
+~
+0 0 5291
+D2
+~
+~
+0 0 5296
+S
+#5296
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5295
+D1
+~
+~
+0 0 5292
+S
+#5297
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D2
+~
+~
+0 0 5298
+D3
+Exit description~
+~
+0 0 5289
+S
+#5298
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.  It seems you could
+disembark from the skiff from here.
+~
+0 137371648 16
+D0
+~
+~
+0 0 5297
+D2
+~
+~
+0 0 5299
+D3
+Exit description~
+~
+0 0 5290
+> act_prog disembark~
+mpechoat $n You climb over the rail of the ship.
+mpechoat $n Grabbing the rope ladder, you scale back down towards the sea.
+mpechoaround $n $n climbs over the rail and descends down towards the sea.
+mptransfer $n rebelskifftransfer
+mpat $n mpechoat $n You splash down back into the sea!~
+|
+S
+#5299
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+~
+~
+0 0 5298
+D2
+~
+~
+0 0 5300
+D3
+Exit description~
+~
+0 0 5291
+S
+#5300
+A Rebel Skiff~
+This small craft is used for ferrying rebel soldiers and smuggling the goods
+needed to keep up their fight against the Imperial Navy.  Crates and barrels
+are set about the ship, and ropes crisscross their way up the masts.  While
+definitely seaworthy, the small ship provides no shelter against stormy
+weather, and probably isn't safe for a long sea voyage.
+~
+0 137371648 16
+D0
+Exit description~
+~
+0 0 5299
+D3
+~
+~
+0 0 5292
+S
+#5600
+Dont Change This Room~
+You stumble into a newly created room.
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 5240 2 5299
+E 0 5207 1 21
+M 0 5240 2 5299
+M 0 5239 2 5295
+E 0 5207 1 21
+M 0 5239 2 5295
+M 0 5238 2 5297
+M 0 5238 2 5297
+E 0 5207 1 21
+M 0 5237 2 5293
+M 0 5237 2 5293
+E 0 5207 1 21
+M 0 5236 2 5288
+M 0 5236 2 5288
+E 0 5207 1 21
+M 0 5233 4 5271
+M 0 5233 4 5271
+M 0 5233 4 5271
+M 0 5233 4 5271
+E 0 5216 1 1
+M 0 5232 3 5265
+M 0 5232 3 5265
+M 0 5232 3 5265
+M 0 5231 3 5268
+M 0 5231 3 5268
+M 0 5231 3 5268
+M 0 5230 4 5261
+M 0 5230 4 5261
+E 0 5216 1 1
+M 0 5230 4 5261
+M 0 5230 4 5261
+M 0 5229 4 5283
+M 0 5229 4 5283
+M 0 5229 4 5283
+M 0 5229 4 5283
+M 0 5234 3 5278
+E 0 5216 1 1
+M 0 5234 3 5278
+M 0 5234 3 5278
+M 0 5235 1 5285
+E 0 5215 1 14
+E 0 5214 1 21
+O 0 5210 1 5241
+M 0 5228 1 5237
+E 0 5212 1 21
+M 0 5227 1 5241
+E 0 5213 1 21
+M 0 5226 2 5240
+E 0 5211 1 21
+M 0 5226 2 5240
+M 0 5225 2 5238
+E 0 5211 1 21
+M 0 5225 2 5238
+M 0 5224 2 5236
+E 0 5211 1 21
+M 0 5224 2 5236
+M 0 5223 2 5234
+E 0 5211 1 21
+M 0 5223 2 5234
+M 0 5222 1 5253
+M 0 5221 1 5252
+M 0 5220 1 5251
+M 0 5219 1 5250
+M 0 5218 1 5249
+M 0 5217 1 5248
+M 0 5216 1 5247
+M 0 5215 1 5246
+M 0 5214 1 5245
+M 0 5213 1 5244
+M 0 5212 1 5243
+M 0 5211 1 5242
+M 0 5210 1 5227
+O 0 5203 1 5224
+P 0 5206 1 5203
+P 0 5205 1 5203
+P 0 5204 1 5203
+M 0 5209 1 5224
+E 0 5202 1 21
+E 0 5201 1 2
+M 0 5208 2 5228
+E 0 5207 1 21
+M 0 5208 2 5228
+E 0 5208 1 24
+M 0 5207 2 5211
+E 0 5207 1 21
+M 0 5207 2 5211
+M 0 5206 2 5231
+E 0 5207 1 21
+M 0 5206 2 5231
+E 0 5208 1 24
+M 0 5205 2 5219
+E 0 5208 1 24
+M 0 5205 2 5219
+M 0 5204 2 5206
+E 0 5207 1 21
+M 0 5204 2 5201
+M 0 5203 1 5221
+E 0 5207 1 21
+E 0 5209 1 24
+M 0 5202 2 5218
+M 0 5202 2 5218
+M 0 5201 2 5205
+M 0 5201 2 5205
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5233 spec_cast_diabolist
+M  5234 spec_cast_bishop
+M  5235 spec_cast_undead
+S
+
+
+#$

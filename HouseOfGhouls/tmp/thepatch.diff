@@ -1,0 +1,23 @@
+--- ../../HOGMUD.clean/src/handler.c    2024-06-05 10:28:35.439816991 -0400
++++ handler.c   2024-06-05 22:43:38.755393583 -0400
+@@ -3709,6 +3709,11 @@
+     OBJ_DATA *obj;
+     int x, ncarry;
+ 
++       /* Wed Jun  5 10:43:08 PM EDT 2024 Rahjiii */
++       CHAR_DATA *tmpch = loading_char;
++       loading_char = ch;
++       /* Wed Jun  5 10:43:08 PM EDT 2024 Rahjiii */
++
+     de_equip_char( ch );
+ 
+     ncarry = 0;
+@@ -3757,6 +3762,10 @@
+        obj_to_char( carry[x], ch );
+ 
+     re_equip_char( ch );
++
++       /* Wed Jun  5 10:43:08 PM EDT 2024 Rahjiii */
++       loading_char = tmpch;
++       /* Wed Jun  5 10:43:08 PM EDT 2024 Rahjiii */
+ }

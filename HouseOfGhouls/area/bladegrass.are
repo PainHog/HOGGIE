@@ -1,0 +1,2570 @@
+#AREA   Between Blades Of Grass~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG Hums and clicks fill the air about you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 285730844
+
+#CLIMATE 3 2 1
+
+#MOBILES
+#1001
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1002
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1003
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1004
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1005
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1006
+ant worker~
+a worker ant~
+A small worker ant searches for food.
+~
+The smallest of the ants, even this worker ant looks big to you now!  A bit
+bigger than a large dog, it clicks while it moves about and looks for seeds or
+other food.
+~
+16777285 0 1000 C
+3 0 40 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439553 0 0 0 8 0
+#1007
+ant warrior~
+a warrior ant~
+A large ant warrior eyes you suspiciously.
+~
+This big ant is about the size of a pony!  It click and clacks its mandibles
+while its eyestalks study you closely.
+~
+16777281 0 0 C
+5 0 30 2d5+75 1d5+5
+40 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 4105 0 0 0 8 0
+#1008
+ant warrior~
+a warrior ant~
+A large ant warrior eyes you suspiciously.
+~
+This big ant is about the size of a pony!  It click and clacks its mandibles
+while its eyestalks study you closely.
+~
+16777281 0 0 C
+5 0 30 2d5+75 1d5+5
+40 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 4105 0 0 0 8 0
+#1009
+ant warrior~
+a warrior ant~
+A large ant warrior eyes you suspiciously.
+~
+This big ant is about the size of a pony!  It click and clacks its mandibles
+while its eyestalks study you closely.
+~
+16777281 0 0 C
+5 0 30 2d5+75 1d5+5
+40 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 4105 0 0 0 8 0
+#1010
+ant guardian large spike covered~
+the ant guardian~
+A large spike-covered ant stands at attention.
+~
+This ant is huge!  At least as big as a large warhorse, it's carapace is
+studded with black spikes.  It's mandibles are long and sharp, and it's
+eyestalks glare at you.
+~
+16777283 0 0 C
+10 0 5 3d6+155 2d5+5
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+20 3 0 0 1 1 0
+0 0 268439561 0 0 0 264 2
+#1011
+worm leaf skinny~
+a leaf worm~
+This skinny worm pokes about the blades.
+~
+A skinny leafworm pokes about the blades of grass, occasionally finding
+something that is interesting to a worm.  It ignores you as it squiggles about
+the ground.
+~
+16777285 1 0 C
+2 0 45 2d5+30 1d5+2
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 32 0 0 0 0 0
+#1012
+worm leaf skinny~
+a leaf worm~
+This skinny worm pokes about the blades.
+~
+A skinny leafworm pokes about the blades of grass, occasionally finding
+something that is interesting to a worm.  It ignores you as it squiggles about
+the ground.
+~
+16777285 1 0 C
+2 0 45 2d5+30 1d5+2
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 32 0 0 0 0 0
+#1013
+beetle bug~
+a beetle bug~
+A dog-sized beetle bug scuttles about the grass.
+~
+This black beetle is about the size of a large dog.  It's antenna flick about
+as it scurries amongst the blades, looking for something to munch on.
+~
+16777281 0 0 C
+4 0 35 2d5+60 1d5+4
+25 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 1 1 0
+0 0 4097 0 0 0 128 0
+#1014
+beetle bug~
+a beetle bug~
+A dog-sized beetle bug scuttles about the grass.
+~
+This black beetle is about the size of a large dog.  It's antenna flick about
+as it scurries amongst the blades, looking for something to munch on.
+~
+16777281 0 0 C
+4 0 35 2d5+60 1d5+4
+25 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 1 1 0
+0 0 4097 0 0 0 128 0
+#1015
+beetle bug~
+a beetle bug~
+A dog-sized beetle bug scuttles about the grass.
+~
+This black beetle is about the size of a large dog.  It's antenna flick about
+as it scurries amongst the blades, looking for something to munch on.
+~
+16777281 0 0 C
+4 0 35 2d5+60 1d5+4
+25 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 1 1 0
+0 0 4097 0 0 0 128 0
+#1016
+grass hopper green grasshopper~
+a green grasshopper~
+A large green grasshopper sits idly against a blade.
+~
+A large, bright green grasshopper is kicking back against a blade of grass,
+and playing a small fiddle.  He chuckles under his breath as he watches the
+other insects hard at work gathering food.
+~
+16777283 0 1000 C
+6 0 25 2d5+90 2d5+1
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 1 0 0 1 1 0
+0 0 4101 0 0 0 96 0
+#1017
+bee bumble~
+a bumble bee~
+A bird-sized bumble bee swoops down at you!
+~
+This bee is the size of a large bird, and you get a good look at it, because
+it's coming right at you!
+~
+97 524288 0 C
+1 0 50 2d5+15 1d5+1
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 0 0 0 1 1 0
+0 0 36865 0 0 0 8 0
+#1018
+bee bumble~
+a bumble bee~
+A bird-sized bumble bee swoops down at you!
+~
+This bee is the size of a large bird, and you get a good look at it, because
+it's coming right at you!
+~
+97 524288 0 C
+1 0 50 2d5+15 1d5+1
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 0 0 0 1 1 0
+0 0 36865 0 0 0 8 0
+#1019
+bee bumble~
+a bumble bee~
+A bird-sized bumble bee swoops down at you!
+~
+This bee is the size of a large bird, and you get a good look at it, because
+it's coming right at you!
+~
+97 524288 0 C
+1 0 50 2d5+15 1d5+1
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 0 0 0 1 1 0
+0 0 36865 0 0 0 8 0
+#1020
+bee bumble~
+a bumble bee~
+A bird-sized bumble bee swoops down at you!
+~
+This bee is the size of a large bird, and you get a good look at it, because
+it's coming right at you!
+~
+97 524288 0 C
+1 0 50 2d5+15 1d5+1
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 0 0 0 1 1 0
+0 0 36865 0 0 0 8 0
+#1021
+bee warrior large~
+a warrior bee~
+This large bee doesn't want you near the hive!
+~
+A huge bee swoops out from the blades and attacks!
+~
+35 524288 0 C
+4 0 35 2d5+60 1d5+4
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 3 0 0 1 1 0
+0 0 36897 0 0 0 8 0
+#1022
+caterpillar fat~
+a fat caterpillar~
+A big fat caterpillar inches its way along the blades.
+~
+This caterpillar is a monster.  It is at least 10 feet long, and as thick as
+the trunk of an elder oak.  It ignores you as it inches its way about the
+blades.
+~
+16777281 0 1000 C
+7 0 20 3d6+110 2d5+2
+75 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 4096 0 0 0 128 0
+#1023
+brownie fairy~
+the brownie~
+A small brownie smiles at you from the stone.
+~
+Sitting on top of the standing stone is a small brownie.  You have heard tales
+of their control of magic and insects...now you have felt that power in
+person!  Above him, a strange vortex swirls, and he winks at you as he notices
+you watching the vortex.
+~
+16777283 4194488&256 0 C
+12 0 5 3d6+200 2d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 6 0 0 8192 8192 0
+0 0 15 0 0 0 49 2
+#1024
+moth gray~
+a gray moth~
+A fluttering gray moth flits about the grass.
+~
+This small moth flits about the grass, looking for smaller insects to eat.
+You hope it decides you don't look tasty!.
+~
+16777281 524288 0 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 5 0 0 1 1 0
+0 0 36865 0 0 0 128 0
+#1025
+moth gray~
+a gray moth~
+A fluttering gray moth flits about the grass.
+~
+This small moth flits about the grass, looking for smaller insects to eat.
+You hope it decides you don't look tasty!.
+~
+16777281 524288 0 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 5 0 0 1 1 0
+0 0 36865 0 0 0 128 0
+#1026
+spider wolf brown fuzzy~
+a wolf spider~
+A brown fuzzy spider sits and watches you.
+~
+This spider sits atop a blade of grass and stares down at you.  You know with
+a pounce it can be upon you, so you move cautiously to avoid spooking the it.
+~
+65 0 -1000 C
+7 0 30 3d6+110 2d5+2
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 524293 0 0 0 131073 0
+#1027
+spider wolf brown fuzzy~
+a wolf spider~
+A brown fuzzy spider sits and watches you.
+~
+This spider sits atop a blade of grass and stares down at you.  You know with
+a pounce it can be upon you, so you move cautiously to avoid spooking the it.
+~
+65 0 -1000 C
+7 0 30 3d6+110 2d5+2
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 524293 0 0 0 131073 0
+#1200
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1001
+seed brown~
+a brown seed~
+This brown seed looks and smells tasty.~
+~
+19 0 1048577
+10 0 0 0
+1 50 0
+#1002
+flower cup~
+a small flower~
+This small flower is in the shape of a cup.~
+~
+17 0 1048577
+15 15 0 0
+1 150 0
+#1003
+dew drop~
+a drop of dew~
+A drop of dew sparkles in the light.~
+~
+25 1 0
+0 1 0 0
+1 0 0
+#1004
+stick~
+a sharp stick~
+This sharp stick could be used as a weapon.~
+~
+5 64 131073
+12 2 3 24
+1 200 0
+A
+13 5
+#1005
+sting ant stinger~
+the ant stinger~
+The stinger of an ant twitches in the dust.~
+~
+5 64 131073
+12 3 2 11
+1 250 0
+A
+2 1
+A
+17 -5
+#1006
+honey drop~
+a drop of honey~
+This drop of honey smells very sweet.~
+~
+26 64 1048577
+25 -1 -1 -1
+1 50 0
+'cure poison' 'cure critical' 'refresh'
+#1007
+ring twist grass~
+a small twist of grass~
+A blade of grass is twisted in a circle.~
+~
+9 64 1025
+4 4 0 0
+1 150 0
+A
+13 10
+A
+12 10
+#1008
+violin~
+a small violin~
+This small violin looks a little battered.~
+~
+5 0 131073
+12 1 5 7
+1 200 0
+A
+4 1
+A
+5 1
+#1009
+cloak brown~
+a brown cloak~
+A simple brown cloak sits here.~
+~
+9 64 33
+4 4 0 0
+1 250 0
+A
+2 1
+#1010
+staff fungus~
+a fungus-covered staff~
+This old staff is covered in a strange fungus.~
+~
+4 64 1048577
+30 15 15 -1
+1 300 0
+'create food'
+#1011
+helmet ant spiked head~
+a spiked anthead~
+The spiked head of an ant sits here.~
+~
+9 64 3
+6 6 0 0
+2 500 0
+A
+1 1
+A
+19 1
+#1012
+seed brown~
+a brown seed~
+This brown seed looks and smells tasty.~
+~
+19 0 1048577
+10 0 0 0
+1 50 0
+#1013
+seed brown~
+a brown seed~
+This brown seed looks and smells tasty.~
+~
+19 0 1048577
+10 0 0 0
+1 50 0
+#1014
+seed brown~
+a brown seed~
+This brown seed looks and smells tasty.~
+~
+19 0 1048577
+10 0 0 0
+1 50 0
+#1015
+flower cup~
+a small flower~
+This small flower is in the shape of a cup.~
+~
+17 0 1048577
+15 15 0 0
+1 150 0
+#1016
+dew drop~
+a drop of dew~
+A drop of dew sparkles in the light.~
+~
+25 1 0
+0 1 0 0
+1 0 0
+#1017
+dew drop~
+a drop of dew~
+A drop of dew sparkles in the light.~
+~
+25 1 0
+0 1 0 0
+1 0 0
+#1018
+honey drop~
+a drop of honey~
+This drop of honey smells very sweet.~
+~
+26 64 1048577
+25 -1 -1 -1
+1 50 0
+'cure poison' 'cure critical' 'refresh'
+#1200
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1001
+The Southern Plains~
+You leave the small road and walk into the grass of the plains.  The wind
+blowing it about gently causes the grass to ripple, and creates an effect not
+much unlike that of flowing water.  The smell of the fresh air invigorates
+you, and you feel like adventuring forward.
+~
+0 0 2
+D1
+~
+~
+0 0 203
+D3
+~
+~
+16777216 0 1002
+S
+#1002
+The Southern Plains~
+You leave the small road and walk into the grass of the plains.  The wind
+blowing it about gently causes the grass to ripple, and creates an effect not
+much unlike that of flowing water.  The smell of the fresh air invigorates
+you, and you feel like adventuring forward.  The grass seems to have grown a
+bit higher here, and covers your boots.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 1001
+D2
+~
+~
+0 0 1003
+S
+#1003
+The Southern Plains~
+You leave the small road and walk into the grass of the plains.  The wind
+blowing it about gently causes the grass to ripple, and creates an effect not
+much unlike that of flowing water.  The smell of the fresh air invigorates
+you, and you feel like adventuring forward.  The ever-growing grass comes up
+to just below your knees.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 1002
+D2
+~
+~
+0 0 1004
+S
+#1004
+The Southern Plains~
+You leave the small road and walk into the grass of the plains.  The wind
+blowing it about gently causes the grass to ripple, and creates an effect not
+much unlike that of flowing water.  The smell of the fresh air invigorates
+you, and you feel like adventuring forward.  The grass has grown up to your
+waist at this point.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 1003
+D3
+~
+~
+0 0 1005
+S
+#1005
+The Southern Plains~
+You leave the small road and walk into the grass of the plains.  The wind
+blowing it about gently causes the grass to ripple, and creates an effect not
+much unlike that of flowing water.  The smell of the fresh air invigorates
+you, and you feel like adventuring forward.  The grass has grown to a point
+where it reaches your shoulders here!
+~
+0 0 2
+D1
+~
+~
+0 0 1004
+D3
+~
+~
+0 0 1006
+S
+#1006
+Amongst The Blades~
+You stop suddenly at look about you.  You gasp as you realize that the grass
+has grown to a point high over your head, and yet each blade seems as thick as
+a tree trunk.  Looking about, you realize that somehow, without noticing the
+change, you have been shrunk!  Hopefully there will be some kind of way to fix
+this!  Realizing there was no way to get back through the grass behind you,
+you move on.
+~
+0 0 3
+D0
+~
+~
+0 0 1007
+D2
+Exit description~
+~
+0 0 1029
+S
+#1007
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1008
+D2
+Exit description~
+~
+0 0 1006
+S
+#1008
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1009
+D2
+Exit description~
+~
+0 0 1007
+S
+#1009
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 1008
+D3
+~
+~
+0 0 1010
+S
+#1010
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1009
+D3
+~
+~
+0 0 1011
+S
+#1011
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1010
+D3
+~
+~
+0 0 1012
+S
+#1012
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The clicking sounds seem to be stronger to the south of you.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1011
+D2
+~
+~
+0 0 1030
+D3
+~
+~
+0 0 1013
+S
+#1013
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1012
+D3
+~
+~
+0 0 1014
+S
+#1014
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1013
+D3
+~
+~
+0 0 1015
+S
+#1015
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1014
+D2
+~
+~
+0 0 1016
+S
+#1016
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1015
+D2
+~
+~
+0 0 1017
+S
+#1017
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1016
+D2
+~
+~
+0 0 1018
+S
+#1018
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1017
+D2
+~
+~
+0 0 1019
+D3
+~
+~
+0 0 1053
+S
+#1019
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1018
+D2
+~
+~
+0 0 1020
+S
+#1020
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1019
+D2
+~
+~
+0 0 1021
+S
+#1021
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1020
+D1
+~
+~
+0 0 1022
+S
+#1022
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1023
+D3
+Exit description~
+~
+0 0 1021
+S
+#1023
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1024
+D3
+Exit description~
+~
+0 0 1022
+S
+#1024
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1025
+D2
+Exit description~
+~
+0 0 1033
+D3
+Exit description~
+~
+0 0 1023
+S
+#1025
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1026
+D3
+Exit description~
+~
+0 0 1024
+S
+#1026
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1027
+D3
+Exit description~
+~
+0 0 1025
+S
+#1027
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1028
+D3
+Exit description~
+~
+0 0 1026
+S
+#1028
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1029
+D2
+Exit description~
+~
+0 0 1027
+S
+#1029
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1006
+D2
+Exit description~
+~
+0 0 1028
+S
+#1030
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The strange clicking sound appears louder to the south.
+~
+0 0 0
+D0
+~
+~
+0 0 1012
+D2
+~
+~
+0 0 1031
+S
+#1031
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The clicks can be heard all around you!
+~
+0 0 0
+D0
+~
+~
+0 0 1030
+D2
+~
+~
+0 0 1032
+S
+#1032
+At The Anthill~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1031
+D5
+~
+~
+0 0 10801
+S
+#1033
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1024
+D2
+~
+~
+0 0 1034
+S
+#1034
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1033
+D2
+~
+~
+0 0 1035
+S
+#1035
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1034
+D2
+~
+~
+0 0 1036
+S
+#1036
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1035
+D3
+~
+~
+0 0 1037
+S
+#1037
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1036
+D3
+~
+~
+0 0 1038
+S
+#1038
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1037
+D3
+~
+~
+0 0 1039
+S
+#1039
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1059
+D1
+Exit description~
+~
+0 0 1038
+D3
+~
+~
+0 0 1040
+S
+#1040
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1039
+D3
+~
+~
+0 0 1041
+S
+#1041
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1040
+D3
+~
+~
+0 0 1042
+S
+#1042
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1043
+D1
+Exit description~
+~
+0 0 1041
+S
+#1043
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1044
+D2
+Exit description~
+~
+0 0 1042
+S
+#1044
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1045
+D2
+Exit description~
+~
+0 0 1043
+S
+#1045
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1046
+D1
+Exit description~
+~
+0 0 1054
+D2
+Exit description~
+~
+0 0 1044
+S
+#1046
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1047
+D2
+Exit description~
+~
+0 0 1045
+S
+#1047
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The hum of bee's can be heard to the west.
+~
+0 0 0
+D0
+~
+~
+0 0 1048
+D2
+Exit description~
+~
+0 0 1046
+D3
+Exit description~
+~
+16777216 0 1078
+S
+#1048
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1049
+D2
+Exit description~
+~
+0 0 1047
+S
+#1049
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1050
+D2
+Exit description~
+~
+0 0 1048
+S
+#1050
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1051
+D3
+Exit description~
+~
+0 0 1049
+S
+#1051
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The hum of bee's can be heard to the north.
+~
+0 0 0
+D0
+~
+~
+16777216 0 1060
+D1
+~
+~
+0 0 1052
+D3
+Exit description~
+~
+0 0 1050
+S
+#1052
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1053
+D3
+Exit description~
+~
+0 0 1051
+S
+#1053
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1018
+D3
+~
+~
+0 0 1052
+S
+#1054
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1055
+D3
+~
+~
+0 0 1045
+S
+#1055
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1056
+D3
+Exit description~
+~
+0 0 1054
+S
+#1056
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1057
+D3
+Exit description~
+~
+0 0 1055
+S
+#1057
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D2
+~
+~
+0 0 1058
+D3
+Exit description~
+~
+0 0 1056
+S
+#1058
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1057
+D2
+~
+~
+0 0 1059
+S
+#1059
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1058
+D2
+~
+~
+0 0 1039
+S
+#1060
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1061
+D2
+~
+~
+16777216 0 1051
+S
+#1061
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1062
+D2
+Exit description~
+~
+0 0 1060
+S
+#1062
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1063
+D2
+Exit description~
+~
+0 0 1061
+D3
+Exit description~
+~
+0 0 1082
+S
+#1063
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1064
+D2
+Exit description~
+~
+0 0 1062
+S
+#1064
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 1063
+D3
+~
+~
+0 0 1065
+S
+#1065
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1064
+D3
+~
+~
+0 0 1066
+S
+#1066
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1065
+D3
+~
+~
+0 0 1067
+S
+#1067
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1066
+D3
+~
+~
+0 0 1068
+S
+#1068
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1067
+D3
+~
+~
+0 0 1069
+S
+#1069
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1068
+D2
+~
+~
+0 0 1070
+S
+#1070
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1069
+D2
+~
+~
+0 0 1071
+S
+#1071
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1070
+D1
+Exit description~
+~
+0 0 1079
+D2
+~
+~
+0 0 1072
+S
+#1072
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1071
+D2
+~
+~
+0 0 1073
+S
+#1073
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1072
+D2
+~
+~
+0 0 1074
+S
+#1074
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1073
+D2
+~
+~
+0 0 1075
+D3
+Exit description~
+~
+16777216 0 1101
+S
+#1075
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1074
+D2
+~
+~
+0 0 1076
+S
+#1076
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1075
+D1
+~
+~
+0 0 1077
+S
+#1077
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1078
+D2
+Exit description~
+~
+16777216 0 1083
+D3
+Exit description~
+~
+0 0 1076
+S
+#1078
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+16777216 0 1047
+D3
+Exit description~
+~
+0 0 1077
+S
+#1079
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1080
+D3
+~
+~
+0 0 1071
+S
+#1080
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  A large beehive is attached on and around the large stumps left
+in this clearing.
+~
+0 0 0
+D1
+~
+~
+0 0 1081
+D3
+Exit description~
+~
+0 0 1079
+S
+#1081
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  A large beehive is attached on and around the large stumps left
+in this clearing.
+~
+0 0 0
+D1
+~
+~
+0 0 1082
+D3
+~
+~
+0 0 1080
+S
+#1082
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1062
+D3
+Exit description~
+~
+0 0 1081
+S
+#1083
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The hum of bee's can be heard to the north.
+~
+0 0 0
+D0
+~
+~
+16777216 0 1077
+D2
+~
+~
+0 0 1084
+S
+#1084
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1083
+D2
+~
+~
+0 0 1085
+D3
+Exit description~
+~
+0 0 1105
+S
+#1085
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1084
+D2
+~
+~
+0 0 1086
+S
+#1086
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1085
+D2
+~
+~
+0 0 1087
+S
+#1087
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1086
+D3
+~
+~
+0 0 1088
+S
+#1088
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1087
+D3
+~
+~
+0 0 1089
+S
+#1089
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1088
+D3
+~
+~
+0 0 1090
+S
+#1090
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1106
+D1
+Exit description~
+~
+0 0 1089
+D3
+~
+~
+0 0 1091
+S
+#1091
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1090
+D3
+~
+~
+0 0 1092
+S
+#1092
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1093
+D1
+Exit description~
+~
+0 0 1091
+S
+#1093
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1094
+D2
+Exit description~
+~
+0 0 1092
+S
+#1094
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1095
+D2
+Exit description~
+~
+0 0 1093
+S
+#1095
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1096
+D1
+Exit description~
+~
+0 0 1102
+D2
+Exit description~
+~
+0 0 1094
+S
+#1096
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1097
+D2
+Exit description~
+~
+0 0 1095
+S
+#1097
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1098
+D2
+Exit description~
+~
+0 0 1096
+S
+#1098
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D0
+~
+~
+0 0 1099
+D2
+Exit description~
+~
+0 0 1097
+S
+#1099
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1100
+D2
+Exit description~
+~
+0 0 1098
+S
+#1100
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1101
+D3
+Exit description~
+~
+0 0 1099
+S
+#1101
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  The hum of bee's can be heard to the east.
+~
+0 0 0
+D1
+~
+~
+16777216 0 1074
+D3
+Exit description~
+~
+0 0 1100
+S
+#1102
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1103
+D3
+~
+~
+0 0 1095
+S
+#1103
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1104
+D3
+~
+~
+0 0 1102
+S
+#1104
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1105
+D3
+Exit description~
+~
+0 0 1103
+S
+#1105
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.
+~
+0 0 0
+D1
+~
+~
+0 0 1084
+D3
+Exit description~
+~
+0 0 1104
+S
+#1106
+Amongst The Blades~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  Somewhere there must be a way
+out of here.  North of you, you can see the large standing stone through the
+blades.
+~
+0 0 0
+D0
+~
+~
+16777216 0 1107
+D2
+~
+~
+0 0 1090
+S
+#1107
+At The Standing Stone~
+You move about the blades of grass, much liked you used to move about the
+great forests.  You hear the clicks and hum's of various insects and other
+creatures that make their home in the grass.  You reach a clearing where the
+standing stone you saw from the road stands.  Above it, the clouds seem to
+swirl in a very strange way.
+~
+0 0 0
+D2
+~
+~
+0 0 1106
+D4
+~
+~
+0 0 1001
+S
+#1200
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1023 spec_cast_cleric
+S
+
+
+#$

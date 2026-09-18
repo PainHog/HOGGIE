@@ -1,0 +1,1203 @@
+#AREA Temples Of The Gods~
+
+#VERSION 1
+
+#CLIMATE 3 1 1
+
+#AUTHOR Darwin~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A shooting star streaks across the sky...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 207780377
+
+#MOBILES
+#3651
+imp demon minion carnage~
+the imp minion~
+A grinning imp flies about the room.
+~
+The Minion of Paul stands ready to make sure any items stored here get saved
+safely in the pit.
+~
+67 4718592&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 262144 262144 0
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+get all
+put all pit
+~
+|
+#3652
+vampire minion scion~
+the vampire minion~
+A tall pale creature flashes a toothy grin in your direction.
+~
+The Minion of Ashlyn stands ready to make sure any items stored here get saved
+safely in the pit.
+~
+67 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 3 0 0 262144 262144 0
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+get all
+put all pit
+~
+|
+#3653
+druid uriel commune~
+Uriel, the druid~
+A kind druid stands near the large tree.
+~
+This ancient druid stands over the massive tree that protects all of the
+Commune's reserves.  He is kind, an ancient being that is neither elf nor man,
+a beautiful blend of a several races.  He bows to you and offers his respects.
+~
+67 4194304&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 262144 262144 0
+0 0 0 0 0 0 0 0
+> rand_prog 2~
+smile~
+> rand_prog 2~
+say Welcome adventurer!
+~
+> rand_prog 2~
+say Please keep the grove tidy!
+~
+> rand_prog 2~
+nod self
+~
+> rand_prog 100~
+get all
+put all tree
+~
+|
+#3654
+man argemis~
+Argemis~
+A featureless man in brown robes stands here.
+~
+Here stands Argemis, trying to completely fill a large gold chest.. Instead
+the chest only continues to grow deeper. He is doomed to remain here until he
+can resist the call of the chest.  Argemis sees the chest as an extension of
+himself, and continues to feel it with whatever material possessions are handy
+to him in this area. Perhaps he wont notice if you borrow something...
+~
+67 4194304&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 262144 262144 0
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+get all
+put all spring
+~
+|
+#3655
+Croaker~
+Croaker~
+Croaker, a former medic and retired Captain stands here.
+~
+This burly man of average looks waits patiently. His armor shows many battle
+scars. The odd thing about him are the ink stains on his hands from his
+recording the Black Company Annals.
+~
+67 4718592&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 262144 262144 0
+0 0 0 0 0 0 0 0
+> rand_prog 2~
+emote takes out his book and begins recording more of The Black Company's adventures.~
+> rand_prog 2~
+emote clears his throat while he searches for a new quill to write with in the annals.~
+> rand_prog 100~
+get all
+put all pit
+~
+|
+#3656
+A walker in the Garden~
+a walking healer~
+A walking healer is here
+~
+White robes surround this lovely vision of healing grace.
+~
+11 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#3658
+healer One-Eye one eye~
+One-Eye~
+One-Eye the impish healer hovers here on a bright pink mist.
+~
+This small toad like man has huge bulging green eyes. His skin is nearly as
+black as tar. His mouth is so wide it seems to stretch from ear to ear. His
+teeth look like small little triangles which makes his smile remind one of a
+baby alligator. His fingers, however, do not appear like a toad's at all. They
+ are long, lanky, and quite adept at healing the unwilling souls that get
+brought for him to aid.
+~
+11 4194304&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#3659
+healer Illani woman~
+Illani~
+A beautiful woman hums softly to herself.
+~
+Most of her long scarlet hair is hidden by a large white cowl.
+A few strands fall in front of her shining green eyes. Her long slender
+fingers are disproportionate to her petit frame and features. Light reflects
+off of her thin and glossy red lips. Often times she fills the room with her
+soft voice by humming.
+~
+11 4194304&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 2~
+emote brushes her hair back away from her eyes~
+> rand_prog 2~
+emote hums softly to herself~
+|
+#3660
+viking~
+A huge Viking~
+A huge Viking warrior hovers over you and grins.
+~
+The massive Viking gazes down on you with his blue eyes. His bronze, tattooed
+skin ripples with muscular tension.
+~
+67 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+25 13 13 25 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+get all
+put all pit~
+|
+#3661
+healer valkyre woman Kara~
+The Valkrye Healer~
+Kara, the Valkrye healer, tends to the wounded.
+~
+~
+11 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 25 25 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#3800
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#3656
+pit tree~
+the tree~
+A massive tree stands here, a place to stash equipment.~
+~
+15 3145728&32 0 0
+99999 0 0 0
+1 0 0
+#3657
+aura white mediators bright~
+a bright white aura~
+The aura of the Mediators.~
+~
+9 2097216&36 4194305 0
+1 1 0 0
+1 0 0
+#3658
+spring mediators pit~
+a dried spring~
+A dried up spring containing equipment is here.~
+~
+15 3145728&32 0 0
+99999 0 0 0
+1 0 0
+#3662
+intensly bright light~
+Intensly Bright Light~
+an intense bright light lies here
+~
+~
+9 2100032&44 4194305 0
+1 1 0 0
+1 0 0
+#3663
+board notes lord light~
+Orders of the Light~
+Orders and suggestions for Light are posted here.~
+~
+12 2099728&32 0 0
+0 0 0 0
+1 0 0
+#3664
+pit chest mayhem storage~
+The Hoard~
+The scavengings of Mayhem may be found here~
+~
+15 3145728&32 0 0
+99999 0 0 0
+1 0 0
+#3671
+pond~
+a small pond~
+A small pond of crystal clear water is here.~
+~
+25 0 0 0
+0 0 0 0
+1 0 0
+#3672
+cot~
+a comfortable cot~
+A comfortable cot will help speed your recovery.~
+~
+12 0&2 0 0
+0 0 649 0
+50 0 0
+#3673
+cot~
+a comfortable cot~
+A comfortable cot will help speed your recovery.~
+~
+12 0&2 0 0
+0 0 649 0
+50 0 0
+#3674
+cot~
+a comfortable cot~
+A comfortable cot will help speed your recovery.~
+~
+12 0&2 0 0
+0 0 649 0
+50 0 0
+#3675
+note board~
+a note board~
+A board for notes stands here.~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#3676
+pit~
+the Pit of Einheri~
+The Einheri's donation pit fills the room.~
+~
+15 3145728&32 0 0
+99999 0 0 0
+1 0 0
+#3677
+aura einhiri silvery blue~
+a silvery blue aura~
+The aura of the Einheri.~
+~
+13 2097216 4194305 0
+1 1 0 0
+1 0 0
+#3678
+einheri board~
+a tanned and smoothed piece of hide~
+A tanned and smoothed piece of hide is pinned to the wall.
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#3750
+board note~
+Immortal Note Board~
+Immortal Only Note Board~
+~
+12 2097152 0 0
+0 0 0 0
+1 0 0
+#3754
+board note~
+the Mediators note board~
+A board for notes stands here.~
+~
+12 2097152 0 0
+0 0 0 0
+1 0 0
+#3799
+chest~
+a generic chest~
+A generic chest for Following items lies here.~
+~
+15 2097216 1 0
+9999 0 0 0
+1 0 0
+#3800
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#3656
+A Portal Room~
+This room is completely black and bare.  Nothing was used for decoration,
+and there wasn't really much need, as this room is strictly used as a portal
+to get from one place to another.
+~
+0 3146760 0 0 0 0
+D1
+~
+~
+0 0 3693 0
+D4
+~
+~
+0 0 10686 0
+S
+#3657
+A Portal Room~
+This room is completely black and bare.  Nothing was used for decoration,
+and there wasn't really much need, as this room is strictly used as a portal
+to get from one place to another.
+~
+0 3146760 0 0 0 0
+D3
+~
+~
+0 0 3693 0
+D4
+~
+~
+0 0 4935 0
+S
+#3658
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D0
+~
+~
+0 0 3693 0
+D1
+Exit description~
+~
+0 0 3660 0
+D2
+Exit description~
+~
+0 0 3662 0
+D3
+Exit description~
+~
+0 0 3659 0
+S
+#3659
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D1
+~
+~
+0 0 3658 0
+D2
+~
+~
+0 0 3663 0
+S
+#3660
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D2
+~
+~
+0 0 3661 0
+D3
+~
+~
+0 0 3658 0
+S
+#3661
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D0
+~
+~
+0 0 3660 0
+D3
+~
+~
+0 0 3662 0
+S
+#3662
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D0
+~
+~
+0 0 3658 0
+D1
+Exit description~
+~
+0 0 3661 0
+D3
+~
+~
+0 0 3663 0
+S
+#3663
+A Sparring Arena~
+The ceiling and floor in this room are bare.  The walls, however, are
+adorned with various weapons, armor and shields of all different sorts
+and sizes.  The floor is made of a dark marble, almost black, with narrow
+stripes of white going through it.  The walls are, oddly enough, a stained
+wooden finish, and the ceiling is a typical bright shade of white.
+~
+0 3145736 0 0 0 0
+D0
+Exit description~
+~
+0 0 3659 0
+D1
+Exit description~
+~
+0 0 3662 0
+S
+#3664
+Altar Room~
+At the exit of the small, dimly-lit tunnel is a larger cavern, with many
+holes in the wall of varying length and size. More make shift ladders are
+carved into the stone walls, rising all the way up to the ceiling. at the
+front of the room is a large, stone altar, splattered with blood, some fresh
+and still dripping from the corpse laying on it. Behind the altar is a crude
+drawing of a long table, with goblins, orcs, ogres, and trolls seeming to
+feast on various creatures flesh. At the center of the room is a large
+makeshift wooden table, bloodied and covered in the remains of various
+creatures. Between the columns of holes in the wall at one point is a large
+doorway, flanked either side by two rather large goblins
+~
+0 3146760 0 0 0 0
+D2
+~
+~
+8389671 3677 3761 0
+D4
+~
+~
+0 0 21001 0
+D5
+~
+~
+0 0 3665 0
+> entry_prog 100~
+if iscarrying($n) == 3799
+  mpechoat $n Don't leave!  You still have a Following container!
+  mpat $n mptransfer $n 3665
+endif
+~
+|
+S
+#3665
+Treasure Room~
+Inside of this room lay dozens of chests, overflowing with gold. Piles of
+gold litter the floor, along with weapons and armour, some still being worn
+by the skeletons of their previous owner. At the very back of the room is a
+throne and a finally crafted table, with the skulls of various humanoids
+placed upon it.
+~
+0 3679240 0 0 0 0
+D4
+~
+~
+0 0 3664 0
+S
+#3674
+The Garden Of Shadows~
+The stillness of this place could be part of its healing as much as anything
+else. When one steps into this room, they are enfolded by an overwhelming
+sense of rightness and umbrage. This is mostly due to the fact that, as they
+step from the temple into this area, there is a night sky which has been
+absolutely overwhelmed with flickering stars which sprawl over one's head in
+an endless fresco. This night sky is the deep purple of reflections in the
+depth of night and darkness, it is the melting blue of the slow healing of the
+soul through sleepless reflection. Small hills roll into the distance below a
+fat orange harvest moon, which bobs up and down on silver lined black midnight
+clouds. The smells of running water and sweet hay drift towards around the
+garden on eddies of warm breeze, and the grass and short deadwood trees creak
+and sway in secret midnight songs.
+
+The forms of recovering friends of the shadows lay out in the dark and dewy
+grass of the valley and, although their eyes cannot be seen, it is only
+reasonable to think that they are watching the heavens.
+~
+0 3146780 0 0 0 0
+S
+#3681
+The Alabaster Courtyard~
+The alabaster courtyard blooms with the life of spring.  The marble pillars
+that surround it are draped in small flowers and the air is the purest of
+perfumes.  A gentle pond, slowly bubbling with the beauty of creation takes
+the center of the heavenly place.  The entire courtyard is decorated in the
+art of geniuses and mad men.  The only theme that ties together the various
+weapons, paintings, poetry, and tapestries is that they are all seem to honor
+nature.  You see elven weapons made of the purest silver and blended with the
+strongest of oak, paintings of three suns setting behind the endless sands of
+the eastern desert, and a tapestry that seems to flow with all the grace
+of the ocean itself.   The ground is a soft moss over pearl, cool to
+the tough and softer than silk.  Within the very center of the pond sits a
+humble throne of coral and pearl.
+
+A large easel stands  in the back of the courtyard, sitting among the the
+multicolored light of the stained glass windows around it.  The massive canvas
+is covered in a half finished mosaic of the great adventurers that once walked
+the land, Cahel Mourningstar, Vash the Hellmage, Nameless the Ancient, Jaren
+the Wise, and a host of others that have shaped and changed the world, for ill
+or grace.
+~
+0 3146760 0 0 0 0
+D2
+~
+~
+8389671 3655 3755 0
+D4
+~
+~
+0 0 3683 0
+D5
+~
+~
+0 0 3682 0
+> entry_prog 100~
+if iscarrying($n) == 3799
+  mpechoat $n Don't leave!  You still have a Following container!
+  mpat $n mptransfer $n 3682
+endif
+~
+|
+S
+#3682
+The Tree Of Everland~
+A massive tree stands in the center of this small garden.  The walls are lined
+with ivy and roses.  The tree itself seems to reach higher than the stars
+themselves, the thick branches providing an excellent place to safely store a
+piece of armor or a sword.  The numerous nooks and squirrel holes also provide
+a wonderful place to hide smaller treasures.  You swear you can smell fresh
+rain in the air, the massive tree gently shaking off the morning dew into the
+sweetest of spring showers.  An ancient druid tends to the garden and the to
+the tree.
+~
+0 3679240 0 0 0 0
+D4
+Exit description~
+~
+0 0 3681 0
+S
+#3683
+The Path To Glory~
+The sweet smell of spring begins to fade as you make you way down the
+corridor.  You are reminded that serenity cannot exist unless their are those
+that are ready to fight and die for it.  Peace must be purchased with love as
+well as pain.  The sounds of the city come closer and the great temple of
+Sebille seems like a dream.
+~
+0 3146760 0 0 0 0
+D4
+~
+~
+0 0 21001 0
+D5
+~
+~
+0 0 3681 0
+S
+#3691
+Courtyard of Unity~
+This large courtyard is a bustle of activity with merchants from all over the
+world coming to sell their wares.  High walls stationed with soldiers keeping
+an eye on the crowds making their way through.  To the north end of the
+courtyard lays a magnificent staircase of marble which seem to climb forever. 
+Chanting of healers can be heard to the east mending the wounded and curing
+the sick.
+~
+0 3146760 0 0 0 0
+D2
+~
+~
+8389671 3657 3754 0
+D4
+~
+~
+0 0 3693 0
+D5
+~
+~
+0 0 3692 0
+> entry_prog 100~
+if iscarrying($n) == 3799
+  mpechoat $n Don't leave!  You still have a Following container!
+  mpat $n mptransfer $n 3692
+endif
+~
+|
+S
+#3692
+The Barracks~
+Under Construction
+~
+0 3679240 0 0 0 0
+D4
+Exit description~
+~
+0 0 3691 0
+S
+#3693
+Halls of Healing~
+This large candle lit hall echoes with the chanting of healing spells.  Row
+after row of cots waiting for the sick lay empty. Priests and their helpers
+scurry about taking care of their daily duties.  If you are in need of healing
+take a quick rest on one of the cots. 
+~
+0 3146760 0 0 0 0
+D1
+Exit description~
+~
+0 0 3657 0
+D2
+Exit description~
+~
+0 0 3658 0
+D3
+Exit description~
+~
+0 0 3656 0
+D4
+~
+~
+0 0 21001 0
+D5
+Exit description~
+~
+0 0 3691 0
+S
+#3700
+Into the Light~
+The magnitude of brightness here is beyond description.
+You can positively feel the light waves pulsing against
+your skin.  You find yourself in an immeasurable space.
+Infinite and unfathomable, The Lord of Light calls this
+place his home.
+~
+0 3146760 0 0 0 0
+D2
+This tent flap leads out onto the the temple streets
+~
+south~
+8389671 3662 3767 0
+D4
+~
+up~
+0 -1 3702 0
+> entry_prog 100~
+if iscarrying($n) == 3799
+  mpechoat $n Don't leave!  You still have a Following container!
+  mpat $n mptransfer $n 3701
+endif
+~
+|
+S
+#3701
+The Hoard~
+Fires burn on torches hung from braziers on the wall. A single chest sits in
+the middle of the room, which is otherwise empty. The room itself is clean if
+not spotless. A slight odor of damp is obvious, but not overpowering. A
+stairway along the east wall leads up.
+~
+0 3679240 0 0 0 0
+D4
+~
+up~
+0 -1 3700 0
+S
+#3702
+Ascending from Light~
+You find yourself in the space between the mortal realm
+and the point of all creation.
+~
+0 3146760 0 0 0 0
+D4
+~
+up~
+0 -1 21001 0
+D5
+~
+down~
+0 -1 3700 0
+S
+#3703
+The Medic's Tent~
+This tent looks like a latrine on the outside, but once within the safety of
+it's canvas walls, it is spacious, clean, and well stocked with the latest in
+magical medical technology. Behind a sanitary curtain there are shadows moving
+in surgical maneuvers that should not be seen by non-professional eyes.
+~
+0 3146780 0 0 0 0
+S
+#3751
+Amongst The Heavens~
+You stand at the top of a staircase that seems to of led you straight up into
+the heavens!  Stars glisten overhead, lighting up a translucent glowing path
+to the east.  The stairs lead back down to the Temple of Drazuk.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3752 0
+D5
+~
+~
+0 0 21003 0
+S
+#3752
+Amongst The Heavens~
+The translucent path splits up here.  A white spiral staircase leads up,
+closer to the stars above you.  A black staircase, formed of stone heads down
+deeper into the dark.  To the east, a grey, shimmering path heads off into the
+distance.  To the west you can sight the top of the staircase that leads back
+down to the Temple of Drazuk.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3759 0
+D3
+Exit description~
+~
+0 0 3751 0
+D4
+~
+~
+0 0 3753 0
+D5
+~
+~
+0 0 3765 0
+S
+#3753
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3754 0
+D5
+~
+~
+0 0 3752 0
+S
+#3754
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.  The
+Temple of Jaren stands to the north.
+~
+0 1049600 2 0 0 0
+D0
+~
+~
+8389671 3657 3691 0
+D1
+~
+~
+0 0 3755 0
+D3
+~
+~
+0 0 3753 0
+S
+#3755
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.  To
+the north lies the temple of Sebille.
+~
+0 1049600 2 0 0 0
+D0
+~
+~
+8389671 3655 3681 0
+D1
+~
+~
+0 0 3756 0
+D3
+Exit description~
+~
+0 0 3754 0
+S
+#3756
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3757 0
+D3
+Exit description~
+~
+0 0 3755 0
+S
+#3757
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3758 0
+D3
+Exit description~
+~
+0 0 3756 0
+S
+#3758
+The Path Of Light~
+You stand upon a pleasant white pathway.  The stars seem almost directly above
+you, and their soft, twinkling lights cause the path to glow in the sky.
+~
+0 1049600 2 0 0 0
+D3
+Exit description~
+~
+0 0 3757 0
+S
+#3759
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3760 0
+D3
+Exit description~
+~
+0 0 3752 0
+S
+#3760
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you.  The
+Temple of Ashlyn stands to the north.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3761 0
+D3
+Exit description
+~
+~
+0 0 3759 0
+S
+#3761
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you. To the
+north lies the temple of the Einheri.
+~
+0 1049600 2 0 0 0
+D0
+~
+~
+8389671 3677 3664 0
+D1
+~
+~
+0 0 3762 0
+D3
+Exit description
+~
+~
+0 0 3760 0
+S
+#3762
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3763 0
+D3
+Exit description~
+~
+0 0 3761 0
+S
+#3763
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3764 0
+D3
+Exit description~
+~
+0 0 3762 0
+S
+#3764
+The Grey Path~
+Although the grey pathway below you seems almost transparent, it feels quite
+solid beneath your feet.  A soft light falls from the stars above you.
+~
+0 1049600 2 0 0 0
+D3
+Exit description~
+~
+0 0 3763 0
+S
+#3765
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3766 0
+D4
+Exit description~
+~
+0 0 3752 0
+S
+#3766
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.  The Temple of Paul stands to the north.
+~
+0 1049600 2 0 0 0
+D1
+~
+east~
+0 -1 3767 0
+D3
+~
+~
+0 -1 3765 0
+S
+#3767
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.  The temple of Vash stands to the north.
+~
+0 1049600 2 0 0 0
+D0
+A tent flap bars entry.
+~
+north~
+8389671 3662 3700 0
+D1
+~
+~
+0 -1 3768 0
+D3
+Exit description
+~
+~
+0 -1 3766 0
+S
+#3768
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3769 0
+D3
+~
+~
+0 0 3767 0
+S
+#3769
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.
+~
+0 1049600 2 0 0 0
+D1
+~
+~
+0 0 3770 0
+D3
+Exit description~
+~
+0 0 3768 0
+S
+#3770
+The Path Of Darkness~
+Far below the bright stars of the sky, darkness shrouds this path of dark
+stone.  Covered in rubble and shards of shattered rock, it is difficult to
+walk a straight line down this path.
+~
+0 1049600 2 0 0 0
+D3
+Exit description~
+~
+0 0 3769 0
+S
+#3800
+Placeholder~
+Placeholder
+~
+0 4 0 0 0 0
+S
+#0
+
+#RESETS
+D 0 3761 0 2  ; Door: #3761 The Grey Path/north => closed and locked
+D 0 3664 2 2  ; Door: #3664 The Temple Of The Einheri (Valhalla)/south => closed and locked
+M 0 3660 1 3665  ; Mob: #3660 A huge Viking => #3665 Pit room
+O 0 3675 1 3664  ; Object: #3675 a note board => #3664 The Temple Of The Einheri (Valhalla)
+O 0 3671 1 3681  ; Object: #3671 a small pond => #3681 The Alabaster Courtyard
+M 0 3656 1 3674  ; Mob: #3656 a walking healer => #3674 The Garden Of Shadows
+O 0 3663 1 3700  ; Object: #3663 the Black Company orders board => #3700 The Lady's Tent
+M 0 3655 1 3701  ; Mob: #3655 Croaker => #3701 The Storage Tent
+D 0 3767 0 2  ; Door: #3767 The Path Of Darkness/north => closed and locked
+D 0 3700 2 2  ; Door: #3700 The Lady's Tent/south => closed and locked
+D 0 3755 0 2  ; Door: #3755 The Path Of Light/north => closed and locked
+O 0 3754 1 3691  ; Object: #3754 the Mediators note board => #3691 The Temple Of The Divine Mediators
+D 0 3754 0 2  ; Door: #3754 The Path Of Light/north => closed and locked
+D 0 3691 2 2  ; Door: #3691 The Temple Of The Divine Mediators/south => closed and locked
+M 0 3654 1 3692  ; Mob: #3654 Argemis => #3692 The Temple Of The Divine Mediators -- Donation Room
+D 0 3681 2 2  ; Door: #3681 The Alabaster Courtyard/south => closed and locked
+M 0 3658 1 3703  ; Mob: #3658 One-Eye => #3703 The Medic's Tent
+O 0 3664 1 3701  ; Object: #3664 the company annals => #3701 The Storage Tent
+S
+
+#SPECIALS
+M 3656 spec_cast_adept   ; a walking healer
+M 3658 spec_cast_adept   ; One-Eye
+M 3659 spec_cast_adept   ; Illani
+M 3661 spec_cast_adept   ; The Valkrye Healer
+S
+
+#$

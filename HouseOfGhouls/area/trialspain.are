@@ -1,0 +1,6091 @@
+#AREA   Trials Of Pain~
+
+
+
+#VERSION 1
+#AUTHOR Rainsng/Draz~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG An overwhelming blast of cold air steals the breath from your lungs.....~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 124759345
+
+#CLIMATE 3 3 0
+
+#MOBILES
+#14101
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14102
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14103
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14104
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14105
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14106
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14107
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14108
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14109
+skeleton shambling~
+a shambling skeleton~
+A shambling skeleton springs to life before your eyes.
+~
+Standing before you is a typical skeleton. You notice nothing special about
+it.
+~
+16777313&8 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 1479 98 2102528 17 130 0
+#14110
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14111
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14112
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14113
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14114
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14115
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14116
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14117
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14118
+disfigured Skeleton bones~
+a disfigured skeleton~
+An odd pile of bones take on a disfigured form before jumping to life.
+~
+Starting off as a pile of bones, they pull themselves together in odd shapes
+before coming to life.
+~
+16777313&8 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 268697735 98 2102272 17 130 0
+#14119
+Mizfit imp demon~
+Mizfit~
+An elusive imp floats about looking for trouble.
+~
+Mizfit the Imp has long been known to show up and cause all kinds of minor
+inconveniences.
+~
+99 4718592&256 -1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 0 0 0 65536 65536 0
+0 0 296334 3153152 0 8192 3 1050146
+#14120
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14121
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14122
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14123
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14124
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14125
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14126
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14127
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14128
+zombie shuffling~
+a shuffling zombie~
+A zombie shuffles slowly towards you.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+15 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14129
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14130
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14131
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14132
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14133
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14134
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14135
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14136
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14137
+zombie staring~
+a staring zombie~
+A zombie stares blankly in your direction.
+~
+A long-dead zombie shuffles slowly towards you, its hands outstretched,
+reaching for your neck.
+~
+97&8 0 0 C
+20 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 1479 18 2102528 1 129 0
+#14138
+demon hound~
+a demon hound~
+A demonic hound snarls and barks at you!
+~
+This hound has been corrupted by the forces of chaos, and changed into
+something truly fearsome.  Its red eyes track you closely, awaiting a chance
+to devour your soul.
+~
+99 4196352&256 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 1 1 0
+0 0 525832 1056768 1 2 3 2
+#14139
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14140
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14141
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14142
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14143
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14144
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14145
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14146
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14147
+ghost moaning~
+a moaning ghost~
+A ghost moans as it fades into existence...
+~
+This ghost moans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14148
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14149
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14150
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14151
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14152
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14153
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14154
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14155
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14156
+ghost groaning~
+a groaning ghost~
+A ghost groans as it fades into existence...
+~
+This ghost groans at the prospect of never being able to leave this place.
+~
+97&8 2162690&128 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 4096 4096 0
+0 0 0 2098190 0 0 16779264 2
+#14157
+demon maggot~
+a maggot~
+A large demon with a huge mouth roars at you!
+~
+You have enough time before this demon attacks to remember its usually called
+a maggot.  It can swallow its foes whole!
+~
+99 1077938176&256 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 65536 65536 0
+0 0 534540 0 1048832 0 131329 524288
+#14158
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14159
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14160
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14161
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14162
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14163
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14164
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14165
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14166
+wight grasping~
+a grasping wight~
+A wight reaches out to steal your soul!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14167
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14168
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14169
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14170
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14171
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14172
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14173
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14174
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14175
+wight cackling~
+a cackling wight~
+A wight cackles as it attacks!
+~
+A wicked wight grasp at you, trying to steal your lifeforce!
+~
+97 268435456 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 1 0 0 4096 4096 0
+0 0 524295 0 2097186 72 2626 1
+#14176
+demon kidgeit~
+a kidgeit~
+A small demon snarls and jumps at your face!
+~
+This small demon may be contained in a protection circle, but unfortunately,
+you just stepped into its reach!
+~
+99 71827584&256 -1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 0 0 0 65536 65536 0
+0 0 16809998 0 2105344 448 16777267 2
+#14177
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14178
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14179
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14180
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14181
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14182
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14183
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14184
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14185
+wraith snarling~
+a snarling wraith~
+A wraith snarls as it floats towards you.
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14186
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14187
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14188
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14189
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14190
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14191
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14192
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14193
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14194
+wraith taunting~
+a taunting wraith~
+A wraith taunts you cruelly!
+~
+A terrible wraith attacks, hoping to claim your body to extend its unnatural
+life with.
+~
+97 4194496&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 8 0 0 4096 4096 0
+0 0 0 0 66 8 83888640 4
+#14195
+demon prince~
+a demon prince~
+A demon prince smiles evilly as it approaches...
+~
+The cruel smile of a demon prince doesn't make you feel any better about
+facing it.  You've heard of their power, and now you must defeat it!
+~
+99 37750912&256 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 0 0 0 65536 65536 0
+0 0 590106 0 1032832 12 17826370 524290
+#14196
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14197
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14198
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14199
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14200
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14201
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14202
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14203
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14204
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14205
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14206
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14207
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14208
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14209
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14210
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14211
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14212
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14213
+lich ancient~
+an ancient lich~
+An ancient lich aims a nasty spell at you!
+~
+Kept alive by the theft of others lives, this lich wants even more power.
+Yours will do!
+~
+97 2097280&8 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 4096 4096 0
+0 0 0 0 514 8192 117443074 6
+#14214
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14215
+demon Amaymyon~
+Amaymyon~
+Amaymyon, one of the kings of Hell attacks!
+~
+Horrible beyond all belief, this demon lord is mighty indeed.  It has claimed
+many lives in its long lifetime, and if you aren't careful, you will be next!
+~
+97 37750912&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 1073741823 0 8204 16 1728055810 524615
+#14216
+Belphegor demon~
+Belphegor~
+Belphegor, demon of hideous devices, wants to experiment on you!
+~
+Horrible beyond all belief, this demon lord is mighty indeed.  It has claimed
+many lives in its long lifetime, and if you aren't careful, you will be next!
+~
+97 272631936&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 1073741823 0 8204 16 1728055810 524615
+#14217
+Glasyalabolas demon~
+Glasyalabolas~
+Glasyalabolas, the winged dog, swoops down upon you!
+~
+Horrible beyond all belief, this demon lord is mighty indeed.  It has claimed
+many lives in its long lifetime, and if you aren't careful, you will be next!
+~
+97 71829632&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 1073741823 0 8204 16 1728055810 524615
+#14218
+Marchocias demon~
+Marchocias~
+Marchocias, marquis of hell, cackles and attacks!
+~
+Horrible beyond all belief, this demon lord is mighty indeed.  It has claimed
+many lives in its long lifetime, and if you aren't careful, you will be next!
+~
+97 306186368&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 1073741823 0 8204 16 1728055810 524615
+#14219
+Urobach demon~
+Urobach~
+Urobach, prince of hell, stamps his hooves in anger!
+~
+Horrible beyond all belief, this demon lord is mighty indeed.  It has claimed
+many lives in its long lifetime, and if you aren't careful, you will be next!
+~
+97 104859776&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 1073741823 0 8204 16 1728055810 524615
+#14220
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14221
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14222
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14223
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14224
+demon lord~
+a demon lord~
+A mighty demon lord leaps at you!
+~
+This demon lord is just awaiting to amass enough souls to be given a name.  He
+is happy you have come to give him the chance to gain your soul!
+~
+99 1145047168&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 12 0 0 65536 65536 0
+0 0 17143314 0 399 32 1996621824 326
+#14300
+Placeholder~
+Placeholder~
+Placeholder
+~
+Mizfit the Imp has long been known to show up and cause all kinds of minor
+inconveniences.
+~
+16777315 2097320 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 296326 3153152 0 8192 3 1050146
+#0
+
+
+#OBJECTS
+#14102
+Glandrumder mithril hammer~
+the mithril warhammer, Glandrumder~
+A long hafted warhammer of pure mithril.~
+~
+5 64&16 131073
+13 4 6 7
+15 0 0
+A
+1 2
+A
+18 2
+A
+19 2
+#14103
+key imp mizfit mizfits~
+Mizfits emerald key~
+A small key, carved from a green stone, glistens here.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#14104
+key hound~
+the hounds key~
+A small key, hanging from a doggie collar.~
+~
+18 0 33
+1 0 0 0
+1 0 0
+#14105
+maggot key~
+the maggot key~
+A large key, shaped like a maggot, lies here.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#14106
+key kidgeit bronze~
+the kidgeits key~
+A large bronze key sits on the ground.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#14107
+key demon prince~
+the princes key~
+A small silver key, with the rune of a demon prince engraved.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#14108
+key demon lord~
+the demon lords key~
+A large gold key, with the sigil of the demon lords engraved.~
+~
+18 0 1048577
+1 0 0 0
+1 0 0
+#14109
+crown amaymyon~
+Crown of Amaymyon~
+A dented, iron crown sits on the ground here.~
+~
+9 80 3
+8 8 0 0
+1 0 0
+A
+20 -4
+A
+13 35
+A
+12 35
+A
+19 3
+#14110
+rod Belphegor~
+the Rod of Belphegor~
+A hideous ironwood rod sits here.~
+~
+3 82 1048577
+55 6 6 -1
+1 0 0
+'spirit wrack'
+A
+12 35
+#14111
+collar spiked dog~
+a spiked dog collar~
+A dog collar with vicious spikes lies in the dust.~
+~
+9 80 33
+7 7 0 0
+1 0 0
+A
+13 25
+A
+18 2
+A
+19 4
+#14112
+ring marchocias~
+the Ring of Marchocias~
+A platinum ring with a glowing, dark blue stone sits on the ground.~
+~
+8 81 1025
+0 0 0 0
+1 0 0
+A
+5 4
+A
+4 4
+A
+3 4
+#14113
+mantlet urobach~
+the Mantlet of Urobach~
+A blood red mantlet lies in the dirt.~
+~
+9 80 2049
+6 6 0 0
+1 0 0
+A
+79 4
+A
+24 -4
+A
+23 -4
+#14300
+Placeholder~
+Placeholder~
+Placeholder~
+~
+5 524352 57345
+13 2 7 7 8 27
+10 0 0
+#0
+
+
+#ROOMS
+#14101
+Entrance To The Trials~
+You step into a small antechamber of the old tower.  As soon as you enter, you
+feel the unmistakable chill of things long dead.  A small bronze sign hangs on
+the wall next to the entrance, proclaiming "Welcome to the Trials.  Be on your
+guard adventurer!"
+~
+0 4 13
+D0
+Exit description~
+~
+0 0 762
+D2
+~
+~
+0 0 14102
+S
+#14102
+Somewhere Underground~
+After stepping through the threshold, you're overwhelmed by the stench of
+death and decay.  An uneasy chill settles over your body as you realize this
+place and feeling seems familiar somehow, with the only difference being the
+locations of spattered blood and bones.
+~
+0 0 13
+D0
+~
+~
+0 0 14101
+D1
+~
+~
+0 0 14103
+D2
+~
+~
+0 0 14107
+S
+#14103
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D1
+~
+~
+0 0 14104
+D2
+~
+~
+0 0 14108
+D3
+Exit description~
+~
+0 0 14102
+S
+#14104
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D1
+~
+~
+0 0 14105
+D2
+~
+~
+0 0 14109
+D3
+Exit description~
+~
+0 0 14103
+S
+#14105
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D1
+~
+~
+0 0 14106
+D2
+~
+~
+0 0 14110
+D3
+Exit description~
+~
+0 0 14104
+S
+#14106
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D2
+~
+~
+0 0 14111
+D3
+Exit description~
+~
+0 0 14105
+S
+#14107
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14102
+D1
+~
+~
+0 0 14108
+D2
+~
+~
+0 0 14112
+S
+#14108
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14103
+D1
+~
+~
+0 0 14109
+D2
+~
+~
+0 0 14113
+D3
+Exit description~
+~
+0 0 14107
+S
+#14109
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14104
+D1
+~
+~
+0 0 14110
+D2
+~
+~
+0 0 14114
+D3
+Exit description~
+~
+0 0 14108
+S
+#14110
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14105
+D1
+~
+~
+0 0 14111
+D2
+~
+~
+0 0 14115
+D3
+Exit description~
+~
+0 0 14109
+S
+#14111
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14106
+D2
+~
+~
+0 0 14116
+D3
+Exit description~
+~
+0 0 14110
+S
+#14112
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14107
+D1
+~
+~
+0 0 14113
+D2
+~
+~
+0 0 14117
+S
+#14113
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14108
+D1
+~
+~
+0 0 14114
+D2
+~
+~
+0 0 14118
+D3
+Exit description~
+~
+0 0 14112
+S
+#14114
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14109
+D1
+~
+~
+0 0 14115
+D2
+~
+~
+0 0 14119
+D3
+Exit description~
+~
+0 0 14113
+S
+#14115
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14110
+D1
+~
+~
+0 0 14116
+D2
+~
+~
+0 0 14120
+D3
+Exit description~
+~
+0 0 14114
+S
+#14116
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14111
+D2
+~
+~
+0 0 14121
+D3
+Exit description~
+~
+0 0 14115
+S
+#14117
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14112
+D1
+~
+~
+0 0 14118
+D2
+~
+~
+0 0 14122
+S
+#14118
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14113
+D1
+~
+~
+0 0 14119
+D2
+~
+~
+0 0 14123
+D3
+Exit description~
+~
+0 0 14117
+S
+#14119
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14114
+D1
+~
+~
+0 0 14120
+D2
+~
+~
+0 0 14124
+D3
+Exit description~
+~
+0 0 14118
+S
+#14120
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14115
+D1
+~
+~
+0 0 14121
+D2
+~
+~
+0 0 14125
+D3
+Exit description~
+~
+0 0 14119
+S
+#14121
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14116
+D2
+~
+~
+0 0 14126
+D3
+Exit description~
+~
+0 0 14120
+S
+#14122
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14117
+D1
+~
+~
+0 0 14123
+S
+#14123
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14118
+D1
+~
+~
+0 0 14124
+D3
+Exit description~
+~
+0 0 14122
+S
+#14124
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14119
+D1
+~
+~
+0 0 14125
+D3
+Exit description~
+~
+0 0 14123
+S
+#14125
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14120
+D1
+~
+~
+0 0 14126
+D3
+Exit description~
+~
+0 0 14124
+S
+#14126
+Somewhere Underground~
+All around you hangs the stench of death and decay.  An uneasy chill settles
+over your body as you realize this place and feeling seems familiar somehow,
+with the only difference being the locations of spattered blood and bones.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 14121
+D2
+~
+~
+16777219 0 14127
+D3
+Exit description~
+~
+0 0 14125
+S
+#14127
+The First Trial~
+As you step into the first trial room, you can't help but notice the abundance
+ of fresh corpses strewn haphazardly about the chambers.  Apparently you
+aren't  the first to take these trials.
+~
+0 8192 0
+D0
+~
+~
+16777219 0 14126
+D4
+~
+~
+25166887 14103 14128
+S
+#14128
+Climbing The Tower~
+You stand at the top of the staircase.  The stench of the undead below you
+drifts up here, and you wonder if you'll ever find fresh air again.  The
+passage continues on to the north.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 14129
+D5
+~
+~
+25166887 14103 14127
+S
+#14129
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14130
+D2
+Exit description~
+~
+16777216 0 14128
+D3
+Exit description~
+~
+0 0 14138
+S
+#14130
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14131
+D2
+Exit description~
+~
+0 0 14129
+D3
+Exit description~
+~
+0 0 14137
+S
+#14131
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14132
+D2
+Exit description~
+~
+0 0 14130
+D3
+Exit description~
+~
+0 0 14136
+S
+#14132
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14133
+D2
+Exit description~
+~
+0 0 14131
+D3
+Exit description~
+~
+0 0 14135
+S
+#14133
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 14132
+D3
+Exit description~
+~
+0 0 14134
+S
+#14134
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14133
+D2
+Exit description~
+~
+0 0 14135
+D3
+Exit description~
+~
+0 0 14143
+S
+#14135
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14134
+D1
+Exit description~
+~
+0 0 14132
+D2
+Exit description~
+~
+0 0 14136
+D3
+Exit description~
+~
+0 0 14142
+S
+#14136
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14135
+D1
+Exit description~
+~
+0 0 14131
+D2
+Exit description~
+~
+0 0 14137
+D3
+Exit description~
+~
+0 0 14141
+S
+#14137
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14136
+D1
+Exit description~
+~
+0 0 14130
+D2
+Exit description~
+~
+0 0 14138
+D3
+Exit description~
+~
+0 0 14140
+S
+#14138
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14137
+D1
+Exit description~
+~
+0 0 14129
+D3
+Exit description~
+~
+0 0 14139
+S
+#14139
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14140
+D1
+Exit description~
+~
+0 0 14138
+D3
+Exit description~
+~
+0 0 14148
+S
+#14140
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14141
+D1
+Exit description~
+~
+0 0 14137
+D2
+Exit description~
+~
+0 0 14139
+D3
+Exit description~
+~
+0 0 14147
+S
+#14141
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14142
+D1
+Exit description~
+~
+0 0 14136
+D2
+Exit description~
+~
+0 0 14140
+D3
+Exit description~
+~
+0 0 14146
+S
+#14142
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14143
+D1
+Exit description~
+~
+0 0 14135
+D2
+Exit description~
+~
+0 0 14141
+D3
+Exit description~
+~
+0 0 14145
+S
+#14143
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14134
+D2
+Exit description~
+~
+0 0 14142
+D3
+Exit description~
+~
+0 0 14144
+S
+#14144
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14143
+D2
+Exit description~
+~
+0 0 14145
+D3
+Exit description~
+~
+0 0 14153
+S
+#14145
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14144
+D1
+Exit description~
+~
+0 0 14142
+D2
+Exit description~
+~
+0 0 14146
+D3
+Exit description~
+~
+0 0 14152
+S
+#14146
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14145
+D1
+Exit description~
+~
+0 0 14141
+D2
+Exit description~
+~
+0 0 14147
+D3
+Exit description~
+~
+0 0 14151
+S
+#14147
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14146
+D1
+Exit description~
+~
+0 0 14140
+D2
+Exit description~
+~
+0 0 14148
+D3
+Exit description~
+~
+0 0 14150
+S
+#14148
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14147
+D1
+Exit description~
+~
+0 0 14139
+D3
+Exit description~
+~
+0 0 14149
+S
+#14149
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14150
+D1
+Exit description~
+~
+0 0 14148
+D2
+Exit description~
+~
+16777219 0 14154
+S
+#14150
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14151
+D1
+Exit description~
+~
+0 0 14147
+D2
+Exit description~
+~
+0 0 14149
+S
+#14151
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14152
+D1
+Exit description~
+~
+0 0 14146
+D2
+Exit description~
+~
+0 0 14150
+S
+#14152
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14153
+D1
+Exit description~
+~
+0 0 14145
+D2
+Exit description~
+~
+0 0 14151
+S
+#14153
+Wandering The Tower~
+You move along, your light barely pushing back the creeping darkness.  The
+sound of shuffling and what seem to be groans come from all around you.  You
+feel as if something stands right behind you, but when you turn, nothing is
+there.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14144
+D2
+Exit description~
+~
+16777219 0 14152
+S
+#14154
+The Second Trial~
+You enter another small room, apparently holding another demonic denizen.
+Many ghoulish runes are carved into the floor and walls, probably to contain
+the evil forces to this small lair.
+~
+0 8192 0
+D0
+Exit description~
+~
+16777219 0 14149
+D4
+~
+~
+25166887 14104 14155
+S
+#14155
+Climbing The Tower~
+Some small windows at the top of this stair allows you to get a glimpse of the
+world outside, and also a small, refreshing amount of clean air.  You see the
+Plains Road stretch out east and west below, while further west the forest
+gives way to a thick jungle.  Darkness lies to the north.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 14156
+D5
+~
+~
+16778279 14104 14154
+S
+#14156
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14157
+D1
+Exit description~
+~
+0 0 14165
+D2
+Exit description~
+~
+16777216 0 14155
+S
+#14157
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14158
+D1
+Exit description~
+~
+0 0 14164
+D2
+Exit description~
+~
+0 0 14156
+S
+#14158
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14159
+D1
+Exit description~
+~
+0 0 14163
+D2
+Exit description~
+~
+0 0 14157
+S
+#14159
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14160
+D1
+Exit description~
+~
+0 0 14162
+D2
+Exit description~
+~
+0 0 14158
+S
+#14160
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14161
+D2
+Exit description~
+~
+0 0 14159
+S
+#14161
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14170
+D2
+Exit description~
+~
+0 0 14162
+D3
+Exit description~
+~
+0 0 14160
+S
+#14162
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14161
+D1
+Exit description~
+~
+0 0 14169
+D2
+Exit description~
+~
+0 0 14163
+D3
+Exit description~
+~
+0 0 14159
+S
+#14163
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14162
+D1
+Exit description~
+~
+0 0 14168
+D2
+Exit description~
+~
+0 0 14164
+D3
+Exit description~
+~
+0 0 14158
+S
+#14164
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14163
+D1
+Exit description~
+~
+0 0 14167
+D2
+Exit description~
+~
+0 0 14165
+D3
+Exit description~
+~
+0 0 14157
+S
+#14165
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14164
+D1
+Exit description~
+~
+0 0 14166
+D3
+Exit description~
+~
+0 0 14156
+S
+#14166
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14167
+D1
+Exit description~
+~
+0 0 14175
+D3
+Exit description~
+~
+0 0 14165
+S
+#14167
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14168
+D1
+Exit description~
+~
+0 0 14174
+D2
+Exit description~
+~
+0 0 14166
+D3
+Exit description~
+~
+0 0 14164
+S
+#14168
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14169
+D1
+Exit description~
+~
+0 0 14173
+D2
+Exit description~
+~
+0 0 14167
+D3
+Exit description~
+~
+0 0 14163
+S
+#14169
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14170
+D1
+Exit description~
+~
+0 0 14172
+D2
+Exit description~
+~
+0 0 14168
+D3
+Exit description~
+~
+0 0 14162
+S
+#14170
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14171
+D2
+Exit description~
+~
+0 0 14169
+D3
+Exit description~
+~
+0 0 14161
+S
+#14171
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 14180
+D2
+Exit description~
+~
+0 0 14172
+D3
+Exit description~
+~
+0 0 14170
+S
+#14172
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14171
+D1
+Exit description~
+~
+0 0 14179
+D2
+Exit description~
+~
+0 0 14173
+D3
+Exit description~
+~
+0 0 14169
+S
+#14173
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14172
+D1
+Exit description~
+~
+0 0 14178
+D2
+Exit description~
+~
+0 0 14174
+D3
+Exit description~
+~
+0 0 14168
+S
+#14174
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14173
+D1
+Exit description~
+~
+0 0 14177
+D2
+Exit description~
+~
+0 0 14175
+D3
+Exit description~
+~
+0 0 14167
+S
+#14175
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14174
+D1
+Exit description~
+~
+0 0 14176
+D3
+Exit description~
+~
+0 0 14166
+S
+#14176
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+~
+~
+0 0 14177
+D2
+~
+~
+16777219 0 14181
+D3
+Exit description~
+~
+0 0 14175
+S
+#14177
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14178
+D2
+Exit description~
+~
+0 0 14176
+D3
+Exit description~
+~
+0 0 14174
+S
+#14178
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14179
+D2
+Exit description~
+~
+0 0 14177
+D3
+Exit description~
+~
+0 0 14173
+S
+#14179
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 14180
+D2
+Exit description~
+~
+0 0 14178
+D3
+Exit description~
+~
+0 0 14172
+S
+#14180
+Wandering The Tower~
+The silence of this floor is quite unnerving.  After all the noise the other
+shambling undead made, you wonder now if you have put all that behind you.
+Yet the scattered bones remain on the floor, proof that something does indeed
+stalk about.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 14179
+D3
+Exit description~
+~
+0 0 14171
+S
+#14181
+The Third Trial~
+Blood and deep claw marks cover the stone walls of this chamber.  Even more
+eerie is the lack of corpse remains that littered the floors of the other
+chambers.
+~
+0 8192 0
+D0
+Exit description~
+~
+16777219 0 14176
+D4
+~
+~
+25166887 14105 14182
+S
+#14182
+Climbing The Tower~
+You stand once again at the top of a spiral staircase, on another level of
+this accursed tower.  The stench of death still exists, but isn't as
+strong...or perhaps you are just getting used to it.  Darkness lies to the
+north.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 14183
+D5
+~
+~
+25166887 14105 14181
+S
+#14183
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14184
+D2
+Exit description~
+~
+16777216 0 14182
+D3
+Exit description~
+~
+0 0 14192
+S
+#14184
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14185
+D2
+Exit description~
+~
+0 0 14183
+D3
+Exit description~
+~
+0 0 14191
+S
+#14185
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14186
+D2
+Exit description~
+~
+0 0 14184
+D3
+Exit description~
+~
+0 0 14190
+S
+#14186
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14187
+D2
+Exit description~
+~
+0 0 14185
+D3
+Exit description~
+~
+0 0 14189
+S
+#14187
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D2
+Exit description~
+~
+0 0 14186
+D3
+Exit description~
+~
+0 0 14188
+S
+#14188
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14187
+D2
+Exit description~
+~
+0 0 14189
+D3
+Exit description~
+~
+0 0 14197
+S
+#14189
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14188
+D1
+Exit description~
+~
+0 0 14186
+D2
+Exit description~
+~
+0 0 14190
+D3
+Exit description~
+~
+0 0 14196
+S
+#14190
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14189
+D1
+Exit description~
+~
+0 0 14185
+D2
+Exit description~
+~
+0 0 14191
+D3
+Exit description~
+~
+0 0 14195
+S
+#14191
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14190
+D1
+Exit description~
+~
+0 0 14184
+D2
+Exit description~
+~
+0 0 14192
+D3
+Exit description~
+~
+0 0 14194
+S
+#14192
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14191
+D1
+Exit description~
+~
+0 0 14183
+D3
+Exit description~
+~
+0 0 14193
+S
+#14193
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14194
+D1
+Exit description~
+~
+0 0 14192
+D3
+Exit description~
+~
+0 0 14202
+S
+#14194
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14195
+D1
+Exit description~
+~
+0 0 14191
+D2
+Exit description~
+~
+0 0 14193
+D3
+Exit description~
+~
+0 0 14201
+S
+#14195
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14196
+D1
+Exit description~
+~
+0 0 14190
+D2
+Exit description~
+~
+0 0 14194
+D3
+Exit description~
+~
+0 0 14200
+S
+#14196
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14197
+D1
+Exit description~
+~
+0 0 14189
+D2
+Exit description~
+~
+0 0 14195
+D3
+Exit description~
+~
+0 0 14199
+S
+#14197
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14188
+D2
+Exit description~
+~
+0 0 14196
+D3
+Exit description~
+~
+0 0 14198
+S
+#14198
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14197
+D2
+Exit description~
+~
+0 0 14199
+D3
+Exit description~
+~
+0 0 14207
+S
+#14199
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14198
+D1
+Exit description~
+~
+0 0 14196
+D2
+Exit description~
+~
+0 0 14200
+D3
+Exit description~
+~
+0 0 14206
+S
+#14200
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14199
+D1
+Exit description~
+~
+0 0 14195
+D2
+Exit description~
+~
+0 0 14201
+D3
+Exit description~
+~
+0 0 14205
+S
+#14201
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14200
+D1
+Exit description~
+~
+0 0 14194
+D2
+Exit description~
+~
+0 0 14202
+D3
+Exit description~
+~
+0 0 14204
+S
+#14202
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14201
+D1
+Exit description~
+~
+0 0 14193
+D3
+Exit description~
+~
+0 0 14203
+S
+#14203
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14204
+D1
+Exit description~
+~
+0 0 14202
+D2
+Exit description~
+~
+16777219 0 14208
+S
+#14204
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14205
+D1
+Exit description~
+~
+0 0 14201
+D2
+Exit description~
+~
+0 0 14203
+S
+#14205
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14206
+D1
+Exit description~
+~
+0 0 14200
+D2
+Exit description~
+~
+0 0 14204
+S
+#14206
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14207
+D1
+Exit description~
+~
+0 0 14199
+D2
+Exit description~
+~
+0 0 14205
+S
+#14207
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14198
+D2
+Exit description~
+~
+0 0 14206
+S
+#14208
+The Fourth Trial~
+Only a large circle made of silver adorns this tiny stone chamber.  The marks
+of powerful diabolist runes are set into the silver and you can hear the buzz
+of a magical shield all around you.
+~
+0 3153920 0
+D0
+Exit description~
+~
+16777219 0 14203
+D4
+~
+~
+25166887 14106 14209
+S
+#14209
+Climbing The Tower~
+At this point you begin to wonder how much higher this tower goes.  There are
+no windows to give you an idea how high you have climbed.  The same chilling
+darkness you have walked through in the lower levels lies to the north.
+~
+0 3153920 0
+D0
+Exit description~
+~
+16777216 0 14210
+D5
+~
+~
+25166887 14106 14208
+S
+#14210
+Wandering The Tower~
+You are once again shrouded in quiet, except this time it seems as if even the
+noises of your own passage are absorbed into the black.  Occasionally you
+think you see small lights off in the distance, but they disappear fast enough
+that you aren't sure you really saw them.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14211
+D1
+Exit description~
+~
+0 0 14219
+D2
+Exit description~
+~
+16777216 0 14209
+S
+#14211
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14212
+D1
+Exit description~
+~
+0 0 14218
+D2
+Exit description~
+~
+0 0 14210
+S
+#14212
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14213
+D1
+Exit description~
+~
+0 0 14217
+D2
+Exit description~
+~
+0 0 14211
+S
+#14213
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14214
+D1
+Exit description~
+~
+0 0 14216
+D2
+Exit description~
+~
+0 0 14212
+S
+#14214
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14215
+D2
+Exit description~
+~
+0 0 14213
+S
+#14215
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14224
+D2
+Exit description~
+~
+0 0 14216
+D3
+Exit description~
+~
+0 0 14214
+S
+#14216
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14215
+D1
+Exit description~
+~
+0 0 14223
+D2
+Exit description~
+~
+0 0 14217
+D3
+Exit description~
+~
+0 0 14213
+S
+#14217
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14216
+D1
+Exit description~
+~
+0 0 14222
+D2
+Exit description~
+~
+0 0 14218
+D3
+Exit description~
+~
+0 0 14212
+S
+#14218
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14217
+D1
+Exit description~
+~
+0 0 14221
+D2
+Exit description~
+~
+0 0 14219
+D3
+Exit description~
+~
+0 0 14211
+S
+#14219
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14218
+D1
+Exit description~
+~
+0 0 14220
+D3
+Exit description~
+~
+0 0 14210
+S
+#14220
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14221
+D1
+Exit description~
+~
+0 0 14229
+D3
+Exit description~
+~
+0 0 14219
+S
+#14221
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14222
+D1
+Exit description~
+~
+0 0 14228
+D2
+Exit description~
+~
+0 0 14220
+D3
+Exit description~
+~
+0 0 14218
+S
+#14222
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14223
+D1
+Exit description~
+~
+0 0 14227
+D2
+Exit description~
+~
+0 0 14221
+D3
+Exit description~
+~
+0 0 14217
+S
+#14223
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14224
+D1
+Exit description~
+~
+0 0 14226
+D2
+Exit description~
+~
+0 0 14222
+D3
+Exit description~
+~
+0 0 14216
+S
+#14224
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+~
+~
+0 0 14225
+D2
+~
+~
+0 0 14223
+D3
+Exit description~
+~
+0 0 14215
+S
+#14225
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D1
+~
+~
+0 0 14234
+D2
+~
+~
+0 0 14226
+D3
+~
+~
+0 0 14224
+S
+#14226
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14225
+D1
+~
+~
+0 0 14233
+D2
+~
+~
+0 0 14227
+D3
+Exit description~
+~
+0 0 14223
+S
+#14227
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14226
+D1
+~
+~
+0 0 14232
+D2
+~
+~
+0 0 14228
+D3
+Exit description~
+~
+0 0 14222
+S
+#14228
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14227
+D1
+~
+~
+0 0 14231
+D2
+~
+~
+0 0 14229
+D3
+Exit description~
+~
+0 0 14221
+S
+#14229
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14228
+D1
+~
+~
+0 0 14230
+D3
+Exit description~
+~
+0 0 14220
+S
+#14230
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+~
+~
+0 0 14231
+D2
+Exit description~
+~
+16777219 0 14235
+D3
+Exit description~
+~
+0 0 14229
+S
+#14231
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+~
+~
+0 0 14232
+D2
+Exit description~
+~
+0 0 14230
+D3
+Exit description~
+~
+0 0 14228
+S
+#14232
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+~
+~
+0 0 14233
+D2
+Exit description~
+~
+0 0 14231
+D3
+Exit description~
+~
+0 0 14227
+S
+#14233
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D0
+~
+~
+0 0 14234
+D2
+Exit description~
+~
+0 0 14232
+D3
+Exit description~
+~
+0 0 14226
+S
+#14234
+Wandering The Tower~
+Faint scratching noises and scuffs in the dust on the floor show that this
+level is indeed inhabited, probably by more of the undead.  The bones on the
+floor have been reduced to tiny shards, as if something was crunching them up.
+~
+0 3153920 0
+D2
+Exit description~
+~
+0 0 14233
+D3
+Exit description~
+~
+0 0 14225
+S
+#14235
+The Fifth Trial~
+Only a large circle made of silver adorns this tiny stone chamber.  The marks
+of powerful diabolist runes are set into the silver and you can hear the buzz
+of a magical shield all around you.
+~
+0 3153920 0
+D0
+~
+~
+16777219 0 14230
+D4
+~
+~
+25166887 14107 14236
+S
+#14236
+Climbing The Tower~
+At this point you begin to wonder how much higher this tower goes.  There are
+no windows to give you an idea how high you have climbed.  The same chilling
+darkness you have walked through in the lower levels lies to the north.
+~
+0 3153920 0
+D0
+Exit description~
+~
+16777216 0 14237
+D5
+~
+~
+25166887 14107 14235
+S
+#14237
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14238
+D2
+~
+~
+16777216 0 14236
+D3
+Exit description~
+~
+0 0 14246
+S
+#14238
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14239
+D2
+Exit description~
+~
+0 0 14237
+D3
+Exit description~
+~
+0 0 14245
+S
+#14239
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14240
+D2
+Exit description~
+~
+0 0 14238
+D3
+Exit description~
+~
+0 0 14244
+S
+#14240
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14241
+D2
+Exit description~
+~
+0 0 14239
+D3
+Exit description~
+~
+0 0 14243
+S
+#14241
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D2
+Exit description~
+~
+0 0 14240
+D3
+Exit description~
+~
+0 0 14242
+S
+#14242
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14241
+D2
+Exit description~
+~
+0 0 14243
+D3
+Exit description~
+~
+0 0 14251
+S
+#14243
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14242
+D1
+Exit description~
+~
+0 0 14240
+D2
+Exit description~
+~
+0 0 14244
+D3
+Exit description~
+~
+0 0 14250
+S
+#14244
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14243
+D1
+Exit description~
+~
+0 0 14239
+D2
+Exit description~
+~
+0 0 14245
+D3
+Exit description~
+~
+0 0 14249
+S
+#14245
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14244
+D1
+Exit description~
+~
+0 0 14238
+D2
+Exit description~
+~
+0 0 14246
+D3
+Exit description~
+~
+0 0 14248
+S
+#14246
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14245
+D1
+Exit description~
+~
+0 0 14237
+D3
+Exit description~
+~
+0 0 14247
+S
+#14247
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14248
+D1
+Exit description~
+~
+0 0 14246
+D2
+Exit description~
+~
+16777219 0 14262
+D3
+Exit description~
+~
+0 0 14256
+S
+#14248
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14249
+D1
+Exit description~
+~
+0 0 14245
+D2
+Exit description~
+~
+0 0 14247
+D3
+Exit description~
+~
+0 0 14255
+S
+#14249
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14250
+D1
+Exit description~
+~
+0 0 14244
+D2
+Exit description~
+~
+0 0 14248
+D3
+Exit description~
+~
+0 0 14254
+S
+#14250
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14251
+D1
+Exit description~
+~
+0 0 14243
+D2
+Exit description~
+~
+0 0 14249
+D3
+Exit description~
+~
+0 0 14253
+S
+#14251
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14242
+D2
+Exit description~
+~
+0 0 14250
+D3
+Exit description~
+~
+0 0 14252
+S
+#14252
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 137363456 0
+D1
+Exit description~
+~
+0 0 14251
+D2
+Exit description~
+~
+0 0 14253
+D3
+Exit description~
+~
+0 0 14261
+S
+#14253
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14252
+D1
+Exit description~
+~
+0 0 14250
+D2
+Exit description~
+~
+0 0 14254
+D3
+Exit description~
+~
+0 0 14260
+S
+#14254
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14253
+D1
+Exit description~
+~
+0 0 14249
+D2
+Exit description~
+~
+0 0 14255
+D3
+Exit description~
+~
+0 0 14259
+S
+#14255
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14254
+D1
+Exit description~
+~
+0 0 14248
+D2
+Exit description~
+~
+0 0 14256
+D3
+Exit description~
+~
+0 0 14258
+S
+#14256
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14255
+D1
+Exit description~
+~
+0 0 14247
+D3
+Exit description~
+~
+0 0 14257
+S
+#14257
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14258
+D1
+Exit description~
+~
+0 0 14256
+S
+#14258
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14259
+D1
+Exit description~
+~
+0 0 14255
+D2
+Exit description~
+~
+0 0 14257
+S
+#14259
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14260
+D1
+Exit description~
+~
+0 0 14254
+D2
+Exit description~
+~
+0 0 14258
+S
+#14260
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D0
+Exit description~
+~
+0 0 14261
+D1
+Exit description~
+~
+0 0 14253
+D2
+Exit description~
+~
+0 0 14259
+S
+#14261
+Wandering The Tower~
+The floor of this level of the tower is surprisingly clean and swept free of
+dust and debris.  It is obvious that whomever inhabits this floor feels a need
+to keep things picked up, perhaps to avoid scaring away any potential
+victims...
+~
+0 3153920 0
+D1
+Exit description~
+~
+0 0 14252
+D2
+Exit description~
+~
+0 0 14260
+S
+#14262
+The Sixth Trial~
+This chamber is much larger than any of the previous Trial chambers.  Many
+runes in silver and mithril are laid into the floor and walls, with a huge
+ruby placed into the ceiling.  The room is awash in a reddish glow, coming
+from the ruby itself.
+~
+0 3153920 0
+D0
+Exit description~
+~
+16777219 0 14247
+D4
+~
+~
+25166887 14108 14263
+S
+#14263
+Climbing The Tower~
+A solitary window at the top of the stairs shows nothing but dark storm clouds
+all around the tower.  Dark birds circle and glide on the strong breezes that
+you can feel rushing through the small opening.  The usual darkness to the
+north seems colder and somehow, more forbidding.
+~
+0 3153920 0
+D0
+Exit description~
+~
+16777216 0 14264
+D5
+~
+~
+25166887 14108 14262
+S
+#14264
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14275
+D1
+Exit description~
+~
+0 0 14265
+D2
+Exit description~
+~
+16777216 0 14263
+D3
+Exit description~
+~
+0 0 14273
+S
+#14265
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14266
+D3
+Exit description~
+~
+0 0 14264
+S
+#14266
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14267
+D2
+Exit description~
+~
+0 0 14265
+D3
+Exit description~
+~
+0 0 14275
+S
+#14267
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14268
+D2
+Exit description~
+~
+0 0 14266
+D3
+Exit description~
+~
+0 0 14274
+S
+#14268
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D2
+Exit description~
+~
+0 0 14267
+D3
+Exit description~
+~
+0 0 14269
+S
+#14269
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D1
+Exit description~
+~
+0 0 14268
+D2
+Exit description~
+~
+0 0 14274
+D3
+Exit description~
+~
+0 0 14270
+S
+#14270
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D1
+Exit description~
+~
+0 0 14269
+D2
+Exit description~
+~
+0 0 14271
+S
+#14271
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14270
+D1
+Exit description~
+~
+0 0 14274
+D2
+Exit description~
+~
+0 0 14272
+S
+#14272
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14271
+D1
+Exit description~
+~
+0 0 14275
+D2
+Exit description~
+~
+0 0 14273
+S
+#14273
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14272
+D1
+Exit description~
+~
+0 0 14264
+S
+#14274
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14269
+D1
+Exit description~
+~
+0 0 14267
+D2
+Exit description~
+~
+0 0 14275
+D3
+Exit description~
+~
+0 0 14271
+S
+#14275
+The Darkened Chamber~
+You stand in a dark and cold chamber.  Your light is absorbed quickly by the
+blanket-like black surrounding you.  Cackles and cries can be heard all around
+you.  The strange sounds assault your ears and mind, making it hard to
+concentrate on your surroundings.  You feel engulfed in chaos.
+~
+0 137371649 0
+D0
+Exit description~
+~
+0 0 14274
+D1
+Exit description~
+~
+0 0 14266
+D2
+Exit description~
+~
+0 0 14264
+D3
+Exit description~
+~
+0 0 14272
+S
+#14300
+Placeholder~
+Placeholder
+~
+0 4 13
+S
+#0
+
+
+#RESETS
+M 0 14224 1 14273
+M 0 14223 1 14272
+M 0 14222 1 14271
+M 0 14221 1 14270
+M 0 14220 1 14269
+M 0 14219 1 14268
+E 0 14113 1 14
+M 0 14218 1 14267
+E 0 14112 1 12
+M 0 14217 1 14266
+E 0 14111 1 5
+M 0 14216 1 14265
+E 0 14110 1 24
+M 0 14215 1 14264
+E 0 14109 1 1
+M 0 14214 1 14262
+E 0 14108 1 24
+M 0 14213 1 14248
+M 0 14212 1 14252
+M 0 14211 1 14246
+M 0 14210 1 14244
+M 0 14209 1 14254
+M 0 14208 1 14259
+M 0 14207 1 14257
+M 0 14206 1 14255
+M 0 14205 1 14253
+M 0 14204 1 14251
+M 0 14203 1 14249
+M 0 14202 1 14247
+M 0 14201 1 14245
+M 0 14200 1 14243
+M 0 14199 1 14241
+M 0 14198 1 14239
+M 0 14197 1 14261
+M 0 14196 1 14237
+M 0 14195 1 14235
+E 0 14107 1 24
+M 0 14194 1 14225
+M 0 14193 1 14217
+M 0 14192 1 14211
+M 0 14191 1 14221
+M 0 14190 1 14231
+M 0 14189 1 14232
+M 0 14188 1 14230
+M 0 14187 1 14228
+M 0 14186 1 14226
+M 0 14185 1 14224
+M 0 14184 1 14222
+M 0 14183 1 14220
+M 0 14182 1 14218
+M 0 14181 1 14216
+M 0 14180 1 14214
+M 0 14179 1 14212
+M 0 14178 1 14234
+M 0 14177 1 14210
+M 0 14176 1 14208
+E 0 14106 1 24
+M 0 14175 1 14185
+M 0 14174 1 14193
+M 0 14173 1 14201
+M 0 14172 1 14207
+M 0 14171 1 14206
+M 0 14170 1 14204
+M 0 14169 1 14202
+M 0 14168 1 14200
+M 0 14167 1 14198
+M 0 14166 1 14196
+M 0 14165 1 14194
+M 0 14164 1 14192
+M 0 14163 1 14190
+M 0 14162 1 14188
+M 0 14161 1 14186
+M 0 14160 1 14184
+M 0 14159 1 14207
+M 0 14158 1 14182
+M 0 14157 1 14181
+E 0 14105 1 24
+M 0 14156 1 14163
+M 0 14155 1 14157
+M 0 14154 1 14165
+M 0 14153 1 14171
+M 0 14152 1 14175
+M 0 14151 1 14178
+M 0 14150 1 14176
+M 0 14149 1 14174
+M 0 14148 1 14172
+M 0 14147 1 14170
+M 0 14146 1 14168
+M 0 14145 1 14166
+M 0 14144 1 14164
+M 0 14143 1 14162
+M 0 14142 1 14160
+M 0 14141 1 14158
+M 0 14140 1 14180
+M 0 14139 1 14156
+M 0 14138 1 14154
+E 0 14104 1 5
+M 0 14137 1 14141
+M 0 14136 1 14136
+M 0 14135 1 14132
+M 0 14134 1 14130
+M 0 14133 1 14146
+M 0 14132 1 14144
+M 0 14131 1 14138
+M 0 14130 1 14134
+M 0 14129 1 14137
+M 0 14128 1 14141
+M 0 14127 1 14145
+M 0 14126 1 14149
+M 0 14125 1 14141
+M 0 14124 1 14150
+M 0 14123 1 14143
+M 0 14122 1 14133
+M 0 14121 1 14131
+M 0 14121 1 14129
+D 0 14263 5 2
+D 0 14262 4 2
+D 0 14247 2 1
+D 0 14262 0 1
+D 0 14236 5 2
+D 0 14235 4 2
+D 0 14230 2 1
+D 0 14235 0 1
+D 0 14209 5 2
+D 0 14208 4 2
+D 0 14203 2 1
+D 0 14208 0 1
+D 0 14182 5 2
+D 0 14181 4 2
+D 0 14176 2 1
+D 0 14181 0 1
+D 0 14155 5 2
+D 0 14154 4 2
+D 0 14149 2 1
+D 0 14154 0 1
+D 0 14128 5 2
+D 0 14126 2 1
+D 0 14127 4 2
+D 0 14127 0 1
+M 0 14111 10 14111
+M 0 14110 1 14110
+M 0 14118 1 14109
+M 0 14117 1 14108
+M 0 14116 1 14107
+M 0 14115 1 14106
+M 0 14114 1 14105
+M 0 14113 1 14104
+M 0 14112 1 14103
+M 0 14109 1 14120
+M 0 14108 1 14109
+M 0 14107 1 14108
+M 0 14106 1 14107
+M 0 14105 1 14106
+M 0 14104 1 14105
+M 0 14103 1 14104
+M 0 14102 1 14103
+M 0 14101 1 14102
+M 0 14111 1 14102
+M 0 14119 1 14127
+E 0 14103 1 24
+E 1 14102 1 21
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  14138 spec_breath_fire
+M  14158 spec_cast_undead
+M  14159 spec_cast_undead
+M  14160 spec_cast_undead
+M  14161 spec_cast_undead
+M  14162 spec_cast_undead
+M  14163 spec_cast_undead
+M  14164 spec_cast_undead
+M  14165 spec_cast_undead
+M  14166 spec_cast_undead
+M  14167 spec_cast_undead
+M  14168 spec_cast_undead
+M  14169 spec_cast_undead
+M  14170 spec_cast_undead
+M  14171 spec_cast_undead
+M  14172 spec_cast_undead
+M  14173 spec_cast_undead
+M  14174 spec_cast_undead
+M  14175 spec_cast_undead
+M  14176 spec_cast_cleric
+M  14177 spec_cast_diabolist
+M  14178 spec_cast_diabolist
+M  14179 spec_cast_diabolist
+M  14180 spec_cast_diabolist
+M  14181 spec_cast_diabolist
+M  14182 spec_cast_diabolist
+M  14183 spec_cast_diabolist
+M  14184 spec_cast_diabolist
+M  14185 spec_cast_diabolist
+M  14186 spec_cast_diabolist
+M  14187 spec_cast_diabolist
+M  14188 spec_cast_diabolist
+M  14189 spec_cast_diabolist
+M  14190 spec_cast_diabolist
+M  14191 spec_cast_diabolist
+M  14192 spec_cast_diabolist
+M  14193 spec_cast_diabolist
+M  14194 spec_cast_diabolist
+M  14195 spec_cast_archmagi
+M  14196 spec_cast_mage
+M  14197 spec_cast_mage
+M  14198 spec_cast_mage
+M  14199 spec_cast_mage
+M  14200 spec_cast_mage
+M  14201 spec_cast_mage
+M  14202 spec_cast_mage
+M  14203 spec_cast_mage
+M  14204 spec_cast_mage
+M  14205 spec_cast_mage
+M  14206 spec_cast_mage
+M  14207 spec_cast_mage
+M  14208 spec_cast_mage
+M  14209 spec_cast_mage
+M  14210 spec_cast_mage
+M  14211 spec_cast_mage
+M  14212 spec_cast_archmagi
+M  14213 spec_cast_archmagi
+M  14214 spec_cast_bishop
+M  14215 spec_cast_archmagi
+M  14216 spec_cast_bishop
+M  14217 spec_cast_druid
+M  14218 spec_cast_archmagi
+M  14219 spec_breath_any
+M  14220 spec_cast_shaman
+M  14222 spec_cast_shaman
+S
+
+
+#$

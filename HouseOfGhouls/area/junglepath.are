@@ -1,0 +1,683 @@
+#AREA Jungle Path~
+
+#VERSION 1
+
+#CLIMATE 3 3 0
+
+#AUTHOR Drazuk~
+
+#RANGES
+1 25 0 65
+$
+
+#RESETMSG The sounds of the jungle are all around you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 845588413
+
+#MOBILES
+#10751
+mosquito~
+a mosquito~
+A mosquito buzzes around your head!
+~
+As annoying as possible, this mosquito buzzes around your head, trying to find
+a good place to land and suck a bit of blood from your body.
+~
+65 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 2 0 0 256 256 0
+0 0 16816128 0 0 0 1 2
+#10752
+mosquito~
+a mosquito~
+A mosquito buzzes around your head!
+~
+As annoying as possible, this mosquito buzzes around your head, trying to find
+a good place to land and suck a bit of blood from your body.
+~
+65 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 2 0 0 256 256 0
+0 0 16816128 0 0 0 1 2
+#10753
+panther~
+a panther~
+A stealthy panther hunts in the undergrowth.
+~
+Slinky and stealthy, a dark panther hunts its prey through the thick
+undergrowth of the jungle.  It stalks along quietly, hoping to surprise a
+rabbit or other small game.
+~
+16777281 98304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 6 0 0 512 512 0
+0 0 168560137 2 0 0 1 2
+#10754
+panther~
+a panther~
+A stealthy panther hunts in the undergrowth.
+~
+Slinky and stealthy, a dark panther hunts its prey through the thick
+undergrowth of the jungle.  It stalks along quietly, hoping to surprise a
+rabbit or other small game.
+~
+16777281 98304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 6 0 0 512 512 0
+0 0 168560137 2 0 0 1 2
+#10755
+kookaburra bird~
+a kookaburra~
+A small bird lands on a branch and laughs at your progress!
+~
+A white and brown bird, with a dark stripe across its eyes, flies to a low
+branch.  Looking right at you, it begins a strange call, which sounds
+suspiciously like it is laughing at you!  How rude!
+~
+16777281 524288 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 65536 65536 0
+0 0 553681433 0 0 0 512 2
+#10756
+kookaburra bird~
+a kookaburra~
+A small bird lands on a branch and laughs at your progress!
+~
+A white and brown bird, with a dark stripe across its eyes, flies to a low
+branch.  Looking right at you, it begins a strange call, which sounds
+suspiciously like it is laughing at you!  How rude!
+~
+16777281 524288 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 65536 65536 0
+0 0 553681433 0 0 0 512 2
+#10800
+new mob~
+A newly created mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#10751
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#10800
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#10751
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.  The path opens up to a larger road to the north.
+~
+0 1 3 0 0 0
+D0
+~
+~
+0 0 10671 0
+D2
+~
+~
+0 0 10752 0
+S
+#10752
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10751 0
+D3
+~
+~
+0 0 10753 0
+S
+#10753
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10752 0
+D3
+~
+~
+0 0 10754 0
+S
+#10754
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10753 0
+D2
+~
+~
+0 0 10755 0
+S
+#10755
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10754 0
+D3
+~
+~
+0 0 10756 0
+D2
+The Tokens
+~
+south~
+1 0 9000 0
+S
+#10756
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10755 0
+D3
+~
+~
+0 0 10757 0
+S
+#10757
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10756 0
+D2
+~
+~
+0 0 10758 0
+S
+#10758
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+~
+~
+0 0 10757 0
+D1
+~
+~
+3 0 7648 0
+D3
+~
+~
+0 0 10759 0
+S
+#10759
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10758 0
+D2
+~
+~
+0 0 10760 0
+S
+#10760
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10759 0
+D2
+~
+~
+0 0 10761 0
+S
+#10761
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10760 0
+D3
+~
+~
+0 0 10762 0
+S
+#10762
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10761 0
+D2
+~
+~
+0 0 10763 0
+S
+#10763
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10762 0
+D2
+~
+~
+0 0 10764 0
+S
+#10764
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10763 0
+D3
+~
+~
+0 0 10765 0
+S
+#10765
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D1
+Exit description~
+~
+0 0 10764 0
+D2
+~
+~
+0 0 10766 0
+S
+#10766
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10765 0
+D2
+~
+~
+0 0 10767 0
+S
+#10767
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10766 0
+D2
+~
+~
+0 0 10768 0
+S
+#10768
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10767 0
+D2
+~
+~
+0 0 10769 0
+S
+#10769
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10768 0
+D2
+~
+~
+0 0 10770 0
+S
+#10770
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10769 0
+D2
+~
+~
+0 0 10771 0
+S
+#10771
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10770 0
+D1
+~
+~
+0 0 10772 0
+S
+#10772
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D2
+~
+~
+0 0 10773 0
+D3
+~
+~
+0 0 10771 0
+S
+#10773
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10772 0
+D2
+~
+~
+0 0 10774 0
+S
+#10774
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10773 0
+D1
+~
+~
+0 0 10775 0
+S
+#10775
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D2
+~
+~
+0 0 10776 0
+D3
+Exit description~
+~
+0 0 10774 0
+S
+#10776
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10775 0
+D2
+~
+~
+0 0 10777 0
+S
+#10777
+A Twisty Path~
+A narrow and twisty path works its way through and under the thick growth of
+the jungle.  Small insects buzz about, annoying in their own special ways.
+From all around, the sounds of various critters shriek, growl, chirp and
+snort.  It is difficult to see anything further down the path, due to all the
+plant life.  A rope bridge appears through the undergrowth to the south.
+~
+0 1 3 0 0 0
+D0
+Exit description~
+~
+0 0 10776 0
+D2
+Exit description~
+~
+0 0 16201 0
+S
+#10800
+Room name~
+You stumble into a newly created room.
+~
+0 4 0 0 0 0
+S
+#0
+
+#RESETS
+M 0 10756 2 10776  ; Mob: #10756 a kookaburra => #10776 A Twisty Path
+M 0 10756 2 10776  ; Mob: #10756 a kookaburra => #10776 A Twisty Path
+M 0 10755 2 10759  ; Mob: #10755 a kookaburra => #10759 A Twisty Path
+M 0 10755 2 10759  ; Mob: #10755 a kookaburra => #10759 A Twisty Path
+M 0 10754 1 10766  ; Mob: #10754 a panther => #10766 A Twisty Path
+M 0 10753 1 10761  ; Mob: #10753 a panther => #10761 A Twisty Path
+M 0 10752 3 10773  ; Mob: #10752 a mosquito => #10773 A Twisty Path
+M 0 10752 3 10773  ; Mob: #10752 a mosquito => #10773 A Twisty Path
+M 0 10752 3 10773  ; Mob: #10752 a mosquito => #10773 A Twisty Path
+M 0 10751 3 10753  ; Mob: #10751 a mosquito => #10753 A Twisty Path
+M 0 10751 3 10753  ; Mob: #10751 a mosquito => #10753 A Twisty Path
+M 0 10751 3 10753  ; Mob: #10751 a mosquito => #10753 A Twisty Path
+S
+
+#SPECIALS
+S
+
+#$

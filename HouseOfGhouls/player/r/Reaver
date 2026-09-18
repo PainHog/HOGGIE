@@ -1,0 +1,1202 @@
+#PLAYER
+Version      3
+Name         Reaver~
+ID           1950
+Sex          1
+Class        6
+Dual         10
+Race         15
+Languages    1 1
+Level        50
+Played       68161
+Room         21009
+HpManaMove   1984 1639 1177 955 1366 1296
+Gold         114138
+Exp          8609017
+Tier	       1
+Tierexp      0
+Height          68
+Weight          189
+Act          704644936&44
+AffectedBy   -2146959264
+Position     112
+Style     4
+Practice     210
+SavingThrows 0 0 0 0 -13
+Alignment    0
+Favor	       0
+Balance      0
+Mobmaster    6
+MobMTicks    29
+NextMobM     13
+Glory        1447
+MGlory       2447
+Scoremobm    3
+Scoremk      1746
+Scoreqp      1222
+Scorepk      0
+Scoregold    129529
+Scorexp      8583248
+Scoremp      0
+Scoresp      0
+SkillPoints  0
+MagicPoints  0
+MobDeathVnum	14009
+Rent		 0
+Hitroll      13
+Damroll      0
+Armor        40
+ArmorWorn    0
+Resistant    2097667
+Mentalstate  0
+Password     RezLpvT482JtQ~
+Title         made it!~
+Prompt       &W<-}R%h&W/}r%H}Rhp }P%m&W/}p%M}Pma &G%v&W/&g%V&Gmv &Y%g&Og &W[&z%c&W][}C%X&W][&R%S&W]-&z%n&W->&D~
+FPrompt	     &W<-}R%h&W/}r%H}Rhp }P%m&W/}p%M}Pma &G%v&W/&g%V&Gmv &Y%g&Og &W[&z%c&W][}C%X&W][&R%S&W]-&z%n&W->&D~
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       1752
+MDeaths      5
+IllegalPK    0
+AttrPerm     20 15 19 16 15 16 19
+AttrMod      0 0 0 0 0 0 0
+Condition    0 95 95 10
+Site         174.77.65.26
+Spell        95 'aqua breath'
+Spell        95 'astral walk'
+Spell        95 'barbed arrow'
+Spell        95 'blade shield'
+Spell        95 'bottle'
+Spell        95 'cause serious'
+Spell        95 'charm person'
+Spell        95 'continual light'
+Spell        95 'control weather'
+Spell        95 'create spring'
+Spell        95 'cure light'
+Spell        95 'cure serious'
+Spell        95 'detect hidden'
+Spell        95 'detect poison'
+Spell        95 'detect traps'
+Spell        95 'dispel magic'
+Spell        95 'dragon wit'
+Spell        95 'elven beauty'
+Spell        95 'extradimensional portal'
+Spell        95 'eyes of the hunter'
+Spell        95 'float'
+Spell        95 'fly'
+Spell        95 'fortify'
+Spell        95 'helical flow'
+Spell        95 'identify'
+Spell        95 'improved invis'
+Spell        95 'infravision'
+Spell        95 'kindred strength'
+Spell        95 'locate object'
+Spell        95 'mindfog'
+Spell        95 'natures companion'
+Spell        95 'numbing arrow'
+Spell        95 'plant pass'
+Spell        95 'poison'
+Spell        95 'quickening'
+Spell        95 'refresh'
+Spell        95 'sagacity'
+Spell        95 'slink'
+Spell        95 'spiral blast'
+Spell        95 'stone skin'
+Spell        95 'teleport'
+Spell        95 'tongues'
+Spell        95 'trollish vigor'
+Spell        95 'venom arrow'
+Spell        95 'ventriloquate'
+Spell        95 'word of recall'
+Skill        95 'aggressive style'
+Skill        95 'aid'
+Skill        95 'berserk style'
+Skill        95 'broach'
+Skill        95 'camouflage'
+Skill        95 'catnap'
+Skill        95 'climb'
+Skill        95 'defensive style'
+Skill        95 'dig'
+Skill        95 'disarm'
+Skill        95 'disengage'
+Skill        114 'dodge'
+Skill        95 'dominate'
+Skill        95 'dual wield'
+Skill        95 'elbow'
+Skill        95 'engage'
+Skill        95 'enhanced hit'
+Skill        95 'evasive style'
+Skill        95 'fifth attack'
+Skill        95 'fourth attack'
+Skill        95 'grasp suspiria'
+Skill        95 'grip'
+Skill        95 'hide'
+Skill        95 'hitall'
+Skill        95 'insult'
+Skill        95 'jab'
+Skill        95 'juggle'
+Skill        95 'karate'
+Skill        95 'mistform'
+Skill        95 'mount'
+Skill        95 'occulutus visum'
+Skill        95 'overrun'
+Skill        100 'parry'
+Skill        95 'peek'
+Skill        95 'prance'
+Skill        95 'punch'
+Skill        95 'rescue'
+Skill        95 'roundhouse'
+Skill        95 'scan'
+Skill        95 'search'
+Skill        95 'second attack'
+Skill        95 'sharpen'
+Skill        95 'shriek'
+Skill        95 'sneak'
+Skill        95 'snipe'
+Skill        95 'stalk'
+Skill        95 'standard style'
+Skill        95 'steal'
+Skill        95 'strike'
+Skill        95 'tend'
+Skill        95 'third attack'
+Skill        95 'track'
+Skill        95 'tumble'
+Skill        95 'uppercut'
+Skill        95 'vomica pravus'
+Weapon       95 'axes'
+Weapon       95 'bludgeons'
+Weapon       95 'exotic arms'
+Weapon       95 'flexible arms'
+Weapon       95 'long blades'
+Weapon       95 'missile weapons'
+Weapon       95 'polearms'
+Weapon       95 'pugilism'
+Weapon       95 'short blades'
+Weapon       95 'talonous arms'
+Tongue       100 'common'
+Tongue       100 'ghoulish'
+AffectData   'shield' 1528 -30  17 0
+AffectData   'armor' 1528 -30  17 0
+AffectData   'bless' 1528 -13  24 0
+AffectData   'bless' 1528  13  18 0
+AffectData   'fly' 1528   0  26 524288
+AffectData   'aqua breath' 1528   0  26 -2147483648
+AffectData   'improved invis' 748   0   0 64
+AffectData   'resilience' 1528 512  27 0
+AffectData   'valiance' 1528 2097152  27 0
+Killed       14028 1
+Killed       10603 1
+Killed       10938 1
+Killed       10934 1
+Killed       1206 1
+Killed       21081 1
+Killed       1609 1
+Killed       1608 1
+Killed       1618 1
+Killed       1601 1
+Killed       1602 2
+Killed       1603 2
+Killed       1611 1
+Killed       1605 2
+Killed       1604 1
+Killed       1607 1
+Killed       16245 1
+Killed       16250 1
+Killed       16248 1
+Killed       16249 1
+Killed       16244 1
+Killed       16247 1
+Killed       16300 2
+Killed       10814 1
+Killed       10812 1
+MaxColors    98
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 10 14 13 15 15 15 9 11 9 31 25 10 6 6 10 6 11 9 10 1 15 13 12 7 10 13 12 10 10 12 10 3 12 9 15 11 3 14 2 5 15 9 8 2 9 12 9 2 10 15 7 7 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 9 15 10 0 
+End
+
+#OBJECT
+Name         a seared elven mithril vest~
+ShortDescr   a seared elven mithril vest~
+Description  A seared elven mithril vest lies here.~
+ActionDesc   ~
+Ovnum         29507
+ExtraFlags   320&1025
+WearLoc      7
+Weight       7
+Timer        -1
+Values       18 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 5 31 0
+Affect       -1 -1 4 18 0
+Affect       -1 -1 20 12 0
+End
+
+#OBJECT
+Name         a pin of the mountains~
+ShortDescr   a pin of the mountains~
+Description  A pin of the mountains lies here.~
+ActionDesc   ~
+Ovnum         29535
+ExtraFlags   320&1025
+WearLoc      25
+Timer        -1
+Cost         4500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 18 0
+Affect       -1 -1 5 13 0
+Affect       -1 -1 4 19 0
+Affect       -1 -1 4 19 0
+Affect       -1 -1 30 13 0
+End
+
+#OBJECT
+Name         a banded amber light~
+ShortDescr   a banded amber light~
+Description  A banded amber light lies here.~
+ActionDesc   ~
+Ovnum         29518
+ExtraFlags   321&1025
+WearLoc      0
+Timer        -1
+Cost         2600
+Values       0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 22 0
+Affect       -1 -1 3 2 0
+Affect       -1 -1 15 12 0
+Affect       -1 -1 5 19 0
+End
+
+#OBJECT
+Name         an enruned leather cap~
+ShortDescr   an enruned leather cap~
+Description  An enruned leather cap lies here.~
+ActionDesc   ~
+Ovnum         29567
+ExtraFlags   320&1025
+WearLoc      1
+Weight       3
+Timer        -1
+Cost         1750
+Values       18 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 25 69 33554432
+Affect       -1 -1 6 1 0
+End
+
+#OBJECT
+Name         a dirty elven mithril cape~
+ShortDescr   a dirty elven mithril cape~
+Description  A dirty elven mithril cape lies here.~
+ActionDesc   ~
+Ovnum         29572
+ExtraFlags   320&1025
+WearLoc      5
+Weight       3
+Cost         4500
+Values       11 4 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 20 13 0
+Affect       -1 -1 40 13 0
+Affect       -1 -1 10 13 0
+Affect       -1 -1 39 69 0&128
+Affect       -1 -1 3 4 0
+End
+
+#OBJECT
+Name         shopping bag~
+ShortDescr   a bag~
+Description  A shopping bag lies discarded on the ground nearby.~
+ActionDesc   ~
+Ovnum         25
+ExtraFlags   1073741824
+Timer        -1
+Values       102 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         a stately moonstone hoop~
+ShortDescr   a stately moonstone hoop~
+Description  A stately moonstone hoop lies here.~
+ActionDesc   ~
+Ovnum         29524
+ExtraFlags   320&1025
+Timer        -1
+Cost         5500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 2 25 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 4 31 0
+End
+
+#OBJECT
+Nest         1
+Name         a buffed sapphire locket~
+ShortDescr   a buffed sapphire locket~
+Description  A buffed sapphire locket lies here.~
+ActionDesc   ~
+Ovnum         29514
+ExtraFlags   320&1025
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 22 0
+Affect       -1 -1 45 12 0
+Affect       -1 -1 3 5 0
+Affect       -1 -1 3 19 0
+End
+
+#OBJECT
+Nest         1
+Name         a bloody demon hide pair of gloves~
+ShortDescr   a bloody demon hide pair of gloves~
+Description  A bloody demon hide pair of gloves lies here.~
+ActionDesc   ~
+Ovnum         29579
+ExtraFlags   320&1025
+Weight       3
+Timer        -1
+Cost         5500
+Values       11 19 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 3 31 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 4 5 0
+Affect       -1 -1 50 14 0
+Affect       -1 -1 4 19 0
+End
+
+#OBJECT
+Nest         1
+Name         a ceremonial cuirbouilli pair of gloves~
+ShortDescr   a ceremonial cuirbouilli pair of gloves~
+Description  A ceremonial cuirbouilli pair of gloves lies here.~
+ActionDesc   ~
+Ovnum         29578
+ExtraFlags   320&1025
+Weight       3
+Timer        -1
+Cost         2500
+Values       6 17 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 26 69 67108864
+End
+
+#OBJECT
+Nest         1
+Name         a strong coral siege cap~
+ShortDescr   a strong coral siege cap~
+Description  A strong coral siege cap lies here.~
+ActionDesc   ~
+Ovnum         29594
+ExtraFlags   320&1025
+Weight       3
+Timer        -1
+Cost         4500
+Values       6 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 19 0
+Affect       -1 -1 -2 23 0
+Affect       -1 -1 -2 22 0
+Affect       -1 -1 3 25 0
+Affect       -1 -1 2 18 0
+End
+
+#OBJECT
+Nest         1
+Name         a symbol of Famine~
+ShortDescr   a symbol of Famine~
+Description  A symbol of Famine lies here.~
+ActionDesc   ~
+Ovnum         29538
+ExtraFlags   320&1025
+Timer        -1
+Cost         4500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 2 2 0
+Affect       -1 -1 -2 23 0
+Affect       -1 -1 5 19 0
+Affect       -1 -1 3 31 0
+End
+
+#OBJECT
+Nest         1
+Name         an ugly moonstone bracelet~
+ShortDescr   an ugly moonstone bracelet~
+Description  An ugly moonstone bracelet lies here.~
+ActionDesc   ~
+Ovnum         29528
+ExtraFlags   320&1025
+Timer        -1
+Cost         4500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 1 19 0
+Affect       -1 -1 40 69 0&256
+Affect       -1 -1 4 3 0
+Affect       -1 -1 -3 20 0
+Affect       -1 -1 3 3 0
+End
+
+#OBJECT
+Name         a seared hardened leather cloak~
+ShortDescr   a seared hardened leather cloak~
+Description  A seared hardened leather cloak lies here.~
+ActionDesc   ~
+Ovnum         29580
+ExtraFlags   320&1025
+WearLoc      14
+Weight       3
+Timer        -1
+Values       19 19 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -5 20 0
+Affect       -1 -1 2 5 0
+Affect       -1 -1 25 69 33554432
+Affect       -1 -1 3 25 0
+Affect       -1 -1 5 2 0
+End
+
+#OBJECT
+Name         an enruned reinforced leather surcoat~
+ShortDescr   an enruned reinforced leather surcoat~
+Description  An enruned reinforced leather surcoat lies here.~
+ActionDesc   ~
+Ovnum         29583
+ExtraFlags   320&1025
+WearLoc      15
+Weight       3
+Timer        -1
+Cost         2500
+Values       18 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -2 24 0
+Affect       -1 -1 2 79 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a shaman's elven mithril set of leggings~
+ShortDescr   a shaman's elven mithril set of leggings~
+Description  A shaman's elven mithril set of leggings lies here.~
+ActionDesc   ~
+Ovnum         29587
+ExtraFlags   1344&1025
+WearLoc      17
+Weight       3
+Timer        -1
+Cost         4500
+Values       19 19 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 31 0
+Affect       -1 -1 1 19 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 5 31 0
+Affect       -1 -1 4 25 0
+End
+
+#OBJECT
+Name         a dirty pyrite set of rims~
+ShortDescr   a dirty pyrite set of rims~
+Description  A dirty pyrite set of rims lies here.~
+ActionDesc   ~
+Ovnum         29533
+ExtraFlags   320&1025
+WearLoc      2
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 2 31 0
+Affect       -1 -1 2 2 0
+Affect       -1 -1 -2 20 0
+Affect       -1 -1 28 69 268435456
+End
+
+#OBJECT
+Name         a battle-worn sillimanite earring~
+ShortDescr   a battle-worn sillimanite earring~
+Description  A battle-worn sillimanite earring lies here.~
+ActionDesc   ~
+Ovnum         29523
+ExtraFlags   320&1025
+WearLoc      3
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 22 69 4194304
+Affect       -1 -1 -4 23 0
+Affect       -1 -1 3 4 0
+Affect       -1 -1 1 3 0
+End
+
+#OBJECT
+Name         a seared elven mithril belt~
+ShortDescr   a seared elven mithril belt~
+Description  A seared elven mithril belt lies here.~
+ActionDesc   ~
+Ovnum         29584
+ExtraFlags   320&1025
+WearLoc      16
+Weight       2
+Timer        -1
+Cost         3500
+Values       17 17 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 1 31 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 -2 22 0
+Affect       -1 -1 3 25 0
+End
+
+#OBJECT
+Name         a rugged white gold halo~
+ShortDescr   a rugged white gold halo~
+Description  A rugged white gold halo lies here.~
+ActionDesc   ~
+Ovnum         29509
+ExtraFlags   320&1025
+WearLoc      12
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 35 14 0
+Affect       -1 -1 1 4 0
+Affect       -1 -1 35 14 0
+Affect       -1 -1 3 79 0
+End
+
+#OBJECT
+Name         a strong elfweave set of arm wraps~
+ShortDescr   a strong elfweave set of arm wraps~
+Description  A strong elfweave set of arm wraps lies here.~
+ActionDesc   ~
+Ovnum         29600
+ExtraFlags   320&1025
+WearLoc      8
+Timer        -1
+Values       18 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 25 69 33554432
+Affect       -1 -1 4 18 0
+End
+
+#OBJECT
+Name         a reptilian tanzanite wristlet~
+ShortDescr   a reptilian tanzanite wristlet~
+Description  A reptilian tanzanite wristlet lies here.~
+ActionDesc   ~
+Ovnum         29529
+ExtraFlags   320&1025
+WearLoc      9
+Timer        -1
+Cost         5500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 2 31 0
+Affect       -1 -1 25 12 0
+Affect       -1 -1 40 12 0
+Affect       -1 -1 4 4 0
+Affect       -1 -1 35 69 0&8
+End
+
+#OBJECT
+Name         extradimensional portal~
+ShortDescr   an extradimensional portal~
+Description  An strange looking black mass hovers here.~
+ActionDesc   ~
+Ovnum         63
+Values       125 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component mithril cylinder~
+ShortDescr   a mithril cylinder~
+Description  A small mithril cylinder.~
+ActionDesc   ~
+Ovnum         21461
+ExtraFlags   536870912&1024
+Values       4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        3
+Name         component demon horn~
+ShortDescr   a demon horn~
+Description  A small demon horn.~
+ActionDesc   ~
+Ovnum         21463
+ExtraFlags   536870928&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component silver orb~
+ShortDescr   a silver orb~
+Description  A small silver orb.~
+ActionDesc   ~
+Ovnum         21456
+ExtraFlags   536870912&1024
+Values       5 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component dragon tooth~
+ShortDescr   a dragon tooth~
+Description  A small dragon tooth.~
+ActionDesc   ~
+Ovnum         21462
+ExtraFlags   536870912&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component gold flakes~
+ShortDescr   some gold flakes~
+Description  A small pile of gold flakes.~
+ActionDesc   ~
+Ovnum         21453
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        3
+Name         component dragon tooth~
+ShortDescr   a dragon tooth~
+Description  A small dragon tooth.~
+ActionDesc   ~
+Ovnum         21462
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component gold flakes~
+ShortDescr   some gold flakes~
+Description  A small pile of gold flakes.~
+ActionDesc   ~
+Ovnum         21453
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component silver orb~
+ShortDescr   a silver orb~
+Description  A small silver orb.~
+ActionDesc   ~
+Ovnum         21456
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component iron shavings~
+ShortDescr   some iron shavings~
+Description  A small pile of iron shavings.~
+ActionDesc   ~
+Ovnum         21451
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component oak leaves~
+ShortDescr   some oak leaves~
+Description  A small pile of oak leaves.~
+ActionDesc   ~
+Ovnum         21457
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component iron shavings~
+ShortDescr   some iron shavings~
+Description  A small pile of iron shavings.~
+ActionDesc   ~
+Ovnum         21451
+ExtraFlags   536870912&1024
+Values       5 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component rose essence~
+ShortDescr   some rose essence~
+Description  A small vial of rose essence.~
+ActionDesc   ~
+Ovnum         21458
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component emerald shards~
+ShortDescr   some emerald shards~
+Description  A small pile of emerald shards~
+ActionDesc   ~
+Ovnum         21460
+ExtraFlags   536870912&1024
+Values       4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component gold flakes~
+ShortDescr   some gold flakes~
+Description  A small pile of gold flakes.~
+ActionDesc   ~
+Ovnum         21453
+ExtraFlags   536870912&1024
+Values       5 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component demon horn~
+ShortDescr   a demon horn~
+Description  A small demon horn.~
+ActionDesc   ~
+Ovnum         21463
+ExtraFlags   536870928&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component oak leaves~
+ShortDescr   some oak leaves~
+Description  A small pile of oak leaves.~
+ActionDesc   ~
+Ovnum         21457
+ExtraFlags   536870912&1024
+Values       4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component steel cube~
+ShortDescr   a steel cube~
+Description  A small steel cube.~
+ActionDesc   ~
+Ovnum         21455
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component rose essence~
+ShortDescr   some rose essence~
+Description  A small vial of rose essence.~
+ActionDesc   ~
+Ovnum         21458
+ExtraFlags   536870912&1024
+Values       4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component angel feather~
+ShortDescr   an angel feather~
+Description  A small angel feather.~
+ActionDesc   ~
+Ovnum         21464
+ExtraFlags   536870912&1026
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component pine sap~
+ShortDescr   some pine sap~
+Description  A small vial of pine sap.~
+ActionDesc   ~
+Ovnum         21450
+ExtraFlags   536870912&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component steel cube~
+ShortDescr   a steel cube~
+Description  A small steel cube.~
+ActionDesc   ~
+Ovnum         21455
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component emerald shards~
+ShortDescr   some emerald shards~
+Description  A small pile of emerald shards~
+ActionDesc   ~
+Ovnum         21460
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component mithril cylinder~
+ShortDescr   a mithril cylinder~
+Description  A small mithril cylinder.~
+ActionDesc   ~
+Ovnum         21461
+ExtraFlags   536870912&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component rose essence~
+ShortDescr   some rose essence~
+Description  A small vial of rose essence.~
+ActionDesc   ~
+Ovnum         21458
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         component ruby powder~
+ShortDescr   some ruby powder~
+Description  A small pile of ruby powder.~
+ActionDesc   ~
+Ovnum         21454
+ExtraFlags   536870912&1024
+Values       5 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Name         component mithril cylinder~
+ShortDescr   a mithril cylinder~
+Description  A small mithril cylinder.~
+ActionDesc   ~
+Ovnum         21461
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         a dim white gold bangle~
+ShortDescr   a dim white gold bangle~
+Description  A dim white gold bangle lies here.~
+ActionDesc   ~
+Ovnum         29530
+ExtraFlags   320&1025
+WearLoc      10
+Timer        -1
+Cost         2500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 26 69 67108864
+Affect       -1 -1 -2 22 0
+Affect       -1 -1 4 4 0
+End
+
+#OBJECT
+Name         a heavy mystical pair of gloves~
+ShortDescr   a heavy mystical pair of gloves~
+Description  A heavy mystical pair of gloves lies here.~
+ActionDesc   ~
+Ovnum         29579
+ExtraFlags   320&1025
+WearLoc      11
+Weight       3
+Timer        -1
+Cost         5500
+Values       19 19 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 40 69 0&256
+Affect       -1 -1 30 12 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 2 1 0
+End
+
+#OBJECT
+Name         bag swag~
+ShortDescr   a swag bag~
+Description  A small leather bag for carrying loot is here.~
+ActionDesc   ~
+Ovnum         21034
+Timer        -1
+Cost         0
+Values       250 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        10
+Name         mushroom magic~
+ShortDescr   a magic mushroom~
+Description  A delicious magic mushroom is here.~
+ActionDesc   ~
+Ovnum         26
+Timer        -1
+Values       20 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        8
+Name         magic bread load~
+ShortDescr   a magic loaf of bread~
+Description  A large magical loaf of bread!~
+ActionDesc   ~
+Ovnum         28
+Timer        -1
+Values       20 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         a strong light leather mask~
+ShortDescr   a strong light leather mask~
+Description  A strong light leather mask lies here.~
+ActionDesc   ~
+Ovnum         29570
+ExtraFlags   320&1025
+Weight       3
+Timer        -1
+Cost         2500
+Values       6 18 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 45 12 0
+Affect       -1 -1 -6 23 0
+Affect       -1 -1 2 18 0
+End
+
+#OBJECT
+Nest         1
+Name         a burnt cloth surcoat~
+ShortDescr   a burnt cloth surcoat~
+Description  A burnt cloth surcoat lies here.~
+ActionDesc   ~
+Ovnum         29583
+ExtraFlags   320&1025
+Weight       3
+Cost         1750
+Values       2 10 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 31 0
+Affect       -1 -1 7 69 128
+End
+
+#OBJECT
+Nest         1
+Count        15
+Name         magic roast~
+ShortDescr   a magic roast~
+Description  A steaming magic roast is here!~
+ActionDesc   ~
+Ovnum         27
+Timer        -1
+Values       20 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Count        11
+Name         magic chicken leg~
+ShortDescr   a magic chicken leg~
+Description  A large magic chicken leg sits here!~
+ActionDesc   ~
+Ovnum         29
+Timer        -1
+Values       20 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         a pin of Death~
+ShortDescr   a pin of Death~
+Description  A pin of Death lies here.~
+ActionDesc   ~
+Ovnum         29535
+ExtraFlags   320&1025
+WearLoc      26
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 10 12 0
+Affect       -1 -1 6 5 0
+Affect       -1 -1 6 18 0
+End
+
+#OBJECT
+Name         a worn tigerfang crystal ankle bracelet~
+ShortDescr   a worn tigerfang crystal ankle bracelet~
+Description  A worn tigerfang crystal ankle bracelet lies here.~
+ActionDesc   ~
+Ovnum         29527
+ExtraFlags   320&1025
+WearLoc      18
+Timer        -1
+Cost         3500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 30 12 0
+Affect       -1 -1 7 69 128
+Affect       -1 -1 2 3 0
+Affect       -1 -1 20 12 0
+End
+
+#OBJECT
+Name         a champion dragonfire opal anklet~
+ShortDescr   a champion dragonfire opal anklet~
+Description  A champion dragonfire opal anklet lies here.~
+ActionDesc   ~
+Ovnum         29526
+ExtraFlags   832&1025
+WearLoc      19
+Timer        -1
+Cost         4500
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 2 1 0
+Affect       -1 -1 -4 22 0
+Affect       -1 -1 10 12 0
+Affect       -1 -1 50 13 0
+Affect       -1 -1 -4 24 0
+End
+
+#OBJECT
+Name         a plain moonstone halo~
+ShortDescr   a plain moonstone halo~
+Description  A plain moonstone halo lies here.~
+ActionDesc   ~
+Ovnum         29509
+ExtraFlags   1856&1281
+WearLoc      13
+Cost         3500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 79 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 6 1 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a trusty ethereal pair of shoes~
+ShortDescr   a trusty ethereal pair of shoes~
+Description  A trusty ethereal pair of shoes lies here.~
+ActionDesc   ~
+Ovnum         29590
+ExtraFlags   320&1025
+WearLoc      20
+Weight       3
+Cost         4500
+Values       14 14 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -2 23 0
+Affect       -1 -1 4 31 0
+Affect       -1 -1 2 31 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 25 13 0
+End
+
+#OBJECT
+Name         backpack back pack~
+ShortDescr   a leather backpack~
+Description  A leather backpack sits here.~
+ActionDesc   ~
+Ovnum         21196
+ExtraFlags   128&1024
+Timer        -1
+Values       80 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         a smoking boiled leather mantle~
+ShortDescr   a smoking boiled leather mantle~
+Description  A smoking boiled leather mantle lies here.~
+ActionDesc   ~
+Ovnum         29573
+ExtraFlags   320&1025
+WearLoc      6
+Weight       3
+Cost         4500
+Values       12 12 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 2 19 0
+Affect       -1 -1 -2 20 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 2 69 4
+End
+
+#OBJECT
+Name         sword aeris~
+ShortDescr   (&WShining&D) the Sword of Aeris~
+Description  A gleaming longsword, covered with Ghoulish runes, sits here.~
+ActionDesc   ~
+Ovnum         29414
+WearLoc      21
+Values       12 5 25 3 0 1 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         component mithril cylinder~
+ShortDescr   a mithril cylinder~
+Description  A small mithril cylinder.~
+ActionDesc   ~
+Ovnum         21461
+ExtraFlags   536870912&1024
+Values       3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         component oak leaves~
+ShortDescr   some oak leaves~
+Description  A small pile of oak leaves.~
+ActionDesc   ~
+Ovnum         21457
+ExtraFlags   536870912&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         component emerald shards~
+ShortDescr   some emerald shards~
+Description  A small pile of emerald shards~
+ActionDesc   ~
+Ovnum         21460
+ExtraFlags   536870912&1024
+Values       1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         sword aeris~
+ShortDescr   (&WShining&D) the Sword of Aeris~
+Description  A gleaming longsword, covered with Ghoulish runes, sits here.~
+ActionDesc   ~
+Ovnum         29414
+WearLoc      22
+Values       12 5 25 3 0 1 0 0 0 0 0 0 0 0 0
+End
+
+#END

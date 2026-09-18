@@ -1,0 +1,1445 @@
+#AREA Chicken Shack~
+
+#VERSION 1
+
+#CLIMATE 2 2 2
+
+#AUTHOR Zarous~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG You hear some chickens clucking.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 282043815
+
+#MOBILES
+#7101
+chicken rooster~
+a rooster~
+A rather tough looking rooster is looking for a fight.
+~
+~
+65 0 -2 C
+4 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 2
+0 0 0 0 0 0 2 2
+#7102
+chicken hen~
+a plump hen~
+A plump hen sits here guarding her nest.
+~
+A plump hen sits here.
+~
+3 0 -1 C
+3 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 2
+0 0 0 0 0 0 3 0
+#7103
+chicken chick~
+a baby chick~
+A little yellow baby chick looks around for some food.
+~
+A little yellow baby chick looks around for some food.
+~
+3 0 1 C
+2 0 0 0d0+0 0d0+0
+1 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+0 0 0 0 0 0 1 0
+#7104
+captain capt'n clucky~
+Capt'n Clucky~
+Captain Clucky is fixing delicious chicken dinners.
+~
+~
+7 128 0 C
+30 0 0 0d0+0 0d0+0
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 4194303 1 3
+0 0 0 0 0 0 0 524291
+#7105
+sandy waitress~
+Sandy the waitress~
+Sandy will take your order if you don't waste too much of her time.
+~
+~
+69 32 0 C
+20 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 3
+0 0 0 0 0 0 0 3
+#7106
+sunni waitress~
+Sunni the waitress~
+Sunni the waitress is in a hurry, so order quick before she runs off.
+~
+~
+65 8 0 C
+22 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 2
+0 0 0 0 0 0 0 3
+#7107
+patron~
+a Chicken Shack patron~
+A patron of the chicken Shack devours his chicken dinner.
+~
+~
+1 0 1000 C
+15 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 2
+0 0 0 0 0 0 0 3
+#7108
+customer~
+a Chicken Shack customer~
+A Chicken Shack customer is focused on his chicken dinner.
+~
+~
+1 0 -1000 C
+12 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 2
+0 0 0 0 0 0 0 3
+#7109
+crab~
+a pretty large crab~
+This crab looks like a rough customer.
+~
+~
+65 0 100 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 256 256 1
+0 0 0 0 0 0 2 3
+#7110
+fox~
+a fox~
+A fox eyes the chickens in the pen.
+~
+~
+3 0 -1000 C
+4 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 3 0 0 512 512 1
+0 0 0 0 0 0 3 3
+#7111
+seagull~
+a seagull~
+A seagull sizes you up to see if you might produce some kind of meal.
+~
+~
+65 0 0 C
+6 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 3 0 0 1 1 1
+0 0 0 0 0 0 1 2
+#7112
+fisherman~
+a patient fisherman~
+This fisherman waits patiently for a nibble on his fishing pole.
+~
+~
+3 0 1000 C
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 2
+0 0 0 0 0 0 0 2
+#7113
+beetle~
+a beetle~
+An ordinary 40 lb. beetle is here, minding its own business.
+~
+~
+65 0 0 C
+3 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 1
+0 0 0 0 0 0 0 0
+#7114
+tern~
+a tern~
+A tern searches the beach for insects.
+~
+~
+65 0 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+0 0 0 0 0 0 1 0
+#7115
+plucking machine~
+the plucking machine~
+Captain Clucky's plucking machine isn't particular what it is given to pluck
+~
+~
+35 4194304&256 0 C
+50 0 0 0d0+0 0d0+0
+86 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 2 0 0 8192 8192 2
+0 0 0 0 2104579 12 1008 3
+#0
+
+#OBJECTS
+#7101
+wire cutters~
+a pair of wire cutters~
+A pair of wire cutters look to be in excellent condition.~
+~
+18 0 1048577 0
+6414 0 0 0
+1 1 0
+#7102
+coffee tin~
+an old coffee tin~
+An old coffee tin sits here inconspicuously.~
+~
+15 32 0 0
+50 0 0 0
+5 0 0
+#7103
+captains treasure~
+the captain's treasure~
+Now THIS is the treasure you would expect Clucky to have.~
+~
+20 0 1 0
+150 9 0 0
+1 150 0
+#7104
+Chicken pot pie~
+a tasty chicken pot pie~
+This tasty chicken pot pie is tempting your taste buds.~
+~
+19 0 16385 0
+10 12 0 0
+2 30 0
+#7105
+fried chicken~
+a plate of delicious fried chicken~
+A plate of fried chicken smells delicious.~
+~
+19 0 16385 0
+10 12 0 0
+2 30 0
+#7106
+chicken nuggies~
+a small bag of chicken nuggies~
+This small bag is filled to the brim with piping hot chicken nuggies.~
+~
+19 0 16385 0
+6 12 0 0
+1 18 0
+#7107
+fishing pole~
+a fishing pole~
+An old fishing pole has probably caught schools of fish.~
+~
+13 0 16385 0
+0 0 0 0
+3 1 0
+#0
+
+#ROOMS
+#7101
+A Short Dirt Path~
+You're on a short dirt path that pretty much ends here, but you can
+go west toward a very run down shack and a pier jutting into a
+body of water.
+~
+0 4 1 0 0 0
+D1
+Exit description~
+~
+0 0 281 0
+D3
+~
+~
+0 -1 7102 0
+E
+window~
+~
+E
+dirt~
+Pretty regular looking dirt.
+~
+S
+#7102
+A Short Dirt Path~
+To the north is Capt'n Cluckys Chicken Shack. The building looks
+as though it would be much more comfortable if it would just fall
+over and give up trying to stand. There is a little window on this
+particular part of the building but it looks as though it has never
+ever been cleaned so you cant see inside at all. The entrance
+appears to be down the road a bit more west, that is if you want to
+risk going inside this deathtrap.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7101 0
+D3
+~
+~
+0 -1 7103 0
+E
+window~
+The window is dirty and no amount of looking is going to make it so
+you can see what is inside.
+~
+S
+#7103
+A Short Dirt Path Before A Shack~
+You can tell that this is Capt'n Cluckys Chicken Shack because there
+is a sign over the door that says just that.. well, Capt'n Clucky
+spelled Chicken "Chiggin" but thats confusing and the sound of all
+the clucking coming from the other side of this shack makes it
+clear that a Chiggin is a Chicken. The Shack is in a terrible state,
+and what once passed for a door is a plank that is actually behind
+you, across the dirt path, as you stand in awe of this woefully
+dilapidated abode.
+~
+0 4 1 0 0 0
+D0
+You can clearly see someone enjoying some chicken inside.
+~
+~
+0 -1 7104 0
+D1
+~
+~
+0 -1 7102 0
+D3
+~
+~
+0 -1 7118 0
+E
+door plank~
+1. The shack is missing a door. 2. this plank would probably cover
+most of the entrance to the shack if it were hung with the ropes
+attached to this plank through the loops in the doorframe of the
+shack. 3. This plank actually Smells of Chicken. Let's go out on a
+limb and say this plank is the door.
+~
+S
+#7104
+Inside The Chicken Shack~
+As your eyes adjust to the light, you see a number of people at
+various tables around the room enjoying various forms of chicken.
+And it appears that the food here is superb! This place is packed
+day and night with people from all over who have travelled her just
+for a taste of the Capt'n's recipe of 12 herbs and spices. Capt'n
+Clucky probably never leaves because he's so busy.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7107 0
+D2
+~
+~
+0 -1 7103 0
+D3
+~
+~
+0 -1 7105 0
+S
+#7105
+Inside The Chicken Shack~
+You maneuver between the table, chairs, and patrons to this corner of
+the room. The ceiling is partially collapsed here so you have to
+watch that you don't hit your head on the beams. On the wall are
+various drawings and scribbles, some kind of horrible machinery.
+You look away quickly to stop thinking about the drawings and try
+to decide what kind of chicken you might like to try.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7106 0
+D1
+~
+~
+0 -1 7104 0
+S
+#7106
+Inside The Chicken Shack~
+This part of the shack looks to be in slightly better condition than
+the rest, probably due to all the seafaring memorabilia which is
+stored here. There's a compass and a logbook, some oars and harpoons,
+even some charts and paintings. Maybe Capt'n Clucky painted them?
+The patrons don't even seem to notice the "decor" they only seem
+interested in the food.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7107 0
+D2
+~
+~
+0 -1 7105 0
+E
+logbook~
+You flip through the logbook and read of visits to faraway place
+a couple of which you have even heard of. The Captain seemed to go
+from place to place.. doing mostly trading, and some fishing if
+there was something particularly interesting to catch. Whomever the
+Captain hired as the Navigator, he also listed cargos and
+crewmembers, This was probably the only book on the whole ship.
+Toward the end of the book you read:
+Capt'n was below decks today and was looking for Giblets his parrot
+while the crew was hoisting cargo out of the hold when the line
+slipped and the Capt'n took a nasty blow to the head. A full load
+o' sacks of grain knocked him down, when he was uncovered. he ordered
+"All 9 yards to the north shore!" which is silly since we only ever
+had the 3 sails. Anyway. It's evening now and we abandoned the
+grain delivery and are headed north with all speed.
+~
+E
+compass~
+It appears to still work.
+~
+S
+#7107
+Inside The Chicken Shack~
+Being this close to the kitchen you can really smell the delicious
+chicken cooking. Theres a heavy door with only a small hole in which
+orders are placed and chicken is served. I guess Capt'n Clucky isn't
+taking any chances with people snooping around his kitchen. Someone
+might steal his recipe! You try to catch a glimpse inside the
+kitchen, but are jostled and bumped out of the way by the servers
+placing orders and picking up plates of hot food.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 0 7108 0
+D2
+~
+~
+0 -1 7104 0
+D3
+~
+~
+0 -1 7106 0
+S
+#7108
+Captain Clucky's Kitchen~
+Well, you managed to find a way into the kitchen.. but unfortunately
+the plucking machine appears to mistake you for a chicken. Good Luck.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 7109 0
+D3
+~
+~
+0 -1 7107 0
+S
+#7109
+Cluckys Room~
+This is where the Captain sleeps.. if he sleeps. There is a bedroll
+here but it doesn't appear to have been used in months at least..
+maybe a year or two? Dust and cobwebs everywhere. The captain does
+not look to have many possessions at all. For someone with a wildly
+popular business you would think he would have some money stashed
+somewhere around here.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7108 0
+S
+#7110
+The Chicken Pen~
+CHICKENS EVERYWHERE!!!
+You've never seen so many chickens in your whole life, you trudge
+through them as if you were wading in the surf. The chickens are
+busy eating grain and clucking and doing important chicken stuff.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7156 0
+D3
+~
+~
+3 -1 7148 0
+S
+#7111
+The Chicken Coop~
+You thought there were a lot of chickens outside.. till you came in
+here! And the smell! You consider cutting off your nose for a moment.
+Eyes watering from the stench, you really cant see much. There are
+so many chickens in here, even if there were hill giants in here
+you would probably miss them. If you wish to not lose your sense of
+smell.. Get Out!
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7112 0
+S
+#7112
+The Chicken Pen~
+CHICKENS EVERYWHERE!!!
+You've never seen so many chickens in your whole life, you trudge
+through them as if you were wading in the surf. The chickens seem
+none too happy to see someone else here.. adding to their crowded
+conditions. There appears to be a huge chicken coop to the west
+the multiple ramps leading inside are veritable poultry highways.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7113 0
+D2
+~
+~
+0 -1 7156 0
+D3
+~
+~
+0 -1 7111 0
+S
+#7113
+The Chicken Pen~
+CHICKENS EVERYWHERE!!!
+You've never seen so many chickens in your whole life, you trudge
+through them as if you were wading in the surf. If this pen wasn't
+as incredibly strong as it is.. what with the barbed wire and
+metal bar reinforcement, the chickens might actually overpower this
+jail and break out of here.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 7112 0
+D3
+~
+~
+0 -1 7114 0
+S
+#7114
+The Chicken Pen~
+CHICKENS EVERYWHERE!!!
+You've never seen so many chickens in your whole life, you trudge
+through them as if you were wading in the surf. It's as though you've
+discovered the source of all the chickens in the whole world, right
+here in this gigantic pen. Hens and roosters and chicks and eggs
+everywhere. Grain dispensing silos which you can visibly see being
+consumed by this ravenous throng. Nests in every stage of
+construction. You can't decide if this is chicken heaven.. or hell.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7113 0
+S
+#7115
+Just Outside The Chicken Pen~
+The ravine ends here next to the north fence of Capt'n Cluckys
+pen. There really isn't anywhere to go from here, although this
+part of the path has opened up a bit, the thorny brambles are no
+less thick or menacing. You should probably Go back to the beach
+and relax. All this crawling on all fours to get here has made you
+hot and a cool beverage would really hit the spot.
+~
+0 0 1 0 0 0
+D2
+~
+~
+1063 7101 7114 0
+D3
+~
+~
+0 -1 7116 0
+S
+#7116
+A Thorny Trail~
+The ravine turns and continues here. It's a good thing you have some
+armor on to protect you from the thorns and brambles, they are very
+sharp and numerous. You could hack at them with your weapon if only
+there was a little more room to swing at them.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7115 0
+D2
+~
+~
+0 -1 7117 0
+S
+#7117
+A Thorny Trail~
+You are in a shallow ravine which continues for quite a distance.
+You cannot stand upright here.. crawling on all fours is the only
+way to avoid the sharp and pointy thorns. If someone planted these
+on purpose, it is clear that they wanted noone and no thing to get
+through here.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7116 0
+D3
+~
+~
+0 -1 7150 0
+S
+#7118
+A Short Dirt Path~
+The path slopes down toward the beach, somewhat cutting into the
+side of a cliff which the Chicken shack sits upon north of here.
+You see at large white sandy beach and a pier to the west while the
+dirt path leads up to the shack to the east.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7103 0
+D3
+~
+~
+0 -1 7119 0
+S
+#7119
+A Short Dirt Path~
+The dirt path here is more wooden logs than actual dirt, The logs
+undoubtedly allow cart traffic to and from the pier. The beach opens
+up here and you see sand dunes to the north and south of you.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7142 0
+D1
+~
+~
+0 -1 7118 0
+D2
+~
+~
+0 -1 7131 0
+D3
+~
+~
+0 -1 7120 0
+S
+#7120
+A Wooden Path~
+The southern ocean is beautiful from this vantage. Jetties off to the
+north and south create a small harbor for the pier to the west.
+This pier is quite substantial and could probably berth a very
+large ship in a pinch. There is a ramp to the west which leads to
+the pier, and the wooden path leads east to a shack on the cliff.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7143 0
+D1
+~
+~
+0 -1 7119 0
+D2
+~
+~
+0 -1 7132 0
+D3
+~
+~
+0 -1 7121 0
+S
+#7121
+A Gangplank From Shore To The Pier~
+This gangplank is large enough for 2 carts to pass one another,
+probably for hauling fish, or goods off of a ship. It is pretty
+deserted at the moment though.
+~
+0 516 1 0 0 0
+D1
+~
+~
+0 -1 7120 0
+D3
+~
+~
+0 -1 7122 0
+S
+#7122
+On The Pier~
+This concourse is an intersection of the inner berths and the main
+thoroughfare. This main thoroughfare is high over the water,
+supported by very large timbers. The berths off to each side descend
+to the water and actually float on the surface. South of here,
+you can walk down to berth one, to the north is berth two.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7123 0
+D1
+~
+~
+0 -1 7121 0
+D2
+~
+~
+0 -1 7124 0
+D3
+~
+~
+0 -1 7125 0
+S
+#7123
+On The Pier~
+The water is calm and you only hear small waves lap against this
+floating berth.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 7122 0
+S
+#7124
+On The Pier~
+The water is calm and you only hear small waves lap against this
+floating berth.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7122 0
+S
+#7125
+On The Pier~
+The main thoroughfare here is the only place that anyone seems to
+come, and mostly fisherman. Birds pick at the planks for morsels
+that the fishermen have left behind. A "No Diving" sign is about
+the only other feature in this part of the pier.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7122 0
+D3
+~
+~
+0 -1 7128 0
+S
+#7128
+On The Pier~
+Off to the west and south the Southern Ocean extends off
+beyond the horizon. Mount Olympus far off to the east
+rises majestically out of the sea and high up into the clouds.
+The thoroughfare ends here, Gangplanks lead down on either side,
+berth three to the south, and four to the north.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7129 0
+D1
+~
+~
+0 -1 7125 0
+D2
+~
+~
+0 -1 7130 0
+S
+#7129
+On The Pier~
+The water is calm and you only hear small waves lap against this
+floating berth. There might be something down there under the water
+but it looks kinda murky in this area.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 7128 0
+S
+#7130
+On The Pier~
+Only a small dinghy is tied up here. Probably only used to scrape
+barnacles off the pier. The water is calm and you only hear small
+waves lap against this floating berth.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7128 0
+S
+#7131
+Sand Dunes~
+The deep sand and dunes are difficult to traverse without all the
+junk you brought with you. A large pile of boulders support the cliff
+face to the east.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7119 0
+D3
+~
+~
+0 -1 7132 0
+S
+#7132
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7120 0
+D1
+~
+~
+0 -1 7131 0
+D2
+~
+~
+0 -1 7134 0
+D3
+~
+~
+0 -1 7133 0
+S
+#7133
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7157 0
+D1
+~
+~
+0 -1 7132 0
+D2
+~
+~
+0 -1 7135 0
+S
+#7134
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7132 0
+D2
+~
+~
+0 -1 7136 0
+D3
+~
+~
+0 -1 7135 0
+S
+#7135
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7133 0
+D1
+~
+~
+0 -1 7134 0
+D2
+~
+~
+0 -1 7137 0
+S
+#7136
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7134 0
+D3
+~
+~
+0 -1 7137 0
+S
+#7137
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7135 0
+D1
+~
+~
+0 -1 7136 0
+D2
+~
+~
+0 -1 7138 0
+S
+#7138
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+There is a jetty here, sheltering the pier from the large waves.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7137 0
+D3
+~
+~
+16777216 -1 7139 0
+S
+#7139
+On A Jetty~
+This jetty, built of rather large boulders creates a harbor here
+for the pier. You feel the ocean spray as the waves break against
+these boulders. Small crabs fence one another between the crevasses
+and the perimeter of the jetty is girdled with some particularly
+large mussels.
+~
+0 0 1 0 0 0
+D1
+~
+~
+16777216 -1 7138 0
+D3
+~
+~
+0 -1 7140 0
+S
+#7140
+On A Jetty~
+A bit further out on the jetty the water is deeper and a deeper blue
+color. You look back at the shore and notice that these jetties do a
+superb job of sheltering the pier from the ocean waves. The harbor
+is quite calm and safe in contrast to the waves breaking against
+the outside of the jetty.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7139 0
+D3
+~
+~
+0 -1 7141 0
+S
+#7141
+On A Jetty~
+Out here towards the end of the jetty, you feel quite isolated. Gone;
+are the sounds of the beach, the birds, the waves on the shoreline.;
+All you hear are the rhythmic crash of waves against the jetty which;
+turns northwest from here toward the other jetty. Continuing that;
+direction would be unwise, the waves are just too violent.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7140 0
+S
+#7142
+Sand Dunes~
+The deep sand and dunes are difficult to traverse without all the
+junk you brought with you. A large pile of boulders support the cliff
+face to the east.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7145 0
+D2
+~
+~
+0 -1 7119 0
+D3
+~
+~
+0 -1 7143 0
+S
+#7143
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7146 0
+D1
+~
+~
+0 -1 7142 0
+D2
+~
+~
+0 -1 7120 0
+D3
+~
+~
+0 -1 7144 0
+S
+#7144
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7147 0
+D1
+~
+~
+0 -1 7143 0
+D2
+~
+~
+0 -1 7157 0
+S
+#7145
+Sand Dunes~
+The deep sand and dunes are difficult to traverse without all the
+junk you brought with you. An enormous mound of thorny brambles
+block your passage to the north. A large pile of boulders support
+the cliff face to the east.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 7142 0
+D3
+~
+~
+0 -1 7146 0
+S
+#7146
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7148 0
+D1
+~
+~
+0 -1 7145 0
+D2
+~
+~
+0 -1 7143 0
+D3
+~
+~
+0 -1 7147 0
+S
+#7147
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7149 0
+D1
+~
+~
+0 -1 7146 0
+D2
+~
+~
+0 -1 7144 0
+S
+#7148
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7150 0
+D2
+~
+~
+0 -1 7146 0
+D3
+~
+~
+0 -1 7149 0
+S
+#7149
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+Only the occasional piece of driftwood or stone breaks the surface
+of the surf.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7151 0
+D1
+~
+~
+0 -1 7148 0
+D2
+~
+~
+0 -1 7147 0
+S
+#7150
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+What's to stop you from just building a small hut right here and
+taking a vacation for a couple months.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7117 0
+D2
+~
+~
+0 -1 7148 0
+D3
+~
+~
+0 -1 7151 0
+S
+#7151
+On The Beach~
+The warm sand and cool breeze make this an ideal spot for relaxing.
+There is a jetty here, sheltering the pier from the large waves.
+~
+0 0 1 0 0 0
+D0
+~
+~
+16777216 -1 7152 0
+D1
+~
+~
+0 -1 7150 0
+D2
+~
+~
+0 -1 7149 0
+D3
+~
+~
+0 -1 7153 0
+S
+#7152
+In The Waves~
+Waves wash up and down the beach here, making walking much easier
+on this wet sand. Small sea birds race up and down, following the
+receding waves, checking for morsels stranded up on the shore.
+~
+0 1024 1 0 0 0
+D2
+~
+~
+0 -1 7151 0
+S
+#7153
+On A Jetty~
+This jetty, built of rather large boulders creates a harbor here
+for the pier. You feel the ocean spray as the waves break against
+these boulders. Small crabs fence one another between the crevasses
+and the perimeter of the jetty is girdled with some particularly
+large mussels.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7151 0
+D3
+~
+~
+0 -1 7154 0
+S
+#7154
+On A Jetty~
+A bit further out on the jetty the water is deeper and a deeper blue
+color. You look back at the shore and notice that these jetties do a
+superb job of sheltering the pier from the ocean waves. The harbor
+is quite calm and safe in contrast to the waves breaking against
+the outside of the jetty.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7153 0
+D3
+~
+~
+0 -1 7155 0
+S
+#7155
+On A Jetty~
+Out here towards the end of the jetty, you feel quite isolated. Gone
+are the sounds of the beach, the birds, the waves on the shoreline.
+All you hear are the rhythmic crash of waves against the jetty which
+turns southwest from here toward the other jetty. Continuing that
+direction would be unwise, the waves are just too violent.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 7154 0
+S
+#7156
+The Chicken Pen~
+You've never seen so many chickens in your whole life, you trudge
+through them as if you were wading in the surf. There appears to be
+a small flap on the side of the shack in which some chickens seem to
+reluctantly find relief from the cramped living conditions.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7112 0
+D1
+~
+~
+16777219 -1 7108 0
+D3
+~
+~
+0 -1 7110 0
+S
+#7157
+Under The Pier Ramp~
+Under the ramp leading up the the pier, there is a little shade from
+the hot sun afforded by the ramp and the pier. You stop for a moment
+to watch the waves break on the pier posts as they come ashore.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 7144 0
+D2
+~
+~
+0 -1 7133 0
+E
+ramp~
+(c) 2004 Zarous, Licensed to Drazuk for HoG use.
+~
+S
+#0
+
+#RESETS
+M 1 7112 1 7125  ; Mob: #7112 a patient fisherman => #7125 On The Pier
+G 1 7107 1 ; -- Give:  #7107 a fishing pole
+M 1 7111 2 7128  ; Mob: #7111 a seagull => #7128 On The Pier
+M 1 7111 2 7129  ; Mob: #7111 a seagull => #7129 On The Pier
+M 1 7109 2 7154  ; Mob: #7109 a pretty large crab => #7154 On A Jetty
+M 1 7109 2 7154  ; Mob: #7109 a pretty large crab => #7154 On A Jetty
+M 1 7114 1 7153  ; Mob: #7114 a tern => #7153 On A Jetty
+M 1 7114 2 7150  ; Mob: #7114 a tern => #7150 On The Beach
+M 1 7109 3 7148  ; Mob: #7109 a pretty large crab => #7148 On The Beach
+M 1 7111 2 7149  ; Mob: #7111 a seagull => #7149 In The Waves
+M 1 7111 2 7146  ; Mob: #7111 a seagull => #7146 On The Beach
+M 1 7113 1 7143  ; Mob: #7113 a beetle => #7143 On The Beach
+M 1 7114 2 7132  ; Mob: #7114 a tern => #7132 On The Beach
+M 1 7109 2 7134  ; Mob: #7109 a pretty large crab => #7134 On The Beach
+M 1 7114 2 7135  ; Mob: #7114 a tern => #7135 In The Waves
+M 1 7111 2 7136  ; Mob: #7111 a seagull => #7136 On The Beach
+M 1 7113 2 7138  ; Mob: #7113 a beetle => #7138 On The Beach
+M 1 7109 2 7140  ; Mob: #7109 a pretty large crab => #7140 On A Jetty
+M 1 7107 1 7104  ; Mob: #7107 a Chicken Shack patron => #7104 Inside The Chicken Shack
+M 1 7108 1 7104  ; Mob: #7108 a Chicken Shack customer => #7104 Inside The Chicken Shack
+M 1 7107 2 7105  ; Mob: #7107 a Chicken Shack patron => #7105 Inside The Chicken Shack
+M 1 7105 1 7106  ; Mob: #7105 Sandy the waitress => #7106 Inside The Chicken Shack
+G 1 7105 1 ; -- Give:  #7105 a plate of delicious fried chicken
+G 1 7106 1 ; -- Give:  #7106 a small bag of chicken nuggies
+G 1 7104 1 ; -- Give:  #7104 a tasty chicken pot pie
+M 1 7107 2 7106  ; Mob: #7107 a Chicken Shack patron => #7106 Inside The Chicken Shack
+M 1 7108 2 7106  ; Mob: #7108 a Chicken Shack customer => #7106 Inside The Chicken Shack
+M 1 7106 1 7107  ; Mob: #7106 Sunni the waitress => #7107 Inside The Chicken Shack
+G 1 7105 1 ; -- Give:  #7105 a plate of delicious fried chicken
+G 1 7106 1 ; -- Give:  #7106 a small bag of chicken nuggies
+G 1 7104 1 ; -- Give:  #7104 a tasty chicken pot pie
+M 1 7108 2 7107  ; Mob: #7108 a Chicken Shack customer => #7107 Inside The Chicken Shack
+M 1 7115 1 7108  ; Mob: #7115 the plucking machine => #7108 Captain Clucky's Kitchen
+M 1 7104 1 7108  ; Mob: #7104 Capt'n Clucky => #7108 Captain Clucky's Kitchen
+O 1 7102 1 7109  ; Object: #7102 an old coffee tin => #7109 Cluckys Room
+P 0 7103 0 7102  ; Put: #7103 the captain's treasure => #7102 an old coffee tin
+M 1 7110 1 7115  ; Mob: #7110 a fox => #7115 Just Outside The Chicken Pen
+G 1 7101 1 ; -- Give:  #7101 a pair of wire cutters
+D 0 7115 2 2  ; Door: #7115 Just Outside The Chicken Pen/south => closed and locked
+M 1 7101 2 7114  ; Mob: #7101 a rooster => #7114 The Chicken Pen
+M 1 7102 2 7114  ; Mob: #7102 a plump hen => #7114 The Chicken Pen
+M 1 7103 2 7114  ; Mob: #7103 a baby chick => #7114 The Chicken Pen
+M 1 7103 2 7114  ; Mob: #7103 a baby chick => #7114 The Chicken Pen
+M 1 7101 2 7113  ; Mob: #7101 a rooster => #7113 The Chicken Pen
+M 1 7102 2 7113  ; Mob: #7102 a plump hen => #7113 The Chicken Pen
+M 1 7103 2 7113  ; Mob: #7103 a baby chick => #7113 The Chicken Pen
+M 1 7103 2 7113  ; Mob: #7103 a baby chick => #7113 The Chicken Pen
+M 1 7101 2 7112  ; Mob: #7101 a rooster => #7112 The Chicken Pen
+M 1 7102 2 7112  ; Mob: #7102 a plump hen => #7112 The Chicken Pen
+M 1 7103 2 7112  ; Mob: #7103 a baby chick => #7112 The Chicken Pen
+M 1 7103 2 7112  ; Mob: #7103 a baby chick => #7112 The Chicken Pen
+M 1 7101 2 7111  ; Mob: #7101 a rooster => #7111 The Chicken Coop
+M 1 7102 2 7111  ; Mob: #7102 a plump hen => #7111 The Chicken Coop
+M 1 7103 2 7111  ; Mob: #7103 a baby chick => #7111 The Chicken Coop
+M 1 7103 2 7111  ; Mob: #7103 a baby chick => #7111 The Chicken Coop
+M 1 7101 2 7156  ; Mob: #7101 a rooster => #7156 The Chicken Pen
+M 1 7102 2 7156  ; Mob: #7102 a plump hen => #7156 The Chicken Pen
+M 1 7103 2 7156  ; Mob: #7103 a baby chick => #7156 The Chicken Pen
+M 1 7103 2 7156  ; Mob: #7103 a baby chick => #7156 The Chicken Pen
+D 0 7156 1 1  ; Door: #7156 The Chicken Pen/east => closed
+M 1 7101 2 7110  ; Mob: #7101 a rooster => #7110 The Chicken Pen
+M 1 7102 2 7110  ; Mob: #7102 a plump hen => #7110 The Chicken Pen
+M 1 7103 2 7110  ; Mob: #7103 a baby chick => #7110 The Chicken Pen
+M 1 7103 2 7110  ; Mob: #7103 a baby chick => #7110 The Chicken Pen
+D 0 7110 3 1  ; Door: #7110 The Chicken Pen/west => closed
+S
+
+#SHOPS
+7105 0 0 0 0 0 120 110 6 20 ; Sandy the waitress
+7106 0 0 0 0 0 120 110 6 20 ; Sunni the waitress
+0
+
+#SPECIALS
+M 7101 spec_fido   ; a rooster
+M 7102 spec_janitor   ; a plump hen
+M 7111 spec_janitor   ; a seagull
+S
+
+#$

@@ -1,0 +1,3152 @@
+#AREA   The Ant Colony~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG Dozens of worker ants appear in the tunnels, off to find food.~
+
+#FLAGS
+0 5
+
+#ECONOMY 0 1096439284
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#10801
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10802
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10803
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10804
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10805
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10806
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10807
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10808
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10809
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10810
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10811
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10812
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10813
+busy worker ant~
+a busy worker ant~
+This worker ant is busy gathering food for the colony.
+~
+This ant is one of a million worker ants that slave to make sure the queen has
+food, the eggs hatch, and life continues.  The life of a worker ant is a life
+of service and nothing else.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10814
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10815
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10816
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10817
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10818
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10819
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10820
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10821
+worker ant off duty~
+an off-duty worker ant~
+This worker ant is not on duty and quite glad.
+~
+This ant is on the only thing it has to live for, a break.  It happily munches
+a small piece of blueberry and allows its legs to stop moving.  It ignores you
+completely and continues to eat.  Despite the fact it has no humanoid face,
+you get the sense it is quite relieved.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10822
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10823
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10824
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10825
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10826
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10827
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10828
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10829
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10830
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10831
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10832
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.  This ant appears to be off duty
+and is taking the time to have a quick meal.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10833
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.  This ant appears to be off duty
+and is taking the time to have a quick meal.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10834
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.  This ant appears to be off duty
+and is taking the time to have a quick meal.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10835
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.  This ant appears to be off duty
+and is taking the time to have a quick meal.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10836
+soldier ant large~
+a soldier ant~
+This large ant is patrolling the colony.
+~
+This ant is much larger than the workers or builders.  It keeps a constant
+vigil for any sign of trouble, from the attacks or spies of a rival colony to
+the ever present threat of a spider or termite invasion.  Its carapace looks
+solid and its mandibles look quite strong.  This ant appears to be off duty
+and is taking the time to have a quick meal.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10837
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10838
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10839
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10840
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10841
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10842
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10843
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10844
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10845
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10846
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10847
+builder ant~
+a builder ant~
+This medium sized ant is apparently in charge of maintaining the tunnels.
+~
+This ant is busy packing the dirt of the tunnel walls as best it can.  It
+simply pushes its head against the walls to ensure that the dirt stays hard.
+This builder ant is larger than the other workers but does not seem to compete
+with the soldier ants.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10848
+ant matron~
+an ant matron~
+This ant is in charge of taking care of the young.
+~
+This small worker ant has been given a position of relative comfort.  Its job
+is to take the recently hatched larvae up to its respective caste home until
+it is old enough to begin work.  The matron carries food on the hairs of its
+legs to feed the larvae before taking it gently away.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10849
+ant matron~
+an ant matron~
+This ant is in charge of taking care of the young.
+~
+This small worker ant has been given a position of relative comfort.  Its job
+is to take the recently hatched larvae up to its respective caste home until
+it is old enough to begin work.  The matron carries food on the hairs of its
+legs to feed the larvae before taking it gently away.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10850
+ant matron~
+an ant matron~
+This ant is in charge of taking care of the young.
+~
+This small worker ant has been given a position of relative comfort.  Its job
+is to take the recently hatched larvae up to its respective caste home until
+it is old enough to begin work.  The matron carries food on the hairs of its
+legs to feed the larvae before taking it gently away.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10851
+ant matron~
+an ant matron~
+This ant is in charge of taking care of the young.
+~
+This small worker ant has been given a position of relative comfort.  Its job
+is to take the recently hatched larvae up to its respective caste home until
+it is old enough to begin work.  The matron carries food on the hairs of its
+legs to feed the larvae before taking it gently away.
+~
+16777281 0 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10852
+ant prince~
+an ant prince~
+This male ant greedily devours a bit of royal jelly.
+~
+This ant is one of the only males in the entire colony.  He has but one of two
+choices in his life.  He will either stay inside the colony to be the consort
+of the queen, or he will spread his wings and fly out as far as he can go,
+looking for a suitable female to start a new hive.
+~
+16777281 0 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10853
+ant prince~
+an ant prince~
+This male ant greedily devours a bit of royal jelly.
+~
+This ant is one of the only males in the entire colony.  He has but one of two
+choices in his life.  He will either stay inside the colony to be the consort
+of the queen, or he will spread his wings and fly out as far as he can go,
+looking for a suitable female to start a new hive.
+~
+16777281 0 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10854
+ant prince~
+an ant prince~
+This male ant greedily devours a bit of royal jelly.
+~
+This ant is one of the only males in the entire colony.  He has but one of two
+choices in his life.  He will either stay inside the colony to be the consort
+of the queen, or he will spread his wings and fly out as far as he can go,
+looking for a suitable female to start a new hive.
+~
+16777281 0 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10855
+ant prince~
+an ant prince~
+This male ant greedily devours a bit of royal jelly.
+~
+This ant is one of the only males in the entire colony.  He has but one of two
+choices in his life.  He will either stay inside the colony to be the consort
+of the queen, or he will spread his wings and fly out as far as he can go,
+looking for a suitable female to start a new hive.
+~
+16777281 0 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10856
+ant prince~
+an ant prince~
+This male ant greedily devours a bit of royal jelly.
+~
+This ant is one of the only males in the entire colony.  He has but one of two
+choices in his life.  He will either stay inside the colony to be the consort
+of the queen, or he will spread his wings and fly out as far as he can go,
+looking for a suitable female to start a new hive.
+~
+16777281 0 0 C
+8 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10857
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10858
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10859
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10860
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10861
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10862
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10863
+ant royal guardian~
+a royal guardian ant~
+This brawny ant is in charge of protecting the royalty.
+~
+This ant is twice the size of the soldier ants.  It is clear that it is the
+guardian of the royalty and life blood of the colony.  This ant has only one
+role and that is to kill anything that appears to be a threat to the colony.
+It leaves you by for the time, but it might not be a good idea to cause
+trouble in front of it.
+~
+65 0 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10864
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10865
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10866
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10867
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10868
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10869
+egg carrier ant~
+an egg carrier~
+This ant's sole responsibility is transporting eggs.
+~
+This ant has one clear mission, to transport eggs from the Queen's chamber to
+the egg chambers.  It is a simple job but a vital one.  The eggs are soft and
+easily destroyed, a careless egg carrier does not live long to regret its
+mistake.
+~
+16777281 0 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 1 2
+#10900
+ant queen~
+the ant queen~
+This massive ant moves to protect her eggs!
+~
+This ant is literally ten times the size of all the others, even those these
+ants are bigger than any others you have seen.  The queen fills this entire
+cavern and it is clear she will not be an easy fight.  Her mandibles are sharp
+and  her armor is thick.
+~
+99 0 0 C
+12 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 4100 0 0 0 9 3
+#0
+
+
+#OBJECTS
+#10801
+small blue berry~
+a small blueberry~
+This small berry looks quite delicious.~
+~
+19 0 1
+1 0 0 0
+1 30 0
+#10802
+half eaten grasshopper~
+a half-eaten grasshopper~
+This large grasshopper is half eaten but looks safe enough.~
+~
+19 0 1
+1 0 0 0
+1 30 0
+#10803
+glob royal jelly~
+a glob of royal jelly~
+This odd thick substance looks quite nourishing.~
+~
+19 0 1
+10 0 0 0
+1 30 0
+#10804
+heavy mandibles set~
+a set of heavy mandibles~
+These mandibles are quite scary looking.~
+~
+9 0&1 17
+4 4 0 0
+3 100 0
+A
+19 1
+A
+1 1
+#10805
+sharp hand axe~
+a sharp hand axe~
+This hand axe is dirty but still quite sharp.~
+~
+5 671088640&33 393217
+12 5 2 19
+5 100 0
+A
+18 1
+#10806
+solid oaken staff~
+a solid oaken staff~
+This thin staff is easily handled and sturdy.~
+~
+5 671088640&33 393217
+12 5 2 6
+5 100 0
+A
+3 1
+#10807
+broken monocle~
+a broken monocle~
+This monocle is broken but still might be useful.~
+~
+8 64&1 5
+0 0 0 0
+1 100 0
+A
+4 1
+A
+3 1
+#10808
+torn recall scroll~
+a torn recall scroll~
+This recall scroll was not used fast enough.~
+~
+2 64&1 1048577
+5 -1 -1 -1
+1 15 0
+'word of recall' 'NONE' 'NONE'
+#10809
+pure royal jelly handfull~
+a handfull of pure royal jelly~
+This thick jelly is completely pure.~
+~
+60 64&1 1048577
+10 3 3 0 -1 -1
+1 100 0
+'cure critical' 'cure poison'
+#10900
+heavy carapace~
+a heavy carapace~
+This carapace can sustain quite a bit of damage.~
+~
+9 0&1 4097
+5 5 0 0
+2 100 0
+A
+4 2
+A
+5 2
+#0
+
+
+#ROOMS
+#10801
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D4
+~
+~
+0 0 1032
+D5
+~
+~
+0 0 10802
+S
+#10802
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D2
+~
+~
+0 0 10803
+D4
+~
+~
+0 0 10801
+S
+#10803
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10802
+D1
+~
+~
+0 0 10804
+S
+#10804
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D2
+~
+~
+0 0 10805
+D3
+Exit description~
+~
+0 0 10803
+S
+#10805
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10804
+D2
+~
+~
+0 0 10806
+S
+#10806
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10805
+D1
+~
+~
+0 0 10807
+S
+#10807
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+~
+~
+0 0 10808
+D3
+Exit description~
+~
+0 0 10806
+S
+#10808
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D2
+~
+~
+0 0 10809
+D3
+Exit description~
+~
+0 0 10807
+S
+#10809
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10808
+D2
+~
+~
+0 0 10810
+S
+#10810
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10809
+D1
+~
+~
+0 0 10811
+D3
+~
+~
+0 0 10830
+D5
+~
+~
+0 0 10838
+S
+#10811
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+~
+~
+0 0 10812
+D3
+Exit description~
+~
+0 0 10810
+S
+#10812
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+~
+~
+0 0 10813
+D3
+Exit description~
+~
+0 0 10811
+S
+#10813
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+~
+~
+0 0 10814
+D2
+~
+~
+0 0 10820
+D3
+Exit description~
+~
+0 0 10812
+S
+#10814
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+~
+~
+0 0 10815
+D2
+Exit description~
+~
+0 0 10813
+S
+#10815
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+~
+~
+0 0 10816
+D2
+Exit description~
+~
+0 0 10814
+S
+#10816
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+~
+~
+0 0 10819
+D1
+~
+~
+0 0 10817
+D3
+Exit description~
+~
+0 0 10815
+S
+#10817
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+~
+~
+0 0 10818
+D3
+Exit description~
+~
+0 0 10816
+S
+#10818
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D2
+Exit description~
+~
+0 0 10817
+D3
+~
+~
+0 0 10819
+S
+#10819
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10818
+D2
+Exit description~
+~
+0 0 10816
+S
+#10820
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10813
+D2
+~
+~
+0 0 10821
+S
+#10821
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10820
+D1
+~
+~
+0 0 10822
+D3
+Exit description~
+~
+0 0 10826
+S
+#10822
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D1
+~
+~
+0 0 10823
+D2
+~
+~
+0 0 10825
+D3
+Exit description~
+~
+0 0 10821
+S
+#10823
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D2
+~
+~
+0 0 10824
+D3
+Exit description~
+~
+0 0 10822
+S
+#10824
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10823
+D3
+~
+~
+0 0 10825
+S
+#10825
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10822
+D1
+Exit description~
+~
+0 0 10824
+S
+#10826
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D1
+~
+~
+0 0 10821
+D2
+~
+~
+0 0 10829
+D3
+~
+~
+0 0 10827
+S
+#10827
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10826
+D2
+~
+~
+0 0 10828
+S
+#10828
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10827
+D1
+~
+~
+0 0 10829
+S
+#10829
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10826
+D3
+Exit description~
+~
+0 0 10828
+S
+#10830
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10810
+D3
+~
+~
+0 0 10831
+S
+#10831
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10830
+D3
+~
+~
+0 0 10832
+S
+#10832
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10831
+D2
+~
+~
+0 0 10833
+S
+#10833
+A Dirt Packed Tunnel~
+This tunnel has been made by simply digging out the earth and then
+painstakingly pushing the remaining dirt into the walls to reinforce it. The
+ground is quite stable and it seems as if this tunnel could withstand any
+force.  By the amount of traffic of all the ants going by, it is obvious it is
+meant to be sturdy.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10832
+D2
+~
+~
+0 0 10834
+S
+#10834
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10833
+D1
+~
+~
+0 0 10835
+D2
+~
+~
+0 0 10837
+S
+#10835
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D2
+~
+~
+0 0 10836
+D3
+Exit description~
+~
+0 0 10834
+S
+#10836
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10835
+D3
+~
+~
+0 0 10837
+S
+#10837
+A Large Dirt Alcove~
+This large alcove has been carefully constructed by packing the dirt hard
+against the sides.  Judging by the add designs and tracks on the walls and
+ceiling, it is obvious the builders are quite comfortable working upside down.
+The ground is littered with collections of half-eaten food, carcasses, and
+even rusted equipment.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10834
+D1
+Exit description~
+~
+0 0 10836
+S
+#10838
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D2
+~
+~
+0 0 10839
+D4
+Exit description~
+~
+0 0 10810
+S
+#10839
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10838
+D2
+~
+~
+0 0 10840
+S
+#10840
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10839
+D1
+~
+~
+0 0 10841
+D3
+~
+~
+0 0 10858
+S
+#10841
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D1
+~
+~
+0 0 10842
+D2
+~
+~
+0 0 10847
+D3
+Exit description~
+~
+0 0 10840
+S
+#10842
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+~
+~
+16777216 0 10843
+D3
+Exit description~
+~
+0 0 10841
+S
+#10843
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D0
+~
+~
+0 0 10844
+D1
+~
+~
+0 0 10846
+D2
+Exit description~
+~
+16777216 0 10842
+S
+#10844
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D1
+~
+~
+0 0 10845
+D2
+Exit description~
+~
+0 0 10843
+S
+#10845
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D2
+~
+~
+0 0 10846
+D3
+Exit description~
+~
+0 0 10844
+S
+#10846
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10845
+D3
+Exit description~
+~
+0 0 10843
+S
+#10847
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10841
+D2
+~
+~
+0 0 10848
+S
+#10848
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10847
+D2
+~
+~
+0 0 10849
+S
+#10849
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10848
+D1
+~
+~
+0 0 10850
+D3
+~
+~
+0 0 10855
+D5
+Exit description~
+~
+16777216 0 10865
+S
+#10850
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D1
+~
+~
+16777216 0 10851
+D3
+Exit description~
+~
+0 0 10849
+S
+#10851
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D1
+~
+~
+0 0 10854
+D2
+~
+~
+0 0 10852
+D3
+Exit description~
+~
+16777216 0 10850
+S
+#10852
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10851
+D1
+~
+~
+0 0 10853
+S
+#10853
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D0
+~
+~
+0 0 10854
+D3
+Exit description~
+~
+0 0 10852
+S
+#10854
+The Worker's Haven~
+This large cavern has been fashioned to give the thousand of worker ants a
+place to eat their small meals and rest before they ordered out to do their
+unending service to their liege.  The ground is caked in mucus, stomach acid,
+and even the dried out husks of worker ants that have long since passed away.
+~
+0 9 13
+D2
+Exit description~
+~
+0 0 10853
+D3
+Exit description~
+~
+0 0 10851
+S
+#10855
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10849
+D3
+~
+~
+0 0 10856
+S
+#10856
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10855
+D2
+~
+~
+16777216 0 10857
+S
+#10857
+An Unfinished Tunnel~
+This tunnel has yet to be completed.  The builder ants swarm the area, gnawing
+away at the earth.  The work is slow and it appears that their way is blocked
+by several large roots and stones.  It will take the ants quite some time to
+break through.
+~
+0 9 13
+D0
+Exit description~
+~
+16777216 0 10856
+S
+#10858
+A Dark Earthen Tunnel~
+This tunnel is actually larger than the previous level.  It seems to have been
+constructed in the same way as the upper level although it is clear that is
+older.  The dirt looks harder and more condensed as the footsteps of thousands
+of ants has helped to solidify it.  It also appears that the tunnel has
+undergone numerous renovations.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10840
+D3
+~
+~
+16777216 0 10859
+S
+#10859
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D0
+~
+~
+0 0 10864
+D1
+Exit description~
+~
+16777216 0 10858
+D3
+~
+~
+0 0 10860
+S
+#10860
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D0
+~
+~
+0 0 10861
+D1
+Exit description~
+~
+0 0 10859
+S
+#10861
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D0
+~
+~
+0 0 10862
+D1
+~
+~
+0 0 10864
+D2
+Exit description~
+~
+0 0 10860
+S
+#10862
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D1
+~
+~
+0 0 10863
+D2
+Exit description~
+~
+0 0 10861
+S
+#10863
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D2
+~
+~
+0 0 10864
+D3
+Exit description~
+~
+0 0 10862
+S
+#10864
+The Colonies' Defenders~
+This cavern must be a natural formation as it is much larger than any other of
+the alcoves that the ants have managed to make.  This appears to be the home
+of the soldier ants of the colony.  Most of them spend their off time eating
+or sharpening their mandibles on several pebbles.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10863
+D2
+Exit description~
+~
+0 0 10859
+D3
+Exit description~
+~
+0 0 10861
+S
+#10865
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D2
+~
+~
+0 0 10866
+D4
+~
+~
+16777216 0 10849
+S
+#10866
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10865
+D1
+~
+~
+0 0 10867
+D3
+~
+~
+0 0 10876
+S
+#10867
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D1
+~
+~
+0 0 10868
+D3
+Exit description~
+~
+0 0 10866
+S
+#10868
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D2
+~
+~
+0 0 10869
+D3
+Exit description~
+~
+0 0 10867
+S
+#10869
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10868
+D2
+~
+~
+16777216 0 10870
+S
+#10870
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D0
+Exit description~
+~
+16777216 0 10869
+D1
+~
+~
+0 0 10871
+D2
+~
+~
+0 0 10875
+S
+#10871
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D1
+~
+~
+0 0 10872
+D2
+~
+~
+0 0 10874
+D3
+Exit description~
+~
+0 0 10870
+S
+#10872
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D2
+~
+~
+0 0 10873
+D3
+Exit description~
+~
+0 0 10871
+S
+#10873
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10872
+D3
+~
+~
+0 0 10874
+S
+#10874
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10871
+D1
+Exit description~
+~
+0 0 10873
+D3
+~
+~
+0 0 10875
+S
+#10875
+The Egg Chamber~
+This large chamber has been painstakingly built to protect the eggs of the
+colony. Numerous egg carriers and ant matrons crawl all over, taking hatched
+larvae up to the higher levels of the colony or making sure the unhatched eggs
+are safe. There is a constant stream of egg carriers moving from somewhere
+else, bringing eggs inside.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10870
+D1
+Exit description~
+~
+0 0 10874
+S
+#10876
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10866
+D3
+~
+~
+0 0 10877
+S
+#10877
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10876
+D2
+~
+~
+0 0 10878
+S
+#10878
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10877
+D2
+~
+~
+0 0 10879
+S
+#10879
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10878
+D1
+~
+~
+16777216 0 10880
+D3
+~
+~
+0 0 10884
+S
+#10880
+The Royal Grounds~
+This alcove has been made specifically for the ant royalty.  The only males in
+the colony reside here, their crystalline wings laid back against their
+bodies. They live a life of luxury, a steady supply of food and royal jelly is
+brought to them.  They lounge about, waiting for the time they are called into
+service.
+~
+0 9 13
+D1
+~
+~
+0 0 10881
+D2
+~
+~
+0 0 10883
+D3
+Exit description~
+~
+16777216 0 10879
+S
+#10881
+The Royal Grounds~
+This alcove has been made specifically for the ant royalty.  The only males in
+the colony reside here, their crystalline wings laid back against their
+bodies. They live a life of luxury, a steady supply of food and royal jelly is
+brought to them.  They lounge about, waiting for the time they are called into
+service.
+~
+0 9 13
+D2
+~
+~
+0 0 10882
+D3
+Exit description~
+~
+0 0 10880
+S
+#10882
+The Royal Grounds~
+This alcove has been made specifically for the ant royalty.  The only males in
+the colony reside here, their crystalline wings laid back against their
+bodies. They live a life of luxury, a steady supply of food and royal jelly is
+brought to them.  They lounge about, waiting for the time they are called into
+service.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10881
+D3
+~
+~
+0 0 10883
+S
+#10883
+The Royal Grounds~
+This alcove has been made specifically for the ant royalty.  The only males in
+the colony reside here, their crystalline wings laid back against their
+bodies. They live a life of luxury, a steady supply of food and royal jelly is
+brought to them.  They lounge about, waiting for the time they are called into
+service.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10880
+D1
+Exit description~
+~
+0 0 10882
+S
+#10884
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 10879
+D2
+~
+~
+0 0 10885
+S
+#10885
+The Royal Tunnels~
+This system of tunnels is actually smaller than the others.  The traffic is
+much slower as only the royal guardians, egg carriers, and royalty inhabit the
+space.  The walls are carefully constructed and even small twigs and leaves
+have been used to reinforce the walls.  It is clear by the way the
+egg-carriers avoid you and the guardians eye you that this area is off limits
+to everyone.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 10884
+D2
+~
+~
+16777216 0 10900
+S
+#10886
+A Secret Tunnel~
+This large tunnel is designed as a quick escape if the Queen herself is
+threatened. It is hastily built and seems rather unsafe, it is clear that she
+has never had to use it.  You can continue to climb up, the air is warmer and
+the walls barely contain just a hint of sunlight.
+~
+0 9 13
+D4
+~
+~
+0 0 10803
+S
+#10900
+The Queen's Chamber~
+This large chamber is dozens of times larger than any of the other chambers in
+the colony.  The ground is sticky with jelly and goo and the shells of hatched
+eggs and discarded food stuff litter the area.  It is obvious something
+massive and important lives here.
+~
+0 0 13
+D0
+~
+~
+16777216 0 10885
+D4
+~
+~
+0 0 10886
+S
+#0
+
+
+#RESETS
+M 0 10900 1 10900
+E 1 10900 1 15
+O 0 10809 1 10900
+M 0 10863 1 10885
+M 0 10856 1 10883
+M 0 10855 1 10883
+M 0 10854 1 10882
+M 0 10853 1 10881
+M 0 10852 1 10880
+M 0 10862 1 10879
+E 1 10804 1 4
+M 0 10869 1 10878
+M 0 10861 1 10876
+M 0 10868 1 10875
+M 0 10851 1 10875
+M 0 10867 1 10874
+M 0 10850 1 10873
+M 0 10849 1 10872
+M 0 10866 1 10871
+M 0 10848 1 10870
+O 0 10803 1 10874
+O 0 10801 1 10871
+M 0 10860 1 10869
+M 0 10865 1 10868
+M 0 10859 1 10867
+M 0 10864 1 10866
+M 0 10858 1 10900
+M 0 10857 1 10900
+M 0 10832 1 10864
+M 0 10833 1 10863
+M 0 10834 1 10862
+M 0 10835 1 10861
+M 0 10836 1 10860
+O 0 10806 1 10863
+O 0 10808 1 10864
+O 0 10802 1 10860
+M 0 10847 1 10857
+M 0 10846 1 10857
+M 0 10831 1 10856
+M 0 10813 1 10855
+M 0 10814 1 10854
+M 0 10815 1 10853
+M 0 10816 1 10852
+M 0 10817 1 10851
+O 0 10802 1 10852
+M 0 10812 1 10850
+M 0 10844 1 10849
+M 0 10811 1 10848
+M 0 10830 1 10847
+M 0 10818 1 10846
+M 0 10819 1 10845
+M 0 10820 1 10844
+M 0 10821 1 10843
+O 0 10801 1 10845
+O 0 10808 1 10846
+M 0 10829 1 10842
+M 0 10810 1 10841
+M 0 10844 1 10840
+M 0 10828 1 10837
+M 0 10842 1 10835
+M 0 10809 1 10833
+M 0 10827 1 10832
+M 0 10807 1 10831
+M 0 10842 1 10830
+M 0 10841 1 10829
+M 0 10801 1 10828
+M 0 10802 1 10826
+M 0 10822 1 10825
+M 0 10837 1 10824
+M 0 10803 1 10822
+M 0 10824 1 10821
+M 0 10839 1 10820
+M 0 10805 1 10819
+M 0 10825 1 10817
+M 0 10840 1 10816
+M 0 10806 1 10815
+M 0 10826 1 10814
+M 0 10808 1 10813
+M 0 10842 1 10812
+M 0 10809 1 10809
+M 0 10810 1 10807
+M 0 10840 1 10806
+M 0 10809 1 10805
+M 0 10844 1 10804
+M 0 10810 1 10803
+M 0 10844 1 10802
+M 0 10811 1 10801
+O 0 10801 1 10818
+O 0 10801 1 10823
+O 0 10801 1 10825
+O 0 10806 1 10829
+O 0 10802 1 10836
+O 0 10801 1 10834
+O 0 10807 1 10854
+O 0 10805 1 10881
+O 0 10803 1 10880
+O 0 10803 1 10882
+M 0 10804 1 10805
+M 0 10823 1 10816
+M 0 10838 1 10809
+M 0 10843 1 10842
+M 0 10845 1 10848
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

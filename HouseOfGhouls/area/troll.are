@@ -1,0 +1,2763 @@
+#AREA   Lgonlilve~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+10 25 0 65
+$
+
+#RESETMSG You hear the faint sound of tribal chanting.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 23977707
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#5051
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5052
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5053
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5054
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5055
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5056
+half troll child~
+a half-troll child~
+A half-troll child is running in circles.
+~
+This small half-troll is playing some kind of game that involves running
+around in circles for a long period of time.  The child can only be a few
+years old but is already quite large. Their arms and legs are thin and long.
+~
+1 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 2 0 0 64 64 0
+0 0 1097 0 0 0 0 0
+#5057
+half troll man fellow~
+a half-troll man~
+This trollish looking fellow is wandering about.
+~
+This man is definitely part troll.  His skin is an odd mix of green and purple
+and his body seems extended and odd.  He sees you and gives a slight
+nod.  You are not sure what he is doing out and about but he doesn't
+seem to be a threat either.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5058
+half troll man fellow~
+a half-troll man~
+This trollish looking fellow is wandering about.
+~
+This man is definitely part troll.  His skin is an odd mix of green and purple
+and his body seems extended and odd.  He sees you and gives a slight
+nod.  You are not sure what he is doing out and about but he doesn't
+seem to be a threat either.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5059
+half troll man fellow~
+a half-troll man~
+This trollish looking fellow is wandering about.
+~
+This man is definitely part troll.  His skin is an odd mix of green and purple
+and his body seems extended and odd.  He sees you and gives a slight
+nod.  You are not sure what he is doing out and about but he doesn't
+seem to be a threat either.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5060
+half troll woman~
+a half-troll woman~
+This woman is lithe and well muscled.
+~
+This woman must be of troll blood. She is quite tall and thin but you can see
+that her muscles are large and capable. She walks by, carrying a basket of
+things to and from the local shops.  She seems oblivious to you and tries to
+gather as little attention to herself as possible.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5061
+half troll woman~
+a half-troll woman~
+This woman is lithe and well muscled.
+~
+This woman must be of troll blood. She is quite tall and thin but you can see
+that her muscles are large and capable. She walks by, carrying a basket of
+things to and from the local shops.  She seems oblivious to you and tries to
+gather as little attention to herself as possible.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5062
+half troll woman~
+a half-troll woman~
+This woman is lithe and well muscled.
+~
+This woman must be of troll blood. She is quite tall and thin but you can see
+that her muscles are large and capable. She walks by, carrying a basket of
+things to and from the local shops.  She seems oblivious to you and tries to
+gather as little attention to herself as possible.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5063
+half troll man fellow~
+a half-troll man~
+This trollish looking fellow is wandering about.
+~
+This man is definitely part troll.  His skin is an odd mix of green and purple
+and his body seems extended and odd.  He sees you and gives a slight
+nod.  You are not sure what he is doing out and about but he doesn't
+seem to be a threat either.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5064
+half troll woman~
+a half-troll woman~
+This woman is lithe and well muscled.
+~
+This woman must be of troll blood. She is quite tall and thin but you can see
+that her muscles are large and capable. She walks by, carrying a basket of
+things to and from the local shops.  She seems oblivious to you and tries to
+gather as little attention to herself as possible.
+~
+16777281 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 17 0 0 64 64 0
+0 0 1064 0 0 0 144 2
+#5065
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5066
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5067
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5068
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5069
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5070
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5071
+half troll home guard~
+a half-troll home guard~
+This half-troll guard is wandering around the village.
+~
+This half-troll is patrolling the village, looking for any signs of trouble.
+The other citizens seem much more comfortable around him than any of the other
+guards that are patrolling the area.  It is clear that he takes the safety and
+the protection of the residents far more seriously than the Imperial soldiers
+assigned here.
+~
+65 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 21 0 0 64 64 0
+0 0 1034 0 0 0 144 3
+#5072
+imperial soldier~
+an imperial soldier~
+This imperial is assigned to keeping order.
+~
+This imperial soldier does not want to be here.  He seems quite upset that he
+is forced to spend his time here in a city full of half breeds and monsters.
+He turns a blind eye to the citizens and doesn't seem to care what is
+happening around him.  He just wants to go back home.
+~
+65 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1034 0 0 0 144 3
+#5073
+imperial soldier~
+an imperial soldier~
+This imperial is assigned to keeping order.
+~
+This imperial soldier does not want to be here.  He seems quite upset that he
+is forced to spend his time here in a city full of half breeds and monsters.
+He turns a blind eye to the citizens and doesn't seem to care what is
+happening around him.  He just wants to go back home.
+~
+65 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1034 0 0 0 144 3
+#5074
+imperial soldier~
+an imperial soldier~
+This imperial is assigned to keeping order.
+~
+This imperial soldier does not want to be here.  He seems quite upset that he
+is forced to spend his time here in a city full of half breeds and monsters.
+He turns a blind eye to the citizens and doesn't seem to care what is
+happening around him.  He just wants to go back home.
+~
+65 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1034 0 0 0 144 3
+#5075
+imperial soldier~
+an imperial soldier~
+This imperial is assigned to keeping order.
+~
+This imperial soldier does not want to be here.  He seems quite upset that he
+is forced to spend his time here in a city full of half breeds and monsters.
+He turns a blind eye to the citizens and doesn't seem to care what is
+happening around him.  He just wants to go back home.
+~
+65 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1034 0 0 0 144 3
+#5076
+imperial soldier~
+an imperial soldier~
+This imperial is assigned to keeping order.
+~
+This imperial soldier does not want to be here.  He seems quite upset that he
+is forced to spend his time here in a city full of half breeds and monsters.
+He turns a blind eye to the citizens and doesn't seem to care what is
+happening around him.  He just wants to go back home.
+~
+65 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1034 0 0 0 144 3
+#5078
+slaver imperial man~
+an imperial slaver~
+This man is looking for a good half troll to buy.
+~
+This man is covered in dirt and grime.  He greedily scans the area for an
+exceptionally strong half-troll to buy and then sell at Sahardin.  He eyes
+children as well as adults for signs of a good sell. He even stops a child to
+test their arm strength before frowning and sending them away.
+~
+16777281 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65 1 0
+0 0 1034 0 0 0 144 3
+#5079
+slaver imperial man~
+an imperial slaver~
+This man is looking for a good half troll to buy.
+~
+This man is covered in dirt and grime.  He greedily scans the area for an
+exceptionally strong half-troll to buy and then sell at Sahardin.  He eyes
+children as well as adults for signs of a good sell. He even stops a child to
+test their arm strength before frowning and sending them away.
+~
+16777281 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65 1 0
+0 0 1034 0 0 0 144 3
+#5080
+slaver imperial man~
+an imperial slaver~
+This man is looking for a good half troll to buy.
+~
+This man is covered in dirt and grime.  He greedily scans the area for an
+exceptionally strong half-troll to buy and then sell at Sahardin.  He eyes
+children as well as adults for signs of a good sell. He even stops a child to
+test their arm strength before frowning and sending them away.
+~
+16777281 4194304 -1000 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65 1 0
+0 0 1034 0 0 0 144 3
+#5082
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. His body is
+covered in thick scars and despite his age he seems pretty spry. The slave
+mark on his forehead has faded with age but apparently time made him useless
+to whoever owned him before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5083
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. His body is
+covered in thick scars and despite his age he seems pretty spry. The slave
+mark on his forehead has faded with age but apparently time made him useless
+to whoever owned him before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5084
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. His body is
+covered in thick scars and despite his age he seems pretty spry. The slave
+mark on his forehead has faded with age but apparently time made him useless
+to whoever owned him before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5085
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. Her body is
+covered in thick scars and despite her age she seems pretty spry. The slave
+mark on her forehead has faded with age but apparently time made her useless
+to whoever owned her before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5086
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. Her body is
+covered in thick scars and despite her age she seems pretty spry. The slave
+mark on her forehead has faded with age but apparently time made her useless
+to whoever owned her before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5087
+elder old half troll~
+an elderly half-troll~
+This half-troll has seen many a winter.
+~
+This old half-troll must have survived some horrible things. Her body is
+covered in thick scars and despite her age she seems pretty spry. The slave
+mark on her forehead has faded with age but apparently time made her useless
+to whoever owned her before.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 18 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5088
+half troll teenager~
+a half-troll teenager~
+This half-troll is busy trying to avoid the slavers and captains.
+~
+This half-troll must be just shy of adulthood.  His body has developed into a
+limber and supple frame and he is aware that he would fetch a pretty gold coin
+or two.  He tries to avoid the slavers or the wandering captains who are
+looking for a strong young half-troll to put to work.
+~
+16777281 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5089
+half troll teenager~
+a half-troll teenager~
+This half-troll is busy trying to avoid the slavers and captains.
+~
+This half-troll must be just shy of adulthood.  His body has developed into a
+limber and supple frame and he is aware that he would fetch a pretty gold coin
+or two.  He tries to avoid the slavers or the wandering captains who are
+looking for a strong young half-troll to put to work.
+~
+16777281 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5090
+half troll teenager~
+a half-troll teenager~
+This half-troll is busy trying to avoid the slavers and captains.
+~
+This half-troll must be just shy of adulthood.  His body has developed into a
+limber and supple frame and he is aware that he would fetch a pretty gold coin
+or two.  He tries to avoid the slavers or the wandering captains who are
+looking for a strong young half-troll to put to work.
+~
+16777281 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5091
+half troll teenager~
+a half-troll teenager~
+This half-troll is busy trying to avoid the slavers and captains.
+~
+This half-troll must be just shy of adulthood.  His body has developed into a
+limber and supple frame and he is aware that he would fetch a pretty gold coin
+or two.  He tries to avoid the slavers or the wandering captains who are
+looking for a strong young half-troll to put to work.
+~
+16777281 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 0 0 0 0 0 0
+#5092
+ship captain man trader~
+a trader-captain~
+This captain is searching for a new grunt for his ship.
+~
+This man must be a captain of one of the many ships that calls Sahardin home.
+He is scanning the area for a strong looking half-troll he can "persuade" into
+signing a contract for a decade or two.
+~
+16777281 4194304 -1000 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65 1 0
+0 0 1034 0 0 0 144 3
+#5093
+ship captain man trader~
+a trader-captain~
+This captain is searching for a new grunt for his ship.
+~
+This man must be a captain of one of the many ships that calls Sahardin home.
+He is scanning the area for a strong looking half-troll he can "persuade" into
+signing a contract for a decade or two.
+~
+16777281 4194304 -1000 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65 1 0
+0 0 1034 0 0 0 144 3
+#5095
+rebel escapist woman quiet~
+a rebel escapist~
+This woman is quietly trying to convince others to leave.
+~
+This half-troll woman is obviously not with any Imperial office. She is
+whispering to some of the other citizens and buy the traveller's cloak and
+well worn boots,  she definitely doesn't stay still for too long.  She must be
+trying to help some of the other half-trolls escape to a rebel city.
+~
+16777281 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 65 64 0
+0 0 0 0 0 0 0 0
+#5096
+rebel escapist woman quiet~
+a rebel escapist~
+This woman is quietly trying to convince others to leave.
+~
+This half-troll woman is obviously not with any Imperial office. She is
+whispering to some of the other citizens and buy the traveller's cloak and
+well worn boots,  she definitely doesn't stay still for too long.  She must be
+trying to help some of the other half-trolls escape to a rebel city.
+~
+16777281 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 65 64 0
+0 0 0 0 0 0 0 0
+#5097
+rebel escapist woman quiet~
+a rebel escapist~
+This woman is quietly trying to convince others to leave.
+~
+This half-troll woman is obviously not with any Imperial office. She is
+whispering to some of the other citizens and buy the traveller's cloak and
+well worn boots,  she definitely doesn't stay still for too long.  She must be
+trying to help some of the other half-trolls escape to a rebel city.
+~
+16777281 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 6 0 0 65 64 0
+0 0 0 0 0 0 0 0
+#5098
+rebel escapist woman quiet~
+a rebel escapist~
+This woman is quietly trying to convince others to leave.
+~
+This half-troll woman is obviously not with any Imperial office. She is
+whispering to some of the other citizens and buy the traveller's cloak and
+well worn boots,  she definitely doesn't stay still for too long.  She must be
+trying to help some of the other half-trolls escape to a rebel city.
+~
+16777281 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 11 0 0 65 64 0
+0 0 0 0 0 0 0 0
+#5100
+rebel recruiter man~
+a rebel recruiter~
+This man is trying to find others willingly to fight for freedom.
+~
+This man is taking a big risk by wandering in the open inside an Imperial
+controlled village.  He casually walks up to the citizens and begins to talk,
+and from a distance you can make out a few words. Most of them are not very
+patriotic.
+~
+21102657 0 1000 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65 1 0
+0 0 0 0 0 0 0 0
+#5101
+rebel recruiter man~
+a rebel recruiter~
+This man is trying to find others willingly to fight for freedom.
+~
+This man is taking a big risk by wandering in the open inside an Imperial
+controlled village.  He casually walks up to the citizens and begins to talk,
+and from a distance you can make out a few words. Most of them are not very
+patriotic.
+~
+16777281 0 1000 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65 1 0
+0 0 0 0 0 0 0 0
+#5102
+maek troll weapon smith~
+Maek the weaponsmith~
+A large full-blooded troll is making weapons.
+~
+This troll is fashioning a spear out of a stalk of bamboo. He is whistling an
+odd tune and his long grey fingers are skillfully brandishing a knife. He
+looks up at you and bows.  He mumbles something about not being allowed to
+sell any weapons made of metal.
+~
+16908355 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 65 1 0
+0 0 8 0 0 0 225 3
+#5103
+Shal-on witch doctor old half troll woman~
+Shal-on the witch doctor~
+This old half-troll woman is mixing herbs and potions.
+~
+This old woman must be the witch doctor of the village. She is busy making
+potions and odd small bags filled with herbs. She is covered in bright white
+tattoos that stand in sharp contrast to her oil colored skin.  She nods at you
+and continues to chant in trollese as she works.
+~
+16908355 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 11 0 0 12353 1 0
+0 0 8 0 0 0 225 3
+#5104
+Jarez outfitter man imperial~
+Jarez the outfitter~
+This large man is wearing imperial armor.
+~
+This man is the official imperial outfitter of the village. All of his goods
+are  licensed and legal in this village.  He seems to look at the half-trolls
+with disgust that wander his shop and it is clear that only other imperials
+make use of his store.
+~
+16908355 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65 1 0
+0 0 8 0 0 0 225 3
+#5105
+man bartender lowel~
+Lowel the bartender~
+This scrawny man is lazily tapping on the bar.
+~
+This man is small and thin.  He is not a half-troll or even have any troll
+blood in him.  It seems that the imperial office decided that he should run a
+small pub here. Perhaps he did something wrong and that is his punishment.
+~
+16908355 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65 1 0
+0 0 8 0 0 0 225 3
+#5106
+Prefect fjord man~
+Prefect Fjord~
+A large man is here, going over papers.
+~
+The prefect of the village has the glorious job of making sure that the rebels
+do not gain a foothold and that the slavers have a constant supply of
+half-trolls to help out in Sahardin. He seems bored with his job and tired of
+having to make his way through the filthy homes of the trolls to make sure the
+census is accurate.
+~
+16908355 0 -1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 65 64 0
+0 0 8 0 0 0 225 3
+#5126
+chieftain troll leader village~
+The village chieftain~
+This older half-troll looks at his people with sorrow.
+~
+This half-troll has spent his life ruling over a conquered and exploited
+people. The Imperial soldiers and slavers have taken the sons and daughters of
+the village for years and the chieftain has been powerless to stop them. This
+man only wants his people to flourish and be left alone.
+~
+16777281 4194304&256 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 16 0 0 64 64 0
+0 0 1058 0 0 0 176 7
+#0
+
+
+#OBJECTS
+#5051
+scimitar shape~
+A poorly maintained scimitar~
+This scimitar has not seen the mill in a generation.~
+~
+5 0 131073
+5 3 3 1
+4 100 0
+#5052
+sword long imperial~
+an imperial longsword~
+This standard issue sword is useful.~
+~
+5 0 131073
+5 3 3 1
+4 100 0
+#5053
+loose braided whip~
+a loose braided whip~
+This horrible thing would get anything in line.~
+~
+5 0 131073
+5 3 3 4
+4 100 0
+#5054
+bamboo spear~
+a bamboo spear~
+This simple weapon is quite effective.~
+~
+5 0 131073
+5 3 3 24
+4 100 0
+#5055
+bamboo blow gun~
+a bamboo blowgun~
+This weapon could be lethal in the right hands.~
+~
+5 0 131073
+5 3 3 15
+4 100 0
+#5056
+bamboo stone hammer~
+a bamboo and stone hammer~
+This simple tool might work well in a fight.~
+~
+5 0 131073
+5 3 3 8
+4 100 0
+#5057
+torn bamboo armor~
+a plate of bamboo armor~
+This thin armor may stop a slash.
+~
+~
+9 0 65
+5 5 0 0
+3 200 0
+#5058
+imperial light breast plate~
+an imperial light breastplate~
+This lighter version of imperial armor helps in the heat.~
+~
+9 524288 65
+9 9 0 0
+3 200 0
+#5059
+mariner heavy vest~
+a mariner's heavy vest~
+This vest would help keep you afloat.~
+~
+9 0 65
+5 5 0 0
+3 200 0
+#5060
+dark leather shirt~
+a dark leather shirt~
+This shirt is standard issue for slavers.~
+~
+9 0 65
+4 4 0 0
+3 200 0
+#5061
+simple travel cloak~
+a simple travel cloak~
+This cloak is good for hiding your personality.~
+~
+9 0 2049
+2 2 0 0
+3 200 0
+#5062
+travel skin~
+a travel skin~
+This skin will stash a bit of water for the road.~
+~
+17 0 1048577
+10 10 0 0
+3 250 0
+#5063
+bottle cheap ale~
+a bottle of cheap ale~
+This will do the job for the cheap.~
+~
+17 0 1048577
+5 5 3 0
+3 250 0
+#5064
+flask whiskey~
+a flask of whiskey~
+This will always get the job done.~
+~
+17 0 1048577
+3 3 5 0
+3 550 0
+#5065
+bottle cheap wine~
+a bottle of cheap wine~
+This will do the job for the cheap.~
+~
+17 0 1048577
+7 7 2 0
+3 350 0
+#5066
+loaf travel bread~
+a loaf of travel bread~
+This bread is light but filling.~
+~
+19 0 1048577
+3 0 0 0
+1 175 0
+#5067
+field rat skewer~
+a field rat skewer~
+This is just like mom's homemade rat.~
+~
+19 0 1048577
+2 0 0 0
+1 100 0
+#5068
+bag field rations~
+a bag of field rations~
+These rations will help on long trips.~
+~
+19 0 1048577
+3 0 0 0
+1 250 0
+#5069
+hunk unknown meat~
+a hunk of unknown meat~
+God knows what it is, but it looks good.~
+~
+19 0 1048577
+5 0 0 0
+2 300 0
+#5070
+oat bar odd~
+an odd bar of oats~
+This bar is small yet feels heavy.~
+~
+19 0 1048577
+3 0 0 0
+1 125 0
+#5071
+mojo potion good~
+a potion of good mojo~
+This potion will help to keep the spirits on your side.~
+~
+10 64 1048577
+30 -1 -1 -1
+3 6000 0
+'armor' 'shield' 'float'
+#5072
+potion recall~
+a potion of recall~
+This potion will get you back home.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 150 0
+'word of recall' 'NONE' 'NONE'
+#5073
+potion serpent gamble~
+a serpent's gamble~
+This potion doesn't look safe to drink.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 8000 0
+'stone skin' 'bless' 'unravel defense'
+#5074
+potion spirit touch~
+a potion of spirit's touch~
+This potion will help you get in touch with the other world.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 6000 0
+'detect invis' 'detect hidden' 'detect good'
+#0
+
+
+#ROOMS
+#5051
+Off The Opium Road~
+The path is easy to follow and seems to be well maintained. You can see the
+deep grooves of numerous carts that seem to be carrying quite heavy loads on
+their way back towards the main road.  Down a ways you can make out smoke and
+signs of a small settlement.
+~
+0 1 2
+D1
+~
+~
+0 0 5052
+D3
+Exit description~
+~
+16777216 0 7010
+S
+#5052
+Off The Opium Road~
+The path is easy to follow and seems to be well maintained. You can see the
+deep grooves of numerous carts that seem to be carrying quite heavy loads on
+their way back towards the main road.  Down a ways you can make out smoke and
+signs of a small settlement.
+~
+0 1 2
+D1
+~
+~
+0 0 5053
+D3
+Exit description~
+~
+0 0 5051
+S
+#5053
+Off The Opium Road~
+The path is easy to follow and seems to be well maintained. You can see the
+deep grooves of numerous carts that seem to be carrying quite heavy loads on
+their way back towards the main road.  Down a ways you can make out smoke and
+signs of a small settlement.
+~
+0 1 2
+D1
+~
+~
+0 0 5054
+D3
+Exit description~
+~
+0 0 5052
+S
+#5054
+Off The Opium Road~
+The path is easy to follow and seems to be well maintained. You can see the
+deep grooves of numerous carts that seem to be carrying quite heavy loads on
+their way back towards the main road.  Down a ways you can make out smoke and
+signs of a small settlement.
+~
+0 1 2
+D2
+~
+~
+0 0 5055
+D3
+Exit description~
+~
+0 0 5053
+S
+#5055
+On The Outskirts Of Lgonlilve~
+The path is well worn and you can see the the half-troll village of Lgonlilve.
+There are numerous people about, the citizens of the village as well as a
+strong presence of imperial soldiers.  The houses and buildings seem poorly
+made save for a few.  To the east is one of them.
+~
+0 1 2
+D0
+Exit description~
+~
+0 0 5054
+D1
+~
+~
+16777216 0 5120
+D2
+~
+~
+0 0 5056
+S
+#5056
+On The Outskirts Of Lgonlilve~
+The path is well worn and you can see the the half-troll village of Lgonlilve.
+There are numerous people about, the citizens of the village as well as a
+strong presence of imperial soldiers.  The houses and buildings seem poorly
+made save for a few.
+~
+0 1 2
+D0
+Exit description~
+~
+0 0 5055
+D2
+~
+~
+0 0 5057
+S
+#5057
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5056
+D1
+~
+~
+0 0 5058
+S
+#5058
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D1
+~
+~
+0 0 5059
+D3
+Exit description~
+~
+0 0 5057
+S
+#5059
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the north is a small shop with a large Imperial flag hanging in the window.
+~
+0 0 1
+D0
+~
+~
+16777216 0 5064
+D1
+~
+~
+0 0 5060
+D3
+Exit description~
+~
+0 0 5058
+S
+#5060
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the south is a small bar.
+~
+0 0 1
+D1
+~
+~
+0 0 5061
+D2
+~
+~
+0 0 5065
+D3
+Exit description~
+~
+0 0 5059
+S
+#5061
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D1
+~
+~
+0 0 5062
+D3
+Exit description~
+~
+0 0 5060
+S
+#5062
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the north and south are smaller shops.
+~
+0 0 1
+D0
+~
+~
+0 0 5066
+D1
+Exit description~
+~
+0 0 5063
+D2
+~
+~
+0 0 5067
+D3
+Exit description~
+~
+0 0 5061
+S
+#5063
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D1
+~
+~
+0 0 5068
+D3
+Exit description~
+~
+0 0 5062
+S
+#5064
+The Imperial Outfitters~
+This small shop is suited to meet the needs of the Imperial soldiers and
+citizens that are stationed here. None of the half-trolls have entered here,
+only a few off-duty soldiers.  Weapons and armor, all standard issue, line the
+walls as well as some basic provisions.
+~
+0 0 0
+D2
+Exit description~
+~
+16777216 0 5059
+S
+#5065
+The Waterin' Hole~
+This simple pub is an uneasy mix of Imperials and the local villagers. The bar
+top is tarnished and dirty, the stools look unsafe to sit in, and there seems
+to be little merriment.  The smell of cheap drinks is heavy in the air.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5060
+S
+#5066
+A Closed Down Shop~
+This building must have been a shop once.  The dust and amount of rodents
+would suggest that is has been closed for a good while now. A few pieces of
+jewelry and tribal clothing are left to decay on the floor.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5062
+S
+#5067
+The Limb And Leaf~
+This shop caters more to the half-troll population of the village.  The walls
+are lined with weapons and armor, all of them made out of wood or bamboo. None
+of the Imperials enter the shop, probably due to the large full-blooded troll
+busy behind the counter.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5062
+S
+#5068
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder. To
+the north is an odd shaped building.
+~
+0 0 1
+D0
+~
+~
+0 0 5114
+D2
+~
+~
+0 0 5069
+D3
+Exit description~
+~
+0 0 5063
+S
+#5069
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5068
+D2
+~
+~
+0 0 5070
+S
+#5070
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5069
+D2
+~
+~
+0 0 5071
+S
+#5071
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the west is another large odd shaped building.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5070
+D2
+~
+~
+0 0 5072
+D3
+~
+~
+0 0 5077
+S
+#5072
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5071
+D2
+~
+~
+0 0 5073
+S
+#5073
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5072
+D1
+~
+~
+0 0 5083
+D2
+~
+~
+0 0 5074
+S
+#5074
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5073
+D2
+~
+~
+0 0 5075
+S
+#5075
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+~
+0 0 1
+D0
+~
+~
+0 0 5074
+D1
+~
+~
+0 0 5084
+D2
+~
+~
+0 0 5076
+S
+#5076
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the south is a small building and a few smaller dirt roads.
+~
+0 0 1
+D0
+~
+~
+0 0 5075
+D2
+~
+~
+0 0 5087
+S
+#5077
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5071
+D2
+~
+~
+0 0 5082
+D3
+~
+~
+0 0 5078
+S
+#5078
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5077
+D2
+~
+~
+0 0 5081
+D3
+~
+~
+0 0 5079
+S
+#5079
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5078
+D2
+~
+~
+0 0 5080
+S
+#5080
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5079
+D1
+~
+~
+0 0 5081
+S
+#5081
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5078
+D1
+~
+~
+0 0 5082
+D3
+Exit description~
+~
+0 0 5080
+S
+#5082
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5077
+D3
+Exit description~
+~
+0 0 5081
+S
+#5083
+Inside A Small Hut~
+The occupants of this hut are quite lucky.  They have their own lodging and it
+seems that only one family lives here. There is even a chair or two and a few
+other luxuries. The large Z painted on the ceiling must mean that this family
+is a public supporter of the Imperial forces.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 5073
+S
+#5084
+Inside A Half-Troll Longhouse~
+This longhouse is half finished and still under construction. To the north you
+can  see several empty huts that are being tore apart and then simply grafted
+onto the longhouse. Even worse, it seems that several families of half-trolls
+have already been moved into the half completed home.
+~
+0 0 0
+D1
+~
+~
+0 0 5085
+D3
+Exit description~
+~
+0 0 5075
+S
+#5085
+Inside A Half-Troll Longhouse~
+This longhouse is half finished and still under construction. To the north you
+can  see several empty huts that are being tore apart and then simply grafted
+onto the longhouse. Even worse, it seems that several families of half-trolls
+have already been moved into the half completed home.
+~
+0 0 0
+D1
+~
+~
+0 0 5086
+D3
+Exit description~
+~
+0 0 5084
+S
+#5086
+Inside A Half-Troll Longhouse~
+This longhouse is half finished and still under construction. To the north you
+can  see several empty huts that are being tore apart and then simply grafted
+onto the longhouse. Even worse, it seems that several families of half-trolls
+have already been moved into the half completed home.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 5085
+S
+#5087
+Along The Main Road~
+This road is really nothing more than well packed earth and a few stones on
+the side to create the sense of a road. Numerous buildings dot the street and
+it seems that there isn't much else to this tiny village. The citizens seem to
+mind their own business, occasionally a child will look up at you in wonder.
+To the south is a small building and to the east and west a few smaller dirt
+roads.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5076
+D2
+~
+~
+0 0 5088
+S
+#5088
+Before A Large Hut~
+To the south is a huge hut that must be the seat of authority in the village.
+To the east and west are smaller dirt paths that lead to more of the
+half-troll longhouses. The presence of the Imperials is much less in this
+part of the village.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 5087
+D1
+~
+~
+0 0 5089
+D2
+~
+~
+16777216 0 5125
+D3
+~
+~
+0 0 5092
+S
+#5089
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D1
+~
+~
+0 0 5090
+D3
+Exit description~
+~
+0 0 5088
+S
+#5090
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D1
+~
+~
+0 0 5091
+D3
+Exit description~
+~
+0 0 5089
+S
+#5091
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D2
+~
+~
+0 0 5105
+D3
+Exit description~
+~
+0 0 5090
+S
+#5092
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the west is another longhouse and a
+small private hut.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 5088
+D3
+~
+~
+0 0 5093
+S
+#5093
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 5092
+D3
+~
+~
+0 0 5094
+S
+#5094
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D0
+~
+~
+16777216 0 5102
+D1
+Exit description~
+~
+0 0 5093
+D3
+~
+~
+0 0 5095
+S
+#5095
+Along A Small Dirt Path~
+This dirt path is filled with weeds and grass.  The signs of heavy foot
+traffic and wagons has disappeared. To the east you can make out a huge
+longhouse that looks to have been constantly repaired and maintained.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 5094
+D2
+~
+~
+0 0 5096
+S
+#5096
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5095
+D1
+~
+~
+0 0 5101
+D2
+~
+~
+0 0 5097
+S
+#5097
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5096
+D1
+~
+~
+0 0 5098
+S
+#5098
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+~
+~
+0 0 5101
+D1
+~
+~
+0 0 5099
+D3
+Exit description~
+~
+0 0 5097
+S
+#5099
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+~
+~
+0 0 5100
+D3
+Exit description~
+~
+0 0 5098
+S
+#5100
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5099
+D3
+~
+~
+0 0 5101
+S
+#5101
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5100
+D2
+Exit description~
+~
+0 0 5098
+D3
+Exit description~
+~
+0 0 5096
+S
+#5102
+Inside A Small Hut~
+The occupants of this hut are quite lucky.  They have their own lodging and it
+seems that only one family lives here. There is even a chair or two and a few
+other luxuries. The large Z painted on the ceiling must mean that this family
+is a public supporter of the Imperial forces. You notice a small door that
+leads into the back of the house.
+~
+0 0 0
+D0
+~
+~
+0 0 5103
+D2
+Exit description~
+~
+16777216 0 5094
+S
+#5103
+Behind A Hut~
+This small courtyard behind the hut is completely hidden from the road. The
+dense bushes and foliage prevent anyone from seeing in and offers a nice shady
+spot to relax. Below a large table with several Imperial symbols painted on is
+what appears to be a door.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5102
+D5
+~
+~
+8388609 0 5104
+S
+#5104
+Inside A Hidden Room~
+This room must be used to give shelter to runaways or rebel escapists. It is
+stocked with food, water, warm blankets, and everything else a person would
+need to hide out for a few days.  This would be an excellent place to sit and
+stay awhile.
+~
+0 1025 0
+D4
+Exit description~
+~
+8388609 0 5103
+S
+#5105
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5091
+D1
+Exit description~
+~
+0 0 5113
+D2
+Exit description~
+~
+0 0 5106
+S
+#5106
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5105
+D1
+Exit description~
+~
+0 0 5111
+D2
+Exit description~
+~
+0 0 5107
+S
+#5107
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5106
+D1
+Exit description~
+~
+0 0 5108
+S
+#5108
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5111
+D1
+Exit description~
+~
+16777216 0 5109
+D3
+Exit description~
+~
+0 0 5107
+S
+#5109
+Inside A Half-Troll Longhouse~
+This is the private section of the local medicine woman.  There are numerous
+odd fetishes and talismans along the wall as well as potions and incense.  The
+ground is much more sparse than the other parts of the longhouse, and the
+creature comforts are all but removed.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 5110
+D3
+Exit description~
+~
+16777216 0 5108
+S
+#5110
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5112
+D2
+Exit description~
+~
+16777216 0 5109
+D3
+Exit description~
+~
+0 0 5111
+S
+#5111
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5113
+D1
+Exit description~
+~
+0 0 5110
+D2
+Exit description~
+~
+0 0 5108
+D3
+Exit description~
+~
+0 0 5106
+S
+#5112
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5110
+D3
+Exit description~
+~
+0 0 5113
+S
+#5113
+Inside A Half-Troll Longhouse~
+This longhouse is beautifully maintained and decorated. The walls are covered
+in paintings and poetry made by the citizens of the city. The smell of incense
+is heavy in the air and the floor is covered in soft mats of woven reeds and
+fur.  You see several of the half-trolls inside working on maintaining the
+building or adding more decorations.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5112
+D2
+Exit description~
+~
+0 0 5111
+D3
+Exit description~
+~
+0 0 5105
+S
+#5114
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5115
+D1
+Exit description~
+~
+0 0 5119
+D2
+Exit description~
+~
+0 0 5068
+S
+#5115
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5116
+D2
+Exit description~
+~
+0 0 5114
+S
+#5116
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 5117
+D2
+Exit description~
+~
+0 0 5119
+D3
+Exit description~
+~
+0 0 5115
+S
+#5117
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5118
+D3
+Exit description~
+~
+0 0 5116
+S
+#5118
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5117
+D3
+Exit description~
+~
+0 0 5119
+S
+#5119
+Inside A Half-Troll Longhouse~
+The half-troll living quarters are more of huge houses that numerous families
+must share.  You see rows of simple beds, a few racks for clothes or
+possessions, and precious little else. Children run around playing games while
+some of the adults stare out the window.  Judging by the designs on the floor
+and roof that separate each section of the house, these were quickly and
+poorly built over existing buildings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5116
+D1
+Exit description~
+~
+0 0 5118
+D3
+Exit description~
+~
+0 0 5114
+S
+#5120
+Inside The Imperial Checkpoint~
+This stone building is the seat of power for the Imperials in the city. The
+walls are solid stone and the floor is well carpeted. Numerous imperial
+soldiers and citizens are making their way, checking in with the captains or
+trying to get a slaver's permit.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5123
+D1
+Exit description~
+~
+0 0 5121
+D3
+Exit description~
+~
+16777216 0 5055
+S
+#5121
+Inside The Imperial Checkpoint~
+This stone building is the seat of power for the Imperials in the city. The
+walls are solid stone and the floor is well carpeted. Numerous imperial
+soldiers and citizens are making their way, checking in with the captains or
+trying to get a slaver's permit.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5122
+D3
+Exit description~
+~
+0 0 5120
+S
+#5122
+Inside The Imperial Checkpoint~
+This stone building is the seat of power for the Imperials in the city. The
+walls are solid stone and the floor is well carpeted. Numerous imperial
+soldiers and citizens are making their way, checking in with the captains or
+trying to get a slaver's permit.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 5121
+D3
+Exit description~
+~
+0 0 5123
+S
+#5123
+Inside The Imperial Checkpoint~
+This stone building is the seat of power for the Imperials in the city. The
+walls are solid stone and the floor is well carpeted. Numerous imperial
+soldiers and citizens are making their way, checking in with the captains or
+trying to get a slaver's permit.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 5124
+D1
+Exit description~
+~
+0 0 5122
+D2
+Exit description~
+~
+0 0 5120
+S
+#5124
+Inside The Prefect's office.~
+This small office is covered in papers and books.  The walls are adorned with
+paintings of the great imperial cities as well as images of the Emperor and
+his son.  The prefect's desk is a mess of slaver's licenses and the bi-monthly
+census of the half-troll population.
+~
+0 0 0
+D2
+Exit description~
+~
+16777216 0 5123
+S
+#5125
+Inside The Royal Hut~
+This larger hut is wildly decorated with numerous animal skins and heads.
+Judging by the holes in the decorations it seems that all the weapons and
+armors were removed.  The floor is a soft fur and the walls are a heavy thatch
+of reeds and mud.  To the south is the throne room.
+~
+0 0 0
+D0
+~
+~
+16777216 0 5088
+D2
+Exit description~
+~
+16777216 0 5126
+S
+#5126
+The Lgonlilve Throne~
+The throne is made of wood and nothing else.  The walls are bear and the floor
+is carpeted by mats of reeds and not much else.  There are several pictures of
+the Imperial Family and cities but the throne has been turned to look away
+from them.
+~
+0 0 0
+D0
+Exit description~
+~
+16777216 0 5125
+S
+#0
+
+
+#RESETS
+M 0 5126 1 5126
+E 1 5056 1 21
+E 1 5057 1 7
+M 0 5072 1 5123
+E 1 5058 1 7
+E 1 5052 1 21
+M 0 5078 1 5121
+E 1 5053 1 21
+E 1 5060 1 7
+M 0 5060 1 5119
+M 0 5051 1 5118
+M 0 5063 1 5117
+M 0 5082 1 5116
+M 0 5088 1 5115
+M 0 5095 1 5114
+E 1 5061 1 14
+M 0 5052 1 5113
+M 0 5083 1 5112
+M 0 5057 1 5111
+M 0 5089 1 5110
+M 0 5103 1 5109
+G 1 21456 1
+G 1 5072 1
+G 1 5073 1
+G 1 5074 1
+G 1 5071 1
+M 0 5096 1 5108
+E 1 5061 1 14
+M 0 5061 1 5107
+M 0 5065 1 5106
+E 1 5054 1 21
+E 1 5057 1 7
+M 0 5073 1 5105
+E 1 5058 1 7
+E 1 5052 1 21
+M 0 5101 1 5104
+E 1 5061 1 14
+M 0 5053 1 5101
+M 0 5058 1 5100
+M 0 5084 1 5099
+M 0 5090 1 5098
+M 0 5066 1 5097
+E 1 5051 1 21
+E 1 5057 1 7
+M 0 5062 1 5096
+M 0 5054 1 5057
+M 0 5073 1 5058
+E 1 5058 1 7
+E 1 5052 1 21
+M 0 5079 1 5059
+E 1 5060 1 7
+E 1 5053 1 21
+M 0 5092 1 5060
+E 1 5059 1 7
+M 0 5064 1 5061
+M 0 5067 1 5062
+E 1 5057 1 7
+E 1 5055 1 21
+M 0 5074 1 5063
+E 1 5052 1 21
+E 1 5058 1 7
+M 0 5068 1 5068
+E 1 5057 1 7
+E 1 5056 1 21
+M 0 5093 1 5069
+E 1 5059 1 7
+M 0 5075 1 5070
+E 1 5058 1 7
+E 1 5052 1 21
+M 0 5055 1 5068
+M 0 5068 1 5073
+E 1 5057 1 7
+E 1 5054 1 21
+M 0 5080 1 5072
+E 1 5060 1 7
+E 1 5053 1 21
+M 0 5069 1 5075
+E 1 5057 1 7
+E 1 5056 1 21
+M 0 5085 1 5077
+M 0 5085 1 5078
+M 0 5071 1 5079
+E 1 5057 1 7
+E 1 5055 1 21
+M 0 5056 1 5080
+M 0 5064 1 5081
+M 0 5070 1 5082
+E 1 5055 1 21
+E 1 5057 1 7
+M 0 5104 1 5064
+G 1 5066 1
+G 1 5068 1
+G 1 5064 1
+G 1 5060 1
+G 1 5051 1
+G 1 5058 1
+M 0 5102 1 5067
+G 1 5061 1
+G 1 5056 1
+G 1 5057 1
+G 1 5054 1
+G 1 5055 1
+M 0 5097 1 5079
+E 1 5061 1 14
+M 0 5100 1 5096
+G 1 5062 1
+G 1 5070 1
+G 1 5068 1
+E 1 5061 1 14
+M 0 5106 1 5124
+E 1 5058 1 7
+E 1 5052 1 21
+M 0 5105 1 5065
+G 1 5067 1
+G 1 5063 1
+G 1 5065 1
+G 1 5069 1
+G 1 5062 1
+G 1 5064 1
+M 0 5059 1 5060
+M 0 5076 1 5065
+E 1 5057 1 7
+E 1 5052 1 21
+M 0 5086 1 5071
+M 0 5087 1 5074
+M 0 5091 1 5078
+M 0 5098 1 5082
+E 1 5061 1 14
+S
+
+
+#SHOPS
+ 5100    9  5  8  0  0   120  90         7 18    ; a rebel recruiter
+ 5102    9  5  0  0  0   120  90         7 18    ; Maek the weaponsmith
+ 5103   63 10  3  2  4   120  90         7 18    ; Shal-on the witch doctor
+ 5104    9  5 17  8  0   120  90         7 18    ; Jarez the outfitter
+ 5105    9 63  0  0  0   120  90         7 18    ; Lowel the bartender
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5065 spec_guard
+M  5066 spec_guard
+M  5067 spec_guard
+M  5068 spec_guard
+M  5069 spec_guard
+M  5070 spec_guard
+M  5071 spec_guard
+M  5084 spec_cast_shaman
+M  5087 spec_cast_shaman
+M  5103 spec_cast_shaman
+M  5106 spec_cast_druid
+S
+
+
+#$

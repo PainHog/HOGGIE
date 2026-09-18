@@ -1,0 +1,2300 @@
+#AREA   Eastern Corridor~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+15 35 0 65
+$
+
+#RESETMSG A warm wind begins to come in from the west.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 822559350
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#4801
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4802
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4803
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4804
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4805
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4806
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4807
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4808
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4809
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4810
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4811
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4812
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4813
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4814
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4815
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4816
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4817
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4818
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4819
+Dodo Bird Fat~
+a dodo~
+A very plump flightless bird waddles by.
+~
+This bird seems to be far too fat to fly.  It's wings are small but it's belly
+is nice and large. It's legs look good for frying as well. It doesn't seem to
+mind your presence too much.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 536870928 0 0 0 0 0
+#4820
+Rat Razor~
+a razor-back rat~
+This large rat with a large fin of hair watches you.
+~
+This is a pretty big rat. It must weight at least 5kgs and looks pretty tough
+as far as rats go. It seems to be well-fed, probably eating the eggs of the
+dodo's and whatever small fish it can catch in the warm waters.
+~
+16777283 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 262160 0 0 0 0 0
+#4821
+Rat Razor~
+a razor-back rat~
+This large rat with a large fin of hair watches you.
+~
+This is a pretty big rat. It must weight at least 5kgs and looks pretty tough
+as far as rats go. It seems to be well-fed, probably eating the eggs of the
+dodo's and whatever small fish it can catch in the warm waters.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 1032 0 0 0 0 0
+#4822
+Rat Razor~
+a razor-back rat~
+This large rat with a large fin of hair watches you.
+~
+This is a pretty big rat. It must weight at least 5kgs and looks pretty tough
+as far as rats go. It seems to be well-fed, probably eating the eggs of the
+dodo's and whatever small fish it can catch in the warm waters.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 263680 0 0 0 0 0
+#4823
+Turtle Massive Huge~
+a massive turtle~
+This huge turtle slowly makes it's way by.
+~
+This massive turtle is doing whatever it is turtles do. It is slowly making
+it's way across the island. It's shell looks pretty solid and besides the rats
+it doesn't seem to have any predators to worry about. You wonder if it's shy.
+~
+17039425 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 512 512 0
+0 0 1040 0 0 0 129 1
+#4824
+Turtle Massive Huge~
+a massive turtle~
+This huge turtle slowly makes it's way by.
+~
+This massive turtle is doing whatever it is turtles do. It is slowly making
+it's way across the island. It's shell looks pretty solid and besides the rats
+it doesn't seem to have any predators to worry about. You wonder if it's shy.
+~
+17039425 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 512 512 0
+0 0 262160 0 0 0 129 1
+#4825
+Turtle Massive Huge~
+a massive turtle~
+This huge turtle slowly makes it's way by.
+~
+This massive turtle is doing whatever it is turtles do. It is slowly making
+it's way across the island. It's shell looks pretty solid and besides the rats
+it doesn't seem to have any predators to worry about. You wonder if it's shy.
+~
+17039425 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 512 512 0
+0 0 1032 0 0 0 129 1
+#4826
+Turtle Massive Huge~
+a massive turtle~
+This huge turtle slowly makes it's way by.
+~
+This massive turtle is doing whatever it is turtles do. It is slowly making
+it's way across the island. It's shell looks pretty solid and besides the rats
+it doesn't seem to have any predators to worry about. You wonder if it's shy.
+~
+17039425 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 512 512 0
+0 0 262168 0 0 0 129 1
+#4827
+Fire Rat~
+a fire-rat~
+This rat has a coat that seems to made of fire.
+~
+No bigger than other rats this little critter seems to have fur that is both
+resistant to flames but also generates them. You suspect it would not be wise
+to mess with it, unless of course you have a bucket of water.
+~
+16777281 33554432 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 2 0 0 128 128 0
+0 0 268697608 1 0 0 3 2
+#4828
+Fire Rat~
+a fire-rat~
+This rat has a coat that seems to made of fire.
+~
+No bigger than other rats this little critter seems to have fur that is both
+resistant to flames but also generates them. You suspect it would not be wise
+to mess with it, unless of course you have a bucket of water.
+~
+16777281 33554432 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 2 0 0 128 128 0
+0 0 0 1 0 0 3 2
+#4829
+baby fire rat~
+a baby fire-rat~
+This tiny rat stays close to its mother.
+~
+This little rat has yet to develop the flames around it. It is almost cute if
+it wasn't a deep red rat. It stays close to its mother as it stares at you
+nervously.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 2 0 0 128 128 0
+0 0 263184 1 0 0 1 0
+#4830
+baby fire rat~
+a baby fire-rat~
+This tiny rat stays close to its mother.
+~
+This little rat has yet to develop the flames around it. It is almost cute if
+it wasn't a deep red rat. It stays close to its mother as it stares at you
+nervously.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 2 0 0 128 128 0
+0 0 263184 1 0 0 1 0
+#4831
+baby fire rat~
+a baby fire-rat~
+This tiny rat stays close to its mother.
+~
+This little rat has yet to develop the flames around it. It is almost cute if
+it wasn't a deep red rat. It stays close to its mother as it stares at you
+nervously.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 2 0 0 128 128 0
+0 0 1048 1 0 0 1 0
+#4832
+Mother Fire Rat~
+a mother fire-rat~
+This large rat hisses at you!
+~
+This mama rat is not too happy you have invaded her home. She hisses at you
+and her fire-lit fur blazes even brighter. She is bigger than the others and
+none to happy.
+~
+67 37748736 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 263184 1 0 0 67109379 515
+#4833
+Coyote Brown dog~
+a coyote~
+This dog looking creature sniffs around for food.
+~
+This coyote is scrawny and lean yet moves with a light step. It is sniffing
+around for a rabbit or bird or anything that it can eat.  It notices you and
+stares at you curiously.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 2 0 0 512 512 0
+0 0 327688 0 0 0 3 0
+#4834
+Coyote Brown dog~
+a coyote~
+This dog looking creature sniffs around for food.
+~
+This coyote is scrawny and lean yet moves with a light step. It is sniffing
+around for a rabbit or bird or anything that it can eat.  It notices you and
+stares at you curiously.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 2 0 0 512 512 0
+0 0 327688 0 0 0 3 0
+#4835
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4836
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4837
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4838
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4839
+Cat Fish Large~
+a large cat-fish~
+A large, whiskered fish swims past.
+~
+This fish would make a tasty meal. It must way a good 10 kgs and it looks like
+it is all good meat. It has an odd set of whisker like feelers at the sides of
+its face.
+~
+1090519041 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 6 0 0 4096 4096 0
+0 0 148480 0 0 0 0 2
+#4840
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4841
+Man War Jelly tissue blob~
+a man-o-war~
+This blob of tissue floats by.
+~
+This odd creature seems to made entirely of tissue and jelly.  It seems
+harmless enough until you realize that most of it is underwater and out of
+sight. You also notice the multiple stingers that are starting to make their
+way towards you.
+~
+1090519041 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 8192 8192 0
+0 0 8192 0 0 0 131080 0
+#4900
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+16777281 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#0
+
+
+#OBJECTS
+#4801
+Turtle Shell shield~
+a turtleshell shield~
+This large shell is hard as a rock.
+~
+~
+9 64 524289
+6 6 0 0
+9 0 0
+A
+4 3
+A
+24 -3
+A
+5 3
+#4802
+Rusted Scythe~
+a rusted scythe~
+This old blade could probably still cut wheat
+~
+~
+5 0 131073
+12 3 4 3
+4 0 0
+A
+19 2
+#4803
+Fire Rat Band Wrist~
+a fire-rat wrist band~
+This guard made from fire-rat hide is fashionable.
+~
+~
+9 64 257
+3 3 0 0
+2 0 0
+A
+27 1
+A
+25 3
+A
+18 3
+A
+19 1
+#4804
+Walking Staff Solid~
+a solid walking staff~
+This sturdy staff would make traveling easier.~
+~
+8 64 1048577
+0 0 0 0
+4 0 0
+A
+14 150
+A
+52 10
+#4805
+Bottle Floating~
+a floating bottle~
+This bottle bobs up and down in the water.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 0 0
+'cure poison' 'aqua breath' 'refresh'
+#4806
+Gold Watch Antique~
+an antique gold watch~
+This rusted trinket barely glimmers through the sand.~
+~
+8 64 1
+0 0 0 0
+1 2000 0
+#4900
+Placeholder~
+Placeholder~
+Placeholder~
+~
+8 64 1
+0 0 0 0
+1 2000 0
+#0
+
+
+#ROOMS
+#4801
+Through The Foothills~
+You move past the odd spot of charred grass and flowers. The hills are
+beginning to thin and you smell the slight hint of running water nearby.
+Animals are moving along the hills and the sound of a some kind of animal
+echoes against the hillside.
+~
+0 1 4
+D0
+~
+~
+16777216 0 9987
+D2
+~
+~
+0 0 4802
+S
+#4802
+Through The Foothills~
+There is no road here but there are signs of travel. The hills are beginning
+to thin and you smell the slight hint of running water nearby.  Animals are
+moving along the hills and the sound of a some kind of animal echoes against
+the hillside.
+~
+0 1 4
+D0
+Exit description~
+~
+0 0 4801
+D2
+~
+~
+0 0 4803
+S
+#4803
+Through The Foothills~
+You move past the odd spot of charred grass and flowers. The hills are
+beginning to thin and you smell the slight hint of running water nearby.
+Animals are moving along the hills and the sound of a some kind of animal
+echoes against the hillside.
+~
+0 1 4
+D0
+Exit description~
+~
+0 0 4802
+D2
+~
+~
+0 0 4804
+S
+#4804
+Through The Foothills~
+You move past the odd spot of charred grass and flowers. The hills are
+beginning to thin and you smell the slight hint of running water nearby.
+Animals are moving along the hills and the sound of a some kind of animal
+echoes against the hillside.
+~
+0 1 4
+D0
+Exit description~
+~
+0 0 4803
+D1
+~
+~
+0 0 4805
+S
+#4805
+Approaching A River~
+The smell of water is heavy in the air. You can hear the rumbling of a river
+somewhere to the south.  The grass is thinning and now you can see signs of
+coyotes wandering back and forth. Hopefully the river will have a quiet place
+to relax after such a long journey.
+~
+0 1 4
+D1
+~
+~
+0 0 4806
+D3
+Exit description~
+~
+0 0 4804
+S
+#4806
+Approaching A River~
+The smell of water is heavy in the air. You can hear the rumbling of a river
+somewhere to the south.  The grass is thinning and now you can see signs of
+coyotes wandering back and forth. Hopefully the river will have a quiet place
+to relax after such a long journey.
+~
+0 1 4
+D1
+~
+~
+0 0 4807
+D3
+Exit description~
+~
+0 0 4805
+S
+#4807
+Approaching A River~
+The smell of water is heavy in the air. You can hear the rumbling of a river
+somewhere to the south.  The grass is thinning and now you can see signs of
+coyotes wandering back and forth. Hopefully the river will have a quiet place
+to relax after such a long journey.
+~
+0 1 4
+D2
+~
+~
+0 0 4808
+D3
+~
+~
+0 0 4806
+S
+#4808
+The Banks Of A Swift River~
+This river is magnificent.  It must flow from some source deeper east inside
+the hills.  The current looks heavy and it doesn't seem smart to try and cross
+it. Looking down river you can see that it runs through all of the hill sides.
+This might be the fastest way to cross the land.
+~
+0 1 4
+D0
+Exit description~
+~
+0 0 4807
+D1
+~
+~
+16777216 0 4809
+S
+#4809
+Cruising On A Swift River~
+The current is indeed fast but you are making more than good time moving
+through the land.  You see numerous fish and several birds that are diving
+into the water after them. You wonder if anybody has ever seen this place
+before, it would provide an excellent spot for a Mill.
+~
+0 1 6
+D1
+~
+~
+0 0 4810
+D3
+Exit description~
+~
+16777216 0 4808
+S
+#4810
+Cruising On A Swift River~
+The current is indeed fast but you are making more than good time moving
+through the land.  You see numerous fish and several birds that are diving
+into the water after them. You wonder if anybody has ever seen this place
+before, it would provide an excellent spot for a Mill.
+~
+0 1 6
+D1
+~
+~
+0 0 4811
+D3
+Exit description~
+~
+0 0 4809
+S
+#4811
+Cruising On A Swift River~
+The current is indeed fast but you are making more than good time moving
+through the land.  You see numerous fish and several birds that are diving
+into the water after them. You wonder if anybody has ever seen this place
+before, it would provide an excellent spot for a Mill.
+~
+0 1 6
+D2
+~
+~
+0 0 4812
+D3
+Exit description~
+~
+0 0 4810
+S
+#4812
+Cruising On A Swift River~
+The current is indeed fast but you are making more than good time moving
+through the land.  You see numerous fish and several birds that are diving
+into the water after them. You wonder if anybody has ever seen this place
+before, it would provide an excellent spot for a Mill.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4811
+D2
+~
+~
+0 0 4813
+S
+#4813
+Cruising On A Swift River~
+The current is indeed fast but you are making more than good time moving
+through the land.  You see numerous fish and several birds that are diving
+into the water after them. You wonder if anybody has ever seen this place
+before, it would provide an excellent spot for a Mill.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4812
+D2
+~
+~
+0 0 4814
+S
+#4814
+Gaining Speed On A Swift River~
+The current is definitely starting to pick up the pace. You scarcely have time
+to enjoy the quiet beauty of the area. The hills are a soft green and the
+water is clear.  You can hear an odd rumbling ahead but it doesn't sound like
+thunder.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4813
+D1
+~
+~
+0 0 4815
+S
+#4815
+Gaining Speed On A Swift River~
+The current is definitely starting to pick up the pace. You scarcely have time
+to enjoy the quiet beauty of the area. The hills are a soft green and the
+water is clear.  You can hear an odd rumbling ahead but it doesn't sound like
+thunder.
+~
+0 1 6
+D1
+~
+~
+0 0 4816
+D3
+Exit description~
+~
+0 0 4814
+S
+#4816
+Gaining Speed On A Swift River~
+The current is definitely starting to pick up the pace. You scarcely have time
+to enjoy the quiet beauty of the area. The hills are a soft green and the
+water is clear.  You can hear an odd rumbling ahead but it doesn't sound like
+thunder.
+~
+0 1 6
+D1
+~
+~
+0 0 4817
+D3
+Exit description~
+~
+0 0 4815
+S
+#4817
+Gaining Speed On A Swift River~
+The current is definitely starting to pick up the pace. You scarcely have time
+to enjoy the quiet beauty of the area. The hills are a soft green and the
+water is clear.  You can hear an odd rumbling ahead but it doesn't sound like
+thunder.
+~
+0 1 6
+D2
+~
+~
+0 0 4818
+D3
+Exit description~
+~
+0 0 4816
+S
+#4818
+Gaining Speed On A Swift River~
+The current is definitely starting to pick up the pace. You scarcely have time
+to enjoy the quiet beauty of the area. The hills are a soft green and the
+water is clear.  You rumbling is starting to get much louder.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4817
+D2
+~
+~
+0 0 4819
+S
+#4819
+Riding The Rapids~
+Oh Great Drazuk! The river has turned rough and you've entered a huge set of
+rapids. The jagged rocks seem to be smiling as you try maneuver past them.
+The white-water is almost five feet high! You pray that you can make it
+through.
+~
+0 1 7
+D0
+Exit description~
+~
+0 0 4818
+D1
+~
+~
+0 0 4820
+S
+#4820
+Riding The Rapids~
+Oh Great Drazuk! The river has turned rough and you've entered a huge set of
+rapids. The jagged rocks seem to be smiling as you try maneuver past them.
+The white-water is almost five feet high! You pray that you can make it
+through.
+~
+0 1 7
+D1
+~
+~
+0 0 4821
+D3
+~
+~
+0 0 4819
+S
+#4821
+Riding The Rapids~
+Oh Great Drazuk! The river has turned rough and you've entered a huge set of
+rapids. The jagged rocks seem to be smiling as you try maneuver past them.
+The white-water is almost five feet high! You pray that you can make it
+through.
+~
+0 1 7
+D1
+~
+~
+0 0 4822
+D3
+Exit description~
+~
+0 0 4820
+S
+#4822
+A Rather Steep Drop~
+The day just get's better and better.  You've managed to survive the rapids
+and now you have a nice 200 foot drop into a pool of ragged rocks and shallow
+water. It is just that kinda day isn't it?
+~
+0 1 7
+D3
+~
+~
+0 0 4821
+D5
+~
+~
+16777216 0 4823
+S
+#4823
+Under A Waterfall~
+You survived!! You think. The water is warm and clear, the bottom is nowhere
+to be seen, and...yes...after careful inspection you are in one piece. Let's
+do it again! The current is too swift to swim back up, better try to swim past
+the waterfall.
+~
+0 1 12
+D1
+~
+~
+0 0 4824
+D4
+Exit description~
+~
+16777216 0 4822
+S
+#4824
+Under The River~
+You continue to swim past the waterfall.  The current is much lighter here and
+you think you can make it back up to the surface. The water is amazingly warm,
+at least you got a path after traveling through the hills.
+~
+0 1 12
+D3
+Exit description~
+~
+0 0 4823
+D4
+~
+~
+0 0 4825
+S
+#4825
+Floating Through The Bay~
+You emerge to find yourself in a large bay.  The hills are fading and you can
+see the expanse of the ocean ahead of you. It looks as if the hills were just
+steeply cut if by magic. Far to the north you can make out the shape of
+several island and to the east, more water.
+~
+0 1 6
+D1
+~
+~
+16777216 0 4826
+D5
+Exit description~
+~
+0 0 4824
+S
+#4826
+Floating Through The Bay~
+You emerge to find yourself in a large bay.  The hills are fading and you can
+see the expanse of the ocean ahead of you. It looks as if the hills were just
+steeply cut if by magic. Far to the north you can make out the shape of
+several island and to the east, more water.
+~
+0 1 6
+D1
+~
+~
+0 0 4827
+D3
+Exit description~
+~
+16777216 0 4825
+S
+#4827
+In Open Water~
+Back to the Ocean. To the north you can see the outline of several small
+islands and to the east, lots of water. Perhaps it would be best to rest and
+dry off on one of the islands. Then again, who knows what lies beyond the
+ocean?
+~
+0 1 6
+D0
+~
+~
+0 0 4828
+D1
+~
+~
+0 0 4871
+D3
+Exit description~
+~
+0 0 4826
+S
+#4828
+In Open Water~
+Back to the Ocean. To the north you can see the outline of several small
+islands and to the east, lots of water. Perhaps it would be best to rest and
+dry off on one of the islands. Then again, who knows what lies beyond the
+ocean?
+~
+0 1 6
+D0
+~
+~
+0 0 4829
+D2
+Exit description~
+~
+0 0 4827
+S
+#4829
+In Open Water~
+Back to the Ocean. To the north you can see the outline of several small
+islands and to the east, lots of water. Perhaps it would be best to rest and
+dry off on one of the islands. Then again, who knows what lies beyond the
+ocean?
+~
+0 1 6
+D0
+~
+~
+0 0 4830
+D2
+Exit description~
+~
+0 0 4828
+S
+#4830
+Approaching A Small Archipelago~
+The small group of islands looks safe enough. The water is getting
+consistently warmer and you can hear the call of numerous birds.  Maybe some
+of them are fat and tasty.
+~
+0 1 6
+D0
+~
+~
+0 0 4831
+D2
+Exit description~
+~
+0 0 4829
+S
+#4831
+Approaching A Small Archipelago~
+The small group of islands looks safe enough. The water is getting
+consistently warmer and you can hear the call of numerous birds.  Maybe some
+of them are fat and tasty.
+~
+0 1 6
+D0
+~
+~
+0 0 4832
+D2
+Exit description~
+~
+0 0 4830
+S
+#4832
+Approaching A Small Archipelago~
+The small group of islands looks safe enough. The water is getting
+consistently warmer and you can hear the call of numerous birds.  Maybe some
+of them are fat and tasty.
+~
+0 1 6
+D0
+~
+~
+0 0 4833
+D2
+Exit description~
+~
+0 0 4831
+S
+#4833
+Approaching A Small Archipelago~
+The small group of islands looks safe enough. The water is getting
+consistently warmer and you can hear the call of numerous birds.  Maybe some
+of them are fat and tasty.
+~
+0 1 6
+D1
+~
+~
+16777216 0 4834
+D2
+Exit description~
+~
+0 0 4832
+D3
+~
+~
+16777216 0 4848
+S
+#4834
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat. You can see several types of flightless birds running around that look
+just mouth watering. You wonder how a bird like this got onto this island?
+~
+0 1 2
+D0
+~
+~
+0 0 4839
+D1
+~
+~
+0 0 4835
+D3
+Exit description~
+~
+16777216 0 4833
+S
+#4835
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat. You can see several types of flightless birds running around that look
+just mouth watering. You wonder how a bird like this got onto this island?
+~
+0 1 2
+D0
+~
+~
+0 0 4838
+D1
+~
+~
+0 0 4836
+D3
+Exit description~
+~
+0 0 4834
+S
+#4836
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat. You can see several types of flightless birds running around that look
+just mouth watering. You wonder how a bird like this got onto this island?
+~
+0 1 2
+D0
+~
+~
+0 0 4837
+D3
+~
+~
+0 0 4835
+S
+#4837
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat. You can see several types of flightless birds running around that look
+just mouth watering. You wonder how a bird like this got onto this island?
+~
+0 1 2
+D2
+Exit description~
+~
+0 0 4836
+D3
+~
+~
+0 0 4838
+S
+#4838
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat. You can see several types of flightless birds running around that look
+just mouth watering. You wonder how a bird like this got onto this island?
+~
+0 1 2
+D1
+Exit description~
+~
+0 0 4837
+D2
+Exit description~
+~
+0 0 4835
+D3
+~
+~
+0 0 4839
+S
+#4839
+A Tiny Island~
+This small island is made of nothing but prime farm land! It is smooth and
+flat.  You can see another island that actually has a few odd buildings on it.
+It would just be a short swim across the water.
+~
+0 1 2
+D0
+~
+~
+16777216 0 4840
+D1
+Exit description~
+~
+0 0 4838
+D2
+Exit description~
+~
+0 0 4834
+S
+#4840
+Island-Hopping~
+The next island is only a bit away.  The outline of an odd stone building is
+coming into view. You can hear the calls of those delicious flightless birds
+coming from the island as well.
+~
+0 0 6
+D0
+~
+~
+0 0 4841
+D2
+Exit description~
+~
+16777216 0 4839
+S
+#4841
+Island-Hopping~
+The next island is only a bit away.  The outline of an odd stone building is
+coming into view. You can hear the calls of those delicious flightless birds
+coming from the island as well.
+~
+0 0 6
+D0
+~
+~
+0 0 4842
+D2
+~
+~
+0 0 4840
+S
+#4842
+Among A Ruined Farm~
+The stone building appears to be an old granary of some kind. Whatever food it
+once held is long since been eaten by rodents. Or maybe those little birds.
+You cannot see any reason why this farm was abandoned but it seems that it has
+been deserted for a good deal of time.
+~
+0 1 1
+D0
+~
+~
+0 0 4847
+D1
+~
+~
+0 0 4843
+D2
+Exit description~
+~
+16777216 0 4841
+S
+#4843
+Inside The Granary~
+The floor has been picked clean of any of the grain or wheat that was stored.
+You can see several very rusted scythes and an odd contraption that looks like
+a hand-pushed cart with blades on the side. The proportions of the machine and
+the tools make its clear it was a family of dwarves or gnomes. In the corner
+you can see evidence of a large clan of rats that are probably the descendents
+of those that gluttoned themselves here.
+~
+0 1 0
+D1
+~
+~
+0 0 4844
+D3
+Exit description~
+~
+0 0 4842
+S
+#4844
+Among A Ruined Farm~
+The stone building appears to be an old granary of some kind. Whatever food it
+once held is long since been eaten by rodents. Or maybe those little birds.
+You cannot see any reason why this farm was abandoned but it seems that it has
+been deserted for a good deal of time.
+~
+0 1 1
+D0
+~
+~
+0 0 4845
+D3
+Exit description~
+~
+0 0 4843
+S
+#4845
+Among A Ruined Farm~
+A stone house that has mostly broken apart lies to the north. The wooden roof
+has caved in and you can see the wind has taken some of the rotting clothing
+and scattered it all over. Despite the damage, it looks safe enough to
+explore.
+~
+0 1 1
+D2
+Exit description~
+~
+0 0 4844
+D3
+~
+~
+0 0 4846
+S
+#4846
+Inside A Ruined House~
+The house is old and seems to make a groan with each step you take. You search
+for signs of valuables but find nothing. No silverware, no family treasures,
+barely any sign of clothing. You can't find a reason why anyone would just let
+this place run down.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 4845
+D3
+~
+~
+0 0 4847
+S
+#4847
+A Humble Graveyard~
+You are at a tiny graveyard, overlooking the water. You can see the shape of
+another island to the west but it would be quite a drop to the water below.
+The language is obscure but you notice the first portion of each name is the
+same.  It seems a family did once live here. Four of the ten gravestones have
+the same markings, you imagine its the date.  Perhaps some horrible fate
+befell the family and they decided to leave this place. That's a very cheery
+thought indeed.
+~
+0 1 2
+D1
+Exit description~
+~
+0 0 4846
+D2
+Exit description~
+~
+0 0 4842
+S
+#4848
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4855
+D1
+Exit description~
+~
+16777216 0 4833
+D3
+~
+~
+0 0 4849
+S
+#4849
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4854
+D1
+Exit description~
+~
+0 0 4848
+D3
+~
+~
+0 0 4850
+S
+#4850
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4853
+D1
+Exit description~
+~
+0 0 4849
+D3
+~
+~
+0 0 4851
+S
+#4851
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4852
+D1
+Exit description~
+~
+0 0 4850
+S
+#4852
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4859
+D1
+~
+~
+0 0 4853
+D2
+~
+~
+0 0 4851
+S
+#4853
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4858
+D1
+~
+~
+0 0 4854
+D2
+Exit description~
+~
+0 0 4850
+D3
+Exit description~
+~
+0 0 4852
+S
+#4854
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4857
+D1
+~
+~
+0 0 4855
+D2
+Exit description~
+~
+0 0 4849
+D3
+Exit description~
+~
+0 0 4853
+S
+#4855
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4856
+D2
+Exit description~
+~
+0 0 4848
+D3
+Exit description~
+~
+0 0 4854
+S
+#4856
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D2
+~
+~
+0 0 4855
+D3
+~
+~
+0 0 4857
+S
+#4857
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4861
+D1
+Exit description~
+~
+0 0 4856
+D2
+Exit description~
+~
+0 0 4854
+D3
+~
+~
+0 0 4858
+S
+#4858
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.
+~
+0 1 2
+D0
+~
+~
+0 0 4860
+D1
+Exit description~
+~
+0 0 4857
+D2
+Exit description~
+~
+0 0 4853
+D3
+~
+~
+0 0 4859
+S
+#4859
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.  You
+can see the outline of a smaller island to the north. It seems to be smoking.
+~
+0 1 2
+D1
+Exit description~
+~
+0 0 4858
+D2
+Exit description~
+~
+0 0 4852
+S
+#4860
+A Larger Island~
+This island is quite large compared to the others. It seems to have several
+types of large trees and plants.  Yet walking is easy and the undergrowth
+doesn't seem to be an issue.  The larger plantlife seems to have made an ample
+food source for the large turtles that are slowly making their way about.  You
+can see the outline of a smaller island to the north. It seems to be smoking.
+~
+0 1 2
+D0
+~
+~
+16777216 0 4862
+D1
+~
+~
+0 0 4861
+D2
+Exit description~
+~
+0 0 4858
+S
+#4861
+A Larger Island~
+You can see the outline of the island clearly.  The cliffs are sharp and
+steep, it would be hard to climb. Yet you spot a small landing a bit away.
+The water looks calm and inviting. It would be an easy swim.
+~
+0 1 2
+D2
+Exit description~
+~
+0 0 4857
+D3
+Exit description~
+~
+0 0 4860
+S
+#4862
+Island-Hopping~
+The smoking island is not that far. Just keep moving. The water is almost
+uncomfortably warm.  You notice the turtles have stopped coming near the
+water.  Their is a definite halo of haze around the island.
+~
+0 0 6
+D0
+~
+~
+0 0 4863
+D2
+Exit description~
+~
+0 0 4860
+S
+#4863
+Island-Hopping~
+The smoking island is not that far. Just keep moving. The water is almost
+uncomfortably warm.  You notice the turtles have stopped coming near the
+water.  Their is a definite halo of haze around the island.
+~
+0 0 6
+D0
+~
+~
+16777216 0 4864
+D2
+Exit description~
+~
+16777216 0 4862
+S
+#4864
+Island-Hopping~
+The smoking island is not that far. Just keep moving. The water is almost
+uncomfortably warm.  You notice the turtles have stopped coming near the
+water.  Their is a definite halo of haze around the island.  You see the
+landing to the east.
+~
+0 0 6
+D1
+~
+~
+0 0 4865
+D2
+Exit description~
+~
+0 0 4863
+S
+#4865
+On The Hazy Island~
+The ground itself is warm and the plant life is amazingly lush. The air is
+humid from the constantly burning dew and ocean spray. You can feel a very
+warm wind blowing in from the south.
+~
+0 1 5
+D1
+~
+~
+0 0 4866
+D2
+~
+~
+0 0 4868
+D3
+Exit description~
+~
+16777216 0 4864
+S
+#4866
+On The Hazy Island~
+The ground itself is warm and the plant life is amazingly lush. The air is
+humid from the constantly burning dew and ocean spray. You can feel a very
+warm wind blowing in from the south.
+~
+0 1 5
+D2
+~
+~
+0 0 4867
+D3
+Exit description~
+~
+0 0 4865
+S
+#4867
+On The Hazy Island~
+The ground itself is warm and the plant life is amazingly lush. The air is
+humid from the constantly burning dew and ocean spray. The air is definitely
+hot and you can see a faint glow to the south.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 4866
+D3
+~
+~
+0 0 4868
+S
+#4868
+On The Hazy Island~
+The ground itself is warm and the plant life is amazingly lush. The air is
+humid from the constantly burning dew and ocean spray. The air is definitely
+hot and you can see a faint glow to the south.
+~
+0 0 5
+D0
+~
+~
+0 0 4865
+D1
+Exit description~
+~
+0 0 4867
+D2
+~
+~
+0 0 4869
+S
+#4869
+Before A Glowing Crevice~
+The source of the light is definitely coming from below the cave. You can see
+jets of steam and smoke rising from small holes all around the crevice. The
+heat is starting to get very uncomfortable. You wonder just what is down there.
+~
+0 0 5
+D4
+~
+~
+0 0 4868
+D5
+~
+~
+16777216 0 4870
+S
+#4870
+Inside A Fire-Rat's Nest~
+This place reeks of natural gases and old bones. You can see several large
+shells of the turtles that wander here. It seems a large family of rats that
+are more than at home in the heat have made their home here.  A flow of old
+lava has solidified below, blocking this area from the direct blasts of heat
+but also keeping it at oven like temperatures.
+~
+0 0 5
+D4
+Exit description~
+~
+16777216 0 4869
+S
+#4871
+In Open Water~
+The ocean current is light and the fish are plentiful. The bottom is nowhere
+to be seen and the waves small and playful. The ocean just keeps going on and
+on but in the far distance you can see the outline of what may be seagulls.
+~
+0 1 6
+D1
+~
+~
+0 0 4872
+D3
+Exit description~
+~
+0 0 4827
+S
+#4872
+In Open Water~
+The ocean current is light and the fish are plentiful. The bottom is nowhere
+to be seen and the waves small and playful. The ocean just keeps going on and
+on but in the far distance you can see the outline of what may be seagulls.
+~
+0 1 6
+D1
+~
+~
+0 0 4873
+D3
+Exit description~
+~
+0 0 4871
+S
+#4873
+In Open Water~
+The ocean current is light and the fish are plentiful. The bottom is nowhere
+to be seen and the waves small and playful. The ocean just keeps going on and
+on but in the far distance you can see the outline of what may be seagulls.
+~
+0 1 6
+D2
+~
+~
+0 0 4874
+D3
+~
+~
+0 0 4872
+S
+#4874
+In Open Water~
+You can definitely see an outline of various sea-birds far off in the
+distance. If you remember the tales of that crazy fisherman back home
+correctly you know that sea-birds never go too far from land unless they are
+dying. You doubt that many birds are dying at once.
+~
+0 1 6
+D0
+~
+~
+0 0 4873
+D2
+~
+~
+0 0 4875
+S
+#4875
+In Open Water~
+You can definitely see an outline of various sea-birds far off in the
+distance. If you remember the tales of that crazy fisherman back home
+correctly you know that sea-birds never go too far from land unless they are
+dying. You doubt that many birds are dying at once.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4874
+D1
+~
+~
+0 0 4876
+S
+#4876
+In Open Water~
+You can definitely see an outline of various sea-birds far off in the
+distance. If you remember the tales of that crazy fisherman back home
+correctly you know that sea-birds never go too far from land unless they are
+dying. You doubt that many birds are dying at once.  You can see a long wall
+like creation just a bit away.
+~
+0 1 6
+D1
+~
+~
+0 0 4877
+D3
+Exit description~
+~
+0 0 4875
+S
+#4877
+In Open Water~
+You can definitely see an outline of various sea-birds far off in the
+distance. If you remember the tales of that crazy fisherman back home
+correctly you know that sea-birds never go too far from land unless they are
+dying. You doubt that many birds are dying at once. There is a very large
+breakwall to the south.
+~
+0 1 6
+D2
+~
+~
+16777216 0 4878
+D3
+Exit description~
+~
+0 0 4876
+S
+#4878
+Closing In On A Break Wall~
+This large break wall is definitely man made. It seems to be made of numerous
+rocks and cement yet bolstered by beams of steel. A magnificent example of
+masonry to be sure.  You can see what seems to be signs of a port city! This
+must be the far east you have heard about!
+~
+0 1 6
+D0
+Exit description~
+~
+16777216 0 4877
+D1
+~
+~
+16777216 0 4901
+S
+#4900
+Placeholder~
+Placeholder
+~
+0 5 6
+S
+#0
+
+
+#RESETS
+M 0 4833 1 4802
+M 0 4834 1 4805
+M 0 4801 1 4809
+M 0 4802 1 4810
+M 0 4803 1 4811
+M 0 4804 1 4814
+M 0 4806 1 4816
+M 0 4835 1 4818
+M 0 4836 1 4820
+M 0 4837 1 4820
+M 0 4838 1 4823
+M 0 4839 1 4825
+M 0 4807 1 4828
+M 0 4808 1 4830
+M 0 4809 1 4826
+M 0 4810 1 4833
+M 0 4811 1 4840
+M 0 4840 1 4872
+M 0 4841 1 4877
+M 0 4829 1 4870
+M 0 4830 1 4870
+M 0 4831 1 4870
+M 0 4832 1 4870
+G 1 4801 1
+M 0 4827 1 4868
+M 0 4828 1 4867
+E 1 4803 1 14
+M 0 4812 1 4861
+M 0 4813 1 4858
+M 0 4823 1 4856
+M 0 4824 1 4854
+M 0 4825 1 4851
+M 0 4826 1 4849
+M 0 4814 1 4850
+M 0 4815 1 4852
+M 0 4816 1 4855
+M 0 4821 1 4846
+M 0 4821 1 4844
+M 0 4820 1 4843
+M 0 4817 1 4836
+M 0 4818 1 4835
+M 0 4819 1 4834
+O 0 4806 1 4823
+O 0 4802 1 4843
+O 0 4804 1 4846
+O 0 4805 1 4875
+M 0 4805 1 4812
+M 0 4822 1 4845
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

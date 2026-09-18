@@ -1,0 +1,1209 @@
+#AREA   Floating Amongst Clouds~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 30 0 65
+$
+
+#RESETMSG A breeze brushes past your skin...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 374507197
+
+#CLIMATE 2 1 3
+
+#MOBILES
+#3801
+bird raven black~
+a noisy raven~
+A black raven squawks as you fly by.
+~
+A raven, flying along in and out of the clouds, lets out a loud squawk when it
+notices you flying by.  Not used to seeing non-birds up in the clouds, it
+watches you closely.
+~
+16777281 524288 0 C
+21 0 -25 4d8+400 3d5+11
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3802
+bird raven black~
+a noisy raven~
+A black raven squawks as you fly by.
+~
+A raven, flying along in and out of the clouds, lets out a loud squawk when it
+notices you flying by.  Not used to seeing non-birds up in the clouds, it
+watches you closely.
+~
+16777281 524288 0 C
+21 0 -25 4d8+400 3d5+11
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3803
+bird raven black~
+a noisy raven~
+A black raven squawks as you fly by.
+~
+A raven, flying along in and out of the clouds, lets out a loud squawk when it
+notices you flying by.  Not used to seeing non-birds up in the clouds, it
+watches you closely.
+~
+16777281 524288 0 C
+21 0 -25 4d8+400 3d5+11
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3804
+hawk bird~
+a hawk~
+A large hawk circles you slowly.
+~
+A large hawk calmly circles about you, riding the breeze with ease.  Its dark
+eyes watch you closely, not used to seeing other fly around up here.
+~
+16777281 524288 1000 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3805
+hawk bird~
+a hawk~
+A large hawk circles you slowly.
+~
+A large hawk calmly circles about you, riding the breeze with ease.  Its dark
+eyes watch you closely, not used to seeing other fly around up here.
+~
+16777281 524288 1000 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3806
+hawk bird~
+a hawk~
+A large hawk circles you slowly.
+~
+A large hawk calmly circles about you, riding the breeze with ease.  Its dark
+eyes watch you closely, not used to seeing other fly around up here.
+~
+16777281 524288 1000 C
+23 0 -35 4d8+470 3d5+13
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3807
+bird vulture~
+a vulture~
+A large vulture scans the ground for corpses.
+~
+An ugly vulture floats lazily far above the ground, keeping an eye out for
+corpses left behind.  It takes a look at you, but isn't very interested in
+living things.
+~
+16777281 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3808
+bird vulture~
+a vulture~
+A large vulture scans the ground for corpses.
+~
+An ugly vulture floats lazily far above the ground, keeping an eye out for
+corpses left behind.  It takes a look at you, but isn't very interested in
+living things.
+~
+16777281 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3809
+bird vulture~
+a vulture~
+A large vulture scans the ground for corpses.
+~
+An ugly vulture floats lazily far above the ground, keeping an eye out for
+corpses left behind.  It takes a look at you, but isn't very interested in
+living things.
+~
+16777281 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3810
+bird condor~
+a condor~
+A huge condor flies in and out of the cloud.
+~
+A majestic condor casts a shadow on you as it flies overhead, nearly blocking
+out the sun with its huge wingspan.
+~
+16777281 524288 1000 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3811
+bird condor~
+a condor~
+A huge condor flies in and out of the cloud.
+~
+A majestic condor casts a shadow on you as it flies overhead, nearly blocking
+out the sun with its huge wingspan.
+~
+16777281 524288 1000 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3812
+bird condor~
+a condor~
+A huge condor flies in and out of the cloud.
+~
+A majestic condor casts a shadow on you as it flies overhead, nearly blocking
+out the sun with its huge wingspan.
+~
+16777281 524288 1000 C
+27 0 -55 4d10+620 3d5+17
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3813
+bird eagle~
+an eagle~
+A giant eagle shrieks past you!
+~
+Diving out of the sun, a giant eagle is past you before you even notice it
+flying about.  It circles around you once again, and flexes its mighty talons,
+wondering if you taste good.
+~
+16777281 524288 1000 C
+29 0 -65 4d15+695 3d5+19
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3814
+bird eagle~
+an eagle~
+A giant eagle shrieks past you!
+~
+Diving out of the sun, a giant eagle is past you before you even notice it
+flying about.  It circles around you once again, and flexes its mighty talons,
+wondering if you taste good.
+~
+16777281 524288 1000 C
+29 0 -65 4d15+695 3d5+19
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3815
+bird eagle~
+an eagle~
+A giant eagle shrieks past you!
+~
+Diving out of the sun, a giant eagle is past you before you even notice it
+flying about.  It circles around you once again, and flexes its mighty talons,
+wondering if you taste good.
+~
+16777281 524288 1000 C
+29 0 -65 4d15+695 3d5+19
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294913 0 0 0 514 0
+#3816
+bird eagle king~
+the eagle king~
+A particularly large eagle circles about, watching the other birds.
+~
+This eagle is almost double the size of the other eagles.  As it flies closer,
+you notice a small crown of gold is set atop its head.  This must be the king
+of the eagles!
+~
+16777283 4718592&320 1000 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 294921 0 0 0 515 2
+> death_prog 10~
+emote makes one final lunge at you, his sharp beak flashing!
+emote falls dead, just before reaching you!
+~
+|
+#3850
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#3801
+crown eagle king circlet~
+the crown of the Eagle King~
+A small golden circlet sits here.~
+~
+9 64 3
+5 5 0 0
+1 500 0
+A
+18 4
+A
+19 2
+#3850
+Placeholder~
+Placeholder~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3801
+Riding The Thermal~
+A tall thermal wind allows you to circle higher and higher into the sky.  Just
+below you, you see the Plains Road stretch off east and west.  Above you, you
+come closer to the strange clouds.
+~
+0 0 9
+D4
+~
+~
+0 0 3802
+D5
+Exit description~
+~
+0 0 708
+S
+#3802
+Riding The Thermal~
+A tall thermal wind allows you to circle higher and higher into the sky.
+Below you, you see the Plains Road stretch off east and west.  Above you, you
+come closer to the strange clouds.
+~
+0 0 9
+D4
+~
+~
+0 0 3803
+D5
+Exit description~
+~
+0 0 3801
+S
+#3803
+Riding The Thermal~
+A tall thermal wind allows you to circle higher and higher into the sky.
+Below you, you see the Plains Road stretch off east and west.  Above you, you
+come closer to the strange clouds.
+~
+0 0 9
+D4
+~
+~
+0 0 3804
+D5
+Exit description~
+~
+0 0 3802
+S
+#3804
+Riding The Thermal~
+A tall thermal wind allows you to circle higher and higher into the sky.
+Below you, you see the Plains Road stretch off east and west.  You rise up
+high enough here to be amongst the clouds.  You see the land far below you.
+The thermal seems be blowing the birds around you to the east.
+~
+0 0 9
+D1
+~
+~
+0 0 3805
+D5
+Exit description~
+~
+0 0 3803
+S
+#3805
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3806
+D2
+Exit description~
+~
+0 0 3818
+D3
+Exit description~
+~
+0 0 3804
+S
+#3806
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3807
+D2
+Exit description~
+~
+0 0 3805
+S
+#3807
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3808
+D2
+Exit description~
+~
+0 0 3806
+S
+#3808
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3819
+D1
+~
+~
+0 0 3809
+D3
+Exit description~
+~
+0 0 3807
+S
+#3809
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3810
+D3
+Exit description~
+~
+0 0 3808
+S
+#3810
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D2
+~
+~
+0 0 3811
+D3
+Exit description~
+~
+0 0 3809
+S
+#3811
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3810
+D2
+~
+~
+0 0 3812
+S
+#3812
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3811
+D2
+~
+~
+0 0 3813
+S
+#3813
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3812
+D2
+~
+~
+0 0 3814
+S
+#3814
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3813
+D3
+~
+~
+0 0 3815
+S
+#3815
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 3814
+D3
+~
+~
+0 0 3816
+S
+#3816
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 3815
+D2
+Exit description~
+~
+0 0 3844
+D3
+~
+~
+0 0 3817
+S
+#3817
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3818
+D1
+Exit description~
+~
+0 0 3816
+S
+#3818
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3805
+D2
+Exit description~
+~
+0 0 3817
+S
+#3819
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3820
+D2
+~
+~
+0 0 3808
+S
+#3820
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3821
+D2
+Exit description~
+~
+0 0 3819
+S
+#3821
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3822
+D3
+Exit description~
+~
+0 0 3820
+S
+#3822
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3823
+D3
+Exit description~
+~
+0 0 3821
+S
+#3823
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D2
+~
+~
+0 0 3824
+D3
+Exit description~
+~
+0 0 3822
+S
+#3824
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3823
+D1
+~
+~
+0 0 3825
+D2
+Exit description~
+~
+0 0 3839
+S
+#3825
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3826
+D3
+Exit description~
+~
+0 0 3824
+S
+#3826
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D2
+~
+~
+0 0 3827
+D3
+Exit description~
+~
+0 0 3825
+S
+#3827
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3826
+D2
+~
+~
+0 0 3828
+S
+#3828
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3827
+D2
+~
+~
+0 0 3829
+S
+#3829
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3828
+D1
+Exit description~
+~
+0 0 3845
+D2
+~
+~
+0 0 3830
+S
+#3830
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3829
+D2
+~
+~
+0 0 3831
+S
+#3831
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3830
+D2
+~
+~
+0 0 3832
+S
+#3832
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 3831
+D3
+~
+~
+0 0 3833
+S
+#3833
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 3832
+D3
+~
+~
+0 0 3834
+S
+#3834
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3835
+D1
+~
+~
+0 0 3833
+D2
+Exit description~
+~
+0 0 3840
+S
+#3835
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3836
+D2
+Exit description~
+~
+0 0 3834
+S
+#3836
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3837
+D2
+Exit description~
+~
+0 0 3835
+S
+#3837
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3838
+D2
+Exit description~
+~
+0 0 3836
+S
+#3838
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3839
+D2
+Exit description~
+~
+0 0 3837
+S
+#3839
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3824
+D2
+Exit description~
+~
+0 0 3838
+S
+#3840
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3834
+D3
+~
+~
+0 0 3841
+S
+#3841
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 3840
+D3
+~
+~
+0 0 3842
+S
+#3842
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 3841
+D3
+~
+~
+0 0 3843
+S
+#3843
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3844
+D1
+Exit description~
+~
+0 0 3842
+S
+#3844
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D0
+~
+~
+0 0 3816
+D2
+Exit description~
+~
+0 0 3843
+S
+#3845
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D1
+~
+~
+0 0 3846
+D3
+~
+~
+0 0 3829
+S
+#3846
+Floating Amongst The Clouds~
+Ahh, you ride the cool breezes of the atmosphere, floating amongst the soft,
+fluffy clouds that you saw from below.  Many different birds seem to
+congregate up here, larger than the ones you've seen closer to the ground.
+Perhaps this is where all birds come from!
+~
+0 0 9
+D3
+Exit description~
+~
+0 0 3845
+S
+#3850
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 3816 1 3846
+E 0 3801 15 1
+M 0 3815 3 3837
+M 0 3815 3 3837
+M 0 3815 3 3837
+M 0 3814 3 3845
+M 0 3814 3 3845
+M 0 3814 3 3845
+M 0 3813 3 3806
+M 0 3813 3 3806
+M 0 3813 3 3806
+M 0 3812 3 3821
+M 0 3812 3 3821
+M 0 3812 3 3821
+M 0 3811 3 3828
+M 0 3811 3 3828
+M 0 3811 3 3828
+M 0 3810 3 3818
+M 0 3810 3 3818
+M 0 3810 3 3818
+M 0 3809 3 3839
+M 0 3809 3 3839
+M 0 3809 3 3839
+M 0 3808 3 3832
+M 0 3808 3 3832
+M 0 3808 3 3832
+M 0 3807 3 3810
+M 0 3807 3 3810
+M 0 3807 3 3810
+M 0 3806 3 3826
+M 0 3806 3 3826
+M 0 3806 3 3826
+M 0 3805 3 3844
+M 0 3805 3 3844
+M 0 3805 3 3844
+M 0 3804 3 3807
+M 0 3804 3 3807
+M 0 3804 3 3807
+M 0 3803 3 3823
+M 0 3803 3 3823
+M 0 3803 3 3823
+M 0 3802 3 3814
+M 0 3802 3 3814
+M 0 3802 3 3814
+M 0 3801 3 3804
+M 0 3801 3 3804
+M 0 3801 3 3804
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3816 spec_cast_cleric
+S
+
+
+#$

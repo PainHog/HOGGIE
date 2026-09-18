@@ -1,0 +1,6727 @@
+#AREA   Tower Of Manos~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+10 35 0 65
+$
+
+#RESETMSG Creepy music comes from somewhere down the hall...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 486665607
+
+#CLIMATE 3 1 2
+
+#MOBILES
+#4301
+servant male young~
+a male servant~
+A young male servant is busy on some errand for the master.
+~
+Trying to move quickly, this young servant appears to be on some sort of
+errand.  He looks up at you as he passes, but doesn't seem interested in your
+affairs.
+~
+16777281 0 1000 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 2~
+bow
+~
+|
+#4302
+servant male young~
+a male servant~
+A young male servant is busy on some errand for the master.
+~
+Trying to move quickly, this young servant appears to be on some sort of
+errand.  He looks up at you as he passes, but doesn't seem interested in your
+affairs.
+~
+16777281 0 1000 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 2~
+bow
+~
+|
+#4303
+servant male old~
+the head servant~
+An older servant tries to keep an eye on the younger servants.
+~
+While not much older than the young servants wandering the halls, this one
+seems tasked with keeping track of them all.  He looks quite frazzled.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 2~
+smile
+say Have you seen the other servants working?
+~
+|
+#4304
+cat house small housecat~
+a small housecat~
+A small housecat prowls the hallways, looking for a wandering mouse.
+~
+A small house cat pads along the wall, its alert eyes watching you closely,
+yet still somehow on the hunt for a little fuzzy snack.
+~
+16777281 4194304 0 C
+6 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 2 0 0 1 1 0
+0 0 134546945 0 0 0 2 0
+> rand_prog 2~
+meow~
+|
+#4305
+servant female young~
+a female servant~
+Hurrying through her chores, a young servant walks the halls.
+~
+A shy glance is all this young servant with give you as she passes by, working
+hard on her chores for the Master.
+~
+16777281 0 1000 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 2~
+bow
+~
+|
+#4306
+servant female young~
+a female servant~
+Hurrying through her chores, a young servant walks the halls.
+~
+A shy glance is all this young servant with give you as she passes by, working
+hard on her chores for the Master.
+~
+16777281 0 1000 C
+12 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 2~
+smile
+~
+|
+#4307
+guard armored~
+a guard~
+An armored guard patrols the hallways.
+~
+Usually quite bored with his job, just your simple presence in the these halls
+has made the life of this guard more exciting!
+~
+32833 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 255 0 0 0 16 1
+> rand_prog 2~
+yawn
+~
+|
+#4308
+guard armored~
+a guard~
+A lazy guard sits around the small booth.
+~
+Usually quite bored with his job, just your simple presence in the these halls
+has made the life of this guard more exciting!
+~
+32835 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 255 0 0 0 16 1
+> rand_prog 2~
+grumble~
+|
+#4309
+guard armored~
+a guard~
+An armored guard patrols the hallways.
+~
+Usually quite bored with his job, just your simple presence in the these halls
+has made the life of this guard more exciting!
+~
+32833 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 255 0 0 0 16 1
+> rand_prog 2~
+tap
+~
+|
+#4310
+guard armored captain~
+the guard captain~
+The captain of the tower guard keeps an eye on things.
+~
+A tall strong warrior in fine plate armor, the captain walks the halls, making
+sure the servants are keeping up with the work, and that his guards are making
+sure noone gets any further up the tower.
+~
+32833 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 255 0 0 0 16 2097153
+> rand_prog 2~
+say Right!  Report anything suspicious!
+nodnod self
+~
+> rand_prog 2~
+glare
+~
+|
+#4311
+guard armored~
+a guard~
+An armored guard patrols the hallways.
+~
+Usually quite bored with his job, just your simple presence in the these halls
+has made the life of this guard more exciting!
+~
+32833 0 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 255 0 0 0 16 1
+> rand_prog 2~
+yawn
+~
+|
+#4312
+gatekeeper spirit~
+the tower gatekeeper~
+A wispy spirit floats in front of the large door, watching you closely.
+~
+The spirit nods at you.  "You have reached the Tower of Manos.  The Master is
+busy and has not requested your presence.  I advise you do not enter without
+his permission, especially if you are under level 10."  The spirit looks at
+the door, then back at you.  "However, if you do wish to enter, you need but
+only salute, and I shall let you pass."
+~
+20971587 4718720&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 1 1 0
+0 0 0 8192 0 0 16777216 4
+> act_prog salutes~
+mpechoat $n "Very well $n, you may enter the tower."
+mpechoat $n The spirit opens the magical door, and lets you pass through.
+mpechoaround $n $n is ushered through the magical door by the spirit.
+mptransfer $n 4308
+mpat $n mpechoat $n You arrive in a hallway of white stone.
+
+~
+|
+#4313
+dragonfly fly dragon insect~
+a large dragonfly~
+A dragonfly, as long as your arm, darts about the small stream.
+~
+A large green dragonfly cruises up and down the small stream, occasionally
+landing on the broad leaves of the jungle-type plants.
+~
+16777281 524288 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 98305 0 0 0 0 2
+#4314
+dragonfly fly dragon insect~
+a large dragonfly~
+A dragonfly, as long as your arm, darts about the small stream.
+~
+A large green dragonfly cruises up and down the small stream, occasionally
+landing on the broad leaves of the jungle-type plants.
+~
+16777281 524288 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 98305 0 0 0 0 2
+#4315
+earth elemental pile rocks~
+an earth elemental~
+A shuffling pile of rocks moves down the hallway!
+~
+This pile of rocks seems to actually be a large creature, grown from the
+element of earth!  It moves along the sandy hallways, patrolling this level of
+the tower.
+~
+65 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 144 0
+#4316
+earth elemental pile rocks~
+an earth elemental~
+A shuffling pile of rocks moves down the hallway!
+~
+This pile of rocks seems to actually be a large creature, grown from the
+element of earth!  It moves along the sandy hallways, patrolling this level of
+the tower.
+~
+65 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 144 0
+#4317
+earth elemental pile rocks~
+an earth elemental~
+A shuffling pile of rocks moves down the hallway!
+~
+This pile of rocks seems to actually be a large creature, grown from the
+element of earth!  It moves along the sandy hallways, patrolling this level of
+the tower.
+~
+65 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 144 0
+#4318
+earth elemental pile rocks~
+an earth elemental~
+A shuffling pile of rocks moves down the hallway!
+~
+This pile of rocks seems to actually be a large creature, grown from the
+element of earth!  It moves along the sandy hallways, patrolling this level of
+the tower.
+~
+65 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 144 0
+#4319
+creature deep tentacle~
+the tentacle creature~
+You think you see the movement of tentacles under the water...
+~
+A coiled mass of thick tentacles swishes about in the water, and then reaches
+towards you!  This strange creature of the deep seems to want to bring you to
+its watery lair!
+~
+67 -2147483647 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 128 0
+#4320
+lizard dragon komodo~
+a komodo dragon~
+A gigantic lizard takes a bite out of your leg!
+~
+Leaping out from under a huge plant, this giant lizard attempts to sink its
+nasty teeth into your leg!
+~
+97 4259840 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 329737 0 0 0 7 0
+#4321
+plant man-eating~
+a man-eating plant~
+This plant has a huge mouth that snaps at you!
+~
+Moving its "head" about on a large green stalk, this thorny plant jets out a
+few times, trying to catch you in its sharp leafy mouth.
+~
+99 4194304 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 1 1 0
+0 0 0 0 0 1 536870913 2
+#4322
+fire elemental flame sheet~
+a fire elemental~
+A moving sheet of flame heads down the hall!
+~
+A huge sheet of flame moves about the hall...it pauses, and seems to be
+watching you!
+~
+65 4194304 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 134217728 0
+#4323
+fire elemental flame sheet~
+a fire elemental~
+A moving sheet of flame heads down the hall!
+~
+A huge sheet of flame moves about the hall...it pauses, and seems to be
+watching you!
+~
+65 4194304 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 134217728 0
+#4324
+fire elemental flame sheet~
+a fire elemental~
+A moving sheet of flame heads down the hall!
+~
+A huge sheet of flame moves about the hall...it pauses, and seems to be
+watching you!
+~
+65 4194304 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 134217728 0
+#4325
+fire elemental flame sheet~
+a fire elemental~
+A moving sheet of flame heads down the hall!
+~
+A huge sheet of flame moves about the hall...it pauses, and seems to be
+watching you!
+~
+65 4194304 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 134217728 0
+#4326
+fire lizard~
+a fire lizard~
+A huge orange lizard, glowing with the heat of fire, watches you.
+~
+This giant lizard sits on the warmth of the lava floor, soaking up the heat.
+It seems to glow and you definitely feel heat coming from its orange scales.
+~
+67 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 458761 1 0 0 4099 0
+#4327
+wisp flame~
+a wisp~
+A small wisp of flame dances about the hallway.
+~
+At first you think your eyes might be tricking you, but then you see it
+again...a small dancing ball of flame in the halls!
+~
+97 34078720 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 1 0 0 0 0
+#4328
+wisp flame~
+a wisp~
+A small wisp of flame dances about the hallway.
+~
+At first you think your eyes might be tricking you, but then you see it
+again...a small dancing ball of flame in the halls!
+~
+97 34078720 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 1 0 0 0 0
+#4329
+wisp flame~
+a wisp~
+A small wisp of flame dances about the hallway.
+~
+At first you think your eyes might be tricking you, but then you see it
+again...a small dancing ball of flame in the halls!
+~
+97 34078720 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 1 0 0 0 0
+#4330
+wisp flame~
+a wisp~
+A small wisp of flame dances about the hallway.
+~
+At first you think your eyes might be tricking you, but then you see it
+again...a small dancing ball of flame in the halls!
+~
+97 34078720 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 1 0 0 0 0
+#4331
+water elemental wave~
+a water elemental~
+A larger than normal wave of water flows along the hall
+~
+A wave moves down the hallway.  Then, all of a sudden, it stops, and eyes form
+on its surface!  What a strange place!
+~
+65 4194304 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 536870912 0
+#4332
+water elemental wave~
+a water elemental~
+A larger than normal wave of water flows along the hall
+~
+A wave moves down the hallway.  Then, all of a sudden, it stops, and eyes form
+on its surface!  What a strange place!
+~
+65 4194304 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 536870912 0
+#4333
+water elemental wave~
+a water elemental~
+A larger than normal wave of water flows along the hall
+~
+A wave moves down the hallway.  Then, all of a sudden, it stops, and eyes form
+on its surface!  What a strange place!
+~
+65 4194304 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 536870912 0
+#4334
+water elemental wave~
+a water elemental~
+A larger than normal wave of water flows along the hall
+~
+A wave moves down the hallway.  Then, all of a sudden, it stops, and eyes form
+on its surface!  What a strange place!
+~
+65 4194304 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 536870912 0
+#4335
+eel electric~
+an electric eel~
+A long skinny glowing eel slides amongst the rocks.
+~
+Strangely enough, this long eel is glowing with a faint blue light.  As you
+look closer, you see small arcs of electricity jumping about its body.
+~
+16777281 67108864 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 1024 0 4 0 1 0
+#4336
+eel electric~
+an electric eel~
+A long skinny glowing eel slides amongst the rocks.
+~
+Strangely enough, this long eel is glowing with a faint blue light.  As you
+look closer, you see small arcs of electricity jumping about its body.
+~
+16777281 67108864 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 1024 0 4 0 1 0
+#4337
+eel electric~
+an electric eel~
+A long skinny glowing eel slides amongst the rocks.
+~
+Strangely enough, this long eel is glowing with a faint blue light.  As you
+look closer, you see small arcs of electricity jumping about its body.
+~
+16777281 67108864 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 1024 0 4 0 1 0
+#4338
+lobster giant~
+a giant lobster~
+A giant lobster waves its long antenna at you.
+~
+This lobster is huge, certainly bigger than your average human!  Its long
+antenna wave about in the air as the creature tries to decide if you are food
+or not.
+~
+16777281 0 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1 1 0
+0 0 266256 112 0 0 2 0
+#4339
+lobster giant~
+a giant lobster~
+A giant lobster waves its long antenna at you.
+~
+This lobster is huge, certainly bigger than your average human!  Its long
+antenna wave about in the air as the creature tries to decide if you are food
+or not.
+~
+16777281 0 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1 1 0
+0 0 266256 112 0 0 2 0
+#4340
+air elemental tornado~
+an air elemental~
+A swirling tornado blows down the hallway!
+~
+A swirling tornado of gray winds moves about the hallway, causing your
+belongings to blow about you.  You could of sworn some eyes looked out of the
+center!
+~
+65 4718592 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 1048576 0
+#4341
+air elemental tornado~
+an air elemental~
+A swirling tornado blows down the hallway!
+~
+A swirling tornado of gray winds moves about the hallway, causing your
+belongings to blow about you.  You could of sworn some eyes looked out of the
+center!
+~
+65 4718592 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 1048576 0
+#4342
+air elemental tornado~
+an air elemental~
+A swirling tornado blows down the hallway!
+~
+A swirling tornado of gray winds moves about the hallway, causing your
+belongings to blow about you.  You could of sworn some eyes looked out of the
+center!
+~
+65 4718592 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 1048576 0
+#4343
+air elemental tornado~
+an air elemental~
+A swirling tornado blows down the hallway!
+~
+A swirling tornado of gray winds moves about the hallway, causing your
+belongings to blow about you.  You could of sworn some eyes looked out of the
+center!
+~
+65 4718592 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 2101247 0 0 1048576 0
+#4344
+mist~
+the mist~
+The mist attempts to strangle you!
+~
+A thin wisp of misty cloud sends out tendrils and attempts to choke you!
+~
+97 4718592 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4345
+mist~
+the mist~
+The mist attempts to strangle you!
+~
+A thin wisp of misty cloud sends out tendrils and attempts to choke you!
+~
+97 4718592 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4346
+fog~
+the fog~
+The fog creeps along, low on the floor.
+~
+A cloudy bit of fog slowly moves along the floor, blown about by the winds
+that roll down the hallway.
+~
+16777281 2097152 0 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 6 0 0 1 1 0
+0 0 0 112 0 0 1048576 0
+#4347
+fog~
+the fog~
+The fog creeps along, low on the floor.
+~
+A cloudy bit of fog slowly moves along the floor, blown about by the winds
+that roll down the hallway.
+~
+16777281 2097152 0 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 6 0 0 1 1 0
+0 0 0 112 0 0 1048576 0
+#4348
+fog~
+the fog~
+The fog creeps along, low on the floor.
+~
+A cloudy bit of fog slowly moves along the floor, blown about by the winds
+that roll down the hallway.
+~
+16777281 2097152 0 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 6 0 0 1 1 0
+0 0 0 112 0 0 1048576 0
+#4349
+demon servant~
+a demon servant~
+A tiny demon leaps from the shadows!
+~
+You didn't see anything until this small demon jumped out of the darkness at
+you!
+~
+97 4816896 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 1 1 0
+0 0 33938 0 0 0 3 0
+> rand_prog 2~
+cackle
+~
+|
+#4350
+demon servant~
+a demon servant~
+A tiny demon leaps from the shadows!
+~
+You didn't see anything until this small demon jumped out of the darkness at
+you!
+~
+97 4816896 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 1 1 0
+0 0 33938 0 0 0 3 0
+> rand_prog 2~
+cackle
+~
+|
+#4351
+demon servant~
+a demon servant~
+A tiny demon leaps from the shadows!
+~
+You didn't see anything until this small demon jumped out of the darkness at
+you!
+~
+97 4816896 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 1 1 0
+0 0 33938 0 0 0 3 0
+> rand_prog 2~
+cackle
+~
+|
+#4352
+summoned monstrosity monster thing~
+a summoned monstrosity~
+A shambling...thing...moves down the dark hallway.
+~
+This horrible creature must of been some experiment, summoned from the nether
+realms to test surgical procedures upon.  It is beyond frightful to look at.
+~
+65 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 1170 0 0 0 560 0
+> rand_prog 2~
+emote wiggles its many tentacles.~
+|
+#4353
+summoned monstrosity monster thing~
+a summoned monstrosity~
+A shambling...thing...moves down the dark hallway.
+~
+This horrible creature must of been some experiment, summoned from the nether
+realms to test surgical procedures upon.  It is beyond frightful to look at.
+~
+65 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 1170 0 0 0 560 0
+> rand_prog 2~
+emote oozes clear slime onto the floor.~
+|
+#4354
+summoned monstrosity monster thing~
+a summoned monstrosity~
+A shambling...thing...moves down the dark hallway.
+~
+This horrible creature must of been some experiment, summoned from the nether
+realms to test surgical procedures upon.  It is beyond frightful to look at.
+~
+65 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 1170 0 0 0 560 0
+> rand_prog 2~
+emote studies you closely with its hundred eyes.
+~
+|
+#4355
+lord order being~
+the Lord of Order~
+A tall, glowing being bows deeply before you, then stands straight.
+~
+Before you stands a tall being, seemingly crafted from some type of light or
+energy.  Two glowing spots float where its eyes would be, and they track your
+movements closely.  The tall Lord moves about, straightening objects and
+making sure that everything is where it's supposed to be.
+~
+1049667 71303296&320 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 2097151 1 0
+0 50 24 3153920 0 0 352 524292
+> death_prog 25~
+say The world cannot live without Order!
+~
+|
+#4356
+lord disorder being~
+the Lord of Disorder~
+A tall glowing being digs through the mess in the chamber.
+~
+Before you stands a tall being, seemingly crafted from some type of light or
+energy.  Two glowing spots float where its eyes would be, and they track your
+movements closely.  The Lord seems to be busy moving things about...and while
+at first it appears to be cleaning things up, you soon realize that instead
+the being is making more of a mess.
+~
+1049667 71303296&320 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 2097151 1 0
+0 50 24 3153920 0 0 67108992 524292
+> death_prog 25~
+say As sure as there will always be Disorder, I shall return!
+~
+|
+#4357
+lord creation being~
+the Lord of Creation~
+A tall glowing being is busy making various objects appear from nowhere!
+~
+Before you stands a tall being, seemingly crafted from some type of light or
+energy.  Two glowing spots float where its eyes would be, and they track your
+movements closely.  With a wave of its glowing arm, a small knickknack is
+created!  The being smiles at its creation, then with a fling, the object
+disappears, sent off somewhere in the Realm!
+~
+1049667 272638080&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 2097151 1 0
+0 50 24 3153920 0 0 16777728 524292
+> death_prog 25~
+say Beware, for I shall be Created again!
+~
+|
+#4358
+lord destruction being~
+the Lord of Destruction~
+A tall glowing being looks over at you, then turns back to smashing things up.
+~
+Before you stands a tall being, seemingly crafted from some type of light or
+energy.  Two glowing spots float where its eyes would be, and they track your
+movements closely.  In between busting up the chamber around it, occasionally
+this being grabs an object that seems to appear out of mid-air, then smashes
+it to pieces.
+~
+1049667 37750912&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 2097151 1 0
+0 50 24 3153920 0 0 11 524292
+> death_prog 25~
+say Even I must meet Destruction at some time!
+~
+|
+#4359
+master man manos~
+Manos, the Master of the Tower~
+A skinny man with a large mustache looks up from the papers he was studying.
+~
+After all the wonderful things you've seen in the Tower, you are surprised to
+see that the Master himself is what appears to be an ordinary human man.
+Dressed in a long red and black robe, the Master watches you with dark eyes
+while playing with his mustache.  He seems to be considering your intentions.
+~
+1049667 306184320&320 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 15 0 0 2097151 1 0
+0 65 24 3153920 0 0 83887042 524292
+> death_prog 35~
+say How dare you invade my home and then slay me!
+emote claps his hands together and a loud noise booms throughout the room!
+say I may die here, but you will have to fight to claim my treasure!
+rinvoke artifact
+mpmload 4362
+mpmload 4362
+mpmload 4362
+emote summons his remaining guardians with his last strength!
+groan
+~
+|
+#4360
+guard elemental magic~
+an elemental guard~
+An elemental guard crafted from pure magic patrols the halls.
+~
+A mighty looking creature made from a ball of pure magical energy walks a
+steady patrol around the hallways.  So far it has ignored your presence, but
+you are sure if you did something wrong, you would attract its attention.
+~
+97 4194432&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 3145728 0 0 16 524288
+#4361
+guard elemental magic~
+an elemental guard~
+An elemental guard crafted from pure magic patrols the halls.
+~
+A mighty looking creature made from a ball of pure magical energy walks a
+steady patrol around the hallways.  So far it has ignored your presence, but
+you are sure if you did something wrong, you would attract its attention.
+~
+97 4194432&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 3145728 0 0 16 524288
+#4362
+guard elemental magic~
+an elemental guard~
+An elemental guard crafted from pure magic patrols the halls.
+~
+A mighty looking creature made from a ball of pure magical energy walks a
+steady patrol around the hallways.  So far it has ignored your presence, but
+you are sure if you did something wrong, you would attract its attention.
+~
+99 4194432&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 3145728 0 0 25165824 524288
+#4600
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4301
+mop~
+a mop~
+A bushy mop, with a long wooden handle.~
+~
+5 0 131073
+12 1 6 6
+2 25 0
+#4302
+broom~
+a broom~
+A bristly broom, worn from sweeping stone floors.~
+~
+5 0 131073
+12 1 6 6
+2 25 0
+#4303
+sword long~
+a long sword~
+A plain long sword, sturdy, but nothing special.~
+~
+5 0 131073
+12 1 8 3
+6 100 0
+#4304
+sword long~
+a long sword~
+A plain long sword, but this one has a small gem in the hilt.~
+~
+5 0 131073
+12 1 10 3
+5 150 0
+A
+13 2
+#4305
+plate chest steel~
+a steel chestplate~
+A chestplate hammered from solid steel.~
+~
+9 0 65
+10 10 0 0
+15 200 0
+#4306
+gauntlets steel war~
+a pair of steel war gauntlets~
+A fine set of steel gauntlets, set with tiny spikes.~
+~
+9 524288 513
+9 9 0 0
+6 100 0
+A
+19 2
+#4307
+steel greaves~
+a set of steel greaves~
+A fine set of steel greaves lies on the floor.~
+~
+9 524288 16385
+9 9 0 0
+6 150 0
+#4308
+bronze ring~
+a small bronze ring~
+A small ring, crafted from dark bronze.~
+~
+8 0 1025
+0 0 0 0
+1 150 0
+A
+27 1
+#4309
+pool water~
+a pool of water~
+A clear pool of water takes up most of the cave.~
+~
+17 0 0
+500 500 0 0
+1 0 0
+#4310
+statue gold statuette~
+a golden statuette~
+A small statue of a warrior at attention glimmers here.~
+~
+8 1 1048577
+0 0 0 0
+1 500 0
+A
+2 2
+A
+18 2
+#4311
+thorny wristguards wrist guard~
+a pair of thorny wristguards~
+A strange loop of thorny plant material.~
+~
+9 64 257
+3 3 0 0
+1 250 0
+A
+5 1
+A
+1 1
+A
+19 1
+#4312
+scales fire lizard~
+a set of fire lizard scales~
+What looks to be a shirt of orange scales lies here.~
+~
+9 1 65
+4 4 0 0
+3 150 0
+A
+19 2
+A
+27 1
+#4313
+wand platinum~
+a platinum wand~
+A wand crafted of a yellowish silver lies here.~
+~
+3 65 1048577
+35 5 5 -1
+1 150 0
+'ice blast'
+#4314
+ring sparkly silver~
+a sparkly silver ring~
+A small silver ring sparkles brightly.~
+~
+8 64 1025
+0 0 0 0
+1 150 0
+A
+2 1
+A
+27 4
+#4315
+key steel small~
+a small steel key~
+A small steel key sits in the dust.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#4316
+cupboard closet~
+a tall cupboard~
+A tall cupboard built from thick ebony.~
+~
+15 0 0
+500 2 0 0
+1 0 0
+#4317
+cabinet small~
+a small cabinet~
+A small cabinet built from thick ebony.~
+~
+15 0 0
+500 2 0 0
+1 0 0
+#4318
+key black steel~
+a black steel key~
+A small black steel key.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#4319
+bottle clear liquid~
+a bottle of clear liquid~
+A small bottle of clear liquid sits on a shelf.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 0 0
+'heal' 'armor' 'shield'
+#4320
+flask red liquid~
+a flask of red liquid~
+A small flask of red liquid sits on a shelf.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 0 0
+'fireshield' 'blazeward' 'inner warmth'
+#4321
+vial dark liquid~
+a vial of dark liquid~
+A small vial of dark liquid sits on a shelf.~
+~
+10 64 1048577
+25 -1 -1 -1
+1 0 0
+'poison' 'change sex' 'curse'
+#4322
+wand summoner summoners~
+a summoners wand~
+A wand marked with summoning runes sits on a shelf.~
+~
+3 80 1048577
+35 2 2 -1
+1 0 0
+'demonic beast'
+#4323
+robes manos~
+the Robes of Manos~
+A long robe of black and red fabric lies in a bundle.~
+~
+9 64 2049
+4 4 0 0
+1 0 0
+A
+79 3
+A
+18 2
+A
+19 2
+A
+22 -2
+A
+12 25
+#4324
+shield order~
+the Shield of Order~
+A simple white shield lies in the dirt.~
+~
+9 64 524289
+6 6 0 0
+1 0 0
+A
+3 3
+A
+19 2
+A
+24 -2
+A
+17 -15
+#4325
+sleeves disorder~
+the Sleeves of Disorder~
+A strange set of sleeves made from mismatched patches sits here.~
+~
+9 64 129
+5 5 0 0
+1 0 0
+A
+18 3
+A
+2 2
+A
+1 1
+#4326
+ring creation~
+the Ring of Creation~
+This small gold ring shines like it is brand new.
+~
+~
+9 64 1025
+4 4 0 0
+1 0 0
+A
+14 100
+A
+5 3
+A
+12 30
+A
+4 2
+A
+3 2
+#4327
+amulet destruction~
+the Amulet of Destruction~
+This old amulet is beaten and battered.~
+~
+9 64 33
+4 4 0 0
+1 0 0
+A
+12 -75
+A
+13 -75
+A
+18 4
+A
+19 4
+#4600
+Placeholder~
+Placeholder~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4301
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  Off to the east, you see a large
+stone tower poking up out of the sand.
+~
+0 0 2
+D1
+~
+~
+0 0 4302
+D3
+~
+~
+0 0 262
+S
+#4302
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  Off to the east, you see a large
+stone tower poking up out of the sand.
+~
+0 0 2
+D1
+~
+~
+0 0 4303
+D3
+Exit description~
+~
+0 0 4301
+S
+#4303
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  Off to the east, you see a large
+stone tower poking up out of the sand.
+~
+0 0 2
+D0
+~
+~
+0 0 4304
+D3
+Exit description~
+~
+0 0 4302
+S
+#4304
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  Off to the east, you see a large
+stone tower poking up out of the sand.
+~
+0 0 2
+D1
+~
+~
+0 0 4305
+D2
+Exit description~
+~
+0 0 4303
+S
+#4305
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  You rise up over the top of a small
+dune, and can now see the full length of the tower.  It looks to be at least
+seven stories high!
+~
+0 0 2
+D1
+~
+~
+0 0 4306
+D3
+Exit description~
+~
+0 0 4304
+S
+#4306
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  The path at this point runs east
+straight up to what appears to be the main entrance of the tower.  The
+Southern Road lies back down the path to the west.
+~
+0 0 2
+D1
+~
+~
+0 0 4307
+D3
+Exit description~
+~
+0 0 4305
+S
+#4307
+A Cobblestone Path~
+You stand on a fine path made of perfectly round cobblestones.  The path runs
+along a smooth saddle in the sand dunes.  Directly to the east stands the
+large wooden doors that mark the entrance to this tower.
+~
+0 0 2
+D3
+~
+~
+0 0 4306
+S
+#4308
+A Hallway Of White Stone~
+You stand in the entranceway of a large tower.  The hallways, stretching to
+both the north and the south from here, are built of a shiny white stone.
+What appear to be glowing gemstones are placed in the ceiling at equal
+lengths, lighting your way.  A plain brown carpet runs down the middle of the
+hallway.
+~
+0 8 0
+D0
+~
+~
+0 0 4339
+D2
+~
+~
+0 0 4309
+D3
+~
+~
+16777219 0 4307
+S
+#4309
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4308
+D2
+Exit description~
+~
+0 0 4310
+S
+#4310
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  A plain brown door is set into the west wall.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4309
+D2
+Exit description~
+~
+0 0 4311
+D3
+~
+~
+3 0 4340
+S
+#4311
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4310
+D2
+Exit description~
+~
+0 0 4312
+S
+#4312
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4311
+D1
+Exit description~
+~
+0 0 4313
+S
+#4313
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  To the south is a wide wooden door.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4314
+D2
+~
+~
+3 0 4341
+D3
+Exit description~
+~
+0 0 4312
+S
+#4314
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4315
+D3
+Exit description~
+~
+0 0 4313
+S
+#4315
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4316
+D3
+Exit description~
+~
+0 0 4314
+S
+#4316
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4317
+D3
+Exit description~
+~
+0 0 4315
+S
+#4317
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4318
+D3
+Exit description~
+~
+0 0 4316
+S
+#4318
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  A small guard room lies to the south.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4319
+D2
+Exit description~
+~
+0 0 4344
+D3
+Exit description~
+~
+0 0 4317
+S
+#4319
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4320
+D3
+Exit description~
+~
+0 0 4318
+S
+#4320
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4321
+D3
+Exit description~
+~
+0 0 4319
+S
+#4321
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  A large insulated door, crafted of bronze is set into the
+east wall.  It is cold to the touch.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4322
+D1
+~
+~
+3 0 4345
+D2
+Exit description~
+~
+0 0 4320
+S
+#4322
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4323
+D2
+Exit description~
+~
+0 0 4321
+S
+#4323
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4324
+D2
+Exit description~
+~
+0 0 4322
+S
+#4324
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  A large spiral staircase, carved out of a smooth brown stone,
+heads up to the next level of the tower.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4325
+D2
+Exit description~
+~
+0 0 4323
+D4
+~
+~
+16777216 0 4353
+S
+#4325
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4326
+D2
+Exit description~
+~
+0 0 4324
+S
+#4326
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4327
+D2
+Exit description~
+~
+0 0 4325
+S
+#4327
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.  A plain wooden door stands to the east.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4328
+D1
+~
+~
+3 0 4352
+D2
+Exit description~
+~
+0 0 4326
+S
+#4328
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 4327
+D3
+Exit description~
+~
+0 0 4329
+S
+#4329
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4328
+D3
+Exit description~
+~
+0 0 4330
+S
+#4330
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4329
+D3
+Exit description~
+~
+0 0 4331
+S
+#4331
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+~
+~
+3 0 4351
+D1
+Exit description~
+~
+0 0 4330
+D3
+Exit description~
+~
+0 0 4332
+S
+#4332
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4331
+D3
+Exit description~
+~
+0 0 4333
+S
+#4333
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4332
+D3
+Exit description~
+~
+0 0 4334
+S
+#4334
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+~
+~
+3 0 4348
+D1
+Exit description~
+~
+0 0 4333
+D3
+Exit description~
+~
+0 0 4335
+S
+#4335
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4334
+D3
+Exit description~
+~
+0 0 4336
+S
+#4336
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4335
+D2
+Exit description~
+~
+0 0 4337
+S
+#4337
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4336
+D2
+Exit description~
+~
+0 0 4338
+S
+#4338
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4337
+D2
+Exit description~
+~
+0 0 4339
+S
+#4339
+A Hallway Of White Stone~
+You stand in a hallway that is built out of a shiny white stone.  You
+occasionally catch the sound of faint conversations, somewhere off in the
+distance.  What appear to be glowing gemstones are placed in the ceiling at
+equal lengths, lighting your way.  A plain brown carpet runs down the middle
+of the hallway.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4338
+D2
+Exit description~
+~
+0 0 4308
+S
+#4340
+Storage Closet~
+This small room must be a storage closet of some sorts, as all you can see
+about you are the various implements and tools used for keeping a tower clean.
+ It smells of a flowery soapy smell in here.
+~
+0 9 0
+D1
+~
+~
+3 0 4310
+S
+#4341
+Greeting Hall~
+You stand at the western end of a large greeting hall.  Cupboards and cubbies
+are placed along the walls, for the purpose of travellers storing their
+belongings.  Wooden pegs are placed above, for hanging backpacks and cloaks.
+A long table with a few chairs runs the length of the room.
+~
+0 8 0
+D0
+~
+~
+3 0 4313
+D1
+Exit description~
+~
+0 0 4342
+S
+#4342
+Greeting Hall~
+You stand in the middle of a large greeting hall.  Cupboards and cubbies
+are placed along the walls, for the purpose of travellers storing their
+belongings.  Wooden pegs are placed above, for hanging backpacks and cloaks.
+A long table with a few chairs runs the length of the room.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4343
+D3
+Exit description~
+~
+0 0 4341
+S
+#4343
+Greeting Hall~
+You stand at the eastern end of a large greeting hall.  Cupboards and cubbies
+are placed along the walls, for the purpose of travellers storing their
+belongings.  Wooden pegs are placed above, for hanging backpacks and cloaks.
+A long table with a few chairs runs the length of the room.  A large fire
+roars in a fireplace in the eastern wall.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 4342
+S
+#4344
+Guard Booth~
+This small room is a waiting area for the gate guards.  A small table sits in
+the middle of the room, and a wood-burning stove smokes away in the
+southeastern corner.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4318
+S
+#4345
+Cooling Room~
+As soon as you enter this room, you feel the drop in temperature.  Lots of
+vegetables and preserved meats are placed on wooden planks that run the length
+of the eastern wall.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4346
+D3
+~
+~
+3 0 4321
+S
+#4346
+Cooling Room~
+As soon as you enter this room, you feel the drop in temperature.  Lots of
+vegetables and preserved meats are placed on wooden planks that run the length
+of the eastern wall.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 4347
+D2
+Exit description~
+~
+0 0 4345
+S
+#4347
+Cooling Room~
+As soon as you enter this room, you feel the drop in temperature.  Lots of
+vegetables and preserved meats are placed on wooden planks that run the length
+of the eastern wall.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 4346
+S
+#4348
+Guard Barracks~
+This large hall is obviously a barracks for the tower guards.  Bunkbeds run
+the length of the huge room, and cupboards and cabinets are built into the
+walls to hold the guards few items.  Old weapons are set in rotting weapon
+racks.  The gems above brightly light this room.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4349
+D2
+~
+~
+3 0 4334
+S
+#4349
+Guard Barracks~
+This large hall is obviously a barracks for the tower guards.  Bunkbeds run
+the length of the huge room, and cupboards and cabinets are built into the
+walls to hold the guards few items.  Old weapons are set in rotting weapon
+racks.  The gems above brightly light this room.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4350
+D3
+Exit description~
+~
+0 0 4348
+S
+#4350
+Guard Barracks~
+This large hall is obviously a barracks for the tower guards.  Bunkbeds run
+the length of the huge room, and cupboards and cabinets are built into the
+walls to hold the guards few items.  Old weapons are set in rotting weapon
+racks.  The gems above brightly light this room.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 4351
+D3
+Exit description~
+~
+0 0 4349
+S
+#4351
+Guard Barracks~
+This large hall is obviously a barracks for the tower guards.  Bunkbeds run
+the length of the huge room, and cupboards and cabinets are built into the
+walls to hold the guards few items.  Old weapons are set in rotting weapon
+racks.  The gems above brightly light this room.
+~
+0 8 0
+D2
+~
+~
+3 0 4331
+D3
+Exit description~
+~
+0 0 4350
+S
+#4352
+Servants Waiting Room~
+This small room looks like a waiting room, probably for the servants of the
+tower.  The room is quite bare, just a simple wooden table and chairs placed
+in the room.
+~
+0 8 0
+D3
+~
+~
+3 0 4327
+S
+#4353
+A Carved Rock Staircase~
+You climb a spiral staircase carved of a smooth brown rock.  Down below, you
+see the bottom level of the tower, and its hallways of white stone.  Above,
+the hallways of the next level are a light brown in color.
+
+~
+0 8 0
+D4
+~
+~
+0 0 4354
+D5
+~
+~
+0 0 4324
+S
+#4354
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  A small cave can be seen to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4355
+D1
+~
+~
+16777216 0 4386
+D2
+Exit description~
+~
+0 0 4385
+D5
+Exit description~
+~
+16777216 0 4353
+S
+#4355
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  An eerie glow is coming from a cave to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4356
+D1
+~
+~
+0 0 4387
+D2
+Exit description~
+~
+0 0 4354
+S
+#4356
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4357
+D2
+Exit description~
+~
+0 0 4355
+S
+#4357
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  A large cave opens up to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4358
+D1
+~
+~
+0 0 4388
+D2
+Exit description~
+~
+0 0 4356
+S
+#4358
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D2
+Exit description~
+~
+0 0 4357
+D3
+~
+~
+0 0 4359
+S
+#4359
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4358
+D3
+~
+~
+0 0 4360
+S
+#4360
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4359
+D3
+~
+~
+0 0 4361
+S
+#4361
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4360
+D3
+~
+~
+0 0 4362
+S
+#4362
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4361
+D3
+~
+~
+0 0 4363
+S
+#4363
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4362
+D3
+~
+~
+0 0 4364
+S
+#4364
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  A small crack in the northern wall looks almost big enough to crawl
+through.
+~
+0 134217728 0
+D0
+~
+~
+16777216 0 4389
+D1
+Exit description~
+~
+0 0 4363
+D3
+~
+~
+0 0 4365
+S
+#4365
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4364
+D3
+~
+~
+0 0 4366
+S
+#4366
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4365
+D2
+~
+~
+0 0 4367
+S
+#4367
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4366
+D2
+~
+~
+0 0 4368
+S
+#4368
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  You hear the sound of dripping water in the cave to the west.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4367
+D2
+~
+~
+0 0 4369
+D3
+Exit description~
+~
+0 0 4391
+S
+#4369
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4368
+D2
+~
+~
+0 0 4370
+S
+#4370
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  A spiral staircase made from a rough black rock heads up.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4369
+D2
+~
+~
+0 0 4371
+D4
+~
+~
+16777216 0 4396
+S
+#4371
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4370
+D2
+~
+~
+0 0 4372
+S
+#4372
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4371
+D2
+~
+~
+0 0 4373
+S
+#4373
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  Bushes and vines seek their way outside of the small cave to the
+west.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4372
+D2
+~
+~
+0 0 4374
+D3
+Exit description~
+~
+0 0 4392
+S
+#4374
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4373
+D1
+~
+~
+0 0 4375
+S
+#4375
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4376
+D3
+Exit description~
+~
+0 0 4374
+S
+#4376
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  The buzz of insects and the trickle of water can be heard in the
+small passage to the south.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4377
+D2
+Exit description~
+~
+16777216 0 4393
+D3
+Exit description~
+~
+0 0 4375
+S
+#4377
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4378
+D3
+Exit description~
+~
+0 0 4376
+S
+#4378
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.  The buzz of insects and the trickle of water can be heard in the
+small passage to the south.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4379
+D2
+Exit description~
+~
+16777216 0 4395
+D3
+~
+~
+0 0 4377
+S
+#4379
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4380
+D3
+Exit description~
+~
+0 0 4378
+S
+#4380
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4381
+D3
+Exit description~
+~
+0 0 4379
+S
+#4381
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4382
+D3
+Exit description~
+~
+0 0 4380
+S
+#4382
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4383
+D3
+Exit description~
+~
+0 0 4381
+S
+#4383
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4384
+D2
+Exit description~
+~
+0 0 4382
+S
+#4384
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4385
+D2
+Exit description~
+~
+0 0 4383
+S
+#4385
+A Hallway Of Smooth Sandstone~
+You stand in a hallway that is built out of a smooth sandstone.  Sounds of
+rumbling and pounding can be occasionally heard from down the halls.  What
+appear to be glowing gemstones are placed in the ceiling at equal lengths,
+lighting your way.  The floor is dirt, and in places, grass and plants attempt
+to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4354
+D2
+~
+~
+0 0 4384
+S
+#4386
+A Small Cave~
+You stand in a small cave, bored into the sandstone of the hallway.  Evidence
+of a small campfire is left in the middle of the cave, showing that this might
+be a safe place to rest and regroup.
+~
+0 1024 0
+D3
+~
+~
+0 0 4354
+S
+#4387
+A Brightly Lit Cave~
+This small cave has brightly glowing crystals all over the walls.  The light
+coming from here seems to have attracted most of the bugs in the hallway to
+this cavern.
+~
+0 0 0
+D3
+~
+~
+0 0 4355
+S
+#4388
+A Sandy Cave~
+This large sandy cave looks like it was dug out of the sandstone of the
+hallway.  Something doesn't feel right about this large cave...you don't
+recall seeing anything on the outside of the tower that would indicate this
+large cavern would be here.
+~
+0 0 0
+D3
+~
+~
+0 0 4357
+S
+#4389
+A Crack In The Stone~
+This small crack in the sandstone barely has enough room for you to squeeze
+through.  A small glittering light to the east makes you wonder what lies at
+the end of this crevice.
+~
+0 2048 0
+D1
+Exit description~
+~
+0 0 4390
+D2
+~
+~
+0 0 4364
+S
+#4390
+A Crack In The Stone~
+You squeeze your way through the slim crack in the sandstone.  The crack has
+slowly narrowed to the point where you can't go any further in this direction.
+ You can maybe back out to the west if you are careful.
+~
+0 2048 0
+D3
+Exit description~
+~
+0 0 4389
+S
+#4391
+A Dripping Cave~
+This large cave has a clear pool of water exactly in the center of it.  The
+sounds of echoing drips of liquid can be heard all around you, but there are
+no corresponding stalactites for water to drip from.
+~
+0 0 0
+D1
+~
+~
+0 0 4368
+S
+#4392
+A Humid Cave~
+There is so much vegetation in this small cave, that it is difficult to find a
+place to walk.  It is warm and humid in here, and small drops of water hang
+from the tips of the jungle foliage.
+~
+0 0 0
+D1
+~
+~
+0 0 4373
+S
+#4393
+A Lush Passage~
+This passage has lots of lush plants and bushes growing from the floor and
+walls.  Small jungle trees stand on the edge of a little pool of water, with a
+tiny stream that leads off to the east.  The buzz of insects is in the air.
+~
+0 0 0
+D0
+~
+~
+16777216 0 4376
+D1
+~
+~
+0 0 4394
+S
+#4394
+A Lush Passage~
+This passage has lots of lush plants and bushes growing from the floor and
+walls.  Little fish dart about in the slowly moving stream that cuts through
+the middle of this room.  The buzz of insects is in the air.
+~
+0 0 0
+D1
+~
+~
+0 0 4395
+D3
+Exit description~
+~
+0 0 4393
+S
+#4395
+A Lush Passage~
+This passage has lots of lush plants and bushes growing from the floor and
+walls.  Small jungle trees stand on the edge of a little pool of water, with a
+tiny stream that leads off to the west.  The buzz of insects is in the air.
+~
+0 0 0
+D0
+~
+~
+16777216 0 4378
+D3
+~
+~
+0 0 4394
+S
+#4396
+A Dark Rock Staircase~
+You climb a spiral staircase carved of a rough black rock.  Down below, you
+see another level of the tower, and its hallways of brown stone.  Above,
+the hallways of the next level are a black in color.
+
+~
+0 0 0
+D4
+Exit description~
+~
+0 0 4397
+D5
+~
+~
+0 0 4370
+S
+#4397
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A spiral staircase made from a
+rough black rock heads down.  A crack in the lava heads west.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4428
+D2
+~
+~
+0 0 4398
+D3
+Exit description~
+~
+0 0 4429
+D5
+~
+~
+16777216 0 4396
+S
+#4398
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4397
+D2
+~
+~
+0 0 4399
+S
+#4399
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4398
+D2
+~
+~
+0 0 4400
+S
+#4400
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4399
+D2
+~
+~
+0 0 4401
+S
+#4401
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4400
+D1
+~
+~
+0 0 4402
+S
+#4402
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4403
+D3
+Exit description~
+~
+0 0 4401
+S
+#4403
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A rough tunnel in the lava heads
+south.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4404
+D2
+Exit description~
+~
+0 0 4433
+D3
+Exit description~
+~
+0 0 4402
+S
+#4404
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4405
+D3
+Exit description~
+~
+0 0 4403
+S
+#4405
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A rough tunnel in the lava heads
+south.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4406
+D2
+Exit description~
+~
+0 0 4435
+D3
+Exit description~
+~
+0 0 4404
+S
+#4406
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4407
+D3
+Exit description~
+~
+0 0 4405
+S
+#4407
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4408
+D3
+Exit description~
+~
+0 0 4406
+S
+#4408
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  Heat comes from the large cave
+to the south.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4409
+D2
+Exit description~
+~
+0 0 4436
+D3
+Exit description~
+~
+0 0 4407
+S
+#4409
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4410
+D3
+Exit description~
+~
+0 0 4408
+S
+#4410
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4411
+D2
+Exit description~
+~
+0 0 4409
+S
+#4411
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A small cave lies to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4412
+D1
+~
+~
+16777216 0 4438
+D2
+Exit description~
+~
+0 0 4410
+S
+#4412
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4413
+D2
+Exit description~
+~
+0 0 4411
+S
+#4413
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A spiral staircase carved from
+dark blue marble heads up.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4414
+D2
+Exit description~
+~
+0 0 4412
+D4
+~
+~
+16777216 0 4446
+S
+#4414
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4415
+D2
+Exit description~
+~
+0 0 4413
+S
+#4415
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A small cave lies to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4416
+D1
+Exit description~
+~
+0 0 4445
+D2
+Exit description~
+~
+0 0 4414
+S
+#4416
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A small cave lies to the east.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4417
+D1
+Exit description~
+~
+0 0 4444
+D2
+Exit description~
+~
+0 0 4415
+S
+#4417
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D2
+Exit description~
+~
+0 0 4416
+D3
+~
+~
+0 0 4418
+S
+#4418
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+~
+~
+0 0 4417
+D3
+~
+~
+0 0 4419
+S
+#4419
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  Smoke comes from a hot cave to
+the north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4443
+D1
+Exit description~
+~
+0 0 4418
+D3
+~
+~
+0 0 4420
+S
+#4420
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4419
+D3
+~
+~
+0 0 4421
+S
+#4421
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A smooth tunnel in the lava
+heads north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4442
+D1
+Exit description~
+~
+0 0 4420
+D3
+~
+~
+0 0 4422
+S
+#4422
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4421
+D3
+~
+~
+0 0 4423
+S
+#4423
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4422
+D3
+~
+~
+0 0 4424
+S
+#4424
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.  A smooth tunnel in the lava
+heads north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4439
+D1
+Exit description~
+~
+0 0 4423
+D3
+~
+~
+0 0 4425
+S
+#4425
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4424
+D2
+~
+~
+0 0 4426
+S
+#4426
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4425
+D2
+~
+~
+0 0 4427
+S
+#4427
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4426
+D2
+~
+~
+0 0 4428
+S
+#4428
+A Hallway Of Rough Lavarock~
+You stand in a hallway that is built out of a rough lavarock.  Occasional
+blasts of heated air blow past you.  What appear to be glowing gemstones are
+placed in the ceiling at equal lengths, lighting your way.  The floor is
+rocky, and nothing seems to be able to grow.
+~
+0 134217728 0
+D0
+~
+~
+0 0 4427
+D2
+~
+~
+0 0 4397
+S
+#4429
+A Steaming Fissure~
+A hot blast of steam scorches your skin and heats up your armor as you work
+your way through this fissure in the lava rock.  Its hard not to scrape
+yourself on the jutting teeth of stone.
+~
+0 0 0
+D1
+~
+~
+0 0 4397
+D2
+~
+~
+0 0 4430
+S
+#4430
+A Steaming Fissure~
+A hot blast of steam scorches your skin and heats up your armor as you work
+your way through this fissure in the lava rock.  Its hard not to scrape
+yourself on the jutting teeth of stone.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4429
+D2
+~
+~
+0 0 4431
+S
+#4431
+A Steaming Fissure~
+A hot blast of steam scorches your skin and heats up your armor as you work
+your way through this fissure in the lava rock.  Its hard not to scrape
+yourself on the jutting teeth of stone.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4430
+D2
+~
+~
+0 0 4432
+S
+#4432
+A Steaming Fissure~
+A hot blast of steam scorches your skin and heats up your armor as you work
+your way through this fissure in the lava rock.  Its hard not to scrape
+yourself on the jutting teeth of stone.  You seem to have reached a dead end.
+~
+0 0 0
+D0
+~
+~
+0 0 4431
+S
+#4433
+A Rough Tunnel~
+A small tunnel has been created through the rough lava rock, probably by the
+flow of molten stone a long time ago.  The walls are quite warm to the touch,
+and you feel a strange vibration under your feet.  The main hall lies to the
+north.
+~
+0 0 0
+D0
+~
+~
+0 0 4403
+D1
+~
+~
+0 0 4434
+S
+#4434
+A Rough Tunnel~
+A small tunnel has been created through the rough lava rock, probably by the
+flow of molten stone a long time ago.  The walls are quite warm to the touch,
+and you feel a strange vibration under your feet.
+~
+0 0 0
+D1
+~
+~
+0 0 4435
+D3
+~
+~
+0 0 4433
+S
+#4435
+A Rough Tunnel~
+A small tunnel has been created through the rough lava rock, probably by the
+flow of molten stone a long time ago.  The walls are quite warm to the touch,
+and you feel a strange vibration under your feet.  The main hall lies to the
+north.
+~
+0 0 0
+D0
+~
+~
+0 0 4405
+D3
+~
+~
+0 0 4434
+S
+#4436
+A Hot Cavern~
+This rocky cavern seems almost hotter than the surrounding halls, if that is
+possible.  In places, you see the orange glow of lava trying to melt through
+the floor of the cave.
+~
+0 0 0
+D0
+~
+~
+0 0 4408
+D3
+~
+~
+0 0 4437
+S
+#4437
+A Hot Cavern~
+This rocky cavern seems almost hotter than the surrounding halls, if that is
+possible.  In places, you see the orange glow of lava trying to melt through
+the floor of the cave.  The cave deadends here.
+~
+0 0 0
+D1
+~
+~
+0 0 4436
+S
+#4438
+A Small Alcove~
+You stand in a small alcove, worn from the rough lava rock ages ago.  There is
+a small vent in the rock above you, and the air coming into this small cave is
+cooler than the hallways around you.  This looks like a safe place to rest.
+~
+0 1024 0
+D3
+~
+~
+0 0 4411
+S
+#4439
+A Smooth Lava Bore~
+This wide tunnel is perfectly smooth, and the walls are warm to the touch.  It
+seems that lava has passed through this rock much more recently than in the
+surrounding hallways.
+~
+0 0 0
+D1
+~
+~
+0 0 4440
+D2
+~
+~
+0 0 4424
+S
+#4440
+A Smooth Lava Bore~
+This wide tunnel is perfectly smooth, and the walls are warm to the touch.  It
+seems that lava has passed through this rock much more recently than in the
+surrounding hallways.
+~
+0 0 0
+D1
+~
+~
+0 0 4441
+D3
+Exit description~
+~
+0 0 4439
+S
+#4441
+A Smooth Lava Bore~
+This wide tunnel is perfectly smooth, and the walls are warm to the touch.  It
+seems that lava has passed through this rock much more recently than in the
+surrounding hallways.
+~
+0 0 0
+D1
+~
+~
+0 0 4442
+D3
+Exit description~
+~
+0 0 4440
+S
+#4442
+A Smooth Lava Bore~
+This wide tunnel is perfectly smooth, and the walls are warm to the touch.  It
+seems that lava has passed through this rock much more recently than in the
+surrounding hallways.
+~
+0 0 0
+D2
+~
+~
+0 0 4421
+D3
+~
+~
+0 0 4441
+S
+#4443
+A Smoky Cave~
+This cave is quite hot, and filled with a dark gray smoke.  Small fires burn
+all about the cavern, the rock itself so hot that it ignites into bursts of
+flame.
+~
+0 0 0
+D2
+~
+~
+0 0 4419
+S
+#4444
+A Small Lava Cave~
+A small cave is dug out of the rough lava rock.  Evidence of creatures living
+here is all about...charred bones, old burnt skins, and other bits of debris.
+~
+0 0 0
+D3
+~
+~
+0 0 4416
+S
+#4445
+A Small Lava Cave~
+A small cave is dug out of the rough lava rock.  Evidence of creatures living
+here is all about...charred bones, old burnt skins, and other bits of debris.
+~
+0 0 0
+D3
+~
+~
+0 0 4415
+S
+#4446
+A Blue Marble Staircase~
+You climb a spiral staircase crafted out of a dark blue marble.  Down below,
+you see another level of the tower, and its hallways of dark and rough
+lavarock.  Above, the hallways of the next level are a turquoise in color.
+
+~
+0 0 0
+D4
+~
+~
+0 0 4447
+D5
+~
+~
+0 0 4413
+S
+#4447
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A dark
+blue marble staircase spirals its way down.  A small coral cave is off to the
+east.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4448
+D1
+Exit description~
+~
+0 0 4479
+D2
+Exit description~
+~
+0 0 4478
+D5
+~
+~
+16777216 0 4446
+S
+#4448
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4449
+D2
+Exit description~
+~
+0 0 4447
+S
+#4449
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4450
+D2
+Exit description~
+~
+0 0 4448
+S
+#4450
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the east.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4451
+D1
+Exit description~
+~
+0 0 4480
+D2
+Exit description~
+~
+0 0 4449
+S
+#4451
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D2
+Exit description~
+~
+0 0 4450
+D3
+Exit description~
+~
+0 0 4452
+S
+#4452
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4451
+D3
+Exit description~
+~
+0 0 4453
+S
+#4453
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave stands to the north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4481
+D1
+Exit description~
+~
+0 0 4452
+D3
+Exit description~
+~
+0 0 4454
+S
+#4454
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4453
+D3
+Exit description~
+~
+0 0 4455
+S
+#4455
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave stands to the north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4482
+D1
+Exit description~
+~
+0 0 4454
+D3
+Exit description~
+~
+0 0 4456
+S
+#4456
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4455
+D3
+Exit description~
+~
+0 0 4457
+S
+#4457
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4456
+D3
+Exit description~
+~
+0 0 4458
+S
+#4458
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave stands to the north.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4483
+D1
+Exit description~
+~
+0 0 4457
+D3
+Exit description~
+~
+0 0 4459
+S
+#4459
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4458
+D2
+Exit description~
+~
+0 0 4460
+S
+#4460
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4459
+D2
+Exit description~
+~
+0 0 4461
+S
+#4461
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the west.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4460
+D2
+Exit description~
+~
+0 0 4462
+D3
+Exit description~
+~
+0 0 4484
+S
+#4462
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4461
+D2
+Exit description~
+~
+0 0 4463
+S
+#4463
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A
+staircase created out of what looks like clouds heads up.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4462
+D2
+Exit description~
+~
+0 0 4464
+D4
+~
+~
+16777216 0 4489
+S
+#4464
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4463
+D2
+Exit description~
+~
+0 0 4465
+S
+#4465
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the west.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4464
+D2
+Exit description~
+~
+0 0 4466
+D3
+Exit description~
+~
+0 0 4485
+S
+#4466
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4465
+D2
+Exit description~
+~
+0 0 4467
+S
+#4467
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4466
+D1
+Exit description~
+~
+0 0 4468
+S
+#4468
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4469
+D3
+Exit description~
+~
+0 0 4467
+S
+#4469
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4470
+D3
+Exit description~
+~
+0 0 4468
+S
+#4470
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4471
+D3
+Exit description~
+~
+0 0 4469
+S
+#4471
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the south.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4472
+D2
+Exit description~
+~
+0 0 4486
+D3
+Exit description~
+~
+0 0 4470
+S
+#4472
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4473
+D3
+Exit description~
+~
+0 0 4471
+S
+#4473
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4474
+D3
+Exit description~
+~
+0 0 4472
+S
+#4474
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the south.
+~
+0 134217728 0
+D1
+Exit description~
+~
+0 0 4475
+D2
+Exit description~
+~
+0 0 4487
+D3
+Exit description~
+~
+0 0 4473
+S
+#4475
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4476
+D3
+Exit description~
+~
+0 0 4474
+S
+#4476
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.  A small
+coral cave is to the east.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4477
+D1
+Exit description~
+~
+0 0 4488
+D2
+Exit description~
+~
+0 0 4475
+S
+#4477
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4478
+D2
+Exit description~
+~
+0 0 4476
+S
+#4478
+A Hallway Of Smooth Turquoise~
+You stand in a hallway that is crafted from smooth, flowing turquoise.  Water
+comes up to a humans waist, and is clear and cool.  What appear to be glowing
+gemstones are placed in the ceiling at equal lengths, lighting your way.  The
+floor is sandy, and small patches of seagrass sway in the current.
+~
+0 134217728 0
+D0
+Exit description~
+~
+0 0 4447
+D2
+Exit description~
+~
+0 0 4477
+S
+#4479
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D3
+~
+~
+0 0 4447
+S
+#4480
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D3
+~
+~
+0 0 4450
+S
+#4481
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D2
+~
+~
+0 0 4453
+S
+#4482
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D2
+~
+~
+0 0 4455
+S
+#4483
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D2
+~
+~
+0 0 4458
+S
+#4484
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D1
+~
+~
+0 0 4461
+S
+#4485
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D1
+~
+~
+0 0 4465
+S
+#4486
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D0
+~
+~
+0 0 4471
+S
+#4487
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D0
+~
+~
+0 0 4474
+S
+#4488
+A Coral Filled Cavern~
+This small side cavern has coral growths covering most of the wall.  The floor
+is rocky and uneven, and you can see many small colorful fish dart amongst the
+cracks and crevices.  The sound of water splashing against the rocks echos
+about the cave.
+~
+0 0 0
+D3
+~
+~
+0 0 4476
+S
+#4489
+A Cloudlike Staircase~
+You climb a spiral staircase crafted out of some cloudlike substance.  Down
+below, you see another level of the tower, and its hallways of smooth blue
+marble.  Above, the hallways of the next level are a misty gray.
+
+~
+0 0 0
+D4
+~
+~
+0 0 4490
+D5
+~
+~
+0 0 4463
+S
+#4490
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.  A
+cloudy gray staircase spirals its way down.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4521
+D2
+Exit description~
+~
+0 0 4491
+D3
+~
+~
+0 0 4522
+D5
+~
+~
+16777216 0 4489
+S
+#4491
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4490
+D2
+Exit description~
+~
+0 0 4492
+S
+#4492
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4491
+D2
+Exit description~
+~
+0 0 4493
+D3
+Exit description~
+~
+0 0 4531
+S
+#4493
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4492
+D2
+Exit description~
+~
+0 0 4494
+S
+#4494
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4493
+D1
+Exit description~
+~
+0 0 4495
+S
+#4495
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4496
+D3
+Exit description~
+~
+0 0 4494
+S
+#4496
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4497
+D3
+Exit description~
+~
+0 0 4495
+S
+#4497
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4498
+D2
+Exit description~
+~
+0 0 4532
+D3
+Exit description~
+~
+0 0 4496
+S
+#4498
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4499
+D3
+Exit description~
+~
+0 0 4497
+S
+#4499
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4500
+D3
+Exit description~
+~
+0 0 4498
+S
+#4500
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4501
+D3
+Exit description~
+~
+0 0 4499
+S
+#4501
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4502
+D3
+Exit description~
+~
+0 0 4500
+S
+#4502
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4503
+D3
+Exit description~
+~
+0 0 4501
+S
+#4503
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4504
+D2
+Exit description~
+~
+0 0 4502
+S
+#4504
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4505
+D1
+Exit description~
+~
+0 0 4530
+D2
+Exit description~
+~
+0 0 4503
+S
+#4505
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4506
+D2
+Exit description~
+~
+0 0 4504
+S
+#4506
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.  You
+seem to catch a glimpse of a dark hallway to the west.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4507
+D2
+Exit description~
+~
+0 0 4505
+D3
+~
+~
+0 0 4536
+S
+#4507
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4508
+D2
+Exit description~
+~
+0 0 4506
+S
+#4508
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4509
+D2
+Exit description~
+~
+0 0 4507
+S
+#4509
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4510
+D1
+Exit description~
+~
+0 0 4529
+D2
+Exit description~
+~
+0 0 4508
+S
+#4510
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 4509
+D3
+Exit description~
+~
+0 0 4511
+S
+#4511
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4510
+D3
+Exit description~
+~
+0 0 4512
+S
+#4512
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4511
+D3
+Exit description~
+~
+0 0 4513
+S
+#4513
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4526
+D1
+Exit description~
+~
+0 0 4512
+D3
+Exit description~
+~
+0 0 4514
+S
+#4514
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4513
+D3
+Exit description~
+~
+0 0 4515
+S
+#4515
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4514
+D3
+Exit description~
+~
+0 0 4516
+S
+#4516
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4525
+D1
+Exit description~
+~
+0 0 4515
+D3
+Exit description~
+~
+0 0 4517
+S
+#4517
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4516
+D3
+Exit description~
+~
+0 0 4518
+S
+#4518
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D1
+~
+~
+0 0 4517
+D2
+Exit description~
+~
+0 0 4519
+S
+#4519
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4518
+D2
+~
+~
+0 0 4520
+S
+#4520
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+~
+~
+0 0 4519
+D2
+~
+~
+0 0 4521
+D3
+~
+~
+0 0 4524
+S
+#4521
+A Hallway Of Mist~
+You stand in a hallway that is created from thick mist and fog.  Winds whip
+around your body, making it hard to hold onto your smaller items.  What appear
+to be glowing gemstones are placed in the ceiling at equal lengths, lighting
+your way.  The floor is shrouded in fog, but feels solid under your feet.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4520
+D2
+Exit description~
+~
+0 0 4490
+S
+#4522
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4523
+D1
+Exit description~
+~
+0 0 4490
+S
+#4523
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4524
+D2
+Exit description~
+~
+0 0 4522
+S
+#4524
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4520
+D2
+Exit description~
+~
+0 0 4523
+S
+#4525
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 4516
+S
+#4526
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4527
+D2
+Exit description~
+~
+0 0 4513
+S
+#4527
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4528
+D3
+Exit description~
+~
+0 0 4526
+S
+#4528
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 4527
+S
+#4529
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 4509
+S
+#4530
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 4504
+S
+#4531
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4492
+S
+#4532
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4497
+D1
+Exit description~
+~
+0 0 4533
+S
+#4533
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4534
+D3
+Exit description~
+~
+0 0 4532
+S
+#4534
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4535
+D3
+Exit description~
+~
+0 0 4533
+S
+#4535
+Lost In Mist~
+You stumble about the mist, trying to find your way around this level of the
+tower.  Your footsteps sound muted as the noise is absorbed by the thick fog
+surrounding you.  Winds twist and pull at you and your belongings.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 4534
+S
+#4536
+A Dark Corridor~
+A small dark corridor heads off of the misty hallway.  The sounds of your
+footsteps seem a lot louder after walking about in the swirling fog east of
+you.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 4506
+D3
+~
+~
+0 0 4537
+S
+#4537
+A Dark Corridor~
+A small dark corridor heads off of the misty hallway.  The sounds of your
+footsteps seem a lot louder after walking about in the swirling fog east of
+you.  A staircase carved from solid obsidian leads up.
+~
+0 9 0
+D1
+~
+~
+0 0 4536
+D4
+~
+~
+0 0 4538
+S
+#4538
+A Black Staircase~
+You stand about halfway up a spiral staircase, carved from solid obsidian.
+The rock is smooth, shiny, and black as the blackest night.  The whole area
+around you seems to absorb the light.  The shadow of a small hall is below
+you, and above you is only darkness.
+~
+0 9 0
+D4
+~
+~
+16777216 0 4547
+D5
+~
+~
+0 0 4537
+S
+#4539
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+~
+~
+0 0 4540
+D2
+Exit description~
+~
+0 0 4554
+D4
+~
+~
+16777223 4315 4564
+S
+#4540
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+~
+~
+0 0 4541
+D2
+Exit description~
+~
+0 0 4539
+D3
+Exit description~
+~
+3 0 4555
+S
+#4541
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+~
+~
+0 0 4542
+D2
+Exit description~
+~
+0 0 4540
+S
+#4542
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+~
+~
+0 0 4543
+D3
+Exit description~
+~
+0 0 4541
+S
+#4543
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+Exit description~
+~
+3 0 4561
+D1
+~
+~
+0 0 4544
+D3
+Exit description~
+~
+0 0 4542
+S
+#4544
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+~
+~
+0 0 4545
+D3
+Exit description~
+~
+0 0 4543
+S
+#4545
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D2
+~
+~
+0 0 4546
+D3
+Exit description~
+~
+0 0 4544
+S
+#4546
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 4545
+D2
+~
+~
+0 0 4547
+S
+#4547
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.  The top of a black spiral staircase is
+here.
+
+~
+0 9 0
+D0
+~
+~
+0 0 4546
+D1
+~
+~
+8390183 4318 4560
+D2
+~
+~
+0 0 4548
+D5
+~
+~
+16777216 0 4538
+S
+#4548
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 4547
+D1
+Exit description~
+~
+3 0 4559
+D2
+~
+~
+0 0 4549
+S
+#4549
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 4548
+D3
+~
+~
+0 0 4550
+S
+#4550
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 4549
+D3
+~
+~
+0 0 4551
+S
+#4551
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 4550
+D3
+~
+~
+0 0 4552
+S
+#4552
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 4551
+D2
+Exit description~
+~
+3 0 4557
+D3
+~
+~
+0 0 4553
+S
+#4553
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+~
+~
+0 0 4554
+D1
+Exit description~
+~
+0 0 4552
+S
+#4554
+A Dark Black Hallway~
+This hallway is dark as night, the black obsidian walls shiny in your own
+light.  It is quite silent all around you...you can barely hear your own
+movements.  A strange feeling of doom seems to shroud the hallway, but you
+don't see anything to explain why.
+~
+0 9 0
+D0
+~
+~
+0 0 4539
+D2
+~
+~
+0 0 4553
+D3
+~
+~
+7 0 4556
+S
+#4555
+Mirror Room~
+The only thing you see in this whole room is a large mirror that is attached
+to the west wall.  A plain iron frame runs around the outside of the mirror.
+Otherwise this room is dark, cold and empty.
+~
+0 9 0
+D1
+~
+~
+3 0 4540
+E
+mirror~
+A chill runs down your spine as you notice you have no reflection in the
+mirror!
+~
+S
+#4556
+Dark Study~
+You stand in what appears to be some sort of office or study.  An elegant
+chair stands in front of an ornate obsidian desk.  Papers with mystical runes
+are scattered about the desk.  A small cabinet stands next to the desk.
+~
+0 9 0
+D1
+~
+~
+3 0 4554
+S
+#4557
+The Tainted Surgery~
+The first thing you notice as you enter this large room is the stench of
+decaying flesh.  Looking about you see quite a few hideous tools, covered in
+blood.  Three rough iron tables are setup, one with the remnants of a carved
+up creature slowly rotting atop it.  Broken chemical bottles and small tools
+are strewn about the floor.
+~
+0 9 0
+D0
+~
+~
+3 0 4552
+D1
+~
+~
+0 0 4558
+S
+#4558
+The Tainted Surgery~
+The first thing you notice as you enter this large room is the stench of
+decaying flesh.  Looking about you see quite a few hideous tools, covered in
+blood.  Three rough iron tables are setup, one with the remnants of a carved
+up creature slowly rotting atop it.  Broken chemical bottles and small tools
+are strewn about the floor.
+~
+0 9 0
+D3
+Exit description~
+~
+0 0 4557
+S
+#4559
+Chemical Storage~
+The smell of acidic liquids and caustic powders fills the air of this small
+room.  Numerous wooden shelves are set into each wall.  Each shelf is
+overflowing with small reagent bottles, paper packets of powders, and curious
+looking herbs in jars.
+~
+0 9 0
+D3
+~
+~
+3 0 4548
+S
+#4560
+A Dark Closet~
+This room must be some sort of storage closet, as its barely big enough for
+you to fit inside, and all you see is a tall cupboard sitting against the
+eastern wall.
+~
+0 9 0
+D3
+~
+~
+3 0 4547
+S
+#4561
+The Summoning Chamber~
+You stand at one end of a large chamber.  Many diagrams of summoning circles
+and the runes to activate them hang from the walls, and a small wooden table
+is covered in various drawing tools.
+~
+0 9 0
+D1
+~
+~
+0 0 4562
+D2
+~
+~
+3 0 4543
+S
+#4562
+The Summoning Chamber~
+You stand in the middle of a large chamber.  Many diagrams of summoning
+circles and the runes to activate them hang from the walls, and a small wooden
+table is covered in various drawing tools.
+~
+0 9 0
+D1
+~
+~
+0 0 4563
+D3
+Exit description~
+~
+0 0 4561
+S
+#4563
+The Summoning Chamber~
+You stand at the far end of a large chamber.  Many diagrams of summoning
+circles and the runes to activate them hang from the walls, and a small wooden
+table is covered in various drawing tools.  A large circle is carved into the
+rock floor, with many different designs and permutations carved about it to
+ease the work of the summoner.
+~
+0 9 0
+D3
+~
+~
+0 0 4562
+S
+#4564
+A Narrow Stairway~
+You stand within the confines of a narrow staircase, crafted from plain gray
+stone.  No light shines from above or below...the only source of illumination
+being your own lightsource.
+~
+0 9 0
+D4
+Exit description~
+~
+0 0 4565
+D5
+~
+~
+3 0 4539
+S
+#4565
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.  A narrow staircase leads
+back down into the tower from here.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4566
+D1
+Exit description~
+~
+0 0 4581
+D2
+Exit description~
+~
+0 0 4580
+D5
+Exit description~
+~
+16777216 0 4564
+S
+#4566
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4567
+D2
+Exit description~
+~
+0 0 4565
+S
+#4567
+Chamber Of Order~
+Whomever inhabits this chamber must be very orderly.  Everything seems to be
+in the right place, and items are sorted by color, size, and other various
+systems.  The desk in the middle of the room is placed so that the sides are
+exactly parallel with the walls of the chamber.  Every painting is hung
+perfectly straight.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4568
+D2
+Exit description~
+~
+0 0 4566
+S
+#4568
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4569
+D3
+Exit description~
+~
+0 0 4567
+S
+#4569
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4570
+D2
+Exit description~
+~
+0 0 4582
+D3
+Exit description~
+~
+0 0 4568
+S
+#4570
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4571
+D3
+Exit description~
+~
+0 0 4569
+S
+#4571
+Chamber Of Disorder~
+This large chamber is a mess!  Everything seems to be in the wrong place.
+Some boxes are piled in the northeast corner, but they are stacked
+precariously, as if the owner had no plan in mind when they started storing
+things.  Tapestries are hung upside down, or crookedly, and paintings are hung
+in places where they are blocked by the columns.
+~
+0 3153921 0
+D2
+Exit description~
+~
+0 0 4572
+D3
+Exit description~
+~
+0 0 4570
+S
+#4572
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4571
+D2
+Exit description~
+~
+0 0 4573
+S
+#4573
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4572
+D2
+Exit description~
+~
+0 0 4574
+D3
+Exit description~
+~
+0 0 4584
+S
+#4574
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4573
+D2
+Exit description~
+~
+0 0 4575
+S
+#4575
+Chamber Of Creation~
+Everything in this chamber gleams as if brand new.  The smell of freshly cut
+wood emanates from the shelves against the walls.  Papers lying on the desk
+are crisp and clean, as if the paper was just pressed.  The glass tabletop of
+the desk sparkles as if its just been cleaned.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4574
+D3
+Exit description~
+~
+0 0 4576
+S
+#4576
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4575
+D3
+Exit description~
+~
+0 0 4577
+S
+#4577
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4583
+D1
+Exit description~
+~
+0 0 4576
+D3
+Exit description~
+~
+0 0 4578
+S
+#4578
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4577
+D3
+Exit description~
+~
+0 0 4579
+S
+#4579
+Chamber Of Destruction~
+This chamber is filled with splinters of wood furniture, tatters of torn
+tapestries and wall hangings, and shards of broken glass from magical bottles
+and vials.  It seems that nothing in this chamber is intact.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4580
+D1
+Exit description~
+~
+0 0 4578
+S
+#4580
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4565
+D2
+Exit description~
+~
+0 0 4579
+S
+#4581
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4585
+D3
+Exit description~
+~
+0 0 4565
+S
+#4582
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4569
+D2
+Exit description~
+~
+0 0 4585
+S
+#4583
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4585
+D2
+Exit description~
+~
+0 0 4577
+S
+#4584
+A Plain Gray Hallway~
+After the rest of the tower, this level seems pretty unexciting.  The walls
+are crafted from simple granite bricks.  It is only after you look closer that
+you notice the strange runes carved into each brick.
+~
+0 3153921 0
+D1
+Exit description~
+~
+0 0 4573
+D3
+Exit description~
+~
+0 0 4585
+S
+#4585
+The Masters Chambers~
+This elegant chamber is decorated in the finest and most tasteful treasures
+that can be found in the Realms.  It appears that the Master of the Tower
+spared no expense in making his lair as comfortable as possible.
+~
+0 3153921 0
+D0
+Exit description~
+~
+0 0 4582
+D1
+Exit description~
+~
+0 0 4584
+D2
+Exit description~
+~
+0 0 4583
+D3
+Exit description~
+~
+0 0 4581
+S
+#4600
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 4362 3 4585
+M 0 4362 3 4585
+M 0 4362 3 4585
+M 0 4361 4 4583
+M 0 4361 4 4583
+M 0 4361 4 4583
+M 0 4361 4 4583
+M 0 4360 4 4582
+M 0 4360 4 4582
+M 0 4360 4 4582
+M 0 4360 4 4582
+M 0 4359 1 4585
+E 0 4323 5 14
+M 0 4358 1 4579
+E 0 4327 1 5
+M 0 4357 1 4575
+E 0 4326 5 12
+M 0 4356 1 4571
+E 0 4325 5 8
+M 0 4355 1 4567
+E 0 4324 5 23
+M 0 4354 2 4563
+M 0 4354 2 4563
+E 0 4315 1 24
+M 0 4353 2 4558
+M 0 4353 2 4558
+M 0 4352 2 4551
+M 0 4352 2 4551
+M 0 4351 2 4547
+M 0 4351 2 4547
+M 0 4350 2 4542
+M 0 4350 2 4542
+M 0 4349 2 4554
+M 0 4349 2 4554
+O 0 4319 1 4559
+O 0 4321 1 4559
+O 0 4320 1 4559
+O 0 4316 1 4560
+P 0 4322 1 4316
+O 0 4317 1 4556
+P 0 4318 1 4317
+D 0 4540 3 1
+D 0 4555 1 1
+D 0 4554 3 2
+D 0 4556 1 1
+D 0 4552 2 1
+D 0 4557 0 1
+D 0 4548 1 1
+D 0 4559 3 1
+D 0 4547 1 2
+D 0 4560 3 1
+D 0 4543 0 1
+D 0 4561 2 1
+D 0 4539 4 2
+D 0 4564 5 1
+M 0 4348 3 4531
+M 0 4348 3 4531
+M 0 4348 3 4531
+M 0 4347 3 4529
+M 0 4347 3 4529
+M 0 4347 3 4529
+M 0 4346 3 4527
+M 0 4346 3 4527
+M 0 4346 3 4527
+M 0 4345 2 4534
+M 0 4345 2 4534
+M 0 4344 2 4523
+M 0 4344 2 4523
+M 0 4343 3 4515
+M 0 4343 3 4515
+M 0 4343 3 4515
+M 0 4342 3 4507
+M 0 4342 3 4507
+M 0 4342 3 4507
+M 0 4341 3 4498
+M 0 4341 3 4498
+M 0 4341 3 4498
+M 0 4340 3 4493
+M 0 4340 3 4493
+M 0 4340 3 4493
+O 0 4314 1 4484
+M 0 4339 2 4488
+M 0 4339 2 4488
+M 0 4338 2 4484
+M 0 4338 2 4482
+M 0 4337 3 4485
+M 0 4337 3 4485
+M 0 4337 3 4485
+M 0 4336 3 4482
+M 0 4336 3 4482
+M 0 4336 3 4482
+M 0 4335 3 4479
+M 0 4335 3 4479
+M 0 4335 3 4479
+M 0 4334 3 4472
+M 0 4334 3 4472
+M 0 4334 3 4472
+M 0 4333 3 4464
+M 0 4333 3 4464
+M 0 4333 3 4464
+M 0 4332 3 4456
+M 0 4332 3 4456
+M 0 4332 3 4456
+M 0 4331 3 4450
+M 0 4331 3 4450
+M 0 4331 3 4450
+O 0 4313 1 4432
+M 0 4330 3 4433
+M 0 4330 3 4433
+M 0 4330 3 4433
+M 0 4329 3 4441
+M 0 4329 3 4441
+M 0 4329 3 4441
+M 0 4328 3 4444
+M 0 4328 3 4444
+M 0 4328 3 4444
+M 0 4327 3 4445
+M 0 4327 3 4445
+M 0 4327 3 4445
+M 0 4326 1 4443
+E 0 4312 10 7
+M 0 4325 3 4410
+M 0 4325 3 4410
+M 0 4325 3 4410
+M 0 4324 3 4431
+M 0 4324 3 4431
+M 0 4324 3 4431
+M 0 4323 3 4434
+M 0 4323 3 4434
+M 0 4323 3 4434
+M 0 4322 3 4440
+M 0 4322 3 4440
+M 0 4322 3 4440
+O 0 4310 1 4390
+M 0 4321 5 4392
+E 0 4311 15 14
+M 0 4321 5 4392
+M 0 4321 5 4392
+M 0 4321 5 4392
+E 0 4311 15 14
+M 0 4321 5 4392
+M 0 4320 1 4394
+M 0 4319 1 4391
+M 0 4318 3 4379
+M 0 4318 3 4379
+M 0 4318 3 4379
+M 0 4317 3 4371
+M 0 4317 3 4371
+M 0 4317 3 4371
+M 0 4316 3 4363
+M 0 4316 3 4363
+M 0 4316 3 4363
+M 0 4315 3 4355
+M 0 4315 3 4355
+M 0 4315 3 4355
+M 0 4314 2 4395
+M 0 4314 2 4395
+M 0 4313 2 4393
+M 0 4313 2 4393
+O 0 4309 1 4391
+M 0 4319 1 4391
+M 0 4318 3 4368
+M 0 4318 3 4368
+M 0 4318 3 4368
+M 0 4317 3 4382
+M 0 4317 3 4382
+M 0 4317 3 4382
+M 0 4316 3 4374
+M 0 4316 3 4374
+M 0 4316 3 4374
+M 0 4315 3 4388
+M 0 4315 3 4388
+M 0 4315 3 4388
+M 0 4314 2 4395
+M 0 4314 2 4395
+M 0 4313 2 4393
+M 0 4313 2 4393
+M 0 4312 1 4307
+M 0 4311 4 4308
+E 0 4305 1 7
+E 0 4303 1 21
+M 0 4311 4 4308
+E 0 4307 1 17
+E 0 4303 1 21
+M 0 4311 4 4308
+E 0 4306 1 11
+E 0 4303 1 21
+M 0 4311 4 4308
+E 0 4305 1 7
+E 0 4303 1 21
+M 0 4309 3 4351
+M 0 4309 3 4351
+M 0 4309 3 4351
+M 0 4308 3 4344
+E 0 4303 1 21
+M 0 4308 3 4344
+E 0 4303 1 21
+M 0 4308 3 4344
+E 0 4303 1 21
+M 0 4307 3 4348
+M 0 4307 3 4348
+M 0 4307 3 4348
+M 0 4310 1 4324
+E 0 4307 1 17
+E 0 4306 1 11
+E 0 4305 1 7
+E 0 4304 1 21
+E 0 4308 1 12
+M 0 4306 3 4336
+M 0 4306 3 4336
+M 0 4306 3 4336
+M 0 4305 3 4312
+M 0 4305 3 4312
+M 0 4305 3 4312
+M 0 4303 1 4352
+M 0 4302 3 4320
+M 0 4302 3 4320
+M 0 4302 3 4320
+M 0 4301 3 4328
+M 0 4301 3 4328
+M 0 4301 3 4328
+M 0 4304 3 4352
+M 0 4304 3 4352
+M 0 4304 3 4352
+D 0 4352 3 1
+D 0 4327 1 1
+D 0 4331 0 1
+D 0 4351 2 1
+D 0 4348 2 1
+D 0 4334 0 1
+D 0 4345 3 1
+D 0 4321 1 1
+D 0 4340 1 1
+D 0 4310 3 1
+D 0 4341 0 1
+D 0 4313 2 1
+D 0 4308 3 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4307 spec_guard
+M  4310 spec_guard
+M  4312 spec_cast_mage
+M  4355 spec_cast_bishop
+M  4356 spec_cast_diabolist
+M  4357 spec_cast_druid
+M  4358 spec_cast_shaman
+M  4359 spec_cast_archmagi
+S
+
+
+#$

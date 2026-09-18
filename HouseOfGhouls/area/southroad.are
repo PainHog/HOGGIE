@@ -1,0 +1,2210 @@
+#AREA   Southern Road~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 1 65
+$
+
+#RESETMSG A warm breeze brushes past you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1657811754
+
+#CLIMATE 3 1 1
+
+#MOBILES
+#201
+gull bird seagull sea~
+a seagull~
+A circling seagull rides the winds above you.
+~
+A seagull circles above you, occasionally letting out a screeching cry.  Every
+so often it dips closer to the ground to get a look at various objects that it
+spies from above.
+~
+16777281 557056 0 C
+5 0 30 2d5+75 1d5+5
+25 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809985 0 0 0 512 0
+#202
+elf traveller elven~
+an elven traveller~
+A young elf travels the road, looking for adventure.
+~
+A fairly young elf looks up at you.  She is carrying a small load, mostly
+camping gear, but she is also armed with some light weapons.  She watches you
+suspiciously.
+~
+16777281 0 1000 C
+10 0 5 3d6+155 2d5+5
+75 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 0 0 2 2 0
+0 0 15 0 0 0 48 1
+#203
+ghoul adventurer~
+a ghoul adventurer~
+A well-equipped ghoul walks the road.
+~
+A ghoul travels down the road.  He is well-armed, and his equipment looks like
+it has seen heavy use.  He throws a glance your way, but doesn't seem too
+concerned.
+~
+16777281 71303208 1000 C
+40 0 -145 4d30+1255 3d5+30
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 2 0 0 1048576 1048576 0
+0 0 31 2097408 0 0 259 2621441
+#204
+bandit human~
+a dirty bandit~
+A dirty human, probably a bandit, watches you closely.
+~
+This dirty human watches you closely and you notice him eyeing your goods.
+You get a bad feeling that he is trying to decide whether or not you are worth
+robbing.
+~
+65 0 -1000 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 47 0 0 0 48 0
+#205
+vulture ugly~
+an ugly vulture~
+A vulture swoops along here, looking for a dead meal.
+~
+An ugly vulture swoops down low, taking a look at you.  Saddened by the fact
+that you don't look quite dead yet, it takes back off and circles about the
+sky.
+~
+16777285 524288 0 C
+25 0 -70 4d10+540 3d5+15
+150 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 0
+#206
+nomad desert~
+a desert nomad~
+A young male nomad stares at you curiously.
+~
+This young nomad must of wandered onto the road from the deserts down south.
+He is dressed in tribal robes and carries a strange curved sword.  He watches
+you with a curious look in his eye, not knowing it is rude to stare.
+~
+16777281 0 1000 C
+13 0 -10 3d6+215 3d5+3
+75 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 79 0 0 0 112 524289
+#207
+gull bird seagull sea~
+a seagull~
+A circling seagull rides the winds above you.
+~
+A seagull circles above you, occasionally letting out a screeching cry.  Every
+so often it dips closer to the ground to get a look at various objects that it
+spies from above.
+~
+16777281 557056 0 C
+5 0 30 2d5+75 1d5+5
+25 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 16809985 0 0 0 512 0
+#208
+elf traveller elven~
+an elven traveller~
+A young elf travels the road, looking for adventure.
+~
+A fairly young elf looks up at you.  She is carrying a small load, mostly
+camping gear, but she is also armed with some light weapons.  She watches you
+suspiciously.
+~
+16777281 0 1000 C
+10 0 5 3d6+155 2d5+5
+75 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 0 0 2 2 0
+0 0 15 0 0 0 48 1
+#209
+bandit human~
+a dirty bandit~
+A dirty human, probably a bandit, watches you closely.
+~
+This dirty human watches you closely and you notice him eyeing your goods.
+You get a bad feeling that he is trying to decide whether or not you are worth
+robbing.
+~
+65 0 -1000 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 47 0 0 0 48 0
+#210
+bandit human~
+a dirty bandit~
+A dirty human, probably a bandit, watches you closely.
+~
+This dirty human watches you closely and you notice him eyeing your goods.
+You get a bad feeling that he is trying to decide whether or not you are worth
+robbing.
+~
+65 0 -1000 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 47 0 0 0 48 0
+#211
+bandit human~
+a dirty bandit~
+A dirty human, probably a bandit, watches you closely.
+~
+This dirty human watches you closely and you notice him eyeing your goods.
+You get a bad feeling that he is trying to decide whether or not you are worth
+robbing.
+~
+65 0 -1000 C
+15 0 -20 3d6+250 3d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 47 0 0 0 48 0
+#212
+nomad desert~
+a desert nomad~
+A young male nomad stares at you curiously.
+~
+This young nomad must of wandered onto the road from the deserts down south.
+He is dressed in tribal robes and carries a strange curved sword.  He watches
+you with a curious look in his eye, not knowing it is rude to stare.
+~
+16777281 0 1000 C
+13 0 -10 3d6+215 3d5+3
+75 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 79 0 0 0 112 524289
+#213
+nomad desert~
+a desert nomad~
+A young male nomad stares at you curiously.
+~
+This young nomad must of wandered onto the road from the deserts down south.
+He is dressed in tribal robes and carries a strange curved sword.  He watches
+you with a curious look in his eye, not knowing it is rude to stare.
+~
+16777281 0 1000 C
+13 0 -10 3d6+215 3d5+3
+75 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 79 0 0 0 112 524289
+#214
+vulture ugly~
+an ugly vulture~
+A vulture swoops along here, looking for a dead meal.
+~
+An ugly vulture swoops down low, taking a look at you.  Saddened by the fact
+that you don't look quite dead yet, it takes back off and circles about the
+sky.
+~
+16777285 524288 0 C
+25 0 -70 4d10+540 3d5+15
+150 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 0
+#215
+surfer man~
+the surfer~
+A young man stands near a rack of strange boards.
+~
+The surfer leans up against a wooden rack, which is full of long wooden
+boards, shaped a little like boats.  "Hey, I got surfboards right here, if
+you're interested.  Some killer waves out there on the break.  The trick is to
+head out as far as you can without leaving the break, and then look for the
+spots where you see the waves building.  Then just "SURF", and you'll be
+riding em home in no time!  Just say 'sure, dude' and I can hook you up."
+~
+16777283 0 1000 C
+40 0 -145 4d30+1255 3d5+30
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 31 0 0 0 0 0
+> death_prog 50~
+say Fer sure dude!  Thats like, so uncool!
+emote goes to the great Pipeline in the sky...~
+> speech_prog 'sure dude'~
+if goldamt($n) < 6000
+  mpechoat $n You need at least 6000 coins for one of theses babies!
+else
+  mpoload 215
+  give surfboard $n
+  say Here you go $n.  If you need help surfing, just look at me!
+  mpforce $n give 6000 coins surfer
+endif
+~
+> greet_prog 25~
+if sex($n) == 2
+  say Hey baby, you wanna buy a surfboard?
+  else
+    if sex($n) == 1
+       say Hey dude, you wanna buy a surfboard?
+    endif
+endif
+~
+|
+#216
+sailor boatsalesman~
+the sailor~
+A young sailor stands near a small boathouse.
+~
+Looking up from his wood-carving, the sailor greets you.  "Aye matey, ye bee
+looking for a way out into the mighty sea?  I gots here what ye need."
+~
+16777283 0 1000 C
+40 0 -145 4d30+1255 3d5+30
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 31 0 0 0 0 0
+#300
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+20971589 524288 0 C
+25 0 -70 4d10+540 3d5+15
+150 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 2
+#0
+
+
+#OBJECTS
+#201
+rapier silver~
+a silver rapier~
+A long, sharp rapier, crafted from silver.~
+~
+5 192 131073
+12 4 3 11
+2 2500 0
+A
+2 2
+A
+18 3
+A
+19 3
+#202
+cloak rune~
+a rune-embroidered cloak~
+A strange cloak, with numerous runes embroided in gold~
+~
+9 64 2049
+6 6 0 0
+1 1000 0
+A
+79 2
+A
+3 2
+A
+12 25
+#203
+boots leather~
+a pair of nightgaunt leather boots~
+A pair of boots, crafted from a dark, shiny leather.~
+~
+9 64 65537
+6 6 0 0
+2 2000 0
+A
+22 -3
+A
+24 -3
+A
+14 50
+#204
+scimitar~
+a curved scimitar~
+A curved scimitar glints in the sand.~
+~
+5 0 131073
+12 2 4 1
+3 250 0
+#205
+cowl nomad~
+a nomads cowl~
+A cowl of light cotton, meant to keep the sand out of ones face.~
+~
+9 0 17
+5 5 0 0
+1 500 0
+A
+5 1
+#206
+leather tunic~
+a torn leather tunic~
+A torn and battered leather tunic lies in the dust.~
+~
+9 0 65
+4 4 0 0
+5 150 0
+A
+1 1
+#207
+dagger~
+a rusty dagger~
+An old rusty dagger, corroded by salty air.~
+~
+5 64 131073
+8 2 2 2
+1 75 0
+A
+30 33
+#208
+leggings elven chain~
+elven chainmail leggings~
+Leggings made from a bright metal.~
+~
+9 65 16385
+7 7 0 0
+3 1000 0
+A
+2 1
+#209
+sleeves elven chain~
+elven chainmail sleeves~
+Sleeves made from some bright metal.~
+~
+9 65 129
+6 6 0 0
+2 1000 0
+A
+1 1
+#210
+bow elven long~
+an elven longbow~
+A large bow, engraved with elvish runes.~
+~
+5 64&16 131073
+12 6 5 14
+6 750 0
+A
+18 2
+#211
+sword elven long~
+an elven longsword~
+A longsword, with elvish runes engraved in the hilt.~
+~
+5 64 131073
+12 3 4 3
+3 750 0
+A
+18 2
+#212
+coral ~
+a piece of pink coral~
+A lovely piece of pink coral lies in the sand.~
+~
+8 0 1048577
+0 0 0 0
+1 1000 0
+#213
+ring obsidian~
+an obsidian ring~
+A small ring, carved from a chunk of obsidian.~
+~
+8 68 1025
+0 0 0 0
+1 0 0
+A
+13 20
+#214
+necklace silver~
+a silver necklace~
+A necklace made up of small silver chain links.~
+~
+9 65 33
+4 4 0 0
+1 0 0
+A
+24 -2
+A
+12 10
+#215
+board surf surfboard~
+a surfboard~
+A surfboard lays on the ground here.~
+~
+22 256 1048577
+0 0 0 0
+5 5000 0
+#216
+tree palm~
+a large palm tree~
+A large palm tree sways in the wind.  Is something written on it?~
+~
+13 0 0
+0 0 0 0
+9999 0 0
+E
+tree palm~
+Remember, the way to affirm a question from a surfer are the words "sure dude".
+~
+#217
+map sign roadmap roadsign~
+a roadsign~
+A sturdy roadsign is planted alongside the path.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+map sign roadmap roadsign~
+Blades Of Grass -- 2s1w
+Underhill/Flower Garden -- 6s1e
+Talon Desert -- 10s5w9s1e
+Plains Road -- 10s5w20s1w
+Beach -- 10s5w20s20e20s
+~
+#218
+skiff boat~
+a small skiff~
+A small skiff, barely large enough to survive the mighty waves.~
+~
+22 0 1048577
+0 0 0 0
+75 1500 0
+#219
+salty potion~
+a salty potion~
+A clear potion, with tiny bubbles floating about in it.~
+~
+10 66 1048577
+65 -1 -1 -1
+1 2500 0
+'aqua breath' 'aqua breath' 'aqua breath'
+#300
+Placeholder~
+Placeholder~
+Placeholder~
+~
+9 65 5
+4 4 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#201
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  North of you lies the southern
+entrance to Alden.
+~
+0 0 2
+D0
+~
+~
+0 0 21025
+D2
+~
+~
+0 0 202
+S
+#202
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  You spot Alden to the north.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 201
+D2
+~
+~
+0 0 203
+S
+#203
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  A small standing stone can be seen
+peeking out of the tall grass to the west.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 202
+D2
+~
+~
+0 0 204
+D3
+~
+~
+0 0 1001
+S
+#204
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 203
+D2
+~
+~
+0 0 205
+S
+#205
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 204
+D2
+~
+~
+0 0 206
+S
+#206
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+~
+~
+0 0 205
+D2
+~
+~
+0 0 207
+S
+#207
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  Another road heads off to the east,
+towards some small hills.
+~
+0 0 2
+D0
+~
+~
+0 0 206
+D1
+~
+~
+0 0 401
+D2
+~
+~
+0 0 208
+S
+#208
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+~
+~
+0 0 207
+D2
+~
+~
+0 0 209
+S
+#209
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 208
+D2
+~
+~
+0 0 210
+S
+#210
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  To the east is the gate to the
+Templar Academy.
+
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 209
+D1
+~
+~
+0 0 8000
+D2
+~
+~
+0 0 211
+S
+#211
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 210
+D3
+~
+~
+0 0 212
+S
+#212
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 211
+D3
+~
+~
+0 0 213
+S
+#213
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 212
+D3
+~
+~
+0 0 214
+S
+#214
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 213
+D3
+~
+~
+0 0 215
+S
+#215
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 214
+D3
+~
+~
+0 0 216
+S
+#216
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 215
+D2
+~
+~
+0 0 217
+S
+#217
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 216
+D2
+~
+~
+0 0 218
+S
+#218
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 217
+D2
+~
+~
+0 0 219
+S
+#219
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 218
+D2
+~
+~
+0 0 220
+S
+#220
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 219
+D2
+~
+~
+0 0 221
+S
+#221
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 220
+D2
+~
+~
+0 0 222
+S
+#222
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 221
+D2
+~
+~
+0 0 223
+S
+#223
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 222
+D2
+~
+~
+0 0 224
+S
+#224
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 223
+D2
+~
+~
+0 0 225
+S
+#225
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 224
+D1
+~
+~
+0 0 1301
+D2
+~
+~
+0 0 226
+S
+#226
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 225
+D2
+~
+~
+0 0 227
+S
+#227
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 226
+D2
+~
+~
+0 0 228
+S
+#228
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 227
+D2
+~
+~
+0 0 229
+S
+#229
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 228
+D2
+~
+~
+0 0 230
+S
+#230
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 229
+D2
+~
+~
+0 0 231
+S
+#231
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 230
+D2
+~
+~
+0 0 232
+S
+#232
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 231
+D2
+~
+~
+0 0 233
+S
+#233
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 232
+D2
+~
+~
+0 0 234
+S
+#234
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 233
+D2
+~
+~
+0 0 235
+S
+#235
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 234
+D2
+~
+~
+0 0 236
+S
+#236
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.  Another road branches off to the
+west, crossing through the plains.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 235
+D1
+~
+~
+0 0 237
+D3
+~
+~
+0 0 701
+S
+#237
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 238
+D3
+Exit description~
+~
+0 0 236
+S
+#238
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 239
+D3
+Exit description~
+~
+0 0 237
+S
+#239
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 240
+D3
+Exit description~
+~
+0 0 238
+S
+#240
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 241
+D3
+Exit description~
+~
+0 0 239
+S
+#241
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 242
+D3
+Exit description~
+~
+0 0 240
+S
+#242
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 243
+D3
+Exit description~
+~
+0 0 241
+S
+#243
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 244
+D3
+Exit description~
+~
+0 0 242
+S
+#244
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 245
+D3
+Exit description~
+~
+0 0 243
+S
+#245
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 246
+D3
+Exit description~
+~
+0 0 244
+S
+#246
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 247
+D3
+Exit description~
+~
+0 0 245
+S
+#247
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 248
+D3
+Exit description~
+~
+0 0 246
+S
+#248
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 249
+D3
+Exit description~
+~
+0 0 247
+S
+#249
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 250
+D3
+Exit description~
+~
+0 0 248
+S
+#250
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 251
+D3
+Exit description~
+~
+0 0 249
+S
+#251
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 252
+D3
+Exit description~
+~
+0 0 250
+S
+#252
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  About you, you hear the sound of birds singing, and the sun shines
+warmly down upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 253
+D3
+Exit description~
+~
+0 0 251
+S
+#253
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  The grass is slowly thinning out, giving way to bare sand dunes.
+About you, you hear the sound of birds singing, and the sun shines warmly down
+upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 2
+D1
+~
+~
+0 0 254
+D3
+Exit description~
+~
+0 0 252
+S
+#254
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through grassy
+plains.  The grass is slowly thinning out, giving way to bare sand dunes.
+About you, you hear the sound of birds singing, and the sun shines warmly down
+upon you.  This road is fairly well-traveled, and from the tales
+you have heard, is also relatively safe.
+~
+0 0 10
+D1
+~
+~
+0 0 255
+D3
+Exit description~
+~
+0 0 253
+S
+#255
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D1
+~
+~
+0 0 256
+D3
+Exit description~
+~
+0 0 254
+S
+#256
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D2
+~
+~
+0 0 257
+D3
+Exit description~
+~
+0 0 255
+S
+#257
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 256
+D2
+~
+~
+0 0 258
+S
+#258
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 257
+D2
+~
+~
+0 0 259
+S
+#259
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 258
+D2
+~
+~
+0 0 260
+S
+#260
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 259
+D2
+~
+~
+0 0 261
+S
+#261
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 260
+D2
+~
+~
+0 0 262
+S
+#262
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.  A small path of carefully
+set cobblestones branches off to the east.  You can sight the top of a tall
+tower in the distance.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 261
+D1
+~
+~
+0 0 4301
+D2
+~
+~
+0 0 263
+S
+#263
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  This road is fairly well-traveled, and from
+the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 262
+D2
+~
+~
+0 0 264
+S
+#264
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 263
+D2
+~
+~
+0 0 265
+S
+#265
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 264
+D2
+~
+~
+0 0 266
+S
+#266
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 265
+D2
+~
+~
+0 0 267
+S
+#267
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 266
+D2
+~
+~
+0 0 268
+S
+#268
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 267
+D2
+~
+~
+0 0 269
+S
+#269
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 268
+D2
+~
+~
+0 0 270
+S
+#270
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 269
+D2
+~
+~
+0 0 271
+S
+#271
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves.  This road is fairly well-traveled, and from the tales you have heard,
+is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 270
+D2
+~
+~
+0 0 272
+S
+#272
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves and can see the ocean on the horizon.  This road is fairly
+well-traveled, and from the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 271
+D2
+~
+~
+0 0 273
+S
+#273
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves and can see the ocean on the horizon.  This road is fairly
+well-traveled, and from the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 272
+D2
+~
+~
+0 0 274
+S
+#274
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves and can see the ocean on the horizon.  This road is fairly
+well-traveled, and from the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 273
+D2
+~
+~
+0 0 275
+S
+#275
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, you hear the sound of crashing
+waves and the ocean spreads out in front of you.  This road is fairly
+well-traveled, and from the tales you have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 274
+D2
+~
+~
+0 0 276
+S
+#276
+On The Southern Road~
+You stand upon the Southern Road.  The road meanders its way through dunes of
+beautiful white sand.  About you, you hear the sound of birds singing, and the
+sun shines warmly down upon you.  To the south, the bright blue of the ocean
+stands before you.  This road is fairly well-traveled, and from the tales you
+have heard, is also relatively safe.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 275
+D1
+~
+~
+0 0 282
+D2
+~
+~
+16777216 0 3006
+D3
+~
+~
+0 0 277
+S
+#277
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 276
+D2
+~
+~
+16777216 0 3005
+D3
+~
+~
+0 0 278
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#278
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 277
+D2
+Exit description~
+~
+16777216 0 3004
+D3
+~
+~
+0 0 279
+> rand_prog 15~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#279
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 278
+D2
+Exit description~
+~
+16777216 0 3003
+D3
+~
+~
+0 0 280
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#280
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+Exit description~
+~
+0 0 279
+D2
+Exit description~
+~
+16777216 0 3002
+D3
+~
+~
+0 0 281
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#281
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+A small dirt road heads west and little north.  A small shack is in the
+distance, and beyond you see jungle and mountains.
+~
+0 0 10
+D1
+~
+~
+0 0 280
+D2
+~
+~
+16777216 0 3001
+D3
+~
+~
+0 0 7101
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#282
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+~
+~
+0 0 283
+D2
+Exit description~
+~
+16777216 0 3007
+D3
+Exit description~
+~
+0 0 276
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#283
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+~
+~
+0 0 284
+D2
+Exit description~
+~
+16777216 0 3008
+D3
+Exit description~
+~
+0 0 282
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#284
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+~
+~
+0 0 285
+D2
+Exit description~
+~
+0 0 3009
+D3
+Exit description~
+~
+0 0 283
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#285
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+~
+0 0 10
+D1
+~
+~
+0 0 286
+D2
+Exit description~
+~
+0 0 3010
+D3
+Exit description~
+~
+0 0 284
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#286
+On The Beach~
+You walk along the beach.  Warm, white sand crunches beneath your feet, and
+the sun shines warmly down upon you.  The cries of sea birds can be heard
+circling overhead.  The sound of waves crashing on the shore is all about you.
+ A small path seems to wind its way through the small dunes to the north.
+~
+0 1024 10
+D0
+~
+~
+0 0 4601
+D2
+~
+~
+0 0 3011
+D3
+~
+~
+0 0 285
+> rand_prog 25~
+mea $n You hear a sizzling sigh of bubbles as a wave ends its journey to the shore...~
+|
+S
+#300
+Placeholder~
+Placeholder
+~
+0 4 10
+S
+#0
+
+
+#RESETS
+M 0 216 1 276
+G 1 219 1
+G 1 218 1
+O 0 217 1 201
+O 0 216 1 278
+M 0 215 1 278
+O 0 212 1 279
+O 0 212 1 285
+M 0 213 1 263
+E 0 204 1 21
+M 0 212 1 278
+E 0 205 1 4
+E 0 204 1 21
+M 0 206 1 232
+E 0 204 1 21
+M 0 214 2 272
+M 0 214 2 272
+M 0 205 2 239
+M 0 205 2 239
+M 0 211 2 216
+E 0 206 1 7
+M 0 211 2 216
+M 0 210 1 211
+M 0 209 1 208
+M 0 204 2 204
+E 0 207 1 21
+M 0 204 2 204
+M 0 203 1 274
+E 0 213 1 12
+E 0 203 1 20
+E 0 202 1 14
+E 0 201 1 21
+M 0 208 1 258
+E 0 211 1 21
+E 0 208 1 17
+M 0 202 1 211
+E 0 214 1 5
+E 0 210 1 21
+E 0 209 1 8
+M 0 207 3 281
+M 0 207 3 281
+M 0 207 3 281
+M 0 207 3 281
+M 0 201 3 286
+M 0 201 3 286
+M 0 201 3 286
+S
+
+
+#SHOPS
+ 216   22  8 10  0  0   120  90         7 18    ; the sailor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  203 spec_cast_druid
+M  204 spec_thief
+M  205 spec_janitor
+M  208 spec_cast_mage
+M  214 spec_janitor
+S
+
+
+#$

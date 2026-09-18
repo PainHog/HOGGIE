@@ -1,0 +1,1798 @@
+#AREA   Ironholde~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG The sounds of working dwarves echo all around you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 260301713
+
+#CLIMATE 1 1 0
+
+#MOBILES
+#2251
+rat squeaky~
+a squeaky rat~
+A small squeak comes from this rat as he scamper along the hallways.
+~
+Your attention is drawn by the squeak of a small rat, scampering along the
+rock hallways of the city.  He looks pretty well fed; probably found a nice
+trash heap to forage through somewhere.
+~
+16777285 0 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#2252
+rat squeaky~
+a squeaky rat~
+A small squeak comes from this rat as he scamper along the hallways.
+~
+Your attention is drawn by the squeak of a small rat, scampering along the
+rock hallways of the city.  He looks pretty well fed; probably found a nice
+trash heap to forage through somewhere.
+~
+16777285 0 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#2253
+rat squeaky~
+a squeaky rat~
+A small squeak comes from this rat as he scamper along the hallways.
+~
+Your attention is drawn by the squeak of a small rat, scampering along the
+rock hallways of the city.  He looks pretty well fed; probably found a nice
+trash heap to forage through somewhere.
+~
+16777285 0 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#2254
+rat squeaky~
+a squeaky rat~
+A small squeak comes from this rat as he scamper along the hallways.
+~
+Your attention is drawn by the squeak of a small rat, scampering along the
+rock hallways of the city.  He looks pretty well fed; probably found a nice
+trash heap to forage through somewhere.
+~
+16777285 0 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 65537 0 0 0 1 0
+#2255
+child dwarf dwarven~
+a dwarven child~
+A small dwarven child runs about the hallways, chasing rats.
+~
+A small dwarven child smiles at you as he runs along the hallways, trying to
+herd the small rats with a stick.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 15 0 0 0 0 0
+#2256
+child dwarf dwarven~
+a dwarven child~
+A small dwarven child runs about the hallways, chasing rats.
+~
+A small dwarven child smiles at you as he runs along the hallways, trying to
+herd the small rats with a stick.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 15 0 0 0 0 0
+#2257
+child dwarf dwarven~
+a dwarven child~
+A small dwarven child runs about the hallways, chasing rats.
+~
+A small dwarven child smiles at you as she runs along the hallways, trying to
+herd the small rats with a stick.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 15 0 0 0 0 0
+#2258
+child dwarf dwarven~
+a dwarven child~
+A small dwarven child runs about the hallways, chasing rats.
+~
+A small dwarven child smiles at you as she runs along the hallways, trying to
+herd the small rats with a stick.
+~
+16777281 0 0 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 15 0 0 0 0 0
+#2259
+female dwarf dwarven~
+a female dwarf~
+A female dwarf, with bows in her beard, smiles as she passes by.
+~
+This dwarf must be a female, for no self-respecting male dwarf would tie
+pretty bows in his beard.  Otherwise, you can't tell the difference.  She
+smiles at you as she passes by, doing some type of chore.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 31 0 0 0 16 0
+#2260
+female dwarf dwarven~
+a female dwarf~
+A female dwarf, with bows in her beard, smiles as she passes by.
+~
+This dwarf must be a female, for no self-respecting male dwarf would tie
+pretty bows in his beard.  Otherwise, you can't tell the difference.  She
+smiles at you as she passes by, doing some type of chore.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 31 0 0 0 16 0
+#2261
+female dwarf dwarven~
+a female dwarf~
+A female dwarf, with bows in her beard, smiles as she passes by.
+~
+This dwarf must be a female, for no self-respecting male dwarf would tie
+pretty bows in his beard.  Otherwise, you can't tell the difference.  She
+smiles at you as she passes by, doing some type of chore.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 31 0 0 0 16 0
+#2262
+male dwarf dwarven~
+a dwarf~
+A dwarf, carrying a heavy load of ore, passes by with a grin.
+~
+Obviously coming back from the mines with a heavy load, this young dwarf has
+the dark red dust of the mountain covering his clothes and beard.  He carries
+a huge load of ore, but it doesn't seem to burden him much.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 1039 0 0 0 128 0
+#2263
+male dwarf dwarven~
+a dwarf~
+A dwarf, carrying a heavy load of ore, passes by with a grin.
+~
+Obviously coming back from the mines with a heavy load, this young dwarf has
+the dark red dust of the mountain covering his clothes and beard.  He carries
+a huge load of ore, but it doesn't seem to burden him much.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 1039 0 0 0 128 0
+#2264
+male dwarf dwarven~
+a dwarf~
+A dwarf, carrying a heavy load of ore, passes by with a grin.
+~
+Obviously coming back from the mines with a heavy load, this young dwarf has
+the dark red dust of the mountain covering his clothes and beard.  He carries
+a huge load of ore, but it doesn't seem to burden him much.
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 1039 0 0 0 128 0
+#2265
+guard dwarf dwarven~
+a dwarven guard~
+A dwarf bearing the markings of a guard of Ironholde nods as you pass.
+~
+This dwarf wears the arms and armor of a guard of Ironholde.  Practiced in
+battle, he is probably a force to be reckoned with.  He's seen his share of
+combat against the giants and denizens of the underground.
+~
+32833 8192 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 527 0 0 0 160 1
+#2266
+guard dwarf dwarven~
+a dwarven guard~
+A dwarf bearing the markings of a guard of Ironholde nods as you pass.
+~
+This dwarf wears the arms and armor of a guard of Ironholde.  Practiced in
+battle, he is probably a force to be reckoned with.  He's seen his share of
+combat against the giants and denizens of the underground.
+~
+32833 8192 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 527 0 0 0 160 1
+#2267
+guard dwarf dwarven~
+a dwarven guard~
+A dwarf bearing the markings of a guard of Ironholde nods as you pass.
+~
+This dwarf wears the arms and armor of a guard of Ironholde.  Practiced in
+battle, he is probably a force to be reckoned with.  He's seen his share of
+combat against the giants and denizens of the underground.
+~
+32833 8192 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 527 0 0 0 160 1
+#2268
+guard dwarf dwarven~
+a dwarven guard~
+A dwarf bearing the markings of a guard of Ironholde nods as you pass.
+~
+This dwarf wears the arms and armor of a guard of Ironholde.  Practiced in
+battle, he is probably a force to be reckoned with.  He's seen his share of
+combat against the giants and denizens of the underground.
+~
+32833 8192 0 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 527 0 0 0 160 1
+#2269
+dwarf elite guard dwarven~
+a dwarven elite guard~
+A stout dwarf, dressed in mithril armor, stands at attention here.
+~
+A stout dwarf stands at attention, ignoring you completely.  No matter what
+you do, this dwarf ignores your actions and stays straight and upright.  After
+looking at his armor and weapons, you decide you probably shouldn't mess with
+him.
+~
+32835 4194304&256 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 31 0 0 0 176 1
+#2270
+dwarf elite guard dwarven~
+a dwarven elite guard~
+A stout dwarf, dressed in mithril armor, stands at attention here.
+~
+A stout dwarf stands at attention, ignoring you completely.  No matter what
+you do, this dwarf ignores your actions and stays straight and upright.  After
+looking at his armor and weapons, you decide you probably shouldn't mess with
+him.
+~
+32835 4194304&256 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 31 0 0 0 176 1
+#2271
+dwarf dwarven king Rhedpick~
+Rhedpick the Dwarf King~
+Rhedpick, king of the Dwarves, stands before you.
+~
+The mighty king of the Dwarves, Rhedpick, stands and stares at you as you
+approach the throne.  Awaiting your request, he fingers the large axe hanging
+from his side.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 24 0 0 4 4 0
+0 0 15 2097152 0 0 368 2621443
+> death_prog 5~
+say Behold, you have slain me and earned a piece of dwarven magic!
+rinvoke artifact
+~
+|
+#2272
+dwarf dwarven kragoth~
+Kragoth the Mountainmaster~
+Kragoth, Mountainmaster of Ironholde, awaits your order.
+~
+Supplying the surrounding region with quality climbing gear for some time,
+Kragoth is famous for his knowledge of mountains and climbing.  He has
+forgotten more about scaling the local peaks than you will ever know.  Some of
+the best gear in the realm has his mark on it.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 19 0 0 4 4 0
+0 0 15 0 0 0 368 2621443
+#2273
+dwarf dwarven hedge~
+Hedge the Barkeep~
+Hedge, owner of The Lady, laughs with a roar, and pulls another beer.
+~
+Hedge!  Master of dwarven ales...only he knows the secret of the underground
+grains grown for his beer.  The only thing he likes better than brewing his
+special ale is drinking his special ale.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 19 0 0 4 4 0
+0 0 15 0 0 0 368 2621443
+#2274
+dwarf dwarven stonesharp~
+Stonesharp the smith~
+The master smith of the dwarves, Stonesharp, hammers away at a new creation.
+~
+Ignoring your presence, Stonesharp, the master smith, pounds away at a huge
+chunk of mithril, shaping it into another of his deadly weapons.  Known for
+their giant killing capability, many giant-hunters come to him for advice and
+weaponry.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 19 0 0 4 4 0
+0 0 15 0 0 0 368 2621443
+#2275
+dwarf dwarven lightspear~
+Lightspear the Dwarven Priest~
+Lightspear, priest of the dwarves, bows as you enter.
+~
+If you need to get the attention of the dwarven gods, Lightspear is the one to
+talk too.  Usually found deep in prayer to the rock masters, he also runs a
+small shop, specializing in gear for the various clerics of the dwarves.  Even
+non-dwarf clerics journey here to find his specialized equipment.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 4 4 0
+0 0 15 0 0 0 368 2621443
+#2276
+dwarf elite guard dwarven~
+a dwarven elite guard~
+A stout dwarf, dressed in mithril armor, stands at attention here.
+~
+A stout dwarf stands at attention, ignoring you completely.  No matter what
+you do, this dwarf ignores your actions and stays straight and upright.  After
+looking at his armor and weapons, you decide you probably shouldn't mess with
+him.
+~
+32835 4194304&256 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 21 0 0 4 4 0
+0 0 23 0 0 0 176 1
+#2277
+dwarf cleric Karla Lightaxe female~
+the dwarven cleric, Karla Lightaxe~
+A stout female dwarf, armored and robed as a high priestess, nods at you.
+~
+Right away, as soon as you see her armor, the heavy battle-hammer resting on
+her shoulder, and the long beard, braided with white silk and gold ribbons,
+you know who this cleric is.  Karla Lightaxe is the subject of many tales, all
+of them glorious.  She wields great power in battle, both her own and her
+gods.
+~
+17826817 -1805639552&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 13 0 0 1835007 1 0
+0 0 2047 2105351 0 0 83886576 2097159
+> death_prog 5~
+say the Gods of the Rock Kingdom shall surely curse you forever!
+cackle
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#2350
+new mob~
+Placeholder~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+16777281 0 0 C
+1 0 15 3d6+215 3d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2251
+axe giantcleaver~
+the mithril axe, Giantcleaver~
+A huge axe, crafted of mithril and covered in various dwarven runes.~
+~
+5 65&16 131073
+12 5 5 19
+15 1000 0
+A
+27 16
+A
+18 4
+A
+19 4
+#2252
+crown mithril dwarves~
+the crown of the dwarves~
+A mithril crown gleams brightly in the dust.~
+~
+9 65 3
+4 4 0 0
+3 1000 0
+A
+1 3
+A
+13 45
+#2253
+mithril vest~
+a sturdy mithril vest~
+A vest crafted from mithril links is piled here.~
+~
+9 524353 65
+18 18 0 0
+5 1500 0
+A
+27 96
+#2254
+skin ale~
+an aleskin~
+A large skin, made to contain dwarven ale.~
+~
+17 0 1048577
+40 40 4 0
+3 200 0
+#2255
+skin water~
+a waterskin~
+A large skin, holding a large quantity of water.~
+~
+17 0 1048577
+40 40 0 0
+23 100 0
+#2256
+rat stick~
+rat on a stick~
+A juicy rat, roasted and speared for your enjoyment.~
+~
+19 0 1048577
+25 0 0 0
+1 150 0
+#2257
+spider leg~
+leg of mountain spider~
+Tasting like crab, mountain spider is a dwarven delicacy.~
+~
+19 0 1048577
+20 0 0 0
+1 250 0
+#2258
+vulture roast breast~
+roasted breast of vulture~
+A roasted breast of vulture can help overcome your hunger.~
+~
+19 0 1048577
+40 0 0 0
+1 200 0
+#2259
+mace mithril~
+a mithril mace~
+A large mace, crafted from shiny mithril.~
+~
+5 1 131073
+12 2 5 7
+6 750 0
+#2260
+axe mithril battleaxe~
+a mithril battleaxe~
+A doubleheaded battleaxe, made for cleaving through bone.~
+~
+5 1&16 131073
+12 3 6 18
+13 750 0
+#2261
+mithril broadsword~
+a mithril broadsword~
+A wide broadsword, sharp and deadly.~
+~
+5 1 131073
+12 2 5 1
+4 800 0
+#2262
+rope hook~
+a rope and hook~
+A rope and hook, used for mountain climbing, lies coiled up here.~
+~
+12 0 1048577
+0 0 0 0
+2 5000 0
+A
+52 35
+#2263
+backpack frame~
+a frame backpack~
+A sturdy backpack built on a frame stands here.~
+~
+15 0 4097
+600 0 0 0
+3 2000 0
+#2264
+wool woolen cloak~
+a woolen cloak~
+A wool cloak, made to resist the cold at high altitude.~
+~
+9 0 33
+5 5 0 0
+2 2500 0
+A
+27 2
+#2350
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2251
+Standing In A Cave~
+You stand in a large cave.  The surrounding rock has been worked extensively,
+with dwarven runes and art carved into the mountain walls.  This area looks
+like it receives heavy traffic, as you can see many different types of
+footprints in the dirt.  To the west, the cave opens out into the Ironkore
+Pass.  The passageway also continues further east.
+~
+0 0 13
+D1
+~
+~
+0 0 2252
+D3
+~
+~
+0 0 176
+S
+#2252
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D1
+~
+~
+0 0 2253
+D3
+Exit description~
+~
+0 0 2251
+S
+#2253
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D3
+Exit description~
+~
+0 0 2252
+D5
+~
+~
+0 0 2254
+S
+#2254
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D1
+~
+~
+0 0 2255
+D4
+Exit description~
+~
+0 0 2253
+S
+#2255
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D2
+~
+~
+0 0 2256
+D3
+Exit description~
+~
+0 0 2254
+S
+#2256
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2255
+D1
+~
+~
+0 0 2257
+S
+#2257
+A Passage Under The Mountain~
+You journey down a well-lit passageway under the mountain.  Dwarven runes are
+carved into the stone walls.  You are occasionally passed by a dwarf heading
+somewhere on some errand.  Steps are carved into the rock floor to make it
+easy to travel about.
+~
+0 0 13
+D3
+Exit description~
+~
+0 0 2256
+D5
+~
+~
+0 0 2258
+S
+#2258
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2259
+D2
+Exit description~
+~
+0 0 2279
+D4
+Exit description~
+~
+0 0 2257
+S
+#2259
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2260
+D2
+Exit description~
+~
+0 0 2258
+S
+#2260
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2261
+D1
+Exit description~
+~
+0 0 2280
+D2
+Exit description~
+~
+0 0 2259
+S
+#2261
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2262
+D2
+Exit description~
+~
+0 0 2260
+S
+#2262
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+~
+~
+0 0 2263
+D2
+Exit description~
+~
+0 0 2261
+S
+#2263
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+~
+~
+0 0 2264
+D3
+Exit description~
+~
+0 0 2262
+S
+#2264
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+~
+~
+0 0 2265
+D3
+Exit description~
+~
+0 0 2263
+S
+#2265
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D2
+~
+~
+0 0 2266
+D3
+Exit description~
+~
+0 0 2264
+S
+#2266
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2265
+D2
+~
+~
+0 0 2267
+S
+#2267
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2266
+D1
+Exit description~
+~
+0 0 2290
+D2
+~
+~
+0 0 2268
+D3
+Exit description~
+~
+0 0 2281
+S
+#2268
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2267
+D2
+~
+~
+0 0 2269
+S
+#2269
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2268
+D1
+Exit description~
+~
+0 0 2291
+D2
+~
+~
+0 0 2270
+S
+#2270
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2269
+D2
+~
+~
+0 0 2271
+S
+#2271
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2270
+D1
+Exit description~
+~
+0 0 2284
+D2
+~
+~
+0 0 2272
+D3
+Exit description~
+~
+0 0 2283
+S
+#2272
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2271
+D2
+~
+~
+0 0 2273
+S
+#2273
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2272
+D3
+~
+~
+0 0 2274
+S
+#2274
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 2273
+D3
+~
+~
+0 0 2275
+S
+#2275
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 2274
+D3
+~
+~
+0 0 2276
+S
+#2276
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2277
+D1
+Exit description~
+~
+0 0 2275
+S
+#2277
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2278
+D2
+Exit description~
+~
+0 0 2276
+S
+#2278
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2279
+D2
+Exit description~
+~
+0 0 2277
+S
+#2279
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2258
+D1
+Exit description~
+~
+0 0 2282
+D2
+Exit description~
+~
+0 0 2278
+S
+#2280
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+A large tavern lies north of here, and from the sounds of things, it's quite
+busy!
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2302
+D1
+~
+~
+0 0 2281
+D3
+~
+~
+0 0 2260
+S
+#2281
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+The sound of hammering comes from the shop to the south.
+~
+0 0 13
+D1
+~
+~
+0 0 2267
+D2
+~
+~
+0 0 2303
+D3
+Exit description~
+~
+0 0 2280
+S
+#2282
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+A small shop lies to the south; a sign hanging above it is engraved with a
+tall mountain peak.
+~
+0 0 13
+D1
+~
+~
+0 0 2283
+D2
+Exit description~
+~
+0 0 2304
+D3
+~
+~
+0 0 2279
+S
+#2283
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+North of you lies a small shop.  The doorway is surrounded with religious
+runes.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2305
+D1
+~
+~
+0 0 2271
+D3
+Exit description~
+~
+0 0 2282
+S
+#2284
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+~
+~
+0 0 2285
+D3
+~
+~
+0 0 2271
+S
+#2285
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2286
+D3
+Exit description~
+~
+0 0 2284
+S
+#2286
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+East of here lies one of the entrances to the Castle Ironholde.
+~
+0 0 13
+D0
+~
+~
+0 0 2287
+D1
+Exit description~
+~
+0 0 2294
+D2
+Exit description~
+~
+0 0 2285
+S
+#2287
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+~
+~
+0 0 2288
+D2
+Exit description~
+~
+0 0 2286
+D3
+~
+~
+0 0 2291
+S
+#2288
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+East of here lies one of the entrances to the Castle Ironholde.
+~
+0 0 13
+D0
+~
+~
+0 0 2289
+D1
+Exit description~
+~
+0 0 2292
+D2
+Exit description~
+~
+0 0 2287
+S
+#2289
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2288
+D3
+~
+~
+0 0 2290
+S
+#2290
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2296
+D1
+Exit description~
+~
+0 0 2289
+D3
+~
+~
+0 0 2267
+S
+#2291
+Wandering Ironholde~
+You walk amongst the fantastic stone halls of the city of Ironholde.  Dwarves
+move about with purpose paying no attention to your presence.  The sounds of
+conversations and machinery echo around, bouncing off of the ceiling high
+above you.  The halls are brightly lit with magical lights that float about.
+~
+0 0 13
+D1
+~
+~
+0 0 2287
+D3
+~
+~
+0 0 2269
+S
+#2292
+Castle Ironholde~
+You stand in the hallways of the Castle Ironholde.  Important dwarven
+officials move about quickly on various types of business.  The castle guards
+seem to take a bit of interest in your presence, but not enough to leave their
+posts.
+~
+0 0 0
+D2
+~
+~
+0 0 2293
+D3
+~
+~
+0 0 2288
+S
+#2293
+Castle Ironholde~
+You stand in the hallways of the Castle Ironholde.  Important dwarven
+officials move about quickly on various types of business.  The castle guards
+seem to take a bit of interest in your presence, but not enough to leave their
+posts.  East of here lies the entrance to the throne room.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 2292
+D1
+~
+~
+0 0 2295
+D2
+~
+~
+0 0 2294
+S
+#2294
+Castle Ironholde~
+You stand in the hallways of the Castle Ironholde.  Important dwarven
+officials move about quickly on various types of business.  The castle guards
+seem to take a bit of interest in your presence, but not enough to leave their
+posts.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 2293
+D3
+~
+~
+0 0 2286
+S
+#2295
+Throne Room~
+You stand in the throne room of Castle Ironholde.  A majestic throne, hewn
+right from the living rock of the mountain stands tall before you.  Dwarven
+runes of protection are carved up and down its surface.  Trophies of battle
+can be found about the room...its almost a museum of battle!
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 2293
+S
+#2296
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.
+~
+0 1 13
+D0
+~
+~
+0 0 2297
+D2
+~
+~
+0 0 2290
+S
+#2297
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 2296
+D5
+~
+~
+0 0 2298
+S
+#2298
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.
+~
+0 1 13
+D1
+~
+~
+0 0 2299
+D4
+Exit description~
+~
+0 0 2297
+S
+#2299
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.
+~
+0 1 13
+D0
+~
+~
+0 0 2300
+D3
+Exit description~
+~
+0 0 2298
+S
+#2300
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.
+~
+0 1 13
+D1
+~
+~
+0 0 2301
+D2
+Exit description~
+~
+0 0 2299
+S
+#2301
+A Dark Narrow Passage~
+This small passage isn't as well traveled as the others in Ironholde, and
+lacks the magical lights.  Remnants of an old mine-cart track is seen set
+along the floor, although it looks like it hasn't been used in ages.  It's
+quite cold and dark down here.  A dark mineshaft heads down here, deep into
+the earth.
+
+~
+0 1 13
+D3
+~
+~
+0 0 2300
+D5
+~
+~
+0 0 3851
+S
+#2302
+The Bearded Lady~
+This noisy room can only be a pub.  Dwarves line the tables, drinking deeply
+from large bronze mugs.  Singing and shouting ring out throughout the room.
+You even spot some good-natured brawling going on in a back corner.  This
+looks like a good place to get some chow and a drink!
+~
+0 0 0
+D2
+~
+~
+0 0 2280
+S
+#2303
+Mighty Mithril~
+This shop must be the local weapon forge.  Huge dwarven hammers and axes hang
+from the walls, and even swords and other bladed weapons can be bought or sold
+here.  A large fire burns in the back corner, heating the metal to make it
+easy to work with.  A large anvil takes up most of the room, with lots of room
+for several dwarves to work around it.
+~
+0 0 0
+D0
+~
+~
+0 0 2281
+S
+#2304
+Kragoths Mountain Gear~
+This small shop seems to contain gear mostly made for mountaineering use.
+Paintings of several dwarves on top of famous peaks line one wall.  From the
+tales you've heard, Kragoths gear is the best to have when battling the rough
+mountains of the realm.
+~
+0 0 13
+D0
+~
+~
+0 0 2282
+S
+#2305
+Temple Of The Rock~
+Ahhh, the Temple of the Rock!  Equipping the famous dwarven battleclerics for
+centuries, you hope to find something that can help you defeat the creatures
+of the realm here.  From magical supplies to weapons, many useful things can
+be bought in this shop.
+~
+0 0 13
+D2
+~
+~
+0 0 2283
+S
+#2350
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 2277 1 2264
+M 0 2268 3 2273
+M 0 2268 3 2273
+M 0 2268 3 2273
+M 0 2267 2 2281
+M 0 2267 2 2281
+M 0 2266 2 2262
+M 0 2266 2 2262
+M 0 2265 2 2251
+M 0 2265 2 2251
+M 0 2264 2 2276
+M 0 2264 2 2276
+M 0 2263 2 2266
+M 0 2263 2 2266
+M 0 2262 2 2256
+M 0 2262 2 2256
+M 0 2261 2 2285
+M 0 2261 2 2285
+M 0 2260 2 2275
+M 0 2260 2 2275
+M 0 2259 2 2265
+M 0 2259 2 2265
+M 0 2258 2 2285
+M 0 2258 2 2285
+M 0 2257 2 2273
+M 0 2257 2 2273
+M 0 2256 2 2267
+M 0 2256 2 2267
+M 0 2255 2 2260
+M 0 2255 2 2260
+M 0 2254 3 2289
+M 0 2254 3 2289
+M 0 2254 3 2289
+M 0 2253 3 2268
+M 0 2253 3 2268
+M 0 2253 3 2268
+M 0 2252 3 2258
+M 0 2252 3 2258
+M 0 2252 3 2258
+M 0 2251 3 2254
+M 0 2251 3 2254
+M 0 2251 3 2254
+M 0 2270 1 2294
+E 0 2260 1 21
+M 0 2270 1 2294
+M 0 2276 2 2292
+E 0 2261 1 21
+M 0 2276 2 2292
+M 0 2269 3 2293
+E 0 2259 1 21
+M 0 2269 3 2293
+M 0 2269 3 2293
+E 0 2260 1 21
+M 0 2271 1 2295
+E 0 2253 1 7
+E 0 2252 1 1
+E 0 2251 10 21
+M 0 2272 1 2304
+G 1 2264 1
+G 1 2263 1
+G 1 2262 1
+M 0 2273 1 2302
+G 1 2258 1
+G 1 2257 1
+G 1 2256 1
+G 1 2255 1
+G 1 2254 1
+M 0 2274 1 2303
+G 1 2261 1
+G 1 2260 1
+G 1 2259 1
+M 0 2275 1 2305
+G 1 35 1
+G 1 43 1
+G 1 34 1
+G 1 2259 1
+S
+
+
+#SHOPS
+ 2272    8 12  0  0  0   120  90         7 18    ; Kragoth the Mountainmaster
+ 2273   19 17  0  0  0   120  90         7 18    ; Hedge the Barkeep
+ 2274    5  9 64 65  0   120  90         7 18    ; Stonesharp the smith
+ 2275    9 65 66 64  5   120  90         7 18    ; Lightspear the Dwarven Priest
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2265 spec_guard
+M  2266 spec_guard
+M  2267 spec_guard
+M  2268 spec_guard
+M  2269 spec_guard
+M  2270 spec_guard
+M  2275 spec_cast_cleric
+M  2276 spec_guard
+M  2277 spec_cast_bishop
+S
+
+
+#$

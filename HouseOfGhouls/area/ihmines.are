@@ -1,0 +1,871 @@
+#AREA   Ironholde Mines~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG The squeeking of bats echoes down the mineshaft...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 2000795635
+
+#CLIMATE 1 1 1
+
+#MOBILES
+#3851
+bat small~
+a small bat~
+A small bat flits about the dark.
+~
+A tiny bat flits about, squeaking noisily as it navigates around the old mine
+tunnels.  Keep it out of your hair!
+~
+16777281 40 0 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#3852
+bat small~
+a small bat~
+A small bat flits about the dark.
+~
+A tiny bat flits about, squeaking noisily as it navigates around the old mine
+tunnels.  Keep it out of your hair!
+~
+16777281 40 0 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#3853
+bat small~
+a small bat~
+A small bat flits about the dark.
+~
+A tiny bat flits about, squeaking noisily as it navigates around the old mine
+tunnels.  Keep it out of your hair!
+~
+16777281 40 0 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#3854
+bat large~
+a large bat~
+A quite large bat swoops down out of the darkness!
+~
+Yikes!  This big bat swooped right at your head!  It then circles about the
+edges of your light, perhaps hoping some giant moths get attracted to the
+light.
+~
+16777281 40 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#3855
+bat large~
+a large bat~
+A quite large bat swoops down out of the darkness!
+~
+Yikes!  This big bat swooped right at your head!  It then circles about the
+edges of your light, perhaps hoping some giant moths get attracted to the
+light.
+~
+16777281 40 0 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#3856
+ghost miner dwarf~
+the ghost of a miner~
+The ghost of an old dwarf miner moans as he floats along.
+~
+Coming at you from the darkness, the ghost of an old dwarf miner floats out
+slowly.  A low, raspy moan comes from him as he moves down the tunnel.
+~
+16777281&8 7340032 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 0
+0 0 0 1056768 0 0 0 0
+#3900
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#3851
+mine cart~
+an old mine cart~
+A smashed up old minecart sits amongst the rubble.~
+~
+15 0 0
+900 0 0 0
+1 0 0
+#3852
+pick axe~
+an old pickaxe~
+This old pickaxe looks to be in relatively good shape considering its age.~
+~
+5 0 131073
+12 6 1 25
+6 0 0
+#3853
+mithril chunk~
+a small chunk of mithril~
+A small chunk of mithril gleams in the dust.~
+~
+8 1 1048577
+0 0 0 0
+1 150 0
+#3854
+mithril chunk~
+a small chunk of mithril~
+A small chunk of mithril gleams in the dust.~
+~
+8 1 1048577
+0 0 0 0
+1 150 0
+#3855
+mithril chunk~
+a small chunk of mithril~
+A small chunk of mithril gleams in the dust.~
+~
+8 1 1048577
+0 0 0 0
+1 150 0
+#3900
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3851
+An Old Mineshaft~
+You stand in a narrow mineshaft, dark and cold.  Remnants of old mine-car
+tracks can be seen, but they show the signs of great age.  The chirping of
+bats echos about the halls.  The breeze passes through here with a low moaning
+sound.
+~
+0 1 0
+D4
+Exit description~
+~
+0 0 2301
+D5
+~
+~
+0 0 3852
+S
+#3852
+An Old Mineshaft~
+You stand in a narrow mineshaft, dark and cold.  Remnants of old mine-car
+tracks can be seen, but they show the signs of great age.  The chirping of
+bats echos about the halls.  The breeze passes through here with a low moaning
+sound.
+~
+0 1 0
+D4
+Exit description~
+~
+0 0 3851
+D5
+~
+~
+0 0 3853
+S
+#3853
+An Old Mineshaft~
+You stand at the bottom of a steeply cut mineshaft.  A couple of old minecarts
+sit here, left smashed at the bottom of the shaft.  The mine itself heads
+east.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3854
+D4
+Exit description~
+~
+0 0 3852
+S
+#3854
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3855
+D3
+Exit description~
+~
+0 0 3853
+S
+#3855
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+~
+~
+0 0 3856
+D2
+Exit description~
+~
+0 0 3874
+D3
+Exit description~
+~
+0 0 3854
+S
+#3856
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+~
+~
+0 0 3857
+D2
+Exit description~
+~
+0 0 3855
+S
+#3857
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3858
+D2
+Exit description~
+~
+0 0 3856
+S
+#3858
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3859
+D3
+Exit description~
+~
+0 0 3857
+S
+#3859
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3860
+D3
+Exit description~
+~
+0 0 3858
+S
+#3860
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3861
+D2
+Exit description~
+~
+0 0 3875
+D3
+Exit description~
+~
+0 0 3859
+S
+#3861
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3862
+D3
+Exit description~
+~
+0 0 3860
+S
+#3862
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3863
+D3
+Exit description~
+~
+0 0 3861
+S
+#3863
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D2
+~
+~
+0 0 3864
+D3
+Exit description~
+~
+0 0 3862
+S
+#3864
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3863
+D1
+Exit description~
+~
+0 0 3878
+D2
+~
+~
+0 0 3865
+S
+#3865
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3864
+D2
+~
+~
+0 0 3866
+S
+#3866
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3865
+D1
+Exit description~
+~
+0 0 3886
+D2
+~
+~
+0 0 3867
+S
+#3867
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3866
+D3
+~
+~
+0 0 3868
+S
+#3868
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3867
+D3
+~
+~
+0 0 3869
+S
+#3869
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3868
+D3
+~
+~
+0 0 3870
+S
+#3870
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3877
+D1
+Exit description~
+~
+0 0 3869
+D3
+~
+~
+0 0 3871
+S
+#3871
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3870
+D3
+~
+~
+0 0 3872
+S
+#3872
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3871
+D3
+~
+~
+0 0 3873
+S
+#3873
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+~
+~
+0 0 3874
+D1
+Exit description~
+~
+0 0 3872
+S
+#3874
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+~
+~
+0 0 3855
+D2
+Exit description~
+~
+0 0 3873
+S
+#3875
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+~
+~
+0 0 3860
+D2
+~
+~
+0 0 3876
+S
+#3876
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3875
+D2
+~
+~
+0 0 3877
+S
+#3877
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3876
+D2
+~
+~
+0 0 3870
+S
+#3878
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3879
+D3
+~
+~
+0 0 3864
+S
+#3879
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3880
+D3
+Exit description~
+~
+0 0 3878
+S
+#3880
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+~
+~
+0 0 3881
+D3
+Exit description~
+~
+0 0 3879
+S
+#3881
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D2
+~
+~
+0 0 3882
+D3
+Exit description~
+~
+0 0 3880
+S
+#3882
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3881
+D2
+~
+~
+0 0 3883
+S
+#3883
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 3882
+D3
+~
+~
+0 0 3884
+S
+#3884
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3883
+D3
+~
+~
+0 0 3885
+S
+#3885
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3884
+D3
+~
+~
+0 0 3886
+S
+#3886
+Wandering The Mines Of Ironholde~
+You wander an old mithril mine, left long ago by the dwarves of Ironholde.
+Occasionally you see old tools used for mining, but they are all destroyed by
+age.  The chirping of bats echos about the halls.  The breeze passes through
+here with a low moaning sound.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 3885
+D3
+~
+~
+0 0 3866
+S
+#3900
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 3851 3 3865
+M 0 3851 3 3865
+M 0 3851 3 3865
+M 0 3852 3 3872
+M 0 3852 3 3872
+M 0 3852 3 3872
+M 0 3853 3 3855
+M 0 3853 3 3855
+M 0 3853 3 3855
+M 0 3854 3 3875
+M 0 3854 3 3875
+M 0 3854 3 3875
+M 0 3855 3 3886
+M 0 3855 3 3886
+M 0 3855 3 3886
+M 0 3856 3 3882
+M 0 3856 3 3882
+M 0 3856 3 3882
+O 0 3855 1 3880
+O 0 3854 1 3867
+O 0 3853 1 3860
+O 0 3851 1 3853
+P 0 3852 1 3851
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

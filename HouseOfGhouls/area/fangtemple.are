@@ -1,0 +1,1348 @@
+#AREA   Fang Temple~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+25 40 0 65
+$
+
+#RESETMSG A spooky slithery noise echos around the old stones...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 113823141
+
+#CLIMATE 4 3 1
+
+#MOBILES
+#2451
+snake brown~
+a brown snake~
+A large brown snake slithers about.
+~
+A large brown snake slithers about the wet earth.
+~
+97 0 -45 C
+25 0 0 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2452
+snake brown~
+a brown snake~
+A large brown snake slithers about.
+~
+A large brown snake slithers about the wet earth.
+~
+97 0 -45 C
+25 0 0 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2453
+snake brown~
+a brown snake~
+A large brown snake slithers about.
+~
+A large brown snake slithers about the wet earth.
+~
+97 0 -45 C
+25 0 0 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2454
+snake brown~
+a brown snake~
+A large brown snake slithers about.
+~
+A large brown snake slithers about the wet earth.
+~
+97 0 -45 C
+25 0 0 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1 0 0 0 131073 0
+#2455
+zombie guard dead figure~
+a zombie guard~
+A long dead figure shuffles about.
+~
+This armored figure looks and smells like it has been dead for quite some
+time.  It has the dull, blank look of an animated corpse.
+~
+65 0 0 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 71 0 0 0 0 0
+#2456
+zombie guard dead figure~
+a zombie guard~
+A long dead figure shuffles about.
+~
+This armored figure looks and smells like it has been dead for quite some
+time.  It has the dull, blank look of an animated corpse.
+~
+65 0 0 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 71 0 0 0 0 0
+#2457
+zombie guard dead figure~
+a zombie guard~
+A long dead figure shuffles about.
+~
+This armored figure looks and smells like it has been dead for quite some
+time.  It has the dull, blank look of an animated corpse.
+~
+65 0 0 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 71 0 0 0 0 0
+#2458
+zombie guard dead figure~
+a zombie guard~
+A long dead figure shuffles about.
+~
+This armored figure looks and smells like it has been dead for quite some
+time.  It has the dull, blank look of an animated corpse.
+~
+67 0 0 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 71 0 0 0 0 0
+#2459
+zombie guard dead figure~
+a zombie guard~
+A long dead figure shuffles about.
+~
+This armored figure looks and smells like it has been dead for quite some
+time.  It has the dull, blank look of an animated corpse.
+~
+67 0 0 C
+32 0 -80 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 71 0 0 0 0 0
+#2460
+worshipper cultist snake figure~
+a snake cultist~
+A figure dressed in dark robes walks about.
+~
+A dark figure approaches you and hisses under his dark hood.  It doesn't
+attack you, yet it doesn't seem friendly either.
+~
+65 4194304 -1000 C
+37 0 -105 4d20+1080 3d5+27
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 0 0 16777264 0
+#2461
+worshipper cultist snake figure~
+a snake cultist~
+A figure dressed in dark robes walks about.
+~
+A dark figure approaches you and hisses under his dark hood.  It doesn't
+attack you, yet it doesn't seem friendly either.
+~
+65 4194304 -1000 C
+37 0 -105 4d20+1080 3d5+27
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 0 0 16777264 0
+#2462
+worshipper cultist snake figure~
+a snake cultist~
+A figure dressed in dark robes walks about.
+~
+A dark figure approaches you and hisses under his dark hood.  It doesn't
+attack you, yet it doesn't seem friendly either.
+~
+65 4194304 -1000 C
+37 0 -105 4d20+1080 3d5+27
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 0 0 16777264 0
+#2463
+worshipper cultist snake figure~
+a snake cultist~
+A figure dressed in dark robes walks about.
+~
+A dark figure approaches you and hisses under his dark hood.  It doesn't
+attack you, yet it doesn't seem friendly either.
+~
+65 4194304 -1000 C
+37 0 -105 4d20+1080 3d5+27
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 0 0 16777264 0
+#2464
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+65 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 7 0 0 0 16777249 0
+#2465
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+65 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 15 0 0 0 1048641 0
+#2466
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+67 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 83 0 0 0 131137 0
+#2467
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+67 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 329 0 0 0 131089 0
+#2468
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+67 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1604 0 0 0 16777345 0
+#2469
+snake cultist leader creature~
+the snake cultist leader~
+A strange creature wearing dark robes hisses at you!
+~
+You catch a glimpse of a hideous face underneath a dark hood.  The sound of
+hissing grows louder as the leader looks up at you.
+~
+67 37748864 -1000 C
+46 0 -150 4d40+1610 3d5+36
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 15 0 0 1 1 0
+0 0 15 2097152 0 0 553779201 2
+> death_prog 10~
+say May the snakes take you!
+gasp
+
+~
+|
+#2470
+snake cultist priest creature~
+the snake cultist priest~
+A strange creature chants from deep under its hood.
+~
+The sound of deep chanting comes from under the dark hood of what appears to
+be a priest of this strange snake cult.  A low hissing is heard between words.
+~
+67 37748864 -1000 C
+46 0 -150 4d40+1610 3d5+36
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 13 0 0 1 1 0
+0 0 15 2097152 0 0 553779201 2
+> death_prog 10~
+emote attempts to mutter one last curse, but falls before he can complete the spell...
+~
+|
+#2471
+worshipper cultist snake figure~
+a snake cultist~
+A figure dressed in dark robes walks about.
+~
+A dark figure approaches you and hisses under his dark hood.  It doesn't
+attack you, yet it doesn't seem friendly either.
+~
+67 4194304 -1000 C
+37 0 -105 4d20+1080 3d5+27
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 0 0 16777264 0
+#2472
+snake cultist acolyte~
+a cultist acolyte~
+A young acolyte studies the way of the Fang.
+~
+A young cultist acolyte looks up from its worship and flicks a pointed tongue
+in your direction!
+~
+67 0 -1000 C
+42 0 -130 4d30+1375 3d5+32
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1604 0 0 0 16777345 0
+#2500
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2451
+staff fang~
+a sharply pointed staff~
+A long staff, crafted to look like a long snake fang.~
+~
+4 81 1048577
+45 5 5 -1
+3 0 0
+'fear'
+#2500
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2451
+A Dark And Dank Hole~
+You climb in a dark and moist hole dug into the earth.  The roots of the vines
+and trees above poke through the walls.
+~
+0 9 13
+D4
+Exit description~
+~
+65664 0 2433
+D5
+~
+~
+65664 0 2452
+S
+#2452
+A Dark And Dank Hole~
+You climb in a dark and moist hole dug into the earth.  The roots of the vines
+and trees above poke through the walls.
+~
+0 9 13
+D4
+Exit description~
+~
+65664 0 2451
+D5
+~
+~
+65664 0 2453
+S
+#2453
+A Dark And Dank Hole~
+You stand at the bottom of a dark and moist hole dug into the earth.  The
+roots of the vines and trees above poke through the walls.  A narrow passage
+has been dug into the wet dirt, headed north.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2454
+D4
+Exit description~
+~
+65664 0 2452
+S
+#2454
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2455
+D2
+Exit description~
+~
+0 0 2453
+S
+#2455
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D2
+Exit description~
+~
+0 0 2454
+D3
+Exit description~
+~
+0 0 2456
+S
+#2456
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2457
+D1
+Exit description~
+~
+0 0 2455
+S
+#2457
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 2458
+D2
+Exit description~
+~
+0 0 2456
+S
+#2458
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 2459
+D3
+Exit description~
+~
+0 0 2457
+S
+#2459
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D2
+Exit description~
+~
+0 0 2460
+D3
+Exit description~
+~
+0 0 2458
+S
+#2460
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2459
+D2
+Exit description~
+~
+0 0 2461
+S
+#2461
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2460
+D1
+Exit description~
+~
+0 0 2462
+S
+#2462
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2463
+D3
+Exit description~
+~
+0 0 2461
+S
+#2463
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2464
+D2
+Exit description~
+~
+0 0 2462
+S
+#2464
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 2465
+D2
+Exit description~
+~
+0 0 2463
+S
+#2465
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D0
+Exit description~
+~
+0 0 2466
+D3
+Exit description~
+~
+0 0 2464
+S
+#2466
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.
+~
+0 9 13
+D2
+Exit description~
+~
+0 0 2465
+D3
+Exit description~
+~
+0 0 2467
+S
+#2467
+A Wet Passageway~
+You stand in a narrow passageway, dug into the wet earth around you.  The
+roots of the vines and trees above poke through the walls.  It is dark and the
+passage seems to twist and turn a lot.  There is a light coming from the west.
+~
+0 9 13
+D1
+Exit description~
+~
+0 0 2466
+D3
+Exit description~
+~
+0 0 2468
+S
+#2468
+Before The Ruins~
+You stand in a large cavern.  To the north stands the remains of what appears
+to be some sort of church or temple.  While the buildings retain their
+general shape, most of the decorations and symbols have been damaged beyond
+recognition.  A fresh passageway is dug into the wet dirt heading east.
+~
+0 8 13
+D0
+Exit description~
+~
+0 0 2469
+D1
+Exit description~
+~
+0 0 2467
+S
+#2469
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This part of the temple was probably the entrance.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 2470
+D2
+Exit description~
+~
+0 0 2468
+D3
+Exit description~
+~
+0 0 2484
+S
+#2470
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2471
+D3
+Exit description~
+~
+0 0 2469
+S
+#2471
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2472
+D1
+Exit description~
+~
+0 0 2485
+D2
+Exit description~
+~
+0 0 2470
+S
+#2472
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2473
+D2
+Exit description~
+~
+0 0 2471
+S
+#2473
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2474
+D2
+Exit description~
+~
+0 0 2472
+D3
+Exit description~
+~
+0 0 2495
+S
+#2474
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2475
+D2
+Exit description~
+~
+0 0 2473
+S
+#2475
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2476
+D1
+Exit description~
+~
+0 0 2489
+D2
+Exit description~
+~
+0 0 2474
+S
+#2476
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 2475
+D3
+Exit description~
+~
+0 0 2477
+S
+#2477
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2500
+D1
+Exit description~
+~
+0 0 2476
+D3
+Exit description~
+~
+0 0 2478
+S
+#2478
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 2477
+D2
+Exit description~
+~
+0 0 2479
+S
+#2479
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2478
+D2
+Exit description~
+~
+0 0 2480
+S
+#2480
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2479
+D2
+Exit description~
+~
+0 0 2481
+D3
+Exit description~
+~
+0 0 2499
+S
+#2481
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2480
+D1
+Exit description~
+~
+0 0 2495
+D2
+Exit description~
+~
+0 0 2482
+S
+#2482
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2481
+D2
+Exit description~
+~
+0 0 2483
+D3
+Exit description~
+~
+0 0 2497
+S
+#2483
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2482
+D2
+Exit description~
+~
+0 0 2484
+S
+#2484
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2483
+D1
+Exit description~
+~
+0 0 2469
+S
+#2485
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2486
+D3
+Exit description~
+~
+0 0 2471
+S
+#2486
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2487
+D1
+Exit description~
+~
+0 0 2490
+D2
+Exit description~
+~
+0 0 2485
+S
+#2487
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2488
+D1
+Exit description~
+~
+0 0 2491
+D2
+Exit description~
+~
+0 0 2486
+S
+#2488
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2489
+D1
+Exit description~
+~
+0 0 2492
+D2
+Exit description~
+~
+0 0 2487
+S
+#2489
+Wandering The Ruined Temple~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+The narrow hallways are clogged with root bundles and bits of temple.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 2488
+D3
+Exit description~
+~
+0 0 2475
+S
+#2490
+Acolytes Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This smaller chamber has a small symbol still intact, a stylized snake fang
+against a large tree.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 2486
+S
+#2491
+Summoners Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This large chamber actually has a bit of its furniture still intact.  A stone
+bed sits against the eastern wall.  An old chest is placed near the bed.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 2487
+S
+#2492
+Acolytes Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This smaller chamber has a small symbol still intact, a stylized snake fang
+against a large tree.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 2488
+S
+#2493
+Prayer Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This is the far southern end of a long prayer chamber.  Stone braziers are
+built at equal lengths along the chamber, and seem to have been used recently.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2494
+S
+#2494
+Prayer Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+You now stand in a long prayer chamber.  Stone braziers are built at equal
+lengths along the chamber, and seem to have been used recently.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2495
+D2
+Exit description~
+~
+0 0 2493
+S
+#2495
+Prayer Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+You now stand in a long prayer chamber.  Stone braziers are built at equal
+lengths along the chamber, and seem to have been used recently.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2496
+D1
+Exit description~
+~
+0 0 2473
+D2
+Exit description~
+~
+0 0 2494
+D3
+Exit description~
+~
+0 0 2481
+S
+#2496
+Prayer Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This is the far northern end of a long prayer chamber.  Stone braziers are
+built at equal lengths along the chamber, and seem to have been used recently.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 2495
+S
+#2497
+Guard Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This long chamber must of been some sort of barracks.  The smashed remains of
+old bunks lay about the room.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2498
+D1
+Exit description~
+~
+0 0 2482
+S
+#2498
+Guard Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This long chamber must of been some sort of barracks.  The smashed remains of
+old bunks lay about the room.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 2499
+D2
+Exit description~
+~
+0 0 2497
+S
+#2499
+Guard Chamber~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+This long chamber must of been some sort of barracks.  The smashed remains of
+old bunks lay about the room.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 2480
+D2
+Exit description~
+~
+0 0 2498
+S
+#2500
+Summoning Circle~
+You walk amongst the stones that lie fallen about this ruined temple.  At some
+places, strong rock walls have been destroyed by the roots of the trees above.
+ The center of this ruined chamber is taken up by a large magical circle.
+Small stone braziers are placed about it, and look recently used.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 2477
+S
+#0
+
+
+#RESETS
+M 0 2472 3 2500
+M 0 2472 3 2500
+M 0 2472 3 2500
+M 0 2471 4 2500
+M 0 2471 4 2500
+M 0 2471 4 2500
+M 0 2471 4 2500
+M 0 2470 1 2500
+E 0 2451 1 24
+M 0 2469 1 2491
+M 0 2468 3 2492
+M 0 2468 3 2492
+M 0 2468 3 2492
+M 0 2467 3 2491
+M 0 2467 3 2491
+M 0 2467 3 2491
+M 0 2466 3 2490
+M 0 2466 3 2490
+M 0 2466 3 2490
+M 0 2465 3 2469
+M 0 2465 3 2469
+M 0 2465 3 2469
+M 0 2464 3 2478
+M 0 2464 3 2478
+M 0 2464 3 2478
+M 0 2463 3 2480
+M 0 2463 3 2480
+M 0 2463 3 2480
+M 0 2462 3 2472
+M 0 2462 3 2472
+M 0 2462 3 2472
+M 0 2461 3 2493
+M 0 2461 3 2493
+M 0 2461 3 2493
+M 0 2460 3 2457
+M 0 2460 3 2457
+M 0 2460 3 2457
+M 0 2459 2 2484
+M 0 2459 2 2484
+M 0 2458 3 2489
+M 0 2458 3 2489
+M 0 2458 3 2489
+M 0 2457 2 2495
+M 0 2457 2 2495
+M 0 2456 3 2468
+M 0 2456 3 2468
+M 0 2456 3 2468
+M 0 2455 3 2459
+M 0 2455 3 2459
+M 0 2455 3 2459
+M 0 2454 3 2473
+M 0 2454 3 2473
+M 0 2454 3 2473
+M 0 2453 3 2481
+M 0 2453 3 2481
+M 0 2453 3 2481
+M 0 2452 5 2500
+M 0 2452 5 2500
+M 0 2452 5 2500
+M 0 2452 5 2500
+M 0 2452 5 2500
+M 0 2451 3 2453
+M 0 2451 3 2453
+M 0 2451 3 2453
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2464 spec_cast_undead
+M  2465 spec_cast_undead
+M  2466 spec_cast_undead
+M  2467 spec_cast_undead
+M  2468 spec_cast_undead
+M  2469 spec_cast_diabolist
+M  2470 spec_cast_bishop
+S
+
+
+#$

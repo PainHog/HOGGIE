@@ -1,0 +1,4707 @@
+#AREA   Elder Forest~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 45 1 65
+$
+
+#RESETMSG The wind suddenly picks up and whirls about you, blowing leaves and chilling the air.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 108218537
+
+#CLIMATE 1 2 1
+
+#MOBILES
+#16000
+spirit lonely~
+a lonely spirit~
+A lonely spirit floats through the trees.
+~
+A dreary looking spirit floats through the trees.  It does not pay any
+attention to you.  One of the gravesites scattered about must be its home.
+~
+16777281&8 3145728 1000 C
+25 0 -70 4d10+540 3d5+15
+150 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 4096 4096 0
+0 0 0 8192 0 0 50331648 0
+#16001
+spirit moaning~
+a moaning spirit~
+The wailing and moaning of this spirit is quite unnerving.
+~
+This spirit floats about, wailing and moaning.  The sound is a little spooky,
+and makes you feel a deep sense of sadness.
+~
+16777281&8 3145728 0 C
+20 0 -45 4d8+380 3d5+10
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 4096 4096 0
+0 0 0 8192 0 0 4194304 0
+#16002
+ghost messenger~
+the ghost of the messenger~
+A ghost floats about above a grim corpse.
+~
+This ghost must belong to the corpse lying on the ground here.  It watches you
+closely...perhaps it wishes you to release it from this unlife.
+~
+16777283&8 3145768 1000 C
+30 0 -95 4d15+760 3d5+20
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 6 0 0 4096 4096 0
+0 0 0 8192 0 0 167772160 0
+#16003
+squirrel rabid~
+a rabid squirrel~
+This squirrel leaps for your throat!
+~
+Oh no!  This squirrel has flaming red eyes and a snarly, foaming mouth!  It
+leaps for you, hoping to take you with it into madness!
+~
+4259937 32808 0 C
+20 0 -45 4d8+380 3d5+10
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 65536 65536 0
+0 0 65537 256 0 0 132099 0
+#16004
+bandit scout~
+a bandit scout~
+A bandit scout leaps from his hiding spot!
+~
+This scout is dressed in forest colored leathers.  You barely have time to
+ready yourself before he leaps out of the woods at you!
+~
+4194401 32808 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 7 0 0 0 1024 0
+#16005
+bandit scout~
+a bandit scout~
+A bandit scout leaps from her hiding spot!
+~
+This scout is dressed in forest colored leathers.  You barely have time to
+ready yourself before she leaps out of the woods at you!
+~
+4194401 32808 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 1
+5 5 7 0 0 0 1024 0
+#16006
+badger angry snarling~
+an angry badger~
+A snarling badger protects her territory by attacking you!
+~
+You don't know if there is a den nearby or what, but something has this badger
+in a pretty aggressive mood!  Whatever the problem is, you better fight for
+your life!
+~
+4194401 40 0 C
+30 0 -95 4d15+760 3d5+20
+50 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 6 0 0 65536 65536 0
+0 0 268697601 0 0 0 515 0
+#16007
+dragon red~
+a huge red dragon~
+This dragon is very upset that you disturbed him!
+~
+Not used to having dinner come to him, the dragon is more than happy to end
+your life for you!  He even likes your armor...crunchy on the outside, chewy
+in the middle!
+~
+4194403 38275240&256 -1000 C
+65 0 -300 10d50+3000 5d5+50
+5000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 0
+0 0 2262029 2105344 1 2 4423 2
+#16008
+owl barn huge wise~
+a huge barn owl~
+A wise old barn owl looks at you with disinterested eyes.
+~
+This large owl stares down at you from his perch with a look of complete
+disinterest.  He preens his feathers a bit, but is always watching you, to
+make sure you behave.
+~
+4194371 557096 1000 C
+35 0 -120 4d20+975 3d5+25
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 1 0 0 65536 65536 0
+0 0 294913 0 0 0 513 0
+#16009
+bandit~
+a scruffy bandit~
+A scruffy bandit looks up and wonders why you are here.
+~
+This bandit looks like he has spent one to many days sleeping in the woods.
+His rough leathers are scratched and torn from the briars.  He watches you
+closely, wondering if your goods are worth the trouble to kill you.
+
+~
+4194369 32768 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 77 0 0 0 80 0
+#16010
+bandit~
+a scruffy bandit~
+A scruffy bandit looks up and wonders why you are here.
+~
+This bandit looks like she has spent one to many days sleeping in the woods.
+Her rough leathers are scratched and torn from the briars.  She watches you
+closely, wondering if your goods are worth the trouble to kill you.
+
+~
+4194369 32768 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 77 0 0 0 80 0
+#16011
+bandit leader haughty~
+the bandit leader~
+A haughty looking bandit stands and stares at you.
+~
+This bandit has a slightly better looking appearance, so you assume he is the
+leader.  He stares back at you, wondering if he should call over his band to
+help relieve you of your valuables.
+~
+4194371 32768 -1000 C
+35 0 -120 4d20+975 3d5+25
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 15 0 0 0 80 2621441
+#16012
+wolf wolves gray~
+a wolf~
+A large gray wolf resents your intrusion!
+~
+This wolf is very protective of its den, as you are quickly discovering!
+~
+4194403 520 0 C
+25 0 -70 4d10+540 3d5+15
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 6 0 0 65536 65536 0
+0 0 134283265 0 0 0 3 0
+#16013
+dog dogs~
+a gypsy dog~
+A snarling dog snaps at you!
+~
+This medium-sized dog has a large spiked collar around his neck.  It would
+make it look quite vicious, but its teeth and claw already do that.
+~
+4259937 0 0 C
+20 0 -45 4d8+380 3d5+10
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 65536 65536 0
+0 0 134283265 0 0 0 3 0
+#16014
+gypsy woman~
+a gypsy woman~
+This woman leaps to protect her family from you!
+~
+Don't let the dress fool you, this woman knows you are an intruder and leaps
+up to protect the rest of her family from you!
+~
+4194405 32768 0 C
+30 0 -95 4d15+760 3d5+20
+150 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 31 1048576 0 0 33554528 2621440
+#16015
+gypsy man~
+a gypsy man~
+A gypsy man draws his dagger to protect the caravan!
+~
+This gypsy turns from chatting with his buddies, spies you, snarls, draws a
+dagger, and leaps for your throat!
+~
+4194405 32768 0 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 31 1048576 0 0 16 2621440
+#16016
+gypsy dancer swirl~
+the gypsy dancer~
+A swirl of silks mesmerizes you as this dancer twists and turns.
+~
+Wearing naught but a cleverly designed silk sash, this athletic dancer twists
+and spins about you, weaving around the campfire.
+~
+4194371 2130048 0 C
+35 0 -12 4d20+975 3d5+25
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 15 1048576 0 0 33555296 2
+#16017
+gypsy queen~
+the gypsy queen~
+This gypsy looks up from her crystal ball and watches you closely.
+~
+Dressed in purple robes, covered in runes and multi-colored patches, this
+elderly gypsy woman watches you over the top of her crystal ball.  You wonder
+what she was divining before your arrival.  She must be one tough woman to
+have survived to such an advanced age.
+~
+5243971 32936&64 0 C
+40 0 -145 4d30+1255 3d5+30
+1000 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 399 1058816 0 0 167772160 16
+#16018
+ghost victim~
+a wailing ghost~
+The wailing ghost of a young female, badly mutilated, floats above the bodies.
+~
+This ghost must be the remnants of one of the mutilated corpses.  Even though
+she is made up of wisps of ether, you can see the ragged gash across her
+throat.  It may be best to release her to the afterlife.
+~
+4194371&8 3145728 1000 C
+25 0 -95 4d15+760 3d5+20
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 1 0 0 4096 4096 0
+0 0 0 8192 0 0 33558528 0
+#16019
+demon underling servant~
+a demon underling~
+A small demon, probably a servant, scurries about.
+~
+This small ugly creature looks at you and gapes...not many mortals dare enter
+this realm.  One of the more cowardly demons, this underling tries to avoid
+you.
+~
+4194501 2048 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 65536 65536 0
+0 0 67112963 0 0 0 33554435 0
+#16020
+demon princeling servant~
+a demon princeling~
+This demon does not hesitate to jump at the chance to slay you!
+~
+This young demon princeling knows that if it can slay you and contain your
+spirit, it will grow stronger, and that is the only way to advance in the
+demon realm.
+~
+4194401 2048 -1000 C
+30 0 -95 4d15+760 3d5+20
+150 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 65536 65536 0
+0 0 8199 0 0 0 33554439 64
+#16021
+demon bodyguard mighty~
+the Prince's bodyguard~
+This mighty looking demon doesn't want to let you proceed further!
+~
+This demon is big and ugly.  It stands in the middle of the path, blocking
+your way any further.  It knows you are not on the list to see the Prince, so
+he decides here and now to finish your life!
+~
+4194403 69208104&256 -1000 C
+40 0 -145 4d30+1255 3d5+30
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 3 0 0 65536 65536 0
+0 0 2138127 3145728 0 0 167773255 524289
+#16022
+demon prince~
+the Demon Prince~
+A princely looking demon towers above you, lightning crackling about him.
+~
+There aren't many demons out there bigger than this one, and you hope you
+don't meet any of them anytime soon.  This particular Prince stares back at
+you, lightning bolts crackled about him and twisting around his arms and
+hands.
+~
+4194403 71305384&320 -1000 C
+40 0 -150 4d30+1500 3d5+30
+2000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 0 0 0 65536 65536 0
+0 0 3149839 3145728 4 0 33558855 2621442
+> death_prog 5~
+say Damn that Gypsy wench!  And curse your mortal souls!
+rinvoke artifact
+~
+|
+#16023
+boss bandit man finely dressed~
+The Boss~
+This finely-dressed man gets up from his throne to confront you.
+~
+This man must be the lord of the keep, since he's dressed in rich clothes and
+sitting on the throne.  He gets up when you enter, and frowns at your
+intrusion.  His hand reaches for the blade at his side as he considers your
+actions.
+~
+4194403 34984&320 -1000 C
+45 0 -170 4d40+1515 3d5+35
+2500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 527 2097152 0 0 368 2621441
+#16024
+bandit guard~
+a bandit guard~
+This bandit patrols the keep, attacking any intruders.
+~
+This bandit sure does look in better shape than the ones stuck out living in
+the woods.  His armor is in better condition, and he looks well fed.  His job
+is to stop any intruders from entering the grounds, and he's going doing a
+pretty good job at it.
+~
+4194401 32808 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 143 0 0 0 1072 1
+#16025
+bandit guard~
+a bandit guard~
+This bandit patrols the keep, attacking any intruders.
+~
+This bandit sure does look in better shape than the ones stuck out living in
+the woods.  Her armor is in better condition, and she looks well fed.  Her job
+is to stop any intruders from entering the grounds, and she's going doing a
+pretty good job at it.
+~
+4194401 32808 -1000 C
+25 0 -70 4d10+540 3d5+15
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 143 0 0 0 1072 1
+#16026
+bandit chef man burly~
+the bandit chef~
+This burly man stops his cooking and watches you.
+~
+This burly old bandit must be the cook for the keep.  He moves about the
+kitchen with the ease of one who knows what he's doing, then he notices you
+standing there and stops, wondering who you are and what you are doing.
+~
+4194371 0 0 C
+35 0 -120 4d20+975 3d5+25
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 79 0 0 0 112 0
+#16027
+bandit librarian woman~
+the bandit librarian~
+This young woman is busy stacking books.
+~
+This young lady moves about the library, humming a song and stacking books on
+the various shelves.  She is quite occupied with her duties, and doesn't pay
+you much attention at all.
+~
+22020099 0 0 C
+35 0 -120 4d20+975 3d5+25
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 20 0 0 1 1 0
+0 0 79 0 0 0 270532720 32
+#16028
+slave human~
+a human slave~
+This human slave sits in the corner and ignores you.
+~
+This poor slave, he sits in the corner with a faraway look in his eye.
+Numerous scars and bruises cover his body, signs of very bad treatment.  He is
+too far past caring to want to continue living.
+~
+4194371 0 1000 C
+20 0 -25 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 31 0 0 0 16 0
+#16029
+slave dwarf dwarven~
+a dwarven slave~
+This dwarven slave sits in the corner and ignores you.
+~
+This poor slave, he sits in the corner with a faraway look in his eye.
+Numerous scars and bruises cover his body, signs of very bad treatment.  He is
+too far past caring to want to continue living.
+~
+4194371 0 0 C
+20 0 -25 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 17 0 0 4 4 0
+0 0 31 0 0 0 16 0
+#16030
+slave kobold~
+a kobold slave~
+This kobold slave sits in the corner and ignores you.
+~
+This poor slave, he sits in the corner with a faraway look in his eye.
+Numerous scars and bruises cover his body, signs of very bad treatment.  He is
+too far past caring to want to continue living.
+~
+4194371 0 -1000 C
+20 0 -25 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 17 0 0 16384 16384 0
+0 0 31 0 0 0 16 0
+#16031
+lady mistress young bandit~
+the young mistress~
+This young lady lounges in the lord's bed, awaiting his return.
+~
+As you enter, this young woman gasps and covers herself up with the bedsheets.
+ "You better leave now!" she screams.  "If the Boss catches you in here, he
+will have your head!"
+~
+4194371 168 0 C
+35 0 -120 4d20+975 3d5+25
+1000 0
+106 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 15 0 0 0 545 0
+#16032
+trainer bandit strong warrior~
+the bandit trainer~
+This strong warrior practices with a long spear.
+~
+This man must be the trainer for the bandits.  He stands in the middle of the
+practice room, and is going through various combat maneuvers with a long
+spear.  He is quite impressive!
+~
+5243971 32936 -1000 C
+45 0 -180 4d40+1515 3d5+40
+1500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1 1 0
+0 0 1039 8192 0 0 880 2621441
+#16033
+bandit guard~
+a bandit guard~
+This bandit patrols the keep, attacking any intruders.
+~
+This bandit sure does look in better shape than the ones stuck out living in
+the woods.  His armor is in better condition, and he looks well fed.  His job
+is to stop any intruders from entering the grounds, and he's going doing a
+pretty good job at it.
+~
+4194401 32808 -1000 C
+30 0 -95 4d15+760 3d5+20
+150 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 143 0 0 0 1072 1
+#16034
+bandit guard~
+a bandit guard~
+This bandit patrols the keep, attacking any intruders.
+~
+This bandit sure does look in better shape than the ones stuck out living in
+the woods.  Her armor is in better condition, and she looks well fed.  Her job
+is to stop any intruders from entering the grounds, and she's going doing a
+pretty good job at it.
+~
+4194401 32808 -1000 C
+30 0 -95 4d15+760 3d5+20
+150 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 143 0 0 0 1072 1
+#16035
+bandit groundskeeper~
+the groundskeeper~
+The old groundskeeper sits in his shack.
+~
+This old man must be the groundskeeper for the keep.  Despite his age and his
+gnarled hands, he must still have the knack of gardening, because the grounds
+are beautiful.
+~
+4194371 32808 0 C
+30 0 -60 4d15+760 3d5+20
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 143 0 0 0 48 0
+#16036
+fire elemental guardian~
+a guardian fire elemental~
+The guardian fire elemental is here fueling the great inferno.
+~
+Someone has abandoned a new mob here
+~
+67 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 3~
+say What are you looking at?
+grin
+~
+> rand_prog 3~
+hercules
+~
+|
+#16200
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194371 32808 0 C
+30 0 -60 4d15+760 3d5+20
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 135 0 0 0 48 0
+#0
+
+
+#OBJECTS
+#16000
+helm hammer~
+The Helm of the Hammer~
+A gleaming helm, marked with the runeword for "Hammer" shines here.~
+~
+9 65 3
+7 7 0 0
+4 450 0
+A
+19 3
+A
+1 4
+A
+13 45
+#16001
+corpse messenger~
+the corpse of the messenger~
+A fairly fresh looking corpse, it wears the badge of a messenger.~
+~
+15 0 0
+50 0 0 0
+9999 0 0
+#16002
+logbook log book~
+a small logbook~
+A small logbook flutters in the breeze.  You should look at "logbook1".~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+logbook small~
+You feel the urge to look at "logbook1" and "logbook2".
+~
+E
+logbook2~
+Day 17:  Saw a suspicious man today.  He was watching me through the trees,
+then disappeared when I called out to him.  I must watch my back.
+
+Day 18:  I was ambushed by a group of bandits!  They bound me and took me to
+their hideout behind a huge oak tree.  They each had a magical branch that
+opened the tree like a door!  I stole one, I'm going to hide it in my boot.
+Their leader said now that they had the treasure, I am to be slain and dumped
+in the "usual spot", wherever that is.  I fear this may be my last entry.
+~
+E
+logbook1~
+Day 14:  Employed by King Drazuk of the Ghoul Kingdom.  He wants me to deliver
+a precious treasure to the King of the Dwarves.  He said it may be dangerous,
+but I'll take it since he's paying double the normal fee.
+
+Day 16:  Took me two whole days just to get out of the caverns.  Had to dodge
+many dangerous beasts in there.  The catacombs of the church were not much
+better.  Finally reached the trail through the forest.  Will camp here and
+head out at first light.
+
+Look "logbook2"
+~
+#16003
+branch oak~
+a crooked oak branch~
+An oddly shaped branch of oak lies here.~
+~
+18 64 1048577
+1 0 0 0
+1 0 0
+#16004
+rose~
+a sweet-smelling rose~
+This rose has a pleasant scent.~
+~
+18 64 1048577
+2 0 0 0
+1 0 0
+#16005
+stone obsidian shard~
+a small shard of obsidian~
+A small obsidian shard lies in the dust.~
+~
+18 68 1048577
+3 0 0 0
+1 0 0
+#16006
+key iron grand~
+a grand iron key~
+A large iron key, etched with grand runes and sigils.~
+~
+18 0 1048577
+4 0 0 0
+1 0 0
+#16007
+key small golden~
+a small golden key~
+This small golden key hangs from a chain.~
+~
+18 0 1048577
+5 0 0 0
+1 0 0
+#16008
+leather diary~
+a leather diary~
+A small leather diary sits on the ground.  You should look at "diary1".~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+diary leather~
+You feel the urge to look at "diary1" and "diary2".
+~
+E
+diary2~
+Day 6:  A ghoul scout made it all the way to the hideout undetected!  We got
+him, but not before he killed another 3 men.  I must get rid of this treasure.
+ I'm having one of the men deliver it to the Boss.  He'll be able to protect
+it better...to bad, it was a nice object, but not worth my life.  The gypsies
+stopped by later to do some trading.  Thieving scoundrels, always drive a hard
+bargain!
+
+Day 7:  Damn!  I can't find the key to the Boss's mansion anywhere!  He will
+freak out if he finds out I lost it.  The only thing I can think happened with
+it is that one of those gypsies must of pickpocketed it.  Little do they know,
+one of the scouts found the magic roses they use to enter their valley...now
+to just get there in one piece.
+~
+E
+diary1~
+Since we moved to the new hideout, I figured I'd keep better notes about our
+doings.
+
+Day 4:  Scouts brought in a messenger.  He had a nice treasure that he said he
+was transporting for the Ghoul King.  I'm not sure what to do with it...I'd
+hate to feel the wrath of the King Ghoul, but maybe he won't find out if I
+keep it.
+
+Day 5:  Had the men dump the messenger's body in the small canyon.  Two scouts
+disappeared today, with evidence of ghoul tracks about the bodies.  They must
+be looking for the treasure!
+
+Look "diary2".
+~
+#16009
+book tome demonology~
+a tome of demonology~
+A small black tome, with a pentagram on its cover, lies here.  Look at "demon1".~
+~
+35 84 1048577
+0 0 0 0
+1 0 0
+E
+tome demonology~
+You feel the urge to look at "demon1".
+~
+E
+demon1~
+A small tome with notes about demon summoning...the newest entry catches your
+eye.
+
+Met with the Dark Prince today.  He was in a real bad mood.  Seems the Boss of
+the bandits promised him a sacrifice for some help, but hasn't kept up his end
+of the deal.  The Prince wasn't sure what to do about this, until I mentioned
+that one of our own had stolen a key that opened up the Boss's keep.  The
+Prince got real excited at this news, and asked me for it.  After bargaining,
+he gave me a small stone that would allow me to journey to his sub-realm at
+any time.  The shard should allow access to a small forest trail, and the
+Prince said to then just step through the pentagram, and I would appear in his
+domain.  Wait until the seer hears about this!
+~
+#16010
+chest stout wooden~
+a stout wooden chest~
+A stout wooden chest sits against the far wall.~
+~
+15 0 0
+50 0 0 0
+100 0 0
+#16011
+leather rough helm~
+rough leather helm~
+A rough leather helm lies in the dirt.~
+~
+9 0 3
+5 5 0 0
+4 0 0
+#16012
+leather rough boots~
+rough leather boots~
+Some rough leather boots lay in the dirt.~
+~
+9 0 65537
+5 5 0 0
+4 0 0
+#16013
+leather rough gloves~
+rough leather gloves~
+Some rough leather gloves lay in the dirt.~
+~
+9 0 513
+5 5 0 0
+4 0 0
+#16014
+leather rough pants~
+rough leather pants~
+Some rough leather pants lay in the dirt.~
+~
+9 0 16385
+5 5 0 0
+4 0 0
+#16015
+leather rough sleeves~
+rough leather sleeves~
+Some rough leather sleeves lay in the dirt.~
+~
+9 0 129
+5 5 0 0
+4 0 0
+#16016
+leather rough cloak~
+rough leather cloak~
+A rough leather cloak lies in the dirt.~
+~
+9 0 2049
+5 5 0 0
+4 0 0
+#16017
+leather rough armor~
+rough leather armor~
+A set of rough leather armor lies in the dirt.~
+~
+9 0 65
+5 5 0 0
+4 0 0
+#16018
+old metal shield~
+old metal shield~
+An old metal shield sits in the dust.
+~
+~
+9 524288 524289
+10 10 0 0
+9 0 0
+#16019
+old metal plate armor~
+old metal plate armor~
+Some old metal plate armor sits in the dust.
+~
+~
+9 524288 65
+10 10 0 0
+9 0 0
+#16020
+old metal greaves~
+old metal greaves~
+Some old metal greaves sit in the dust.
+~
+~
+9 524288 16385
+10 10 0 0
+9 0 0
+#16021
+longbow long bow yew~
+a yew longbow~
+A large bow, shaped from the branch of a yew tree.~
+~
+5 0&16 131073
+12 4 8 14
+13 100 0
+#16022
+dagger jagged old~
+a jagged old dagger~
+This old dagger has a jagged edge, probably chipped from use.~
+~
+5 0 131073
+12 1 5 2
+1 0 0
+#16023
+longsword long sword fine~
+a finely-crafted longsword~
+This longsword looks to be in decent condition.~
+~
+5 0 131073
+12 2 6 3
+6 0 0
+#16024
+lute~
+a small wooden lute~
+A delicate wooden lute leans up here.~
+~
+5 0 131073
+12 2 6 6
+2 150 0
+#16025
+sash silk~
+an intricately woven silk sash~
+This silk sash doesn't really cover much of the body.~
+~
+9 64 2049
+4 4 0 0
+2 200 0
+A
+18 2
+A
+2 2
+#16026
+robes patch patchwork purple~
+some purple patchwork robes~
+These old purple robes are covered in various patches.~
+~
+9 64 65
+7 7 0 0
+5 0 0
+A
+79 2
+A
+3 2
+A
+12 20
+#16027
+stiletto sharp~
+a sharp stiletto~
+This stiletto is quite long and sharp as a needle!~
+~
+5 0 131073
+12 2 4 2
+1 0 0
+A
+19 1
+#16028
+claw owl~
+the claw of an owl~
+This dried up old claw appears to be from some bird of prey.~
+~
+9 64 1048577
+2 2 0 0
+1 0 0
+A
+5 1
+A
+4 2
+#16029
+brass knuckles~
+brass knuckles~
+A small strip of brass, made to fit over the fingers.~
+~
+9 0 1025
+3 3 0 0
+1 150 0
+A
+1 1
+A
+19 2
+#16030
+knife carving~
+a carving knife~
+A carving knife, useful for removing tails.~
+~
+5 0 131073
+12 1 6 1
+1 50 0
+#16031
+badge librarian library~
+the librarian's badge~
+A small golden badge, in the shape of an open book.~
+~
+9 64 2097153
+2 2 0 0
+1 100 0
+A
+3 2
+#16032
+sword long longsword sharp~
+a sharp longsword~
+A well crafted longsword has been dropped here.
+~
+~
+5 0 131073
+12 2 6 3
+8 150 0
+#16033
+chain mail chainmail tunic~
+a chainmail tunic~
+A fine chainmail tunic lies in a pile on the ground.~
+~
+9 524288 65
+14 14 0 0
+10 150 0
+#16034
+silk night gown nightgown~
+a sheer silk nightgown~
+This wisp of silk looks pretty flimsy.~
+~
+9 0 65
+2 2 0 0
+1 250 0
+#16035
+sword bastard jewelled~
+a jewelled bastard sword~
+Many jewels adorn the hilt of this large sword.
+~
+~
+5 65&16 131073
+12 5 5 3
+12 500 0
+A
+13 15
+A
+18 4
+#16036
+spear long savage~
+a savage longspear~
+A very long spear lies in the dust.~
+~
+5 64&16 131073
+12 5 5 24
+7 250 0
+A
+1 2
+A
+19 3
+#16037
+manacles chains iron rusty rusted~
+a rusty set of manacles~
+A set of rusted manacles connected with chains sit here.~
+~
+9 4224 32769
+4 4 0 0
+6 50 0
+A
+4 -3
+A
+1 -3
+#16038
+shirt padded leather~
+a padded armor shirt~
+A shirt crafted of leather pads lies here.~
+~
+9 64 65
+7 7 0 0
+4 200 0
+A
+1 2
+A
+5 2
+#16039
+bracelet silver ebony~
+a silver bracelet with ebony insets~
+This small silver bracelet has ornate ebony carvings placed into it.~
+~
+9 64 257
+2 2 0 0
+1 300 0
+A
+13 20
+#16040
+ring golden wire~
+a twisted golden ring~
+A small ring made up of twisted golden wires gleams here.~
+~
+8 64 1025
+0 0 0 0
+1 300 0
+A
+2 2
+#16041
+light fire dragon~
+the Fire of the Dragon~
+A floating sphere of fire dances about here.~
+~
+1 65 1
+0 0 -1 0
+1 300 0
+A
+27 1
+A
+5 3
+A
+1 3
+A
+24 -4
+#16042
+sign small tree wood~
+a small sign~
+A small wood sign is nailed to one of the trees.~
+~
+12 0 0
+0 0 0 0
+9999 0 0
+E
+sign small wood tree~
+ATTENTION:  The path through the Elder Forest is quite safe until you reach
+the end.  However, if you are to wander off the path, be prepared for pretty
+much anything.  Once you have left the main path, you may find trouble finding
+your way back, and the magic of the Elder Oaks prevents nearly all forms of
+astral travel.  The creatures that live in the forest do not take kindly to
+intruders and will probably attack on sight.  Groups of adventurers of skill
+level 20 through 35 are recommended if you plan on leaving the path.  Even
+then, some places may be quite rough.
+~
+#16043
+key fire wisteria~
+a key of the fire~
+A strange key, hot to the touch, lies in the dust.~
+~
+9 0&32 1048577
+0 0 0 0
+1 0 0
+#16044
+table~
+a small table~
+A small table sits in the middle of the room.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#16045
+chair~
+a wooden chair~
+A wooden chair somehow avoids burning in the intense heat.
+~
+~
+12 0 0
+0 0 1162 0
+1 0 0
+#16046
+chair~
+a wooden chair~
+A wooden chair somehow avoids burning in the intense heat.
+~
+~
+12 0 0
+0 0 1162 0
+1 0 0
+#16200
+Placeholder~
+Placeholder~
+Placeholder~
+~
+1 65 1
+0 0 -1 0
+1 300 0
+#0
+
+
+#ROOMS
+#16000
+The Edge Of The Elder Forest~
+At the end of the road is a small field.  The field slowly narrows into what
+appears to be an opening in the forest, perhaps the beginning of a path.
+Though the trees of the Elder Forest look foreboding, the clearing itself is
+bright and the songs of the birds on the closest branches give the place a
+cheery feel.
+
+
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16001
+D2
+~
+~
+0 0 21017
+D3
+~
+~
+8389671 16043 16187
+S
+#16001
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16002
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16000
+S
+#16002
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16003
+D3
+You see nothing special in that direction.~
+~
+0 0 16001
+S
+#16003
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16004
+D3
+You see nothing special in that direction.~
+~
+0 0 16002
+S
+#16004
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16005
+D3
+You see nothing special in that direction.~
+~
+0 0 16003
+S
+#16005
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16006
+D3
+You see nothing special in that direction.~
+~
+0 0 16004
+S
+#16006
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16007
+D3
+You see nothing special in that direction.~
+~
+0 0 16005
+S
+#16007
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16008
+D2
+You see nothing special in that direction.~
+~
+0 0 16006
+S
+#16008
+A Chilly Clearing~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  You catch a glimpse of a strange bluish glow
+through the trees to the west.  Looking closer, you notice a small trail
+through them, heading closer to the mountains.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16009
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16007
+D3
+You see nothing special in that direction.
+~
+~
+16777216 0 16038
+S
+#16009
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16010
+D2
+You see nothing special in that direction.~
+~
+0 0 16008
+S
+#16010
+The Huge Oak~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  This part of the path is dominated by a gigantic
+oak tree.  It's width is equal to at least 30 of the elder oaks and it stands
+as high as 15 of them!  The brambles grow so thick about it, you see no way
+around it.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16011
+D1
+You see nothing special in that direction.
+~
+~
+25167399 16003 16048
+D2
+You see nothing special in that direction.~
+~
+0 0 16009
+S
+#16011
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16012
+D2
+You see nothing special in that direction.~
+~
+0 0 16010
+S
+#16012
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16013
+D2
+You see nothing special in that direction.~
+~
+0 0 16011
+S
+#16013
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16014
+D2
+You see nothing special in that direction.~
+~
+0 0 16012
+S
+#16014
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16015
+D2
+You see nothing special in that direction.~
+~
+0 0 16013
+S
+#16015
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16016
+D2
+You see nothing special in that direction.~
+~
+0 0 16014
+S
+#16016
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16017
+D2
+You see nothing special in that direction.~
+~
+0 0 16015
+S
+#16017
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16018
+D2
+You see nothing special in that direction.~
+~
+0 0 16016
+S
+#16018
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16019
+D2
+You see nothing special in that direction.~
+~
+0 0 16017
+S
+#16019
+The Rose Hedge~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt. The tree's on the west side of the path seem to
+have been beaten back by a large hedge of roses that are enchantingly
+beautiful.  In fact, it all feels downright magical.
+
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16020
+D2
+You see nothing special in that direction.~
+~
+0 0 16018
+D3
+You see nothing special in that direction.
+~
+~
+25167399 16004 16100
+S
+#16020
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16021
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16019
+S
+#16021
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16022
+D3
+You see nothing special in that direction.~
+~
+0 0 16020
+S
+#16022
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16023
+D3
+You see nothing special in that direction.~
+~
+0 0 16021
+S
+#16023
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16024
+D3
+You see nothing special in that direction.~
+~
+0 0 16022
+S
+#16024
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16025
+D3
+You see nothing special in that direction.~
+~
+0 0 16023
+S
+#16025
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16026
+D3
+You see nothing special in that direction.~
+~
+0 0 16024
+S
+#16026
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16027
+D3
+You see nothing special in that direction.~
+~
+0 0 16025
+S
+#16027
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16028
+D2
+You see nothing special in that direction.~
+~
+0 0 16026
+S
+#16028
+A Dreary Clearing~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  A small clearing to the east however, is not as
+comfortable as the path.  The shadows about the trees are very dark indeed.
+As you look closer, you notice a small opal embedded in one of the trees.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16029
+D1
+You see nothing special in that direction.
+~
+~
+25167399 16005 16113
+D2
+You see nothing special in that direction.~
+~
+0 0 16027
+S
+#16029
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16030
+D2
+You see nothing special in that direction.~
+~
+0 0 16028
+S
+#16030
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16031
+D2
+You see nothing special in that direction.~
+~
+0 0 16029
+S
+#16031
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16032
+D2
+You see nothing special in that direction.~
+~
+0 0 16030
+S
+#16032
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16033
+D2
+You see nothing special in that direction.~
+~
+0 0 16031
+S
+#16033
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  A small hole leads down into the earth, the
+smell of sulfur rising up from it.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16034
+D2
+You see nothing special in that direction.~
+~
+0 0 16032
+D5
+~
+~
+0 0 7301
+S
+#16034
+A Big Clearing~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  The path has been widened here, and there is a
+definite path through the tree's to the west, headed towards the base of the
+mountain.  The view of the mountain is blocked by a large stone keep, however.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16035
+D2
+You see nothing special in that direction.~
+~
+0 0 16033
+D3
+~
+~
+0 0 16126
+S
+#16035
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16036
+D2
+You see nothing special in that direction.~
+~
+0 0 16034
+S
+#16036
+Safe Passage Through The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.
+~
+0 3146752 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16037
+D2
+You see nothing special in that direction.~
+~
+0 0 16035
+S
+#16037
+The Edge Of The Elder Forest~
+The forest itself darkens as you proceed down the path, but still, despite the
+weather, the air around you is warm, the bird's songs are happy, and you feel
+as safe as you've ever felt.  It appears however that the same cannot be said
+for the path north of you, for the tree's appear to be dying off, and the
+smell of rot is in the air.
+~
+0 3146752 2
+D0
+Towards a Spooky Path
+~
+~
+0 0 15000
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16036
+S
+#16038
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.  You aren't sure, but it seems as if
+the tree's have moved to block the passage to the east.
+~
+0 3153920 3
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16039
+S
+#16039
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16038
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16040
+S
+#16040
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16039
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16041
+S
+#16041
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16042
+D1
+You see nothing special in that direction.~
+~
+0 0 16040
+S
+#16042
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16043
+D2
+You see nothing special in that direction.~
+~
+0 0 16041
+S
+#16043
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16044
+D2
+You see nothing special in that direction.~
+~
+0 0 16042
+S
+#16044
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16045
+D2
+You see nothing special in that direction.~
+~
+0 0 16043
+S
+#16045
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16046
+D3
+You see nothing special in that direction.~
+~
+0 0 16044
+S
+#16046
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16047
+D2
+You see nothing special in that direction.~
+~
+0 0 16045
+S
+#16047
+A Dark Path Through The Trees~
+The elder oaks are so thick here that barely no light comes through.  There is
+a strong feeling of sadness about this area, and as you look to the sides of
+the path, you notice many shallow graves.  There is a rather fresh corpse
+laying at the end of the path.  You almost might of missed it if it wasn't for
+the little bit of light shining through the trees to the east.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+16777216 0 16181
+D2
+You see nothing special in that direction.~
+~
+0 0 16046
+S
+#16048
+Behind The Huge Oak~
+You stand behind the Huge Oak, which has been converted by the bandits into a
+gate for their hideout.  You hear it click shut behind you, and after a quick
+search, you can find no way back through.  The forest ahead is normal, but
+quiet.  A path picks it's way through the brambles surrounding
+the trees.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16049
+S
+#16049
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16050
+D3
+You see nothing special in that direction.~
+~
+0 0 16048
+S
+#16050
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16051
+D3
+You see nothing special in that direction.~
+~
+0 0 16049
+S
+#16051
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16052
+D2
+You see nothing special in that direction.~
+~
+0 0 16078
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16050
+S
+#16052
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16053
+D2
+You see nothing special in that direction.~
+~
+0 0 16051
+S
+#16053
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16054
+D2
+You see nothing special in that direction.~
+~
+0 0 16052
+S
+#16054
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16055
+D2
+You see nothing special in that direction.~
+~
+0 0 16053
+S
+#16055
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16056
+D2
+You see nothing special in that direction.~
+~
+0 0 16054
+S
+#16056
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16057
+D2
+You see nothing special in that direction.~
+~
+0 0 16055
+S
+#16057
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16058
+D2
+You see nothing special in that direction.~
+~
+0 0 16056
+S
+#16058
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16059
+D2
+You see nothing special in that direction.~
+~
+0 0 16057
+S
+#16059
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16060
+D3
+You see nothing special in that direction.~
+~
+0 0 16058
+S
+#16060
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16061
+D3
+You see nothing special in that direction.~
+~
+0 0 16059
+S
+#16061
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16062
+D3
+You see nothing special in that direction.~
+~
+0 0 16060
+S
+#16062
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16063
+D3
+You see nothing special in that direction.~
+~
+0 0 16061
+S
+#16063
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16064
+D3
+You see nothing special in that direction.~
+~
+0 0 16062
+S
+#16064
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16063
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16065
+S
+#16065
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16064
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16066
+S
+#16066
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16065
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16067
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16079
+S
+#16067
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16066
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16068
+S
+#16068
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16067
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16069
+S
+#16069
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16068
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16070
+S
+#16070
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16069
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16071
+S
+#16071
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16070
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16072
+S
+#16072
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16071
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16073
+S
+#16073
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16072
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16074
+S
+#16074
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16073
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16075
+S
+#16075
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16074
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16076
+S
+#16076
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16075
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16077
+S
+#16077
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16078
+D1
+You see nothing special in that direction.~
+~
+0 0 16076
+S
+#16078
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16051
+D2
+You see nothing special in that direction.~
+~
+0 0 16077
+S
+#16079
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16080
+D1
+You see nothing special in that direction.~
+~
+0 0 16066
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16082
+S
+#16080
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16081
+D2
+You see nothing special in that direction.~
+~
+0 0 16079
+D3
+You see nothing special in that direction.~
+~
+0 0 16087
+S
+#16081
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D2
+You see nothing special in that direction.~
+~
+0 0 16080
+S
+#16082
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  The smell of sulfur and death
+is in the air, and a slight twinge of fear goes through your mind.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16079
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16083
+S
+#16083
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  The stench grows stronger, and
+the decaying corpses of various large creatures lie about.  The sound of flies
+is thick in the air.  You begin to sweat with the heat.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16082
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16084
+S
+#16084
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  At this point the fumes in the
+air are so thick, that it appears everything has a yellow tinge.  The heat
+increases and you begin to itch under your armor.  You're not sure where this
+path is going, but you have a bad feeling.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16083
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16085
+S
+#16085
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  You are gagging due to the lack
+of clean air, and the ground itself sizzles about you.  South of stands a
+large cave leading down into the ground.  The glow of fires come from within,
+and with them a wind of fear.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16084
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16086
+S
+#16086
+The Scorched Cave~
+This cave must of been dug a long time back, when the dragon was fairly
+young.  You see where it has slowly had to dig out more and as he grew.  The
+crunch of bones are underneath your feet.  The stench of death is everywhere.
+~
+0 3153929 0
+D0
+You see nothing special in that direction.~
+~
+0 0 16085
+S
+#16087
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16080
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16088
+S
+#16088
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16087
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16089
+S
+#16089
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16088
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16090
+S
+#16090
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16089
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16091
+S
+#16091
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16090
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16092
+S
+#16092
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16091
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16093
+S
+#16093
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16094
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16096
+D3
+You see nothing special in that direction.~
+~
+0 0 16092
+S
+#16094
+The Briar Patch~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16095
+D2
+You see nothing special in that direction.~
+~
+0 0 16093
+S
+#16095
+A Stand Of Oaks~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  The north end of this path is
+blocked by a thick stand of trees.  One of them has a large hole between some
+of the higher branches.
+~
+0 3153920 3
+D2
+You see nothing special in that direction.~
+~
+0 0 16094
+S
+#16096
+The Briar Patch Clears~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  There is the smell of a cookfire
+to the south.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16093
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16097
+S
+#16097
+The Bandit Camp~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  Tents are set about in alcoves
+cut into the brambles.  The scraps of raids and other crimes lie tossed about.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16096
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16099
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16098
+S
+#16098
+The Bandit Camp~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  Tents are set about in alcoves
+cut into the brambles.  The scraps of raids and other crimes lie tossed about.
+~
+0 3153920 3
+D1
+You see nothing special in that direction.~
+~
+0 0 16097
+S
+#16099
+The Bandit Camp~
+The bandits were very clever to place their hideout in such a place.  The
+towering elder oaks keep the path dark, and the thick thorns on the bushes
+makes it difficult to find your way through.  Tents are set about in alcoves
+cut into the brambles.  The scraps of raids and other crimes lie tossed about.
+ A large cook fire burns in the middle of this clearing.
+~
+0 3153920 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16097
+D3
+You see nothing special in that direction.
+~
+~
+16777216 0 16182
+S
+#16100
+A Bright Clearing~
+You stand in a bright clearing, surrounded by elder oaks.  You aren't sure how
+exactly you got here...all you can remember is the sweet smell of roses and
+then....this.  You look around and see that the only path available to you is
+to the west.
+~
+0 3153920 2
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16101
+S
+#16101
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D1
+You see nothing special in that direction.~
+~
+0 0 16100
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16102
+S
+#16102
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D1
+You see nothing special in that direction.~
+~
+0 0 16101
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16103
+S
+#16103
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.  To the west, a pile of rocks has tumbled from
+the mountain above, and from the sounds, some creature has taken up residence
+within.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16105
+D1
+You see nothing special in that direction.~
+~
+0 0 16102
+D3
+You see nothing special in that direction.
+~
+~
+16777216 0 16104
+S
+#16104
+A Small Cave~
+This cave doesn't head too far down into the earth.  Small animal bones are
+scattered about the floor, and there is a strong smell of dog within.
+~
+0 3153929 13
+D1
+You see nothing special in that direction.~
+~
+0 0 16103
+S
+#16105
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16106
+D2
+You see nothing special in that direction.~
+~
+0 0 16103
+S
+#16106
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16107
+D2
+You see nothing special in that direction.~
+~
+0 0 16105
+S
+#16107
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16108
+D2
+You see nothing special in that direction.~
+~
+0 0 16106
+S
+#16108
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16109
+D2
+You see nothing special in that direction.~
+~
+0 0 16107
+S
+#16109
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16110
+D2
+You see nothing special in that direction.~
+~
+0 0 16108
+S
+#16110
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.  A cookfire burns here, and a small platform has
+been created, probably for the purpose of dancing.
+~
+0 3153920 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16111
+D2
+You see nothing special in that direction.~
+~
+0 0 16109
+S
+#16111
+A Bright Path~
+Although this path is bright and warm, you don't feel very welcome.  Even as
+you see the weather shift above you, it stays the same between these trees,
+and that means strong magic.  A large gypsy wagon stands to east.
+~
+0 3153920 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16112
+D3
+You see nothing special in that direction.~
+~
+0 0 16110
+S
+#16112
+A Large Gypsy Wagon~
+The occupant of this wagon is obviously a mystic of some sorts.  Exotic
+reagents and mystical powders stand about in odd-shaped jars, books and tomes
+lie about, several small daemons flutter about in birdcages.  A large chair
+faces the center of the room, and a comfortable bed sits along the wall.
+~
+0 3153929 0
+D3
+You see nothing special in that direction.~
+~
+0 0 16111
+D5
+You see nothing special in that direction.
+~
+~
+16777216 0 16183
+S
+#16113
+A Sinister Trail~
+You stumble through the small opening, and gasp as you see the trees shut
+behind you.  Far away in the distance, you hear what could be the sounds of
+screaming.
+~
+0 3153921 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16114
+S
+#16114
+A Sinister Trail~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.
+~
+0 3153921 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16115
+D3
+You see nothing special in that direction.~
+~
+0 0 16113
+S
+#16115
+A Sinister Trail~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.
+~
+0 3153921 3
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16116
+D3
+You see nothing special in that direction.~
+~
+0 0 16114
+S
+#16116
+A Sinister Trail~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.
+~
+0 3153921 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16119
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16117
+D3
+You see nothing special in that direction.~
+~
+0 0 16115
+S
+#16117
+A Sinister Trail~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.
+~
+0 3153921 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16116
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16118
+S
+#16118
+A Sinister Clearing~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.  The corpses of what
+appear to be recent kills lie about here, and the runes of demonic rituals are
+carved into them.  The sight makes you very ill.
+~
+0 3153921 3
+D0
+You see nothing special in that direction.~
+~
+0 0 16117
+S
+#16119
+A Sinister Trail~
+The trees close in about you, and the branches move in the breeze as if
+grasping at you for help...or straining to attack you.  Far away in the
+distance, you hear what could be the sounds of screaming.  Hanging to the
+north between two ragged oaks is a golden ring, large enough to step through.
+It glows an evil red, and only gray can be seen beyond it.
+~
+0 3153921 3
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16120
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16116
+S
+#16120
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.  It seems
+the only path available to you now is to the north.
+~
+0 3153921 11
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16121
+S
+#16121
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.
+~
+0 3153921 11
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16122
+D2
+You see nothing special in that direction.~
+~
+0 0 16120
+S
+#16122
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.
+~
+0 3153921 11
+D2
+You see nothing special in that direction.~
+~
+0 0 16121
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16123
+S
+#16123
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.
+~
+0 3153921 11
+D1
+You see nothing special in that direction.~
+~
+0 0 16122
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16124
+S
+#16124
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.
+~
+0 3153921 11
+D1
+You see nothing special in that direction.~
+~
+0 0 16123
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16125
+S
+#16125
+In The Dark Void~
+You float in the dark void, the personal domain of an old demon prince.  The
+sounds of insanity echo in your ears, and you feel extremely dizzy.
+~
+0 3153921 11
+D1
+You see nothing special in that direction.~
+~
+0 0 16124
+D2
+You see nothing special in that direction.
+~
+~
+16777216 0 16184
+S
+#16126
+A Manicured Trail~
+This path is obviously well kept.  Small rocks line the sides of a gravel
+road, and flowers and other attractive plants grow in select places.  The
+owner of the keep must be fairly rich.
+~
+0 3153920 2
+D1
+~
+~
+0 0 16034
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16127
+S
+#16127
+A Manicured Trail~
+This path is obviously well kept.  Small rocks line the sides of a gravel
+road, and flowers and other attractive plants grow in select places.  The
+owner of the keep must be fairly rich.  To the west stands the large gate of a
+keep.  It is closed and looks pretty strong.
+~
+0 3153920 2
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16126
+D3
+You see nothing special in that direction.
+~
+~
+25167399 16006 16128
+S
+#16128
+The Keep Gate~
+You stand now within the main gatehouse of the keep.  Paths along the walls
+lead off north and south, and you can see what appears to be a magnificent
+courtyard ahead to the west.  Somehow, the gate to the east has closed and you
+can't find any way to open it again.
+~
+0 3153928 0
+D0
+You see nothing special in that direction.~
+~
+0 0 16174
+D2
+You see nothing special in that direction.~
+~
+0 0 16146
+D3
+You see nothing special in that direction.
+~
+~
+16777216 0 16129
+S
+#16129
+A Magnificent Courtyard~
+The courtyard of this keep is glorious.  A huge beautiful marble fountain sits
+in the middle, and a green, well-tended lawn and garden stretches off to the
+south.  North stands a small side-house, and west is the large door that forms
+the entrance of the keep.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.~
+~
+0 0 16175
+D1
+You see nothing special in that direction.~
+~
+16777216 0 16128
+D2
+You see nothing special in that direction.~
+~
+0 0 16176
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16130
+S
+#16130
+An Elaborate Foyer~
+Wow!  The foyer of this keep is quite nice indeed.  Dark wood panels the walls
+and crystal chandeliers hang from the vaulted ceiling.  This entry room is
+definitely made to impress any visitors.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.~
+~
+0 0 16129
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16131
+S
+#16131
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.~
+~
+0 0 16130
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16132
+S
+#16132
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+
+~
+0 3153928 0
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16133
+D1
+You see nothing special in that direction.~
+~
+0 0 16131
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16136
+S
+#16133
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16134
+D2
+You see nothing special in that direction.~
+~
+0 0 16132
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16135
+S
+#16134
+The Library~
+You step into a spacious room, with a tall ceiling.  Bookshelves line the
+walls, and each is overflowing with various books and tomes.  Comfortable
+chairs and small tables sit about randomly.  This looks like a nice place to
+just sit down and read a book...what a nice change from adventuring!
+~
+0 3153928 0
+D3
+You see nothing special in that direction.~
+~
+0 0 16133
+S
+#16135
+The Kitchen~
+This kitchen is quite spacious, and has a lot of space for preparing meals.
+Large counters run along the walls, and a huge wood-burning stove sits in one
+corner.  Various pot and pans hang from hooks on the ceiling.  Dried foods
+hang along one wall, and a large icebox sits opposite the stove.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.~
+~
+0 0 16133
+S
+#16136
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+~
+0 3153928 0
+D0
+You see nothing special in that direction.~
+~
+0 0 16132
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16141
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16137
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16140
+S
+#16137
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+
+~
+0 3153928 0
+D0
+You see nothing special in that direction.~
+~
+0 0 16136
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16143
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16138
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16142
+S
+#16138
+Hallway Of The Keep~
+You stand in the main hallway of the keep.  A thick carpet is underfoot, and
+pictures of various lords and ladies, doing various lord-and-lady things hang
+about.
+~
+0 3153928 0
+D0
+You see nothing special in that direction.~
+~
+0 0 16137
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16145
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16139
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16144
+S
+#16139
+The Throne Room~
+A large wooden throne sits at the far end of this room.  An ornate red carpet
+runs up the middle of the room to the throne.  Torches burn on golden stands,
+one of which looks like its worth more than you've ever seen in your
+adventuring career.  A large metal door is placed in the west wall of this
+room.
+~
+0 3153928 0
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16138
+D3
+You see nothing special in that direction.
+~
+~
+25167399 16007 16185
+S
+#16140
+Barracks~
+This room appears to be a simple barracks for the soldiers of the keep.
+Decent bunks line the walls, and small chests for the belongings of the guards
+sit at the foot of each.  Plain weapons hang in racks along one wall.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.~
+~
+0 0 16136
+S
+#16141
+Barracks~
+This room appears to be a simple barracks for the soldiers of the keep.
+Decent bunks line the walls, and small chests for the belongings of the guards
+sit at the foot of each.  Plain weapons hang in racks along one wall.
+~
+0 3153928 0
+D3
+You see nothing special in that direction.~
+~
+0 0 16136
+S
+#16142
+The Storage Closet~
+You walk into what appears to be a storage closet.  Not much in here but
+cleaning supplies.  Brooms and mops lean in one corner, and lots of buckets
+are piled up against one wall.
+~
+0 3153928 0
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16137
+S
+#16143
+Slave Quarters~
+This plain room must be the slaves quarters.  While not quite a prison, there
+are chains and manacles attached to the walls, to ensure the occupants don't
+try to go anywhere without permission.
+~
+0 3153928 0
+D3
+You see nothing special in that direction.~
+~
+0 0 16137
+S
+#16144
+The Fancy Bedroom~
+This must be the bedroom of the lord of the keep, because it is the fanciest
+one you have ever seen.  A huge bed dominates the room, and ornate wooden
+furniture stands against the walls.  No inn that you've ever stayed in had
+something like this!
+~
+0 3153928 0
+D1
+You see nothing special in that direction.~
+~
+0 0 16138
+S
+#16145
+Training Arena~
+This large room is pretty empty, except for what appears to be a rack of
+practice weapons along the southern wall.  Some battered weapon-practice
+dummies lean against the northern wall.  The rest of the room looks like some
+sort of training arena.
+~
+0 3153928 0
+D3
+You see nothing special in that direction.~
+~
+0 0 16138
+S
+#16146
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16128
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16147
+S
+#16147
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16146
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16148
+S
+#16148
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16147
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16149
+S
+#16149
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16148
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16150
+S
+#16150
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16149
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16151
+S
+#16151
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16150
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16152
+S
+#16152
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.~
+~
+0 0 16151
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16153
+S
+#16153
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.~
+~
+0 0 16152
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16154
+S
+#16154
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.~
+~
+0 0 16153
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16155
+S
+#16155
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.~
+~
+0 0 16154
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16156
+S
+#16156
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.~
+~
+0 0 16155
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16157
+S
+#16157
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16158
+D1
+You see nothing special in that direction.~
+~
+0 0 16156
+S
+#16158
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16159
+D2
+You see nothing special in that direction.~
+~
+0 0 16157
+S
+#16159
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16160
+D2
+You see nothing special in that direction.~
+~
+0 0 16158
+S
+#16160
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16161
+D2
+You see nothing special in that direction.~
+~
+0 0 16159
+S
+#16161
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16162
+D2
+You see nothing special in that direction.~
+~
+0 0 16160
+S
+#16162
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16163
+D2
+You see nothing special in that direction.~
+~
+0 0 16161
+S
+#16163
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16164
+D2
+You see nothing special in that direction.~
+~
+0 0 16162
+S
+#16164
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16165
+D2
+You see nothing special in that direction.~
+~
+0 0 16163
+S
+#16165
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16166
+D2
+You see nothing special in that direction.~
+~
+0 0 16164
+S
+#16166
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16167
+D2
+You see nothing special in that direction.~
+~
+0 0 16165
+S
+#16167
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16168
+D3
+You see nothing special in that direction.~
+~
+0 0 16166
+S
+#16168
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16169
+D3
+You see nothing special in that direction.~
+~
+0 0 16167
+S
+#16169
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16170
+D3
+You see nothing special in that direction.~
+~
+0 0 16168
+S
+#16170
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16171
+D3
+You see nothing special in that direction.~
+~
+0 0 16169
+S
+#16171
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16172
+D3
+You see nothing special in that direction.~
+~
+0 0 16170
+S
+#16172
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16173
+D3
+You see nothing special in that direction.~
+~
+0 0 16171
+S
+#16173
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16172
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16174
+S
+#16174
+The Walls Of The Keep~
+You stand on the walls of the keep itself.  This large wall circles the entire
+grounds of the keep and looks to be fairly impenetrable, unless you had some
+large siege weapons handy.  There is a walkway all around, so the patrolling
+guards can watch all sides easily.
+~
+0 3153920 1
+D0
+You see nothing special in that direction.~
+~
+0 0 16173
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16128
+S
+#16175
+Groundkeeper's Shack~
+This small building appears to be both the living quarters and storage area
+for the keep's groundkeeper.  Some wicked looking lawn tools hang on one wall,
+and a small bed and table stand opposite them.
+~
+0 3153928 0
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16129
+S
+#16176
+A Well-kept Garden~
+You walk down a little path through a scenic garden.  Colorful flowers and
+various trees are placed about in a particularly aesthetic way, giving you a
+sense of calm and safety.  This would be an ideal place for a picnic, if it
+wasn't for the strange animal noises you hear.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.
+~
+~
+0 0 16129
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16177
+S
+#16177
+A Well-kept Garden~
+You walk down a little path through a scenic garden.  Colorful flowers and
+various trees are placed about in a particularly aesthetic way, giving you a
+sense of calm and safety.  This would be an ideal place for a picnic, if it
+wasn't for the strange animal noises you hear.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.~
+~
+0 0 16176
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16178
+S
+#16178
+A Well-kept Garden~
+You walk down a little path through a scenic garden.  Colorful flowers and
+various trees are placed about in a particularly aesthetic way, giving you a
+sense of calm and safety.  This would be an ideal place for a picnic, if it
+wasn't for the strange animal noises you hear.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.~
+~
+0 0 16177
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16179
+S
+#16179
+A Well-kept Garden~
+You walk down a little path through a scenic garden.  Colorful flowers and
+various trees are placed about in a particularly aesthetic way, giving you a
+sense of calm and safety.  This would be an ideal place for a picnic, if it
+wasn't for the strange animal noises you hear.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.~
+~
+0 0 16178
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16180
+S
+#16180
+A Well-kept Garden~
+You walk down a little path through a scenic garden.  Colorful flowers and
+various trees are placed about in a particularly aesthetic way, giving you a
+sense of calm and safety.  This would be an ideal place for a picnic, if it
+wasn't for the strange animal noises you hear.
+~
+0 3153920 2
+D0
+You see nothing special in that direction.~
+~
+0 0 16179
+S
+#16181
+A Treacherous Mountain Pass~
+You work your way through a small mountain pass, littered with boulders and
+other large rocks.  High above you, more rocks are precariously perched on top
+of each other, and it looks like they could fall at any moment.  All of a
+sudden, with a roar, some boulders come cascading down behind you, blocking
+the path!
+~
+0 3153920 5
+D1
+You see nothing special in that direction.
+~
+~
+0 0 16008
+S
+#16182
+A Thorny Path~
+You head down a narrow trail, bordered with thorny bushes.  As you push your
+way through, you notice the bushes closing in behind you, barring any way of
+returning, at least from here.
+~
+0 3153921 3
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16010
+S
+#16183
+Under The Wagon~
+You stand in a small tunnel dug underneath the gypsy queen's wagon.  She must
+of had this created so there was an option for a quick getaway, as long as she
+had enough warning to make it through the tunnel.
+~
+0 3153929 13
+D2
+You see nothing special in that direction.
+~
+~
+0 0 16019
+S
+#16184
+The Swirling Mist~
+A large vortex made up of a swirling grey mist hangs in the air above
+you.  It tugs at your belongings.  You aren't sure where it leads, but it must
+be better than this evil place.
+~
+0 3153921 11
+D4
+You see nothing special in that direction.
+~
+~
+0 0 16028
+S
+#16185
+The Vault~
+You stand in a large vault.  This has to be where the Boss keeps his
+valuables.  One of the things here is a large painting.  The scene is of a
+path through a forest.  As you study it closer, you realize that the painting
+looks exactly like the clearing you went through when you entered the grounds
+of the keep.  It looks so real, you feel you could just walk right into it!
+~
+0 3153928 0
+D3
+You see nothing special in that direction.
+~
+~
+0 0 16034
+S
+#16187
+The Hall Of Flames~
+This house stands directly in a small square within the Elder Forest.  Its
+sturdy stone and wood walls are planted into the sandy gray soil with a look
+of permanence.  As you enter this home, you feel the icy grip of panic and
+fear around your heart when you find yourself standing in the middle of a
+roaring fire.  Strangely enough, the hungry flames wrapping themselves around
+you do not seem to do physical harm, yet their tremendous heat feels more than
+real, making you writhe in agony.
+~
+0 271582216 0
+D1
+~
+~
+8389671 16043 16000
+S
+#16200
+Placeholder~
+Placeholder
+~
+0 3153932 0
+S
+#0
+
+
+#RESETS
+O 0 16046 1 16187
+O 0 16045 1 16187
+O 0 16044 1 16187
+M 0 16036 1 16187
+D 0 16187 1 2
+D 0 16000 3 2
+O 0 16042 1 16000
+D 0 16139 3 2
+M 0 16035 1 16175
+O 0 16010 1 16185
+P 0 16000 1 16010
+M 0 16032 1 16145
+E 0 16038 1 7
+E 0 16036 1 21
+M 0 16034 5 16141
+M 0 16034 5 16141
+M 0 16034 5 16141
+M 0 16034 5 16141
+E 0 16033 1 7
+M 0 16034 5 16141
+E 0 16032 1 21
+M 0 16033 5 16140
+M 0 16033 5 16140
+M 0 16033 5 16140
+M 0 16033 5 16140
+E 0 16033 1 7
+M 0 16033 5 16140
+E 0 16032 1 21
+M 0 16028 1 16143
+E 0 16037 1 18
+M 0 16029 1 16143
+E 0 16037 1 18
+M 0 16030 1 16143
+E 0 16037 1 18
+M 0 16031 1 16144
+E 0 16034 1 7
+M 0 16027 1 16134
+E 0 16031 1 25
+M 0 16026 1 16135
+E 0 16030 1 21
+M 0 16023 1 16139
+E 0 16007 1 24
+E 0 16040 1 12
+E 0 16039 1 9
+E 0 16035 1 21
+M 0 16025 3 16155
+E 0 16033 1 7
+M 0 16025 3 16155
+E 0 16032 1 21
+M 0 16025 3 16155
+E 0 16033 1 7
+M 0 16024 3 16166
+E 0 16032 1 21
+M 0 16024 3 16166
+E 0 16033 1 7
+M 0 16024 3 16166
+E 0 16032 1 21
+M 0 16022 1 16125
+E 0 16006 1 24
+M 0 16021 1 16122
+E 0 16029 1 12
+M 0 16020 4 16124
+M 0 16020 4 16124
+M 0 16020 4 16124
+M 0 16020 4 16124
+M 0 16019 4 16120
+M 0 16019 4 16120
+M 0 16019 4 16120
+M 0 16019 4 16120
+M 0 16018 1 16118
+M 0 16017 1 16112
+G 0 16005 1
+E 0 16009 1 24
+E 0 16026 1 7
+M 0 16016 2 16110
+M 0 16016 2 16110
+E 0 16025 1 14
+M 0 16015 5 16108
+M 0 16015 5 16108
+M 0 16015 5 16108
+E 0 16024 1 21
+M 0 16015 5 16108
+E 0 16024 1 21
+M 0 16015 5 16108
+E 0 16024 1 21
+M 0 16014 3 16110
+M 0 16014 3 16110
+E 0 16027 1 21
+M 0 16014 3 16110
+E 0 16027 1 21
+M 0 16013 5 16105
+M 0 16013 5 16105
+M 0 16013 5 16105
+M 0 16013 5 16105
+M 0 16013 5 16105
+M 0 16012 5 16104
+M 0 16012 5 16104
+M 0 16012 5 16104
+M 0 16012 5 16104
+M 0 16012 5 16104
+M 0 16011 1 16099
+G 0 16004 1
+E 0 16008 1 24
+E 0 16023 1 21
+E 0 16020 1 17
+E 0 16019 1 7
+E 0 16018 1 23
+M 0 16010 3 16097
+E 0 16011 1 1
+M 0 16010 3 16097
+E 0 16022 1 21
+M 0 16010 3 16097
+E 0 16017 1 7
+M 0 16009 3 16080
+E 0 16017 1 7
+M 0 16009 3 16080
+E 0 16016 1 14
+M 0 16009 3 16080
+E 0 16022 1 21
+E 0 16015 1 8
+M 0 16008 1 16095
+G 0 16028 1
+M 0 16007 1 16086
+E 0 16041 10 0
+M 0 16005 3 16074
+E 0 16021 1 21
+E 0 16014 1 17
+M 0 16005 3 16074
+M 0 16005 3 16074
+E 0 16013 1 11
+M 0 16004 3 16059
+E 0 16021 1 21
+E 0 16012 1 20
+M 0 16004 3 16059
+M 0 16004 3 16059
+E 0 16011 1 1
+M 0 16006 3 16064
+M 0 16006 3 16064
+M 0 16006 3 16064
+M 0 16003 3 16049
+M 0 16003 3 16049
+M 0 16003 3 16049
+O 0 16001 1 16047
+P 0 16003 1 16001
+P 0 16002 1 16001
+M 0 16002 1 16047
+M 0 16001 3 16044
+M 0 16001 3 16044
+M 0 16001 3 16044
+M 0 16000 3 16041
+M 0 16000 3 16041
+M 0 16000 3 16041
+D 0 16127 3 2
+D 0 16028 1 2
+D 0 16019 3 2
+D 0 16010 1 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  16007 spec_breath_fire
+M  16009 spec_thief
+M  16011 spec_thief
+M  16013 spec_fido
+M  16014 spec_thief
+M  16015 spec_thief
+M  16016 spec_thief
+M  16017 spec_cast_shaman
+M  16019 spec_cast_diabolist
+M  16020 spec_cast_diabolist
+M  16021 spec_cast_diabolist
+M  16022 spec_cast_archmagi
+M  16023 spec_thief
+M  16024 spec_guard
+M  16026 spec_thief
+M  16031 spec_thief
+M  16032 spec_thief
+M  16035 spec_thief
+S
+
+
+#$

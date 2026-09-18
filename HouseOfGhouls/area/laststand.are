@@ -1,0 +1,3225 @@
+#AREA   Last Stand~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG The sounds of chaotic combat is all around you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 431022121
+
+#CLIMATE 4 0 1
+
+#MOBILES
+#4601
+warlord zanzen warrior man~
+Warlord Zanzen~
+A huge man in heavy plate armor of eastern design orders his troops about.
+~
+The way the soldiers treat this man marks him as the supreme Warlord over this
+army.  He stands at least twice as tall as any other man, and the armor he
+wears looks to be crafted from the bones of his enemies.  His cold stare locks
+on you, and he whips his blade from the scabbard on his hip.
+~
+4194403 308283520&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1835007 1 0
+50 50 2031 3153920 2097152 0 67110752 4
+> hitprcnt_prog 10~
+cackle
+if rand(7)
+  say I will not fall so easily!
+  else
+  if rand(13)
+     say Me and my men shall slay you!!
+     else
+     if rand(14)
+        say I see more of your blood than mine!
+        else
+        if rand(17)
+           say My sword shall consume your soul!
+           else
+           if rand(20)
+              say Fear my wrath!
+              else
+              if rand(25)
+                 say KHAAAAAAAAAAN!
+                 else
+                 if rand(33)
+                    say I shall feast on your flesh tonight!
+                    else
+                    if rand(50)
+                       say First you shall die, then your land!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+> death_prog 100~
+rinvoke artifact
+say You may of defeated me here, but my spirit will be revived!
+cackle
+~
+|
+#4602
+soldier drazukville~
+a Alden soldier~
+A stout soldier of Alden holds his position.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+67 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+cringe
+say Those raiders are getting awfully close!
+~
+|
+#4603
+soldier drazukville~
+a Alden soldier~
+A stout soldier of Alden holds his position.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+67 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+say This is my first big battle...
+shiver
+~
+|
+#4604
+soldier drazukville~
+a Alden soldier~
+A soldier helps with the wounded.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+67 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 5~
+snarl
+say Those raiders will pay for the death they have caused!
+~
+> rand_prog 5~
+frown
+say Don't just stand around!  Go find the clerics!
+~
+|
+#4605
+soldier drazukville~
+a Alden soldier~
+Eating and chatting with others, this soldier stands about the fire.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+67 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+gulp
+say I'm almost too nervous to sleep!~
+|
+#4606
+soldier drazukville~
+a Alden soldier~
+Eating and chatting with others, this soldier stands about the fire.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+67 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+nod
+say We will be lucky if we survive this battle!
+~
+|
+#4607
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden patrols the camp nervously.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+65 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+salute
+say I hope you can help turn the tide of the battle!~
+|
+#4608
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden patrols the camp nervously.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+65 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+sigh
+say No spies sighted yet, but those ninja are awfully tricky~
+|
+#4609
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden patrols the camp nervously.
+~
+One of the many glorious soldiers of Alden, this warrior is part of an
+army that has never known defeat.  The look of worry on his face does not bode
+well.
+~
+65 8320 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 160 0
+> rand_prog 1~
+yawn
+say It's been days since we've had any rest~
+|
+#4610
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4611
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4612
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4613
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4614
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4615
+soldier drazukville~
+a Alden soldier~
+A soldier of Alden jumps at you, consumed with battle rage.
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This soldier of Alden has that problem.
+~
+4194401 1077944448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+#4616
+zanzen raider~
+a Zanzen raider~
+A raider from the East screams a harsh battlecry and leaps towards you!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This Zanzen raider has that problem.
+~
+4194401 1077938304 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+> rand_prog 2~
+scream
+~
+|
+#4617
+zanzen raider~
+a Zanzen raider~
+A raider from the East screams a harsh battlecry and leaps towards you!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This Zanzen raider has that problem.
+~
+4194401 1077938304 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+> rand_prog 2~
+snarl
+~
+|
+#4618
+zanzen raider~
+a Zanzen raider~
+A raider from the East screams a harsh battlecry and leaps towards you!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This Zanzen raider has that problem.
+~
+4194401 1077938304 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+> rand_prog 2~
+behead~
+|
+#4619
+zanzen raider~
+a Zanzen raider~
+A raider from the East screams a harsh battlecry and leaps towards you!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This Zanzen raider has that problem.
+~
+4194401 1077938304 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+> rand_prog 2~
+bleed~
+|
+#4620
+zanzen raider~
+a Zanzen raider~
+A raider from the East screams a harsh battlecry and leaps towards you!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This Zanzen raider has that problem.
+~
+4194401 1077938304 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 0 0 0 480 2
+> rand_prog 2~
+cackle
+~
+|
+#4621
+battlesister drazukville~
+a Alden battlesister~
+A tall battlesister in polished armor shouts out a battle cry and advances!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This battlesister has that problem.
+~
+4194401 37757056&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2097151 1 0
+0 0 1743 1056768 0 0 67109136 388
+> death_prog 25~
+scream
+say May the great lord Drazuk protect my soul!
+~
+|
+#4622
+battlesister drazukville~
+a Alden battlesister~
+A tall battlesister in polished armor shouts out a battle cry and advances!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This battlesister has that problem.
+~
+4194401 37757056&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2097151 1 0
+0 0 1743 3153920 0 0 67109136 388
+> death_prog 25~
+scream
+say May the great lord Drazuk protect my soul!
+
+~
+|
+#4623
+battlesister drazukville~
+a Alden battlesister~
+A tall battlesister in polished armor shouts out a battle cry and advances!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This battlesister has that problem.
+~
+4194401 37757056&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2097151 1 0
+0 0 1743 1056768 0 0 67109136 388
+> death_prog 25~
+scream
+say May the great lord Drazuk protect my soul!
+rinvoke artifact~
+|
+#4624
+zanzen combatwizard wizard man~
+a Zanzen combatwizard~
+A snarling man in robes turns to you and begins to chant loudly!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This combatmage has that problem.
+~
+4194401 272631936&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 2097151 1 0
+0 0 1743 1056768 0 0 134218000 2
+> death_prog 25~
+gasp
+say My brothers will avenge me!
+
+~
+|
+#4625
+zanzen combatwizard wizard man~
+a Zanzen combatwizard~
+A snarling man in robes turns to you and begins to chant loudly!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This combatmage has that problem.
+~
+4194401 272631936&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 2097151 1 0
+0 0 1743 3153920 0 0 134218000 2
+> death_prog 25~
+gasp
+say My brothers will avenge me!
+
+~
+|
+#4626
+zanzen combatwizard wizard man~
+a Zanzen combatwizard~
+A snarling man in robes turns to you and begins to chant loudly!
+~
+One of the biggest problems in combat such as this, is telling who is friend
+and who is foe.  This combatmage has that problem.
+~
+4194401 272631936&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 15 0 0 2097151 1 0
+0 0 1743 1056768 0 0 134218000 2
+> death_prog 25~
+snarl
+say May the spirits consume your soul!
+rinvoke artifact
+
+~
+|
+#4627
+zanzen ninja man~
+a Zanzen ninja~
+From out of nowhere, a small man garbed in black attacks!
+~
+As soon as you see the man come at you, the tavern tales come rushing
+back...this can only be one of the fabled Ninja's of the East!  The Zanzen
+empire must have a lot of power to wield one on the battlefield.
+~
+4194401 4294848&384 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 2097151 1 0
+0 0 1743 3153920 0 0 1536 524291
+> death_prog 25~
+gasp
+say Sweet death is my reward no matter what happens in life!
+
+~
+|
+#4628
+zanzen ninja man~
+a Zanzen ninja~
+From out of nowhere, a small man garbed in black attacks!
+~
+As soon as you see the man come at you, the tavern tales come rushing
+back...this can only be one of the fabled Ninja's of the East!  The Zanzen
+empire must have a lot of power to wield one on the battlefield.
+~
+4194401 4294848&384 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 2097151 1 0
+0 0 1743 3153920 0 0 1536 524291
+> death_prog 25~
+gasp
+say Sweet death is my reward no matter what happens in life!
+
+~
+|
+#4629
+captain Alden nelson~
+Captain Nelson~
+One of the Alden Captains seems lost in the combat.
+~
+Captain Nelson lost control of his army soon after the battle started, and he
+has fought in chaos and confusion every since.  At this point, battle fear has
+consumed him and he is striking out at every one in his range.
+~
+4194401 1077944448&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 3153920 0 0 8388640 3
+> death_prog 15~
+gasp
+say Tell the General, his servant fought bravely!
+~
+|
+#4630
+captain Alden stiles~
+Captain Stiles~
+Captain Stiles cackles and howls as the bloodlust consumes him.
+~
+Slashing left and right with his sword, Captain Stiles is lost in combat
+madness.  His eyes stare far away and he cackles and drools as he tears into
+every around him, friend and foe.
+~
+4194401 1077944448&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1545 3153920 0 0 8388640 3
+> death_prog 15~
+scream
+cackle
+groan
+laugh
+
+~
+|
+#4631
+general thadius man~
+General Thadius~
+An old man dressed in ornate plate armor barks out orders to the men.
+~
+It's the mustache that gives it away.  Every tavern tale you've heard about
+General Thadius mentions that drooping white mustache.  The ends are stained
+red from his habit of drinking the blood of the opposing general after each
+combat.  He has never lost a fight, and he's not going to let this be the
+first.
+~
+4194371 308289664&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1835007 1 0
+50 35 2031 3153920 2097152 0 33555296 4
+> rand_prog 5~
+frown self
+say I'd rather fight Azathoth any day than meet Zanzen in battle...~
+> rand_prog 10~
+mutter
+say If you're thinking about heading through the gate into battle, you better
+say be prepared for the very worst you've ever seen...
+~
+> rand_prog 5~
+say You men there!  Make sure no one comes through this gate!
+shake
+~
+> rand_prog 5~
+emote barks out orders to his men.~
+> rand_prog 35~
+close north
+~
+|
+#4632
+hound war dog~
+a war hound~
+A huge vicious dog leaps for your throat!
+~
+This angry dog was let loose by one of the sides, but it has worked itself
+into a frenzy, and is tearing into anything that comes near it.
+~
+4194401 0&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 436209152 0 0 0 3 2
+> rand_prog 2~
+bark
+~
+|
+#4633
+hound war dog~
+a war hound~
+A huge vicious dog leaps for your throat!
+~
+This angry dog was let loose by one of the sides, but it has worked itself
+into a frenzy, and is tearing into anything that comes near it.
+~
+4194401 0&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 436209152 2097152 0 0 3 2
+> rand_prog 2~
+snarl
+~
+|
+#4634
+hound war dog~
+a war hound~
+A huge vicious dog leaps for your throat!
+~
+This angry dog was let loose by one of the sides, but it has worked itself
+into a frenzy, and is tearing into anything that comes near it.
+~
+4194401 0&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 436209152 0 0 0 3 2
+> rand_prog 2~
+growl
+~
+|
+#4635
+hound war dog~
+a war hound~
+A huge vicious dog leaps for your throat!
+~
+This angry dog was let loose by one of the sides, but it has worked itself
+into a frenzy, and is tearing into anything that comes near it.
+~
+4194401 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 436209152 2097152 0 0 3 2
+> rand_prog 2~
+bark
+~
+|
+#4636
+hound battle dog~
+a battle hound~
+A gigantic dog snarls and tries to rip your arm off!
+~
+Raised by Zanzen himself, these vicious hounds were raised on bloody combat.
+They will die gladly to protect their Master.
+~
+4194403 4194304&320 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 436209152 2097152 0 0 3 2
+> rand_prog 2~
+bark
+~
+> rand_prog 2~
+growl
+~
+> rand_prog 2~
+snarl
+~
+|
+#4700
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4601
+tent oriental eastern~
+a large oriental tent~
+A large tent, made of exotic eastern materials and oriental designs.~
+~
+12 0 0
+0 0 0 0
+40 0 0
+#4602
+fire cook~
+a large cookfire~
+A large cookfire burns here, with several cooking implements hung acrossed it.~
+~
+34 1 0
+0 0 0 0
+1 0 0
+#4603
+siege equipment ballista crate~
+a crate of ballista pieces~
+A large crate containing ballista pieces sits in the sand.~
+~
+12 0 1
+0 0 0 0
+150 0 0
+#4604
+siege equipment crate catapult~
+a crate of catapult parts~
+A large crate containing catapult parts is sitting here.~
+~
+12 0 1
+0 0 0 0
+150 0 0
+#4605
+sword long~
+a long sword~
+A longsword bearing the seal of the Army of Alden.~
+~
+5 0 131073
+12 7 1 3
+4 0 0
+#4606
+death razor deathrazor~
+a deathrazor~
+A long thin knife used by the assasins of the East.~
+~
+5 0 131073
+12 6 1 11
+1 0 0
+A
+18 4
+A
+2 2
+#4607
+mace holy~
+a holy mace~
+A blessed mace wielded by the Battlesisters of Alden.~
+~
+5 256 131073
+12 8 1 8
+4 0 0
+A
+18 4
+A
+4 2
+#4608
+bow war~
+a war bow~
+A larger than normal bow, used to fire burning siege arrows.~
+~
+5 0 131073
+12 7 1 14
+6 0 0
+#4609
+flail spiked~
+a spiked flail~
+A large spiked flail bearing the Army of Alden's seal.~
+~
+5 0 131073
+12 7 1 6
+10 0 0
+#4610
+sword bad karma~
+the longsword, '&wBad Karma&G'~
+A wicked longsword with a gold embroidered hilt.~
+~
+5 528 131073
+12 12 1 2
+6 0 0
+A
+18 4
+A
+19 4
+#4611
+scepter eagle~
+the Scepter of the Eagle~
+A large scepter topped with the Eagle of the Army of Alden.~
+~
+5 1024&2 131073
+12 11 1 6
+10 0 0
+A
+13 25
+A
+4 3
+A
+18 2
+#4612
+bastard sword~
+a bastard sword~
+A large heavy sword, bearing an Eagle imprint on the blade.~
+~
+5 0 131073
+12 9 1 1
+7 0 0
+#4613
+katana~
+a katana~
+A sharp katana used by the Eastern raiders.~
+~
+5 0 131073
+12 7 1 3
+4 0 0
+#4614
+chain~
+a long chain~
+A long chain, used to entangle your foes.~
+~
+5 0 131073
+12 7 1 4
+7 0 0
+#4615
+blowgun bamboo~
+a bamboo blowgun~
+A long blowgun crafted from a piece of bamboo.~
+~
+5 0 131073
+12 7 1 15
+4 0 0
+#4616
+axe hand~
+a hand axe~
+A small but wicked handaxe.~
+~
+5 0 131073
+12 7 1 9
+5 0 0
+#4617
+skull helmet wicked~
+a wicked skull helmet~
+A wicked helmet crafted from a human skull.~
+~
+9 16 3
+7 7 0 0
+3 0 0
+A
+19 4
+A
+24 -4
+A
+23 -4
+A
+1 4
+#4618
+bone armor laquered~
+a suit of laquered bone armor~
+A strange suit of armor, crafted from shiny human bones.~
+~
+9 16 65
+8 8 0 0
+12 0 0
+A
+13 75
+A
+22 -4
+A
+27 8
+A
+19 4
+#4619
+blue silk sleeves~
+a set of blue silk sleeves~
+Silk sleeves, in the blue of the Alden Army.~
+~
+9 1088 129
+5 5 0 0
+3 0 0
+A
+3 3
+A
+2 3
+A
+27 1
+A
+27 2
+#4620
+tags dog army drazukville~
+Alden Army dogtags~
+A small pendant worn by Alden Army soldiers.~
+~
+9 1088 2097153
+3 3 0 0
+1 0 0
+A
+19 2
+#4621
+signet ring army drazukville~
+a Alden Army signet ring~
+A small gold ring bearing the seal of the Alden army.~
+~
+9 1088 1025
+3 3 0 0
+1 0 0
+A
+18 3
+A
+13 25
+#4622
+blue silk cape~
+a blue silk cape~
+A long silk cape, colored the blue of the Alden army.~
+~
+9 1088 33
+4 4 0 0
+2 0 0
+A
+1 2
+A
+5 4
+A
+27 512
+A
+12 50
+#4623
+black nightsuit suit~
+a nightsuit~
+A suit of black, dark as night.~
+~
+9 516 65
+6 6 0 0
+1 0 0
+A
+18 4
+A
+2 3
+A
+26 32768
+A
+26 65536
+#4700
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4601
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4602
+D2
+~
+~
+16777216 0 286
+S
+#4602
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4603
+D2
+Exit description~
+~
+0 0 4601
+S
+#4603
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4604
+D2
+Exit description~
+~
+0 0 4602
+S
+#4604
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D2
+Exit description~
+~
+0 0 4605
+D3
+Exit description~
+~
+0 0 4603
+S
+#4605
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4604
+D1
+Exit description~
+~
+0 0 4606
+S
+#4606
+Path Through Small Dunes~
+A small path weaves its way amongst the small dunes.  Far to the north, the
+shimmering sands of the Talon desert stretch for miles.  Small growths of
+desert shrubs are scattered about the sandy trail.  Many footprints have
+traveled this way, and the sand is trampled to a hard, flat surface.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4607
+D3
+Exit description~
+~
+0 0 4605
+S
+#4607
+A Small Military Camp~
+The trail opens up into a clearing, where a small military camp has been
+built.  Soldiers move about, readying armor and cleaning weapons.  A temporary
+guard stand has been set up here, mainly to greet arriving soldiers and direct
+them to their posts.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4610
+D1
+Exit description~
+~
+0 0 4608
+D3
+Exit description~
+~
+0 0 4606
+S
+#4608
+A Small Military Camp~
+You stand in a clearing, where a small military camp has been built.  Soldiers
+move about, readying armor and cleaning weapons.  A large tent has been set up
+here, a mess tent from the looks of it.  Soldiers stand around a large cook
+fire, chatting and eating.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4609
+D3
+Exit description~
+~
+0 0 4607
+S
+#4609
+A Small Military Camp~
+You stand in a clearing, where a small military camp has been built.  Soldiers
+move about, readying armor and cleaning weapons.  Many soldiers lie on cots
+here, and from the screams and the blood, you deduce this must be some sort of
+combat surgery.  You note there are more covered bodies than screaming bodies.
+~
+0 136323072 10
+D2
+Exit description~
+~
+0 0 4608
+D3
+Exit description~
+~
+0 0 4610
+S
+#4610
+A Small Military Camp~
+The trail opens up into a clearing, where a small military camp has been
+built.  Soldiers move about, readying armor and cleaning weapons.  A barricade
+with a gate headed north stands here, and many soldiers man the hastily built
+wall.  The soldiers are quiet and seem quite tense.
+~
+0 136323072 10
+D0
+~
+~
+16777219 0 4611
+D1
+Exit description~
+~
+0 0 4609
+D2
+Exit description~
+~
+0 0 4607
+S
+#4611
+A Wide Bloody Path~
+A wide path has been trampled through the small dunes.  Much blood has been
+spilt on the sand, and there is much evidence of hard and recent combat here.
+Shattered weapons, broken armor, and an occaisonal dead body mark the edges of
+the field of war.  The sounds of crashing metal and fighting men echoes
+faintly through the dunes east of you.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4612
+D2
+Exit description~
+~
+16777219 0 4610
+S
+#4612
+A Wide Bloody Path~
+A wide path has been trampled through the small dunes.  Much blood has been
+spilt on the sand, and there is much evidence of hard and recent combat here.
+Shattered weapons, broken armor, and an occaisonal dead body mark the edges of
+the field of war.  The sounds of crashing metal and fighting men echoes
+faintly through the dunes east of you.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4613
+D2
+Exit description~
+~
+0 0 4611
+S
+#4613
+A Wide Bloody Path~
+A wide path has been trampled through the small dunes.  Much blood has been
+spilt on the sand, and there is much evidence of hard and recent combat here.
+Shattered weapons, broken armor, and an occaisonal dead body mark the edges of
+the field of war.  The sounds of crashing metal and fighting men echoes
+faintly through the dunes east of you.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4614
+D3
+Exit description~
+~
+0 0 4612
+S
+#4614
+The Field Of Combat~
+The path opens all of a sudden into a large sandy clearing.  Warriors,
+fighting to the death, stretch out as far as the eye can see in all
+directions.  Broken weapons and dead and wounded lie about the ground, making
+movement slow and difficult.  The howls and screams of bloody war fill the
+air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4651
+D1
+Exit description~
+~
+0 0 4652
+D2
+Exit description~
+~
+0 0 4615
+D3
+Exit description~
+~
+16777216 0 4613
+S
+#4615
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4614
+D1
+Exit description~
+~
+0 0 4616
+S
+#4616
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4652
+D1
+Exit description~
+~
+0 0 4617
+D3
+Exit description~
+~
+0 0 4615
+S
+#4617
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4653
+D1
+Exit description~
+~
+0 0 4659
+D2
+Exit description~
+~
+0 0 4618
+D3
+Exit description~
+~
+0 0 4616
+S
+#4618
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4617
+D1
+Exit description~
+~
+0 0 4619
+S
+#4619
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4659
+D1
+Exit description~
+~
+0 0 4620
+D3
+Exit description~
+~
+0 0 4618
+S
+#4620
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4660
+D1
+Exit description~
+~
+0 0 4621
+D3
+Exit description~
+~
+0 0 4619
+S
+#4621
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4671
+D1
+Exit description~
+~
+0 0 4622
+D3
+Exit description~
+~
+0 0 4620
+S
+#4622
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4672
+D1
+Exit description~
+~
+0 0 4623
+D3
+Exit description~
+~
+0 0 4621
+S
+#4623
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4624
+D3
+Exit description~
+~
+0 0 4622
+S
+#4624
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4625
+D2
+Exit description~
+~
+0 0 4623
+D3
+Exit description~
+~
+0 0 4672
+S
+#4625
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4626
+D2
+Exit description~
+~
+0 0 4624
+D3
+Exit description~
+~
+0 0 4673
+S
+#4626
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4680
+D1
+Exit description~
+~
+0 0 4627
+D2
+Exit description~
+~
+0 0 4625
+D3
+Exit description~
+~
+0 0 4674
+S
+#4627
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4628
+D3
+Exit description~
+~
+0 0 4626
+S
+#4628
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4629
+D2
+Exit description~
+~
+0 0 4627
+D3
+Exit description~
+~
+0 0 4680
+S
+#4629
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4630
+D2
+Exit description~
+~
+0 0 4628
+D3
+Exit description~
+~
+0 0 4679
+S
+#4630
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4684
+D1
+Exit description~
+~
+0 0 4631
+D2
+Exit description~
+~
+0 0 4629
+D3
+Exit description~
+~
+0 0 4678
+S
+#4631
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4632
+D3
+Exit description~
+~
+0 0 4630
+S
+#4632
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4633
+D2
+Exit description~
+~
+0 0 4631
+D3
+Exit description~
+~
+0 0 4684
+S
+#4633
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D2
+Exit description~
+~
+0 0 4632
+D3
+Exit description~
+~
+0 0 4634
+S
+#4634
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4635
+D1
+Exit description~
+~
+0 0 4633
+D2
+Exit description~
+~
+0 0 4684
+D3
+Exit description~
+~
+0 0 4682
+S
+#4635
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4636
+D2
+Exit description~
+~
+0 0 4634
+D3
+Exit description~
+~
+0 0 4683
+S
+#4636
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D2
+Exit description~
+~
+0 0 4635
+D3
+Exit description~
+~
+0 0 4637
+S
+#4637
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4685
+D1
+Exit description~
+~
+0 0 4636
+D2
+Exit description~
+~
+0 0 4683
+D3
+Exit description~
+~
+0 0 4638
+S
+#4638
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4637
+D2
+Exit description~
+~
+0 0 4639
+S
+#4639
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4638
+D1
+Exit description~
+~
+0 0 4683
+D2
+Exit description~
+~
+0 0 4640
+S
+#4640
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4639
+D1
+Exit description~
+~
+0 0 4682
+D2
+Exit description~
+~
+0 0 4641
+S
+#4641
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4640
+D1
+Exit description~
+~
+0 0 4681
+D2
+Exit description~
+~
+0 0 4677
+D3
+Exit description~
+~
+0 0 4642
+S
+#4642
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4641
+D2
+Exit description~
+~
+0 0 4666
+D3
+Exit description~
+~
+0 0 4643
+S
+#4643
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4642
+D2
+Exit description~
+~
+0 0 4665
+D3
+Exit description~
+~
+0 0 4644
+S
+#4644
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4643
+D2
+Exit description~
+~
+0 0 4645
+S
+#4645
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4644
+D1
+Exit description~
+~
+0 0 4665
+D2
+Exit description~
+~
+0 0 4646
+S
+#4646
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4645
+D1
+Exit description~
+~
+0 0 4664
+D2
+Exit description~
+~
+0 0 4656
+D3
+Exit description~
+~
+0 0 4647
+S
+#4647
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4646
+D2
+Exit description~
+~
+0 0 4655
+D3
+Exit description~
+~
+0 0 4648
+S
+#4648
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4647
+D2
+Exit description~
+~
+0 0 4649
+S
+#4649
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4648
+D1
+Exit description~
+~
+0 0 4655
+D2
+Exit description~
+~
+0 0 4650
+S
+#4650
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4649
+D1
+Exit description~
+~
+0 0 4654
+D2
+Exit description~
+~
+0 0 4652
+D3
+Exit description~
+~
+0 0 4651
+S
+#4651
+The Field Of Combat~
+You work your way around a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4650
+D2
+Exit description~
+~
+0 0 4614
+S
+#4652
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4650
+D1
+Exit description~
+~
+0 0 4653
+D2
+Exit description~
+~
+0 0 4616
+D3
+Exit description~
+~
+0 0 4614
+S
+#4653
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4654
+D1
+Exit description~
+~
+0 0 4658
+D2
+Exit description~
+~
+0 0 4617
+D3
+Exit description~
+~
+0 0 4652
+S
+#4654
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4655
+D1
+Exit description~
+~
+0 0 4657
+D2
+Exit description~
+~
+0 0 4653
+D3
+Exit description~
+~
+0 0 4650
+S
+#4655
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4647
+D1
+Exit description~
+~
+0 0 4656
+D2
+Exit description~
+~
+0 0 4654
+D3
+Exit description~
+~
+0 0 4649
+S
+#4656
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4646
+D1
+Exit description~
+~
+0 0 4663
+D2
+Exit description~
+~
+0 0 4657
+D3
+Exit description~
+~
+0 0 4655
+S
+#4657
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4656
+D1
+Exit description~
+~
+0 0 4662
+D2
+Exit description~
+~
+0 0 4658
+D3
+Exit description~
+~
+0 0 4654
+S
+#4658
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4657
+D1
+Exit description~
+~
+0 0 4661
+D2
+Exit description~
+~
+0 0 4659
+D3
+Exit description~
+~
+0 0 4653
+S
+#4659
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4658
+D1
+Exit description~
+~
+0 0 4660
+D2
+Exit description~
+~
+0 0 4619
+D3
+Exit description~
+~
+0 0 4617
+S
+#4660
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4661
+D1
+Exit description~
+~
+0 0 4671
+D2
+Exit description~
+~
+0 0 4620
+D3
+Exit description~
+~
+0 0 4659
+S
+#4661
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4662
+D1
+Exit description~
+~
+0 0 4670
+D2
+Exit description~
+~
+0 0 4660
+D3
+Exit description~
+~
+0 0 4658
+S
+#4662
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4663
+D1
+Exit description~
+~
+0 0 4669
+D2
+Exit description~
+~
+0 0 4661
+D3
+Exit description~
+~
+0 0 4657
+S
+#4663
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4664
+D1
+Exit description~
+~
+0 0 4668
+D2
+Exit description~
+~
+0 0 4662
+D3
+Exit description~
+~
+0 0 4656
+S
+#4664
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4665
+D1
+Exit description~
+~
+0 0 4667
+D2
+Exit description~
+~
+0 0 4663
+D3
+Exit description~
+~
+0 0 4646
+S
+#4665
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4643
+D1
+Exit description~
+~
+0 0 4666
+D2
+Exit description~
+~
+0 0 4664
+D3
+Exit description~
+~
+0 0 4645
+S
+#4666
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4642
+D1
+Exit description~
+~
+0 0 4677
+D2
+Exit description~
+~
+0 0 4667
+D3
+Exit description~
+~
+0 0 4665
+S
+#4667
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4666
+D1
+Exit description~
+~
+0 0 4676
+D2
+Exit description~
+~
+0 0 4668
+D3
+Exit description~
+~
+0 0 4664
+S
+#4668
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4667
+D1
+Exit description~
+~
+0 0 4675
+D2
+Exit description~
+~
+0 0 4669
+D3
+Exit description~
+~
+0 0 4663
+S
+#4669
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4668
+D1
+Exit description~
+~
+0 0 4674
+D2
+Exit description~
+~
+0 0 4670
+D3
+Exit description~
+~
+0 0 4662
+S
+#4670
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4669
+D1
+Exit description~
+~
+0 0 4673
+D2
+Exit description~
+~
+0 0 4671
+D3
+Exit description~
+~
+0 0 4661
+S
+#4671
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4670
+D1
+Exit description~
+~
+0 0 4672
+D2
+Exit description~
+~
+0 0 4621
+D3
+Exit description~
+~
+0 0 4660
+S
+#4672
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4673
+D1
+Exit description~
+~
+0 0 4624
+D2
+Exit description~
+~
+0 0 4622
+D3
+Exit description~
+~
+0 0 4671
+S
+#4673
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4674
+D1
+Exit description~
+~
+0 0 4625
+D2
+Exit description~
+~
+0 0 4672
+D3
+Exit description~
+~
+0 0 4670
+S
+#4674
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4675
+D1
+Exit description~
+~
+0 0 4626
+D2
+Exit description~
+~
+0 0 4673
+D3
+Exit description~
+~
+0 0 4669
+S
+#4675
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4676
+D1
+Exit description~
+~
+0 0 4680
+D2
+Exit description~
+~
+0 0 4674
+D3
+Exit description~
+~
+0 0 4668
+S
+#4676
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4677
+D1
+Exit description~
+~
+0 0 4679
+D2
+Exit description~
+~
+0 0 4675
+D3
+Exit description~
+~
+0 0 4667
+S
+#4677
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4641
+D1
+Exit description~
+~
+0 0 4678
+D2
+Exit description~
+~
+0 0 4676
+D3
+Exit description~
+~
+0 0 4666
+S
+#4678
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4681
+D1
+Exit description~
+~
+0 0 4630
+D2
+Exit description~
+~
+0 0 4679
+D3
+Exit description~
+~
+0 0 4677
+S
+#4679
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4678
+D1
+Exit description~
+~
+0 0 4629
+D2
+Exit description~
+~
+0 0 4680
+D3
+Exit description~
+~
+0 0 4676
+S
+#4680
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4679
+D1
+Exit description~
+~
+0 0 4628
+D2
+Exit description~
+~
+0 0 4626
+D3
+Exit description~
+~
+0 0 4675
+S
+#4681
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4682
+D1
+Exit description~
+~
+0 0 4684
+D2
+Exit description~
+~
+0 0 4678
+D3
+Exit description~
+~
+0 0 4641
+S
+#4682
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4683
+D1
+Exit description~
+~
+0 0 4634
+D2
+Exit description~
+~
+0 0 4681
+D3
+Exit description~
+~
+0 0 4640
+S
+#4683
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4637
+D1
+Exit description~
+~
+0 0 4635
+D2
+Exit description~
+~
+0 0 4682
+D3
+Exit description~
+~
+0 0 4639
+S
+#4684
+The Field Of Combat~
+You stand in the middle of a large sandy clearing.  Warriors, fighting to the
+death, stretch out as far as the eye can see in all directions.  Broken
+weapons and dead and wounded lie about the ground, making movement slow and
+difficult.  The howls and screams of bloody war fill the air.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4634
+D1
+Exit description~
+~
+0 0 4632
+D2
+Exit description~
+~
+0 0 4630
+D3
+Exit description~
+~
+0 0 4681
+S
+#4685
+A Smooth Beach Landing~
+You stand upon a smooth and clear area of beach.  This is where the enemies
+from the Eastern lands have put their boats ashore.  Small fires burn where
+temporary camps have been setup.  Various pieces of equipment to build seige
+machines sit about in piles, waiting to be constructed.
+~
+0 136323072 10
+D1
+Exit description~
+~
+0 0 4686
+D2
+Exit description~
+~
+0 0 4637
+S
+#4686
+A Smooth Beach Landing~
+You stand upon a smooth and clear area of beach.  This is where the enemies
+from the Eastern lands have put their boats ashore.  Small fires burn where
+temporary camps have been setup.  Various pieces of equipment to build seige
+machines sit about in piles, waiting to be constructed.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4687
+D3
+Exit description~
+~
+0 0 4685
+S
+#4687
+A Smooth Beach Landing~
+You stand upon a smooth and clear area of beach.  This is where the enemies
+from the Eastern lands have put their boats ashore.  Small fires burn where
+temporary camps have been setup.  Various pieces of equipment to build seige
+machines sit about in piles, waiting to be constructed.
+~
+0 136323072 10
+D0
+Exit description~
+~
+0 0 4688
+D2
+Exit description~
+~
+0 0 4686
+S
+#4688
+A Smooth Beach Landing~
+You stand upon a smooth and clear area of beach.  This is where the enemies
+from the Eastern lands have put their boats ashore.  Small fires burn where
+temporary camps have been setup.  Various pieces of equipment to build seige
+machines sit about in piles, waiting to be constructed.  A large tent has been
+setup here.
+~
+0 136323072 10
+D2
+Exit description~
+~
+0 0 4687
+S
+#4700
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 4636 5 4688
+M 0 4636 5 4688
+M 0 4636 5 4688
+M 0 4636 5 4688
+M 0 4636 5 4688
+M 0 4635 4 4682
+M 0 4635 4 4682
+M 0 4635 4 4682
+M 0 4635 4 4682
+M 0 4634 4 4654
+M 0 4634 4 4654
+M 0 4634 4 4654
+M 0 4634 4 4654
+M 0 4633 4 4662
+M 0 4633 4 4662
+M 0 4633 4 4662
+M 0 4633 4 4662
+M 0 4632 4 4668
+M 0 4632 4 4668
+M 0 4632 4 4668
+M 0 4632 4 4668
+M 0 4631 1 4610
+E 0 4619 5 8
+E 0 4622 5 5
+E 0 4611 5 21
+M 0 4630 1 4660
+E 0 4621 1 12
+E 0 4612 1 21
+M 0 4629 1 4655
+E 0 4621 1 13
+E 0 4612 1 21
+M 0 4628 1 4637
+E 0 4623 10 7
+E 0 4606 10 21
+M 0 4627 1 4639
+E 0 4623 10 7
+E 0 4606 10 21
+M 0 4626 3 4686
+E 0 4614 1 21
+M 0 4626 3 4686
+M 0 4626 3 4686
+E 0 4613 1 21
+M 0 4625 3 4684
+M 0 4625 3 4684
+E 0 4615 1 21
+M 0 4625 3 4684
+M 0 4624 3 4679
+M 0 4624 3 4679
+E 0 4616 1 21
+M 0 4624 3 4679
+M 0 4623 3 4662
+M 0 4623 3 4662
+E 0 4607 10 21
+M 0 4623 3 4662
+M 0 4622 3 4655
+E 0 4612 1 21
+M 0 4622 3 4655
+E 0 4607 10 21
+M 0 4622 3 4655
+M 0 4621 3 4616
+E 0 4612 1 21
+M 0 4621 3 4616
+E 0 4607 10 21
+M 0 4621 3 4616
+O 0 4604 1 4685
+O 0 4603 2 4687
+O 0 4603 2 4687
+O 0 4602 1 4608
+O 0 4601 1 4688
+M 0 4620 5 4673
+M 0 4620 5 4673
+E 0 4613 1 21
+M 0 4620 5 4673
+M 0 4620 5 4673
+M 0 4620 5 4673
+E 0 4614 1 21
+M 0 4619 5 4630
+M 0 4619 5 4630
+M 0 4619 5 4630
+E 0 4615 1 21
+M 0 4619 5 4630
+M 0 4619 5 4630
+M 0 4618 5 4681
+E 0 4616 1 21
+M 0 4618 5 4681
+M 0 4618 5 4681
+M 0 4618 5 4681
+E 0 4613 1 21
+M 0 4618 5 4681
+M 0 4617 5 4636
+M 0 4617 5 4636
+E 0 4614 1 21
+M 0 4617 5 4636
+M 0 4617 5 4636
+M 0 4617 5 4636
+E 0 4615 1 21
+M 0 4616 5 4638
+M 0 4616 5 4638
+M 0 4616 5 4638
+M 0 4616 5 4638
+E 0 4616 1 21
+M 0 4616 5 4638
+M 0 4615 5 4620
+M 0 4615 5 4620
+E 0 4605 1 21
+M 0 4615 5 4620
+M 0 4615 5 4620
+E 0 4609 1 21
+M 0 4615 5 4620
+M 0 4614 5 4627
+M 0 4614 5 4627
+E 0 4608 1 21
+M 0 4614 5 4627
+M 0 4614 5 4627
+E 0 4620 1 25
+M 0 4614 5 4627
+E 0 4605 1 21
+M 0 4613 5 4666
+M 0 4613 5 4666
+M 0 4613 5 4666
+M 0 4613 5 4666
+E 0 4609 1 21
+M 0 4613 5 4666
+M 0 4612 5 4653
+M 0 4612 5 4653
+E 0 4608 1 21
+M 0 4612 5 4653
+M 0 4612 5 4653
+M 0 4612 5 4653
+E 0 4605 1 21
+M 0 4611 5 4617
+M 0 4611 5 4617
+M 0 4611 5 4617
+E 0 4605 1 21
+M 0 4611 5 4617
+M 0 4611 5 4617
+M 0 4610 5 4648
+E 0 4608 1 21
+M 0 4610 5 4648
+M 0 4610 5 4648
+M 0 4610 5 4648
+E 0 4620 1 25
+M 0 4610 5 4648
+E 0 4609 1 21
+M 0 4609 2 4603
+M 0 4609 2 4603
+M 0 4608 2 4607
+M 0 4608 2 4607
+E 0 4608 1 21
+M 0 4607 2 4610
+M 0 4607 2 4610
+M 0 4606 3 4608
+E 0 4605 1 21
+M 0 4606 3 4608
+M 0 4606 3 4608
+M 0 4605 3 4608
+M 0 4605 3 4608
+E 0 4609 1 21
+M 0 4605 3 4608
+M 0 4604 3 4609
+M 0 4604 3 4609
+E 0 4605 1 21
+M 0 4604 3 4609
+M 0 4603 4 4610
+E 0 4608 1 0
+M 0 4603 4 4610
+M 0 4603 4 4610
+E 0 4620 1 25
+M 0 4603 4 4610
+E 0 4608 1 21
+M 0 4602 4 4605
+M 0 4602 4 4605
+M 0 4602 4 4605
+E 0 4609 1 21
+M 0 4602 4 4605
+M 0 4601 1 4688
+E 0 4618 5 7
+E 0 4617 5 1
+E 0 4610 5 21
+D 0 4611 2 1
+D 0 4610 0 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4601 spec_breath_lightning
+M  4621 spec_cast_bishop
+M  4622 spec_cast_bishop
+M  4623 spec_cast_bishop
+M  4624 spec_cast_archmagi
+M  4625 spec_cast_bishop
+M  4626 spec_cast_shaman
+M  4627 spec_thief
+M  4628 spec_thief
+M  4631 spec_cast_cleric
+M  4632 spec_fido
+S
+
+
+#$

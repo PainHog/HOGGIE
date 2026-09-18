@@ -1,0 +1,730 @@
+#AREA   Bear Caves~
+
+
+
+#VERSION 1
+#AUTHOR Sirus~
+
+#RANGES
+10 20 1 65
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1456879730
+
+#CLIMATE 1 3 3
+
+#MOBILES
+#7051
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7052
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7053
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7054
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7055
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7056
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7057
+bear cub~
+a bear cub~
+A bear cub growls at you.
+~
+This bear may be small but he can still pack a punch.
+~
+17039429 0 0 C
+10 0 38 105d1+0 1d0+0
+0 212
+112 112 1
+15 0 0 2 10 4 4
+0 0 0 0 0
+24 3 25 300 512 512 0
+1 0 0 0 0 0 0 0
+#7058
+Large Bear~
+a large bear~
+A large bear growls at you in rage.
+~
+This bear is HUGE!!!
+~
+17039427 0 0 C
+15 0 7 184d1+0 1d0+0
+0 333
+112 112 1
+18 0 0 3 10 0 0
+0 0 0 0 0
+24 3 45 550 512 512 0
+1 2 8 0 0 0 0 0
+#7059
+Large Bear~
+a large bear~
+A large bear growls at you in rage.
+~
+This bear is HUGE!!!
+~
+17039425 0 0 C
+15 0 7 184d1+0 1d0+0
+0 333
+112 112 1
+18 0 0 3 10 0 0
+0 0 0 0 0
+24 3 45 550 512 512 0
+1 2 1024 0 0 0 0 0
+#7060
+Large Bear~
+a large bear~
+A large bear growls at you in rage.
+~
+This bear is HUGE!!!
+~
+17039425 0 0 C
+15 0 7 184d1+0 1d0+0
+0 333
+112 112 1
+18 0 0 3 10 0 0
+0 0 0 0 0
+24 3 45 550 512 512 0
+1 2 512 0 0 0 0 0
+#7061
+Large Bear~
+a large bear~
+A large bear growls at you in rage.
+~
+This bear is HUGE!!!
+~
+17039425 0 0 C
+15 0 7 184d1+0 1d0+0
+0 333
+112 112 1
+18 0 0 3 10 0 0
+0 0 0 0 0
+24 3 45 550 512 512 0
+1 2 262144 0 0 0 0 0
+#7062
+Large Bear~
+a large bear~
+A large bear growls at you in rage.
+~
+This bear is HUGE!!!
+~
+17039425 0 0 C
+15 0 7 184d1+0 1d0+0
+0 333
+112 112 1
+18 0 0 3 10 0 0
+0 0 0 0 0
+24 3 45 550 512 512 0
+1 2 262144 0 0 0 0 0
+#7063
+white ice bear~
+the white ice bear~
+The white ice bear walks along in his cavern.
+~
+LOOK OUT!!!
+~
+16777219 0 0 C
+20 0 -25 455d1+0 1d0+1
+0 500
+112 112 1
+20 0 0 5 10 0 0
+0 0 0 0 0
+24 3 60 600 512 512 0
+2 2 263689 0 2 0 0 0
+#0
+
+
+#OBJECTS
+#7051
+white bear hide robe fur~
+a robe made of white bears hide~
+A pile of white fur sits here.~
+~
+9 65 4097
+4 4 0 0
+9 1000 0
+A
+18 1
+A
+25 1
+A
+2 3
+#7052
+Skeleton ~
+a skeleton~
+There is a skeleton on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#7053
+Skeleton ~
+a skeleton~
+There is a skeleton on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#7054
+Skeleton ~
+a skeleton~
+There is a skeleton on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#7055
+Skeleton ~
+a skeleton~
+There is a skeleton on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#7056
+Skeleton ~
+a skeleton~
+There is a skeleton on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7051
+The Mouth Of The Cave~
+You have just taken your first step into a bear cave.  Many man eating bears
+live in this cave and can get to be pretty big.  You should be sure to know
+where you are at at all times.  Find some way to mark your path, beware of the
+bears don't anger them.  It is said that a rare white bear lives in the heart
+of the cave.
+~
+0 0 13
+D0
+~
+~
+0 0 174
+D5
+~
+~
+65664 0 7052
+S
+#7052
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7053
+D4
+Exit description~
+~
+65664 0 7051
+S
+#7053
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D1
+~
+~
+0 0 7054
+D2
+Exit description~
+~
+0 0 7052
+S
+#7054
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7055
+D3
+Exit description~
+~
+0 0 7053
+S
+#7055
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7056
+D2
+Exit description~
+~
+0 0 7054
+S
+#7056
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 7055
+D3
+~
+~
+0 0 7057
+S
+#7057
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 7056
+D3
+~
+~
+0 0 7058
+S
+#7058
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7059
+D1
+Exit description~
+~
+0 0 7057
+S
+#7059
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 7058
+D3
+~
+~
+0 0 7060
+S
+#7060
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7064
+D1
+Exit description~
+~
+0 0 7059
+D2
+~
+~
+0 0 7061
+S
+#7061
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 7060
+D3
+~
+~
+0 0 7062
+S
+#7062
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7063
+D1
+Exit description~
+~
+0 0 7061
+S
+#7063
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 7062
+D3
+~
+~
+0 0 7073
+S
+#7064
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D1
+~
+~
+0 0 7065
+D2
+Exit description~
+~
+0 0 7060
+D3
+~
+~
+0 0 7066
+S
+#7065
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7067
+D3
+Exit description~
+~
+0 0 7064
+S
+#7066
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7070
+D1
+Exit description~
+~
+0 0 7064
+S
+#7067
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7068
+D1
+~
+~
+0 0 7068
+D2
+Exit description~
+~
+0 0 7065
+S
+#7068
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D2
+~
+~
+0 0 7067
+D3
+~
+~
+0 0 7069
+S
+#7069
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7074
+D1
+Exit description~
+~
+0 0 7068
+D3
+Exit description~
+~
+0 0 7072
+S
+#7070
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7071
+D2
+Exit description~
+~
+0 0 7066
+S
+#7071
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D0
+~
+~
+0 0 7072
+D2
+Exit description~
+~
+0 0 7070
+S
+#7072
+A Dark Corridor~
+The walls of the corridor are dark and identical. Figuring out your exact
+location within them is nearly impossible. The ground is damp and there is a
+musty scent looming within the air. You feel your feet brush past a pile of
+bones as you continue to make your way onward. Spiderwebs are all around you
+and you can feel their eerie tickling as you walk.
+~
+0 0 13
+D1
+~
+~
+0 0 7069
+D2
+Exit description~
+~
+0 0 7071
+S
+#7073
+A Dark Corridor~
+You find yourself standing within a large cavern. A few dim beams of light
+shine in from the world above through some nearly obsolete crack in the great
+ceiling that lies above. The smell of fresh meat lingers here.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 7063
+S
+#7074
+A Large Ice Cavern~
+You stand within a massive cavern. The ground is stained red with blood, and
+bones lay strewn about the great cavern. Vines grow up the walls of the cavern
+fighting each other for the small amount of light that makes it into this
+cavern. A loud growl can be heard here.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 7069
+S
+#0
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

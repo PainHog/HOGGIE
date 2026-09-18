@@ -1,0 +1,105 @@
+#AREA Temple Of Thor~
+
+#VERSION 1
+
+#CLIMATE 4 3 0
+
+#AUTHOR Thor~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG ~
+
+#FLAGS
+1 1
+
+#ECONOMY 0 0
+
+#MOBILES
+#7075
+Thunder Priest~
+A Thunder Priest~
+A priest of thunder roams the area tending to the temple.
+~
+This noble being has dedicated his life to the worship of Thor.  He spends his
+time here tending the up keep of the temple, though there are few visitors
+here.  He is also here to tend to the followers of Thunder, and pass their
+prayers onto Thor...  Well he would if there were any other followers.
+~
+135299137 71303336&256 0 C
+50 0 -212 1979d1+0 0d0+0
+0 0
+8 8 1
+25 25 25 25 25 25 25
+-30 -30 -30 -30 -30
+45 1 6 250 1025 1025 5
+85 65 987135 3155020 5 1024 65540 1287
+#0
+
+#OBJECTS
+#7075
+Statue of Thor~
+Statue of the Thunder God, Thor.~
+A massive white marble figure dominates the room in the depiction of Thor, The Thunder God.
+~
+The massive white marble statue of Thor wielding a giant hammer is here
+glistening in the light.
+~
+12 536871168&36 0 0
+0 0 0 0
+50000 0 0
+#7076
+Altar of Thunder~
+The Altar of Thunder.~
+A large altar of white marble crackles with lightning.~
+This slab of white marble designed for the sermons of justice is imbued with
+the powers of lightning and thunder.
+~
+12 536870912&36 0 0
+0 0 0 0
+50000 0 0
+#7077
+Thor's Key~
+a dull gold shard of lightning~
+A dull shard of cold lightning lies here.~
+~
+18 536870914&37 1048577 0
+7075 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#7075
+The Temple of Thunder~
+As you enter from the marble staircase you are amazed by the colossal scale of
+the room you have just entered.  The room is filled with massive pillars of
+white marble that tower into the dark clouds above.  The floor is made of
+tiles of the same white marble that reflect the arcs of lightning which
+cascade through the clouds high above.  It is a very warm damp environment
+with several vines of ivy beginning to creep up the pillars.  The sheer size
+of this place is overwhelming, yet you are over come with the feeling all is
+right and in balance here.
+~
+0 1049608 0 0 0 0
+D7
+A small tightly sealed door remains hidden for only so long.
+~
+nw~
+8391727 7077 21023 0
+S
+#0
+
+#RESETS
+O 0 7077 1 7075  ; Object: #7077 a dull gold shard of lightning => #7075 The Temple of Thunder
+O 0 7076 1 7075  ; Object: #9901 The Altar of Thunder. => #9900 The Temple of Thunder
+O 0 7075 1 7075  ; Object: #9900 Statue of the Thunder God, Thor. => #9900 The Temple of Thunder
+M 0 7075 1 7075  ; Mob: #9900 A Thunder Priest => #9900 The Temple of Thunder
+S
+
+#SPECIALS
+M 7075 spec_breath_lightning   ; A Thunder Priest
+S
+
+#$

@@ -1,0 +1,2154 @@
+#AREA   Plane Of The Ageless~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+45 50 0 65
+$
+
+#RESETMSG The sun bleeds black blood as a new night begins.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 765888369
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#14000
+Nightmare Magnet Boy Thin~
+the Nightmare Magnet~
+This thin blonde boy is trying to block out the dreams.
+~
+The boy is thin, some may gaunt, others would say lithe. His limbs and refined
+and slender.  His eyes are a pale and haunting green. His blonde hair falls
+over his face.  He is hunched over, hugging his knees and black crystal tears
+fall from his eyes, cutting his cheeks as they fall.  His fingers are nails
+and his teeth are broken glass.  He mutters to himself and cannot tell if you
+are real or just his nightmares. He lunges at your throat, screaming his curses
+to the gods and to fate.
+~
+4194403 306184320&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 8 1057017 2100224 0 448 2097155
+#14001
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14002
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14003
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14004
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14005
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14006
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14007
+child smoke bleed~
+a child of blood and smoke~
+This ghostly child is bleeding smoke.
+~
+The creature is only air and blood.  It screams with laughter and joy as it
+places a rusted needle through its eye only to emerge with a hand full of
+smoke.  It notices the weapons you carries and immediately tries to play the
+game with you.
+~
+4194401 -2109734912&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 8 0 0 8192 8192 0
+0 0 0 1048963 2105344 0 33558528 64
+#14008
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14009
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14010
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&320 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14011
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14012
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14013
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14014
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&320 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14015
+spider broken glass~
+a spider of broken glass~
+This spider is made of broken glass and light.
+~
+This creature moves back and forth with the lightest of steps by its eight
+legs.  It is made entirely of shards of glass, each one holding the image of a
+tortured man or woman.  Some are being slowly sawed in half, others are having
+their teeth removed with pieces of bone, and others are being tortured in ways
+you cannot imagine.  All you can see in some is blood.  The spider watches you
+and waits to add another piece of glass to it's body.
+~
+4194401 -1069547520&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 7 0 0 8192 8192 0
+0 0 528384 8192 1048576 16 131457 3
+#14016
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14017
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14018
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14019
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14020
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14021
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14022
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14023
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14024
+human scare crow man~
+a human scarecrow~
+This screaming man has been impaled on two pikes.
+~
+This man is screaming his last breath, but by the look of the dried blood and
+the blood that is flying from his mouth, he has been screaming for some time
+now.  He has been impaled from the bottom up, entering through the rectum and
+emerging from behind his back. Yet, a thinner pike has been inserted through
+his shoulders.  In a sickening half hop, half limb, he makes his way towards
+you to share his pain.
+~
+4194401 -2143289216&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 130 3154032 7168 0 4194720 3
+#14025
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14026
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14027
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14028
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14029
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14030
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14031
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14032
+man suit barbed wire~
+a man encased in barbed wire~
+This man is rolling around trying to free himself from a suit of barb wire.
+~
+This man is encased in an entire suit of barbed wire.  Each strand cuts into
+him as every moment he makes pierces the small barbs into his body.  Yet as
+each pierce goes deeper, it only pushes him to pull at the wires more. He
+seems you and screams for you to help him, entangling you with him!
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 67 3154032 0 0 480 259
+#14034
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14035
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14036
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14037
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14038
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14039
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14040
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14041
+broken woman~
+a broken woman~
+Every bone in this woman's body must be broken, yet she pulls her mangled form.
+~
+This woman is mangled behind anything you have seen. Her head is looking at
+her back, her left shoulder is twisted to connect with her right, her legs are
+bent in the wrong way, and her jaw has been completely removed.  The few
+sounds she can make are distorted by pieces of bone in her throat and blood
+dripping from her mouth.  She manages to pull herself across the ground with a
+single arm, her fingers gnawed to the bone.
+~
+4194401 -2143289216&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 7 3154172 2097152 0 65920 3
+#14042
+murder bad dreams~
+a murder of bad dreams~
+These dreams float upon the breeze, seeking others to torture.
+~
+The air is ripped by their presence.  You can see no true shape, save that
+they have multiple arms and smooth bodies.  If not for the constant sound of
+weeping that seems to rise off them you would have no way of tracking them.
+They slowly make their way to you, in no rush, waiting for you to beg them to
+leave.
+~
+4194401 -2046820224&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 6 0 0 8192 8192 0
+0 0 0 1056893 0 0 74113 3
+#14043
+murder bad dreams~
+a murder of bad dreams~
+These dreams float upon the breeze, seeking others to torture.
+~
+The air is ripped by their presence.  You can see no true shape, save that
+they have multiple arms and smooth bodies.  If not for the constant sound of
+weeping that seems to rise off them you would have no way of tracking them.
+They slowly make their way to you, in no rush, waiting for you to beg them to
+leave.
+~
+4194401 -2046820224&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 6 0 0 8192 8192 0
+0 0 0 1056893 0 0 74113 3
+#14044
+murder bad dreams~
+a murder of bad dreams~
+These dreams float upon the breeze, seeking others to torture.
+~
+The air is ripped by their presence.  You can see no true shape, save that
+they have multiple arms and smooth bodies.  If not for the constant sound of
+weeping that seems to rise off them you would have no way of tracking them.
+They slowly make their way to you, in no rush, waiting for you to beg them to
+leave.
+~
+4194401 -2046820224&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 6 0 0 8192 8192 0
+0 0 0 1056893 0 0 74113 3
+#14045
+murder bad dreams~
+a murder of bad dreams~
+These dreams float upon the breeze, seeking others to torture.
+~
+The air is ripped by their presence.  You can see no true shape, save that
+they have multiple arms and smooth bodies.  If not for the constant sound of
+weeping that seems to rise off them you would have no way of tracking them.
+They slowly make their way to you, in no rush, waiting for you to beg them to
+leave.
+~
+4194401 -2046820224&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 6 0 0 8192 8192 0
+0 0 0 1056893 0 0 74113 3
+#14046
+nightmare creature~
+a nightmare~
+This creature is circling some poor boy.
+~
+This creatures are flesh and blood yet you can hear them screaming in your
+head. Their bodies are made of blue-black flesh, smooth and sleek. The have no
+eyes but a hundred mouths and eight long tentacles, each with a row of hooks.
+They seem to serve this Nightmare Magnet, and torture him at the same time.
+~
+4194403 4194432&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 8192 8192 0
+0 0 8192 1056909 2097152 0 65920 3
+#14047
+nightmare creature~
+a nightmare~
+This creature is circling some poor boy.
+~
+This creatures are flesh and blood yet you can hear them screaming in your
+head. Their bodies are made of blue-black flesh, smooth and sleek. The have no
+eyes but a hundred mouths and eight long tentacles, each with a row of hooks.
+They seem to serve this Nightmare Magnet, and torture him at the same time.
+~
+4194403 4194432&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 8192 8192 0
+0 0 8192 1056909 2097152 0 65920 3
+#14048
+nightmare creature~
+a nightmare~
+This creature is circling some poor boy.
+~
+This creatures are flesh and blood yet you can hear them screaming in your
+head. Their bodies are made of blue-black flesh, smooth and sleek. The have no
+eyes but a hundred mouths and eight long tentacles, each with a row of hooks.
+They seem to serve this Nightmare Magnet, and torture him at the same time.
+~
+4194403 -2143289216&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 8192 8192 0
+0 0 8192 1056909 2097152 0 65920 3
+#14049
+hungry girl~
+the Hungry Girl~
+This beautiful girl is eating her own hand.
+~
+This girl would be beautiful. Her hair is long, dark as night, and stained
+with blood.  Her eyes are coins and her mouth are full of crooked teeth that
+tear her own flesh as she constantly devours herself. Her breasts are exposed
+and bleeding, her posture provocative. She stares at you and screams for a
+taste.
+~
+4194401 -2042625920&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 4 0 0 8192 8192 0
+0 0 67 1057021 2100224 0 256 3
+#14100
+Lost Boy black boy raven~
+the Lost Boy~
+This raven-haired boy is lost inside his own mind.
+~
+This boy is not a boy at all but rather a man that has no idea of what he is.
+He wanders around, mumbling incoherently.  His eyes are black serpents and his
+tongue is a collection of razors that cut through his lips and mouth as he
+speaks. He is clawing at himself in confusion, his fingers tearing through his
+flesh to reveal a blood made out of maggots.  He suddenly stops and looks at
+you, a moment of clarity, and in this clarity he realizes that he is damned.
+He runs screaming at you, his hands buried into his own flesh.
+~
+4194403 306184320&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 8192 8192 0
+0 0 8 1056880 2104320 0 386 2097411
+#0
+
+
+#OBJECTS
+#14000
+whip screams flame~
+(&YBurning&G) A whip of screams and flame~
+This horrid thing will consume anything it touches.~
+~
+5 4544 131073
+12 5 4 4
+1 0 0
+A
+30 65
+A
+18 5
+#14001
+Hunger~
+Hunger~
+This aura will consume everything it touches.~
+~
+8 64 4194305
+10 10 0 0
+1 0 0
+A
+12 -50
+A
+13 75
+A
+18 -5
+A
+19 6
+#14002
+Damnation~
+Damnation~
+There is nothing worse than bad dreams.~
+~
+9 64 4194305
+10 10 0 0
+1 0 0
+A
+22 15
+A
+19 7
+#14003
+Sign warning ghost~
+A ghostly warning sign~
+This sign is made of smoke and mother's sighs.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+sign ghost warning~
+This zone is meant for 50's and 50's only. I wouldn't recommend a group
+smaller than 3 avatars, I wouldn't recommend a group smaller than 5 either.
+Things are not as they seem, some of the things you will see cannot be
+defeated in obvious ways.  There is no room for mistakes.  The prizes that lie
+inside are great, but the risk is greater.  Also, the zone has very graphic
+imagery that is not suitable for those of gentle mindsets or very visual
+imaginations. If you are offended or uncomfortable with torture, hell, and
+nasty things like that, do not go forward. You have your chance now to leave.
+Beyond this room you are on your own.
+
+I Also would like to credit the poem "Time Cycle of the Ageless" for the
+inspiration of this area. While some liberties have been taken, a lot of
+liberities actually, the characters, some of the imagery, and the name
+are the intellectual property of Scott N Creley, used without his expressed
+permission, so if you know him, dont tell, I dont want to be sued.
+Hehehe.
+Have fun.
+
+Nameless.
+~
+#14004
+end key dreams~
+The End of Dreams~
+To wake up one must first be ready to dream.~
+~
+18 64 1048577
+0 0 0 0
+1 0 0
+#14100
+cloud hatred fear~
+Hatred and Fear~
+This swirling aura is the mark of the damned.~
+~
+9 64 4194305
+20 20 0 0
+1 0 0
+A
+23 7
+A
+24 7
+A
+13 75
+A
+19 7
+A
+18 7
+#0
+
+
+#ROOMS
+#14000
+On The Road To Dreams~
+The air has grown thin and the lights you carry have started to flicker,
+flare, and some begin to sing soft tunes.  You are reminded of the songs that
+mother's sing to their children, gentle notes to guard against bad dreams and
+wandering nightmares.
+~
+0 0 0
+D1
+~
+~
+0 0 14001
+D5
+Exit description~
+~
+0 0 15320
+S
+#14001
+On The Road To Dreams~
+The air has grown thin and the lights you carry have started to flicker,
+flare, and some begin to sing soft tunes.  You are reminded of the songs that
+mother's sing to their children, gentle notes to guard against bad dreams and
+wandering nightmares.
+~
+0 0 0
+D1
+~
+~
+0 0 14002
+S
+#14002
+Dreaming While Awake~
+You are sure that you are dreaming.  The air is made of butterflies and each
+word you speak becomes a dancing piece of metal that flutters in a breeze you
+cannot feel.  There are small spirits at your feet and they all seem to wink
+and smile before laughing at a fate you cannot see. The only way you can go is
+deeper inside, but as look further down the staircase that wasn't there when
+you came in, you feel as if it would be best to stay here.
+~
+0 0 0
+D2
+~
+~
+0 0 14003
+S
+#14003
+Dreaming While Awake~
+There is a small door, no bigger than most and certainly no where near as
+grand as most. The doorknob is made of wood and the frame is made of silk.
+The door seems to pulsate, hands push through the thin cloth and beckon you to
+enter. Faces appear as well, screaming and crying. They are pulled away by
+other hands and you can hear the familiar sound of flesh being torn.
+~
+0 0 0
+D2
+~
+~
+0 0 14004
+S
+#14004
+In The Void~
+There is nothing.  No cold. No warmth. No sound of your voice. No sound of
+your heart. No sound of your thoughts.  You are alone. Yet you see so many
+others around you. The only thing you barely make out through the emptiness is
+a small sign and a small tear in the ceiling.
+~
+0 0 0
+D4
+~
+~
+8389667 0 14005
+S
+#14005
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D1
+~
+~
+0 0 14006
+D2
+~
+~
+0 0 14009
+S
+#14006
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14008
+D1
+~
+~
+0 0 14007
+D3
+Exit description~
+~
+0 0 14005
+S
+#14007
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D3
+Exit description~
+~
+0 0 14006
+S
+#14008
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D2
+Exit description~
+~
+0 0 14006
+S
+#14009
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D0
+Exit description~
+~
+0 0 14005
+D1
+~
+~
+0 0 14010
+S
+#14010
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D2
+~
+~
+0 0 14012
+D3
+Exit description~
+~
+0 0 14009
+S
+#14011
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D1
+~
+~
+0 0 14012
+D2
+~
+~
+0 0 14014
+S
+#14012
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D0
+Exit description~
+~
+0 0 14010
+D1
+~
+~
+0 0 14013
+D3
+Exit description~
+~
+0 0 14011
+S
+#14013
+In A Garden Of Broken Teeth~
+The sky is blanket of skin, stitched together with fish scales and dragon's
+teeth. The sun is broken and spins around a square moon.  The ground is made
+of crushed teeth, odd flowers in the shape of stomachs grow and shake with the
+sound of a heartbeat.  The air smells of acid and roses.
+~
+0 137371649 11
+D1
+~
+~
+0 0 14029
+D3
+Exit description~
+~
+0 0 14012
+S
+#14014
+In A Sea Of Bile~
+As if from walking from one room to another, you are engulfed in a  sea of
+bile. The foulness is thick and even with the ability or spell to breathe in
+liquid, you don't want too.  There is no bottom to the thick gel nor is there
+anything above. Yet, if you look the way you came you can it is dry and only a
+few steps away.
+~
+0 137371649 12
+D0
+Exit description~
+~
+0 0 14011
+D2
+~
+~
+0 0 14015
+S
+#14015
+In A Sea Of Bile~
+As if from walking from one room to another, you are engulfed in a  sea of
+bile. The foulness is thick and even with the ability or spell to breathe in
+liquid, you don't want too.  There is no bottom to the thick gel nor is there
+anything above. Yet, if you look the way you came you can it is dry and only a
+few steps away.
+~
+0 137371649 12
+D0
+Exit description~
+~
+0 0 14014
+D2
+~
+~
+0 0 14016
+S
+#14016
+In A Sea Of Bile~
+As if from walking from one room to another, you are engulfed in a  sea of
+bile. The foulness is thick and even with the ability or spell to breathe in
+liquid, you don't want too.  There is no bottom to the thick gel nor is there
+anything above. Yet, if you look the way you came you can it is dry and only a
+few steps away.
+~
+0 137371649 12
+D0
+Exit description~
+~
+0 0 14015
+D1
+~
+~
+0 0 14017
+S
+#14017
+In A Sea Of Bile~
+As if from walking from one room to another, you are engulfed in a  sea of
+bile. The foulness is thick and even with the ability or spell to breathe in
+liquid, you don't want too.  There is no bottom to the thick gel nor is there
+anything above. Yet, if you look the way you came you can it is dry and only a
+few steps away.
+~
+0 137371649 12
+D1
+~
+~
+0 0 14018
+D3
+Exit description~
+~
+0 0 14016
+S
+#14018
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D1
+~
+~
+0 0 14025
+D2
+~
+~
+0 0 14019
+D3
+~
+~
+0 0 14017
+S
+#14019
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+Exit description~
+~
+0 0 14018
+D1
+~
+~
+0 0 14024
+D2
+~
+~
+0 0 14020
+S
+#14020
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14019
+D1
+~
+~
+0 0 14023
+D2
+~
+~
+0 0 14021
+S
+#14021
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+Exit description~
+~
+0 0 14020
+D1
+~
+~
+0 0 14022
+S
+#14022
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14023
+D3
+Exit description~
+~
+0 0 14021
+S
+#14023
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14024
+D1
+~
+~
+0 0 14026
+D2
+Exit description~
+~
+0 0 14022
+D3
+Exit description~
+~
+0 0 14020
+S
+#14024
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14025
+D1
+~
+~
+0 0 14027
+D2
+Exit description~
+~
+0 0 14023
+D3
+Exit description~
+~
+0 0 14019
+S
+#14025
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D1
+~
+~
+0 0 14028
+D2
+Exit description~
+~
+0 0 14024
+D3
+Exit description~
+~
+0 0 14018
+S
+#14026
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14027
+D3
+Exit description~
+~
+0 0 14023
+D4
+~
+~
+0 0 14045
+S
+#14027
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14028
+D2
+Exit description~
+~
+0 0 14026
+D3
+Exit description~
+~
+0 0 14024
+S
+#14028
+Walking In A Cemetery Of Prayers~
+The ground is surprise soft.  The bright red and orange moss that covers the
+sugar headstones of the graves is warm and soothing to the touch.  The air
+smells of rain and salt water.  The sky is a reflection of a corpse and you
+can feel small drops of blood fall.  At each grave there is a low murmur, the
+last desperate prayers of faith.
+~
+0 137371649 11
+D0
+~
+~
+0 0 14029
+D2
+Exit description~
+~
+0 0 14027
+D3
+Exit description~
+~
+0 0 14025
+S
+#14029
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D0
+~
+~
+0 0 14030
+D2
+Exit description~
+~
+0 0 14028
+D3
+Exit description~
+~
+0 0 14013
+S
+#14030
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D0
+~
+~
+0 0 14031
+D2
+Exit description~
+~
+0 0 14029
+S
+#14031
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D1
+~
+~
+0 0 14032
+D2
+Exit description~
+~
+0 0 14030
+S
+#14032
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D1
+~
+~
+0 0 14033
+D3
+Exit description~
+~
+0 0 14031
+S
+#14033
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D0
+~
+~
+0 0 14034
+D3
+~
+~
+0 0 14032
+S
+#14034
+A Hallway Of Broken Silence~
+This thin hallway appears from nothing. One moment there is earth and the next
+you are walking among a wall full of flowing tapestries.  The floor is made of
+solid snakes while the walls whisper to each other and watch you with granite
+eyes.  There is no ceiling, only an engulfing void. The sound of metal on
+stone moves past you and back again.
+~
+0 137371657 0
+D1
+~
+~
+0 0 14035
+D2
+Exit description~
+~
+0 0 14033
+S
+#14035
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14036
+D1
+~
+~
+0 0 14038
+D3
+Exit description~
+~
+0 0 14034
+S
+#14036
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14037
+D1
+~
+~
+0 0 14039
+D2
+Exit description~
+~
+0 0 14035
+S
+#14037
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D1
+~
+~
+0 0 14040
+D2
+Exit description~
+~
+0 0 14036
+D3
+Exit description~
+~
+0 0 14033
+S
+#14038
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14039
+D1
+~
+~
+0 0 14041
+D3
+Exit description~
+~
+0 0 14035
+S
+#14039
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14040
+D1
+~
+~
+0 0 14042
+D2
+Exit description~
+~
+0 0 14038
+D3
+Exit description~
+~
+0 0 14036
+S
+#14040
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D1
+~
+~
+0 0 14043
+D2
+Exit description~
+~
+0 0 14039
+D3
+Exit description~
+~
+0 0 14037
+S
+#14041
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14042
+D3
+Exit description~
+~
+0 0 14038
+S
+#14042
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D0
+~
+~
+0 0 14043
+D2
+Exit description~
+~
+0 0 14041
+D3
+Exit description~
+~
+0 0 14039
+S
+#14043
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D1
+~
+~
+0 0 14044
+D2
+Exit description~
+~
+0 0 14042
+D3
+Exit description~
+~
+0 0 14040
+S
+#14044
+The Deathbed Of The Ageless~
+All you can see in a desert of stars.  Burning orbs imbedded in green lava rock
+that is cool to the touch.  The sky is a ballet of dancing suns that collide
+into each other only to shatter into a thousand more.  The scent of smoke
+lingers and the stench of burning hair is everywhere.
+~
+0 137371657 11
+D1
+~
+~
+0 0 14050
+D3
+Exit description~
+~
+0 0 14043
+S
+#14045
+A Staircase Of Daggers~
+You make your way up a staircase made completely of daggers and razors. Each
+step cuts through your feet, the hand rails are serpents with seven heads and
+seven fangs.  There is nothing else but the staircase, occasionally a mirror
+will float by, showing a thousand dead eyes watching you.
+~
+0 137371657 11
+D4
+~
+~
+0 0 14046
+D5
+Exit description~
+~
+0 0 14026
+S
+#14046
+A Staircase Of Daggers~
+You make your way up a staircase made completely of daggers and razors. Each
+step cuts through your feet, the hand rails are serpents with seven heads and
+seven fangs.  There is nothing else but the staircase, occasionally a mirror
+will float by, showing a thousand dead eyes watching you.
+~
+0 137371657 11
+D4
+~
+~
+0 0 14047
+D5
+Exit description~
+~
+0 0 14045
+S
+#14047
+A Staircase Of Daggers~
+You make your way up a staircase made completely of daggers and razors. Each
+step cuts through your feet, the hand rails are serpents with seven heads and
+seven fangs.  There is nothing else but the staircase, occasionally a mirror
+will float by, showing a thousand dead eyes watching you.
+~
+0 137371657 11
+D4
+~
+~
+0 0 14048
+D5
+Exit description~
+~
+0 0 14046
+S
+#14048
+A Staircase Of Daggers~
+You make your way up a staircase made completely of daggers and razors. Each
+step cuts through your feet, the hand rails are serpents with seven heads and
+seven fangs.  There is nothing else but the staircase, occasionally a mirror
+will float by, showing a thousand dead eyes watching you.
+~
+0 137371657 11
+D4
+~
+~
+0 0 14049
+D5
+Exit description~
+~
+0 0 14047
+S
+#14049
+A Room Of Whispering Mirrors~
+This room is made entirely of glass.  It is almost impossible to see anything
+as the floor, the walls, the ceiling, and even the air is a reflective
+surface.  The entire place is whispering into your ear, each of them distinct
+and clear yet only a garble of words and taunts.  You hear your own voice
+begging you to bury your weapon into your eye, and at the same time another
+voice warning you that death is near.  The very air that is breathed is glass.
+~
+0 3153921 0
+D5
+Exit description~
+~
+0 0 14048
+S
+#14050
+A Room Of Burning Children~
+The smell of the room is sickening. The entire area is engulfed in flame,
+rivers of sulfur and bile flow below it, the fire lightly dancing on the blue
+black waters.  The flames make the faces of children, some mocking, some
+dancing, others crying, other's dying. Among the black smoke, red ash, and
+hellfire stands a figure, engulfed by spinning masses of teeth and tentacles.
+~
+0 3153929 0
+D3
+Exit description~
+~
+0 0 14044
+D4
+~
+~
+25166887 14004 14000
+S
+#14100
+Placeholder~
+Placeholder
+~
+0 3153933 0
+S
+#0
+
+
+#RESETS
+M 0 14001 2 14006
+M 0 14001 2 14006
+M 0 14008 2 14008
+M 0 14008 2 14008
+M 0 14016 2 14011
+M 0 14016 2 14011
+M 0 14016 2 14013
+M 0 14016 2 14013
+M 0 14025 1 14015
+M 0 14034 2 14017
+M 0 14034 2 14017
+M 0 14002 2 14019
+M 0 14002 2 14019
+M 0 14009 1 14020
+M 0 14017 2 14022
+M 0 14017 2 14022
+M 0 14026 2 14024
+M 0 14026 2 14024
+M 0 14035 1 14026
+M 0 14003 2 14028
+M 0 14003 2 14028
+M 0 14010 2 14029
+M 0 14010 2 14029
+M 0 14018 1 14031
+M 0 14027 2 14033
+M 0 14027 2 14033
+M 0 14036 1 14035
+M 0 14004 2 14036
+M 0 14004 2 14036
+M 0 14011 2 14038
+M 0 14011 2 14038
+M 0 14019 1 14039
+M 0 14028 1 14040
+M 0 14037 2 14041
+M 0 14037 2 14041
+M 0 14005 2 14042
+M 0 14005 2 14042
+M 0 14012 2 14043
+M 0 14012 2 14043
+M 0 14020 2 14044
+M 0 14020 2 14044
+M 0 14029 2 14045
+M 0 14029 2 14045
+M 0 14038 1 14046
+M 0 14006 1 14047
+M 0 14013 1 14048
+M 0 14100 1 14049
+G 1 14100 1
+M 0 14021 1 14049
+M 0 14030 1 14049
+M 0 14031 1 14049
+M 0 14007 1 14005
+M 0 14015 1 14007
+M 0 14022 1 14009
+M 0 14032 1 14014
+M 0 14040 1 14021
+M 0 14041 1 14023
+M 0 14042 2 14040
+M 0 14042 2 14040
+M 0 14043 1 14025
+M 0 14044 2 14031
+M 0 14044 2 14031
+M 0 14045 1 14047
+M 0 14049 1 14026
+G 1 14001 1
+M 0 14000 1 14050
+G 1 14004 1
+G 1 14002 1
+E 1 14000 1 21
+M 0 14046 1 14050
+M 0 14047 1 14050
+M 0 14048 1 14050
+M 0 14014 1 14035
+M 0 14023 2 14018
+M 0 14023 2 14018
+M 0 14039 1 14016
+M 0 14024 1 14037
+O 0 14003 1 14004
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  14000 spec_cast_undead
+M  14046 spec_cast_bishop
+M  14047 spec_cast_bishop
+M  14048 spec_cast_bishop
+M  14049 spec_cast_archmagi
+M  14100 spec_breath_gas
+S
+
+
+#$

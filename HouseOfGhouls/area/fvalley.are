@@ -1,0 +1,2026 @@
+#AREA   Valley Of Frost~
+
+
+
+#VERSION 1
+#AUTHOR Dezmond~
+
+#RANGES
+40 50 1 50
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 94792055
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8300
+Taz slasher~
+Taz the Slasher~
+Taz the Slasher roams here.
+~
+It's Taz the Slasher!!!!!!! Taz is a short dwarf with a long beard and a heavy
+build. Upon his side is a large dagger with a golden embroidered handle.
+~
+97 4194304&320 -1000 C
+60 0 0 1000d1+0 2d1+1
+0 0
+112 112 1
+20 7 7 18 18 5 13
+0 0 0 0 0
+2 3 50 212 4 4 0
+5 5 2046 2 0 1 1008 2621443
+#8301
+bat ice~
+an ice bat~
+An ice bat swoops down at you!
+~
+An ice bat swoops down at you!
+~
+99 0 0 C
+39 0 0 400d1+0 1d0+0
+0 100
+112 112 1
+13 13 13 13 25 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+1 1 34816 2 2 1 8193 2
+#8302
+bat ice~
+an ice bat~
+An ice bat swoops down at you!
+~
+An ice bat swoops down at you!
+~
+99 0 0 C
+39 0 0 400d1+0 1d0+0
+0 100
+112 112 1
+13 13 13 13 25 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+1 1 34816 2 2 1 8193 2
+#8303
+bat~
+an ice bat~
+An ice bat swoops down at you!
+~
+An ice bat swoops down at you!
+~
+99 0 0 C
+39 0 0 400d1+0 1d0+0
+0 100
+112 112 2
+13 13 13 13 25 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+1 1 34816 2 2 1 8193 2
+#8304
+bat~
+an ice bat~
+An ice bat swoops down at you!
+~
+An ice bat swoops down at you!
+~
+99 0 0 C
+39 0 0 400d1+0 1d0+0
+0 100
+112 112 2
+13 13 13 13 25 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+1 1 34816 2 2 1 8193 2
+#8305
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 1
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 162 2
+#8306
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 1
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 130 2
+#8307
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 1
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 131 2
+#8308
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 2
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 163 2
+#8309
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 2
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 163 2
+#8310
+bear polar~
+a polar bear~
+A polar bear rears back ready to attack!
+~
+A giant polar bear is here, infuriated by your intrusion.
+~
+97 4194304 0 C
+45 0 -181 800d1+0 2d1+1
+200 100
+112 112 1
+20 10 10 20 20 10 19
+0 0 0 0 0
+24 3 0 0 512 512 0
+3 3 436471545 2 2 1 162 2
+#8311
+small yeti~
+a small yeti~
+A yeti scrounges here.
+~
+A small  yeti stands before you.
+~
+65 0 0 C
+30 0 -87 500d1+0 2d1+1
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 16 16 0
+3 3 2031 2 2 1 147 3
+#8312
+large yeti~
+a large yeti~
+A yeti scrounges here.
+~
+A large  yeti stands before you.
+~
+65 4194304&256 0 C
+42 0 -87 650d1+0 2d1+1
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 16 16 0
+4 4 2031 2 2 1 8339 2
+#8313
+small yeti~
+a small yeti~
+A yeti scrounges here.
+~
+A small  yeti stands before you.
+~
+65 0 0 C
+30 0 -87 500d1+0 2d1+1
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 16 16 0
+3 3 2031 2 2 1 131 2
+#8314
+small yeti~
+a small yeti~
+A yeti scrounges here.
+~
+A small  yeti stands before you.
+~
+65 0 0 C
+30 0 -87 550d1+0 2d1+1
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 16 16 0
+3 3 2031 2 2 1 8339 3
+#0
+
+
+#OBJECTS
+#8300
+sign notice~
+Frost Valley sign~
+An important notice is nailed to a sign here.
+~
+~
+13 93060752 0
+0 0 0 0
+10000 0 0
+E
+sign notice~
+You are now entering:
+
+==================================================================
+:                          VALLEY                                :
+:                            OF THE                              :
+:                              FROST                             :
+==================================================================
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                            NOTICE:                             +
++                                                                +
++     This is not an area for the weak. Be warned,               +
++     it would not be advisable to venture any further           +
++     down this path until AT LEAST level 40. Do not             +
++     tempt the reaper for he may come calling.                  +
++                                                                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Below this you see:
+
+/////////////////////////////////////////////////////////////////
+/                     WANTED: DEAD OR ALIVE                     /
+/                                                               /
+/       Taz the Slasher: HEIGHT: 4"2'                           /
+/                        WEIGHT: approx: 210 lbs                /
+/                        AGE: 46                                /
+/                        CHARACTERISTICS: Large bearded Dwarf,  /
+/                        large scar over left eye.              /
+/                                                               /
+/                                                               /
+/     Beware, The Slasher is wanted for the murder of 7 young   /
+/     elves.  He is extremely dangerous. Take extreme caution   /
+/     if you see this individual.                               /
+/                                                               /
+/     Your reward will be whatever objects this criminal        /
+/     has in his inventory. He's stolen from many, many people. /
+/                                                               /
+/////////////////////////////////////////////////////////////////
+~
+#8301
+Dagger golden embroidered~
+a golden embroidered dagger~
+A golden embroidered dagger lies here.~
+~
+5 64 131073
+13 4 2 11 30 0
+1 0 0
+E
+Dagger golden embroidered~
+A long, sharp dagger, the handle appears to be crafted from leather, but with 
+strange runes embroided into the leather with golden thread.
+~
+A
+3 -3
+A
+18 5
+A
+19 4
+#8302
+sleeves chainmail pair~
+a pair of chainmail sleeves~
+A pair of chainmail sleeves lies here.~
+~
+9 524288 129
+9 9 0 0
+10 0 0
+E
+sleeves chainmail pair~
+Despite the wet weather, these chainmail sleeves are surprisingly free of 
+rust.
+~
+A
+5 2
+#8303
+ruby amulet~
+a ruby amulet~
+A ruby amulet lies here.~
+~
+9 64 33
+0 0 0 0
+1 0 0
+E
+ruby amulet~
+A large gold chain supports a nicely cut ruby.  It seems to glow with an inner 
+fire.
+~
+A
+19 3
+A
+1 3
+#8304
+golden ring~
+a golden ring~
+A beautiful golden ring sits here.~
+~
+9 322 1025
+4 4 0 0
+1 0 0
+E
+golden ring~
+While relatively simple, this small golden ring hums with power.
+~
+A
+4 2
+A
+3 2
+A
+23 -2
+A
+24 -2
+A
+31 2
+A
+5 2
+A
+25 2
+#8305
+Chromium gauntlets~
+chromium gauntlets~
+A pair of chromium gauntlets lies here.~
+~
+9 524288 513
+12 12 0 0
+10 0 0
+E
+Chromium gauntlets~
+Made from a lightweight metal, these gauntlets are sure to protect the wearers 
+hand from any damage in combat.
+~
+#8306
+silver leggings pair~
+a pair of silver leggings~
+A pair of sliver leggings lies here.~
+~
+9 524288 16385
+10 10 0 0
+14 0 0
+E
+silver leggings pair~
+A gleaming pair of leggings, crafted from tiny circles of silver.  They 
+glisten in the light like the scales of a fish.
+~
+#8307
+snow ring~
+a snow ring~
+A ring of snow lies here.~
+~
+9 64 1025
+0 0 0 0
+1 0 0
+E
+snow ring~
+While the white metal makes this small ring blend in with the rest of the 
+snow, it is as individual as a snowflake.
+~
+A
+12 25
+A
+3 2
+#8308
+snow ring~
+a snow ring~
+A ring of snow lies here.~
+~
+9 64 1025
+0 0 0 0
+1 0 0
+E
+snow ring~
+While the white metal makes this small ring blend in with the rest of the 
+snow, it is as individual as a snowflake.
+~
+A
+4 2
+A
+3 2
+#8309
+snow ring~
+a snow ring~
+A ring of snow lies here.~
+~
+9 64 1025
+0 0 0 0
+1 0 0
+E
+snow ring~
+While the white metal makes this small ring blend in with the rest of the 
+snow, it is as individual as a snowflake.
+~
+A
+13 25
+A
+3 2
+#8310
+snow ring~
+a snow ring~
+A ring of snow lies here.~
+~
+9 64 1025
+0 0 0 0
+1 0 0
+E
+snow ring~
+While the white metal makes this small ring blend in with the rest of the 
+snow, it is as individual as a snowflake.
+~
+A
+24 -3
+A
+3 2
+#0
+
+
+#ROOMS
+#8300
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D1
+~
+~
+0 0 8301
+D3
+~
+~
+0 0 10527
+D5
+~
+~
+0 0 8306
+S
+#8301
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D1
+~
+~
+0 0 8302
+D3
+Exit description~
+~
+0 0 8300
+D5
+~
+~
+0 0 8307
+S
+#8302
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D1
+~
+~
+0 0 8303
+D3
+Exit description~
+~
+0 0 8301
+D5
+~
+~
+0 0 8308
+S
+#8303
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D1
+~
+~
+0 0 8304
+D3
+Exit description~
+~
+0 0 8302
+D5
+~
+~
+0 0 8309
+S
+#8304
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D1
+~
+~
+0 0 8305
+D3
+Exit description~
+~
+0 0 8303
+D5
+~
+~
+0 0 8310
+S
+#8305
+Walking On The Glacier~
+You stand upon a gentle hill. A light snowfall kisses your cheeks as you
+examine you scenery. As you look in front of you, you see a giant glacier
+leading down into a vast mountain range...
+~
+0 8192 2
+D3
+Exit description~
+~
+0 0 8304
+D5
+~
+~
+0 0 8311
+S
+#8306
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D1
+~
+~
+0 0 8307
+D4
+~
+~
+0 0 8300
+D5
+~
+~
+0 0 8312
+S
+#8307
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D1
+~
+~
+0 0 8308
+D3
+Exit description~
+~
+0 0 8306
+D4
+~
+~
+0 0 8301
+D5
+~
+~
+0 0 8313
+S
+#8308
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D1
+~
+~
+0 0 8309
+D3
+Exit description~
+~
+0 0 8307
+D4
+~
+~
+0 0 8302
+D5
+~
+~
+0 0 8314
+S
+#8309
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D1
+~
+~
+0 0 8310
+D3
+Exit description~
+~
+0 0 8308
+D4
+~
+~
+0 0 8303
+D5
+~
+~
+0 0 8315
+S
+#8310
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D1
+~
+~
+0 0 8311
+D3
+Exit description~
+~
+0 0 8309
+D4
+~
+~
+0 0 8304
+D5
+~
+~
+0 0 8316
+S
+#8311
+The Side Of The Hill~
+You make your way slowly down a gentle hill.  The ice is rough, and provides
+good traction as you travel along.
+~
+0 8192 2
+D3
+Exit description~
+~
+0 0 8310
+D4
+~
+~
+0 0 8305
+D5
+~
+~
+0 0 8317
+S
+#8312
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D1
+~
+~
+0 0 8313
+D4
+~
+~
+0 0 8306
+S
+#8313
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D1
+~
+~
+0 0 8314
+D3
+Exit description~
+~
+0 0 8312
+D4
+~
+~
+0 0 8307
+S
+#8314
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D0
+~
+~
+0 0 8318
+D1
+~
+~
+0 0 8315
+D3
+Exit description~
+~
+0 0 8313
+D4
+~
+~
+0 0 8308
+S
+#8315
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D1
+~
+~
+0 0 8316
+D3
+Exit description~
+~
+0 0 8314
+D4
+~
+~
+0 0 8309
+S
+#8316
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D1
+~
+~
+0 0 8317
+D3
+Exit description~
+~
+0 0 8315
+D4
+~
+~
+0 0 8310
+S
+#8317
+The Bottom Of The Hill~
+You stand at the bottom of the hill. As you look up you're shocked to see that
+the supposedly gentle hill is actually quite large. The wind blows a little
+harder now and another chill runs through our body.
+~
+0 8192 2
+D3
+Exit description~
+~
+0 0 8316
+D4
+~
+~
+0 0 8311
+S
+#8318
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D0
+~
+~
+0 0 8319
+D2
+~
+~
+0 0 8314
+S
+#8319
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D1
+~
+~
+0 0 8320
+D2
+Exit description~
+~
+0 0 8318
+S
+#8320
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D0
+~
+~
+0 0 8321
+D3
+Exit description~
+~
+0 0 8319
+S
+#8321
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D2
+Exit description~
+~
+0 0 8320
+D3
+~
+~
+0 0 8322
+S
+#8322
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D1
+Exit description~
+~
+0 0 8321
+D3
+~
+~
+0 0 8323
+S
+#8323
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D0
+~
+~
+0 0 8324
+D1
+Exit description~
+~
+0 0 8322
+S
+#8324
+On An Icy Path~
+You stand on an icy path.  To the north of you, the path continues into a
+snowy valley.  The large glacier can be climbed back south of you.
+~
+0 8192 2
+D0
+~
+~
+0 0 8328
+D2
+Exit description~
+~
+0 0 8323
+S
+#8325
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8333
+D1
+~
+~
+0 0 8326
+S
+#8326
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8334
+D1
+~
+~
+0 0 8327
+D3
+Exit description~
+~
+0 0 8325
+S
+#8327
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8335
+D1
+~
+~
+0 0 8328
+D3
+Exit description~
+~
+0 0 8326
+S
+#8328
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8336
+D1
+~
+~
+0 0 8329
+D2
+Exit description~
+~
+0 0 8324
+D3
+Exit description~
+~
+0 0 8327
+S
+#8329
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8337
+D1
+~
+~
+0 0 8330
+D3
+Exit description~
+~
+0 0 8328
+S
+#8330
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8338
+D1
+~
+~
+0 0 8331
+D3
+Exit description~
+~
+0 0 8329
+S
+#8331
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8339
+D1
+~
+~
+0 0 8332
+D3
+Exit description~
+~
+0 0 8330
+S
+#8332
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8340
+D3
+Exit description~
+~
+0 0 8331
+S
+#8333
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8341
+D1
+~
+~
+0 0 8334
+D2
+Exit description~
+~
+0 0 8325
+S
+#8334
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8342
+D1
+~
+~
+0 0 8335
+D2
+Exit description~
+~
+0 0 8326
+D3
+Exit description~
+~
+0 0 8333
+S
+#8335
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8343
+D1
+~
+~
+0 0 8336
+D2
+Exit description~
+~
+0 0 8327
+D3
+Exit description~
+~
+0 0 8334
+S
+#8336
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8344
+D1
+~
+~
+0 0 8337
+D2
+Exit description~
+~
+0 0 8328
+D3
+Exit description~
+~
+0 0 8335
+S
+#8337
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8345
+D1
+~
+~
+0 0 8338
+D2
+Exit description~
+~
+0 0 8329
+D3
+Exit description~
+~
+0 0 8336
+S
+#8338
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8346
+D1
+~
+~
+0 0 8339
+D2
+Exit description~
+~
+0 0 8330
+D3
+Exit description~
+~
+0 0 8337
+S
+#8339
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8347
+D1
+~
+~
+0 0 8340
+D2
+Exit description~
+~
+0 0 8331
+D3
+Exit description~
+~
+0 0 8338
+S
+#8340
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8348
+D2
+Exit description~
+~
+0 0 8332
+D3
+Exit description~
+~
+0 0 8339
+S
+#8341
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8349
+D1
+~
+~
+0 0 8342
+D2
+Exit description~
+~
+0 0 8333
+S
+#8342
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8350
+D1
+~
+~
+0 0 8343
+D2
+Exit description~
+~
+0 0 8334
+D3
+Exit description~
+~
+0 0 8341
+S
+#8343
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8351
+D1
+~
+~
+0 0 8344
+D2
+Exit description~
+~
+0 0 8335
+D3
+Exit description~
+~
+0 0 8342
+S
+#8344
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8352
+D1
+~
+~
+0 0 8345
+D2
+Exit description~
+~
+0 0 8336
+D3
+Exit description~
+~
+0 0 8343
+S
+#8345
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8353
+D1
+~
+~
+0 0 8346
+D2
+Exit description~
+~
+0 0 8337
+D3
+Exit description~
+~
+0 0 8344
+S
+#8346
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8354
+D1
+~
+~
+0 0 8347
+D2
+Exit description~
+~
+0 0 8338
+D3
+Exit description~
+~
+0 0 8345
+S
+#8347
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8355
+D1
+~
+~
+0 0 8348
+D2
+Exit description~
+~
+0 0 8339
+D3
+Exit description~
+~
+0 0 8346
+S
+#8348
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8356
+D2
+Exit description~
+~
+0 0 8340
+D3
+Exit description~
+~
+0 0 8347
+S
+#8349
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8357
+D1
+~
+~
+0 0 8350
+D2
+Exit description~
+~
+0 0 8341
+S
+#8350
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8358
+D1
+~
+~
+0 0 8351
+D2
+Exit description~
+~
+0 0 8342
+D3
+Exit description~
+~
+0 0 8349
+S
+#8351
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8359
+D1
+~
+~
+0 0 8352
+D2
+Exit description~
+~
+0 0 8343
+D3
+Exit description~
+~
+0 0 8350
+S
+#8352
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8360
+D1
+~
+~
+0 0 8353
+D2
+Exit description~
+~
+0 0 8344
+D3
+Exit description~
+~
+0 0 8351
+S
+#8353
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8361
+D1
+~
+~
+0 0 8354
+D2
+Exit description~
+~
+0 0 8345
+D3
+Exit description~
+~
+0 0 8352
+S
+#8354
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8362
+D1
+~
+~
+0 0 8355
+D2
+Exit description~
+~
+0 0 8346
+D3
+Exit description~
+~
+0 0 8353
+S
+#8355
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8363
+D1
+~
+~
+0 0 8356
+D2
+Exit description~
+~
+0 0 8347
+D3
+Exit description~
+~
+0 0 8354
+S
+#8356
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8364
+D2
+Exit description~
+~
+0 0 8348
+D3
+Exit description~
+~
+0 0 8355
+S
+#8357
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8358
+D2
+Exit description~
+~
+0 0 8349
+S
+#8358
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8359
+D3
+Exit description~
+~
+0 0 8357
+S
+#8359
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8360
+D2
+Exit description~
+~
+0 0 8351
+D3
+Exit description~
+~
+0 0 8358
+S
+#8360
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8361
+D2
+Exit description~
+~
+0 0 8352
+D3
+Exit description~
+~
+0 0 8359
+S
+#8361
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8362
+D2
+Exit description~
+~
+0 0 8353
+D3
+Exit description~
+~
+0 0 8360
+S
+#8362
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8363
+D2
+Exit description~
+~
+0 0 8354
+D3
+Exit description~
+~
+0 0 8361
+S
+#8363
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D1
+~
+~
+0 0 8364
+D2
+Exit description~
+~
+0 0 8355
+D3
+Exit description~
+~
+0 0 8362
+S
+#8364
+In The Valley Of Frost~
+You stand in a vast valley. When you first entered this valley the snow was
+falling in a light mist, now the snow is near blinding,
+~
+0 8192 2
+D0
+~
+~
+0 0 8365
+D2
+Exit description~
+~
+0 0 8356
+D3
+Exit description~
+~
+0 0 8363
+S
+#8365
+On An Icy Path~
+You stand on an icy path.  This trail winds around many trees, it's hard to
+keep your way.
+~
+0 8192 2
+D0
+~
+~
+0 0 8366
+D2
+Exit description~
+~
+0 0 8364
+S
+#8366
+On An Icy Path~
+You stand on an icy path.  This trail winds around many trees, it's hard to
+keep your way.
+~
+0 8192 2
+D1
+~
+~
+0 0 8367
+D2
+Exit description~
+~
+0 0 8365
+S
+#8367
+On An Icy Path~
+You stand on an icy path.  This trail winds around many trees, it's hard to
+keep your way.
+~
+0 8192 2
+D0
+~
+~
+0 0 8368
+D3
+Exit description~
+~
+0 0 8366
+S
+#8368
+On An Icy Path~
+You stand on an icy path.  This trail winds around many trees, it's hard to
+keep your way.
+~
+0 8192 2
+D1
+~
+~
+0 0 8369
+D2
+Exit description~
+~
+0 0 8367
+S
+#8369
+On An Icy Path~
+You stand on an icy path.  This trail winds around many trees, it's hard to
+keep your way.
+~
+0 8192 2
+D1
+~
+~
+0 0 8370
+D3
+Exit description~
+~
+0 0 8368
+S
+#8370
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D1
+~
+~
+0 0 8371
+D3
+Exit description~
+~
+0 0 8369
+S
+#8371
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D1
+~
+~
+0 0 8372
+D3
+Exit description~
+~
+0 0 8370
+S
+#8372
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D1
+~
+~
+0 0 8373
+D3
+Exit description~
+~
+0 0 8371
+S
+#8373
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D0
+~
+~
+0 0 8374
+D3
+Exit description~
+~
+0 0 8372
+S
+#8374
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D0
+~
+~
+0 0 8375
+D2
+Exit description~
+~
+0 0 8373
+S
+#8375
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D2
+Exit description~
+~
+0 0 8374
+D3
+~
+~
+0 0 8376
+S
+#8376
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D1
+Exit description~
+~
+0 0 8375
+D3
+~
+~
+0 0 8377
+S
+#8377
+In An Icy Cave~
+You stand in a large cave. Ice coats the walls. Your light lights the
+surroundings, it looks like someone's traveled through here recently. You hear
+strange noises.....
+~
+0 8192 0
+D0
+~
+~
+0 0 8378
+D1
+Exit description~
+~
+0 0 8376
+S
+#8378
+A Large Icy Cave~
+You stand in a large opening within the ice caves.  Remnants of a fire lay in
+the middle of the room. A sleeping bag resides alongside the fire. Someone's
+been living here!?
+~
+0 8192 0
+D2
+Exit description~
+~
+0 0 8377
+S
+#0
+
+
+#RESETS
+O 0 8300 1 8318
+M 0 8309 1 8330
+M 0 8314 1 8332
+E 1 8310 1 12
+M 0 8307 1 8335
+M 0 8306 1 8341
+M 0 8311 1 8341
+E 1 8307 1 12
+M 0 8313 1 8344
+E 1 8309 1 12
+M 0 8308 1 8346
+M 0 8310 1 8356
+M 0 8305 1 8357
+M 0 8312 1 8359
+E 1 8308 1 12
+M 0 8304 1 8370
+M 0 8301 1 8371
+M 0 8302 1 8373
+M 0 8303 1 8375
+M 0 8301 1 8377
+M 0 8300 1 8378
+E 1 8301 1 21
+E 1 8302 1 8
+E 1 8303 1 5
+E 1 8304 1 12
+E 1 8305 1 11
+E 1 8306 1 17
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

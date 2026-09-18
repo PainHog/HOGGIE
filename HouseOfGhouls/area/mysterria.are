@@ -1,0 +1,1486 @@
+#AREA Mysterria Valley~
+
+#VERSION 1
+
+#CLIMATE 4 3 1
+
+#AUTHOR Sirus~
+
+#RANGES
+45 50 1 50
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 1 0
+
+#MOBILES
+#8601
+dragon hatchling~
+a dragon hatchling~
+A dragon hatchling is here hissing at you.
+~
+The dragon hatchling is a shiny greenish-silver color.  It has a long
+forked tongue it keeps sticking out.  It is about 3 feet long.
+~
+65637 524288 0 C
+30 0 7 375d0+0 4d5+3
+101 250
+8 8 0
+15 15 10 15 16 10 13
+0 0 0 0 0
+31 0 36 40 2048 2048 1
+7 7 819200 1048576 0 0 0 2
+#8602
+ice dragon~
+an ice dragon~
+An ice dragon is here, its claws look very deadly!
+~
+The ice dragon has one massive claw made of ice!  If you could manage to slay
+the beast it may pose as a good weapon.  It has a large horn that protrudes
+from its forehead, it also has two large wings that have a *HUGE* span!
+~
+67 273154176&256 0 C
+55 0 -56 460d0+0 4d5+4
+200 290
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+31 0 80 487 2048 2048 0
+12 9 8 2097152 2 0 8260 2
+#8603
+fire dragon~
+a fire dragon~
+The fire dragon stands here.  It blows fire straight at you!
+~
+The fire dragon looks quite large.  It has red scales and many spikes in many
+locations on its body.  Its fire breath looks very deadly!
+~
+99 4194944&256 0 C
+55 0 -56 460d0+0 4d4+8
+231 290
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+31 3 90 568 2048 2048 1
+10 10 1245184 2097152 1 0 4358 2
+#8604
+green dragon~
+a green dragon~
+A green dragon stands here.  It has smooth scales that resemble a snake.
+~
+The green dragon has very smooth scales, much like that of a snake.  It has
+jungle green scales which make it blend in very well with its surroundings.  It
+has two sharp teeth that protrude from its mouth.
+~
+97 4816960&320 0 C
+65 0 -87 500d0+0 5d6+4
+303 300
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+31 0 85 488 67584 2048 1
+18 18 2425864 1048576 2097536 0 196935 67
+#8605
+brown dragonet~
+a brown dragonet~
+A brown dragonet flies along here.
+~
+The brown dragonet has two very fragile wings and a very frail body.  You look
+at its large head and see many teeth that look like daggers protruding from
+its mouth.  At the end of its tail are three large spikes, which could inflict
+some damage if provoked.
+~
+65601 524288 0 C
+35 0 -25 300d0+0 3d5+5
+201 300
+8 8 0
+18 18 18 18 18 18 18
+0 0 0 0 0
+31 0 36 20 2048 2048 0
+15 15 163848 4 0 0 7 2
+#8606
+spiked dragon~
+a spiked dragon~
+A dragon with many spikes is here.  It growls at the sight of you.
+~
+The spiked dragon is gray with many large spikes that are found all over its
+large body.  It is not able to fly with its small wings, but its spikes could
+provide quite the offense and defense.
+~
+97 1078460544&320 0 C
+60 0 -118 600d0+0 4d8+7
+305 310
+8 8 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+31 3 90 676 2048 2048 0
+20 25 295944 0 2097232 0 67109063 3
+#8607
+dragon knight~
+the dragon knight~
+A dragon knight stands here, fully suited for anything.
+~
+The dragon knight is wearing the typical dragon slayer's equipment.  It is
+wielding a large sword which has seen the body of many dragons.
+~
+65 6299776 0 C
+50 0 -87 640d0+0 5d7+6
+350 350
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 3 73 260 2049 1 1
+18 18 527 3145728 0 0 278921328 524299
+#8608
+dragon king~
+the dragon King~
+The king of the dragons is here.  It is a dragon too!
+~
+The king of the dragons is here.  It too is a dragon, somehow it must have
+taken control of the other dragons.  It wears a crown upon its head proudly,
+it has a huge cleaver for a weapon.
+~
+99 373293184&320 -250 C
+65 0 -150 900d0+0 5d9+8
+100 300
+8 8 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+31 0 80 600 75777 65536 0
+10 10 98313 1048967 2105352 0 16974085 71
+#8609
+drow adventurer~
+the drow adventurer~
+An adventurer seeks dragons here.  It looks like a drow.
+~
+The drow adventurer stands at six feet, three inches.  He is very light weight
+and could move around quite well.  He is foolishly looking for a fight.
+~
+97 98312 -500 C
+40 0 -56 500d0+0 4d6+5
+300 310
+8 8 1
+20 20 20 25 20 20 20
+0 0 0 0 0
+11 0 72 165 2 2 0
+15 15 393 0 256 0 1142949104 2637827
+#8610
+Mathasus wizard~
+Mathasus the Wizard~
+Mathasus, the wizard stands before you.
+~
+Mathasus is the dragon king's personal wizard.  He is a drow with long black
+hair and fair dark skin.  He is dressed in dark clothes.
+~
+65 36700290 -250 C
+55 0 0 800d0+0 3d5+5
+300 320
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+1 0 74 172 1 1 1
+13 13 24 3153920 0 0 1942028352 524411
+#8611
+Blathar warrior~
+Blathar the Warrior~
+Blathar, the warrior stands before you.
+~
+Blathar is the dragon king's personal bodyguard.  He is a half-ogre, and as
+the typical half-ogre is bald.  He is unlike most ogres though because of his
+smarts.
+~
+196675 1077936128&256 -250 C
+60 0 -118 800d0+0 6d9+7
+30 350
+8 8 1
+25 25 20 20 20 20 20
+0 0 0 0 0
+6 3 85 368 16 16 1
+20 25 1673 0 0 0 1210057968 524291
+#8612
+ancient red dragon~
+the ancient red dragon~
+The ancient red dragon is before you in a blaze of fire.
+~
+The ancient red dragon is the most powerful dragon known.  He is the true king
+of the dragons but he was unable to defeat the dragon king's wizard and body
+guard, forcing him to surrender.
+~
+99 37748864&320 -350 C
+65 0 -150 1000d0+0 8d8+8
+465 350
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+31 3 90 765 71680 2048 1
+20 20 1114137 0 2097153 0 4422 583
+#0
+
+#OBJECTS
+#8601
+dragon scale sash~
+a dragon scale sash~
+A sash made of dragon scale lies here.~
+~
+9 0 8193 0
+8 8 0 0
+3 1000 0
+E
+dragon scale sash~
+This sash is made of dragon scale; it is very hard yet not made of metal.  You
+are very surprised by the weight of the sash.
+~
+#8602
+Flame claw~
+the Flame Claw~
+A claw made of fire lies here.~
+~
+5 64 131073 0
+13 3 2 5
+3 2000 0
+A
+18 3
+A
+19 2
+#8603
+silver dragon scale robes~
+silver dragon scale robes~
+Some robes made of silver dragon scale are here.~
+~
+9 64 2049 0
+7 7 0 0
+6 1500 0
+E
+silver dragon scale robes~
+These robes are quite heavy, and are metal.  The silver shimmers in the
+sunlight.  Each scale is perfect.
+~
+A
+3 3
+#8604
+burning plate~
+the Burning Plate~
+A burning plate lies here in a blaze.~
+~
+9 64 65 0
+6 6 0 0
+3 3000 0
+A
+1 3
+#8605
+dragon scale sleeves~
+some dragon scale sleeves~
+A pair of dragon scale sleeves are here.~
+~
+9 0 129 0
+8 8 0 0
+4 2000 0
+E
+dragon scale sleeves~
+These sleeves are made of dragon scale, which is one of the strongest known
+types of armor which is not metal.  They are very light weight and look very
+nice as well.
+~
+#8606
+dragon scale leggings~
+some dragon scale leggings~
+A pair of dragon scale leggings are here.~
+~
+9 0 16385 0
+8 8 0 0
+4 1000 0
+#8607
+dragon claw dragon's~
+a dragon's claw~
+A dragon's claw is here, in a puddle of blood.~
+~
+5 0 131073 0
+13 3 2 22
+3 1000 0
+#8608
+spiked gauntlets~
+a pair of spiked gauntlets~
+You see a pair of spiked gauntlets here, they look very sharp.~
+~
+9 64 513 0
+4 4 0 0
+6 2000 0
+A
+18 2
+A
+19 2
+#8609
+spiked plate mail~
+spiked plate mail~
+A plate of mail with spikes on it is here.~
+~
+9 524352 65 0
+14 14 0 0
+5 2500 0
+A
+18 2
+A
+19 2
+#8610
+spiked sash~
+a spiked sash~
+You see a sash here, it has spikes on it.~
+~
+9 64 8193 0
+3 3 0 0
+5 2500 0
+A
+18 2
+A
+19 2
+#8611
+spiked statue~
+a spiked statue~
+You see a statue here, it is spiked.~
+~
+8 64 1048577 0
+0 0 0 0
+5 1000 0
+A
+18 2
+A
+19 2
+#8612
+helm of offensive might~
+the Helm of Offensive Might~
+A helm lies here, it is dented and bloody.~
+~
+9 524352 3 0
+8 8 0 0
+3 2000 0
+A
+17 -10
+A
+18 4
+#8613
+dragon scale~
+a dragon scale~
+A scale from a dragon is here, waiting to be claimed.~
+~
+8 64 2097153 0
+0 0 0 0
+1 15 0
+A
+24 -2
+#8614
+dragon scale ring~
+a dragon scale ring~
+A dragon scale ring lies here.
+~
+~
+9 64 1025 0
+2 2 0 0
+1 2000 0
+A
+3 -1
+A
+23 -3
+#8615
+dragon scale bracer~
+a dragon scale bracer~
+A dragon scale bracer lies here.
+~
+~
+9 0 257 0
+7 7 0 0
+3 2000 0
+#8616
+silver shield~
+a silver shield~
+A shield made of silver lies here, shimmering in the sun.~
+~
+9 524353 524289 0
+13 13 0 0
+10 3000 0
+A
+2 3
+#8617
+dragon bane~
+the Dragon Bane~
+You see a sword here, it has a label which reads "Dragon Bane".~
+~
+5 4288 131073 0
+13 4 4 3
+15 2000 0
+A
+18 5
+A
+19 3
+#8618
+dragon crown~
+the Dragon Crown~
+A crown lies here upon the ground, take it.~
+~
+9 64 3 0
+4 4 0 0
+3 2000 0
+A
+14 -30
+A
+12 60
+#8619
+dragon scepter~
+the Dragon Scepter~
+A scepter lies here, it has a small inscription on it which says "Dragon".~
+~
+4 64 1048577 0
+40 7 7 -1
+3 50000 0
+'fireball'
+#8620
+spiked leather sash~
+a spiked leather sash~
+A sash made of leather lies here, it looks like it has spikes on it.
+~
+~
+9 64 2049 0
+4 4 0 0
+3 1000 0
+A
+18 1
+A
+35 -5
+A
+19 2
+#8621
+dragon scale robes~
+dragon scale robes~
+Some dragon scale robes are here upon the ground.~
+~
+9 0 4097 0
+8 8 0 0
+3 1000 0
+#8622
+ancient cleaver~
+the Ancient Cleaver~
+A large cleaver is here, bloody and well used.~
+~
+5 4160 131073 0
+13 4 3 3
+16 2000 0
+A
+19 4
+A
+18 5
+#8623
+dragon dagger~
+a dragon dagger~
+A dagger lies here in the dirt.~
+~
+5 64 131073 0
+13 2 4 11
+4 1800 0
+A
+24 -4
+A
+23 -4
+#8624
+iron tower shield~
+an iron tower shield~
+An iron tower shield lies here upon the ground, it shows little damage.~
+~
+9 524352 524289 0
+14 14 0 0
+6 500 0
+A
+4 3
+#8625
+suit quilted armor~
+a suit of quilted armor~
+A suit of quilted armor lies here, upon the ground.~
+~
+9 64 65 0
+3 3 0 0
+2 2000 0
+A
+3 2
+#8626
+scroll protection~
+the scroll of protection~
+A dusty scroll lies here, ready to be used.~
+~
+2 64 1048577 0
+20 -1 -1 -1
+2 500 0
+'sanctuary' 'NONE' 'NONE'
+#8627
+dragon scale boots~
+a pair of dragon scale boots~
+A pair of dragon scale boots lies here.~
+~
+9 0 65537 0
+7 7 0 0
+3 1000 0
+#8628
+obsidian wand~
+the obsidian wand~
+A wand lies here, it is made of black stone and it glows red.~
+~
+3 576 1048577 0
+25 5 5 -1
+8 2000 0
+'quantum spike'
+A
+24 -3
+#8629
+cloak magic~
+the Cloak of Magic~
+A cloak is here, it is inside of a blue aura.~
+~
+9 1088 33 0
+5 5 0 0
+7 2000 0
+A
+79 3
+A
+14 -20
+A
+13 -10
+A
+12 60
+#8630
+cap ogre power~
+the Cap of Ogre Power~
+A cap lies here, covered in dirt and dust.~
+~
+9 65 3 0
+5 5 0 0
+2 1000 0
+A
+3 -3
+A
+1 4
+#8631
+crest wizardry~
+the Crest of Wizardry~
+A small crest lies here, it emits an unknown power.~
+~
+8 64 2097153 0
+0 0 0 0
+1 0 0
+A
+79 3
+A
+12 25
+#8632
+broadsword darkness~
+the Broadsword of Darkness~
+A broadsword lies here, it is shrouded in darkness.~
+~
+5 192&16 131073 0
+13 5 7 3
+7 2000 0
+A
+18 3
+A
+19 5
+#8633
+buckler night~
+the Buckler of Night~
+A black buckler lies here, ready to defend attacks.~
+~
+9 576 524289 0
+4 4 0 0
+4 1000 0
+A
+19 2
+#8634
+spiked suit of thorns~
+the spiked suit of thorns~
+A suit here with many thorns on it lies here.~
+~
+9 64 65 0
+5 5 0 0
+6 1500 0
+A
+1 3
+#8635
+helm darkness~
+the Helm of Darkness~
+You see a shiny black helm here, it hums quietly.~
+~
+9 66 3 0
+6 6 0 0
+4 1000 0
+A
+2 3
+#8636
+bindings blackstar~
+the Bindings of Blackstar~
+A small set of bindings lay here.~
+~
+9 4160 32769 0
+4 4 0 0
+2 1500 0
+A
+5 2
+#8637
+pin might red ruby~
+the Pin of Might~
+A small pin made of a deep red ruby lies here.~
+~
+8 64 2097153 0
+0 0 0 0
+1 0 0
+A
+1 2
+#8638
+brooch agony~
+the Brooch of Agony~
+A small brooch lies here, sorrow emits from it.~
+~
+8 64 2097153 0
+0 0 0 0
+1 0 0
+A
+19 -2
+#8639
+dragon slayer's gloves~
+the dragon slayer's gloves~
+A pair of gloves lay here upon the ground.
+~
+~
+9 64 513 0
+5 5 0 0
+4 1000 0
+A
+23 -10
+#8640
+scales ancient red dragon~
+the scales ancient red dragon~
+A pile of scales lay here, in a pool of blood.~
+~
+9 576 65 0
+8 8 0 0
+3 1000 0
+A
+13 30
+A
+12 30
+#8641
+scale red dragon~
+a scale of the red dragon~
+A small red scale is here, it glows in the darkness.~
+~
+8 65 2097153 0
+0 0 0 0
+1 0 0
+A
+18 2
+#8642
+ice claw~
+the Ice Claw~
+A claw made of ice lies here.~
+~
+5 64 131073 0
+13 2 3 23
+3 5000 0
+A
+18 3
+A
+19 3
+#0
+
+#ROOMS
+#8601
+A Path Through The Dense Jungle~
+You stumble along this path which has many dense plants growing all over.
+Ferns and small trees make it very difficult to navigate.  It slowly get more
+hot and humid as you get closer, you can hear the sounds of dragons in the
+distance.
+
+An old sign is here in very bad shape, you should look at it.
+~
+0 134218756 3 0 0 0
+D2
+~
+~
+0 0 8602 0
+D0
+~
+~
+0 0 4111 0
+E
+old sign~
+|---------------------------------|
+| |-----------------------------| |
+| |      Myst##ria Va#ley       | |
+| |         ***DA#G#R***        | |
+| |     BEW##E OF DRA#O#S       | |
+| |       GO BA## NOW!          | |
+| |------------------------------ |
+|---------------------------------|
+
+You try to figure out what it the sign reads in its bad condition.
+~
+S
+#8602
+A Path Through The Dense Jungle~
+You stumble along this path which has many dense plants growing all over.
+Ferns and small trees make it very difficult to navigate.  It slowly get more
+hot and humid as you get closer, you can hear the sounds of dragons in the
+distance.
+~
+0 134217728 3 0 0 0
+D0
+~
+~
+0 0 8601 0
+D2
+~
+~
+0 0 8603 0
+S
+#8603
+A Path Through The Dense Jungle~
+You stumble along this path which has many dense plants growing all over.
+Ferns and small trees make it very difficult to navigate.  It slowly get more
+hot and humid as you get closer, you can hear the sounds of dragons in the
+distance.
+~
+0 134217728 3 0 0 0
+D0
+Exit description~
+~
+0 0 8602 0
+D1
+~
+~
+0 0 8604 0
+S
+#8604
+A Path Through The Dense Jungle~
+You stumble along this path which has many dense plants growing all over.
+Ferns and small trees make it very difficult to navigate.  It slowly get more
+hot and humid as you get closer, you can hear the sounds of dragons in the
+distance.
+~
+0 134217728 3 0 0 0
+D3
+Exit description~
+~
+0 0 8603 0
+D1
+~
+~
+0 0 8605 0
+S
+#8605
+At The Base Of A Massive Canyon~
+You slowly walk through the base of a massive canyon, the grade of the slope
+is taking you down further into the jungle.  You can hear the sounds of
+dragons all around you.  You walk in a shallow stream and feel the small
+little fish brush past your feet.  You look up to the top of the canyon, it
+has a thick canopy from the trees; little places here and there you can see
+the sun shine through.
+
+A warm breeze from the south is blowing.
+~
+0 134217728 3 0 0 0
+D3
+~
+~
+0 0 8604 0
+D2
+~
+~
+0 0 8606 0
+S
+#8606
+At The Base Of A Massive Canyon~
+You slowly walk through the base of a massive canyon, the grade of the slope
+is taking you down further into the jungle.  You can hear the sounds of
+dragons all around you.  You walk in a shallow stream and feel the small
+little fish brush past your feet.  You look up to the top of the canyon, it
+has a thick canopy from the trees; little places here and there you can see
+the sun shine through.
+
+A warm breeze from the south is blowing.
+~
+0 134217728 3 0 0 0
+D0
+Exit description~
+~
+0 0 8605 0
+D2
+~
+~
+0 0 8607 0
+S
+#8607
+At The Base Of A Massive Canyon~
+You slowly walk through the base of a massive canyon, the grade of the slope
+is taking you down further into the jungle.  You can hear the sounds of
+dragons all around you.  You walk in a shallow stream and feel the small
+little fish brush past your feet.  You look up to the top of the canyon, it
+has a thick canopy from the trees; little places here and there you can see
+the sun shine through.
+
+A warm breeze from the south is blowing.
+~
+0 134217728 3 0 0 0
+D0
+Exit description~
+~
+0 0 8606 0
+D2
+~
+~
+0 0 8608 0
+S
+#8608
+At The Base Of A Massive Canyon~
+You slowly walk through the base of a massive canyon, the grade of the slope
+is taking you down further into the jungle.  You can hear the sounds of
+dragons all around you.  You walk in a shallow stream and feel the small
+little fish brush past your feet.  You look up to the top of the canyon, it
+has a thick canopy from the trees; little places here and there you can see
+the sun shine through.
+
+A warm breeze from the south is blowing.
+~
+0 134217728 3 0 0 0
+D0
+Exit description~
+~
+0 0 8607 0
+D1
+~
+~
+0 0 8609 0
+S
+#8609
+At The Base Of A Massive Canyon~
+You slowly walk through the base of a massive canyon, the grade of the slope
+is taking you down further into the jungle.  You can hear the sounds of
+dragons all around you.  You walk in a shallow stream and feel the small
+little fish brush past your feet.  You look up to the top of the canyon, it
+has a thick canopy from the trees; little places here and there you can see
+the sun shine through.
+
+A warm breeze from the south is blowing.
+~
+0 134217728 3 0 0 0
+D3
+Exit description~
+~
+0 0 8608 0
+D2
+~
+~
+0 0 8610 0
+S
+#8610
+In The Dense Jungle~
+You step into the dense jungle; there is little sign of a path here.  You feel
+a mist spraying you as you get closer and closer to what sounds to be a
+waterfall.  You try to look ahead but can't see anything special.  You do seem
+to notice that it looks like a mountain is forming to the west of you and
+there may be something neat there.
+~
+0 134217728 3 1 0 0
+D0
+Exit description~
+~
+0 0 8609 0
+D2
+~
+~
+0 0 8611 0
+D1
+~
+~
+0 0 8627 0
+S
+#8611
+In The Dense Jungle~
+You step into the dense jungle; there is little sign of a path here.  You feel
+a mist spraying you as you get closer and closer to what sounds to be a
+waterfall.  You try to look ahead but can't see anything special.  You do seem
+to notice that it looks like a mountain is forming to the west of you and
+there may be something neat there.
+~
+0 134217728 3 1 0 0
+D0
+~
+~
+0 0 8610 0
+D1
+~
+~
+0 0 8612 0
+S
+#8612
+In The Dense Jungle~
+You step into the dense jungle; there is little sign of a path here.  You feel
+a mist spraying you as you get closer and closer to what sounds to be a
+waterfall.  You try to look ahead but can't see anything special.  You do seem
+to notice that it looks like a mountain is forming to the west of you and
+there may be something neat there.
+~
+0 134217728 3 1 0 0
+D3
+Exit description~
+~
+0 0 8611 0
+D2
+~
+~
+0 0 8613 0
+S
+#8613
+In The Dense Jungle~
+You step into the dense jungle; there is little sign of a path here.  You feel
+a mist spraying you as you get closer and closer to what sounds to be a
+waterfall.  You try to look ahead but can't see anything special.  You do seem
+to notice that it looks like a mountain is forming to the west of you and
+there may be something neat there.
+~
+0 134217728 3 1 0 0
+D0
+Exit description~
+~
+0 0 8612 0
+D2
+~
+~
+0 0 8614 0
+S
+#8614
+In The Dense Jungle~
+You step into the dense jungle; there is little sign of a path here.  You feel
+a mist spraying you as you get closer and closer to what sounds to be a
+waterfall.  You try to look ahead but can't see anything special.  You do seem
+to notice that it looks like a mountain is forming to the west of you and
+there may be something neat there.
+~
+0 134217728 3 1 0 0
+D0
+Exit description~
+~
+0 0 8613 0
+D1
+~
+~
+0 0 8615 0
+S
+#8615
+Mysterria Falls~
+You stand at the bottom of this large waterfall.  You look to the north of you
+and you can see the lake extend outward, it looks to be quite shallow though.
+ Behind the waterfall something catches your eye it looks to be ice.  A cool
+breeze blows from behind the waterfall.
+~
+0 134217728 7 0 0 0
+D3
+Exit description~
+~
+0 0 8614 0
+D0
+~
+~
+0 0 8616 0
+D2
+~
+~
+0 0 8623 0
+S
+#8616
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+can see many dragons up ahead and they all look quite mean.  One looks over in
+your direction, which startles you a bit, but you continue on.  To the west
+you can see a small shrine of some sort, and to the north you can see what
+appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D2
+Exit description~
+~
+0 0 8615 0
+D1
+~
+~
+0 0 8617 0
+D0
+~
+~
+0 0 8618 0
+D3
+~
+~
+0 0 8622 0
+S
+#8617
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+ can see many dragons up ahead and they all look quite mean.  One looks over
+in  your direction, which startles you a bit, but you continue on.  To the
+north you can see what  appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D3
+Exit description~
+~
+0 0 8616 0
+D0
+~
+~
+0 0 8619 0
+S
+#8618
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+ can see many dragons up ahead and they all look quite mean.  One looks over
+in  your direction, which startles you a bit, but you continue on.  To the
+north you can see what  appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D2
+Exit description~
+~
+0 0 8616 0
+D1
+~
+~
+0 0 8619 0
+D0
+~
+~
+0 0 8620 0
+S
+#8619
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+ can see many dragons up ahead and they all look quite mean.  One looks over
+in  your direction, which startles you a bit, but you continue on.  To the
+north you can see what  appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D2
+~
+~
+0 0 8617 0
+D3
+Exit description~
+~
+0 0 8618 0
+D0
+~
+~
+0 0 8621 0
+S
+#8620
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+ can see many dragons up ahead and they all look quite mean.  One looks over
+in  your direction, which startles you a bit, but you continue on.  To the
+north you can see what  appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D2
+Exit description~
+~
+0 0 8618 0
+D1
+~
+~
+0 0 8621 0
+D0
+~
+~
+0 0 8637 0
+S
+#8621
+Mysterria Lake~
+You wade through the lake careful not to step on anything or be too loud.  You
+ can see many dragons up ahead and they all look quite mean.  One looks over
+in  your direction, which startles you a bit, but you continue on.  To the
+north you can see what  appears to be a small castle.
+~
+0 134217728 6 0 0 0
+D2
+~
+~
+0 0 8619 0
+D3
+Exit description~
+~
+0 0 8620 0
+S
+#8622
+The Dragon Shrine~
+You stand in a small and very badly damaged shrine.  It emits a dim blue light
+from within.  You come into the center of the shrine and see an altar with a
+badly torn book on it.  Behind the altar there is a crest of the dragon
+knights, you think this is where they camped.  This place has very strong
+protection spells.
+~
+0 137372684 0 0 0 0
+D1
+Exit description~
+~
+0 0 8616 0
+S
+#8623
+The Ice Caverns~
+You stand in the small ice cavern and feel very cold.  You see many dragons
+around you, which scare you quite a bit.  You look all around you at the ice
+and see its beauty.
+~
+0 134217728 13 0 0 0
+D0
+Exit description~
+~
+0 0 8615 0
+D2
+~
+~
+0 0 8624 0
+S
+#8624
+The Ice Caverns~
+You stand in the small ice cavern and feel very cold.  You see many dragons
+around you, which scare you quite a bit.  You look all around you at the ice
+and see its beauty.
+~
+0 134217728 13 0 0 0
+D0
+~
+~
+0 0 8623 0
+D1
+~
+~
+0 0 8625 0
+D3
+~
+~
+0 0 8626 0
+S
+#8625
+The Ice Caverns~
+You stand in the small ice cavern and feel very cold.  You see many dragons
+around you, which scare you quite a bit.  You look all around you at the ice
+and see its beauty.
+~
+0 134217728 13 0 0 0
+D3
+~
+~
+0 0 8624 0
+S
+#8626
+The Ice Caverns~
+You stand in the small ice cavern and feel very cold.  You see many dragons
+around you, which scare you quite a bit.  You look all around you at the ice
+and see its beauty.
+~
+0 134217728 13 0 0 0
+D1
+~
+~
+0 0 8624 0
+S
+#8627
+Climbing A Mountain~
+You slow make your way to the top of the mountain, at the top you can see a
+small cave glowing.  It gets hotter as you get closer.  The sky is gray and
+smokey.
+~
+0 134217728 5 0 0 0
+D0
+~
+~
+65664 0 8628 0
+D3
+Exit description~
+~
+0 0 8610 0
+S
+#8628
+Climbing A Mountain~
+You slow make your way to the top of the mountain, at the top you can see a
+small cave glowing.  It gets hotter as you get closer.  The sky is gray and
+smokey.
+~
+0 134217728 5 0 0 0
+D2
+Exit description~
+~
+65664 0 8627 0
+D4
+~
+~
+65664 0 8629 0
+S
+#8629
+Climbing A Mountain~
+You slow make your way to the top of the mountain, at the top you can see a
+small cave glowing.  It gets hotter as you get closer.  The sky is gray and
+smokey.
+~
+0 134217728 5 0 0 0
+D5
+Exit description~
+~
+65664 0 8628 0
+D0
+~
+~
+65664 0 8630 0
+S
+#8630
+Climbing A Mountain~
+You slow make your way to the top of the mountain, at the top you can see a
+small cave glowing.  It gets hotter as you get closer.  The sky is gray and
+smokey.
+~
+0 134217728 5 0 0 0
+D2
+Exit description~
+~
+65664 0 8629 0
+D0
+~
+~
+0 0 8631 0
+S
+#8631
+The Entrance To The Cave~
+You stand in the entrance to the cave.  Many dragons are around you blowing
+their fire breath in your direction as a warning.  You look up ahead and see a
+small locked gate with a big dragon locked behind it.
+~
+0 134217728 5 0 0 0
+D0
+~
+~
+0 0 8632 0
+D2
+~
+~
+0 0 8630 0
+S
+#8632
+The Fire Cave~
+You stand in the middle of the fire beasts now.  You make your way closer to
+the gate to see what is behind it.  As you come closer so do the dragons, the
+ground is black from the fire.
+~
+0 134217728 13 0 0 0
+D2
+Exit description~
+~
+0 0 8631 0
+D1
+~
+~
+0 0 8633 0
+D3
+~
+~
+0 0 8634 0
+D0
+~
+~
+1 0 8635 0
+S
+#8633
+The Fire Cave~
+You stand in the middle of the fire beasts now.  You make your way closer to
+the gate to see what is behind it.  As you come closer so do the dragons, the
+ground is black from the fire.
+~
+0 134217728 13 0 0 0
+D3
+Exit description~
+~
+0 0 8632 0
+S
+#8634
+The Fire Cave~
+You stand in the middle of the fire beasts now.  You make your way closer to
+the gate to see what is behind it.  As you come closer so do the dragons, the
+ground is black from the fire.
+~
+0 134217728 13 0 0 0
+D1
+Exit description~
+~
+0 0 8632 0
+S
+#8635
+The Fire Cave~
+You stand in the middle of the fire beasts now.  You make your way closer to
+the gate to see what is behind it.  As you come closer so do the dragons, the
+ground is black from the fire.
+~
+0 134217728 13 0 0 0
+D2
+~
+gate~
+1 0 8632 0
+D0
+~
+~
+1 0 8636 0
+S
+#8636
+In A Small Cell~
+You stand before the largest dragon you have ever seen.  He looks straight at
+you then attacks.  The room is very small and black from his fire.
+~
+0 134217728 0 0 0 0
+D2
+~
+gate~
+1 0 8635 0
+S
+#8637
+The Dragon Palace~
+You stand in small and not very ornate palace.  It is basic, a throne and many
+suits of armor on the walls.  The dragon king looks straight at you and
+motions to the men on both sides of him towards you.
+~
+0 134217736 0 0 0 0
+D2
+~
+~
+0 0 8620 0
+S
+#0
+
+#RESETS
+D 0 8632 0 1  ; Door: #8632 The Fire Cave/north => closed
+D 0 8635 0 1  ; Door: #8635 The Fire Cave/north => closed
+D 0 8635 2 1  ; Door: #8134 The Fire Cave/south => closed
+D 0 8636 2 1  ; Door: #8135 In A Small Cell/south => closed
+M 0 8602 2 8625  ; Mob: #8101 an ice dragon => #8124 The ice caverns
+E 1 8642 2 21  ; -- Equip: #8141 the Ice Claw (Wield)
+E 1 8603 2 14  ; -- Equip: #8102 silver dragon scale robes (Body)
+M 0 8602 2 8626  ; Mob: #8101 an ice dragon => #8125 The ice caverns
+E 1 8603 2 14  ; -- Equip: #8102 silver dragon scale robes (Body)
+E 1 8642 2 21  ; -- Equip: #8141 the Ice Claw (Wield)
+M 0 8604 3 8610  ; Mob: #8103 a green dragon => #8109 In the dense jungle
+E 1 8607 3 21  ; -- Equip: #8106 a dragon's claw (Wield)
+E 1 8606 3 17  ; -- Equip: #8105 some dragon scale leggings (Legs)
+E 1 8605 3 8  ; -- Equip: #8104 some dragon scale sleeves (Arms)
+M 0 8604 3 8607  ; Mob: #8103 a green dragon => #8106 At the base of a massive canyon
+E 1 8607 3 21  ; -- Equip: #8106 a dragon's claw (Wield)
+E 1 8606 3 17  ; -- Equip: #8105 some dragon scale leggings (Legs)
+E 1 8605 3 8  ; -- Equip: #8104 some dragon scale sleeves (Arms)
+M 0 8604 3 8604  ; Mob: #8103 a green dragon => #8103 A path through the dense jungle
+E 1 8607 3 21  ; -- Equip: #8106 a dragon's claw (Wield)
+E 1 8606 3 17  ; -- Equip: #8105 some dragon scale leggings (Legs)
+E 1 8605 3 8  ; -- Equip: #8104 some dragon scale sleeves (Arms)
+M 0 8605 11 8602  ; Mob: #8104 a brown dragonet => #8101 A path through the dense jungle
+M 0 8605 11 8602  ; Mob: #8104 a brown dragonet => #8101 A path through the dense jungle
+M 0 8605 11 8603  ; Mob: #8104 a brown dragonet => #8102 A path through the dense jungle
+M 0 8605 11 8605  ; Mob: #8104 a brown dragonet => #8104 At the base of a massive canyon
+M 0 8605 11 8608  ; Mob: #8104 a brown dragonet => #8107 At the base of a massive canyon
+M 0 8605 11 8612  ; Mob: #8104 a brown dragonet => #8111 In the dense jungle
+M 0 8605 11 8611  ; Mob: #8104 a brown dragonet => #8110 In the dense jungle
+M 0 8605 11 8609  ; Mob: #8104 a brown dragonet => #8108 At the base of a massive canyon
+M 0 8605 11 8613  ; Mob: #8104 a brown dragonet => #8112 In the dense jungle
+M 0 8601 3 8611  ; Mob: #8100 a dragon hatchling => #8110 In the dense jungle
+E 1 8601 3 16  ; -- Equip: #8100 a dragon scale sash (About)
+M 0 8601 3 8603  ; Mob: #8100 a dragon hatchling => #8102 A path through the dense jungle
+E 1 8601 3 16  ; -- Equip: #8100 a dragon scale sash (About)
+M 0 8601 3 8620  ; Mob: #8100 a dragon hatchling => #8119 Mysterria Lake
+E 1 8601 3 16  ; -- Equip: #8100 a dragon scale sash (About)
+M 0 8606 2 8617  ; Mob: #8105 a spiked dragon => #8116 Mysterria Lake
+E 1 8610 2 16  ; -- Equip: #8109 a spiked sash (About)
+E 1 8611 2 24  ; -- Equip: #8110 a spiked statue (Hold)
+E 1 8609 2 7  ; -- Equip: #8108 spiked plate mail (Body)
+E 1 8608 2 11  ; -- Equip: #8107 a pair of spiked gauntlets (Hands)
+M 0 8606 2 8619  ; Mob: #8105 a spiked dragon => #8118 Mysterria Lake
+E 1 8611 2 24  ; -- Equip: #8110 a spiked statue (Hold)
+E 1 8610 2 16  ; -- Equip: #8109 a spiked sash (About)
+E 1 8609 2 7  ; -- Equip: #8108 spiked plate mail (Body)
+E 1 8608 2 11  ; -- Equip: #8107 a pair of spiked gauntlets (Hands)
+M 0 8607 2 8606  ; Mob: #8106 the dragon knight => #8105 At the base of a massive canyon
+E 1 8613 2 25  ; -- Give:  #8112 a dragon scale
+E 1 8617 2 21  ; -- Equip: #8116 the Dragon Bane (Wield)
+E 1 8616 2 23  ; -- Equip: #8115 a silver shield (Shield)
+E 1 8615 2 9  ; -- Equip: #8114 a dragon scale bracer (Wrist-L)
+E 1 8614 2 12  ; -- Equip: #8113 a dragon scale ring (Finger-L)
+E 1 8612 2 1  ; -- Equip: #8111 the Helm of Offensive Might (Head)
+M 0 8607 2 8614  ; Mob: #8106 the dragon knight => #8113 In the dense jungle
+E 1 8613 2 25  ; -- Give:  #8112 a dragon scale
+E 1 8617 2 21  ; -- Equip: #8116 the Dragon Bane (Wield)
+E 1 8616 2 23  ; -- Equip: #8115 a silver shield (Shield)
+E 1 8615 2 9  ; -- Equip: #8114 a dragon scale bracer (Wrist-L)
+E 1 8614 2 12  ; -- Equip: #8113 a dragon scale ring (Finger-L)
+E 1 8612 2 1  ; -- Equip: #8111 the Helm of Offensive Might (Head)
+M 0 8612 1 8636  ; Mob: #8111 the ancient red dragon => #8135 In a small cell
+E 1 8641 1 25  ; -- Give:  #8140 a scale of the red dragon
+E 1 8640 1 7  ; -- Equip: #8139 the scales ancient red dragon (Body)
+M 0 8603 3 8633  ; Mob: #8102 a fire dragon => #8132 The fire cave
+E 1 8604 3 7  ; -- Equip: #8103 the Burning Plate (Shield)
+M 0 8603 3 8634  ; Mob: #8102 a fire dragon => #8133 The fire cave
+E 1 8604 3 7  ; -- Equip: #8103 the Burning Plate (Shield)
+M 0 8603 3 8632  ; Mob: #8102 a fire dragon => #8131 The fire cave
+E 1 8604 3 7  ; -- Equip: #8103 the Burning Plate (Shield)
+M 0 8608 1 8637  ; Mob: #8107 the dragon king => #8136 The dragon palace
+E 1 8622 1 21  ; -- Equip: #8121 the Ancient Cleaver (Wield)
+E 1 8619 1 24  ; -- Equip: #8118 the Dragon Scepter (Hold)
+E 1 8618 1 1  ; -- Equip: #8117 the Dragon Crown (Head)
+M 0 8610 1 8637  ; Mob: #8109 Mathasus the wizard => #8136 The dragon palace
+E 1 8631 1 25  ; -- Give:  #8130 the Crest of Wizardry
+E 1 8629 1 5  ; -- Equip: #8128 the Cloak of Magic (About)
+E 1 8628 1 24  ; -- Equip: #8127 the obsidian wand (Hold)
+M 0 8611 1 8637  ; Mob: #8110 Blathar the warrior => #8136 The dragon palace
+E 1 8638 1 25  ; -- Give:  #8137 the brooch of agony
+E 1 8637 1 26  ; -- Give:  #8136 the pin of might
+E 1 8639 1 11  ; -- Equip: #8138 the dragon slayer's gloves (Hands)
+E 1 8636 1 18  ; -- Equip: #8135 the Bindings of Blackstar (Wrist-L)
+E 1 8635 1 1  ; -- Equip: #8134 the helm of darkness (Head)
+E 1 8634 1 7  ; -- Equip: #8133 the spiked suit of thorns (Body)
+E 1 8633 1 23  ; -- Equip: #8132 the Buckler of Night (Waist)
+E 1 8632 1 21  ; -- Equip: #8131 the broadsword of darkness (Wield)
+M 0 8609 3 8615  ; Mob: #8108 the drow adventurer => #8114 Mysterria Falls
+E 1 8625 3 7  ; -- Equip: #8124 a suit of quilted armor (Body)
+E 1 8627 3 20  ; -- Equip: #8126 a pair of dragon scale boots (Feet)
+E 1 8624 3 23  ; -- Equip: #8123 an iron tower shield (Shield)
+E 1 8626 3 24  ; -- Equip: #8125 the scroll of protection (Hold)
+E 1 8623 3 21  ; -- Equip: #8122 a dragon dagger (Wield)
+M 0 8609 3 8616  ; Mob: #8108 the drow adventurer => #8115 Mysterria Lake
+E 1 8623 3 21  ; -- Equip: #8122 a dragon dagger (Wield)
+E 1 8625 3 7  ; -- Equip: #8124 a suit of quilted armor (Body)
+E 1 8627 3 20  ; -- Equip: #8126 a pair of dragon scale boots (Feet)
+E 1 8626 3 24  ; -- Equip: #8125 the scroll of protection (Hold)
+E 1 8624 3 23  ; -- Equip: #8123 an iron tower shield (Shield)
+M 0 8609 3 8618  ; Mob: #8108 the drow adventurer => #8117 Mysterria Lake
+E 1 8624 3 23  ; -- Equip: #8123 an iron tower shield (Shield)
+E 1 8627 3 20  ; -- Equip: #8126 a pair of dragon scale boots (Feet)
+E 1 8626 3 24  ; -- Equip: #8125 the scroll of protection (Hold)
+E 1 8625 3 7  ; -- Equip: #8124 a suit of quilted armor (Body)
+E 1 8623 3 21  ; -- Equip: #8122 a dragon dagger (Wield)
+S
+
+#SPECIALS
+M 8601 spec_breath_any   ; a dragon hatchling
+M 8602 spec_breath_frost   ; an ice dragon
+M 8603 spec_breath_fire   ; a fire dragon
+M 8604 spec_breath_gas   ; a green dragon
+M 8605 spec_breath_lightning   ; a brown dragonet
+M 8606 spec_breath_any   ; a spiked dragon
+M 8607 spec_cast_diabolist   ; the dragon knight
+M 8608 spec_breath_any   ; the dragon King
+M 8609 spec_thief   ; the drow adventurer
+M 8610 spec_cast_archmagi   ; Mathasus the Wizard
+M 8611 spec_cast_undead   ; Blathar the Warrior
+M 8612 spec_breath_fire   ; the ancient red dragon
+S
+
+#$

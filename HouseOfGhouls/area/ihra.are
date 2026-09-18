@@ -1,0 +1,2185 @@
+#AREA   Ihra-Desh~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG The moans of the restless dead fill the void.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 951223954
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8401
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8402
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8403
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8404
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8405
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8406
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8407
+ghoul shambler~
+a ghoul shambler~
+This broken ghoul is shambling by in undeath.
+~
+This ghoul was once a great warrior or ranger.  Now they shuffle their way by
+with a lifeless look upon broken ankles.  It seems to have no intelligence at
+all, it merely wanders in a stupor of undeath.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 162 1
+#8408
+ghoul cityguard dead~
+a rotting ghoul cityguard~
+This long dead guard is still patrolling in death.
+~
+This ghoul was one of the cityguards of this great Kingdom.  It looks like
+they died fighting, judging by the numerous tears and rips in their armor.
+They still patrol in the throes of undeath, without any purpose or any
+meaning.
+~
+16777281 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 21 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8409
+ghoul cityguard dead~
+a rotting ghoul cityguard~
+This long dead guard is still patrolling in death.
+~
+This ghoul was one of the cityguards of this great Kingdom.  It looks like
+they died fighting, judging by the numerous tears and rips in their armor.
+They still patrol in the throes of undeath, without any purpose or any
+meaning.
+~
+16777281 0 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 21 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8410
+ghoul cityguard dead~
+a rotting ghoul cityguard~
+This long dead guard is still patrolling in death.
+~
+This ghoul was one of the cityguards of this great Kingdom.  It looks like
+they died fighting, judging by the numerous tears and rips in their armor.
+They still patrol in the throes of undeath, without any purpose or any
+meaning.
+~
+16777281 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 21 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8411
+ghoul cityguard dead~
+a rotting ghoul cityguard~
+This long dead guard is still patrolling in death.
+~
+This ghoul was one of the cityguards of this great Kingdom.  It looks like
+they died fighting, judging by the numerous tears and rips in their armor.
+They still patrol in the throes of undeath, without any purpose or any
+meaning.
+~
+16777281 0 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 21 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8412
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8413
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8414
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8415
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8416
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8417
+ghoul soldier dead~
+a ghoul soldier~
+This dead soldier is still defending this Kingdom.
+~
+The ghoul soldier still believes they are fighting a battle that ended
+centuries ago. It scans the area, looking for anything it can find that does
+not belong.  It sees you and charges forward, giving a garbled attempt at
+speech.
+~
+16777313 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 3 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8418
+ghoul citizen~
+a ghoul citizen~
+This unarmed ghoul was killed in the battle.
+~
+This ghoul was not a soldier or a warrior. Their broken and still animated
+flesh is without armor, wearing only tattered rags. They stumble about,
+searching in vain for those that have passed on to the greater world beyond.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8419
+ghoul citizen~
+a ghoul citizen~
+This unarmed ghoul was killed in the battle.
+~
+This ghoul was not a soldier or a warrior. Their broken and still animated
+flesh is without armor, wearing only tattered rags. They stumble about,
+searching in vain for those that have passed on to the greater world beyond.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8420
+ghoul citizen~
+a ghoul citizen~
+This unarmed ghoul was killed in the battle.
+~
+This ghoul was not a soldier or a warrior. Their broken and still animated
+flesh is without armor, wearing only tattered rags. They stumble about,
+searching in vain for those that have passed on to the greater world beyond.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 18 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8421
+ghoul citizen~
+a ghoul citizen~
+This unarmed ghoul was killed in the battle.
+~
+This ghoul was not a soldier or a warrior. Their broken and still animated
+flesh is without armor, wearing only tattered rags. They stumble about,
+searching in vain for those that have passed on to the greater world beyond.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8422
+ghoul citizen~
+a ghoul citizen~
+This unarmed ghoul was killed in the battle.
+~
+This ghoul was not a soldier or a warrior. Their broken and still animated
+flesh is without armor, wearing only tattered rags. They stumble about,
+searching in vain for those that have passed on to the greater world beyond.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 18 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8423
+ghoul magi rotting~
+a rotting ghoul magi~
+This magi is searching for their lost arm.
+~
+This ghoul magi is searching for their lost arm. They look saddened and
+plainly confused.  They crackle with energies that still have not left them.
+~
+16777281 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8424
+ghoul magi rotting~
+a rotting ghoul magi~
+This magi is searching for their lost arm.
+~
+This ghoul magi is searching for their lost arm. They look saddened and
+plainly confused.  They crackle with energies that still have not left them.
+~
+16777281 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8425
+ghoul magi rotting~
+a rotting ghoul magi~
+This magi is searching for their lost arm.
+~
+This ghoul magi is searching for their lost arm. They look saddened and
+plainly confused.  They crackle with energies that still have not left them.
+~
+16777281 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8426
+ghoul magi rotting~
+a rotting ghoul magi~
+This magi is searching for their lost arm.
+~
+This ghoul magi is searching for their lost arm. They look saddened and
+plainly confused.  They crackle with energies that still have not left them.
+~
+16777281 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8427
+ghoul hero dead~
+a rotting ghoul hero~
+This dead ghoul continues to wage the lost war.
+~
+This mighty ghoul was a great warrior for the Ihra-Desh Kingdom.  They
+fought with all their might to repel the Imperial soldiers but failed.  They
+continue to search for their prey but decide that you must do in their
+stead!
+~
+16777313 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 12 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8428
+ghoul hero dead~
+a rotting ghoul hero~
+This dead ghoul continues to wage the lost war.
+~
+This mighty ghoul was a great warrior for the Ihra-Desh Kingdom.  They
+fought with all their might to repel the Imperial soldiers but failed.  They
+continue to search for their prey but decide that you must do in their
+stead!
+~
+16777313 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 15 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8429
+ghoul hero dead~
+a rotting ghoul hero~
+This dead ghoul continues to wage the lost war.
+~
+This mighty ghoul was a great warrior for the Ihra-Desh Kingdom.  They
+fought with all their might to repel the Imperial soldiers but failed.  They
+continue to search for their prey but decide that you must do in their
+stead!
+~
+16777313 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 13 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8430
+ghoul hero dead~
+a rotting ghoul hero~
+This dead ghoul continues to wage the lost war.
+~
+This mighty ghoul was a great warrior for the Ihra-Desh Kingdom.  They
+fought with all their might to repel the Imperial soldiers but failed.  They
+continue to search for their prey but decide that you must do in their
+stead!
+~
+16777313 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8431
+ghoul commander~
+a ghoul commander~
+This heavily armoured ghoul is looking over his men.
+~
+This ghoul doesn't realize or doesn't want to admit that it has been dead for
+a long time.  It looks over the other shambling creatures and yells orders to
+them or begins to cry over the sight of their men.
+~
+16777281 128 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 12 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8432
+ghoul commander~
+a ghoul commander~
+This heavily armoured ghoul is looking over his men.
+~
+This ghoul doesn't realize or doesn't want to admit that it has been dead for
+a long time.  It looks over the other shambling creatures and yells orders to
+them or begins to cry over the sight of their men.
+~
+16777281 128 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 12 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8433
+ghoul commander~
+a ghoul commander~
+This heavily armoured ghoul is looking over his men.
+~
+This ghoul doesn't realize or doesn't want to admit that it has been dead for
+a long time.  It looks over the other shambling creatures and yells orders to
+them or begins to cry over the sight of their men.
+~
+16777281 128 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 13 0 0 1048576 1048576 0
+0 0 162 0 0 0 418 524291
+#8500
+librarian ghoul old~
+the ghoul librarian~
+This old ghoul looks like it is made of mist.
+~
+This ancient ghoul is made of nothing mist and shadow.  It looks at you and a
+look of envy crosses over its face. It knows well that the dead know it is
+better to be alive.  He motions for you to sit down and spend a few moments
+with a man that has not known the release of death for hundreds of years.
+~
+1 0 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 20 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog $n says (common) 'place'~
+smile $n
+say This place was one of the greatest of all kingdoms.
+say Built two thousand years ago in honor of the ancient one, Synot.
+sigh
+say As we discovered his eventual defeat and our role in it, we atoned.
+say We used this holy place as a shrine to his greatness.
+say And when Drazuk came into ultimate power, we worshiped him as well.
+say He was a champion to us, a model of what a true Ghoul is.
+cry
+say But perhaps it was all for not.
+say We were arrogant, we thought we could buy the friendship of Bazabel.
+say We ignored their troubles for so long, did so little to aid them.
+say When they came to us for aid against the ogres, we did nothing.
+say We thought gold would make them forgive us, but we were fools.
+say And look what it has brought us.~
+> speech_prog $n says (common) 'war'~
+sigh
+say We never saw it coming. Honestly.
+say Had we been prepared, had we been ready...
+cry
+say It doesn't matter, what happened cannot be unmade.
+say They come quickly, destroying everything they could.
+say Our magi's were not ready, most of them were locked in here.
+say Searching for a way to free Synot.
+sigh
+say We tried, that is all I can say. We tried.
+say Last time I counted on one my walks, it was 25 to 1.
+say For every knight of Ihra-Desh, 25 of the humans fell.
+nod
+say But it was not enough, we were outnumbered 100 to 1.
+say We breed so slow, and they seem to never stop having children.
+say It was a holy war to them, and they won.
+say I was not fast enough to escape like the others.
+say I wish they would visit, but I suppose they too are dead now.
+say And I am stuck here until Drazuk shows mercy on his servant.
+sigh
+~
+> greet_prog 100~
+bow $n
+say I have not seen the face of a living being in many years, more than I would like to admit.
+say You are safe to rest here, no one ever comes in, no one.
+sigh
+say Please, sit down and listen to an old man tell his tales.
+say You can ask me about this PLACE or the WAR.~
+|
+#0
+
+
+#OBJECTS
+#8401
+cracked ghoul armor~
+a plate of cracked ghoul armor~
+This ancient armor has a huge crack in the center.~
+~
+9 524288 65
+6 6 0 0
+7 50 0
+E
+cracked ghoul armor~
+This ancient breastplate is covered in the ornate runes of the ghouls.  It may 
+not be as protective as it used to be, due to a large crack running down the 
+middle.
+~
+#8402
+broken spear ghoul~
+a broken ghoul spear~
+This old spear was broken a long time ago.~
+~
+5 0&16 131073
+12 6 3 24
+7 50 0
+E
+broken spear ghoul~
+This once deadly spear has been broken in two, probably in some ancient 
+battle.
+~
+#8403
+chest wooden old~
+an old wooden chest~
+An old wooden chest sits in the corner.~
+~
+15 0 0
+100 13 0 0
+50 0 0
+E
+chest wooden old~
+This old chest shows its age.  The metal fittings are dull and tarnished, and 
+the wood, while still intact, has been worn down by time.
+~
+#8404
+blade trap~
+a blade trap~
+A blade trap.~
+~
+44 0 0
+15 12 600 274
+1 0 0
+#8405
+ring ancient silver~
+an ancient silver ring~
+An ancient ring, carved of silver, sits here.~
+~
+8 65 1025
+0 0 0 0
+1 0 0
+E
+ring ancient silver~
+Dulled by time, this old silver ring has the ghoulish rune of battle etched 
+into the band.
+~
+A
+19 2
+A
+13 25
+#8500
+blood stained scroll~
+a blood stained scroll~
+This scroll is stained with red.~
+~
+13 0 1048577
+0 0 0 0
+1 0 0
+E
+blood stained scroll~
+Please, please great Drazuk, please holy Synot, save us. I do not want to die
+to them. Not to those ignorant fools. Not to those creatures. Please, give me
+strength. Please.
+~
+#0
+
+
+#ROOMS
+#8401
+On A Copper Path~
+This road is paved in copper that has now faded and cracked.  The trees begin
+to thin as to the west you see a collection of ruins.  The air smells of decay
+and rot.  The animals seem to avoid this place and you swear you just heard a
+slight groan rise into the air.
+~
+0 1 1
+D1
+~
+~
+0 0 8231
+D3
+~
+~
+0 0 8402
+S
+#8402
+On A Copper Path~
+This road is paved in copper that has now faded and cracked.  The trees begin
+to thin as to the west you see a collection of ruins.  The air smells of decay
+and rot.  The animals seem to avoid this place and you swear you just heard a
+slight groan rise into the air.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8401
+D3
+~
+~
+0 0 8403
+S
+#8403
+On A Copper Path~
+This road is paved in copper that has now faded and cracked.  The trees begin
+to thin as to the west you see a collection of ruins.  The air smells of decay
+and rot.  The animals seem to avoid this place and you swear you just heard a
+slight groan rise into the air.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8402
+D3
+~
+~
+0 0 8404
+S
+#8404
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8405
+D1
+Exit description~
+~
+0 0 8403
+D2
+Exit description~
+~
+0 0 8408
+D3
+~
+~
+0 0 8413
+S
+#8405
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8406
+D2
+Exit description~
+~
+0 0 8404
+S
+#8406
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8407
+D2
+Exit description~
+~
+0 0 8405
+S
+#8407
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8423
+D2
+Exit description~
+~
+0 0 8406
+S
+#8408
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8404
+D2
+~
+~
+0 0 8409
+S
+#8409
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 8408
+D2
+~
+~
+0 0 8410
+S
+#8410
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 8409
+D3
+~
+~
+0 0 8411
+S
+#8411
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8410
+D3
+~
+~
+0 0 8412
+S
+#8412
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8411
+D2
+~
+~
+0 0 8431
+S
+#8413
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+~
+~
+0 0 8404
+D3
+~
+~
+0 0 8414
+S
+#8414
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8413
+D3
+~
+~
+0 0 8415
+S
+#8415
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8414
+D3
+~
+~
+0 0 8416
+S
+#8416
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8415
+D3
+~
+~
+0 0 8417
+S
+#8417
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 8416
+D3
+~
+~
+0 0 8418
+S
+#8418
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8419
+D1
+Exit description~
+~
+0 0 8417
+D2
+Exit description~
+~
+0 0 8421
+S
+#8419
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8420
+D2
+Exit description~
+~
+0 0 8418
+S
+#8420
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter. The massive building to the north has completely collapsed.
+~
+0 1 1
+D2
+Exit description~
+~
+0 0 8419
+S
+#8421
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+~
+~
+0 0 8418
+D2
+~
+~
+0 0 8422
+S
+#8422
+The Road Of Ihra-Desh~
+You are standing inside what is left of the great ghoul Kingdom of Ihra-Desh.
+The massive stone buildings have now crumbled into nothing.  The ground is
+littered with the wasted remains of ghouls and humans.  You see the remains of
+children and what appear to be unarmed ghouls.  The battle here that place was
+a slaughter.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 8421
+D2
+~
+~
+0 0 8441
+S
+#8423
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D0
+~
+~
+0 0 8430
+D2
+Exit description~
+~
+0 0 8407
+D3
+~
+~
+0 0 8424
+S
+#8424
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D0
+~
+~
+0 0 8429
+D1
+Exit description~
+~
+0 0 8423
+D3
+~
+~
+0 0 8425
+S
+#8425
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D0
+~
+~
+0 0 8428
+D1
+Exit description~
+~
+0 0 8424
+D3
+~
+~
+0 0 8426
+S
+#8426
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D0
+~
+~
+0 0 8427
+D1
+Exit description~
+~
+0 0 8425
+S
+#8427
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D1
+~
+~
+0 0 8428
+D2
+Exit description~
+~
+0 0 8426
+S
+#8428
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D1
+~
+~
+0 0 8429
+D2
+Exit description~
+~
+0 0 8425
+D3
+Exit description~
+~
+0 0 8427
+S
+#8429
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 8424
+D3
+Exit description~
+~
+0 0 8428
+S
+#8430
+A Ruined Building~
+This building is scarred from the battle and the roof is now mostly gone.
+Several birds flutter about as you make your way through.  Judging by the
+skeletons on the floor and the numerous arrows and weapons strewn about, a
+group of ghouls made their last stand.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 8423
+S
+#8431
+A Scarred Hallway~
+This hallway is heavily damaged from the battle that took place.  The
+skeletons are numerous and you can recognize both Imperial armor and ghoulish
+armor as well.  The numerous bodies suggest that these ghouls fought hard to
+hold this hallway.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8412
+D2
+~
+~
+0 0 8432
+S
+#8432
+A Scarred Hallway~
+This hallway is heavily damaged from the battle that took place.  The
+skeletons are numerous and you can recognize both Imperial armor and ghoulish
+armor as well.  The numerous bodies suggest that these ghouls fought hard to
+hold this hallway.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8431
+D2
+~
+~
+0 0 8433
+S
+#8433
+A Scarred Hallway~
+This hallway is heavily damaged from the battle that took place.  The
+skeletons are numerous and you can recognize both Imperial armor and ghoulish
+armor as well.  The numerous bodies suggest that these ghouls fought hard to
+hold this hallway.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8432
+D1
+~
+~
+0 0 8434
+S
+#8434
+A Scarred Hallway~
+This hallway is heavily damaged from the battle that took place.  The
+skeletons are numerous and you can recognize both Imperial armor and ghoulish
+armor as well.  The numerous bodies suggest that these ghouls fought hard to
+hold this hallway.
+~
+0 1 0
+D2
+~
+~
+0 0 8435
+D3
+Exit description~
+~
+0 0 8433
+S
+#8435
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8434
+D1
+~
+~
+0 0 8436
+D2
+~
+~
+0 0 8440
+S
+#8436
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D1
+~
+~
+0 0 8437
+D2
+~
+~
+0 0 8439
+D3
+Exit description~
+~
+0 0 8435
+S
+#8437
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D2
+~
+~
+0 0 8438
+D3
+Exit description~
+~
+0 0 8436
+S
+#8438
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8437
+D3
+~
+~
+0 0 8439
+S
+#8439
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8436
+D1
+Exit description~
+~
+0 0 8438
+D3
+~
+~
+0 0 8440
+S
+#8440
+A Destroyed Church~
+This ancient church is covered in broken statues. The few that remain show a
+figure quite similar to Drazuk as well as a six-armed god with three eyes.
+The stained glass windows are all shattered, the pews destroyed, and the great
+altar of gold melted and partially looted. The bodies of numerous people
+litter this once holy place.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8435
+D1
+Exit description~
+~
+0 0 8439
+S
+#8441
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8422
+D2
+~
+~
+0 0 8442
+S
+#8442
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8441
+D3
+~
+~
+0 0 8443
+S
+#8443
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8442
+D3
+~
+~
+0 0 8444
+S
+#8444
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+~
+~
+0 0 8456
+D1
+Exit description~
+~
+0 0 8443
+D2
+~
+~
+0 0 8445
+D3
+~
+~
+0 0 8461
+S
+#8445
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8444
+D2
+~
+~
+0 0 8446
+S
+#8446
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8445
+D1
+~
+~
+0 0 8447
+D3
+Exit description~
+~
+0 0 8452
+S
+#8447
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D1
+~
+~
+0 0 8448
+D3
+Exit description~
+~
+0 0 8446
+S
+#8448
+A Burned Nursery~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a nursery, you can see the burned remains
+of cradles and toys. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D1
+~
+~
+0 0 8449
+D2
+~
+~
+0 0 8451
+D3
+Exit description~
+~
+0 0 8447
+S
+#8449
+A Burned Nursery~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a nursery, you can see the burned remains
+of cradles and toys. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D2
+~
+~
+0 0 8450
+D3
+Exit description~
+~
+0 0 8448
+S
+#8450
+A Burned Nursery~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a nursery, you can see the burned remains
+of cradles and toys. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8449
+D3
+~
+~
+0 0 8451
+S
+#8451
+A Burned Nursery~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a nursery, you can see the burned remains
+of cradles and toys. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8448
+D1
+Exit description~
+~
+0 0 8450
+S
+#8452
+A Burned School~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a school, you can see the burned remains
+of books and desks. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D1
+~
+~
+0 0 8446
+D2
+~
+~
+0 0 8455
+D3
+~
+~
+0 0 8453
+S
+#8453
+A Burned School~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a school, you can see the burned remains
+of books and desks. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D1
+~
+~
+0 0 8452
+D2
+~
+~
+0 0 8454
+S
+#8454
+A Burned School~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a school, you can see the burned remains
+of books and desks. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8453
+D1
+~
+~
+0 0 8455
+S
+#8455
+A Burned School~
+You thank everything you can think to thank that this atrocity took place
+hundreds of years ago. This was once a school, you can see the burned remains
+of books and desks. The army of Ihra-Desh took great care to defend this
+place but in the end they failed.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8452
+D3
+Exit description~
+~
+0 0 8454
+S
+#8456
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+~
+~
+0 0 8457
+D2
+Exit description~
+~
+0 0 8444
+S
+#8457
+The Guard Headquarters~
+What is left of this place suggests that this was the seat of organization for
+the ghoul's cityguard.  The last of the guards made their stand here, trying
+to hold off the hordes of Imperial soldiers that went rampaging through the
+city.
+~
+0 1 0
+D0
+~
+~
+0 0 8458
+D2
+Exit description~
+~
+0 0 8456
+D3
+~
+~
+0 0 8460
+S
+#8458
+The Guard Headquarters~
+What is left of this place suggests that this was the seat of organization for
+the ghoul's cityguard.  The last of the guards made their stand here, trying
+to hold off the hordes of Imperial soldiers that went rampaging through the
+city.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 8457
+D3
+~
+~
+0 0 8459
+S
+#8459
+The Guard Headquarters~
+What is left of this place suggests that this was the seat of organization for
+the ghoul's cityguard.  The last of the guards made their stand here, trying
+to hold off the hordes of Imperial soldiers that went rampaging through the
+city.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8458
+D2
+~
+~
+0 0 8460
+S
+#8460
+The Guard Headquarters~
+What is left of this place suggests that this was the seat of organization for
+the ghoul's cityguard.  The last of the guards made their stand here, trying
+to hold off the hordes of Imperial soldiers that went rampaging through the
+city.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8459
+D1
+Exit description~
+~
+0 0 8457
+S
+#8461
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8444
+D3
+~
+~
+0 0 8462
+S
+#8462
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8461
+D3
+~
+~
+0 0 8463
+S
+#8463
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+~
+~
+0 0 8472
+D1
+Exit description~
+~
+0 0 8462
+D2
+~
+~
+0 0 8464
+S
+#8464
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8463
+D2
+~
+~
+0 0 8465
+S
+#8465
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8464
+D2
+~
+~
+0 0 8466
+S
+#8466
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8465
+D2
+~
+~
+0 0 8471
+D3
+~
+~
+0 0 8467
+S
+#8467
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8466
+D2
+~
+~
+0 0 8470
+D3
+~
+~
+0 0 8468
+S
+#8468
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 8467
+D2
+~
+~
+0 0 8469
+S
+#8469
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8468
+D1
+~
+~
+0 0 8470
+S
+#8470
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8467
+D1
+~
+~
+0 0 8471
+D3
+Exit description~
+~
+0 0 8469
+S
+#8471
+The Last Stand~
+This massive hall was probably the seat of power for the ghoul rulers. The
+massive tables are destroyed, splintered apart after the barricade fell.
+There are thousands of bones here, the last of the ghouls to inhabit this
+great kingdom died here. They had no hope of victory or escape but judging by
+the ratio of broken Imperial armor to ghoulish armor, they put up one hell of
+a fight.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 8466
+D3
+Exit description~
+~
+0 0 8470
+S
+#8472
+Inside A Ruined Hallway~
+This massive hallway leads into the largest of the buildings. This is one of
+the few that still looks like it can still be considered habitable.  There are
+hundreds upon hundreds of skeletons and pieces of destroyed armor, simply
+walking requires crushing numerous skulls and rib cages.  It looks like the
+last stage of the battle took place here.
+~
+0 1 0
+D0
+~
+~
+16777216 0 8500
+D2
+Exit description~
+~
+0 0 8463
+S
+#8500
+An Empty Library~
+This large hall must have once been a grand library, filled with tomes of this
+place's history and its people.  Now it is empty save for ash and bones. A
+great fire was set here.  You can see half burned books that are now being
+eaten away by time.  So much knowledge destroyed.
+~
+0 1024 0
+D2
+Exit description~
+~
+16777216 0 8472
+S
+#0
+
+
+#RESETS
+O 0 8403 1 8459
+P 0 8405 1 8403
+P 0 8404 1 8403
+M 0 8401 1 8404
+M 0 8402 1 8409
+M 0 8403 1 8414
+M 0 8404 1 8419
+M 0 8405 1 8424
+M 0 8405 1 8436
+M 0 8406 1 8443
+M 0 8407 1 8451
+M 0 8408 1 8407
+E 1 8401 1 7
+M 0 8409 1 8425
+E 1 8401 1 7
+M 0 8410 1 8458
+E 1 8402 1 21
+M 0 8411 1 8464
+E 1 8402 1 21
+M 0 8412 1 8408
+M 0 8413 1 8420
+E 1 8402 1 21
+M 0 8414 1 8426
+E 1 8401 1 7
+M 0 8415 1 8436
+E 1 8402 1 21
+M 0 8416 1 8444
+E 1 8401 1 7
+M 0 8417 1 8452
+M 0 8418 1 8405
+M 0 8419 1 8438
+M 0 8420 1 8445
+M 0 8421 1 8455
+M 0 8422 1 8468
+M 0 8423 1 8471
+M 0 8424 1 8458
+M 0 8425 1 8447
+M 0 8426 1 8427
+M 0 8427 1 8470
+M 0 8428 1 8465
+M 0 8429 1 8451
+E 1 8402 1 21
+M 0 8430 1 8437
+E 1 8401 1 7
+M 0 8433 1 8471
+M 0 8432 1 8469
+M 0 8433 1 8460
+M 0 8500 1 8500
+O 0 8500 1 8500
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8408 spec_racist
+M  8409 spec_racist
+M  8410 spec_racist
+M  8411 spec_racist
+M  8423 spec_cast_mage
+M  8424 spec_cast_mage
+M  8425 spec_cast_archmagi
+M  8426 spec_cast_archmagi
+M  8427 spec_cast_diabolist
+M  8428 spec_cast_diabolist
+M  8429 spec_cast_druid
+M  8430 spec_cast_druid
+M  8500 spec_cast_mage
+S
+
+
+#$

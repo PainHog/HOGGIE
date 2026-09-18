@@ -1,0 +1,4699 @@
+#AREA   Tenhicoal~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+25 45 0 65
+$
+
+#RESETMSG The golden rooftops catch the rising sun in a prism of light.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 636397924
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#16201
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16202
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16203
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16204
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16205
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16206
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16207
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16208
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16209
+Tenhicoal Guard~
+a Tenhicoal guard~
+This wolfen enforces the cities many laws.
+~
+This proud wolfen warrior is honored to give their life to the service of
+Tenhicoal. They walk with a heavy stride, their powerful shoulders and arms
+carry the burden of service with a grim satisfaction.
+~
+65 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16210
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16211
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16212
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16213
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16214
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16216
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16217
+Tenhicoal warrior wolfen~
+a Tenhicoal Warrior~
+This proud warrior walks the city with confidence.
+~
+This warrior has dedicated themselves to the art of combat.  They are in no
+way weak and appear to be quite capable of handling themselves in combat.
+They proudly wear a huge tattoo that covers the length of their right arm, a
+sign of their dedication to the city and to the ways of might.
+~
+65 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16218
+wolfen resident~
+a wolfen resident~
+This wolfen is walking about their neighborhood.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They wander their
+neighborhood, often stopping to talk to the other wolfen that are spending the
+day outside.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16219
+wolfen resident~
+a wolfen resident~
+This wolfen is walking about their neighborhood.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They wander their
+neighborhood, often stopping to talk to the other wolfen that are spending the
+day outside.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16220
+wolfen resident~
+a wolfen resident~
+This wolfen is walking about their neighborhood.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They wander their
+neighborhood, often stopping to talk to the other wolfen that are spending the
+day outside.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16221
+wolfen resident~
+a wolfen resident~
+This wolfen is walking about their neighborhood.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They wander their
+neighborhood, often stopping to talk to the other wolfen that are spending the
+day outside.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16222
+wolfen resident~
+a wolfen resident~
+This wolfen is walking about their neighborhood.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They wander their
+neighborhood, often stopping to talk to the other wolfen that are spending the
+day outside.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16223
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16224
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16225
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16226
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16227
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16228
+wolfen resident~
+a wolfen resident~
+This wolfen is relaxing at home.
+~
+This wolfen is neither a warrior nor a great priest.  They choose a simple
+life and enjoy the basic pleasures that life has to offer.  They are enjoying
+a great day at home, relaxing and watching over the wolfen pups.
+~
+16777283 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 3
+#16229
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16230
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16231
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16232
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16233
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16234
+wolfen pup child~
+a wolfen pup~
+This young pup stays at home today.
+~
+This young wolfen is already quite large but their playful demeanor and small
+size when compared to the other wolfen show they are indeed quite young. They
+stay home to avoid the numerous travellers and the few criminals within the
+city.  They look at you and smile with wonder.
+~
+16777283 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16235
+wolfen priest~
+a wolfen priest~
+This jolly priest is arguing about proper worship rituals.
+~
+This wolfen priest is clothed in elegant pure white robes and holds several
+scrolls and books about the rituals of Quetzeson.  They argue with the other
+priests as well as any other passerby that gets sucked into the conversation.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 1 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16236
+wolfen priest~
+a wolfen priest~
+This jolly priest is arguing about proper worship rituals.
+~
+This wolfen priest is clothed in elegant pure white robes and holds several
+scrolls and books about the rituals of Quetzeson.  They argue with the other
+priests as well as any other passerby that gets sucked into the conversation.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 1 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16237
+wolfen priest~
+a wolfen priest~
+This jolly priest is arguing about proper worship rituals.
+~
+This wolfen priest is clothed in elegant pure white robes and holds several
+scrolls and books about the rituals of Quetzeson.  They argue with the other
+priests as well as any other passerby that gets sucked into the conversation.
+~
+16777283 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 1 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16238
+cloaked wolfen~
+a cloaked wolfen~
+This wolfen mage is cloaked in a heavy robe.
+~
+This wolfen mage wears the traditionally purple robe of the Order of
+Quetzeson. They seem quite snobbish and mutter to themselves about proper
+spell incantations or proper meditation procedures.  They ignore you and just
+about everyone else.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16239
+cloaked wolfen~
+a cloaked wolfen~
+This wolfen mage is cloaked in a heavy robe.
+~
+This wolfen mage wears the traditionally purple robe of the Order of
+Quetzeson. They seem quite snobbish and mutter to themselves about proper
+spell incantations or proper meditation procedures.  They ignore you and just
+about everyone else.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16240
+cloaked wolfen~
+a cloaked wolfen~
+This wolfen mage is cloaked in a heavy robe.
+~
+This wolfen mage wears the traditionally purple robe of the Order of
+Quetzeson. They seem quite snobbish and mutter to themselves about proper
+spell incantations or proper meditation procedures.  They ignore you and just
+about everyone else.
+~
+16777283 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16241
+wolfen shaman~
+a wolfen shaman~
+This wolfen shaman is covered in tattoos.
+~
+This wolfen is quietly meditating and conversing with the spirit world.
+Either that or they are just talking to themselves.  They seem in a constant
+trance, never really blinking or making any indication they are aware of the
+outside world.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 11 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16242
+wolfen shaman~
+a wolfen shaman~
+This wolfen shaman is covered in tattoos.
+~
+This wolfen is quietly meditating and conversing with the spirit world.
+Either that or they are just talking to themselves.  They seem in a constant
+trance, never really blinking or making any indication they are aware of the
+outside world.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 11 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16243
+wolfen shaman~
+a wolfen shaman~
+This wolfen shaman is covered in tattoos.
+~
+This wolfen is quietly meditating and conversing with the spirit world.
+Either that or they are just talking to themselves.  They seem in a constant
+trance, never really blinking or making any indication they are aware of the
+outside world.
+~
+16777283 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 11 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16244
+royal guard~
+a royal guard~
+This wolfen defends the royal chambers.
+~
+This massive wolfen keeps a close eye on all the visitors to the royal
+chambers. They don't seem like they have a sense of humor or much emotions at
+all other than kill and kill more.
+~
+16777281 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16245
+royal guard~
+a royal guard~
+This wolfen defends the royal chambers.
+~
+This massive wolfen keeps a close eye on all the visitors to the royal
+chambers. They don't seem like they have a sense of humor or much emotions at
+all other than kill and kill more.
+~
+16777281 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16246
+royal guard~
+a royal guard~
+This wolfen defends the royal chambers.
+~
+This massive wolfen keeps a close eye on all the visitors to the royal
+chambers. They don't seem like they have a sense of humor or much emotions at
+all other than kill and kill more.
+~
+16777281 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16247
+royal guard~
+a royal guard~
+This wolfen defends the royal chambers.
+~
+This massive wolfen keeps a close eye on all the visitors to the royal
+chambers. They don't seem like they have a sense of humor or much emotions at
+all other than kill and kill more.
+~
+16777281 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16248
+royal concubine wolfen beautiful~
+a royal concubine~
+This beautiful wolfen lounges in the Palace, waiting for the call from the King.
+~
+This lithe and lovely wolfen is a concubine of the royal court.  She lounges
+within the palace, enjoying fine food and wine.  She smiles at you sweetly and
+pops another small grape into her mouth.  It's good to be the King.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16249
+royal concubine wolfen beautiful~
+a royal concubine~
+This beautiful wolfen lounges in the Palace, waiting for the call from the King.
+~
+This lithe and lovely wolfen is a concubine of the royal court.  She lounges
+within the palace, enjoying fine food and wine.  She smiles at you sweetly and
+pops another small grape into her mouth.  It's good to be the King.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16250
+royal concubine wolfen beautiful~
+a royal concubine~
+This beautiful wolfen lounges in the Palace, waiting for the call from the King.
+~
+This lithe and lovely wolfen is a concubine of the royal court.  She lounges
+within the palace, enjoying fine food and wine.  She smiles at you sweetly and
+pops another small grape into her mouth.  It's good to be the King.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16251
+sewer rat~
+a sewer rat~
+This dirty rat patrols the sewers for food.
+~
+This fat rat looks both mean and well schooled in the art of surviving the
+worst conditions.  It patrols vigilantly, looking for any scrap of food or
+perhaps helping you eat that piece of bread you hidden in your bag.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 128 128 0
+0 0 1067 384 0 9 161 0
+#16252
+sewer rat~
+a sewer rat~
+This dirty rat patrols the sewers for food.
+~
+This fat rat looks both mean and well schooled in the art of surviving the
+worst conditions.  It patrols vigilantly, looking for any scrap of food or
+perhaps helping you eat that piece of bread you hidden in your bag.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 128 128 0
+0 0 1067 384 0 9 161 0
+#16253
+sewer rat~
+a sewer rat~
+This dirty rat patrols the sewers for food.
+~
+This fat rat looks both mean and well schooled in the art of surviving the
+worst conditions.  It patrols vigilantly, looking for any scrap of food or
+perhaps helping you eat that piece of bread you hidden in your bag.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 128 128 0
+0 0 1067 384 0 9 161 0
+#16254
+sewer rat~
+a sewer rat~
+This dirty rat patrols the sewers for food.
+~
+This fat rat looks both mean and well schooled in the art of surviving the
+worst conditions.  It patrols vigilantly, looking for any scrap of food or
+perhaps helping you eat that piece of bread you hidden in your bag.
+~
+16777281 4194304 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 128 128 0
+0 0 1067 384 0 9 161 0
+#16255
+fugitive hiding~
+a hiding fugitive~
+This wolfen is hiding from the guard.
+~
+The wolfen has chosen to live in the sewers rather than face the harsh
+penalties above.  They live off sewer rats and anything else they can.
+Perhaps one day they will try and make it past the guard station and flee from
+the city.
+~
+16777281 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16256
+fugitive hiding~
+a hiding fugitive~
+This wolfen is hiding from the guard.
+~
+The wolfen has chosen to live in the sewers rather than face the harsh
+penalties above.  They live off sewer rats and anything else they can.
+Perhaps one day they will try and make it past the guard station and flee from
+the city.
+~
+16777281 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16257
+fugitive hiding~
+a hiding fugitive~
+This wolfen is hiding from the guard.
+~
+The wolfen has chosen to live in the sewers rather than face the harsh
+penalties above.  They live off sewer rats and anything else they can.
+Perhaps one day they will try and make it past the guard station and flee from
+the city.
+~
+16777281 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16258
+fugitive hiding~
+a hiding fugitive~
+This wolfen is hiding from the guard.
+~
+The wolfen has chosen to live in the sewers rather than face the harsh
+penalties above.  They live off sewer rats and anything else they can.
+Perhaps one day they will try and make it past the guard station and flee from
+the city.
+~
+16777281 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16259
+dingy wolfen bartender~
+a dingy wolfen bartender~
+This wolfen bartender smells as bas as his pub.
+~
+This wolfen's fur is matted and stinks of dried ale and other worse things.
+He spits into a glass and cleans it with a dirty rag.  He looks at you and
+damn near barks for you to order something or go home.
+~
+16777283 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16260
+Corez goblin announcer~
+Corez, the goblin announcer~
+This sneaky goblin beckons you over.
+~
+This little goblin watches you and invites you over.  He seems to be the one
+running this little fight club and offers you a chance to prove yourself among
+some of the greatest warriors in the world.  He tells you for the simple fee
+of buying a key inside, you have a shot at greatness.
+~
+16777283 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16385 1 0
+0 0 1067 384 0 9 161 0
+#16261
+Kint goblin bartender~
+Kint, the bartender~
+This older goblin handles the bar.
+~
+This older goblin seems to have seen many an adventurer.  He smiles at you and
+tries to entice you to try his homebrew ale.  His body is thin and frail, he
+is well into his elderly years yet his eyes sparkle with the gleam of
+intelligence and wit.
+~
+16777283 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16385 16384 0
+0 0 1067 384 0 9 161 0
+#16262
+Kant goblin server~
+Kant, the goblin server~
+This young goblin brings beer and food to the tables.
+~
+This goblin shares an uncanny resemblance to the goblin behind the bar. They
+share the same faded blue eyes and thin build.  This young goblin must have
+seen many adventurers with his father but judging by his limp, something
+forced him to settle in to his job here.
+~
+16777283 4194304 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16385 16384 0
+0 0 1067 384 0 9 161 0
+#16263
+Wirli wolfen mage shopkeeper~
+Wirli~
+This young wolfen attends to the store.
+~
+This wolfen has a pelt of pure white and bright emerald eyes.  He smiles at
+you and you notice he is barely out of his pup years.  He must run the store
+for his family, it is hard to imagine him running a store all on his own.
+~
+16777283 4194304 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16264
+wolfen seamstress elderly~
+an elderly wolfen seamstress~
+This older wolfen works on making a new cloak.
+~
+This old wolfen woman has been in this business for years and has seen many an
+adventurer and many a wannabe hero.  She smiles at you while she fashions a
+new travelling cloak.
+~
+16777283 4194304 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16265
+Wolfen Blade Master~
+a Wolfen Blade-Master~
+This sleek wolfen woman wears the mark a Blade-Master.
+~
+This young wolfen woman must have proven her valor in some great manner to
+achieve the rank of Blade-Master so early.  She taunts the other warriors,
+pushing them harder and harder to achieve perfection.  She looks at you and
+offers to help train you in the ways of the warrior.
+~
+16908355 4194432 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 2097152 9 433 2097155
+#16266
+Wolfen Shadow Stalker~
+a Wolfen Shadow Stalker~
+This thin wolfen wears the mark of the Shadow Stalker.
+~
+This older wolfen is incredibly thin yet the sinew of his muscles proves he is
+no mere fighter. He teaches the other wolfen assassins how to move silently
+through the shadows and how to approach a victim.  He promises to teach you
+how to strike a man dead before his body touches the floor.
+~
+16908355 4194432 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 2097152 9 433 2097155
+#16267
+wolfen armorer~
+a wolfen armorer~
+This wolfen is trying to convince you to buy a weapon.
+~
+This wolfen has been around weapons his whole life and promises to tell you
+exactly what weapon would be right for you.  His snout is covered in numerous
+scars and left eye is dulled from some brutal attack.
+~
+16777283 4194304 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16268
+wolfen armorer~
+a wolfen armorer~
+This wolfen is working the forge.
+~
+This wolfen seems immune to the heat produced from the massive forge. He bangs
+out a piece of metal which may become a shield, or a breastplate.  He  smiles
+at you and goes back to his work.
+~
+16777283 4194304 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16269
+wolfen priestess pretty~
+a wolfen priestess~
+This pretty young priestess tends the store.
+~
+This young priestess has drawn the responsibility of maintain the magical
+supply depot of the city.  She offers to demonstrate a scroll or wand for you.
+Her fur is a soft brown and appears to be well maintained.  She smiles and
+waits for you to make a purchase.
+~
+16777283 4194304 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16270
+wolfen spirit speaker shaman~
+a wolfen Spirit Speaker~
+This mighty wolfen is a Spirit Speaker and Shaman.
+~
+This jet black wolfen seems constantly in conversation with things you cannot
+see.  His grey eyes are dulled and he seems to be in some sort of trance.  He
+finally notices you and offers you a chance to learn the mysteries of the
+past.
+~
+16908355 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16271
+wolfen high priest~
+a wolfen High Priest~
+This elderly wolfen is the high priest of the city.
+~
+This elderly wolfen was once a deep black but is now a faded salt and pepper
+color.  He looks out among the other priests and will occasionally interrupt
+their conversation with his own point of view.  They seem to accept his word
+as gospel.  He looks to you and offers you the chance to learn from his
+wisdom.
+~
+16908355 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16272
+wolfen ether guard~
+a wolfen Ether Guard~
+This wolfen wears the robes of the Ether Guard.
+~
+The Ether Guard have long defended the city of Tenhicoal from the dark
+magics and blind zealots of the world.  This wolfen radiates an aura of
+power and understanding.  He offers to teach you if your soul is humble
+and your mind sharp.
+~
+16908355 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16273
+Nagi questmaster~
+Nagi, the Questmaster~
+This unofficial leader of the residents will send you on a quest.
+~
+Chosen for her insight and her intellect, Nagi is the unofficial mayor of the
+city.  She is also renowned for sending young wolfen on quests to give glory
+to the city and to their clan.  She tells you to use the AQUEST command if you
+would like one.
+~
+-1924005821 4194304&256 0 C
+2 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 161 0
+#16274
+Jian punk~
+Jian the Brawler~
+This heavy set wolfen bellows and charges!
+~
+This heavy wolfen is a combination of both fat and muscle.  His ruddy red
+fur is heavily scarred.  He seems to have been beaten numerous times
+and is a crowd favorite to lose.  He attacks with brute strength, hoping
+to catch a lucky break.
+~
+21102691 4194304&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 433 2097155
+#16275
+Pearl Dancer~
+Pearl, the Slam Dancer~
+This pure white wolfen circles you and attacks!
+~
+This beautiful wolfen woman moves with an easy grace, making wide circles
+around you before she strikes.  She seems quite used to combat and judging by
+the bodies that are still stinking inside this pit, she has won more than a
+few fights in her time.
+~
+21102691 4194432&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 945 2097155
+#16276
+Xavier~
+Xavier, the Shadow~
+This jet black wolfen seems to control the very shadows.
+~
+This wolfen has won many a fight and for good reason, he seems to mend the
+shadows and the spirits of the world to do his bidding.  His attacks are
+brutal and his magiks are of the darkest kind.
+~
+21102691 4194432&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 8388609 8388608 0
+0 0 1067 384 0 9 945 2097155
+#16277
+Slater blade~
+Slater, the Blade~
+This scarred goblin appears from nowhere and buries a knife in your back!
+~
+This goblin attacks with a very underhanded sensibility.  He dodges your
+attacks like water and always manages to find your weakest spot.  His body is
+scarred from years of fighting but it is obvious he has felled many a giant
+with his blade.
+~
+21102691 4194432&384 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 16385 16384 0
+0 0 1067 1056768 0 9 1969 2097155
+#16278
+Carly~
+Carly, the Ice Queen~
+This gith has a long shock of white hair and throws an icicle at your heart!
+~
+This gith is amazingly beautiful, lithe and long limbed.  She twists the world
+around here, bringing the temperature down to an almost unbearable degree. She
+wields numerous magics but it is obvious she prefers to freeze you to death.
+~
+20971619 272629888&328 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 524289 524288 0
+0 0 1067 3153920 2 1 177 2097155
+#16279
+Sunshine~
+Sunshine, the Demented~
+This small pixie has a look of utter madness on her face.
+~
+This pixie is a mere blur as she flies across the room, throwing numerous
+spells at you that wrack your very body with pain.  She cackles with a madness
+that sends shivers down your spine.  You don't know if you can survive this.
+~
+20971619 306184320&328 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 9 8 0
+0 0 1067 1056768 2097154 20 177 2097159
+#16280
+Ruin~
+Ruin, the Stone~
+This massive wolfen is the color night, his claws are sharp too!
+~
+The massive wolfen is clearly the largest one you have ever seen.  Despite his
+massive frame, he moves with a great amount of speed. It is nearly impossible
+to dodge his attacks and the sheer brutality of his fighting is horrifying.
+~
+20971619 373358592&328 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 12 0 0 8388609 8388608 0
+0 0 1067 1056880 2097152 0 -1073741391 2097159
+#16281
+Noon~
+Noon, the Coyote~
+This lithe young man moves with a blinding speed.
+~
+This human boy is not what you expect for your final fight.  He is thin,
+smaller than the average human but the way he moves makes you think death
+might be imminent.  You can barely trace his movements and with each strike he
+lands, he seems to deliver a spell with it.  There is a reason he is
+considered the champion.
+~
+20971619 373358720&328 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1 1 0
+0 0 1067 1056880 2097152 0 1073742257 2097223
+#16300
+Tenhicoal King Priest Mozuma~
+Mozuma, the King Priest~
+This mighty wolfen sits on a throne of gold and bone.
+~
+This mighty wolfen is the color of a deep storm cloud grey, his eyes a burning
+yellow and his teeth glisten.  He drinks heavily from a massive horn in his
+hand, numerous chains and rings of nobility and divinity adorn his hands.  He
+watches you with a haughty eye, waiting for you to bow and give his name
+praise.
+~
+67 128&328 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 8388608 0
+0 0 262186 384 0 9 419 7
+#0
+
+
+#OBJECTS
+#16201
+curved copper shortsword~
+a curved copper shortsword~
+This small sword is perfectly curved for combat.~
+~
+5 0 131073
+12 3 3 3
+5 100 0
+E
+curved copper shortsword~
+A small curved sword, made of bright copper, this weapon is favored by the
+wolfen guards.  Despite its small size, it is wicked in combat.
+~
+#16202
+heavy copper axe~
+a heavy copper axe~
+This large axe is simple but reliable.~
+~
+5 0&16 131073
+12 7 4 19
+5 300 0
+E
+heavy copper axe~
+A favored weapon of the wolfen guard, this mighty axe is crafted of a
+specially hardened copper, invented by the wolfen forgers.
+~
+#16203
+thin silver stake~
+a thin silver stake~
+This thin silver blade is perfect for discrete attacks.~
+~
+5 0 131073
+12 3 2 11
+5 300 0
+E
+thin silver stake~
+Wolfen priests often have to deal with evil spirits and undead.  This small
+silver stake is useful; its damaging, yet easily hidden.
+~
+#16204
+heavy iron staff~
+a heavy iron staff~
+This staff is quite capable of knocking somebody out.~
+~
+5 0&16 131073
+12 4 8 8
+5 300 0
+E
+heavy iron staff~
+Extremely heavy, this large staff is forged from cold iron.  When brought down
+upon a normal skull, the victim does not often get back up.
+~
+#16205
+claw extenders~
+a claw-extender~
+These extenders would keep your nails from chipping.~
+~
+5 0 131073
+12 2 2 5
+5 5000 0
+E
+claw-extender extender~
+Although the claws of wolfen are already formidable, when outfitted with this
+special extenders, they can tear through flesh with ease.
+~
+A
+19 2
+#16206
+travel cloak leather~
+a leather travel cloak~
+This simple cloak helps keep you warm.~
+~
+9 0 2049
+3 3 0 0
+4 1000 0
+E
+leather travel cloak~
+A typical leather cloak, this will keep you warm on the road.
+~
+#16207
+travel boots leather~
+a pair of travel boots~
+These boots are made for walking and walking far.~
+~
+9 0 65537
+3 3 0 0
+4 1000 0
+E
+pair travel boots~
+These leather boots look quite comfortable for a long, long walk.
+~
+A
+14 100
+#16208
+plain leather pants~
+a set of plain leather pants~
+These simple pants aren't very special.~
+~
+9 0 2049
+3 3 0 0
+4 100 0
+E
+set plain leather pant~
+While nothing special, these leather pants are sure to cover your backside.
+~
+#16209
+thin bronze chestplate~
+a thin bronze chestplate~
+This thin armor offers some protection.~
+~
+9 524288 65
+7 7 0 0
+10 100 0
+E
+thin bronze chestplate~
+Made of bronze, hammered very thin, this chestplate offers protection against
+attacks without the weight of more sturdy armor.
+~
+#16210
+thick bronze chestplate~
+a thick bronze chestplate~
+This thick armor offers great protection.~
+~
+9 524288 65
+14 14 0 0
+15 1000 0
+E
+think bronze chestplate~
+Heavy and thick, this bronze chestplate is sure to turn quite a few weapons
+away from the vital organs hidden beneath it.
+~
+#16211
+thin bronze visor~
+a thin bronze visor~
+This visor keeps the sun and weapons out of your eyes.~
+~
+9 524288 5
+9 9 0 0
+10 1000 0
+E
+thin bronze visor~
+Useful to shield the eyes during battle, this thin piece of bronze can protect
+from both weapons and the elements.
+~
+#16212
+thick bronze shield~
+a thick bronze shield~
+This heavy shield is capable of stopping many blows.~
+~
+9 524288 524289
+9 9 0 0
+10 1000 0
+E
+thick bronze shield~
+Forged from a dark bronze, this thick shield may be heavy, but it is sure to
+block many vicious strikes from landing on its wearer.
+~
+#16213
+potion recall~
+a recall potion~
+This simple potion will get you back home.~
+~
+10 64 1048577
+2 -1 -1 -1
+1 150 0
+'word of recall' 'NONE' 'NONE'
+E
+recall potion~
+A small bottle, containing a potion of recall.
+~
+#16214
+health potion~
+a health potion~
+This potion will restore your health.~
+~
+10 64 1048577
+2 -1 -1 -1
+1 4000 0
+'cure poison' 'create food' 'NONE'
+E
+health potion~
+This potion can help remove the effects of poison and curb the hunger of many
+a traveller.
+~
+#16215
+speed potion~
+a speed potion~
+This potion will get you back on your feet.~
+~
+10 64 1048577
+2 -1 -1 -1
+1 1000 0
+'refresh' 'NONE' 'NONE'
+E
+speed potion~
+This potion is useful when one needs to travel further than normal in a day.
+~
+#16216
+scroll identify~
+a scroll of identify~
+This scroll will reveal an item's secret.~
+~
+2 64&1 1048577
+2 -1 -1 -1
+1 200 0
+'identify' 'NONE' 'NONE'
+E
+scroll identify~
+A typical identify scroll, good for one use only.
+~
+#16217
+scroll fury~
+a scroll of fury~
+This scroll can render an opponent weak.~
+~
+2 64&1 1048577
+25 -1 -1 -1
+1 1000 0
+'hand of chaos' 'NONE' 'NONE'
+E
+scroll fury~
+This parchment contains an incantation that will bring pain upon the victim of
+the reader.
+~
+#16218
+scroll Quetzeson Blessing~
+a scroll of Quetzeson's Blessing~
+This scroll will grant you the blessing of Quetzeson.~
+~
+2 64&1 1048577
+50 -1 -1 -1
+1 20000 0
+'sanctuary' 'armor' 'shield'
+E
+scroll quetzesons quetzeson's blessing~
+Created for the mighty warriors of the wolfen, this scroll is used by the
+priests to ensure those entering combat are as protected as possible.
+~
+#16219
+scepter rage~
+a scepter of rage~
+This scepter will give your enemies pause for thought.~
+~
+3 64 1048577
+30 10 10 -1
+1 20000 0
+'scorching surge'
+E
+scepter rage~
+Mighty wolfen mages have enchanted this scepter to hold the magic of furious
+fire within.
+~
+#16220
+dirty glass beer~
+a dirty glass of beer~
+This glass is really dirty.~
+~
+17 0 1048577
+2 2 3 0
+1 25 0
+E
+dirty glass beer~
+While not known for their beer, wolfen are known for not cleaning their
+dishware very well...
+~
+#16221
+stout glass beer~
+a stout glass of beer~
+This beer is heavy but good.~
+~
+17 0 1048577
+2 2 3 0
+1 35 0
+E
+stout glass beer~
+A heavy beer, this goes down quite smooth and is very tasty for a wolfen brew.
+~
+#16222
+glass homebrew~
+a glass of homebrew~
+This beer is homemade by the goblins.~
+~
+17 0 1048577
+2 2 2 0
+1 20 0
+E
+glass homebrew~
+A goblin specialty, this will put hair on your chest, or wherever else you
+might spill it.
+~
+#16223
+bloody steak~
+a bloody steak~
+This steak is barely cooked.~
+~
+19 0 1048577
+5 12 0 0
+1 35 0
+E
+bloody steak~
+Most wolfen prefer their meat raw...this is cooked just enough to give it a
+smokey flavor.
+~
+#16224
+whole chicken~
+a whole chicken~
+This chicken was deep friend when it was still alive.~
+~
+19 0 1048577
+5 12 0 0
+1 40 0
+E
+whole chicken~
+Although the feathers ARE removed first, the rest of the chicken is tossed
+into boiling oil...tasty, but few races prefer the guts still inside.
+~
+#16225
+large bowl rice stew~
+a large bowl of rice stew~
+This hearty stew is filling and yummy.~
+~
+19 0 1048577
+5 12 0 0
+1 35 0
+E
+large bowl rice stew~
+One of the few foodstuffs eaten by wolfen that isn't animal material, this
+rice stew is hot and tasty, just like mom used to make.
+~
+#16226
+beefsteak slab~
+a slab of beefsteak~
+This steak is hearty and heart friendly, kind of.~
+~
+19 0 1048577
+5 12 0 0
+1 50 0
+E
+slab beefsteak~
+Cooked to perfection, this thick slab of beef is still red in the center, and
+the blood is still juicy and salty.
+~
+#16227
+Ring Champion~
+The Ring of Champions~
+This solid gold ring marks the Champion of Tenhicoal.~
+~
+9 256&1 1025
+12 0 0 0
+1 5000 0
+E
+ring champions~
+A large gold ring, marked with the runes denoting a Champion of the vicious
+Tenhicoal fighting pits.  The wearer of this ring demands awe and respect from
+all.
+~
+A
+19 2
+A
+12 50
+A
+13 50
+#16228
+key pit~
+the key to the pits~
+This key will get you into the battle pits.~
+~
+18 0 1048577
+0 0 0 0
+1 10000 0
+#16229
+key grate~
+the key to the grates~
+This key will get you out of the pits.~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+key grates~
+This small key will allow you to get out of the pits.
+~
+#16230
+Jian key~
+Jian's Key~
+This key gets you to the second pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+jians jian's key~
+Carried by Jian, this key allows the user to proceed into the second fighting
+pit.
+~
+#16231
+Pearl key~
+Pearl's Key~
+This key gets you into the third pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+pearls pearl's key~
+Carried by Pearl, this key allows the user to proceed into the third fighting
+pit.
+~
+#16232
+Xavier Key~
+Xavier's Key~
+This key gets you into the fourth pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+xaviers xavier's key~
+Carried by Xavier, this key allows the user to proceed into the fourth
+fighting pit.
+~
+#16233
+Slater Key~
+Slater's Key~
+This key gets you into the fifth pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+slaters slater's key~
+Carried by Slater, this key allows the user to proceed into the fifth fighting
+pit.
+~
+#16234
+Carly Key~
+Carly's Key~
+This key gets you into the sixth pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+carlys carly's key~
+Carried by Carly, this key allows the user to proceed into the sixth fighting
+pit.
+~
+#16235
+Sunshine Key~
+Sunshine's Key~
+This key gets you into the seventh pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+sunshines sunshine's key~
+Carried by Sunshine, this key allows the user to proceed into the seventh
+fighting pit.
+~
+#16236
+Ruin Key~
+Ruin's Key~
+This key gets you into the final pit.~
+~
+18 262144 1048577
+0 0 0 0
+1 0 0
+E
+ruins ruin's key~
+Carried by Ruin, this key allows the user to proceed into the final fighting
+pit.
+~
+#16237
+gold nugget~
+a gold nugget~
+This nugget might be worth some coin.~
+~
+8 0&1 1048577
+1 12 0 0
+1 100 0
+E
+gold nugget~
+A rough nugget of cold, this is probably worth some coins somewhere.
+~
+#16238
+gold chunk~
+a gold chunk~
+This chunk might be worth some nice cash.~
+~
+8 0&1 1048577
+1 12 0 0
+1 200 0
+E
+gold chunk~
+A solid chunk of gold, this could fetch a nice prize somewhere.
+~
+#16239
+gold galleon~
+a gold galleon~
+This galleon is worth some money.~
+~
+8 0&1 1048577
+1 12 0 0
+1 400 0
+E
+gold galleon~
+A large gold galleon, many a treasure shop would pay handsomely for this
+piece.
+~
+#16240
+gold rock~
+a gold rock~
+This heavy rock is definitely worth money.~
+~
+8 0&1 1048577
+1 12 0 0
+1 1000 0
+E
+gold rock~
+A heavy rock of gold, this is worth a large amount of money just for its sheer
+size.
+~
+#16241
+gold brick~
+a gold brick~
+This brick of gold is worth a lot of money.~
+~
+8 0&1 1048577
+1 12 0 0
+1 2000 0
+E
+gold brick~
+A large sum of money could be gained by finding the right buyer of this gold
+brick.
+~
+#16242
+gold ring~
+a gold ring~
+This ring is worth a lot of money.~
+~
+8 0&1 1048577
+1 12 0 0
+1 5000 0
+E
+gold ring~
+The fine craftsmanship of this ring will fetch a high price in any jewelry shop.
+~
+#16243
+gold crown~
+a golden crown~
+This crown is worth a king's ransom.~
+~
+8 0&1 1048577
+1 12 0 0
+1 10000 0
+E
+golden crown~
+A king would pay a huge amount of cash to have this mighty crown sit upon his
+head.
+~
+#16244
+a gold scepter~
+a gold scepter~
+This scepter is worth an immense fortune.~
+~
+8 0&1 1048577
+1 12 0 0
+1 25000 0
+E
+gold scepter~
+Any collector would pay the price of a small home for this golden scepter.  It
+is truly a magnificent piece of art.
+~
+#16245
+Blood stained sign~
+A blood stained sign~
+This blood-stained sign sits next to the pits.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+blood stained sign~
+To those brave enough to enter themselves into this fight club must know
+several things...
+
+Jian the brawler holds the only key that will let you escape from the fights.
+Do not lose it, it is your only way out other than death.
+
+No more than one fighter is allowed in at a time, finding ways around this can
+and will result in bad things.
+
+The mobs here are a challenge for a level 50, be prepared for the very worst.
+
+Corez here will buy any pretty things the fighters inside may carry.
+
+Good Luck.
+
+-Nameless.
+~
+#16300
+elegant silver claw extenders~
+a set of elegant silver talon-extenders~
+This beautiful glove adds a strong boost to your claws.~
+~
+5 0 131073
+12 6 1 5
+6 1000 0
+E
+set elegant silver talon-extenders extenders~
+Bright silver worked into a supple glove, this vicious weapon is crafted in
+the style of the wolfen assassins of old.  They are sure to cause deep and
+bloody wounds in whomever they strike.
+~
+A
+18 2
+A
+19 2
+#0
+
+
+#ROOMS
+#16201
+Crossing A Rope Bridge~
+The warm jungle air becomes heavy, the crystal blue waters of an ancient river
+almost steam with the heat.  The bridge is a simple construction, layer upon
+layer of robe and dragonhide with only a few aged planks for footing.  The odd
+mist from the river and the thick trees block your view as to where this
+bridge might lead.
+~
+0 1 0 0 0 3
+D0
+~
+~
+0 0 10777
+D2
+~
+~
+0 0 16202
+S
+#16202
+Crossing A Rope Bridge~
+The warm jungle air becomes heavy, the crystal blue waters of an ancient river
+almost steam with the heat.  The bridge is a simple construction, layer upon
+layer of robe and dragonhide with only a few aged planks for footing.  The odd
+mist from the river and the thick trees block your view as to where this
+bridge might lead.
+~
+0 1 0 0 0 3
+D0
+Exit description~
+~
+0 0 16201
+D2
+~
+~
+0 0 16203
+S
+#16203
+Crossing A Rope Bridge~
+The warm jungle air becomes heavy, the crystal blue waters of an ancient river
+almost steam with the heat.  The bridge is a simple construction, layer upon
+layer of robe and dragonhide with only a few aged planks for footing.  The odd
+mist from the river and the thick trees block your view as to where this
+bridge might lead.
+~
+0 1 0 0 0 3
+D0
+Exit description~
+~
+0 0 16202
+D2
+~
+~
+0 0 16204
+S
+#16204
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D0
+~
+~
+0 0 16203
+D1
+~
+~
+0 0 16208
+D2
+~
+~
+0 0 16205
+D3
+~
+~
+0 0 16207
+S
+#16205
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D0
+~
+~
+0 0 16204
+D1
+~
+~
+0 0 16209
+D2
+~
+~
+0 0 16210
+D3
+~
+~
+0 0 16206
+S
+#16206
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D0
+~
+~
+0 0 16207
+D1
+~
+~
+0 0 16205
+S
+#16207
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D1
+Exit description~
+~
+0 0 16204
+D2
+Exit description~
+~
+0 0 16206
+S
+#16208
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D2
+~
+~
+0 0 16209
+D3
+~
+~
+0 0 16204
+S
+#16209
+The Shores Of Tenhicoal~
+A city of stone and gold towers into the sky.  The banks of the river are
+carpeted by a soft sand, crystal white and oddly cool.  The massive stone
+buildings are covered in overgrowth but the gold statues and roofs shine with
+all the intensity of the noonday sun.  The Wolfen guard keep a close eye on
+you but make no advances upon you.  They seem content to let you stare in awe.
+~
+0 1 10
+D0
+~
+~
+0 0 16208
+D3
+~
+~
+0 0 16205
+S
+#16210
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16205
+D2
+~
+~
+0 0 16211
+S
+#16211
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16210
+D1
+~
+~
+0 0 16317
+D2
+~
+~
+0 0 16212
+S
+#16212
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16211
+D2
+~
+~
+0 0 16213
+S
+#16213
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16212
+D2
+~
+~
+0 0 16214
+D5
+~
+~
+16777216 0 16285
+S
+#16214
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16213
+D2
+~
+~
+0 0 16215
+D3
+~
+~
+0 0 16314
+S
+#16215
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16214
+D1
+Exit description~
+~
+0 0 16261
+D2
+~
+~
+0 0 16216
+S
+#16216
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16215
+D1
+~
+~
+0 0 16315
+D2
+~
+~
+0 0 16217
+S
+#16217
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16216
+D2
+~
+~
+0 0 16218
+D3
+~
+~
+0 0 16316
+S
+#16218
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16217
+D2
+~
+~
+0 0 16219
+S
+#16219
+A Dirty Copper Road~
+The ground beneath you is entirely plated in copper.  There are numerous
+scratches, grooves, and pieces missing from what seems like centuries of daily
+life.  The street is lined with different stores and stalls, the beating heart
+of trade within the city.  You notice a few goblins in the mix, selling their
+wares and offering their services.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16218
+D2
+~
+~
+16777216 0 16287
+S
+#16220
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+~
+~
+16777216 0 16289
+D2
+~
+~
+0 0 16221
+S
+#16221
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16220
+D2
+~
+~
+0 0 16222
+S
+#16222
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16221
+D2
+~
+~
+0 0 16223
+S
+#16223
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16222
+D2
+Exit description~
+~
+0 0 16224
+D4
+Exit description~
+~
+0 0 16290
+S
+#16224
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16223
+D2
+Exit description~
+~
+0 0 16225
+D5
+Exit description~
+~
+16777216 0 16271
+S
+#16225
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16224
+D2
+Exit description~
+~
+0 0 16226
+D3
+Exit description~
+~
+0 0 16331
+S
+#16226
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16225
+D2
+Exit description~
+~
+0 0 16227
+S
+#16227
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16226
+D2
+Exit description~
+~
+0 0 16228
+D4
+Exit description~
+~
+0 0 16298
+S
+#16228
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16227
+D2
+Exit description~
+~
+0 0 16229
+S
+#16229
+A Worn Silver Road~
+The road is now plated in the purest of refined silver giving the ancient
+stone buildings a pale glow.  There are numerous homes, apartments, and even a
+few taverns and pubs along the street.  The guard keep a close eye on the
+residents of Tenhicoal, this must be the residential area of the neatly
+ordered city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16228
+D4
+Exit description~
+~
+0 0 16306
+S
+#16230
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+16777216 0 16286
+D3
+Exit description~
+~
+0 0 16231
+S
+#16231
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16230
+D3
+Exit description~
+~
+0 0 16232
+S
+#16232
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16231
+D2
+Exit description~
+~
+0 0 16322
+D3
+Exit description~
+~
+0 0 16233
+S
+#16233
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16232
+D3
+Exit description~
+~
+0 0 16234
+S
+#16234
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16233
+D3
+Exit description~
+~
+0 0 16235
+D5
+Exit description~
+~
+16777216 0 16277
+S
+#16235
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16234
+D3
+Exit description~
+~
+0 0 16236
+S
+#16236
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16318
+D1
+Exit description~
+~
+0 0 16235
+D3
+Exit description~
+~
+0 0 16237
+S
+#16237
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16236
+D3
+Exit description~
+~
+0 0 16238
+S
+#16238
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16237
+D2
+Exit description~
+~
+0 0 16320
+D3
+Exit description~
+~
+0 0 16239
+S
+#16239
+A Simple Iron Road~
+Your feet make a hard sound on the heavy iron road, the marks of stray weapons
+and dragged bodies form odd patterns.  The road is faded and seems to have
+little more than a brief bath when the rain comes.  The city guard as well as
+what appear to be warriors populate the area.  A few large stacks of smoke and
+steam give evidence to the metal works in this part of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16238
+D3
+Exit description~
+~
+0 0 16319
+S
+#16240
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16241
+D3
+Exit description~
+~
+16777216 0 16288
+S
+#16241
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16242
+D3
+Exit description~
+~
+0 0 16240
+S
+#16242
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16243
+D2
+Exit description~
+~
+0 0 16327
+D3
+Exit description~
+~
+0 0 16241
+S
+#16243
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16244
+D3
+Exit description~
+~
+0 0 16242
+S
+#16244
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16328
+D1
+Exit description~
+~
+0 0 16245
+D3
+Exit description~
+~
+0 0 16243
+S
+#16245
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16246
+D3
+Exit description~
+~
+0 0 16244
+D5
+Exit description~
+~
+16777216 0 16278
+S
+#16246
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16247
+D3
+Exit description~
+~
+0 0 16245
+S
+#16247
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 16329
+D1
+Exit description~
+~
+0 0 16248
+D3
+Exit description~
+~
+0 0 16246
+S
+#16248
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16249
+D2
+Exit description~
+~
+0 0 16330
+D3
+Exit description~
+~
+0 0 16247
+S
+#16249
+An Elaborate Gold Road~
+The world seems to be bathed in the most glorious of lights, the gold beneath
+you catching any stray light and reflecting it in every direction.  There
+massive stone temples sprawl into a mass of craft and skill.  The priests and
+medicine men of the city congregate and talk of life, magik, spirits, and the
+mysterious of the world.
+~
+0 0 1
+D3
+Exit description~
+~
+0 0 16248
+D4
+Exit description~
+~
+16777216 0 16250
+S
+#16250
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 16251
+D5
+Exit description~
+~
+16777216 0 16249
+S
+#16251
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 16250
+D4
+Exit description~
+~
+0 0 16252
+S
+#16252
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 16253
+D5
+Exit description~
+~
+0 0 16251
+S
+#16253
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 16254
+D2
+Exit description~
+~
+0 0 16252
+S
+#16254
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 16255
+D3
+Exit description~
+~
+0 0 16253
+S
+#16255
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 16254
+D3
+Exit description~
+~
+0 0 16256
+S
+#16256
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 16255
+D4
+Exit description~
+~
+0 0 16257
+S
+#16257
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 16258
+D5
+Exit description~
+~
+0 0 16256
+S
+#16258
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 16259
+D2
+Exit description~
+~
+0 0 16257
+S
+#16259
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 16260
+D3
+Exit description~
+~
+0 0 16258
+S
+#16260
+A Jewelled Hallway~
+The hallway of the great temple of Tenhicoal is adorned by hundreds of
+dazzling gems.  You see rubies, emeralds, pearls, and even diamonds carefully
+placed in designs into the walls and the floor.  The royal guard keep a keen
+eye on you as you make your way deeper into the massive building.  The air is
+perfumed and light.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 16259
+D4
+Exit description~
+~
+0 0 16350
+S
+#16261
+The Muckslab Tavern~
+This small tavern reeks of sweat and is stained with blood.  There are
+numerous Wolfen resting in the tavern, most drinking heavily.  The others are
+engaged in measures of strength with each other.  A few travelling goblins
+take in the sights and try not to get crushed.  A small door leads into the
+back, the sound of cheering barely audible.
+~
+0 8 0
+D1
+Exit description~
+~
+16777216 0 16262
+D3
+Exit description~
+~
+0 0 16215
+S
+#16262
+The Entrance~
+Several large and scarred Wolfen eye you as you enter.  They nod when they see
+you are not with the city guard.  Below you a series of pits with various
+warriors pacing, some engaged in combat with others.  The fans watch from
+above, shouting and cheering.  A small goblin looks at you and smiles.
+~
+0 1032 0
+D3
+Exit description~
+~
+16777216 0 16261
+D5
+~
+~
+8390183 16228 16263
+S
+#16263
+The First Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D3
+~
+~
+8390183 16230 16264
+D4
+~
+~
+8390183 16229 16262
+S
+#16264
+The Second Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D3
+~
+~
+8390183 16231 16265
+D4
+~
+~
+8390183 16229 16262
+S
+#16265
+The Third Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D0
+~
+~
+8390183 16232 16266
+D4
+~
+~
+8390183 16229 16262
+S
+#16266
+The Fourth Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D1
+~
+~
+8390183 16233 16267
+D4
+~
+~
+8390183 16229 16262
+S
+#16267
+The Fifth Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D1
+~
+~
+8390183 16234 16268
+D4
+~
+~
+8390183 16229 16262
+S
+#16268
+The Sixth Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D1
+~
+~
+8390183 16235 16269
+D4
+~
+~
+8390183 16229 16262
+S
+#16269
+The Seventh Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory.
+~
+0 3153929 0 0 0 2
+D2
+~
+~
+8390183 16236 16270
+D4
+~
+~
+8390183 16229 16262
+S
+#16270
+The Final Pit~
+The sound of cheering is near deafening.  The spectators above throw ale and
+half-eaten bones down the steel grating.  The entire pit is stained with blood
+and a few missing teeth and bones slowly decaying at your feet.  There is no
+way out now except victory. This is it, if you can survive, it's over, you are
+champion.
+~
+0 3153929 0 0 0 2
+D4
+~
+~
+8390183 16229 16262
+S
+#16271
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D3
+Exit description~
+~
+0 0 16272
+D4
+Exit description~
+~
+16777216 0 16224
+S
+#16272
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 16271
+D3
+~
+~
+0 0 16273
+S
+#16273
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16274
+D1
+Exit description~
+~
+0 0 16272
+S
+#16274
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16275
+D2
+Exit description~
+~
+0 0 16273
+S
+#16275
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 16274
+D3
+Exit description~
+~
+0 0 16276
+S
+#16276
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16277
+D1
+Exit description~
+~
+0 0 16275
+S
+#16277
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 16276
+D4
+Exit description~
+~
+16777216 0 16234
+S
+#16278
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16279
+D4
+Exit description~
+~
+16777216 0 16245
+S
+#16279
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16280
+D2
+Exit description~
+~
+0 0 16278
+S
+#16280
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16281
+D2
+Exit description~
+~
+0 0 16279
+S
+#16281
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 16280
+D3
+Exit description~
+~
+0 0 16282
+S
+#16282
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 16281
+D3
+Exit description~
+~
+0 0 16283
+S
+#16283
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 16284
+D1
+Exit description~
+~
+0 0 16282
+S
+#16284
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 16283
+D3
+Exit description~
+~
+0 0 16285
+S
+#16285
+The Sewers~
+The smell of bile and rot is damn near overpowering.  Your eyes sting and your
+throat burns.  You try not to breathe too deeply.  You keep your light high in
+the air, hoping to not see exactly what you are making your way through.   You
+hear the sounds of all number of disgusting creatures that make this their
+home.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 16284
+D4
+Exit description~
+~
+16777216 0 16213
+S
+#16286
+The Temple Of Quetzeson~
+The stone courtyard is massive, accented by the forty feet fountain in the
+center. The plaza is amazingly decorated with dozens of statues, perfectly
+arranged plants, paintings, and even live performers.  A network of
+spider-silk thin glass keeps the inside of the plaza cool in the day and warm
+at night.   Travellers from all over rest and relax, you feel as safe as a
+child in their mother's arms.
+~
+0 1032 0
+D1
+Exit description~
+~
+0 0 16287
+D2
+Exit description~
+~
+0 0 16289
+D3
+Exit description~
+~
+0 0 16230
+S
+#16287
+The Temple Of Quetzeson~
+The stone courtyard is massive, accented by the forty feet fountain in the
+center. The plaza is amazingly decorated with dozens of statues, perfectly
+arranged plants, paintings, and even live performers.  A network of
+spider-silk thin glass keeps the inside of the plaza cool in the day and warm
+at night.   Travellers from all over rest and relax, you feel as safe as a
+child in their mother's arms.
+~
+0 1032 0
+D0
+~
+~
+0 0 16219
+D1
+Exit description~
+~
+0 0 16288
+D3
+Exit description~
+~
+0 0 16286
+S
+#16288
+The Temple Of Quetzeson~
+The stone courtyard is massive, accented by the forty feet fountain in the
+center. The plaza is amazingly decorated with dozens of statues, perfectly
+arranged plants, paintings, and even live performers.  A network of
+spider-silk thin glass keeps the inside of the plaza cool in the day and warm
+at night.   Travellers from all over rest and relax, you feel as safe as a
+child in their mother's arms.
+~
+0 1032 0
+D1
+Exit description~
+~
+0 0 16240
+D3
+Exit description~
+~
+0 0 16287
+D9
+Exit description~
+~
+0 0 16289
+S
+#16289
+The Temple Of Quetzeson~
+The stone courtyard is massive, accented by the forty feet fountain in the
+center. The plaza is amazingly decorated with dozens of statues, perfectly
+arranged plants, paintings, and even live performers.  A network of
+spider-silk thin glass keeps the inside of the plaza cool in the day and warm
+at night.   Travellers from all over rest and relax, you feel as safe as a
+child in their mother's arms.
+~
+0 1032 0
+D0
+Exit description~
+~
+0 0 16286
+D2
+Exit description~
+~
+0 0 16220
+D6
+Exit description~
+~
+0 0 16288
+S
+#16290
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16294
+D4
+Exit description~
+~
+0 0 16291
+D5
+Exit description~
+~
+0 0 16223
+S
+#16291
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16295
+D4
+Exit description~
+~
+0 0 16292
+D5
+Exit description~
+~
+0 0 16290
+S
+#16292
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16296
+D4
+Exit description~
+~
+0 0 16293
+D5
+Exit description~
+~
+0 0 16291
+S
+#16293
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16297
+D5
+Exit description~
+~
+0 0 16292
+S
+#16294
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16290
+S
+#16295
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16291
+S
+#16296
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16292
+S
+#16297
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16293
+S
+#16298
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16302
+D4
+Exit description~
+~
+0 0 16299
+D5
+Exit description~
+~
+0 0 16227
+S
+#16299
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16303
+D4
+Exit description~
+~
+0 0 16300
+D5
+Exit description~
+~
+0 0 16298
+S
+#16300
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16304
+D4
+Exit description~
+~
+0 0 16301
+D5
+Exit description~
+~
+0 0 16299
+S
+#16301
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16305
+D5
+Exit description~
+~
+0 0 16300
+S
+#16302
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16298
+S
+#16303
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16299
+S
+#16304
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16300
+S
+#16305
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16301
+S
+#16306
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16310
+D4
+Exit description~
+~
+0 0 16307
+D5
+Exit description~
+~
+0 0 16229
+S
+#16307
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16311
+D4
+Exit description~
+~
+0 0 16308
+D5
+Exit description~
+~
+0 0 16306
+S
+#16308
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16312
+D4
+Exit description~
+~
+0 0 16309
+D5
+Exit description~
+~
+0 0 16307
+S
+#16309
+A Heavy Wooden Ladder~
+The tall buildings full of Warrens are all built onto of each other.  These
+massive ladders provide access to the higher apartments.  The ladders are tied
+into the buildings although the odd bladed contraptions around the ropes seem
+to be a defensive invention making access into the higher apartments difficult
+for invaders.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 16313
+D5
+Exit description~
+~
+0 0 16308
+S
+#16310
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16306
+S
+#16311
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16307
+S
+#16312
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16308
+S
+#16313
+A Wolfen Warren~
+This small home is modest at best.  Several  beds of soft cotton blankets and
+pillows line one wall with a small place is set aside to cook.  The fire pit
+leads conveniently into a smoke stack, allowing the residents to cook with
+little fear of choking themselves.  There are a few toys and smaller luxuries
+but it seems the people here life simple, spending most of them time outside
+within the city rather than at home.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16309
+S
+#16314
+The Slaughtered Lamb~
+This large pub is warm and inviting.  Despite the name it seems like a good
+place to settle in for the night and enjoy a cup of ale or two and talk to the
+many adventurers and travellers that stop through here.  A family of goblins
+seem to run the place, the father heads up the bar while what appears to be
+his son takes the orders.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 16214
+S
+#16315
+Wirli's Magical Stockpile~
+This neat and orderly shop has all the basic essentials a magically inclined
+traveller would need.  You see potions of energy, basic healing, and even a few
+potions to cure any illness caught by one of the many snakes in the jungles.
+A young wolfen boy sits behind the counter and goes over some sort of list.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16216
+S
+#16316
+The Dragonhide Boot~
+This tannery smells just like another places where animals are skinned and
+dried, it smells horrible.  The older wolfen woman doesn't seem to mind as she
+skins what appears to be a large rabbit.  The clothes do not look half bad,
+most of them seem durable and well suited for travelling.  This might be an
+excellent place to pick up a spare travelling set.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 16217
+S
+#16317
+The Guard Station~
+The walls are barren save for a few rough sketches of wanted criminals within
+the city.  A few chairs sit around an empty table.  The city guard don't seem
+to mind you poking around, most of them relaxing in the heat or already out
+patrolling the city.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 16211
+S
+#16318
+The Room Of Swords~
+The warriors of the Wolfen practice relentlessly here.  The walls are full of
+different swords, some mere pieces of heavy iron while others seem precisely
+crafted.  The senior warriors yell out orders and taunts to the younger
+warriors as they train.  They look at you and offer you a chance to prove your
+might against them.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 16236
+S
+#16319
+The Room Of Daggers~
+The rogues and assassins of the wolfen practice their craft here.  The place
+is poorly lit except for several spots where a bright light shines down.  The
+wolfen take turns trying to conceal themselves within the shadows, striking at
+the dummies in the light.  They watch you closely but watch your bags more
+closely.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 16239
+S
+#16320
+The Tenhicoal Armorer~
+This small armory has quite an extensive collection.  The room is packed with
+different weapons and armors as well.  You see heavy copper breastplates and
+tough leather hauberks.  There are swords, axes, polearms, even a few
+claw-extenders.  The ground is quite warm and an odd system of pipes leads
+below.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16238
+D5
+Exit description~
+~
+0 0 16321
+S
+#16321
+The Forge~
+The room smells of sulfur and feels hotter than a dragon's hate.  A heavy set
+wolfen man works the forge and bangs out a new shield.  He nods at you and
+goes back to work.
+~
+0 8 0
+D4
+Exit description~
+~
+0 0 16320
+S
+#16322
+The Tenhicoal Barracks~
+The warriors of the city all reside here in these barracks.  The room is
+essentially just stacks upon stacks of wooden frames with a few blankets
+thrown down to provide a rough mattress.  It is also so warm it is doubtful
+they ever use the blankets for more than just padding.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16232
+D2
+Exit description~
+~
+0 0 16323
+S
+#16323
+The Tenhicoal Barracks~
+The warriors of the city all reside here in these barracks.  The room is
+essentially just stacks upon stacks of wooden frames with a few blankets
+thrown down to provide a rough mattress.  It is also so warm it is doubtful
+they ever use the blankets for more than just padding.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16322
+D1
+Exit description~
+~
+0 0 16326
+D2
+Exit description~
+~
+0 0 16324
+S
+#16324
+The Tenhicoal Barracks~
+The warriors of the city all reside here in these barracks.  The room is
+essentially just stacks upon stacks of wooden frames with a few blankets
+thrown down to provide a rough mattress.  It is also so warm it is doubtful
+they ever use the blankets for more than just padding.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16323
+D1
+Exit description~
+~
+0 0 16325
+S
+#16325
+The Tenhicoal Barracks~
+The warriors of the city all reside here in these barracks.  The room is
+essentially just stacks upon stacks of wooden frames with a few blankets
+thrown down to provide a rough mattress.  It is also so warm it is doubtful
+they ever use the blankets for more than just padding.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16326
+D3
+Exit description~
+~
+0 0 16324
+S
+#16326
+The Tenhicoal Barracks~
+The warriors of the city all reside here in these barracks.  The room is
+essentially just stacks upon stacks of wooden frames with a few blankets
+thrown down to provide a rough mattress.  It is also so warm it is doubtful
+they ever use the blankets for more than just padding.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 16325
+D3
+Exit description~
+~
+0 0 16323
+S
+#16327
+Staff And Stone~
+This small shop is the magic supply of the various shamans, priests, magi's
+and other magically inclined members of the city.  A pretty young wolfen
+priestess runs the shop, a wide variety of scrolls, wands, staves, and herbs
+waiting to be sold.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16242
+S
+#16328
+The Spirit Lodge~
+The air is spiced with numerous incense and tobacco.  Numerous shamans sit and
+offer praise to the spirits of their forebear as well as create numerous
+helpful potions for the city guard or the warriors of the city.  They ignore
+your presence, most of them concerned with talking with themselves rather
+than you.
+~
+0 8 0
+D2
+~
+~
+0 0 16244
+S
+#16329
+The Alcove Of The Cloaked~
+The mages and conjurers of the wolfen relax here, dozens about dozens of great
+tomes of magiks spread out across the highly polished floor.  The smell of
+numerous mixtures and magical creations is heavy.  There are a few burn marks
+on the walls from spells that have gone wrong or perhaps a duel amongst the
+residents here.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 16247
+S
+#16330
+The Priest's Refuge~
+The air is full with the scent of fresh fruit and fine wine.  The priest's and
+priestesses of the Wolfen relax here, some read while others simply discuss
+their litanies with others.  The are large soft pillows to lounge on and
+numerous servants carrying trays of food and drink.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 16248
+S
+#16331
+The Greeting Hall~
+This massive building is both the local pub and meeting hall of the city.  It
+is all wolfen here, commoners and off-duty guards.  They seem content to joke
+and talk amongst themselves although you notice they don't make any indication
+they mind your presence here.  It seems like a place that is dedicated to
+fellowship and kinship.
+~
+0 1032 0
+D1
+Exit description~
+~
+0 0 16225
+S
+#16350
+The Throne Of Tenhicoal~
+The entire room is glass, you look out over the land and view its beauty. You
+see jungles, rivers, open plains and the great mountains.  You can even catch
+a glimmer or two of the sapphire ocean far away.  The room is relatively barren
+for a King's domain but the amount of servants and concubines speaks of the
+true luxury of leadership.  A massive golden throne rests directly in the
+center of the room.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 16260
+S
+#0
+
+
+#RESETS
+M 0 16201 1 16204
+E 1 16201 1 21
+M 0 16202 1 16211
+E 1 16202 1 21
+M 0 16203 1 16216
+E 1 16204 1 21
+M 0 16204 1 16222
+E 1 16203 1 21
+M 0 16205 1 16224
+E 1 16201 1 21
+M 0 16206 1 16228
+E 1 16201 1 21
+M 0 16207 1 16225
+E 1 16202 1 21
+M 0 16210 1 16231
+M 0 16211 1 16233
+M 0 16212 1 16236
+M 0 16213 1 16238
+M 0 16218 1 16220
+M 0 16219 1 16222
+M 0 16220 1 16224
+M 0 16222 1 16226
+M 0 16221 1 16228
+M 0 16235 1 16240
+M 0 16236 1 16245
+M 0 16238 1 16243
+M 0 16239 1 16248
+M 0 16241 1 16244
+M 0 16242 1 16249
+M 0 16244 1 16250
+E 1 16202 1 21
+M 0 16248 1 16252
+M 0 16245 1 16254
+E 1 16204 1 21
+M 0 16249 1 16256
+M 0 16246 1 16259
+E 1 16210 1 21
+E 1 16201 1 21
+M 0 16250 1 16260
+M 0 16259 1 16261
+G 1 16226 1
+G 1 16223 1
+G 1 16220 1
+M 0 16260 1 16262
+G 1 16228 1
+M 0 16274 1 16263
+G 1 16237 1
+E 1 16203 1 21
+G 1 16230 1
+G 1 16229 1
+M 0 16275 1 16264
+G 1 16238 1
+G 1 16231 1
+M 0 16276 1 16265
+G 1 16239 1
+G 1 16232 1
+M 0 16277 1 16266
+G 1 16240 1
+E 1 16203 1 21
+G 1 16233 1
+M 0 16278 1 16267
+G 1 16241 1
+G 1 16234 1
+M 0 16279 1 16268
+G 1 16235 1
+G 1 16242 1
+M 0 16280 1 16269
+E 0 16204 1 21
+E 0 16211 1 2
+E 0 16210 1 7
+G 1 16236 1
+G 1 16243 1
+M 0 16281 1 16270
+E 0 16205 1 22
+E 0 16205 1 21
+G 1 16244 1
+E 1 16227 1 12
+M 0 16251 1 16271
+M 0 16255 1 16273
+M 0 16252 1 16276
+M 0 16256 1 16277
+M 0 16253 1 16278
+M 0 16257 1 16280
+M 0 16254 1 16282
+M 0 16258 1 16285
+M 0 16223 1 16294
+M 0 16229 1 16295
+M 0 16224 1 16296
+M 0 16230 1 16297
+M 0 16225 1 16302
+M 0 16231 1 16303
+M 0 16226 1 16304
+M 0 16232 1 16305
+M 0 16233 1 16310
+M 0 16227 1 16311
+M 0 16234 1 16312
+M 0 16228 1 16313
+M 0 16261 1 16314
+G 1 16224 1
+G 1 16226 1
+G 1 16225 1
+G 1 16222 1
+G 1 16221 1
+M 0 16262 1 16314
+M 0 16263 1 16315
+G 1 16215 1
+G 1 16214 1
+G 1 16213 1
+M 0 16264 1 16316
+G 1 16208 1
+G 1 16206 1
+G 1 16207 1
+M 0 16208 1 16317
+E 1 16202 1 21
+M 0 16209 1 16317
+E 1 16201 1 21
+M 0 16265 1 16318
+M 0 16266 1 16319
+M 0 16267 1 16320
+G 1 16212 1
+G 1 16211 1
+G 1 16210 1
+G 1 16209 1
+G 1 16205 1
+G 1 16204 1
+G 1 16203 1
+G 1 16202 1
+G 1 16201 1
+M 0 16268 1 16321
+M 0 16214 1 16322
+M 0 16217 1 16324
+M 0 16216 1 16326
+M 0 16214 1 16325
+M 0 16269 1 16327
+G 1 16219 1
+G 1 16218 1
+G 1 16217 1
+G 1 16216 1
+M 0 16270 1 16328
+M 0 16272 1 16329
+M 0 16271 1 16330
+M 0 16273 1 16331
+M 0 16300 1 16350
+E 1 16300 1 21
+M 0 16247 1 16350
+E 1 16201 1 21
+O 0 16245 1 16262
+M 0 16243 1 16328
+M 0 16240 1 16329
+M 0 16237 1 16330
+S
+
+
+#SHOPS
+ 16259    9 63 17 19  0   120  90        14  4    ; a dingy wolfen bartender
+ 16260    8  0  0  0  0   120  90         0 23    ; Corez, the goblin announcer
+ 16261    0  0  0  0  0   120  90         0 23    ; Kint, the bartender
+ 16263   26 10 60  0  0   120  90         7 16    ; Wirli
+ 16264    9 11  8 67  0   120  90         7 15    ; an elderly wolfen seamstress
+ 16267    9  5 65 64  0   120  90         8 18    ; a wolfen armorer
+ 16269   10 26  4  3  2   120  90         7 20    ; a wolfen priestess
+0
+
+
+#REPAIRS
+ 16268    9  5 65         100   0         8 18    ; a wolfen armorer
+0
+
+
+#SPECIALS
+M  16201 spec_guard
+M  16202 spec_guard
+M  16203 spec_guard
+M  16204 spec_guard
+M  16205 spec_guard
+M  16206 spec_guard
+M  16207 spec_guard
+M  16208 spec_guard
+M  16209 spec_guard
+M  16235 spec_cast_cleric
+M  16236 spec_cast_cleric
+M  16237 spec_cast_cleric
+M  16238 spec_cast_mage
+M  16239 spec_cast_mage
+M  16240 spec_cast_mage
+M  16241 spec_cast_shaman
+M  16242 spec_cast_shaman
+M  16243 spec_cast_shaman
+M  16244 spec_guard
+M  16245 spec_guard
+M  16246 spec_guard
+M  16247 spec_guard
+M  16269 spec_cast_archmagi
+M  16270 spec_cast_shaman
+M  16271 spec_cast_cleric
+M  16272 spec_cast_archmagi
+M  16276 spec_cast_undead
+M  16277 spec_cast_diabolist
+M  16278 spec_breath_frost
+M  16279 spec_cast_archmagi
+M  16281 spec_cast_archmagi
+M  16300 spec_cast_bishop
+S
+
+
+#$

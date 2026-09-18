@@ -1,0 +1,1938 @@
+#AREA   Glitter Caverns~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+10 35 1 65
+$
+
+#RESETMSG Gems glitter in the darkness...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 456500145
+
+#CLIMATE 1 3 1
+
+#MOBILES
+#1501
+orc scout~
+an orc scout~
+A small, lightly armored orc sneaks about the rocks.
+~
+This small orc is wearing light but ragged armor.  He sneaks about the rocks,
+trying to get a feel for your intentions, but he doesn't hide very well.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 32 32 0
+0 0 39 0 0 0 48 0
+#1502
+orc scout~
+an orc scout~
+A small, lightly armored orc sneaks about the rocks.
+~
+This small orc is wearing light but ragged armor.  He sneaks about the rocks,
+trying to get a feel for your intentions, but he doesn't hide very well.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 32 32 0
+0 0 39 0 0 0 48 0
+#1503
+orc scout~
+an orc scout~
+A small, lightly armored orc sneaks about the rocks.
+~
+This small orc is wearing light but ragged armor.  He sneaks about the rocks,
+trying to get a feel for your intentions, but he doesn't hide very well.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 32 32 0
+0 0 39 0 0 0 48 0
+#1504
+orc scout~
+an orc scout~
+A small, lightly armored orc sneaks about the rocks.
+~
+This small orc is wearing light but ragged armor.  He sneaks about the rocks,
+trying to get a feel for your intentions, but he doesn't hide very well.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 32 32 0
+0 0 39 0 0 0 48 0
+#1505
+orc warrior~
+an orc warrior~
+A well-armored orc warrior patrols the caverns.
+~
+A large orc, wearing heavy armor, looks at you and grunts as you travel by.
+He isn't sure what you are doing down here, but isn't likely to attack you
+unless the odds are in his favor.
+~
+65 0 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 15 0 0 0 48 0
+#1506
+orc warrior~
+an orc warrior~
+A well-armored orc warrior patrols the caverns.
+~
+A large orc, wearing heavy armor, looks at you and grunts as you travel by.
+He isn't sure what you are doing down here, but isn't likely to attack you
+unless the odds are in his favor.
+~
+65 0 -1000 C
+20 0 -20 4d8+380 3d5+10
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 15 0 0 0 48 0
+#1507
+orc warrior~
+an orc warrior~
+A well-armored orc warrior patrols the caverns.
+~
+A large orc, wearing heavy armor, looks at you and grunts as you travel by.
+He isn't sure what you are doing down here, but isn't likely to attack you
+unless the odds are in his favor.
+~
+65 0 -1000 C
+20 0 -20 4d8+380 3d5+10
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 15 0 0 0 48 0
+#1508
+orc guard mighty~
+an orc guard~
+A mighty looking orc glares at you.
+~
+This orc glares at you as you approach.  He is dressed in decent armor, and
+holds quite a wicked blade.  He appears to be a guard for the homecaves.
+~
+32833 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 271 0 0 0 48 1
+#1509
+orc guard mighty~
+an orc guard~
+A mighty looking orc glares at you.
+~
+This orc glares at you as you approach.  He is dressed in decent armor, and
+holds quite a wicked blade.  He appears to be a guard for the homecaves.
+~
+32833 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 21 0 0 32 32 0
+0 0 263 0 0 0 48 1
+#1510
+orc guard mighty~
+an orc guard~
+A mighty looking orc glares at you.
+~
+This orc glares at you as you approach.  He is dressed in decent armor, and
+holds quite a wicked blade.  He appears to be a guard for the homecaves.
+~
+32833 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 21 0 0 32 32 0
+0 0 271 0 0 0 48 1
+#1511
+orc citizen male~
+an orc citizen~
+An orc citizen roams about the homecaves.
+~
+This male orc travels about the homecaves, on some errand or another.  He
+avoids looking you in the eye, and doesn't want to start any trouble.
+~
+16777409 0 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 15 0 0 0 16 0
+#1512
+orc citizen male~
+an orc citizen~
+An orc citizen roams about the homecaves.
+~
+This male orc travels about the homecaves, on some errand or another.  He
+avoids looking you in the eye, and doesn't want to start any trouble.
+~
+16777409 0 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 15 0 0 0 16 0
+#1513
+orc citizen female~
+an orc citizen~
+An orc citizen roams about the homecaves.
+~
+This female orc travels about the homecaves, on some errand or another.  She
+avoids looking you in the eye, and doesn't want to start any trouble.
+~
+16777409 0 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 15 0 0 0 16 0
+#1514
+orc citizen female~
+an orc citizen~
+An orc citizen roams about the homecaves.
+~
+This female orc travels about the homecaves, on some errand or another.  She
+avoids looking you in the eye, and doesn't want to start any trouble.
+~
+16777409 0 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 15 0 0 0 16 0
+#1515
+orc child small~
+an orc child~
+A small orc runs about the caverns, playing some orc game.
+~
+This young orc runs about the caverns, singing a gruff, orc song, and playing
+some sort of orc game.  He looks at you as he runs past, but ignores you.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 47 0 0 0 48 0
+#1516
+orc child small~
+an orc child~
+A small orc runs about the caverns, playing some orc game.
+~
+This young orc runs about the caverns, singing a gruff, orc song, and playing
+some sort of orc game.  She looks at you as she runs past, but ignores you.
+~
+16777409 32768 -1000 C
+10 0 30 3d6+155 2d5+5
+20 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 18 0 0 32 32 0
+0 0 47 0 0 0 48 0
+#1517
+orc elite guard huge~
+an orc elite guard~
+This huge orc stands at attention and ignores you.
+~
+This gigantic orc is coated in armor, and wields a vicious looking axe.  He
+quivers with anger at your intrusion, but stays standing in his guard
+position.
+~
+32835 0 -1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 21 0 0 32 32 0
+0 0 79 0 0 0 48 1
+#1518
+bat small~
+a small bat~
+A small bat flits around the cavern.
+~
+A small black bat flits about the cavern, looking for bugs to eat.
+~
+65 524288 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#1519
+bat small~
+a small bat~
+A small bat flits around the cavern.
+~
+A small black bat flits about the cavern, looking for bugs to eat.
+~
+65 524288 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#1520
+orc chief chieftain large~
+an orc chieftain~
+A large orc rises from his throne as you approach.
+~
+This mighty orc is wearing an iron crown, and must be the chieftain of the
+local tribe.  His red eyes burn into you as you approach him, and a low growl
+comes from his throat.  He holds a blood-covered mace in one hand.
+~
+67 0 -1000 C
+35 0 -95 4d20+975 3d5+25
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 15 0 0 0 112 1
+#1521
+halforc thug orc Grazd Bloodburner bulky~
+the half-orc thug, Grazd Bloodburner~
+A bulky half-orc snarls and sneers as you approach.
+~
+This tall beast wastes no time in getting down to business with you..."Hey
+scum, you know who I am?  I'm Grazd Bloodburner, you're worst nightmare.  If I
+were you, I'd be pretty scared right now."  He flashes an ugly toothy grin and
+eyes your moneypouch greedily.
+~
+17826817 -2039447424&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 14 0 0 1835007 1 0
+0 0 2047 2105344 0 0 133105 524291
+> death_prog 5~
+grunt
+say The God-Eater will come for you!
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#1522
+halforc cleric Molikoth robed dark figure~
+Molikoth the God-Eater~
+A dark-robed figure stops and turns in your direction.
+~
+Silent and scary, this dark figure is completely covered in dark robes, from
+head to toe.  It stands as still as a statue.  As you stare closer, you
+realize there are small symbols sewn into the robes, and with a jolt you
+realize who this is.  Molikoth, renegade half-orc Cleric.  You've heard him
+referred to as the God-Eater, and the numerous tales of his journeys are dark
+and horrible.
+~
+17826817 -2074050432&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 13 0 0 1835007 1 0
+0 0 2047 2105344 0 0 67109537 524295
+> rand_prog 5~
+ponder
+say You know, I can "TEACH BLOODSONG" if you are advanced enough!
+~
+> speech_prog 'teach bloodsong'~
+if isnohero($n)
+    say Sorry $n, you need to be a hero before you can learn my skill
+    smile $n
+    break
+else
+   if questpoints($n) < 15000
+       say Sorry $n, you need more quest points to learn my skill
+        smile $n
+        break
+   else
+       nod $n
+       mppractice $n bloodsong 100
+       mpmset $n questpoints 15000
+       say Use your new skill wisely!
+       salute $n
+    endif
+endif
+~
+> death_prog 5~
+growl
+say I place the curse of the God-Eater on you and your kin!
+grunt
+shriek
+rinvoke artifact
+
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#1600
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194371 0 -1000 C
+35 0 -95 4d20+975 3d5+25
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 7 0 0 0 112 1
+#0
+
+
+#OBJECTS
+#1501
+leather torn sleeves~
+torn leather sleeves~
+A torn set of leather sleeves lies here.~
+~
+9 0 129
+4 4 0 0
+2 25 0
+#1502
+leather boots torn~
+a pair of torn leather boots~
+An old pair of torn leather boots sits here.~
+~
+9 0 65537
+4 4 0 0
+2 25 0
+#1503
+leather cloak torn~
+a torn leather cloak~
+A ragged cloak, made from torn leather.~
+~
+9 0 33
+4 4 0 0
+2 25 0
+#1504
+leather torn leggings~
+a set of torn leather leggings~
+A torn set of leather leggings lies here.~
+~
+9 0 16385
+4 4 0 0
+2 25 0
+#1505
+bracelet feather~
+a tribal feather bracelet~
+A small bracelet crafted from feathers sits here.~
+~
+9 64 257
+3 3 0 0
+1 100 0
+A
+2 1
+#1506
+dagger broken~
+a broken dagger~
+A chipped and broken dagger sits here.~
+~
+5 0 131073
+7 1 3 2
+1 35 0
+#1507
+bow splintery~
+a splintery bow~
+A small bow, made of rough wood, sits here.~
+~
+5 0&16 131073
+8 4 5 14
+6 35 0
+#1508
+necklace rock glittery~
+a glittery-rock necklace~
+This necklace is crafted from glittery rocks.~
+~
+9 65 33
+1 1 0 0
+1 100 0
+A
+13 15
+A
+5 1
+#1509
+leather black chestplate~
+a black leather chestplate~
+A solid chestplate, crafted from black leather.
+~
+~
+9 0 65
+6 6 0 0
+3 50 0
+#1510
+leather helm black~
+a black leather helm~
+A helm, crafted from black leather.~
+~
+9 0 3
+6 6 0 0
+2 50 0
+#1511
+leather black visor~
+a black leather visor~
+A small visor, crafted from black leather, sits here.~
+~
+9 0 5
+6 6 0 0
+1 50 0
+A
+23 -1
+#1512
+leather black gauntlets~
+a pair of black leather gauntlets~
+A pair of gauntlets made from black leather sits here.~
+~
+9 0 513
+6 6 0 0
+2 50 0
+#1513
+blade sword saw edged~
+a saw-edged blade~
+A long blade, with an edge like a saw, sits here.~
+~
+5 0 131073
+12 1 8 3
+4 75 0
+#1514
+axe battle heavy~
+a heavy battle-axe~
+This large battle axe looks quite heavy.~
+~
+5 0&16 131073
+12 5 5 18
+15 100 0
+#1515
+mace bloody~
+a bloody mace~
+This large mace appears to be coated in dried blood.~
+~
+5 0 131073
+12 4 3 8
+8 150 0
+#1516
+backshield iron~
+an iron backshield~
+A large backshield, crafted from iron.~
+~
+9 524288 4097
+13 13 0 0
+7 150 0
+#1517
+shield iron large~
+a large iron shield~
+A large iron shield leans against the wall.
+~
+~
+9 524288 524289
+14 14 0 0
+6 150 0
+#1518
+bracer iron~
+an iron bracer~
+A hefty bracer, crafted from iron.~
+~
+9 524288 257
+12 12 0 0
+4 100 0
+#1519
+girth iron~
+an iron girth~
+A large belt, crafted from iron.~
+~
+9 524288 8193
+13 13 0 0
+6 150 0
+#1520
+badge orcs ironkore~
+a badge of the Ironkore Orc Guard~
+An ugly little iron badge of orc design sits here.~
+~
+9 64 2097153
+4 4 0 0
+1 75 0
+A
+18 1
+A
+13 5
+#1521
+choker iron~
+an iron choker~
+A large choker, made from iron, sits here.~
+~
+9 524288 33
+9 9 0 0
+3 100 0
+#1522
+spring crack~
+a small spring~
+A small spring burbles from a crack in the rock.~
+~
+25 0 0
+0 1 0 0
+9999 0 0
+#1523
+gem glittery~
+a small, glittery gem~
+A small gem glitters on the ground.~
+~
+8 0 1048577
+0 0 0 0
+1 250 0
+#1524
+pot crude~
+a crude pot~
+A crude pot sits here, useful for storing items in.~
+~
+15 0 1048577
+250 0 0 0
+4 75 0
+#1525
+sword short cracked~
+a cracked short sword~
+This short sword is cracked and bent.~
+~
+5 0 131073
+12 1 5 3
+2 50 0
+#1526
+spring crack~
+a small spring~
+A small spring burbles from a crack in the rock.~
+~
+25 0 0
+0 1 0 0
+9999 0 0
+#1527
+pot crude~
+a crude pot~
+A crude pot sits here, useful for storing items in.~
+~
+15 0 1048577
+250 0 0 0
+4 75 0
+#1600
+Placeholder~
+Placeholder~
+Placeholder~
+~
+15 0 16385
+250 0 0 0
+4 75 0
+#0
+
+
+#ROOMS
+#1501
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.  North of you, the canyon seems to
+break out into the main pass.
+~
+0 0 5
+D0
+~
+~
+0 0 115
+D2
+~
+~
+0 0 1502
+S
+#1502
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 1501
+D2
+~
+~
+0 0 1503
+S
+#1503
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 1502
+D1
+~
+~
+0 0 1504
+S
+#1504
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D2
+~
+~
+0 0 1505
+D3
+~
+~
+0 0 1503
+S
+#1505
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 1504
+D2
+~
+~
+0 0 1506
+S
+#1506
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 1505
+D3
+~
+~
+0 0 1507
+S
+#1507
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 1506
+D3
+~
+~
+0 0 1508
+S
+#1508
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 1507
+D2
+~
+~
+0 0 1509
+S
+#1509
+A Narrow Canyon~
+You walk down a narrow canyon.  At some points in this canyon, you have to
+squeeze yourself past fallen rocks.  The canyon walls stretch far above you,
+and you don't see an easy way to climb out.  You sight a large, black cave in
+the mountain to the south.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 1508
+D2
+~
+~
+0 0 1510
+S
+#1510
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1509
+D1
+Exit description~
+~
+0 0 1525
+D3
+~
+~
+0 0 1511
+S
+#1511
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1510
+D3
+~
+~
+0 0 1512
+S
+#1512
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1511
+D2
+~
+~
+0 0 1513
+S
+#1513
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1512
+D2
+~
+~
+0 0 1514
+S
+#1514
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1513
+D2
+~
+~
+0 0 1515
+S
+#1515
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1514
+D2
+~
+~
+0 0 1516
+S
+#1516
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1515
+D1
+~
+~
+0 0 1517
+S
+#1517
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+~
+~
+0 0 1518
+D3
+Exit description~
+~
+0 0 1516
+S
+#1518
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1528
+D1
+~
+~
+0 0 1519
+D2
+Exit description~
+~
+0 0 1529
+D3
+Exit description~
+~
+0 0 1517
+S
+#1519
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+~
+~
+0 0 1520
+D3
+Exit description~
+~
+0 0 1518
+S
+#1520
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1521
+D3
+Exit description~
+~
+0 0 1519
+S
+#1521
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1522
+D1
+Exit description~
+~
+0 0 1538
+D2
+Exit description~
+~
+0 0 1520
+S
+#1522
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1523
+D2
+Exit description~
+~
+0 0 1521
+D3
+Exit description~
+~
+0 0 1526
+S
+#1523
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1524
+D2
+Exit description~
+~
+0 0 1522
+S
+#1524
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 1523
+D3
+~
+~
+0 0 1525
+S
+#1525
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1524
+D3
+~
+~
+0 0 1510
+S
+#1526
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+~
+~
+0 0 1522
+D3
+~
+~
+0 0 1527
+S
+#1527
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1526
+D2
+~
+~
+0 0 1528
+S
+#1528
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1527
+D2
+~
+~
+0 0 1518
+S
+#1529
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1518
+D2
+~
+~
+0 0 1530
+S
+#1530
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1529
+D2
+~
+~
+0 0 1531
+S
+#1531
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1530
+D1
+~
+~
+0 0 1532
+S
+#1532
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+~
+~
+0 0 1533
+D3
+Exit description~
+~
+0 0 1531
+S
+#1533
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D1
+~
+~
+0 0 1534
+D3
+Exit description~
+~
+0 0 1532
+S
+#1534
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1535
+D3
+Exit description~
+~
+0 0 1533
+S
+#1535
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1536
+D2
+Exit description~
+~
+0 0 1534
+S
+#1536
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1537
+D1
+Exit description~
+~
+0 0 1539
+D2
+Exit description~
+~
+0 0 1535
+S
+#1537
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D0
+~
+~
+0 0 1538
+D2
+Exit description~
+~
+0 0 1536
+S
+#1538
+Inside A Glittery Cavern~
+You stand inside a dark cavern.  The sound of bats flitting about above you
+echoes back and forth down the tunnel.  Occasionally, you spot the glimmer of
+gemstones, still locked deep within the rock walls.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 1537
+D3
+~
+~
+0 0 1521
+S
+#1539
+Roughly Carved Tunnels~
+You stand in a strange tunnel.  To the west of you lies the naturally formed
+caverns you came in from.  To the east, it appears as if the tunnel has been
+carved out of the rock by amateur hands.  The smell of cookfires also comes
+from the east.
+~
+0 0 13
+D1
+~
+~
+0 0 1540
+D3
+~
+~
+0 0 1536
+S
+#1540
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1541
+D2
+Exit description~
+~
+0 0 1555
+D3
+Exit description~
+~
+0 0 1539
+S
+#1541
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1542
+D2
+Exit description~
+~
+0 0 1540
+S
+#1542
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1543
+D2
+Exit description~
+~
+0 0 1541
+S
+#1543
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D1
+~
+~
+0 0 1544
+D2
+Exit description~
+~
+0 0 1542
+S
+#1544
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D1
+~
+~
+0 0 1545
+D3
+Exit description~
+~
+0 0 1543
+S
+#1545
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D2
+~
+~
+0 0 1546
+D3
+Exit description~
+~
+0 0 1544
+S
+#1546
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1545
+D1
+Exit description~
+~
+0 0 1556
+D2
+~
+~
+0 0 1547
+S
+#1547
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1546
+D2
+~
+~
+0 0 1548
+S
+#1548
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1547
+D2
+~
+~
+0 0 1549
+S
+#1549
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1548
+D2
+~
+~
+0 0 1550
+S
+#1550
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1549
+D1
+Exit description~
+~
+0 0 1560
+D2
+~
+~
+0 0 1551
+S
+#1551
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1550
+D3
+~
+~
+0 0 1552
+S
+#1552
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 1551
+D3
+~
+~
+0 0 1553
+S
+#1553
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1554
+D1
+Exit description~
+~
+0 0 1552
+S
+#1554
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1555
+D2
+Exit description~
+~
+0 0 1553
+S
+#1555
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+~
+~
+0 0 1540
+D2
+Exit description~
+~
+0 0 1554
+S
+#1556
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D2
+~
+~
+0 0 1557
+D3
+~
+~
+0 0 1546
+S
+#1557
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1556
+D1
+Exit description~
+~
+0 0 1561
+D2
+~
+~
+0 0 1558
+S
+#1558
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1557
+D2
+~
+~
+0 0 1559
+S
+#1559
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1558
+D1
+Exit description~
+~
+0 0 1563
+D2
+~
+~
+0 0 1560
+S
+#1560
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1559
+D3
+~
+~
+0 0 1550
+S
+#1561
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D2
+~
+~
+0 0 1562
+D3
+~
+~
+0 0 1557
+S
+#1562
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1561
+D1
+Exit description~
+~
+0 0 1564
+D2
+~
+~
+0 0 1563
+S
+#1563
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1562
+D3
+~
+~
+0 0 1559
+S
+#1564
+Roughly Carved Tunnels~
+You travel about the roughly carved homecaves of the orcs.  You can see places
+where the orcs have carved small living quarters out of the rock.  The stink
+of orc-flesh and the strong smell of smoke fills the air about you.  This
+cavern is larger than the rest, and a large stone chair sits against the east
+wall.
+~
+0 0 13
+D3
+~
+~
+0 0 1562
+S
+#1600
+Placeholder~
+Placeholder
+~
+0 4 13
+S
+#0
+
+
+#RESETS
+M 0 1522 1 1505
+M 0 1521 1 1509
+O 0 1527 1 1559
+O 0 1524 1 1547
+O 0 1526 1 1549
+O 0 1522 1 1525
+O 0 1523 1 1528
+M 0 1519 2 1521
+M 0 1519 2 1521
+M 0 1518 2 1515
+M 0 1518 2 1515
+M 0 1520 1 1564
+E 0 1518 1 9
+E 0 1517 1 23
+E 0 1508 1 5
+E 0 1509 1 7
+E 0 1515 1 21
+M 0 1517 2 1562
+E 0 1514 1 21
+E 0 1517 1 23
+E 0 1521 1 5
+E 0 1520 1 25
+M 0 1517 2 1562
+E 0 1520 1 25
+E 0 1514 1 21
+E 0 1516 1 15
+E 0 1518 1 9
+M 0 1516 2 1545
+M 0 1516 2 1545
+M 0 1515 2 1555
+M 0 1515 2 1555
+M 0 1514 2 1563
+M 0 1514 2 1563
+M 0 1513 2 1552
+M 0 1513 2 1552
+M 0 1512 2 1516
+M 0 1512 2 1516
+M 0 1511 2 1544
+M 0 1511 2 1544
+M 0 1510 2 1558
+E 0 1519 1 16
+M 0 1510 2 1558
+E 0 1518 1 9
+M 0 1509 2 1548
+E 0 1517 1 23
+M 0 1509 2 1548
+E 0 1513 1 21
+M 0 1508 2 1539
+E 0 1513 1 21
+M 0 1508 2 1539
+E 0 1516 1 15
+M 0 1507 3 1534
+E 0 1509 1 7
+M 0 1507 3 1534
+E 0 1525 1 21
+M 0 1507 3 1534
+E 0 1512 1 11
+M 0 1506 2 1518
+E 0 1511 1 2
+M 0 1506 2 1518
+E 0 1510 1 1
+M 0 1505 2 1512
+E 0 1525 1 21
+M 0 1505 2 1512
+E 0 1509 1 7
+M 0 1504 2 1541
+E 0 1507 1 21
+M 0 1504 2 1541
+E 0 1504 1 17
+M 0 1503 2 1524
+E 0 1505 1 9
+M 0 1503 2 1524
+E 0 1507 1 21
+M 0 1502 2 1507
+E 0 1506 1 21
+E 0 1504 1 17
+M 0 1502 2 1507
+E 0 1506 1 21
+E 0 1503 1 5
+M 0 1501 2 1503
+E 0 1506 1 21
+E 0 1502 1 20
+M 0 1501 2 1503
+E 0 1506 1 21
+E 0 1501 1 8
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1508 spec_racist
+M  1509 spec_racist
+M  1510 spec_racist
+M  1517 spec_racist
+M  1520 spec_racist
+M  1521 spec_thief
+M  1522 spec_cast_bishop
+S
+
+
+#$

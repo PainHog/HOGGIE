@@ -1,0 +1,92 @@
+#AREA Generic Area~
+
+#VERSION 1
+
+#CLIMATE 2 2 2
+
+#AUTHOR Your Name Here!~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG All the mobs and objects just reset....~
+
+#FLAGS
+0 15
+
+#ECONOMY 1 0
+
+#MOBILES
+#1
+new mob~
+A newly created mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#100
+new mob~
+Dont Change This Mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#1
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#100
+Object name~
+Dont Change This Object~
+A newly created object sits here.
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#1
+Room name~
+You stumble into a newly created room.
+~
+0 0 0 0 0 0
+S
+#100
+Dont Change This Room~
+You stumble into a newly created room.
+~
+0 0 0 0 0 0
+S
+#0
+
+#SPECIALS
+S
+
+#$

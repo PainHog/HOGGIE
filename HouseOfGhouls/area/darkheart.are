@@ -1,0 +1,3419 @@
+#AREA   The Dark Heart Swamp~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG The smell of rot and the memories of the fallen fill the air.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 72769028
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2901
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2902
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2903
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2904
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2905
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2906
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2907
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2908
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2909
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2910
+swamp runner mud dog~
+a swamp runner~
+This muddy dog prowls the swamp for anything edible.
+~
+This mangy wolf is some type of dog, but from the huge fangs and the almost
+scale like tail, this wolf has been corrupted by something in this swamp.  It
+stalks the muddy waters, looking for any living or dead creature that has some
+sort of meat.  The creature is looking dead at you.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2911
+dark heart leech~
+a dark heart leech~
+This disgusting leech is moving through the water, right at you!
+~
+This leech is massive, the size of a huge serpent.  It moves forward with
+incredible speed.  Its teeth are sharp and numerous and it seems to be
+spitting acid in your general direction.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2912
+dark heart leech~
+a dark heart leech~
+This disgusting leech is moving through the water, right at you!
+~
+This leech is massive, the size of a huge serpent.  It moves forward with
+incredible speed.  Its teeth are sharp and numerous and it seems to be
+spitting acid in your general direction.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2913
+dark heart leech~
+a dark heart leech~
+This disgusting leech is moving through the water, right at you!
+~
+This leech is massive, the size of a huge serpent.  It moves forward with
+incredible speed.  Its teeth are sharp and numerous and it seems to be
+spitting acid in your general direction.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2914
+dark heart leech~
+a dark heart leech~
+This disgusting leech is moving through the water, right at you!
+~
+This leech is massive, the size of a huge serpent.  It moves forward with
+incredible speed.  Its teeth are sharp and numerous and it seems to be
+spitting acid in your general direction.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2915
+dark heart leech~
+a dark heart leech~
+This disgusting leech is moving through the water, right at you!
+~
+This leech is massive, the size of a huge serpent.  It moves forward with
+incredible speed.  Its teeth are sharp and numerous and it seems to be
+spitting acid in your general direction.
+~
+97 4194304&256 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2916
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2917
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2918
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2919
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2920
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2921
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2922
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2923
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2924
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2925
+dark heart leechling~
+a dark heart leechling~
+This smaller leech is too small to hunt, but not too small for you!
+~
+This leech is still young and so it must stay in the nest.  But it is hungry
+and it is more than large enough to take a bite out of you.  It would not be
+so bad if you were not trapped in this nest and this creature did not have a
+few brothers and sisters with it.
+~
+97 4194304&256 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 1 1 0
+0 0 524329 0 0 0 259 2
+#2926
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2927
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2928
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2929
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2930
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2931
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2932
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2933
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2934
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2935
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2936
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2937
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2938
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2939
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2940
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2941
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2942
+lizardman warrior corrupted~
+a corrupted lizardman warrior~
+This warrior stares at the ground, her tears long since dry.
+~
+This warrior was once a champion of this city, a fighter that had no rival in
+glory or honor.  Now, she is little more than a skeleton with pieces of flesh
+still sticking to her bones.  She will not meet your gaze, she will do nothing
+but stare at the ground and beg for death.
+~
+65 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2943
+lizardman warrior corrupted~
+a corrupted lizardman warrior~
+This warrior stares at the ground, her tears long since dry.
+~
+This warrior was once a champion of this city, a fighter that had no rival in
+glory or honor.  Now, she is little more than a skeleton with pieces of flesh
+still sticking to her bones.  She will not meet your gaze, she will do nothing
+but stare at the ground and beg for death.
+~
+65 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2944
+lizardman warrior corrupted~
+a corrupted lizardman warrior~
+This warrior stares at the ground, her tears long since dry.
+~
+This warrior was once a champion of this city, a fighter that had no rival in
+glory or honor.  Now, she is little more than a skeleton with pieces of flesh
+still sticking to her bones.  She will not meet your gaze, she will do nothing
+but stare at the ground and beg for death.
+~
+65 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2945
+lizardman matron fallen~
+a fallen lizardman matron~
+This lizard was once the proud matron of this city.
+~
+This lizardwoman was once a matron, one of the few selected to care  and
+nurture the young of this city.  Her position was one of true esteem, being
+trusted with the future of the city.  Yet, the city has been dead for years
+and somehow, someway, this woman believes she has failed.
+~
+65 4194304&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2946
+lizardman matron fallen~
+a fallen lizardman matron~
+This lizard was once the proud matron of this city.
+~
+This lizardwoman was once a matron, one of the few selected to care  and
+nurture the young of this city.  Her position was one of true esteem, being
+trusted with the future of the city.  Yet, the city has been dead for years
+and somehow, someway, this woman believes she has failed.
+~
+65 4194304&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2947
+lizardman matron fallen~
+a fallen lizardman matron~
+This lizard was once the proud matron of this city.
+~
+This lizardwoman was once a matron, one of the few selected to care  and
+nurture the young of this city.  Her position was one of true esteem, being
+trusted with the future of the city.  Yet, the city has been dead for years
+and somehow, someway, this woman believes she has failed.
+~
+65 4194304&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2948
+lizardman matron fallen~
+a fallen lizardman matron~
+This lizard was once the proud matron of this city.
+~
+This lizardwoman was once a matron, one of the few selected to care  and
+nurture the young of this city.  Her position was one of true esteem, being
+trusted with the future of the city.  Yet, the city has been dead for years
+and somehow, someway, this woman believes she has failed.
+~
+65 4194304&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2949
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2950
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2951
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2952
+corrupted lizard man~
+a corrupted lizardman~
+This lizardman's scales are rotting, it has been dead for centuries.
+~
+This lizardman has been dead for centuries, maybe even thousands of years. The
+water in the tunnels seem to have kept it well preserved.  The scales are
+rotting and the creature is missing large pieces of his chest and torso.  The
+creature does not seem to recognize you, it has little intelligence left.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2953
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2954
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2955
+lizardman soldier fallen~
+a fallen lizardman soldier~
+This soldier is rotting with nothing left but its weapon and its hatred.
+~
+This lizardman was once a dedicated soldier and warrior of this unnamed city,
+but it is all for not.  Something robbed it of its soul, its life, and its
+purpose. It stalks the part of the city where it died, looking to stop the
+pain.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2956
+lizardman warrior corrupted~
+a corrupted lizardman warrior~
+This warrior stares at the ground, her tears long since dry.
+~
+This warrior was once a champion of this city, a fighter that had no rival in
+glory or honor.  Now, she is little more than a skeleton with pieces of flesh
+still sticking to her bones.  She will not meet your gaze, she will do nothing
+but stare at the ground and beg for death.
+~
+65 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2957
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2958
+tainted lizard man~
+a tainted lizardman~
+This lizardman looks around for the cause of his curse.
+~
+This lizardman is in much better shape than the others.  Its scaled have not
+grown brittle or rotted, but the creature is stalking the hallways, looking
+for the cause of her curse.  She knows that something is wrong with her, but
+she does not know why.  She has the idea that maybe its you.
+~
+65 4194304&256 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2959
+fallen royal guard~
+a fallen royal guard~
+This guard was sworn to protect the royality of this city, and he failed.
+~
+Judging by the elaborate jewelry and armor, this lizardman was selected to be
+a defender of the royalty of this city.  His scales are mostly gone, even his
+bones are beginning to rot, yet it moves with grace and an uncanny strength.
+The creature sees you and continues to do the duty it had failed to do once.
+~
+4194369 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2960
+fallen royal guard~
+a fallen royal guard~
+This guard was sworn to protect the royality of this city, and he failed.
+~
+Judging by the elaborate jewelry and armor, this lizardman was selected to be
+a defender of the royalty of this city.  His scales are mostly gone, even his
+bones are beginning to rot, yet it moves with grace and an uncanny strength.
+The creature sees you and continues to do the duty it had failed to do once.
+~
+4194369 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2961
+fallen royal guard~
+a fallen royal guard~
+This guard was sworn to protect the royality of this city, and he failed.
+~
+Judging by the elaborate jewelry and armor, this lizardman was selected to be
+a defender of the royalty of this city.  His scales are mostly gone, even his
+bones are beginning to rot, yet it moves with grace and an uncanny strength.
+The creature sees you and continues to do the duty it had failed to do once.
+~
+4194369 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#2962
+fallen royal guard~
+a fallen royal guard~
+This guard was sworn to protect the royality of this city, and he failed.
+~
+Judging by the elaborate jewelry and armor, this lizardman was selected to be
+a defender of the royalty of this city.  His scales are mostly gone, even his
+bones are beginning to rot, yet it moves with grace and an uncanny strength.
+The creature sees you and continues to do the duty it had failed to do once.
+~
+4194369 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 421 2097159
+#3000
+Ungulai matron lizard~
+Unguali, The Matron Lizard~
+This large lizardwoman was once the proud all-mother of this tribe.
+~
+The lizardwoman is by the largest you have encountered in this damned
+place.  She stands eight feet tall and must weight three hundred pounds,
+even though half her skin and muscle seems to have rotted away.  She
+sits proudly in her decayed throne, regal even in undeath.
+~
+4194371 37748736&320 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 262155 112 0 0 16805 2097159
+#0
+
+
+#OBJECTS
+#2901
+rotted tribal necklace~
+a rotted tribal necklace~
+This necklace has long since rusted and rotted to nothing.~
+~
+8 0 33
+0 0 0 0
+1 5 0
+#2902
+rusted copper chest-plate~
+a rusted copper chest-plate~
+This chest-plate has been rusted beyond use.
+~
+~
+9 524288 65
+2 8 0 0
+8 20 0
+#2903
+moss covered head dress~
+a moss covered headdress~
+This headdress has been overrun with fungus.~
+~
+8 0 3
+0 0 0 0
+1 10 0
+#2904
+grimy anklet~
+a grimy anklet~
+This anklet is just a piece of junk.~
+~
+8 0 32769
+0 0 0 0
+1 5 0
+#2905
+grimy anklet~
+a grimy anklet~
+This anklet is just a piece of junk.~
+~
+8 0 32769
+0 0 0 0
+1 5 0
+A
+22 -3
+A
+24 -3
+A
+20 -3
+#2906
+brittle hand axe~
+a brittle hand axe~
+This hand axe looks like it would shatter on impact.~
+~
+5 0 393217
+3 3 2 19
+3 10 0
+#2907
+rusted short spear~
+a rusted short spear~
+This spear is small and has a dull edge.~
+~
+5 0 393217
+3 3 2 11
+3 10 0
+#2908
+warped long sword~
+a warped long sword~
+This long blade has been warped for centuries of abuse.~
+~
+5 0&16 131073
+2 4 3 1
+3 10 0
+#2909
+forgotten badge~
+a forgotten badge~
+This badge was once a mark of pride, but now it matters to no one.~
+~
+66 64 2097153
+0 0 0 0
+1 100 0
+A
+13 25
+A
+22 -4
+A
+20 -4
+#2910
+tablet wooden faded~
+a faded wooden tablet~
+This tablet of wood is badly faded and hard to read.~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+faded wooden tablet~
+The _-ll of the *&ea& city o- Oli*-z&i*-t&*
+
+   The darkness spreads, even now.  So many of our kind have grown sick.
+As per tradition, they have wandered far off into the bog to lead their
+final moments.  But so many are sick, so many are afflicted they are starting
+to die in the city.
+
+   Our shamans have no cure for the illness, it must be magical in nature
+as the spirits are not capable of stopping it.  We have asked the wolfen
+tribes for help, but they ignore us.  The minotaurs are too young to
+help us.  We are alone.
+
+   Those that are not sick are preparing to leave the city, but we do not want
+to infect the others.  Perhaps it is the fate of the spirits that we die.
+~
+#2911
+oddly coated scroll~
+an oddly coated scroll~
+This scroll is somehow protected from the water.~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+oddly coated scroll~
+Our city must be reinforced if we hope to keep the swamp mud from crushing
+the structures.  I believe our new material, the combination of melted flax
+and magic will be enough to seal the wood from the damaging affects of
+the water.  It is much easier to harvest the wood from the jungles
+than to spend the time it takes to shape the rock.
+
+ We have thought about teaching the scattered wolfen tribes the secret
+of this new material, but our Matron states that they must develop on their
+own.  They are in possession of a thread, made from some obscure
+animal, that is much stronger than we possess.  I think the trade is worth it
+but it is not my place to make that choice.  I will speak with the Matron
+again.
+
+
+~
+#2912
+preserved clay tablet~
+a preserved clay tablet~
+This clay tablet has managed to survive the water well.~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+clay tablet preserved~
+Our scouts have reported something strange.  It appears that a fleet of odd
+creatures have landed in the far east, near wolfen lands.  They are tall and
+lithe, quite similar to us actually.  Yet, they are not derived reptilian, nor
+ are they quite mammals.  They are not covered in fur, except for the thin
+patches on their head.  They seem quite sophisticated, despite not having
+scales.  It makes us nervous though, to see this new breed of species emerge.
+It is clear that they are not native to our land, so then it must be true that
+other lands exist across the ocean.  This is not an unheard of theory, but one
+we have not managed to prove one way or the other, until now. It should be
+interesting to see how they interact with the wolfen, who are quite
+aggressive, not unlike the creatures that prowl the swamps.  If need be, we
+will step in and stop any undue war.  The wolfen tribes keep themselves well
+in check through their constant wars with each other, but these creatures
+might upset that delicate balance. We have no physical or spiritual proof that
+these creatures are capable of great magical power, but some of our scouts
+have seen them battling some of the beasts in the land.  The reports are odd
+and unbelievable. They claim these creatures can call upon great powers to
+heal and shield themselves, even alter the world around them.  I think our
+scouts were mistaken, being taken back by seeing an entirely new race in our
+lands.  We will watch them as best we can.
+~
+#3000
+decayed wooden tablet~
+a decayed wooden tablet~
+This tablet is only partially legible.~
+~
+35 0 1048577
+0 0 0 0
+1 0 0
+E
+decayed wooden tablet~
+*(&(@*yu #*(#)@ ---&&*((
+
+
+  The **&$-- caused this.  I am sure.  I have pr--&*@(@&#
+
+
+
+     It is near over now.  Our eggs will not hatch, the life inside has
+    long since died.  Our warriors cannot fight what is made of air.
+    The Matron has not left her throne in months.  Our people
+    are dying.  I fear that I may be the last breathing resident of this
+    great city.  A few parties have left these lands, they used the ships
+    of those blasted creatures to find safer places.  Some of us are
+    immune to the disease, but I am not.  I feel it in my blood.
+    My scales have already started to rot.  I will be like the others,
+    stalking the halls of the city in a zombie like state.  Soon I will
+    be nothing more than a shell.  It is against the will of the spirits
+    and the great serpents of fire, air, water, and death for me
+   to do so.  So falls are city.  So falls our kind.
+~
+#0
+
+
+#ROOMS
+#2901
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2902
+D2
+~
+~
+0 0 2741
+S
+#2902
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2903
+D2
+Exit description~
+~
+0 0 2901
+S
+#2903
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2910
+D1
+~
+~
+0 0 2904
+D2
+Exit description~
+~
+0 0 2902
+D3
+~
+~
+0 0 2930
+S
+#2904
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2909
+D1
+~
+~
+0 0 2905
+D3
+Exit description~
+~
+0 0 2903
+S
+#2905
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2908
+D1
+~
+~
+0 0 2906
+D3
+Exit description~
+~
+0 0 2904
+S
+#2906
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2907
+D3
+~
+~
+0 0 2905
+S
+#2907
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2920
+D2
+Exit description~
+~
+0 0 2906
+D3
+~
+~
+0 0 2908
+S
+#2908
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2919
+D1
+Exit description~
+~
+0 0 2907
+D2
+Exit description~
+~
+0 0 2905
+D3
+~
+~
+0 0 2909
+D5
+~
+~
+16779264 0 2949
+S
+#2909
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+16777216 0 2918
+D1
+Exit description~
+~
+0 0 2908
+D2
+Exit description~
+~
+0 0 2904
+D3
+~
+~
+0 0 2910
+S
+#2910
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2917
+D1
+Exit description~
+~
+0 0 2909
+D2
+~
+~
+0 0 2903
+D3
+~
+~
+0 0 2911
+S
+#2911
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2916
+D1
+Exit description~
+~
+0 0 2910
+D2
+~
+~
+0 0 2930
+D3
+~
+~
+0 0 2912
+S
+#2912
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2915
+D1
+Exit description~
+~
+0 0 2911
+D2
+~
+~
+0 0 2929
+D3
+~
+~
+0 0 2913
+S
+#2913
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2914
+D1
+Exit description~
+~
+0 0 2912
+D2
+~
+~
+0 0 2928
+S
+#2914
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+16777216 0 2927
+D1
+~
+~
+0 0 2915
+D2
+Exit description~
+~
+0 0 2913
+S
+#2915
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2926
+D1
+~
+~
+0 0 2916
+D2
+Exit description~
+~
+0 0 2912
+D3
+Exit description~
+~
+0 0 2914
+D5
+~
+~
+16779264 0 2931
+S
+#2916
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2925
+D1
+~
+~
+0 0 2917
+D2
+Exit description~
+~
+0 0 2911
+D3
+Exit description~
+~
+0 0 2915
+S
+#2917
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2924
+D1
+~
+~
+16777216 0 2918
+D2
+Exit description~
+~
+0 0 2910
+D3
+Exit description~
+~
+0 0 2916
+S
+#2918
+A Leech's Hive~
+The swamp floor gives way as the soft mud and sand pushes you down.  You are
+in a hallow of some type, naturally occurred and only reinforced by the random
+twigs, leaves, and bones.  The smell of rot and acid is heavy here as you
+notice the walls are moving, thousands of larvae are waiting for their meal.
+~
+0 2097153 1
+D4
+~
+~
+16777216 0 2903
+S
+#2919
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2922
+D1
+~
+~
+0 0 2920
+D2
+Exit description~
+~
+0 0 2908
+D3
+~
+~
+16777216 0 2918
+S
+#2920
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+~
+~
+0 0 2921
+D2
+Exit description~
+~
+0 0 2907
+D3
+~
+~
+0 0 2919
+S
+#2921
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D2
+Exit description~
+~
+0 0 2920
+D3
+~
+~
+0 0 2922
+S
+#2922
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 2921
+D2
+~
+~
+0 0 2919
+D3
+~
+~
+0 0 2923
+S
+#2923
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 2922
+D2
+~
+~
+16777216 0 2918
+D3
+~
+~
+0 0 2924
+S
+#2924
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 2923
+D2
+Exit description~
+~
+0 0 2917
+D3
+~
+~
+0 0 2925
+S
+#2925
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 2924
+D2
+Exit description~
+~
+0 0 2916
+D3
+~
+~
+0 0 2926
+S
+#2926
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 2925
+D2
+Exit description~
+~
+0 0 2915
+D3
+~
+~
+16777216 0 2927
+S
+#2927
+A Leech's Hive~
+The swamp floor gives way as the soft mud and sand pushes you down.  You are
+in a hallow of some type, naturally occurred and only reinforced by the random
+twigs, leaves, and bones.  The smell of rot and acid is heavy here as you
+notice the walls are moving, thousands of larvae are waiting for their meal.
+~
+0 2097153 1
+D4
+~
+~
+16777216 0 2902
+S
+#2928
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 2913
+D1
+~
+~
+0 0 2929
+D5
+Exit description~
+~
+16779264 0 2967
+S
+#2929
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 2912
+D1
+~
+~
+0 0 2930
+D3
+Exit description~
+~
+0 0 2928
+S
+#2930
+The Dark Heart Swamp~
+The ground is half water and half mud.  It is hard to walk as each step makes
+you sink even deeper.  It smells horrific, you can taste the rotting life in
+your mouth.  The heat is oppressive and the humidity is just as bas as the
+river that feeds this pit.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 2911
+D1
+Exit description~
+~
+0 0 2903
+D3
+Exit description~
+~
+0 0 2929
+S
+#2931
+Diving Deep Into The Swamp~
+The bog mud and slush is easy to move through, although you can taste it in
+your mouth and it is stinging your eyes.  There seems to be something solid
+below, as you swim deeper you can feel there is something solid around you.
+There has to be something at the bottom of this lake of mud.
+~
+0 9 8
+D4
+Exit description~
+~
+16777216 0 2915
+D5
+Exit description~
+~
+0 0 2932
+S
+#2932
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2933
+D4
+Exit description~
+~
+0 0 2931
+S
+#2933
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2932
+D1
+Exit description~
+~
+0 0 2934
+D2
+Exit description~
+~
+0 0 2943
+S
+#2934
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2935
+D3
+Exit description~
+~
+0 0 2933
+S
+#2935
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2936
+D2
+Exit description~
+~
+0 0 2937
+D3
+Exit description~
+~
+0 0 2934
+S
+#2936
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.  The
+passageway to the north has been blocked by stone and mud.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2935
+S
+#2937
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2935
+D2
+Exit description~
+~
+0 0 2938
+S
+#2938
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2937
+D2
+Exit description~
+~
+0 0 2939
+S
+#2939
+A Wood And Stone Alcove~
+This large alcove seems to have been formed with wood and stone. The wood is
+somehow covered in a thin layer of transparent material that keeps the water
+out.  There are tablets everywhere, made of wood and coated in the same
+material as the rest of the wood.  This must have been a library or study of
+some kind.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2938
+D1
+Exit description~
+~
+0 0 2940
+D2
+Exit description~
+~
+0 0 2942
+S
+#2940
+A Wood And Stone Alcove~
+This large alcove seems to have been formed with wood and stone. The wood is
+somehow covered in a thin layer of transparent material that keeps the water
+out.  There are tablets everywhere, made of wood and coated in the same
+material as the rest of the wood.  This must have been a library or study of
+some kind.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2941
+D3
+Exit description~
+~
+0 0 2939
+S
+#2941
+A Wood And Stone Alcove~
+This large alcove seems to have been formed with wood and stone. The wood is
+somehow covered in a thin layer of transparent material that keeps the water
+out.  There are tablets everywhere, made of wood and coated in the same
+material as the rest of the wood.  This must have been a library or study of
+some kind.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2940
+D3
+Exit description~
+~
+0 0 2942
+S
+#2942
+A Wood And Stone Alcove~
+This large alcove seems to have been formed with wood and stone. The wood is
+somehow covered in a thin layer of transparent material that keeps the water
+out.  There are tablets everywhere, made of wood and coated in the same
+material as the rest of the wood.  This must have been a library or study of
+some kind.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2939
+D1
+Exit description~
+~
+0 0 2941
+S
+#2943
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2933
+D2
+Exit description~
+~
+0 0 2944
+S
+#2944
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2943
+D3
+Exit description~
+~
+0 0 2945
+S
+#2945
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2944
+D3
+Exit description~
+~
+0 0 2946
+S
+#2946
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2948
+D1
+Exit description~
+~
+0 0 2945
+D2
+Exit description~
+~
+0 0 2947
+S
+#2947
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.  This
+tunnel has long since collapsed, mud, stone, and wood are stacked too thick to
+pass through.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2946
+S
+#2948
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.  This
+tunnel has long since collapsed, mud, stone, and wood are stacked too thick to
+pass through.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2946
+D3
+Exit description~
+~
+16780325 0 2994
+S
+#2949
+Diving Deep Into The Swamp~
+The bog mud and slush is easy to move through, although you can taste it in
+your mouth and it is stinging your eyes.  There seems to be something solid
+below, as you swim deeper you can feel there is something solid around you.
+There has to be something at the bottom of this lake of mud.
+~
+0 9 8
+D4
+Exit description~
+~
+16777216 0 2908
+D5
+Exit description~
+~
+0 0 2950
+S
+#2950
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2951
+D4
+Exit description~
+~
+0 0 2949
+S
+#2951
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2950
+D3
+Exit description~
+~
+0 0 2952
+S
+#2952
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2951
+D3
+Exit description~
+~
+0 0 2953
+S
+#2953
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2952
+D2
+Exit description~
+~
+0 0 2963
+D3
+Exit description~
+~
+0 0 2954
+S
+#2954
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2955
+D1
+Exit description~
+~
+0 0 2953
+S
+#2955
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2956
+D2
+Exit description~
+~
+0 0 2954
+S
+#2956
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2957
+D2
+Exit description~
+~
+0 0 2955
+S
+#2957
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2962
+D1
+Exit description~
+~
+0 0 2958
+D2
+Exit description~
+~
+0 0 2956
+S
+#2958
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2961
+D1
+Exit description~
+~
+0 0 2959
+D3
+Exit description~
+~
+0 0 2957
+S
+#2959
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2960
+D3
+Exit description~
+~
+0 0 2958
+S
+#2960
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2959
+D3
+Exit description~
+~
+0 0 2961
+S
+#2961
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2960
+D2
+Exit description~
+~
+0 0 2958
+D3
+Exit description~
+~
+0 0 2962
+S
+#2962
+A Crudely Fashioned Barrack~
+This large alcove has been reinforced in much the same way as the rest of the
+ruins.  There are nests made on the floor, tightly woven reed beds and moss
+covered pillows.  Judging by the broken weapons on the floor, the size of the
+nests, and their neat ordering on the floor,  it is clear that this place was
+once the housing of soldiers.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2961
+D2
+Exit description~
+~
+0 0 2957
+S
+#2963
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2953
+D2
+Exit description~
+~
+0 0 2964
+S
+#2964
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2963
+D2
+Exit description~
+~
+0 0 2965
+S
+#2965
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2964
+D1
+Exit description~
+~
+0 0 2966
+S
+#2966
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.  It seems
+that to the east there was once a large alcove, but it has long since crumpled
+under the weight of the mud, water, and muck above.
+~
+0 1 12
+D3
+Exit description~
+~
+0 0 2965
+S
+#2967
+Diving Deep Into The Swamp~
+The bog mud and slush is easy to move through, although you can taste it in
+your mouth and it is stinging your eyes.  There seems to be something solid
+below, as you swim deeper you can feel there is something solid around you.
+There has to be something at the bottom of this lake of mud.
+~
+0 9 8
+D4
+Exit description~
+~
+16777216 0 2928
+D5
+Exit description~
+~
+0 0 2968
+S
+#2968
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2969
+D4
+Exit description~
+~
+0 0 2967
+S
+#2969
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2968
+D1
+Exit description~
+~
+0 0 2970
+D3
+Exit description~
+~
+0 0 2982
+S
+#2970
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2971
+D3
+Exit description~
+~
+0 0 2969
+S
+#2971
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2972
+D3
+Exit description~
+~
+0 0 2970
+S
+#2972
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2971
+D2
+Exit description~
+~
+0 0 2973
+S
+#2973
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2972
+D1
+Exit description~
+~
+0 0 2974
+D2
+Exit description~
+~
+0 0 2981
+D3
+Exit description~
+~
+0 0 2980
+S
+#2974
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2975
+D3
+Exit description~
+~
+0 0 2973
+S
+#2975
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2974
+D2
+Exit description~
+~
+0 0 2976
+D3
+Exit description~
+~
+0 0 2981
+S
+#2976
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2975
+D3
+Exit description~
+~
+0 0 2977
+S
+#2977
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2981
+D1
+Exit description~
+~
+0 0 2976
+D3
+Exit description~
+~
+0 0 2978
+S
+#2978
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2979
+D1
+Exit description~
+~
+0 0 2977
+S
+#2979
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2980
+D1
+Exit description~
+~
+0 0 2981
+D2
+Exit description~
+~
+0 0 2978
+S
+#2980
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2973
+D2
+Exit description~
+~
+0 0 2979
+S
+#2981
+An Underwater Market~
+This incredible natural cavern had been converted into an underwater bazaar.
+Neat stalls have been carved into the walls of the cavern and even now it
+clear where the trinket vendor had been, where the clothing and weapons
+vendors were.  It is amazing how complex this bazaar is even though it looks
+as if it has always been underwater.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2973
+D1
+Exit description~
+~
+0 0 2975
+D2
+Exit description~
+~
+0 0 2977
+D3
+Exit description~
+~
+0 0 2979
+S
+#2982
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2969
+D3
+Exit description~
+~
+0 0 2983
+S
+#2983
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2982
+D2
+Exit description~
+~
+0 0 2984
+S
+#2984
+The Forgotten Ruins~
+This hallway has been flooded for centuries, the limestone walls have long
+since corroded into a wall of moss.  It seems solid enough to maintain the
+integrity of the ruins, although you wonder for how long.  The flooded tunnels
+make it impossible to tell just how long this place has been buried.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2983
+D2
+~
+~
+16777216 0 2985
+S
+#2985
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+16777216 0 2984
+D1
+Exit description~
+~
+0 0 2986
+D2
+Exit description~
+~
+0 0 2993
+D3
+Exit description~
+~
+0 0 2992
+S
+#2986
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D2
+Exit description~
+~
+0 0 2987
+D3
+Exit description~
+~
+0 0 2985
+S
+#2987
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2986
+D2
+Exit description~
+~
+0 0 2988
+D3
+Exit description~
+~
+0 0 2993
+S
+#2988
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2987
+D3
+Exit description~
+~
+0 0 2989
+S
+#2989
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2993
+D1
+Exit description~
+~
+0 0 2988
+D3
+Exit description~
+~
+0 0 2990
+S
+#2990
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2991
+D1
+Exit description~
+~
+0 0 2989
+S
+#2991
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2992
+D1
+Exit description~
+~
+0 0 2993
+D2
+Exit description~
+~
+0 0 2990
+S
+#2992
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D1
+Exit description~
+~
+0 0 2985
+D2
+Exit description~
+~
+0 0 2991
+S
+#2993
+The Birthing Cavern~
+This cavern is as large as you've seen in this place.  It is obviously a
+natural formation as there is no sign of damage or wear.  Small, neat alcoves
+are carved into the walls of the cavern and judging by the amount of bones,
+the bones of small things, you guess this used to be a nursery or some sort.
+~
+0 1 12
+D0
+Exit description~
+~
+0 0 2985
+D1
+Exit description~
+~
+0 0 2987
+D2
+Exit description~
+~
+0 0 2989
+D3
+Exit description~
+~
+0 0 2991
+S
+#2994
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in.
+~
+0 2097153 12
+D1
+~
+~
+16777216 0 2948
+D3
+~
+~
+0 0 2995
+S
+#2995
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in.
+~
+0 2097153 12
+D1
+Exit description~
+~
+0 0 2994
+D2
+~
+~
+0 0 2996
+S
+#2996
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in.
+~
+0 2097153 12
+D0
+Exit description~
+~
+0 0 2995
+D1
+~
+~
+0 0 2997
+S
+#2997
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in.
+~
+0 2097153 12
+D2
+~
+~
+0 0 2998
+D3
+Exit description~
+~
+0 0 2996
+S
+#2998
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in.
+~
+0 2097153 12
+D0
+Exit description~
+~
+0 0 2997
+D3
+~
+~
+0 0 2999
+S
+#2999
+A Large Ruined Hallway~
+This hallway is much larger than the others you have found so far.  The water
+is still seeping in and stone roof seems to be caving in, but it looks safe
+enough.  Pottery, rusted jewelry, and all sorts of fine items line the floor,
+although it is clear they are not worth the mud they are covered in. A heavy
+wooden door is to the south, the hinges have long since been broken.
+~
+0 2097153 12
+D1
+Exit description~
+~
+0 0 2998
+D2
+~
+~
+3 0 3000
+S
+#3000
+The Fallen Throne~
+This throne room was once beautiful, as all things are once beautiful, but now
+it is rotted and threadbare.  The walls are crumbling, the tapestries have
+been eaten away by the sea life that has infested this former seat of power.
+The throne itself has long since rotted down to its metal frame, a large
+lizardwoman rests on it.
+~
+0 2097153 12
+D0
+~
+~
+0 0 2999
+S
+#0
+
+
+#RESETS
+M 0 2901 1 2903
+M 0 2902 1 2906
+M 0 2903 1 2909
+M 0 2904 1 2911
+M 0 2905 1 2916
+M 0 2906 1 2919
+M 0 2907 1 2922
+M 0 2908 1 2924
+M 0 2909 1 2928
+M 0 2910 1 2930
+M 0 2911 1 2925
+M 0 2912 1 2917
+M 0 2913 1 2913
+M 0 2914 1 2910
+M 0 2915 1 2907
+M 0 2926 1 2932
+M 0 2927 1 2935
+E 1 2904 1 18
+M 0 2928 1 2938
+M 0 2929 1 2940
+M 0 2930 1 2943
+E 1 2903 1 1
+M 0 2931 1 2948
+M 0 2932 1 2945
+E 1 2901 1 5
+M 0 2933 1 2942
+M 0 2934 1 2938
+M 0 2936 1 2933
+E 1 2903 1 1
+M 0 2937 1 2952
+E 1 2908 1 21
+E 1 2904 1 18
+M 0 2938 1 2954
+E 1 2908 1 21
+E 1 2902 1 7
+M 0 2939 1 2957
+E 1 2902 1 7
+M 0 2940 1 2960
+E 1 2902 1 7
+M 0 2941 1 2964
+E 1 2906 1 21
+M 0 2942 1 2966
+E 1 2908 1 21
+M 0 2943 1 2961
+E 1 2905 1 18
+E 1 2907 1 21
+M 0 2944 1 2953
+E 1 2904 1 18
+E 1 2903 1 1
+E 1 2906 1 21
+M 0 2949 1 2969
+E 1 2901 1 5
+M 0 2950 1 2971
+M 0 2951 1 2974
+E 1 2904 1 18
+M 0 2952 1 2977
+E 1 2904 1 18
+M 0 2953 1 2979
+E 1 2903 1 1
+M 0 2954 1 2983
+E 1 2901 1 5
+M 0 2955 1 2986
+E 1 2906 1 21
+M 0 2956 1 2989
+E 1 2907 1 21
+M 0 2945 1 2986
+M 0 2946 1 2988
+E 1 2904 1 18
+M 0 2947 1 2990
+E 1 2903 1 1
+M 0 2948 1 2992
+M 0 2957 1 2970
+M 0 2958 1 2976
+M 0 2959 1 2995
+E 1 2901 1 5
+M 0 2960 1 2996
+E 1 2907 1 21
+M 0 2961 1 2997
+E 1 2902 1 7
+M 0 2962 1 2998
+E 1 2906 1 21
+M 0 3000 1 3000
+G 1 2909 1
+E 1 2908 1 21
+O 0 2910 1 2942
+O 0 2911 1 2941
+O 0 2912 1 2940
+H 0 3000 1 3038
+M 0 2916 1 2918
+M 0 2917 1 2918
+M 0 2918 1 2918
+M 0 2919 1 2918
+M 0 2920 1 2918
+M 0 2921 1 2927
+M 0 2922 1 2927
+M 0 2923 1 2927
+M 0 2924 1 2927
+M 0 2925 1 2927
+M 0 2935 1 2975
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2911 spec_breath_acid
+M  2912 spec_breath_acid
+M  2913 spec_breath_acid
+M  2914 spec_breath_acid
+M  2915 spec_breath_acid
+M  3000 spec_cast_diabolist
+S
+
+
+#$

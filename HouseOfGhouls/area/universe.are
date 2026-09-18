@@ -1,0 +1,3976 @@
+#AREA Beyond Time And Space~
+
+#VERSION 1
+
+#CLIMATE 3 1 1
+
+#AUTHOR Drazuk~
+
+#RANGES
+53 65 0 65
+$
+
+#RESETMSG All is as it should be in the Universe...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1
+
+#MOBILES
+#29000
+ghoul nighttracker taren koth~
+Taren Koth~
+Taren Koth, the ghoul NightTracker, eyes you suspiciously...
+~
+This huge figure before you is Taren Koth, the ghoul NightTracker.  Many
+ghouls who tire of adventuring sometimes turn to the darker arts of death
+magic and assassination.  The best are tracked down by Taren Koth and taken
+under his wing and trained to be the stealthiest and deadliest hunters in the
+Realm, but must always remains anonymous under their hoods.  Taren alone holds
+the title of NightTracker, marking him as the personal hunter of Lord Drazuk.
+If Taren Koth is on your trail, your days are numbered, for you have truly
+angered the Gods!
+~
+21069825 -1770422080&448 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+15 6 0 0 2097151 1048576 0
+50 50 263903 4194303 8192 0 587265346 2621447
+#30000
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#29000
+light~
+%s light~
+Bah~
+~
+1 1 1 0
+0 0 -1 0
+1 0 0
+#29001
+lantern~
+%s lantern~
+Bah~
+~
+1 1 1 0
+0 0 -1 0
+1 0 0
+#29002
+torch~
+%s torch~
+Bah~
+~
+1 1 1 0
+0 0 -1 0
+1 0 0
+#29003
+orb~
+%s orb~
+Bah~
+~
+1 1 1 0
+0 0 -1 0
+1 0 0
+#29004
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29005
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29006
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29007
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29008
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29009
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29010
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29011
+weapon~
+%s~
+Bah~
+~
+5 0 131073 0
+12 0 0 0
+5 0 0
+#29012
+earring~
+%s earring~
+Bah~
+~
+8 0 9 0
+0 0 0 0
+1 0 0
+#29013
+hoop~
+%s hoop~
+Bah~
+~
+8 0 9 0
+0 0 0 0
+1 0 0
+#29014
+earstud~
+%s earstud~
+Bah~
+~
+8 0 9 0
+0 0 0 0
+1 0 0
+#29015
+ring~
+%s ring~
+Bah~
+~
+8 0 1025 0
+0 0 0 0
+1 0 0
+#29016
+halo~
+%s halo~
+Bah~
+~
+8 0 1025 0
+0 0 0 0
+1 0 0
+#29017
+band~
+%s band~
+Bah~
+~
+8 0 1025 0
+0 0 0 0
+1 0 0
+#29018
+necklace~
+%s necklace~
+Bah~
+~
+8 0 33 0
+0 0 0 0
+1 0 0
+#29019
+amulet~
+%s amulet~
+Bah~
+~
+8 0 33 0
+0 0 0 0
+1 0 0
+#29020
+chain~
+%s chain~
+Bah~
+~
+8 0 33 0
+0 0 0 0
+1 0 0
+#29021
+locket~
+%s locket~
+Bah~
+~
+8 0 33 0
+0 0 0 0
+1 0 0
+#29022
+brooch~
+%s brooch~
+Bah~
+~
+8 0 33 0
+0 0 0 0
+1 0 0
+#29023
+anklet~
+%s anklet~
+Bah~
+~
+8 0 32769 0
+0 0 0 0
+1 0 0
+#29024
+ankle bracelet~
+%s ankle bracelet~
+Bah~
+~
+8 0 32769 0
+0 0 0 0
+1 0 0
+#29025
+bracelet~
+%s bracelet~
+Bah~
+~
+8 0 257 0
+0 0 0 0
+1 0 0
+#29026
+wristlet~
+%s wristlet~
+Bah~
+~
+8 0 257 0
+0 0 0 0
+1 0 0
+#29027
+bangle~
+%s bangle~
+Bah~
+~
+8 0 257 0
+0 0 0 0
+1 0 0
+#29028
+glasses pair~
+%s pair of glasses~
+Bah~
+~
+8 0 5 0
+0 0 0 0
+1 0 0
+#29029
+monocle~
+%s monocle~
+Bah~
+~
+8 0 5 0
+0 0 0 0
+1 0 0
+#29030
+rims~
+%s set of rims~
+Bah~
+~
+8 0 5 0
+0 0 0 0
+1 0 0
+#29031
+badge~
+a badge %s~
+Bah~
+~
+11 0 2097153 0
+0 0 0 0
+1 0 0
+#29032
+pin~
+a pin %s~
+Bah~
+~
+11 0 2097153 0
+0 0 0 0
+1 0 0
+#29033
+ribbon~
+a ribbon %s~
+Bah~
+~
+11 0 2097153 0
+0 0 0 0
+1 0 0
+#29034
+insignia~
+an insignia %s~
+Bah~
+~
+11 0 2097153 0
+0 0 0 0
+1 0 0
+#29035
+symbol~
+a symbol %s~
+Bah~
+~
+11 0 2097153 0
+0 0 0 0
+1 0 0
+#29036
+helmet~
+%s helmet~
+Bah~
+~
+9 524288 3 0
+0 0 0 0
+5 0 0
+#29037
+coif~
+%s coif~
+Bah~
+~
+9 524288 3 0
+0 0 0 0
+5 0 0
+#29038
+helm~
+%s helm~
+Bah~
+~
+9 524288 3 0
+0 0 0 0
+5 0 0
+#29039
+visor~
+%s visor~
+Bah~
+~
+9 524288 5 0
+0 0 0 0
+3 0 0
+#29040
+mask~
+%s mask~
+Bah~
+~
+9 524288 17 0
+0 0 0 0
+3 0 0
+#29041
+faceguard~
+%s faceguard~
+Bah~
+~
+9 524288 17 0
+0 0 0 0
+3 0 0
+#29042
+choker~
+%s choker~
+Bah~
+~
+9 524288 33 0
+0 0 0 0
+2 0 0
+#29043
+torc~
+%s torc~
+Bah~
+~
+9 524288 33 0
+0 0 0 0
+2 0 0
+#29044
+breastplate~
+%s breastplate~
+Bah~
+~
+9 524288 65 0
+0 0 0 0
+12 0 0
+#29045
+hauberk~
+%s hauberk~
+Bah~
+~
+9 524288 65 0
+0 0 0 0
+12 0 0
+#29046
+cuirass~
+%s cuirass~
+Bah~
+~
+9 524288 65 0
+0 0 0 0
+12 0 0
+#29047
+chestpiece~
+%s chestpiece~
+Bah~
+~
+9 524288 65 0
+0 0 0 0
+12 0 0
+#29048
+set vambraces~
+%s set of vambraces~
+Bah~
+~
+9 524288 129 0
+0 0 0 0
+4 0 0
+#29049
+set bracers~
+%s set of bracers~
+Bah~
+~
+9 524288 129 0
+0 0 0 0
+4 0 0
+#29050
+bracer~
+%s bracer~
+Bah~
+~
+9 524288 257 0
+0 0 0 0
+2 0 0
+#29051
+manacle~
+%s manacle~
+Bah~
+~
+9 524288 257 0
+0 0 0 0
+2 0 0
+#29052
+pair gauntlets~
+%s pair of gauntlets~
+Bah~
+~
+9 524288 513 0
+0 0 0 0
+3 0 0
+#29053
+pair gauntlets~
+%s pair of gauntlets~
+Bah~
+~
+9 524288 513 0
+0 0 0 0
+3 0 0
+#29054
+overshield~
+%s overshield~
+Bah~
+~
+9 524288 2049 0
+0 0 0 0
+6 0 0
+#29055
+guard~
+%s guard~
+Bah~
+~
+9 524288 2049 0
+0 0 0 0
+6 0 0
+#29056
+backshield~
+%s backshield~
+Bah~
+~
+9 524288 4097 0
+0 0 0 0
+6 0 0
+#29057
+backguard~
+%s backguard~
+Bah~
+~
+9 524288 4097 0
+0 0 0 0
+6 0 0
+#29058
+girth~
+%s girth~
+Bah~
+~
+9 524288 8193 0
+0 0 0 0
+4 0 0
+#29059
+waistguard~
+%s waistguard~
+Bah~
+~
+9 524288 8193 0
+0 0 0 0
+4 0 0
+#29060
+set greaves~
+%s set of greaves~
+Bah~
+~
+9 524288 16385 0
+0 0 0 0
+5 0 0
+#29061
+set legguards~
+%s set of legguards~
+Bah~
+~
+9 524288 16385 0
+0 0 0 0
+5 0 0
+#29062
+ankle bracer~
+%s ankle bracer~
+Bah~
+~
+9 524288 32769 0
+0 0 0 0
+2 0 0
+#29063
+boots pair~
+%s pair of boots~
+Bah~
+~
+9 524288 65537 0
+0 0 0 0
+4 0 0
+#29064
+boots pair~
+%s pair of boots~
+Bah~
+~
+9 524288 65537 0
+0 0 0 0
+4 0 0
+#29065
+shield~
+%s shield~
+Bah~
+~
+9 524288 524289 0
+0 0 0 0
+6 0 0
+#29066
+buckler~
+%s buckler~
+Bah~
+~
+9 524288 524289 0
+0 0 0 0
+6 0 0
+#29067
+hat~
+%s hat~
+Bah~
+~
+9 0 3 0
+0 0 0 0
+2 0 0
+#29068
+cap~
+%s cap~
+Bah~
+~
+9 0 3 0
+0 0 0 0
+2 0 0
+#29069
+headpiece~
+%s headpiece~
+Bah~
+~
+9 0 3 0
+0 0 0 0
+2 0 0
+#29070
+patch~
+%s patch~
+Bah~
+~
+9 0 5 0
+0 0 0 0
+1 0 0
+#29071
+mask~
+%s mask~
+Bah~
+~
+9 0 17 0
+0 0 0 0
+2 0 0
+#29072
+hood~
+%s hood~
+Bah~
+~
+9 0 17 0
+0 0 0 0
+2 0 0
+#29073
+cape~
+%s cape~
+Bah~
+~
+9 0 33 0
+0 0 0 0
+2 0 0
+#29074
+mantle~
+%s mantle~
+Bah~
+~
+9 0 33 0
+0 0 0 0
+2 0 0
+#29075
+shirt~
+%s shirt~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29076
+tunic~
+%s tunic~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29077
+jerkin~
+%s jerkin~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29078
+vest~
+%s vest~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29079
+set sleeves~
+%s set of sleeves~
+Bah~
+~
+9 0 129 0
+0 0 0 0
+2 0 0
+#29080
+set armlets~
+%s set of armlets~
+Bah~
+~
+9 0 129 0
+0 0 0 0
+2 0 0
+#29081
+wristband~
+%s wristband~
+Bah~
+~
+9 0 257 0
+0 0 0 0
+1 0 0
+#29082
+wristlet~
+%s wristlet~
+Bah~
+~
+9 0 257 0
+0 0 0 0
+1 0 0
+#29083
+gloves pair~
+%s pair of gloves~
+Bah~
+~
+9 0 513 0
+0 0 0 0
+2 0 0
+#29084
+gloves pair~
+%s pair of gloves~
+Bah~
+~
+9 0 513 0
+0 0 0 0
+2 0 0
+#29085
+cloak~
+%s cloak~
+Bah~
+~
+9 0 2049 0
+0 0 0 0
+2 0 0
+#29086
+robe~
+%s robe~
+Bah~
+~
+9 0 2049 0
+0 0 0 0
+2 0 0
+#29087
+overcoat~
+%s overcoat~
+Bah~
+~
+9 0 4097 0
+0 0 0 0
+2 0 0
+#29088
+surcoat~
+%s surcoat~
+Bah~
+~
+9 0 4097 0
+0 0 0 0
+2 0 0
+#29089
+belt~
+%s belt~
+Bah~
+~
+9 0 8193 0
+0 0 0 0
+1 0 0
+#29090
+girdle~
+%s girdle~
+Bah~
+~
+9 0 8193 0
+0 0 0 0
+1 0 0
+#29091
+pair pants~
+%s pair of pants~
+Bah~
+~
+9 0 16385 0
+0 0 0 0
+2 0 0
+#29092
+leggings set~
+%s set of leggings~
+Bah~
+~
+9 0 16385 0
+0 0 0 0
+2 0 0
+#29093
+ankleband~
+%s ankleband~
+Bah~
+~
+9 0 32769 0
+0 0 0 0
+1 0 0
+#29094
+pair boots~
+%s pair of boots~
+Bah~
+~
+9 0 65537 0
+0 0 0 0
+2 0 0
+#29095
+shoes pair~
+%s pair of shoes~
+Bah~
+~
+9 0 65537 0
+0 0 0 0
+2 0 0
+#29096
+ward~
+%s ward~
+Bah~
+~
+9 0 524289 0
+0 0 0 0
+3 0 0
+#29097
+aegis~
+%s aegis~
+Bah~
+~
+9 0 524289 0
+0 0 0 0
+3 0 0
+#29098
+set thighguards~
+%s set of thighguards~
+Bah~
+~
+9 524288 16385 0
+0 0 0 0
+5 0 0
+#29099
+siege cap~
+%s siege cap~
+Bah~
+~
+9 0 3 0
+0 0 0 0
+2 0 0
+#29100
+set pauldrons~
+%s set of pauldrons~
+Bah~
+~
+9 524288 129 0
+0 0 0 0
+4 0 0
+#29101
+jack~
+%s jack~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29102
+hauberk~
+%s hauberk~
+Bah~
+~
+9 0 65 0
+0 0 0 0
+6 0 0
+#29103
+corselet~
+%s corselet~
+Bah~
+~
+9 524288 65 0
+0 0 0 0
+12 0 0
+#29104
+carapace~
+%s carapace~
+Bah~
+~
+9 524288 4097 0
+0 0 0 0
+6 0 0
+#29105
+arm wraps~
+%s set of arm wraps~
+Bah~
+~
+9 0 129 0
+0 0 0 0
+2 0 0
+#29106
+kite shield~
+%s kite shield~
+Bah~
+~
+9 524288 524289 0
+0 0 0 0
+6 0 0
+#29107
+heater~
+%s heater~
+Bah~
+~
+9 524288 524289 0
+0 0 0 0
+6 0 0
+#29108
+scutum~
+%s scutum~
+Bah~
+~
+9 0 524289 0
+0 0 0 0
+3 0 0
+#29109
+targe~
+%s targe~
+Bah~
+~
+9 0 524289 0
+0 0 0 0
+3 0 0
+#29110
+tower shield~
+%s tower shield~
+Bah~
+~
+9 524288 524289 0
+0 0 0 0
+6 0 0
+#29111
+held~
+%s~
+Bah~
+~
+8 0 1048577 0
+0 0 0 0
+1 0 0
+#29112
+held~
+%s~
+Bah~
+~
+8 0 1048577 0
+0 0 0 0
+1 0 0
+#29113
+held~
+%s~
+Bah~
+~
+8 0 1048577 0
+0 0 0 0
+1 0 0
+#29300
+axe spike part~
+an axe spike~
+A sharp spike from an axe head lies in the dust.~
+~
+54 536870976&32 1048577 0
+29301 29400 0 0
+1 0 0
+#29301
+axe blade part~
+an axe blade~
+A gleaming blade from an axe head lies in the dust.~
+~
+54 536870976&32 1048577 0
+29300 29400 0 0
+1 0 0
+#29302
+axe haft part~
+an axe haft~
+The top piece of an axe shaft lies in the dust.~
+~
+54 536870976&32 1048577 0
+29303 29401 0 0
+1 0 0
+#29303
+axe handle part~
+an axe handle~
+The lower section of an axe shaft lies in the dust.~
+~
+54 536870976&32 1048577 0
+29302 29401 0 0
+1 0 0
+#29304
+axe wrapping part~
+an axe wrapping~
+The tattered wrapping of an axe grip rustles in the breeze.~
+~
+54 536870976&32 1048577 0
+29305 29402 0 0
+1 0 0
+#29305
+axe ruby part~
+a large ruby~
+A large, strangely shaped ruby sparkles in the light.~
+~
+54 536870976&32 1048577 0
+29304 29402 0 0
+1 0 0
+#29306
+mace handle part~
+a mace handle~
+The lower end of a mace arm lies in the dirt.~
+~
+54 536870976&32 1048577 0
+29307 29405 0 0
+1 0 0
+#29307
+mace shaft part~
+a mace shaft~
+The upper part of a mace arm lies in the dust.~
+~
+54 536870976&32 1048577 0
+29306 29405 0 0
+1 0 0
+#29308
+mace wrapping part~
+a mace wrapping~
+A torn piece of mace wrapping sits in the dirt.~
+~
+54 536870976&32 1048577 0
+29309 29406 0 0
+1 0 0
+#29309
+mace sapphire part~
+a sparkling sapphire~
+A strangely shaped sapphire sparkles brightly.~
+~
+54 536870976&32 1048577 0
+29308 29406 0 0
+1 0 0
+#29310
+mace weight part~
+a mace weight~
+The heavy weight of a mace head lies in the dirt.~
+~
+54 536870976&32 1048577 0
+29311 29407 0 0
+1 0 0
+#29311
+mace dragon figurine part~
+a dragon figurine~
+This small dragon figurine looks like it belongs attached to a weapon of some sort.~
+~
+54 536870976&32 1048577 0
+29310 29407 0 0
+1 0 0
+#29312
+sword foible part~
+a sword foible~
+This thin blade appears to have been broken off of the rest of the sword.~
+~
+54 536870976&32 1048577 0
+29313 29410 0 0
+1 0 0
+#29313
+sword prime part~
+a sword prime~
+This piece of blade appears to have been broken in two.~
+~
+54 536870976&32 1048577 0
+29312 29410 0 0
+1 0 0
+#29314
+sword grip part~
+a sword grip~
+A small hand grip, probably from a sword, lies here.~
+~
+54 536870976&32 1048577 0
+29315 29411 0 0
+1 0 0
+#29315
+sword cross part~
+a sword cross~
+The metal cross of a sword handle sits in the dust.~
+~
+54 536870976&32 1048577 0
+29314 29411 0 0
+1 0 0
+#29316
+sword setting part~
+a sword setting~
+This small setting appears to have been a piece of a sword pommel.~
+~
+54 536870976&32 1048577 0
+29317 29412 0 0
+1 0 0
+#29317
+sword diamond part~
+a small diamond~
+This small diamond is flat on one side, as if it was attached to something somewhere.~
+~
+54 536870976&32 1048577 0
+29316 29412 0 0
+1 0 0
+#29318
+dagger tip part~
+a dagger tip~
+A short, sharp blade tip sparkles in the light.~
+~
+54 536870976&32 1048577 0
+29319 29415 0 0
+1 0 0
+#29319
+dagger tang part~
+a dagger tang~
+A small piece of metal, this appears to be a broken tang of an old dagger.~
+~
+54 536870976&32 1048577 0
+29318 29415 0 0
+1 0 0
+#29320
+dagger guard part~
+a dagger guard~
+A small, basket-shaped guard, this must of been a piece of a dagger.~
+~
+54 536870976&32 1048577 0
+29321 29416 0 0
+1 0 0
+#29321
+dagger cross part~
+a dagger cross~
+This piece of metal appears to be part of a dagger handle.~
+~
+54 536870976&32 1048577 0
+29320 29416 0 0
+1 0 0
+#29322
+dagger setting part~
+a dagger setting~
+This small setting looks like a piece of a pommel from a small blade.~
+~
+54 536870976&32 1048577 0
+29323 29417 0 0
+1 0 0
+#29323
+dagger emerald part~
+a dark emerald~
+A dark green emerald seems to hold your gaze for a while.~
+~
+54 536870976&32 1048577 0
+29322 29417 0 0
+1 0 0
+#29324
+flail weight part~
+a flail weight~
+The weighted end of a flail rolls about in the dust.~
+~
+54 536870976&32 1048577 0
+29325 29420 0 0
+1 0 0
+#29325
+flail chain part~
+a flail chain~
+A short piece of chain, with strange connectors on either end, sits here.~
+~
+54 536870976&32 1048577 0
+29324 29420 0 0
+1 0 0
+#29326
+flail shaft part~
+a flail shaft~
+This strange shaft looks like it was part of something bigger.~
+~
+54 536870976&32 1048577 0
+29327 29421 0 0
+1 0 0
+#29327
+flail haft part~
+a flail haft~
+This wooden haft appears to have once been the handle to something.~
+~
+54 536870976&32 1048577 0
+29326 29421 0 0
+1 0 0
+#29328
+flail wrapping part~
+a flail wrapping~
+A stained piece of leather, probably the wrapping from some old weapon.~
+~
+54 536870976&32 1048577 0
+29329 29422 0 0
+1 0 0
+#29329
+flail pearl part~
+a luminous pearl~
+This pearl seems to glow with the light of the moon.~
+~
+54 536870976&32 1048577 0
+29328 29422 0 0
+1 0 0
+#29330
+polearm blade part~
+a polearm blade~
+A large blade from a polearm gleams in the light.~
+~
+54 536870976&32 1048577 0
+29331 29425 0 0
+1 0 0
+#29331
+polearm spike part~
+a polearm spike~
+A sharp spike from a polearm rolls around in the dirt.~
+~
+54 536870976&32 1048577 0
+29330 29425 0 0
+1 0 0
+#29332
+polearm langet part~
+a polearm langet~
+These langets once held a polearm together...now they lie in the dust.~
+~
+54 536870976&32 1048577 0
+29333 29426 0 0
+1 0 0
+#29333
+polearm shaft part~
+a polearm shaft~
+A long shaft of wood, probably once a piece of a polearm.~
+~
+54 536870976&32 1048577 0
+29332 29426 0 0
+1 0 0
+#29334
+polearm wrapping part~
+a polearm wrapping~
+A bright silk wrapping, torn from the handle of some large weapon.~
+~
+54 536870976&32 1048577 0
+29335 29427 0 0
+1 0 0
+#29335
+polearm moonstone part~
+a milky moonstone~
+A small moonstone gleams as if it was luminescent.~
+~
+54 536870976&32 1048577 0
+29334 29427 0 0
+1 0 0
+#29336
+crossbow arm part~
+a crossbow arm~
+The metal arms of an old crossbow lie in the dust.~
+~
+54 536870976&32 1048577 0
+29337 29430 0 0
+1 0 0
+#29337
+crossbow string part~
+a crossbow string~
+The stout string of a crossbow sits in the dust.~
+~
+54 536870976&32 1048577 0
+29336 29430 0 0
+1 0 0
+#29338
+crossbow bowarm part~
+a crossbow bowarm~
+The heavy bowarm of a crossbow lies in the dirt.~
+~
+54 536870976&32 1048577 0
+29339 29431 0 0
+1 0 0
+#29339
+crossbow stirrup part~
+a crossbow stirrup~
+The rounded loop of a crossbow stirrup sits on the ground.~
+~
+54 536870976&32 1048577 0
+29338 29431 0 0
+1 0 0
+#29340
+crossbow handle part~
+a crossbow handle~
+The wooden handle of an old crossbow lies in the dirt.~
+~
+54 536870976&32 1048577 0
+29341 29432 0 0
+1 0 0
+#29341
+crossbow silver star part~
+a silver star~
+A small silver star, this ornament appears to have decorated some weapon.~
+~
+54 536870976&32 1048577 0
+29340 29432 0 0
+1 0 0
+#29342
+claw blade dark part~
+a dark claw blade~
+A small hinged blade, the metal black as night, lies in the dust.~
+~
+54 536870976&32 1048577 0
+29343 29435 0 0
+1 0 0
+#29343
+claw blade light part~
+a light claw blade~
+A small hinged blade, the metal silvery bright, lies in the dust.~
+~
+54 536870976&32 1048577 0
+29342 29435 0 0
+1 0 0
+#29344
+claw mithril thread part~
+a spool of mithril thread~
+A spool of mithril thread, probably used in the manufacture of some weapon.~
+~
+54 536870976&32 1048577 0
+29345 29436 0 0
+1 0 0
+#29345
+claw plating part~
+a claw plating~
+Small metal plates of the type used in combat claw, lie in the dust.~
+~
+54 536870976&32 1048577 0
+29344 29436 0 0
+1 0 0
+#29346
+claw wrapping part~
+a claw wrapping~
+A sheet of strong wrapping, to be used in the manufacture of some weapon.~
+~
+54 536870976&32 1048577 0
+29347 29437 0 0
+1 0 0
+#29347
+claw jade part griffin~
+a small jade griffin~
+A small, flat jade griffin, probably the ornament from some weapon.~
+~
+54 536870976&32 1048577 0
+29346 29437 0 0
+1 0 0
+#29400
+axe head part~
+an axe head~
+The ornate head of an axe sits here.~
+~
+54 536870976&32 1048577 0
+29403 29404 0 0
+1 0 0
+#29401
+axe shaft part~
+an axe shaft~
+The rune-covered shaft of an axe sits here.~
+~
+54 536870976&32 1048577 0
+29402 29403 0 0
+1 0 0
+#29402
+axe grip part~
+an axe grip~
+A finely-wrought grip for an axe sits here.~
+~
+54 536870976&32 1048577 0
+29401 29403 0 0
+1 0 0
+#29403
+axe body part~
+an axe body~
+The main body of a majestic axe, minus its grip, sits here.~
+~
+54 536870976&32 1048577 0
+29400 29404 0 0
+1 0 0
+#29404
+axe khent~
+(&CSharp&D) the Axe of Khent~
+A mighty axe, with a razor-sharp blade, sits here.~
+~
+5 536870985&33 131073 0
+12 5 5 18 0 0
+10 500000 0
+A
+20 -20
+A
+1 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 30
+A
+30 114
+#29405
+mace arm part~
+a mace arm~
+The solid arm of a mace sits here.~
+~
+54 536870976&32 1048577 0
+29406 29408 0 0
+1 0 0
+#29406
+mace grip part~
+a mace grip~
+The ornate grip of a mace sits here.~
+~
+54 536870976&32 1048577 0
+29405 29408 0 0
+1 0 0
+#29407
+mace head part~
+a mace head~
+The solid head of a mace sits here.~
+~
+54 536870976&32 1048577 0
+29408 29409 0 0
+1 0 0
+#29408
+mace body part~
+a mace body~
+The main body of a mighty mace sits here.~
+~
+54 536870976&32 1048577 0
+29407 29409 0 0
+1 0 0
+#29409
+mace lethys~
+the Mace of Lethys~
+A solid, heavy mace, sure to crush many skulls, sits here.~
+~
+5 536870987&33 131073 0
+12 5 5 6 0 1
+10 500000 0
+A
+79 15
+A
+4 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 308
+A
+30 114
+#29410
+sword blade part~
+a sword blade~
+The sharp blade of a sword sits here.~
+~
+54 536870976&32 1048577 0
+29413 29414 0 0
+1 0 0
+#29411
+sword handle part~
+a sword handle~
+The stout handle of a sword sits here.~
+~
+54 536870976&32 1048577 0
+29412 29413 0 0
+1 0 0
+#29412
+sword pommel part~
+a sword pommel~
+The sparkling pommel of a sword sits here.~
+~
+54 536870976&32 1048577 0
+29411 29413 0 0
+1 0 0
+#29413
+sword hilt part~
+a sword hilt~
+The mighty hilt of what could be a powerful sword sits here.~
+~
+54 536870976&32 1048577 0
+29410 29414 0 0
+1 0 0
+#29414
+sword aeris~
+(&WShining&D) the Sword of Aeris~
+A gleaming longsword, covered with Ghoulish runes, sits here.~
+~
+5 536870985&33 131073 0
+12 5 5 3 0 1
+10 500000 0
+A
+79 15
+A
+3 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 65
+A
+30 114
+#29415
+dagger blade part~
+a dagger blade~
+The sharp blade of a dagger sits here.~
+~
+54 536870976&32 1048577 0
+29418 29419 0 0
+1 0 0
+#29416
+dagger handle part~
+a dagger handle~
+The incomplete handle of a dagger sits here.
+~
+
+~
+54 536870976&32 1048577 0
+29417 29418 0 0
+1 0 0
+#29417
+dagger pommel part~
+a dagger pommel~
+The end pommel of a dagger sits here.~
+~
+54 536870976&32 1048577 0
+29416 29418 0 0
+1 0 0
+#29418
+dagger hilt part~
+a dagger hilt~
+An ornate dagger hilt sits here, waiting for a blade to complete it.~
+~
+54 536870976&32 1048577 0
+29415 29419 0 0
+1 0 0
+#29419
+dagger grazd~
+(&gDripping&D) the Dagger of Grazd~
+A wicked looking dagger, dripping acid, sits here.~
+~
+5 536870985&33 131073 0
+12 4 4 2 0 1
+10 500000 0
+A
+20 -20
+A
+2 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 308
+A
+30 114
+#29420
+flail head part~
+a flail head~
+The solid head of a flail sits here.~
+~
+54 536870976&32 1048577 0
+29423 29424 0 0
+1 0 0
+#29421
+flail handle part~
+a flail handle~
+The strong handle of a stout flail sits here.~
+~
+54 536870976&32 1048577 0
+29422 29423 0 0
+1 0 0
+#29422
+flail grip part~
+a flail grip~
+The secure grip of a flail sits here.~
+~
+54 536870976&32 1048577 0
+29421 29423 0 0
+1 0 0
+#29423
+flail body part~
+a flail body~
+The stout body of a flail sits here, waiting for its weighted head to be connected.~
+~
+54 536870976&32 1048577 0
+29420 29424 0 0
+1 0 0
+#29424
+flail dizza~
+the Flail of Dizza~
+A long, heavy flail, covered in religious markings sits here.~
+~
+5 536870987&33 131073 0
+12 5 5 4 0 1
+10 500000 0
+A
+79 15
+A
+4 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 501
+A
+30 114
+#29425
+polearm head part~
+a polearm head~
+The head of a polearm sits here.~
+~
+54 536870976&32 1048577 0
+29428 29429 0 0
+1 0 0
+#29426
+polearm haft part~
+a polearm haft~
+The haft of a polearm sits here.~
+~
+54 536870976&32 1048577 0
+29427 29428 0 0
+1 0 0
+#29427
+polearm handle part~
+a polearm handle~
+The handle of a polearm sits here.~
+~
+54 536870976&32 1048577 0
+29426 29428 0 0
+1 0 0
+#29428
+polearm pole part~
+a polearm pole~
+The completed pole of a polearm is here, awaiting its head to be complete.~
+~
+54 536870976&32 1048577 0
+29425 29429 0 0
+1 0 0
+#29429
+polearm lu bu lubu~
+the Polearm of Lu Bu~
+A tall polearm, sharp and spiky, with bloody stains around its head.~
+~
+5 536870985&49 131073 0
+12 7 7 12 0 1
+10 500000 0
+A
+20 -20
+A
+5 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 501
+A
+30 114
+#29430
+crossbow bow part~
+a crossbow bow~
+The bow of a crossbow sits here.~
+~
+54 536870976&32 1048577 0
+29433 29434 0 0
+1 0 0
+#29431
+crossbow tiller part~
+a crossbow tiller~
+The tiller of a crossbow sits here.~
+~
+54 536870976&32 1048577 0
+29432 29433 0 0
+1 0 0
+#29432
+crossbow stock part~
+a crossbow stock~
+The stock of a crossbow sits here.~
+~
+54 536870976&32 1048577 0
+29431 29433 0 0
+1 0 0
+#29433
+crossbow body part~
+a crossbow body~
+The main body of a crossbow sits here.~
+~
+54 536870976&32 1048577 0
+29430 29434 0 0
+1 0 0
+#29434
+crossbow daot~
+the Crossbow of Daot~
+A mighty, mystical crossbow, with a small reservoir of acid to apply to the bolts.~
+~
+5 536870985&49 131073 0
+12 7 7 13 0 1
+10 500000 0
+A
+20 -20
+A
+5 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 308
+A
+30 114
+#29435
+claw bladeset part~
+a claw bladeset~
+A bladeset for a claw sits here.~
+~
+54 536870976&32 1048577 0
+29436 29438 0 0
+1 0 0
+#29436
+claw armoring part~
+a claw armoring~
+Armoring for a claw sits here.~
+~
+54 536870976&32 1048577 0
+29435 29438 0 0
+1 0 0
+#29437
+claw glove part~
+a claw glove~
+A sturdy glove for a claw sits here.~
+~
+54 536870976&32 1048577 0
+29438 29439 0 0
+1 0 0
+#29438
+claw talons part~
+a claw talons~
+A set of talons for a claw awaits attachment to a glove.~
+~
+54 536870976&32 1048577 0
+29437 29439 0 0
+1 0 0
+#29439
+claw sinzen~
+the Claw of Sinzen~
+A bi-taloned claw, it seems to radiate both light and darkness.~
+~
+5 536870985&33 131073 0
+12 4 4 5 0 1
+5 500000 0
+A
+20 -20
+A
+2 5
+A
+48 10
+A
+40 10
+A
+13 75
+A
+18 10
+A
+19 10
+A
+30 30
+A
+30 114
+#29500
+breastplate~
+%s breastplate~
+Bah~
+~
+65 524288 65 0
+0 0 0 0
+12 0 0
+#29501
+hauberk~
+%s hauberk~
+Bah~
+~
+65 524288 65 0
+0 0 0 0
+12 0 0
+#29502
+cuirass~
+%s cuirass~
+Bah~
+~
+65 524288 65 0
+0 0 0 0
+12 0 0
+#29503
+chestpiece~
+%s chestpiece~
+Bah~
+~
+65 524288 65 0
+0 0 0 0
+12 0 0
+#29504
+shirt~
+%s shirt~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29505
+tunic~
+%s tunic~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29506
+jerkin~
+%s jerkin~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29507
+vest~
+%s vest~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29508
+ring~
+%s ring~
+Bah~
+~
+66 0 1025 0
+0 0 0 0
+1 0 0
+#29509
+halo~
+%s halo~
+Bah~
+~
+66 0 1025 0
+0 0 0 0
+1 0 0
+#29510
+band~
+%s band~
+Bah~
+~
+66 0 1025 0
+0 0 0 0
+1 0 0
+#29511
+necklace~
+%s necklace~
+Bah~
+~
+66 0 33 0
+0 0 0 0
+1 0 0
+#29512
+amulet~
+%s amulet~
+Bah~
+~
+66 0 33 0
+0 0 0 0
+1 0 0
+#29513
+chain~
+%s chain~
+Bah~
+~
+66 0 33 0
+0 0 0 0
+1 0 0
+#29514
+locket~
+%s locket~
+Bah~
+~
+66 0 33 0
+0 0 0 0
+1 0 0
+#29515
+brooch~
+%s brooch~
+Bah~
+~
+66 0 33 0
+0 0 0 0
+1 0 0
+#29516
+weapon~
+%s~
+Bah~
+~
+64 0 131073 0
+12 0 0 0
+5 0 0
+#29517
+weapon~
+%s~
+Bah~
+~
+64 0 131073 0
+12 0 0 0
+5 0 0
+#29518
+light~
+%s light~
+Bah~
+~
+68 1 1 0
+0 0 -1 0
+1 0 0
+#29519
+lantern~
+%s lantern~
+Bah~
+~
+68 1 1 0
+0 0 -1 0
+1 0 0
+#29520
+torch~
+%s torch~
+Bah~
+~
+68 1 1 0
+0 0 -1 0
+1 0 0
+#29521
+orb~
+%s orb~
+Bah~
+~
+68 1 1 0
+0 0 -1 0
+1 0 0
+#29522
+weapon~
+%s~
+Bah~
+~
+64 0 131073 0
+12 0 0 0
+5 0 0
+#29523
+earring~
+%s earring~
+Bah~
+~
+66 0 9 0
+0 0 0 0
+1 0 0
+#29524
+hoop~
+%s hoop~
+Bah~
+~
+66 0 9 0
+0 0 0 0
+1 0 0
+#29525
+earstud~
+%s earstud~
+Bah~
+~
+66 0 9 0
+0 0 0 0
+1 0 0
+#29526
+anklet~
+%s anklet~
+Bah~
+~
+66 0 32769 0
+0 0 0 0
+1 0 0
+#29527
+ankle bracelet~
+%s ankle bracelet~
+Bah~
+~
+66 0 32769 0
+0 0 0 0
+1 0 0
+#29528
+bracelet~
+%s bracelet~
+Bah~
+~
+66 0 257 0
+0 0 0 0
+1 0 0
+#29529
+wristlet~
+%s wristlet~
+Bah~
+~
+66 0 257 0
+0 0 0 0
+1 0 0
+#29530
+bangle~
+%s bangle~
+Bah~
+~
+66 0 257 0
+0 0 0 0
+1 0 0
+#29531
+glasses pair~
+%s pair of glasses~
+Bah~
+~
+66 0 5 0
+0 0 0 0
+1 0 0
+#29532
+monocle~
+%s monocle~
+Bah~
+~
+66 0 5 0
+0 0 0 0
+1 0 0
+#29533
+rims~
+%s set of rims~
+Bah~
+~
+66 0 5 0
+0 0 0 0
+1 0 0
+#29534
+badge~
+a badge %s~
+Bah~
+~
+67 0 2097153 0
+0 0 0 0
+1 0 0
+#29535
+pin~
+a pin %s~
+Bah~
+~
+67 0 2097153 0
+0 0 0 0
+1 0 0
+#29536
+ribbon~
+a ribbon %s~
+Bah~
+~
+67 0 2097153 0
+0 0 0 0
+1 0 0
+#29537
+insignia~
+an insignia %s~
+Bah~
+~
+67 0 2097153 0
+0 0 0 0
+1 0 0
+#29538
+symbol~
+a symbol %s~
+Bah~
+~
+67 0 2097153 0
+0 0 0 0
+1 0 0
+#29539
+helmet~
+%s helmet~
+Bah~
+~
+65 524288 3 0
+0 0 0 0
+5 0 0
+#29540
+coif~
+%s coif~
+Bah~
+~
+65 524288 3 0
+0 0 0 0
+5 0 0
+#29541
+helm~
+%s helm~
+Bah~
+~
+65 524288 3 0
+0 0 0 0
+5 0 0
+#29542
+visor~
+%s visor~
+Bah~
+~
+65 524288 5 0
+0 0 0 0
+3 0 0
+#29543
+mask~
+%s mask~
+Bah~
+~
+65 524288 17 0
+0 0 0 0
+3 0 0
+#29544
+faceguard~
+%s faceguard~
+Bah~
+~
+65 524288 17 0
+0 0 0 0
+3 0 0
+#29545
+choker~
+%s choker~
+Bah~
+~
+65 524288 33 0
+0 0 0 0
+2 0 0
+#29546
+torc~
+%s torc~
+Bah~
+~
+65 524288 33 0
+0 0 0 0
+2 0 0
+#29547
+set vambraces~
+%s set of vambraces~
+Bah~
+~
+65 524288 129 0
+0 0 0 0
+4 0 0
+#29548
+set bracers~
+%s set of bracers~
+Bah~
+~
+65 524288 129 0
+0 0 0 0
+4 0 0
+#29549
+bracer~
+%s bracer~
+Bah~
+~
+65 524288 257 0
+0 0 0 0
+2 0 0
+#29550
+manacle~
+%s manacle~
+Bah~
+~
+65 524288 257 0
+0 0 0 0
+2 0 0
+#29551
+pair gauntlets~
+%s pair of gauntlets~
+Bah~
+~
+65 524288 513 0
+0 0 0 0
+3 0 0
+#29552
+pair gauntlets~
+%s pair of gauntlets~
+Bah~
+~
+65 524288 513 0
+0 0 0 0
+3 0 0
+#29553
+overshield~
+%s overshield~
+Bah~
+~
+65 524288 2049 0
+0 0 0 0
+6 0 0
+#29554
+guard~
+%s guard~
+Bah~
+~
+65 524288 2049 0
+0 0 0 0
+6 0 0
+#29555
+backshield~
+%s backshield~
+Bah~
+~
+65 524288 4097 0
+0 0 0 0
+6 0 0
+#29556
+backguard~
+%s backguard~
+Bah~
+~
+65 524288 4097 0
+0 0 0 0
+6 0 0
+#29557
+girth~
+%s girth~
+Bah~
+~
+65 524288 8193 0
+0 0 0 0
+4 0 0
+#29558
+waistguard~
+%s waistguard~
+Bah~
+~
+65 524288 8193 0
+0 0 0 0
+4 0 0
+#29559
+set greaves~
+%s set of greaves~
+Bah~
+~
+65 524288 16385 0
+0 0 0 0
+5 0 0
+#29560
+set legguards~
+%s set of legguards~
+Bah~
+~
+65 524288 16385 0
+0 0 0 0
+5 0 0
+#29561
+ankle bracer~
+%s ankle bracer~
+Bah~
+~
+65 524288 32769 0
+0 0 0 0
+2 0 0
+#29562
+boots pair~
+%s pair of boots~
+Bah~
+~
+65 524288 65537 0
+0 0 0 0
+4 0 0
+#29563
+boots pair~
+%s pair of boots~
+Bah~
+~
+65 524288 65537 0
+0 0 0 0
+4 0 0
+#29564
+shield~
+%s shield~
+Bah~
+~
+65 524288 524289 0
+0 0 0 0
+6 0 0
+#29565
+buckler~
+%s buckler~
+Bah~
+~
+65 524288 524289 0
+0 0 0 0
+6 0 0
+#29566
+hat~
+%s hat~
+Bah~
+~
+65 0 3 0
+0 0 0 0
+2 0 0
+#29567
+cap~
+%s cap~
+Bah~
+~
+65 0 3 0
+0 0 0 0
+2 0 0
+#29568
+headpiece~
+%s headpiece~
+Bah~
+~
+65 0 3 0
+0 0 0 0
+2 0 0
+#29569
+patch~
+%s patch~
+Bah~
+~
+65 0 5 0
+0 0 0 0
+1 0 0
+#29570
+mask~
+%s mask~
+Bah~
+~
+65 0 17 0
+0 0 0 0
+2 0 0
+#29571
+hood~
+%s hood~
+Bah~
+~
+65 0 17 0
+0 0 0 0
+2 0 0
+#29572
+cape~
+%s cape~
+Bah~
+~
+65 0 33 0
+0 0 0 0
+2 0 0
+#29573
+mantle~
+%s mantle~
+Bah~
+~
+65 0 33 0
+0 0 0 0
+2 0 0
+#29574
+set sleeves~
+%s set of sleeves~
+Bah~
+~
+65 0 129 0
+0 0 0 0
+2 0 0
+#29575
+set armlets~
+%s set of armlets~
+Bah~
+~
+65 0 129 0
+0 0 0 0
+2 0 0
+#29576
+wristband~
+%s wristband~
+Bah~
+~
+65 0 257 0
+0 0 0 0
+1 0 0
+#29577
+wristlet~
+%s wristlet~
+Bah~
+~
+65 0 257 0
+0 0 0 0
+1 0 0
+#29578
+pair gloves~
+%s pair of gloves~
+Bah~
+~
+65 0 513 0
+0 0 0 0
+2 0 0
+#29579
+pair gloves~
+%s pair of gloves~
+Bah~
+~
+65 0 513 0
+0 0 0 0
+2 0 0
+#29580
+cloak~
+%s cloak~
+Bah~
+~
+65 0 2049 0
+0 0 0 0
+2 0 0
+#29581
+robe~
+%s robe~
+Bah~
+~
+65 0 2049 0
+0 0 0 0
+2 0 0
+#29582
+overcoat~
+%s overcoat~
+Bah~
+~
+65 0 4097 0
+0 0 0 0
+2 0 0
+#29583
+surcoat~
+%s surcoat~
+Bah~
+~
+65 0 4097 0
+0 0 0 0
+2 0 0
+#29584
+belt~
+%s belt~
+Bah~
+~
+65 0 8193 0
+0 0 0 0
+1 0 0
+#29585
+girdle~
+%s girdle~
+Bah~
+~
+65 0 8193 0
+0 0 0 0
+1 0 0
+#29586
+pair pants~
+%s pair of pants~
+Bah~
+~
+65 0 16385 0
+0 0 0 0
+2 0 0
+#29587
+leggings set~
+%s set of leggings~
+Bah~
+~
+65 0 16385 0
+0 0 0 0
+2 0 0
+#29588
+ankleband~
+%s ankleband~
+Bah~
+~
+65 0 32769 0
+0 0 0 0
+1 0 0
+#29589
+pair boots~
+%s pair of boots~
+Bah~
+~
+65 0 65537 0
+0 0 0 0
+2 0 0
+#29590
+shoes pair~
+%s pair of shoes~
+Bah~
+~
+65 0 65537 0
+0 0 0 0
+2 0 0
+#29591
+ward~
+%s ward~
+Bah~
+~
+65 0 524289 0
+0 0 0 0
+3 0 0
+#29592
+aegis~
+%s aegis~
+Bah~
+~
+65 0 524289 0
+0 0 0 0
+3 0 0
+#29593
+set thighguards~
+%s set of thighguards~
+Bah~
+~
+65 524288 16385 0
+0 0 0 0
+5 0 0
+#29594
+siege cap~
+%s siege cap~
+Bah~
+~
+65 0 3 0
+0 0 0 0
+2 0 0
+#29595
+set pauldrons~
+%s set of pauldrons~
+Bah~
+~
+65 524288 129 0
+0 0 0 0
+4 0 0
+#29596
+jack~
+%s jack~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29597
+hauberk~
+%s hauberk~
+Bah~
+~
+65 0 65 0
+0 0 0 0
+6 0 0
+#29598
+corselet~
+%s corselet~
+Bah~
+~
+65 524288 65 0
+0 0 0 0
+12 0 0
+#29599
+carapace~
+%s carapace~
+Bah~
+~
+65 524288 4097 0
+0 0 0 0
+6 0 0
+#29600
+arm wraps~
+%s set of arm wraps~
+Bah~
+~
+65 0 129 0
+0 0 0 0
+2 0 0
+#29601
+kite shield~
+%s kite shield~
+Bah~
+~
+65 524288 524289 0
+0 0 0 0
+6 0 0
+#29602
+heater~
+%s heater~
+Bah~
+~
+65 524288 524289 0
+0 0 0 0
+6 0 0
+#29603
+scutum~
+%s scutum~
+Bah~
+~
+65 0 524289 0
+0 0 0 0
+3 0 0
+#29604
+targe~
+%s targe~
+Bah~
+~
+65 0 524289 0
+0 0 0 0
+3 0 0
+#29605
+tower shield~
+%s tower shield~
+Bah~
+~
+65 524288 524289 0
+0 0 0 0
+6 0 0
+#29606
+weapon~
+%s~
+Bah~
+~
+64 0 131073 0
+12 0 0 0
+5 0 0
+#29607
+weapon~
+%s~
+Bah~
+~
+64 0 131073 0
+12 0 0 0
+5 0 0
+#29608
+held~
+%s~
+Bah~
+~
+66 0 1048577 0
+0 0 0 0
+1 0 0
+#29609
+held~
+%s~
+Bah~
+~
+66 0 1048577 0
+0 0 0 0
+1 0 0
+#29610
+held~
+%s~
+Bah~
+~
+66 0 1048577 0
+0 0 0 0
+1 0 0
+#29800
+sword flaming longsword~
+(Flaming) a longsword~
+This sword has flames licking up and down its blade.~
+~
+5 536871113&37 131073 0
+12 4 4 3 0 1
+1 9900 0
+A
+19 7
+A
+18 7
+A
+30 506
+A
+13 30
+#29801
+mace icy battle~
+(Freezing) a battle mace~
+A steel mace, coated in ice, lies in the dust.~
+~
+5 536871113&37 131073 0
+12 4 4 8 0 1
+1 9900 0
+A
+19 7
+A
+18 7
+A
+30 507
+A
+12 30
+#29802
+dagger acidic razor sharp~
+(Dripping) a razor sharp dagger~
+This small dagger is coated with a green fluid.~
+~
+5 536871112&37 131073 0
+12 3 4 11 0 1
+1 9600 0
+A
+19 7
+A
+18 7
+A
+30 508
+A
+24 -4
+#29803
+claw thorne~
+the Claw of Thorne~
+A blackened and burnt claw, with razor sharp tips.~
+~
+5 536871112&37 131073 0
+12 3 3 5 0 1
+1 10100 0
+A
+19 7
+A
+18 7
+A
+30 508
+A
+5 4
+#29804
+glove ashlyn silken~
+the Silken Glove of Ashlyn~
+A small gray silken glove, studded with tiny sapphires.~
+~
+5 536871113&37 131073 0
+12 3 3 0 0 1
+1 11475 0
+A
+19 7
+A
+18 7
+A
+30 507
+A
+2 4
+#29805
+katana storm steel~
+(Stormy) a steel katana~
+A long oriental sword, with scene of a storm worked into the length of the blade.~
+~
+5 536871115&37 131073 0
+12 4 4 1 0 1
+1 10725 0
+A
+19 7
+A
+18 7
+A
+30 509
+A
+40 5
+A
+23 -4
+#29806
+bow scorpion~
+a scorpion bow~
+A large bow, designed to look like the coiled stinger of a desert scorpion.~
+~
+5 536871112&53 131073 0
+12 6 6 14 0 1
+1 10600 0
+A
+19 7
+A
+18 7
+A
+30 508
+A
+27 128
+A
+27 256
+#29807
+trident lightning vicious~
+(Sparking) a vicious trident~
+A vicious trident, sparking and crackling with lightning.~
+~
+5 536871114&53 131073 0
+12 6 6 24 0 1
+1 10350 0
+A
+19 7
+A
+18 7
+A
+30 509
+A
+22 -4
+A
+27 4
+#29808
+cloak archmagi magi arch~
+the Cloak of the Archmagi~
+A rune-covered cloak is lying in a bundle here.~
+~
+9 536871104&37 2049 0
+12 12 0 0
+1 7500 0
+A
+4 4
+A
+3 4
+A
+79 5
+A
+40 10
+A
+12 75
+#29809
+ring battle golden~
+the Ring of Battle~
+A scratched and scuffed golden ring sits in the dirt.~
+~
+9 536871105&37 1025 0
+12 12 0 0
+1 5000 0
+A
+19 4
+A
+18 4
+A
+13 35
+A
+17 -10
+#29810
+armor protection~
+Armor of Protection~
+This magical armor has not a single scratch on it anywhere.~
+~
+9 536871105&37 65 0
+15 15 0 0
+1 10000 0
+A
+27 2097152
+A
+27 64
+A
+27 32
+A
+27 16
+A
+17 -15
+A
+13 50
+#29811
+gauntlets combat~
+the Gauntlets of Combat~
+These thick leather gloves would protect you well in combat.~
+~
+9 536871106&37 513 0
+12 12 0 0
+1 6250 0
+A
+19 4
+A
+18 4
+A
+17 -15
+A
+48 15
+#29812
+visor elemental protection~
+the Visor of Elemental Protection~
+This visor has many elemental runes etched into it.~
+~
+9 536871107&37 5 0
+12 12 0 0
+1 5700 0
+A
+27 256
+A
+27 128
+A
+27 8
+A
+27 4
+A
+27 2
+A
+27 1
+A
+24 -3
+A
+23 -3
+#29813
+shell antimagic globe~
+an antimagic shell~
+A dark globe floats in the air, radiating antimagic.~
+~
+9 536871111&37 4097 0
+10 10 0 0
+1 5300 0
+A
+69 21
+A
+27 1048576
+A
+24 -4
+A
+3 2
+A
+4 2
+#29814
+earring ring thieves~
+the Earring of Thieves~
+You thought you caught a glimpse of an earring, but maybe not!~
+~
+9 536871105&37 9 0
+8 8 0 0
+1 12375 0
+A
+69 34
+A
+69 22
+A
+18 4
+A
+33 5
+#29815
+ring mind~
+the Ring of the Mind~
+A small golden ring lies on the ground here.~
+~
+9 536871105&37 1025 0
+8 8 0 0
+1 6000 0
+A
+79 4
+A
+24 -4
+A
+3 4
+A
+4 4
+A
+12 50
+#29816
+ring soul~
+the Ring of the Soul~
+A small silver ring lies here.~
+~
+9 536871106&37 1025 0
+8 8 0 0
+1 6800 0
+A
+1 4
+A
+2 4
+A
+5 4
+A
+13 100
+#29817
+boots speed~
+the Boots of Speed~
+A pair of white-leather boots sit here.~
+~
+9 536871104&37 65537 0
+10 10 0 0
+1 8100 0
+A
+69 21
+A
+69 15
+A
+2 4
+A
+18 4
+A
+23 -3
+A
+22 -3
+#29818
+amulet winds~
+the Amulet of the Winds~
+A small copper amulet with a tornado emblem lies here.~
+~
+9 536871106&37 33 0
+8 8 0 0
+1 9000 0
+A
+23 -5
+A
+69 19
+A
+69 15
+A
+69 3
+#29819
+tiki mask~
+the Tiki Mask~
+A strange wooden mask, carved with a grinning, ghastly face.~
+~
+9 536871104&37 17 0
+6 6 0 0
+1 5550 0
+A
+34 5
+A
+48 5
+A
+40 5
+A
+2 3
+A
+1 3
+A
+19 3
+#29820
+girth gods~
+the Girth of the Gods~
+A bright silver girth gleams in the dust.~
+~
+9 536871105&37 8193 0
+12 12 0 0
+1 4750 0
+A
+27 2
+A
+27 1
+A
+13 40
+A
+18 4
+#29821
+bracer demonic~
+a demonic bracer~
+A strange bracer, made of twisted red metal.~
+~
+9 536871106&37 257 0
+5 5 0 0
+1 8250 0
+A
+31 4
+A
+12 25
+A
+69 25
+A
+27 8192
+#29822
+bracelet earth~
+the Bracelet of Earth~
+A small bracelet set with natural gems lies here.~
+~
+9 536871104&37 257 0
+4 4 0 0
+1 6750 0
+A
+27 4
+A
+27 512
+A
+27 1048576
+A
+5 4
+A
+19 4
+#29823
+staff sacred~
+the Sacred Staff~
+A long white staff leans in the corner.~
+~
+4 536871105&45 1048577 0
+1 50 50 -1
+1 7125 0
+'divinity'
+A
+13 35
+A
+12 35
+A
+48 5
+A
+4 4
+#29824
+monocle clarity circle chain~
+the Monocle of Clarity~
+A small glass circle attached to a gold chain lies here.~
+~
+9 536871105&37 5 0
+6 6 0 0
+1 12000 0
+A
+69 22
+A
+69 23
+A
+69 24
+A
+27 1024
+A
+18 4
+#29825
+sigil ghoul king~
+the Sigil of the Ghoul King~
+A stylized glyph, representative of the Ghoul King himself.~
+~
+3 536871104&45 1048577 0
+65 15 15 -1
+1 7400 0
+'quantum spike'
+A
+18 3
+A
+19 3
+A
+79 3
+#29826
+feather cahel~
+a Feather of Cahel~
+A perfectly-shaped, strong black feather sits here.~
+~
+9 536871104&37 1048577 0
+10 10 0 0
+1 10750 0
+A
+18 4
+A
+13 25
+A
+12 25
+A
+69 7
+#29827
+blood scabbard fury~
+the Blood Scabbard of Fury~
+A large leather scabard, made to hold all sorts of things.~
+~
+15 536871104&45 4097 0
+75 0 0 0
+1 7550 0
+A
+19 4
+A
+13 35
+A
+22 -3
+#29828
+token elder gods~
+a Token of the Elder Gods~
+A hideous brass token, bearing the symbol of the Old Ones.~
+~
+9 536871104&37 2097153 0
+7 7 0 0
+1 6250 0
+A
+25 -10
+A
+18 4
+A
+19 3
+A
+2 4
+A
+13 25
+#29829
+greaves khent leather~
+the Greaves of Khent~
+A finely constructed set of leather greaves.~
+~
+9 536871104&37 16385 0
+13 13 0 0
+1 6500 0
+A
+48 10
+A
+40 10
+A
+19 3
+A
+18 4
+#29830
+helm fire~
+the Helm of Fire~
+A bronze helm, crafted to look like a blazing fire.~
+~
+9 536871105&37 3 0
+10 10 0 0
+1 5000 0
+A
+28 1
+A
+3 2
+A
+19 2
+A
+5 2
+#29831
+trousers jester~
+the jesters trousers~
+A strange pair of colorful trousers.~
+~
+9 536871104&37 16385 0
+11 11 0 0
+1 4625 0
+A
+17 -15
+A
+19 4
+A
+2 4
+A
+3 4
+#29832
+circlet jaren~
+the Circlet of Jaren~
+A bright silver circlet, with a small diamond set in the front.~
+~
+9 536871105&37 3 0
+10 10 0 0
+1 4500 0
+A
+27 2
+A
+18 4
+A
+4 4
+A
+24 -3
+A
+3 3
+#29833
+mage mage cloak~
+a mage cloak~
+A shimmering cloak of silver hangs from a glowing gold chain.~
+~
+9 536871105&37 33 0
+12 12 0 0
+1 9500 0
+A
+69 26
+A
+12 45
+A
+24 -4
+A
+79 4
+#29834
+wings icarus wing~
+the Wings of Icarus~
+A cleverly designed pair of wings.~
+~
+9 536871104&37 129 0
+8 8 0 0
+1 6250 0
+A
+69 19
+A
+27 8
+A
+27 2097152
+A
+2 3
+A
+31 4
+#29835
+shield samurai~
+a samurai shield~
+A large shield, crafted from hardened strips of bamboo.~
+~
+9 536871104&37 524289 0
+15 15 0 0
+1 5750 0
+A
+5 4
+A
+2 4
+A
+18 4
+A
+19 3
+#29836
+mystic mystical tattoo~
+a mystical tattoo~
+A glowing tattoo writhes about.~
+~
+9 536871105&37 32769 0
+9 9 0 0
+1 4250 0
+A
+13 40
+A
+1 4
+A
+5 4
+#29837
+robe saints~
+the Robe of the Saints~
+A bright white robe, with silver trim.~
+~
+9 536871104&37 2049 0
+14 14 0 0
+1 5500 0
+A
+27 1048576
+A
+24 -4
+A
+4 4
+A
+12 35
+#29838
+bit starlight jar light star~
+a bit of starlight~
+A small jar, with a gleaming light trapped inside.~
+~
+1 536871105&37 1 0
+0 0 -1 0
+1 7800 0
+A
+69 28
+A
+27 8
+A
+22 -3
+A
+18 3
+A
+19 2
+#29839
+torch light adventurers~
+an adventurers torch~
+A torch, burning with a cheery yellow flame.~
+~
+1 536871105&37 1 0
+0 0 -1 0
+1 8750 0
+A
+69 7
+A
+17 -15
+A
+13 35
+#29840
+mask triton~
+the Mask of Triton~
+A ceramic mask of the face of Triton, God of the Seas.~
+~
+9 536871106&37 17 0
+8 8 0 0
+1 6050 0
+A
+69 31
+A
+28 2
+A
+19 2
+A
+5 2
+#29841
+breastplate plate dreams~
+the Breastplate of Dreams~
+A solid metal breastplate, humming with power.~
+~
+9 536871106&37 65 0
+12 12 0 0
+1 8625 0
+A
+17 -15
+A
+12 100
+A
+13 100
+#29842
+gloves astral~
+the Gloves of the Astral~
+A set of gloves crafted from a light, wispy material.~
+~
+9 536871105&37 513 0
+9 9 0 0
+1 4000 0
+A
+27 8192
+A
+22 -4
+A
+24 -4
+A
+23 -4
+A
+12 35
+#29843
+boots bone~
+the Boots of Bone~
+A set of armored boots, covered in strange shaped bones.~
+~
+9 536871104&37 65537 0
+9 9 0 0
+1 5525 0
+A
+19 4
+A
+18 4
+A
+17 -15
+#29844
+belt dragon teeth~
+a belt of dragon teeth~
+An embroidered belt, embedded with ten dragon teeth.~
+~
+9 536871104&37 8193 0
+9 9 0 0
+1 5700 0
+A
+27 256
+A
+27 128
+A
+23 -4
+A
+19 3
+A
+18 4
+#29845
+shield obsidian~
+an obsidian shield~
+A strong shield carved from shiny black rock.~
+~
+9 536871104&37 524289 0
+12 12 0 0
+1 8000 0
+A
+27 1048576
+A
+27 8
+A
+27 4
+A
+17 -15
+A
+18 4
+A
+19 3
+#29846
+anklet erebus~
+the Anklet of Erebus~
+An anklet formed of sharp barbs and razor edged steel.~
+~
+9 536871104&37 32769 0
+7 7 0 0
+1 5125 0
+A
+17 -15
+A
+13 25
+A
+19 4
+A
+18 4
+#29847
+medallion nature~
+the Medallion of Nature~
+A small medallion carved from a thorn, meant to be worn on the ear.~
+~
+9 536871104&37 9 0
+8 8 0 0
+1 6500 0
+A
+69 34
+A
+13 55
+A
+2 4
+A
+18 4
+#29848
+ambrosia~
+ambrosia~
+A small vial of a fruity-smelling liquid.~
+~
+10 536871104&45 1048577 0
+65 -1 -1 -1
+1 750 0
+'divinity' 'divinity' 'divinity'
+#29849
+liquid mana~
+liquid mana~
+A small vial containing a light blue, glowing liquid.~
+~
+10 536871105&45 1048577 0
+65 -1 -1 -1
+1 750 0
+'restore mana' 'restore mana' 'restore mana'
+#29900
+potion shield~
+a potion of shield~
+A potion of shield sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'shield' 'NONE' 'NONE'
+#29901
+potion armor~
+a potion of armor~
+A potion of armor sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'armor' 'NONE' 'NONE'
+#29902
+potion light cure~
+a potion of cure light~
+A potion of cure light sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'cure light' 'NONE' 'NONE'
+#29903
+potion bless~
+a potion of bless~
+A potion of bless sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'bless' 'NONE' 'NONE'
+#29904
+potion refresh~
+a potion of refresh~
+A potion of refresh sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'refresh' 'NONE' 'NONE'
+#29905
+potion fly~
+a potion of fly~
+A potion of fly sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'fly' 'NONE' 'NONE'
+#29906
+potion waterbreath~
+a potion of waterbreath~
+A potion of waterbreath sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'aqua breath' 'NONE' 'NONE'
+#29907
+potion serious cure~
+a potion of cure serious~
+A potion of cure serious sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'cure serious' 'NONE' 'NONE'
+#29908
+potion poison cure~
+a potion of cure poison~
+A potion of cure poison sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'cure poison' 'NONE' 'NONE'
+#29909
+potion blindness cure~
+a potion of cure blindness~
+A potion of cure blindness sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'cure blindness' 'NONE' 'NONE'
+#29910
+potion curse remove~
+a potion of remove curse~
+A potion of remove curse sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'remove curse' 'NONE' 'NONE'
+#29911
+potion protection~
+a potion of protection~
+A potion of protection sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'protection' 'NONE' 'NONE'
+#29912
+potion balance~
+a potion of balance~
+A potion of balance sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'balance' 'NONE' 'NONE'
+#29913
+potion corruption~
+a potion of corruption~
+A potion of corruption sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'corruption' 'NONE' 'NONE'
+#29914
+potion leveling~
+a potion of leveling~
+A potion of leveling sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'sagacity' 'dragon wit' 'trollish vigor'
+#29915
+potion critical cure~
+a potion of cure critical~
+A potion of cure critical sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'cure critical' 'NONE' 'NONE'
+#29916
+potion piercebane~
+a potion of piercebane~
+A potion of piercebane sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'dragonskin' 'NONE' 'NONE'
+#29917
+potion slashbane~
+a potion of slashbane~
+A potion of slashbane sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'demonskin' 'NONE' 'NONE'
+#29918
+potion eldritch sphere~
+a potion of eldritch sphere~
+A potion of eldritch sphere sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'eldritch sphere' 'NONE' 'NONE'
+#29919
+potion unseen~
+a potion of unseen~
+A potion of unseen sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'improved invis' 'NONE' 'NONE'
+#29920
+potion travel~
+a potion of travel~
+A potion of travel sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'refresh' 'refresh' 'refresh'
+#29921
+potion sanctuary~
+a potion of sanctuary~
+A potion of sanctuary sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'sanctuary' 'NONE' 'NONE'
+#29922
+potion heal~
+a potion of heal~
+A potion of heal sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'heal' 'NONE' 'NONE'
+#29923
+potion escape~
+a potion of escape~
+A potion of escape sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'word of recall' 'cure critical' 'cure critical'
+#29924
+potion stone~
+a potion of stone~
+A potion of stone sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'stone skin' 'NONE' 'NONE'
+#29925
+potion sight true~
+a potion of true sight~
+A potion of true sight sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'true sight' 'NONE' 'NONE'
+#29926
+potion demonsight~
+a potion of demonsight~
+A potion of demonsight sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'demonsight' 'NONE' 'NONE'
+#29927
+potion shelter~
+a potion of shelter~
+A potion of shelter sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'sanctuary' 'heal' 'NONE'
+#29928
+potion fire~
+a potion of fire~
+A potion of fire sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'fireshield' 'NONE' 'NONE'
+#29929
+potion ice~
+a potion of ice~
+A potion of ice sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'iceshield' 'NONE' 'NONE'
+#29930
+potion shock~
+a potion of shock~
+A potion of shock sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'shockshield' 'NONE' 'NONE'
+#29931
+potion mana~
+a potion of mana~
+A potion of mana sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'restore mana' 'NONE' 'NONE'
+#29932
+potion divinity~
+a potion of divinity~
+A potion of divinity sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'NONE' 'NONE'
+#29933
+potion metal~
+a potion of metal~
+A potion of metal sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'shield' 'armor' 'stone skin'
+#29934
+potion panic~
+a potion of panic~
+A potion of panic sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'teleport' 'sanctuary' 'divinity'
+#29935
+potion grace~
+a potion of grace~
+A potion of grace sits here.~
+~
+10 67108928 1048577 0
+0 -1 -1 -1
+1 0 0
+'immortal grace' 'NONE' 'NONE'
+#29936
+potion drazuk~
+a potion of Drazuk~
+A potion of Drazuk sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'fireshield' 'shockshield' 'iceshield'
+#29937
+potion fury~
+a potion of Fury~
+A potion of Fury sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'eldritch sphere' 'demonskin' 'dragonskin'
+#29938
+potion ashlyn~
+a potion of Ashlyn~
+A potion of Ashlyn sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'restore mana' 'shadowform'
+#29939
+potion jaren~
+a potion of Jaren~
+A potion of Jaren sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'restore mana' 'blazeward'
+#29940
+potion cahel~
+a potion of Cahel~
+A potion of Cahel sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'grounding' 'ethereal shield' 'voodoo doll'
+#29941
+potion vash~
+a potion of Vash~
+A potion of Vash sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'restore mana' 'demonskin'
+#29942
+potion paul~
+a potion of Paul~
+A potion of Paul sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'restore mana' 'dragonskin'
+#29943
+potion sebille~
+a potion of Sebille~
+A potion of Sebille sits here.~
+~
+10 67108928&8 1048577 0
+0 -1 -1 -1
+1 0 0
+'divinity' 'restore mana' 'inner warmth'
+#29999
+quest token~
+a Quest Token~
+A small &Ygolden &Wtoken&G, engraved with a ghoulish rune!~
+~
+8 536871235&36 1 0
+0 0 0 0
+1 1000 0
+#30000
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#29000
+Waiting Room~
+Special mobs hang out here!
+~
+0 3155084 0 0 0 0
+S
+#30000
+Placeholder~
+Placeholder
+~
+0 3146884 0 0 0 0
+S
+#0
+
+#RESETS
+M 0 29000 1 29000  ; Mob: #29000 Taren Koth => #29000 Waiting Room
+S
+
+#SPECIALS
+M 29000 spec_executioner   ; Taren Koth
+S
+
+#$

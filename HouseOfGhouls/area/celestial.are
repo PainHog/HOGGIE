@@ -1,0 +1,1974 @@
+#AREA   Plane Of The Celestial~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+45 50 0 65
+$
+
+#RESETMSG The sound of silver horns call home the faithful.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 117737071
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#12000
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12001
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12002
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12003
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12004
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12005
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12006
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12007
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12008
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12009
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12010
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12011
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12012
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12013
+celestial herald being light~
+a Celestial Herald~
+This being of light carries a great silver horn.
+~
+This creature is smaller and more lithe than the warriors but it's great horn
+and golden halo mark it is a powerful creature.  It yells out in an ancient
+tongue to embrace the power of the light and to fear not any darkness that may
+intrude.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12014
+greater celestial being angel~
+a Greater Celestial~
+This greater angel is watching over the others.
+~
+This creature has wings of pure white, a dove's method of flight.  Their eyes
+are a soft gold and their smile a dazzling display of kindness.  They watch
+over the other celestials, guiding them in their path of glory and their
+pursuit of paradise for all living things.
+~
+4194369 272638080&256 1000 C
+63 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12015
+greater celestial being angel~
+a Greater Celestial~
+This greater angel is watching over the others.
+~
+This creature has wings of pure white, a dove's method of flight.  Their eyes
+are a soft gold and their smile a dazzling display of kindness.  They watch
+over the other celestials, guiding them in their path of glory and their
+pursuit of paradise for all living things.
+~
+4194369 272638080&256 1000 C
+63 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12016
+greater celestial being angel~
+a Greater Celestial~
+This greater angel is watching over the others.
+~
+This creature has wings of pure white, a dove's method of flight.  Their eyes
+are a soft gold and their smile a dazzling display of kindness.  They watch
+over the other celestials, guiding them in their path of glory and their
+pursuit of paradise for all living things.
+~
+4194369 272638080&256 1000 C
+63 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12017
+greater celestial being angel~
+a Greater Celestial~
+This greater angel is watching over the others.
+~
+This creature has wings of pure white, a dove's method of flight.  Their eyes
+are a soft gold and their smile a dazzling display of kindness.  They watch
+over the other celestials, guiding them in their path of glory and their
+pursuit of paradise for all living things.
+~
+4194369 272638080&256 1000 C
+63 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12018
+greater celestial being angel~
+a Greater Celestial~
+This greater angel is watching over the others.
+~
+This creature has wings of pure white, a dove's method of flight.  Their eyes
+are a soft gold and their smile a dazzling display of kindness.  They watch
+over the other celestials, guiding them in their path of glory and their
+pursuit of paradise for all living things.
+~
+4194369 272638080&256 1000 C
+63 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073741872 2097159
+#12019
+seraph winged angel warrior~
+a Seraph~
+This great winged warrior is an imposing figure.
+~
+This creature is massively built.  Broad and tall, they carry Raven's wings on
+their back and wear pearl and diamond armor that seems unbreakable. They watch
+everything in sight, constantly vigilant for any sign of the forces of decay
+and darkness.
+~
+4194369 71311488&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12020
+seraph winged angel warrior~
+a Seraph~
+This great winged warrior is an imposing figure.
+~
+This creature is massively built.  Broad and tall, they carry Raven's wings on
+their back and wear pearl and diamond armor that seems unbreakable. They watch
+everything in sight, constantly vigilant for any sign of the forces of decay
+and darkness.
+~
+4194369 71311488&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12021
+seraph winged angel warrior~
+a Seraph~
+This great winged warrior is an imposing figure.
+~
+This creature is massively built.  Broad and tall, they carry Raven's wings on
+their back and wear pearl and diamond armor that seems unbreakable. They watch
+everything in sight, constantly vigilant for any sign of the forces of decay
+and darkness.
+~
+4194369 71311488&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12022
+seraph winged angel warrior~
+a Seraph~
+This great winged warrior is an imposing figure.
+~
+This creature is massively built.  Broad and tall, they carry Raven's wings on
+their back and wear pearl and diamond armor that seems unbreakable. They watch
+everything in sight, constantly vigilant for any sign of the forces of decay
+and darkness.
+~
+4194369 71311488&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12023
+Seraphim great winged creature~
+a Seraphim~
+This massive creature has 3 sets of wings.
+~
+This creature floats just above the soft floor of light.  It has three sets of
+wings down it's back.  Two wings cover it's legs and feet, two wings cover
+it's body, while two more cover it's face.  The other celestials bow in
+reverence to it as they make their way past, truly a creature of great power.
+~
+4194369 272638080&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12024
+Seraphim great winged creature~
+a Seraphim~
+This massive creature has 3 sets of wings.
+~
+This creature floats just above the soft floor of light.  It has three sets of
+wings down it's back.  Two wings cover it's legs and feet, two wings cover
+it's body, while two more cover it's face.  The other celestials bow in
+reverence to it as they make their way past, truly a creature of great power.
+~
+4194369 272638080&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 2097536 0 0 1073742128 2097159
+#12025
+Samael creature winged ~
+Samael the Keeper~
+This winged creature is holding a key of songs.
+~
+This massive Celestial is carrying a great key that seems to sing great songs
+you have never heard.  The creature seems to have masculine features, and the
+other Celestials that pass refer to him by name.  He smiles at you and makes a
+great bow, his dove wings stretching out slightly.
+~
+4194371 339746944&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12026
+Gabriel winged sword man~
+Gabriel the Reaper~
+This massive Celestial carries a Scythe and a key of souls.
+~
+This Celestial has a solemn look on his face.  His armor is a dark grey and
+his wings are that of a raven.  His carries a great scythe and looks out among
+the other celestials.  They bow in respect to him but seem just the slightest
+bit put off by him.  He radiates an aura of power and for the first time, you
+feel threatened by one of these creatures.
+~
+4194371 339746944&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12027
+Magdalin woman beautiful~
+Magdalin the Redeemer~
+This beautiful woman is offering her blessings and holds a key of love.
+~
+This woman is one of the most beautiful things you could ever imagine. Her
+face is a dark porcelain, olive toned with the deepest brown eyes you have ever
+seen.  Her robe reveals a body out of the sweetest dreams and her smile sends
+a shiver into your soul.  She offers you a blessing and a kiss.
+~
+4194371 339746944&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12028
+Gregor sleeping creature winged~
+Gregor the Sleeper~
+This great winged creature seems to be locked in a sleep like meditation.
+~
+This Celestial seems to be asleep, if they need sleep.  He holds a great key
+of sacrifice in his hands.  His voice speaks in your head, yet you saw no
+indication that he could have known you were here.  His body is massive and he
+looks to be a creature of amazing power.
+~
+4194371 339746944&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12029
+dawn bringer massive guardian winged~
+a Dawn Bringer~
+This massive guardian watches you closely.
+~
+This creature has one purpose in all of it's existence, to guard the Voice of
+All.  It's job involves neither glory nor gain, yet it does it's duty with a
+single-minded zeal that is frightening.  Why would a being of such love and
+goodness need such a protector?
+~
+4194371 339746944&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12030
+dawn bringer massive guardian winged~
+a Dawn Bringer~
+This massive guardian watches you closely.
+~
+This creature has one purpose in all of it's existence, to guard the Voice of
+All.  It's job involves neither glory nor gain, yet it does it's duty with a
+single-minded zeal that is frightening.  Why would a being of such love and
+goodness need such a protector?
+~
+4194371 339746944&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 3146112 0 0 1073742128 2097159
+#12031
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12032
+celestial warrior creature~
+a Celestial Warrior~
+This beautiful creature is patrolling with a sword of flame.
+~
+This creature is a mixture of light and humanity.  They have a human form,
+a skin that seems to create light and you notice that they cast no shadow.
+Their great eagle wings are a dark brown and their hunter's eyes watch
+everything for any sign of the forces of the Nightmare or damnation.
+~
+4194369 4202624&256 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 33802 384 0 0 1073742256 2097159
+#12100
+voice all blind being light~
+the Voice of All~
+This being is made of pure light and seems to speak directly to your soul.
+~
+This being is a creature of ancient proportions.  It is made entirely of
+light, it is impossible to see if it has a solid form at all. It's light fills
+the room, almost blinding.  You hear a voice that is not a voice at all in
+your soul, it speaks its kindness and its wonder to you in a language that
+cannot be expressed in words.
+~
+4194371 373301376&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 4096 4096 0
+0 0 0 1049224 2100224 0 416 2621443
+#0
+
+
+#OBJECTS
+#12000
+sword fire~
+a sword of fire~
+This burning sword is amazing to behold.~
+~
+5 320&2 131072
+12 5 5 3
+1 0 0
+E
+sword fire~
+This sword is made from living fire itself!  It is extremely hot, and whenever 
+you try to reach for it, you just can't seem to come close enough.
+~
+#12001
+cloak dawn~
+the cloak of Dawn~
+This cloak of light lies humming on the floor.~
+~
+9 3136&2 2049
+9 9 0 0
+1 0 0
+E
+cloak dawn~
+This shimmering cloak seems to be crafted from the light of the morning sun.  
+It is as light as a breeze, and gives you a feeling of comfort as you try it 
+on.
+~
+A
+13 25
+A
+12 50
+A
+22 -4
+A
+24 -4
+#12002
+badge dawn~
+the badge of Dawn~
+This symbol marks the highest choir of Celestials.~
+~
+9 3136&2 2097153
+2 2 0 0
+1 0 0
+E
+badge dawn~
+Worn by the mighty angels themselves, this badge helps focus magical energy.
+~
+A
+12 30
+A
+22 -3
+A
+24 -3
+#12003
+shield grace~
+the shield of Grace~
+This majestic shield is a mixture of faith and kindness.~
+~
+9 3136&2 524289
+6 6 0 0
+1 0 0
+E
+shield grace~
+The forges of the angels were able to take the physical manifestations of 
+faith and kindness and turn them into a shield to guard the worthy against 
+evil.
+~
+A
+13 75
+A
+22 -4
+A
+24 -4
+#12004
+writing air burning~
+burning writing in the air~
+Writing appears to be burned into the air here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+writing air burned~
+Here lies the Plane of the Celestials. This is a place of knowledge, wisdom
+kindness, and peace.  However, the beings of this realm do not take kindly to
+those that think they may kill or steal whatever they want. None of these
+creatures are to be taken lightly for if you trespass against them, their
+mercy  will no longer remain infinite.  You are warned.
+
+
+
+ -Nameless
+~
+#12005
+key songs~
+a key of songs~
+This key seems to be made of songs and harmonies.~
+~
+18 64 1048577
+0 0 0 0
+1 0 0
+E
+key songs~
+Small musical notes tinkle and chime pleasantly as they twist around each 
+other, forming the shape of a key.
+~
+#12006
+key souls~
+a key of souls~
+This key hums with the souls of the righteous and devilish alike.~
+~
+18 64 1048577
+0 0 0 0
+1 0 0
+E
+key souls~
+This small key is created from the very essence of the soul.
+~
+#12007
+key love~
+a key of love~
+This key is warm and reminds you of home.~
+~
+18 64 1048577
+0 0 0 0
+1 0 0
+E
+key love~
+This small key gives you comfort and joy as you gaze upon it.
+~
+#12008
+key sacrifice~
+a key of sacrifice~
+This key is heavy with the sacrifice of the martyrs.~
+~
+18 64 1048577
+0 0 0 0
+1 0 0
+E
+key sacrifice~
+This key is created from the bones of those who have paid the ultimate price 
+to protect the virtuous.
+~
+#12100
+hammer light~
+the Hammer of Light~
+This massive hammer can shake the earth.~
+~
+5 33857&18 131073
+13 12 3 8
+1 0 0
+E
+hammer light~
+Gleaming like the very stars themselves, this massive hammer has a head of 
+pure light.  While large and unwieldy, anything hit by such a weapon is sure 
+to feel the righteous pain of light!
+~
+A
+30 509
+A
+19 5
+A
+18 5
+A
+40 -25
+A
+48 -25
+#0
+
+
+#ROOMS
+#12000
+Inside A Ray Of Light~
+The room suddenly grows bright as if the sun itself is focusing it's gaze on
+you. You feel warm and at peace as the room slowly glows brighter and
+brighter. The only way to go now is to follow this beautiful light to where it
+may take you.
+~
+0 134217728 11
+D4
+~
+~
+0 0 12001
+D5
+~
+~
+0 0 12054
+S
+#12001
+Inside A Ray Of Light~
+The room suddenly grows bright as if the sun itself is focusing it's gaze on
+you. You feel warm and at peace as the room slowly glows brighter and
+brighter. The only way to go now is to follow this beautiful light to where it
+may take you.
+~
+0 134217728 11
+D4
+~
+~
+0 0 12002
+D5
+Exit description~
+~
+0 0 12000
+S
+#12002
+Inside A Ray Of Light~
+The room suddenly grows bright as if the sun itself is focusing it's gaze on
+you. You feel warm and at peace as the room slowly glows brighter and
+brighter. The only way to go now is to follow this beautiful light to where it
+may take you.
+~
+0 134217728 11
+D4
+~
+~
+0 0 12003
+D5
+~
+~
+0 0 12001
+S
+#12003
+Inside A Ray Of Light~
+The room suddenly grows bright as if the sun itself is focusing it's gaze on
+you. You feel warm and at peace as the room slowly glows brighter and
+brighter. The only way to go now is to follow this beautiful light to where it
+may take you.
+~
+0 134217728 11
+D4
+~
+~
+0 0 12004
+D5
+~
+~
+0 0 12002
+S
+#12004
+Inside A Ray Of Light~
+The room suddenly grows bright as if the sun itself is focusing it's gaze on
+you. You feel warm and at peace as the room slowly glows brighter and
+brighter. The only way to go now is to follow this beautiful light to where it
+may take you.
+~
+0 134217728 11
+D4
+~
+~
+0 0 12005
+D5
+~
+~
+0 0 12003
+S
+#12005
+The Gate Of The Celestials~
+This magnificent gate is made of gold, pearl, and ice.  It reaches higher into
+the bright blue sky and you can see no sign of it ending.  The floor itself
+seems to made of light, below you can see the shapes of the continents and the
+blue oceans.  There are numerous winged creatures flying about, many of them
+shaking your hand or offering you something to drink.
+~
+0 134217728 11
+D1
+~
+~
+16777219 0 12006
+D5
+Exit description~
+~
+0 0 12004
+S
+#12006
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12015
+D1
+~
+~
+0 0 12007
+D3
+~
+~
+16777219 0 12005
+S
+#12007
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12008
+D3
+Exit description~
+~
+0 0 12006
+S
+#12008
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12009
+D2
+~
+~
+0 0 12011
+D3
+Exit description~
+~
+0 0 12007
+S
+#12009
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12022
+D3
+Exit description~
+~
+0 0 12008
+S
+#12010
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D2
+~
+~
+0 0 12014
+D3
+~
+~
+0 0 12011
+S
+#12011
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12008
+D1
+Exit description~
+~
+0 0 12010
+D2
+~
+~
+0 0 12012
+S
+#12012
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12011
+D1
+~
+~
+0 0 12014
+D3
+~
+~
+0 0 12013
+S
+#12013
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12012
+S
+#12014
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12010
+D3
+Exit description~
+~
+0 0 12012
+S
+#12015
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12016
+D2
+Exit description~
+~
+0 0 12006
+S
+#12016
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12021
+D1
+~
+~
+0 0 12017
+D2
+Exit description~
+~
+0 0 12015
+S
+#12017
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12020
+D1
+~
+~
+0 0 12018
+D3
+Exit description~
+~
+0 0 12016
+S
+#12018
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12019
+D3
+Exit description~
+~
+0 0 12017
+S
+#12019
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D2
+Exit description~
+~
+0 0 12018
+D3
+~
+~
+0 0 12020
+S
+#12020
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12019
+D2
+Exit description~
+~
+0 0 12017
+D3
+~
+~
+0 0 12021
+S
+#12021
+The Celestial Walk~
+The massive gate behind you fades into a transparent shawl as you continue
+deeper inside this place.  The feeling of warmth and compassion is almost
+overwhelming.  You swear you can see the faces of those you once knew but have
+lost, a friend, a lover, a child.  The celestials all bow to you and make no
+effort to scare or threaten.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12020
+D2
+Exit description~
+~
+0 0 12016
+S
+#12022
+The Gates Of Sanctuary~
+You come across another magnificent gate of ice and light.  It has no keyhole
+and several of the greater celestials seem to pass through with no effort yet
+your attempts are blocked.  You can beyond the gate to a land of grass and
+green trees that bear a delicious looking fruit.
+~
+0 137371648 11
+D1
+~
+~
+8390183 12005 12023
+D3
+Exit description~
+~
+0 0 12009
+S
+#12023
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12031
+D2
+~
+~
+0 0 12024
+D3
+~
+~
+8389667 0 12022
+S
+#12024
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12023
+D2
+~
+~
+0 0 12025
+S
+#12025
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12024
+D1
+~
+~
+0 0 12026
+D2
+~
+~
+0 0 12030
+S
+#12026
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12027
+D2
+~
+~
+0 0 12029
+D3
+Exit description~
+~
+0 0 12025
+S
+#12027
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D2
+~
+~
+0 0 12028
+D3
+Exit description~
+~
+0 0 12026
+S
+#12028
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12027
+D3
+~
+~
+0 0 12029
+S
+#12029
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12026
+D1
+Exit description~
+~
+0 0 12028
+D3
+~
+~
+0 0 12030
+S
+#12030
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12025
+D1
+Exit description~
+~
+0 0 12029
+S
+#12031
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12032
+D2
+Exit description~
+~
+0 0 12023
+S
+#12032
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12033
+D2
+Exit description~
+~
+0 0 12031
+D3
+~
+~
+0 0 12034
+S
+#12033
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D1
+~
+~
+0 0 12037
+D3
+Exit description~
+~
+0 0 12032
+S
+#12034
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12035
+D1
+Exit description~
+~
+0 0 12032
+S
+#12035
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+~
+~
+0 0 12036
+D2
+Exit description~
+~
+0 0 12034
+S
+#12036
+The Gates Of All~
+This wondrous gate is made of nothing yet you cannot see through it. It is as
+if reality simply stops at the point.  You can see nothing beyond it yet you
+cannot make out any features.  Whatever is beyond this barrier must be
+something of amazing power or amazing wealth.
+~
+0 137371648 11
+D0
+~
+~
+8390183 12008 12053
+D2
+Exit description~
+~
+0 0 12035
+S
+#12037
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12046
+D1
+Exit description~
+~
+0 0 12038
+D3
+Exit description~
+~
+0 0 12033
+S
+#12038
+The Sanctuary Of The Celestials~
+The ground is now a soft green grass that feels like silk to the touch. The
+sky is magnificent red and soft blue that looks more like a madman's painting
+that anything you could see naturally.  You can no longer make out the shapes
+of those you thought you once knew, the area is filled with only Celestials as
+they lounge and enjoy the beauty.
+~
+0 137371648 11
+D2
+Exit description~
+~
+0 0 12039
+D3
+Exit description~
+~
+0 0 12037
+S
+#12039
+The Gate Of Elisium~
+This gate is made of living trees and vines.  The fruit that bears from these
+plants tastes like the sweetest honey.  You cannot see what is beyond it but
+the faintest hint of running water and soft grain floats in on the breeze.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12038
+D2
+~
+~
+8390183 12006 12040
+S
+#12040
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D0
+Exit description~
+~
+8390179 0 12039
+D1
+Exit description~
+~
+0 0 12041
+D2
+Exit description~
+~
+0 0 12043
+S
+#12041
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12042
+D2
+Exit description~
+~
+0 0 12044
+D3
+Exit description~
+~
+0 0 12040
+S
+#12042
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D2
+Exit description~
+~
+0 0 12045
+D3
+Exit description~
+~
+0 0 12041
+S
+#12043
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12040
+D1
+Exit description~
+~
+0 0 12044
+S
+#12044
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12041
+D1
+Exit description~
+~
+0 0 12045
+D3
+Exit description~
+~
+0 0 12043
+S
+#12045
+The Fields Of Elisium~
+This ground is soft earth that cradles your steps yet allows you a solid
+foothold. The Celestials that reside here relax in the soft earth, forming an
+odd bed that gently rocks them to sleep.  The air is warm and the breeze a
+refreshing moment of autumn nights.  Trees of every kind dot the land and it
+seems to continue to beyond all hope of measurement.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12042
+D3
+Exit description~
+~
+0 0 12044
+S
+#12046
+The Gates Of Silence~
+The soft grass gives way to a gate made of silence and awe.  You produce no
+sound when you knock against the heavy frame of air and light.  Other
+celestials bow and smile as they seem to melt into the gate before emerging on
+the other side.
+~
+0 137371648 11
+D0
+~
+~
+8390183 12007 12047
+D2
+Exit description~
+~
+0 0 12037
+S
+#12047
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12048
+D1
+Exit description~
+~
+0 0 12052
+D2
+Exit description~
+~
+8390179 0 12046
+S
+#12048
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12049
+D2
+Exit description~
+~
+0 0 12047
+S
+#12049
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D1
+Exit description~
+~
+0 0 12050
+D2
+Exit description~
+~
+0 0 12052
+D3
+Exit description~
+~
+0 0 12048
+S
+#12050
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D2
+Exit description~
+~
+0 0 12051
+D3
+Exit description~
+~
+0 0 12049
+S
+#12051
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12050
+D3
+Exit description~
+~
+0 0 12052
+S
+#12052
+The Womb Of Silence~
+This place is silent as a starless sky.  Above you is nothing but a gray mix
+of cloud and darkness.  The Celestials here are simply meditating or sleeping,
+making no sounds and no movements.  The only thing you can feel is a gentle
+heartbeat that rises up from the floor of mist.
+~
+0 137371648 11
+D0
+Exit description~
+~
+0 0 12049
+D1
+Exit description~
+~
+0 0 12051
+D3
+Exit description~
+~
+0 0 12047
+S
+#12053
+The Throne Of All~
+This room is a chaotic mix of everything you can imagine.  To the west you see
+a mountain range of infinite heights, to the east an ocean of crystal green
+and blue waves.  To the north is a forest with trees that seem to touch the
+stars.  It is as if all creation started in this wondrous place.
+~
+0 137371648 11
+D2
+Exit description~
+~
+8390179 0 12036
+S
+#12054
+A Broken Tower~
+You enter the base of a huge tower, that looks as if it has been ruined for
+centuries.  Large chunks of stony wall lie about on the floor.  Rats and
+spiders have made nests in the many cracks in the rock.  A spiral staircase
+leads upwards around the southern wall of the tower.  As you look up, you are
+nearly blinded by a golden light shining down.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 7256
+D4
+Exit description~
+~
+0 0 12000
+S
+#12100
+Cahel's Throne~
+You find yourself inside the Throne room and home of the great Celestial and
+Blade-Lord Cahel.  The room is filled with poems of hundreds of races and
+instruments of a thousand geniuses.  Cahel's former weapons, the twin silver
+katanas rest on the wall along his battle armor.
+~
+0 3153924 0
+S
+#0
+
+
+#RESETS
+O 0 12004 1 12005
+M 0 12000 1 12011
+E 1 12000 1 21
+M 0 12008 1 12012
+M 0 12001 1 12013
+E 1 12000 1 21
+M 0 12014 1 12014
+M 0 12002 1 12016
+E 1 12000 1 21
+M 0 12009 1 12017
+M 0 12015 1 12018
+M 0 12019 1 12019
+E 1 12000 1 21
+M 0 12025 1 12020
+G 1 12005 1
+M 0 12003 1 12021
+E 1 12000 1 21
+M 0 12004 1 12025
+E 1 12000 1 21
+M 0 12010 1 12026
+M 0 12016 1 12027
+M 0 12020 1 12028
+E 1 12000 1 21
+M 0 12026 1 12029
+G 1 12006 1
+E 1 12000 1 21
+M 0 12005 1 12030
+E 1 12000 1 21
+M 0 12006 1 12040
+E 1 12000 1 21
+M 0 12011 1 12041
+M 0 12017 1 12042
+M 0 12021 1 12043
+E 1 12000 1 21
+M 0 12027 1 12044
+G 1 12007 1
+M 0 12023 1 12044
+M 0 12007 1 12045
+E 1 12000 1 21
+M 0 12031 1 12047
+E 1 12000 1 21
+M 0 12012 1 12048
+M 0 12022 1 12049
+E 1 12000 1 21
+M 0 12028 1 12050
+G 1 12008 1
+M 0 12024 1 12050
+M 0 12032 1 12051
+E 1 12000 1 21
+M 0 12018 1 12052
+M 0 12013 1 12037
+M 0 12029 1 12053
+E 1 12001 1 14
+E 1 12000 1 21
+M 0 12030 1 12053
+E 1 12002 1 25
+E 1 12000 1 21
+M 0 12100 1 12053
+E 1 12003 1 23
+E 1 12100 1 21
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  12000 spec_guard
+M  12001 spec_guard
+M  12002 spec_guard
+M  12003 spec_guard
+M  12004 spec_guard
+M  12005 spec_guard
+M  12006 spec_guard
+M  12007 spec_guard
+M  12008 spec_cast_mage
+M  12009 spec_cast_mage
+M  12010 spec_cast_mage
+M  12011 spec_cast_mage
+M  12012 spec_cast_mage
+M  12013 spec_cast_mage
+M  12014 spec_cast_bishop
+M  12015 spec_cast_bishop
+M  12016 spec_cast_bishop
+M  12017 spec_cast_bishop
+M  12018 spec_cast_bishop
+M  12019 spec_cast_archmagi
+M  12020 spec_cast_archmagi
+M  12021 spec_cast_archmagi
+M  12022 spec_cast_archmagi
+M  12023 spec_cast_archmagi
+M  12024 spec_cast_archmagi
+M  12025 spec_cast_archmagi
+M  12026 spec_cast_bishop
+M  12027 spec_cast_archmagi
+M  12028 spec_cast_bishop
+M  12029 spec_breath_lightning
+M  12030 spec_breath_lightning
+M  12031 spec_guard
+M  12032 spec_guard
+M  12100 spec_breath_lightning
+S
+
+
+#$

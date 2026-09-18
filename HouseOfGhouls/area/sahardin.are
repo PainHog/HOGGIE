@@ -1,0 +1,4460 @@
+#AREA   Sahardin~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A ship's port-horn blows, signaling a new shipment.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 12215661
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#4901
+Cruiser Port Guard craft~
+a Port Guard Cruiser~
+This small one man craft is patrolling the bay.
+~
+This small, personal boat is used by the Port Guard to quickly detect and
+engage any smugglers or pirates.  The guard piloting the small ship is keeping
+a close eye out for any signs of trouble.
+~
+536870913 -2143289344 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 1 1 0
+0 0 0 0 0 0 128 1
+#4902
+Cruiser Port Guard craft~
+a Port Guard Cruiser~
+This small one man craft is patrolling the bay.
+~
+This small, personal boat is used by the Port Guard to quickly detect and
+engage any smugglers or pirates.  The guard piloting the small ship is keeping
+a close eye out for any signs of trouble.
+~
+536870913 -2143289344 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 1 1 0
+0 0 0 0 0 0 128 1
+#4903
+Cruiser Port Guard craft~
+a Port Guard Cruiser~
+This small one man craft is patrolling the bay.
+~
+This small, personal boat is used by the Port Guard to quickly detect and
+engage any smugglers or pirates.  The guard piloting the small ship is keeping
+a close eye out for any signs of trouble.
+~
+536870913 -2143289344 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 1 1 0
+0 0 0 0 0 0 128 1
+#4904
+Sailor Merchant Grumble~
+a grumbling sailor~
+This merchant sailor is working on the ship.
+~
+This sailor must have drawn the short straw and has to stay behind to tend to
+the ship.  He doesn't look all that excited about having to spend a few hours
+of his leave sitting on the boat.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1027 0 0 0 144 0
+#4905
+Sailor Merchant Grumble~
+a grumbling sailor~
+This merchant sailor is working on the ship.
+~
+This sailor must have drawn the short straw and has to stay behind to tend to
+the ship.  He doesn't look all that excited about having to spend a few hours
+of his leave sitting on the boat.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1027 0 0 0 144 0
+#4906
+Sailor Merchant Grumble~
+a grumbling sailor~
+This merchant sailor is working on the ship.
+~
+This sailor must have drawn the short straw and has to stay behind to tend to
+the ship.  He doesn't look all that excited about having to spend a few hours
+of his leave sitting on the boat.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1027 0 0 0 144 0
+#4907
+Sailor Merchant Grumble~
+a grumbling sailor~
+This merchant sailor is working on the ship.
+~
+This sailor must have drawn the short straw and has to stay behind to tend to
+the ship.  He doesn't look all that excited about having to spend a few hours
+of his leave sitting on the boat.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1027 0 0 0 144 0
+#4908
+Sailor Merchant Grumble~
+a grumbling sailor~
+This merchant sailor is working on the ship.
+~
+This sailor must have drawn the short straw and has to stay behind to tend to
+the ship.  He doesn't look all that excited about having to spend a few hours
+of his leave sitting on the boat.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1027 0 0 0 144 0
+#4909
+Ogre Dock Worker~
+an ogre dock worker~
+This massive worker is lifting boxes to and fro.
+~
+It seems the residents of Sahardin don't mind putting ogres to work. This
+massive guy is lifting two or three crates of items at one time while the
+human workers struggle to lift one on their own.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 17 0 0 16 16 0
+0 0 0 0 0 0 144 0
+#4910
+Ogre Dock Worker~
+an ogre dock worker~
+This massive worker is lifting boxes to and fro.
+~
+It seems the residents of Sahardin don't mind putting ogres to work. This
+massive guy is lifting two or three crates of items at one time while the
+human workers struggle to lift one on their own.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 17 0 0 16 16 0
+0 0 0 0 0 0 144 0
+#4911
+Ogre Dock Worker~
+an ogre dock worker~
+This massive worker is lifting boxes to and fro.
+~
+It seems the residents of Sahardin don't mind putting ogres to work. This
+massive guy is lifting two or three crates of items at one time while the
+human workers struggle to lift one on their own.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 17 0 0 16 16 0
+0 0 0 0 0 0 144 0
+#4912
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 9 0
+0 0 0 0 0 0 0 0
+#4913
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 8 0
+0 0 0 0 0 0 0 0
+#4914
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 8 0
+0 0 0 0 0 0 0 0
+#4915
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 8 0
+0 0 0 0 0 0 0 0
+#4916
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 8 0
+0 0 0 0 0 0 0 0
+#4917
+Pixie Tourist~
+a pixie tourist~
+This pixie is trying not to get trampled in the traffic.
+~
+This poor pixie is having a hard go of things.  They are trying to fly and
+dodge through the waves of people as they explore the bazaar. They seem to be
+here on pleasure rather than business as you suspect a pixie would bring
+someone larger to help them with their purchases.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 18 0 0 8 8 0
+0 0 0 0 0 0 0 0
+#4918
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4919
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4920
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4921
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4922
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4923
+Gnome tourist~
+a gnome tourist~
+This gnome is curiously examining everything it sees.
+~
+This gnome is unaware of the constant kicks and brushes of the other traffic.
+They smile as they admire the masonry of the city or perhaps an odd trinket
+they just bought. For whatever reason, they seem blissfully content.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#4924
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4925
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4926
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4927
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4929
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4930
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4931
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4932
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4933
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4934
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4936
+Town Watch Guard~
+a town watchmen~
+This guard patrols the city for suspicious characters.
+~
+This guard seems a bit on edge. He is constantly looking and searching the
+crowds as if any minute his death may come.  He stops a random  passerby and
+begins to ask questions.  After a moment he lets them pass before scanning the
+crowd for another victim.  He doesn't look like he has  been having a good
+month.
+~
+32833 4194304 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1042 0 0 0 131712 0
+#4937
+Check Point Guard~
+a check point guard~
+This guard is checking everyone leaving the gate.
+~
+This guard is tired of their job, it is plain to see on their sunken face and
+their melancholic look.  His job is to check every person and every wagon that
+comes in or goes out of the city.  It is a thankless job and one that does not
+afford much protection against a possible attack.
+~
+32835 4194304 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 928 0 0 0 400 0
+#4938
+Check Point Guard~
+a check point guard~
+This guard is checking everyone leaving the gate.
+~
+This guard is tired of their job, it is plain to see on their sunken face and
+their melancholic look.  His job is to check every person and every wagon that
+comes in or goes out of the city.  It is a thankless job and one that does not
+afford much protection against a possible attack.
+~
+32835 4194304 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 928 0 0 0 400 0
+#4940
+Check Point Guard~
+a check point guard~
+This guard is checking everyone leaving the gate.
+~
+This guard is tired of their job, it is plain to see on their sunken face and
+their melancholic look.  His job is to check every person and every wagon that
+comes in or goes out of the city.  It is a thankless job and one that does not
+afford much protection against a possible attack.
+~
+32835 4194304 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 928 0 0 0 400 0
+#4941
+Check Point Guard~
+a check point guard~
+This guard is checking everyone leaving the gate.
+~
+This guard is tired of their job, it is plain to see on their sunken face and
+their melancholic look.  He is tired of patting down ogres and sailors all day
+so they can turn in their inventory reports or some other piece of paper.  He
+gives you a cursory pat down and places an odd band around your weapon, making
+it impossible to quickly draw it.
+~
+32835 4194304 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 928 0 0 0 400 0
+#4943
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.
+~
+32833 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4944
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.
+~
+32833 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4945
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.
+~
+32833 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4946
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.
+~
+32833 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4947
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.
+~
+32833 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4948
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.  He is positioned at this check point to keep the officials
+safe from harm.
+~
+32835 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4949
+Imperial Guard~
+an imperial guard~
+This heavily armored guard is not the local police.
+~
+Adorned with a metal breastplate with a large Z marked on it, this guard
+patrols the city for any signs of trouble.  It seems odd that a city would
+require the presence of the military.  He doesn't seem to happy about his
+assignment either.  He is positioned at this check point to keep the officials
+safe from harm.
+~
+32835 4194304 -1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 11 0 0 0 944 3
+#4950
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4951
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4952
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4953
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4954
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4955
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4956
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4957
+Customer Store person~
+a store customer~
+This person is mulling over a purchase.
+~
+This customer is contemplating between two items. They seem deep in thought as
+if this was a life and death decision.  They weight each item in their hands
+like a scale before placing each one back on the shelf and admiring from afar.
+They are so lost in their own world you imagine they get mugged constantly.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#4960
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4961
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4962
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4963
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4964
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4965
+Pub Patron~
+a pub patron~
+This patron is enjoying the pub and their ale.
+~
+This patron is listening to the music or perhaps watching that special
+bar-maid.  They seem friendly enough.  They have a pint of ale in front of
+them, good music, good company, and a good view. What else could you ask for?
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 11 0 0 0 0 0
+#4966
+Orc Dock Worker~
+an orc dock worker~
+This large orc is making his way through the bazaar.
+~
+This orc is obviously a dock worker. His long limbs move with an easy grace
+and he seems to be able to easily dodge the hordes of people. Not to mention
+most immediately get out of his way the moment they see him.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 17 0 0 32 32 0
+0 0 1042 112 0 0 688 0
+#4967
+Orc Dock Worker~
+an orc dock worker~
+This large orc is making his way through the bazaar.
+~
+This orc is obviously a dock worker. His long limbs move with an easy grace
+and he seems to be able to easily dodge the hordes of people. Not to mention
+most immediately get out of his way the moment they see him.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 17 0 0 32 32 0
+0 0 1042 112 0 0 688 0
+#4968
+Orc Dock Worker~
+an orc dock worker~
+This large orc is making his way through the bazaar.
+~
+This orc is obviously a dock worker. His long limbs move with an easy grace
+and he seems to be able to easily dodge the hordes of people. Not to mention
+most immediately get out of his way the moment they see him.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 17 0 0 32 32 0
+0 0 1042 112 0 0 688 0
+#4969
+Orc Dock Worker~
+an orc dock worker~
+This large orc is making his way through the bazaar.
+~
+This orc is obviously a dock worker. His long limbs move with an easy grace
+and he seems to be able to easily dodge the hordes of people. Not to mention
+most immediately get out of his way the moment they see him.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 17 0 0 32 32 0
+0 0 1042 112 0 0 688 0
+#4970
+Troll patron~
+a troll patron~
+This troll is enjoying the cooking of back home.
+~
+This troll is happy to have a spot that so closely resembles his home town.
+The general population of Sahardin must really be tolerant of the more "brute"
+races to even allow them their own Pub.  This troll guzzles down his ale and
+enjoys lightly cooked game.
+~
+16777283 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 18 0 0 1 64 0
+0 0 18 0 0 0 176 0
+#4971
+ogre patron~
+an ogre patron~
+This ogre is enjoying the cooking of back home.
+~
+This ogre is happy to have a spot that so closely resembles his home town.
+The general population of Sahardin must really be tolerant of the more "brute"
+races to even allow them their own Pub.  This ogre guzzles down his ale and
+enjoys lightly cooked game.
+~
+16777283 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 18 0 0 16 16 0
+0 0 18 0 0 0 176 0
+#4972
+Troll patron~
+a troll patron~
+This troll is enjoying the cooking of back home.
+~
+This orc is happy to have a spot that so closely resembles his home town.
+The general population of Sahardin must really be tolerant of the more "brute"
+races to even allow them their own Pub.  This orc guzzles down his ale and
+enjoys lightly cooked game.
+~
+16777283 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 18 0 0 64 64 0
+0 0 18 0 0 0 176 0
+#4973
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4974
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4975
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4976
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4977
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4978
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4979
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4980
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4981
+Sailor wandering~
+a wandering sailor~
+A sailor is here, wandering the bazaar.
+~
+This sailor must be on shore-leave and taking the time off to full  benefit.
+He is shopping for numerous items to take back home or perhaps just a
+frivolous way to spend his paycheck.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1538 0 0 0 48 0
+#4982
+Musician Trio~
+a musician~
+This musician plays along with the trio.
+~
+This musician plays his instrument and adds vocals to the song. He seems
+entranced by the performance and hardly notices anything. He raises his voice
+high into the air and pounds his feet on the stage. The crowd seem pretty into
+it as well.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 1538 0 0 0 0 0
+#4983
+Musician Trio~
+a musician~
+This musician plays along with the trio.
+~
+This musician plays his instrument and adds vocals to the song. He seems
+entranced by the performance and hardly notices anything. He raises his voice
+high into the air and pounds his feet on the stage. The crowd seem pretty into
+it as well.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 1538 0 0 0 0 0
+#4984
+Musician Trio~
+a musician~
+This musician plays along with the trio.
+~
+This musician plays her instrument and adds vocals to the song. She seems
+entranced by the performance and hardly notices anything. She raises her voice
+high into the air and pounds her feet on the stage. The crowd seem pretty into
+it as well.
+~
+16777283 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 1538 0 0 0 0 0
+#4985
+Street Kid Urchin punk~
+a street urchin~
+This little punk is trying to pickpocket.
+~
+This kid is a mess of hair, dirt, and rags.  They run up to each tourist that
+strolls by and tries to grab what they can.  The town watch seem to enjoy
+chasing them all over.  They have a distinct twinkle in their eye as they see
+you.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4986
+Street Kid Urchin punk~
+a street urchin~
+This little punk is trying to pickpocket.
+~
+This kid is a mess of hair, dirt, and rags.  They run up to each tourist that
+strolls by and tries to grab what they can.  The town watch seem to enjoy
+chasing them all over.  They have a distinct twinkle in their eye as they see
+you.
+~
+65 0 -1000 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4987
+Street Kid Urchin punk~
+a street urchin~
+This little punk is trying to pickpocket.
+~
+This kid is a mess of hair, dirt, and rags.  They run up to each tourist that
+strolls by and tries to grab what they can.  The town watch seem to enjoy
+chasing them all over.  They have a distinct twinkle in their eye as they see
+you.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4988
+Street Kid Urchin punk~
+a street urchin~
+This little punk is trying to pickpocket.
+~
+This kid is a mess of hair, dirt, and rags.  They run up to each tourist that
+strolls by and tries to grab what they can.  The town watch seem to enjoy
+chasing them all over.  They have a distinct twinkle in their eye as they see
+you.
+~
+65 0 -1000 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4989
+Street Kid Urchin punk~
+a street urchin~
+This little punk is trying to pickpocket.
+~
+This kid is a mess of hair, dirt, and rags.  They run up to each tourist that
+strolls by and tries to grab what they can.  The town watch seem to enjoy
+chasing them all over.  They have a distinct twinkle in their eye as they see
+you.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4990
+Rowdy Local Man~
+a rowdy local~
+This man is constantly taunting the passer-bays.
+~
+This local man is shouting off color things to the people that walk by.
+Slouched and unkempt, it is clear that this man couldn't make it as a dock
+worker so he spends his time harassing or swindling the many foreign sailors
+and merchants.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4991
+Rowdy Local Man~
+a rowdy local~
+This man is constantly taunting the passer-bays.
+~
+This local man is shouting off color things to the people that walk by.
+Slouched and unkempt, it is clear that this man couldn't make it as a dock
+worker so he spends his time harassing or swindling the many foreign sailors
+and merchants.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4992
+Rowdy Local Man~
+a rowdy local~
+This man is constantly taunting the passer-bays.
+~
+This local man is shouting off color things to the people that walk by.
+Slouched and unkempt, it is clear that this man couldn't make it as a dock
+worker so he spends his time harassing or swindling the many foreign sailors
+and merchants.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4993
+Rowdy Local Man~
+a rowdy local~
+This man is constantly taunting the passer-bays.
+~
+This local man is shouting off color things to the people that walk by.
+Slouched and unkempt, it is clear that this man couldn't make it as a dock
+worker so he spends his time harassing or swindling the many foreign sailors
+and merchants.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4994
+Rowdy Local Man~
+a rowdy local~
+This man is constantly taunting the passer-bays.
+~
+This local man is shouting off color things to the people that walk by.
+Slouched and unkempt, it is clear that this man couldn't make it as a dock
+worker so he spends his time harassing or swindling the many foreign sailors
+and merchants.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4995
+Bartender Tiny Jao~
+Jao the Bartender~
+Jao is busy trying to keep up with the drink orders.
+~
+This is an attractive young lady.  Must be one of the reasons so many sailors
+choose this particular establishment to waste their paychecks. She is busy
+making drinks of all sorts as well as tapping kegs  and pouring wine.  She
+smiles at you with a set of deep brown eyes and winks.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 386 0 0 0 720 0
+#4996
+Cole Bartender sailor~
+Cole~
+This former sailor is tending to the bar.
+~
+Cole is a big man, a bit past his prime years of working on a ship but still
+in great shape.  He laughs with a huge bellow and is constantly keeping the
+ale or special drinks flowing.  He seems to be quite happy with the song the
+trio of musicians are playing.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1060 0 0 0 944 0
+#4997
+Scarred Shop Keeper Weapons man~
+a scarred shop keeper~
+This scarred man practically ignores you.
+~
+This man does not how to run a business.  His display items are in horrible
+shapes, he is most enthralled with finding gold in his nose, and the smell of
+smoke and some else is heavy in the room.  Perhaps no one taught him that a
+store needs to have customers to be successful.
+~
+16777283 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1538 0 0 0 0 0
+#4998
+Inspector Imperial Guard~
+the Inspector~
+This well-dressed guard is inspecting everyone.
+~
+The Inspector is cloaked in fine imperial garb and is intent on finding
+something.  Each wagon or person that passes his way he turns upside down
+looking for anything.  He sighs each time a person goes by without being in
+some sort of trouble.
+~
+67 4194304 -1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1536 0 0 0 928 3
+#4999
+Large Blacksmith Bald Oku man~
+Oku the Blacksmith~
+This bald man is trying to sell his wagon wheels.
+~
+Oku is a big man, most blacksmiths are.  He is trying to sell a customer on
+his new metal rimmed wheels that are less likely to break or snap on the road.
+ The heavy price tag seems to be keeping the customers from jumping on the
+chance but they do look very well made.
+~
+16777219 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1568 0 0 0 432 2
+#5000
+Csanel Pixie Shop Keeper~
+Csanel the Alchemist~
+This pixie alchemist is busy mixing items.
+~
+Csanel is busy trying to mix two very extracts together to map out their
+magical properties.  She is quiet and is staring intently at her work. The
+only sign that she recognizes you are here is her shout to close the door.
+~
+16777283 4718592 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 19 0 0 1 1 0
+0 0 48 0 0 0 33685504 6
+#5001
+Strawberry Elf Cute Cheerful~
+Strawberry~
+This cheerful elf with bright red hair is offering you a potion.
+~
+Strawberry must have gotten her name from the long bright red curls that fall
+to her shoulders.  She smiles sweetly and her musical voice is enough
+enticement to try one of her potions or perfumes.
+~
+16777219 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1057 0 0 0 0 2
+#5002
+Slinfil drow potion~
+Slinfil the Drow~
+This drow is careful making his potions.
+~
+The poor drow seems quite over-worked. By no means a pretty one, he is
+confined to the back to make the potions.  He is grumbling constantly and
+spitting as well.  It seems on his to do list is another "love" potion.
+~
+16777283 4194304 -1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 1 1 0
+0 0 1538 0 0 0 1107296256 2
+#5003
+Guard Captain Man~
+The Captain of the Guard~
+This large man is trying to make due in such shabby quarters.
+~
+The man is trying to do a hundred things at once in a space that most pixies
+would find tight.  The captain of the guard is studying different maps and
+reports and is oblivious to your presence.  Is everyone is this town
+overworked?
+~
+32835 4194432 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 1538 0 0 0 33554608 2621443
+#5004
+Harbor Master Sailor Man~
+the Harbor Master~
+This man is busy surfing through inventory reports.
+~
+The Harbor Master has a thankless job.  So much comes in and out of Sahardin
+and he has to make sure it is all legit. It's obvious some things are going to
+get in and out that shouldn't.  Every time he finishes one report another five
+seem to fall into his lap.
+~
+16777283 128 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 546 0 0 0 432 3
+#5005
+Mayor Man nervous~
+the Mayor~
+This nervous man is pretending to do work.
+~
+The Mayor is spooked. He keeps pretending to read some report or another
+when they are upside down.  You know this isn't your homeland but you
+are pretty sure people here don't read upside down. He tries to look busy
+and ignore your existence.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 23 0 0 1 1 0
+0 0 552 0 0 0 160 1
+#5006
+Bubba Ogre Shopkeeper~
+Bubba~
+This massive ogre is busy cooking, if you could call it that.
+~
+This ogre is about as big as other ogres, so he's huge!  He is taking a lot of
+joy in spitting what appears to be an animal and roasting it over the fire.
+The smell of strong ogre ale seems to rise off the creature. He sees you and
+smiles a toothy, horrifying grin. He motions you to come over to the bar and
+take a seat.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 19 0 0 1 1 0
+0 0 35 0 0 0 929 3
+#5007
+Aragos Inn Keeper Man~
+Aragos the Innkeeper~
+This old man smiles at you and offers you a drink.
+~
+This old man has owned this bar for years. It is named after him after all.
+He is a kind old thing, and he doesn't seem to interested in your money.
+It seems as the this part of town got rough so did business.  Out of kindness
+you contemplate staying for a night or two.
+~
+16777219 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 386 0 0 0 0 3
+#5008
+Bar Maid Sexy  Zeni woman~
+Zeni the Bar-Maid~
+This beautiful woman is walking from table to table.
+~
+This young woman is gorgeous.  She has deep blue eyes and long blonde hair.
+She is wearing next to nothing and seems to be enjoying the entranced stare of
+the patrons. Yet, you see a look of sadness in her face.  This is not how a
+woman should have to make her way in life.
+~
+16777283 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1568 0 0 0 0 0
+#5009
+Ghoul Thin Jeraz~
+Jeraz the Weapon Dealer~
+This thin ghoul watches the door for the town watch.
+~
+This ghoul is a good seven feet tall but as thin as a rail.  He smiles at you
+as you take a look at the numerous illegal weapons that are sold here.
+You find it odd that you haven't seen that many ghouls wandering such
+a city as this.
+~
+16777283 4194432&256 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 19 0 0 1 1 0
+0 0 546 0 0 0 33554593 3
+#5010
+Ensorcelled Gnome Shop keeper Man~
+Ensorcelled~
+This short man is watching you very closely.
+~
+This man is not in fact a human but a rather tall gnome.  He is  carefully
+watching the door and you at the same time.  He keeps his finger on the
+trigger of a small crossbow, neatly hidden under his cloak.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 19 0 0 1 1 0
+0 0 104 0 0 0 672 3
+#5011
+Sailor Sea Dog Captain Malen~
+Captain Malen~
+This old sea dog is offering you free lessons in sailing.
+~
+This old man must get a good deal of business. Located right next to the docks
+many sailors must stop by to pick up spare supplies. He also panders to the
+tourists of the area with sea-sickness pills and fishing lessons.
+~
+16777219 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1 1 0
+0 0 514 0 0 0 176 3
+#5012
+Woman Bar Maid Mareh~
+Mareh the Bar Maid~
+This woman is trying to avoid the pinches and grabs of the drunk customers.
+~
+This poor woman has it hard. Most of the people in here look like they would
+slap their mother for a gold coin.  Numerous puddles of ale and blood dot the
+floor.  She tries to keep up and still keep some semblance of dignity but her
+clientele is not that forgiving.
+~
+16777283 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1664 0 0 0 672 3
+#5013
+bouncer orc large~
+a bouncer~
+This large orc is keeping an eye on the door.
+~
+This large orc bouncer is keeping things calm on the outside. He is careful
+not to let anyone in that seems like they would cause a stir.  He nods to you
+and motions you inside.  Maybe you should tip him?
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+0 0 73 0 0 0 928 2
+#5021
+bouncer orc large~
+a bouncer~
+This large orc is keeping an eye on the girls.
+~
+This large orc bouncer is keeping things calm on the inside. He watches to
+make sure none of the patrons get any funny ideas. He doesn't seem to have a
+sense of humor so you figure it would be best not to cause any trouble.
+~
+67 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+0 0 73 0 0 0 928 2
+#5050
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+67 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+0 0 73 0 0 0 928 2
+#0
+
+
+#OBJECTS
+#4901
+Bottle Light Ale~
+a bottle of light ale~
+This bottle is filled with a sweet, low carb beer.~
+~
+17 0 1
+5 5 1 0
+1 10 0
+#4902
+bottle dark ale~
+a bottle of dark ale~
+This bottle is full of a rotund, solid tasting ale.~
+~
+17 0 1
+5 5 4 0
+1 10 0
+#4903
+Bottle Water Wine~
+a bottle of watered-down wine~
+This cheap wine is as bad as it gets.~
+~
+17 0 1
+5 5 1 0
+1 10 0
+#4904
+Cocktail Fruity ~
+a fruit-flavored cocktail~
+This sweet drink is great for the casual pub goer.~
+~
+17 0 1
+5 5 18 0
+1 15 0
+#4905
+shot whiskey~
+a shot of whiskey~
+This tiny glass packs a punch!~
+~
+17 0 1
+1 1 5 0
+1 20 0
+#4906
+shot tequila~
+a shot of tequila~
+This tiny glass packs a punch!~
+~
+17 0 1
+0 0 0 0
+1 20 0
+#4907
+bottle champagne~
+a bottle of champagne~
+This bottle is a decent vintage.~
+~
+17 0 1
+5 5 25 0
+1 50 0
+#4908
+mug mead~
+a mug of mead~
+This tasty drink will put hair on your chest.~
+~
+17 0 1
+5 5 16 0
+1 25 0
+#4909
+bottle heavy lager~
+a bottle of heavy lager~
+This is a strong beer not for the weak of heart!~
+~
+17 0 1
+5 5 26 0
+1 20 0
+#4910
+gin tonic drink~
+a gin and tonic~
+This drink is a refined man's choice.~
+~
+17 0 1
+3 3 21 0
+1 30 0
+#4911
+bottle all sorts~
+a bottle of all-sorts~
+This drink is only for the mighty, and stupid.~
+~
+17 0 1
+5 5 8 0
+1 20 0
+#4912
+mug grog~
+a mug of grog~
+This ogre favorite smells of wet leather.~
+~
+17 0 1
+5 5 17 0
+1 15 0
+#4913
+bottle dragon's breath~
+a bottle of dragon's breath~
+This is for the depressed, the suicidal, or the dead man.~
+~
+17 0 1
+5 5 7 0
+1 100 0
+#4914
+sword standard issue~
+a standard issue broadsword~
+This sword is easy to make and cheap to produce.~
+~
+5 0 131073
+12 3 3 3
+1 200 0
+#4919
+standard issue breastplate~
+a standard issue breastplate~
+This breastplate is flimsy but cheap to make.~
+~
+9 524288 65
+10 10 0 0
+1 250 0
+#4940
+standard issue battle axe~
+a standard issue battle-axe~
+This weapon is more for intimidation than battle.~
+~
+5 0&16 131073
+12 5 3 9
+6 0 0
+#4947
+imperial katana~
+an imperial katana~
+This finely made katana is only for the imperial guard.~
+~
+5 0 131073
+12 2 5 1
+4 200 0
+#4952
+needle thin dagger~
+a needle thin dagger~
+This dagger is quite easy to conceal.~
+~
+5 0 131073
+12 2 5 11
+2 50000 0
+A
+18 3
+#4953
+imperial odachi~
+an imperial odachi~
+This long blade doesn't seem available for public use.~
+~
+5 0&16 131073
+12 6 4 3
+10 50000 0
+#4954
+baton wood iron~
+an ironwood baton~
+This baton fits neatly over the forearm.~
+~
+5 0 131073
+12 3 4 7
+4 5000 0
+#4955
+heavy crossbow barbed~
+a heavy barbed crossbow~
+This heavy crossbow fires wicked bolts. ~
+~
+5 0&16 131073
+12 6 4 13
+5 5000 0
+#4956
+pair gloves spiked fingerless~
+a pair of fingerless spiked gloves~
+These gloves are fashionable and would hurt a lot.~
+~
+5 0 131073
+12 3 2 0
+1 10000 0
+#4957
+spiked chestplate steel~
+a steel spiked chestplate~
+This chestplate would make getting close a bad idea.~
+~
+9 524288 65
+15 15 0 0
+10 5000 0
+A
+19 3
+#4958
+Spiked bracer steel~
+a spiked steel bracer~
+This bracer would make grabbling a bit difficult.~
+~
+9 524288 257
+10 10 0 0
+3 10000 0
+A
+19 2
+#4959
+leather razor vambraces~
+a set of razor studded leather vambraces~
+These arm guards hide numerous razors.~
+~
+9 0 129
+5 5 0 0
+4 5000 0
+A
+19 2
+#4960
+Murkwood potion~
+a murkwood potion~
+This rank smelling potion is slowly bubbling.~
+~
+10 0 1048577
+35 -1 -1 -1
+1 7500 0
+'fly' 'improved invis' 'NONE'
+#4961
+love potion~
+a love potion~
+This love potion may solve your romance troubles!~
+~
+10 0 1048577
+5 -1 -1 -1
+1 3500 0
+'elven beauty' 'change sex' 'NONE'
+#4962
+prosperity potion~
+a prosperity potion~
+This potion promises wealth and glory.
+~
+~
+10 0 1048577
+30 -1 -1 -1
+1 11000 0
+'know alignment' 'restore mana' 'NONE'
+#4963
+fertility potion~
+a fertility potion~
+This potion will help you start a family.~
+~
+10 0 1048577
+30 -1 -1 -1
+1 2500 0
+'trollish vigor' 'NONE' 'NONE'
+#4964
+shadow spring potion~
+a shadow spring potion~
+This dark potion is a bit too ominous.~
+~
+10 0 1
+40 -1 -1 -1
+1 14500 0
+'shadowform' 'demonskin' 'dragonskin'
+#4965
+phoenix kiss potion~
+a phoenix's kiss potion~
+This fire red potion is warm to the touch.~
+~
+10 0 1
+50 -1 -1 -1
+1 32000 0
+'divinity' 'heal' 'NONE'
+#4970
+Wagon Wheel~
+a wagon wheel~
+This large wheel looks like a good spare.~
+~
+13 0 1
+0 0 0 0
+6 500 0
+#4971
+A wagon rod~
+a wagon rod~
+This rod is used to attach the wheels...duh!
+~
+~
+13 0 1
+0 0 0 0
+9 500 0
+#4972
+Wagon cart~
+a small wagon~
+This small wagon would make heavy loads easier to carry.~
+~
+15 0 1
+200 0 0 0
+15 5000 0
+#4973
+steak rare~
+a rare steak~
+This might be a nice dinner.~
+~
+19 0 1
+5 1 0 0
+1 50 0
+#4974
+bread oven loaf~
+a loaf of oven fresh bread~
+This loaf of bread is still warm.~
+~
+19 0 1
+3 1 0 0
+1 20 0
+#4975
+Rice pudding~
+a bowl of rice pudding~
+This pudding looks quite good.~
+~
+19 0 1
+1 1 0 0
+1 10 0
+#4976
+bowl noodles~
+a bowl of noodles~
+This bowl of noodles is cheap and filling.~
+~
+19 0 1
+5 1 0 0
+1 10 0
+#4977
+Mystery Meat~
+a piece of mystery meat~
+You are not sure what kind of meat this is...~
+~
+19 0 1
+4 1 0 0
+1 15 0
+#4978
+mace crested officer~
+an officer's crested mace~
+This sturdy mace could cause some damage.~
+~
+5 0 131073
+12 4 4 8
+7 1000 0
+#4979
+badge Harbor Master~
+the Badge of the Harbor Master~
+This badge has a huge Z on it.~
+~
+9 64 2097153
+0 0 0 0
+1 0 0
+A
+4 3
+A
+25 4
+#4996
+Sea Sick Pill~
+a Sea-Sick pill~
+This pill should make riding the waves a bit easier.~
+~
+26 0 1048577
+25 -1 -1 -1
+1 200 0
+'aqua breath' 'NONE' 'NONE'
+#4997
+Life raft instant~
+an instant life raft~
+This raft expands like a sponge in water.~
+~
+22 0 1048577
+0 0 0 0
+2 500 0
+#5050
+Placeholder~
+Placeholder~
+Placeholder~
+~
+22 0 1048577
+0 0 0 0
+2 500 0
+#0
+
+
+#ROOMS
+#4901
+Past The Break Wall~
+You can now see the entire expanse of a huge bay, filled with ships.  To the
+east you can see the main port and a bustling city. Many different types of
+ships from war-boats to simple merchant vessels fill the area. You hope they
+are nice enough to  strangers.
+~
+0 5 6
+D1
+~
+~
+16777216 0 4902
+D3
+~
+~
+16777216 0 4878
+S
+#4902
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D1
+~
+~
+0 0 4903
+D2
+~
+~
+0 0 4909
+D3
+~
+~
+0 0 4901
+S
+#4903
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D1
+~
+~
+0 0 4904
+D2
+~
+~
+0 0 4908
+D3
+Exit description~
+~
+0 0 4902
+S
+#4904
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D1
+~
+~
+0 0 4905
+D2
+~
+~
+0 0 4907
+D3
+Exit description~
+~
+0 0 4903
+S
+#4905
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D2
+~
+~
+0 0 4906
+D3
+Exit description~
+~
+0 0 4904
+S
+#4906
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4905
+D1
+~
+~
+0 0 4914
+D2
+~
+~
+0 0 4913
+D3
+~
+~
+0 0 4907
+S
+#4907
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4904
+D1
+Exit description~
+~
+0 0 4906
+D2
+~
+~
+0 0 4912
+D3
+~
+~
+0 0 4908
+S
+#4908
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4903
+D1
+Exit description~
+~
+0 0 4907
+D2
+~
+~
+0 0 4911
+D3
+~
+~
+0 0 4909
+S
+#4909
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4902
+D1
+Exit description~
+~
+0 0 4908
+D2
+~
+~
+0 0 4910
+S
+#4910
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4909
+D1
+~
+~
+0 0 4911
+S
+#4911
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4908
+D1
+~
+~
+0 0 4912
+D3
+Exit description~
+~
+0 0 4910
+S
+#4912
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4907
+D1
+~
+~
+0 0 4913
+D3
+Exit description~
+~
+0 0 4911
+S
+#4913
+In A Huge Bay~
+The water is still quite warm and there is no sign of the bottom. This must
+make an excellent port. Numerous smaller ships buzz by and there are several
+wildly painted ships with large harpoons patrolling the water. They seem to be
+on the lookout for something.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 4906
+D3
+Exit description~
+~
+0 0 4912
+S
+#4914
+Approaching The Docks~
+You try to avoid the numerous ships that are both leaving and docking.  You
+can hear the hustle and bustle of the city ahead. Numerous workers are on the
+ships, unloading boxes or loading them up.  Several huge battle cruisers are
+docked as well, keeping an eye on things inside the bay.
+~
+0 1 6
+D1
+~
+~
+0 0 4915
+D3
+Exit description~
+~
+0 0 4906
+S
+#4915
+Approaching The Docks~
+You try to avoid the numerous ships that are both leaving and docking.  You
+can hear the hustle and bustle of the city ahead. Numerous workers are on the
+ships, unloading boxes or loading them up.  Several huge battle cruisers are
+docked as well, keeping an eye on things inside the bay.
+~
+0 1 6
+D1
+~
+~
+16777216 0 4916
+D3
+Exit description~
+~
+0 0 4914
+S
+#4916
+On The Docks~
+You've made it into the port.  The docks are busy with all kinds of workers.
+You seem ogre laborers unloading and numerous human sailors doing some kind of
+work to their ships. Two small vessels are docked right next to you.
+~
+0 0 1
+D0
+Exit description~
+~
+16777216 0 4917
+D1
+Exit description~
+~
+0 0 4932
+D2
+Exit description~
+~
+16777216 0 4925
+D3
+~
+~
+16777216 0 4915
+S
+#4917
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4923
+D1
+Exit description~
+~
+0 0 4918
+D2
+Exit description~
+~
+16777216 0 4916
+S
+#4918
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4922
+D1
+Exit description~
+~
+0 0 4919
+D3
+Exit description~
+~
+0 0 4917
+S
+#4919
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4920
+D3
+Exit description~
+~
+0 0 4918
+S
+#4920
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 4919
+D3
+Exit description~
+~
+0 0 4922
+D5
+Exit description~
+~
+0 0 4921
+S
+#4921
+On A Small Merchant Ship~
+This must be the bilge of the ship.  It reeks of filth and decay. You can see
+several large rats happily swimming by.  You decide to head back up and cut
+the tour short.
+~
+0 0 0
+D4
+Exit description~
+~
+0 0 4920
+S
+#4922
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4920
+D2
+Exit description~
+~
+0 0 4918
+D3
+Exit description~
+~
+0 0 4923
+S
+#4923
+On A Small Merchant Ship~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 4922
+D2
+Exit description~
+~
+0 0 4917
+D4
+Exit description~
+~
+0 0 4924
+S
+#4924
+In The Crow's Nest~
+This ship is small compared to some of the others but it seems sturdy enough.
+Several sailors and making rope or repairing the sails.  The deck is wet and
+the smell of dried salt is heavy.  The ship looks like it just got in and are
+waiting for a group of dock workers to unload it. From here you can get
+a great view of the bay.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 4923
+S
+#4925
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D0
+Exit description~
+~
+16777216 0 4916
+D1
+Exit description~
+~
+0 0 4926
+D2
+Exit description~
+~
+0 0 4930
+S
+#4926
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4927
+D2
+Exit description~
+~
+0 0 4929
+D3
+Exit description~
+~
+0 0 4925
+S
+#4927
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D2
+Exit description~
+~
+0 0 4928
+D3
+Exit description~
+~
+0 0 4926
+S
+#4928
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4927
+D3
+Exit description~
+~
+0 0 4929
+S
+#4929
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4926
+D1
+Exit description~
+~
+0 0 4928
+D3
+Exit description~
+~
+0 0 4930
+D4
+Exit description~
+~
+0 0 4931
+S
+#4930
+On A Boarding Craft~
+This small boarding craft is being repaired. Apparently it went through some
+sort of battle as several sailors are washing blood off the deck and the
+walls.  You can see several swords laying on the ground and the bodies are
+being carried and stacked inside a large piece of sail.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4925
+D1
+Exit description~
+~
+0 0 4929
+S
+#4931
+In The Crow's Nest~
+Some sailor met a grisly fate up here.  His bow and arrow are by his side.
+Several, or rather numerous arrows dot his body.  This lookout must  have
+tried to take up a sniper position but from the look of things, he was
+outmatched.
+~
+0 0 1
+D5
+Exit description~
+~
+0 0 4929
+S
+#4932
+On The Docks~
+You've made it into the port.  The docks are busy with all kinds of workers.
+You seem ogre laborers unloading and numerous human sailors doing some kind of
+work to their ships. Two small vessels are docked right next to you.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4933
+D3
+Exit description~
+~
+0 0 4916
+S
+#4933
+On The Docks~
+You've made it into the port.  The docks are busy with all kinds of workers.
+You seem ogre laborers unloading and numerous human sailors doing some kind of
+ work to their ships. To the east you can see the main marketplace of the
+city.
+~
+0 0 1
+D1
+~
+~
+16777216 0 4934
+D3
+Exit description~
+~
+0 0 4932
+S
+#4934
+Entering The Bazaar~
+You can see the crowds of people gathered around, some shopping, some
+examining items, and other selling them. The town watch is out and about,
+stopping random passerbys and examining their goods. You see a heavy mix of
+the different races in the crowd.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4935
+D3
+~
+~
+16777216 0 4933
+S
+#4935
+The Intersection Of Shin And Xanis~
+You are at a busy intersection of two streets.  The road is crowded in each
+direction as some are going to the docks to work while others are just busy
+sorting through the numerous vendors.  With this many people it would be a
+good idea to keep a tight hand on your money.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4936
+D2
+Exit description~
+~
+0 0 4967
+D3
+Exit description~
+~
+0 0 4934
+S
+#4936
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  A street
+vendor is hawking her wares and a small crowd is huddled around her.
+Occasionally you see an urchin or thief try to snag an item off the table.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4937
+D3
+Exit description~
+~
+0 0 4935
+S
+#4937
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  A small inn
+is just to the north, from inside you can hear a crowd of sailors singing some
+song.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4968
+D1
+Exit description~
+~
+0 0 4938
+D3
+Exit description~
+~
+0 0 4936
+S
+#4938
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  The street
+stretches a good deal more to the east and you can see the outline of several
+more shops.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4939
+D3
+Exit description~
+~
+0 0 4937
+S
+#4939
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  The street
+stretches a good deal more to the east and you can see the outline of several
+more shops. To the south is a larger pub and inn.  Music floats in from the
+open door and windows.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4940
+D2
+Exit description~
+~
+0 0 4969
+D3
+Exit description~
+~
+0 0 4938
+S
+#4940
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  The street
+stretches a good deal more to the east and you can see the outline of several
+more shops.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4941
+D3
+Exit description~
+~
+0 0 4939
+S
+#4941
+On Shin Avenue~
+You make your way through the crowd, occasionally bumping into a large ogre on
+his way to the docks or feeling a slight tug at your coin pouch.  The street
+stretches a good deal more to the east and you can see the outline of several
+more shops.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4942
+D3
+Exit description~
+~
+0 0 4940
+S
+#4942
+The Intersection Of Shin And Dubai~
+You stand at another busy intersection of streets. To the south you can see a
+large gate and several other vendors. The traffic isn't nearly as heavy as
+before, but you can see large grooves dug into the stone streets. They seem
+wide enough to accommodate wagon-wheels.  To the north is a small shop that
+seems to be pretty desolate.
+~
+0 0 1
+D0
+~
+~
+16777216 0 4971
+D2
+Exit description~
+~
+0 0 4943
+D3
+Exit description~
+~
+0 0 4941
+S
+#4943
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. You can see a large gate to the south and the source of numerous
+wagons coming in and out of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4942
+D2
+Exit description~
+~
+0 0 4944
+S
+#4944
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. The gate to the east seems to be the entrance and exit out of the
+city. Numerous guards are inspecting the travellers that are moving in and
+out.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4943
+D1
+Exit description~
+~
+0 0 4975
+D2
+Exit description~
+~
+0 0 4945
+S
+#4945
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. To the south you see a constant cloud of black smoke from a
+building.  Several wagons are packed in front.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4944
+D2
+Exit description~
+~
+0 0 4946
+S
+#4946
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. To the west is what appears to be a blacksmith of some sort but by
+the clientele it seems that they specializes in wagons and their repair.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4945
+D2
+Exit description~
+~
+0 0 4947
+D3
+Exit description~
+~
+0 0 4978
+S
+#4947
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. A street vendor is here, hawking his wares. He sees you and points
+for you to stop on by.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4946
+D2
+Exit description~
+~
+0 0 4948
+S
+#4948
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. A quiet shop lies to the west, you cannot tell what they might sell.
+The shutters are closed and the door is draped in a heavy rug to
+block out the sun. How odd.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4947
+D2
+Exit description~
+~
+0 0 4949
+D3
+Exit description~
+~
+0 0 4980
+S
+#4949
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. To the south you can see that the wagons are being parked
+in a large section of dirt and unloaded or loaded.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4948
+D2
+Exit description~
+~
+0 0 4950
+S
+#4950
+On Dubai Way~
+The street has far less pedestrian traffic than the others but it is filled
+with odd wagons with wooden wheels that fit nicely into the two grooves in the
+street. To the south you can see that the wagons are being parked
+in a large section of dirt and unloaded or loaded.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4949
+D2
+Exit description~
+~
+0 0 4951
+S
+#4951
+The Intersection Of Dubai And Jhen~
+It seems that the track for wagons ends here and the heavy
+foot traffic begins again. Most of the people are either sailors, dock workers,
+or watchmen. To the west you can see a large building with a large
+red and gold Z painted on the side.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4950
+D3
+Exit description~
+~
+0 0 4952
+S
+#4952
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  They all seem
+to be heading towards the large building. A few gnome or pixie's are fighting
+their way through the crowd, intent on enjoying the scene. They must be
+tourists.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4951
+D3
+Exit description~
+~
+0 0 4953
+S
+#4953
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  They all seem
+to be heading towards the large building. To the north is a decent sized
+shop. The smell of jasmine and rosemary is heavy in the air.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4981
+D1
+Exit description~
+~
+0 0 4952
+D3
+Exit description~
+~
+0 0 4954
+S
+#4954
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  They all seem
+to be heading towards the large building. A few gnome or pixie's are fighting
+their way through the crowd, intent on enjoying the scene. They must be
+tourists.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4953
+D3
+Exit description~
+~
+0 0 4955
+S
+#4955
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  The large
+building to the north seems to be the administrative offices of the city. It
+seems well guarded and is adorned with numerous banners and statues of
+emperors and kings you've never heard of. To the west the street stretches on.
+
+~
+0 0 1
+D0
+Exit description~
+~
+16777216 0 4983
+D1
+Exit description~
+~
+0 0 4954
+D3
+Exit description~
+~
+0 0 4956
+S
+#4956
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  They all seem
+to be heading towards the large building. A few gnome or pixie's are fighting
+their way through the crowd, intent on enjoying the scene. They must be
+tourists.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4955
+D3
+Exit description~
+~
+0 0 4957
+S
+#4957
+On Jhen Road~
+The traffic here is somewhat minimal compared to the other streets.  Most of
+those walking are soldiers, guards, sailors, or dock workers.  They all seem
+to be heading towards the large building. To the south is a small shack that
+is spreading some sort of horrible smell. The ogres in the crowd seem to
+loiter around the shop, homesick and hungry.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4956
+D2
+Exit description~
+~
+0 0 4989
+D3
+Exit description~
+~
+0 0 4958
+S
+#4958
+The Intersection Of Jhen And Xanis~
+The intersection is crowded and the smell of the shack to the east still fills
+the air.  To the north you see a street filled with the locals of the city.
+It seems to be a bit poorer than the other parts of the bazaar.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4959
+D1
+Exit description~
+~
+0 0 4957
+S
+#4959
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear but you
+a small group of elves seem quite dismayed. To the north are several shops and
+pubs.  The amount of urchins and thieves seems to have doubled here.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4960
+D2
+Exit description~
+~
+0 0 4958
+S
+#4960
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4961
+D2
+Exit description~
+~
+0 0 4959
+S
+#4961
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear . To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.  To the east is a tiny inn that doesn't seem to be getting
+good business.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4962
+D1
+Exit description~
+~
+0 0 4990
+D2
+Exit description~
+~
+0 0 4960
+S
+#4962
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4963
+D2
+Exit description~
+~
+0 0 4961
+S
+#4963
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.  To the east is another pub, oddly quiet with a large
+bouncer standing by the door.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4964
+D1
+Exit description~
+~
+0 0 4991
+D2
+Exit description~
+~
+0 0 4962
+S
+#4964
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4965
+D2
+Exit description~
+~
+0 0 4963
+S
+#4965
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.  To the east is a dank alleyway that doesn't seem
+to be the best place to enjoy the sights.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4966
+D1
+Exit description~
+~
+0 0 4992
+D2
+Exit description~
+~
+0 0 4964
+S
+#4966
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.  To the
+north are several shops and  pubs.  The amount of urchins and thieves seems to
+have doubled here.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4967
+D2
+Exit description~
+~
+0 0 4965
+S
+#4967
+On Xanis Street~
+This is definitely the local hangout of the city.  It is filled with people
+heckling and hassling the tourists.  The dock workers turn a deaf ear.    The
+amount of urchins and thieves seems to  have doubled here.  A small shop that
+sells rope and other sailing supplies is to the east.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4935
+D1
+Exit description~
+~
+0 0 4999
+D2
+Exit description~
+~
+0 0 4966
+S
+#4968
+The Golden Lamp~
+This pub seems to be a favorite of the sailors and dock workers. The ale and
+wine is flowing freely as numerous people are cashing in their paychecks with
+the new shipments. There are others celebrating before they go out on another
+trip. A petite young lady is tending to the bar.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 4937
+S
+#4969
+The Blue Harp~
+This must be the tourist trap of Sahardin. You can see many different types of
+people ordering drinks or trying to get a room for the night.  A trio of
+musicians play on the small stage. Above you is a balcony and several barmaids
+scramble among the patrons.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4939
+D4
+Exit description~
+~
+0 0 4970
+S
+#4970
+The Blue Harp~
+>From the balcony you can see the entire expanse of the bay as well as get a
+good view of the band playing.  The tone is upbeat and it seems that everybody
+is having a good time. Perhaps you should get a room here.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 4969
+S
+#4971
+The Harpie's Dagger~
+This shop is run down and it would appear that it is about to cave in.  An old
+man with a huge scar against his face is tending to a small counter of
+weapons, most of them rusted or in pieces. He looks up at you and takes a drag
+off his hand rolled cigarette.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 4972
+D2
+~
+~
+16777216 0 4942
+S
+#4972
+The Harpie's Dagger~
+This back room is really more of a back shack.  It has the basic four walls
+and a roof but that is about it.  There are no decorations or even extra
+inventory.  Apparently all that is in the front is all that there is in the
+store. You notice the dirt in the middle of the room is a slightly different
+color than the rest.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 4971
+D5
+Exit description~
+~
+0 0 4973
+S
+#4973
+A Hidden Pathway~
+This pathway seems to go on into the north. You can't make out anything other
+that this route was hastily built  and in desperate need of a good mason.
+Besides the dirt, the bugs, and the  lack of light, it's really not that bad.
+
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 4974
+D4
+Exit description~
+~
+0 0 4972
+S
+#4974
+A Hidden Pathway~
+This pathway seems to go on into the north. You can start to make out oddly
+scribbled symbols on the walls. They look like directions!   You can't make
+out anything other  that this route was hastily built  and in desperate need
+of a good mason.   Besides the dirt, the bugs, and the  lack of light, it's
+really not that bad.
+~
+0 1 13
+D0
+~
+~
+16777216 0 4701
+D2
+Exit description~
+~
+0 0 4973
+S
+#4975
+Before The Gate~
+The town watch and even some military personnel are stationed here. They are
+watching everyone with a keen eye and are in full battle gear. Perhaps they
+have been attacked recently by bandits?
+~
+0 0 1
+D1
+~
+~
+16777216 0 4976
+D3
+Exit description~
+~
+0 0 4944
+S
+#4976
+At A Check Point~
+A large man with a large Z pinned to his cloak is inspecting everyone as they
+make their way out of the city.  He takes a look at you and waves his arm to
+go on through.  The security here is definitely on edge.
+~
+0 0 1
+D1
+Exit description~
+~
+16777216 0 4977
+D3
+~
+~
+16777216 0 4975
+S
+#4977
+The Sahardin Gate~
+This gate is massive.  The spiked doors must be two feet thick of metal. The
+gate guard are watching for anybody who looks suspicious. The doors are open
+There is a sign that reads in an odd cursive "OPEN TO THE TRADING PUBLIC!"
+~
+0 0 1
+D1
+~
+~
+16777216 0 7000
+D3
+Exit description~
+~
+0 0 4976
+S
+#4978
+The Steel Wheel~
+The smell of smoldering metal and steam fill the air.  A huge man with a
+shaved head and no neck is at the counter. Numerous customers are walking
+around, taking a look at the latest advances in wagon technology.  Several
+very large wheels from a war-wagon are hung from the roof like trophies.
+Further inside the store you hear the sound of metalworks.
+~
+0 8 1
+D1
+Exit description~
+~
+0 0 4946
+D3
+Exit description~
+~
+0 0 4979
+S
+#4979
+The Steel Wheel~
+A large half-orc is pounding out the spokes of a large wheel.  Two large
+furnaces burn so hot you can feel your armor growing uncomfortably hot.  The
+sound of the hammer strikes are deafening and you feel like gagging from the
+smell of burning metal.
+~
+0 8 1
+D1
+Exit description~
+~
+0 0 4978
+S
+#4980
+The Sulfur Dream~
+This shop is almost as dark as an empty sea.  A few candles cast the only
+light.  The shop is full of plants, carefully shielded with several panes of
+dark glass to prevent what little light that does come in to touch these
+delicate items. The shopkeep is a small pixie that is carefully mixing several
+drops of liquid together.
+~
+0 8 1
+D1
+Exit description~
+~
+0 0 4948
+S
+#4981
+Strawberry Fields~
+The shop is filled with the scent of peaceful and soothing incense. Numerous
+potions and powders adorn the walls. A cheerful looking Elf greets you and
+offers to take your coat.  Numerous customers are looking through the
+catalogue of potions this young woman could make. You see love potions, health
+potions, fertility potions, but nothing of any real value. Deeper inside you
+can see somebody working in the back.
+~
+0 8 1
+D0
+Exit description~
+~
+0 0 4982
+D2
+Exit description~
+~
+0 0 4953
+S
+#4982
+Strawberry Fields~
+The heavy air of the front room is less here.  The room is simple and much
+less cluttered with flowers or carpets or paintings.  A drow is hunched over a
+workbench, painfully careful to brew potions.  He looks up at you and seems to
+have a very spiteful look in his eye. He goes back to work mixing potions.
+~
+0 8 1
+D2
+Exit description~
+~
+0 0 4981
+S
+#4983
+The Imperial Office~
+A long line of sailors and soldiers stand and wait for their number to be
+called. You see that is the office of the Mayor, the Harbor Master, and the
+Town Guard.  Several guards are constantly watching the workers with a
+suspicious eye.  However, the sheer number of people in here seem to make the
+guard an illusion of security.
+~
+0 8 1
+D0
+Exit description~
+~
+0 0 4984
+D2
+Exit description~
+~
+16777216 0 4955
+S
+#4984
+The Imperial Office~
+The waiting room seems to have been converted into a security checkpoint.
+Several guards pat you down and put an odd lock onto your weapons.
+They ask you numerous questions but seem unimpressed with your answers.
+After several more pat-downs and a few compliments of your physical
+shape they waive you forward to a staircase.
+~
+0 8 1
+D0
+Exit description~
+~
+0 0 4985
+D2
+Exit description~
+~
+0 0 4983
+S
+#4985
+The Imperial Office~
+The staircase is beautifully crafted. Each step is carpeted and the hand rail
+is a polished oak.  The frame seems to made of a very sturdy metal. Along the
+walls you see a painting of a large man wearing an odd suit of armor, wielding
+a huge longsword, and flanked by a set of huge attack dogs.  Directly next to
+his painting is a smaller but no less grand one of a younger man, dressed in
+similar armor and carrying what appears to be a crossbow of some sort with a
+bladed guard and several bolts docked at once.
+~
+0 8 1
+D2
+Exit description~
+~
+0 0 4984
+D4
+Exit description~
+~
+0 0 4986
+S
+#4986
+The Imperial Office~
+This room is the makeshift headquarters of the Town Guard.  You imagine it was
+once a waiting room of some sort but hasty additions of extra protection on
+the doors and a moveable barricade for the stairs suggest that this changed
+not too long ago.  The Captain of the Guard is surveying a  handful of maps
+and seems uninterested in your approach.  Several wanted posters hang from the
+walls, giving sketches and descriptions of a few individuals.
+~
+0 8 1
+D1
+Exit description~
+~
+0 0 4987
+D3
+Exit description~
+~
+0 0 4988
+D5
+Exit description~
+~
+0 0 4985
+S
+#4987
+The Imperial Office Of The Harbor Master~
+The Harbor Master is buried in paper work.  Running such a busy port must be a
+stressful job.  He scribbles some numbers onto a large book and uses an odd
+device with many beads that shift back and forth to calculate something.  He
+looks up and motions to a sign that reads: Leave All Cargo Manifests on My
+Desk.  The pile on the desk almost reaches the twenty foot ceiling.
+~
+0 8 1
+D3
+Exit description~
+~
+0 0 4986
+S
+#4988
+The Imperial Office Of The Mayor~
+This portly fellow reaches for a dagger the moment you enter.  After he
+studies you for a minute he reclines back in his chair and hastily chews on
+his pipe.  He goes back to his work, occasionally lifting his eyes to meet
+yours before he goes back to his papers.  You notice they are all upside down.
+
+~
+0 8 1
+D1
+Exit description~
+~
+0 0 4986
+S
+#4989
+Da Shantay~
+This shack seems to be the hotspot for the numerous ogre, orc, and troll
+workers in the city.  Numerous animals are hung from the ceiling and several
+fire pits have animals roasting.  Almost all of the patrons are of the larger
+races and the ale is heavy on the floor.  Old bones and left over food are
+thrown on the floor but it is odd you don't see any stray animals here...
+~
+0 8 1
+D0
+Exit description~
+~
+0 0 4957
+S
+#4990
+The Aragos~
+This small inn must be one of the oldest buildings in the city.  Made of  wood
+rather than stone and steel it has a nice quaint feel to it.  An older man
+smiles at you and offers you a drink.  The crowd is thin here, probably
+because most of the tourists and foreign traders don't want to be hassled
+every time they  walk by.  This place would be nice to rest for awhile.
+~
+0 8 1
+D3
+Exit description~
+~
+0 0 4961
+S
+#4991
+The Mermaid's Oyster~
+Another large bouncer nods to you as you walk in.  The lights are dim
+and a single piano player is quietly playing a Sonata. Despite the quiet
+atmosphere you notice the place is absolutely packed! Then you notice
+the barmaids.  Each one is dressed in a VERY revealing outfit.  You see
+elves, drow, pixies, orcs, ogres, and every other race here,  drinking
+and absorbing the sights.  The bouncers must be pretty tough to keep
+this lot quiet.
+~
+0 8 1
+D3
+Exit description~
+~
+0 0 4963
+S
+#4992
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4993
+D3
+Exit description~
+~
+0 0 4965
+S
+#4993
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 4994
+D3
+Exit description~
+~
+0 0 4992
+S
+#4994
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily. To the south is a small shop that is poorly hidden behind
+several potted plants.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4995
+D2
+Exit description~
+~
+0 0 4998
+D3
+Exit description~
+~
+0 0 4993
+S
+#4995
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily. To the north is another shop that seems to be tucked away
+in the shadows. To the east the alley continues.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 4996
+D1
+Exit description~
+~
+0 0 4997
+D2
+Exit description~
+~
+0 0 4994
+S
+#4996
+The Assassin's Dagger~
+A very thin Ghoul stands behind a counter full of numerous weapons. You see
+poisoned blades, spiked gauntlets, needle thin daggers, and numerous other
+weapons you imagine are illegal here.  He grins a smile of broken teeth and
+horribly breath and asks if you'd like to see the "imports".
+~
+0 8 1
+D2
+Exit description~
+~
+0 0 4995
+S
+#4997
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 5000
+D3
+Exit description~
+~
+0 0 4995
+S
+#4998
+The Orc's Backside~
+This shop is dedicated to all sorts of armors.  The small man behind the
+counter watches you nervously while trying to hide the fact he has a compact
+crossbow aimed right you.  The armor all varies in size and shape, you see a
+few "retired" pieces of Imperial armor and several other vambraces or boots
+that probably aren't standard issue.
+~
+0 8 1
+D0
+Exit description~
+~
+0 0 4994
+S
+#4999
+Bait N Hook~
+This tidy little shop has all the bare essentials for the amateur sailor.
+Rope, water-resistant clothes, and pills to ease sea sickness are readily
+available. An old captain watches and smiles.  He points out how to tie
+numerous knots and which would be useful to know if you ever try your hand at
+taming the mistress that is the sea.
+~
+0 8 1
+D3
+Exit description~
+~
+0 0 4967
+S
+#5000
+Inside A Dark Alley~
+The alley is larger than the others and several people seem to be wandering
+around.  There are few lights here and you imagine the town watch don't come
+down this route often.  Numerous beggars and cut-purses watch you and eye your
+bags greedily. To the south is a very raucous tavern.
+~
+0 0 1
+D2
+Exit description~
+~
+0 0 5001
+D3
+Exit description~
+~
+0 0 4997
+S
+#5001
+The Jackal's Den~
+The smell of cheap liquor and dried sweat is heavy in the air. This doesn't
+seem to be a collection of the finest of Sahardin but it looks lively enough.
+Several worn out looking barmaids try to keep up with the numerous sailors and
+you suspect, smugglers.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 5000
+S
+#5050
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 4901 1 4905
+M 0 4902 1 4909
+M 0 4903 1 4911
+M 0 4904 1 4917
+M 0 4905 1 4919
+M 0 4906 1 4922
+M 0 4907 1 4927
+M 0 4908 1 4929
+M 0 4909 1 4932
+M 0 4910 1 4933
+M 0 4911 1 4928
+M 0 4912 1 4935
+M 0 4918 1 4939
+M 0 4913 1 4942
+M 0 4919 1 4944
+M 0 4914 1 4947
+M 0 4920 1 4949
+M 0 4915 1 4951
+M 0 4921 1 4953
+M 0 4916 1 4956
+M 0 4922 1 4958
+M 0 4917 1 4962
+M 0 4923 1 4965
+M 0 4924 1 4935
+E 1 4919 1 7
+E 1 4914 1 21
+M 0 4925 1 4938
+E 0 4919 1 7
+E 1 4940 1 21
+M 0 4925 1 4940
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4926 1 4942
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4927 1 4944
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4929 1 4947
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4930 1 4949
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4931 1 4951
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4932 1 4954
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4933 1 4956
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4934 1 4958
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4936 1 4962
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4937 1 4976
+E 0 4919 1 7
+E 0 4914 1 21
+M 0 4938 1 4976
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4940 1 4976
+E 0 4914 1 21
+E 0 4919 1 7
+M 0 4940 1 4977
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4940 1 4984
+E 0 4914 1 21
+E 0 4919 1 7
+M 0 4941 1 4984
+E 0 4940 1 21
+E 0 4919 1 7
+M 0 4949 1 4960
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4943 1 4951
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4944 1 4942
+E 0 4919 1 7
+E 1 4947 1 21
+M 0 4945 1 4958
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4946 1 4935
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4947 1 4947
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4948 1 4983
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4949 1 4983
+E 0 4947 1 21
+E 0 4919 1 7
+M 0 4950 1 4978
+M 0 4951 1 4978
+M 0 4952 1 4980
+M 0 4953 1 4980
+M 0 4954 1 4981
+M 0 4955 1 4981
+M 0 4956 1 4999
+M 0 4957 1 4999
+M 0 4960 1 4968
+M 0 4961 1 4969
+M 0 4962 1 4970
+M 0 4963 1 4990
+M 0 4964 1 4991
+M 0 4965 1 4991
+M 0 4970 1 4989
+M 0 4971 1 4989
+M 0 4972 1 4989
+M 0 4966 1 4937
+M 0 4967 1 4939
+M 0 4968 1 4952
+M 0 4969 1 4955
+M 0 4973 1 4943
+M 0 4974 1 4945
+M 0 4975 1 4948
+M 0 4976 1 4953
+M 0 4977 1 4955
+M 0 4978 1 4958
+M 0 4979 1 4960
+M 0 4980 1 4963
+M 0 4981 1 4967
+M 0 4982 1 4969
+M 0 4983 1 4969
+M 0 4984 1 4969
+M 0 4985 1 4943
+M 0 4986 1 4952
+M 0 4987 1 4959
+M 0 4989 1 4994
+M 0 4988 1 5000
+M 0 4990 1 4959
+M 0 4991 1 4961
+M 0 4992 1 4962
+M 0 4993 1 4964
+M 0 4994 1 4966
+M 0 4995 1 4968
+G 1 4973 1
+G 1 4910 1
+G 1 4902 1
+G 1 4901 1
+M 0 4996 1 4969
+G 1 4976 1
+G 1 4909 1
+G 1 4902 1
+M 0 4997 1 4971
+M 0 4998 1 4976
+M 0 4999 1 4978
+G 1 4972 1
+G 1 4971 1
+G 1 4970 1
+M 0 5000 1 4980
+G 1 21452 1
+G 1 21451 1
+M 0 5001 1 4981
+G 1 4963 1
+G 1 4962 1
+G 1 4961 1
+M 0 5002 1 4982
+G 1 4965 1
+G 1 4964 1
+G 1 4960 1
+M 0 5003 1 4986
+E 1 4978 1 21
+M 0 5004 1 4987
+G 1 4979 1
+M 0 5005 1 4988
+M 0 5006 1 4989
+G 1 4911 1
+G 1 4912 1
+G 1 4977 1
+M 0 5007 1 4990
+G 1 4975 1
+G 1 4974 1
+G 1 4901 1
+G 1 4905 1
+G 1 4908 1
+M 0 5008 1 4991
+G 1 4910 1
+G 1 4904 1
+G 1 4907 1
+M 0 5009 1 4996
+G 1 4956 1
+G 1 4955 1
+G 1 4954 1
+G 1 4953 1
+G 1 4952 1
+M 0 5010 1 4998
+G 1 4959 1
+G 1 4958 1
+G 1 4957 1
+M 0 5011 1 4999
+G 1 4997 1
+G 1 4996 1
+M 0 5012 1 5001
+G 1 4903 1
+G 1 4913 1
+G 1 4911 1
+G 1 4906 1
+M 0 5021 1 4991
+M 0 5013 1 4963
+S
+
+
+#SHOPS
+ 4995   17 19  0  0  0   120  90         7 18    ; Jao the Bartender
+ 4996    0  0  0  0  0   120  90         7 18    ; Cole
+ 4999   13  8  0  0  0   120  90         7 18    ; Oku the Blacksmith
+ 5000   63 10 26  0  0   120  90         7 18    ; Csanel the Alchemist
+ 5001   10  0  0  0  0   120  90         7 18    ; Strawberry
+ 5002   10  0  0  0  0   120  90         7 18    ; Slinfil the Drow
+ 5006   19 17  0  0  0   120  90         0 23    ; Bubba
+ 5007   19 17  0  0  0   120  90         0 23    ; Aragos the Innkeeper
+ 5008   17  0  0  0  0   120  90         0 23    ; Zeni the Bar-Maid
+ 5009    5  9 65 64  0   120  90         7 18    ; Jeraz the Weapon Dealer
+ 5010    9  0  0  0  0   120  90         7 18    ; Ensorcelled
+ 5011    0  0  0  0  0   120  90         7 18    ; Captain Malen
+ 5012   17  0  0  0  0   120  90         0 23    ; Mareh the Bar Maid
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4901 spec_guard
+M  4902 spec_guard
+M  4903 spec_guard
+M  4913 spec_cast_mage
+M  4916 spec_cast_druid
+M  4923 spec_cast_diabolist
+M  4924 spec_guard
+M  4925 spec_guard
+M  4926 spec_guard
+M  4927 spec_guard
+M  4929 spec_guard
+M  4930 spec_guard
+M  4931 spec_guard
+M  4932 spec_guard
+M  4933 spec_guard
+M  4934 spec_guard
+M  4936 spec_guard
+M  4937 spec_guard
+M  4938 spec_guard
+M  4940 spec_guard
+M  4941 spec_guard
+M  4943 spec_guard
+M  4944 spec_guard
+M  4945 spec_guard
+M  4946 spec_guard
+M  4947 spec_guard
+M  4948 spec_guard
+M  4949 spec_guard
+M  4985 spec_thief
+M  4986 spec_thief
+M  4987 spec_thief
+M  4988 spec_thief
+M  4989 spec_thief
+M  5000 spec_cast_shaman
+M  5001 spec_cast_mage
+M  5002 spec_cast_diabolist
+M  5003 spec_executioner
+M  5005 spec_mayor
+M  5010 spec_cast_mage
+M  5021 spec_guard
+S
+
+
+#$

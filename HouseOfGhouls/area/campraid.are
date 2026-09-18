@@ -1,0 +1,1972 @@
+#AREA   Camp Raid~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+30 45 0 65
+$
+
+#RESETMSG Battle-cries ring out as new reinforcements are sent into battle.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 326400907
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7401
+imperial conscript soldier~
+an Imperial conscript~
+This imperial soldier was forced into service.
+~
+This young soldier is no more than eighteen.  His holds his weapon nervously,
+and looks uncomfortable in his armor. He doesn't have the stare of a hardened
+soldier, or the walk.  He stands waiting for orders from one of the captains.
+~
+65 0 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7402
+imperial conscript soldier~
+an Imperial conscript~
+This imperial soldier was forced into service.
+~
+This young soldier is no more than eighteen.  His holds his weapon nervously,
+and looks uncomfortable in his armor. He doesn't have the stare of a hardened
+soldier, or the walk.  He stands waiting for orders from one of the captains.
+~
+65 0 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7403
+imperial conscript soldier~
+an Imperial conscript~
+This imperial soldier was forced into service.
+~
+This young soldier is no more than eighteen.  His holds his weapon nervously,
+and looks uncomfortable in his armor. He doesn't have the stare of a hardened
+soldier, or the walk.  He stands waiting for orders from one of the captains.
+~
+65 0 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7404
+imperial conscript soldier~
+an Imperial conscript~
+This young soldier is wild-eyed with fear.
+~
+This young soldier is no more than 18 but he has been thrust into battle. He
+looks all around him in a constant search for his enemy, his armor stained
+with blood, both his and his enemies.  He is lost in the pain and the torment,
+and is attacking anything he can just to stay alive, including  you!
+~
+97 1073741824 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7405
+imperial conscript soldier~
+an Imperial conscript~
+This young soldier is wild-eyed with fear.
+~
+This young soldier is no more than 18 but he has been thrust into battle. He
+looks all around him in a constant search for his enemy, his armor stained
+with blood, both his and his enemies.  He is lost in the pain and the torment,
+and is attacking anything he can just to stay alive, including  you!
+~
+97 1073741824 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7406
+imperial conscript soldier~
+an Imperial conscript~
+This young soldier is wild-eyed with fear.
+~
+This young soldier is no more than 18 but he has been thrust into battle. He
+looks all around him in a constant search for his enemy, his armor stained
+with blood, both his and his enemies.  He is lost in the pain and the torment,
+and is attacking anything he can just to stay alive, including  you!
+~
+97 1073741824 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7407
+imperial conscript soldier~
+an Imperial conscript~
+This young soldier is wild-eyed with fear.
+~
+This young soldier is no more than 18 but he has been thrust into battle. He
+looks all around him in a constant search for his enemy, his armor stained
+with blood, both his and his enemies.  He is lost in the pain and the torment,
+and is attacking anything he can just to stay alive, including  you!
+~
+97 1073741824 -1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7408
+rebel swordsman~
+a rebel swordsman~
+This rebel is slashing at everything in their reach!
+~
+This rebel is clearly caught up in the battle. Their eyes are burning with
+hatred and pain, brandishing their weapon in every direction at anything they
+see. Their simple leather armor is torn and bloody, their weapon jagged and
+covered in gore.  They look for another Imperial but decide you will should
+die as well!
+~
+97 1073741824 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7409
+rebel swordsman~
+a rebel swordsman~
+This rebel is slashing at everything in their reach!
+~
+This rebel is clearly caught up in the battle. Their eyes are burning with
+hatred and pain, brandishing their weapon in every direction at anything they
+see. Their simple leather armor is torn and bloody, their weapon jagged and
+covered in gore.  They look for another Imperial but decide you will should
+die as well!
+~
+97 1073741824 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7410
+rebel swordsman~
+a rebel swordsman~
+This rebel is slashing at everything in their reach!
+~
+This rebel is clearly caught up in the battle. Their eyes are burning with
+hatred and pain, brandishing their weapon in every direction at anything they
+see. Their simple leather armor is torn and bloody, their weapon jagged and
+covered in gore.  They look for another Imperial but decide you will should
+die as well!
+~
+97 1073741824 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7411
+rebel swordsman~
+a rebel swordsman~
+This rebel is slashing at everything in their reach!
+~
+This rebel is clearly caught up in the battle. Their eyes are burning with
+hatred and pain, brandishing their weapon in every direction at anything they
+see. Their simple leather armor is torn and bloody, their weapon jagged and
+covered in gore.  They look for another Imperial but decide you will should
+die as well!
+~
+97 1073741824 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7412
+imperial veteran soldier~
+a veteran soldier~
+This veteran soldier is scaring the new recruits.
+~
+This older soldier has seen many a war with the rebels.  He wears a few scars
+and his armor is dirty and tarnished.  He holds his weapon like a pro, and
+walks with an easy grace.  He seems to be taking a good amount of enjoyment
+out of scaring the new soldiers.
+~
+65 0 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7413
+imperial veteran soldier~
+a veteran soldier~
+This veteran soldier is scaring the new recruits.
+~
+This older soldier has seen many a war with the rebels.  He wears a few scars
+and his armor is dirty and tarnished.  He holds his weapon like a pro, and
+walks with an easy grace.  He has succumbed to the blood lust that all
+soldiers must in order to truly be a great warrior.
+~
+65 1073741824 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7415
+imperial veteran soldier~
+a veteran soldier~
+This veteran soldier is scaring the new recruits.
+~
+This older soldier has seen many a war with the rebels.  He wears a few scars
+and his armor is dirty and tarnished.  He holds his weapon like a pro, and
+walks with an easy grace.  He has succumbed to the blood lust that all
+soldiers must in order to truly be a great warrior.
+~
+65 1073741824 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7416
+imperial eager knight~
+an eager Imperial knight~
+This knight looks quite eager to get some combat time.
+~
+This large man is heavily armored and is more than ready to bash a few skulls.
+ He paces eagerly, waiting the order for him and his squad to move into the
+village.  He yells at the new soldiers to enjoy this moment, because it is the
+anticipation that makes the battle worth it.
+~
+65 0 -1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7417
+over zealous knight~
+an overzealous knight~
+This knight is eagerly killing anything in range.
+~
+This large man is heavily armored and using that to his advantage. He doesn't
+care who he strikes down, he simply walks up and down through the wreckage of
+the great city killing whatever he can.  He sees you and grins before he
+charges forward.
+~
+97 1073741824 -1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7418
+over zealous knight~
+an overzealous knight~
+This knight is eagerly killing anything in range.
+~
+This large man is heavily armored and using that to his advantage. He doesn't
+care who he strikes down, he simply walks up and down through the wreckage of
+the great city killing whatever he can.  He sees you and grins before he
+charges forward.
+~
+97 1073741824 -1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7419
+over zealous knight~
+an overzealous knight~
+This knight is eagerly killing anything in range.
+~
+This large man is heavily armored and using that to his advantage. He doesn't
+care who he strikes down, he simply walks up and down through the wreckage of
+the great city killing whatever he can.  He sees you and grins before he
+charges forward.
+~
+97 1073741824 -1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7420
+imperial squad leader~
+an Imperial squad leader~
+This sarge is yelling at his soldiers to kill whatever they can.
+~
+This man is definitely in charge.  He orders the younger soldiers to get nasty
+and just kill what they can.  He barks out his orders in a booming voice and
+the way he strikes down the few rebels that dare get close to him you know
+this is not his first combat situation. He sees you and decides the honor
+should be his.
+~
+97 0 -1000 C
+43 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7421
+imperial commander~
+an Imperial Commander~
+This man is in charge of the destruction of this rebel city.
+~
+This tall man looks like a noble and a drill instructor.  He yells to the men
+to keep formation and pulls arrows out of his thick armor.  He surveys the
+battle and yells to keep the flank tight and to watch for snipers. He yells
+for a squad to come after you but then decides to it himself.
+~
+97 0 -1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 12 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7422
+rebel berserker~
+a rebel berserker~
+This huge rebel is tearing through the Imperial soldiers in a rage.
+~
+This half-ogre is lightly armored but wielding two huge weapons.  He is
+tearing through the Imperial soldiers that get close enough to crush. His body
+is bleeding but he seems to ignore the massive wounds in his stomach and
+chest.  He seems you and cries out a call of war.
+~
+65 1073741824 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7423
+rebel berserker~
+a rebel berserker~
+This huge rebel is tearing through the Imperial soldiers in a rage.
+~
+This half-ogre is lightly armored but wielding two huge weapons.  He is
+tearing through the Imperial soldiers that get close enough to crush. His body
+is bleeding but he seems to ignore the massive wounds in his stomach and
+chest.  He seems you and cries out a call of war.
+~
+65 1073741824 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7424
+rebel berserker~
+a rebel berserker~
+This huge rebel is tearing through the Imperial soldiers in a rage.
+~
+This half-ogre is lightly armored but wielding two huge weapons.  He is
+tearing through the Imperial soldiers that get close enough to crush. His body
+is bleeding but he seems to ignore the massive wounds in his stomach and
+chest.  He seems you and cries out a call of war.
+~
+65 1073741824 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7425
+mercenary sell sword~
+a sell-sword~
+This mercenary is earning his pay from the rebels.
+~
+This mercenary is definitely earning their pay.  They are quickly and easily
+dispatching the Imperial conscripts, taking their dogtags or anything else
+that would identify them as an Imperial kill to take back to headquarters to
+earn their reward.  They see you and decide to try and get a bonus.
+~
+97 0 0 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7426
+mercenary sell sword~
+a sell-sword~
+This mercenary is earning his pay from the rebels.
+~
+This mercenary is definitely earning their pay.  They are quickly and easily
+dispatching the Imperial conscripts, taking their dogtags or anything else
+that would identify them as an Imperial kill to take back to headquarters to
+earn their reward.  They see you and decide to try and get a bonus.
+~
+97 0 0 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7428
+ogre bruiser~
+an ogre bruiser~
+This huge ogre is clubbing any Imperial he sees.
+~
+This ogre must have been a chieftain or leader of the village before it was
+attacked. Now he is one of the last rebel leaders left alive, charged with
+defending this village until the last of the civilians can safely escape
+somewhere.  He roars in rage and triumphant as he breaks the back of another
+Imperial before charging after you.
+~
+97 0 0 C
+43 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 3 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7429
+elf battle mage~
+an Elf battle mage~
+This lithe elf is using her magiks against the Imperials.
+~
+This beautiful elven woman is one of the rebel commanders.  A powerful
+warrior and mage, she uses her magik to destroy the Imperial soldiers before
+they even get within a sword's reach of her.  She turns and sees you and asks
+no questions, attacking any who she doesn't recognize as a rebel.
+~
+97 0 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7430
+flee villager~
+a fleeing villager~
+This villager is trying to gather what they can and run.
+~
+This poor half-ogre is trying to gather what they can and run with the others.
+They are visibly very frightened and upset, but do what they can to gather the
+loved ones they still have and make their way to a safer place.  They watch
+with sorrow as their home burns to the ground.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7431
+flee villager~
+a fleeing villager~
+This villager is trying to gather what they can and run.
+~
+This poor half-ogre is trying to gather what they can and run with the others.
+They are visibly very frightened and upset, but do what they can to gather the
+loved ones they still have and make their way to a safer place.  They watch
+with sorrow as their home burns to the ground.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7432
+flee villager~
+a fleeing villager~
+This villager is trying to gather what they can and run.
+~
+This poor half-ogre is trying to gather what they can and run with the others.
+They are visibly very frightened and upset, but do what they can to gather the
+loved ones they still have and make their way to a safer place.  They watch
+with sorrow as their home burns to the ground.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7433
+flee villager~
+a fleeing villager~
+This villager is trying to gather what they can and run.
+~
+This poor half-ogre is trying to gather what they can and run with the others.
+They are visibly very frightened and upset, but do what they can to gather the
+loved ones they still have and make their way to a safer place.  They watch
+with sorrow as their home burns to the ground.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1570 0 0 0 160 2
+#7500
+Maraeh rebel commander~
+Maraeh the Rebel Commander~
+This proud woman is leading her troops into battle.
+~
+This woman is tall and graceful.  Her ears and her pale skin give a hint to
+her ghoulish heritage.  She watches over her troops, knowing that many will
+not be coming back.  The barricade is failing, and not all the supplies and
+the civilians have been given enough time to escape the Imperials. She looks
+at you and wonders where your allegiance lies.
+~
+16777283 128 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 13 0 0 1048577 1 0
+0 0 331 1048576 0 0 368 2097159
+#0
+
+
+#OBJECTS
+#7401
+Imperial cuirass~
+an Imperial cuirass~
+This heavy metal vest would be helpful in battle.~
+~
+9 524288 65
+10 10 0 0
+6 500 0
+E
+Imperial cuirass~
+A heavy metal cuirass worn by the Imperial guard.  The thick plate is great at 
+protecting the wearer from damage.
+~
+#7402
+Imperial sword guard~
+an Imperial sword guard~
+This heavy guard would shatter a sword.~
+~
+9 524288 2049
+12 12 0 0
+12 500 0
+E
+Imperial sword guard~
+Worn about the body, this garment is used to help shed attacks from others 
+while in combat.
+~
+#7403
+leather battle vest battle-vest~
+a leather battle-vest~
+This light vest would help stop a soft slash.~
+~
+9 0 65
+4 4 0 0
+6 500 0
+E
+leather battle vest battle-vest~
+While this soft vest would stop some weak attacks, it shouldn't be counted on 
+to stop a heavy blow.
+~
+#7404
+pole orders board~
+the order board~
+This large pole has orders nailed to it.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+order pole~
+ATTENTION: All soldiers must report here before being sent into the
+battlefield. Most  of the city is in ruins but the rebels have managed to
+secure a small portion. They are allowing the people of this rebellious city
+to escape, along with vital information.  Finding your way through the burning
+wreckage and smoke will be hard.  It will also be hard to distinguish between
+friend and foe. Go forth, and kill everything you see.
+
+
+
+Please be advised,
+the mobs are aggro. This is good for group exp.
+-Nameless
+~
+#7405
+imperial lochbar axe~
+an Imperial lochbar axe~
+This heavy axe is standard issue for sieges.~
+~
+5 0&16 131073
+13 4 7 19
+8 300 0
+E
+imperial lochbar axe~
+This large axe has a long shaft and spiky tip, perfect for holding back 
+attackers.
+~
+#7406
+standard issue claymore~
+a standard issue claymore~
+This heavy sword could tear through most armor.~
+~
+5 0&16 131073
+13 4 7 3
+15 300 0
+E
+standard issue claymore~
+This giant sword is standard issue in the Imperial army.  Problem is finding a 
+soldier strong enough to wield it!
+~
+#7407
+large oak branch~
+a large oak branch~
+This huge branch makes a great club.~
+~
+5 0&16 131073
+13 6 5 8
+8 300 0
+E
+large oak branch~
+Thick and heavy, this rough branch could cause a lot of damage to anyone 
+struck by it.
+~
+#7408
+simple long sword~
+a simple longsword~
+This simple longsword isn't fancy but effective.~
+~
+5 0 131073
+13 3 4 3
+5 300 0
+E
+simple long sword~
+A plain old longsword...nothing more, nothing less.
+~
+#7500
+armored leather cloak~
+an armored leather cloak~
+This heavy cloak is reinforced with metal.~
+~
+9 64 2049
+6 6 0 0
+6 1000 0
+E
+armored leather cloak~
+This leather cloak has strips of metal attached to it...leaving it 
+maneuverable, but still stout enough to block some attacks.
+~
+A
+1 3
+A
+2 3
+A
+40 5
+#0
+
+
+#ROOMS
+#7401
+On A Busy Trail~
+The yelling and shouting is almost deafening now.  Hundreds of Imperial
+soldiers are running all sorts of errands.  Some seem to be preparing for
+combat while others are attending to the wounded or gathering supplies. Others
+are simply waiting around, trying not to be noticed.
+~
+0 0 3
+D1
+~
+~
+0 0 6285
+D2
+~
+~
+0 0 7402
+S
+#7402
+On A Busy Trail~
+The yelling and shouting is almost deafening now.  Hundreds of Imperial
+soldiers are running all sorts of errands.  Some seem to be preparing for
+combat while others are attending to the wounded or gathering supplies. Others
+are simply waiting around, trying not to be noticed.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 7401
+D2
+~
+~
+0 0 7403
+S
+#7403
+On A Busy Trail~
+The yelling and shouting is almost deafening now.  Hundreds of Imperial
+soldiers are running all sorts of errands.  Some seem to be preparing for
+combat while others are attending to the wounded or gathering supplies. Others
+are simply waiting around, trying not to be noticed.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 7402
+D3
+~
+~
+0 0 7404
+S
+#7404
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 7403
+D3
+~
+~
+0 0 7405
+S
+#7405
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D0
+~
+~
+0 0 7406
+D1
+Exit description~
+~
+0 0 7404
+D2
+Exit description~
+~
+0 0 7408
+D3
+~
+~
+0 0 7410
+S
+#7406
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D0
+~
+~
+0 0 7407
+D2
+Exit description~
+~
+0 0 7405
+S
+#7407
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D2
+Exit description~
+~
+0 0 7406
+S
+#7408
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D0
+~
+~
+0 0 7405
+D2
+~
+~
+0 0 7409
+S
+#7409
+The Sortie Camp~
+The Imperial camp is spread out all along the outskirts of the village.  To
+the  very far south you can see a high ridgeline of mountains and thick
+forest. It seems that there is no way out except through this camp.  The
+village itself is  burning and the symphony of war is heavy in the air.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7408
+S
+#7410
+The Village Barricade~
+This defensive measure seems a bit hurried.  This used to be the walls of a
+once great ogre village, judging by the language burned into the wood, but the
+Imperials have turned this gate into a choke point.  No one can enter or exit
+the city except through this gate which is heavily guarded. The cries of
+battle come beyond the door.  Judging by the way the veterans are pushing the
+newest soldiers through the gate, a fierce one at that.
+~
+0 0 1
+D1
+~
+~
+0 0 7405
+D3
+Exit description~
+~
+16777216 0 7411
+S
+#7411
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+At every corner there is a crouched figure firing arrows into the fray or
+rebel soldiers jumping onto the backs of the Imperial soldiers that are
+desperately trying to maintain formation.  You can smell the blood-lust in the
+air.
+~
+0 134217728 1
+D1
+Exit description~
+~
+16777216 0 7410
+D2
+Exit description~
+~
+0 0 7422
+D3
+Exit description~
+~
+0 0 7412
+S
+#7412
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7411
+D3
+Exit description~
+~
+0 0 7413
+S
+#7413
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7412
+D2
+Exit description~
+~
+0 0 7420
+D3
+Exit description~
+~
+0 0 7414
+S
+#7414
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7413
+D2
+Exit description~
+~
+0 0 7419
+D3
+Exit description~
+~
+0 0 7415
+S
+#7415
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7414
+D3
+Exit description~
+~
+0 0 7416
+S
+#7416
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7415
+D2
+Exit description~
+~
+0 0 7417
+S
+#7417
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7416
+D2
+Exit description~
+~
+0 0 7428
+S
+#7418
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7419
+D2
+Exit description~
+~
+0 0 7427
+S
+#7419
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7414
+D3
+Exit description~
+~
+0 0 7418
+S
+#7420
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7413
+D1
+Exit description~
+~
+0 0 7421
+D2
+Exit description~
+~
+0 0 7425
+S
+#7421
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D3
+Exit description~
+~
+0 0 7420
+S
+#7422
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7411
+D2
+Exit description~
+~
+0 0 7423
+S
+#7423
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7422
+D2
+Exit description~
+~
+0 0 7434
+S
+#7424
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D2
+Exit description~
+~
+0 0 7433
+D3
+Exit description~
+~
+0 0 7425
+S
+#7425
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7420
+D1
+Exit description~
+~
+0 0 7424
+D3
+Exit description~
+~
+0 0 7426
+S
+#7426
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7425
+D2
+Exit description~
+~
+0 0 7431
+S
+#7427
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7418
+D2
+Exit description~
+~
+0 0 7430
+S
+#7428
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7417
+D2
+Exit description~
+~
+0 0 7429
+S
+#7429
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7428
+D1
+Exit description~
+~
+0 0 7430
+S
+#7430
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7427
+D1
+Exit description~
+~
+0 0 7431
+D3
+Exit description~
+~
+0 0 7429
+S
+#7431
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7426
+D2
+Exit description~
+~
+0 0 7437
+D3
+Exit description~
+~
+0 0 7430
+S
+#7432
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7433
+D2
+Exit description~
+~
+0 0 7438
+S
+#7433
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7424
+D2
+Exit description~
+~
+0 0 7439
+D3
+Exit description~
+~
+0 0 7432
+S
+#7434
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7423
+D2
+Exit description~
+~
+0 0 7440
+S
+#7435
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7436
+D2
+Exit description~
+~
+0 0 7441
+S
+#7436
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7437
+D2
+Exit description~
+~
+0 0 7442
+D3
+Exit description~
+~
+0 0 7435
+S
+#7437
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7431
+D2
+Exit description~
+~
+0 0 7443
+D3
+Exit description~
+~
+0 0 7436
+S
+#7438
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7432
+S
+#7439
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7433
+D1
+Exit description~
+~
+0 0 7440
+D2
+Exit description~
+~
+0 0 7445
+S
+#7440
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7434
+D3
+Exit description~
+~
+0 0 7439
+S
+#7441
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7435
+D1
+Exit description~
+~
+0 0 7442
+S
+#7442
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7436
+D3
+Exit description~
+~
+0 0 7441
+S
+#7443
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7437
+D1
+Exit description~
+~
+0 0 7444
+D2
+Exit description~
+~
+0 0 7447
+S
+#7444
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D1
+Exit description~
+~
+0 0 7445
+D3
+Exit description~
+~
+0 0 7443
+S
+#7445
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7439
+D1
+Exit description~
+~
+0 0 7446
+D2
+Exit description~
+~
+0 0 7449
+D3
+Exit description~
+~
+0 0 7444
+S
+#7446
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D3
+Exit description~
+~
+0 0 7445
+S
+#7447
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7443
+D1
+Exit description~
+~
+0 0 7448
+S
+#7448
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D2
+Exit description~
+~
+0 0 7450
+D3
+Exit description~
+~
+0 0 7447
+S
+#7449
+The Burning Village~
+The smell of burning wood, rotting bodies, and fresh blood is everywhere.
+Most of the buildings have fallen into piles of burning ash and stone ruins.
+You make your way through the different skeletons of once great buildings,
+homes, and the bodies of the dead.  The black smoke make it hard to see, and
+travelling through the graveyard of wood and bone makes it difficult to tell
+where the path is.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7445
+S
+#7450
+The Rebel Barricade~
+This hastily built barricade is a collection of broken homes and freshly
+chopped trees.  It is held together with a thick glue like goo and whatever
+nails could be found.  There are few soldiers left on this side of the
+barricade, the rest of the village deserted and empty.  Only a few people are
+left, most of them trying to find their children or some dear lost possession.
+~
+0 134217728 1
+D0
+Exit description~
+~
+0 0 7448
+D2
+Exit description~
+~
+16777216 0 7451
+S
+#7451
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D0
+Exit description~
+~
+16777216 0 7450
+D2
+Exit description~
+~
+0 0 7452
+S
+#7452
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7451
+D1
+Exit description~
+~
+0 0 7453
+S
+#7453
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 7454
+D2
+Exit description~
+~
+0 0 7459
+D3
+Exit description~
+~
+0 0 7452
+S
+#7454
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 7455
+D3
+Exit description~
+~
+0 0 7453
+S
+#7455
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D2
+Exit description~
+~
+0 0 7456
+D3
+Exit description~
+~
+0 0 7454
+S
+#7456
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7455
+D2
+Exit description~
+~
+0 0 7457
+S
+#7457
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7456
+D2
+Exit description~
+~
+0 0 7500
+S
+#7458
+The Commander's Quarters~
+The room is barren save a few maps, a few pieces of old rusty armor, and a
+large bottle of fire-breather.  Most of the information and intelligence the
+rebels had must have been burned or taken out of the village by now.  A few
+messengers run in and drop their reports or talk to the tall woman standing in
+the back before running back through the barricade.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7459
+S
+#7459
+The Deserted Village~
+It seems most of the civilians have already fled or died in defense of this
+village. You see very little left anywhere. Empty houses and empty streets.
+It is an eerie calm as just a few steps away you know that the earth is
+stained red.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7453
+D2
+Exit description~
+~
+0 0 7458
+S
+#7500
+The Escape Route~
+The last of the villagers and civilians are streaming through this small
+tunnel. It must lead out into the forest or perhaps back around behind the
+Imperial forces.  There are no rebel soldiers anywhere to be found, they must
+all be trying to hold the barricade for just a few more moments.
+~
+0 1033 0
+D0
+Exit description~
+~
+0 0 7457
+S
+#0
+
+
+#RESETS
+M 0 7401 1 7404
+E 1 7401 1 7
+M 0 7402 1 7405
+E 1 7401 1 7
+M 0 7403 1 7407
+E 1 7401 1 7
+M 0 7412 1 7409
+E 1 7405 1 21
+E 1 7401 1 7
+M 0 7416 1 7410
+E 1 7406 1 21
+E 1 7402 1 14
+M 0 7404 1 7412
+E 1 7405 1 21
+M 0 7405 1 7414
+E 1 7401 1 7
+M 0 7413 1 7416
+E 1 7405 1 21
+M 0 7413 1 7418
+E 1 7406 1 21
+M 0 7417 1 7420
+E 1 7406 1 21
+E 1 7402 1 14
+M 0 7406 1 7422
+E 1 7401 1 7
+M 0 7415 1 7424
+E 1 7405 1 21
+M 0 7418 1 7426
+E 1 7406 1 21
+E 1 7402 1 14
+M 0 7419 1 7428
+E 1 7406 1 21
+E 1 7402 1 14
+M 0 7407 1 7430
+E 1 7401 1 7
+M 0 7420 1 7430
+E 1 7405 1 21
+E 1 7401 1 7
+M 0 7421 1 7432
+E 1 7406 1 21
+E 1 7402 1 14
+E 1 7401 1 7
+M 0 7429 1 7432
+E 1 7408 1 21
+E 1 7403 1 7
+M 0 7408 1 7433
+M 0 7409 1 7435
+M 0 7422 1 7437
+E 1 7408 1 21
+M 0 7423 1 7439
+E 1 7408 1 21
+M 0 7410 1 7441
+E 1 7403 1 7
+M 0 7425 1 7443
+E 1 7408 1 21
+M 0 7426 1 7445
+E 1 7408 1 21
+M 0 7424 1 7447
+E 1 7407 1 21
+M 0 7411 1 7449
+E 1 7408 1 21
+M 0 7428 1 7449
+E 1 7407 1 21
+M 0 7430 1 7453
+M 0 7431 1 7455
+M 0 7432 1 7457
+M 0 7433 1 7451
+M 0 7500 1 7458
+E 1 7500 1 14
+E 1 7408 1 21
+O 0 7404 1 7410
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7429 spec_cast_mage
+M  7500 spec_cast_cleric
+S
+
+
+#$

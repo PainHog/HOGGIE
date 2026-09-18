@@ -1,0 +1,1733 @@
+#AREA   Bullhorn Road~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A cool breeze blows down the dirt road...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 554555395
+
+#CLIMATE 3 3 2
+
+#MOBILES
+#10651
+minotaur mage~
+a minotaur mage~
+A robed minotaur travels along the road.
+~
+A young, robed minotaur travels down the road.  She nods politely as she
+passes you, but doesn't seem to have much interest in your doings.
+~
+16777281 0&8 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 0 0 0 4194304 4194304 0
+0 0 68159051 0 0 0 673 2
+#10652
+minotaur warrior~
+a minotaur warrior~
+A heavily armed minotaur snorts in your direction.
+~
+Heavily armed and armored, this huge minotaur warrior glares at you.  He has
+golden spikes fitted to the end of his horns, making him look even meaner than
+a regular minotaur.  He apparently doesn't think much of you, from the sound
+of his derisive snort.
+~
+16777281 4194304&72 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 4194304 4194304 0
+0 0 68159051 0 0 0 993 3
+#10653
+minotaur mage~
+a minotaur mage~
+A robed minotaur travels along the road.
+~
+A young, robed minotaur travels down the road.  She nods politely as she
+passes you, but doesn't seem to have much interest in your doings.
+~
+16777281 0&8 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 0 0 0 4194304 4194304 0
+0 0 68159051 0 0 0 673 2
+#10654
+wolf timber~
+a timber wolf~
+A timber wolf from the Spearfang Forest hunts for an easy meal.
+~
+Leaving the safety of the forest in hopes of finding an easy meal on the road,
+this large wolf keeps a wary distance from you.  It watches you closely,
+trying to figure out how much of a hassle it would be to attack.
+~
+65 4227072&256 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 6 0 0 512 512 0
+0 0 167773705 18 0 0 1 2
+#10655
+wolf timber~
+a timber wolf~
+A timber wolf from the Spearfang Forest hunts for an easy meal.
+~
+Leaving the safety of the forest in hopes of finding an easy meal on the road,
+this large wolf keeps a wary distance from you.  It watches you closely,
+trying to figure out how much of a hassle it would be to attack.
+~
+65 4227072&256 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 6 0 0 512 512 0
+0 0 167773705 18 0 0 1 2
+#10656
+wolf timber~
+a timber wolf~
+A timber wolf from the Spearfang Forest hunts for an easy meal.
+~
+Leaving the safety of the forest in hopes of finding an easy meal on the road,
+this large wolf keeps a wary distance from you.  It watches you closely,
+trying to figure out how much of a hassle it would be to attack.
+~
+65 4227072&256 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 6 0 0 512 512 0
+0 0 167773705 18 0 0 1 2
+#10657
+wolf timber~
+a timber wolf~
+A timber wolf from the Spearfang Forest hunts for an easy meal.
+~
+Leaving the safety of the forest in hopes of finding an easy meal on the road,
+this large wolf keeps a wary distance from you.  It watches you closely,
+trying to figure out how much of a hassle it would be to attack.
+~
+65 4227072&256 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 6 0 0 512 512 0
+0 0 167773705 18 0 0 1 2
+#10658
+wolfen shaman~
+a wolfen shaman~
+A mysterious wolfen studies some of the vegetation near the road.
+~
+Apparently gathering herbs and plants for potions, this wolfen wears robes
+covered in the mystical symbols favored by shaman.  He nods at you and smiles,
+then turns back to his studies.
+~
+16777281 4194432&264 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 11 0 0 8388608 8388608 0
+0 0 134284811 3 0 0 1 2
+#10659
+goblin miner~
+a goblin miner~
+A small goblin searches for precious ore amongst the rocks.
+~
+Searching in and around the mountains of his home, this goblin climbs about
+the rocks, looking for precious ore and gems.  He looks about nervously as you
+approach, not sure if he can get away if you attack.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 17 0 0 16384 16384 0
+0 0 1999 0 0 0 113 2
+#10660
+goblin miner~
+a goblin miner~
+A small goblin searches for precious ore amongst the rocks.
+~
+Searching in and around the mountains of his home, this goblin climbs about
+the rocks, looking for precious ore and gems.  He looks about nervously as you
+approach, not sure if he can get away if you attack.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 17 0 0 16384 16384 0
+0 0 1999 0 0 0 113 2
+#10661
+goblin miner~
+a goblin miner~
+A small goblin searches for precious ore amongst the rocks.
+~
+Searching in and around the mountains of his home, this goblin climbs about
+the rocks, looking for precious ore and gems.  He looks about nervously as you
+approach, not sure if he can get away if you attack.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 17 0 0 16384 16384 0
+0 0 1999 0 0 0 113 2
+#10662
+Dizza ghoul~
+Dizza~
+A tall, stately ghoul walks calmly down the road.
+~
+Dressed in bright white robes, this ghoul bears the standard of a Bishop.
+Studying her closer, you realize its Dizza, Bishop Queen of the Ghouls.  She
+must be journeying about this land trying to find converts and protect the
+innocent from the grasp of the Elder Gods.
+~
+164865 -1805639552&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 13 0 0 1048576 1048576 0
+0 0 1759 1056768 3 0 416 71
+#10663
+fisherman man~
+a fisherman~
+An old fisherman heads to the lake to try his luck.
+~
+Bent with age, this old man carries a small box and a long pole, used for
+fishing.  He is probably headed to the fishing dock out on Iceblue Lake,
+hoping to bring in a few fish for his dinner.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1679 0 0 0 0 0
+#10664
+fisherman man~
+a fisherman~
+An old fisherman heads to the lake to try his luck.
+~
+Bent with age, this old man carries a small box and a long pole, used for
+fishing.  He is probably headed to the fishing dock out on Iceblue Lake,
+hoping to bring in a few fish for his dinner.
+~
+16777281 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 1679 0 0 0 0 0
+#10750
+new mob~
+A newly created mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10651
+sign road wooden~
+a wooden road sign~
+A wooden sign is stuck in the sand on the side of the road.~
+~
+12 0 0
+0 0 2340 0
+1 0 0
+E
+wooden road sign~
+West - Bullhorn Bay, Isle Of The Minotaurs
+East - Bullhorn Road
+~
+#10652
+fishing pole~
+a fishing pole~
+A long pole, strung with a stout line for catching large fish.~
+~
+5 0 131073
+12 1 4 4
+1 15 0
+E
+fishing pole~
+A long piece of willow, this pole holds a curious contraption of wound-up
+string.  It obviously could be used to quickly land even the largest fish.
+~
+#10653
+tackle box~
+a tackle box~
+A small box, used for carrying fishing tackle, sits on the ground.~
+~
+15 0 1048577
+25 0 0 0
+2 15 0
+E
+tackle box~
+A small wooden box, with many small compartments, useful for storing the bits
+and pieces used by fisherman to coax a hungry fish into biting.
+~
+#10654
+golden lure~
+a golden lure~
+A shiny gold lure attracts fish by sparkling in the water.~
+~
+8 0 1
+0 0 0 0
+1 500 0
+E
+golden lure~
+For some reason, fish love to chase sparkling things.  When the sun hits this
+golden lure, it attracts fish from all over!
+~
+#10655
+goblin mining hammer~
+a goblin mining hammer~
+A small hammer, used to smash up rocks.~
+~
+5 0 131073
+12 3 2 8
+5 25 0
+E
+goblin mining hammer~
+A small hammer, more useful for breaking up rocks in search of gems than for
+breaking bones.
+~
+#10656
+dirty leather tunic~
+a dirty leather tunic~
+A dirty leather tunic blends in with the ground.~
+~
+9 0 65
+4 4 0 0
+1 0 0
+E
+dirty leather tunic~
+A small leather tunic, this has obviously been worn by someone or something
+working deep underground.  It is dirty and torn.
+~
+#10657
+horn wand minotaur~
+a minotaur horn wand~
+A slender wand carved from the horn of a minotaur.~
+~
+3 64 1048577
+45 5 5 -1
+1 100 0
+'harm'
+E
+minotaur horn wand~
+Minotaur priests found that the horns of their fallen brethren could hold a
+powerful magical charge.  This wand is covered in many different runes, most
+denoting some sort of pain.
+~
+#10658
+vicious battle axe~
+a vicious battle axe~
+A HUGE, vicious-looking battle axe lies here.~
+~
+5 180297&16 131073
+12 7 5 18
+1 0 0
+E
+vicious battle axe~
+Big beyond belief, only the most mighty of all warriors could even hope to
+wield such a weapon.  Its weight alone ensures any strike could easily chop
+through thick bone.
+~
+A
+19 3
+A
+1 3
+A
+18 5
+#10659
+bishops sigil~
+the Bishops Sigil~
+A small staff, bearing the symbol of Bishops.~
+~
+9 114752 1048577
+4 4 0 0
+1 150 0
+E
+bishops sigil~
+This staff is small in size, but from the runes decorating it, it must be
+large in power.  Bishops command quite a range of magic, and this staff can
+definitely help focus that power.
+~
+A
+79 3
+A
+13 25
+A
+12 25
+A
+4 3
+#10660
+stout pine staff~
+a stout pine staff~
+A long staff, carved from a thick pine branch.~
+~
+4 64 1048577
+40 2 2 -1
+3 200 0
+'invoke stag'
+E
+stout pine staff~
+Carved with shaman runes, this thick pine staff has many stylized stag antlers
+cut into the soft wood.
+~
+A
+5 2
+#10750
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#10651
+A Sturdy Dock~
+A sturdy dock juts out into the bay, with several small skiffs tied up
+alongside.  Through the mists to the west, a large, green island can be seen.
+North of the beach here is the southern edge of the Spearfang Forest, while
+south of you is a huge spread of thick jungle.  The graded dirt of a road
+heads off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 10652
+S
+#10652
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  The sounds of crashing waves can be heard to the west.
+Off to the north, the edge of the Spearfang Forest can be seen.  South of the
+road, the beginnings of a thick jungle rise into the sky.
+~
+0 0 2
+D1
+~
+~
+0 0 10653
+D3
+Exit description~
+~
+0 0 10651
+S
+#10653
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  The sounds of crashing waves can be heard to the west.
+Off to the north, the edge of the Spearfang Forest can be seen.  South of the
+road, the beginnings of a thick jungle rise into the sky.
+~
+0 0 2
+D2
+~
+~
+0 0 10654
+D3
+Exit description~
+~
+0 0 10652
+S
+#10654
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  The sounds of crashing waves can be heard to the west.
+Off to the north, the edge of the Spearfang Forest can be seen.  South of the
+road, the beginnings of a thick jungle rise into the sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10653
+D1
+~
+~
+0 0 10655
+S
+#10655
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D1
+~
+~
+0 0 10656
+D3
+Exit description~
+~
+0 0 10654
+S
+#10656
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D2
+~
+~
+0 0 10657
+D3
+Exit description~
+~
+0 0 10655
+S
+#10657
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10656
+D1
+~
+~
+0 0 10658
+S
+#10658
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D2
+~
+~
+0 0 10659
+D3
+Exit description~
+~
+0 0 10657
+S
+#10659
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10658
+D2
+~
+~
+0 0 10660
+S
+#10660
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10659
+D1
+~
+~
+0 0 10661
+S
+#10661
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D2
+~
+~
+0 0 10662
+D3
+Exit description~
+~
+0 0 10660
+S
+#10662
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10661
+D2
+~
+~
+0 0 10663
+S
+#10663
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10662
+D2
+~
+~
+0 0 10664
+S
+#10664
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the golden sands
+of a pristine beach.  Off to the north, the edge of the Spearfang Forest can
+be seen.  South of the road, the beginnings of a thick jungle rise into the
+sky.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10663
+D2
+~
+~
+0 0 10665
+S
+#10665
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10664
+D1
+~
+~
+0 0 10666
+S
+#10666
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10667
+D3
+Exit description~
+~
+0 0 10665
+S
+#10667
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D2
+~
+~
+0 0 10668
+D3
+Exit description~
+~
+0 0 10666
+S
+#10668
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10667
+D2
+~
+~
+0 0 10669
+S
+#10669
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10668
+D1
+~
+~
+0 0 10670
+S
+#10670
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10671
+D3
+Exit description~
+~
+0 0 10669
+S
+#10671
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  A small path heads off south into the jungle at this point.
+~
+0 0 2
+D1
+~
+~
+0 0 10672
+D2
+~
+~
+0 0 10751
+D3
+Exit description~
+~
+0 0 10670
+S
+#10672
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10673
+D3
+Exit description~
+~
+0 0 10671
+S
+#10673
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D2
+~
+~
+0 0 10674
+D3
+Exit description~
+~
+0 0 10672
+S
+#10674
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10673
+D1
+~
+~
+0 0 10675
+S
+#10675
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10676
+D3
+Exit description~
+~
+0 0 10674
+S
+#10676
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10677
+D3
+Exit description~
+~
+0 0 10675
+S
+#10677
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10678
+D3
+Exit description~
+~
+0 0 10676
+S
+#10678
+On Bullhorn Road~
+A small wooden bridge breaks up the dirt track of the Bullhorn Road, allowing
+passage over a sparkling river.  On the north side of the road stands the
+majestic pines that mark the edge of Spearfang Forest.  South of the road,
+twisting vines and tall grasses of the jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10679
+D3
+Exit description~
+~
+0 0 10677
+S
+#10679
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10680
+D3
+Exit description~
+~
+0 0 10678
+S
+#10680
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  A small path heads south here, towards the thick jungle.
+~
+0 0 2
+D0
+~
+~
+0 0 10681
+D3
+Exit description~
+~
+0 0 10679
+S
+#10681
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10682
+D2
+Exit description~
+~
+0 0 10680
+S
+#10682
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10683
+D3
+Exit description~
+~
+0 0 10681
+S
+#10683
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10684
+D3
+Exit description~
+~
+0 0 10682
+S
+#10684
+On Bullhorn Road~
+A small wooden bridge breaks up the dirt track of the Bullhorn Road, allowing
+passage over a sparkling river.  On the north side of the road stands the
+majestic pines that mark the edge of Spearfang Forest.  South of the road,
+twisting vines and tall grasses of the jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10685
+D3
+Exit description~
+~
+0 0 10683
+S
+#10685
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  South of the road, twisting vines and tall grasses of the
+jungle threaten to creep into the path.
+~
+0 0 2
+D1
+~
+~
+0 0 10686
+D3
+Exit description~
+~
+0 0 10684
+S
+#10686
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  South of
+the road, twisting vines and tall grasses of the jungle threaten to creep into
+the path.  A narrow road into the Spearfang Forest heads off to the north.
+~
+0 0 2
+D0
+~
+~
+0 0 10641
+D1
+~
+~
+0 0 10687
+D3
+Exit description~
+~
+0 0 10685
+S
+#10687
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D1
+~
+~
+0 0 10688
+D3
+Exit description~
+~
+0 0 10686
+S
+#10688
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D1
+~
+~
+0 0 10689
+D3
+Exit description~
+~
+0 0 10687
+S
+#10689
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D2
+~
+~
+0 0 10690
+D3
+Exit description~
+~
+0 0 10688
+S
+#10690
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10689
+D1
+~
+~
+0 0 10691
+D3
+Exit description~
+~
+0 0 2701
+S
+#10691
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D1
+~
+~
+0 0 10692
+D3
+Exit description~
+~
+0 0 10690
+S
+#10692
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D2
+~
+~
+0 0 10693
+D3
+Exit description~
+~
+0 0 10691
+S
+#10693
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  A small path leads south from here, apparently headed to a
+small fishing dock on the lake.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10692
+D1
+~
+~
+0 0 10694
+S
+#10694
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D1
+~
+~
+0 0 10695
+D3
+Exit description~
+~
+0 0 10693
+S
+#10695
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D2
+~
+~
+0 0 10696
+D3
+Exit description~
+~
+0 0 10694
+S
+#10696
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10695
+D1
+~
+~
+0 0 10697
+S
+#10697
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D1
+~
+~
+0 0 10698
+D3
+Exit description~
+~
+0 0 10696
+S
+#10698
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D2
+~
+~
+0 0 10699
+D3
+Exit description~
+~
+0 0 10697
+S
+#10699
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Occasionally, through the stands of trees on the south edge
+of the road, you catch sight of a large lake.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10698
+D1
+~
+~
+0 0 10700
+S
+#10700
+On Bullhorn Road~
+A small wooden bridge breaks up the dirt track of the Bullhorn Road, allowing
+passage over a sparkling river.  On the north side of the road stands the
+majestic pines that mark the edge of Spearfang Forest.  From the high point
+of the bridge, you can see that the river feeds into the lake south of here.
+Rocky mountains to the east can be seen through the heavy growth on either
+side of the road.
+
+~
+0 0 2
+D1
+~
+~
+0 0 10701
+D3
+Exit description~
+~
+0 0 10699
+S
+#10701
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the darkness
+caused by large growths of vegetation blocking the light of the sun.  On the
+north side of the road stands the majestic pines that mark the edge of
+Spearfang Forest.  Rocky mountains reach high into the sky to the east.
+~
+0 0 2
+D2
+~
+~
+0 0 10702
+D3
+Exit description~
+~
+0 0 10700
+S
+#10702
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through the foothills of
+the rocky mountains rising up to the east.  You can see the tops of the pines
+of Spearfang Forest off to the northwest.  From the peaks of the foothills,
+you catch a glimpse of a large, sparkling lake to the southwest, and a large
+expanse of green jungle beyond it.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10701
+D1
+~
+~
+0 0 10703
+S
+#10703
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D1
+~
+~
+0 0 10704
+D3
+Exit description~
+~
+0 0 10702
+S
+#10704
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D2
+~
+~
+0 0 10705
+D3
+Exit description~
+~
+0 0 10703
+S
+#10705
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10704
+D1
+~
+~
+0 0 10706
+S
+#10706
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D1
+~
+~
+0 0 10707
+D3
+~
+~
+0 0 10705
+S
+#10707
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D2
+~
+~
+0 0 10708
+D3
+Exit description~
+~
+0 0 10706
+S
+#10708
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10707
+D2
+~
+~
+0 0 10709
+S
+#10709
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10708
+D1
+~
+~
+0 0 10710
+S
+#10710
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D1
+~
+~
+0 0 10711
+D3
+Exit description~
+~
+0 0 10709
+S
+#10711
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D2
+~
+~
+0 0 10712
+D3
+~
+~
+0 0 10710
+S
+#10712
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10711
+D2
+~
+~
+0 0 10713
+S
+#10713
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10712
+D1
+~
+~
+0 0 10714
+S
+#10714
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D2
+~
+~
+0 0 10715
+D3
+~
+~
+0 0 10713
+S
+#10715
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+~
+~
+0 0 10714
+D2
+~
+~
+0 0 10716
+S
+#10716
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10715
+D1
+~
+~
+0 0 10717
+S
+#10717
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road climbs higher into the mountains
+as it heads east.
+~
+0 0 2
+D2
+~
+~
+0 0 10718
+D3
+~
+~
+0 0 10716
+S
+#10718
+On Bullhorn Road~
+The wide dirt track of Bullhorn Road twists and turns through rocky mountains.
+On either side of the road, the towering rock cliffs rise up, blocking any
+chance of leaving the road easily.  The road seems to head into a large cave
+in the mountain to the east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 10717
+D1
+~
+~
+0 0 10719
+S
+#10719
+A Large Cave~
+Squeaks of bats can be heard echoing about the high ceiling of this large
+cave.  Even louder, strange sounds, perhaps mining work, can be heard coming
+from deeper into the large cavern.  Many small footprints can be found in the
+dirt...looks like goblin tracks.
+~
+0 0 13
+D1
+~
+~
+0 0 14401
+D3
+Exit description~
+~
+0 0 10718
+S
+#10750
+Room name~
+You stumble into a newly created room.
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 10664 2 10695
+E 0 10652 1 21
+M 0 10664 2 10695
+E 0 10653 1 24
+P 0 10654 1 10653
+E 0 10652 1 21
+M 0 10663 2 10697
+E 0 10652 1 21
+M 0 10663 2 10697
+E 0 10653 1 24
+E 0 10652 1 21
+M 0 10662 1 10679
+E 0 10659 1 24
+M 0 10661 2 10719
+E 0 10655 1 21
+E 0 10656 1 7
+M 0 10661 2 10719
+E 0 10655 1 21
+E 0 10656 1 7
+M 0 10660 2 10715
+E 0 10656 1 7
+E 0 10655 1 21
+M 0 10660 2 10715
+M 0 10659 2 10718
+E 0 10656 1 7
+M 0 10659 2 10718
+E 0 10655 1 21
+M 0 10658 1 10699
+E 0 10660 1 24
+M 0 10657 2 10675
+M 0 10657 2 10675
+M 0 10656 2 10673
+M 0 10656 2 10673
+M 0 10655 2 10671
+M 0 10655 2 10671
+M 0 10654 2 10668
+M 0 10654 2 10668
+M 0 10653 1 10665
+E 0 10657 1 24
+M 0 10652 1 10655
+E 0 10658 1 21
+M 0 10651 2 10651
+M 0 10651 2 10651
+O 0 10651 1 10651
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  10651 spec_cast_mage
+M  10653 spec_cast_mage
+M  10654 spec_fido
+M  10658 spec_cast_shaman
+M  10662 spec_cast_bishop
+S
+
+
+#$

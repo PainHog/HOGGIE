@@ -1,0 +1,1056 @@
+#AREA Vampire Birthing Grounds~
+
+#AUTHOR Belerik~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG An eerie cry pierces the air.~
+
+#FLAGS
+0 10
+
+#ECONOMY 1000 35
+
+#MOBILES
+#9900
+swarm giant gnats~
+a swarm of giant gnats~
+A large group of insects annoy all comers.
+~
+Where's the damn bug zapper when you need it?
+~
+131169 524328 0 C
+9 0 0 104d2+75 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 6 0 0 0 0 10
+60 10 0 96 0 4 0 0
+#9901
+small baby bat~
+a baby bat~
+A small bat shrieks and flies around.
+~
+Need some earplugs? These boogers are annoying!
+~
+131137 524288 0 C
+16 0 0 375d2+25 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 6 0 0 0 0 1
+45 55 0 0 0 0 1 2
+#9902
+baby young basilisk~
+a baby basilisk~
+A young, stout looking creature is here.
+~
+This sucka means business.
+~
+393281 168 0 C
+21 0 0 492d2+45 4d4+6
+0 0
+12 12 3
+20 13 13 13 15 13 13
+0 0 0 0 0
+89 0 0 0 0 0 1
+50 65 0 8304 0 1048576 1048576 8192
+#9903
+vampire young child~
+a young vampire~
+A young vampire wanders around aimlessly.
+~
+One of the newly birthed vampires.
+~
+131137 33587368 0 C
+25 0 0 552d2+150 5d5+5
+0 0
+12 12 3
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 65536 65536 0
+65 65 0 1048656 0 40 6145 256
+#0
+
+#ROOMS
+#1
+Entrance to an unkept cemetery~
+Beyond the archway in which you are now under rests an old, overgrown
+cemetary. Only a small path is visible inside the cemetery, as the rest
+are covered with tall grass and the pieces of fallen apart headstones.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 2 0
+S
+#2
+Inside the Cemetery Gate~
+Not even five steps into the holy burial grounds of old, the dead oak trees
+begin to talk amongst themselves. The creeking and groaning might make one
+truly believe that these old oak trees are alive. Suddenly the grass moves
+around your feet.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 1 0
+D3
+~
+~
+0 0 3 0
+S
+#3
+A small path~
+The path in which you travel lies straight. Just a few pieces of granite,
+from fallen apart headstones, rest upon the ground where grass use to be
+plush. The trees begin to moan louder with each step, almost as if they
+are warning the inhabitants of the cemetery...or you.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 2 0
+D3
+~
+~
+0 0 4 0
+S
+#4
+A small path~
+The path in which you travel lies straight. Just a few pieces of granite,
+from fallen apart headstones, rest upon the ground where grass use to be
+plush. The trees begin to moan louder with each step, almost as if they
+are warning the inhabitants of the cemetery...or you.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 3 0
+D3
+~
+~
+0 0 5 0
+S
+#5
+A small path~
+The path in which you travel lies straight. Just a few pieces of granite,
+from fallen apart headstones, rest upon the ground where grass use to be
+plush. The trees begin to moan louder with each step, almost as if they
+are warning the inhabitants of the cemetery...or you.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 4 0
+D3
+~
+~
+0 0 6 0
+S
+#6
+A small path~
+The path in which you travel lies straight. Just a few pieces of granite,
+from fallen apart headstones, rest upon the ground where grass use to be
+plush. The trees begin to moan louder with each step, almost as if they
+are warning the inhabitants of the cemetery...or you.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 5 0
+D3
+~
+~
+0 0 7 0
+S
+#7
+Before a Large Mausoleum~
+Standing before you, inside this small cemetary, is a rather large, and
+luxurious mausoleum. This tomb has withstood the test of time and seems
+as if it has been taken care of. By who or what remains unknown. However,
+some inscriptions have been made on the wall.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 6 0
+D3
+~
+stone~
+1 0 8 0
+E
+inscriptions writings words markings~
+(In Drow)Here lies the original resting place of Vukral, Lord of Darkness, and
+father of all vampires. If you are looking to unearth him, then you are in the
+wrong place. He has since rosen from his slumber, and watches the realm from
+an unknown location.~
+S
+#8
+Inside the Mausoleum~
+Silence envelopes you while the darkness comsumes you. The inside of this
+resting place is much larger than its outside appearance lets one assume.
+Some shrieking can be heard, coming from somewhere inside the grave.
+~
+0 0 0 0 0 0
+D1
+~
+stone~
+3 0 7 0
+D3
+~
+~
+0 0 9 0
+S
+#9
+The Resting Place~
+A clean, unweathered cherry wood coffin rests upon a large stone platform
+in the middle of this giant tomb. The lid is pushed off to the side, yet
+no dirt or dust rests upon the red velvet material within it. Once again,
+some Drow markings appear upon the lid. A breeze can be felt coming from
+where the platform meets the floor.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 8 0
+D5
+~
+platform~
+8388609 0 10 0
+E
+markings drow inscriptions~
+Slumber in peace, awake unaged. The world shall change, and life will
+continue. Return to see your children, but not the day.~
+S
+#10
+A spiraling staircase~
+Lanterns incased in red glass are hung on the walls beside the staircase.
+The shrieking is coming from beneath you. And with the lanterns around you,
+lighting is not a concern, as nothing can be seen that will attack you.
+~
+0 0 13 0 0 0
+D4
+~
+platform~
+3 0 9 0
+D5
+~
+~
+0 0 11 0
+S
+#11
+A spiraling staircase~
+Lanterns incased in red glass are hung on the walls beside the staircase.
+The shrieking is coming from beneath you. And with the lanterns around you,
+lighting is not a concern, as nothing can be seen that will attack you.
+~
+0 0 13 0 0 0
+D4
+~
+~
+0 0 10 0
+D5
+~
+~
+0 0 12 0
+S
+#12
+Bottom of the Staircase~
+Lanterns incased in red glass are hung on the walls beside the staircase.
+The shrieking is coming from beneath you. And with the lanterns around you,
+lighting is not a concern, as nothing can be seen that will attack you.
+~
+0 0 13 0 0 0
+D4
+~
+~
+0 0 11 0
+D1
+~
+~
+0 0 13 0
+S
+#13
+In a large cavern~
+You are now inside one of the largest cavern systems within the realm.
+Bats can be heard shrieking about as they chase the moths in which they
+feed upon. A slight howl can also be heard.
+~
+0 0 13 0 0 0
+D3
+~
+~
+0 0 12 0
+D1
+~
+~
+0 0 14 0
+S
+#14
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 13 0 0 0
+D3
+~
+~
+0 0 13 0
+D1
+~
+~
+0 0 15 0
+D0
+~
+~
+0 0 19 0
+S
+#15
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 14 0
+D1
+~
+~
+0 0 16 0
+D0
+~
+~
+0 -1 18 0
+S
+#16
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 15 0
+D0
+~
+~
+0 0 17 0
+S
+#17
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 16 0
+D3
+~
+~
+0 0 18 0
+S
+#18
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 17 0
+D3
+~
+~
+0 -1 19 0
+D2
+~
+~
+0 -1 15 0
+D5
+~
+hidden door~
+3 -1 42 0
+S
+#19
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 18 0
+D0
+~
+~
+0 0 20 0
+D2
+~
+~
+0 0 14 0
+S
+#20
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 19 0
+D0
+~
+~
+0 0 21 0
+D1
+~
+~
+0 0 22 0
+S
+#21
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 20 0
+D1
+~
+~
+0 -1 23 0
+S
+#22
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 20 0
+D0
+~
+~
+0 0 23 0
+D1
+~
+~
+0 0 24 0
+S
+#23
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 22 0
+D1
+~
+~
+0 0 25 0
+D3
+~
+~
+0 -1 21 0
+S
+#24
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 22 0
+D0
+~
+~
+0 0 25 0
+S
+#25
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 23 0
+D2
+~
+~
+0 0 24 0
+D0
+~
+~
+0 -1 26 0
+D1
+~
+~
+0 -1 29 0
+S
+#26
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 25 0
+D1
+~
+~
+0 -1 27 0
+S
+#27
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 26 0
+D1
+~
+~
+0 -1 28 0
+D2
+~
+~
+0 -1 29 0
+S
+#28
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 27 0
+D0
+~
+~
+0 -1 30 0
+S
+#29
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 27 0
+D3
+~
+~
+0 -1 25 0
+S
+#30
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 28 0
+D5
+~
+~
+0 -1 31 0
+S
+#31
+Inside the Cavern~
+A small puddle on the cavern floor reflects the red light coming from the
+numerous lanterns placed throughout this vast place. Fluttering wings
+can be heard around you, and off in the distance. What sounds like an egg
+cracking open is among the many noises glancing off of the rock cave walls.
+~
+0 0 0 0 0 0
+D4
+~
+~
+0 -1 30 0
+D2
+~
+~
+0 0 32 0
+S
+#32
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 31 0
+D2
+~
+~
+0 0 33 0
+S
+#33
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 32 0
+D2
+~
+~
+0 -1 34 0
+S
+#34
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 33 0
+D2
+~
+~
+0 -1 35 0
+S
+#35
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 34 0
+D3
+~
+~
+0 -1 36 0
+D2
+~
+~
+0 -1 50 0
+S
+#36
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 35 0
+D2
+~
+~
+0 -1 37 0
+D0
+~
+~
+0 -1 38 0
+S
+#37
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 36 0
+D1
+~
+~
+0 -1 50 0
+D2
+~
+~
+0 -1 46 0
+S
+#38
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 36 0
+D5
+~
+~
+0 -1 39 0
+S
+#39
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D4
+~
+~
+0 -1 38 0
+D3
+~
+~
+0 -1 40 0
+S
+#40
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 39 0
+D3
+~
+~
+0 -1 41 0
+S
+#41
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 40 0
+D0
+~
+~
+0 -1 42 0
+D2
+~
+~
+0 -1 43 0
+S
+#42
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 41 0
+D4
+~
+hidden door~
+3 -1 18 0
+S
+#43
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 41 0
+D2
+~
+~
+0 -1 44 0
+S
+#44
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 43 0
+D1
+~
+~
+0 -1 45 0
+S
+#45
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 44 0
+D1
+~
+~
+0 -1 46 0
+S
+#46
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 45 0
+D1
+~
+~
+0 -1 47 0
+D0
+~
+~
+0 -1 37 0
+S
+#47
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 46 0
+D1
+~
+~
+0 -1 48 0
+S
+#48
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 47 0
+D0
+~
+~
+0 -1 49 0
+S
+#49
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 48 0
+D3
+~
+~
+0 -1 50 0
+S
+#50
+Deep within the Cavern~
+The shells of cuccoons lie upon the ground, covering it completely. With
+each step comes a soft crunch. Red lanterns still continue to light your
+surroundings. The shrieks of the baby vampires are nearly deafening, but
+most adventurers are able to keep a sound mind and continue their journey.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 37 0
+D1
+~
+~
+0 -1 49 0
+D0
+~
+~
+0 -1 35 0
+S
+#0
+
+#RESETS
+M 0 9900 1 3  ; Mob: #9900 a swarm of giant gnats => #3 A small path
+M 0 9900 1 6  ; Mob: #9900 a swarm of giant gnats => #6 A small path
+M 0 9900 1 5  ; Mob: #9900 a swarm of giant gnats => #5 A small path
+M 0 9900 1 7  ; Mob: #9900 a swarm of giant gnats => #7 Before a Large Mausoleum
+M 0 9900 1 8  ; Mob: #9900 a swarm of giant gnats => #8 Inside the Mausoleum
+M 0 9900 1 8  ; Mob: #9900 a swarm of giant gnats => #8 Inside the Mausoleum
+M 0 9900 1 8  ; Mob: #9900 a swarm of giant gnats => #8 Inside the Mausoleum
+M 0 9900 1 4  ; Mob: #9900 a swarm of giant gnats => #4 A small path
+M 0 9900 1 1  ; Mob: #9900 a swarm of giant gnats => #1 Entrance to an unkept cemetery
+M 0 9900 1 10  ; Mob: #9900 a swarm of giant gnats => #10 A spiraling staircase
+M 0 9900 1 11  ; Mob: #9900 a swarm of giant gnats => #11 A spiraling staircase
+M 0 9900 1 13  ; Mob: #9900 a swarm of giant gnats => #13 In a large cavern
+M 0 9900 1 14  ; Mob: #9900 a swarm of giant gnats => #14 Inside the Cavern
+M 0 9900 1 15  ; Mob: #9900 a swarm of giant gnats => #15 Inside the Cavern
+M 0 9900 1 16  ; Mob: #9900 a swarm of giant gnats => #16 Inside the Cavern
+M 0 9901 1 18  ; Mob: #9901 a baby bat => #18 Inside the Cavern
+M 0 9901 1 21  ; Mob: #9901 a baby bat => #21 Inside the Cavern
+M 0 9901 1 29  ; Mob: #9901 a baby bat => #29 Inside the Cavern
+M 0 9901 1 21  ; Mob: #9901 a baby bat => #21 Inside the Cavern
+M 0 9901 1 24  ; Mob: #9901 a baby bat => #24 Inside the Cavern
+M 0 9901 1 17  ; Mob: #9901 a baby bat => #17 Inside the Cavern
+M 0 9901 1 28  ; Mob: #9901 a baby bat => #28 Inside the Cavern
+M 0 9901 1 20  ; Mob: #9901 a baby bat => #20 Inside the Cavern
+M 0 9901 1 31  ; Mob: #9901 a baby bat => #31 Inside the Cavern
+M 0 9901 1 27  ; Mob: #9901 a baby bat => #27 Inside the Cavern
+M 0 9902 1 37  ; Mob: #9902 a baby basilisk => #37 Deep within the Cavern
+M 0 9902 1 41  ; Mob: #9902 a baby basilisk => #41 Deep within the Cavern
+M 0 9902 1 46  ; Mob: #9902 a baby basilisk => #46 Deep within the Cavern
+M 0 9902 1 39  ; Mob: #9902 a baby basilisk => #39 Deep within the Cavern
+M 0 9902 1 37  ; Mob: #9902 a baby basilisk => #37 Deep within the Cavern
+M 0 9902 1 34  ; Mob: #9902 a baby basilisk => #34 Deep within the Cavern
+M 0 9902 1 46  ; Mob: #9902 a baby basilisk => #46 Deep within the Cavern
+M 0 9902 1 48  ; Mob: #9902 a baby basilisk => #48 Deep within the Cavern
+M 0 9902 1 40  ; Mob: #9902 a baby basilisk => #40 Deep within the Cavern
+M 0 9902 1 43  ; Mob: #9902 a baby basilisk => #43 Deep within the Cavern
+M 0 9903 1 44  ; Mob: #9903 a young vampire => #44 Deep within the Cavern
+M 0 9903 1 42  ; Mob: #9903 a young vampire => #42 Deep within the Cavern
+M 0 9903 1 47  ; Mob: #9903 a young vampire => #47 Deep within the Cavern
+M 0 9903 1 48  ; Mob: #9903 a young vampire => #48 Deep within the Cavern
+M 0 9903 1 50  ; Mob: #9903 a young vampire => #50 Deep within the Cavern
+M 0 9903 1 49  ; Mob: #9903 a young vampire => #49 Deep within the Cavern
+M 0 9903 1 47  ; Mob: #9903 a young vampire => #47 Deep within the Cavern
+M 0 9903 1 43  ; Mob: #9903 a young vampire => #43 Deep within the Cavern
+M 0 9903 1 41  ; Mob: #9903 a young vampire => #41 Deep within the Cavern
+M 0 9903 1 37  ; Mob: #9903 a young vampire => #37 Deep within the Cavern
+M 0 9903 1 44  ; Mob: #9903 a young vampire => #44 Deep within the Cavern
+M 0 9903 1 36  ; Mob: #9903 a young vampire => #36 Deep within the Cavern
+M 0 9903 1 34  ; Mob: #9903 a young vampire => #34 Deep within the Cavern
+S
+
+#SPECIALS
+M 9903 spec_cast_undead   ; a young vampire
+S
+
+#$

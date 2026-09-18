@@ -1,0 +1,2031 @@
+#AREA   Kobold Caverns~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG A cool breeze floats through the caverns...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 968301363
+
+#CLIMATE 1 2 2
+
+#MOBILES
+#1201
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1202
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1203
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1204
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1205
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1206
+kobold miner~
+a kobold miner~
+This kobold works the mineshaft for treasure.
+~
+This old kobold works in the dirt of the mineshaft, hoping to find some more
+treasure in the walls.  He looks at you as you approach, but ignores you and
+turns back to his work.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 31 0 0 0 2 0
+#1207
+bat large~
+a large bat~
+A large bat flits about in the darkness.
+~
+This large bat flits away as you approach with the light.  It looks pretty
+harmless to you, despite the large wingspan of its black wings.
+~
+16777281 40 0 C
+3 0 45 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#1208
+bat large~
+a large bat~
+A large bat flits about in the darkness.
+~
+This large bat flits away as you approach with the light.  It looks pretty
+harmless to you, despite the large wingspan of its black wings.
+~
+16777281 40 0 C
+3 0 45 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#1209
+bat large~
+a large bat~
+A large bat flits about in the darkness.
+~
+This large bat flits away as you approach with the light.  It looks pretty
+harmless to you, despite the large wingspan of its black wings.
+~
+16777281 40 0 C
+3 0 45 2d5+45 1d5+3
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 32769 0 0 0 1 0
+#1210
+spider hairy~
+a large hairy spider~
+A large hairy spider spins its webs about the mineshaft.
+~
+A large and hairy spider is slowing creeping about the walls, spinning a web
+in hopes of catching some food.  It seems to ignore you for now.
+~
+16777281 0 0 C
+7 0 20 3d6+110 2d5+2
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 6 0 0 1 1 0
+0 0 5 0 0 0 131073 0
+#1211
+spider hairy~
+a large hairy spider~
+A large hairy spider spins its webs about the mineshaft.
+~
+A large and hairy spider is slowing creeping about the walls, spinning a web
+in hopes of catching some food.  It seems to ignore you for now.
+~
+16777281 0 0 C
+7 0 20 3d6+110 2d5+2
+50 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 6 0 0 1 1 0
+0 0 5 0 0 0 131073 0
+#1212
+kobold child young~
+a kobold child~
+A young kobold whimpers when it see's you.
+~
+This young kobold was having a good time, but when it spies you, he begins to
+whimper.  He has been raised on tales of evil adventurers that come to slay
+kobold for no good reason, and he thinks you could be one of them.
+~
+16777281 0 -1000 C
+3 0 40 2d5+45 1d5+3
+10 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#1213
+kobold child young~
+a kobold child~
+A young kobold whimpers when it see's you.
+~
+This young kobold was having a good time, but when it spies you, he begins to
+whimper.  He has been raised on tales of evil adventurers that come to slay
+kobold for no good reason, and he thinks you could be one of them.
+~
+16777281 0 -1000 C
+3 0 40 2d5+45 1d5+3
+10 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#1214
+kobold child young~
+a kobold child~
+A young kobold whimpers when it see's you.
+~
+This young kobold was having a good time, but when it spies you, she begins to
+whimper.  She has been raised on tales of evil adventurers that come to slay
+kobold for no good reason, and she thinks you could be one of them.
+~
+16777281 0 -1000 C
+3 0 40 2d5+45 1d5+3
+10 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#1215
+kobold child young~
+a kobold child~
+A young kobold whimpers when it see's you.
+~
+This young kobold was having a good time, but when it spies you, she begins to
+whimper.  She has been raised on tales of evil adventurers that come to slay
+kobold for no good reason, and she thinks you could be one of them.
+~
+16777281 0 -1000 C
+3 0 40 2d5+45 1d5+3
+10 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#1216
+kobold male~
+a male kobold~
+A young male kobold marches about his homecaves.
+~
+A strutting male kobold barks at you as he wanders past.  He wonders what
+brings you to the homecaves, and won't stand for any problems here.
+~
+65 0 -1000 C
+5 0 30 2d5+75 1d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 32 0
+#1217
+kobold male~
+a male kobold~
+A young male kobold marches about his homecaves.
+~
+A strutting male kobold barks at you as he wanders past.  He wonders what
+brings you to the homecaves, and won't stand for any problems here.
+~
+65 0 -1000 C
+5 0 30 2d5+75 1d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 32 0
+#1218
+kobold female~
+a female kobold~
+A young female kobold bows her head as you approach.
+~
+This young kobold has been taught to be subservient to any and all.  Female
+kobold are usually treated pretty bad by their male counterparts, and this one
+does look a bit beat up.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+35 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 32 0
+#1219
+kobold female~
+a female kobold~
+A young female kobold bows her head as you approach.
+~
+This young kobold has been taught to be subservient to any and all.  Female
+kobold are usually treated pretty bad by their male counterparts, and this one
+does look a bit beat up.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+35 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 32 0
+#1220
+kobold female~
+a female kobold~
+A young female kobold bows her head as you approach.
+~
+This young kobold has been taught to be subservient to any and all.  Female
+kobold are usually treated pretty bad by their male counterparts, and this one
+does look a bit beat up.
+~
+16777281 0 -1000 C
+5 0 30 2d5+75 1d5+5
+35 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 18 0 0 1 1 0
+0 0 15 0 0 0 32 0
+#1221
+kobold guard armor~
+a kobold guard~
+A kobold in armor stands at attention before you.
+~
+This kobold must be some sort of guard, for he is armed and armored better
+than any of the others.  He watches you suspiciously, but doesn't leave his
+post.
+~
+32835 0 -1000 C
+8 0 15 3d6+125 2d5+3
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 21 0 0 1 1 0
+0 0 15 0 0 0 33 0
+#1222
+kobold guard armor~
+a kobold guard~
+A kobold in armor stands at attention before you.
+~
+This kobold must be some sort of guard, for he is armed and armored better
+than any of the others.  He watches you suspiciously, but doesn't leave his
+post.
+~
+32833 0 -1000 C
+8 0 15 3d6+125 2d5+3
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 21 0 0 1 1 0
+0 0 15 0 0 0 33 0
+#1223
+kobold guard armor~
+a kobold guard~
+A kobold in armor stands at attention before you.
+~
+This kobold must be some sort of guard, for he is armed and armored better
+than any of the others.  He watches you suspiciously, but doesn't leave his
+post.
+~
+32833 0 -1000 C
+8 0 15 3d6+125 2d5+3
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 21 0 0 1 1 0
+0 0 15 0 0 0 33 0
+#1224
+kobold chief~
+the kobold chief~
+The chief stands when you approach, and watches you closely.
+~
+This kobold stands almost twice as high as some of the others.  He bears a
+mighty looking spear, and has on a fairly clean leather robe.  He growls under
+his breath as he watches you.
+~
+16777283 4194304 -1000 C
+12 0 -5 3d6+200 3d5+2
+150 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 16 0 0 1 1 0
+0 0 11 0 0 0 35 524290
+#1300
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+20971587 4194304 -1000 C
+12 0 -5 3d6+200 3d5+2
+150 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+44 3 0 0 1 1 0
+0 0 11 0 0 0 35 524290
+#0
+
+
+#OBJECTS
+#1201
+lantern bullseye~
+a bullseye lantern~
+A small bullseye lantern glows brightly here.~
+~
+1 1 1
+0 0 -1 0
+1 100 0
+#1202
+pick mining~
+a mining pick~
+A rusted old mining pick lies in the dust.~
+~
+5 0 131073
+12 1 5 25
+3 50 0
+#1203
+ruby red~
+a red ruby~
+A gleam of red catches your eye!~
+~
+8 1 1048577
+0 0 0 0
+1 500 0
+#1204
+water pot~
+a water pot~
+A small ceramic pot with lid, designed to carry water.~
+~
+17 0 1048577
+20 20 0 0
+2 0 0
+#1205
+leather tunic~
+a torn leather tunic~
+A ratty looking leather tunic lies in a heap.~
+~
+9 0 65
+3 3 0 0
+4 0 0
+#1206
+sword short rusty~
+a rusty short sword~
+A rust covered short sword sits here.~
+~
+5 0 131073
+8 1 6 2
+1 0 0
+#1207
+leather robe~
+a sturdy leather robe~
+A fine looking robe, crafted from leather.~
+~
+9 64 2049
+5 5 0 0
+4 0 0
+A
+1 1
+A
+24 -1
+#1208
+feathers crown string~
+a string of feathers~
+A long string of colorful feathers floats here.~
+~
+9 64 9
+3 3 0 0
+1 0 0
+A
+13 5
+A
+3 1
+#1209
+ring bone etched~
+an etched bone ring~
+A small, scratched bone ring.~
+~
+9 64 1025
+2 2 0 0
+1 0 0
+A
+5 1
+#1210
+necklace brass chain~
+a brass chain necklace~
+A small necklace crafted of tarnished brass.~
+~
+8 64 33
+0 0 0 0
+1 0 0
+A
+18 1
+#1211
+long spear kobold~
+a kobold longspear~
+This mighty spear has the marks of the kobold chief upon it.~
+~
+5 66&16 131073
+12 4 7 24
+3 0 0
+A
+48 5
+A
+18 1
+A
+19 1
+#1300
+Placeholder~
+Placeholder~
+Placeholder~
+~
+5 66 8193
+12 1 7 3
+3 0 0
+#0
+
+
+#ROOMS
+#1201
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  A short climb to the south lies the main pass.
+~
+0 0 5
+D0
+~
+~
+0 0 1202
+D2
+~
+~
+0 0 113
+S
+#1202
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  The boulders give you good handholds on your way up.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 1201
+D4
+~
+~
+0 0 1203
+S
+#1203
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  The boulders give you good handholds on your way up.
+~
+0 0 5
+D4
+~
+~
+0 0 1204
+D5
+Exit description~
+~
+0 0 1202
+S
+#1204
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  The boulders give you good handholds on your way up.
+~
+0 0 5
+D4
+~
+~
+0 0 1205
+D5
+Exit description~
+~
+0 0 1203
+S
+#1205
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  A small plateau justs out here, and you can stop and take a
+breath.  Above you, you can see the cave opening you spied from below.  Down
+and a bit south of you, you can see light traffic on the pass.
+~
+0 0 5
+D0
+~
+~
+0 0 1206
+D5
+Exit description~
+~
+0 0 1204
+S
+#1206
+A Steep Mountain Trail~
+A small trail seems to lead up into the rocks to the north of the pass.  The
+going looks very tough, but you can spy a small cave opening quite a ways up
+the mountain.  The boulders give you good handholds on your way up.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 1205
+D4
+~
+~
+0 0 1207
+S
+#1207
+A Small Dark Opening~
+You stand in front of a small opening in the mountain to the north.  It is
+quite dark inside, and you can't quite make out anything inside.  The wind is
+colder up here, and whips about you, making a whistling sound come from the
+cave entrance.
+~
+0 0 5
+D0
+~
+~
+0 0 1208
+D5
+Exit description~
+~
+0 0 1206
+S
+#1208
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1209
+D2
+Exit description~
+~
+0 0 1207
+S
+#1209
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1210
+D2
+Exit description~
+~
+0 0 1208
+D3
+~
+~
+0 0 1242
+S
+#1210
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1211
+D3
+Exit description~
+~
+0 0 1209
+S
+#1211
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1212
+D3
+Exit description~
+~
+0 0 1210
+S
+#1212
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1213
+D3
+Exit description~
+~
+0 0 1211
+S
+#1213
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1214
+D3
+Exit description~
+~
+0 0 1212
+S
+#1214
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1215
+D3
+Exit description~
+~
+0 0 1213
+S
+#1215
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1216
+D1
+~
+~
+16777216 0 1243
+D2
+Exit description~
+~
+0 0 1214
+S
+#1216
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1217
+D2
+Exit description~
+~
+0 0 1215
+D3
+Exit description~
+~
+0 0 1231
+S
+#1217
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1218
+D2
+Exit description~
+~
+0 0 1216
+S
+#1218
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1219
+D2
+Exit description~
+~
+0 0 1217
+S
+#1219
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 1218
+D3
+~
+~
+0 0 1220
+S
+#1220
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1219
+D3
+~
+~
+0 0 1221
+S
+#1221
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1220
+D3
+~
+~
+0 0 1222
+S
+#1222
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1221
+D3
+~
+~
+0 0 1223
+S
+#1223
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1222
+D3
+~
+~
+0 0 1224
+S
+#1224
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1223
+D3
+~
+~
+0 0 1225
+S
+#1225
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1224
+D2
+~
+~
+0 0 1226
+D3
+Exit description~
+~
+0 0 1232
+S
+#1226
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1225
+D2
+~
+~
+0 0 1227
+S
+#1227
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1226
+D1
+~
+~
+0 0 1228
+D2
+Exit description~
+~
+0 0 1280
+S
+#1228
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1229
+D3
+Exit description~
+~
+0 0 1227
+S
+#1229
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1230
+D3
+Exit description~
+~
+0 0 1228
+S
+#1230
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1231
+D3
+Exit description~
+~
+0 0 1229
+S
+#1231
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1216
+D3
+Exit description~
+~
+0 0 1230
+S
+#1232
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1225
+D3
+~
+~
+0 0 1233
+S
+#1233
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1232
+D3
+~
+~
+0 0 1234
+S
+#1234
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1233
+D3
+~
+~
+0 0 1235
+S
+#1235
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1234
+D2
+~
+~
+0 0 1236
+S
+#1236
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1235
+D2
+~
+~
+0 0 1237
+S
+#1237
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1236
+D2
+~
+~
+0 0 1238
+S
+#1238
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1237
+D1
+Exit description~
+~
+0 0 1277
+D2
+~
+~
+0 0 1239
+S
+#1239
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1238
+D1
+~
+~
+0 0 1240
+S
+#1240
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1241
+D3
+Exit description~
+~
+0 0 1239
+S
+#1241
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1242
+D3
+~
+~
+0 0 1240
+S
+#1242
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1209
+D3
+~
+~
+0 0 1241
+S
+#1243
+A Low Tunnel~
+This tunnel seems quite different then the mineshaft itself.  It is carved a
+bit smaller than the previous passageways, but looks sturdy and clean.  It's
+just the right height for the kobolds.
+~
+0 1 13
+D1
+~
+~
+0 0 1244
+D3
+~
+~
+0 0 1215
+S
+#1244
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1268
+D2
+~
+~
+0 0 1245
+D3
+Exit description~
+~
+16777216 0 1243
+S
+#1245
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1244
+D1
+~
+~
+0 0 1246
+S
+#1246
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1247
+D3
+Exit description~
+~
+0 0 1245
+S
+#1247
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1248
+D3
+Exit description~
+~
+0 0 1246
+S
+#1248
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1276
+D1
+~
+~
+0 0 1249
+D3
+Exit description~
+~
+0 0 1247
+S
+#1249
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1250
+D3
+Exit description~
+~
+0 0 1248
+S
+#1250
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1251
+D3
+Exit description~
+~
+0 0 1249
+S
+#1251
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1252
+D3
+Exit description~
+~
+0 0 1250
+S
+#1252
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1253
+D2
+Exit description~
+~
+0 0 1251
+S
+#1253
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1254
+D2
+Exit description~
+~
+0 0 1252
+S
+#1254
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1255
+D2
+Exit description~
+~
+0 0 1253
+D3
+Exit description~
+~
+0 0 1274
+S
+#1255
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1256
+D2
+Exit description~
+~
+0 0 1254
+D3
+Exit description~
+~
+0 0 1271
+S
+#1256
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1257
+D2
+Exit description~
+~
+0 0 1255
+S
+#1257
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 1256
+D3
+~
+~
+0 0 1258
+S
+#1258
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1257
+D3
+~
+~
+0 0 1259
+S
+#1259
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1258
+D2
+~
+~
+0 0 1260
+D3
+~
+~
+0 0 1261
+S
+#1260
+The Kobold Throneroom~
+This large cavern houses the throne of the Kobold Chief.  A large stone throne
+sits along the south wall.  Various trophies from battles won hang from the
+walls around the cavern.  Torches light this room brightly.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 1259
+S
+#1261
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1259
+D3
+~
+~
+0 0 1262
+S
+#1262
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1261
+D2
+~
+~
+0 0 1263
+S
+#1263
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1262
+D2
+~
+~
+0 0 1264
+S
+#1264
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1263
+D1
+Exit description~
+~
+0 0 1269
+D2
+~
+~
+0 0 1265
+S
+#1265
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1264
+D1
+Exit description~
+~
+0 0 1272
+D3
+~
+~
+0 0 1266
+S
+#1266
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1265
+D3
+~
+~
+0 0 1267
+S
+#1267
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 1266
+D2
+~
+~
+0 0 1268
+S
+#1268
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1267
+D2
+~
+~
+0 0 1244
+S
+#1269
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1270
+D3
+~
+~
+0 0 1264
+S
+#1270
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1271
+D3
+Exit description~
+~
+0 0 1269
+S
+#1271
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1255
+D3
+Exit description~
+~
+0 0 1270
+S
+#1272
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1273
+D2
+~
+~
+0 0 1275
+D3
+~
+~
+0 0 1265
+S
+#1273
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1274
+D3
+Exit description~
+~
+0 0 1272
+S
+#1274
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D1
+~
+~
+0 0 1254
+D3
+Exit description~
+~
+0 0 1273
+S
+#1275
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+~
+~
+0 0 1272
+D2
+~
+~
+0 0 1276
+S
+#1276
+Kobold Homecaves~
+You walk amongst the homecaves of the kobolds.  You are supervised to see the
+cleanliness of the caverns about you.  The bones that lie about shine white,
+they are so clean.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 1275
+D2
+~
+~
+0 0 1248
+S
+#1277
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1278
+D3
+~
+~
+0 0 1238
+S
+#1278
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1279
+D3
+Exit description~
+~
+0 0 1277
+S
+#1279
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D1
+~
+~
+0 0 1280
+D3
+Exit description~
+~
+0 0 1278
+S
+#1280
+A Small Mineshaft~
+You stand within the remnants of a small mineshaft.  While most of the posts
+and rails look unused and rundown, you swear you can still hear the clinking
+of miners about you.  Dust floats about the passageway, and the air is quite
+cool.
+~
+0 1 13
+D0
+~
+~
+0 0 1227
+D3
+Exit description~
+~
+0 0 1279
+S
+#1300
+Placeholder~
+Placeholder
+~
+0 5 13
+S
+#0
+
+
+#RESETS
+O 0 1204 2 1273
+O 0 1204 3 1271
+M 0 1223 2 1246
+E 0 1206 1 21
+M 0 1223 2 1246
+E 0 1205 1 7
+M 0 1222 2 1256
+E 0 1206 1 21
+M 0 1222 2 1256
+E 0 1205 1 7
+M 0 1221 2 1259
+E 0 1206 1 21
+M 0 1221 2 1259
+E 0 1205 1 7
+M 0 1220 2 1276
+E 0 1209 1 12
+M 0 1220 2 1276
+M 0 1219 3 1273
+M 0 1219 3 1273
+M 0 1219 3 1273
+M 0 1218 2 1269
+E 0 1210 1 5
+M 0 1218 2 1269
+M 0 1217 2 1275
+M 0 1217 2 1275
+M 0 1216 2 1270
+M 0 1216 2 1270
+M 0 1215 2 1267
+M 0 1215 2 1267
+M 0 1214 2 1257
+M 0 1214 2 1257
+M 0 1213 2 1251
+M 0 1213 2 1251
+M 0 1212 2 1245
+M 0 1212 2 1245
+M 0 1224 1 1260
+E 0 1208 1 3
+E 0 1207 1 14
+E 0 1211 1 21
+O 0 1203 1 1226
+O 0 1201 1 1205
+M 0 1211 1 1237
+M 0 1210 2 1222
+M 0 1210 2 1222
+M 0 1209 2 1230
+M 0 1209 2 1230
+M 0 1208 2 1278
+M 0 1208 2 1278
+M 0 1207 2 1227
+M 0 1207 2 1227
+M 0 1206 2 1239
+E 0 1202 1 21
+M 0 1206 2 1239
+M 0 1205 2 1235
+E 0 1202 1 21
+M 0 1205 2 1235
+M 0 1204 2 1224
+E 0 1202 1 21
+M 0 1204 2 1224
+M 0 1203 2 1219
+E 0 1202 1 21
+M 0 1203 2 1219
+M 0 1202 2 1214
+E 0 1202 1 21
+M 0 1202 2 1214
+M 0 1201 2 1211
+E 0 1202 1 21
+M 0 1201 2 1211
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1221 spec_racist
+M  1222 spec_racist
+M  1223 spec_racist
+M  1224 spec_racist
+S
+
+
+#$

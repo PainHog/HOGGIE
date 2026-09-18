@@ -1,0 +1,2629 @@
+#AREA   Bee Hive~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+5 15 0 65
+$
+
+#RESETMSG The smell of honey and the sound of buzzing fills the air.~
+
+#FLAGS
+0 5
+
+#ECONOMY 0 823232553
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#10901
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10902
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10903
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10904
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10905
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10906
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10907
+pollen laden bee~
+a pollen-laden bee~
+This bee is flying by, covered in pollen.
+~
+This bee is absolutely covered in small clumps of pollen.  It is flying slower
+than some of the other bees, its thin and delicate wings fighting hard to keep
+it afloat in the air.  Despite the dull green and yellow pollen, the bee is
+covered in magnificence hues of sunlight yellow.
+~
+16777281 524288 0 C
+5 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10908
+cautious squirrel~
+a cautious squirrel~
+This small grey squirrel is quite wary of the bees.
+~
+This small squirrel has obviously had more than a few run in with the bees.
+It looks around, protecting its head whenever a bee comes too close for
+comfort.  Its soft grey fur offers some protection against the bees but it is
+clear that it does not offer enough.
+~
+16777409 0 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 134217753 0 0 0 3 2
+#10909
+cautious squirrel~
+a cautious squirrel~
+This small grey squirrel is quite wary of the bees.
+~
+This small squirrel has obviously had more than a few run in with the bees.
+It looks around, protecting its head whenever a bee comes too close for
+comfort.  Its soft grey fur offers some protection against the bees but it is
+clear that it does not offer enough.
+~
+16777409 0 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 134217753 0 0 0 3 2
+#10910
+cautious squirrel~
+a cautious squirrel~
+This small grey squirrel is quite wary of the bees.
+~
+This small squirrel has obviously had more than a few run in with the bees.
+It looks around, protecting its head whenever a bee comes too close for
+comfort.  Its soft grey fur offers some protection against the bees but it is
+clear that it does not offer enough.
+~
+16777409 0 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 134217753 0 0 0 3 2
+#10911
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10912
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10913
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10914
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10915
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10916
+wax laden bee~
+a wax-laden bee~
+This bee is busy carrying wax to maintain the hive.
+~
+This bee has a simple job that requires it stay quite close to home.  It
+creates and chews the wax necessary to build and maintain the hive.  It is a
+bit larger than some of the other worker bees, colored with an off orange
+stripe alongside it.  It loads itself up with wax and does not seem to use its
+wings much.
+~
+16777281 0 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10917
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10918
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10919
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10920
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10921
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10922
+honey laden bee~
+a honey-laden bee~
+This bee is carrying honey to feed its numerous relations.
+~
+This bee is responsible for making sure that all in the hive are well fed and
+strong enough to keep working.  The amber honey mutes some of the brighter
+yellows and darker blacks on its body, but the bee is still quite colorful.
+The other bees stop, take a few licks from its body, and move on.
+~
+16777281 524288 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 2
+#10923
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10924
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10925
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10926
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10927
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10928
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10929
+fighter bee~
+a fighter bee~
+This large bee is responsible for defending the hive.
+~
+This bee is much larger than the other workers, its thorax a bright orange and
+its stinger a deep red.  It patrols the hive, making sure that no curious
+squirrel or  thieving wasp has entered in an attempt to steal honey.  It seems
+to ignore you, although it is keeping a close eye on your movements towards
+all the other bees.
+~
+65 524288 0 C
+9 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10930
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10931
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10932
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10933
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10934
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10935
+bee larvae~
+a bee larvae~
+This small white larvae is an infant worker.
+~
+This small white larvae has yet to develop wings or any sort of coloring to
+distinguish its role within the hive.  It simply crawls about the honeycomb,
+looking for a meal or the comfort of another life.
+~
+16777281 0 0 C
+3 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 4128 0 0 0 0 3
+#10936
+bee matron small~
+a matron bee~
+This small bee is busy taking care of the numerous larvae.
+~
+This bee is smaller than the others, even the various workers.  It is a
+striped gold and orange, yet despite its small size the other bees seem to
+make room for it pass within the hive.  It takes honey from a passing worker
+and feeds it to the numerous larvae, making sure they grow to adulthood
+quickly.
+~
+16777281 524288 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10937
+bee matron small~
+a matron bee~
+This small bee is busy taking care of the numerous larvae.
+~
+This bee is smaller than the others, even the various workers.  It is a
+striped gold and orange, yet despite its small size the other bees seem to
+make room for it pass within the hive.  It takes honey from a passing worker
+and feeds it to the numerous larvae, making sure they grow to adulthood
+quickly.
+~
+16777281 524288 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10938
+bee matron small~
+a matron bee~
+This small bee is busy taking care of the numerous larvae.
+~
+This bee is smaller than the others, even the various workers.  It is a
+striped gold and orange, yet despite its small size the other bees seem to
+make room for it pass within the hive.  It takes honey from a passing worker
+and feeds it to the numerous larvae, making sure they grow to adulthood
+quickly.
+~
+16777281 524288 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10939
+bee matron small~
+a matron bee~
+This small bee is busy taking care of the numerous larvae.
+~
+This bee is smaller than the others, even the various workers.  It is a
+striped gold and orange, yet despite its small size the other bees seem to
+make room for it pass within the hive.  It takes honey from a passing worker
+and feeds it to the numerous larvae, making sure they grow to adulthood
+quickly.
+~
+16777281 524288 0 C
+4 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 1 3
+#10940
+guardian bee~
+a guardian bee~
+This menacing bee is responsible for the safety of the Queen.
+~
+This bee is one of the largest you have seen.  It patrols the honey comb,
+making sure that the queen and her larvae are safe from any outside threat.
+It is colored a solid black, with a heavy carapace and sharp stinger.
+~
+65 524288 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 9 3
+#10941
+guardian bee~
+a guardian bee~
+This menacing bee is responsible for the safety of the Queen.
+~
+This bee is one of the largest you have seen.  It patrols the honey comb,
+making sure that the queen and her larvae are safe from any outside threat.
+It is colored a solid black, with a heavy carapace and sharp stinger.
+~
+65 524288 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 9 3
+#10942
+guardian bee~
+a guardian bee~
+This menacing bee is responsible for the safety of the Queen.
+~
+This bee is one of the largest you have seen.  It patrols the honey comb,
+making sure that the queen and her larvae are safe from any outside threat.
+It is colored a solid black, with a heavy carapace and sharp stinger.
+~
+65 524288 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 9 3
+#10943
+guardian bee~
+a guardian bee~
+This menacing bee is responsible for the safety of the Queen.
+~
+This bee is one of the largest you have seen.  It patrols the honey comb,
+making sure that the queen and her larvae are safe from any outside threat.
+It is colored a solid black, with a heavy carapace and sharp stinger.
+~
+65 524288 0 C
+11 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36896 0 0 0 9 3
+#10999
+Queen Bee~
+A Queen Bee~
+This massive bee is the matriarch of the entire colony!
+~
+This bee is easily the largest you have ever seen, reaching the size of a
+jungle cat.  Its stinger looks sharp and quite lethal.  The queen just
+continues to lay eggs and eat royal honey in order to keep her strength up.
+Her body is covered in a fine layer of hair, she is the color of a painter's
+yellow and a demon's red. It may be a good idea to leave her alone.
+~
+67 524288 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 25 0 0 256 256 0
+0 0 36912 0 0 0 137 0
+#0
+
+
+#OBJECTS
+#10901
+a small acorn~
+a small acorn~
+This small acorn has been left here.~
+~
+19 0 1
+1 0 0 0
+1 0 0
+#10902
+handfull honey~
+a handfull of honey~
+This small glob of honey looks quite delicious.~
+~
+19 0 1
+1 0 0 0
+1 100 0
+#10903
+piece sticky wax~
+a piece of sticky wax~
+This beeswax is quite sticky.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+#10904
+clump hardened wax~
+a clump of hardened wax~
+This large piece of hardened wax would make a fair shield.~
+~
+9 0&1 524289
+3 3 0 0
+3 100 0
+A
+3 2
+A
+1 2
+#10905
+rich honey drop~
+a drop of rich honey~
+This honey has the deepest amber hues possible.~
+~
+26 64&1 1
+5 -1 -1 -1 1 0
+1 100 0
+'cure poison' 'refresh' 'cure critical'
+#10906
+wax covered scroll~
+a wax covered scroll~
+This scroll has been used to help support the honeycomb.~
+~
+2 96&1 1048577
+5 -1 -1 -1
+1 25 0
+'word of recall' 'fly' 'elven beauty'
+#10907
+honey covered ring~
+a honey covered ring~
+This small ring has long since been forgotten.~
+~
+8 679477312&33 1025
+0 0 0 0
+1 50 0
+A
+4 1
+A
+2 1
+A
+19 2
+#10908
+dirty wax cowl~
+a dirty wax cowl~
+This cowl is covered in wax and honey stains.~
+~
+11 679477248&33 17
+0 0 0 0
+1 15 0
+A
+5 2
+A
+18 2
+#10909
+taste royal honey~
+a taste of royal honey~
+This rare honey promises to grant great strength and energy.~
+~
+26 64&1 1
+30 -1 -1 -1 2 0
+1 150 0
+'kindred strength' 'slink' 'trollish vigor'
+#10910
+queens honey royal~
+the queen's royal honey~
+This honey can offer an insight into true leadership.~
+~
+26 64&1 1
+30 -1 -1 -1 2 0
+1 150 0
+'dragon wit' 'elven beauty' 'sagacity'
+#10911
+guardian antennae~
+a guardian's antennae~
+These long antennae would make a fair belt.~
+~
+9 0&1 8193
+2 2 0 0
+1 25 0
+A
+1 1
+A
+5 1
+A
+2 1
+#10912
+corpse foolish halfling~
+a corpse of a foolish halfling~
+This halfling was foolish enough to try and steal honey.~
+~
+15 -2147483648 0
+50 0 0 0
+1 0 0
+#10913
+lucky rabbits foot~
+a lucky rabbit's foot~
+This foot was neither lucky for the rabit or the previous owner.~
+~
+8 0 257
+0 0 0 0
+1 0 0
+A
+40 5
+A
+25 1
+A
+31 1
+#10914
+corpse halfling apprentice~
+a corpse of a halfling apprentice~
+This poor halfling's magic was not enough to escape.~
+~
+15 0 0
+50 0 0 0
+1 0 0
+#10915
+minor magestone earring~
+a minor mage-stone earring~
+This small earring has a very weak but precious gem embedded in it.~
+~
+8 64&1 9
+0 0 0 0
+1 100 0
+A
+79 1
+A
+4 2
+A
+3 2
+#10916
+vial of recall~
+a vial of recall~
+This small vial will take you home.~
+~
+10 64&1 1
+5 -1 -1 -1
+1 0 0
+'word of recall' 'NONE' 'NONE'
+#10999
+queen stinger~
+the queen's stinger~
+This large stringer would make a most effective weapon.~
+~
+5 256&1 131073
+12 1 15 11
+6 200 0
+A
+31 2
+A
+5 2
+#0
+
+
+#ROOMS
+#10901
+A Humming Dirt Path~
+This small path has not been travelled often by halfling feet.  Only a thin
+outline of dirt leads the way further north.  The sound of a faint humming is
+everywhere, and more than just a few bees fly past, busy in their routine.
+~
+0 1 3
+D0
+~
+~
+0 0 10902
+D2
+~
+~
+0 0 660
+S
+#10902
+A Humming Dirt Path~
+This small path has not been travelled often by halfling feet.  Only a thin
+outline of dirt leads the way further north.  The sound of a faint humming is
+everywhere, and more than just a few bees fly past, busy in their routine.
+~
+0 1 3
+D0
+~
+~
+0 0 10903
+D2
+Exit description~
+~
+0 0 10901
+S
+#10903
+A Humming Dirt Path~
+This small path has not been travelled often by halfling feet.  Only a thin
+outline of dirt leads the way further north.  The sound of a faint humming is
+everywhere, and more than just a few bees fly past, busy in their routine.
+~
+0 1 3
+D0
+~
+~
+0 0 10904
+D2
+Exit description~
+~
+0 0 10902
+S
+#10904
+Before A Great Oak~
+This massive oak trees appears to be hundreds of years old.  It reaches at
+least a hundred feet into the air, the branches spreading out, creating a cool
+canopy.  The dirt around is soft and a deep brown, this would be an ideal spot
+to rest and relax. Even the numerous bees seem relaxed and content in the
+presence of such beauty.
+~
+0 1025 3
+D2
+Exit description~
+~
+0 0 10903
+D4
+~
+~
+16777344 0 10905
+S
+#10905
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10906
+D3
+Exit description~
+~
+0 0 10909
+D4
+~
+~
+128 0 10912
+D5
+Exit description~
+~
+16777344 0 10904
+S
+#10906
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10907
+D3
+~
+~
+0 0 10905
+S
+#10907
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10908
+D3
+Exit description~
+~
+0 0 10906
+S
+#10908
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D3
+Exit description~
+~
+0 0 10907
+D4
+~
+~
+128 0 10920
+S
+#10909
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10905
+D3
+~
+~
+0 0 10910
+S
+#10910
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10909
+D3
+~
+~
+0 0 10911
+D4
+~
+~
+128 0 10917
+S
+#10911
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 10910
+S
+#10912
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D4
+~
+~
+128 0 10913
+D5
+~
+~
+128 0 10905
+S
+#10913
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D4
+~
+~
+128 0 10915
+D5
+Exit description~
+~
+128 0 10912
+S
+#10914
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10916
+D5
+~
+~
+128 0 10917
+S
+#10915
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10918
+D3
+~
+~
+0 0 10916
+D4
+~
+~
+128 0 10921
+D5
+~
+~
+128 0 10913
+S
+#10916
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10915
+D3
+Exit description~
+~
+0 0 10914
+S
+#10917
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D4
+~
+~
+128 0 10914
+D5
+Exit description~
+~
+0 0 10910
+S
+#10918
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D1
+~
+~
+0 0 10919
+D3
+Exit description~
+~
+0 0 10915
+S
+#10919
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D3
+Exit description~
+~
+0 0 10918
+D5
+~
+~
+128 0 10920
+S
+#10920
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.
+~
+0 1 3
+D4
+~
+~
+128 0 10919
+D5
+~
+~
+128 0 10908
+S
+#10921
+Amongst The Branches~
+The branches provide an amazing amount of support, despite your weapons and
+armor, they do not moan or crack, even the slightest bit.  The leaves are an
+ever-green and the smell of honey is heavy in the air.  Taking up the entire
+top of the massive tree, a huge bee hive buzzes and vibrates with life.
+~
+0 1 3
+D4
+~
+~
+16777344 0 10922
+D5
+~
+~
+128 0 10915
+S
+#10922
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10923
+D2
+~
+~
+0 0 10946
+D5
+~
+~
+16777344 0 10921
+S
+#10923
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10924
+D2
+Exit description~
+~
+0 0 10922
+S
+#10924
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10925
+D2
+Exit description~
+~
+0 0 10923
+S
+#10925
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10926
+D2
+Exit description~
+~
+0 0 10924
+S
+#10926
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 10925
+D4
+~
+~
+0 0 10927
+S
+#10927
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D4
+~
+~
+0 0 10928
+D5
+Exit description~
+~
+0 0 10926
+S
+#10928
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D4
+~
+~
+0 0 10929
+D5
+Exit description~
+~
+0 0 10927
+S
+#10929
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D4
+~
+~
+0 0 10930
+D5
+Exit description~
+~
+0 0 10928
+S
+#10930
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D2
+~
+~
+0 0 10931
+D5
+Exit description~
+~
+0 0 10929
+S
+#10931
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10930
+D2
+~
+~
+0 0 10932
+D3
+~
+~
+0 0 10962
+S
+#10932
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10931
+D2
+~
+~
+0 0 10933
+S
+#10933
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10932
+D2
+~
+~
+0 0 10934
+S
+#10934
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10933
+D2
+~
+~
+0 0 10935
+S
+#10935
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10934
+D2
+~
+~
+0 0 10936
+S
+#10936
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10935
+D5
+~
+~
+0 0 10937
+S
+#10937
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D1
+~
+~
+0 0 10948
+D4
+Exit description~
+~
+0 0 10936
+D5
+~
+~
+0 0 10938
+S
+#10938
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D2
+~
+~
+0 0 10939
+D4
+Exit description~
+~
+0 0 10937
+S
+#10939
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10938
+D2
+~
+~
+0 0 10940
+S
+#10940
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10939
+D5
+~
+~
+0 0 10941
+S
+#10941
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D4
+Exit description~
+~
+0 0 10940
+D5
+~
+~
+0 0 10942
+S
+#10942
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D4
+Exit description~
+~
+0 0 10941
+D5
+~
+~
+0 0 10943
+S
+#10943
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10944
+D4
+Exit description~
+~
+0 0 10942
+S
+#10944
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10945
+D2
+Exit description~
+~
+0 0 10943
+S
+#10945
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+~
+~
+0 0 10946
+D2
+Exit description~
+~
+0 0 10944
+S
+#10946
+Inside The Hive~
+The smell of honey is overpowering and the entire place feels sticky and
+humid. Bees of all sizes move back and forth, mostly oblivious to your
+presence.  Everything is a muted yellow or golden, the honeycomb walls are so
+uniform and distracting. It is hard to identify any clear paths.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10922
+D2
+Exit description~
+~
+0 0 10945
+S
+#10947
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D3
+Exit description~
+~
+0 0 10948
+D5
+~
+~
+0 0 10959
+S
+#10948
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+~
+~
+0 0 10947
+D2
+~
+~
+0 0 10949
+D3
+Exit description~
+~
+0 0 10937
+S
+#10949
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10948
+D2
+~
+~
+0 0 10950
+S
+#10950
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10949
+D1
+~
+~
+0 0 10951
+S
+#10951
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+~
+~
+0 0 10952
+D3
+Exit description~
+~
+0 0 10950
+S
+#10952
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+~
+~
+0 0 10953
+D3
+Exit description~
+~
+0 0 10951
+S
+#10953
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+~
+~
+0 0 10954
+D3
+Exit description~
+~
+0 0 10952
+S
+#10954
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+~
+~
+0 0 10955
+D3
+Exit description~
+~
+0 0 10953
+S
+#10955
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 10954
+D3
+~
+~
+0 0 10956
+S
+#10956
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10955
+D3
+~
+~
+0 0 10957
+S
+#10957
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10956
+D3
+~
+~
+0 0 10958
+S
+#10958
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10957
+D5
+~
+~
+16777216 0 10974
+S
+#10959
+The Pollen Storage~
+This large patchwork of half finished honeycomb provides an excellent storage
+facility for the hive.  Layers and layers of pollen are stored here until they
+are consumed in order to make honey in order to make stronger bees.  The smell
+of flowers is almost too strong to handle.
+~
+0 1 0
+D1
+~
+~
+0 0 10960
+D4
+Exit description~
+~
+0 0 10947
+S
+#10960
+The Pollen Storage~
+This large patchwork of half finished honeycomb provides an excellent storage
+facility for the hive.  Layers and layers of pollen are stored here until they
+are consumed in order to make honey in order to make stronger bees.  The smell
+of flowers is almost too strong to handle.
+~
+0 1 0
+D1
+~
+~
+0 0 10961
+D3
+Exit description~
+~
+0 0 10959
+S
+#10961
+The Pollen Storage~
+This large patchwork of half finished honeycomb provides an excellent storage
+facility for the hive.  Layers and layers of pollen are stored here until they
+are consumed in order to make honey in order to make stronger bees.  The smell
+of flowers is almost too strong to handle.
+~
+0 1 0
+D3
+Exit description~
+~
+0 0 10960
+S
+#10962
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10931
+D2
+~
+~
+0 0 10963
+S
+#10963
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10962
+D2
+~
+~
+0 0 10964
+S
+#10964
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10963
+D3
+~
+~
+0 0 10965
+S
+#10965
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+~
+~
+0 0 10966
+D1
+Exit description~
+~
+0 0 10964
+D3
+~
+~
+16779267 0 10970
+S
+#10966
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+~
+~
+0 0 10967
+D2
+Exit description~
+~
+0 0 10965
+S
+#10967
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 10966
+D3
+~
+~
+0 0 10968
+S
+#10968
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10967
+D2
+~
+~
+0 0 10969
+S
+#10969
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10968
+D3
+~
+~
+0 0 10971
+S
+#10970
+A Forgotten Space~
+This small section of honeycomb has been covered over in wax and forgotten.
+For whatever reason, the bees no longer seemed interested in this room, the
+wax and honey is dried and stiff.  There is nothing in the room, save a few
+odd pieces of bone and long dead bees.
+~
+0 1 0
+D1
+~
+~
+16779267 0 10965
+S
+#10971
+A Honeycomb Tunnel~
+This tunnel is small and cramped, you feel covered in an odd mixture of honey
+and wax.  There is less traffic in this tunnel as the deeper workings of the
+hive seem reserved for specific tasks.  While the floor and walls feel firm,
+there is always a small amount of give which makes walking uneasy.
+~
+0 1 0
+D1
+Exit description~
+~
+0 0 10969
+D5
+~
+~
+16777216 0 10972
+S
+#10972
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D0
+~
+~
+0 0 10973
+D4
+~
+~
+16777216 0 10971
+S
+#10973
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D0
+~
+~
+0 0 10974
+D2
+Exit description~
+~
+0 0 10972
+S
+#10974
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D0
+~
+~
+0 0 10981
+D1
+~
+~
+0 0 10975
+D2
+Exit description~
+~
+0 0 10973
+D4
+Exit description~
+~
+0 0 10958
+S
+#10975
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D1
+~
+~
+0 0 10976
+D3
+Exit description~
+~
+0 0 10974
+S
+#10976
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D3
+Exit description~
+~
+0 0 10975
+D5
+~
+~
+16777216 0 10977
+S
+#10977
+The Larvae's Nursery~
+This large section of honeycomb has been altered to provide a large space for
+the numerous larvae and unhatched eggs of the hive.  Only the youngest and
+most fragile of the young appear to be housed here.
+~
+0 1 0
+D1
+~
+~
+0 0 10980
+D2
+~
+~
+0 0 10978
+D4
+~
+~
+16777216 0 10976
+S
+#10978
+The Larvae's Nursery~
+This large section of honeycomb has been altered to provide a large space for
+the numerous larvae and unhatched eggs of the hive.  Only the youngest and
+most fragile of the young appear to be housed here.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10977
+D1
+~
+~
+0 0 10979
+S
+#10979
+The Larvae's Nursery~
+This large section of honeycomb has been altered to provide a large space for
+the numerous larvae and unhatched eggs of the hive.  Only the youngest and
+most fragile of the young appear to be housed here.
+~
+0 1 0
+D0
+~
+~
+0 0 10980
+D3
+Exit description~
+~
+0 0 10978
+S
+#10980
+The Larvae's Nursery~
+This large section of honeycomb has been altered to provide a large space for
+the numerous larvae and unhatched eggs of the hive.  Only the youngest and
+most fragile of the young appear to be housed here.
+~
+0 1 0
+D2
+~
+~
+0 0 10979
+D3
+Exit description~
+~
+0 0 10977
+S
+#10981
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D0
+Exit description~
+~
+0 0 10988
+D1
+~
+~
+0 0 10982
+D2
+Exit description~
+~
+0 0 10974
+S
+#10982
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D1
+~
+~
+0 0 10983
+D3
+Exit description~
+~
+0 0 10981
+S
+#10983
+The Inner Hive~
+This tunnel through the honeycomb is a bit wider, despite being even deeper
+inside the hive.  There are few very bees in this area, the workers seem to
+shun this area for the most part.  Only a few very large bees and the youngest
+seem to dawdle in this part.
+~
+0 1 0
+D3
+Exit description~
+~
+0 0 10982
+D5
+~
+~
+0 0 10984
+S
+#10984
+The Honey Pot~
+This cross section of various honeycomb appears to be the main storage space
+for the precious honey the hive produces.  It is hard to move as it is just
+sits on the floor, the occasional bee coming in to gather some to transport
+out or to come in and create more.
+~
+0 1 0
+D0
+~
+~
+0 0 10987
+D1
+~
+~
+0 0 10985
+D4
+Exit description~
+~
+0 0 10983
+S
+#10985
+The Honey Pot~
+This cross section of various honeycomb appears to be the main storage space
+for the precious honey the hive produces.  It is hard to move as it is just
+sits on the floor, the occasional bee coming in to gather some to transport
+out or to come in and create more.
+~
+0 1 0
+D0
+~
+~
+0 0 10986
+D3
+Exit description~
+~
+0 0 10984
+S
+#10986
+The Honey Pot~
+This cross section of various honeycomb appears to be the main storage space
+for the precious honey the hive produces.  It is hard to move as it is just
+sits on the floor, the occasional bee coming in to gather some to transport
+out or to come in and create more.
+~
+0 1 0
+D2
+Exit description~
+~
+0 0 10985
+D3
+~
+~
+0 0 10987
+S
+#10987
+The Honey Pot~
+This cross section of various honeycomb appears to be the main storage space
+for the precious honey the hive produces.  It is hard to move as it is just
+sits on the floor, the occasional bee coming in to gather some to transport
+out or to come in and create more.
+~
+0 1 0
+D1
+~
+~
+0 0 10986
+D2
+Exit description~
+~
+0 0 10984
+S
+#10988
+The Queen's Lair~
+This massive alcove is created at the very center of the hive.  The room is
+filled with freshly laid eggs, honey, and the rarest royal honey.  This is the
+biggest space in the hive, from the sounds above and below, whomever resides
+in this alcove can hear and feel the entire goings on of the hive.
+~
+0 1 0
+D2
+~
+~
+0 0 10981
+D4
+~
+~
+0 0 10999
+S
+#10999
+A Shortcut Through The Hive~
+This small and cramped tunnel appears to be a quick short cut through the
+entire hive.  It is sticky and the sweet smell of honey permeates everything,
+but this does appear to be the fastest way out of the hive.
+~
+0 1 0
+D4
+~
+~
+0 0 10922
+D5
+Exit description~
+~
+0 0 10988
+S
+#0
+
+
+#RESETS
+P 0 10916 1 10914
+P 0 10915 1 10914
+P 0 10913 1 10912
+M 0 10908 1 10905
+G 1 10901 1
+M 0 10909 1 10908
+M 0 10901 1 10910
+M 0 10910 1 10917
+G 1 10901 1
+M 0 10902 1 10915
+M 0 10903 1 10918
+M 0 10911 1 10923
+M 0 10917 1 10926
+M 0 10923 1 10928
+M 0 10904 1 10930
+M 0 10912 1 10932
+M 0 10918 1 10934
+G 1 10905 1
+M 0 10924 1 10936
+M 0 10925 1 10939
+M 0 10913 1 10941
+M 0 10905 1 10943
+M 0 10926 1 10945
+M 0 10919 1 10947
+G 1 10902 1
+M 0 10914 1 10949
+M 0 10927 1 10952
+M 0 10915 1 10955
+G 1 10903 1
+M 0 10906 1 10960
+O 0 10914 1 10961
+M 0 10907 1 10963
+M 0 10916 1 10965
+G 1 10904 1
+M 0 10928 1 10967
+M 0 10920 1 10969
+M 0 10929 1 10971
+O 0 10908 1 10970
+O 0 10907 1 10970
+O 0 10906 1 10964
+O 0 10906 1 10952
+M 0 10999 1 10988
+G 1 10910 1
+E 1 10999 1 21
+M 0 10940 1 10972
+M 0 10936 1 10974
+G 1 10903 1
+M 0 10941 1 10976
+M 0 10930 1 10977
+M 0 10931 1 10977
+M 0 10932 1 10978
+M 0 10933 1 10978
+M 0 10934 1 10979
+M 0 10937 1 10979
+M 0 10935 1 10980
+M 0 10938 1 10980
+G 1 10909 1
+M 0 10942 1 10982
+G 1 10905 1
+M 0 10921 1 10984
+M 0 10922 1 10986
+M 0 10939 1 10987
+M 0 10943 1 10985
+E 1 10911 1 16
+O 0 10912 1 10985
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

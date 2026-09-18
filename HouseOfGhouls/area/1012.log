@@ -1,0 +1,462 @@
+Mon Jun 17 13:33:01 2019 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Mon Jun 17 13:33:01 2019 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Mon Jun 17 13:33:01 2019 :: Loading commands
+Mon Jun 17 13:33:01 2019 :: Loading sysdata configuration...
+Mon Jun 17 13:33:01 2019 :: Loading socials
+Mon Jun 17 13:33:01 2019 :: Loading skill table
+Mon Jun 17 13:33:01 2019 :: Sorting skill table...
+Mon Jun 17 13:33:01 2019 :: Remapping slots to sns
+Mon Jun 17 13:33:01 2019 :: Loading classes
+Mon Jun 17 13:33:01 2019 :: Loading races
+Mon Jun 17 13:33:01 2019 :: Loading liquids
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid water(0) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid beer(1) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid wine(2) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid ale(3) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid dark ale(4) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid whiskey(5) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid lemonade(6) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid firebreather(7) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid local specialty(8) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid slime mold juice(9) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid milk(10) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid tea(11) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid coffee(12) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid blood(13) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid salt water(14) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid cola(15) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid mead(16) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid grog(17) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid fruit liqueur(18) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid cocoa(19) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid vodka(20) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid gin(21) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid cider(22) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid brandy(23) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid tequila(24) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid champagne(25) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid lager(26) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid sugar water(27) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid orange juice(28) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid grape juice(29) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid apple juice(30) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid sasparilla(31) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid screwdriver(32) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid whiskey & cola(33) to table
+Mon Jun 17 13:33:01 2019 :: debugger: 6
+Mon Jun 17 13:33:01 2019 :: debugger: added liquid a Bloody Hangover(34) to table
+Mon Jun 17 13:33:01 2019 :: Loading mixtures
+Mon Jun 17 13:33:01 2019 :: Loading herb table
+Mon Jun 17 13:33:01 2019 :: Loading tongues
+Mon Jun 17 13:33:01 2019 :: Making wizlist
+Mon Jun 17 13:33:01 2019 :: Initializing request pipe
+Mon Jun 17 13:33:01 2019 :: Initializing random number generator
+Mon Jun 17 13:33:01 2019 :: Setting time and weather
+Mon Jun 17 13:33:01 2019 :: Assigning gsn's
+Mon Jun 17 13:33:01 2019 :: Reading in area files...
+(help.are)
+universe.are  : Rooms: 29000 - 30000 Objs: 29000 - 30000 Mobs: 29000 - 30000
+limbo.are     : Rooms:     1 - 99    Objs:     2 - 99    Mobs:     1 - 99
+templearea.are: Rooms:  3656 - 3800  Objs:  3656 - 3800  Mobs:  3651 - 3800
+drazuni.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+drazville.are : Rooms: 21010 - 21500 Objs: 21011 - 21500 Mobs: 21001 - 21500
+eldforest.are : Rooms: 16000 - 16200 Objs: 16000 - 16200 Mobs: 16000 - 16200
+hchurch.are   : Rooms: 15000 - 15350 Objs: 15000 - 15350 Mobs: 15000 - 15350
+southroad.are : Rooms:   201 - 300   Objs:   201 - 300   Mobs:   201 - 300
+mtpass.are    : Rooms:   101 - 200   Objs:   101 - 200   Mobs:   101 - 200
+bladegrass.are: Rooms:  1001 - 1200  Objs:  1001 - 1200  Mobs:  1001 - 1200
+koboldcav.are : Rooms:  1201 - 1300  Objs:  1201 - 1300  Mobs:  1201 - 1300
+talondes.are  : Rooms:  1301 - 1500  Objs:  1301 - 1500  Mobs:  1301 - 1500
+glitcave.are  : Rooms:  1501 - 1600  Objs:  1501 - 1600  Mobs:  1501 - 1600
+greenpath.are : Rooms:   301 - 400   Objs:   301 - 400   Mobs:   301 - 400
+elenolos.are  : Rooms:  1601 - 1700  Objs:  1601 - 1700  Mobs:  1601 - 1700
+sea.are       : Rooms:  3001 - 3500  Objs:  3001 - 3500  Mobs:  3001 - 3500
+eareska.are   : Rooms:  1701 - 1800  Objs:  1701 - 1800  Mobs:  1701 - 1800
+bubblebog.are : Rooms:  1801 - 2000  Objs:  1801 - 2000  Mobs:  1801 - 2000
+tyrybblyn.are : Rooms:  2001 - 2150  Objs:  2001 - 2150  Mobs:  2001 - 2150
+underhill.are : Rooms:   401 - 499   Objs:   401 - 499   Mobs:   401 - 499
+spidforest.are: Rooms:   501 - 600   Objs:   501 - 600   Mobs:   501 - 600
+coralreef.are : Rooms:   601 - 650   Objs:   601 - 650   Mobs:   601 - 650
+plainsroad.are: Rooms:   701 - 800   Objs:   701 - 800   Mobs:   701 - 800
+boulderpass.are: Rooms:   801 - 950   Objs:   801 - 950   Mobs:   801 - 950
+ugrove.are    : Rooms:  4001 - 4100  Objs:  4001 - 4100  Mobs:  4001 - 4100
+flowergarden.are: Rooms:   651 - 700   Objs:   651 - 700   Mobs:   651 - 700
+huntground.are: Rooms:  2151 - 2250  Objs:  2151 - 2250  Mobs:  2151 - 2250
+toadstool.are : Rooms:   951 - 1000  Objs:   951 - 1000  Mobs:   951 - 1000
+ironholde.are : Rooms:  2251 - 2350  Objs:  2251 - 2350  Mobs:  2251 - 2350
+trialspain.are: Rooms: 14101 - 14300 Objs: 14102 - 14300 Mobs: 14101 - 14300
+clouds.are    : Rooms:  3801 - 3850  Objs:  3801 - 3850  Mobs:  3801 - 3850
+smokecaves.are: Rooms:  2351 - 2400  Objs:  2351 - 2400  Mobs:  2351 - 2400
+ihmines.are   : Rooms:  3851 - 3900  Objs:  3851 - 3900  Mobs:  3851 - 3900
+eastoasis.are : Rooms:  3901 - 4000  Objs:  3901 - 4000  Mobs:  3901 - 4000
+deepjungle.are: Rooms:  4101 - 4200  Objs:  4101 - 4200  Mobs:  4101 - 4200
+thornthiket.are: Rooms:  2401 - 2450  Objs:  2401 - 2450  Mobs:  2401 - 2450
+fangtemple.are: Rooms:  2451 - 2500  Objs:  2451 - 2500  Mobs:  2451 - 2500
+flayercaves.are: Rooms:  4201 - 4300  Objs:  4201 - 4300  Mobs:  4201 - 4300
+towermanos.are: Rooms:  4301 - 4600  Objs:  4301 - 4600  Mobs:  4301 - 4600
+laststand.are : Rooms:  4601 - 4700  Objs:  4601 - 4700  Mobs:  4601 - 4700
+srilaxa.are   : Rooms:  9800 - 9950  Objs:  9800 - 9950  Mobs:  9800 - 9950
+ancient.are   : Rooms:  9951 - 10100 Objs:  9951 - 10100 Mobs:  9951 - 10100
+jellyfish.are : Rooms:  2501 - 2700  Objs:  2501 - 2700  Mobs:  2501 - 2700
+desertercamp.are: Rooms:  4701 - 4800  Objs:  4701 - 4800  Mobs:  4701 - 4800
+easterncorridor.are: Rooms:  4801 - 4900  Objs:  4801 - 4900  Mobs:  4801 - 4900
+sahardin.are  : Rooms:  4901 - 5050  Objs:  4901 - 5050  Mobs:  4901 - 5050
+troll.are     : Rooms:  5051 - 5126  Objs:  5051 - 5074  Mobs:  5051 - 5126
+opiumroad.are : Rooms:  7000 - 7050  Objs:  7000 - 7050  Mobs:  7000 - 7050
+bazabel.are   : Rooms:  6000 - 6250  Objs:  6000 - 6250  Mobs:  6000 - 6250
+ageless.are   : Rooms: 14000 - 14100 Objs: 14000 - 14100 Mobs: 14000 - 14100
+fort.are      : Rooms:  5150 - 5200  Objs:  5150 - 5200  Mobs:  5150 - 5200
+kinter.are    : Rooms: 11000 - 11100 Objs: 11000 - 11100 Mobs: 11000 - 11100
+sorrow.are    : Rooms: 11101 - 11151 Objs: 11101 - 11201 Mobs: 11101 - 11122
+bear.are      : Rooms:  7051 - 7074  Objs:  7051 - 7056  Mobs:  7051 - 7063
+chicken.are   : Rooms:  7101 - 7157  Objs:  7101 - 7107  Mobs:  7101 - 7199
+ogrecamp.are  : Rooms:  7201 - 7256  Objs:  7201 - 7228  Mobs:  7201 - 7204
+fellowship.are: Rooms:  7301 - 7350  Objs:  7301 - 7400  Mobs:  7301 - 7400
+campraid.are  : Rooms:  7401 - 7500  Objs:  7401 - 7500  Mobs:  7401 - 7500
+woodlandroute.are: Rooms:  6251 - 6300  Objs:  6251 - 6350  Mobs:  6251 - 6350
+fvalley.are   : Rooms:  8300 - 8378  Objs:  8300 - 8310  Mobs:  8300 - 8314
+bitterpass.are: Rooms: 10500 - 10599 Objs: 10500 - 10599 Mobs: 10500 - 10599
+learei.are    : Rooms:  7601 - 7647  Objs:  7601 - 7613  Mobs:  7601 - 7647
+opiumfields.are: Rooms:  7501 - 7600  Objs:  7501 - 7600  Mobs:  7501 - 7600
+silver.are    : Rooms:  8201 - 8299  Objs:  8201 - 8299  Mobs:  8201 - 8299
+ihra.are      : Rooms:  8401 - 8500  Objs:  8401 - 8500  Mobs:  8401 - 8500
+celestial.are : Rooms: 12000 - 12100 Objs: 12000 - 12100 Mobs: 12000 - 12100
+templar.are   : Rooms:  8000 - 8100  Objs:  8000 - 8100  Mobs:  8000 - 8100
+ships.are     : Rooms:  5201 - 5600  Objs:  5201 - 5600  Mobs:  5201 - 5600
+wulftuuf.are  : Rooms: 10101 - 10299 Objs: 10101 - 10299 Mobs: 10101 - 10299
+niralis.are   : Rooms: 12101 - 12199 Objs: 12101 - 12123 Mobs: 12101 - 12157
+spearfangroad.are: Rooms: 10601 - 10650 Objs: 10601 - 10650 Mobs: 10601 - 10650
+bullhornroad.are: Rooms: 10651 - 10750 Objs: 10651 - 10750 Mobs: 10651 - 10750
+junglepath.are: Rooms: 10751 - 10800 Objs: 10751 - 10800 Mobs: 10751 - 10800
+tenhicoal.are : Rooms: 16201 - 16350 Objs: 16201 - 16300 Mobs: 16201 - 16300
+h-unki.are    : Rooms: 14401 - 14500 Objs: 14401 - 14500 Mobs: 14401 - 14500
+farmmarket.are: Rooms:  8101 - 8190  Objs:  8101 - 8137  Mobs:  8101 - 8180
+daira.are     : Rooms:  5127 - 5145  Objs:  5127 - 5132  Mobs:  5127 - 5130
+Mon Jun 17 13:33:01 2019 :: [*****] FILE: gallery.are LINE: 10900
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Get_mob_index: bad vnum 7700.
+Mon Jun 17 13:33:01 2019 :: [*****] BOOT: Load_resets: gallery.are (95) 'M': mobile 7700 doesn't exist.
+gallery.are   : Rooms:  7648 - 7999  Objs:  7648 - 7999  Mobs:  7648 - 7999
+darkheart.are : Rooms:  2901 - 3000  Objs:  2901 - 3000  Mobs:  2901 - 3000
+lakemotuco.are: Rooms:  2801 - 2900  Objs:  2801 - 2900  Mobs:  2801 - 2900
+Tampaqui.are  : Rooms:  2701 - 2800  Objs:  2701 - 2800  Mobs:  2701 - 2800
+antcolony.are : Rooms: 10801 - 10900 Objs: 10801 - 10900 Mobs: 10801 - 10900
+beehive.are   : Rooms: 10901 - 10999 Objs: 10901 - 10999 Mobs: 10901 - 10999
+Mon Jun 17 13:33:01 2019 :: [*****] FILE: Elysium.are LINE: 138
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Get_room_index: bad vnum 7077.
+Mon Jun 17 13:33:01 2019 :: [*****] BOOT: Load_resets: Elysium.are (1) 'O': room 7077 doesn't exist.
+Elysium.are   : Rooms:  7075 - 7080  Objs:  7075 - 7080  Mobs:  7075 - 7080
+templeofdrazuk.are: Rooms: 21001 - 21009 Objs:     0 - 0     Mobs:     0 - 0
+renegades.are : Rooms:  9000 - 9091  Objs:  9000 - 9008  Mobs:  9000 - 9023
+Mon Jun 17 13:33:01 2019 :: Fixing exits
+Mon Jun 17 13:33:01 2019 :: Counting pfiles.....
+Mon Jun 17 13:33:01 2019 :: Pfile count completed.
+Mon Jun 17 13:33:01 2019 :: Total pfiles scanned: 5
+Mon Jun 17 13:33:01 2019 :: Updating rare item counts.....
+Mon Jun 17 13:33:01 2019 :: Checking player files....
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Pain has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: rent_scan_pfiles: Scrye has bad obj vnum.
+Mon Jun 17 13:33:01 2019 :: Checking corpses....
+Mon Jun 17 13:33:01 2019 :: Loading corpses
+Mon Jun 17 13:33:01 2019 :: Loading slay table
+Mon Jun 17 13:33:01 2019 :: Initializing economy
+Mon Jun 17 13:33:01 2019 :: Resetting areas...
+Resetting: universe.are
+Resetting: limbo.are
+Resetting: templearea.are
+Resetting: drazuni.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: drazuni.are: reset_area: no resets
+Resetting: drazville.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: drazville.are: reset_area: no resets
+Resetting: eldforest.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (bandit guard) (7).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (gypsy dancer swirl) (14).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (gypsy woman) (21).
+Resetting: hchurch.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (guardian mummy warrior embalmed) (1).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (skeleton priest) (21).
+Resetting: southroad.are
+Resetting: mtpass.are
+Resetting: bladegrass.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: bladegrass.are: reset_area: no resets
+Resetting: koboldcav.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (kobold chief) (14).
+Resetting: talondes.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (prince mummy) (1).
+Resetting: glitcave.are
+Resetting: greenpath.are
+Resetting: elenolos.are
+Resetting: sea.are
+Resetting: eareska.are
+Resetting: bubblebog.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (lizardwoman chieftess lizard woman) (7).
+Resetting: tyrybblyn.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (drow priestess female) (21).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (drow priestess female) (7).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (drow priestess female) (7).
+Resetting: underhill.are
+Resetting: spidforest.are
+Resetting: coralreef.are
+Resetting: plainsroad.are
+Resetting: boulderpass.are
+Resetting: ugrove.are
+Resetting: flowergarden.are
+Resetting: huntground.are
+Resetting: toadstool.are
+Resetting: ironholde.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (dwarf dwarven king Rhedpick) (21).
+Resetting: trialspain.are
+Resetting: clouds.are
+Resetting: smokecaves.are
+Resetting: ihmines.are
+Resetting: eastoasis.are
+Resetting: deepjungle.are
+Resetting: thornthiket.are
+Resetting: fangtemple.are
+Resetting: flayercaves.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (flayer mage old) (7).
+Resetting: towermanos.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (guard armored) (21).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (guard armored) (21).
+Resetting: laststand.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (general thadius man) (8).
+Resetting: srilaxa.are
+Resetting: ancient.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Synot Lodhal Ancient) (21).
+Resetting: jellyfish.are
+Resetting: desertercamp.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (rebel recruiter woman) (21).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Camp Guard man soldier) (21).
+Resetting: easterncorridor.are
+Resetting: sahardin.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Town Watch Guard) (7).
+Resetting: troll.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (imperial soldier) (7).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (half troll home guard) (21).
+Resetting: opiumroad.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (patrol long man guard) (7).
+Resetting: bazabel.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: bazabel.are: reset_area: no resets
+Resetting: ageless.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Nightmare Magnet Boy Thin) (21).
+Resetting: fort.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (wall sentry man) (14).
+Resetting: kinter.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (rebel soldier) (7).
+Resetting: sorrow.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (imperial scout man) (7).
+Resetting: bear.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: bear.are: reset_area: no resets
+Resetting: chicken.are
+Resetting: ogrecamp.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (ogre barbarian) (6).
+Resetting: fellowship.are
+Resetting: campraid.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Maraeh rebel commander) (21).
+Resetting: woodlandroute.are
+Resetting: fvalley.are
+Resetting: bitterpass.are
+Resetting: learei.are
+Resetting: opiumfields.are
+Resetting: silver.are
+Resetting: ihra.are
+Resetting: celestial.are
+Resetting: templar.are
+Resetting: ships.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (sailor rebel) (21).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (ghost captain helena) (14).
+Resetting: wulftuuf.are
+Resetting: niralis.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (militia niralis guard) (7).
+Resetting: spearfangroad.are
+Resetting: bullhornroad.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (goblin miner) (21).
+Resetting: junglepath.are
+Resetting: tenhicoal.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (royal guard) (21).
+Resetting: h-unki.are
+Resetting: farmmarket.are
+Resetting: daira.are
+Resetting: gallery.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: gallery.are Reset_area: 'M': bad mob vnum 7700.
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Incubus mist handsome) (25).
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (Desire Honor Guard) (21).
+Resetting: darkheart.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Equip_char: already equipped (lizardman soldier fallen) (21).
+Resetting: lakemotuco.are
+Resetting: Tampaqui.are
+Resetting: antcolony.are
+Resetting: beehive.are
+Resetting: Elysium.are
+Resetting: templeofdrazuk.are
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: templeofdrazuk.are: reset_area: no resets
+Resetting: renegades.are
+Mon Jun 17 13:33:01 2019 :: Loading buildlist
+Mon Jun 17 13:33:01 2019 :: ../gods/Seraph
+Mon Jun 17 13:33:01 2019 :: ../gods/Krom
+Mon Jun 17 13:33:01 2019 :: ../gods/Scrye
+Mon Jun 17 13:33:01 2019 :: ../gods/Drazuk
+Mon Jun 17 13:33:01 2019 :: ../gods/Des
+Mon Jun 17 13:33:01 2019 :: ../gods/Eaven
+Mon Jun 17 13:33:01 2019 :: ../gods/Zmaiel
+Mon Jun 17 13:33:01 2019 :: ../gods/Balorax
+Mon Jun 17 13:33:01 2019 :: ../gods/Lylith
+Mon Jun 17 13:33:01 2019 :: ../gods/Milo
+Mon Jun 17 13:33:01 2019 :: ../gods/Dalinar
+Mon Jun 17 13:33:01 2019 :: ../gods/Pain
+Mon Jun 17 13:33:01 2019 :: ../gods/Oetharm
+Mon Jun 17 13:33:01 2019 :: Loading boards
+Mon Jun 17 13:33:01 2019 :: ../boards/immortal.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/highgod.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/notes.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/carnage.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/scion.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/blade.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/wisdom.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/warboard.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/hitlist.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/brood.brd
+Mon Jun 17 13:33:01 2019 :: ../boards/pain
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: fread_word: EOF encountered on read.
+
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: read_board: no match: Endÿ
+Mon Jun 17 13:33:01 2019 :: ../boards/chwarboard.brd
+Mon Jun 17 13:33:01 2019 :: Loading clans
+Mon Jun 17 13:33:01 2019 :: Loading clans...
+Mon Jun 17 13:33:01 2019 :: druid.gui
+Mon Jun 17 13:33:01 2019 :: Storeroom not found
+Mon Jun 17 13:33:01 2019 :: warrior.gui
+Mon Jun 17 13:33:01 2019 :: Storeroom not found
+Mon Jun 17 13:33:01 2019 :: thief.gui
+Mon Jun 17 13:33:01 2019 :: Cannot open clan vault
+Mon Jun 17 13:33:01 2019 :: cleric.gui
+Mon Jun 17 13:33:01 2019 :: Cannot open clan vault
+Mon Jun 17 13:33:01 2019 :: mage.gui
+Mon Jun 17 13:33:01 2019 :: Cannot open clan vault
+Mon Jun 17 13:33:01 2019 :: ranger.gui
+Mon Jun 17 13:33:01 2019 :: Storeroom not found
+Mon Jun 17 13:33:01 2019 :: carnage.clan
+Mon Jun 17 13:33:01 2019 :: Storeroom not found
+Mon Jun 17 13:33:01 2019 :: scions.clan
+Mon Jun 17 13:33:01 2019 :: Storeroom not found
+Mon Jun 17 13:33:01 2019 :: lex.clan
+Mon Jun 17 13:33:01 2019 :: Cannot open clan vault
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: fread_word: EOF encountered on read.
+
+Mon Jun 17 13:33:01 2019 :: ÿ
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load clan file: ÿ
+Mon Jun 17 13:33:01 2019 :: $
+Mon Jun 17 13:33:01 2019 ::  Done clans 
+Mon Jun 17 13:33:01 2019 :: Loading councils
+Mon Jun 17 13:33:01 2019 :: Loading deities...
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: [*****] BUG: Cannot load deity file: ../deity/gandalug
+Mon Jun 17 13:33:01 2019 :: ../deity/pain
+Mon Jun 17 13:33:01 2019 :: $
+Mon Jun 17 13:33:01 2019 ::  Done deities 
+Mon Jun 17 13:33:01 2019 :: Loading deities
+Mon Jun 17 13:33:01 2019 :: Loading councils...
+Mon Jun 17 13:33:01 2019 :: $
+Mon Jun 17 13:33:01 2019 ::  Done councils 
+Mon Jun 17 13:33:01 2019 :: Loading watches
+Mon Jun 17 13:33:01 2019 :: Loading bans
+Mon Jun 17 13:33:01 2019 :: Done.
+Mon Jun 17 13:33:01 2019 :: Loading reserved names
+Mon Jun 17 13:33:01 2019 :: Loading Immortal Hosts
+Mon Jun 17 13:33:01 2019 :: Done.
+Mon Jun 17 13:33:01 2019 :: Loading Projects
+Mon Jun 17 13:33:01 2019 :: Loading Morphs
+Mon Jun 17 13:33:01 2019 :: Optimizing Morphs.
+Mon Jun 17 13:33:01 2019 :: Done.
+Mon Jun 17 13:33:01 2019 :: Awakening Questmaster
+Mon Jun 17 13:33:01 2019 :: Loading Scoreboards
+Mon Jun 17 13:33:01 2019 :: Initializing socket
+Mon Jun 17 13:33:01 2019 :: House of Ghouls ready at address mudhaven on port 6768.

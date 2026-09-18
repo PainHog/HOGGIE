@@ -1,0 +1,1394 @@
+#AREA   East Desert Oasis~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 40 0 65
+$
+
+#RESETMSG A cooling breeze gives comfort in the hot sun...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1038897044
+
+#CLIMATE 4 0 1
+
+#MOBILES
+#3901
+scorpion dull yellow~
+a dull yellow scorpion~
+A dull yellow scorpion rises from the sand and attempts to sting you!
+~
+This scorpion is dull yellow and a little larger than others you have seen.
+It is difficult to spot the creature against the color of the sand.  It holds
+its tail curled and posed to strike if you come near it.
+~
+97 98304 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 65541 256 0 0 8 0
+#3902
+scorpion dull yellow~
+a dull yellow scorpion~
+A dull yellow scorpion rises from the sand and attempts to sting you!
+~
+This scorpion is dull yellow and a little larger than others you have seen.
+It is difficult to spot the creature against the color of the sand.  It holds
+its tail curled and posed to strike if you come near it.
+~
+97 98304 0 C
+8 0 40 3d6+125 2d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 65541 256 0 0 8 0
+#3903
+guard bobcat~
+a guard bobcat~
+A small but vicious bobcat shrieks at you as you approach.
+~
+This bobcat must be used by the nomads as others use guard dogs, since it has
+a thick leather collar around its neck.  While small, its teeth and claws look
+fairly nasty.
+~
+65 -2143289344 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 66565 0 0 0 3 0
+#3904
+guard bobcat~
+a guard bobcat~
+A small but vicious bobcat shrieks at you as you approach.
+~
+This bobcat must be used by the nomads as others use guard dogs, since it has
+a thick leather collar around its neck.  While small, its teeth and claws look
+fairly nasty.
+~
+65 -2143289344 0 C
+24 0 -40 4d8+520 3d5+14
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 66565 0 0 0 3 0
+#3905
+nomad leader man~
+the nomad leader~
+A tall man, wrapped in the desert robes of the nomads, stands regally.
+~
+By the fine quality and exquisite design of this nomad's robes, you deduce he
+must be the leader of this small tribe.  His dark eyes watch you from under
+the wraps of cloth.
+~
+16777283 4194432&256 1000 C
+45 0 -145 4d4+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 0
+0 0 2047 2097152 0 0 320 1
+> death_prog 10~
+frown
+say But who will protect my people...?
+
+~
+|
+#3906
+nomad man~
+a nomad~
+A tall nomad walks about the camp.
+~
+Wrapped in the clothes and robes of the desert people, this tall nomad stalks
+about the camp, gathering water and food for his journey through the desert.
+~
+16777281 -2143289344 1000 C
+40 0 -145 4d4+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 320 1
+#3907
+nomad woman~
+a nomad~
+A tall nomad walks about the camp.
+~
+Wrapped in the clothes and robes of the desert people, this tall nomad stalks
+about the camp, gathering water and food for her journey through the desert.
+~
+16777281 -2143289344 1000 C
+36 0 -145 4d4+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 320 1
+#3908
+nomad man~
+a nomad~
+A tall nomad walks about the camp.
+~
+Wrapped in the clothes and robes of the desert people, this tall nomad stalks
+about the camp, gathering water and food for his journey through the desert.
+~
+16777281 -2143289344 1000 C
+32 0 -145 4d4+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 320 1
+#3909
+nomad woman~
+a nomad~
+A tall nomad walks about the camp.
+~
+Wrapped in the clothes and robes of the desert people, this tall nomad stalks
+about the camp, gathering water and food for her journey through the desert.
+~
+16777281 -2143289344 1000 C
+28 0 -145 4d4+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 320 1
+#3910
+nomad Darrel Zel'hir ranger man~
+the nomad, Darrel Zel'hir~
+A tall man, dressed in desert garb, looks you over as you approach.
+~
+This man is formidable indeed...all you can see is his eyes peeking out of a
+desert cowl.  Dressed and robed in the style of the Talon nomads, he has
+various pouches and bags hanging from his waist, right next to the large
+scimitar.  Upon sighting the large blade, you notice the strange green gem in
+the hilt, and all those tavern tales come rushing back to you....this is
+Darrel Zel'hir, Master Nomad of the East, and is not to be trifled with.
+~
+17826817 -1839169408&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1835007 1 0
+0 0 2047 3145728 0 0 16778224 524295
+> death_prog 20~
+say Now I wander to the great desert in the sky!
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#4000
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#3901
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3902
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3903
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3904
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3905
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3906
+tent large~
+a large tent~
+A large cloth tent stands amongst the trees.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3907
+scimitar~
+a curved scimitar~
+A curved scimitar glints in the sand.
+~
+~
+5 0 131073
+12 2 5 1
+3 250 0
+#3908
+nomad robes~
+the robes of a nomad~
+A fine set of desert robes lies in a heap here.~
+~
+9 64 65
+6 6 0 0
+1 300 0
+A
+19 2
+A
+2 2
+A
+14 75
+#3909
+nomad robes~
+the robes of a nomad~
+A set of desert robes lies in a heap here.~
+~
+9 0 65
+4 4 0 0
+1 200 0
+#3910
+camelskin skin waterpouch water pouch~
+a camelskin waterpouch~
+A camelskin water pouch lies in the dust.~
+~
+17 0 4097
+50 50 0 0
+2 50 0
+#3911
+water muddy pool~
+a small muddy pool~
+A small pool of muddy water, the collected drippings of hundreds of years.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4000
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3901
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, seeming to follow a tall
+ridge of dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3902
+D3
+Exit description~
+~
+0 0 1330
+S
+#3902
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, seeming to follow a tall
+ridge of dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3903
+D3
+Exit description~
+~
+0 0 3901
+S
+#3903
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, seeming to follow a tall
+ridge of dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3904
+D3
+Exit description~
+~
+0 0 3902
+S
+#3904
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, seeming to follow a tall
+ridge of dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3905
+D3
+Exit description~
+~
+0 0 3903
+S
+#3905
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, seeming to follow a tall
+ridge of dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3906
+D3
+Exit description~
+~
+0 0 3904
+S
+#3906
+Walking The Dune Ridge~
+The footprints follow the tall ridge of dunes as the make a curve towards the
+north.  The sand makes walking difficult, and if you don't take care, you
+could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D0
+~
+~
+0 0 3907
+D3
+Exit description~
+~
+0 0 3905
+S
+#3907
+Walking The Dune Ridge~
+The footprints continue north and south along the tall ridgeline.  The sand
+makes walking difficult, and if you don't take care, you could fall down into
+one of the deep bowls to either side.
+~
+0 0 10
+D0
+~
+~
+0 0 3908
+D2
+Exit description~
+~
+0 0 3906
+S
+#3908
+Walking The Dune Ridge~
+Turning to the east again, the footprints continue along the tall ridge of the
+sand dunes.  The sand makes walking difficult, and if you don't take care, you
+could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3909
+D2
+Exit description~
+~
+0 0 3907
+S
+#3909
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3910
+D3
+Exit description~
+~
+0 0 3908
+S
+#3910
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3911
+D3
+Exit description~
+~
+0 0 3909
+S
+#3911
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D1
+~
+~
+0 0 3912
+D3
+Exit description~
+~
+0 0 3910
+S
+#3912
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.  To
+the east, the sand seems to give way to an outcrop of rock.
+~
+0 0 10
+D1
+~
+~
+0 0 3913
+D3
+Exit description~
+~
+0 0 3911
+S
+#3913
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.  To
+the east, the sand seems to give way to an outcrop of rock.
+~
+0 0 10
+D1
+~
+~
+0 0 3914
+D3
+Exit description~
+~
+0 0 3912
+S
+#3914
+Amongst The Rocks~
+An large outcrop of rocks sticks out in the middle of the sand dunes.  The
+rocks form a natural passageway to the north, offering a dark place to hide
+from the hot daytime sun.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3948
+D1
+~
+~
+0 0 3915
+D3
+Exit description~
+~
+0 0 3913
+S
+#3915
+Walking The Dune Ridge~
+Running in an east and west direction, the footprints continue along the tall
+ridge of the sand dunes.  The sand makes walking difficult, and if you don't
+take care, you could fall down into one of the deep bowls to either side.  To
+the west, the sand seems to give way to an outcrop of rock.
+~
+0 0 10
+D1
+~
+~
+0 0 3916
+D3
+Exit description~
+~
+0 0 3914
+S
+#3916
+Walking The Dune Ridge~
+Turning again to the south, the footprints continue along the tall ridge of
+the sand dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.  To the west,
+the sand seems to give way to an outcrop of rock.
+~
+0 0 10
+D2
+~
+~
+0 0 3917
+D3
+Exit description~
+~
+0 0 3915
+S
+#3917
+Walking The Dune Ridge~
+Once again headed east, the footprints continue along the tall ridge of
+the sand dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3916
+D1
+~
+~
+0 0 3918
+S
+#3918
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, the footprints continue along
+the tall ridge of the sand dunes.  The sand makes walking difficult, and if
+you don't take care, you could fall down into one of the deep bowls to either
+side.
+~
+0 0 10
+D1
+~
+~
+0 0 3919
+D3
+Exit description~
+~
+0 0 3917
+S
+#3919
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, the footprints continue along
+the tall ridge of the sand dunes.  The sand makes walking difficult, and if
+you don't take care, you could fall down into one of the deep bowls to either
+side.
+~
+0 0 10
+D1
+~
+~
+0 0 3920
+D3
+Exit description~
+~
+0 0 3918
+S
+#3920
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, the footprints continue along
+the tall ridge of the sand dunes.  The sand makes walking difficult, and if
+you don't take care, you could fall down into one of the deep bowls to either
+side.
+~
+0 0 10
+D1
+~
+~
+0 0 3921
+D3
+Exit description~
+~
+0 0 3919
+S
+#3921
+Walking The Dune Ridge~
+Faint footprints in the sand lead west and east, the footprints continue along
+the tall ridge of the sand dunes.  The sand makes walking difficult, and if
+you don't take care, you could fall down into one of the deep bowls to either
+side.
+~
+0 0 10
+D1
+~
+~
+0 0 3922
+D3
+Exit description~
+~
+0 0 3920
+S
+#3922
+Walking The Dune Ridge~
+Looping around south again, the footprints continue along the tall ridge of
+the sand dunes.  The sand makes walking difficult, and if you don't take care,
+you could fall down into one of the deep bowls to either side.  You sight the
+tops of trees poke over the dunes to the southeast, and the smell of water is
+in the air.
+~
+0 0 10
+D2
+~
+~
+0 0 3923
+D3
+Exit description~
+~
+0 0 3921
+S
+#3923
+Walking The Dune Ridge~
+You come to the end of the dune ridge, and safe slope before you.  Around the
+side of the dune, you catch sight of a small oasis, with several small tents
+placed about the area.
+~
+0 0 10
+D0
+~
+~
+0 0 3922
+D2
+~
+~
+0 0 3924
+S
+#3924
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered to the east, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3923
+D1
+~
+~
+0 0 3925
+S
+#3925
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered to the east, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D1
+~
+~
+0 0 3926
+D3
+Exit description~
+~
+0 0 3924
+S
+#3926
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3927
+D1
+Exit description~
+~
+0 0 3945
+D2
+Exit description~
+~
+0 0 3941
+D3
+Exit description~
+~
+0 0 3925
+S
+#3927
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3928
+D1
+Exit description~
+~
+0 0 3944
+D2
+Exit description~
+~
+0 0 3926
+S
+#3928
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3929
+D1
+Exit description~
+~
+0 0 3943
+D2
+Exit description~
+~
+0 0 3927
+S
+#3929
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D1
+~
+~
+0 0 3930
+D2
+Exit description~
+~
+0 0 3928
+S
+#3930
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3942
+D1
+~
+~
+0 0 3931
+D2
+Exit description~
+~
+0 0 3943
+D3
+Exit description~
+~
+0 0 3929
+S
+#3931
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D2
+~
+~
+0 0 3932
+D3
+Exit description~
+~
+0 0 3930
+S
+#3932
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3931
+D2
+~
+~
+0 0 3933
+D3
+Exit description~
+~
+0 0 3943
+S
+#3933
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3932
+D2
+~
+~
+0 0 3934
+D3
+Exit description~
+~
+0 0 3944
+S
+#3934
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3933
+D2
+~
+~
+0 0 3935
+D3
+Exit description~
+~
+0 0 3945
+S
+#3935
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3934
+D2
+~
+~
+0 0 3936
+D3
+Exit description~
+~
+0 0 3946
+S
+#3936
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3935
+D2
+~
+~
+0 0 3937
+D3
+Exit description~
+~
+0 0 3947
+S
+#3937
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3936
+D3
+~
+~
+0 0 3938
+S
+#3938
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+Exit description~
+~
+0 0 3947
+D1
+Exit description~
+~
+0 0 3937
+D3
+~
+~
+0 0 3939
+S
+#3939
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3940
+D1
+Exit description~
+~
+0 0 3938
+S
+#3940
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3941
+D1
+~
+~
+0 0 3947
+D2
+Exit description~
+~
+0 0 3939
+S
+#3941
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D0
+~
+~
+0 0 3926
+D1
+Exit description~
+~
+0 0 3946
+D2
+Exit description~
+~
+0 0 3940
+S
+#3942
+The East Desert Oasis~
+Standing amidst desert bushes and tall palm trees, you enjoy the cool air that
+floats about this small oasis.  Tents are gathered about the area, situated
+around the water.  The nomads of the area must of put up a little camp here.
+~
+0 0 10
+D2
+~
+~
+0 0 3930
+S
+#3943
+The East Desert Oasis~
+You wade into the cool waters of the oasis.  Shade is provided by the tall
+palm tree's towering over your head.  The pond is actually quite deeper than
+you thought, so be careful not to drown!
+~
+0 0 6
+D0
+~
+~
+0 0 3930
+D1
+~
+~
+0 0 3932
+D2
+~
+~
+0 0 3944
+D3
+~
+~
+0 0 3928
+S
+#3944
+The East Desert Oasis~
+You wade into the cool waters of the oasis.  Shade is provided by the tall
+palm tree's towering over your head.  The pond is actually quite deeper than
+you thought, so be careful not to drown!
+~
+0 0 6
+D0
+Exit description~
+~
+0 0 3943
+D1
+~
+~
+0 0 3933
+D2
+~
+~
+0 0 3945
+D3
+~
+~
+0 0 3927
+S
+#3945
+The East Desert Oasis~
+You wade into the cool waters of the oasis.  Shade is provided by the tall
+palm tree's towering over your head.  The pond is actually quite deeper than
+you thought, so be careful not to drown!
+~
+0 0 6
+D0
+Exit description~
+~
+0 0 3944
+D1
+~
+~
+0 0 3934
+D2
+~
+~
+0 0 3946
+D3
+~
+~
+0 0 3926
+S
+#3946
+The East Desert Oasis~
+You wade into the cool waters of the oasis.  Shade is provided by the tall
+palm tree's towering over your head.  The pond is actually quite deeper than
+you thought, so be careful not to drown!
+~
+0 0 6
+D0
+~
+~
+0 0 3945
+D1
+~
+~
+0 0 3935
+D2
+~
+~
+0 0 3947
+D3
+~
+~
+0 0 3941
+S
+#3947
+The East Desert Oasis~
+You wade into the cool waters of the oasis.  Shade is provided by the tall
+palm tree's towering over your head.  The pond is actually quite deeper than
+you thought, so be careful not to drown!
+~
+0 0 6
+D0
+Exit description~
+~
+0 0 3946
+D1
+~
+~
+0 0 3936
+D2
+~
+~
+0 0 3938
+D3
+~
+~
+0 0 3940
+S
+#3948
+Amongst The Rocks~
+An large outcrop of rocks sticks out in the middle of the sand dunes.  The
+rocks form a natural passageway to the north, offering a dark place to hide
+from the hot daytime sun.  The cavern entrance lies to the north.
+~
+0 0 10
+D0
+~
+~
+0 0 3949
+D2
+~
+~
+0 0 3914
+S
+#3949
+A Rocky Cavern~
+You instantly feel the cool of the shade as you enter the cavern.  It is quite
+rocky, with long stalactites hanging down from the ceiling, small puddles of
+dirty water sitting underneath them.
+~
+0 0 10
+D1
+~
+~
+0 0 3950
+D2
+Exit description~
+~
+0 0 3948
+S
+#3950
+A Rocky Cavern~
+You stand further back in the cool, dark cavern.  A small path seems formed
+amongst the debris.  It is quite rocky, with long stalactites hanging down
+from the ceiling, small puddles of dirty water sitting underneath them.
+~
+0 0 10
+D0
+~
+~
+0 0 3951
+D3
+Exit description~
+~
+0 0 3949
+S
+#3951
+A Rocky Cavern~
+You stand further back in the cool, dark cavern.  A small path seems formed
+amongst the debris.  It is quite rocky, with long stalactites hanging down
+from the ceiling, small puddles of dirty water sitting underneath them.
+~
+0 0 10
+D0
+~
+~
+0 0 3952
+D2
+Exit description~
+~
+0 0 3950
+S
+#3952
+A Rocky Cavern~
+You stand further back in the cool, dark cavern.  A small path seems formed
+amongst the debris.  It is quite rocky, with long stalactites hanging down
+from the ceiling, small puddles of dirty water sitting underneath them.
+~
+0 0 10
+D0
+~
+~
+0 0 3953
+D2
+Exit description~
+~
+0 0 3951
+S
+#3953
+A Rocky Cavern~
+You stand further back in the cool, dark cavern.  A small path seems formed
+amongst the debris.  It is quite rocky, with long stalactites hanging down
+from the ceiling, small puddles of dirty water sitting underneath them.  A
+narrow crack seems to head deeper into the rock.
+~
+0 0 10
+D2
+~
+~
+0 0 3952
+D5
+~
+~
+0 0 4201
+S
+#4000
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 3910 1 3924
+O 0 3911 1 3953
+M 0 3909 3 3927
+E 0 3909 1 7
+M 0 3909 3 3927
+E 0 3910 1 15
+M 0 3909 3 3927
+E 0 3907 1 21
+M 0 3908 3 3940
+M 0 3908 3 3940
+E 0 3909 1 7
+M 0 3908 3 3940
+M 0 3907 1 3936
+E 0 3907 1 21
+M 0 3907 1 3936
+E 0 3910 1 15
+M 0 3907 1 3936
+E 0 3909 1 7
+M 0 3906 3 3934
+M 0 3906 3 3934
+E 0 3909 1 7
+E 0 3907 1 21
+M 0 3906 3 3934
+E 0 3909 1 7
+E 0 3907 1 21
+M 0 3905 1 3942
+E 0 3908 15 7
+E 0 3907 1 21
+M 0 3904 2 3937
+M 0 3904 2 3937
+M 0 3903 3 3935
+M 0 3903 3 3935
+M 0 3903 3 3935
+M 0 3902 3 3916
+M 0 3902 3 3916
+M 0 3902 3 3916
+M 0 3901 3 3910
+M 0 3901 3 3910
+M 0 3901 3 3910
+O 0 3906 1 3940
+O 0 3905 1 3938
+O 0 3904 1 3935
+O 0 3903 1 3933
+O 0 3902 1 3928
+O 0 3901 1 3942
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3901 spec_poison
+M  3910 spec_cast_druid
+S
+
+
+#$

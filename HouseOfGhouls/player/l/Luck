@@ -1,0 +1,108 @@
+#PLAYER
+Version      3
+Name         Luck~
+ID           1948
+Sex          1
+Class        3
+Dual         3
+Race         8
+Languages    1 1
+Level        2
+Played       613
+Room         21009
+HpManaMove   41 41 91 91 114 114
+Gold         0
+Exp          90
+Tier	       1
+Tierexp      0
+Height          117
+Weight          318
+Act          704644680&12
+AffectedBy   512
+Position     112
+Style     2
+Practice     15
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	       0
+Balance      0
+Mobmaster    0
+MobMTicks    0
+NextMobM     0
+Glory        0
+MGlory       0
+Scoremobm    0
+Scoremk      0
+Scoreqp      0
+Scorepk      0
+Scoregold    0
+Scorexp      90
+Scoremp      0
+Scoresp      0
+SkillPoints  0
+MagicPoints  0
+Rent		 0
+Hitroll      0
+Damroll      0
+Armor        100
+ArmorWorn    0
+Resistant    112
+Susceptible  129
+Mentalstate  0
+Password     Lu5SSsag7uzHg~
+Title         the Swordpupil~
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     21 18 16 15 14 7 17
+AttrMod      0 0 0 0 0 0 0
+Condition    0 95 95 10
+Site         68.2.73.137
+Tongue       100 'common'
+Tongue       100 'trollese'
+MaxColors    98
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 10 14 13 15 15 15 9 11 9 31 25 10 6 6 10 6 11 9 10 1 15 13 12 7 10 13 12 10 10 12 10 3 12 9 15 11 3 14 2 5 15 9 8 2 9 12 9 2 10 15 7 7 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 9 15 10 0 
+End
+
+#OBJECT
+Name         adventurer's guide book university~
+ShortDescr   The Adventurer's Guide~
+Description  A book with "DON'T PANIC, LOOK AT ME!" written on the cover lies here.~
+ActionDesc   ~
+Ovnum         10333
+WearLoc      24
+Values       5 5 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         dragonskin skin water~
+ShortDescr   a dragonskin~
+Description  You see a dragonskin water container here.~
+ActionDesc   ~
+Ovnum         10314
+Values       15 15 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         orb eye enlightenment university.~
+ShortDescr   an Eye of Enlightenment~
+Description  A glistening orbs shines as a guiding light to new adventurers.~
+ActionDesc   ~
+Ovnum         10311
+WearLoc      0
+Values       0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         sword university~
+ShortDescr   a usable sword~
+Description  You see a usable sword here.~
+ActionDesc   ~
+Ovnum         10313
+Values       12 1 7 3 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#END

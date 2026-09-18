@@ -1,0 +1,1542 @@
+#AREA   Spider Forest~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+10 25 0 65
+$
+
+#RESETMSG A strange clicking sound comes from all around...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 967936349
+
+#CLIMATE 1 1 1
+
+#MOBILES
+#501
+spider baby~
+a baby spider~
+A baby spider slowly makes its way amongst the branches.
+~
+This small spider is newly hatched.  It hasn't even been around long enough
+for its carapace to harden, so its body is still soft.  It creeps along,
+looking for small creatures trapped in the web.
+~
+16777281 0 0 C
+7 0 55 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#502
+spider baby~
+a baby spider~
+A baby spider slowly makes its way amongst the branches.
+~
+This small spider is newly hatched.  It hasn't even been around long enough
+for its carapace to harden, so its body is still soft.  It creeps along,
+looking for small creatures trapped in the web.
+~
+16777281 0 0 C
+7 0 55 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#503
+spider baby~
+a baby spider~
+A baby spider slowly makes its way amongst the branches.
+~
+This small spider is newly hatched.  It hasn't even been around long enough
+for its carapace to harden, so its body is still soft.  It creeps along,
+looking for small creatures trapped in the web.
+~
+16777281 0 0 C
+7 0 55 3d6+110 2d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#504
+spider small~
+a small spider~
+A small spider scutters about the web.
+~
+This small spider scuttles away as you approach, trying to climb up to a point
+where you can't reach it.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#505
+spider small~
+a small spider~
+A small spider scutters about the web.
+~
+This small spider scuttles away as you approach, trying to climb up to a point
+where you can't reach it.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#506
+spider small~
+a small spider~
+A small spider scutters about the web.
+~
+This small spider scuttles away as you approach, trying to climb up to a point
+where you can't reach it.
+~
+16777281 0 0 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 0 0 0 0 0
+#507
+spider~
+a spider~
+A spider the size of your head creeps about.
+~
+This spider is fairly big, about the size of your head...maybe even a bit
+bigger.  It wiggles its front legs at you, hoping to warn you away from
+attacking it.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 256 0 0 1 0
+#508
+spider~
+a spider~
+A spider the size of your head creeps about.
+~
+This spider is fairly big, about the size of your head...maybe even a bit
+bigger.  It wiggles its front legs at you, hoping to warn you away from
+attacking it.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 256 0 0 1 0
+#509
+spider~
+a spider~
+A spider the size of your head creeps about.
+~
+This spider is fairly big, about the size of your head...maybe even a bit
+bigger.  It wiggles its front legs at you, hoping to warn you away from
+attacking it.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 256 0 0 1 0
+#510
+spider~
+a spider~
+A spider the size of your head creeps about.
+~
+This spider is fairly big, about the size of your head...maybe even a bit
+bigger.  It wiggles its front legs at you, hoping to warn you away from
+attacking it.
+~
+16777281 0 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 4100 256 0 0 1 0
+#511
+spider large~
+a large spider~
+A spider nearly as big as you sits quietly.
+~
+Holy cow, this spider is really big!  It's body alone is nearly as big as
+yours, and its long legs make it look even larger.  It has fangs about as long
+as your hand...they look pretty scary!
+~
+16777281 0 -1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 528388 256 0 0 131073 0
+#512
+spider large~
+a large spider~
+A spider nearly as big as you sits quietly.
+~
+Holy cow, this spider is really big!  It's body alone is nearly as big as
+yours, and its long legs make it look even larger.  It has fangs about as long
+as your hand...they look pretty scary!
+~
+16777281 0 -1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 528388 256 0 0 131073 0
+#513
+spider large~
+a large spider~
+A spider nearly as big as you sits quietly.
+~
+Holy cow, this spider is really big!  It's body alone is nearly as big as
+yours, and its long legs make it look even larger.  It has fangs about as long
+as your hand...they look pretty scary!
+~
+16777281 0 -1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 528388 256 0 0 131073 0
+#514
+spider wolf hairy~
+the wolf spider~
+A large hairy spider jumps from the hole and attacks!
+~
+A hug wolf spider, covered in brown bristles, has been tracking the vibrations
+of your movement ever since you scaled the first tree.  It leaps at you,
+hoping its poison will subdue you enough to provide it with a snack.
+~
+99 4194304 0 C
+25 0 -15 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 2 0 0 1 1 0
+0 0 4109 0 256 0 131073 0
+#515
+spider black widow~
+the black widow~
+A large black spider creeps towards you menacingly...
+~
+This huge black widow towers above you when she stands up.  The blood red
+hourglass on her underbelly would be a big warning to you, if you weren't
+already aware of how dangerous this creature is.  Her tough, black carapace
+looks like it can absorb quite a bit of damage.
+~
+67 4194304 -1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 25 0 0 1 1 0
+0 0 528397 0 272 0 131585 1
+> death_prog 5~
+emote flails about in her death throes, pointed legs whipping around you!
+rinvoke artifact
+~
+|
+#600
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#501
+Object name~
+A newly created object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#600
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#501
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.  The trail opens out onto a wider
+path to the west.
+~
+0 0 3
+D1
+~
+~
+0 0 502
+D3
+~
+~
+0 0 1904
+S
+#502
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 503
+D3
+Exit description~
+~
+0 0 501
+S
+#503
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 504
+D3
+Exit description~
+~
+0 0 502
+S
+#504
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 505
+D3
+Exit description~
+~
+0 0 503
+S
+#505
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 506
+D3
+Exit description~
+~
+0 0 504
+S
+#506
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D0
+~
+~
+0 0 507
+D3
+Exit description~
+~
+0 0 505
+S
+#507
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D0
+~
+~
+0 0 508
+D2
+Exit description~
+~
+0 0 506
+S
+#508
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 509
+D2
+Exit description~
+~
+0 0 507
+S
+#509
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.
+~
+0 0 3
+D1
+~
+~
+0 0 510
+D3
+Exit description~
+~
+0 0 508
+S
+#510
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.  Strange wisps of ghostlike thread
+dangles from the branches above you.
+~
+0 0 3
+D1
+~
+~
+0 0 511
+D3
+Exit description~
+~
+0 0 509
+S
+#511
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.  Strange wisps of ghostlike thread
+dangles from the branches above you.
+~
+0 0 3
+D1
+~
+~
+0 0 512
+D3
+Exit description~
+~
+0 0 510
+S
+#512
+An Overgrown Path~
+You travel on a narrow path forced through the thick forest growth.  Perhaps
+this was an old game trail.  Weeds and other vines crisscross their way across
+the dirt path, making walking difficult.  The strange threads are much thicker
+here, and it appears they create some sort of hole, leading up into the
+branches above you.
+~
+0 0 3
+D3
+Exit description~
+~
+0 0 511
+D4
+~
+~
+0 0 513
+S
+#513
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 514
+D5
+Exit description~
+~
+0 0 512
+S
+#514
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 515
+D3
+Exit description~
+~
+0 0 513
+S
+#515
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 516
+D2
+Exit description~
+~
+0 0 538
+D3
+Exit description~
+~
+0 0 514
+S
+#516
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 517
+D2
+Exit description~
+~
+0 0 515
+S
+#517
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  A small bird struggles to escape the strange web.
+~
+0 0 3
+D0
+~
+~
+0 0 518
+D2
+Exit description~
+~
+0 0 516
+S
+#518
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 519
+D2
+Exit description~
+~
+0 0 517
+S
+#519
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 520
+D3
+Exit description~
+~
+0 0 518
+S
+#520
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 521
+D3
+Exit description~
+~
+0 0 519
+S
+#521
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 522
+D3
+Exit description~
+~
+0 0 520
+S
+#522
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+~
+~
+0 0 523
+D3
+Exit description~
+~
+0 0 521
+S
+#523
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  A little lizard lays helplessly entrapped in the
+threads.
+~
+0 0 3
+D1
+~
+~
+0 0 524
+D3
+Exit description~
+~
+0 0 522
+S
+#524
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D2
+~
+~
+0 0 525
+D3
+Exit description~
+~
+0 0 523
+S
+#525
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 524
+D2
+~
+~
+0 0 526
+S
+#526
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  A bird chirps faintly, stuck deep in the web.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 525
+D2
+~
+~
+0 0 527
+S
+#527
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 526
+D2
+~
+~
+0 0 528
+D3
+~
+~
+0 0 539
+S
+#528
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 527
+D2
+~
+~
+0 0 529
+S
+#529
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 528
+D2
+~
+~
+0 0 530
+S
+#530
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 529
+D3
+~
+~
+0 0 531
+S
+#531
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 530
+D3
+~
+~
+0 0 532
+S
+#532
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  A small squirrel is almost completely wrapped up in
+the web.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 531
+D3
+~
+~
+0 0 533
+S
+#533
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 532
+D3
+~
+~
+0 0 534
+S
+#534
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 533
+D3
+~
+~
+0 0 535
+S
+#535
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 534
+D3
+~
+~
+0 0 536
+S
+#536
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 537
+D1
+Exit description~
+~
+0 0 535
+S
+#537
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 538
+D2
+Exit description~
+~
+0 0 536
+S
+#538
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D0
+~
+~
+0 0 515
+D2
+Exit description~
+~
+0 0 537
+S
+#539
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  The dry carcass of a songbird is still caught in
+the threads.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 527
+D3
+~
+~
+0 0 540
+S
+#540
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 539
+D3
+~
+~
+0 0 541
+S
+#541
+Amongst The Branches~
+You now stand on a strange carpet of cottony threads, woven tightly throughout
+the branches of these trees.  They are somewhat sticky, but not so much that
+it impedes your movement.  It seems something has used these fibers to create
+a path through the trees.  You spy a narrow hole leading further up into the
+leaves of a large tree.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 540
+D4
+~
+~
+0 0 542
+S
+#542
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 560
+D1
+~
+~
+0 0 543
+D2
+Exit description~
+~
+0 0 562
+D3
+Exit description~
+~
+0 0 561
+D5
+Exit description~
+~
+0 0 541
+S
+#543
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+~
+~
+0 0 544
+D3
+Exit description~
+~
+0 0 542
+S
+#544
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 545
+D1
+Exit description~
+~
+0 0 563
+D2
+Exit description~
+~
+0 0 559
+D3
+Exit description~
+~
+0 0 543
+S
+#545
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 546
+D2
+Exit description~
+~
+0 0 544
+S
+#546
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 545
+D3
+~
+~
+0 0 547
+S
+#547
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 546
+D3
+~
+~
+0 0 548
+S
+#548
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 564
+D1
+Exit description~
+~
+0 0 547
+D2
+Exit description~
+~
+0 0 560
+D3
+~
+~
+0 0 549
+S
+#549
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 548
+D3
+~
+~
+0 0 550
+S
+#550
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 549
+D2
+~
+~
+0 0 551
+S
+#551
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 550
+D2
+~
+~
+0 0 552
+S
+#552
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 551
+D1
+Exit description~
+~
+0 0 561
+D2
+~
+~
+0 0 553
+D3
+Exit description~
+~
+0 0 565
+S
+#553
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 552
+D2
+~
+~
+0 0 554
+S
+#554
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 553
+D1
+~
+~
+0 0 555
+S
+#555
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+~
+~
+0 0 556
+D3
+Exit description~
+~
+0 0 554
+S
+#556
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 562
+D1
+~
+~
+0 0 557
+D2
+Exit description~
+~
+0 0 566
+D3
+Exit description~
+~
+0 0 555
+S
+#557
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+~
+~
+0 0 558
+D3
+Exit description~
+~
+0 0 556
+S
+#558
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 559
+D3
+Exit description~
+~
+0 0 557
+S
+#559
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 544
+D2
+Exit description~
+~
+0 0 558
+S
+#560
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 548
+D2
+~
+~
+0 0 542
+S
+#561
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D1
+~
+~
+0 0 542
+D3
+~
+~
+0 0 552
+S
+#562
+Deep In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.
+~
+0 0 3
+D0
+~
+~
+0 0 542
+D2
+~
+~
+0 0 556
+S
+#563
+A Webbed Hollow~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.  A small hollow alcove
+in a tree is here, surprisingly free of webbing.
+~
+0 1024 3
+D3
+~
+~
+0 0 544
+S
+#564
+The Sticky Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is very
+sticky here, and you find it almost impossible to pull yourself free.
+~
+0 0 3
+D2
+~
+~
+0 0 548
+S
+#565
+A Hole In The Web~
+The strong fibers of the web are quite thick here, and the thought of the size
+of the spider that could spin them gives you a pause.  Faint light trickles
+down through the web stretched throughout the branches.  The web is a bit
+stickier here, and it pulls at you as you walk about.  What appears to be a
+hole leading down is spun in the web here, but it isn't big enough for you to
+fit into.
+~
+0 0 3
+D1
+~
+~
+0 0 552
+S
+#566
+The Enclosed Web~
+The web is so thick here, it actually forms a large chamber.  No light is able
+to get through the thick, sticky strands, making this room quite dark.  Many
+small bundles are stuck about the walls of this chamber...they look like
+spider eggs.
+~
+0 1 3
+D0
+~
+~
+0 0 556
+S
+#600
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 515 1 564
+M 0 514 1 565
+M 0 513 2 539
+M 0 513 2 539
+M 0 512 2 558
+M 0 512 2 558
+M 0 511 2 550
+M 0 511 2 550
+M 0 510 3 543
+M 0 510 3 543
+M 0 510 3 543
+M 0 509 3 561
+M 0 509 3 561
+M 0 509 3 561
+M 0 508 3 530
+M 0 508 3 530
+M 0 508 3 530
+M 0 507 3 518
+M 0 507 3 518
+M 0 507 3 518
+M 0 506 3 536
+M 0 506 3 536
+M 0 506 3 536
+M 0 505 3 524
+M 0 505 3 524
+M 0 505 3 524
+M 0 504 3 512
+M 0 504 3 512
+M 0 504 3 512
+M 0 503 2 542
+M 0 503 2 542
+M 0 502 3 541
+M 0 502 3 541
+M 0 502 3 541
+M 0 501 5 566
+M 0 501 5 566
+M 0 501 5 566
+M 0 501 5 566
+M 0 501 5 566
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

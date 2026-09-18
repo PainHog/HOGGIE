@@ -1,0 +1,689 @@
+#AREA Cracked Skull Cave~
+
+#VERSION 1
+
+#CLIMATE 1 0 0
+
+#AUTHOR Meryk~
+
+#RANGES
+5 10 0 65
+$
+
+#RESETMSG A foul odor fills the air.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 0
+
+#MOBILES
+#1
+goblin grunt~
+a goblin grunt~
+A goblin is here carrying firewood.
+~
+~
+97 0 -1 C
+6 0 0 20d6+20 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 52 83 16384 16384 0
+3 6 2047 0 0 0 0 0
+#2
+goblin berserker~
+a goblin berserker~
+An armored goblin is here wandering the cave.
+~
+~
+33 0 0 C
+9 0 0 20d9+29 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 56 95 16384 16384 0
+4 9 2047 0 0 0 0 0
+#3
+goblin shaman~
+a goblin shaman~
+A goblin is here dressed in bone armor.
+~
+~
+33 0 0 C
+14 0 0 20d14+34 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 7 54 82 16384 16384 0
+5 10 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#1
+hole dirt~
+a dug out hole~
+A small hole has been dug and covered up here.~
+~
+15 536870912 0 0
+0 0 0 0
+1 0 0
+E
+hole dirt~
+Upon further examination of your surroundings, you discover that someone has dug
+out a small hole near the front of the cave, and then used dirt to cover it up.~
+#2
+cracked skull cave key~
+an undefined key~
+A rusted and harshly treated key lies here.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0
+#3
+skeleton goblin~
+a skeleton~
+A skeleton sits against the wall of the cave.~
+~
+23 0 0 0
+0 0 0 0
+1 0 0
+E
+skeleton~
+This frail skeleton resembles that of a goblin, but is clearly decades old.  
+You can see that a small rat has made  the skeleton's rib cage its home, and 
+that  a leather strap hangs around its neck.
+~
+#4
+pewter amulet leather strap pendant~
+a leather strap with pewter pendant~
+A worn and brittle leather strap lies here.~
+~
+8 0 33 0
+0 2 0 0
+1 15 1
+A
+20 3
+A
+13 -15
+#5
+stick firewood~
+a stick of firewood~
+A lengthy stick of firewood lies here.~
+~
+5 0 131073 0
+9 2 3 8
+1 0 0
+#6
+firewood sticks~
+some sticks of firewood~
+A pile of firewood lies here.~
+~
+13 0 0 0
+0 0 0 0
+6 0 0
+#7
+leather cuirass~
+a beat-up leather cuirass~
+A scarred and worn leather cuirass lies here.~
+~
+9 0 65 0
+2 5 0 0
+4 0 0
+#8
+cracked leather pants~
+a set of cracked leather pants~
+Some worn leather pants lie here.~
+~
+9 0 16385 0
+3 4 0 0
+4 0 0
+#9
+chipped war axe~
+a chipped war axe~
+An overly used war axe lies here.~
+~
+5 0 131073 0
+6 3 5 3
+15 0 0
+#10
+staff lightning~
+a wooden staff of lightning~
+An wooden staff with arcane engravings lies here.~
+~
+4 0 1048577 0
+10 10 10 -1
+3 250 25
+'lightning bolt'
+#11
+bone cuirass~
+a bone cuirass~
+A cuirass made of bone lies here.~
+~
+9 0 65 0
+6 6 0 0
+6 0 0
+A
+24 -7
+#12
+reinforced leather pants~
+a set of reinforced leather pants~
+Pants reinforced with bones lie here.~
+~
+9 0 16385 0
+7 8 0 0
+8 0 0
+A
+24 -3
+#0
+
+#ROOMS
+#1
+A Matted Down Clearing~
+A pit of  smoldering coals  warms the immediate  clearing before the entrance to
+Cracked Skull Cave, and looks as if it is in need of attention. A large oak tree
+watches over the cave, which seems to have been cut out of the rocks that pierce
+through the realm's skin like a worn ogre's tooth through the meat of  a chicken
+that has been overcooked. A large black kettle, half full of vegetable and  herb
+stew, sits near the fire, but not on it. A large canvas sack rests near the open
+mouth of the cavern. Some dirt seems to be out of place near the cave entrance.
+~
+0 0 2 0 0 0
+D0
+~
+~
+16777216 0 2 0
+E
+vegetable herb stew kettle~
+This stew smells foul and rotten, but is warm to the touch, meaning that it  has
+been recently prepared and eaten by whatever may be using the cave as a dwelling.~
+E
+canvas sack bag~
+The bag is stuffed full of potatoes,  giving off an ugly  stench due to rot. The
+sack itself looks as if it would  fall to pieces if someone was to try  and pick
+if up.~
+E
+fire smoldering coals~
+The coals are still very warm, but without  wood to keep the fire going, it will
+definitely go out within the hour.~
+E
+hole dirt~
+Upon further examinations  of your surroundings, you  notice that something  has
+been burried here.~
+S
+#2
+Cracked Skull Cave~
+Mold covers the stone walls  of the corridor, casting  a green tinted reflection
+throughout. Loose rocks form the cavern floor, declining into the cave. A  light
+flickers further into the corridor, likely caused by a torch light. A  muttering
+can be heard echoing off of the rock walls, but are muffled by the mold so  well
+that the origin can not be made out. The smoldering coals of a fire can  be seen
+to the south.
+~
+0 0 0 0 0 0
+D2
+~
+~
+16777216 0 1 0
+D0
+~
+~
+0 0 3 0
+E
+fire smoldering coals~
+The coals are still very warm, but without  wood to keep the fire going, it will
+definitely go out within the hour.~
+S
+#3
+Cracked Skull Cave~
+The roof of the corridor is no longer solid rock, and  shows signs of dirt  that
+is packed tightly enough to support the cave's large walkway. Mold is dense upon
+the rock walls, but lessens toward deeper into the cavern  as the rock turns  to
+dirt. A warm light flickers to the north as the loose rock floor becomes steady.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 2 0
+D0
+~
+~
+0 0 4 0
+S
+#4
+Cracked Skull Cave~
+The corridor now splits  into three directions, with dirt floor walkways  to the
+and to the east. A torch hsa been inserted into a  crack in the western wall  to
+provide light for each of the directions. Tightly packed dirt serves the purpose
+of both floor and wall, giving a sturdy place to walk for any who try. Roots can
+be seen hanging from the ceiling of the corridor.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 3 0
+D0
+~
+~
+0 0 5 0
+D1
+~
+~
+0 0 23 0
+E
+torch west crack~
+Giving off excellent amounts of light is this torch that has been inserted  into
+a crack, either naturally or manually created,  to allow those who  travel these
+corridors confident steps.~
+E
+roots ceiling~
+Some large roots can be seen hanging from the ceiling, casting eerie shadows  on
+the wall.~
+S
+#5
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 4 0
+D0
+~
+~
+0 0 6 0
+S
+#6
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 5 0
+D0
+~
+~
+0 0 7 0
+S
+#7
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 6 0
+D0
+~
+~
+0 0 8 0
+S
+#8
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 7 0
+D1
+~
+~
+0 0 9 0
+S
+#9
+Cracked Skull Cave~
+The corridor twists and turns, losing the light from the torch near the entrance
+to Cracked Skull Cave. A skeleton lies on the floor of the cave, its back rested
+against the wall as if it knew its own death was coming. Muffling grunts can  be
+heard deeper into the cave.
+~
+0 0 13 0 0 0
+D3
+~
+~
+0 0 7 0
+D0
+~
+~
+0 0 10 0
+S
+#10
+Cracked Skull Cave~
+The corridor twists and turns, losing the light from the torch near the entrance
+to Cracked Skull Cave. A skeleton lies on the floor of the cave, its back rested
+against the wall as if it knew its own death was coming. Muffling grunts can  be
+heard deeper into the cave.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 9 0
+D0
+~
+~
+0 0 11 0
+S
+#11
+Cracked Skull Cave~
+The cave has grown dark, even  with the help of  a light source, except for  one
+small crack of light toward the east. The surroundings  of the crack can not  be
+made out at this time, but the usual dirt and rock continue to make up the walls
+and floor of the corridor.
+~
+0 0 13 0 0 0
+D2
+~
+~
+0 0 10 0
+D1
+~
+~
+0 0 12 0
+S
+#12
+Cracked Skull Cave~
+Rotted wood  is nestled into the hole in  the cave wall, preventing anyone  from
+venturing deeper into the cavern. The wall around the door is a solid mixture of
+rock and dirt, and seems to  be there naturally. A light can  be seen flickering
+from beneath the door.
+~
+0 0 13 0 0 0
+D3
+~
+~
+0 0 11 0
+D1
+~
+~
+7 2 13 0
+S
+#13
+Cracked Skull Cave Main Cavern~
+A small number of lanterns illuminate the main cavern of Cracked Skull Cave, and
+showcase some recently used bedrolls upon the floor. Also visible are  a pair of
+unkept chairs  that would surly break if  a large creature were to use it.  They
+are nestled beneath  a table crafted of rotted planks  of wood that would better
+serve as food for a camp fire.
+~
+0 0 13 0 0 0
+D3
+~
+~
+7 2 12 0
+D1
+~
+~
+0 0 14 0
+D2
+~
+~
+0 0 15 0
+E
+bedroll bed~
+A threesome of padded canvas have been placed in the northest corner of this big
+cavern. It looks as if they are used regularly, and give off a vile stench.~
+E
+chair chairs table~
+A pair of poorly made chair nest against  a small and rotted wood table.  Wooden
+bowls, with clues of recent use, sit upon the table top, empty save for  a spoon
+in each.~
+S
+#14
+Cracked Skull Cave Main Cavern~
+A small number of lanterns illuminate the main cavern of Cracked Skull Cave, and
+showcase some recently used bedrolls upon the floor. Also visible are  a pair of
+unkept chairs  that would surly break if  a large creature were to use it.  They
+are nestled beneath  a table crafted of rotted planks  of wood that would better
+serve as food for a camp fire.
+~
+0 0 13 0 0 0
+D3
+~
+~
+0 0 13 0
+D2
+~
+~
+0 0 16 0
+E
+bedroll bed~
+A threesome of padded canvas have been placed in the northest corner of this big
+cavern. It looks as if they are used regularly, and give off a vile stench.~
+E
+chair chairs table~
+A pair of poorly made chair nest against  a small and rotted wood table.  Wooden
+bowls, with clues of recent use, sit upon the table top, empty save for  a spoon
+in each.~
+S
+#15
+Cracked Skull Cave Main Cavern~
+A small number of lanterns illuminate the main cavern of Cracked Skull Cave, and
+showcase some recently used bedrolls upon the floor. Also visible are  a pair of
+unkept chairs  that would surly break if  a large creature were to use it.  They
+are nestled beneath  a table crafted of rotted planks  of wood that would better
+serve as food for a camp fire.
+~
+0 0 13 0 0 0
+D0
+~
+~
+0 0 13 0
+D1
+~
+~
+0 0 16 0
+E
+chair chairs table~
+A pair of poorly made chair nest against  a small and rotted wood table.  Wooden
+bowls, with clues of recent use, sit upon the table top, empty save for  a spoon
+in each.~
+E
+bedroll bed~
+A threesome of padded canvas have been placed in the northest corner of this big
+cavern. It looks as if they are used regularly, and give off a vile stench.~
+S
+#16
+Cracked Skull Cave Main Cavern~
+A small number of lanterns illuminate the main cavern of Cracked Skull Cave, and
+showcase some recently used bedrolls upon the floor. Also visible are  a pair of
+unkept chairs  that would surly break if  a large creature were to use it.  They
+are nestled beneath  a table crafted of rotted planks  of wood that would better
+serve as food for a camp fire.
+~
+0 0 13 0 0 0
+D0
+~
+~
+0 0 14 0
+D3
+~
+~
+0 0 15 0
+D2
+~
+~
+7 2 17 0
+E
+bedroll bed~
+A threesome of padded canvas have been placed in the northest corner of this big
+cavern. It looks as if they are used regularly, and give off a vile stench.~
+E
+chair chairs table~
+A pair of poorly made chair nest against  a small and rotted wood table.  Wooden
+bowls, with clues of recent use, sit upon the table top, empty save for  a spoon
+in each.~
+S
+#17
+Cracked Skull Cave~
+Rotted wood  is nestled into the hole in  the cave wall, preventing anyone  from
+venturing deeper into the cavern. The wall around the door is a solid mixture of
+rock and dirt, and seems to  be there naturally. A light can  be seen flickering
+from beneath the door.
+~
+0 0 13 0 0 0
+D0
+~
+~
+7 2 16 0
+D2
+~
+~
+0 0 18 0
+S
+#18
+Cracked Skull Cave~
+The cave has grown dark, even  with the help of  a light source, except for  one
+small crack of light toward the north. The surroundings of the crack can not  be
+made out at this time, but the usual dirt and rock continue to make up the walls
+and floor of the corridor.
+~
+0 0 13 0 0 0
+D0
+~
+~
+0 0 17 0
+D3
+~
+~
+0 0 19 0
+S
+#19
+Cracked Skull Cave~
+The corridor twists and turns, losing the light from the torch near the entrance
+to Cracked Skull Cave. A skeleton lies on the floor of the cave, its back rested
+against the wall as if it knew its own death was coming. Muffling grunts can  be
+heard deeper into the cave.
+~
+0 0 13 0 0 0
+D1
+~
+~
+0 0 18 0
+D2
+~
+~
+0 0 20 0
+S
+#20
+Cracked Skull Cave~
+The corridor twists and turns, losing the light from the torch near the entrance
+to Cracked Skull Cave. A skeleton lies on the floor of the cave, its back rested
+against the wall as if it knew its own death was coming. Muffling grunts can  be
+heard deeper into the cave.
+~
+0 0 13 0 0 0
+D0
+~
+~
+0 0 19 0
+D2
+~
+~
+0 0 21 0
+S
+#21
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D0
+~
+~
+0 0 20 0
+D3
+~
+~
+0 0 22 0
+S
+#22
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D1
+~
+~
+0 0 21 0
+D3
+~
+~
+0 0 23 0
+S
+#23
+Cracked Skull Cave~
+Shadows dance upon the walls of Cracked Skull Cave, enough to  turn the stomachs
+of unseasoned adventurers. A light muttering can be heard echoing throughout the
+corridors, echoing off of the dense walls, but muffled  by the surrounding mold.
+~
+0 0 13 0 0 0
+D1
+~
+~
+0 0 22 0
+D3
+~
+~
+0 0 4 0
+S
+#0
+
+#RESETS
+O 0 1 0 1  ; Object: #1 a dug out hole => #1 A Matted Down Clearing
+P 0 2 0 0  ; Put: #2 an undefined key => #0 (not in area)
+M 0 1 1 1  ; Mob: #1 a goblin grunt => #1 A Matted Down Clearing
+G 0 6 0 ; -- Give:  #6 some sticks of firewood
+E 0 5 0 16  ; -- Equip: #5 a stick of firewood (Wield)
+M 0 2 4 4  ; Mob: #2 a goblin berserker => #4 Cracked Skull Cave
+E 0 9 0 16  ; -- Equip: #9 a chipped war axe (Wield)
+E 0 8 0 7  ; -- Equip: #8 a set of cracked leather pants (Legs)
+E 0 7 0 5  ; -- Equip: #7 a beat-up leather cuirass (Body)
+M 0 2 4 8  ; Mob: #2 a goblin berserker => #8 Cracked Skull Cave
+E 0 7 0 5  ; -- Equip: #7 a beat-up leather cuirass (Body)
+E 0 9 0 16  ; -- Equip: #9 a chipped war axe (Wield)
+E 0 8 0 7  ; -- Equip: #8 a set of cracked leather pants (Legs)
+O 0 3 0 9  ; Object: #3 a skeleton => #9 Cracked Skull Cave
+P 0 4 0 3  ; Put: #4 a leather strap with pewter pendant => #3 a skeleton
+D 0 12 1 2  ; Door: #12 Cracked Skull Cave/East => closed and locked
+D 0 13 3 2  ; Door: #13 Cracked Skull Cave Main Cavern/West => closed and locked
+M 0 3 1 14  ; Mob: #3 a goblin shaman => #14 Cracked Skull Cave Main Cavern
+E 0 12 0 7  ; -- Equip: #12 a set of reinforced leather pants (Legs)
+E 0 11 0 5  ; -- Equip: #11 a bone cuirass (Body)
+E 0 10 0 17  ; -- Equip: #10 a wooden staff of lightning (Hold)
+M 0 2 4 18  ; Mob: #2 a goblin berserker => #18 Cracked Skull Cave
+E 0 7 0 5  ; -- Equip: #7 a beat-up leather cuirass (Body)
+E 0 9 0 16  ; -- Equip: #9 a chipped war axe (Wield)
+E 0 8 0 7  ; -- Equip: #8 a set of cracked leather pants (Legs)
+M 0 2 4 20  ; Mob: #2 a goblin berserker => #20 Cracked Skull Cave
+E 0 7 0 5  ; -- Equip: #7 a beat-up leather cuirass (Body)
+E 0 8 0 7  ; -- Equip: #8 a set of cracked leather pants (Legs)
+E 0 9 0 16  ; -- Equip: #9 a chipped war axe (Wield)
+S
+
+#SPECIALS
+S
+
+#$

@@ -1,0 +1,3717 @@
+#AREA The Farmer's Market~
+
+#VERSION 1
+
+#CLIMATE 2 2 2
+
+#AUTHOR Medea~
+
+#RANGES
+1 20 0 65
+$
+
+#RESETMSG The sounds of the market rise on the breeze.~
+
+#FLAGS
+0 30
+
+#ECONOMY 0 1520772040
+
+#MOBILES
+#8101
+merchant~
+A merchant~
+A merchant is transporting goods.
+~
+This merchant has traveled far and wide by commission of Vercha Hawley, the
+Mayor of Paloma. Having this heavy responsibility, this merchant is slumped
+over from the heavy load of new merchandise.
+~
+16777281 0 0 C
+19 0 -18 478d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65537 65536 0
+0 0 43 0 0 0 48 2
+#8102
+merchant~
+A merchant~
+A merchant is transporting goods.
+~
+This merchant has traveled far and wide by commission of Vercha Hawley, the
+Mayor of Paloma. Having this heavy responsibility, this merchant is slumped
+over from the heavy load of new merchandise.
+~
+16777281 0 0 C
+19 0 -18 478d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65537 65536 0
+0 0 43 0 0 0 48 2
+#8103
+merchant~
+A merchant~
+A merchant is transporting goods.
+~
+This merchant has traveled far and wide by commission of Vercha Hawley, the
+Mayor of Paloma. Having this heavy responsibility, this merchant is slumped
+over from the heavy load of new merchandise.
+~
+16777281 0 0 C
+19 0 -18 478d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 65537 65536 0
+0 0 43 0 0 0 48 2
+#8104
+farmhand man~
+a farmhand~
+A farmhand is here flirting with the ladies.
+~
+Deeply tanned and heavily muscled, this burly youth is here bringing his
+farmer's wares in for sale. He is, however, socializing with the ladies more
+than selling his farmer's goods.
+~
+16777281 0 0 C
+15 0 -7 233d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 65536 0
+0 0 47 0 0 0 176 3
+#8105
+farmhand man~
+a farmhand~
+A farmhand is here flirting with the ladies.
+~
+Deeply tanned and heavily muscled, this burly youth is here bringing his
+farmer's wares in for sale. He is, however, socializing with the ladies more
+than selling his farmer's goods.
+~
+16777281 0 0 C
+15 0 -7 233d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 65536 0
+0 0 47 0 0 0 176 3
+#8106
+farmhand man~
+a farmhand~
+A farmhand is here flirting with the ladies.
+~
+Deeply tanned and heavily muscled, this burly youth is here bringing his
+farmer's wares in for sale. He is, however, socializing with the ladies more
+than selling his farmer's goods.
+~
+16777281 0 0 C
+15 0 -7 233d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 65536 0
+0 0 47 0 0 0 176 3
+#8107
+farmhand man~
+a farmhand~
+A farmhand is here flirting with the ladies.
+~
+Deeply tanned and heavily muscled, this burly youth is here bringing his
+farmer's wares in for sale. He is, however, socializing with the ladies more
+than selling his farmer's goods.
+~
+16777281 0 0 C
+15 0 -7 233d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 65536 0
+0 0 47 0 0 0 176 3
+#8108
+farmhand man~
+a farmhand~
+A farmhand is here flirting with the ladies.
+~
+Deeply tanned and heavily muscled, this burly youth is here bringing his
+farmer's wares in for sale. He is, however, socializing with the ladies more
+than selling his farmer's goods.
+~
+16777281 0 0 C
+15 0 -7 233d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 65536 0
+0 0 47 0 0 0 176 3
+#8109
+farmer's daughter~
+a farmer's daughter~
+A farmer's daughter is here blushing bright red.
+~
+Big brown eyes shine out from under the braided brown hair that is piled high
+on top of her head in the latest country fashion. She blushes coyly at any
+advances. She is here trying to purchase staples not raised by her daddy.
+~
+16777409 2097152 0 C
+12 0 25 162d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 65537 65536 0
+0 0 15 0 0 0 33 0
+#8110
+farmer's daughter~
+a farmer's daughter~
+A farmer's daughter is here blushing bright red.
+~
+Big brown eyes shine out from under the braided brown hair that is piled high
+on top of her head in the latest country fashion. She blushes coyly at any
+advances. She is here trying to purchase staples not raised by her daddy.
+~
+16777409 2097152 0 C
+12 0 25 162d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 65537 65536 0
+0 0 15 0 0 0 33 0
+#8111
+farmer's daughter~
+a farmer's daughter~
+A farmer's daughter is here blushing bright red.
+~
+Big brown eyes shine out from under the braided brown hair that is piled high
+on top of her head in the latest country fashion. She blushes coyly at any
+advances. She is here trying to purchase staples not raised by her daddy.
+~
+16777409 2097152 0 C
+12 0 25 162d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 65537 65536 0
+0 0 15 0 0 0 33 0
+#8112
+farmer's daughter~
+a farmer's daughter~
+A farmer's daughter is here blushing bright red.
+~
+Big brown eyes shine out from under the braided brown hair that is piled high
+on top of her head in the latest country fashion. She blushes coyly at any
+advances. She is here trying to purchase staples not raised by her daddy.
+~
+16777409 2097152 0 C
+12 0 25 162d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 65537 65536 0
+0 0 15 0 0 0 33 0
+#8113
+farmer's daughter~
+a farmer's daughter~
+A farmer's daughter is here blushing bright red.
+~
+Big brown eyes shine out from under the braided brown hair that is piled high
+on top of her head in the latest country fashion. She blushes coyly at any
+advances. She is here trying to purchase staples not raised by her daddy.
+~
+16777409 2097152 0 C
+12 0 25 162d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 65537 65536 0
+0 0 15 0 0 0 33 0
+#8114
+farmer's wife~
+a farmer's wife~
+A farmer's wife is here complaining about the prices.
+~
+Heavyset and with a no nonsense approach to the business at hand, this woman
+makes a formidable opponent at the bargaining table. She is not afraid to
+barter long and loud for the best prices.
+~
+16777281 4 0 C
+18 0 -12 324d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 1062 0 0 0 33 0
+#8115
+farmer's wife~
+a farmer's wife~
+A farmer's wife is here complaining about the prices.
+~
+Heavyset and with a no nonsense approach to the business at hand, this woman
+makes a formidable opponent at the bargaining table. She is not afraid to
+barter long and loud for the best prices.
+~
+16777281 4 0 C
+18 0 -12 324d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 1062 0 0 0 33 0
+#8116
+farmer's wife~
+a farmer's wife~
+A farmer's wife is here complaining about the prices.
+~
+Heavyset and with a no nonsense approach to the business at hand, this woman
+makes a formidable opponent at the bargaining table. She is not afraid to
+barter long and loud for the best prices.
+~
+16777281 4 0 C
+18 0 -12 324d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 1062 0 0 0 33 0
+#8117
+farmer's wife~
+a farmer's wife~
+A farmer's wife is here complaining about the prices.
+~
+Heavyset and with a no nonsense approach to the business at hand, this woman
+makes a formidable opponent at the bargaining table. She is not afraid to
+barter long and loud for the best prices.
+~
+16777281 4 0 C
+18 0 -12 324d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 1062 0 0 0 33 0
+#8118
+farmer's wife~
+a farmer's wife~
+A farmer's wife is here complaining about the prices.
+~
+Heavyset and with a no nonsense approach to the business at hand, this woman
+makes a formidable opponent at the bargaining table. She is not afraid to
+barter long and loud for the best prices.
+~
+16777281 4 0 C
+18 0 -12 324d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 1062 0 0 0 33 0
+#8119
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8120
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8121
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8122
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8123
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8124
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8125
+hog vendor pig~
+a hog vendor~
+A hog vendor is looking for his hogs.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+1 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8126
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8127
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8128
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8129
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8130
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8131
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8132
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8133
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8134
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8135
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8136
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8137
+fruit vendor~
+a fruit vendor~
+A fruit vendor is leaning on the wall of the vendor stall.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 138d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8138
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8139
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8140
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8141
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8142
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8143
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8144
+dairy vendor~
+a dairy vendor~
+A dairy vendor yawns as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777283 0 0 C
+10 0 38 108d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 449 0 0 0 32 0
+#8145
+vegetable vendor~
+a vegetable vendor~
+A vegetable vendor claims the freshest merchandise in the market.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8146
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8147
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8148
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8149
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8150
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8151
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8152
+cloth vendor~
+a cloth vendor~
+A cloth vendor holds up samples as you approach.
+~
+This vendor hawks wares in true barker style. They compete against one another
+professing loudly that the truth can only be found in their own words. This
+vendor is happy to serve you.
+~
+16777281 0 0 C
+14 0 13 298d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 65537 65536 0
+0 0 15 0 0 0 1 2
+#8153
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8154
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8155
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8156
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8157
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8158
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8159
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8160
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8161
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8162
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8163
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8164
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8165
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8166
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8167
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8168
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8169
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8170
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8171
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8172
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#8173
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8174
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8175
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8176
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8177
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8178
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8179
+sow pig hog~
+a huge sow~
+A huge sow waddles by you as she scavenges for food.
+~
+The massive bulk of this creamy white sow shows promise in the upcoming year
+for more piglets to be born into the world for consumption. She's ready for
+dinner when you get hungry.
+~
+262213 0 0 C
+6 0 63 61d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301991440 0 0 0 32 0
+#8180
+hog~
+a foul, smelly hog~
+A foul smelly hog meanders by you.
+~
+Huge, fat, and overly porked up, this hog is just waiting to be slaughtered.
+Although this pig would not willingly do so, people do it anyway, so help
+yourself!
+~
+17039365 0 0 C
+5 0 69 63d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 301990017 0 0 0 1 0
+#0
+
+#OBJECTS
+#8101
+slab pork roast~
+a slab of pork roast~
+A thick and juicy slab of pork roast is lying here.~
+A sample of the hogs being sold. Thick, juicy, and intensely delicious, there
+i
+s not topping this recipe.
+~
+19 0 1048577 0
+10 0 0 0
+1 100 0
+#8102
+tomato~
+a deep red tomato~
+A red, plump, juicy and perfectly ripe tomato is lying here.~
+~
+19 0 1048577 0
+5 0 0 0
+1 50 0
+#8103
+zucchini~
+a zucchini~
+A hugely delicious summer zucchini is lying here.~
+~
+19 0 1048577 0
+7 0 0 0
+1 75 0
+#8104
+onion~
+a yellow onion~
+A yellow onion with a slight bite lies here.~
+~
+19 0 1048577 0
+8 0 0 0
+1 25 0
+#8105
+potato~
+a very large potato~
+A very large potato lies here.~
+~
+19 0 1048577 0
+9 0 0 0
+2 75 0
+#8106
+farmer cheese~
+a small wheel of farmer's cheese~
+A small wheel of white, creamy farmer's cheese is lying here.~
+~
+19 0 1048577 0
+8 0 0 0
+2 85 0
+#8107
+asparagus~
+several stalks of asparagus~
+Several stalks of asparagus, crisp and fresh, are lying here.~
+~
+19 0 1048577 0
+5 0 0 0
+1 50 0
+#8108
+pumpkin pie~
+a slice of homemade pumpkin pie~
+A slice of pumpkin pie is lying here with a fresh dollop of whipped cream on top.~
+~
+19 0 1048577 0
+15 0 0 0
+1 100 0
+#8109
+sugar~
+a small portion of raw cane sugar~
+A small portion of raw cane sugar is spilled here.~
+~
+19 0 1048577 0
+2 0 0 0
+1 10 0
+#8110
+wheat berries~
+a handful of wheat berries~
+A small handful of wheat berries is scattered here.~
+~
+19 0 1048577 0
+2 0 0 0
+1 10 0
+#8111
+apple granny smith~
+a granny smith apple~
+A bright green Granny Smith apple is lying here.~
+~
+19 0 1048577 0
+6 0 0 0
+1 35 0
+#8112
+valencia orange~
+a juicy Valencia orange~
+A juicy Valencia orange is lying here.~
+~
+19 0 1048577 0
+4 0 0 0
+1 100 0
+#8113
+apricot~
+an apricot~
+A small but decadent apricot is lying here.~
+~
+19 0 1048577 0
+3 0 0 0
+1 15 0
+#8114
+sugar beet~
+a sugar beet~
+A deep maroon colored sugar beet is lying here.~
+~
+19 0 1048577 0
+6 0 0 0
+1 65 0
+#8115
+lemon~
+a fresh lemon~
+A fresh lemon is lying here.~
+~
+19 0 1048577 0
+3 0 0 0
+1 75 0
+#8116
+strawberries~
+a pint of strawberries~
+A pint of fresh, ripe strawberries is lying here.~
+~
+19 0 1048577 0
+10 0 0 0
+2 90 0
+#8117
+peach~
+a deliciously juicy peach~
+A deliciously juicy peach is lying here.~
+~
+19 0 1048577 0
+6 0 0 0
+1 60 0
+#8118
+blueberries~
+a pint of blueberries~
+A pint of fresh picked blueberries is lying here.~
+~
+19 0 1048577 0
+7 0 0 0
+2 75 0
+#8119
+pumpkin~
+a large orange pumpkin ~
+A large orange pumpkin is lying here.~
+~
+19 0 1048577 0
+12 0 0 0
+12 150 0
+#8120
+yellow squash~
+a bulky yellow squash~
+A bulky yellow squash is lying here.~
+~
+19 0 1048577 0
+15 0 0 0
+15 200 0
+#8121
+iceburg lettuce~
+a head of iceberg lettuce~
+A medium size head of iceberg lettuce is lying here.~
+~
+19 0 1048577 0
+7 0 0 0
+1 75 0
+#8122
+garlic braid~
+a braid of garlic~
+A braid of garlic is lying here.~
+~
+19 0 1048609 0
+5 0 0 0
+2 500 0
+#8123
+watermelon~
+a huge watermelon~
+A huge fully ripe watermelon is lying here.~
+~
+19 0 1048577 0
+18 0 0 0
+18 600 0
+#8124
+milk jug~
+a milk jug~
+A tin milk jug that magically keeps its contents icy is lying here.~
+~
+17 0 1048577 0
+40 40 10 0
+2 250 0
+#8125
+barrel milk~
+a barrel of milk~
+A huge barrel of fresh milk is here.~
+~
+17 0 0 0
+500 500 10 0
+500 0 0
+#8126
+burlap bag sugar~
+a burlap sugar bag~
+A burlap sugar bag has been abandoned here.~
+~
+15 0 1048577 0
+400 0 0 0
+5 250 0
+#8127
+jug tea~
+a jug of tea~
+A jug of tea is lying here.~
+~
+17 0 1048577 0
+40 40 11 0
+2 250 0
+#8128
+flagon~
+a flagon of ale~
+A flagon of ale is lying here waiting for consumption.~
+~
+17 0 1048577 0
+40 40 3 0
+2 300 0
+#8129
+barrel water~
+a barrel of spring water~
+A barrel of spring water is here with a small leak in its side.~
+~
+17 0 0 0
+500 500 0 0
+1 0 0
+#8130
+silk cloth~
+two yards of silk cloth~
+Two yards of silk cloth are lying here waiting to be tried on about your body.~
+This silk cloth has been magically altered to change color according to a
+p
+erson's personality.
+~
+9 0 2049 0
+8 8 0 0
+3 1250 0
+#8131
+cotton cloth tunic~
+a simple cloth tunic~
+A simple brown cotton tunic is lying here neatly folded.~
+~
+9 0 65 0
+4 4 0 0
+2 1300 0
+A
+5 2
+#8132
+denim blue leggings~
+a pair of blue denim leggings~
+A pair of blue denim leggings are lying here neatly folded.~
+~
+9 0 16385 0
+8 8 0 0
+3 1500 0
+A
+2 2
+#8133
+tweed cap~
+a jaunty tweed cap~
+A jaunty grey tweed cap is lying here looking jaunty.~
+~
+9 0 3 0
+6 6 0 0
+2 1100 0
+A
+3 2
+#8134
+sheepskin boots~
+a pair of tan sheepskin boots~
+A pair of tan sheepskin boots are slouched here.~
+~
+9 0 65537 0
+8 8 0 0
+3 1350 0
+A
+4 2
+#8135
+belt length rope~
+a length of rope~
+A length of rope that is used as a belt is lying here coiled neatly.~
+~
+9 0 8193 0
+2 2 0 0
+1 50 0
+A
+1 1
+#8136
+poptarts pop tart~
+a pop tart is here~
+Your favorite flavor of Pop Tarts are lying here.~
+~
+19 0 1048577 0
+8 0 0 0
+1 800 0
+#8137
+shovel~
+a make-shift shovel~
+A make-shift shovel is here leaning against the wall.~
+~
+59 536870912 1048577 0
+1 1 1 1 1 1
+5 1800 0
+#0
+
+#ROOMS
+#8101
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8102 0
+S
+#8102
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8103 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8111 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8101 0
+S
+#8103
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8104 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8102 0
+S
+#8104
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8105 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8113 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8103 0
+S
+#8105
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8106 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8104 0
+S
+#8106
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8107 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8115 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8105 0
+S
+#8107
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8108 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8106 0
+S
+#8108
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8109 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8117 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8107 0
+S
+#8109
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8108 0
+S
+#8110
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8111 0
+S
+#8111
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8102 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8112 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8120 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8110 0
+S
+#8112
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8113 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8111 0
+S
+#8113
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8104 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8114 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8122 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8112 0
+S
+#8114
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8115 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8113 0
+S
+#8115
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8106 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8116 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8124 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8114 0
+S
+#8116
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8117 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8125 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8115 0
+S
+#8117
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8108 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8118 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8126 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8116 0
+S
+#8118
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8117 0
+S
+#8119
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8120 0
+S
+#8120
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8111 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8121 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8129 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8119 0
+S
+#8121
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8122 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8120 0
+S
+#8122
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8113 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8123 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8131 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8121 0
+S
+#8123
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8124 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8122 0
+S
+#8124
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8115 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8125 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8133 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8123 0
+S
+#8125
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8126 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8124 0
+S
+#8126
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8117 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8127 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8135 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8125 0
+S
+#8127
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8126 0
+S
+#8128
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8129 0
+S
+#8129
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8120 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8130 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8138 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8128 0
+S
+#8130
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8131 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8129 0
+S
+#8131
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8122 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8132 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8140 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8130 0
+S
+#8132
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8133 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8131 0
+S
+#8133
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8124 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8134 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8142 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8132 0
+S
+#8134
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8135 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8133 0
+S
+#8135
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8126 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8136 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8144 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8134 0
+S
+#8136
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8135 0
+S
+#8137
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8138 0
+S
+#8138
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8129 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8139 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8147 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8137 0
+S
+#8139
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8140 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8138 0
+S
+#8140
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8131 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8141 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8149 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8139 0
+S
+#8141
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8142 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8140 0
+S
+#8142
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8133 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8143 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8151 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8141 0
+S
+#8143
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8144 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8142 0
+S
+#8144
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8135 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8145 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8153 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8143 0
+S
+#8145
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8144 0
+S
+#8146
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8147 0
+S
+#8147
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8138 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8148 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8156 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8146 0
+S
+#8148
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8149 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8147 0
+S
+#8149
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8140 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8150 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8158 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8148 0
+S
+#8150
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8151 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8149 0
+S
+#8151
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8142 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8152 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8160 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8150 0
+S
+#8152
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8153 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8151 0
+S
+#8153
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8144 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8154 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8162 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8152 0
+S
+#8154
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8173 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8153 0
+S
+#8155
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8156 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8164 0
+S
+#8156
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8147 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8157 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8165 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8155 0
+S
+#8157
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8158 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8166 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8156 0
+S
+#8158
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8149 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8159 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8167 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8157 0
+S
+#8159
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8160 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8168 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8158 0
+S
+#8160
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8151 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8161 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8169 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8159 0
+S
+#8161
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8162 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8170 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8160 0
+S
+#8162
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8153 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8163 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8171 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8161 0
+S
+#8163
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D2
+You are exploring the Farmer's Market.
+~
+south~
+0 0 8172 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8162 0
+S
+#8164
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8155 0
+S
+#8165
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8156 0
+S
+#8166
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8157 0
+S
+#8167
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8158 0
+S
+#8168
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8159 0
+S
+#8169
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8160 0
+S
+#8170
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8161 0
+S
+#8171
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8162 0
+S
+#8172
+A Stall in the Farmer's Market~
+This stall in the Farmer's Market sells and trades goods that are indigenous
+and imported from all over the continent. This market has a wide variety of
+fresh foods; from apples, tomatoes, and cabbage to onions, pumpkins, and
+lettuce.
+~
+0 0 0 0 0 0
+D0
+You are exploring the Farmer's Market.
+~
+north~
+0 0 8163 0
+S
+#8173
+An Aisle in the Farmer's Market~
+Wandering through the Farmer's Market is an experience. Vendors call out,
+advertising the many wares from across the continent and from the local
+farmers. Rain or shine, this market is always open.
+~
+0 4 0 0 0 0
+D1
+You are exploring the Farmer's Market.
+~
+east~
+0 0 8180 0
+D3
+You are exploring the Farmer's Market.
+~
+west~
+0 0 8154 0
+S
+#8174
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 4 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8175 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8176 0
+S
+#8175
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 4 0 0 0 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8174 0
+S
+#8176
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8174 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8177 0
+S
+#8177
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8176 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8178 0
+S
+#8178
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8177 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8179 0
+S
+#8179
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8178 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8180 0
+S
+#8180
+An Intersection in the Road~
+This perfectly maintained portion of the road marks the intersection
+where west heads into the Farmer's Market and north continues toward
+nothing in particular. A huge willow tree blocks passage to the south.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8179 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8181 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8173 0
+S
+#8181
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8182 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8180 0
+S
+#8182
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8183 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8181 0
+S
+#8183
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8184 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8182 0
+S
+#8184
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8183 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8185 0
+S
+#8185
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8184 0
+D2
+You follow the well maintained road this way.
+~
+south~
+0 0 8186 0
+S
+#8186
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D0
+You follow the well maintained road this way.
+~
+north~
+0 0 8185 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8187 0
+S
+#8187
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8188 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8186 0
+S
+#8188
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8189 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8187 0
+S
+#8189
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 0 0 0 0 0
+D1
+You follow the well maintained road this way.
+~
+east~
+0 0 8190 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8188 0
+S
+#8190
+Market Road~
+The upkeep of this road is provided by the profitable merchants. There are
+hardly any ruts, pot holes, or puddles to be found. Both sides of the road are
+lined with sparsely placed trees and thousands of wildflowers that all seem to
+be crowding up to the edge of this well travelled lane.
+~
+0 4 0 0 0 0
+D3
+You follow the well maintained road this way.
+~
+west~
+0 0 8189 0
+D1
+Return to your regularly scheduled programming
+~
+east~
+0 0 306 0
+S
+#0
+
+#RESETS
+M 0 8166 1 8101  ; Mob: #8166 a foul, smelly hog => #8101 A Stall in the Farmer's Market
+M 0 8167 1 8103  ; Mob: #8167 a foul, smelly hog => #8103 An Aisle in the Farmer's Market
+M 0 8168 1 8107  ; Mob: #8168 a foul, smelly hog => #8107 An Aisle in the Farmer's Market
+M 0 8169 1 8117  ; Mob: #8169 a foul, smelly hog => #8117 An Aisle in the Farmer's Market
+M 0 8170 1 8120  ; Mob: #8170 a foul, smelly hog => #8120 An Aisle in the Farmer's Market
+M 0 8171 1 8124  ; Mob: #8171 a foul, smelly hog => #8124 An Aisle in the Farmer's Market
+M 0 8172 1 8127  ; Mob: #8172 a foul, smelly hog => #8127 A Stall in the Farmer's Market
+M 0 8173 1 8128  ; Mob: #8173 a huge sow => #8128 A Stall in the Farmer's Market
+M 0 8174 1 8131  ; Mob: #8174 a huge sow => #8131 An Aisle in the Farmer's Market
+M 0 8175 1 8132  ; Mob: #8175 a huge sow => #8132 A Stall in the Farmer's Market
+M 0 8176 1 8153  ; Mob: #8176 a huge sow => #8153 An Aisle in the Farmer's Market
+M 0 8177 1 8158  ; Mob: #8177 a huge sow => #8158 An Aisle in the Farmer's Market
+M 0 8178 1 8163  ; Mob: #8178 a huge sow => #8163 A Stall in the Farmer's Market
+M 0 8179 1 8165  ; Mob: #8179 a huge sow => #8165 A Stall in the Farmer's Market
+M 0 8180 1 8168  ; Mob: #8180 a foul, smelly hog => #8168 A Stall in the Farmer's Market
+M 0 8165 1 8133  ; Mob: #8165 a huge sow => #8133 An Aisle in the Farmer's Market
+M 0 8164 1 8168  ; Mob: #8164 a huge sow => #8168 A Stall in the Farmer's Market
+M 0 8158 1 8168  ; Mob: #8158 a foul, smelly hog => #8168 A Stall in the Farmer's Market
+M 0 8163 1 8165  ; Mob: #8163 a huge sow => #8165 A Stall in the Farmer's Market
+M 0 8157 1 8163  ; Mob: #8157 a foul, smelly hog => #8163 A Stall in the Farmer's Market
+M 0 8162 1 8127  ; Mob: #8162 a huge sow => #8127 A Stall in the Farmer's Market
+M 0 8156 1 8132  ; Mob: #8156 a foul, smelly hog => #8132 A Stall in the Farmer's Market
+M 0 8161 1 8128  ; Mob: #8161 a huge sow => #8128 A Stall in the Farmer's Market
+M 0 8155 1 8101  ; Mob: #8155 a foul, smelly hog => #8101 A Stall in the Farmer's Market
+M 0 8154 1 8152  ; Mob: #8154 a foul, smelly hog => #8152 A Stall in the Farmer's Market
+M 0 8160 1 8152  ; Mob: #8160 a huge sow => #8152 A Stall in the Farmer's Market
+M 0 8159 1 8148  ; Mob: #8159 a huge sow => #8148 A Stall in the Farmer's Market
+M 0 8153 1 8148  ; Mob: #8153 a foul, smelly hog => #8148 A Stall in the Farmer's Market
+M 0 8152 1 8116  ; Mob: #8152 a cloth vendor => #8116 A Stall in the Farmer's Market
+G 0 8130 1 ; -- Give:  #8130 two yards of silk cloth
+M 0 8151 1 8170  ; Mob: #8151 a cloth vendor => #8170 A Stall in the Farmer's Market
+G 0 8135 1 ; -- Give:  #8135 a length of rope
+M 0 8150 1 8150  ; Mob: #8150 a cloth vendor => #8150 A Stall in the Farmer's Market
+G 0 8130 1 ; -- Give:  #8130 two yards of silk cloth
+M 0 8149 1 8143  ; Mob: #8149 a cloth vendor => #8143 A Stall in the Farmer's Market
+G 0 8131 1 ; -- Give:  #8131 a simple cloth tunic
+M 0 8148 1 8136  ; Mob: #8148 a cloth vendor => #8136 A Stall in the Farmer's Market
+G 0 8132 1 ; -- Give:  #8132 a pair of blue denim leggings
+M 0 8147 1 8121  ; Mob: #8147 a cloth vendor => #8121 A Stall in the Farmer's Market
+G 0 8133 1 ; -- Give:  #8133 a jaunty tweed cap
+M 0 8146 1 8119  ; Mob: #8146 a cloth vendor => #8119 A Stall in the Farmer's Market
+G 0 8134 1 ; -- Give:  #8134 a pair of tan sheepskin boots
+M 0 8145 1 8166  ; Mob: #8145 a vegetable vendor => #8166 A Stall in the Farmer's Market
+G 0 8107 1 ; -- Give:  #8107 several stalks of asparagus
+G 0 8121 1 ; -- Give:  #8121 a head of iceberg lettuce
+M 0 8144 1 8167  ; Mob: #8144 a dairy vendor => #8167 A Stall in the Farmer's Market
+G 0 8127 1 ; -- Give:  #8127 a jug of tea
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+M 0 8143 1 8118  ; Mob: #8143 a dairy vendor => #8118 A Stall in the Farmer's Market
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+G 0 8124 1 ; -- Give:  #8124 a milk jug
+M 0 8142 1 8139  ; Mob: #8142 a dairy vendor => #8139 A Stall in the Farmer's Market
+G 0 8124 1 ; -- Give:  #8124 a milk jug
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+M 0 8141 1 8123  ; Mob: #8141 a dairy vendor => #8123 A Stall in the Farmer's Market
+G 0 8136 1 ; -- Give:  #8136 a pop tart is here
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+M 0 8140 1 8143  ; Mob: #8140 a dairy vendor => #8143 A Stall in the Farmer's Market
+G 0 8124 1 ; -- Give:  #8124 a milk jug
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+M 0 8139 1 8155  ; Mob: #8139 a dairy vendor => #8155 A Stall in the Farmer's Market
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+G 0 8124 1 ; -- Give:  #8124 a milk jug
+M 0 8138 1 8110  ; Mob: #8138 a dairy vendor => #8110 A Stall in the Farmer's Market
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+G 0 8124 1 ; -- Give:  #8124 a milk jug
+M 0 8137 1 8114  ; Mob: #8137 a fruit vendor => #8114 A Stall in the Farmer's Market
+G 0 8123 1 ; -- Give:  #8123 a huge watermelon
+M 0 8136 1 8169  ; Mob: #8136 a fruit vendor => #8169 A Stall in the Farmer's Market
+G 0 8116 1 ; -- Give:  #8116 a pint of strawberries
+G 0 8118 1 ; -- Give:  #8118 a pint of blueberries
+M 0 8135 1 8137  ; Mob: #8135 a fruit vendor => #8137 A Stall in the Farmer's Market
+G 0 8114 1 ; -- Give:  #8114 a sugar beet
+M 0 8134 1 8130  ; Mob: #8134 a fruit vendor => #8130 A Stall in the Farmer's Market
+G 0 8115 1 ; -- Give:  #8115 a fresh lemon
+G 0 8112 1 ; -- Give:  #8112 a juicy Valencia orange
+M 0 8133 1 8145  ; Mob: #8133 a fruit vendor => #8145 A Stall in the Farmer's Market
+G 0 8113 1 ; -- Give:  #8113 an apricot
+M 0 8132 1 8134  ; Mob: #8132 a fruit vendor => #8134 A Stall in the Farmer's Market
+G 0 8111 1 ; -- Give:  #8111 a granny smith apple
+M 0 8131 1 8125  ; Mob: #8131 a vegetable vendor => #8125 A Stall in the Farmer's Market
+G 0 8105 1 ; -- Give:  #8105 a very large potato
+G 0 8104 1 ; -- Give:  #8104 a yellow onion
+M 0 8130 1 8171  ; Mob: #8130 a vegetable vendor => #8171 A Stall in the Farmer's Market
+G 0 8120 1 ; -- Give:  #8120 a bulky yellow squash
+G 0 8121 1 ; -- Give:  #8121 a head of iceberg lettuce
+G 0 8107 1 ; -- Give:  #8107 several stalks of asparagus
+G 0 8108 1 ; -- Give:  #8108 a slice of homemade pumpkin pie
+M 0 8129 1 8146  ; Mob: #8129 a vegetable vendor => #8146 A Stall in the Farmer's Market
+G 0 8104 1 ; -- Give:  #8104 a yellow onion
+G 0 8107 1 ; -- Give:  #8107 several stalks of asparagus
+G 0 8126 1 ; -- Give:  #8126 a burlap sugar bag
+P 0 8109 1 8126  ; Put: #8109 a small portion of raw cane sugar => #8126 a burlap sugar bag
+M 0 8128 1 8109  ; Mob: #8128 a vegetable vendor => #8109 A Stall in the Farmer's Market
+G 0 8119 1 ; -- Give:  #8119 a large orange pumpkin
+G 0 8110 1 ; -- Give:  #8110 a handful of wheat berries
+M 0 8127 1 8141  ; Mob: #8127 a vegetable vendor => #8141 A Stall in the Farmer's Market
+G 0 8103 1 ; -- Give:  #8103 a zucchini
+G 0 8104 1 ; -- Give:  #8104 a yellow onion
+M 0 8126 1 8112  ; Mob: #8126 a vegetable vendor => #8112 A Stall in the Farmer's Market
+G 0 8102 2 ; -- Give:  #8102 a deep red tomato
+G 0 8136 1 ; -- Give:  #8136 a pop tart is here
+M 0 8125 1 8165  ; Mob: #8125 a hog vendor => #8165 A Stall in the Farmer's Market
+E 0 8131 1 7  ; -- Equip: #8131 a simple cloth tunic (body)
+M 0 8124 1 8127  ; Mob: #8124 a hog vendor => #8127 A Stall in the Farmer's Market
+E 0 8130 1 14  ; -- Equip: #8130 two yards of silk cloth (about)
+M 0 8123 1 8168  ; Mob: #8123 a hog vendor => #8168 A Stall in the Farmer's Market
+E 0 8132 1 17  ; -- Equip: #8132 a pair of blue denim leggings (legs)
+M 0 8122 1 8163  ; Mob: #8122 a hog vendor => #8163 A Stall in the Farmer's Market
+E 0 8122 1 5  ; -- Equip: #8122 a braid of garlic (neck-1)
+M 0 8121 1 8132  ; Mob: #8121 a hog vendor => #8132 A Stall in the Farmer's Market
+E 0 8133 1 1  ; -- Equip: #8133 a jaunty tweed cap (head)
+M 0 8120 1 8128  ; Mob: #8120 a hog vendor => #8128 A Stall in the Farmer's Market
+E 0 8135 1 16  ; -- Equip: #8135 a length of rope (waist)
+M 0 8119 1 8101  ; Mob: #8119 a hog vendor => #8101 A Stall in the Farmer's Market
+E 0 8131 1 7  ; -- Equip: #8131 a simple cloth tunic (body)
+M 0 8118 1 8154  ; Mob: #8118 a farmer's wife => #8154 An Aisle in the Farmer's Market
+G 0 8111 1 ; -- Give:  #8111 a granny smith apple
+M 0 8117 1 8156  ; Mob: #8117 a farmer's wife => #8156 An Aisle in the Farmer's Market
+G 0 8107 1 ; -- Give:  #8107 several stalks of asparagus
+G 0 8108 1 ; -- Give:  #8108 a slice of homemade pumpkin pie
+M 0 8116 1 8140  ; Mob: #8116 a farmer's wife => #8140 An Aisle in the Farmer's Market
+E 0 8132 1 17  ; -- Equip: #8132 a pair of blue denim leggings (legs)
+M 0 8115 1 8126  ; Mob: #8115 a farmer's wife => #8126 An Aisle in the Farmer's Market
+E 0 8133 1 1  ; -- Equip: #8133 a jaunty tweed cap (head)
+E 0 8134 1 20  ; -- Equip: #8134 a pair of tan sheepskin boots (feet)
+M 0 8114 1 8102  ; Mob: #8114 a farmer's wife => #8102 An Aisle in the Farmer's Market
+G 0 8105 1 ; -- Give:  #8105 a very large potato
+M 0 8113 1 8160  ; Mob: #8113 a farmer's daughter => #8160 An Aisle in the Farmer's Market
+G 0 8104 1 ; -- Give:  #8104 a yellow onion
+M 0 8112 1 8138  ; Mob: #8112 a farmer's daughter => #8138 An Aisle in the Farmer's Market
+G 0 8103 1 ; -- Give:  #8103 a zucchini
+M 0 8111 1 8135  ; Mob: #8111 a farmer's daughter => #8135 An Aisle in the Farmer's Market
+G 0 8102 1 ; -- Give:  #8102 a deep red tomato
+M 0 8110 1 8122  ; Mob: #8110 a farmer's daughter => #8122 An Aisle in the Farmer's Market
+G 0 8101 1 ; -- Give:  #8101 a slab of pork roast
+M 0 8109 1 8106  ; Mob: #8109 a farmer's daughter => #8106 An Aisle in the Farmer's Market
+E 0 8130 1 14  ; -- Equip: #8130 two yards of silk cloth (about)
+E 0 8131 1 7  ; -- Equip: #8131 a simple cloth tunic (body)
+M 0 8108 1 8162  ; Mob: #8108 a farmhand => #8162 An Aisle in the Farmer's Market
+G 0 8123 1 ; -- Give:  #8123 a huge watermelon
+M 0 8107 1 8124  ; Mob: #8107 a farmhand => #8124 An Aisle in the Farmer's Market
+G 0 8110 1 ; -- Give:  #8110 a handful of wheat berries
+M 0 8106 1 8108  ; Mob: #8106 a farmhand => #8108 An Aisle in the Farmer's Market
+G 0 8127 1 ; -- Give:  #8127 a jug of tea
+M 0 8104 1 8111  ; Mob: #8104 a farmhand => #8111 An Aisle in the Farmer's Market
+G 0 8106 1 ; -- Give:  #8106 a small wheel of farmer's cheese
+P 0 8109 2 8126  ; Put: #8109 a small portion of raw cane sugar => #8126 a burlap sugar bag
+O 0 8137 1 8133  ; Object: #8137 a make-shift shovel => #8133 An Aisle in the Farmer's Market
+O 0 8129 1 8172  ; Object: #8129 a barrel of spring water => #8172 A Stall in the Farmer's Market
+O 0 8125 1 8164  ; Object: #8125 a barrel of milk => #8164 A Stall in the Farmer's Market
+M 0 8103 1 8188  ; Mob: #8103 A merchant => #8188 Market Road
+G 0 8136 1 ; -- Give:  #8136 a pop tart is here
+M 0 8102 1 8183  ; Mob: #8102 A merchant => #8183 Market Road
+G 0 8126 1 ; -- Give:  #8126 a burlap sugar bag
+M 0 8101 1 8177  ; Mob: #8101 A merchant => #8177 Market Road
+G 0 8130 1 ; -- Give:  #8130 two yards of silk cloth
+S
+
+#SPECIALS
+S
+
+#$

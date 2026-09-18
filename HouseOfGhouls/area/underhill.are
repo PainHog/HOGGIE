@@ -1,0 +1,1996 @@
+#AREA   Underhill~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG You hear happy singing in the distance...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 408236682
+
+#CLIMATE 3 1 2
+
+#MOBILES
+#401
+bee~
+a bee~
+A small bee buzzes about the tree.
+~
+This small bee darts amongst the flowers, occasionally coming to rest to
+gather a bit of pollen, and then its off again.
+~
+67 524288 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#402
+halfling hobbit male~
+a male halfling~
+A young halfling male whistles as he walks about.
+~
+A smile is on the face of this young halfling male as he walks about the town.
+ He whistles a cheery tune and waves at you as you approach, a grin on his
+face.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#403
+halfling hobbit male~
+a male halfling~
+A young halfling male whistles as he walks about.
+~
+A smile is on the face of this young halfling male as he walks about the town.
+ He whistles a cheery tune and waves at you as you approach, a grin on his
+face.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#404
+halfling hobbit male~
+a male halfling~
+A young halfling male whistles as he walks about.
+~
+A smile is on the face of this young halfling male as he walks about the town.
+ He whistles a cheery tune and waves at you as you approach, a grin on his
+face.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#405
+halfling hobbit male~
+a male halfling~
+A young halfling male whistles as he walks about.
+~
+A smile is on the face of this young halfling male as he walks about the town.
+ He whistles a cheery tune and waves at you as you approach, a grin on his
+face.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#406
+halfling hobbit female~
+a female halfling~
+A young halfling lady admires the flowers growing here.
+~
+A young female halfling smiles to herself as she stops and gazes at the
+brightly colored wildflowers growing at the side of the path.  She smiles at
+you and nods as you walk along.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#407
+halfling hobbit female~
+a female halfling~
+A young halfling lady admires the flowers growing here.
+~
+A young female halfling smiles to herself as she stops and gazes at the
+brightly colored wildflowers growing at the side of the path.  She smiles at
+you and nods as you walk along.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#408
+halfling hobbit female~
+a female halfling~
+A young halfling lady admires the flowers growing here.
+~
+A young female halfling smiles to herself as she stops and gazes at the
+brightly colored wildflowers growing at the side of the path.  She smiles at
+you and nods as you walk along.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#409
+halfling hobbit female~
+a female halfling~
+A young halfling lady admires the flowers growing here.
+~
+A young female halfling smiles to herself as she stops and gazes at the
+brightly colored wildflowers growing at the side of the path.  She smiles at
+you and nods as you walk along.
+~
+16777281 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#410
+guard halfling hobbit~
+a halfling guard~
+A guard of Underhill marches about, keeping the peace.
+~
+Although it is a curious site, this halfling wears the armor and badge of a
+guard of Underhill.  His job is usually fairly simple, as there is not much
+trouble in the town, but occasionally he is called upon to solve some problem.
+~
+32833 0 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 21 0 0 131072 131072 0
+0 0 47 0 0 0 16 1
+#411
+guard halfling hobbit~
+a halfling guard~
+A guard of Underhill marches about, keeping the peace.
+~
+Although it is a curious site, this halfling wears the armor and badge of a
+guard of Underhill.  His job is usually fairly simple, as there is not much
+trouble in the town, but occasionally he is called upon to solve some problem.
+~
+32833 0 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 21 0 0 131072 131072 0
+0 0 47 0 0 0 16 1
+#412
+guard halfling hobbit~
+a halfling guard~
+A guard of Underhill marches about, keeping the peace.
+~
+Although it is a curious site, this halfling wears the armor and badge of a
+guard of Underhill.  His job is usually fairly simple, as there is not much
+trouble in the town, but occasionally he is called upon to solve some problem.
+~
+32833 0 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 21 0 0 131072 131072 0
+0 0 47 0 0 0 16 1
+#413
+guard halfling hobbit~
+a halfling guard~
+A guard of Underhill marches about, keeping the peace.
+~
+Although it is a curious site, this halfling wears the armor and badge of a
+guard of Underhill.  His job is usually fairly simple, as there is not much
+trouble in the town, but occasionally he is called upon to solve some problem.
+~
+32833 0 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 21 0 0 131072 131072 0
+0 0 47 0 0 0 16 1
+#414
+guard halfling hobbit~
+a halfling guard~
+A guard of Underhill marches about, keeping the peace.
+~
+Although it is a curious site, this halfling wears the armor and badge of a
+guard of Underhill.  His job is usually fairly simple, as there is not much
+trouble in the town, but occasionally he is called upon to solve some problem.
+~
+32833 0 1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 21 0 0 131072 131072 0
+0 0 47 0 0 0 16 1
+#415
+baker halfling hobbit Rita female~
+Rita~
+A female halfling works the large oven.
+~
+Wearing large woolen mitts, this halfling woman pulls out freshly baked bread
+and slides more trays of dough into the ovens behind her.  She notices you
+enter the bakery and turns to take your order.
+~
+16777283 4194304&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 20 0 0 131073 1 0
+0 0 39 0 0 0 0 0
+#416
+bartender halfling hobbit Clarissa female~
+Clarissa~
+A young female halfling stands at the bar, smiling.
+~
+Clarissa has been the owner of the Golden Lily for some time now, and the
+quality of her food and drink is renown throughout the realm.  She also knows
+more songs than any other halfling around.
+~
+17826883 4194304&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 19 0 0 131073 1 0
+0 0 39 0 0 0 0 0
+#417
+bartender halfling hobbit Martin old~
+Martin~
+An old halfling wipes a ceramic mug clean.
+~
+Martin opened the Dancing Cow to serve the purposes of the halfling who wanted
+to work hard at drinking the fine Underhill brew.  While songs and tales are
+not unheard in the Cow, most times the occupants keep to themselves.
+~
+16777283 4194304&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 19 0 0 131073 1 0
+0 0 39 0 0 0 0 0
+#418
+receptionist halfling hobbit Gayle~
+Gayle~
+The Mayor's receptionist sniffs the flowers on her desk.
+~
+Gayle is the receptionist for the Mayor of Underhill.  Her job mostly consists
+of sitting behind the desk and trying to remember the Mayors appointments, of
+which there are few.  She plays with the flowers on her desk, awaiting the
+time to leave the office and enjoy the rest of her day.
+~
+16777283 4194304&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 19 0 0 131073 1 0
+0 0 39 0 0 0 0 0
+#419
+sergeant halfling hobbit Garin armored~
+Sergeant Garin~
+An armored hobbit struts along the path, eyeing you closely.
+~
+Larger than most hobbits, Garin was chosen to be the Shiriffs sergeant more
+for his bulk and strength, and less for his brains, of which he has little.
+He watches you closely, hoping for a chance to use his legal powers.
+~
+32833 4194304&256 1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 3 0 0 131073 131072 0
+0 0 47 2097152 0 0 48 1
+#420
+halfling hobbit mayor Grimby~
+Mayor Grimby~
+The Mayor of Underhill parades about the town.
+~
+Mayor Grimby walks along the path, his head held high, trying to look as
+important as possible.  While theoretically in charge of the goings on of
+Underhill, in reality, he is mainly a figurehead at parties and feasts.
+~
+16777281 4194432&256 1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 23 0 0 131073 1 0
+0 0 15 2097152 0 0 0 0
+#421
+halfling hobbit shiriff Tomkins~
+Shiriff Tomkins~
+Shiriff Tomkins patrols his town, smiling at the locals.
+~
+Shiriff Tomkins is known throughout the southern lands of the realms as a
+mighty warrior and fair lawman.  He alone was responsible for keeping the
+nomads of the desert from sacking Underhill in a large raid a few years ago.
+He nods at you, memorizing your face as he walks along.
+~
+1082433 4194432&256 1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 12 0 0 131073 1 0
+0 0 15 2097152 0 0 48 2621443
+> death_prog 5~
+say No!  This was entrusted to my safekeeping!
+groan
+say Mayor Grimby is going to be mad!
+rinvoke artifact
+~
+|
+#422
+halfling hobbit male~
+a male halfling~
+A young male halfling cowers in his hobbit hole.
+~
+"Are those bees still outside?" questions this young halfling.  "I haven't
+been able to go into my garden in weeks without those things swarming all
+around me and stinging me!"  He crouches down further behind his couch.
+~
+16777283 0 1000 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 18 0 0 131072 131072 0
+0 0 15 0 0 0 0 0
+#423
+warrior halfling Winton Hollythorn~
+the halfling warrior, Winton Hollythorn~
+A short fat halfling smiles at you and nods as you approach.
+~
+At first this halfling looks as harmless as most of their folk appear.  As you
+study him further however, you notice the battle worn weapons, the glint of
+armor from under his clothing, and the steely look deep in his eyes.  A small
+hollyleaf badge on his shoulder reminds you of the tavern tales you've heard
+about Winton Hollythorn, the halfling warrior.
+~
+17826817 -2141192064&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 12 0 0 1835007 1 0
+0 0 2047 3145728 0 0 8389616 524291
+> death_prog 5~
+say Ahhh!  I leave you now for the great Banquet in the Heavens!
+say Drazuk take my soul!
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#499
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#401
+bread loaf~
+a loaf of bread~
+A fresh-baked loaf of bread.~
+~
+19 0 1
+25 0 0 0
+1 150 0
+#402
+cake chocolate~
+a chocolate cake~
+A yummy chocolate cake.~
+~
+19 0 1
+35 0 0 0
+1 300 0
+#403
+apple pie~
+an apple pie~
+A large apple pie, with cinnamon on top.~
+~
+19 0 1
+30 0 0 0
+1 250 0
+#404
+donut sugar~
+a sugar donut~
+A small sugar-covered donut.~
+~
+19 0 1
+10 0 0 0
+1 50 0
+#405
+barrel beer~
+a small barrel of beer~
+A small barrel, filled with Underhill Brew.~
+~
+17 0 1
+40 40 1 0
+4 500 0
+#406
+mug beer~
+a mug of beer~
+A ceramic mug, filled with Underhill Brew.~
+~
+17 0 1
+5 5 1 0
+1 100 0
+#407
+ale keg~
+a keg of ale~
+A keg of imported Ghoulish Ale.~
+~
+17 0 1
+40 40 3 0
+4 650 0
+#408
+bottle dark ale~
+a bottle of dark ale~
+A brown bottle of dark dwarven ale.~
+~
+17 0 1
+15 15 4 0
+2 500 0
+#409
+wine cask~
+a small wine cask~
+A small cask of fine red wine.~
+~
+17 0 1
+15 15 2 0
+2 750 0
+#410
+steak deer venison~
+a venison steak~
+A steaming venison steak, cooked to perfection.~
+~
+19 0 1
+40 0 0 0
+2 350 0
+#411
+stew bowl~
+a bowl of stew~
+A large bowl of hot vegetable stew.~
+~
+19 0 1
+30 0 0 0
+1 250 0
+#412
+soup chicken cup~
+a cup of chicken soup~
+A small cup of warm chicken soup~
+~
+19 0 1
+20 0 0 0
+1 200 0
+#413
+barrel water~
+a water barrel~
+A barrel filled with clear water sits here.~
+~
+25 0 0
+0 1 0 0
+9999 0 0
+#414
+badge underhill~
+an Underhill Guards badge~
+A shiny badge, with the symbol of Underhill on it.~
+~
+9 65 2097153
+2 2 0 0
+1 150 0
+A
+25 2
+#415
+short sword~
+a short sword~
+A short sword, perfect for a halfling.~
+~
+5 0 131073
+12 1 6 2
+3 250 0
+#416
+leather jerkin~
+a leather jerkin~
+A leather jerkin, with pads covering vital areas of the chest.~
+~
+9 0 65
+5 5 0 0
+4 300 0
+#417
+short sword~
+a short sword~
+A short sword, perfect for a halfling.~
+~
+5 66 131073
+12 4 2 2
+3 250 0
+A
+1 2
+A
+18 4
+#499
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#401
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 402
+D3
+~
+~
+0 0 207
+S
+#402
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 403
+D3
+~
+~
+0 0 401
+S
+#403
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 404
+D3
+Exit description~
+~
+0 0 402
+S
+#404
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 405
+D3
+Exit description~
+~
+0 0 403
+S
+#405
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 406
+D3
+Exit description~
+~
+0 0 404
+S
+#406
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D2
+~
+~
+0 0 407
+D3
+Exit description~
+~
+0 0 405
+S
+#407
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 406
+D2
+~
+~
+0 0 408
+S
+#408
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 407
+D1
+~
+~
+0 0 409
+S
+#409
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 410
+D3
+Exit description~
+~
+0 0 408
+S
+#410
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 411
+D3
+Exit description~
+~
+0 0 409
+S
+#411
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 412
+D3
+Exit description~
+~
+0 0 410
+S
+#412
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 413
+D3
+Exit description~
+~
+0 0 411
+S
+#413
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 414
+D3
+Exit description~
+~
+0 0 412
+S
+#414
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 415
+D3
+Exit description~
+~
+0 0 413
+S
+#415
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 416
+D3
+Exit description~
+~
+0 0 414
+S
+#416
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+~
+~
+0 0 417
+D3
+Exit description~
+~
+0 0 415
+S
+#417
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+~
+~
+0 0 418
+D2
+Exit description~
+~
+0 0 416
+S
+#418
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+~
+~
+0 0 419
+D2
+Exit description~
+~
+0 0 417
+S
+#419
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D0
+~
+~
+0 0 420
+D2
+Exit description~
+~
+0 0 418
+S
+#420
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+~
+0 0 2
+D1
+~
+~
+0 0 421
+D2
+Exit description~
+~
+0 0 419
+S
+#421
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 422
+D3
+Exit description~
+~
+0 0 420
+S
+#422
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 423
+D3
+Exit description~
+~
+0 0 421
+S
+#423
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.  A small rock-lined path
+leads towards a flower garden to the north.
+~
+0 0 2
+D0
+~
+~
+0 0 651
+D1
+~
+~
+0 0 424
+D3
+Exit description~
+~
+0 0 422
+S
+#424
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 425
+D3
+Exit description~
+~
+0 0 423
+S
+#425
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 426
+D3
+Exit description~
+~
+0 0 424
+S
+#426
+A Dirt Path~
+You stand on a small dirt path that meanders its way through the grassy
+plains.  Small songbirds fly back and forth, singing and searching for smaller
+bugs to snack on.  The grass sways back and forth in the wind, and the scent
+of flowers is in the air.  To the east, small hills rise up from the fields.
+You sight rooftops a little ways off to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 427
+D3
+Exit description~
+~
+0 0 425
+S
+#427
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 428
+D2
+Exit description~
+~
+0 0 454
+D3
+Exit description~
+~
+0 0 426
+S
+#428
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 429
+D2
+Exit description~
+~
+0 0 427
+S
+#429
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+noisy tavern stands to the west of the path.
+~
+0 0 2
+D0
+~
+~
+0 0 430
+D2
+Exit description~
+~
+0 0 428
+D3
+~
+~
+0 0 455
+S
+#430
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 431
+D2
+Exit description~
+~
+0 0 429
+S
+#431
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 432
+D2
+Exit description~
+~
+0 0 430
+S
+#432
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 433
+D2
+Exit description~
+~
+0 0 431
+S
+#433
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D1
+~
+~
+0 0 434
+D2
+Exit description~
+~
+0 0 432
+S
+#434
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+fragrant garden has been planted to the north of the path, framing the path to
+a hobbit hole.
+~
+0 0 2
+D0
+~
+~
+0 0 456
+D1
+~
+~
+0 0 435
+D3
+Exit description~
+~
+0 0 433
+S
+#435
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  South
+of the path, a small flower bed surrounds a hobbit hole.
+~
+0 0 2
+D1
+~
+~
+0 0 436
+D2
+~
+~
+0 0 458
+D3
+Exit description~
+~
+0 0 434
+S
+#436
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D2
+~
+~
+0 0 437
+D3
+Exit description~
+~
+0 0 435
+S
+#437
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 436
+D2
+~
+~
+0 0 438
+S
+#438
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+well-cared for stand of hedges forms a path to a hobbit hole east of you.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 437
+D1
+~
+~
+0 0 460
+D2
+~
+~
+0 0 439
+S
+#439
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 438
+D2
+~
+~
+0 0 440
+S
+#440
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 439
+D2
+~
+~
+0 0 441
+S
+#441
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 440
+D2
+~
+~
+0 0 442
+S
+#442
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+snatch of song can be heard coming from the tavern to the west.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 441
+D2
+~
+~
+0 0 443
+D3
+~
+~
+0 0 472
+S
+#443
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+rock-lined path to the east leads to a large building in the distance.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 442
+D1
+~
+~
+0 0 466
+D2
+~
+~
+0 0 444
+S
+#444
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 443
+D2
+~
+~
+0 0 445
+S
+#445
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 444
+D2
+~
+~
+0 0 446
+S
+#446
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 445
+D2
+~
+~
+0 0 447
+S
+#447
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 446
+D3
+~
+~
+0 0 448
+S
+#448
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 447
+D3
+~
+~
+0 0 449
+S
+#449
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  A
+large wooden building sits south of the path.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 448
+D2
+~
+~
+0 0 465
+D3
+~
+~
+0 0 450
+S
+#450
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 451
+D1
+Exit description~
+~
+0 0 449
+S
+#451
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 452
+D2
+Exit description~
+~
+0 0 450
+S
+#452
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  The
+buzz of bees come from the garden to the east.
+~
+0 0 2
+D0
+~
+~
+0 0 453
+D1
+~
+~
+0 0 463
+D2
+Exit description~
+~
+0 0 451
+S
+#453
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.  The
+smell of fresh-baked breads comes from the building to the west.
+~
+0 0 2
+D0
+~
+~
+0 0 454
+D2
+Exit description~
+~
+0 0 452
+D3
+~
+~
+0 0 462
+S
+#454
+Exploring Underhill~
+A small dirt road circles the little village of Underhill.  Halflings smile
+and wave at you as they travel about their business.  Every so often you hear
+a bit of song or some laughter coming from the little hobbit holes.  The
+village is neat and clean, with well-kept gardens everywhere you look.
+~
+0 0 2
+D0
+~
+~
+0 0 427
+D2
+Exit description~
+~
+0 0 453
+S
+#455
+The Golden Lily~
+You step into a large, comfortable tavern.  A large fire burns in a fireplace
+set into the northern wall, and a beautiful oak bar runs along the length of
+the west wall.  Pictures of various hobbit "heroes", mostly cooks and
+gardeners, hang about the place.   Several small tables sit in the middle of
+the room, surrounding by wooden chairs, polished to a bright shine from use.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 429
+S
+#456
+A Well-Tended Garden~
+You stand in front of a small door that leads down into the earth, surrounding
+by many wildflowers.  The owner of this hole has planted flowers whose colors
+encompass every color of the rainbow, making the bright yellow door seem
+fitting, instead of garish.
+~
+0 0 2
+D2
+Exit description~
+~
+0 0 434
+D5
+~
+~
+0 0 457
+S
+#457
+A Comfy Hobbit Hole~
+With a ceiling obviously made for the shorter race, this hobbit hole is clean
+and comfortably furnished.  The smell of fresh bread floats in from the
+kitchen.  A large plush chair sits in front of the small fireplace, and
+bookshelves lines the walls.  Most of the books seem to be about seeds and
+growing seasons.
+~
+0 8 0
+D4
+Exit description~
+~
+0 0 456
+S
+#458
+A Well-Tended Garden~
+The entrance to a small hobbit hole is surrounded by a small flower bed.
+While not as extravagant as some of the other gardens you've seen so far, this
+one is still well-kept and pleasant.
+~
+0 0 2
+D0
+~
+~
+0 0 435
+D5
+~
+~
+0 0 459
+S
+#459
+A Comfy Hobbit Hole~
+With a ceiling obviously made for the shorter race, this hobbit hole is clean
+and comfortably furnished.  Many books are scattered about a table sitting in
+the middle of the room.  Glancing over them, they seem to be mostly cookbooks
+and stories of hobbit adventurers.
+~
+0 8 0
+D4
+~
+~
+0 0 458
+S
+#460
+A Well-Tended Garden~
+Neatly trimmed hedges form a circular design around the path and entranceway
+to this hobbit hole.  Small white berries grow on the green bushes and provide
+a pleasant piney scent to the surrounding area.
+~
+0 0 2
+D3
+~
+~
+0 0 438
+D5
+~
+~
+0 0 461
+S
+#461
+A Comfy Hobbit Hole~
+With a ceiling obviously made for the shorter race, this hobbit hole is clean
+and comfortably furnished.  A small fire crackles in the fireplace, and a
+large rocking chair is pulled up close to it.  A comfy quilt lies on the floor
+in front of the chair.
+~
+0 8 0
+D4
+Exit description~
+~
+0 0 460
+S
+#462
+The Bakery~
+A wave of heat hits you as you enter this building.  It must be coming from
+the large oven leaning against the west wall.  A large stack of wood stands
+nearby, obviously to fuel the fires that cook the wonderful breads you smell.
+A small counter for placing orders stands in front of the ovens.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 453
+S
+#463
+A Well-Tended Garden~
+This garden looks a little disheveled when compared to the others, as if noone
+has had time to take care of the weeds and vines that slowly move in.  A large
+tree stands over the doorway of the hobbit hole.  The humming of bee's comes
+from deep within the trunk.
+~
+0 0 2
+D3
+~
+~
+0 0 452
+D5
+~
+~
+0 0 464
+S
+#464
+A Comfy Hobbit Hole~
+With a ceiling obviously made for the shorter race, this hobbit hole is clean
+and comfortably furnished.  The smell of fresh bread floats in from the
+kitchen.  A small couch sits against the wall, perfect for lying down, kicking
+up your feet and taking a short nap.
+~
+0 8 0
+D4
+Exit description~
+~
+0 0 463
+S
+#465
+Underhill Brewery~
+A large brewing vat takes up most of this building, obviously a brewery.  The
+smell of hops and aging wort fills the air.  Several scrubbed barrels are
+stacked along the far wall, ready to be filled with the fine brew currently
+aging in the large vat.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 449
+S
+#466
+A Manicured Path~
+Small rocks line the pathway leading to a large building to the north.  The
+grass on either side of the path is carefully mowed, and a few of the hedges
+are trimmed to look like bears and deer and other wild animals of the plains.
+~
+0 0 2
+D0
+~
+~
+0 0 467
+D3
+~
+~
+0 0 443
+S
+#467
+A Manicured Path~
+Small rocks line the pathway leading to a large building to the north.  The
+grass on either side of the path is carefully mowed, and a few of the hedges
+are trimmed to look like bears and deer and other wild animals of the plains.
+North of you stands the entrance to a large building.
+~
+0 0 2
+D0
+~
+~
+0 0 468
+D2
+Exit description~
+~
+0 0 466
+S
+#468
+Mayors Lobby~
+A small receptionist desk is placed in the entranceway of this large building.
+A tapestry hangs on the wall behind the desk, with the symbol of Underhill
+embroidered into it with brightly colored yarn.  A small pot of flowers sits
+on the corner of the desk.
+~
+0 8 0
+D0
+~
+~
+0 0 469
+D1
+~
+~
+0 0 471
+D2
+Exit description~
+~
+0 0 467
+S
+#469
+The Meeting Room~
+A large conference table sits in the middle of this large room.  Many small
+chairs surround the table.  Placed along the wall at equal distances apart are
+various painting of former Mayors and Shiriffs.
+~
+0 8 0
+D1
+~
+~
+0 0 470
+D2
+Exit description~
+~
+0 0 468
+S
+#470
+The Mayors Office~
+A large desk takes up most of this room.  Many papers are scattered about in
+disarray, giving the impression that the Mayor is disorganized and/or cares
+not for the information they contain.  A small Underhill flag hangs behind the
+desk.  A small keg of beer also stands behind the desk.
+~
+0 8 0
+D2
+~
+~
+0 0 471
+D3
+Exit description~
+~
+0 0 469
+S
+#471
+Storage Room~
+A small storage room houses brooms and mops and other supplies used by the
+Mayors employees.  Buckets are stacked in one corner, and a large barrel of
+fresh water sits opposite.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 470
+D3
+Exit description~
+~
+0 0 468
+S
+#472
+The Dancing Cow~
+From the looks of things, this tavern is a pure drinking establishment.  Long
+tables with benches fill the room, and a large shelf covered in mugs lines the
+western wall.  Several large kegs stand against the south side of the
+building.  Many windows are placed about, allowing the cheery sunlight in
+during the day, and views of the night sky during the evening.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 442
+S
+#499
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 423 1 422
+O 0 413 1 471
+M 0 421 1 441
+E 0 417 1 21
+E 0 416 1 7
+E 0 414 1 25
+M 0 420 1 470
+M 0 419 1 472
+E 0 416 1 7
+E 0 415 1 21
+E 0 414 1 25
+M 0 418 1 468
+M 0 417 1 472
+G 1 401 1
+G 1 409 1
+G 1 408 1
+G 1 407 1
+G 1 406 1
+G 1 405 1
+M 0 416 1 455
+G 1 403 1
+G 1 412 1
+G 1 411 1
+G 1 410 1
+G 1 406 1
+M 0 415 1 462
+G 1 404 1
+G 1 402 1
+G 1 401 1
+G 1 403 1
+M 0 414 2 448
+E 0 414 1 25
+M 0 414 2 448
+E 0 415 1 21
+M 0 413 2 467
+E 0 414 1 25
+M 0 413 2 467
+E 0 415 1 21
+M 0 412 2 430
+E 0 414 1 25
+M 0 412 2 430
+E 0 416 1 7
+M 0 411 2 425
+E 0 414 1 25
+M 0 411 2 425
+E 0 416 1 7
+M 0 410 2 412
+E 0 414 1 25
+M 0 410 2 412
+E 0 416 1 7
+M 0 409 2 464
+M 0 409 2 464
+M 0 408 2 445
+M 0 408 2 445
+M 0 407 2 461
+M 0 407 2 461
+M 0 406 2 457
+M 0 406 2 457
+M 0 405 2 451
+M 0 405 2 451
+M 0 404 1 447
+M 0 404 1 447
+M 0 403 2 438
+M 0 403 2 438
+M 0 402 2 433
+M 0 402 2 433
+M 0 422 1 464
+M 0 401 3 463
+M 0 401 3 463
+M 0 401 3 463
+S
+
+
+#SHOPS
+ 415   19 17  8  0  0   120  90         7 18    ; Rita
+ 416   19 17  8  0  0   120  90         0 23    ; Clarissa
+ 417   19 17  8  0  0   120  90         0 23    ; Martin
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  410 spec_guard
+M  411 spec_guard
+M  412 spec_guard
+M  413 spec_guard
+M  414 spec_guard
+M  419 spec_guard
+M  421 spec_executioner
+M  423 spec_executioner
+S
+
+
+#$

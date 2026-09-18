@@ -1,0 +1,182 @@
+#PLAYER
+Version      3
+Name         Dualtest~
+ID           1947
+Sex          1
+Class        6
+Dual         6
+Race         15
+Languages    1 1
+Level        50
+Played       252
+Room         21001
+HpManaMove   983 883 801 789 1334 1334
+Gold         0
+Exp          5029494
+Tier	       1
+Tierexp      0
+Height          77
+Weight          177
+Act          704644680&12
+AffectedBy   32
+Position     112
+Style     2
+Practice     303
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor	       0
+Balance      0
+Mobmaster    0
+MobMTicks    0
+NextMobM     0
+Glory        0
+MGlory       0
+Scoremobm    0
+Scoremk      0
+Scoreqp      0
+Scorepk      0
+Scoregold    0
+Scorexp      5029494
+Scoremp      0
+Scoresp      0
+SkillPoints  0
+MagicPoints  0
+Rent		 0
+Hitroll      0
+Damroll      0
+Armor        100
+ArmorWorn    0
+Resistant    3
+Mentalstate  0
+Password     DuF.i8v.lTbvw~
+Title         the Runner~
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     16 18 15 18 17 16 13
+AttrMod      0 0 0 0 0 0 0
+Condition    0 95 95 10
+Site         73.232.238.119
+Spell        90 'aqua breath'
+Spell        95 'astral walk'
+Spell        95 'barbed arrow'
+Spell        95 'blade shield'
+Spell        90 'continual light'
+Spell        90 'control weather'
+Spell        90 'create spring'
+Spell        85 'cure light'
+Spell        85 'cure serious'
+Spell        90 'detect hidden'
+Spell        90 'detect poison'
+Spell        90 'detect traps'
+Spell        95 'eyes of the hunter'
+Spell        90 'float'
+Spell        90 'fly'
+Spell        90 'infravision'
+Spell        90 'locate object'
+Spell        95 'natures companion'
+Spell        95 'numbing arrow'
+Spell        90 'plant pass'
+Spell        85 'poison'
+Spell        95 'quickening'
+Spell        90 'refresh'
+Spell        90 'stone skin'
+Spell        95 'venom arrow'
+Spell        90 'word of recall'
+Skill        90 'aggressive style'
+Skill        90 'aid'
+Skill        65 'berserk style'
+Skill        95 'camouflage'
+Skill        95 'catnap'
+Skill        90 'climb'
+Skill        85 'defensive style'
+Skill        95 'dig'
+Skill        90 'disarm'
+Skill        95 'disengage'
+Skill        75 'dodge'
+Skill        90 'dual wield'
+Skill        80 'elbow'
+Skill        95 'engage'
+Skill        95 'enhanced hit'
+Skill        70 'evasive style'
+Skill        80 'fifth attack'
+Skill        75 'fourth attack'
+Skill        75 'grip'
+Skill        95 'hide'
+Skill        85 'jab'
+Skill        95 'mount'
+Skill        95 'overrun'
+Skill        80 'parry'
+Skill        75 'punch'
+Skill        95 'rescue'
+Skill        75 'roundhouse'
+Skill        95 'scan'
+Skill        95 'search'
+Skill        95 'second attack'
+Skill        95 'sharpen'
+Skill        90 'sneak'
+Skill        95 'snipe'
+Skill        95 'stalk'
+Skill        90 'standard style'
+Skill        80 'strike'
+Skill        75 'tend'
+Skill        85 'third attack'
+Skill        90 'track'
+Weapon       95 'axes'
+Weapon       80 'bludgeons'
+Weapon       95 'exotic arms'
+Weapon       95 'flexible arms'
+Weapon       95 'long blades'
+Weapon       95 'missile weapons'
+Weapon       95 'polearms'
+Weapon       95 'pugilism'
+Weapon       95 'short blades'
+Weapon       95 'talonous arms'
+Tongue       100 'ancient'
+Tongue       100 'common'
+Tongue       100 'dragon'
+Tongue       100 'dwarven'
+Tongue       100 'elvish'
+Tongue       100 'ghoulish'
+Tongue       100 'gith'
+Tongue       100 'gnomish'
+Tongue       100 'goblin'
+Tongue       100 'halfling'
+Tongue       100 'insectoid'
+Tongue       100 'mammal'
+Tongue       100 'minotaur'
+Tongue       100 'ogre'
+Tongue       100 'orcish'
+Tongue       100 'pixie'
+Tongue       10 'reptile'
+Tongue       100 'rodent'
+Tongue       100 'trollese'
+Tongue       100 'wolfen'
+MaxColors    98
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 10 14 13 15 15 15 9 11 9 31 25 10 6 6 10 6 11 9 10 1 15 13 12 7 10 13 12 10 10 12 10 3 12 9 15 11 3 14 2 5 15 9 8 2 9 12 9 2 10 15 7 7 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 9 15 10 0 
+End
+
+#OBJECT
+Name         claw sinzen~
+ShortDescr   the Claw of Sinzen~
+Description  A bi-taloned claw, it seems to radiate both light and darkness.~
+ActionDesc   ~
+Ovnum         29439
+WearLoc      21
+Values       12 4 16 5 0 1 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         claw sinzen~
+ShortDescr   the Claw of Sinzen~
+Description  A bi-taloned claw, it seems to radiate both light and darkness.~
+ActionDesc   ~
+Ovnum         29439
+WearLoc      22
+Values       12 4 16 5 0 1 0 0 0 0 0 0 0 0 0
+End
+
+#END

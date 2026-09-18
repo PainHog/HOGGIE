@@ -1,0 +1,1421 @@
+#AREA Greenpath~
+
+#VERSION 1
+
+#CLIMATE 2 2 3
+
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 1 65
+$
+
+#RESETMSG A cool, light breeze blows against your face...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 190349240
+
+#MOBILES
+#301
+butterfly~
+a brightly colored butterfly~
+A small butterfly flits about the meadow.
+~
+A small, colorful butterfly flits past you, looking for other bugs to make a
+snack out of.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+5 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 1 1 0
+0 0 36864 0 0 0 0 0
+#302
+butterfly~
+a brightly colored butterfly~
+A small butterfly flits about the meadow.
+~
+A small, colorful butterfly flits past you, looking for other bugs to make a
+snack out of.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+5 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 1 1 0
+0 0 36864 0 0 0 0 0
+#303
+butterfly~
+a brightly colored butterfly~
+A small butterfly flits about the meadow.
+~
+A small, colorful butterfly flits past you, looking for other bugs to make a
+snack out of.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+5 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 1 1 0
+0 0 36864 0 0 0 0 0
+#304
+elf wizard elven~
+an elven wizard~
+A stately elven wizard strolls along the path.
+~
+This elf is one of the oldest you've seen.  He has long, white hair, and wears
+fantastic robes, with many arcane runes embroidered about them.  A pointed
+wizards hat sits atop his head.  He nods at you as he walks past.
+~
+17826881 71303208&256 1000 C
+45 0 -145 4d40+1515 3d5+35
+130 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 2 2 0
+0 0 31 1048576 0 0 268435488 66
+> death_prog 5~
+emote tries to mumble out one last spell, but his body goes limp and he fall in a heap...
+rinvoke artifact
+~
+|
+#305
+orc raider~
+an orc raider~
+A scruffy orc hunts for signs of elves.
+~
+This orc has been traveling for quite some time.  He is even dirtier than most
+other orcs you have seen.  He keeps his eyes to the ground, watching for signs
+of elves to ambush.  Be careful...he may try to attack you if he gets a good
+chance.
+~
+65 32768 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 1 32 0
+0 0 39 0 0 0 48 2
+#306
+orc raider~
+an orc raider~
+A scruffy orc hunts for signs of elves.
+~
+This orc has been traveling for quite some time.  He is even dirtier than most
+other orcs you have seen.  He keeps his eyes to the ground, watching for signs
+of elves to ambush.  Be careful...he may try to attack you if he gets a good
+chance.
+~
+65 32768 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 1 32 0
+0 0 39 0 0 0 48 2
+#307
+orc raider~
+an orc raider~
+A scruffy orc hunts for signs of elves.
+~
+This orc has been traveling for quite some time.  He is even dirtier than most
+other orcs you have seen.  He keeps his eyes to the ground, watching for signs
+of elves to ambush.  Be careful...he may try to attack you if he gets a good
+chance.
+~
+65 32768 -1000 C
+15 0 5 3d6+250 3d5+5
+35 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 6 0 0 1 32 0
+0 0 39 0 0 0 48 2
+#308
+firefly fly~
+a firefly~
+A small firefly flies in lazy circles, occasionally emitting a small light.
+~
+A small firefly zooms about in the warm air.  Every so often, a small light on
+its back end lights up, adding a little glow to the world about it.
+~
+16777281 524288 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 1 0 0 1 1 0
+0 0 36864 0 0 0 1 0
+#309
+elven slave girl~
+an elven slave girl~
+An elven slave girl kneels before you, awaiting your desire.
+~
+A slim but shapely figure rests here, elven chain restraining her at the neck,
+wrists and ankles. Submissively positioned, this slave girl obeys her
+mistress's every whim. All is still until the girl shifts slightly, stirring
+her lightly wrought chains, a silvery, musical sound upon the air.
+~
+67 4194304 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 17 0 0 2 2 0
+0 0 0 0 0 0 0 0
+#400
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+20971585 524288 0 C
+5 0 55 2d5+75 1d5+5
+10 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 1 0 0 1 1 0
+0 0 36864 0 0 0 1 0
+#0
+
+#OBJECTS
+#301
+hat pointed wizards~
+a pointed wizards hat~
+A cloth hat, with a long tall point.~
+~
+9 64 3 0
+6 6 0 0
+1 500 0
+A
+79 1
+A
+12 25
+A
+3 3
+#302
+robes velvet purple~
+purple velvet robes~
+A set of velvet robes, in a dark purple, lies here.~
+~
+9 64 65 0
+5 5 0 0
+3 500 0
+A
+2 2
+A
+1 2
+A
+24 -2
+#303
+staff pine shiny~
+a shiny pine staff~
+A long staff, carved from pine, is propped up here.~
+~
+4 66 1048577 0
+40 4 4 -1
+3 450 0
+'shockshield'
+A
+31 2
+#304
+cloak orc~
+an orcish cloak~
+A smelly cloak lies in a heap.~
+~
+9 0 33 0
+6 6 0 0
+2 25 0
+#305
+sword long longsword dirty~
+a dirty longsword~
+A dirty old longsword sits here.~
+~
+5 0 131073 0
+11 1 7 3
+4 45 0
+#306
+mask orcish warmask~
+an orcish warmask~
+A small mask of a scowling beast stares back at you.
+~
+
+~
+9 4176 17 0
+4 4 0 0
+2 0 0
+A
+3 -3
+A
+19 2
+#307
+crossbow black iron~
+a black iron crossbow~
+A large crossbow, crafted from black iron, sits here.~
+~
+5 0&16 131073 0
+10 5 4 13
+7 150 0
+#308
+tunic stained orcish~
+a stained orcish tunic~
+A dirty old tunic of orc manufacture lies in a pile.~
+~
+9 0 65 0
+3 3 0 0
+4 75 0
+#309
+ring iron small~
+a small iron ring~
+A small ring, crafted from iron.~
+~
+8 64 1025 0
+0 0 0 0
+1 50 0
+A
+1 1
+#310
+neckchain small iron~
+a small iron neckchain~
+A small neckchain, forged from iron.~
+~
+8 64 33 0
+0 0 0 0
+1 75 0
+A
+1 1
+#311
+bracer small iron~
+a small iron bracer~
+A small bracer, forged of iron.~
+~
+9 524352 257 0
+8 8 0 0
+1 75 0
+A
+13 15
+#312
+bulb firefly's~
+a firefly's bulb~
+The glowing bulb from a firefly lies in the dust.
+~
+
+~
+1 1 1 0
+0 0 -1 0
+1 25 0
+#313
+map sign roadmap roadsign~
+a roadsign~
+A brightly painted roadsign stands at the side of the path.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+map sign roadmap roadsign~
+Bubbling Bog/Spider Forest -- 5w4n
+Toadstool Circle -- 5w3n9w6s7w2n4w3n
+Elenolos -- 5w3n9w6s7w2n4w2n5w4n5w
+~
+#314
+key melisande adamantite sliver~
+&R(&rBloodstained&R)&W a s&Rh&ra&Rr&Wp s&Rl&riv&Re&Wr of adamantite&D ~
+This is Melisande's key...give it back to her!~
+~
+9 536870912&36 1048577 0
+1 1 0 0
+1 0 0
+#400
+Placeholder~
+Placeholder~
+Placeholder~
+~
+1 1 1 0
+0 0 -1 0
+1 25 0
+#0
+
+#ROOMS
+#301
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.  You spy the gates of
+Alden to the east.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 0 21037 0
+D3
+~
+~
+0 0 302 0
+S
+#302
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 301 0
+D3
+~
+~
+0 0 303 0
+S
+#303
+The Greenpath~
+You walk along a a small dirt road.    You can see forest off to the north
+and there appears to be a small trail leading through the trees to the south.
+Butterflies flit about and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 302 0
+D2
+~
+~
+0 0 5127 0
+D3
+~
+~
+0 0 304 0
+S
+#304
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 303 0
+D3
+~
+~
+0 0 305 0
+S
+#305
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 304 0
+D3
+~
+~
+0 0 306 0
+S
+#306
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 307 0
+D1
+Exit description~
+~
+0 0 305 0
+D2
+Exit description
+~
+~
+0 0 9800 0
+D3
+Suddenly it appears!
+~
+west~
+0 0 8190 0
+S
+#307
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 308 0
+D2
+Exit description~
+~
+0 0 306 0
+S
+#308
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 309 0
+D2
+Exit description~
+~
+0 0 307 0
+S
+#309
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.  A small path heads north
+through the forest.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 1912 0
+D2
+Exit description~
+~
+0 0 308 0
+D3
+~
+~
+0 0 310 0
+S
+#310
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 309 0
+D3
+~
+~
+0 0 311 0
+S
+#311
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 310 0
+D3
+~
+~
+0 0 312 0
+S
+#312
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 311 0
+D3
+~
+~
+0 0 313 0
+S
+#313
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 312 0
+D3
+~
+~
+0 0 314 0
+S
+#314
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 313 0
+D3
+~
+~
+0 0 315 0
+S
+#315
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 314 0
+D3
+~
+~
+0 0 316 0
+S
+#316
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 315 0
+D3
+~
+~
+0 0 317 0
+S
+#317
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 316 0
+D3
+~
+~
+0 0 318 0
+S
+#318
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 317 0
+D2
+~
+~
+0 0 319 0
+S
+#319
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 318 0
+D2
+~
+~
+0 0 320 0
+S
+#320
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 319 0
+D2
+~
+~
+0 0 321 0
+S
+#321
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 320 0
+D2
+~
+~
+0 0 322 0
+S
+#322
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 321 0
+D2
+~
+~
+0 0 323 0
+S
+#323
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 322 0
+D2
+~
+~
+0 0 324 0
+S
+#324
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 323 0
+D3
+~
+~
+0 0 325 0
+S
+#325
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 324 0
+D3
+~
+~
+0 0 326 0
+S
+#326
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 325 0
+D3
+~
+~
+0 0 327 0
+S
+#327
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 326 0
+D3
+~
+~
+0 0 328 0
+S
+#328
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 327 0
+D3
+~
+~
+0 0 329 0
+S
+#329
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 328 0
+D3
+~
+~
+0 0 330 0
+S
+#330
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 329 0
+D3
+~
+~
+0 0 331 0
+S
+#331
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 332 0
+D1
+Exit description~
+~
+0 0 330 0
+S
+#332
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 333 0
+D2
+Exit description~
+~
+0 0 331 0
+S
+#333
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 332 0
+D3
+~
+~
+0 0 334 0
+S
+#334
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 333 0
+D3
+~
+~
+0 0 335 0
+S
+#335
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 334 0
+D3
+~
+~
+0 0 336 0
+S
+#336
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 335 0
+D3
+~
+~
+0 0 337 0
+S
+#337
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 338 0
+D1
+Exit description~
+~
+0 0 336 0
+S
+#338
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 339 0
+D2
+Exit description~
+~
+0 0 337 0
+S
+#339
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.  A small path heads off into
+the forest to the north.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 951 0
+D2
+Exit description~
+~
+0 0 338 0
+D3
+~
+~
+0 0 340 0
+S
+#340
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 339 0
+D3
+~
+~
+0 0 341 0
+S
+#341
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 340 0
+D3
+~
+~
+0 0 342 0
+S
+#342
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 341 0
+D3
+~
+~
+0 0 343 0
+S
+#343
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 342 0
+D3
+~
+~
+0 0 344 0
+S
+#344
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 345 0
+D1
+Exit description~
+~
+0 0 343 0
+D3
+~
+~
+25166887 314 352 0
+S
+#345
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 346 0
+D2
+Exit description~
+~
+0 0 344 0
+S
+#346
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 347 0
+D2
+Exit description~
+~
+0 0 345 0
+S
+#347
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 348 0
+D2
+Exit description~
+~
+0 0 346 0
+S
+#348
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 347 0
+D3
+~
+~
+0 0 349 0
+S
+#349
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 348 0
+D3
+~
+~
+0 0 350 0
+S
+#350
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 349 0
+D3
+~
+~
+0 0 351 0
+S
+#351
+The Greenpath~
+You walk along a a small dirt road.  You can see forest off to the north.
+South of you are rolling hills made up of green grass.  Butterflies flit about
+and the sound of small songbirds is in the air.  Elenolos, the hometown of the
+elves can be seen through the trees to the west.
+~
+0 0 2 0 0 0
+D1
+Exit description~
+~
+0 0 350 0
+D3
+~
+~
+0 0 1601 0
+S
+#352
+The Lady's Haven~
+You pause a moment upon entering, as your eyes adjust to the &Odim
+&Ylighting&D.  A &wdouble row of &Wsilvery &Ycandles&D encircles the room,
+each stick of pure, sweet smelling beeswax, and each set upon an &ziron
+wrought &bpost&D. Directly ahead (and partially underfoot) sprawls a
+&Wlengthy, &Csnow&Wwhite&D &zfur&D which has been strewn across the
+&Odark oak &zfloors&D, creating an ideal place to recline and ponder the
+world's intricacies.
+
+The luxurious fur stops short near a &Olarge &Yfi&rre&Rpl&ra&Yce&D, where
+several thick cords of wood burn merrily, warming the entire dwelling.
+Directly above you, &ba &Cspiral stair&D suspends in mid-air, leading up to
+the rooftop courtyard above. The smallest &Wglimpse&D of &Bs&Ct&War&Cr&By
+&Bsky&D is visible from where you stand. To the east and west, each
+side of the room is lined with books, floor to ceiling, and
+wall to wall.
+
+&OLeather-bound&D, &zmusky volumes&D, ancient tomes, some of &Pmagic&D, some
+of &Gmystery&D, all intriguing. Farther ahead stands a &wlarge, four-poster
+bed, hung with &pwine coloured netting&D. The &zsilken &pdrapes&D are closed
+now, a place of privacy then, the Lady's bedchambers.
+~
+0 3146760 0 0 0 0
+D0
+~
+~
+8389671 314 353 0
+D1
+~
+~
+25166887 314 344 0
+D4
+~
+~
+0 0 354 0
+E
+north n~
+Far ahead of you stands a large, four-poster bed, hung with wine coloured
+netting. The silken drapes are closed now, a place of privacy then, the lady's
+bedchambers.
+~
+E
+west w~
+The western side of the room is lined with books, floor to ceiling, and wall
+to wall. Leather-bound, musky volumes, ancient tomes, some of magic, some of
+mystery, all intriguing like their mistress.
+~
+E
+east e~
+The eastern side of the room is lined with books, floor to ceiling, and wall
+to wall. Leather-bound, musky volumes, ancient tomes, some of magic, some of
+mystery, all intriguing like their mistress. A single break in this collection
+is allowed for the doorway, which cuts through its center, leading outside.
+~
+E
+up u~
+Directly above you, a spiral stair suspends mid-air, leading up to the rooftop
+courtyard above. The smallest glimpse of starry sky is visible from where you
+stand.
+~
+E
+south s~
+The luxurious fur stops short near a large fireplace, where several thick
+cords of wood burn merrily, warming the entire dwelling.
+~
+E
+down d~
+Directly ahead (and partially underfoot) sprawls a lengthy, snow white fur
+which has been strewn across the dark oak floors, creating an ideal place to
+recline and ponder the world's intricacies.
+~
+S
+#353
+Bedchambers~
+As you untie the &zsilken &pribbons&D and slip through her Lady's private
+curtains, you feel a sting. &WOuch!&D A &zneedle&D sewn into the ribbon's end
+&Rhas &rpricked &Ryou!&D  &RA dr&rop of bl&Rood&D falls from tip of your
+finger into a porcelain dish: a toll to enter her personal sanctuary, or
+foreshadowing of what is yet to come?
+
+&CLuxuriance &Wembraces your form&D as you settle in upon mounds of &psoft,
+silky &zcushions&D piled atop an enormous bed of lush Egyptian cotton. A
+marble pedestal stands at the far left of the bed, supporting a porcelain
+&Cbowl&D of &Wcrushed ice&D and a &Ccry&Wst&ca&Wll&Cine&D bottle of &Psweet
+&Cchampagne&D. On the far right side, a second pedestal bears an eternally
+&Rwarm&D, porcelain bowl of &Omelted cho&Ycol&Oate&D, swirling endlessly as if
+by magick. Draped across the headboard and encircling the top two bedposts
+climb &Gyards of vinery&D, bearing &Wlucious &Psummer&D-&Wripe
+&Pstrawberries&D of perfect colour. These vines never wither, nor fade with
+season, but are ever fruitful and ever ready to bloom. An enchanted place, and
+deigned only to be shared with a select few.
+~
+0 271582216 0 0 0 0
+D2
+~
+~
+8389671 314 352 0
+E
+west w~
+The curtains are drawn, obscuring your view.
+~
+E
+east e~
+The curtains are drawn, obscuring your view.
+~
+E
+south s~
+Flames lick the iron grate before the fireplace, visible merely as softly
+glowing lights through the silky gauze of the bed drapes.
+~
+E
+north headboard n~
+A barely visible outline exists beneath the vinery, perhaps by working along
+the edge with your blade you can find the latch to release this hidden coffer.
+You wonder mutely what treasures may lie veiled within.
+~
+S
+#354
+Courtyard Sanctuary~
+When you set foot upon the stairs they begin to flow, moving soundlessly,
+pulling &Wonward, &Cupward&D, into the &Glush garden&D that awaits. A light,
+sweet &Pscent &Wwafts to you&D upon a breeze and faint rustlings greet your
+arrival as &Cpetals &Wun&Ccurl&D and hyacinths, crocuses, bluebells, baby
+roses, lilacs, countless others turn to display themselves before you. A
+well-kept path divides the &pbloss&Woming &Gfoliage&D into four quarters, each
+bearing the fruit and blooming flowers of a particular season. &GSpring&D,
+&PSummer&D, &OFall&D and &WWinter&D each equally represented here in cherry
+blossoms, ripened berries, sunflowers, mistletoe and more. &zFur&w-draped&D
+benches of the same &Odark oak&D rest in each corner of the garden, while a
+single &Wwhite gazebo&D graces the center stage, its windows draped with
+similar &psilken &zgauze&D, the roof left open &Bs&Wky&bw&War&Bd&D, for
+&Wgazing&D. As the &pcurtains&D are drawn now, you can see piles of
+comfortable looking pillows swathe the inner benches of this &Cstar&D-&Wgazing
+sanctuary&D.
+~
+0 3146760 0 0 0 0
+D5
+~
+~
+0 0 352 0
+E
+west w~
+The countryside falls away below, stretching unto the horizon.
+~
+E
+east e~
+The countryside falls away below, stretching unto the horizon.
+~
+E
+south s~
+The countryside falls away below, stretching unto the horizon.
+~
+E
+north n~
+The countryside falls away below, stretching unto the horizon.
+~
+E
+down d~
+A well-kept walkway divides the courtyard, quartering and yet encircling this
+rooftop garden.
+~
+E
+up u~
+Above you yawns an &Benormous sky&D, simply bursting with stars.
+Constellations of all &Pmyths&D and &Clegends&D dance in rhythm across their
+&Wstarry stage&D.  &YShooting &Wstars&D pierce the night every few minutes,
+&Wda&Czzli&Wng&D the eyes and lighting the countryside below. Although each
+meteor seems nearly to &Pkiss&D &Othe earth&D, rather their magick simply
+falls away as they rejoin their &OMother&D of long ago.
+~
+S
+#400
+Placeholder~
+Placeholder
+~
+0 4 2 0 0 0
+S
+#0
+
+#RESETS
+M 0 309 1 353  ; Mob: #309 an elven slave girl => #353 Bedchambers
+D 0 353 2 2  ; Door: #353 Bedchambers/south => closed and locked
+D 0 352 0 2  ; Door: #352 The Lady's Haven/north => closed and locked
+D 0 352 1 2  ; Door: #352 The Lady's Haven/east => closed and locked
+D 0 344 3 2  ; Door: #344 The Greenpath/west => closed and locked
+O 0 313 1 301  ; Object: #313 a roadsign => #301 The Greenpath
+M 0 308 1 330  ; Mob: #308 a firefly => #330 The Greenpath
+E 0 312 1 0  ; -- Equip: #312 a firefly's bulb (light)
+M 0 307 2 338  ; Mob: #307 an orc raider => #338 The Greenpath
+E 0 307 1 21  ; -- Equip: #307 a black iron crossbow (wield)
+E 0 308 1 7  ; -- Equip: #308 a stained orcish tunic (body)
+M 0 307 2 338  ; Mob: #307 an orc raider => #338 The Greenpath
+E 0 307 1 21  ; -- Equip: #307 a black iron crossbow (wield)
+E 0 309 1 12  ; -- Equip: #309 a small iron ring (finger-l)
+M 0 306 2 320  ; Mob: #306 an orc raider => #320 The Greenpath
+E 0 305 1 21  ; -- Equip: #305 a dirty longsword (wield)
+E 0 311 1 9  ; -- Equip: #311 a small iron bracer (wrist-l)
+M 0 306 2 320  ; Mob: #306 an orc raider => #320 The Greenpath
+E 0 310 1 5  ; -- Equip: #310 a small iron neckchain (neck-1)
+E 0 307 1 21  ; -- Equip: #307 a black iron crossbow (wield)
+M 0 305 2 312  ; Mob: #305 an orc raider => #312 The Greenpath
+E 0 305 1 21  ; -- Equip: #305 a dirty longsword (wield)
+E 0 306 1 4  ; -- Equip: #306 an orcish warmask (face)
+M 0 305 2 312  ; Mob: #305 an orc raider => #312 The Greenpath
+E 0 305 1 21  ; -- Equip: #305 a dirty longsword (wield)
+E 0 304 1 5  ; -- Equip: #304 an orcish cloak (neck-1)
+M 0 304 1 350  ; Mob: #304 an elven wizard => #350 The Greenpath
+E 0 303 1 24  ; -- Equip: #303 a shiny pine staff (hold)
+E 0 302 1 7  ; -- Equip: #302 purple velvet robes (body)
+E 0 301 1 1  ; -- Equip: #301 a pointed wizards hat (head)
+M 0 303 1 340  ; Mob: #303 a brightly colored butterfly => #340 The Greenpath
+M 0 302 1 321  ; Mob: #302 a brightly colored butterfly => #321 The Greenpath
+M 0 301 1 306  ; Mob: #301 a brightly colored butterfly => #306 The Greenpath
+S
+
+#SPECIALS
+M 304 spec_cast_mage   ; an elven wizard
+S
+
+#$

@@ -1,0 +1,3189 @@
+#AREA   Boulder Pass~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+25 50 0 65
+$
+
+#RESETMSG The rumbling of thunder comes from overhead...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 926485415
+
+#CLIMATE 0 3 4
+
+#MOBILES
+#801
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+97 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#802
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+65 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#803
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+97 0 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#804
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+65 0 -1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#805
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+65 0 -1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#806
+giant hill dim~
+a hill giant~
+A dim looking giant walks through the pass.
+~
+This large creature strolls along the path, scratching itself and lugging a
+giant club around.  It blinks stupidly when it sights you, not sure why you
+are travelling the pass.
+~
+65 0 -1000 C
+30 0 -70 4d15+760 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 135 0 0 0 32 0
+#807
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+35 0 -95 4d20+975 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 71 8192 0 0 16 0
+#808
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+35 0 -95 4d20+975 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 71 2105344 0 0 16 0
+#809
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+35 0 -95 4d20+975 3d5+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 71 8192 0 0 16 0
+#810
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 263 2105344 0 0 128 0
+#811
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 263 8192 0 0 128 0
+#812
+giant stone~
+a stone giant~
+A large stack of stone approaches you!
+~
+Oh!  What appears to be a large pile of moving boulders actually turns out to
+be a giant made of stone!  It creaks and groans its way down the path,
+sounding like an approaching avalanche.
+~
+65 0 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 263 8192 0 0 128 0
+#813
+dwarf giant-hunter~
+a dwarven giant-hunter~
+A stout dwarf, equipped for giant-hunting, tracks his prey.
+~
+An armed and armored dwarf stoops low to check the tracks of a wandering
+giant.  He looks up at you and nods, ready to protect himself against any
+threat.
+~
+16777281 4194304 1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 31 0 0 0 112 2
+#814
+dwarf giant-hunter~
+a dwarven giant-hunter~
+A stout dwarf, equipped for giant-hunting, tracks his prey.
+~
+An armed and armored dwarf stoops low to check the tracks of a wandering
+giant.  He looks up at you and nods, ready to protect himself against any
+threat.
+~
+16777281 4194304 1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 31 2097152 0 0 112 2
+#815
+vulture giant~
+a giant vulture~
+Waiting for your death, this vulture circles slowly above you.
+~
+Much larger than its low-elevation cousins, this vulture has grown big on its
+meals of dead giants and dwarves.  It circles you slowly, waiting for a stone
+club to provide it with its next meal.
+~
+65 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 0
+#816
+vulture giant~
+a giant vulture~
+Waiting for your death, this vulture circles slowly above you.
+~
+Much larger than its low-elevation cousins, this vulture has grown big on its
+meals of dead giants and dwarves.  It circles you slowly, waiting for a stone
+club to provide it with its next meal.
+~
+65 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 0
+#817
+vulture giant~
+a giant vulture~
+Waiting for your death, this vulture circles slowly above you.
+~
+Much larger than its low-elevation cousins, this vulture has grown big on its
+meals of dead giants and dwarves.  It circles you slowly, waiting for a stone
+club to provide it with its next meal.
+~
+65 524288 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553680897 0 0 0 512 0
+#818
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#819
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#820
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 2097152 0 0 48 0
+#821
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#822
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#823
+giant mountain~
+a mountain giant~
+A huge giant stands guard in the castle.
+~
+A huge giant stands at attention, guarding his post.  It is dressed in crude
+armor, made up of bits and pieces it must of scavenged from other sets of
+armor.  It stares at you menacingly.
+~
+67 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#824
+giant mountain~
+a mountain giant~
+A mountain giant patrols the castle grounds.
+~
+A huge mountain giant patrols the castle grounds, keeping an eye out for those
+pesky dwarven hunters.  He has lost too many pals to their axes, and hopes to
+end the slaughter by killing a few himself.
+~
+65 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 2097152 0 0 48 0
+#825
+giant mountain~
+a mountain giant~
+A mountain giant patrols the castle grounds.
+~
+A huge mountain giant patrols the castle grounds, keeping an eye out for those
+pesky dwarven hunters.  He has lost too many pals to their axes, and hopes to
+end the slaughter by killing a few himself.
+~
+65 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#826
+giant mountain~
+a mountain giant~
+A mountain giant patrols the castle grounds.
+~
+A huge mountain giant patrols the castle grounds, keeping an eye out for those
+pesky dwarven hunters.  He has lost too many pals to their axes, and hopes to
+end the slaughter by killing a few himself.
+~
+65 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#827
+giant storm~
+a storm giant~
+A giant wreathed in lightning bolts snarls at you.
+~
+This mighty giant is covered in small arcs of lightning.  When he moves, the
+sound of thunder rumbles about him.  It snarls at you as you approach, and
+readies it's huge club for attack.
+~
+97 71303168&256 -1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 4 0 0 48 0
+> death_prog 5~
+say The King will deal with you!
+gasp
+
+~
+|
+#828
+giant storm~
+a storm giant~
+A giant wreathed in lightning bolts snarls at you.
+~
+This mighty giant is covered in small arcs of lightning.  When he moves, the
+sound of thunder rumbles about him.  It snarls at you as you approach, and
+readies it's huge club for attack.
+~
+97 71303168&256 -1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 2097156 0 0 48 0
+#829
+giant storm~
+a storm giant~
+A giant wreathed in lightning bolts snarls at you.
+~
+This mighty giant is covered in small arcs of lightning.  When he moves, the
+sound of thunder rumbles about him.  It snarls at you as you approach, and
+readies it's huge club for attack.
+~
+97 71303168&256 -1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 2097156 0 0 48 0
+#830
+giant storm~
+a storm giant~
+A giant wreathed in lightning bolts snarls at you.
+~
+This mighty giant is covered in small arcs of lightning.  When he moves, the
+sound of thunder rumbles about him.  It snarls at you as you approach, and
+readies it's huge club for attack.
+~
+97 71303168&256 -1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 4 0 0 48 0
+> death_prog 5~
+say By the great Thunder Lord, I shall return...!
+
+~
+|
+#831
+giant storm king~
+the storm giant king~
+A huge giant, encircled by lightning, rises from his throne.
+~
+The giant that rises from his throne must be the storm giant king, ruler of
+the stone castle.  He doesn't care for intruders...mostly dwarves, but he's
+not too picky when it comes to the killing.  You notice the blood covering the
+tip of his huge stone club, and hope you don't add yours to the collection.
+~
+16777283 71303296&320 -1000 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 12 0 0 4 4 0
+0 0 1039 2097156 0 0 65840 524288
+> fight_prog 15~
+say Smash steel and stone!
+~
+> fight_prog 15~
+say Crush you like BUG!
+~
+> death_prog 5~
+say You Adventurers are all the same inside!
+groan
+roar
+rinvoke artifact
+~
+|
+#832
+giant mountain~
+a mountain giant~
+A mountain giant patrols the castle grounds.
+~
+A huge mountain giant patrols the castle grounds, keeping an eye out for those
+pesky dwarven hunters.  He has lost too many pals to their axes, and hopes to
+end the slaughter by killing a few himself.
+~
+65 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 0 0 0 48 0
+#833
+giant mountain~
+a mountain giant~
+A mountain giant patrols the castle grounds.
+~
+A huge mountain giant patrols the castle grounds, keeping an eye out for those
+pesky dwarven hunters.  He has lost too many pals to their axes, and hopes to
+end the slaughter by killing a few himself.
+~
+65 0 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+64 3 0 0 4 4 0
+0 0 1031 2097152 0 0 48 0
+#950
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#801
+club giant~
+a giant club~
+A huge club, chipped from the rock of the mountains.~
+~
+5 16&48 131073
+12 6 6 8
+550 1000 0
+#802
+crown storm giant~
+the Crown of the Storm Giants~
+A large iron crown, affixed with small mithril lightning bolts sits here.~
+~
+9 66 3
+4 4 0 0
+15 250 0
+A
+17 -15
+A
+3 -1
+A
+1 3
+#803
+fire campfire~
+a roaring campfire~
+A huge campfire burns brightly.~
+~
+34 1 0
+0 0 0 0
+9999 0 0
+#804
+spring crack~
+a mountain spring~
+Water drips slowly from the crack in the mountain wall.~
+~
+25 0 0
+0 1 0 0
+9999 0 0
+#805
+chest large~
+a large chest~
+A large wooden chest sits in the corner here.~
+~
+15 0 0
+999 1 0 0
+1 0 0
+#806
+coins treasure gold~
+a pile of gold~
+A glistening pile of gold coins fills the chest.~
+~
+20 0 1
+5000 1 0 0
+1 0 0
+#807
+axe double~
+a large double-axe~
+A large dwarven axe, with double blades, sits here.~
+~
+5 1&16 131073
+12 5 5 19
+25 250 0
+#808
+badge giant-hunter~
+the Badge of the Giant-Hunter~
+A small mithril badge, depicting a large axe.~
+~
+9 65 2097153
+4 4 0 0
+1 150 0
+A
+40 5
+A
+1 2
+#950
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#801
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.
+~
+0 0 5
+D0
+~
+~
+0 0 802
+D2
+Exit description~
+~
+0 0 128
+S
+#802
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.
+~
+0 0 5
+D0
+~
+~
+0 0 803
+D2
+Exit description~
+~
+0 0 801
+S
+#803
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 802
+D4
+~
+~
+65664 0 804
+S
+#804
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  The wind seems
+colder as you climb higher up the pass.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 805
+D5
+Exit description~
+~
+65664 0 803
+S
+#805
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  The wind seems
+colder as you climb higher up the pass.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 804
+D4
+Exit description~
+~
+65664 0 806
+S
+#806
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  The wind seems
+colder as you climb higher up the pass.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 807
+D5
+Exit description~
+~
+65664 0 805
+S
+#807
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 808
+D3
+Exit description~
+~
+0 0 806
+S
+#808
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D3
+Exit description~
+~
+0 0 807
+D4
+Exit description~
+~
+65664 0 809
+S
+#809
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D3
+Exit description~
+~
+0 0 810
+D5
+Exit description~
+~
+65664 0 808
+S
+#810
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 809
+D3
+Exit description~
+~
+0 0 811
+S
+#811
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 810
+D4
+Exit description~
+~
+65664 0 812
+S
+#812
+A Narrow Rocky Trail~
+A narrow trail between fallen boulders heads north and up the mountain.  The
+way looks quite difficult.  You'll definitely need to be able climb well to
+get over some of the larger boulders blocking the high pass.  A series of
+switchbacks are cut into the rock.  The wind seems colder as you climb higher
+up the pass.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 813
+D5
+Exit description~
+~
+65664 0 811
+S
+#813
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 814
+D3
+Exit description~
+~
+0 0 812
+S
+#814
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 815
+D3
+Exit description~
+~
+0 0 813
+S
+#815
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 814
+D2
+Exit description~
+~
+0 0 816
+S
+#816
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 815
+D2
+Exit description~
+~
+0 0 817
+S
+#817
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 816
+D1
+Exit description~
+~
+0 0 818
+S
+#818
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 819
+D3
+Exit description~
+~
+0 0 817
+S
+#819
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 820
+D3
+Exit description~
+~
+0 0 818
+S
+#820
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 821
+D2
+Exit description~
+~
+0 0 819
+S
+#821
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 822
+D2
+Exit description~
+~
+0 0 820
+S
+#822
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 823
+D3
+Exit description~
+~
+0 0 821
+S
+#823
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 849
+D1
+Exit description~
+~
+0 0 824
+D2
+Exit description~
+~
+0 0 822
+S
+#824
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 825
+D3
+Exit description~
+~
+0 0 823
+S
+#825
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 824
+D2
+Exit description~
+~
+0 0 826
+S
+#826
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 825
+D1
+~
+~
+0 0 861
+D2
+~
+~
+0 0 827
+S
+#827
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+~
+~
+0 0 826
+D1
+Exit description~
+~
+0 0 828
+S
+#828
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 829
+D3
+Exit description~
+~
+0 0 827
+S
+#829
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 828
+D2
+Exit description~
+~
+0 0 830
+S
+#830
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 829
+D2
+Exit description~
+~
+0 0 831
+S
+#831
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 830
+D3
+Exit description~
+~
+0 0 832
+S
+#832
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 831
+D3
+Exit description~
+~
+0 0 833
+S
+#833
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 874
+D1
+Exit description~
+~
+0 0 832
+D3
+Exit description~
+~
+0 0 834
+S
+#834
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 835
+D1
+Exit description~
+~
+0 0 833
+S
+#835
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 834
+D3
+Exit description~
+~
+0 0 836
+S
+#836
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 837
+D1
+Exit description~
+~
+0 0 835
+S
+#837
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 836
+D3
+Exit description~
+~
+0 0 838
+S
+#838
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 837
+D2
+Exit description~
+~
+0 0 839
+S
+#839
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 838
+D2
+Exit description~
+~
+0 0 840
+S
+#840
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 839
+D2
+Exit description~
+~
+0 0 841
+S
+#841
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 840
+D2
+Exit description~
+~
+0 0 842
+S
+#842
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.  A steep
+incline heads up onto one of the higher peaks.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 841
+D4
+Exit description~
+~
+65664 0 843
+S
+#843
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 844
+D5
+Exit description~
+~
+65664 0 842
+S
+#844
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 845
+D3
+Exit description~
+~
+0 0 843
+S
+#845
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 846
+D3
+Exit description~
+~
+0 0 844
+S
+#846
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 847
+D3
+Exit description~
+~
+0 0 845
+S
+#847
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 848
+D2
+Exit description~
+~
+0 0 877
+D3
+Exit description~
+~
+0 0 846
+S
+#848
+A Narrow Rocky Trail~
+The narrow trail widens a bit as you reach the top of the pass.  The cold wind
+whips about you, at times threatening to pick you up and toss you right off of
+the mountain.  Tall cliffs tower over you on both sides of the trail.  A large
+castle made of huge boulders stands to the east.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 886
+D3
+Exit description~
+~
+0 0 847
+S
+#849
+A Rocky Clearing~
+The trail opens up into a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+~
+~
+0 0 860
+D1
+~
+~
+0 0 850
+D2
+~
+~
+0 0 823
+D3
+~
+~
+0 0 858
+S
+#850
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+~
+~
+0 0 851
+D3
+Exit description~
+~
+0 0 849
+S
+#851
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+~
+~
+0 0 852
+D2
+Exit description~
+~
+0 0 850
+D3
+~
+~
+0 0 860
+S
+#852
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+~
+~
+0 0 853
+D2
+Exit description~
+~
+0 0 851
+D3
+~
+~
+0 0 859
+S
+#853
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 852
+D3
+~
+~
+0 0 854
+S
+#854
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 853
+D2
+~
+~
+0 0 859
+D3
+~
+~
+0 0 855
+S
+#855
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 854
+D2
+~
+~
+0 0 856
+S
+#856
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 855
+D1
+~
+~
+0 0 859
+D2
+~
+~
+0 0 857
+S
+#857
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 856
+D1
+~
+~
+0 0 860
+D2
+~
+~
+0 0 858
+S
+#858
+A Rocky Clearing~
+You stand on the edge of a large clearing, surrounded by towering cliffs.  The
+ground is littered with smashed boulders, as if something was breaking the big
+rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 857
+D1
+Exit description~
+~
+0 0 849
+S
+#859
+A Rocky Clearing~
+You stand in the middle of a large clearing, surrounded by towering cliffs.
+The ground is littered with smashed boulders, as if something was breaking the
+big rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 854
+D1
+Exit description~
+~
+0 0 852
+D2
+~
+~
+0 0 860
+D3
+Exit description~
+~
+0 0 856
+S
+#860
+A Rocky Clearing~
+You stand in the middle of a large clearing, surrounded by towering cliffs.
+The ground is littered with smashed boulders, as if something was breaking the
+big rocks on purpose.  The smell of smoke fills the air around you.
+~
+0 0 5
+D0
+~
+~
+0 0 859
+D1
+Exit description~
+~
+0 0 851
+D2
+Exit description~
+~
+0 0 849
+D3
+~
+~
+0 0 857
+S
+#861
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D1
+~
+~
+0 0 862
+D3
+~
+~
+0 0 826
+S
+#862
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 871
+D1
+~
+~
+0 0 863
+D3
+Exit description~
+~
+0 0 861
+S
+#863
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 872
+D1
+~
+~
+0 0 864
+D3
+Exit description~
+~
+0 0 862
+S
+#864
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 865
+D3
+Exit description~
+~
+0 0 863
+S
+#865
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 866
+D2
+Exit description~
+~
+0 0 864
+D3
+~
+~
+0 0 872
+S
+#866
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 867
+D2
+Exit description~
+~
+0 0 865
+D3
+~
+~
+0 0 873
+S
+#867
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 866
+D3
+~
+~
+0 0 868
+S
+#868
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 867
+D2
+~
+~
+0 0 873
+D3
+~
+~
+0 0 869
+S
+#869
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 868
+D2
+~
+~
+0 0 870
+S
+#870
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 869
+D1
+~
+~
+0 0 873
+D2
+~
+~
+0 0 871
+S
+#871
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 870
+D1
+~
+~
+0 0 872
+D2
+Exit description~
+~
+0 0 862
+S
+#872
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 873
+D1
+Exit description~
+~
+0 0 865
+D2
+Exit description~
+~
+0 0 863
+D3
+Exit description~
+~
+0 0 871
+S
+#873
+A Rocky Clearing~
+Large rocks litter the surface of this large clearing.  You find it difficult
+to pick a path amongst the boulders.  The smell of death is strong in this
+area, probably coming from the decaying flesh still stuck on the bones
+scattered about carelessly.
+~
+0 0 5
+D0
+~
+~
+0 0 868
+D1
+Exit description~
+~
+0 0 866
+D2
+~
+~
+0 0 872
+D3
+Exit description~
+~
+0 0 870
+S
+#874
+A Narrow Canyon~
+A narrow canyon leads north through the rocky pass.  The air is cool and
+moist...perhaps there is a water source somewhere in the canyon.  Green vines
+crawl up the rocks, and creep out of the cracks and crevices of the canyon
+wall.
+~
+0 0 5
+D0
+~
+~
+0 0 875
+D2
+~
+~
+0 0 833
+S
+#875
+A Narrow Canyon~
+A narrow canyon leads north through the rocky pass.  The air is cool and
+moist...perhaps there is a water source somewhere in the canyon.  Green vines
+crawl up the rocks, and creep out of the cracks and crevices of the canyon
+wall.
+~
+0 0 5
+D0
+~
+~
+16777216 0 876
+D2
+Exit description~
+~
+0 0 874
+S
+#876
+A Small Spring~
+The narrow canyon ends abruptly at a small spring.  A clear pool of water has
+formed at the bottom of a small crack.  Water drips slowly from the crack.
+You realize that there are no signs of creatures here, save the footprints of
+smaller wildlife.  Perhaps this is a safe place to rest.
+~
+0 1024 5
+D2
+Exit description~
+~
+0 0 875
+S
+#877
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 847
+D1
+Exit description~
+~
+0 0 878
+D2
+Exit description~
+~
+0 0 885
+D3
+Exit description~
+~
+0 0 884
+S
+#878
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 879
+D3
+Exit description~
+~
+0 0 877
+S
+#879
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 878
+D2
+Exit description~
+~
+0 0 880
+D3
+Exit description~
+~
+0 0 885
+S
+#880
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 879
+D3
+Exit description~
+~
+0 0 881
+S
+#881
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 885
+D1
+Exit description~
+~
+0 0 880
+D3
+Exit description~
+~
+0 0 882
+S
+#882
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 883
+D1
+Exit description~
+~
+0 0 881
+S
+#883
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 884
+D1
+Exit description~
+~
+0 0 885
+D2
+Exit description~
+~
+0 0 882
+S
+#884
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D1
+Exit description~
+~
+0 0 877
+D2
+Exit description~
+~
+0 0 883
+S
+#885
+A Small Plateau~
+A small plateau looks out over the land.  From this vantage point, you can see
+down into the Ironkore Valley to the south and below you.  Further south
+stretches the southern plains, and you can just barely make out the white
+sands of the Talon Desert beyond them.  The winds are quite strong up here, so
+be careful where you tread.
+~
+0 0 5
+D0
+Exit description~
+~
+0 0 877
+D1
+Exit description~
+~
+0 0 879
+D2
+Exit description~
+~
+0 0 881
+D3
+Exit description~
+~
+0 0 883
+S
+#886
+The Boulder Gate~
+A huge gate, carved from the rock of the mountain, stands before you.
+Whatever creature crafted such a thing must be mighty indeed, for it is much
+too heavy for you to lift or move.  Lucky for you, the bars are also spaced
+far enough apart, that you can just barely squeeze through the opening.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 887
+D1
+Exit description~
+~
+0 0 910
+D2
+Exit description~
+~
+0 0 909
+D3
+Exit description~
+~
+0 0 848
+S
+#887
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 888
+D2
+Exit description~
+~
+0 0 886
+S
+#888
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 889
+D2
+Exit description~
+~
+0 0 887
+S
+#889
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 890
+D2
+Exit description~
+~
+0 0 888
+D4
+Exit description~
+~
+0 0 929
+S
+#890
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 891
+D3
+Exit description~
+~
+0 0 889
+S
+#891
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 892
+D3
+Exit description~
+~
+0 0 890
+S
+#892
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 893
+D3
+Exit description~
+~
+0 0 891
+S
+#893
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 894
+D3
+Exit description~
+~
+0 0 892
+S
+#894
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 895
+D3
+Exit description~
+~
+0 0 893
+S
+#895
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D2
+Exit description~
+~
+0 0 896
+D3
+Exit description~
+~
+0 0 894
+D4
+Exit description~
+~
+0 0 930
+S
+#896
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 895
+D2
+Exit description~
+~
+0 0 897
+S
+#897
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 896
+D2
+Exit description~
+~
+0 0 898
+S
+#898
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 897
+D2
+Exit description~
+~
+0 0 899
+S
+#899
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 898
+D2
+Exit description~
+~
+0 0 900
+S
+#900
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 899
+D2
+Exit description~
+~
+0 0 901
+S
+#901
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 900
+D3
+Exit description~
+~
+0 0 902
+D4
+Exit description~
+~
+0 0 932
+S
+#902
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 901
+D3
+Exit description~
+~
+0 0 903
+S
+#903
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 902
+D3
+Exit description~
+~
+0 0 904
+S
+#904
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 903
+D3
+Exit description~
+~
+0 0 905
+S
+#905
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 904
+D3
+Exit description~
+~
+0 0 906
+S
+#906
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D1
+Exit description~
+~
+0 0 905
+D3
+Exit description~
+~
+0 0 907
+S
+#907
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 908
+D1
+Exit description~
+~
+0 0 906
+D4
+Exit description~
+~
+0 0 931
+S
+#908
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 909
+D2
+Exit description~
+~
+0 0 907
+S
+#909
+A Wall Of Boulders~
+You tread along the castle wall, which is crafted out of huge boulders.  Far
+below you, you can see the Ironkore Valley, and the road you traveled to
+reach this point.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 886
+D2
+Exit description~
+~
+0 0 908
+S
+#910
+A Rocky Courtyard~
+The castle courtyard is made up of large, crude statues of giants, carved out
+of the rock of the mountain.  Set in various warlike poses, the statues state
+evilly back at you, and threaten you with huge weapons held at the ready.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 911
+D1
+Exit description~
+~
+0 0 915
+D2
+Exit description~
+~
+0 0 913
+D3
+Exit description~
+~
+0 0 886
+S
+#911
+A Rocky Courtyard~
+The castle courtyard is made up of large, crude statues of giants, carved out
+of the rock of the mountain.  Set in various warlike poses, the statues state
+evilly back at you, and threaten you with huge weapons held at the ready.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 912
+D2
+Exit description~
+~
+0 0 910
+S
+#912
+A Rocky Courtyard~
+The castle courtyard is made up of large, crude statues of giants, carved out
+of the rock of the mountain.  Set in various warlike poses, the statues state
+evilly back at you, and threaten you with huge weapons held at the ready.
+~
+0 1 5
+D2
+Exit description~
+~
+0 0 911
+S
+#913
+A Rocky Courtyard~
+The castle courtyard is made up of large, crude statues of giants, carved out
+of the rock of the mountain.  Set in various warlike poses, the statues state
+evilly back at you, and threaten you with huge weapons held at the ready.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 910
+D2
+Exit description~
+~
+0 0 914
+S
+#914
+A Rocky Courtyard~
+The castle courtyard is made up of large, crude statues of giants, carved out
+of the rock of the mountain.  Set in various warlike poses, the statues state
+evilly back at you, and threaten you with huge weapons held at the ready.
+~
+0 1 5
+D0
+Exit description~
+~
+0 0 913
+S
+#915
+The Main Hall~
+The main hall of this stone castle stretches out to the east, and the ceiling
+towers high above you.  Not much care has been taken to keep this castle
+clean, as rocks and dirt lie all about the floor.  No trophies line the wall,
+and the usual tapestries are also absent.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 919
+D1
+Exit description~
+~
+0 0 916
+D2
+Exit description~
+~
+0 0 926
+D3
+Exit description~
+~
+0 0 910
+S
+#916
+The Main Hall~
+The main hall of this stone castle stretches out to the east, and the ceiling
+towers high above you.  Not much care has been taken to keep this castle
+clean, as rocks and dirt lie all about the floor.  No trophies line the wall,
+and the usual tapestries are also absent.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 917
+D3
+Exit description~
+~
+0 0 915
+S
+#917
+The Main Hall~
+The main hall of this stone castle stretches out to the east, and the ceiling
+towers high above you.  Not much care has been taken to keep this castle
+clean, as rocks and dirt lie all about the floor.  No trophies line the wall,
+and the usual tapestries are also absent.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 923
+D1
+Exit description~
+~
+0 0 918
+D2
+Exit description~
+~
+0 0 924
+D3
+Exit description~
+~
+0 0 916
+S
+#918
+The Throne Room~
+A gigantic stone throne takes up nearly the entire eastern side of this room.
+A few trophies of war hang from the walls, mostly the skeletons of what
+appears to be dwarves, their tattered clothing still hanging from the bones.
+Unlike the other rooms of the castle, this one is lit by many torches placed
+around the walls.
+~
+0 8 0
+D3
+Exit description~
+~
+0 0 917
+S
+#919
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 920
+D1
+Exit description~
+~
+0 0 922
+D2
+Exit description~
+~
+0 0 915
+S
+#920
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.  This room
+must be some sort of kitchen, but it is quite dirty and smells of rotting
+meat.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 921
+D2
+Exit description~
+~
+0 0 919
+S
+#921
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 922
+D3
+Exit description~
+~
+0 0 920
+S
+#922
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 921
+D1
+Exit description~
+~
+0 0 923
+D3
+Exit description~
+~
+0 0 919
+S
+#923
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.  This chamber
+houses a large sleeping mat, perhaps the bed of the ruler.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 917
+D3
+Exit description~
+~
+0 0 922
+S
+#924
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 917
+D3
+Exit description~
+~
+0 0 925
+S
+#925
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.  Several large
+bunks are set about this room, perhaps to house the guards of the castle.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 924
+D2
+Exit description~
+~
+0 0 928
+D3
+Exit description~
+~
+0 0 926
+S
+#926
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 915
+D1
+Exit description~
+~
+0 0 925
+D2
+Exit description~
+~
+0 0 927
+S
+#927
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 926
+D1
+Exit description~
+~
+0 0 928
+S
+#928
+Wandering The Stone Castle~
+You wander about the halls of the stone castle.  This mighty fortress was
+obviously designed with the needs of the giants in mind, for everything you
+encounter is built in a scale quite a bit larger than yourself.  There is a
+large chest sitting in the corner of this room.
+~
+0 9 0
+D0
+Exit description~
+~
+0 0 925
+D3
+Exit description~
+~
+0 0 927
+S
+#929
+A Lookout Tower~
+This lookout tower stands high above the castle grounds.  From here you have a
+good vantage point of the valley around the castle, including the road leading
+up the the main gate.  It is built quite tough, and seems like a good place to
+repel invaders from.
+~
+0 0 5
+D5
+Exit description~
+~
+0 0 889
+S
+#930
+A Lookout Tower~
+This lookout tower stands high above the castle grounds.  From here you have a
+good vantage point of the valley around the castle, including the road leading
+up the the main gate.  It is built quite tough, and seems like a good place to
+repel invaders from.
+~
+0 0 5
+D5
+Exit description~
+~
+0 0 895
+S
+#931
+A Lookout Tower~
+This lookout tower stands high above the castle grounds.  From here you have a
+good vantage point of the valley around the castle, including the road leading
+up the the main gate.  It is built quite tough, and seems like a good place to
+repel invaders from.
+~
+0 0 5
+D5
+Exit description~
+~
+0 0 907
+S
+#932
+A Lookout Tower~
+This lookout tower stands high above the castle grounds.  From here you have a
+good vantage point of the valley around the castle, including the road leading
+up the the main gate.  It is built quite tough, and seems like a good place to
+repel invaders from.
+~
+0 0 5
+D5
+Exit description~
+~
+0 0 901
+S
+#950
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 833 3 882
+M 0 833 3 882
+M 0 833 3 882
+M 0 832 3 851
+M 0 832 3 851
+M 0 832 3 851
+O 0 805 1 928
+P 0 806 1 805
+O 0 804 1 876
+O 0 803 1 859
+M 0 830 2 846
+M 0 830 2 846
+E 0 801 1 21
+M 0 829 2 898
+M 0 829 2 898
+E 0 801 1 21
+M 0 828 2 924
+M 0 828 2 924
+E 0 801 1 21
+M 0 827 2 923
+M 0 827 2 923
+E 0 801 1 21
+M 0 826 2 916
+M 0 826 4 916
+M 0 826 2 916
+M 0 826 2 916
+M 0 825 2 927
+E 0 801 1 21
+M 0 825 4 927
+M 0 825 2 927
+M 0 825 2 927
+M 0 824 4 920
+M 0 824 2 920
+M 0 824 2 920
+M 0 824 2 920
+E 0 801 1 21
+M 0 823 2 886
+M 0 823 2 886
+M 0 822 2 917
+E 0 801 1 21
+M 0 822 2 917
+M 0 821 2 932
+M 0 821 2 932
+E 0 801 1 21
+M 0 820 2 931
+M 0 820 2 931
+E 0 801 1 21
+M 0 819 2 930
+M 0 819 2 930
+M 0 818 2 929
+E 0 801 1 21
+M 0 818 2 929
+M 0 816 3 849
+M 0 817 3 885
+M 0 817 3 885
+M 0 817 3 885
+M 0 816 3 849
+M 0 816 3 849
+M 0 815 3 818
+M 0 815 3 818
+M 0 815 3 818
+M 0 814 2 875
+E 0 808 1 25
+E 0 807 1 21
+M 0 814 2 875
+E 0 807 1 21
+M 0 813 2 809
+E 0 808 1 25
+E 0 807 1 21
+M 0 813 2 809
+E 0 807 1 21
+M 0 812 2 859
+E 0 801 1 21
+M 0 812 2 859
+M 0 811 2 838
+M 0 811 2 838
+E 0 801 1 21
+M 0 810 2 845
+M 0 810 2 845
+M 0 809 2 885
+E 0 801 1 21
+M 0 809 2 885
+M 0 808 2 822
+M 0 808 2 822
+E 0 801 1 21
+M 0 807 2 872
+M 0 807 2 872
+M 0 806 2 843
+M 0 806 2 843
+E 0 801 1 21
+M 0 805 2 831
+M 0 805 2 831
+M 0 804 2 873
+M 0 804 2 873
+E 0 801 1 21
+M 0 803 2 860
+M 0 803 2 860
+M 0 802 2 818
+M 0 802 2 818
+E 0 801 1 21
+M 0 801 2 812
+M 0 801 2 812
+E 0 801 1 21
+M 0 831 1 918
+E 0 802 1 1
+E 0 801 1 21
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  815 spec_fido
+M  831 spec_executioner
+S
+
+
+#$

@@ -1,0 +1,3614 @@
+#AREA Lake M'otuco~
+
+#VERSION 1
+
+#CLIMATE 2 2 2
+
+#AUTHOR Nameless~
+
+#RANGES
+20 30 0 65
+$
+
+#RESETMSG The still waters shiver with the wake of several passing creatures.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 54988584
+
+#MOBILES
+#2801
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2802
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2803
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2804
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2805
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2806
+fat killifish bright colored~
+a fat killifish~
+This fat killifish is enjoying the still waters.
+~
+Much like the killfish found in the Tampaqui river, this fish is brightly
+colored and placid.  However, this variety is much larger than its river bound
+family.
+~
+1073741889 -2147483648 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2807
+dirty sand water snake~
+a dark water snake~
+This thin snake's dark scales make it hard to see in the water.
+~
+This water snake is perfectly colored to hide in the darker waters of this
+lake. It slides through the water quite easily and seems more interested in
+the perch and thorneye than you.  However, judging by the fangs and the fact
+it must be eight feet long, it does not seem wise to bother it.
+~
+1073741889 -2147483648 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 655393 0 0 0 131073 2
+#2808
+dirty sand water snake~
+a dark water snake~
+This thin snake's dark scales make it hard to see in the water.
+~
+This water snake is perfectly colored to hide in the darker waters of this
+lake. It slides through the water quite easily and seems more interested in
+the perch and thorneye than you.  However, judging by the fangs and the fact
+it must be eight feet long, it does not seem wise to bother it.
+~
+1073741889 -2147483648 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 655393 0 0 0 131073 2
+#2809
+dirty sand water snake~
+a dark water snake~
+This thin snake's dark scales make it hard to see in the water.
+~
+This water snake is perfectly colored to hide in the darker waters of this
+lake. It slides through the water quite easily and seems more interested in
+the perch and thorneye than you.  However, judging by the fangs and the fact
+it must be eight feet long, it does not seem wise to bother it.
+~
+1073741889 -2147483648 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 655393 0 0 0 131073 2
+#2810
+dirty sand water snake~
+a dark water snake~
+This thin snake's dark scales make it hard to see in the water.
+~
+This water snake is perfectly colored to hide in the darker waters of this
+lake. It slides through the water quite easily and seems more interested in
+the perch and thorneye than you.  However, judging by the fangs and the fact
+it must be eight feet long, it does not seem wise to bother it.
+~
+1073741889 -2147483648 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 655393 0 0 0 131073 2
+#2811
+dirty sand water snake~
+a dark water snake~
+This thin snake's dark scales make it hard to see in the water.
+~
+This water snake is perfectly colored to hide in the darker waters of this
+lake. It slides through the water quite easily and seems more interested in
+the perch and thorneye than you.  However, judging by the fangs and the fact
+it must be eight feet long, it does not seem wise to bother it.
+~
+1073741889 -2147483648 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 655393 0 0 0 131073 2
+#2812
+drab thorneye large sluggish fish~
+a drab thorneye~
+This large fish is sluggish in the water.
+~
+This fish is quite big, it would make a fine dinner.  Although the grey and
+brown color makes the fish look sickly.  The fact this fish slowly moves in
+the water, not bothering to speed away from a possible predator,  makes it
+even less appetizing.
+~
+1073741889 -2147483648 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2813
+drab thorneye large sluggish fish~
+a drab thorneye~
+This large fish is sluggish in the water.
+~
+This fish is quite big, it would make a fine dinner.  Although the grey and
+brown color makes the fish look sickly.  The fact this fish slowly moves in
+the water, not bothering to speed away from a possible predator,  makes it
+even less appetizing.
+~
+1073741889 -2147483648 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2814
+drab thorneye large sluggish fish~
+a drab thorneye~
+This large fish is sluggish in the water.
+~
+This fish is quite big, it would make a fine dinner.  Although the grey and
+brown color makes the fish look sickly.  The fact this fish slowly moves in
+the water, not bothering to speed away from a possible predator,  makes it
+even less appetizing.
+~
+1073741889 -2147483648 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2815
+drab thorneye large sluggish fish~
+a drab thorneye~
+This large fish is sluggish in the water.
+~
+This fish is quite big, it would make a fine dinner.  Although the grey and
+brown color makes the fish look sickly.  The fact this fish slowly moves in
+the water, not bothering to speed away from a possible predator,  makes it
+even less appetizing.
+~
+1073741889 -2147483648 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2816
+drab thorneye large sluggish fish~
+a drab thorneye~
+This large fish is sluggish in the water.
+~
+This fish is quite big, it would make a fine dinner.  Although the grey and
+brown color makes the fish look sickly.  The fact this fish slowly moves in
+the water, not bothering to speed away from a possible predator,  makes it
+even less appetizing.
+~
+1073741889 -2147483648 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2817
+water monitor lizard large~
+a water monitor~
+This large lizard is swimming along, looking for food.
+~
+This lizard is quite large, it is the size of a small alligator.  It swims
+along using its tail to propel itself as it tries to pick and choose between
+the hundreds of fish that swim by.  The dark blue scales of the lizard seem to
+make his intent as several fish pass by within the kill distance of the
+lizard's jaw.
+~
+1073741889 -2147483648 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 458784 0 0 0 5 2
+#2818
+water monitor lizard large~
+a water monitor~
+This large lizard is swimming along, looking for food.
+~
+This lizard is quite large, it is the size of a small alligator.  It swims
+along using its tail to propel itself as it tries to pick and choose between
+the hundreds of fish that swim by.  The dark blue scales of the lizard seem to
+make his intent as several fish pass by within the kill distance of the
+lizard's jaw.
+~
+1073741889 -2147483648 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 458784 0 0 0 5 2
+#2819
+water monitor lizard large~
+a water monitor~
+This large lizard is swimming along, looking for food.
+~
+This lizard is quite large, it is the size of a small alligator.  It swims
+along using its tail to propel itself as it tries to pick and choose between
+the hundreds of fish that swim by.  The dark blue scales of the lizard seem to
+make his intent as several fish pass by within the kill distance of the
+lizard's jaw.
+~
+1073741889 -2147483648 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 458784 0 0 0 5 2
+#2820
+water monitor lizard large~
+a water monitor~
+This large lizard is swimming along, looking for food.
+~
+This lizard is quite large, it is the size of a small alligator.  It swims
+along using its tail to propel itself as it tries to pick and choose between
+the hundreds of fish that swim by.  The dark blue scales of the lizard seem to
+make his intent as several fish pass by within the kill distance of the
+lizard's jaw.
+~
+1073741889 -2147483648 0 C
+26 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 458784 0 0 0 5 2
+#2821
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2822
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2823
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2824
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2825
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2826
+spotted perch fish fat~
+a spotted perch~
+This fat fish has many spots.
+~
+This perch is quite large.  Its sandy colored scales are spotted with a
+variety of different colors, from red to blue.  It swims along with the other
+fish,  ignoring your presence and happy to hunt for algae or kelp.
+~
+1073741889 -2147483648 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2827
+needlefish long fish ~
+a needlefish~
+This long fish has a needle shaped snout.
+~
+This fish is appropriately named the needlefish.  Its snout is long and thin
+with a row of teeth on the bottom.  It is clearly a carnivore although nothing
+here seems to be too aggressive.  There is plenty of food to go around for
+every creature, even this one.
+~
+1073741889 -2147483648 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2828
+needlefish long fish ~
+a needlefish~
+This long fish has a needle shaped snout.
+~
+This fish is appropriately named the needlefish.  Its snout is long and thin
+with a row of teeth on the bottom.  It is clearly a carnivore although nothing
+here seems to be too aggressive.  There is plenty of food to go around for
+every creature, even this one.
+~
+1073741889 -2147483648 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2829
+needlefish long fish ~
+a needlefish~
+This long fish has a needle shaped snout.
+~
+This fish is appropriately named the needlefish.  Its snout is long and thin
+with a row of teeth on the bottom.  It is clearly a carnivore although nothing
+here seems to be too aggressive.  There is plenty of food to go around for
+every creature, even this one.
+~
+1073741889 -2147483648 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2830
+needlefish long fish ~
+a needlefish~
+This long fish has a needle shaped snout.
+~
+This fish is appropriately named the needlefish.  Its snout is long and thin
+with a row of teeth on the bottom.  It is clearly a carnivore although nothing
+here seems to be too aggressive.  There is plenty of food to go around for
+every creature, even this one.
+~
+1073741889 -2147483648 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2831
+needlefish long fish ~
+a needlefish~
+This long fish has a needle shaped snout.
+~
+This fish is appropriately named the needlefish.  Its snout is long and thin
+with a row of teeth on the bottom.  It is clearly a carnivore although nothing
+here seems to be too aggressive.  There is plenty of food to go around for
+every creature, even this one.
+~
+1073741889 -2147483648 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2832
+fresh water eel~
+a fresh water eel~
+This huge eel is much like the ones found in the ocean.
+~
+It is odd to see an eel that should be somewhere in Wulftuft sea in this lake.
+It is ten feet long and has a mouth full of tiny knives.  It cuts through the
+water with little problem and it seems quite at home in the fresh water lake.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2833
+fresh water eel~
+a fresh water eel~
+This huge eel is much like the ones found in the ocean.
+~
+It is odd to see an eel that should be somewhere in Wulftuft sea in this lake.
+It is ten feet long and has a mouth full of tiny knives.  It cuts through the
+water with little problem and it seems quite at home in the fresh water lake.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2834
+fresh water eel~
+a fresh water eel~
+This huge eel is much like the ones found in the ocean.
+~
+It is odd to see an eel that should be somewhere in Wulftuft sea in this lake.
+It is ten feet long and has a mouth full of tiny knives.  It cuts through the
+water with little problem and it seems quite at home in the fresh water lake.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2835
+fresh water eel~
+a fresh water eel~
+This huge eel is much like the ones found in the ocean.
+~
+It is odd to see an eel that should be somewhere in Wulftuft sea in this lake.
+It is ten feet long and has a mouth full of tiny knives.  It cuts through the
+water with little problem and it seems quite at home in the fresh water lake.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2836
+fresh water eel~
+a fresh water eel~
+This huge eel is much like the ones found in the ocean.
+~
+It is odd to see an eel that should be somewhere in Wulftuft sea in this lake.
+It is ten feet long and has a mouth full of tiny knives.  It cuts through the
+water with little problem and it seems quite at home in the fresh water lake.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 147488 0 0 0 1 2
+#2837
+fresh water dolphin~
+a fresh water dolphin~
+You don't believe your eyes to see a dolphin swimming in this lake!
+~
+It is amazing to see a dolphin swimming in the water of this lake.  It is a
+bit smaller than other dolphins you have seen, but that seems only  natural
+that it would grow to be smaller in a smaller space like this lake. It plays
+happily in the water, ignoring the eels and water monitors.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2838
+fresh water dolphin~
+a fresh water dolphin~
+You don't believe your eyes to see a dolphin swimming in this lake!
+~
+It is amazing to see a dolphin swimming in the water of this lake.  It is a
+bit smaller than other dolphins you have seen, but that seems only  natural
+that it would grow to be smaller in a smaller space like this lake. It plays
+happily in the water, ignoring the eels and water monitors.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2839
+fresh water dolphin~
+a fresh water dolphin~
+You don't believe your eyes to see a dolphin swimming in this lake!
+~
+It is amazing to see a dolphin swimming in the water of this lake.  It is a
+bit smaller than other dolphins you have seen, but that seems only  natural
+that it would grow to be smaller in a smaller space like this lake. It plays
+happily in the water, ignoring the eels and water monitors.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2840
+fresh water dolphin~
+a fresh water dolphin~
+You don't believe your eyes to see a dolphin swimming in this lake!
+~
+It is amazing to see a dolphin swimming in the water of this lake.  It is a
+bit smaller than other dolphins you have seen, but that seems only  natural
+that it would grow to be smaller in a smaller space like this lake. It plays
+happily in the water, ignoring the eels and water monitors.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2841
+fresh water dolphin~
+a fresh water dolphin~
+You don't believe your eyes to see a dolphin swimming in this lake!
+~
+It is amazing to see a dolphin swimming in the water of this lake.  It is a
+bit smaller than other dolphins you have seen, but that seems only  natural
+that it would grow to be smaller in a smaller space like this lake. It plays
+happily in the water, ignoring the eels and water monitors.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2842
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2843
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2844
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2845
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2846
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2847
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2849
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2850
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2851
+bottom feeding carp~
+a bottom feeding carp~
+This bottom feeder is eating whatever is left on the lake floor.
+~
+This massive fish is all fat, guts, and nothing good.  It must be four or five
+feet wide and fifteen feet long.  Its mouth is large and wide, it swims with
+its belly scraping the bottom as it literally sucks everything as dry as can
+be in water.
+~
+1073741889 -2147483648 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 512 512 0
+0 0 16424 0 0 0 385 2
+#2852
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2853
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2854
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2855
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2856
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2857
+carnivorous lichen mold ~
+a carnivorous lichen~
+This massive group of mold is actually sentient.
+~
+This large collection of mold and fungus is actually somewhat sentient.  It
+can even move tendrils of its body to grab small fish passing by and then
+absorbing into its main mass.  It is a disgusting creature.
+~
+1073741889 -2147483648 0 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+49 3 0 0 512 512 0
+0 0 0 0 0 0 384 2
+#2858
+razor beak plesiosaur~
+a razor-beak plesiosaur~
+This reptile has a beak like snout and razor sharp talons.
+~
+This creature seems like a primitive lizardman.  It walks on the bottom of the
+lake with its hind legs and uses its shorter arms to slash and hold the fish
+it feeds on.  It is obvious this creature prefers to hide here at the bottom
+of the lake, away from the sunlight.
+~
+1073741889 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 327690 112 0 0 455 3
+#2859
+razor beak plesiosaur~
+a razor-beak plesiosaur~
+This reptile has a beak like snout and razor sharp talons.
+~
+This creature seems like a primitive lizardman.  It walks on the bottom of the
+lake with its hind legs and uses its shorter arms to slash and hold the fish
+it feeds on.  It is obvious this creature prefers to hide here at the bottom
+of the lake, away from the sunlight.
+~
+1073741889 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 327690 112 0 0 455 3
+#2860
+razor beak plesiosaur~
+a razor-beak plesiosaur~
+This reptile has a beak like snout and razor sharp talons.
+~
+This creature seems like a primitive lizardman.  It walks on the bottom of the
+lake with its hind legs and uses its shorter arms to slash and hold the fish
+it feeds on.  It is obvious this creature prefers to hide here at the bottom
+of the lake, away from the sunlight.
+~
+1073741889 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 327690 112 0 0 455 3
+#2861
+razor beak plesiosaur~
+a razor-beak plesiosaur~
+This reptile has a beak like snout and razor sharp talons.
+~
+This creature seems like a primitive lizardman.  It walks on the bottom of the
+lake with its hind legs and uses its shorter arms to slash and hold the fish
+it feeds on.  It is obvious this creature prefers to hide here at the bottom
+of the lake, away from the sunlight.
+~
+1073741889 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 327690 112 0 0 455 3
+#2900
+razor beak plesiosaur~
+a razor-beak plesiosaur~
+This reptile has a beak like snout and razor sharp talons.
+~
+This creature seems like a primitive lizardman.  It walks on the bottom of the
+lake with its hind legs and uses its shorter arms to slash and hold the fish
+it feeds on.  It is obvious this creature prefers to hide here at the bottom
+of the lake, away from the sunlight.
+~
+1073741889 -2147483648 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 327690 112 0 0 455 3
+#0
+
+#OBJECTS
+#2801
+fresh water kelp~
+a piece of fresh-water kelp~
+This thin, green plant is a favorite among killifish.~
+~
+19 0 1048577 0
+2 0 0 0
+1 200 0
+#2802
+red humming lichen~
+a red humming lichen~
+This odd lichen is making a soft sort of noise.~
+~
+26 64 1048577 0
+20 -1 -1 -1
+1 1000 0
+'heal' 'spirit shield' 'bless'
+#2803
+water damaged scroll~
+a water damaged scroll~
+This scroll is heavily damaged but still legible.~
+~
+2 134217792&8 1048577 0
+30 -1 -1 -1
+1 1000 0
+'acetum primus' 'acid breath' 'heal'
+#2804
+rusted useless dagger~
+a rusted useless dagger~
+This dagger is broken and worthless.~
+~
+5 671088644&32 1048577 0
+1 0 0 11
+1 0 0
+E
+rusted useless dagger~
+*----*Ozi
+  Defen-&* of My*-$itc&*
+
+  Rise &*#@
+  Rise
+~
+#2805
+ironwood bludgeon rotted~
+a rotted ironwood bludgeon~
+This swagger stick has rotted to the point of no return.~
+~
+5 671088640&48 1048577 0
+1 0 0 8
+20 0 0
+E
+rotted ironwood bludgeon~
+Our mother, sleeps.
+Mo&$%**_
+Once our gua*&@-
+Now &@**en
+~
+#2806
+obsidian tablet~
+an obsidian tablet~
+This strange tablet is quite legible.~
+~
+35 0 1048577 0
+0 0 0 0
+1 0 0
+E
+obsidian tablet~
+We are the last now, we invoked her wrath,
+and we are no more.
+The city is dead, the healthy, the honored,
+they have fled across the ocean.
+We, the not yet dead,
+the not yet living,
+we remain, hoping her womb,
+hoping it would shelter us.
+No.  It will not.
+Her wrath is broken,
+we cannot be saved.
+~
+#2900
+phosphorous lichen~
+a phosphorous lichen~
+This strange fungus is glowing.~
+~
+26 1 1048577 0
+20 -1 -1 -1
+1 500 0
+'aqua breath' 'armor' 'winter mist'
+#0
+
+#ROOMS
+#2801
+The Top Of A Waterfall~
+The current is incredibly strong here as the water floods down the sharp
+cliffs to the lagoon below.  To the south, the river flows from a large lake
+surrounded by mountains.  There is no where else to go save for the lake or
+back down the cliffs to the river.
+~
+0 1 6 0 0 0
+D2
+~
+~
+0 0 2802 0
+D0
+Exit description
+~
+~
+0 0 10697 0
+S
+#2802
+To The Lake~
+The current is weakening from the waterfall to the north and the lake spreads
+out to the south.  The water is oddly warm, the river water was actually
+cooler.  However, the humidity is not so bad at this altitude and the warm
+water feels good after the long climb.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2801 0
+D2
+~
+~
+0 0 2803 0
+S
+#2803
+To The Lake~
+The current is weakening from the waterfall to the north and the lake spreads
+out to the south.  The water is oddly warm, the river water was actually
+cooler.  However, the humidity is not so bad at this altitude and the warm
+water feels good after the long climb.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2802 0
+D2
+~
+~
+0 0 2804 0
+S
+#2804
+To The Lake~
+The current is weakening from the waterfall to the north and the lake spreads
+out to the south.  The water is oddly warm, the river water was actually
+cooler.  However, the humidity is not so bad at this altitude and the warm
+water feels good after the long climb.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2803 0
+D2
+~
+~
+0 0 2805 0
+S
+#2805
+To The Lake~
+The current is weakening from the waterfall to the north and the lake spreads
+out to the south.  The water is oddly warm, the river water was actually
+cooler.  However, the humidity is not so bad at this altitude and the warm
+water feels good after the long climb.  The lake spreads out to the south, the
+edges contained by an odd bowl shaped mountain range.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2804 0
+D2
+~
+~
+0 0 2806 0
+S
+#2806
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+16777216 0 2805 0
+D1
+~
+~
+0 0 2807 0
+D2
+~
+~
+0 0 2837 0
+D3
+~
+~
+0 0 2836 0
+S
+#2807
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+~
+~
+0 0 2808 0
+D2
+~
+~
+0 0 2838 0
+D3
+Exit description~
+~
+0 0 2806 0
+S
+#2808
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+~
+~
+0 0 2809 0
+D2
+~
+~
+0 0 2839 0
+D3
+Exit description~
+~
+0 0 2807 0
+S
+#2809
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D2
+~
+~
+0 0 2810 0
+D3
+Exit description~
+~
+0 0 2808 0
+S
+#2810
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2809 0
+D1
+~
+~
+0 0 2811 0
+D2
+~
+~
+0 0 2841 0
+D3
+~
+~
+0 0 2839 0
+S
+#2811
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+~
+~
+0 0 2812 0
+D2
+~
+~
+0 0 2841 0
+D3
+Exit description~
+~
+0 0 2810 0
+S
+#2812
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D2
+~
+~
+0 0 2813 0
+D3
+Exit description~
+~
+0 0 2811 0
+S
+#2813
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2812 0
+D2
+~
+~
+0 0 2814 0
+D3
+~
+~
+0 0 2841 0
+S
+#2814
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2813 0
+D2
+~
+~
+0 0 2815 0
+D3
+~
+~
+0 0 2842 0
+S
+#2815
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2814 0
+D1
+~
+~
+0 0 2816 0
+D2
+~
+~
+0 0 2845 0
+D3
+~
+~
+0 0 2843 0
+S
+#2816
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D2
+~
+~
+0 0 2817 0
+D3
+Exit description~
+~
+0 0 2815 0
+S
+#2817
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2816 0
+D2
+~
+~
+0 0 2818 0
+D3
+~
+~
+0 0 2845 0
+S
+#2818
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2817 0
+D3
+~
+~
+0 0 2819 0
+S
+#2819
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2845 0
+D1
+Exit description~
+~
+0 0 2818 0
+D3
+~
+~
+0 0 2820 0
+S
+#2820
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+Exit description~
+~
+0 0 2819 0
+D2
+~
+~
+0 0 2821 0
+D3
+~
+~
+0 0 2846 0
+S
+#2821
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2820 0
+D3
+~
+~
+0 0 2822 0
+S
+#2822
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2846 0
+D1
+Exit description~
+~
+0 0 2821 0
+D3
+~
+~
+0 0 2823 0
+S
+#2823
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2847 0
+D1
+Exit description~
+~
+0 0 2822 0
+D3
+~
+~
+0 0 2824 0
+S
+#2824
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2825 0
+D1
+Exit description~
+~
+0 0 2823 0
+S
+#2825
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2849 0
+D1
+~
+~
+0 0 2847 0
+D2
+Exit description~
+~
+0 0 2824 0
+D3
+~
+~
+0 0 2826 0
+S
+#2826
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2850 0
+D1
+Exit description~
+~
+0 0 2825 0
+D3
+~
+~
+0 0 2827 0
+S
+#2827
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2828 0
+D1
+Exit description~
+~
+0 0 2826 0
+S
+#2828
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2829 0
+D1
+~
+~
+0 0 2850 0
+D2
+Exit description~
+~
+0 0 2827 0
+S
+#2829
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2853 0
+D1
+~
+~
+0 0 2851 0
+D2
+Exit description~
+~
+0 0 2828 0
+D3
+~
+~
+0 0 2830 0
+S
+#2830
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2831 0
+D1
+Exit description~
+~
+0 0 2829 0
+S
+#2831
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2832 0
+D1
+~
+~
+0 0 2853 0
+D2
+Exit description~
+~
+0 0 2830 0
+S
+#2832
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2833 0
+D1
+~
+~
+0 0 2854 0
+D2
+Exit description~
+~
+0 0 2831 0
+S
+#2833
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+~
+~
+0 0 2834 0
+D2
+Exit description~
+~
+0 0 2832 0
+S
+#2834
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2835 0
+D1
+~
+~
+0 0 2868 0
+D2
+~
+~
+0 0 2854 0
+D3
+Exit description~
+~
+0 0 2833 0
+S
+#2835
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+~
+~
+0 0 2836 0
+D2
+Exit description~
+~
+0 0 2834 0
+S
+#2836
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  The water is warm and inviting, it
+seems this would be the ideal place to rest and relax.  The lake is cupped by
+the odd mountain range, the lake is almost a perfect bowl.   The smooth and
+sloped edge of the mountains make it impossible to climb over.
+~
+0 1 6 0 0 0
+D1
+Exit description~
+~
+0 0 2806 0
+D2
+~
+~
+0 0 2868 0
+D3
+Exit description~
+~
+0 0 2835 0
+S
+#2837
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2806 0
+D1
+~
+~
+0 0 2838 0
+D2
+~
+~
+0 0 2856 0
+D3
+~
+~
+0 0 2868 0
+S
+#2838
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2807 0
+D1
+~
+~
+0 0 2839 0
+D2
+~
+~
+0 0 2857 0
+D3
+Exit description~
+~
+0 0 2837 0
+S
+#2839
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2808 0
+D1
+Exit description~
+~
+0 0 2810 0
+D2
+~
+~
+0 0 2840 0
+D3
+Exit description~
+~
+0 0 2838 0
+S
+#2840
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2839 0
+D1
+~
+~
+0 0 2841 0
+D2
+~
+~
+0 0 2859 0
+D3
+~
+~
+0 0 2857 0
+S
+#2841
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2811 0
+D1
+Exit description~
+~
+0 0 2813 0
+D2
+~
+~
+0 0 2842 0
+D3
+Exit description~
+~
+0 0 2840 0
+S
+#2842
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2841 0
+D1
+Exit description~
+~
+0 0 2814 0
+D2
+~
+~
+0 0 2843 0
+D3
+~
+~
+0 0 2859 0
+S
+#2843
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2842 0
+D1
+Exit description~
+~
+0 0 2815 0
+D2
+~
+~
+0 0 2844 0
+D3
+~
+~
+0 0 2860 0
+S
+#2844
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2843 0
+D1
+~
+~
+0 0 2845 0
+D2
+~
+~
+0 0 2850 0
+D3
+~
+~
+0 0 2861 0
+S
+#2845
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2815 0
+D1
+Exit description~
+~
+0 0 2817 0
+D2
+Exit description~
+~
+0 0 2819 0
+D3
+Exit description~
+~
+0 0 2844 0
+S
+#2846
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2861 0
+D1
+Exit description~
+~
+0 0 2820 0
+D2
+Exit description~
+~
+0 0 2822 0
+D3
+~
+~
+0 0 2847 0
+S
+#2847
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2848 0
+D1
+Exit description~
+~
+0 0 2846 0
+D2
+Exit description~
+~
+0 0 2823 0
+D3
+Exit description~
+~
+0 0 2825 0
+S
+#2848
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2863 0
+D1
+~
+~
+0 0 2861 0
+D2
+Exit description~
+~
+0 0 2847 0
+D3
+~
+~
+0 0 2849 0
+S
+#2849
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2864 0
+D1
+Exit description~
+~
+0 0 2848 0
+D2
+~
+~
+0 0 2825 0
+D3
+~
+~
+0 0 2850 0
+S
+#2850
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2851 0
+D1
+~
+~
+0 0 2849 0
+D2
+Exit description~
+~
+0 0 2826 0
+D3
+Exit description~
+~
+0 0 2828 0
+S
+#2851
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2852 0
+D1
+~
+~
+0 0 2865 0
+D2
+Exit description~
+~
+0 0 2850 0
+D3
+Exit description~
+~
+0 0 2829 0
+D5
+Exit description~
+~
+16777216 0 2871 0
+S
+#2852
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2855 0
+D1
+~
+~
+0 0 2866 0
+D2
+Exit description~
+~
+0 0 2851 0
+D3
+~
+~
+0 0 2853 0
+D5
+~
+~
+0 0 2869 0
+S
+#2853
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2854 0
+D1
+Exit description~
+~
+0 0 2852 0
+D2
+Exit description~
+~
+0 0 2829 0
+D3
+Exit description~
+~
+0 0 2831 0
+S
+#2854
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2834 0
+D1
+~
+~
+0 0 2855 0
+D2
+Exit description~
+~
+0 0 2853 0
+D3
+Exit description~
+~
+0 0 2832 0
+S
+#2855
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2868 0
+D1
+~
+~
+0 0 2856 0
+D2
+Exit description~
+~
+0 0 2852 0
+D3
+Exit description~
+~
+0 0 2854 0
+D5
+Exit description~
+~
+16777216 0 2871 0
+S
+#2856
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2837 0
+D1
+~
+~
+0 0 2857 0
+D2
+~
+~
+0 0 2866 0
+D3
+Exit description~
+~
+0 0 2855 0
+D5
+Exit description~
+~
+16777216 0 2870 0
+S
+#2857
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2838 0
+D1
+Exit description~
+~
+0 0 2840 0
+D2
+~
+~
+0 0 2858 0
+D3
+Exit description~
+~
+0 0 2856 0
+D5
+Exit description~
+~
+0 0 2871 0
+S
+#2858
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2857 0
+D1
+~
+~
+0 0 2859 0
+D2
+~
+~
+0 0 2863 0
+D3
+~
+~
+0 0 2867 0
+D5
+Exit description~
+~
+0 0 2871 0
+S
+#2859
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2840 0
+D1
+Exit description~
+~
+0 0 2842 0
+D2
+~
+~
+0 0 2860 0
+D3
+~
+~
+0 0 2858 0
+D5
+Exit description~
+~
+16777216 0 2872 0
+S
+#2860
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2859 0
+D1
+Exit description~
+~
+0 0 2843 0
+D2
+~
+~
+0 0 2861 0
+D3
+~
+~
+0 0 2863 0
+D5
+Exit description~
+~
+16777216 0 2869 0
+S
+#2861
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2860 0
+D1
+Exit description~
+~
+0 0 2844 0
+D2
+Exit description~
+~
+0 0 2846 0
+D3
+~
+~
+0 0 2862 0
+S
+#2862
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2863 0
+D1
+Exit description~
+~
+0 0 2861 0
+D2
+~
+~
+0 0 2847 0
+D3
+~
+~
+0 0 2848 0
+S
+#2863
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2858 0
+D1
+Exit description~
+~
+0 0 2860 0
+D2
+~
+~
+0 0 2848 0
+D3
+~
+~
+0 0 2864 0
+D5
+Exit description~
+~
+16777216 0 2870 0
+S
+#2864
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2867 0
+D1
+Exit description~
+~
+0 0 2863 0
+D2
+Exit description~
+~
+0 0 2849 0
+D3
+~
+~
+0 0 2865 0
+D5
+Exit description~
+~
+0 0 2870 0
+S
+#2865
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2866 0
+D1
+Exit description~
+~
+0 0 2864 0
+D2
+~
+~
+0 0 2849 0
+D3
+Exit description~
+~
+0 0 2851 0
+D5
+Exit description~
+~
+16777216 0 2871 0
+S
+#2866
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2856 0
+D1
+~
+~
+0 0 2867 0
+D2
+Exit description~
+~
+0 0 2865 0
+D3
+Exit description~
+~
+0 0 2852 0
+D5
+Exit description~
+~
+0 0 2869 0
+S
+#2867
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  The water seems warmer now that you
+are even closer to the center of the lake, there is no sign of light or life
+below the dark water, yet the amount of fish and creatures is only increased.
+~
+0 1 6 0 0 0
+D0
+~
+~
+0 0 2856 0
+D1
+Exit description~
+~
+0 0 2858 0
+D2
+Exit description~
+~
+0 0 2864 0
+D3
+~
+~
+0 0 2866 0
+D5
+Exit description~
+~
+0 0 2872 0
+S
+#2868
+Lake M'otuco~
+The lake spreads out in a placid scene.  The water is dark, it is hard to see
+ more than a few feet below the surface.  You can no longer see the bottom as
+you move deeper into the center of the lake.  The numerous schools of fish
+dive up and down into the water, disappearing into the dark murk and then
+appearing within reach.
+~
+0 1 6 0 0 0
+D0
+Exit description~
+~
+0 0 2836 0
+D1
+Exit description~
+~
+0 0 2837 0
+D2
+Exit description~
+~
+0 0 2855 0
+D3
+Exit description~
+~
+0 0 2834 0
+S
+#2869
+Diving Into Murky Waters~
+The water is even warmer as you move your way down into the depths of the
+lake.  The water is clouded by a fine layer of grit and dirt, blocking out the
+light.  The water feels heavy and you wonder how deep this lake goes and if
+anything can survive the darkness and the pressure.
+~
+0 1 8 0 0 0
+D1
+Exit description~
+~
+0 0 2870 0
+D4
+~
+~
+0 0 2866 0
+D5
+Exit description~
+~
+16777216 0 2874 0
+S
+#2870
+Diving Into Murky Waters~
+The water is even warmer as you move your way down into the depths of the
+lake.  The water is clouded by a fine layer of grit and dirt, blocking out the
+light.  The water feels heavy and you wonder how deep this lake goes and if
+anything can survive the darkness and the pressure.
+~
+0 1 8 0 0 0
+D1
+Exit description~
+~
+0 0 2871 0
+D3
+Exit description~
+~
+0 0 2869 0
+D4
+~
+~
+0 0 2864 0
+D5
+Exit description~
+~
+16777216 0 2875 0
+S
+#2871
+Diving Into Murky Waters~
+The water is even warmer as you move your way down into the depths of the
+lake.  The water is clouded by a fine layer of grit and dirt, blocking out the
+light.  The water feels heavy and you wonder how deep this lake goes and if
+anything can survive the darkness and the pressure.
+~
+0 1 8 0 0 0
+D1
+Exit description~
+~
+0 0 2872 0
+D3
+Exit description~
+~
+0 0 2870 0
+D4
+~
+~
+0 0 2857 0
+D5
+Exit description~
+~
+16777216 0 2876 0
+S
+#2872
+Diving Into Murky Waters~
+The water is even warmer as you move your way down into the depths of the
+lake.  The water is clouded by a fine layer of grit and dirt, blocking out the
+light.  The water feels heavy and you wonder how deep this lake goes and if
+anything can survive the darkness and the pressure.
+~
+0 1 8 0 0 0
+D3
+Exit description~
+~
+0 0 2871 0
+D4
+~
+~
+0 0 2867 0
+D5
+Exit description~
+~
+16777216 0 2877 0
+S
+#2873
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2874 0
+D2
+Exit description~
+~
+0 0 2880 0
+S
+#2874
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2875 0
+D2
+Exit description~
+~
+0 0 2881 0
+D3
+Exit description~
+~
+0 0 2873 0
+D4
+Exit description~
+~
+16777216 0 2869 0
+S
+#2875
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2876 0
+D2
+Exit description~
+~
+0 0 2882 0
+D3
+Exit description~
+~
+0 0 2874 0
+D4
+Exit description~
+~
+16777216 0 2870 0
+S
+#2876
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2877 0
+D2
+Exit description~
+~
+0 0 2883 0
+D3
+Exit description~
+~
+0 0 2875 0
+D4
+Exit description~
+~
+16777216 0 2871 0
+S
+#2877
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2878 0
+D2
+Exit description~
+~
+0 0 2884 0
+D3
+Exit description~
+~
+0 0 2876 0
+D4
+Exit description~
+~
+16777216 0 2872 0
+S
+#2878
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D2
+Exit description~
+~
+0 0 2885 0
+D3
+Exit description~
+~
+0 0 2877 0
+S
+#2879
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D1
+Exit description~
+~
+0 0 2880 0
+S
+#2880
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2873 0
+D1
+Exit description~
+~
+0 0 2881 0
+D2
+Exit description~
+~
+0 0 2887 0
+D3
+Exit description~
+~
+0 0 2879 0
+S
+#2881
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2874 0
+D1
+Exit description~
+~
+0 0 2882 0
+D2
+Exit description~
+~
+0 0 2888 0
+D3
+Exit description~
+~
+0 0 2880 0
+D5
+Exit description~
+~
+0 0 2899 0
+S
+#2882
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2875 0
+D1
+Exit description~
+~
+0 0 2883 0
+D2
+Exit description~
+~
+0 0 2889 0
+D3
+Exit description~
+~
+0 0 2881 0
+S
+#2883
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2876 0
+D1
+Exit description~
+~
+0 0 2884 0
+D2
+Exit description~
+~
+0 0 2890 0
+D3
+Exit description~
+~
+0 0 2882 0
+S
+#2884
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2877 0
+D1
+Exit description~
+~
+0 0 2885 0
+D2
+Exit description~
+~
+0 0 2891 0
+D3
+Exit description~
+~
+0 0 2883 0
+S
+#2885
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2878 0
+D1
+Exit description~
+~
+0 0 2886 0
+D2
+Exit description~
+~
+0 0 2892 0
+D3
+Exit description~
+~
+0 0 2884 0
+S
+#2886
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D3
+Exit description~
+~
+0 0 2885 0
+S
+#2887
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2880 0
+D1
+Exit description~
+~
+0 0 2888 0
+S
+#2888
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2881 0
+D1
+Exit description~
+~
+0 0 2889 0
+D2
+Exit description~
+~
+0 0 2893 0
+D3
+Exit description~
+~
+0 0 2887 0
+S
+#2889
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2882 0
+D1
+Exit description~
+~
+0 0 2890 0
+D2
+Exit description~
+~
+0 0 2894 0
+D3
+Exit description~
+~
+0 0 2888 0
+S
+#2890
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2883 0
+D1
+Exit description~
+~
+0 0 2891 0
+D2
+Exit description~
+~
+0 0 2895 0
+D3
+Exit description~
+~
+0 0 2889 0
+S
+#2891
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2884 0
+D1
+Exit description~
+~
+0 0 2892 0
+D2
+Exit description~
+~
+0 0 2896 0
+D3
+Exit description~
+~
+0 0 2890 0
+D5
+Exit description~
+~
+0 0 2900 0
+S
+#2892
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2885 0
+D3
+Exit description~
+~
+0 0 2891 0
+S
+#2893
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2888 0
+D1
+Exit description~
+~
+0 0 2894 0
+S
+#2894
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2889 0
+D1
+Exit description~
+~
+0 0 2895 0
+D2
+Exit description~
+~
+0 0 2897 0
+D3
+Exit description~
+~
+0 0 2893 0
+S
+#2895
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2890 0
+D1
+Exit description~
+~
+0 0 2896 0
+D2
+Exit description~
+~
+0 0 2898 0
+D3
+Exit description~
+~
+0 0 2894 0
+S
+#2896
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2891 0
+D3
+Exit description~
+~
+0 0 2895 0
+S
+#2897
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2894 0
+D1
+Exit description~
+~
+0 0 2898 0
+S
+#2898
+The Lake Floor~
+The water is heavy and thick with dust and some kind of tiny animals.   The
+floor of the lake is oddly smooth and fine, yet it makes movement harder as
+the sand gives way to your slightest pressure.  There is a wide variety of
+creatures that seem to live at this depth, immune to the heat, the darkness,
+and the pressure.
+~
+0 1 12 0 0 0
+D0
+Exit description~
+~
+0 0 2895 0
+D3
+Exit description~
+~
+0 0 2897 0
+S
+#2899
+A Burning Cave~
+This strange cave is hot, incredibly hot.  There is a strange glow, a soft
+muted red or orange that seeps from below the sand.  Bubbles of grit, dirt,
+and heat are constantly coming up from the sand below, it seems this is the
+source of the heat in the lake.  From the fish bones and crude nests, this is
+a Plesiosaurs home.
+~
+0 1 12 0 0 0
+D4
+Exit description~
+~
+0 0 2881 0
+S
+#2900
+A Burning Cave~
+This strange cave is hot, incredibly hot.  There is a strange glow, a soft
+muted red or orange that seeps from below the sand.  Bubbles of grit, dirt,
+and heat are constantly coming up from the sand below, it seems this is the
+source of the heat in the lake.  From the fish bones and crude nests, this is
+a Plesiosaurs home.
+~
+0 1 12 0 0 0
+D4
+Exit description~
+~
+0 0 2891 0
+S
+#0
+
+#RESETS
+M 0 2801 1 2806  ; Mob: #2801 a fat killifish => #2806 Lake M'otuco
+M 0 2802 1 2810  ; Mob: #2802 a fat killifish => #2810 Lake M'otuco
+M 0 2803 1 2819  ; Mob: #2803 a fat killifish => #2819 Lake M'otuco
+M 0 2804 1 2827  ; Mob: #2804 a fat killifish => #2827 Lake M'otuco
+M 0 2805 1 2837  ; Mob: #2805 a fat killifish => #2837 Lake M'otuco
+M 0 2806 1 2853  ; Mob: #2806 a fat killifish => #2853 Lake M'otuco
+G 1 2801 1 ; -- Give:  #2801 a piece of fresh-water kelp
+M 0 2807 1 2872  ; Mob: #2807 a dark water snake => #2872 Diving Into Murky Waters
+M 0 2808 1 2861  ; Mob: #2808 a dark water snake => #2861 Lake M'otuco
+M 0 2809 1 2851  ; Mob: #2809 a dark water snake => #2851 Lake M'otuco
+M 0 2810 1 2839  ; Mob: #2810 a dark water snake => #2839 Lake M'otuco
+M 0 2811 1 2822  ; Mob: #2811 a dark water snake => #2822 Lake M'otuco
+M 0 2812 1 2807  ; Mob: #2812 a drab thorneye => #2807 Lake M'otuco
+M 0 2813 1 2817  ; Mob: #2813 a drab thorneye => #2817 Lake M'otuco
+M 0 2814 1 2825  ; Mob: #2814 a drab thorneye => #2825 Lake M'otuco
+G 1 2802 1 ; -- Give:  #2802 a red humming lichen
+M 0 2815 1 2834  ; Mob: #2815 a drab thorneye => #2834 Lake M'otuco
+M 0 2816 1 2850  ; Mob: #2816 a drab thorneye => #2850 Lake M'otuco
+M 0 2817 1 2871  ; Mob: #2817 a water monitor => #2871 Diving Into Murky Waters
+M 0 2818 1 2860  ; Mob: #2818 a water monitor => #2860 Lake M'otuco
+M 0 2819 1 2841  ; Mob: #2819 a water monitor => #2841 Lake M'otuco
+M 0 2820 1 2826  ; Mob: #2820 a water monitor => #2826 Lake M'otuco
+M 0 2821 1 2808  ; Mob: #2821 a spotted perch => #2808 Lake M'otuco
+M 0 2822 1 2816  ; Mob: #2822 a spotted perch => #2816 Lake M'otuco
+M 0 2823 1 2828  ; Mob: #2823 a spotted perch => #2828 Lake M'otuco
+M 0 2824 1 2838  ; Mob: #2824 a spotted perch => #2838 Lake M'otuco
+M 0 2825 1 2848  ; Mob: #2825 a spotted perch => #2848 Lake M'otuco
+M 0 2826 1 2855  ; Mob: #2826 a spotted perch => #2855 Lake M'otuco
+M 0 2827 1 2870  ; Mob: #2827 a needlefish => #2870 Diving Into Murky Waters
+M 0 2828 1 2859  ; Mob: #2828 a needlefish => #2859 Lake M'otuco
+M 0 2829 1 2847  ; Mob: #2829 a needlefish => #2847 Lake M'otuco
+G 1 2900 1 ; -- Give:  #2900 a phosphorous lichen
+M 0 2830 1 2840  ; Mob: #2830 a needlefish => #2840 Lake M'otuco
+M 0 2831 1 2823  ; Mob: #2831 a needlefish => #2823 Lake M'otuco
+M 0 2832 1 2809  ; Mob: #2832 a fresh water eel => #2809 Lake M'otuco
+M 0 2833 1 2830  ; Mob: #2833 a fresh water eel => #2830 Lake M'otuco
+M 0 2834 1 2842  ; Mob: #2834 a fresh water eel => #2842 Lake M'otuco
+M 0 2835 1 2845  ; Mob: #2835 a fresh water eel => #2845 Lake M'otuco
+M 0 2836 1 2856  ; Mob: #2836 a fresh water eel => #2856 Lake M'otuco
+M 0 2837 1 2869  ; Mob: #2837 a fresh water dolphin => #2869 Diving Into Murky Waters
+M 0 2838 1 2866  ; Mob: #2838 a fresh water dolphin => #2866 Lake M'otuco
+M 0 2839 1 2863  ; Mob: #2839 a fresh water dolphin => #2863 Lake M'otuco
+G 1 2801 1 ; -- Give:  #2801 a piece of fresh-water kelp
+M 0 2840 1 2858  ; Mob: #2840 a fresh water dolphin => #2858 Lake M'otuco
+M 0 2841 1 2849  ; Mob: #2841 a fresh water dolphin => #2849 Lake M'otuco
+M 0 2842 1 2874  ; Mob: #2842 a bottom feeding carp => #2874 The Lake Floor
+M 0 2843 1 2877  ; Mob: #2843 a bottom feeding carp => #2877 The Lake Floor
+M 0 2844 1 2881  ; Mob: #2844 a bottom feeding carp => #2881 The Lake Floor
+M 0 2845 1 2884  ; Mob: #2845 a bottom feeding carp => #2884 The Lake Floor
+M 0 2846 1 2887  ; Mob: #2846 a bottom feeding carp => #2887 The Lake Floor
+M 0 2847 1 2890  ; Mob: #2847 a bottom feeding carp => #2890 The Lake Floor
+M 0 2849 1 2892  ; Mob: #2849 a bottom feeding carp => #2892 The Lake Floor
+M 0 2850 1 2895  ; Mob: #2850 a bottom feeding carp => #2895 The Lake Floor
+M 0 2851 1 2898  ; Mob: #2851 a bottom feeding carp => #2898 The Lake Floor
+M 0 2900 1 2900  ; Mob: #2900 a razor-beak plesiosaur => #2900 A Burning Cave
+M 0 2861 1 2899  ; Mob: #2861 a razor-beak plesiosaur => #2899 A Burning Cave
+M 0 2852 1 2896  ; Mob: #2852 a carnivorous lichen => #2896 The Lake Floor
+M 0 2853 1 2893  ; Mob: #2853 a carnivorous lichen => #2893 The Lake Floor
+M 0 2854 1 2888  ; Mob: #2854 a carnivorous lichen => #2888 The Lake Floor
+M 0 2855 1 2883  ; Mob: #2855 a carnivorous lichen => #2883 The Lake Floor
+M 0 2856 1 2880  ; Mob: #2856 a carnivorous lichen => #2880 The Lake Floor
+M 0 2857 1 2876  ; Mob: #2857 a carnivorous lichen => #2876 The Lake Floor
+M 0 2858 1 2878  ; Mob: #2858 a razor-beak plesiosaur => #2878 The Lake Floor
+M 0 2859 1 2885  ; Mob: #2859 a razor-beak plesiosaur => #2885 The Lake Floor
+M 0 2860 1 2889  ; Mob: #2860 a razor-beak plesiosaur => #2889 The Lake Floor
+O 0 2900 1 2900  ; Object: #2900 a phosphorous lichen => #2900 A Burning Cave
+O 0 2803 1 2885  ; Object: #2803 a water damaged scroll => #2885 The Lake Floor
+O 0 2805 1 2891  ; Object: #2805 a rotted ironwood bludgeon => #2891 The Lake Floor
+O 0 2806 1 2899  ; Object: #2806 an obsidian tablet => #2899 A Burning Cave
+O 0 2804 1 2896  ; Object: #2804 a rusted useless dagger => #2896 The Lake Floor
+S
+
+#SPECIALS
+S
+
+#$

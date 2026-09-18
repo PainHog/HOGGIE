@@ -1,0 +1,3633 @@
+#AREA   Kinterownt~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+20 50 0 65
+$
+
+#RESETMSG The sound of a huge engine fills the cavern.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 873993120
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#11000
+gnome battle ward~
+a gnome battle-ward~
+This gnome is riding inside a huge wooden machine.
+~
+This gnome is riding inside some sort of walking machine. Inside it he stands
+almost ten feet tall and the ground shakes slightly as he lumbers past. A huge
+engine rides at the back, pumping out hot steam and numerous power crystals
+seem to send this energy into the mechanized body. What a wondrous display of
+technology.
+~
+16777281 8320&64 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 24 0 0 0 400 257
+#11001
+gnome child~
+a gnome child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#11002
+gnome child~
+a gnome child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#11003
+gnome child~
+a gnome child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#11004
+gnome child~
+a gnome child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#11005
+dwarf child ~
+a dwarven child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11006
+dwarf child ~
+a dwarven child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11007
+dwarf child ~
+a dwarven child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11008
+dwarf child ~
+a dwarven child~
+This child looks like they have been fighting since birth.
+~
+This child is a bit upset that they have been put in the Nursery with the
+other "babies'. The kid looks like they can take care of themselves but with
+all the machines and soldiers walking around, it is probably for the best.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11009
+old dwarf warrior~
+an old dwarf warrior~
+This old dwarf must have seen his share of battle.
+~
+This dwarf is living out the rest of his days in some comfort.  His leg looks
+badly injured from a previous battle.  The scars on his face, arms, and
+anywhere else that flesh is exposed must mean that this old man fought to the
+bone.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11010
+old dwarf warrior~
+an old dwarf warrior~
+This old dwarf must have seen her share of battle.
+~
+This dwarf is living out the rest of her days in some comfort.  Her arm looks
+badly injured from a previous battle.  The scars on her face, arms, and
+anywhere else that flesh is exposed must mean that this old woman fought to
+the bone.
+~
+16777281 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11011
+old dwarf warrior~
+an old dwarf warrior~
+This old dwarf must have seen his share of battle.
+~
+This dwarf is living out the rest of his days in some comfort.  His leg looks
+badly injured from a previous battle.  The scars on his face, arms, and
+anywhere else that flesh is exposed must mean that this old man fought to the
+bone.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11012
+old dwarf warrior~
+an old dwarf warrior~
+This old dwarf must have seen her share of battle.
+~
+This dwarf is living out the rest of her days in some comfort.  Her arm looks
+badly injured from a previous battle.  The scars on her face, arms, and
+anywhere else that flesh is exposed must mean that this old woman fought to
+the bone.
+~
+16908353 0 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11013
+gnome matron woman~
+a gnome matron~
+This young gnome woman is looking after the children.
+~
+This young gnome woman is quite beautiful.  She spends her days looking after
+the children, making sure they don't fight too much, and making sure they
+complete their basic studies in math, magik, battle tactics, and history.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 0
+#11014
+dwarven woman matron~
+a dwarven matron~
+This young dwarf woman is looking after the children.
+~
+This young dwarf woman is quite beautiful.  She spends her days looking after
+the children, making sure they don't fight too much, and making sure they
+complete their basic studies in math, magik, battle tactics, and history.
+~
+16777281 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 18 0 0 4 4 0
+0 0 0 0 0 0 0 0
+#11015
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11016
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11017
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11018
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11019
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11020
+dwarf soldier dwarven~
+a dwarven soldier~
+This heavily armoured dwarf is patrolling.
+~
+This heavily scarred dwarf must have seen many battles. Perhaps they  fought
+to defend the great Fortress of Sorrow, or their own mine city.  From the way
+they walk with ease through the tunnels, checking blind spots and hidden
+alcoves, they must have defended this city as well.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 282 0 0 0 48 3
+#11021
+dwarf soldier dwarven~
+a dwarven soldier~
+This heavily armoured dwarf is patrolling.
+~
+This heavily scarred dwarf must have seen many battles. Perhaps they  fought
+to defend the great Fortress of Sorrow, or their own mine city.  From the way
+they walk with ease through the tunnels, checking blind spots and hidden
+alcoves, they must have defended this city as well.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 282 0 0 0 48 3
+#11022
+dwarf soldier dwarven~
+a dwarven soldier~
+This heavily armoured dwarf is patrolling.
+~
+This heavily scarred dwarf must have seen many battles. Perhaps they  fought
+to defend the great Fortress of Sorrow, or their own mine city.  From the way
+they walk with ease through the tunnels, checking blind spots and hidden
+alcoves, they must have defended this city as well.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 282 0 0 0 48 3
+#11023
+gnome arcane worker~
+an arcane gnome worker~
+This gnome is invoking powerful magiks.
+~
+This gnome is busy trying to gather as much of the arcane energies into
+themselves in order to power up a Battle-Ward or Ethernaught. They work
+furiously, equipped with a few small books on magik and an entire bandoleer of
+tools.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 0 0 0 2097152 2105344 0
+0 0 282 0 0 0 33554480 3
+#11024
+gnome arcane worker~
+an arcane gnome worker~
+This gnome is invoking powerful magiks.
+~
+This gnome is busy trying to gather as much of the arcane energies into
+themselves in order to power up a Battle-Ward or Ethernaught. They work
+furiously, equipped with a few small books on magik and an entire bandoleer of
+tools.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 0 0 0 2097152 2105344 0
+0 0 282 0 0 0 33554480 3
+#11025
+gnome arcane worker~
+an arcane gnome worker~
+This gnome is invoking powerful magiks.
+~
+This gnome is busy trying to gather as much of the arcane energies into
+themselves in order to power up a Battle-Ward or Ethernaught. They work
+furiously, equipped with a few small books on magik and an entire bandoleer of
+tools.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 0 0 0 2097152 2105344 0
+0 0 282 0 0 0 33554480 3
+#11026
+gnome ethernaught pilot~
+a gnome ethernaught pilot~
+This gnome is getting ready to mount an ethernaught.
+~
+This gnome is out of their ethernaught and getting ready to get put back in.
+The controls are tricky and the numerous cables that must be inserted into the
+back of the pilot are painful.  Only the most hardened, intelligent gnomes or
+dwarves can even attempt to pilot one of these machines.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2105344 0
+0 0 282 0 0 0 48 3
+#11027
+gnome ethernaught pilot~
+a gnome ethernaught pilot~
+This gnome is getting ready to mount an ethernaught.
+~
+This gnome is out of their ethernaught and getting ready to get put back in.
+The controls are tricky and the numerous cables that must be inserted into the
+back of the pilot are painful.  Only the most hardened, intelligent gnomes or
+dwarves can even attempt to pilot one of these machines.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2105344 0
+0 0 282 0 0 0 48 3
+#11028
+gnome ethernaught pilot~
+a gnome ethernaught pilot~
+This gnome is getting ready to mount an ethernaught.
+~
+This gnome is out of their ethernaught and getting ready to get put back in.
+The controls are tricky and the numerous cables that must be inserted into the
+back of the pilot are painful.  Only the most hardened, intelligent gnomes or
+dwarves can even attempt to pilot one of these machines.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2105344 0
+0 0 282 0 0 0 48 3
+#11029
+gnome ethernaught pilot~
+a gnome ethernaught pilot~
+This gnome is getting ready to mount an ethernaught.
+~
+This gnome is out of their ethernaught and getting ready to get put back in.
+The controls are tricky and the numerous cables that must be inserted into the
+back of the pilot are painful.  Only the most hardened, intelligent gnomes or
+dwarves can even attempt to pilot one of these machines.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 8192 2105344 0
+0 0 282 0 0 0 48 3
+#11030
+Rebel ranger ghoul~
+a rebel ranger~
+This tall ghoul looks to have been out in the wilds.
+~
+This ghoul must have been out inside the wilds for months. Their clothes are
+ragged, torn, and caked in dirt and mud. Judging by the amount of dried blood
+on their weapons, they had some success harassing the imperial patrols and
+scouts that are sent. The odd symbol of two circles intertwined on their boots
+must mark them part of the Alliance.
+~
+16777281 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1048576 1048576 0
+0 0 9 2097152 0 0 176 2097155
+#11031
+Rebel ranger ghoul~
+a rebel ranger~
+This tall ghoul looks to have been out in the wilds.
+~
+This ghoul must have been out inside the wilds for months. Their clothes are
+ragged, torn, and caked in dirt and mud. Judging by the amount of dried blood
+on their weapons, they had some success harassing the imperial patrols and
+scouts that are sent. The odd symbol of two circles intertwined on their boots
+must mark them part of the Alliance.
+~
+16777281 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1048576 1048576 0
+0 0 9 2097152 0 0 176 2097155
+#11032
+Rebel ranger elf~
+a rebel ranger~
+This tall elf looks to have been out in the wilds.
+~
+This elf must have been out inside the wilds for months. Their clothes are
+ragged, torn, and caked in dirt and mud. Judging by the amount of dried blood
+on their weapons, they had some success harassing the imperial patrols and
+scouts that are sent. The odd symbol of two circles intertwined on their boots
+must mark them part of the Alliance.
+~
+16777281 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 0 0 2 2 0
+0 0 9 2097152 0 0 176 2097155
+#11033
+Rebel ranger elf~
+a rebel ranger~
+This tall elf looks to have been out in the wilds.
+~
+This elf must have been out inside the wilds for months. Their clothes are
+ragged, torn, and caked in dirt and mud. Judging by the amount of dried blood
+on their weapons, they had some success harassing the imperial patrols and
+scouts that are sent. The odd symbol of two circles intertwined on their boots
+must mark them part of the Alliance.
+~
+16777281 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 0 0 2 2 0
+0 0 9 2097152 0 0 176 2097155
+#11034
+rebel soldier~
+a rebel soldier~
+This alliance soldier is helping to keep this city free.
+~
+This man is not a gnome, dwarf, ghoul, or elf but rather a soldier of the
+alliance. He has pledged his life to defend one of the last free cities within
+a thousand leagues of the city of Bazabel.  By the way the other soldiers and
+rangers bow their heads to him, he is an equal to them and they are equals to
+him.
+~
+65 0 1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 282 0 0 0 48 3
+#11035
+rebel soldier~
+a rebel soldier~
+This alliance soldier is helping to keep this city free.
+~
+This man is not a gnome, dwarf, ghoul, or elf but rather a soldier of the
+alliance. He has pledged his life to defend one of the last free cities within
+a thousand leagues of the city of Bazabel.  By the way the other soldiers and
+rangers bow their heads to him, he is an equal to them and they are equals to
+him.
+~
+65 0 1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 282 0 0 0 48 3
+#11036
+rebel soldier~
+a rebel soldier~
+This alliance soldier is helping to keep this city free.
+~
+This woman is not a gnome, dwarf, ghoul, or elf but rather a soldier of the
+alliance. she has pledged her life to defend one of the last free cities
+within  a thousand leagues of the city of Bazabel.  By the way the other
+soldiers and  rangers bow their heads to her, she is an equal to them and they
+are equals to her.
+~
+65 0 1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 282 0 0 0 48 3
+#11037
+rebel soldier~
+a rebel soldier~
+This alliance soldier is helping to keep this city free.
+~
+This woman is not a gnome, dwarf, ghoul, or elf but rather a soldier of the
+alliance. she has pledged her life to defend one of the last free cities
+within  a thousand leagues of the city of Bazabel.  By the way the other
+soldiers and  rangers bow their heads to her, she is an equal to them and they
+are equals to her.
+~
+65 0 1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 282 0 0 0 48 3
+#11038
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11039
+dwarf soldier dwarven~
+a dwarven soldier~
+This heavily armoured dwarf is patrolling.
+~
+This heavily scarred dwarf must have seen many battles. Perhaps they  fought
+to defend the great Fortress of Sorrow, or their own mine city.  From the way
+they walk with ease through the tunnels, checking blind spots and hidden
+alcoves, they must have defended this city as well.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 282 0 0 0 48 3
+#11040
+gnome soldier~
+a gnome soldier~
+This heavily armoured gnome is patrolling.
+~
+This gnome has defended Kinterownt before and is ready to do it again.
+Their armour is thick and their blades quick. They look about, watching
+you, other travellers, and especially the children.  They know why they
+fight and are ready to die for that.
+~
+65 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 282 0 0 0 48 3
+#11041
+gnome battle ward~
+a gnome battle-ward~
+This gnome is riding inside a huge wooden machine.
+~
+This gnome is riding inside some sort of walking machine. Inside it he stands
+almost ten feet tall and the ground shakes slightly as he lumbers past. A huge
+engine rides at the back, pumping out hot steam and numerous power crystals
+seem to send this energy into the mechanized body. What a wondrous display of
+technology.
+~
+16777281 8320&64 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 2097152 2097152 0
+0 0 24 0 0 0 400 257
+#11042
+dwarf battle ward~
+a dwarf battle-ward~
+This dwarf is riding inside a huge wooden machine.
+~
+This dwarf is riding inside some sort of walking machine. Inside it he stands
+almost ten feet tall and the ground shakes slightly as he lumbers past. A huge
+engine rides at the back, pumping out hot steam and numerous power crystals
+seem to send this energy into the mechanized body. What a wondrous display of
+technology.
+~
+16777281 8320&64 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 24 0 0 0 400 257
+#11043
+dwarf battle ward~
+a dwarf battle-ward~
+This dwarf is riding inside a huge wooden machine.
+~
+This dwarf is riding inside some sort of walking machine. Inside it he stands
+almost ten feet tall and the ground shakes slightly as he lumbers past. A huge
+engine rides at the back, pumping out hot steam and numerous power crystals
+seem to send this energy into the mechanized body. What a wondrous display of
+technology.
+~
+16777281 8320&64 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 24 0 0 0 400 257
+#11044
+dwarf battle ward~
+a dwarf battle-ward~
+This dwarf is riding inside a huge wooden machine.
+~
+This dwarf is riding inside some sort of walking machine. Inside it he stands
+almost ten feet tall and the ground shakes slightly as he lumbers past. A huge
+engine rides at the back, pumping out hot steam and numerous power crystals
+seem to send this energy into the mechanized body. What a wondrous display of
+technology.
+~
+16777281 8320&64 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 24 0 0 0 400 257
+#11045
+gnome ethernaught~
+a gnome ethernaught~
+A gnome is riding inside a massive machine of metal.
+~
+This machine is even more impressive than a battle-ward. It stands twenty feet
+tall and must weight more than three ogres.  The solid metal frame looks like
+it could withstand any blow and the two massive arms could crush steel like
+dirt. The steam engine and numerous magikal devices must keep it balanced and
+power it's heavy movements. A large device that is constantly leaking fire is
+mounted on one arm.
+~
+16777281 0&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 8 2097152 0 0 33554576 2097153
+#11046
+gnome ethernaught~
+a gnome ethernaught~
+A gnome is riding inside a massive machine of metal.
+~
+This machine is even more impressive than a battle-ward. It stands twenty feet
+tall and must weight more than three ogres.  The solid metal frame looks like
+it could withstand any blow and the two massive arms could crush steel like
+dirt. The steam engine and numerous magikal devices must keep it balanced and
+power it's heavy movements. A large device that is constantly leaking fire is
+mounted on one arm.
+~
+16777281 0&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 8 2097152 0 0 33554576 2097153
+#11047
+gnome ethernaught~
+a gnome ethernaught~
+A gnome is riding inside a massive machine of metal.
+~
+This machine is even more impressive than a battle-ward. It stands twenty feet
+tall and must weight more than three ogres.  The solid metal frame looks like
+it could withstand any blow and the two massive arms could crush steel like
+dirt. The steam engine and numerous magikal devices must keep it balanced and
+power it's heavy movements. A large device that is constantly leaking fire is
+mounted on one arm.
+~
+16777281 0&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 8 2097152 0 0 33554576 2097153
+#11048
+gnome ethernaught~
+a gnome ethernaught~
+A gnome is riding inside a massive machine of metal.
+~
+This machine is even more impressive than a battle-ward. It stands twenty feet
+tall and must weight more than three ogres.  The solid metal frame looks like
+it could withstand any blow and the two massive arms could crush steel like
+dirt. The steam engine and numerous magikal devices must keep it balanced and
+power it's heavy movements. A large device that is constantly leaking fire is
+mounted on one arm.
+~
+16777281 0&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 8 2097152 0 0 33554576 2097153
+#11049
+gnome ethernaught ~
+a half-working ethernaught~
+This ethernaught is currently being repaired.
+~
+The massive frame of this machine is still moving despite the fact there is no
+pilot inside. The technicians around it are uttering numerous incantations as
+well as trying to put new cables throughout it. While not as fearsome as a
+fully functional one, it still looks to be dangerous.
+~
+16777283 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 0 2097152 0 0 144 2097153
+#11050
+gnome ethernaught ~
+a half-working ethernaught~
+This ethernaught is currently being repaired.
+~
+The massive frame of this machine is still moving despite the fact there is no
+pilot inside. The technicians around it are uttering numerous incantations as
+well as trying to put new cables throughout it. While not as fearsome as a
+fully functional one, it still looks to be dangerous.
+~
+16777283 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 0 2097152 0 0 144 2097153
+#11051
+gnome ethernaught ~
+a half-working ethernaught~
+This ethernaught is currently being repaired.
+~
+The massive frame of this machine is still moving despite the fact there is no
+pilot inside. The technicians around it are uttering numerous incantations as
+well as trying to put new cables throughout it. While not as fearsome as a
+fully functional one, it still looks to be dangerous.
+~
+16777283 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+41 3 0 0 8192 8192 0
+0 0 0 2097152 0 0 144 2097153
+#11052
+gnome worker~
+a gnome worker~
+This gnome is flying on metal wings, trying to repair the cables.
+~
+This worker is some hundred feet in the air, repairing some of the monstrous
+cables that run along the cavern walls and ceiling.  They seem well versed in
+both the mechanics of these devices as well as their magikal properties.
+~
+16777281 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 2
+#11053
+gnome worker~
+a gnome worker~
+This gnome is flying on metal wings, trying to repair the cables.
+~
+This worker is some hundred feet in the air, repairing some of the monstrous
+cables that run along the cavern walls and ceiling.  They seem well versed in
+both the mechanics of these devices as well as their magikal properties.
+~
+16777281 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 2
+#11054
+gnome worker~
+a gnome worker~
+This gnome is flying on metal wings, trying to repair the cables.
+~
+This worker is some hundred feet in the air, repairing some of the monstrous
+cables that run along the cavern walls and ceiling.  They seem well versed in
+both the mechanics of these devices as well as their magikal properties.
+~
+16777281 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 2
+#11055
+gnome worker~
+a gnome worker~
+This gnome is flying on metal wings, trying to repair the cables.
+~
+This worker is some hundred feet in the air, repairing some of the monstrous
+cables that run along the cavern walls and ceiling.  They seem well versed in
+both the mechanics of these devices as well as their magikal properties.
+~
+16777281 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 2
+#11056
+gnome worker~
+a gnome worker~
+This gnome is flying on metal wings, trying to repair the cables.
+~
+This worker is some hundred feet in the air, repairing some of the monstrous
+cables that run along the cavern walls and ceiling.  They seem well versed in
+both the mechanics of these devices as well as their magikal properties.
+~
+16777281 524288 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 18 0 0 2097152 2097152 0
+0 0 0 0 0 0 0 2
+#11057
+gnome fruit vendor~
+a gnome fruit vendor~
+This gnome is hawking her wares.
+~
+This older gnome woman is carrying several baskets of fruit and other snacks.
+Several other gnomes or dwarves are browsing her selection.  It is a wonder
+how they manage to get fruit in a huge cavern like this.
+~
+1 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 19 0 0 3145731 1 0
+0 0 0 0 0 0 0 0
+#11058
+gnome meat vendor~
+a gnome meat vendor~
+This gnome is hawking his wares.
+~
+This older gnome man is carrying two racks of freshly killed and cured
+meat. You see some rabbit, some deer, and even some fresh chicken
+or turkey.
+~
+1 0 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 19 0 0 3145731 1 0
+0 0 0 0 0 0 0 0
+#11059
+old dwarf cleric~
+an old dwarf cleric~
+This older dwarf cleric is talking into a mug of ale.
+~
+This dwarf is no longer in the heavy armour of the dwarven clergy. Only
+his robes and amulets denote his status.  He spends his time here, with
+the last of his people, giving spiritual succor and physical remedy.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 2101253 1 0
+0 0 282 0 0 0 48 3
+#11060
+elf medical officer~
+an elf medical officer~
+This beautiful elf is carrying numerous healing aids.
+~
+This elf must have been sent by the Alliance to make sure that Kinterownt's
+soldiers and populous are well shielded for disease, injury, and anything else
+the healing arts can protect against.  She looks to have seen battle and
+judging by her mannerisms, she was once a field medic.
+~
+16777281 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 1 0 0 2105347 1 0
+0 0 9 2097152 0 0 176 2097155
+#11061
+dwarf armourer crippled old~
+the dwarf armourer~
+This old dwarf is permanently crippled but still able to make armour.
+~
+This old dwarf must have taken a massive blade to his hip. He needs a cane and
+several odd gnomish devices just to walk. Yet he still looks capable of
+inspecting, repairing, and making armour with very little else. He must have
+been a great warrior once but now he is content to make sure that others are
+better armed than he was.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 2097157 1 0
+0 0 282 0 0 0 48 3
+#11062
+ghoul magi~
+a ghoul magi~
+This ghoul is letting his energy be siphoned off.
+~
+This ghoul is in a state of complete detachment from pain or thought. His
+entire soul is bent on keeping his magikal energies flowing while they power
+the numerous protection spheres that keep the gnome machines stable and
+working.
+~
+16777283 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1056768 1048576 0
+0 0 9 2097152 0 0 1073741824 2097155
+#11063
+ghoul magi~
+a ghoul magi~
+This ghoul is letting his energy be siphoned off.
+~
+This ghoul is in a state of complete detachment from pain or thought. His
+entire soul is bent on keeping his magikal energies flowing while they power
+the numerous protection spheres that keep the gnome machines stable and
+working.
+~
+16777283 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1056768 1048576 0
+0 0 9 2097152 0 0 1073741824 2097155
+#11064
+ghoul magi~
+a ghoul magi~
+This ghoul is letting his energy be siphoned off.
+~
+This ghoul is in a state of complete detachment from pain or thought. His
+entire soul is bent on keeping his magikal energies flowing while they power
+the numerous protection spheres that keep the gnome machines stable and
+working.
+~
+16777283 8192 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 0 0 0 1056768 1048576 0
+0 0 9 2097152 0 0 1073741824 2097155
+#11065
+kelra ironshield dwarf woman queen~
+Kelra Ironshield, the Dwarven Queen~
+This stunning dwarven woman is resting upon a makeshift throne.
+~
+She is royalty, any one could see that the moment you look upon her. Yet, the
+scars of grief are heavy on her faith.  She has lost her husband and her only
+child to a war she did not welcome. Now she must lead what is left of her
+people through these dark times.  It will be she that orders them to death or
+into shame and dishonor.
+~
+16777283 4202624&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 25 0 0 2101253 1 0
+0 0 282 0 0 0 48 2097411
+#11100
+Dilandou gnome king lord~
+Dilandou, the Gnome Lord~
+A lithe yet powerful Gnome rests upon a throne of metal.
+~
+This gnome is amazingly lithe and graceful. He seems almost like a human of a
+very short disposition.  His movements are fluid, his armor seems to weight
+nothing.  His hair is a deep jet that falls over his pale eyes. Judging by the
+large scepter or wrench by his side, the dents in his armor, and the scars on
+his hands and face, this Gnome has led his people through numerous wars.
+~
+20971587 104865920&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 12 0 0 3145733 1 0
+0 0 8 3153936 3072 0 336 8451
+#0
+
+
+#OBJECTS
+#11000
+mechanized vest protection~
+a mechanized protection vest~
+This odd vest is made of cogs and wheels.~
+~
+9 0 65
+7 7 0 0
+23 500 0
+#11001
+account book Sorrow~
+an account of the War of Sorrow~
+This large volume highlights the great war.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+E
+book account~
+In service of Kelra IronShield, I dictate the fall of our people.
+
+650 AC (Adamantite Age)
+   The city of Bazabel, supported by their half-troll/orc/ogre slaves, launch
+their first attack against the Fortress of Mount Sorrow. The attack is
+repelled but at great cost to our numbers.
+
+705 AC
+Under General Zavish, the Imperial army marches against our Mountain Keep
+Due to heavy storms the repairs had been slow, the fortress is taken.  Only
+the few children studying there made it home.
+
+0 RE  (Rebirth era)
+General Zavish returns again to plague our people. His army breaches
+the doors of our great mine city.  If not for our Gnome Kin under Dilandou,
+as well as the Ghoul alliance to the north, our people would have been buried
+inside that mountain. General Zavish is killed at the cost our most benevolent
+King Inthas IronShield and his son, Mithras.  Our city is in ruins. We flee to
+the great city of Kinterownt.
+
+25 RE
+General and Despot Zanzen takes up his father's ambition. He launches an
+attack upon Kinterownt using our once great Fortress as a launching point.
+The Battle-Wards and Ethernaught's are first deployed into a real warfare
+situation. Zanzen retreats after seven months of seige.
+
+35 RE
+ Zanzen and his forces wage war on the other side of the world against a
+great city state known only as Alden. We begin preparation to form an
+army and retake our great city.
+
+45 RE
+Talks among our most beloved Queen, Lord Dilandou, the Alliance Council
+end. It is decided that we keep our people inside Kinterownt for no less
+than four generations to bolster our numbers and prevent our great race
+from leaving this world.
+~
+#11002
+steel cuirass~
+a steel cuirass~
+This solid armour could stop an axe.~
+~
+9 524288 65
+12 12 0 0
+15 500 0
+#11003
+hardened leather vest~
+a hardened leather vest~
+This vest offers decent protection and speed.~
+~
+9 0 65
+5 5 0 0
+6 500 0
+#11004
+steel mesh jerkin~
+a steel mesh jerkin~
+This mesh shirt would stop an arrow or bolt.~
+~
+9 524288 65
+10 10 0 0
+6 500 0
+#11005
+automatic crossbow~
+an automatic crossbow~
+This crossbow can fire several bolts at once.~
+~
+5 0&16 131073
+13 6 6 13
+4 500 0
+#11006
+steel battle axe~
+a steel battle axe~
+This two headed axe looks quite powerful.~
+~
+5 0&16 131073
+13 7 4 9
+4 500 0
+#11007
+barbed pike~
+a barbed pike~
+This long spear would be great against ogres or cavalry.~
+~
+5 0&16 131073
+13 5 6 24
+4 500 0
+#11008
+slender curved sword~
+a curved slender sword~
+This sword is light and sharp.~
+~
+5 0 131073
+13 3 4 3
+4 500 0
+#11009
+large welding torch~
+a large welding torch~
+This odd tool can spew dragon's fire.~
+~
+3 64 1048577
+35 5 5 -1
+4 1000 0
+'fire breath'
+#11010
+potion escape quick~
+a potion of quick escape~
+This potion is necessary for any rebel.~
+~
+10 65 1048577
+50 -1 -1 -1
+1 200 0
+'word of recall' 'NONE' 'NONE'
+#11011
+potion liquid courage~
+a potion of liquid courage~
+This potion will keep you fighting.~
+~
+10 65 1048577
+25 -1 -1 -1
+1 2000 0
+'armor' 'bless' 'resilience'
+#11012
+medical kit~
+a medical kit~
+This kit will help keep small wounds closed.~
+~
+60 65 1048577
+50 3 3 0 -1 -1
+1 8000 0
+'cure light' 'cure serious'
+#11013
+slab dried rabbit~
+a slab of dried rabbit~
+This meat looks tasty and filling.
+~
+~
+19 0 1048577
+4 0 0 0
+3 150 0
+#11014
+slab dried deer~
+a slab of dried deer~
+This meat looks tasty and filling.
+~
+~
+19 0 1048577
+4 0 0 0
+3 150 0
+#11015
+roasted chicken~
+a roasted chicken~
+This would make a fine meal.~
+~
+19 0 1048577
+6 0 0 0
+3 250 0
+#11016
+large bottle ale~
+a large bottle of ale~
+This bottle will cure what ails you.~
+~
+17 0 1048577
+5 5 3 0
+1 200 0
+#11017
+large bottle beer~
+a large bottle of beer~
+This bottle will cure what ails you.~
+~
+17 0 1048577
+5 5 1 0
+1 200 0
+#11018
+bag pears~
+a bag of pears~
+This bag would help for a quick trip.~
+~
+19 0 1048577
+4 0 0 0
+3 150 0
+#11019
+bag apples~
+a bag of apples~
+This bag would help for a quick trip.~
+~
+19 0 1048577
+4 0 0 0
+3 150 0
+#11020
+bag sliced melon~
+a bag of sliced melon~
+This bag would help for a quick trip.~
+~
+19 0 1048577
+4 0 0 0
+3 150 0
+#11021
+book ethernaughts~
+a book on ethernaughts~
+This large book outlines the construction of ethernaughts.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+E
+book account~
+The Ethernaught and it's less glorious cousin the Battle-Ward are the result
+ofa glorious union of gnomish technology and arcane magiks.  If not for the
+magik of the ghoul magi and the elven elementalists, we would not have been
+able to contain the amount of energy produced by the steam turbines nor could
+we shield the pilots from these extreme temperatures. The Ethernaught
+functions on a simple idea that's application is nigh impossible. The pilot
+controls the more advanced movements, wielding of the arms and firing of the
+flame cannons that are mounted. Yet, by providing a low grade consciousness,
+that of an animal into the metal, these golem like creatures can react much as
+a well trained war horse would. As proven by our battles with Zanzen, each
+Ethernaught is capable of decimating enemy ranks as well as inspiring fear
+into our enemies.  Their bulk and massive size makes them difficult to move
+across great distances. It is best to keep them on defensive positions where
+there is time to position them in the most beneficial areas.
+~
+#11022
+history of Kinterownt~
+a history of Kinterownt~
+This large volume highlights the history of this city.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+E
+history kinterownt~
+0 K
+
+  The founding of Kinterownt by the great gnomish warriors, Dilindi and
+Kaliendi. The great cavern is found and work begins making it a great
+city and fortress.
+
+
+50K
+  The first alliance among the dwarves to the northwest inside the
+mine and fortress of Sorrow is established. The growing human prescense
+at the feet of the mountain is ignored.
+
+150 K
+  The humans are victorious in defending their city against the barbarian
+menace. Talks begin to import our iron and steel to the city.
+
+175 K
+  The humans reject our offer of trade. They wish to pay a fraction of the
+cost it takes to mine, transport, and refine our metals.  The Lord and Lady
+of the city ban these humans from further trade.
+
+ 250 K
+  The first war against Bazabel. Using the remaining barbarian tribes as slaves
+the army of humans attempt to storm the mountain.  The harsh conditions
+and slopes make them easy targets for our crossbow men. They retreat.
+
+400 K
+ The first Ghoulish and Elven refugees arrive into our mountain.  News of a
+great war against their kind by the humans reaches our ears as we take
+these people under our wing.
+
+425 K
+  News of the destruction of the Ihra-Desh and Ayaniem empires reaches us.
+The last survivors make their way to our mountain.  Preparations begin
+to find them a new home.
+
+500 K
+ We find another great cavern, deep within the mountain. With our
+dwarven kin, the city begins to take shape.
+
+600 K
+ After much delay and much work, the great city of Ihra-Ayan is built. The
+ghoulish and elvish survivors of their once great homes relocate.  News of
+another great army being marsheled first reaches us.
+
+637 K
+ The first half-barbarian peoples to make their way to us share their story
+and their hatred of Bazabel and the Imperial forces. Talks begin on how
+to deal with these new people in our lands.
+
+641 K
+  It is decided that any person that swears an oath to defy Bazabel shall
+be granted sanctuary inside Kinterownt or Ihra-Ayan.
+
+689 K
+ Those calling themselves the Riders of the Claw begin their war against
+Bazabel.  It is the first open rebellion that we have witnessed against
+the city that has long since plagued us.
+
+710 K
+ The Riders of the Claw begin to accept the name they are given by
+Bazabel, rebels. Comprised mostly of humans and half-spawn, their
+numbers grow quickly and recover faster than ours. Their bases
+are often found and destroyed. A council of gnome, dwarf, ghoul and
+elves takes place to decide our position.
+
+711 K
+  The Rebels are granted full sanctuary and use of our cities. The Alliance
+is formally signed against the growing threat of Bazabel. Ihra-Ayan becomes
+the seat of the alliance and home to the Riders.
+
+914 K
+  The seige of the Fortress of Sorrow begins.  The dwarven kingdom
+take heavy losses.  The Bazabel forces withdraw.
+
+969 K
+  The Fortress of Mt. Sorrow is taken.  The last of the dwarven forces
+retreat back into their mine city.  Our forces mobilize to help defend
+that city.
+
+971 K
+ Under General Zavish, the great mine city of the dwarfs is destroyed. We
+lose almost half of our army to it's defense and the escape of the dwarves
+into Kinterownt.  Zavish's head is taken by Lord Dilandou but only at the
+sacrifice of Inthas and Mithras Ironshield.
+
+996 K
+ Warlord Zanzen begins a great seige of our city.  The experimental
+Ethernaught and Battle-Ward are used.  With the support of Ihra-Ayan's
+rangers attacking their flanks and our war-machines we push Zanzen
+back after seven months of siege.
+
+1006 K
+
+  Warlord Zanzen and the Imperial forces move to the west. A new land
+is discoverd by their mauraders.  They begin a long and as of now,
+undecided war against a great city-state known as Alden.
+
+
+1016 K
+  Reports of travellers from the western land are confirmed. The Council has
+met to determine the usefulness of these adventurers in our war.
+
+
+~
+#11023
+metal chest~
+a metal chest~
+A chest crafted from a smooth metal.~
+~
+15 0 0
+100 13 0 0
+50 0 0
+#11024
+fireball trap~
+a fireball trap~
+A fireball trap.~
+~
+44 0 0
+15 8 600 274
+1 0 0
+#11025
+vial seeall~
+a seeall vial~
+A small vial with a smoky liquid inside.~
+~
+10 0 0
+45 -1 -1 -1
+1 0 0
+'true sight' 'demonsight' 'grant auralink'
+#11100
+Sorrow battle mace~
+Sorrow, the battle mace~
+This monstrous weapon is in the shape of a wrench.~
+~
+5 0&16 131073
+12 11 3 8
+30 1000 0
+#0
+
+
+#ROOMS
+#11000
+Past The Cave Gate~
+This area is far more guarded than outside of the gate. Numerous gnomes and a
+few dwarves are constantly running about. Huge machines that resemble golems
+are walking about, the gnome or dwarf riders watching you intently.  There are
+numerous heavily fortified positions for archers or crossbowmen to take up
+should the gate be reached. Judging by the clock like machine at the very top
+of the cavern, more than just bolts and sword defend this place.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11001
+D3
+~
+~
+0 0 11146
+S
+#11001
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro. Some are heading into the city while
+others seem to be preparing to make a trek outside. The ceiling is some fifty
+feet above you and you can make out a system of cat-walks and smaller
+tunnels.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11002
+D3
+~
+~
+0 0 11000
+S
+#11002
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro. Some are heading into the city while
+others seem to be preparing to make a trek outside. The ceiling is some fifty
+feet above you and you can make out a system of cat-walks and smaller
+tunnels.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11003
+D3
+Exit description~
+~
+0 0 11001
+S
+#11003
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro. Some are heading into the city while
+others seem to be preparing to make a trek outside. The ceiling is some fifty
+feet above you and you can make out a system of cat-walks and smaller
+tunnels.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11004
+D3
+Exit description~
+~
+0 0 11002
+S
+#11004
+At An Intersection Of Tunnels.~
+This must be one of the main intersections of tunnels inside the city. To the
+north is a smaller tunnel with numerous rows of gas-powered torches.  To the
+south is another tunnel that is lighted by hundreds of small crystals that
+seem to feed off some form of energy. To the east the massive grooved tunnel
+continues deeper into the cave.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11005
+D1
+~
+~
+0 0 11031
+D2
+~
+~
+0 0 11016
+D3
+Exit description~
+~
+0 0 11003
+S
+#11005
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11006
+D2
+Exit description~
+~
+0 0 11004
+S
+#11006
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11007
+D2
+Exit description~
+~
+0 0 11005
+S
+#11007
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11008
+D2
+Exit description~
+~
+0 0 11006
+S
+#11008
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11009
+D2
+Exit description~
+~
+0 0 11007
+S
+#11009
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11010
+D3
+Exit description~
+~
+0 0 11008
+S
+#11010
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11011
+D3
+Exit description~
+~
+0 0 11009
+S
+#11011
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11012
+D3
+Exit description~
+~
+0 0 11010
+S
+#11012
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D3
+Exit description~
+~
+0 0 11011
+D4
+~
+~
+0 0 11013
+S
+#11013
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D4
+~
+~
+0 0 11014
+D5
+Exit description~
+~
+0 0 11012
+S
+#11014
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D4
+~
+~
+0 0 11015
+D5
+Exit description~
+~
+0 0 11013
+S
+#11015
+Inside A Smaller Tunnel~
+This tunnel is significantly tighter than the other.  You can see that the
+walls are lined with tubes made of copper that have small candles placed just
+above them.  Holes in these tubes then slowly allow some kind of gas to keep
+the candle lit.  It all seems shielded for stability with some sort of magik.
+The sound of machinery is louder as you go deeper into the tunnel.
+~
+0 3153928 13
+D4
+~
+~
+0 0 11083
+D5
+Exit description~
+~
+0 0 11014
+S
+#11016
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11004
+D2
+~
+~
+0 0 11017
+S
+#11017
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11016
+D2
+~
+~
+0 0 11018
+S
+#11018
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11017
+D2
+~
+~
+0 0 11019
+S
+#11019
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11018
+D1
+~
+~
+0 0 11020
+S
+#11020
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11021
+D3
+Exit description~
+~
+0 0 11019
+S
+#11021
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11022
+D3
+Exit description~
+~
+0 0 11020
+S
+#11022
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D2
+~
+~
+0 0 11023
+D3
+Exit description~
+~
+0 0 11021
+S
+#11023
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11022
+D1
+~
+~
+0 0 11024
+S
+#11024
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11025
+D3
+Exit description~
+~
+0 0 11023
+S
+#11025
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D2
+~
+~
+0 0 11026
+D3
+Exit description~
+~
+0 0 11024
+S
+#11026
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11025
+D2
+~
+~
+0 0 11027
+S
+#11027
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11026
+D2
+~
+~
+0 0 11028
+S
+#11028
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11027
+D3
+~
+~
+0 0 11029
+S
+#11029
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11028
+D3
+~
+~
+0 0 11030
+S
+#11030
+Inside A Runed Tunnel~
+This tunnel is wildly decorated with numerous dwarven ruins. The walls are
+covered in crystals that seem to slightly hum.  As you walk past you notice
+some grow brighter.  There are many more dwarves wandering about now than
+before and for the first time you spot a child or two wandering about.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11029
+D2
+~
+~
+0 0 11074
+S
+#11031
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11032
+D3
+Exit description~
+~
+0 0 11004
+S
+#11032
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11033
+D3
+Exit description~
+~
+0 0 11031
+S
+#11033
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D2
+~
+~
+0 0 11034
+D3
+Exit description~
+~
+0 0 11032
+S
+#11034
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11033
+D2
+~
+~
+0 0 11035
+S
+#11035
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11034
+D2
+~
+~
+0 0 11036
+S
+#11036
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11035
+D1
+~
+~
+0 0 11037
+D2
+~
+~
+0 0 11091
+S
+#11037
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11038
+D2
+~
+~
+0 0 11092
+D3
+Exit description~
+~
+0 0 11036
+S
+#11038
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11039
+D3
+Exit description~
+~
+0 0 11037
+S
+#11039
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11040
+D3
+Exit description~
+~
+0 0 11038
+S
+#11040
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11041
+D2
+~
+~
+0 0 11046
+D3
+~
+~
+0 0 11039
+S
+#11041
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11042
+D2
+Exit description~
+~
+0 0 11040
+S
+#11042
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11043
+D1
+Exit description~
+~
+0 0 11099
+D2
+Exit description~
+~
+0 0 11041
+S
+#11043
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11044
+D2
+Exit description~
+~
+0 0 11042
+S
+#11044
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11045
+D2
+Exit description~
+~
+0 0 11043
+S
+#11045
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+To the north the low hum of magik starts to fill the air.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11051
+D2
+Exit description~
+~
+0 0 11044
+S
+#11046
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11040
+D1
+~
+~
+16777216 0 11093
+D2
+~
+~
+0 0 11047
+S
+#11047
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by. To
+the east is what looks like a large nursery.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11046
+D2
+~
+~
+0 0 11048
+S
+#11048
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11047
+D2
+~
+~
+0 0 11049
+S
+#11049
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11048
+D2
+~
+~
+0 0 11050
+S
+#11050
+Inside A Grooved Tunnel~
+This tunnel is large enough for an army to pass through with ease. Numerous
+people are making their way to and fro.  There seem to be no rooms dedicated
+to shops and the few alcoves you find are small homes. You have noticed that a
+few vendors are just wandering about, hawking their wares as others pass by. To
+the east the sound of machinery grows louder.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11049
+D2
+~
+~
+16777216 0 11064
+S
+#11051
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+~
+~
+0 0 11063
+D1
+~
+~
+0 0 11052
+D2
+Exit description~
+~
+0 0 11045
+S
+#11052
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11053
+D3
+Exit description~
+~
+0 0 11051
+S
+#11053
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+~
+~
+16777216 0 11062
+D2
+~
+~
+0 0 11054
+D3
+Exit description~
+~
+0 0 11052
+S
+#11054
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11053
+D2
+~
+~
+0 0 11055
+S
+#11055
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11054
+D1
+~
+~
+0 0 11056
+S
+#11056
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D1
+~
+~
+0 0 11057
+D2
+~
+~
+16777216 0 11061
+D3
+Exit description~
+~
+0 0 11055
+S
+#11057
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D2
+~
+~
+0 0 11058
+D3
+Exit description~
+~
+0 0 11056
+S
+#11058
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11057
+D2
+~
+~
+0 0 11059
+S
+#11059
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11058
+D2
+~
+~
+0 0 11060
+S
+#11060
+Inside The Arcane Sanctum~
+This section of the city is wildly adorned with runes: dwarven, gnomish,
+ghoulish, and even some elvish ones.  The large crystal filled cables seem to
+be the thickest here.  You can feel the amount of energy being produced.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11059
+D1
+~
+~
+16777216 0 11100
+S
+#11061
+A Make-Shift Throne Room~
+The once mighty queen of the Dwarves now makes her home in this humble room.
+The floor is carpeted with a thick layer of moss, the walls adorned with great
+weapons and armours. While much more lavishly decorated than anything else
+inside the city, it seems drab and humble lodging for a great matriarch. On
+the iron throne there are numerous words inscribed.
+~
+0 3153928 13
+D0
+Exit description~
+~
+16777216 0 11056
+S
+#11062
+The Seat Of Magi~
+The walls of this room are simple.  Numerous cables run in and out of it as
+several elvish and ghoulish mages rest inside what appear to be chairs. They
+twitch and chant but from the cables running into the odd metal chairs to the
+wall, it seems that you have found the source of the shielding that keeps the
+Eye stable.
+~
+0 3153928 13
+D2
+Exit description~
+~
+16777216 0 11053
+S
+#11063
+An Access Portal~
+This room is heavily guarded and the walls are layered in thick metal and
+numerous protection ruins.  Every few minutes a ghoul or elf or a gnome will
+materialize inside, overloaded with different supplies from food to medical
+supplies. It seems this is one of the few ways to quickly escape or enter the
+city.  This room must not be shielded by the same magiks that prevent astral
+travel.
+~
+0 8 13
+D2
+Exit description~
+~
+0 0 11051
+S
+#11064
+Entrance To The Dock~
+The sound of machinery is almost deafening. To the east you can see a huge
+dock where the Battle-Wards and Ethernaughts are built, maintained, and
+stored. Numerous gnomes and dwarves shuffle about, carrying tools, parts,
+crystals, and  anything else they need to get these awesome machines moving.
+~
+0 3153928 13
+D0
+Exit description~
+~
+16777216 0 11050
+D1
+Exit description~
+~
+0 0 11065
+S
+#11065
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11066
+D2
+Exit description~
+~
+0 0 11068
+D3
+Exit description~
+~
+0 0 11064
+S
+#11066
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11067
+D2
+Exit description~
+~
+0 0 11069
+D3
+Exit description~
+~
+0 0 11065
+S
+#11067
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D2
+Exit description~
+~
+0 0 11070
+D3
+Exit description~
+~
+0 0 11066
+S
+#11068
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11065
+D1
+Exit description~
+~
+0 0 11069
+D2
+Exit description~
+~
+0 0 11071
+S
+#11069
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11066
+D1
+Exit description~
+~
+0 0 11070
+D2
+Exit description~
+~
+0 0 11072
+D3
+Exit description~
+~
+0 0 11068
+S
+#11070
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11067
+D2
+Exit description~
+~
+0 0 11073
+D3
+Exit description~
+~
+0 0 11069
+S
+#11071
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11068
+D1
+Exit description~
+~
+0 0 11072
+S
+#11072
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11069
+D1
+Exit description~
+~
+0 0 11073
+D3
+Exit description~
+~
+0 0 11071
+S
+#11073
+The Dock~
+This cavern is monstrous.  The ceiling is at least 300 feet above you and the
+entire cavern is packed with various machines.  There must be hundreds upon
+hundreds of these massive battle machines that are neatly stored in the air on
+racks or on the ground being serviced.  This area is extremely busy.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11070
+D3
+Exit description~
+~
+0 0 11072
+S
+#11074
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11030
+D1
+Exit description~
+~
+0 0 11075
+D2
+Exit description~
+~
+0 0 11077
+S
+#11075
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11076
+D2
+Exit description~
+~
+0 0 11078
+D3
+Exit description~
+~
+0 0 11074
+S
+#11076
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D2
+Exit description~
+~
+0 0 11079
+D3
+Exit description~
+~
+0 0 11075
+S
+#11077
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11074
+D1
+Exit description~
+~
+0 0 11078
+D2
+Exit description~
+~
+0 0 11080
+S
+#11078
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11075
+D1
+Exit description~
+~
+0 0 11079
+D2
+Exit description~
+~
+0 0 11081
+D3
+Exit description~
+~
+0 0 11077
+S
+#11079
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11076
+D2
+Exit description~
+~
+0 0 11082
+D3
+Exit description~
+~
+0 0 11078
+S
+#11080
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11077
+D1
+Exit description~
+~
+0 0 11081
+S
+#11081
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11078
+D1
+Exit description~
+~
+0 0 11082
+D3
+Exit description~
+~
+0 0 11080
+S
+#11082
+The Dwarven Shelter~
+The Dwarves of Sorrow's Path have long since been without a home. Their great
+fortress to the west was taken and their great city destroyed and turned into
+a strip mine.  Their gnome kin have not forgotten them and provided them a
+place to stay, raise a family, and one day strike back against the Imperial
+forces and take what is rightfully theirs.  This large system of caves are not
+the most comfortable but by all the paintings, carpets, fireplaces, and other
+dwarven decorations, they have settled into their home quite nicely.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11079
+D3
+Exit description~
+~
+0 0 11081
+S
+#11083
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D3
+Exit description~
+~
+0 0 11084
+D5
+Exit description~
+~
+0 0 11015
+S
+#11084
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11083
+D3
+Exit description~
+~
+0 0 11085
+S
+#11085
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11084
+D2
+Exit description~
+~
+0 0 11086
+S
+#11086
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11085
+D2
+Exit description~
+~
+0 0 11087
+S
+#11087
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11086
+D3
+Exit description~
+~
+0 0 11088
+S
+#11088
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11087
+D3
+Exit description~
+~
+0 0 11089
+S
+#11089
+On The Cat Walk~
+You are almost a hundred feet in the air. Several gnomes and dwarves make
+their way past you and you even see a few with metal wings on, working
+on a complex system of cables. The sound of clockwork is everywhere.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11088
+D4
+Exit description~
+~
+0 0 11090
+S
+#11090
+The Eye~
+This monstrous machine is suspended by a dozen floating orbs of pure energy.
+It is constantly turning and spinning, judging by the constant bursts of color
+and sparks, this machine is what keeps you from being able to astral travel
+out of here.  It also seems to be powering the rest of this place. An
+impressive feat, but what is powering the orbs that is keeping this thing
+contained?
+~
+0 3153928 13
+D5
+Exit description~
+~
+0 0 11089
+S
+#11091
+An Access Portal~
+This room is heavily guarded and the walls are layered in thick metal and
+numerous protection ruins.  Every few minutes a ghoul or elf or a gnome will
+materialize inside, overloaded with different supplies from food to medical
+supplies. It seems this is one of the few ways to quickly escape or enter the
+city.  This room must not be shielded by the same magiks that prevent astral
+travel.
+~
+0 8 13
+D0
+Exit description~
+~
+0 0 11036
+S
+#11092
+The Kinterownt Library~
+This massive alcove is dedicated to the storage of the city's knowledge. You
+see books on magik, on history, on metallurgy and even on blacksmithing. The
+amount of knowledge collected here is just amazing. You could spend a lifetime
+here.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11037
+S
+#11093
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11094
+D2
+Exit description~
+~
+0 0 11096
+D3
+Exit description~
+~
+16777216 0 11046
+S
+#11094
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D1
+Exit description~
+~
+0 0 11095
+D2
+Exit description~
+~
+0 0 11097
+D3
+Exit description~
+~
+0 0 11093
+S
+#11095
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D2
+Exit description~
+~
+0 0 11098
+D3
+Exit description~
+~
+0 0 11094
+S
+#11096
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11093
+D1
+Exit description~
+~
+0 0 11097
+S
+#11097
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11094
+D1
+Exit description~
+~
+0 0 11098
+D3
+Exit description~
+~
+0 0 11096
+S
+#11098
+The Nursery~
+With a city like this, full of huge walking machines, exposed magikal energy
+and not to mention the constant threat of attack, it would make sense that the
+people of the city have created a large place to keep their children during
+the day.
+~
+0 3153928 13
+D0
+Exit description~
+~
+0 0 11095
+D3
+Exit description~
+~
+0 0 11097
+S
+#11099
+An Access Portal~
+This room is heavily guarded and the walls are layered in thick metal and
+numerous protection ruins.  Every few minutes a ghoul or elf or a gnome will
+materialize inside, overloaded with different supplies from food to medical
+supplies. It seems this is one of the few ways to quickly escape or enter the
+city.  This room must not be shielded by the same magiks that prevent astral
+travel.
+~
+0 8 13
+D3
+Exit description~
+~
+0 0 11042
+S
+#11100
+The Steel Throne~
+This is the throne room of the Gnome Lords. Every person to lead these people
+in battle and peace has resided inside this great hall.  There are hundreds of
+paintings, some on the walls, some on the ceilings, some on the great pillars
+that support this room.  All of them depict some great gnome hero or great
+gnome victory.  Numerous armours, weapons, and machines line the hall in a
+glorious display of might.
+~
+0 3153928 0
+D3
+Exit description~
+~
+16777216 0 11060
+S
+#0
+
+
+#RESETS
+O 0 11023 1 11092
+P 0 11025 1 11023
+P 0 11024 1 11023
+M 0 11000 1 11000
+M 0 11015 1 11000
+E 1 11005 1 21
+E 1 11002 1 7
+M 0 11016 1 11004
+E 1 11005 1 21
+E 1 11002 1 7
+M 0 11020 1 11007
+E 1 11006 1 21
+E 1 11002 1 7
+M 0 11030 1 11011
+E 1 11003 1 7
+E 1 11008 1 22
+E 1 11008 1 21
+M 0 11034 1 11014
+E 1 11007 1 21
+E 1 11004 1 7
+M 0 11052 1 11019
+M 0 11017 1 11023
+E 1 11005 1 21
+E 1 11002 1 7
+M 0 11021 1 11028
+E 1 11006 1 21
+E 1 11002 1 7
+M 0 11022 1 11032
+E 1 11006 1 21
+E 1 11002 1 7
+M 0 11031 1 11036
+E 1 11008 1 22
+E 1 11008 1 21
+E 1 11003 1 7
+M 0 11035 1 11039
+E 1 11007 1 21
+E 1 11004 1 7
+M 0 11053 1 11042
+M 0 11038 1 11048
+E 1 11005 1 21
+E 1 11002 1 7
+M 0 11040 1 11052
+E 1 11005 1 21
+E 1 11002 1 7
+M 0 11032 1 11055
+E 1 11003 1 7
+E 1 11008 1 22
+E 1 11008 1 21
+M 0 11036 1 11059
+E 1 11007 1 21
+E 1 11004 1 7
+M 0 11065 1 11061
+E 1 11006 1 21
+M 0 11062 1 11062
+M 0 11063 1 11062
+M 0 11064 1 11062
+M 0 11049 1 11065
+M 0 11050 1 11067
+M 0 11051 1 11072
+M 0 11023 1 11066
+G 1 11009 1
+M 0 11024 1 11068
+M 0 11025 1 11071
+M 0 11029 1 11073
+E 1 11000 1 7
+M 0 11027 1 11072
+E 1 11000 1 7
+M 0 11028 1 11070
+E 1 11000 1 7
+M 0 11029 1 11069
+E 1 11000 1 7
+M 0 11009 1 11074
+M 0 11010 1 11076
+M 0 11011 1 11078
+M 0 11012 1 11080
+M 0 11059 1 11082
+G 1 11016 1
+G 1 11017 1
+M 0 11061 1 11080
+G 1 11002 1
+G 1 11004 1
+G 1 11006 1
+M 0 11054 1 11083
+M 0 11055 1 11085
+G 1 11009 1
+M 0 11056 1 11088
+M 0 11013 1 11093
+M 0 11014 1 11098
+M 0 11001 1 11094
+M 0 11005 1 11094
+M 0 11002 1 11095
+M 0 11006 1 11095
+M 0 11003 1 11096
+M 0 11007 1 11096
+M 0 11004 1 11097
+M 0 11008 1 11097
+M 0 11100 1 11100
+E 1 11100 1 21
+E 1 11002 1 7
+M 0 11033 1 11009
+E 1 11008 1 22
+E 1 11008 1 21
+E 1 11003 1 7
+M 0 11037 1 11013
+E 1 11007 1 21
+E 1 11004 1 7
+M 0 11041 1 11017
+M 0 11045 1 11025
+M 0 11042 1 11029
+M 0 11046 1 11035
+M 0 11047 1 11045
+M 0 11048 1 11054
+M 0 11043 1 11024
+M 0 11044 1 11022
+M 0 11057 1 11042
+G 1 11020 1
+G 1 11019 1
+G 1 11018 1
+M 0 11058 1 11022
+G 1 11015 1
+G 1 11013 1
+G 1 11014 1
+M 0 11060 1 11040
+G 1 11010 1
+G 1 11011 1
+G 1 11012 1
+M 0 11018 1 11000
+E 1 11006 1 21
+E 1 11002 1 7
+M 0 11019 1 11035
+E 1 11002 1 7
+E 1 11005 1 21
+M 0 11039 1 11027
+E 1 11006 1 21
+E 1 11002 1 7
+O 0 11021 1 11092
+O 0 11022 1 11092
+O 0 11001 1 11092
+M 0 11026 1 11065
+E 1 11000 1 7
+S
+
+
+#SHOPS
+ 11057   19 63  8  0  0   120  90         7 18    ; a gnome fruit vendor
+ 11058   17 19  0  0  0   120  90         7 18    ; a gnome meat vendor
+ 11059    9 17 13  0  0   120  90         7 18    ; an old dwarf cleric
+ 11060   63 10 60  4  3   120  90         7 18    ; an elf medical officer
+ 11061    9  5 65 64 66   120  90         7 18    ; the dwarf armourer
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11059 spec_cast_cleric
+M  11062 spec_cast_mage
+M  11063 spec_cast_mage
+M  11064 spec_cast_mage
+M  11065 spec_cast_archmagi
+M  11100 spec_cast_bishop
+S
+
+
+#$

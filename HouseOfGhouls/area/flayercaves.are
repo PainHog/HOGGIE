@@ -1,0 +1,2138 @@
+#AREA   Flayer Caves~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+30 50 0 65
+$
+
+#RESETMSG A slight chill blows through the caves...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 949357883
+
+#CLIMATE 1 3 0
+
+#MOBILES
+#4201
+dragon black horned~
+a horned black dragon~
+A huge dragon, black as the blackest night, lets out a loud roar!
+~
+A huge black dragon, green acidic fumes curling up from its nose, lifts its
+mighty head and lets out a roar that echos throughout the caves.  It's
+swordlike horns gleam in the darkness.
+~
+99 4194432&320 -1000 C
+65 0 -250 10d50+4000 5d5+50
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 0
+0 0 1836041 2097536 0 0 16515 524288
+> death_prog 25~
+roar
+emote glares at you and brings its mouth closer, ready to swallow you whole....then drops dead!
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+emote roars out in pain, lashing its tail in all directions!
+~
+|
+#4202
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4203
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4204
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4205
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4206
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4207
+displacer beast cat panther black~
+a displacer beast~
+A large black panther with multiple tentacles appears out of nowhere!
+~
+Hard enough to see in the inky blackness of the caves, this strange beast also
+has the ability to disappear and reappear at will, making it very tough to
+strike in combat.  It jumps at you, seemingly from different directions at
+once!
+~
+97 4292608 -1000 C
+32 0 -120 4d15+850 3d5+22
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 1 1 0
+0 0 134226969 1056768 0 0 11 2
+#4208
+flayer female~
+a female flayer~
+A flayer, seemingly female, stops when she spies you.
+~
+Dressed in robes of oily black, this strange creature must be the female of
+the flayer race.  Bearing purple tentacles where other creatures have mouths,
+this young flayer stops and watches you closely.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 553648176 2
+> rand_prog 2~
+emote studies a runed scroll closely.~
+|
+#4209
+flayer female~
+a female flayer~
+A flayer, seemingly female, stops when she spies you.
+~
+Dressed in robes of oily black, this strange creature must be the female of
+the flayer race.  Bearing purple tentacles where other creatures have mouths,
+this young flayer stops and watches you closely.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 553648176 2
+> rand_prog 2~
+emote lazily waves a wand around in the air.~
+|
+#4210
+flayer female~
+a female flayer~
+A flayer, seemingly female, stops when she spies you.
+~
+Dressed in robes of oily black, this strange creature must be the female of
+the flayer race.  Bearing purple tentacles where other creatures have mouths,
+this young flayer stops and watches you closely.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 553648176 2
+> rand_prog 2~
+smile
+~
+|
+#4211
+flayer female~
+a female flayer~
+A flayer, seemingly female, stops when she spies you.
+~
+Dressed in robes of oily black, this strange creature must be the female of
+the flayer race.  Bearing purple tentacles where other creatures have mouths,
+this young flayer stops and watches you closely.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 553648176 2
+> rand_prog 2~
+say Be careful!  The Dark Horned Master lies deep in the caves!
+shiver
+~
+|
+#4212
+flayer female~
+a female flayer~
+A flayer, seemingly female, stops when she spies you.
+~
+Dressed in robes of oily black, this strange creature must be the female of
+the flayer race.  Bearing purple tentacles where other creatures have mouths,
+this young flayer stops and watches you closely.
+~
+16777281 4227072 0 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 553648176 2
+> rand_prog 2~
+say Beware the displacer beasts!  They come from nowhere!
+~
+|
+#4213
+flayer male~
+a male flayer~
+A flayer, one of the larger males, steps out of the darkness towards you.
+~
+Appearing from the dark like a thief stepping from the shadows, the strange
+creature before you must be one of the flayers of the underground.  Powerful
+with magic, these creatures are feared throughout the realms.
+~
+65 4227072 0 C
+45 0 -120 4d40+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+bow
+~
+|
+#4214
+flayer male~
+a male flayer~
+A flayer, one of the larger males, steps out of the darkness towards you.
+~
+Appearing from the dark like a thief stepping from the shadows, the strange
+creature before you must be one of the flayers of the underground.  Powerful
+with magic, these creatures are feared throughout the realms.
+~
+65 4227072 0 C
+45 0 -120 4d40+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+strut
+~
+|
+#4215
+flayer male~
+a male flayer~
+A flayer, one of the larger males, steps out of the darkness towards you.
+~
+Appearing from the dark like a thief stepping from the shadows, the strange
+creature before you must be one of the flayers of the underground.  Powerful
+with magic, these creatures are feared throughout the realms.
+~
+65 4227072 0 C
+45 0 -120 4d40+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+nod
+~
+|
+#4216
+flayer male~
+a male flayer~
+A flayer, one of the larger males, steps out of the darkness towards you.
+~
+Appearing from the dark like a thief stepping from the shadows, the strange
+creature before you must be one of the flayers of the underground.  Powerful
+with magic, these creatures are feared throughout the realms.
+~
+65 4227072 0 C
+45 0 -120 4d40+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+mutter~
+|
+#4217
+flayer guard~
+a flayer guard~
+A large flayer watches you closely, guarding its homecave carefully.
+~
+This large flayer stands at guard, protecting the homecaves from intruders.
+It waves its tentacles at you as you approach, trying to see if you are a
+threat it needs to deal with.
+~
+65 4227072 0 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 21 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+strut
+~
+|
+#4218
+flayer guard~
+a flayer guard~
+A large flayer watches you closely, guarding its homecave carefully.
+~
+This large flayer stands at guard, protecting the homecaves from intruders.
+It waves its tentacles at you as you approach, trying to see if you are a
+threat it needs to deal with.
+~
+65 4227072 0 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 21 0 0 8192 8192 0
+0 0 8223 3153920 0 0 654311472 2
+> rand_prog 2~
+bow
+~
+|
+#4219
+flayer guard~
+a flayer guard~
+A large flayer watches you closely, guarding its homecave carefully.
+~
+This large flayer stands at guard, protecting the homecaves from intruders.
+It waves its tentacles at you as you approach, trying to see if you are a
+threat it needs to deal with.
+~
+65 4227072 0 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 21 0 0 8192 8192 0
+0 0 8223 1056768 0 0 654311472 2
+> rand_prog 2~
+snarl
+~
+|
+#4220
+flayer mage old~
+a flayer mage~
+An older flayer, clothed in rich black robes, glides through the hallways.
+~
+Gliding smoothly down the dark hallways, an elder flayer glances at you as he
+moves past, but is confident in his power that you aren't going to pose him
+any problems.
+~
+65 71335936 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 8192 8192 0
+0 0 8223 1056768 0 0 135266352 2
+> death_prog 10~
+gasp
+emote tries to mumble one final spell, but the words don't have any effect...
+~
+> rand_prog 2~
+nodnod self
+~
+|
+#4221
+flayer mage old~
+a flayer mage~
+An older flayer, clothed in rich black robes, glides through the hallways.
+~
+Gliding smoothly down the dark hallways, an elder flayer glances at you as he
+moves past, but is confident in his power that you aren't going to pose him
+any problems.
+~
+65 71335936 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 0 0 0 8192 8192 0
+0 0 8223 3153920 0 0 135266352 2
+> death_prog 10~
+say The Great Horned One shall deal with you!
+~
+> rand_prog 2~
+emote mutters some dark, evil words under his breath.~
+|
+#4300
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4201
+small muddy pool~
+a small muddy pool~
+A small muddy pool sits underneath a dripping stalactite.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4202
+small muddy pool~
+a small muddy pool~
+A small muddy pool sits underneath a dripping stalactite.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4203
+small muddy pool~
+a small muddy pool~
+A small muddy pool sits underneath a dripping stalactite.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4204
+small muddy pool~
+a small muddy pool~
+A small muddy pool sits underneath a dripping stalactite.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4205
+small muddy pool~
+a small muddy pool~
+A small muddy pool sits underneath a dripping stalactite.~
+~
+25 0 0
+500 500 0 0
+1 0 0
+#4206
+light dragon hate~
+the Hate of the Dragon~
+A sickly green light floats about, dimly lighting the area around it.
+~
+~
+1 81 1
+0 0 -1 0
+1 0 0
+A
+19 3
+A
+27 128
+A
+1 3
+A
+13 35
+#4207
+robe oily black~
+an oily black robe~
+A silken robe, black and oily smooth, lies in a heap.~
+~
+9 80 65
+5 5 0 0
+1 0 0
+A
+79 2
+A
+3 3
+A
+12 30
+#4208
+rod tentacle~
+a tentacle rod~
+A black rod, with a purple tentacle attached to the end.~
+~
+3 64 1048577
+50 25 25 -1
+1 0 0
+'necromantic touch'
+A
+5 2
+#4209
+whip tentacle~
+a tentacle whip~
+A small whip, formed of three thin tentacles.~
+~
+5 0 131073
+12 4 3 4
+3 0 0
+#4210
+earring flayer~
+a flayer earring~
+A small earring, crafted of silver and shaped like a tentacle.~
+~
+8 65 9
+0 0 0 0
+1 0 0
+A
+31 3
+A
+18 2
+#4300
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4201
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides. From here you can see the faint light coming from the
+cave above the crack.  The small passage heads down, into darkness.
+~
+0 2049 13
+D4
+Exit description~
+~
+0 0 3953
+D5
+~
+~
+16777216 0 4202
+S
+#4202
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides. From here you can see the faint light coming from the
+cave above the crack.  The small passage twists north, into darkness.
+~
+0 2049 13
+D0
+~
+~
+0 0 4203
+D4
+Exit description~
+~
+0 0 4201
+S
+#4203
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads south, and also twists east,
+into darkness.
+~
+0 2049 13
+D1
+~
+~
+0 0 4204
+D2
+Exit description~
+~
+0 0 4202
+S
+#4204
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads west, and also twists north,
+into darkness.
+~
+0 2049 13
+D0
+~
+~
+0 0 4205
+D3
+Exit description~
+~
+0 0 4203
+S
+#4205
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads south, and also plunges down,
+into darkness.
+~
+0 2049 13
+D2
+Exit description~
+~
+0 0 4204
+D5
+~
+~
+0 0 4206
+S
+#4206
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads up, and also twists north,
+into darkness.
+~
+0 2049 13
+D0
+~
+~
+0 0 4207
+D4
+Exit description~
+~
+0 0 4205
+S
+#4207
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads south, and continues north,
+into darkness.
+~
+0 2049 13
+D0
+~
+~
+0 0 4208
+D2
+Exit description~
+~
+0 0 4206
+S
+#4208
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads south, and twists west,
+into darkness.
+~
+0 2049 13
+D2
+Exit description~
+~
+0 0 4207
+D3
+~
+~
+0 0 4209
+S
+#4209
+A Narrow Crack~
+You barely have enough room to fit through this narrow crack in the rock.
+The walls are worn smooth from the centuries of slowly draining water
+polishing their sides.  The small passage heads east, and twists north,
+into darkness.
+~
+0 2049 13
+D0
+~
+~
+0 0 4210
+D1
+Exit description~
+~
+0 0 4208
+S
+#4210
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+~
+~
+0 0 4211
+D2
+Exit description~
+~
+16777216 0 4209
+S
+#4211
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+~
+~
+0 0 4212
+D3
+Exit description~
+~
+0 0 4210
+S
+#4212
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4213
+D3
+Exit description~
+~
+0 0 4211
+S
+#4213
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4220
+D2
+Exit description~
+~
+0 0 4212
+D3
+~
+~
+0 0 4214
+S
+#4214
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+Exit description~
+~
+0 0 4213
+D3
+~
+~
+0 0 4215
+S
+#4215
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4216
+D1
+Exit description~
+~
+0 0 4214
+D3
+~
+~
+0 0 4236
+S
+#4216
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4217
+D2
+Exit description~
+~
+0 0 4215
+S
+#4217
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4221
+D1
+~
+~
+0 0 4218
+D2
+Exit description~
+~
+0 0 4216
+S
+#4218
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4223
+D1
+~
+~
+0 0 4219
+D3
+Exit description~
+~
+0 0 4217
+S
+#4219
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4228
+D2
+~
+~
+0 0 4220
+D3
+Exit description~
+~
+0 0 4218
+S
+#4220
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+Exit description~
+~
+0 0 4219
+D2
+Exit description~
+~
+0 0 4213
+S
+#4221
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 4217
+D3
+~
+~
+0 0 4222
+S
+#4222
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4244
+D1
+Exit description~
+~
+0 0 4221
+S
+#4223
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4224
+D2
+Exit description~
+~
+0 0 4218
+S
+#4224
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4252
+D1
+~
+~
+0 0 4225
+D2
+Exit description~
+~
+0 0 4223
+S
+#4225
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+~
+~
+0 0 4226
+D3
+Exit description~
+~
+0 0 4224
+S
+#4226
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4229
+D1
+~
+~
+0 0 4227
+D3
+Exit description~
+~
+0 0 4225
+S
+#4227
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+~
+~
+0 0 4266
+D3
+Exit description~
+~
+0 0 4226
+S
+#4228
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D1
+~
+~
+0 0 4258
+D2
+Exit description~
+~
+0 0 4219
+S
+#4229
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4230
+D2
+Exit description~
+~
+0 0 4226
+S
+#4230
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4231
+D1
+~
+~
+0 0 4274
+D2
+Exit description~
+~
+0 0 4229
+S
+#4231
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4232
+D2
+Exit description~
+~
+0 0 4230
+S
+#4232
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D2
+Exit description~
+~
+0 0 4231
+D3
+~
+~
+0 0 4233
+S
+#4233
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4234
+D1
+Exit description~
+~
+0 0 4232
+S
+#4234
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.
+~
+0 1 13
+D0
+~
+~
+0 0 4235
+D2
+Exit description~
+~
+0 0 4233
+S
+#4235
+A Rocky Cave System~
+You find yourself in dark cave system.  Sharp Stalactites hang from the rocky
+roof above you, and small pools of water sit underneath the bigger ones.  All
+about you is the steady dripping sound of water echoing throughout the
+caverns.  A strong acidic odor seems to come from the caves to the east.
+~
+0 1 13
+D1
+~
+~
+16777216 0 4282
+D2
+~
+~
+0 0 4234
+S
+#4236
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4243
+D1
+Exit description~
+~
+0 0 4215
+D2
+~
+~
+0 0 4237
+S
+#4237
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4236
+D3
+~
+~
+0 0 4238
+S
+#4238
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4239
+D1
+Exit description~
+~
+0 0 4237
+S
+#4239
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4240
+D2
+Exit description~
+~
+0 0 4238
+S
+#4240
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4241
+D2
+Exit description~
+~
+0 0 4239
+S
+#4241
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4242
+D2
+Exit description~
+~
+0 0 4240
+S
+#4242
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+~
+~
+0 0 4243
+D3
+Exit description~
+~
+0 0 4241
+S
+#4243
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4242
+D2
+~
+~
+0 0 4236
+S
+#4244
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+Exit description~
+~
+0 0 4251
+D2
+Exit description~
+~
+0 0 4222
+D3
+~
+~
+0 0 4245
+S
+#4245
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4246
+D1
+Exit description~
+~
+0 0 4244
+S
+#4246
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4247
+D2
+Exit description~
+~
+0 0 4245
+S
+#4247
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4248
+D2
+Exit description~
+~
+0 0 4246
+S
+#4248
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4249
+D3
+Exit description~
+~
+0 0 4247
+S
+#4249
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+~
+~
+0 0 4250
+D3
+Exit description~
+~
+0 0 4248
+S
+#4250
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4249
+D2
+~
+~
+0 0 4251
+S
+#4251
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4250
+D3
+~
+~
+0 0 4244
+S
+#4252
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4253
+D1
+Exit description~
+~
+0 0 4257
+D2
+Exit description~
+~
+0 0 4224
+S
+#4253
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4254
+D2
+Exit description~
+~
+0 0 4252
+S
+#4254
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4255
+D2
+Exit description~
+~
+0 0 4253
+S
+#4255
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+~
+~
+0 0 4256
+D3
+Exit description~
+~
+0 0 4254
+S
+#4256
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4255
+D2
+~
+~
+0 0 4257
+S
+#4257
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4256
+D3
+~
+~
+0 0 4252
+S
+#4258
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+Exit description~
+~
+0 0 4265
+D2
+~
+~
+0 0 4259
+D3
+Exit description~
+~
+0 0 4228
+S
+#4259
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4258
+D2
+~
+~
+0 0 4260
+S
+#4260
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4259
+D2
+~
+~
+0 0 4261
+S
+#4261
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4260
+D1
+~
+~
+0 0 4262
+S
+#4262
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4263
+D3
+Exit description~
+~
+0 0 4261
+S
+#4263
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4264
+D2
+Exit description~
+~
+0 0 4262
+S
+#4264
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4265
+D2
+Exit description~
+~
+0 0 4263
+S
+#4265
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+Exit description~
+~
+0 0 4264
+D3
+~
+~
+0 0 4258
+S
+#4266
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4267
+D2
+Exit description~
+~
+0 0 4273
+D3
+Exit description~
+~
+0 0 4227
+S
+#4267
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4268
+D2
+Exit description~
+~
+0 0 4266
+S
+#4268
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+~
+~
+0 0 4269
+D3
+Exit description~
+~
+0 0 4267
+S
+#4269
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4268
+D2
+~
+~
+0 0 4270
+S
+#4270
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4269
+D2
+~
+~
+0 0 4271
+S
+#4271
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4270
+D3
+~
+~
+0 0 4272
+S
+#4272
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4273
+D1
+Exit description~
+~
+0 0 4271
+S
+#4273
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4266
+D2
+Exit description~
+~
+0 0 4272
+S
+#4274
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4275
+D1
+Exit description~
+~
+0 0 4281
+D3
+Exit description~
+~
+0 0 4230
+S
+#4275
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+~
+~
+0 0 4276
+D2
+Exit description~
+~
+0 0 4274
+S
+#4276
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4277
+D2
+Exit description~
+~
+0 0 4275
+S
+#4277
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+~
+~
+0 0 4278
+D3
+Exit description~
+~
+0 0 4276
+S
+#4278
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D2
+~
+~
+0 0 4279
+D3
+Exit description~
+~
+0 0 4277
+S
+#4279
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4278
+D2
+~
+~
+0 0 4280
+S
+#4280
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D0
+Exit description~
+~
+0 0 4279
+D3
+~
+~
+0 0 4281
+S
+#4281
+Flayer Homecaves~
+These lighted caves are much different than the natural formations of the main
+passage.  The ways are smooth and dark.  Upon closer inspection, strange runes
+and figures are carved into the rock.  Amongst these designs, small openings
+head into the homecaves of the Flayers.
+~
+0 2105344 13
+D1
+Exit description~
+~
+0 0 4280
+D3
+~
+~
+0 0 4274
+S
+#4282
+An Etched and Scorched Cave~
+All of a sudden out of the dark, the passage has opened up into a huge cavern.
+ The walls are dark and smooth, and looks almost as if the solid rock has been
+melted numerous times.  The stink of acidic corrosion fills the air.
+~
+0 2105344 13
+D3
+~
+~
+0 0 4235
+S
+#4300
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 4221 3 4255
+E 0 4207 15 7
+M 0 4221 3 4255
+E 0 4208 1 24
+M 0 4221 3 4255
+E 0 4207 15 7
+M 0 4220 3 4276
+M 0 4220 3 4276
+E 0 4208 1 24
+M 0 4220 3 4276
+M 0 4219 3 4238
+E 0 4209 1 21
+M 0 4219 3 4238
+M 0 4219 3 4238
+E 0 4209 1 21
+M 0 4218 2 4227
+M 0 4218 2 4227
+E 0 4209 1 21
+M 0 4217 3 4232
+E 0 4209 1 21
+M 0 4217 3 4232
+M 0 4217 3 4232
+M 0 4216 3 4214
+M 0 4216 3 4214
+M 0 4216 3 4214
+M 0 4215 3 4247
+M 0 4215 3 4247
+M 0 4215 3 4247
+M 0 4214 2 4233
+M 0 4214 2 4233
+M 0 4213 3 4270
+M 0 4213 3 4270
+M 0 4213 3 4270
+M 0 4212 3 4279
+M 0 4212 3 4279
+M 0 4212 3 4279
+E 0 4210 15 3
+M 0 4211 3 4264
+M 0 4211 3 4264
+M 0 4211 3 4264
+M 0 4210 3 4255
+M 0 4210 3 4255
+M 0 4210 3 4255
+E 0 4210 15 3
+M 0 4209 3 4248
+M 0 4209 3 4248
+M 0 4209 3 4248
+M 0 4208 3 4240
+M 0 4208 3 4240
+M 0 4208 3 4240
+M 0 4207 3 4254
+M 0 4207 3 4254
+M 0 4207 3 4254
+M 0 4206 3 4261
+M 0 4206 3 4261
+M 0 4206 3 4261
+M 0 4205 3 4280
+M 0 4205 3 4280
+M 0 4205 3 4280
+M 0 4204 3 4235
+M 0 4204 3 4235
+M 0 4204 3 4235
+M 0 4203 3 4222
+M 0 4203 3 4222
+M 0 4203 3 4222
+M 0 4202 3 4212
+M 0 4202 3 4212
+M 0 4202 3 4212
+M 0 4201 1 4282
+E 0 4206 10 0
+O 0 4205 1 4222
+O 0 4204 1 4234
+O 0 4203 1 4228
+O 0 4202 1 4216
+O 0 4201 1 4210
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4201 spec_breath_acid
+M  4217 spec_racist
+M  4218 spec_racist
+M  4219 spec_racist
+M  4220 spec_cast_mage
+M  4221 spec_cast_archmagi
+S
+
+
+#$

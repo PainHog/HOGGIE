@@ -1,0 +1,613 @@
+#AREA Lake D'Aira~
+
+#VERSION 1
+
+#CLIMATE 3 2 3
+
+#AUTHOR Ashlyn+Darwin~
+
+#RANGES
+5 15 0 65
+$
+
+#RESETMSG A soft breeze blows across the calm water.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 449385759
+
+#MOBILES
+#5127
+colorful butterfly~
+a colorful butterfly~
+A colorful butterfly catches your attention.
+~
+This colorful insect seems to be floating around without a care in the
+world.  Its wings are displayed in an array of colors, rather pleasing to
+the eye.
+~
+16777409 524288 1000 C
+5 0 40 61d1+0 1d6+1
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32773 0 0 0 1 0
+#5128
+red-tailed hawk bird~
+a red-tailed hawk~
+A hawk soars overhead.
+~
+It hovers silently, powerful wings outspread.  Beneath the intelligent
+dark eyes, a cruel black beak opens to emit a shrill scream of challenge.
+~
+16777281 524288 0 C
+9 0 30 127d1+0 1d6+1
+40 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 553943041 0 0 0 2 0
+#5129
+mermaid woman fish~
+a mermaid~
+A woman looks at you, startled, letting out a shrill screech!
+~
+The woman before you is half human, half fish.  Her upper body is naked,
+her hair long enough to cover her breasts.  The lower half of her body is
+covered in scales, ending in a powerful tail, emmersed in the water.
+~
+553648193 -2143289288&256 0 C
+12 0 5 175d1+0 1d1+3
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 198499 2 0 0 20 0
+#5130
+man merman fish~
+a merman~
+A man stares at you angrily, letting out a shrill screech!
+~
+The man before you is half human, half fish.  His upper body is naked,
+his flesh gleaming.  The lower half of his body is covered in scales, ending
+in a powerful tail, emmersed in the water.
+~
+553648193 -2143289288&256 0 C
+15 0 7 277d1+0 1d2+3
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 198507 256 2 0 20 0
+#0
+
+#OBJECTS
+#5127
+little white pill~
+a little white pill~
+A little white pill is here.~
+~
+26 0 1 0
+25 -1 -1 -1
+1 0 0
+'heal' 'armor' 'bless'
+#5128
+scales fish~
+fish scales~
+A pile of scaly material lies here on the ground.~
+~
+9 0 65 0
+15 15 0 0
+1 0 0
+#5129
+trident~
+a small trident~
+A small trident lies here.~
+~
+5 0 131073 0
+12 6 2 11
+3 0 0
+E
+trident~
+This small trident looks useful for defending one's self from predators
+or to hunt for food.
+~
+#5130
+pearl necklace~
+a small pearl necklace~
+A string of pearls lies in a small pile.~
+
+~
+8 1 33 0
+0 0 0 0
+1 0 0
+E
+pearl necklace~
+This beautiful necklace is made of a string of some of the most 
+perfect pearls in existance. Some say these pearls have some magical 
+qualities about them.
+~
+A
+18 2
+A
+1 2
+#5131
+butterfly wings~
+brightly-colored butterfly wings~
+A set of brightly-colored butterfly wings have been ripped from their owner.~
+
+~
+9 2&256 4097 0
+2 2 0 0
+1 0 0
+E
+butterfly wings~
+These large, colorful butterfly wings have been ripped from the 
+butterfly that grew them. Covered with a magical dust, they may, 
+however, provide some benefit for anyone who wishes to wear them.
+~
+A
+26 524288
+#5132
+hawk feather~
+a hawk's feather~
+A large, red hawk feather has been discarded here.~
+~
+26 64 1048577 0
+25 -1 -1 -1
+1 0 0
+'fly' 'NONE' 'NONE'
+#0
+
+#ROOMS
+#5127
+An Opening in the Trees~
+The trees break here, opening into a huge clearing covered in a lush
+blanket of thick green grass.  The occasional butterflies and birds pay
+their visits, adding color and flair to the already vivid picture.  One
+could stay here all day simply to relax in the comforts of nature, or
+perhaps stay into the night to gaze up at the clear, starry-filled sky.
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 303 0
+D2
+~
+~
+0 0 5128 0
+S
+#5128
+The Edge of the Lake~
+The grass ends here abruptly at the edge of a huge lake.  The water
+ripples slightly from the breath of the wind grazing over its surface, its
+color as blue as the sky above, reflecting mirror images of the
+immediate surroundings.  Even in the winter, this lake somehow
+remains unfrozen, as if protected by some sort of spell.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 5127 0
+D2
+~
+~
+0 0 5129 0
+S
+#5129
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5128 0
+D1
+~
+~
+0 0 5130 0
+D2
+Exit description~
+~
+0 0 5136 0
+S
+#5130
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 5131 0
+D2
+Exit description~
+~
+0 0 5135 0
+D3
+Exit description~
+~
+0 0 5129 0
+S
+#5131
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 5132 0
+D2
+Exit description~
+~
+0 0 5134 0
+D3
+Exit description~
+~
+0 0 5130 0
+S
+#5132
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D2
+~
+~
+0 0 5133 0
+D3
+Exit description~
+~
+0 0 5131 0
+S
+#5133
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+Exit description~
+~
+0 0 5132 0
+D2
+~
+~
+0 0 5139 0
+D3
+~
+~
+0 0 5134 0
+S
+#5134
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+     To the South is a small island.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5131 0
+D1
+~
+~
+0 0 5133 0
+D2
+~
+~
+0 0 5145 0
+D3
+~
+~
+0 0 5135 0
+S
+#5135
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5130 0
+D1
+Exit description~
+~
+0 0 5134 0
+D2
+~
+~
+0 0 5138 0
+D3
+~
+~
+0 0 5136 0
+S
+#5136
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5129 0
+D1
+Exit description~
+~
+0 0 5135 0
+D2
+~
+~
+0 0 5137 0
+S
+#5137
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+Exit description
+~
+~
+0 0 5136 0
+D1
+~
+~
+0 0 5138 0
+D2
+Exit description~
+~
+0 0 5144 0
+S
+#5138
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+     To the East is a small island.
+~
+0 0 6 0 0 0
+D0
+Exit description~
+~
+0 0 5135 0
+D1
+~
+~
+0 0 5145 0
+D2
+~
+~
+0 0 5142 0
+D3
+Exit description~
+~
+0 0 5137 0
+S
+#5139
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+     To the West is a small island.
+~
+0 0 6 0 0 0
+D0
+Exit description~
+~
+0 0 5133 0
+D2
+~
+~
+0 0 5140 0
+D3
+Exit description~
+~
+0 0 5145 0
+S
+#5140
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+Exit description~
+~
+0 0 5139 0
+D3
+~
+~
+0 0 5141 0
+S
+#5141
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+     To the North is a small island.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5145 0
+D1
+Exit description~
+~
+0 0 5140 0
+D2
+~
+~
+0 0 21176 0
+D3
+~
+~
+0 0 5142 0
+S
+#5142
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+~
+0 0 6 0 0 0
+D0
+Exit description~
+~
+0 0 5138 0
+D1
+Exit description~
+~
+0 0 5141 0
+D3
+~
+~
+0 0 5144 0
+S
+#5144
+Lake D'Aira~
+The air is cooler here on the lake, the breeze caressing your skin
+softly.  The surface of the lake gleams brilliantly, sparkling as the sun
+plays over the top of it.  The soothing water might be just what you need to
+ease the ache in your bones caused by your long travels.  Perhaps it
+wouldn't hurt to stay for a while, just to relax.
+
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 5137 0
+D1
+~
+~
+0 0 5142 0
+S
+#5145
+Astyn Island~
+A small piece of land rests in the middle of Lake D'Aira here.  Thick
+trees cover the surface of the island, blocking out most all of the
+sunlight from overhead, and making it appear larger than it really is.
+Plant life rustles softly in the breeze, the only sound breaking the
+quietness.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 5134 0
+D1
+~
+~
+0 0 5139 0
+D2
+~
+~
+0 0 5141 0
+D3
+Exit description~
+~
+0 0 5138 0
+S
+#0
+
+#RESETS
+M 0 5128 3 5131  ; Mob: #5128 a red-tailed hawk => #5131 Lake D'Aira
+G 0 5132 1 ; -- Give:  #5132 a hawk's feather
+M 0 5128 3 5139  ; Mob: #5128 a red-tailed hawk => #5139 Lake D'Aira
+G 0 5132 1 ; -- Give:  #5132 a hawk's feather
+M 0 5127 5 5144  ; Mob: #5127 a colorful butterfly => #5144 Lake D'Aira
+M 0 5127 5 5131  ; Mob: #5127 a colorful butterfly => #5131 Lake D'Aira
+E 0 5131 1 15  ; -- Equip: #5131 brightly-colored butterfly wings (back)
+M 0 5127 5 5140  ; Mob: #5127 a colorful butterfly => #5140 Lake D'Aira
+M 0 5127 5 5136  ; Mob: #5127 a colorful butterfly => #5136 Lake D'Aira
+M 0 5129 10 5133  ; Mob: #5129 a mermaid => #5133 Lake D'Aira
+M 0 5129 10 5140  ; Mob: #5129 a mermaid => #5140 Lake D'Aira
+E 0 5130 1 5  ; -- Equip: #5130 a small pearl necklace (neck-1)
+M 0 5130 3 5135  ; Mob: #5130 a merman => #5135 Lake D'Aira
+E 0 5129 1 21  ; -- Equip: #5129 a small trident (wield)
+G 0 5127 3 ; -- Give:  #5127 a little white pill
+M 0 5130 3 5135  ; Mob: #5130 a merman => #5135 Lake D'Aira
+E 0 5129 1 21  ; -- Equip: #5129 a small trident (wield)
+G 0 5127 3 ; -- Give:  #5127 a little white pill
+M 0 5129 10 5132  ; Mob: #5129 a mermaid => #5132 Lake D'Aira
+E 0 5128 3 14  ; -- Equip: #5128 fish scales (about)
+M 0 5129 10 5132  ; Mob: #5129 a mermaid => #5132 Lake D'Aira
+M 0 5129 10 5145  ; Mob: #5129 a mermaid => #5145 Astyn Island
+E 0 5130 1 5  ; -- Equip: #5130 a small pearl necklace (neck-1)
+M 0 5129 10 5145  ; Mob: #5129 a mermaid => #5145 Astyn Island
+M 0 5129 10 5145  ; Mob: #5129 a mermaid => #5145 Astyn Island
+E 0 5128 3 14  ; -- Equip: #5128 fish scales (about)
+M 0 5130 3 5134  ; Mob: #5130 a merman => #5134 Lake D'Aira
+E 0 5129 1 21  ; -- Equip: #5129 a small trident (wield)
+G 0 5127 3 ; -- Give:  #5127 a little white pill
+M 0 5129 10 5145  ; Mob: #5129 a mermaid => #5145 Astyn Island
+E 0 5128 3 14  ; -- Equip: #5128 fish scales (about)
+M 0 5128 3 5128  ; Mob: #5128 a red-tailed hawk => #5128 The Edge of the Lake
+G 0 5132 1 ; -- Give:  #5132 a hawk's feather
+M 0 5127 5 5127  ; Mob: #5127 a colorful butterfly => #5127 An Opening in the Trees
+S
+
+#SPECIALS
+S
+
+#$

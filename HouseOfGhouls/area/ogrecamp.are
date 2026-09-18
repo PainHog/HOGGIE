@@ -1,0 +1,1413 @@
+#AREA   Ogre Camp~
+
+
+
+#VERSION 1
+#AUTHOR Sirus~
+
+#RANGES
+35 50 1 65
+$
+
+#RESETMSG You hear the grunt of an ogre.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 27234866
+
+#CLIMATE 3 3 2
+
+#MOBILES
+#7201
+ogre barbarian~
+an ogre barbarian~
+The ogre barbarian charges towards you in a fit of rage!
+~
+The ogre barbarian is very big.  He has a bald head and has dark eyes.  He is
+very dirty and has a foul stench about him.  He is fully suited in hide and
+leather.  He stands at about 6 feet tall and looks to weigh around 300 pounds.
+~
+16777281 1073741824 -1000 C
+40 0 -150 1000d1+0 6d8+7
+61 325
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+75 3 85 340 16 16 0
+20 20 79 0 0 0 240 524291
+#7202
+ogre warrior~
+an ogre warrior~
+The ogre warrior stands here ready for a fight.
+~
+The ogre warrior is practically bald, and he doesn't look to have the best
+hygiene either.  He is missing multiple teeth and his clothes are very worn
+and dirty.  He is quite large and he looks very strong, fighting him may not
+be a good idea.
+~
+16777281 0 -1000 C
+45 0 -181 1200d1+0 3d10+5
+61 340
+112 112 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+75 3 80 300 16 16 0
+20 20 1547 0 0 0 498 524291
+#7203
+rattle snake~
+a rattle snake~
+A rattle snake is coiled up here.
+~
+The rattle snake has very sharp fangs, and brown scales.
+~
+16777413 0 0 C
+30 0 38 119d1+0 1d3+2
+10 300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 24 3 1024 1024 0
+3 3 1024 128 256 0 131141 2
+#7204
+deadly spider~
+a deadly spider~
+A deadly spider hangs down from a tree here.
+~
+The spider is big and hairy.  Two tiny fangs protrude from its little head.
+~
+16777313 0 0 C
+35 0 38 131d1+0 2d4+3
+10 300
+112 112 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+63 3 6 1 256 256 0
+5 5 1028 1088 2097536 33 131329 2
+#0
+
+
+#OBJECTS
+#7201
+club~
+a club~
+A club lies here upon the ground.~
+~
+5 0 131073
+13 4 2 7
+5 300 0
+#7202
+medium club~
+a medium club~
+A medium-sized club lies here.~
+~
+5 0 131073
+13 4 3 6
+8 400 0
+#7203
+large club~
+a large club~
+A large club lies here upon the ground.~
+~
+5 0&16 131073
+13 4 5 6
+10 500 0
+#7204
+stone club~
+a stone club~
+A club made of stone lies here.~
+~
+5 64&16 131073
+13 5 6 8
+13 750 0
+A
+18 3
+A
+19 3
+#7205
+animal hide bracer~
+an animal hide bracer~
+A bracer made of animal hide lies here.~
+~
+9 64 257
+4 4 0 0
+3 500 0
+A
+25 3
+#7206
+reinforced animal hide bracer~
+a reinforced animal hide bracer~
+An animal hide bracer is here.~
+~
+9 64 257
+5 5 0 0
+4 700 0
+A
+3 2
+#7207
+pair animal hide gloves~
+a pair of animal hide gloves~
+A pair of animal hide gloves lies here.~
+~
+9 64 513
+4 4 0 0
+3 400 0
+A
+1 2
+A
+18 2
+#7208
+pair leather gloves~
+a pair of leather gloves~
+A pair of gloves made of leather lies here.~
+~
+9 64 513
+5 5 0 0
+3 600 0
+A
+4 2
+#7209
+studded leather cap~
+a studded leather cap~
+A cap made of studded leather lies here.~
+~
+9 0 3
+6 6 0 0
+5 1000 0
+#7210
+leather cap~
+a leather cap~
+A cap made of leather lies here.~
+~
+9 64 3
+4 4 0 0
+3 550 0
+A
+31 2
+#7211
+studded leather tunic~
+a studded leather tunic~
+A tunic made of studded leather lies here.~
+~
+9 64 65
+6 6 0 0
+5 1000 0
+A
+1 2
+#7212
+animal hide shirt~
+an animal hide shirt~
+A shirt made of animal hide lies here.~
+~
+9 64 65
+4 4 0 0
+4 600 0
+A
+12 10
+#7213
+animal hide cloak~
+an animal hide cloak~
+A cloak made of animal hide lies here.~
+~
+9 0 4097
+4 4 0 0
+5 600 0
+#7214
+pair leather sleeves~
+a pair of leather sleeves~
+A pair of sleeves made of leather lies here.~
+~
+9 64 129
+4 4 0 0
+3 1000 0
+A
+13 25
+#7215
+animal hide leggings~
+a pair of animal hide leggings~
+A pair of leggings made of animal hide is here.~
+~
+9 64 16385
+4 4 0 0
+3 500 0
+A
+24 -3
+#7216
+studded leather belt~
+a studded leather belt~
+A studded leather belt lies here.~
+~
+9 64 8193
+6 6 0 0
+10 1000 0
+A
+4 3
+#7217
+animal hide girth~
+an animal hide girth~
+An animal hide girth lies here.~
+~
+9 64 8193
+4 4 0 0
+3 500 0
+A
+5 3
+#7218
+studded leather boots~
+a pair of studded leather boots~
+A pair of boots made of studded leather lies here.~
+~
+9 64 65537
+6 6 0 0
+10 2000 0
+A
+19 2
+#7219
+small wooden tower shield~
+a small wooden tower shield~
+A small tower shield made of wood lies here.~
+~
+9 64 524289
+3 3 0 0
+10 600 0
+A
+18 3
+#7220
+necklace made sharp teeth~
+a necklace made of sharp teeth~
+A necklace lies here, it is made of sharp teeth.~
+~
+8 64 33
+0 0 0 0
+2 0 0
+A
+12 25
+#7221
+necklace made sharp teeth~
+a necklace made of sharp teeth~
+A necklace lies here, it is made of sharp teeth.~
+~
+8 64 33
+0 0 0 0
+2 0 0
+A
+13 25
+#7222
+ogre war pin~
+an ogre war pin~
+A small pin lies here.~
+~
+8 0 2097153
+0 0 0 0
+1 0 0
+A
+19 2
+#7223
+medium wooden tower shield~
+a medium wooden tower shield~
+A medium tower shield made of wood lies here.~
+~
+9 64 524289
+5 5 0 0
+10 600 0
+A
+18 2
+#7224
+wooden buckler~
+a wooden buckler~
+A buckler made of wood lies here.~
+~
+9 64 524289
+3 3 0 0
+2 600 0
+A
+2 2
+#7225
+stone bracer~
+a stone bracer~
+A stone bracer lies here.~
+~
+9 0 257
+7 7 0 0
+1 1000 0
+#7226
+stone bracer~
+a stone bracer~
+A stone bracer lies here.~
+~
+9 0 257
+7 7 0 0
+1 1000 0
+A
+19 1
+#7227
+leather cloak~
+a leather cloak~
+A cloak made of leather lies here.~
+~
+9 64 33
+4 4 0 0
+3 500 0
+A
+4 3
+#7228
+studded leather cap~
+a studded leather cap~
+A cap made of studded leather lies here.~
+~
+9 0 3
+6 6 0 0
+5 1000 0
+A
+3 3
+#0
+
+
+#ROOMS
+#7201
+Walking On A Muddy Path~
+You stumble your way through this muddy path.  You sink down in mud to your
+knees.  Around you, you can hear the sounds of snakes rattling; they seem to
+move away as you get near.  Up ahead you can start to make out what looks to
+be a gate made of thorns and wood.  The bubbling of the bog can be heard to
+the west.
+~
+0 0 2
+D1
+~
+~
+0 0 7202
+D3
+~
+~
+0 0 1870
+S
+#7202
+Walking On A Muddy Path~
+You stumble your way through this muddy path.  You sink down in mud to your
+knees.  Around you, you can hear the sounds of snakes rattling; they seem to
+move away as you get near.  Up ahead you can start to make out what looks to
+be a gate made of thorns and wood.
+~
+0 0 2
+D1
+~
+~
+0 0 7203
+D3
+Exit description~
+~
+0 0 7201
+S
+#7203
+Walking On A Muddy Path~
+You stumble your way through this muddy path.  You sink down in mud to your
+knees.  Around you, you can hear the sounds of snakes rattling; they seem to
+move away as you get near.  Up ahead you can start to make out what looks to
+be a gate made of thorns and wood.
+~
+0 0 2
+D1
+~
+~
+0 0 7204
+D3
+Exit description~
+~
+0 0 7202
+S
+#7204
+Walking On A Muddy Path~
+You stumble your way through this muddy path.  You sink down in mud to your
+knees.  Around you, you can hear the sounds of snakes rattling; they seem to
+move away as you get near.  Up ahead you can start to make out what looks to
+be a gate made of thorns and wood.
+~
+0 0 2
+D1
+~
+~
+0 0 7205
+D3
+Exit description~
+~
+0 0 7203
+S
+#7205
+Walking On A Muddy Path~
+You stumble your way through this muddy path.  You sink down in mud to your
+knees.  Around you, you can hear the sounds of snakes rattling; they seem to
+move away as you get near.  Up ahead you can start to make out what looks to
+be a gate made of thorns and wood.
+~
+0 0 2
+D2
+~
+~
+0 0 7206
+D3
+Exit description~
+~
+0 0 7204
+S
+#7206
+Before A Gate Of Thorns~
+You stand here before the gate of thorns.  The gate is open, but you aren't
+getting the idea you are welcome here.  On the inside of the fence you see a
+camp with many tents made of animal hide.  The people who inhabit this camp
+may be savages!
+~
+0 0 0
+D0
+~
+~
+0 0 7205
+D2
+~
+gate~
+1 0 7207
+S
+#7207
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D0
+~
+gate~
+1 0 7206
+D1
+~
+~
+0 0 7208
+D2
+~
+~
+0 0 7215
+D3
+~
+~
+0 0 7211
+S
+#7208
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.  A
+tent can be found to the north.
+~
+0 0 2
+D0
+~
+tent~
+1 0 7229
+D1
+~
+~
+0 0 7209
+D3
+~
+~
+0 0 7207
+S
+#7209
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D1
+~
+~
+0 0 7210
+D3
+~
+~
+0 0 7208
+S
+#7210
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D2
+~
+~
+0 0 7216
+D3
+Exit description~
+~
+0 0 7209
+S
+#7211
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 7207
+D3
+~
+~
+0 0 7212
+S
+#7212
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 7211
+D3
+~
+~
+0 0 7213
+S
+#7213
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 7212
+D2
+~
+~
+0 0 7214
+S
+#7214
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+There is a tent to the east of you.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7213
+D1
+~
+tent~
+1 0 7223
+D2
+~
+~
+0 0 7217
+S
+#7215
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.  You
+see a tent to the east and a tent to the west.
+~
+0 0 2
+D0
+~
+~
+0 0 7207
+D1
+~
+tent~
+1 0 7225
+D2
+~
+~
+0 0 7218
+D3
+~
+tent~
+1 0 7224
+S
+#7216
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+There is a tent to the west.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7210
+D2
+~
+~
+0 0 7219
+D3
+~
+tent~
+1 0 7226
+S
+#7217
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7214
+D2
+~
+~
+0 0 7220
+S
+#7218
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7215
+D2
+~
+~
+0 0 7221
+S
+#7219
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7216
+D2
+~
+~
+0 0 7222
+S
+#7220
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+There is a tent to the west.
+~
+0 0 2
+D0
+~
+~
+0 0 7217
+D3
+~
+tent~
+1 0 7227
+S
+#7221
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7218
+D2
+~
+~
+0 0 7230
+S
+#7222
+A Matted Down Road~
+You walk along this matted road very quietly as to be sure to hear the
+footsteps of any possible enemy.  The tents are finely crafted and are
+scattered all around.  You feel nervous something bad lurks around here.
+There is a tent to the east.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 7219
+D1
+~
+tent~
+1 0 7228
+S
+#7223
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D3
+~
+tent~
+1 0 7214
+S
+#7224
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D1
+~
+tent~
+1 0 7215
+S
+#7225
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D3
+~
+tent~
+1 0 7215
+S
+#7226
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D1
+~
+tent~
+1 0 7216
+S
+#7227
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D1
+~
+tent~
+1 0 7220
+S
+#7228
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D3
+~
+tent~
+1 0 7222
+S
+#7229
+Inside A Tent~
+You nearly trip over your own feet as you enter this tent.  It is cluttered
+with hunting gear, all though crude it proves to be effective.  A row of clubs
+ranging in size lines the inside.
+~
+0 0 0
+D2
+~
+tent~
+1 0 7208
+S
+#7230
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7221
+D2
+~
+~
+0 0 7231
+S
+#7231
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+~
+~
+0 0 7230
+D1
+~
+~
+0 0 7232
+D3
+~
+~
+0 0 7233
+S
+#7232
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+~
+~
+0 0 7234
+D3
+~
+~
+0 0 7231
+S
+#7233
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+Exit description~
+~
+0 0 7231
+D3
+~
+~
+0 0 7235
+S
+#7234
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D2
+~
+~
+0 0 7236
+D3
+Exit description~
+~
+0 0 7232
+S
+#7235
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+Exit description~
+~
+0 0 7233
+D2
+~
+~
+0 0 7237
+D3
+~
+~
+0 0 7237
+S
+#7236
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7234
+D1
+~
+~
+0 0 7238
+S
+#7237
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7235
+D1
+Exit description~
+~
+0 0 7235
+D2
+~
+~
+0 0 7239
+S
+#7238
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D2
+~
+~
+0 0 7240
+D3
+Exit description~
+~
+0 0 7236
+S
+#7239
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7237
+D1
+~
+~
+0 0 7241
+D2
+~
+~
+0 0 7242
+S
+#7240
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7238
+D2
+~
+~
+0 0 7244
+D3
+~
+~
+0 0 7243
+S
+#7241
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+~
+~
+0 0 7245
+D3
+Exit description~
+~
+0 0 7239
+S
+#7242
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7239
+S
+#7243
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+Exit description~
+~
+0 0 7240
+D3
+~
+~
+0 0 7246
+S
+#7244
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7240
+S
+#7245
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D2
+~
+~
+0 0 7247
+D3
+Exit description~
+~
+0 0 7241
+S
+#7246
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D1
+Exit description~
+~
+0 0 7243
+D2
+~
+~
+0 0 7249
+S
+#7247
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7245
+D2
+~
+~
+0 0 7248
+S
+#7248
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7247
+D1
+Exit description~
+~
+0 0 7249
+S
+#7249
+Wandering Through The Shrubbery~
+You make your way through the shrubbery very carefully.  You are afraid of
+something jumping out at you because you can't see too far in front of your
+face.  As you continue on your way you begin to get the feeling you are
+getting lost...
+~
+0 2105344 3
+D0
+Exit description~
+~
+0 0 7246
+D2
+~
+~
+0 0 7250
+D3
+~
+~
+0 0 7248
+S
+#7250
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7249
+D2
+~
+~
+0 0 7251
+S
+#7251
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7250
+D2
+~
+~
+0 0 7252
+S
+#7252
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7251
+D2
+~
+~
+0 0 7253
+S
+#7253
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7252
+D2
+~
+~
+0 0 7254
+S
+#7254
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 7253
+D2
+~
+~
+0 0 7255
+S
+#7255
+On An Old And Dusty Brick Road~
+You wander along this brick road happy to have survived the forest.  The path
+ahead is uncertain, you can take your chances or you can try to fight your way
+back through the forest.
+~
+0 0 1
+D0
+~
+~
+0 0 7254
+D2
+~
+~
+0 0 7256
+S
+#7256
+On A Large Staircase~
+You slowly make your way up the stairs to a huge tower, it rises high into the
+sky, before the keep you see a large gate, and after the gate you see a large
+iron door.  The sky above glows with a golden brilliance.
+~
+0 0 1
+D0
+~
+~
+0 0 7255
+D2
+~
+~
+0 0 12054
+S
+#0
+
+
+#RESETS
+M 0 7203 13 7201
+M 0 7203 13 7202
+M 0 7203 13 7204
+M 0 7201 8 7207
+E 1 7222 2 25
+E 1 7210 1 1
+E 1 7205 3 9
+E 1 7201 4 21
+M 0 7201 8 7209
+E 1 7222 2 25
+E 1 7211 3 7
+E 1 7208 3 11
+E 1 7202 2 21
+M 0 7201 8 7211
+E 1 7207 1 11
+E 1 7213 1 15
+E 1 7212 1 7
+E 1 7206 2 9
+E 1 7202 2 21
+M 0 7201 8 7213
+E 1 7215 1 17
+E 1 7214 2 8
+E 1 7208 3 11
+M 0 7201 8 7215
+E 1 7220 1 5
+E 1 7205 3 9
+E 1 7201 4 21
+M 0 7201 8 7217
+E 1 7227 2 5
+E 1 7224 1 23
+E 1 7216 2 16
+E 1 7221 1 6
+M 0 7201 8 7219
+E 1 7223 1 23
+E 1 7208 3 11
+E 1 7203 1 21
+E 1 7228 1 1
+M 0 7201 8 7221
+E 1 7218 1 20
+E 1 7211 3 7
+E 1 7206 2 9
+E 1 7201 4 21
+E 1 7219 2 23
+M 0 7202 4 7223
+E 1 7226 1 9
+E 1 7204 4 21
+M 0 7202 4 7225
+E 1 7217 1 16
+E 1 7219 2 23
+E 1 7211 3 7
+E 1 7204 4 21
+M 0 7202 4 7227
+E 1 7214 2 8
+E 1 7225 1 9
+E 1 7204 4 21
+M 0 7202 4 7229
+E 1 7227 2 5
+E 1 7216 2 16
+E 1 7204 4 21
+E 1 7209 1 1
+M 0 7204 10 7231
+M 0 7204 10 7233
+M 0 7204 10 7235
+M 0 7204 10 7237
+M 0 7204 10 7239
+M 0 7204 10 7241
+M 0 7204 10 7243
+M 0 7204 10 7245
+M 0 7204 10 7247
+M 0 7204 10 7249
+M 0 7203 13 7231
+M 0 7203 13 7233
+M 0 7203 13 7235
+M 0 7203 13 7236
+M 0 7203 13 7238
+M 0 7203 13 7240
+M 0 7203 13 7242
+M 0 7203 13 7244
+M 0 7203 13 7246
+M 0 7203 13 7248
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7201 spec_racist
+M  7202 spec_racist
+S
+
+
+#$

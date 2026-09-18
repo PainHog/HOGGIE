@@ -1,0 +1,3900 @@
+#AREA   Temple Of The Ancients~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG A low whisper fills the area, lamenting the dead.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 903364758
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9951
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 1154 2105352 1024 0 368 524294
+#9952
+Quiet Monk~
+a quiet monk~
+This monk is still and silent in concentration.
+~
+This monk is meditating, their thin body balancing a large stone on their
+head. Dressed in rags, the monk seems to be oblivious to your presence.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 49 1056768 0 0 1008 4
+#9953
+Guardian Monk~
+a guardian monk~
+This large monk is guarding something.
+~
+This monk is HUGE! He is obviously not human, Hi skin is a faded purple and
+his eyes a sharp yellow. He looks you up and down and makes no indication he
+is going to move out of your way.
+~
+67 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 50 1056768 0 0 944 2621440
+#9954
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 84 2105352 1024 0 368 524294
+#9955
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 50 2105352 1024 0 368 524294
+#9956
+Quiet Monk~
+a quiet monk~
+This monk is still and silent in concentration.
+~
+This monk is meditating, their thin body balancing a large stone on their
+head. Dressed in rags, the monk seems to be oblivious to your presence.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 386 1056768 0 0 1008 4
+#9957
+Quiet Monk~
+a quiet monk~
+This monk is still and silent in concentration.
+~
+This monk is meditating, their thin body balancing a large stone on their
+head. Dressed in rags, the monk seems to be oblivious to your presence.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 112 1056768 0 0 1008 4
+#9958
+Guardian Monk~
+a guardian monk~
+This large monk is guarding something.
+~
+This monk is HUGE! He is obviously not human, Hi skin is a faded purple and
+his eyes a sharp yellow. He looks you up and down and makes no indication he
+is going to move out of your way.
+~
+67 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 514 1056768 0 0 944 2621440
+#9959
+Guardian Monk~
+a guardian monk~
+This large monk is guarding something.
+~
+This monk is HUGE! He is obviously not human, Hi skin is a faded purple and
+his eyes a sharp yellow. He looks you up and down and makes no indication he
+is going to move out of your way.
+~
+67 0 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 290 1056768 0 0 944 2621440
+#9960
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 388 2105352 1024 0 368 524294
+#9961
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 262152 0 0 0 3 3
+#9962
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 262168 0 0 0 3 3
+#9963
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 263176 0 0 0 3 3
+#9964
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 263177 0 0 0 3 3
+#9965
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653224 0 0 0 1 2
+#9966
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653224 0 0 0 1 2
+#9967
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653224 0 0 0 1 2
+#9968
+Raptor Bird ~
+a raptor~
+A beautiful bird of prey is flying here.
+~
+This raptor is scanning the ground for a tasty hare or a wounded lynx. It's
+claws look particularly sharp and it's eyes are bright with intelligence. It's
+faded wings seem to be as long as your arms.
+~
+65 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 128 128 0
+0 0 0 0 0 0 515 2
+#9969
+Raptor Bird ~
+a raptor~
+A beautiful bird of prey is flying here.
+~
+This raptor is scanning the ground for a tasty hare or a wounded lynx. It's
+claws look particularly sharp and it's eyes are bright with intelligence. It's
+faded wings seem to be as long as your arms.
+~
+65 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 6 0 0 128 128 0
+0 0 0 0 0 0 515 2
+#9970
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256 -1000 C
+55 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+#9971
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256 -1000 C
+55 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+#9972
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256 -1000 C
+55 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+#9973
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256 -1000 C
+60 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+> death_prog 20~
+roar
+
+~
+|
+#9974
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+#9975
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+#9976
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+#9977
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+> death_prog 20~
+scream
+
+~
+|
+#9978
+Ancient Ogre~
+an Ancient ogre~
+You recoil in horror as an Ancient ogre attacks!
+~
+This creature is truly fearsome! At least twelve feet tall and almost as
+broad, it looks like it could tear a whale apart piece by piece. It's skin is
+heavily tattooed and it's tusks are chipped and cracked. What could have
+possibly defeated an army of these?
+~
+4194401 1077936256&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 1046 8304 2099200 0 209 259
+> death_prog 20~
+grunt
+
+~
+|
+#9979
+Ancient Ogre~
+an Ancient ogre~
+You recoil in horror as an Ancient ogre attacks!
+~
+This creature is truly fearsome! At least twelve feet tall and almost as
+broad, it looks like it could tear a whale apart piece by piece. It's skin is
+heavily tattooed and it's tusks are chipped and cracked. What could have
+possibly defeated an army of these?
+~
+4194401 1077936256&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 1046 8304 2099200 0 209 259
+> death_prog 20~
+growl
+
+~
+|
+#9980
+Ancient Ogre~
+an Ancient ogre~
+You recoil in horror as an Ancient ogre attacks!
+~
+This creature is truly fearsome! At least twelve feet tall and almost as
+broad, it looks like it could tear a whale apart piece by piece. It's skin is
+heavily tattooed and it's tusks are chipped and cracked. What could have
+possibly defeated an army of these?
+~
+4194401 1077936256&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 1046 8304 2099200 0 209 259
+> death_prog 20~
+say Synot will teach you to mess with the Ancients!
+
+~
+|
+#9981
+Ancient Troll~
+an Ancient troll~
+This Ancient troll grins evilly and attacks!
+~
+This sly creature brandishes an odd weapon and smiles with a mouth full of
+knives. Its thick skin and long limbs move with a disconcerting grace as it
+attacks. It looks as if it lost several limbs on numerous occasions yet it
+shows no sign of weakness or pain.
+~
+4194401 4194432&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 1122 8304 2099200 0 993 259
+#9982
+Ancient Troll~
+an Ancient troll~
+This Ancient troll grins evilly and attacks!
+~
+This sly creature brandishes an odd weapon and smiles with a mouth full of
+knives. Its thick skin and long limbs move with a disconcerting grace as it
+attacks. It looks as if it lost several limbs on numerous occasions yet it
+shows no sign of weakness or pain.
+~
+4194401 4194432&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 1122 8304 2099200 0 993 259
+#9983
+Ancient Troll~
+an Ancient troll~
+This Ancient troll grins evilly and attacks!
+~
+This sly creature brandishes an odd weapon and smiles with a mouth full of
+knives. Its thick skin and long limbs move with a disconcerting grace as it
+attacks. It looks as if it lost several limbs on numerous occasions yet it
+shows no sign of weakness or pain.
+~
+4194401 4194432&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 1122 8304 2099200 0 993 259
+> death_prog 20~
+emote looks as if its beginning the process of healing, even this soon after death!
+~
+|
+#9984
+Ancient Ghoul~
+an Ancient ghoul~
+An incredibly powerful ghoul is constantly screaming.
+~
+This ghoul is massive and simply radiates power. It carries many scars from a
+battle that must have shaken the very earth. It watches you closely and seems
+to applaud the fact you have survived so long. It is screaming in rage at the
+memories of it's defeat flood it's mind.
+~
+4194401 306184320&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 278 3156080 2100224 0 1646281040 524551
+> death_prog 20~
+say I go to join the Elder Gods!
+~
+|
+#9985
+Ancient Ghoul~
+an Ancient ghoul~
+An incredibly powerful ghoul watches you.
+~
+This ghoul is massive and simply radiates power. It carries many scars from a
+battle that must have shaken the very earth. It watches you closely and seems
+to applaud the fact you have survived so long. It does not seem interested in
+hurting you, perhaps it is still weary from whatever battle trapped it here.
+~
+4194401 306184320&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 278 3156080 2100224 0 1646281040 524551
+> death_prog 20~
+snarl
+
+~
+|
+#9986
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 2105352 1024 0 368 524294
+#9987
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653216 0 0 0 1 2
+#9988
+Quiet Monk~
+a quiet monk~
+This monk is still and silent in concentration.
+~
+This monk is meditating, their thin body balancing a large stone on their
+head. Dressed in rags, the monk seems to be oblivious to your presence.
+~
+16777281 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 1056768 0 0 1008 4
+#9989
+Portal Guardian Keeper Monster creature~
+the Portal Keeper~
+An immense creature with a lion's head watches you.
+~
+This creature is watching you but you notice it has no eyes and no mouth! Yet
+the claws it carries seem sharp enough. It's head is that of a Lion without
+any features, it's body that of a lizard and it's tail is made out of living
+snakes. Each one watches you with hungry eyes.
+~
+32835 373293184&64 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 12 0 0 65536 65536 0
+0 0 263178 2097264 3072 0 67272913 2097155
+#9990
+Luz Penumbra Swordsman~
+Luz de Penumbra~
+A strange looking swordsman reclines against the wall.
+~
+This man, if it is man, is dressed in a tattered black cape and tarnished but
+beautiful ebony armor. He carries a huge Nohdachi but seems to care less about
+you. He finally looks up, his eyes a blazing yellow and his face heavily
+scarred. "Nothing can kill me, not the Elders, not the new Gods, nothing.  You
+want to try?"
+~
+4194403 373293184&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65536 65536 0
+0 0 1066 3154685 2099200 0 69282784 2097411
+#9991
+Synot Lodhal Ancient~
+Synot Lodhal~
+This Ancient rests on a makeshift throne of bone.
+~
+This must be the creature known as Synot Lodhal. It is bathed in an aura of
+fire and seems quite impressed by the fact you stand before it. It is dressed
+in a liquid suit of armor that seems to harden into crystal at will.  The
+creature is missing two of its five eyes, and it's one arm out of four. It
+smirks as if it can hear your thoughts.
+~
+4194371 371196032&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 65536 65536 0
+0 0 787482 3155967 2100480 0 1176670896 2623239
+#9992
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 2105352 1024 0 368 524294
+#9993
+Quiet Monk Eating~
+a quiet monk~
+This monk is quietly eating her dinner.
+~
+This monk is silent as she eats.  She dips a piece of bread into her soup but
+her eyes never leave the candle on the table.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 1056768 0 0 1008 4
+#9994
+Quiet Eating Monk~
+a quiet monk~
+This monk is quietly eating his meal.
+~
+This monk makes no noise as he eats. He stares at the candle on the table as
+he slowly places a thin soup of rice and carrots into his mouth.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 1056768 0 0 1008 4
+#9995
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653216 0 0 0 1 2
+#9996
+Large Hare Rabbit~
+a large hare~
+A large hare hops along playfully.
+~
+This hare is HUGE. It is the size of a normal dog and it's legs look strong
+enough to break bone. It seems cute and friendly enough but it is constantly
+vigilante for a large raptor or hungry Lynx.
+~
+65 32768 0 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 402653216 0 0 0 1 2
+#9997
+Raptor Bird ~
+a raptor~
+A beautiful bird of prey is flying here.
+~
+This raptor is scanning the ground for a tasty hare or a wounded lynx. It's
+claws look particularly sharp and it's eyes are bright with intelligence. It's
+faded wings seem to be as long as your arms.
+~
+65 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 128 128 0
+0 0 0 0 0 0 515 2
+#9998
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 8 0 0 0 3 3
+#9999
+Raptor Bird ~
+a raptor~
+A beautiful bird of prey is flying here.
+~
+This raptor is scanning the ground for a tasty hare or a wounded lynx. It's
+claws look particularly sharp and it's eyes are bright with intelligence. It's
+faded wings seem to be as long as your arms.
+~
+65 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 128 128 0
+0 0 0 0 0 0 515 2
+#10000
+Lynx Cat Wild wildcat~
+a wild lynx~
+A wildcat is stalking some prey here.
+~
+This small cat like creature is low to the ground and scanning the  area for a
+hare or unlucky bird. Its color is that of creme and milk with yellow eyes and
+black stripes on its face. Although it is small, this lynx looks like it could
+do some damage.
+~
+16777281 106496 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 128 128 0
+0 0 8 0 0 0 3 3
+#10001
+Ghostly Monk~
+a ghostly monk~
+A strange monk is tending to the temple.
+~
+This monk is ghostly pale, fingers thin and face sunken. Yet they move with a
+subtle strength and you wonder if it would be that wise to bother them.
+~
+16777281 4194304 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 2105352 1024 0 368 524294
+#10002
+Quiet Monk~
+a quiet monk~
+This monk is still and silent in concentration.
+~
+This monk is meditating, their thin body balancing a large stone on their
+head. Dressed in rags, the monk seems to be oblivious to your presence.
+~
+16777283 0 0 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 0 1056768 0 0 1008 4
+#10003
+Meditate Monk Silent~
+a meditating monk~
+A monk sits here in meditation.
+~
+This monk has focused their energies inward, drawing from the cosmos the
+answers to life's riddles as well as training their bodies to react in tune
+with every whim of the body.
+~
+16777283 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 1298 0 0 0 736 2
+#10004
+Meditate Monk Silent~
+a meditating monk~
+A monk sits here in meditation.
+~
+This monk has focused their energies inward, drawing from the cosmos the
+answers to life's riddles as well as training their bodies to react in tune
+with every whim of the body.
+~
+16777283 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 1298 0 0 0 736 0
+#10005
+Meditate Monk Silent~
+a meditating monk~
+A monk sits here in meditation.
+~
+This monk has focused their energies inward, drawing from the cosmos the
+answers to life's riddles as well as training their bodies to react in tune
+with every whim of the body.
+~
+16777283 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 1298 0 0 0 736 0
+#10006
+Meditate Monk Silent~
+a meditating monk~
+A monk sits here in meditation.
+~
+This monk has focused their energies inward, drawing from the cosmos the
+answers to life's riddles as well as training their bodies to react in tune
+with every whim of the body.
+~
+16777283 4194304 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65536 65536 0
+0 0 1298 0 0 0 736 0
+#10007
+Sensei Master creature~
+the Sensei~
+This old creature is almost passable for human.
+~
+This man seems to be the oldest of all the monks. He is writing on some
+scrolls and seems to be busy trying to figure something out. His face is
+slanted slightly and his skin is a light shade of gray.  He is definitely not
+human but with a hood and cloak, you imagine he could pass. Perhaps he travels
+outside of the temple to collect more knowledge.
+~
+1048643 71303296&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 65537 327681 0
+0 0 171 3153920 0 0 604021152 263
+> death_prog 15~
+say Death is just the beginning of a new adventure...
+nodnod
+
+~
+|
+#10008
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256&256 -1000 C
+55 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+#10009
+Lizard Ancient Lizardman~
+a lizardman Ancient~
+A lizardman Ancient bellows a battle cry and charges!
+~
+This lizard like creature is adorned in armor that you have never seen. It
+stands at least 8 feet tall and must weight 300kgs. He screams as it sees you
+and charges. Whatever defeated these creatures must have been quite powerful.
+~
+4194401 1077936256&256 -1000 C
+55 0 0 1942d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 67586 96 0 0 423 2097411
+> death_prog 10~
+groan
+
+~
+|
+#10010
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256&256 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+#10011
+Ancient Human~
+a human-like Ancient~
+A strange looking human sees you and leaps at your throat!
+~
+This Ancient would pass for human if not for the sickly purple color of their
+skin and the glowing red eyes. Tall for a human and well muscled, it looks as
+if this Ancient has dedicated their life to battle. The scars it carries seem
+impossible to have survived.
+~
+4194401 1077936256&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 35 0 0 0 688 259
+> death_prog 15~
+say The Ancient Master will claim your soul!
+
+~
+|
+#10012
+Ancient Ghoul~
+an Ancient ghoul~
+An incredibly powerful ghoul is constantly screaming.
+~
+This ghoul is massive and simply radiates power. It carries many scars from a
+battle that must have shaken the very earth. It watches you closely and seems
+to applaud the fact you have survived so long. It is screaming in rage at the
+memories of it's defeat flood it's mind.
+~
+4194401 306184320&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 278 3156080 2100224 0 1646281040 524551
+#10013
+Ancient Ogre~
+an Ancient ogre~
+You recoil in horror as an Ancient ogre attacks!
+~
+This creature is truly fearsome! At least twelve feet tall and almost as
+broad, it looks like it could tear a whale apart piece by piece. It's skin is
+heavily tattooed and it's tusks are chipped and cracked. What could have
+possibly defeated an army of these?
+~
+4194401 1077936256&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 65536 65536 0
+0 0 1046 8304 2099200 0 209 259
+#10014
+Ancient Troll~
+an Ancient troll~
+This Ancient troll grins evilly and attacks!
+~
+This sly creature brandishes an odd weapon and smiles with a mouth full of
+knives. Its thick skin and long limbs move with a disconcerting grace as it
+attacks. It looks as if it lost several limbs on numerous occasions yet it
+shows no sign of weakness or pain.
+~
+4194401 4194432&256 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 6 0 0 65536 65536 0
+0 0 1122 8304 2099200 0 993 259
+> death_prog 15~
+growl
+
+~
+|
+#10015
+Ancient Wurm Monster serpent~
+An Ancient wurm~
+This monstrous serpent hisses and strikes!
+~
+This creature is truly horrifying. It's fangs drip acid and it's body is
+covered in a thick hide that looks stronger than steel. It seems to have an
+ancient saddle, apparently these were the mounts of the ancients. How could
+anything in this world or the next stop a calvary charge of these?
+~
+4456545 37748864&320 -1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 65536 65536 0
+0 0 8653832 3157105 2100352 0 1073758661 327
+#10016
+Ancient Wurm Monster serpent~
+An Ancient wurm~
+This monstrous serpent hisses and strikes!
+~
+This creature is truly horrifying. It's fangs drip acid and it's body is
+covered in a thick hide that looks stronger than steel. It seems to have an
+ancient saddle, apparently these were the mounts of the ancients. How could
+anything in this world or the next stop a calvary charge of these?
+~
+4456545 37748864&320 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 65536 65536 0
+0 0 8653832 3157105 2100352 0 1073758661 327
+> death_prog 20~
+roar
+
+~
+|
+#10100
+Dont Change (:~
+Dont Change (:~
+Dont Change (:
+~
+Dont Change (:
+~
+1 71303296&64 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 5 0 0 65537 327681 0
+0 0 163 1056768 0 0 604021152 263
+#0
+
+
+#OBJECTS
+#9951
+Sword Breaker ~
+a sword-breaker~
+An odd blunt and grooved sword lies here.
+
+~
+~
+5 0 131073
+12 3 3 8
+5 0 0
+A
+53 15
+A
+46 15
+#9952
+Prayer Beads ~
+A set of prayer beads~
+Some delicate beads rest here.
+
+~
+~
+8 64 1048577
+0 0 0 0
+1 0 0
+A
+4 3
+A
+3 3
+#9953
+Vash Theory Magic~
+Vash's Theory of Magik~
+A printed scroll with a large V rests here.
+
+~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+Vash Theory Magic~
+This scroll seems to detail Vash's theory of Magical Shielding.
+ It states that a magical shield can be held for eternity if
+those that are bound by the magic actively work to
+destroy it. It is in this that the magical shielding would have
+an eternal power source, even if the creatures that were
+contained stopped trying to break the seal, any attempt
+would power it for eons.
+~
+#9954
+Vilutu History Elder~
+Vilutu's account of the Elder Gods~
+A tattered scroll lies on the floor.
+
+~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+Vilutu Scroll Elder~
+This scroll has a first hand account of the Elder Gods as they
+rampaged through the realm before Drazuk's victory.
+
+ "I don't know how long our defenses will hold. The creatures are
+too many, too ravenous, and some say too powerful to
+ever be stopped. The ones that fly yet take the shape of sea
+life often act as a distracting force. These creatures are fast
+and unyielding.  The others then proceed to move behind them
+after our defenses are to entangled to keep them at bay.  The lizardmen
+city to the west has already fallen, they were our strongest ally. The humans
+quake in fear behind their stone buildings.  The dwarves have locked
+themselves in the mountain. The elves magic is not strong enough to
+seal away their Leader, this Sultan. He decimates our armies as if
+his creatures were not enough. No where is safe. Our hero's are failing,
+and our Martyr's memories are fading.  Where these creatures came
+from I do not know but only through a great victory of cunning will
+we be able to survive."
+~
+#9955
+Bladed Khaltar~
+a khaltar~
+An odd claw like weapon rests here.
+
+~
+~
+5 0 131073
+12 2 3 5
+5 0 0
+#9956
+Ragged Gi ~
+a ragged gi~
+A pile of torn cloth rests here.
+
+~
+~
+9 0 2049
+2 2 0 0
+2 0 0
+A
+2 2
+A
+5 2
+A
+19 1
+A
+40 5
+#9957
+Thin Robe Cloth~
+a thin cloth robe~
+A delicate robe lays here.
+
+~
+~
+9 0 2049
+3 3 0 0
+2 100 0
+#9958
+Thin Robe Cloth~
+a thin cloth robe~
+A delicate robe lays here.
+
+~
+~
+9 0 2049
+3 3 0 0
+2 100 0
+#9959
+Thin Robe Cloth~
+a thin cloth robe~
+A delicate robe lays here.
+
+~
+~
+9 0 2049
+3 3 0 0
+2 100 0
+#9960
+Thin Robe Cloth~
+a thin cloth robe~
+A delicate robe lays here.
+
+~
+~
+9 0 2049
+3 3 0 0
+2 100 0
+#9961
+Thick Ebony Key~
+a thick ebony key~
+A large wooden key rests here.~
+~
+18 0 1048577
+0 0 0 0
+5 0 0
+#9962
+Orb Dispel Magik~
+an orb of Dispel Magik~
+This glowing orb seems to hold great power.
+
+~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+#9963
+Warrior Pride~
+A Warrior's Pride~
+This physical representation of pride is rare indeed.~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+Warrior Pride~
+This odd magical representation of the Pride that Luz de Penumbra held
+ pulsates with his memories.  You look as the events of his life
+ are replayed.  You see the war with the Elder Gods, Penumbra's
+envy of Synot, the leader of his people, and their final defeat.
+You see a wounded Synot call out to his brother and watch with
+disgust as Penumbra seals Synot into a dark prison.  With some
+amount of satisfaction you see Penumbra thrown into this
+prison with the other Ancients.
+~
+#9964
+Death Tear Synot~
+Synot's Tear in Death~
+This magical eruption of power could be your way out!
+
+~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+Tear Death Synot~
+This magical rupture of time and space seems to be Synot's
+gift to you.  He is not only trapped behind these barriers
+but removed from even a quiet death.  But even a creature
+such as him cannot be removed of all power and he has
+graciously provided you a way out.
+~
+#9965
+Crystal Nohdachi Sword~
+(&CTransparent&G) a crystal noh-dachi~
+This beautiful long sword looks as sharp as it is radiant.
+
+~
+~
+5 0&16 131073
+12 13 2 3
+12 0 0
+A
+18 4
+A
+19 4
+#9966
+Crystal Backspike~
+a plate of crystal backspikes~
+A fearsome looking backguard rests here.
+
+~
+~
+9 0 4097
+7 7 0 0
+8 0 0
+A
+18 3
+A
+19 3
+#9967
+Spiked Leg Guard~
+a set of spiked leg guards~
+Some fearsome looking leg armor lays here.
+
+~
+~
+9 0 16385
+7 7 0 0
+9 0 0
+A
+2 -2
+A
+19 4
+#9968
+Boots Bladed  Battle~
+a pair of bladed battle-boots~
+Some talon shaped boots lay here.
+
+~
+~
+9 0 65537
+5 5 0 0
+2 0 0
+A
+18 3
+A
+19 3
+#9969
+Crystal Katana~
+a crystal bladed katana~
+A sword made of an odd rock is here.~
+~
+5 0 131073
+12 3 5 3
+5 0 0
+A
+24 -3
+#9970
+Crystal Katana~
+a crystal bladed katana~
+A sword made of an odd rock is here.~
+~
+5 0 131073
+12 5 3 3
+5 0 0
+A
+24 -4
+#9972
+Sash Silk Shadow~
+a shadow-silk sash~
+This sash seems to be made out of dust and shadow.
+
+~
+~
+9 0 8193
+5 5 0 0
+1 0 0
+A
+13 25
+A
+48 5
+A
+18 4
+#9973
+Visor Shadow~
+the Visor of Shadow~
+This cloth seems to be made of air.
+
+~
+~
+9 0 5
+3 3 0 0
+1 0 0
+A
+27 4
+A
+18 4
+A
+19 4
+#9974
+Mask Fallen~
+the Mask of the Fallen~
+This horrifying masks seems to scream constantly.~
+~
+9 0 17
+4 4 0 0
+4 0 0
+A
+13 35
+A
+25 -3
+A
+18 4
+A
+19 4
+#9975
+Divinity Blaze~
+(&zFading&G) Blazing Divinity~
+This awesome aura denotes a fallen God.
+
+~
+~
+1 65 1
+0 0 -1 0
+5 0 0
+A
+4 4
+A
+3 4
+A
+24 -4
+A
+23 -4
+A
+12 50
+A
+13 50
+#9976
+Tome History Ancient~
+the Tome of the Ancients~
+This huge tome seems to be filled to the brim.
+
+~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+Tome History Ancient~
+The writing on the tome is in a bizarre language of
+symbols and glyphs. Yet as you scan the pages
+you notice a few begin to twist and turn into
+your own native tongue!
+
+"We are lost.  The great beasts found our sanctuary, it has been
+obliterated. All we have left is this simple school. Our great lord
+Synot has formed a protective barrier to hide us from
+the eyes of these Daemons.  The Abbott died early this
+night, his last moments were spent screaming.  His link
+to Synot was broken and this can mean only one thing:
+Synot has failed.  The other Ancients, our protectors
+and teachers have been wiped out.  Most of our kind
+has also perished with them, the psychic links that
+allowed us to communicate have been broken
+destroying the body and mind of both sides. The Sensei
+left must mean that some have survived, and he believes
+they are locked away in some dark place. He will later attempt
+to open a vortex to their prison and allow them safe passage
+back to our most humble home. I pray that Synot is merely
+sleeping, much like the great beast that he buried into the sea.
+Death cannot be strong enough to take our Lord Lodhal.
+We shall wait here, and tend to their last mark on this realm
+and hope that one day they awaken.
+~
+#9977
+Wooden Weapon Rack~
+a wooden weapon rack~
+A wooden rack of weapons leans against the wall.~
+~
+15 0 0
+100 0 0 0
+1000 0 0
+#9978
+Wooden Weapon Rack~
+a wooden weapon rack~
+A wooden rack of weapons leans against the wall.~
+~
+15 0 0
+0 0 0 0
+1000 0 0
+#9979
+Bladed Arms Ancient Fore~
+a bladed fore-arm guard~
+This fore-arm guard has two large blades along its side.~
+~
+5 0 131073
+12 3 3 5
+5 0 0
+A
+18 4
+A
+19 4
+A
+30 501
+#10100
+Dont Change (:~
+Dont Change (:~
+Dont Change (:~
+~
+5 64 393217
+12 3 6 5
+5 0 0
+#0
+
+
+#ROOMS
+#9951
+Entering The Mist~
+The water of the open sea continues to rock back and forth. Yet
+to the south you can see what appears to be a huge fogbank.
+You wonder if it would be safe to venture in, the mist seems
+to be thick and ominous.
+~
+0 0 6
+D0
+Exit description~
+~
+0 0 3078
+D2
+~
+~
+0 0 9952
+S
+#9952
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9951
+D2
+~
+~
+0 0 9953
+D3
+~
+~
+0 0 9955
+S
+#9953
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9952
+D2
+~
+~
+0 0 9954
+D3
+~
+~
+0 0 9962
+S
+#9954
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.  You swear you can hear a whisper
+in your ear.
+~
+0 1 6
+D0
+~
+~
+0 0 9953
+D3
+~
+~
+0 0 9963
+S
+#9955
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D1
+~
+~
+0 0 9952
+D2
+~
+~
+0 0 9962
+D3
+~
+~
+0 0 9956
+S
+#9956
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D1
+~
+~
+0 0 9955
+D2
+~
+~
+0 0 9961
+D3
+~
+~
+0 0 9957
+S
+#9957
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D1
+~
+~
+0 0 9956
+D2
+~
+~
+0 0 9960
+D3
+~
+~
+0 0 9958
+S
+#9958
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D1
+~
+~
+0 0 9957
+D2
+~
+~
+0 0 9959
+S
+#9959
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9958
+D1
+~
+~
+0 0 9960
+S
+#9960
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D1
+~
+~
+0 0 9961
+D2
+~
+~
+0 0 9965
+D3
+~
+~
+0 0 9959
+S
+#9961
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9956
+D1
+~
+~
+0 0 9962
+D2
+~
+~
+0 0 9964
+D3
+~
+~
+0 0 9960
+S
+#9962
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9955
+D1
+~
+~
+0 0 9953
+D2
+~
+~
+0 0 9963
+D3
+~
+~
+0 0 9961
+S
+#9963
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. You hope you
+don't run into a large rock or coastal reef.
+~
+0 1 6
+D0
+~
+~
+0 0 9962
+D1
+~
+~
+0 0 9954
+D3
+~
+~
+0 0 9964
+S
+#9964
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water. To the south you
+can see the mist is beginning to thin out.
+~
+0 1 6
+D0
+~
+~
+0 0 9961
+D1
+~
+~
+0 0 9963
+D2
+~
+~
+0 0 9966
+D3
+~
+~
+0 0 9965
+S
+#9965
+Wandering In The Mist~
+The mist is thick and heavy, even breathing is beginning to become difficult.
+The only light you can see is from your own and the water seems to be black as
+ebony.  You can see pieces of wreckage floating in the water.  You begin to
+wonder if you will ever find your way out of here.
+~
+0 1 6
+D0
+~
+~
+0 0 9960
+D1
+~
+~
+0 0 9964
+S
+#9966
+Approaching A Black Sand Beach~
+The mist begins to yield as you can barely make out the shape of land dead
+south of you! The beach looks covered in some kind of substance that resembles
+tar or liquid darkness.  You see the skeletons of a few wrecked ships dotting
+the otherwise clear shoreline.
+~
+0 1 6
+D0
+~
+~
+0 0 9964
+D2
+~
+~
+0 0 9967
+S
+#9967
+Approaching A Black Sand Beach~
+The mist begins to yield as you can barely make out the shape of land dead
+south of you! The beach looks covered in some kind of substance that resembles
+tar or liquid darkness.  You see the skeletons of a few wrecked ships dotting
+the otherwise clear shoreline.
+~
+0 5 6
+D0
+~
+~
+0 0 9966
+D2
+~
+~
+16777216 0 9968
+S
+#9968
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D0
+~
+~
+16777216 0 9967
+D1
+~
+~
+0 0 9969
+D2
+~
+~
+0 0 9973
+D3
+~
+~
+0 0 9971
+S
+#9969
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D1
+~
+~
+0 0 9970
+D2
+~
+~
+0 0 9974
+D3
+~
+~
+0 0 9968
+S
+#9970
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand
+is warm and shimmers like a blanket of night.  In the distance you can see
+some sort of hills to the south.  The various pieces of wreckage begin to thin
+as you continue away from the water.
+~
+0 0 10
+D2
+~
+~
+0 0 9975
+D3
+~
+~
+0 0 9969
+S
+#9971
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D1
+~
+~
+0 0 9968
+D2
+~
+~
+0 0 9972
+S
+#9972
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D0
+~
+~
+0 0 9971
+D1
+~
+~
+0 0 9973
+S
+#9973
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D0
+~
+~
+0 0 9968
+D1
+~
+~
+0 0 9974
+D3
+~
+~
+0 0 9972
+S
+#9974
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D0
+~
+~
+0 0 9969
+D1
+~
+~
+0 0 9975
+D2
+~
+~
+0 0 9976
+D3
+~
+~
+0 0 9973
+S
+#9975
+Wandering A Black Sand Beach~
+The sun is muted from the halo of mist surrounding the beach.  The sand is
+warm and shimmers like a blanket of night.  In the distance you can see some
+sort of hills to the south.  The various pieces of wreckage begin to thin as
+you continue away from the water.
+~
+0 0 10
+D0
+~
+~
+0 0 9970
+D3
+~
+~
+0 0 9974
+S
+#9976
+The Edge Of The Foothills~
+The nightsky beach to the north fades from view, the ocean now hidden beyond
+the horizon.  The moss covered path seems to have not been used in centuries,
+only a faint marking of carved stone underneath gives the impression that
+someone once made this area their home.
+~
+0 0 4
+D0
+~
+~
+0 0 9974
+D2
+~
+~
+0 0 9977
+S
+#9977
+A Trail In The Foothills~
+The ancient roadway leads further to the south.  The hills around you are
+small with gentle slopes.  It seems an ideal place for children to play games.
+ Beautiful flowers of green and purple dot several of the hills along with
+various varieties of shrubs and other plants.
+~
+0 0 4
+D0
+~
+~
+0 0 9976
+D2
+~
+~
+0 0 9978
+S
+#9978
+A Trail In The Foothills~
+The ancient roadway leads further to the south.  The hills around you are
+small with gentle slopes.  It seems an ideal place for children to play games.
+ Beautiful flowers of green and purple dot several of the hills along with
+various varieties of shrubs and other plants.
+~
+0 0 4
+D0
+~
+~
+0 0 9977
+D2
+~
+~
+0 0 9979
+S
+#9979
+A Trail In The Foothills~
+The ancient roadway leads further to the south.  The hills around you are
+small with gentle slopes.  It seems an ideal place for children to play games.
+ Beautiful flowers of green and purple dot several of the hills along with
+various varieties of shrubs and other plants.
+~
+0 0 4
+D0
+~
+~
+0 0 9978
+D1
+~
+~
+0 0 9980
+S
+#9980
+A Trail In The Foothills~
+The ancient roadway leads further to the south.  The hills around you are
+small with gentle slopes.  It seems an ideal place for children to play games.
+ Beautiful flowers of green and purple dot several of the hills along with
+various varieties of shrubs and other plants.
+~
+0 0 4
+D1
+~
+~
+0 0 9981
+D3
+~
+~
+0 0 9979
+S
+#9981
+A Trail In The Foothills~
+The ancient roadway leads further to the south.  The hills around you are
+small with gentle slopes.  It seems an ideal place for children to play games.
+ Beautiful flowers of green and purple dot several of the hills along with
+various varieties of shrubs and other plants.
+~
+0 0 4
+D1
+~
+~
+0 0 9982
+D3
+~
+~
+0 0 9980
+S
+#9982
+Deep In The Foothills~
+The trail is almost unrecognizable from the rest of the thin wheat colored
+grass. The foothills cast huge shadows along the path and your paranoia
+reminds you that this would provide an excellent place for an attack.  You
+have seen no sign of life other than wandering rabbits and the few lynx's
+you've run across.
+~
+0 1 4
+D2
+~
+~
+0 0 9983
+D3
+~
+~
+0 0 9981
+S
+#9983
+Deep In The Foothills~
+The trail is almost unrecognizable from the rest of the thin wheat colored
+grass. The foothills cast huge shadows along the path and your paranoia
+reminds you that this would provide an excellent place for an attack.  You
+have seen no sign of life other than wandering rabbits and the few lynx's
+you've run across.
+~
+0 1 4
+D0
+~
+~
+0 0 9982
+D2
+~
+~
+0 0 9984
+S
+#9984
+Deep In The Foothills~
+The trail is almost unrecognizable from the rest of the thin wheat colored
+grass. The foothills cast huge shadows along the path and your paranoia
+reminds you that this would provide an excellent place for an attack.  You
+have seen no sign of life other than wandering rabbits and the few lynx's
+you've run across.
+~
+0 1 4
+D0
+~
+~
+0 0 9983
+D1
+~
+~
+0 0 9985
+S
+#9985
+Deep In The Foothills~
+The trail is almost unrecognizable from the rest of the thin wheat colored
+grass. The foothills cast huge shadows along the path and your paranoia
+reminds you that this would provide an excellent place for an attack.  You
+have seen no sign of life other than wandering rabbits and the few lynx's
+you've run across.
+~
+0 1 4
+D2
+~
+~
+0 0 9986
+D3
+~
+~
+0 0 9984
+S
+#9986
+A Fork In The Road~
+The path splits off towards the east into the shadow of a very large hill. To
+the south you can barely make out signs of a road going deeper into the
+Highlands.  You're not sure which path is safer.
+~
+0 0 4
+D1
+~
+~
+0 0 9988
+D2
+~
+~
+0 0 9987
+S
+#9987
+A Blocked Path~
+The path through the dense hills was once cut off. You can see where magical
+shields have cut through everything but now they have vanished. The land is
+scarred but what ever magical force had protected this area has faded.
+~
+0 1056769 0
+D0
+~
+~
+0 0 9986
+D2
+~
+~
+16777216 0 4801
+S
+#9988
+An Ancient Road~
+The road is now very much apparent.  The ancient stones are worn and faded but
+you can still make out a series of symbols. They appear to be a crest of some
+kind.  The road continues towards the large hill and back to the fork in the
+road.
+~
+0 0 4
+D1
+~
+~
+0 0 9989
+D3
+~
+~
+0 0 9986
+S
+#9989
+In The Shadow Of The Hill~
+As your eyes adjust to the shadows you begin to make out buildings at the very
+foot of the hill.  Slanted Roofs and one exceedingly large tower of some sort
+seem to almost perfectly meld into the hillside. It would be impossible to see
+from anywhere else.
+~
+0 0 4
+D0
+~
+~
+0 0 9990
+D3
+~
+~
+0 0 9988
+S
+#9990
+The Edge Of A Deserted Village~
+The buildings are clear now.  It seems to be a village, or what was once a
+village. The fences around some of the farms have long since fell and decayed.
+The buildings are ravaged by time and ill weather.  It does not seem that the
+village died out by violence, there is no sign that anyone has lived or died
+here in quite awhile.
+~
+0 1 1
+D0
+~
+~
+0 0 9991
+D2
+~
+~
+0 0 9989
+S
+#9991
+Inside A Deserted Village~
+The village is empty save the ghosts of the buildings and the memories of
+their inhabitants.  The small homes along the street are barely standing.  The
+tile of the hat shaped roofs are mostly scattered to the ground.  You cannot
+see signs of a battle or a plague, it is as if the people of the village
+simply left and never looked back.  The large tower shaped building to the
+north seems to be the only building that does not look dangerous to enter.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 9994
+D1
+~
+~
+0 0 9993
+D2
+~
+~
+0 0 9990
+D3
+~
+~
+0 0 9992
+S
+#9992
+Inside A Deserted Home~
+The home is tidy and sparsely decorated. A few old scrolls of an odd paper lay
+shattered on the floor from age.  A parchment of some kind hangs on the wall,
+encased in glass.  The symbols are odd, more like a series of drawings rather
+than a language.  You have never seen such writing in your lifetime and wonder
+even if the oldest of the Ghoul Mages could read it.
+~
+0 9 0
+D1
+~
+~
+0 0 9991
+S
+#9993
+Inside A Deserted Home~
+The home is almost completely empty. Only a few torn mats remain, neatly
+tucked into the corner of the home.  An incredibly low table with several long
+pillows dominate the center of the small house.  A tea pot and several small
+glasses are placed in the center of the table. You wonder if perhaps the
+gnomes or pixies once inhabited this village.
+~
+0 0 0
+D3
+~
+~
+0 0 9991
+S
+#9994
+Inside A Deserted Village~
+The village is empty save the ghosts of the buildings and the memories of
+their inhabitants.  The small homes along the street are barely standing.  The
+tile of the hat shaped roofs are mostly scattered to the ground.  You cannot
+see signs of a battle or a plague, it is as if the people of the village
+simply left and never looked back.  The large tower shaped building to the
+north seems to be the only building that does not look dangerous to enter.
+~
+0 1 1
+D0
+~
+~
+0 0 9995
+D2
+~
+~
+0 0 9991
+S
+#9995
+Inside A Deserted Village~
+The village is empty save the ghosts of the buildings and the memories of
+their inhabitants.  The small homes along the street are barely standing.  The
+tile of the hat shaped roofs are mostly scattered to the ground.  You cannot
+see signs of a battle or a plague, it is as if the people of the village
+simply left and never looked back.  The large tower shaped building to the
+north seems to be the only building that does not look dangerous to enter.
+~
+0 1 1
+D0
+~
+~
+0 0 9998
+D1
+~
+~
+0 0 9997
+D2
+Exit description~
+~
+0 0 9994
+D3
+~
+~
+0 0 9996
+S
+#9996
+Inside A Deserted Home~
+The home is tidy and sparsely decorated. A few old scrolls of an odd paper lay
+shattered on the floor from age.  A parchment of some kind hangs on the wall,
+encased in glass.  The symbols are odd, more like a series of drawings rather
+than a language.  You have never seen such writing in your lifetime and wonder
+even if the oldest of the Ghoul Mages could read it.
+~
+0 9 0
+D1
+Exit description~
+~
+0 0 9995
+S
+#9997
+Inside A Deserted Home~
+The home is almost completely empty. Only a few torn mats remain, neatly
+tucked into the corner of the home.  An incredibly low table with several long
+pillows dominate the center of the small house.  A tea pot and several small
+glasses are placed in the center of the table. You wonder if perhaps the
+gnomes or pixies once inhabited this village.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 9995
+S
+#9998
+In Front Of The Pagoda~
+The odd tower seems to be made of six or seven of the houses stacked on top of
+each other. The large iron gate has since fell off its hinges and is covered
+in rust and time.  The building looks safe enough to explore.  More symbols
+decorate the walls and the few remaining banners that are motionless despite
+the breeze.
+~
+0 0 0
+D0
+~
+~
+0 0 9999
+D2
+~
+~
+0 0 9995
+S
+#9999
+The Entrance To The Pagoda~
+The Pagoda seems much larger than you thought. The courtyard is beautiful,
+with flowers of all different colors and sizes growing unchecked.  Several
+fountains are now quiet with different flowers and plants.  An odd statue
+guards the main entrance, a faceless creature with the body of a lion and tail
+of snakes.
+~
+0 4 1
+D0
+~
+~
+16777219 -1 10000
+D2
+~
+~
+16777219 0 9998
+S
+#10000
+Inside The Pagoda~
+The central room is the most luxiourus of any of the places you've seen so far
+on this island. Numerous paintings of strange, mist like creatures adorn the
+walls, carpets of silk and wool cover the floors, and several large black iron
+Statues guard the entrance. You can still smell the lingering scent of incense
+from all over.  The candles that light the Pagoda seem well tended.
+~
+0 0 0
+D0
+~
+~
+0 0 10003
+D1
+~
+~
+0 0 10001
+D3
+~
+~
+0 0 10005
+D4
+~
+~
+0 0 10006
+S
+#10001
+A Meditation Room~
+The room is empty save a single flickering candle. The walls are a muted white
+ and the floor a dull gray.  There is nothing here to distract your eye from
+the lone candle.  There is no dust or dirt, somebody has been keeping this
+area clean.
+~
+0 65544 0
+D0
+~
+~
+0 0 10002
+D3
+Exit description~
+~
+0 0 10000
+S
+#10002
+A Prayer Room~
+The room is lined with different parchments of symbols. Each gray parchment
+contains a single symbol, written in a bold ink with a delicate hand.  A
+statue of a multi-armed creature stands at the center, all six arms folded in
+prayer. Several strands of beads rest at the feet of the statue.
+~
+0 1032 0
+D2
+Exit description~
+~
+0 0 10001
+D3
+~
+~
+0 0 10003
+S
+#10003
+A Meditation Room~
+The room is empty save a single painting. The painting shows a single dot of
+black against a white background.  The walls are a muted white and the floor a
+dull Gray. There is nothing here to distract your eye from the lone dot of
+black ink. There is no dust or dirt, somebody has been keeping this area
+clean.
+~
+0 65536 0
+D1
+Exit description~
+~
+0 0 10002
+D2
+Exit description~
+~
+0 0 10000
+D3
+~
+~
+0 0 10004
+S
+#10004
+A Training Room~
+Several racks of weapons line the walls. An Ogre sized dummy of sand and
+leather stands in the center of the room. The floor is covered in a soft
+padding.  There are several charts that have detailed maps of the mortal body
+on the ceiling. You cannot read the symbols bit it seems they explain weak
+points in the anatomy of all creatures.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 10003
+D2
+~
+~
+0 0 10005
+S
+#10005
+A Sparring Dojo~
+This room is barren except for the padded white floor. The walls are bare and
+it seems as if it has one sole purpose.  The slight indentations on the floor
+and old bloodstains on the floor seem to hint at just what that purpose is.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 10004
+D1
+Exit description~
+~
+0 0 10000
+S
+#10006
+Inside The Pagoda~
+The hear the faint sound of chanting in the area, some sort of prayer in a
+language you have never heard before. The walls are covered in an odd tapestry
+of a some God. Six armed with purple skin and wielding two beautiful scimitars
+and other weapons you have never seen before. Your senses tell you that
+somebody is moving around here. You hope that they are friendly, or rich, or
+both.
+~
+0 0 0
+D0
+~
+~
+0 0 10009
+D1
+~
+~
+0 0 10007
+D3
+Exit description~
+~
+0 0 10011
+D4
+~
+~
+0 0 10012
+D5
+Exit description~
+~
+0 0 10000
+S
+#10007
+A Meditation Room~
+The room is empty save a single painting. The painting shows a single dot of
+black against a white background.  The walls are a muted white and the floor a
+dull Gray. There is nothing here to distract your eye from the lone dot of
+black ink. There is no dust or dirt, somebody has been keeping this area
+clean.
+~
+0 0 0
+D0
+~
+~
+0 0 10008
+D3
+Exit description~
+~
+0 0 10006
+S
+#10008
+A Prayer Room~
+The room is lined with different parchments of symbols. Each gray parchment
+contains a single symbol, written in a bold ink with a delicate hand.  A
+statue of a multi-armed creature stands at the center, all six arms folded in
+prayer.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 10007
+D3
+~
+~
+0 0 10009
+S
+#10009
+A Training Room~
+Several racks of weapons line the walls. An Ogre sized dummy of sand and
+leather stands in the center of the room. The floor is covered in a soft
+padding.  There are several charts that have detailed maps of the mortal body
+on the ceiling. You cannot read the symbols bit it seems they explain weak
+points in the anatomy of all creatures.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 10008
+D2
+Exit description~
+~
+0 0 10006
+D3
+~
+~
+0 0 10010
+S
+#10010
+A Training Room~
+Several racks of weapons line the walls. An Ogre sized dummy of sand and
+leather stands in the center of the room. The floor is covered in a soft
+padding.  There are several charts that have detailed maps of the mortal body
+on the ceiling. You cannot read the symbols bit it seems they explain weak
+points in the anatomy of all creatures.
+~
+0 0 0
+D1
+~
+~
+0 0 10009
+D2
+~
+~
+0 0 10011
+S
+#10011
+A Training Room~
+Several racks of weapons line the walls. An Ogre sized dummy of sand and
+leather stands in the center of the room. The floor is covered in a soft
+padding.  There are several charts that have detailed maps of the mortal body
+on the ceiling. You cannot read the symbols bit it seems they explain weak
+points in the anatomy of all creatures.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 10010
+D1
+~
+~
+0 0 10006
+S
+#10012
+Inside The Pagoda~
+The incense is heavy in the air and the room is wildly decorated with
+different flowers, banners and a few statues of creatures that seem to
+resemble the different races yet seem incredibly alien as well.  The smell of
+food cooking is coming from the east. This must be these monks living
+quarters.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 10015
+D1
+~
+~
+0 0 10013
+D3
+Exit description~
+~
+0 0 10017
+D4
+~
+~
+0 0 10018
+D5
+Exit description~
+~
+0 0 10006
+S
+#10013
+A Simple Kitchen~
+This kitchen is amazingly simple. A small iron fireplace with a large black
+pot is about the extent of equipment.  You see no oven and the only utensils
+are several knives and an odd wooden hammer. There are no spices to be seen
+save a brownish paste that smells of ginger.
+~
+0 4 0
+D0
+~
+~
+0 0 10014
+D3
+~
+~
+0 0 10012
+S
+#10014
+A Barren Dining Hall~
+A long wooden table stretches down the room.  The chairs are incredibly simple
+but they look sturdy enough. The bowls and spoons are already laid out, made
+of wood as well.  The few monks that are eating are quiet. They take slow
+mouthfuls of food and seem to be focused on the single candle in the middle of
+the table.
+~
+0 4 0
+D2
+~
+~
+16777216 0 10013
+D3
+~
+~
+16777216 0 10015
+S
+#10015
+The Common Room~
+This room seems to be the only one that is dedicated to leisure. Several
+bookshelves hold numerous tomes and on a simple wooden table an odd game made
+of wooden pieces with symbols stands untouched. There are several large
+couches that are padded with bird feathers and rabbit skin.
+~
+0 4 0
+D1
+~
+~
+0 0 10014
+D2
+~
+~
+0 0 10012
+D3
+~
+~
+0 0 10016
+S
+#10016
+The Monks Quarters~
+The room is filled with several cots that are made of animal skins and a
+strong black wood.  The pillows are simply animal skins over several layers of
+cotton. A rack is next to each cot that seems to hold the robes of the monk as
+they sleep.
+~
+0 0 0
+D1
+~
+~
+0 0 10015
+D2
+~
+~
+0 0 10017
+S
+#10017
+The Monks Quarters~
+The room is filled with several cots that are made of animal skins and a
+strong black wood.  The pillows are simply animal skins over several layers of
+cotton. A rack is next to each cot that seems to hold the robes of the monk as
+they sleep.
+~
+0 0 0
+D0
+~
+~
+0 0 10016
+D1
+~
+~
+0 0 10012
+S
+#10018
+Inside The Pagoda~
+The statues and the paintings of the room have a much darker tone than before.
+The statues show creatures of horrible faces and bodies. Winged Crabs and
+multi-tentacled and multi-mouthed demons. The paintings show a group of
+familiar yet alien creatures being hunted down and slaughtered by a huge
+creature wielding a massive hammer.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 10021
+D1
+~
+~
+0 0 10019
+D3
+Exit description~
+~
+0 0 10023
+D4
+~
+~
+0 0 10024
+D5
+Exit description~
+~
+0 0 10012
+S
+#10019
+A Memorial~
+This room seems to be a dedication to someone or something.  The same
+six-armed God is present yet his arms are tied and bound, his eyes removed.
+The candles that burn are black and the flowers are long since wilted and dry.
+ You can hear the whispered sobs of someone.
+~
+0 0 0
+D0
+~
+~
+0 0 10020
+D3
+Exit description~
+~
+0 0 10018
+S
+#10020
+A Private Study~
+The room is filled with scrolls and texts of all types. You even recognize
+some of the scrolls as a very ancient form of Ghoulish. The books all have
+sketches of horrible creatures and horrible battles. It is becoming clear that
+whoever this Six-Armed God was, he was defeated.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 10019
+D3
+~
+~
+0 0 10021
+S
+#10021
+A Room Of Attrition~
+The walls of this room are covered in various devices of torture and pain.
+Several posts with shackles attached dominate the center of the room. It seems
+that pain is a part of these monk's philosophy. You shudder at some of the
+tools as your mind imagines what they are used for.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 10020
+D2
+~
+~
+0 0 10018
+D3
+~
+~
+0 0 10022
+S
+#10022
+An Odd Gallery~
+This room is dedicated to paintings of ancient things. They seem to be in some
+sort of order. The first depicts the great Six-Armed God and his followers.
+Each creature by his side resembles something you know but at the same time
+are obviously not what you think. The next shows the emergence of the horrible
+creatures. The rest depict great battles that raged between the two sides.
+The final painting depicts the large Daemon creature with the massive hammer
+sealing away the Six-Armed God and the last survivors of his kind.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 10021
+D2
+~
+~
+0 0 10023
+S
+#10023
+An Odd Gallery~
+This room is dedicated to the numerous statues that have adorned the Pagoda.
+One looks almost human yet his forehead is heavily sloped and ridged and much
+larger than the average human. You thought you saw a Ghoul yet the creature
+has 3 eyes and teeth of knives. One statue is well over fifteen feet tall,
+what appears to be a type of Orc you have never seen.  It's tusks are at least
+two feet long and its arms are as broad a man's stomach.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 10022
+D1
+~
+~
+0 0 10018
+S
+#10024
+Closer To The Top~
+The room is smaller than the others and from the simple window you can see you
+are quite high into the air. The room ahead seems to be the only way to go.
+You swear you thought you heard somebody call out your name from above you.
+~
+0 4 0
+D0
+Exit description~
+~
+0 0 10025
+D5
+Exit description~
+~
+0 0 10018
+S
+#10025
+The Sensei's Quarters~
+The head of the monks must live here.  The room is filled with various books
+and scrolls that seem dedicated to unlocking magic.  Some of these scrolls are
+even in common! You recognize some of the others. Vash's theories on magical
+destabilization, Vilutu's recounts of the ancient days, and even some of the
+newest theories you have just heard about! This Sensei must have access to the
+outside world.
+~
+0 4 0
+D2
+~
+~
+16777216 0 10024
+D4
+~
+~
+16777216 9961 10026
+S
+#10026
+A Guarded Steel Gate~
+A Huge Gate leads up higher into the temple but it seems that the guards here
+aren't very happy.  The room is adorned with numerous symbols and runes and
+you know you recognize several of them as protection spells.  A BANG erupts as
+something pounds against the gate. You wonder if keeping it closed really is
+the best idea.
+~
+0 0 0
+D4
+~
+~
+16778279 9961 10027
+D5
+~
+~
+16777216 0 10025
+S
+#10027
+A Vortex Of Colors~
+The room houses a beautiful whirlpool of energies. There seems to be some kind
+of barrier between you and the vortex. It's beauty is unmatched, so much so
+that you forgot about the huge creature with the head of a lion, the body of a
+lizard, and a tail of living snakes that is hungrily staring at you.
+~
+0 0 0
+D4
+~
+~
+25166887 9962 10028
+D5
+Exit description~
+~
+16777216 0 10026
+S
+#10028
+Inside A Ruined Temple~
+The Vortex releases you into a strange place. You are underground for sure as
+the slime covered walls are cold and naturally carved from pure granite. You
+smell nothing but can hear the sounds of rage and an ancient curse. The
+skeletons of odd creatures, demon and otherwise are scattered everywhere. You
+see a strange writing that is burned onto the stone. It suddenly shifts itself
+to read in your native tongue! THE UN-NAMED LIE DEFEATED. ALL THAT REMAIN IS
+THEIR RAGE.
+~
+0 3153921 13
+D0
+~
+~
+0 0 10029
+S
+#10029
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+Exit description~
+~
+0 0 10030
+D2
+Exit description~
+~
+0 0 10028
+S
+#10030
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10033
+D1
+~
+~
+0 0 10031
+D2
+~
+~
+0 0 10029
+D3
+~
+~
+0 0 10034
+S
+#10031
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10032
+D3
+Exit description~
+~
+0 0 10030
+S
+#10032
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D2
+Exit description~
+~
+0 0 10031
+D3
+~
+~
+0 0 10033
+S
+#10033
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+Exit description~
+~
+0 0 10032
+D2
+Exit description~
+~
+0 0 10030
+S
+#10034
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10042
+D1
+Exit description~
+~
+0 0 10030
+D3
+~
+~
+0 0 10035
+S
+#10035
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10041
+D1
+Exit description~
+~
+0 0 10034
+D2
+~
+~
+0 0 10036
+S
+#10036
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153933 0
+D0
+Exit description~
+~
+0 0 10035
+D3
+~
+~
+0 0 10037
+S
+#10037
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10038
+D1
+Exit description~
+~
+0 0 10036
+S
+#10038
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10039
+D2
+Exit description~
+~
+0 0 10037
+S
+#10039
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10040
+D2
+Exit description~
+~
+0 0 10038
+S
+#10040
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10041
+D3
+Exit description~
+~
+0 0 10039
+S
+#10041
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10044
+D2
+Exit description~
+~
+0 0 10035
+D3
+Exit description~
+~
+0 0 10040
+S
+#10042
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10043
+D2
+Exit description~
+~
+0 0 10034
+S
+#10043
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10047
+D2
+Exit description~
+~
+0 0 10042
+D3
+~
+~
+0 0 10044
+S
+#10044
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10045
+D1
+Exit description~
+~
+0 0 10043
+D2
+Exit description~
+~
+0 0 10041
+S
+#10045
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10046
+D2
+Exit description~
+~
+0 0 10044
+S
+#10046
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10040
+D2
+Exit description~
+~
+0 0 10045
+S
+#10047
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10048
+D2
+Exit description~
+~
+0 0 10043
+S
+#10048
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153933 0
+D1
+~
+~
+0 0 10050
+D2
+~
+~
+0 0 10049
+D3
+Exit description~
+~
+0 0 10047
+S
+#10049
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. Part of the room seems to resist the changes, several chairs
+fashioned out of bones and held together with dried skin sit in the corner.
+~
+0 3153933 0
+D0
+~
+~
+16777216 0 10048
+D2
+~
+~
+16777216 0 10036
+S
+#10050
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10051
+D3
+Exit description~
+~
+0 0 10048
+S
+#10051
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10055
+D1
+~
+~
+0 0 10052
+D2
+Exit description~
+~
+0 0 10050
+S
+#10052
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10053
+D3
+Exit description~
+~
+0 0 10051
+S
+#10053
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10054
+D3
+Exit description~
+~
+0 0 10052
+S
+#10054
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+~
+~
+0 0 10031
+D3
+Exit description~
+~
+0 0 10053
+S
+#10055
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10056
+D2
+Exit description~
+~
+0 0 10051
+S
+#10056
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D0
+~
+~
+0 0 10057
+D2
+Exit description~
+~
+0 0 10055
+S
+#10057
+The Dark Gate Of Synot~
+You find yourself at a huge gate,  covered in protection glyphs and not unlike
+the gate that resides deep within the Ghoul homecity.  The lock looks rusted
+shut and it seems from the battered frame that these creatures have tried to
+open it on many different occasions to no luck.  To the west the tunnels
+continue further down, hopefully it is a way out!
+~
+0 3153933 0
+D1
+~
+~
+25166887 9963 10059
+D2
+~
+~
+0 0 10056
+D3
+~
+~
+0 0 10058
+S
+#10058
+The Catacombs Of The Un-Named~
+These tunnels seem to meld into each other. What is solid rock one minute
+begins to shift into a pathway while another pathway seems to simple disappear
+into stone. You can hear creatures running through these tunnels shouting
+war-cries you cannot understand. You hope you can avoid them while you try to
+figure out how to get out of here.
+~
+0 3153929 0
+D1
+Exit description~
+~
+0 0 10057
+D2
+~
+~
+0 0 10028
+S
+#10059
+The Throne Of Synot Lodhal~
+The Cave is empty save for a make-shift throne of bones. You can see no way
+out of the cave save through the gate you took to get in. A huge creature with
+six arms stands as you enter, a look of surprise written on the scarred face.
+It is clear that nobody has seen this creature in a time to long to remember.
+~
+0 3153929 0
+D3
+Exit description~
+~
+16777216 0 10057
+D4
+~
+~
+16778279 9964 9954
+S
+#10100
+Dont Change (:~
+Dont Change (:
+~
+0 3153933 0
+S
+#0
+
+
+#RESETS
+D 0 10026 4 2
+D 0 10027 4 2
+D 0 10057 1 2
+D 0 10059 4 2
+M 0 9991 1 10059
+E 1 9970 1 21
+E 1 9979 10 22
+E 1 9974 10 4
+G 1 9964 1
+E 1 9975 5 0
+M 0 9990 1 10049
+E 1 9973 10 2
+E 1 9972 10 16
+E 1 9965 5 21
+G 1 9963 1
+M 0 9970 1 10031
+M 0 9974 1 10029
+M 0 9971 1 10033
+M 0 9975 1 10035
+M 0 9978 1 10036
+M 0 9981 1 10037
+M 0 9972 1 10039
+M 0 9977 1 10041
+E 1 9968 10 20
+M 0 9984 1 10042
+E 1 9969 1 21
+M 0 9979 1 10044
+M 0 9982 1 10046
+M 0 9985 1 10048
+M 0 9983 1 10052
+M 0 9983 1 10055
+E 1 9967 15 17
+M 0 9973 1 10043
+E 1 9966 10 15
+M 0 9977 1 10054
+M 0 10007 1 10025
+G 1 9961 1
+M 0 9958 1 10026
+E 1 9956 15 14
+M 0 9959 1 10026
+E 1 9955 1 21
+M 0 9953 1 10026
+E 1 9951 1 21
+M 0 9994 1 10014
+M 0 9993 1 10014
+M 0 10001 1 10017
+M 0 10006 1 10017
+M 0 10003 1 10016
+M 0 9992 1 10016
+M 0 9986 1 10011
+M 0 9960 1 10011
+E 1 9959 1 14
+M 0 9951 1 10010
+O 0 9978 1 10010
+O 0 9977 1 10011
+M 0 9954 1 10009
+M 0 10003 1 10001
+M 0 10004 1 10001
+M 0 9952 1 10007
+E 1 9958 1 14
+M 0 9956 1 10007
+M 0 9957 1 10008
+M 0 9968 1 9976
+M 0 9961 1 9980
+M 0 9962 1 9982
+M 0 9964 1 9986
+M 0 9963 1 9988
+M 0 10000 1 9975
+M 0 9965 1 9973
+M 0 9966 1 9978
+M 0 9967 1 9984
+M 0 9987 1 9987
+M 0 9996 1 9983
+M 0 9997 1 9989
+M 0 9999 1 9994
+M 0 9989 1 10027
+G 1 9962 1
+O 0 9952 1 10002
+O 0 9976 1 10015
+O 0 9953 1 10025
+O 0 9954 1 10025
+M 0 9961 1 9993
+M 0 9998 1 9981
+M 0 9995 1 9976
+M 0 9955 1 10006
+E 1 9958 1 14
+M 0 9976 1 10034
+M 0 9980 1 10038
+M 0 9998 1 9987
+M 0 10002 1 10004
+M 0 10005 1 10008
+M 0 9969 1 9985
+M 0 9988 1 10003
+M 0 10008 1 10039
+M 0 10010 1 10042
+M 0 10009 1 10048
+M 0 10011 1 10030
+M 0 10012 1 10036
+M 0 10013 1 10054
+M 0 10014 1 10056
+M 0 10015 1 10045
+M 0 10016 1 10040
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  9974 spec_cast_mage
+M  9975 spec_cast_mage
+M  9984 spec_cast_diabolist
+M  9985 spec_cast_shaman
+M  9989 spec_cast_undead
+M  9990 spec_cast_cleric
+M  9991 spec_cast_diabolist
+M  10010 spec_cast_mage
+M  10012 spec_cast_archmagi
+M  10015 spec_breath_acid
+M  10016 spec_breath_acid
+S
+
+
+#$

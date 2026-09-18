@@ -1,0 +1,750 @@
+#PLAYER
+Version      3
+Name         Vaal~
+ID           1951
+Sex          1
+Class        11
+Dual         11
+Race         18
+Languages    1 1
+Level        39
+Played       697
+Room         21001
+HpManaMove   1197 748 563 713 1107 1107
+Gold         3784
+Exp          3027083
+Tier	       1
+Tierexp      0
+Height          65
+Weight          164
+Act          704644680&44
+AffectedBy   -2146860992
+Position     112
+Style     2
+Practice     351
+SavingThrows 0 0 0 -11 -24
+Alignment    0
+Favor	       0
+Balance      0
+Mobmaster    0
+MobMTicks    0
+NextMobM     1
+Glory        0
+MGlory       0
+Scoremobm    0
+Scoremk      35
+Scoreqp      0
+Scorepk      0
+Scoregold    3784
+Scorexp      3027083
+Scoremp      0
+Scoresp      0
+SkillPoints  0
+MagicPoints  0
+Rent		 0
+Hitroll      27
+Damroll      7
+Armor        -35
+ArmorWorn    0
+Resistant    2105856
+Susceptible  2097156
+Mentalstate  0
+Password     VaAo2CijhmtfM~
+Title        .~
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       35
+MDeaths      0
+IllegalPK    0
+AttrPerm     17 19 16 18 16 21 22
+AttrMod      3 0 0 3 0 0 0
+Condition    0 90 90 12
+Site         73.232.238.119
+Spell        95 'alchemy armor'
+Spell        95 'alchemy balance'
+Spell        95 'alchemy bless'
+Spell        95 'alchemy blindness'
+Spell        95 'alchemy corrupt'
+Spell        95 'alchemy critical'
+Spell        95 'alchemy curse'
+Spell        95 'alchemy demon'
+Spell        95 'alchemy eldritch'
+Spell        95 'alchemy escape'
+Spell        95 'alchemy fire'
+Spell        95 'alchemy fly'
+Spell        95 'alchemy heal'
+Spell        95 'alchemy ice'
+Spell        95 'alchemy level'
+Spell        95 'alchemy light'
+Spell        95 'alchemy piercebane'
+Spell        95 'alchemy poison'
+Spell        95 'alchemy protect'
+Spell        95 'alchemy refresh'
+Spell        95 'alchemy sanctuary'
+Spell        95 'alchemy serious'
+Spell        95 'alchemy shelter'
+Spell        95 'alchemy shield'
+Spell        95 'alchemy shock'
+Spell        95 'alchemy sight'
+Spell        95 'alchemy slashbane'
+Spell        95 'alchemy stone'
+Spell        95 'alchemy travel'
+Spell        95 'alchemy unseen'
+Spell        95 'alchemy waterbreath'
+Spell        95 'aqua breath'
+Spell        95 'astral walk'
+Spell        95 'blade spirit'
+Spell        95 'control weather'
+Spell        95 'create food'
+Spell        95 'create spring'
+Spell        95 'create water'
+Spell        95 'cure light'
+Spell        95 'cure poison'
+Spell        95 'detect magic'
+Spell        95 'dream'
+Spell        95 'earthquake'
+Spell        95 'float'
+Spell        95 'fly'
+Spell        95 'idol'
+Spell        95 'infravision'
+Spell        95 'invoke stag'
+Spell        95 'invoke wolf'
+Spell        95 'refresh'
+Spell        95 'scry'
+Spell        95 'spirit armor'
+Spell        95 'spirit shield'
+Spell        95 'spirit trade'
+Spell        95 'spirit wrack'
+Spell        95 'summon spirit'
+Spell        95 'transport'
+Spell        95 'word of recall'
+Skill        95 'aggressive style'
+Skill        95 'aid'
+Skill        95 'berserk style'
+Skill        95 'climb'
+Skill        95 'defensive style'
+Skill        95 'dig'
+Skill        85 'dodge'
+Skill        95 'evasive style'
+Skill        95 'hide'
+Skill        95 'meditate'
+Skill        95 'mount'
+Skill        95 'search'
+Skill        95 'second attack'
+Skill        95 'standard style'
+Skill        95 'swat'
+Skill        95 'trance'
+Weapon       95 'axes'
+Weapon       95 'bludgeons'
+Weapon       95 'exotic arms'
+Weapon       95 'flexible arms'
+Weapon       95 'long blades'
+Weapon       95 'missile weapons'
+Weapon       95 'polearms'
+Weapon       95 'talonous arms'
+Tongue       100 'ancient'
+Tongue       100 'common'
+Tongue       100 'dragon'
+Tongue       100 'dwarven'
+Tongue       100 'elvish'
+Tongue       100 'ghoulish'
+Tongue       100 'gith'
+Tongue       100 'gnomish'
+Tongue       100 'goblin'
+Tongue       100 'halfling'
+Tongue       100 'insectoid'
+Tongue       100 'mammal'
+Tongue       100 'minotaur'
+Tongue       100 'ogre'
+Tongue       100 'orcish'
+Tongue       100 'pixie'
+Tongue       10 'reptile'
+Tongue       100 'rodent'
+Tongue       100 'spiritual'
+Tongue       100 'trollese'
+Tongue       100 'wolfen'
+AffectData   'shield' 1343 -30  17 0
+AffectData   'armor' 1343 -30  17 0
+AffectData   'bless' 1343  13  18 0
+AffectData   'bless' 1343 -13  24 0
+AffectData   'fly' 1343   0  26 524288
+AffectData   'aqua breath' 1343   0  26 -2147483648
+AffectData   'improved invis' 563   0   0 64
+AffectData   'resilience' 1343 512  27 0
+AffectData   'valiance' 1343 2097152  27 0
+AffectData   'spirit armor'  15 -75  17 0
+AffectData   'idol' 256 -11  24 0
+AffectData   'idol' 256 -11  23 0
+AffectData   'invoke wolf' 1037   7  18 0
+AffectData   'invoke wolf' 1037   7  19 0
+AffectData   'invoke wolf' 1037   3   2 0
+AffectData   'invoke wolf' 1037   3   1 0
+AffectData   'blade spirit' 268   7  18 0
+AffectData   'paralyze' 1048 2097152  29 0
+Killed       14191 1
+Killed       14182 1
+Killed       14187 1
+Killed       14188 1
+Killed       14179 1
+Killed       14185 1
+Killed       14193 1
+Killed       14177 1
+Killed       14194 1
+Killed       14183 1
+Killed       14190 1
+Killed       14184 1
+Killed       14189 1
+Killed       14180 1
+Killed       14176 1
+Killed       14157 1
+Killed       14138 1
+Killed       14119 1
+Killed       8004 1
+Killed       8012 1
+Killed       8003 1
+MaxColors    98
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 10 14 13 15 15 15 9 11 9 31 25 10 6 6 10 6 11 9 10 1 15 13 12 7 10 13 12 10 10 12 10 3 12 9 15 11 3 14 2 5 15 9 8 2 9 12 9 2 10 15 7 7 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 9 15 10 0 
+End
+
+#OBJECT
+Name         orb eye enlightenment university.~
+ShortDescr   an Eye of Enlightenment~
+Description  A glistening orbs shines as a guiding light to new adventurers.~
+ActionDesc   ~
+Ovnum         10311
+Values       0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         sword aeris~
+ShortDescr   (&WShining&D) the Sword of Aeris~
+Description  A gleaming longsword, covered with Ghoulish runes, sits here.~
+ActionDesc   ~
+Ovnum         29414
+WearLoc      21
+Values       12 5 25 3 0 1 0 0 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Name         a blackened firestone brooch~
+ShortDescr   a blackened firestone brooch~
+Description  A blackened firestone brooch lies here.~
+ActionDesc   ~
+Ovnum         29515
+ExtraFlags   1856&1281
+WearLoc      6
+Cost         2500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 -5 20 0
+Affect       -1 -1 -6 24 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 16 26 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         an insignia of the dead~
+ShortDescr   an insignia of the dead~
+Description  An insignia of the dead lies here.~
+ActionDesc   ~
+Ovnum         29537
+ExtraFlags   320&1281
+WearLoc      25
+Cost         4500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 1 0
+Affect       -1 -1 -5 20 0
+Affect       -1 -1 -6 22 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 5 5 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 2 79 0
+End
+
+#OBJECT
+Name         a stark crystal pair of glasses~
+ShortDescr   a stark crystal pair of glasses~
+Description  A stark crystal pair of glasses lies here.~
+ActionDesc   ~
+Ovnum         29531
+ExtraFlags   1856&1281
+WearLoc      2
+Cost         1750
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -5 22 0
+Affect       -1 -1 -6 24 0
+Affect       -1 -1 -6 24 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 -4 22 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a bulky azurite orb~
+ShortDescr   a bulky azurite orb~
+Description  A bulky azurite orb lies here.~
+ActionDesc   ~
+Ovnum         29521
+ExtraFlags   321&1281
+WearLoc      0
+Cost         3600
+Values       0 0 -1 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 128 26 0
+Affect       -1 -1 268435456 26 0
+Affect       -1 -1 67108864 26 0
+Affect       -1 -1 33554432 26 0
+Affect       -1 -1 -2147483648 26 0
+Affect       -1 -1 64 26 0
+Affect       -1 -1 2 79 0
+End
+
+#OBJECT
+Name         a battered hardened leather pair of boots~
+ShortDescr   a battered hardened leather pair of boots~
+Description  A battered hardened leather pair of boots lies here.~
+ActionDesc   ~
+Ovnum         29589
+ExtraFlags   1856&1281
+WearLoc      20
+Weight       3
+Cost         2500
+Values       5 17 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 6 4 0
+Affect       -1 -1 5 3 0
+Affect       -1 -1 -5 20 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a smoking dragon scale hat~
+ShortDescr   a smoking dragon scale hat~
+Description  A smoking dragon scale hat lies here.~
+ActionDesc   ~
+Ovnum         29566
+ExtraFlags   1856&1281
+WearLoc      1
+Weight       5
+Cost         2500
+Values       12 17 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 5 5 0
+Affect       -1 -1 5 79 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a lined elven mithril aegis~
+ShortDescr   a lined elven mithril aegis~
+Description  A lined elven mithril aegis lies here.~
+ActionDesc   ~
+Ovnum         29592
+ExtraFlags   1856&1281
+WearLoc      23
+Weight       4
+Cost         1750
+Values       11 17 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a serpentine tigerfang crystal wristlet~
+ShortDescr   a serpentine tigerfang crystal wristlet~
+Description  A serpentine tigerfang crystal wristlet lies here.~
+ActionDesc   ~
+Ovnum         29529
+ExtraFlags   1856&1281
+WearLoc      9
+Cost         1250
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -5 22 0
+Affect       -1 -1 3 31 0
+Affect       -1 -1 25 13 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a holy titanium ankle bracelet~
+ShortDescr   a holy titanium ankle bracelet~
+Description  A holy titanium ankle bracelet lies here.~
+ActionDesc   ~
+Ovnum         29527
+ExtraFlags   1856&1281
+WearLoc      18
+Cost         4500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 4 0
+Affect       -1 -1 3 3 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 -6 24 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a druid's elfweave girdle~
+ShortDescr   a druid's elfweave girdle~
+Description  A druid's elfweave girdle lies here.~
+ActionDesc   ~
+Ovnum         29585
+ExtraFlags   1856&1281
+WearLoc      16
+Cost         1750
+Values       8 17 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 -6 22 0
+Affect       -1 -1 -3 20 0
+Affect       -1 -1 -6 20 0
+Affect       -1 -1 2 79 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a ribbon of the Apocalypse~
+ShortDescr   a ribbon of the Apocalypse~
+Description  A ribbon of the Apocalypse lies here.~
+ActionDesc   ~
+Ovnum         29536
+ExtraFlags   320&1281
+WearLoc      26
+Cost         1250
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 2 79 0
+End
+
+#OBJECT
+Name         an archaic garnet anklet~
+ShortDescr   an archaic garnet anklet~
+Description  An archaic garnet anklet lies here.~
+ActionDesc   ~
+Ovnum         29526
+ExtraFlags   1856&1281
+WearLoc      19
+Cost         3500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 -2 24 0
+Affect       -1 -1 35 13 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         an enruned heavy cloth surcoat~
+ShortDescr   an enruned heavy cloth surcoat~
+Description  An enruned heavy cloth surcoat lies here.~
+ActionDesc   ~
+Ovnum         29583
+ExtraFlags   1856&1281
+WearLoc      15
+Weight       4
+Cost         2500
+Values       4 18 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 -2 22 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 3 4 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a formal full leather hauberk~
+ShortDescr   a formal full leather hauberk~
+Description  A formal full leather hauberk lies here.~
+ActionDesc   ~
+Ovnum         29597
+ExtraFlags   1856&1281
+WearLoc      7
+Weight       7
+Cost         2500
+Values       5 18 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 18 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 -5 22 0
+Affect       -1 -1 -3 22 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a seared cloth pair of gloves~
+ShortDescr   a seared cloth pair of gloves~
+Description  A seared cloth pair of gloves lies here.~
+ActionDesc   ~
+Ovnum         29578
+ExtraFlags   1856&1281
+WearLoc      11
+Weight       3
+Cost         1750
+Values       2 18 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 18 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a bloody full leather set of armlets~
+ShortDescr   a bloody full leather set of armlets~
+Description  A bloody full leather set of armlets lies here.~
+ActionDesc   ~
+Ovnum         29575
+ExtraFlags   1856&1281
+WearLoc      8
+Weight       3
+Cost         3500
+Values       5 18 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 35 13 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a warped tiger eye bracelet~
+ShortDescr   a warped tiger eye bracelet~
+Description  A warped tiger eye bracelet lies here.~
+ActionDesc   ~
+Ovnum         29528
+ExtraFlags   1856&1281
+WearLoc      10
+Cost         1750
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 3 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 16 26 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a fanatics zircon trinket~
+ShortDescr   a fanatics zircon trinket~
+Description  A fanatics zircon trinket lies here.~
+ActionDesc   ~
+Ovnum         29609
+ExtraFlags   1856&1281
+WearLoc      24
+Cost         4500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 18 0
+Affect       -1 -1 -3 20 0
+Affect       -1 -1 35 13 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 4 79 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a formal coral mask~
+ShortDescr   a formal coral mask~
+Description  A formal coral mask lies here.~
+ActionDesc   ~
+Ovnum         29570
+ExtraFlags   1856&1281
+WearLoc      4
+Weight       3
+Cost         1250
+Values       6 18 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -4 24 0
+Affect       -1 -1 -5 22 0
+Affect       -1 -1 -3 20 0
+Affect       -1 -1 -4 20 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         an antiquated iron ring~
+ShortDescr   an antiquated iron ring~
+Description  An antiquated iron ring lies here.~
+ActionDesc   ~
+Ovnum         29508
+ExtraFlags   1856&1281
+WearLoc      12
+Cost         4500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -6 24 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 2 18 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a star-shaped peridot hoop~
+ShortDescr   a star-shaped peridot hoop~
+Description  A star-shaped peridot hoop lies here.~
+ActionDesc   ~
+Ovnum         29524
+ExtraFlags   1856&1281
+WearLoc      3
+Cost         1750
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 45 13 0
+Affect       -1 -1 4 18 0
+Affect       -1 -1 3 79 0
+Affect       -1 -1 2 79 0
+Affect       -1 -1 -2 24 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a dark hessonite locket~
+ShortDescr   a dark hessonite locket~
+Description  A dark hessonite locket lies here.~
+ActionDesc   ~
+Ovnum         29514
+ExtraFlags   1856&1281
+WearLoc      5
+Cost         1750
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 5 79 0
+Affect       -1 -1 5 18 0
+Affect       -1 -1 1 18 0
+Affect       -1 -1 8 26 0
+Affect       -1 -1 -2 24 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a seared mystical pair of pants~
+ShortDescr   a seared mystical pair of pants~
+Description  A seared mystical pair of pants lies here.~
+ActionDesc   ~
+Ovnum         29586
+ExtraFlags   1856&1281
+WearLoc      17
+Weight       3
+Cost         2500
+Values       5 17 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 4 18 0
+Affect       -1 -1 -5 20 0
+Affect       -1 -1 -3 20 0
+Affect       -1 -1 25 12 0
+Affect       -1 -1 40 13 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a glistening ivory band~
+ShortDescr   a glistening ivory band~
+Description  A glistening ivory band lies here.~
+ActionDesc   ~
+Ovnum         29510
+ExtraFlags   1856&1281
+WearLoc      13
+Cost         2500
+Values       0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 -5 24 0
+Affect       -1 -1 -3 24 0
+Affect       -1 -1 35 13 0
+Affect       -1 -1 3 18 0
+Affect       -1 -1 35 12 0
+Affect       -1 -1 7 79 0
+End
+
+#OBJECT
+Name         a burnt chitin robe~
+ShortDescr   a burnt chitin robe~
+Description  A burnt chitin robe lies here.~
+ActionDesc   ~
+Ovnum         29581
+ExtraFlags   1856&1281
+WearLoc      14
+Weight       3
+Cost         4500
+Values       6 19 0 0 0 1 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 35 69 0&8
+Affect       -1 -1 5 79 0
+Affect       -1 -1 6 79 0
+Affect       -1 -1 5 79 0
+Affect       -1 -1 2 31 0
+Affect       -1 -1 -5 17 0
+Affect       -1 -1 15 13 0
+Affect       -1 -1 -4 22 0
+End
+
+#OBJECT
+Name         a scratched brigandine set of legguards~
+ShortDescr   a scratched brigandine set of legguards~
+Description  A scratched brigandine set of legguards lies here.~
+ActionDesc   ~
+Ovnum         29560
+ExtraFlags   537395520&1024
+Weight       6
+Cost         2500
+Values       10 9 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 6 31 0
+Affect       -1 -1 2 1 0
+Affect       -1 -1 5 2 0
+End
+
+#OBJECT
+Name         component oak leaves~
+ShortDescr   some oak leaves~
+Description  A small pile of oak leaves.~
+ActionDesc   ~
+Ovnum         21457
+ExtraFlags   536870912&1024
+Values       2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+End
+
+#END

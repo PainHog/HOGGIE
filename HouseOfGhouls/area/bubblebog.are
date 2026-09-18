@@ -1,0 +1,3148 @@
+#AREA   Bubbling Bog~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG The strange sound of bubbling comes up through the mud below you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 260658176
+
+#CLIMATE 3 2 1
+
+#MOBILES
+#1801
+muskrat filthy mud-covered~
+a filthy muskrat~
+A small mud-covered muskrat scampers about.
+~
+A small muskrat, covered in swamp mud, scampers about the underbrush, looking
+for small bits of food.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+0 0 268435461 0 0 0 0 0
+#1802
+muskrat filthy mud-covered~
+a filthy muskrat~
+A small mud-covered muskrat scampers about.
+~
+A small muskrat, covered in swamp mud, scampers about the underbrush, looking
+for small bits of food.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+0 0 268435461 0 0 0 0 0
+#1803
+toad green dark~
+a dark green toad~
+A dark green toad watches you from the mud.
+~
+A small toad, colored dark green, sits in a small mudhole.  It seems to be
+watching you, and it gives a small croak every so often.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 268437509 0 0 0 0 0
+#1804
+toad green dark~
+a dark green toad~
+A dark green toad watches you from the mud.
+~
+A small toad, colored dark green, sits in a small mudhole.  It seems to be
+watching you, and it gives a small croak every so often.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 268437509 0 0 0 0 0
+#1805
+lizardman woman lizard lizardwoman~
+a lizardwoman~
+A lizardwoman nods to you as she moves about the swamp.
+~
+A young lizardwoman move through the swamp, looking for plants or other herbs
+that she can use for cooking or home-use.  She nods slightly at you, even
+though you are pretty out of place in the bog.
+~
+16777281 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 18 0 0 1024 1024 0
+0 0 15 0 0 0 1 0
+#1806
+lizardman woman lizard lizardwoman~
+a lizardwoman~
+A lizardwoman nods to you as she moves about the swamp.
+~
+A young lizardwoman move through the swamp, looking for plants or other herbs
+that she can use for cooking or home-use.  She nods slightly at you, even
+though you are pretty out of place in the bog.
+~
+16777281 0 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 18 0 0 1024 1024 0
+0 0 15 0 0 0 1 0
+#1807
+lizardman  lizard man~
+a lizardman~
+A lizardman quietly hunts muskrats.
+~
+A young lizardman moves quietly through the bog, holding his spear at the
+ready, looking for muskrats.  Already, a few dead rodents hang from the
+lizardman's belt.
+~
+16777281 32768 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 18 0 0 1024 1024 0
+0 0 31 0 0 0 3 0
+#1808
+lizardman  lizard man~
+a lizardman~
+A lizardman quietly hunts muskrats.
+~
+A young lizardman moves quietly through the bog, holding his spear at the
+ready, looking for muskrats.  Already, a few dead rodents hang from the
+lizardman's belt.
+~
+16777281 32768 0 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 18 0 0 1024 1024 0
+0 0 31 0 0 0 3 0
+#1809
+alligator~
+an alligator~
+A long alligator swims slowly through the muck.
+~
+At first you don't see anything but a log, but then the eyes blink, and you
+realize you are staring at a seven foot long alligator.  Perhaps you should
+leave him alone?
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1024 1024 0
+0 0 196609 0 0 0 1 0
+#1810
+alligator~
+an alligator~
+A long alligator swims slowly through the muck.
+~
+At first you don't see anything but a log, but then the eyes blink, and you
+realize you are staring at a seven foot long alligator.  Perhaps you should
+leave him alone?
+~
+16777281 0 0 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1024 1024 0
+0 0 196609 0 0 0 1 0
+#1811
+bird cardinal red~
+a cardinal~
+A bright red bird flutters from branch to branch.
+~
+It's impossible to miss the passing of this small bird, for the bright red
+stands out against the dull brown and greens of the swampland.  The cardinal
+grabs a small bug from the mud, and flies off again.
+~
+16777281 524288 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 0 0
+#1812
+lizardman  lizard man guard~
+a lizardman guard~
+A lizardman patrols his swampland home.
+~
+A strong looking lizardman walks about the bog, keeping an eye out for any
+trouble, or anything strange.  He stops when he see's you, and wonders why you
+are here.
+~
+32835 0 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 21 0 0 1024 1024 0
+0 0 31 0 0 0 5 0
+#1813
+lizardman  lizard man guard~
+a lizardman guard~
+A lizardman patrols his swampland home.
+~
+A strong looking lizardman walks about the bog, keeping an eye out for any
+trouble, or anything strange.  He stops when he see's you, and wonders why you
+are here.
+~
+32833 0 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 21 0 0 1024 1024 0
+0 0 31 0 0 0 5 0
+#1814
+lizardman  lizard man guard~
+a lizardman guard~
+A lizardman patrols his swampland home.
+~
+A strong looking lizardman walks about the bog, keeping an eye out for any
+trouble, or anything strange.  He stops when he see's you, and wonders why you
+are here.
+~
+32833 0 0 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 21 0 0 1024 1024 0
+0 0 31 0 0 0 5 0
+#1815
+lizardwoman chieftess lizard woman~
+the chieftess~
+The chieftess of the lizardmen stands thinking in her hut.
+~
+As you enter the chieftess's hut, a large lizardwoman looks up at you.  She
+scowls as she loses the thought in her head, and stares at you with reptilian
+eyes.
+~
+16777283 4194432&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 16 0 0 1024 1024 0
+0 0 15 2097152 0 0 7 1
+#1816
+lizardman lizard man wartrainer~
+the wartrainer~
+A large lizardman practices with a strange spear.
+~
+This large lizardman concentrates on some interesting combat maneuvers, mixing
+between spear usage and attacking with his tail.  He ignores your presence.
+~
+17826883 4194304&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 2097151 1024 0
+0 0 15 2097152 0 0 7 1
+#1817
+lizardwoman witch huntress lizard woman~
+the witch huntress~
+An elderly lizardwoman witchhuntress studies some bones.
+~
+The elderly lizardwoman shakes some bones in an old hollow gourd, and tosses
+them on the ground.  She studies their locations and positions, then begins to
+chuckle softly to herself.
+~
+17826883 37748864&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 11 0 0 1024 1024 0
+0 0 15 2097152 0 0 67108865 0
+> death_prog 5~
+groan
+rinvoke artifact
+~
+|
+#1818
+lizardman armorer lizard man~
+the armorer~
+A lizardman stands here, stitching together leather and metal plates.
+~
+Hard at work creating a new piece of armor, the lizardman armorer stitches
+small metal plates onto a sturdy piece of armor.  He nods in your direction
+when he notices you.
+~
+16777283 4194304&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 19 0 0 1024 1024 0
+0 0 15 0 0 0 7 1
+#1819
+lizardman scribe lizard man~
+the scribe~
+An old lizardman sits bent over some scraps of parchment.
+~
+This old lizardman pays you no attention as you approach.  He scratches at
+some old parchment with a bright red quill.  You see what appears to be some
+sort of runes written on the old scroll.
+~
+16777283 4194304&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 20 0 0 1024 1024 0
+0 0 15 0 0 0 1 0
+#1820
+lizardwoman huntress lizard woman~
+the huntress~
+The huntress of the lizardmen sharpens her spear.
+~
+Making long strokes with a stone, the lizardmen huntress sits here sharpening
+her spear.  Hanging about the small hut are various dead animals, stored here
+for hungry lizardmen.
+~
+16777283 4194304&256 0 C
+55 0 -195 5d50+2150 4d5+48
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 22 0 0 1024 1024 0
+0 0 15 0 0 0 132 1
+#1821
+lizardman warrior Sazrn Delyn~
+the lizardman warrior, Sazrn Delyn~
+A tall lizardman carrying a huge battle axe stops and flicks his tongue at you.
+~
+There is no mistaking this mighty figure before you.  This can only be Sazrn
+Delyn, the heroic lizardman warrior.  Many tales have been told over pints of
+ale about his battles with dragons and demigods alike.  His strange reptilian
+glare and flicking tongue give him a hostile look, but some have said he is
+quite kind.
+~
+17826817 -1805647744&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 12 0 0 1835007 1 0
+0 0 987071 2105798 0 0 131575 524291
+> death_prog 5~
+snarl
+say May the Bog swallow your soul and cause you to rot for eternity!
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#2000
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1801
+spear muskrat~
+a muskrat spear~
+A long, three-tined spear sits here.~
+~
+5 0&16 131073
+12 4 7 24
+6 150 0
+#1802
+dagger rusty~
+a rusty dagger~
+An old rusty dagger sits in the muck.~
+~
+5 0 131073
+12 1 4 11
+2 25 0
+#1803
+sword corroded~
+a corroded sword~
+An old sword, corroded by swampy conditions.~
+~
+5 0 131073
+12 1 6 3
+4 50 0
+#1804
+backshield leather~
+a leather backshield~
+A backshield, crafted from dark leather.~
+~
+9 0 4097
+4 4 0 0
+4 1500 0
+#1805
+mask leather lizard~
+a leather lizard mask~
+A small leather mask, shaped like the head of a lizardman.~
+~
+9 0 17
+4 4 0 0
+2 2500 0
+#1806
+anklet bronze leather~
+a bronze and leather anklet~
+A small anklet, crafted from leather and bits of bronze.~
+~
+9 0 32769
+4 4 0 0
+2 1500 0
+#1807
+plate body iron~
+an iron body plate~
+A plate of iron, designed to be worn on the chest.~
+~
+9 524288 65
+13 13 0 0
+12 3500 0
+#1808
+leather shield~
+a leather shield~
+A round shield, crafted from tough leather.~
+~
+9 0 524289
+5 5 0 0
+6 2500 0
+#1809
+recall scroll~
+a scroll of recall~
+A small recall scroll lies here.~
+~
+2 64 1048577
+5 -1 -1 -1
+1 150 0
+'word of recall' 'NONE' 'NONE'
+#1810
+freeze scroll~
+a scroll of freeze~
+A small scroll, marked with the lizardman rune for ice.~
+~
+2 64 1048577
+25 -1 -1 -1
+1 1500 0
+'chill touch' 'NONE' 'NONE'
+#1811
+bolt scroll~
+a scroll of bolt~
+A small bluish scroll sits here.~
+~
+2 64 1048577
+25 -1 -1 -1
+1 2000 0
+'lightning bolt' 'NONE' 'NONE'
+#1812
+strike scroll~
+a scroll of strike~
+A small scroll, with the image of a stormcloud scrawled on it.~
+~
+2 64 1048577
+25 -1 -1 -1
+1 1000 0
+'call lightning' 'NONE' 'NONE'
+#1813
+gray scroll~
+a gray scroll~
+A small gray-colored scroll sits here.~
+~
+2 64 1048577
+25 -1 -1 -1
+1 4000 0
+'stone skin' 'NONE' 'NONE'
+#1814
+muskrat~
+a muskrat~
+A small muskrat corpse rots here.~
+~
+19 0 1
+15 0 0 0
+1 100 0
+#1815
+deer haunch venison~
+a haunch of venison~
+A large deer haunch gathers flies here.~
+~
+19 0 1
+40 0 0 0
+5 550 0
+#1816
+alligator stick meat~
+alligator-on-a-stick~
+Several pieces of white meat, stuck on a stick~
+~
+19 0 1
+45 0 0 0
+2 750 0
+#1817
+spear blade~
+a spearblade~
+A long blade, attached to a sturdy shaft, leans here.~
+~
+5 0&16 131073
+12 6 5 17
+6 250 0
+A
+18 5
+A
+1 2
+#1818
+badge bog~
+the badge of the Bog~
+A small mud-covered badge lies here.~
+~
+9 66 2097153
+1 1 0 0
+1 250 0
+A
+27 2
+#1819
+vambraces alligator~
+alligator skin vambraces~
+Some sleeves, crafted from a strange green skin.~
+~
+9 64 129
+4 4 0 0
+3 350 0
+A
+13 15
+A
+31 2
+#1820
+bota bag leather~
+a leather bota bag~
+A strangely shaped leather drinking bag.~
+~
+17 0 4097
+40 40 0 0
+3 500 0
+#1821
+water barrel~
+a water barrel~
+This barrel is quite full of clear water.~
+~
+25 0 0
+0 1 0 0
+9999 0 0
+#2000
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1801
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  A rope ladder heads down towards the bog.
+~
+0 0 0
+D0
+~
+~
+0 0 1802
+D5
+~
+~
+0 0 1850
+S
+#1802
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+~
+~
+0 0 1803
+D2
+Exit description~
+~
+0 0 1801
+S
+#1803
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+~
+~
+0 0 1804
+D2
+Exit description~
+~
+0 0 1802
+D3
+Exit description~
+~
+0 0 1822
+S
+#1804
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+~
+~
+0 0 1805
+D3
+Exit description~
+~
+0 0 1803
+S
+#1805
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+~
+~
+0 0 1806
+D3
+Exit description~
+~
+0 0 1804
+S
+#1806
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D2
+~
+~
+0 0 1807
+D3
+Exit description~
+~
+0 0 1805
+S
+#1807
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  Small skulls are placed all over the hut to the west.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1806
+D2
+~
+~
+0 0 1808
+D3
+~
+~
+0 0 1827
+S
+#1808
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1807
+D2
+~
+~
+0 0 1809
+S
+#1809
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  The smell of tanning fluid floats from the hut to the west.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1808
+D2
+~
+~
+0 0 1810
+D3
+Exit description~
+~
+0 0 1828
+S
+#1810
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 1809
+D3
+~
+~
+0 0 1811
+S
+#1811
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1810
+D3
+~
+~
+0 0 1812
+S
+#1812
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  A small hut lies to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1826
+D1
+Exit description~
+~
+0 0 1811
+D3
+~
+~
+0 0 1813
+S
+#1813
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1812
+D3
+~
+~
+0 0 1814
+S
+#1814
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  A small hut lies to the south.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1813
+D2
+~
+~
+0 0 1825
+D3
+~
+~
+0 0 1815
+S
+#1815
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 1814
+D3
+~
+~
+0 0 1816
+S
+#1816
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+~
+~
+0 0 1817
+D1
+Exit description~
+~
+0 0 1815
+S
+#1817
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  The hut to the west is much larger than the others, and is quite
+well built.
+~
+0 0 0
+D0
+~
+~
+0 0 1818
+D2
+Exit description~
+~
+0 0 1816
+D3
+~
+~
+0 0 1824
+S
+#1818
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+~
+~
+0 0 1819
+D2
+Exit description~
+~
+0 0 1817
+S
+#1819
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D0
+~
+~
+0 0 1820
+D2
+Exit description~
+~
+0 0 1818
+S
+#1820
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+~
+~
+0 0 1821
+D2
+Exit description~
+~
+0 0 1819
+S
+#1821
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.  The sound of fighting comes from the hut to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1823
+D1
+~
+~
+0 0 1822
+D3
+Exit description~
+~
+0 0 1820
+S
+#1822
+A Suspended Walkway~
+You stand on a suspended walkway, high above the bubbling mud of the swamp.
+Hanging from the branches of several of the larger trees, the walkway gives
+the lizardmen a place to attach their homes and huts out of the muck and wet
+of the bog.
+~
+0 0 0
+D1
+~
+~
+0 0 1803
+D3
+Exit description~
+~
+0 0 1821
+S
+#1823
+The Wartrainers Hut~
+This small hut has a hammock on one side, but the rest of the room is bare.  A
+leather pad covers most of the floor.  Training weapons rest on racks against
+the far wall.  This looks like a good place to practice your skills.
+~
+0 8 0
+D2
+~
+~
+0 0 1821
+S
+#1824
+The Royal Hut~
+This hut is larger than the others, and more care has been taken with its
+construction.  Interesting looking lizardman art hangs on the walls, and a
+collection of skulls is set in a ring around the room.  A large wooden throne
+sits against the far wall.
+~
+0 8 0
+D1
+~
+~
+0 0 1817
+S
+#1825
+The Huntresses Hut~
+This hut has a strange smell about it, like a cross between rotting meat and
+preserving chemicals.  Small corpses of muskrats and other swamp animals lie
+in a pile in one corner, and a large water container sits in the middle of the
+room.
+~
+0 8 0
+D0
+~
+~
+0 0 1814
+S
+#1826
+The Scribes Hut~
+Small scraps of paper lie strewn about this messy hut.  The bulk of the space
+is taken up by a large desk and chair.  The smell of foul inks floats through
+the air.
+~
+0 8 0
+D2
+~
+~
+0 0 1812
+S
+#1827
+A Skull-Covered Hut~
+The smell of death is strong in this hut.  Bits and pieces of various woodland
+creatures sit in various places around the room.  Strange relics, probably
+used for some sort of lizardman ritual are placed carefully on a large wooden
+shelf.
+~
+0 8 0
+D1
+~
+~
+0 0 1807
+S
+#1828
+The Armorers Hut~
+The smell of tanning fluid hits you as you enter this hut.  Large pieces of
+deerskin hang from ropes ran across the top of the hut, most in various stages
+of the tanning process.  A box with bits of metal stands close by.
+~
+0 8 0
+D1
+~
+~
+0 0 1809
+S
+#1829
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1860
+D1
+~
+~
+0 0 1830
+D2
+~
+~
+0 0 1848
+D3
+~
+~
+0 0 1858
+S
+#1830
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1854
+D1
+~
+~
+0 0 1831
+D2
+~
+~
+0 0 1913
+D3
+Exit description~
+~
+0 0 1829
+S
+#1831
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1861
+D1
+~
+~
+0 0 1832
+D2
+~
+~
+0 0 1918
+D3
+Exit description~
+~
+0 0 1830
+S
+#1832
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1862
+D1
+~
+~
+0 0 1833
+D2
+~
+~
+0 0 1849
+D3
+Exit description~
+~
+0 0 1831
+S
+#1833
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1863
+D1
+~
+~
+0 0 1834
+D2
+~
+~
+0 0 1920
+D3
+Exit description~
+~
+0 0 1832
+S
+#1834
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1864
+D1
+~
+~
+0 0 1835
+D2
+~
+~
+0 0 1853
+D3
+Exit description~
+~
+0 0 1833
+S
+#1835
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1865
+D1
+~
+~
+0 0 1867
+D2
+~
+~
+0 0 1836
+D3
+Exit description~
+~
+0 0 1834
+S
+#1836
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1835
+D1
+~
+~
+0 0 1868
+D2
+~
+~
+0 0 1837
+D3
+~
+~
+0 0 1853
+S
+#1837
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1836
+D1
+~
+~
+0 0 1869
+D2
+~
+~
+0 0 1838
+D3
+~
+~
+0 0 1922
+S
+#1838
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1837
+D1
+~
+~
+0 0 1870
+D2
+~
+~
+0 0 1839
+D3
+~
+~
+0 0 1852
+S
+#1839
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1838
+D1
+~
+~
+0 0 1871
+D2
+~
+~
+0 0 1873
+D3
+~
+~
+0 0 1840
+S
+#1840
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1852
+D1
+Exit description~
+~
+0 0 1839
+D2
+~
+~
+0 0 1874
+D3
+~
+~
+0 0 1841
+S
+#1841
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1851
+D1
+Exit description~
+~
+0 0 1840
+D2
+~
+~
+0 0 1875
+D3
+~
+~
+0 0 1842
+S
+#1842
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1919
+D1
+Exit description~
+~
+0 0 1841
+D2
+~
+~
+0 0 1876
+D3
+~
+~
+0 0 1843
+S
+#1843
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1916
+D1
+Exit description~
+~
+0 0 1842
+D2
+~
+~
+0 0 1877
+D3
+~
+~
+0 0 1844
+S
+#1844
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1915
+D1
+Exit description~
+~
+0 0 1843
+D2
+~
+~
+0 0 1878
+D3
+~
+~
+0 0 1845
+S
+#1845
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1846
+D1
+Exit description~
+~
+0 0 1844
+D2
+~
+~
+0 0 1879
+D3
+~
+~
+0 0 1881
+S
+#1846
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1847
+D1
+~
+~
+0 0 1915
+D2
+Exit description~
+~
+0 0 1845
+D3
+~
+~
+0 0 1855
+S
+#1847
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1848
+D1
+~
+~
+0 0 1914
+D2
+Exit description~
+~
+0 0 1846
+D3
+~
+~
+0 0 1856
+S
+#1848
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1829
+D1
+~
+~
+0 0 1913
+D2
+Exit description~
+~
+0 0 1847
+D3
+~
+~
+0 0 1857
+S
+#1849
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1832
+D1
+~
+~
+0 0 1920
+D2
+~
+~
+0 0 1850
+D3
+~
+~
+0 0 1918
+S
+#1850
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.  A small rope ladder dangles from the
+walkway above you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1849
+D1
+~
+~
+0 0 1921
+D2
+~
+~
+0 0 1919
+D3
+~
+~
+0 0 1917
+D4
+Exit description~
+~
+0 0 1801
+S
+#1851
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1921
+D1
+~
+~
+0 0 1852
+D2
+Exit description~
+~
+0 0 1841
+D3
+~
+~
+0 0 1919
+S
+#1852
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1922
+D1
+Exit description~
+~
+0 0 1838
+D2
+Exit description~
+~
+0 0 1840
+D3
+Exit description~
+~
+0 0 1851
+S
+#1853
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1834
+D1
+Exit description~
+~
+0 0 1836
+D2
+~
+~
+0 0 1922
+D3
+~
+~
+0 0 1920
+S
+#1854
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D1
+~
+~
+0 0 1861
+D2
+Exit description~
+~
+0 0 1830
+D3
+~
+~
+0 0 1860
+S
+#1855
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  Above you, a makeshift walkway connects several suspended huts.
+The sound of insects is all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1856
+D1
+Exit description~
+~
+0 0 1846
+D2
+Exit description~
+~
+0 0 1881
+D3
+~
+~
+16777216 0 1883
+S
+#1856
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1857
+D1
+Exit description~
+~
+0 0 1847
+D2
+Exit description~
+~
+0 0 1855
+D3
+~
+~
+16777216 0 1884
+S
+#1857
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1858
+D1
+Exit description~
+~
+0 0 1848
+D2
+Exit description~
+~
+0 0 1856
+D3
+Exit description~
+~
+16777216 0 1885
+S
+#1858
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1859
+D1
+Exit description~
+~
+0 0 1829
+D2
+Exit description~
+~
+0 0 1857
+S
+#1859
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1860
+D2
+Exit description~
+~
+0 0 1858
+S
+#1860
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1854
+D2
+Exit description~
+~
+0 0 1829
+D3
+Exit description~
+~
+0 0 1859
+S
+#1861
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+16777216 0 1886
+D1
+Exit description~
+~
+0 0 1862
+D2
+Exit description~
+~
+0 0 1831
+D3
+Exit description~
+~
+0 0 1854
+S
+#1862
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+16777216 0 1887
+D1
+Exit description~
+~
+0 0 1863
+D2
+Exit description~
+~
+0 0 1832
+D3
+Exit description~
+~
+0 0 1861
+S
+#1863
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+16777216 0 1888
+D1
+Exit description~
+~
+0 0 1864
+D2
+Exit description~
+~
+0 0 1833
+D3
+Exit description~
+~
+0 0 1862
+S
+#1864
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+16777216 0 1889
+D1
+Exit description~
+~
+0 0 1865
+D2
+Exit description~
+~
+0 0 1834
+D3
+Exit description~
+~
+0 0 1863
+S
+#1865
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+16777216 0 1890
+D1
+Exit description~
+~
+0 0 1866
+D2
+Exit description~
+~
+0 0 1835
+D3
+Exit description~
+~
+0 0 1864
+S
+#1866
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 1867
+D3
+Exit description~
+~
+0 0 1865
+S
+#1867
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1866
+D1
+Exit description~
+~
+16777216 0 1891
+D2
+Exit description~
+~
+0 0 1868
+D3
+Exit description~
+~
+0 0 1835
+S
+#1868
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1867
+D1
+Exit description~
+~
+16777216 0 1892
+D2
+Exit description~
+~
+0 0 1869
+D3
+Exit description~
+~
+0 0 1836
+S
+#1869
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1868
+D1
+Exit description~
+~
+16777216 0 1893
+D2
+Exit description~
+~
+0 0 1870
+D3
+Exit description~
+~
+0 0 1837
+S
+#1870
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.  A muddy path seems to lead
+off into the muck to the east.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1869
+D1
+~
+~
+0 0 7201
+D2
+Exit description~
+~
+0 0 1871
+D3
+~
+~
+0 0 1838
+S
+#1871
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1870
+D2
+Exit description~
+~
+0 0 1872
+D3
+Exit description~
+~
+0 0 1839
+S
+#1872
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1871
+D3
+Exit description~
+~
+0 0 1873
+S
+#1873
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1839
+D1
+Exit description~
+~
+0 0 1872
+D3
+Exit description~
+~
+0 0 1874
+S
+#1874
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1840
+D1
+Exit description~
+~
+0 0 1873
+D3
+Exit description~
+~
+0 0 1875
+S
+#1875
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1841
+D1
+Exit description~
+~
+0 0 1874
+D3
+Exit description~
+~
+0 0 1876
+S
+#1876
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1842
+D1
+Exit description~
+~
+0 0 1875
+D3
+Exit description~
+~
+0 0 1877
+S
+#1877
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1843
+D1
+Exit description~
+~
+0 0 1876
+D2
+Exit description~
+~
+0 0 1894
+D3
+Exit description~
+~
+0 0 1878
+S
+#1878
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1844
+D1
+Exit description~
+~
+0 0 1877
+D3
+Exit description~
+~
+0 0 1879
+S
+#1879
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1845
+D1
+Exit description~
+~
+0 0 1878
+D3
+Exit description~
+~
+0 0 1880
+S
+#1880
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1881
+D1
+Exit description~
+~
+0 0 1879
+S
+#1881
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1855
+D1
+Exit description~
+~
+0 0 1845
+D2
+Exit description~
+~
+0 0 1880
+D3
+Exit description~
+~
+16777216 0 1882
+S
+#1882
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1883
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1884
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1885
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1886
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1887
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1888
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1889
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1890
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1891
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1892
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1893
+Wandering The Bog~
+Oh no!  You seemed to have found a place where the mud and much is a bit
+softer, and you have sunk down to your knees.  The more you try to get out,
+the deeper you get.  Looks like you're stuck here, unless you have another way
+of getting out.
+~
+0 4 3
+S
+#1894
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+The trail appears to open up into some sort of swamp to the north.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1877
+D2
+Exit description~
+~
+0 0 1895
+S
+#1895
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1894
+D2
+Exit description~
+~
+0 0 1896
+S
+#1896
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1895
+D1
+Exit description~
+~
+0 0 1897
+S
+#1897
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1898
+D3
+Exit description~
+~
+0 0 1896
+S
+#1898
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 1899
+D3
+Exit description~
+~
+0 0 1897
+S
+#1899
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1898
+D2
+Exit description~
+~
+0 0 1900
+S
+#1900
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1899
+D2
+Exit description~
+~
+0 0 1901
+S
+#1901
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1900
+D2
+Exit description~
+~
+0 0 1902
+S
+#1902
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1901
+D2
+Exit description~
+~
+0 0 1903
+S
+#1903
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1902
+D2
+Exit description~
+~
+0 0 1904
+S
+#1904
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D0
+~
+~
+0 0 1903
+D1
+~
+~
+0 0 501
+D3
+Exit description~
+~
+0 0 1905
+S
+#1905
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1904
+D3
+Exit description~
+~
+0 0 1906
+S
+#1906
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1905
+D3
+Exit description~
+~
+0 0 1907
+S
+#1907
+An Overgrown Trail~
+You travel down a very overgrown trail.  At times, you can barely make out the
+path, due to all the vines and bushes.  The trees are covered in a strange,
+dangling moss.  The sounds of insects and other wildlife are all about you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1906
+D2
+Exit description~
+~
+0 0 1908
+S
+#1908
+A Forest Trail~
+You walk down a small trail through the middle of the forest.  The sounds of
+insects can be heard in the distance.  Small birds fly from branch to branch
+of the trees, and you can hear the rustling of other small woodland creatures
+moving about in the forest.  The trail seems to be harder to spot further
+north.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1907
+D2
+Exit description~
+~
+0 0 1909
+S
+#1909
+A Forest Trail~
+You walk down a small trail through the middle of the forest.  The sounds of
+insects can be heard in the distance.  Small birds fly from branch to branch
+of the trees, and you can hear the rustling of other small woodland creatures
+moving about in the forest.  The trail seems to be harder to spot further
+north.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1908
+D2
+Exit description~
+~
+0 0 1910
+S
+#1910
+A Forest Trail~
+You walk down a small trail through the middle of the forest.  The sounds of
+insects can be heard in the distance.  Small birds fly from branch to branch
+of the trees, and you can hear the rustling of other small woodland creatures
+moving about in the forest.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1909
+D2
+Exit description~
+~
+0 0 1911
+S
+#1911
+A Forest Trail~
+You walk down a small trail through the middle of the forest.  The sounds of
+insects can be heard in the distance.  Small birds fly from branch to branch
+of the trees, and you can hear the rustling of other small woodland creatures
+moving about in the forest.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1910
+D2
+Exit description~
+~
+0 0 1912
+S
+#1912
+A Forest Trail~
+You walk down a small trail through the middle of the forest.  The sounds of
+insects can be heard in the distance.  Small birds fly from branch to branch
+of the trees, and you can hear the rustling of other small woodland creatures
+moving about in the forest.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1911
+D2
+Exit description~
+~
+0 0 309
+S
+#1913
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1830
+D1
+Exit description~
+~
+0 0 1918
+D2
+Exit description~
+~
+0 0 1914
+D3
+Exit description~
+~
+0 0 1848
+S
+#1914
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1913
+D1
+Exit description~
+~
+0 0 1917
+D2
+Exit description~
+~
+0 0 1915
+D3
+Exit description~
+~
+0 0 1847
+S
+#1915
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1914
+D1
+Exit description~
+~
+0 0 1916
+D2
+Exit description~
+~
+0 0 1844
+D3
+Exit description~
+~
+0 0 1846
+S
+#1916
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1917
+D1
+Exit description~
+~
+0 0 1919
+D2
+Exit description~
+~
+0 0 1843
+D3
+Exit description~
+~
+0 0 1915
+S
+#1917
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1918
+D1
+Exit description~
+~
+0 0 1850
+D2
+Exit description~
+~
+0 0 1916
+D3
+Exit description~
+~
+0 0 1914
+S
+#1918
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1831
+D1
+Exit description~
+~
+0 0 1849
+D2
+Exit description~
+~
+0 0 1917
+D3
+Exit description~
+~
+0 0 1913
+S
+#1919
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1850
+D1
+Exit description~
+~
+0 0 1851
+D2
+Exit description~
+~
+0 0 1842
+D3
+Exit description~
+~
+0 0 1916
+S
+#1920
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1833
+D1
+Exit description~
+~
+0 0 1853
+D2
+Exit description~
+~
+0 0 1921
+D3
+Exit description~
+~
+0 0 1849
+S
+#1921
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1920
+D1
+~
+~
+0 0 1922
+D2
+Exit description~
+~
+0 0 1851
+D3
+Exit description~
+~
+0 0 1850
+S
+#1922
+Wandering The Bog~
+The sound of bubbling is all around you as you explore this strange bog.
+While only ankle deep, the mud and water pulls at you, making walking
+difficult.  You hear the splashing of some creature in the muck in the
+distance.  The sound of insects is all about you.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1853
+D1
+Exit description~
+~
+0 0 1837
+D2
+Exit description~
+~
+0 0 1852
+D3
+Exit description~
+~
+0 0 1921
+S
+#2000
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 1821 1 1894
+O 0 1821 1 1825
+M 0 1820 1 1825
+G 1 1820 1
+G 1 1816 1
+G 1 1815 1
+G 1 1814 1
+M 0 1819 1 1826
+G 1 1813 1
+G 1 1812 1
+G 1 1811 1
+G 1 1810 1
+G 1 1809 1
+M 0 1818 1 1828
+G 1 1808 1
+G 1 1807 1
+G 1 1806 1
+G 1 1805 1
+G 1 1804 1
+M 0 1817 1 1827
+E 0 1802 1 21
+E 0 1806 1 18
+M 0 1816 1 1823
+E 0 1817 1 21
+M 0 1815 1 1824
+E 0 1819 1 8
+E 0 1807 1 7
+E 0 1818 1 25
+E 0 1817 1 21
+M 0 1814 2 1802
+E 0 1804 1 15
+M 0 1814 2 1802
+E 0 1818 1 25
+M 0 1813 3 1819
+E 0 1803 1 21
+M 0 1813 3 1819
+E 0 1801 1 21
+M 0 1813 3 1819
+E 0 1802 1 21
+M 0 1812 2 1817
+E 0 1805 1 4
+M 0 1812 2 1817
+E 0 1818 1 25
+M 0 1811 2 1832
+M 0 1811 2 1832
+M 0 1810 1 1869
+M 0 1809 1 1856
+M 0 1808 3 1920
+M 0 1808 3 1920
+M 0 1808 3 1920
+M 0 1807 2 1820
+M 0 1807 2 1820
+M 0 1806 2 1810
+M 0 1806 2 1810
+M 0 1805 3 1801
+M 0 1805 3 1801
+M 0 1805 3 1801
+M 0 1804 2 1835
+M 0 1804 2 1835
+M 0 1803 2 1845
+M 0 1803 2 1845
+M 0 1802 3 1872
+M 0 1802 3 1872
+M 0 1802 3 1872
+M 0 1801 3 1859
+M 0 1801 3 1859
+M 0 1801 3 1859
+S
+
+
+#SHOPS
+ 1818    9  8  5  0  0   120  90         7 18    ; the armorer
+ 1819    2 10  8 26  0   120  90         7 18    ; the scribe
+ 1820   17 19  0  0  0   120  90         7 18    ; the huntress
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1812 spec_guard
+M  1813 spec_guard
+M  1814 spec_guard
+M  1815 spec_cast_druid
+M  1817 spec_cast_shaman
+M  1819 spec_cast_cleric
+M  1820 spec_cast_druid
+M  1821 spec_executioner
+S
+
+
+#$

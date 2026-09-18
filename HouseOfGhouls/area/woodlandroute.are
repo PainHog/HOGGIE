@@ -1,0 +1,1103 @@
+#AREA   Woodland Route~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+5 50 0 65
+$
+
+#RESETMSG The smell of opium fields and heavy forest grows thicker with the breeze.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 658055132
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6251
+field worker woman~
+a field worker~
+This woman is making her way to the fields.
+~
+This woman is on her way to the fields.  Her skin is tanned and her body has
+been shaped by years of labor in the opium and silk fields. Her clothes are
+light and her large brimmed hat keeps the sun from her face.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 8 0 0 0 0 2
+#6252
+field worker woman~
+a field worker~
+This woman is making her way to the fields.
+~
+This woman is on her way to the fields.  Her skin is tanned and her body has
+been shaped by years of labor in the opium and silk fields. Her clothes are
+light and her large brimmed hat keeps the sun from her face.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 8 0 0 0 0 2
+#6253
+field worker woman~
+a field worker~
+This woman is making her way to the fields.
+~
+This woman is on her way to the fields.  Her skin is tanned and her body has
+been shaped by years of labor in the opium and silk fields. Her clothes are
+light and her large brimmed hat keeps the sun from her face.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 8 0 0 0 0 2
+#6254
+field worker woman~
+a field worker~
+This woman is making her way to the fields.
+~
+This woman is on her way to the fields.  Her skin is tanned and her body has
+been shaped by years of labor in the opium and silk fields. Her clothes are
+light and her large brimmed hat keeps the sun from her face.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 8 0 0 0 0 2
+#6255
+field worker woman~
+a field worker~
+This woman is making her way to the fields.
+~
+This woman is on her way to the fields.  Her skin is tanned and her body has
+been shaped by years of labor in the opium and silk fields. Her clothes are
+light and her large brimmed hat keeps the sun from her face.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 8 0 0 0 0 2
+#6256
+half orc scout~
+a half-orc scout~
+This half-orc is trying to remain hidden.
+~
+This half-orc is staying hidden among the dense plantlife.  He is watching the
+road for signs of imperial soldiers or anything else out of the ordinary. He
+is quite large and it seems he is an odd choice for a scout.
+~
+1 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6257
+half orc scout~
+a half-orc scout~
+This half-orc is trying to remain hidden.
+~
+This half-orc is staying hidden among the dense plantlife.  He is watching the
+road for signs of imperial soldiers or anything else out of the ordinary. He
+is quite large and it seems he is an odd choice for a scout.
+~
+1 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6258
+half orc scout~
+a half-orc scout~
+This half-orc is trying to remain hidden.
+~
+This half-orc is staying hidden among the dense plantlife.  He is watching the
+road for signs of imperial soldiers or anything else out of the ordinary. He
+is quite large and it seems he is an odd choice for a scout.
+~
+1 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6259
+Imperial ranger man~
+an Imperial ranger~
+This man is silently stalking rebel prey.
+~
+This man looks like he has not been inside a city for years.  His face is
+covered in a thick beard and his hair is dirty and stringy.  He stays hidden
+just along the edge of path, watching for any sign of rebel activity.  He
+carries his weapon close as he waits.
+~
+16777281 65536 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 8 0 0 0 64 2
+#6260
+Imperial ranger man~
+an Imperial ranger~
+This man is silently stalking rebel prey.
+~
+This man looks like he has not been inside a city for years.  His face is
+covered in a thick beard and his hair is dirty and stringy.  He stays hidden
+just along the edge of path, watching for any sign of rebel activity.  He
+carries his weapon close as he waits.
+~
+16777281 65536 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 8 0 0 0 64 2
+#6261
+Imperial ranger man~
+an Imperial ranger~
+This man is silently stalking rebel prey.
+~
+This man looks like he has not been inside a city for years.  His face is
+covered in a thick beard and his hair is dirty and stringy.  He stays hidden
+just along the edge of path, watching for any sign of rebel activity.  He
+carries his weapon close as he waits.
+~
+16777281 65536 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 8 0 0 0 64 2
+#6262
+Imperial ranger man~
+an Imperial ranger~
+This man is silently stalking rebel prey.
+~
+This man looks like he has not been inside a city for years.  His face is
+covered in a thick beard and his hair is dirty and stringy.  He stays hidden
+just along the edge of path, watching for any sign of rebel activity.  He
+carries his weapon close as he waits.
+~
+16777281 65536 -1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 8 0 0 0 64 2
+#6263
+stoat weasel critter~
+a stoat~
+This weasel like critter is crossing the road.
+~
+This odd creature looks like a weasel mixed with a rat. It's fur is an ashen
+gray and it's eyes a dulled red.  It scitters across the road, looking for
+something small and tasty to eat and tries to avoid being seen by anything
+else.
+~
+16777281 32768 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 262688 0 0 0 0 0
+#6264
+stoat weasel critter~
+a stoat~
+This weasel like critter is crossing the road.
+~
+This odd creature looks like a weasel mixed with a rat. It's fur is an ashen
+gray and it's eyes a dulled red.  It scitters across the road, looking for
+something small and tasty to eat and tries to avoid being seen by anything
+else.
+~
+16777281 32768 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 262688 0 0 0 0 0
+#6265
+stoat weasel critter~
+a stoat~
+This weasel like critter is crossing the road.
+~
+This odd creature looks like a weasel mixed with a rat. It's fur is an ashen
+gray and it's eyes a dulled red.  It scitters across the road, looking for
+something small and tasty to eat and tries to avoid being seen by anything
+else.
+~
+16777281 32768 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 262688 0 0 0 0 0
+#6266
+stoat weasel critter~
+a stoat~
+This weasel like critter is crossing the road.
+~
+This odd creature looks like a weasel mixed with a rat. It's fur is an ashen
+gray and it's eyes a dulled red.  It scitters across the road, looking for
+something small and tasty to eat and tries to avoid being seen by anything
+else.
+~
+16777281 32768 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 262688 0 0 0 0 0
+#6267
+pixie spy sneaky~
+a pixie spy~
+This sneaky pixie is looking for interesting things.
+~
+This small pixie is watching the roads intently for anything that might
+be interesting to either the Imperial government or the rebels.  It doesn't
+seem that they have any real affiliation other than that which provides
+the most gold for their service.
+~
+16777409 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 14 0 0 8 8 0
+0 0 26 0 0 0 0 2
+#6268
+pixie spy sneaky~
+a pixie spy~
+This sneaky pixie is looking for interesting things.
+~
+This small pixie is watching the roads intently for anything that might
+be interesting to either the Imperial government or the rebels.  It doesn't
+seem that they have any real affiliation other than that which provides
+the most gold for their service.
+~
+16777409 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 0 0 8 8 0
+0 0 26 0 0 0 0 2
+#6269
+pixie spy sneaky~
+a pixie spy~
+This sneaky pixie is looking for interesting things.
+~
+This small pixie is watching the roads intently for anything that might
+be interesting to either the Imperial government or the rebels.  It doesn't
+seem that they have any real affiliation other than that which provides
+the most gold for their service.
+~
+16777409 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 0 0 8 8 0
+0 0 26 0 0 0 0 2
+#6270
+Murizael pixie beautiful woman~
+Murizael, the Pixie Rogue~
+This beautiful pixie woman is watching your bags.
+~
+This pixie woman is beautiful, almost awe-inspiring. Her wings are a gentle
+gossamer accent to her soft brown eyes and flowing honey hair. Her body is
+curved in almost haunting proportion and she bats her long eyelashes at you as
+you notice her.  She smiles sweetly and tries to hide the fact that she is
+watching your gold pouch.
+~
+16781441 4292736&320 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 14 0 0 9 8 0
+0 0 33048 0 0 0 131248 3
+#6350
+half orc scout~
+a half-orc scout~
+This half-orc is trying to remain hidden.
+~
+This half-orc is staying hidden among the dense plantlife.  He is watching the
+road for signs of imperial soldiers or anything else out of the ordinary. He
+is quite large and it seems he is an odd choice for a scout.
+~
+1 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#6251
+wide brimmed hat~
+A wide brimmed hat~
+This hat will keep the sun out of your face.~
+~
+9 0 3
+2 2 0 0
+1 100 0
+E
+wide brimmed hat~
+This hat has a nice, wide brim.  It is sure to keep the sun out of your eyes.
+~
+#6252
+dirty bow~
+a dirty bow~
+This mud stained bow looks sturdy enough.~
+~
+5 0&16 131073
+12 7 4 14
+2 100 0
+E
+dirty bow~
+This large bow is covered in the dirt and dust of the road.  Once covered with 
+runes, it now has mud caked in the carvings.  It still seems usable however.
+~
+#6350
+throwing spear~
+a throwing spear~
+This light spear would be easy to throw.~
+~
+5 0 131073
+12 2 4 24
+2 100 0
+E
+throwing spear~
+A short spear, made for throwing.  Probably used for hunting, but it could 
+very well be used against other targets.
+~
+#0
+
+
+#ROOMS
+#6251
+Outside Of Bazabel~
+You are standing outside of the monstrous walls of Bazabel.  The road stretches
+down through the thin forest.  Several sentries are positioned behind the
+trees, making them impossible to see if you were walking towards the city.
+Numerous workers travel into and out of the gate and down the road.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6068
+D3
+~
+~
+0 0 6252
+S
+#6252
+On The Woodland Route~
+The city fades from view behind the thick pale colored trees that surround the
+path. The road itself is well cared for as large stones and other debris seems
+constantly cleared, much to the enjoyment of the constant stream of travelers
+and workers. The air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+~
+~
+0 0 6251
+D3
+~
+~
+0 0 6253
+S
+#6253
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6252
+D2
+~
+~
+0 0 6254
+S
+#6254
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6253
+D2
+~
+~
+0 0 6255
+S
+#6255
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6254
+D2
+~
+~
+0 0 6256
+S
+#6256
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6255
+D2
+~
+~
+0 0 6257
+S
+#6257
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6256
+D3
+~
+~
+0 0 6258
+S
+#6258
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6257
+D3
+~
+~
+0 0 6259
+S
+#6259
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6258
+D2
+~
+~
+0 0 6260
+S
+#6260
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.  To the east the path
+leads off into a clearing in the forest.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6259
+D1
+~
+~
+0 0 7501
+D2
+~
+~
+0 0 6261
+S
+#6261
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6260
+D2
+~
+~
+0 0 6262
+S
+#6262
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6261
+D3
+~
+~
+0 0 6263
+S
+#6263
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6262
+D3
+~
+~
+0 0 6264
+S
+#6264
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6263
+D3
+~
+~
+0 0 6265
+S
+#6265
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6264
+D2
+~
+~
+0 0 6266
+S
+#6266
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6265
+D2
+~
+~
+0 0 6267
+S
+#6267
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6266
+D2
+~
+~
+0 0 6268
+S
+#6268
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6267
+D3
+~
+~
+0 0 6269
+S
+#6269
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6268
+D3
+~
+~
+0 0 6270
+S
+#6270
+On The Woodland Route~
+The thick canopy of the trees frame this path quite well. The road itself is
+well cared for as large stones and other debris seems  constantly cleared,
+much to the enjoyment of the constant stream of travelers  and workers. The
+air is crisp and the trees provide excellent cover.  To the north is a path of
+stones that leads to a city made of trees.
+~
+0 1 3
+D0
+~
+~
+0 0 7601
+D1
+Exit description~
+~
+0 0 6269
+D2
+~
+~
+0 0 6271
+S
+#6271
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6270
+D2
+~
+~
+0 0 6272
+S
+#6272
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6271
+D2
+~
+~
+0 0 6273
+S
+#6273
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6272
+D3
+~
+~
+0 0 6274
+S
+#6274
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6273
+D3
+~
+~
+0 0 6275
+S
+#6275
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6274
+D2
+~
+~
+0 0 6276
+S
+#6276
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6275
+D2
+~
+~
+0 0 6277
+S
+#6277
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6276
+D2
+~
+~
+0 0 6278
+S
+#6278
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6277
+D3
+~
+~
+0 0 6279
+S
+#6279
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6278
+D3
+~
+~
+0 0 6280
+S
+#6280
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6279
+D3
+~
+~
+0 0 6281
+S
+#6281
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6280
+D2
+~
+~
+0 0 6282
+S
+#6282
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6281
+D2
+~
+~
+0 0 6283
+S
+#6283
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 6282
+D3
+~
+~
+0 0 6284
+S
+#6284
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.  You can hear the faint sound of battle not too far off.
+~
+0 1 3
+D1
+~
+~
+0 0 6283
+D3
+~
+~
+0 0 6285
+S
+#6285
+On The Woodland Route~
+The road is showing more signs of wear as the forest grows darker.  The stream
+of different workers and merchants has considerably thinned.  The dirt road is
+covered in large stones and other trash.  The sound of the wildlife is heavier
+here.  To the west there seems to be a battle of some kind taking place.
+~
+0 1 3
+D1
+Exit description~
+~
+0 0 6284
+D3
+~
+~
+0 0 7401
+S
+#6300
+PlaceHolder~
+If you are here, you cheating bastard.
+~
+0 3145733 3
+S
+#0
+
+
+#RESETS
+M 0 6251 1 6251
+E 1 6251 1 1
+M 0 6252 1 6253
+E 1 6251 1 1
+M 0 6253 1 6257
+E 1 6251 1 1
+M 0 6254 1 6259
+E 1 6251 1 1
+M 0 6255 1 6263
+E 1 6251 1 1
+M 0 6256 1 6265
+E 1 6350 1 21
+M 0 6259 1 6268
+E 1 6252 1 21
+M 0 6267 1 6271
+M 0 6257 1 6273
+E 1 6350 1 21
+M 0 6260 1 6275
+E 1 6252 1 21
+M 0 6268 1 6277
+M 0 6258 1 6279
+E 1 6350 1 21
+M 0 6261 1 6281
+E 1 6252 1 21
+M 0 6269 1 6283
+M 0 6263 1 6252
+M 0 6264 1 6255
+M 0 6265 1 6266
+M 0 6266 1 6270
+M 0 6350 1 6258
+E 1 6350 1 21
+M 0 6262 1 6254
+E 1 6252 1 21
+M 0 6270 1 6280
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  6270 spec_thief
+S
+
+
+#$

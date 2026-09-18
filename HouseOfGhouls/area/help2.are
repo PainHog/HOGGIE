@@ -1,0 +1,2146 @@
+#HELPS
+0 Pain~
+Pain is the current code implementor at House of Ghouls. If you should
+happen to come across a bug or have an idea for future implementation, you
+can post a note to Pain at Kallista or email him at pain.houseofghouls@gmail.com.
+The best way, however, to get Pain's attention is to post a message on the
+House of Ghouls forms at: &Chttp://houseofghoulsmud.proboards101.com/index.cgi&D
+~
+1 'ASTRAL RIFT'~
+LEGENDARY SPELL:
+
+The astral plane generously comes to the aid of those who seek out, learn, and
+apply this legendary spell. With the casting of this spell, a blast of pure
+energy slices through time and space to damage your opponent with horrifying
+results. With the power brought forth, it is no wonder that this spell is
+legendary throughout this realm.
+
+This high powered spell costs mana. See also Legendary
+~
+1 CONCENTRATE~
+LEGENDARY SKILL:
+
+Learning how to concentrate during battle is one of the most difficult tasks
+to accomplish, but when you're taught by the master's and mistresses that have
+sound advice, the ability to concentrate is very possible. Taught only to
+those who seek this skill, the amount of hit and damage you do is increased.
+
+This skill costs mana. See also: Legendary
+~
+1 WINDWALK~
+LEGENDARY SKILL:
+
+Dancing on the winds of change is never easy, but if you've mastered WINDWALK,
+it's...a breeze. Using the currents of air all around you, parry, dodge, and
+the ability to avoid being hit are increased. Just a puff of time goes by
+before you must beckon the winds once more, but the affects are worth the time
+invested in this skill.
+
+This skill costs mana. See also: Legendary
+~
+1 BLADESONG~
+LEGENDARY SKILL:
+
+The power of a weapon that belongs to a person is increased simply by the
+knowledge of the weapon itself. Legend has it, that if a certain skill is
+learned, hitting your opponent is as easy as slicing butter with a hot knife.
+The unity with one's blade is temporary and expensive to work but finding the
+BLADESONG is a feeling only a selct few can master.
+
+The cost of this skill costs hitpoints and moves. See also: Legendary
+~
+1 BLOODSONG~
+LEGENDARY SKILL:
+
+The heat of battle. The rage of your ancestors flowing through your veins. The
+sounds of battle all around you but the only thing you can hear is the  sound
+of your heart beating in your ears.  Your eyes lose focus as your muscles take
+over with the memory of every trained skill you've ever honed to perfection.
+You can only feel the flush of wrath as it overcomes you  with its BLOODSONG.
+
+This skill costs hitpoints and moves.  See also: Legendary
+~
+1 STARCLOAK~
+LEGENDARY SKILL:
+
+Learning to become one with the heavens benefits the user of this skill by
+protecting them in a cloak of stars that reflect negativity from the wearer.
+Resistance is futile? Not a chance when this skill is applied.
+
+This skill uses mana and moves. See also: Legendary
+~
+1 WILLPOWER~
+LEGENDARY SKILL:
+
+Better than a Baywatch lifeguard, this saves you all around for only the cost
+of mana. See also: Legendary
+~
+65 FCHARMIE~
+Syntax: fcharmie <master> <charmie> <duration>
+
+This will set <charmie> as <master>'s charmie as if they cast the spell. The
+spell will last for <duration> rounds. None of the parameters are optional.
+~
+1 ENCHANT TREASURE 'ENCHANT TREASURE'~
+Syntax: cast 'enchant treasure' <item>
+
+Items of type 'treasure' or 'arttreasure' may be enchanted with this spell,
+yielding an addition to hit points and svd. This spell can enchant magical
+as well as non-magical items but may not be used to enchant an item that is
+already enchanted.
+~
+65 RECONOMY~
+Syntax: reconomy
+
+This will reset all area economies that are above 250,000,000 back to the
+starting value of 250,000,000. This is to be used only in extreme cases where
+several reboots, hotboots and/or crashes have caused a major increase in
+economy values due to interest being calculated upon startup.
+~
+1 STOKE~
+Syntax: stoke <combustable>
+
+This command allows a player to add more combustables to a fire to increase
+the fire's temperature. The fire has a maximum temperature of 6000 degrees.
+~
+1 GATHER~
+Syntax: gather
+        gather <type>
+
+Gather allows a player to go into forested areas and gather up some wood. When
+the player has reached 100% in the skill, they are able to gather specific
+types of wood. Keep in mind that it is possible to run out of wood in a given
+forested room.
+~
+1 IGNITE~
+Syntax: ignite <combustable>
+
+This skills allows a player to set a combustable on fire. Fires are used for
+a variety of other skills. Different combustables will start the fire at
+different temperatures.
+~
+1 DRY~
+Syntax: dry <skin>
+
+Drying a skin will make it into a hide that can then be used to craft certain
+types of equipment or other items.
+~
+1 MINE~
+Syntax: mine
+        mine <type>
+
+This skill allows a player to venture into mountainous or underground areas
+and dig up various metals and gems. These items will need to be processed in
+order to use them in any way. Once the player has reached 100% in this skill
+they can then specify the type of item they want to mine for.
+~
+1 'QUEST EQUIPMENT' 'QUEST EQ' QUESTEQ~
+Quest equipment is special equipment that can be bought using glory points.
+These items have a special flag that allows only one owner to use them and
+no one else. When a player dies, these items are transported back to the
+player.
+~
+55 SETRANDOM~
+Syntax: setrandom <object>
+
+This command is used to mark an item as random so that it can be fstored in
+a following pit or donated to the donation pit. It is to be used sparingly.
+The item being marked as random must be in your inventory.
+
+Idealy this is to be used only for clan chests that do not have the random
+flag already on them.
+~
+1 'MAGIKA ARMOR'~
+Syntax: cast 'magika armor'
+
+This spell surrounds the caster in a protective caccoon of raw magik,
+drastically improving their armor.
+~
+1 CHANNEL~
+Syntax: cast channel
+
+By channeling their life force, the caster damages their health in order to
+restore mana quickly.
+~
+1 'ETHEREAL CLOAK'~
+Syntax: cast 'ethereal cloak'
+
+By surrounding oneself in the ether of the magical world, the is shielded from
+spells, temporarily blocking them.
+~
+1 'MANA BURN'~
+Syntax: cast 'mana burn'
+
+The caster expends some their mana in order to temporarily boost their magical
+power.
+~
+1 'SPIRIT SYPHON'~
+Syntax: cast 'spirit syphon' <victim>
+
+By using a small amount of mana and one's life force, the caster's victim
+is damaged, stealing some of the victim's magic in the process.
+
+This spell can only be used to initiate combat.
+~
+1 'DISRUPT GRAVITY'~
+Syntax: cast 'disrupt gravity'
+
+The laws of gravity are bent around the caster, protecting the caster from the
+rushing attacks of enemies and lessening damage dealt.
+~
+1 'DISRUPT PHYSICS'~
+Syntax: cast 'disrupt physics' <victim>
+
+The caster alters and corrupts the laws of physics around the victim,
+weakening the victim's ability to cast spells and making them more susceptable
+to spell damage.
+~
+1 'KINETIC SHIELD'~
+Syntax: cast 'kinetic shield'
+
+By tampering with the laws of energy and motion, the caster is shielded from
+the physical attacks and abilities of enemies.
+~
+1 'ETHEREAL STORM'~
+Syntax: cast 'ethereal storm' <victim>
+
+The caster channels a great flood of ethereal energy into a singular blast
+that can send even the strongest opponent into the afterlife. Due to the
+concentration involved, this spell cannot be cast in combat.
+~
+1 'SPELL SURGE'~
+Syntax: cast 'spell surge'
+
+The caster consumes both health and magic to provide a huge boost to spell
+abilities and defenses against spells.
+~
+1 'MAGIKA RAGE'~
+Syntax: cast 'magika rage'
+
+The caster consumes much of their mana and health to enter an enraged state
+where all their defenses are weakened while their magical offense increases by
+an awesome amount.
+~
+1 'DIVINE WINGS'~
+Syntax: cast 'divine wings'
+
+The caster asks the celestial plane for shelter. Divine wings envelope the
+caster, providing protecting from damage.
+~
+1 'DAEMONIC GRACE'~
+Syntax: cast 'daemonic grace'
+
+The caster asks the demon realm for its blessing, giving a boost to defense
+against magic.
+~
+1 'SPIRIT GUIDE'~
+Syntax: cast 'spirit guide'
+        cast 'spirit guide' <target>
+
+The caster asks the spirit world to grant a guide to themself or others,
+offering the blessed with an increased protection from physical dangers.
+~
+1 'DAEMONIC FLAME'~
+Syntax: cast 'daemonic flame' <victim>
+
+The caster summons black fire from the nightmare realms to damage the target
+who is then afflicted with a slight weakness to spells and damage.
+~
+1 'DARKNESS BINDS'~
+Syntax: cast 'darkness binds' <victim>
+
+The caster entangles the victim in the bondage of the demon realms, making the
+victim's armor brittle, increasing damage done by spells, and making the
+victim more vulnerable to drain and paralysis.
+~
+1 'PERSONAL LOCKERS' 'PERSONAL LOCKER'~
+Syntax: locker buy
+        locker open
+        locker get <item>
+        locker put <item>
+        locker check
+
+A personal locker is a special locker you can purchase with 5000 glory points.
+You can take this locker with you anywhere. This locker has a capacity of
+100kg when you first purchase it. You can increase its capacity up to 1000kg
+by purchasing additional storage space, 100kg at a time. This locker is with
+you always, unless taken from you by an immortal. It will allow you to store
+any items you want inside it and access them from anywhere. There are some
+restrictions to this. You will not be able to get or put any items in your
+locker while you are in combat or shortly after combat with another player.
+
+Locker commands -
+locker buy: Spend 5000 glory to obtain a new 100kg personal locker or increase
+  your existing locker by 100kg.
+locker open: Used to check your locker's contents.
+locker get <item>: Used to get an item from your locker.
+locker put <item>: Used to put an item inside your locker.
+locker check: This will tell you how much weight your locker contains and what
+  its maximum capacity is.
+~
+1 POLTERGIEST~
+Syntax: cast poltergeist <victim>
+
+The caster uses a vast repetoire of knowledge to summon a poltergeist that
+flings a few objects at the victim, inflicting damage.
+~
+1 'SWORD SERENADE'~
+Syntax: cast 'sword serenade' <victim>
+
+The caster sings to the victim's weapon, weakening the victim's ability to
+fight.
+~
+1 'WRIST SLASH'~
+Syntax: wrist <victim>
+
+This attack targets the victim's wrists and causes the victim to be unable to
+effectively wield their weapon for a short while.
+~
+1 'WHISPER BLADE'~
+Syntax: cast 'whisper blade' <victim>
+
+The caster summons the inherent power of their own weapon to weaken the power
+of the victim's voice.
+~
+1 BLADEDANCER~
+Syntax: bladedancer
+
+Display your weapon skill with a dazzling dance and increase your defenses in
+a shield of theatrics.
+~
+1 'LEFT HAND'~
+Syntax: left
+
+Reveal to your opponent that you have been fighting with your less dominant
+hand and switch to your strong hand and gain a bonus to your combat abilities
+for a short time.
+~
+1 CAPOEIRA~
+Syntax: capoeira
+
+This is a rare and physically draining fighting skill. The user dances around
+their surrounding opponents, confusing them and weaking their ability to
+target, while also dealing a varied amount of damage.  However, the user must
+sacrifice his own magic to fuel the energy required to do such complicated
+movements in a blink of an eye in order to not leave the user exhausted
+afterwords.
+~
+1 'HIGH GUARD' HIGH_GUARD~
+Syntax: high_guard
+
+This skill is a guard stance.
+Assume a high guard stance and increase your ability to hit and deal damage,
+but be warned, this stance may leave you slightly vulnerable. Activating
+another guard stance will deactivate high guard.
+~
+1 TELEGRAPH~
+Syntax: telegraph
+
+By focusing on the subtle movements of your opponents, you can temporarily
+increasing your ability to dodge and parry attacks as well as negate some of
+the damage.
+~
+1 'SOUTH PAW'~
+Syntax: southpaw
+
+Switch to fighting with your weaker hand and open up your opponent to greater
+damage. Be warned, this tactic lessens your ability to parry and dodge.
+~
+1 'LOW GUARD'~
+Syntax: low
+
+This skill is a guard stance.
+Switch to a low guard stance for increased protection. Activating another
+guard stance will deactivate low guard.
+~
+1 'LIQUID SWORD'~
+Syntax: liquid <victim>
+
+Twirl your own weapon around that of your opponent, causing damage and
+crippling your opponent's ability to dodge or parry for a short time.
+~
+1 'SHELL DEFENSE'~
+Syntax: shell
+
+This skill is a guard stance.
+Switch to a conservative guard style without sacrifice to power and gain a
+bonus to your ability to absorb damage and avoid paraylsis. Activating another
+guard stance will deactivate shell defense.
+~
+1 CLINCH~
+Syntax: clinch <victim>
+
+Wrap up your victim, pulling their head down and delivering a massive knee to
+the temple. The attack also dazes the victim, making them very vulnerable to
+paralysis attacks for a time.
+~
+1 DEFIANCE~
+Syntax: defiance
+
+Focus your ability for physical punishment and increases your defenses
+drastically in all aspects for a short time.
+~
+1 'CELESTIAL GUARDIAN'~
+Syntax: cast 'celestial guardian' <target>
+
+The caster asks the Celestial plane to both protect and restore. The target of
+the blessing receivings a temporary boost to damage absorbtion and a portion
+of hitpoints is restored.
+~
+1 'SPIRIT CHARGER'~
+Syntax: cast 'spirit charger' <victim>
+
+This spell can only be used to initiate combat.
+The caster focuses righteous energies and unleashes a powerful attack that
+also lowers the magical powers of the victim.
+~
+1 'ANSWERED PRAYERS'~
+Syntax: cast 'answered prayers'
+
+Your prayers are answered by your deity in the form of a generous portion of
+your hitpoints being restored.
+~
+1 'DAEMONIC SCYTHE'~
+Syntax: cast 'daemonic scythe' <victim>
+
+Summon forth a powerful daemonic scythe to slice through your opponents.
+~
+1 'DIVINE AVATAR'~
+Syntax: cast 'divine avatar'
+
+Invoke the avatar of your deity to provide a burst of protection and healing.
+~
+1 'DESPERATE PLEA'~
+Syntax: cast 'desperate plea'
+
+Make a desperate plea in the most critical of times and recieve a generous
+restoration to a portion of your hitpoints.
+~
+1 'HEAVEN AND HELL'~
+Syntax: cast 'heaven and hell'
+
+This is an area attack spell.
+Summon forth the fiery fury of both Heaven and Hell to devistate all nearby
+foes.
+~
+1 CATNAP~
+Syntax: catnap
+
+Take a short, but invigorating, nap to recover a portion of mana and moves.
+~
+1 INVIGORATE~
+Syntax: invigorate
+
+Sometimes you need to be invigorated to make those long journies...
+~
+1 NIRVANA~
+Syntax: nirvana
+
+Enter into a state of extreme concentration while recovering dwindled magical
+abilities.
+~
+1 'GHOST STRIKE'~
+Syntax: cast 'ghost strike' <victim>
+
+Strike out at an enemy with unnatural speed.
+~
+1 GARROTE~
+Syntax: garrote <victim>
+
+This skill can only be used to initiate combat.
+Get the jump on your victim and render their magical abilities almost useless.
+~
+1 FISHHOOK~
+Syntax: fishhook <victim>
+
+Inflict pain on your victim and cause them to lose magical focus by
+fishhooking them.
+~
+1 GNAW~
+Syntax: gnaw <victim>
+
+Lash out at your victim and take a chunk out of their flesh.
+~
+1 'STREET BRAWLER'~
+Syntax: street
+
+Life on the streets can make you pretty buff and resistant to damage and
+paralysis.
+~
+1 'FIRE FIST'~
+Syntax: fire <victim>
+
+By focusing on the element of fire, you can channel that energy into a
+powerful bare-handed blow.
+~
+1 'CRASHING WAVE'~
+Syntax: crashing <victim>
+
+By drawing upon your magical abilites and your body's own energies, you can
+focus these into a single damaging attack.
+~
+1 'SHOCK STRIKE'~
+Syntax: shock <victim>
+
+By focusing on the powers of lightning, you can channel that energy into a
+powerful bare-handed blow.
+~
+1 'ICE PALM'~
+Syntax: ice <victim>
+
+By focusing on the freezing powers of water, you can channel that energy into
+a powerful bare-handed blow.
+~
+1 'PRESSURE POINT'~
+Syntax: pressure <victim>
+
+Having extensive knowledge of weak points on others bodies, you are able to
+strike out at these points, inflicting damage and causing the victim to become
+physically susceptible.
+~
+55 SSET2~
+When using 'sset <sn> affect stripsn' you can now use the spell name instead
+of using the spell's sn.
+ex: sset 433 affect stripsn 'blindness'
+
+To apply an affect to caster only or caster and victim, place an excaimation
+mark before the affect to be placed on the caster.
+ex: sset 433 affect !strength 5 l*5
+This will add +5 strength to the caster for level*5 rnds and any additional
+affects will be applied to the spell's target.
+
+Another affect that can be added is the 'jump' affect. This affect will cause
+the caster to be removed from combat.
+ex: sset 455 affect jump
+
+To create a stun effect use the 'wait' affect. Supply a number in a multiple
+of 10 per each second of stun you want to apply.
+For instance, to apply 5 seconds of stun you would use:
+sset 455 affect wait 0 50
+~
+1 'DISRUPT REALITY'~
+Syntax: cast 'disrupt reality'
+
+The caster alters reality long enough to disengage and summon forth two
+guardians from the ether to engage the caster's combatant. This spell can
+only be used in combat.
+~
+1 'ARMOR OF LEAVES'~
+Syntax: cast 'armor of leaves'
+
+The caster invokes an armor of leaves and twigs, offering no physical
+protection but shielding from the breath attacks of others.
+~
+1 'NATURES WRATH'~
+Syntax: cast 'natures wrath'
+
+The caster is able to summon the inherent destructive nature of the earth to
+provide a boost to spell damage.
+~
+1 MUTE~
+Syntax: cast mute <victim>
+
+Render your victim unable to cast verbal spells.
+~
+1 'BLADE SPIRIT'~
+~
+1 'CORRUPT ARMOR'~
+Syntax: cast 'corrupt armor' <victim>
+
+The diabolist calls forth the lords of the abyss to taint the armor of his
+opponent, making it brittle and weak.
+~
+1 'DAEMONIC ARMOR'~
+Syntax: cast 'daemonic armor'
+
+The diabolist shields themself with dark energies, providing a small bonus to
+their armor's strength but also protecting them against the more vile magiks
+of the world.
+~
+1 'HIGHER CALLING'~
+~
+1 'HOLY FLAME'~
+~
+1 IDOL~
+~
+1 APOLOGIZE~
+Syntax: apologize
+
+The rogue makes a "heartfelt" apology. This lowers the animosity of the two
+sides, lowering both the rogue and his targets dr/hr. Although the target
+loses much more animosity.
+~
+1 BLITZKRIEG~
+Syntax: blitzkrieg
+
+The warrior throws caution to the wind and attacks with reckless abandon. This
+increases the warriors offensive capabilities but also weakes his defenses.
+~
+1 'DIE LAUGHING'~
+Syntax: die
+
+The rogue will not face death a dour woman, instead when a rogue is critically
+injured her insane laughing boosts her offensive capabilities while lowering
+her opponents.
+~
+1 DISENGAGE~
+Syntax: disengage
+
+The crafty individual can circle around their opponent, allowing them to exit
+combat with no penalties.
+~
+1 'FLASH BANG'~
+~
+1 'HIGH JUMP' HIGH_JUMP~
+~
+1 'LEFT HANDED'~
+Syntax: left
+
+The rogue reveals that he has been fighting with his less dominant hand and
+switches to his strong hand. He gains a huge bonus to his combat abilities for
+a very short time.
+~
+1 SKIN~
+Syntax: skin corpse
+
+With proper teaching a player can strip the hide away from any mob corpse. The
+hide can be used for various other skills in the creation of items.
+~
+1 SMELT~
+~
+1 SOUTHPAW~
+~
+1 VANISH~
+Syntax: vanish
+
+The rogue throws a flash bomb, immediately removing herself from combat.
+~
+1 'TACTICAL RETREAT'~
+Syntax: tactical
+
+The champion knows when to leave gracefully and exits combat. However, the
+champion also gains a small bonus to their ability to fight as well as a
+slight boost to their health.
+~
+1 'ENHANCE AURA'~
+Syntax: cast 'enhance aura' <object>
+
+The archmagi can imbue any unenchanted item with a small boost to her spell
+damage.
+~
+1 VERBAL NON-VERBAL NONVERBAL~
+There are two different types of spells when it comes to casting them. There
+are verbal and non-verbal types. The verbal types must be uttered when cast.
+If the caster cannot utter the spell, then it cannot be cast. Non-verbal
+spells, on the other hand, can be cast without uttering a word. This is
+usually done by memorizing a series of hand movements. The non-verbal spell
+may also be cast with the simple use of the caster's breath.
+~
+1 'ENJOYING THE GAME'~
+Syntax: enjoy
+
+The rogue appreciates the fun of battle and gains a bonus to her fighting
+abilities in direct relation to how much health she has. The more hurt the
+rogue is, the less effective her jovial nature becomes.
+~
+1 RIPOSTE~
+~
+1 TREAGE~
+Syntax: treage
+
+The champion uses their knowledge of field medicine to quickly heal themselves
+outside of combat.
+~
+1 'SERPENT KISS'~
+Syntax: serpent
+
+The champion using 2 weapons delivers several quick strikes to key pressure
+points in their target, doing damage and making their opponent temporarily
+vunerable to further damage and stun.
+~
+1 'SHIELD SLAM'~
+Syntax: shield
+
+The champion with a shield equips delivers a massive strike with their shield,
+doing damage and having a chance of sending the target to the ground.
+~
+1 'DAEMONIC PACT'~
+Syntax: cast 'daemonic pact'
+
+The Bishop calls upon the daemon lords to heal herself and all others in her
+party, although the Bishop receives much less healing than the rest of her
+group.
+~
+1 'CELESTIAL TRUMPETS'~
+Syntax: cast 'celestial trumpets'
+
+The Bishop calls upon the celestial choir to provide a huge boost to the
+morale of the party, increasing all protections for a short time.
+~
+1 'SKIRMISH LINE'~
+Syntax: skirmish
+
+The warrior calls out to their group, ordering them into a wide formation that
+increases their effect in combat by the number of members involved in the
+formation.
+~
+1 'FORM RANKS'~
+Syntax: form
+
+The warrior both increases the groups defense and the warriors own offense by
+ordering the group into a tight formation.
+~
+1 'FINAL STAND'~
+Syntax: final
+
+The warrior can choose to meet death defiant and so can gain a boost to their
+hp and combat abilities for a short time. However, when the warrior can no
+longer sustain their defiance, they might die from their wounds.
+~
+1 'PINCER MOVEMENT'~
+Syntax: pincer
+
+The champion attempts to flank his target, providing a short bonus to damage
+and chances of hitting. However, this bonus increases in power for every
+member of the champions group assisting in the movement.
+~
+1 'CLEANSE AURA'~
+Syntax: cleanse
+
+The monk enters a deep trance, realigning their centers of energy inside their
+body, cleansing themselves of many negative effects.
+~
+1 'TENDON STRIKE'~
+Syntax: tendon
+
+The rogue strikes the soft tendons of his victim, keeping them immobile for a
+short time.
+~
+1 'CONJURERS EQUIPMENT'~
+&WIf the conjurer is the victim of a &RPK&W, all the conjurer enchanted items
+will start to rot. If they are &RNOT&W held in the &Yimmediate inventory &w
+(ie: if you type 'inventory' and do not see the items, they are not in your
+immediate inventory)&W of a player within &R5&W minutes, the enchanted items
+will totally decay and be destroyed. If the items are being held in a player's
+inventory, they become owned by that player. The conjurer-only flag fades away
+and the items become inventory. This means that upon the next death of that
+player &w(death by mob or by PK)&W, the items are destroyed.
+
+This has no effect if the conjurer was killed by a mob.&D
+~
+60 OGET~
+Syntax: oget <id>
+        oget v<vnum>
+
+Oget will retrieve any item in the realm using its id number or vnum. If the
+vnum is used, it will retrieve the first item it comes across that matches the
+specified vnum. Using the id number is more precise and will retrieve the
+exact object requested.
+~
+1 'PIERCE SHADOWS'~
+Syntax: cast 'pierce shadows'
+
+The caster of this spell summons forth a powerful glowing blade that will
+slice through anyone or anything trying to be unseen in the room, leaving them
+damaged and stunned.
+~
+1 SALT WOUNDS 'SALT WOUNDS'~
+~
+1 EQSWAPPING 'EQUIPMENT SWAPPING'~
+At no time can a player transfer gold or equipment of ANY sort (this includes,
+but is not limited to, quest, stock, and randoms) to any character played by
+or owned by the "donator". This further includes an immortal facilitated
+destroy. Even a character of the same name and same history is still a
+different entity and therefore cannot profit or retain anything from the
+previous incarnation. Special consideration will be given to extenuating
+circumstances and can only be authorized by an Implementor.
+~
+1 'ENHANCE TREASURE'~
+Syntax: cast 'enhance treasure' <object>
+
+Items of type 'treasure' or 'arttreasure' may be enhanced with this spell,
+yielding an addition to spell damage and mana points. This spell can enhance
+magical as well as non-magical items but may not be used to enhance an item
+that is already enchanted.
+~
+1 'ENHANCE ARMOR'~
+Syntax: cast 'enhance armor' <object>
+
+Items of type 'armor' or 'artarmor' may be enhanced with this spell,
+yielding an addition to mana points, armor class and svs. This spell can
+enchant magical as well as non-magical items but may not be used to enhance
+an item that is already enchanted. However, if the item is magical the
+enhancement will not be as powerful as it could be otherwise. This spell also
+causes the item to be aligned with the alignment with the caster.
+~
+1 'ENHANCE WEAPON'~
+Syntax: cast 'enhance weapon' <object>
+
+Items of type 'weapon' or 'artweapon' may be enhanced with this spell,
+yielding an addition to spell damage. This spell can enhance magical as
+well as non-magical weapons but may not be used to enhance a weapon that
+is already enchanted. However, if the weapon is magical the enhancement
+will not be as powerful as it could be otherwise. This spell also causes
+the weapon to be aligned with the alignment with the caster.
+~
+1 ABBAFFS~
+&WWith this setting turned on (config +abbaffs) you will see a combined
+abbreviated affects list. For example, if normally you would see this:
+&P(&WSanct&P) (&RFS&P) (&BSS&P) (&CIS&P) (&CInvis&P) (&BHide&P) (&WTranslucent&P)&W
+With ABBAFFS on, you would see this:
+&P( &WS &RF &BK &CI &WV &BH &YT &P)&W
+
+Letter abbreviations:
+  &WS&W - Sanctuary
+  &RF&W - Fireshield
+  &BK&W - Shockshield
+  &CI&W - Iceshield
+  &WV&W - Invis/Improved invis/Mass invis
+  &BH&W - Hide
+  &GC&W - Camo
+  &YT&W - Pass door (Translucent)
+  &PP&W - Faerie fire/Faerie fog (Pink aura)
+~
+1 CONVERT~
+Syntax: convert
+        convert <class>
+
+&WThis command allows a &Ctiered&W character to set their dualclass to a new
+class by allowing you to choose a class from your available pre-tier classes.
+(If you are an archmagi, you may choose to 'convert mage' 'convert druid' or
+'convert conjurer' etc.)
+
+If your 'whois' lists you as only &CArchmagi&W, &CBishop&W, &CChampion&W or
+&CRogue&W you will need to use this command and choose a class. If you do not
+choose a class, you will see a message asking you to choose one.
+
+For &Cnon-tiered&D characters, this command will remove any skills that have
+been removed from your class(es) or skills that you have obtained through
+other means.&D
+~
+1 VERSION VERSIONS 'VERSION NOTE' 'VERSION NOTES'~
+The following is a list of versions that you can get information on regarding
+the changes made in that version.
+
+VERSION2.1.0       VERSION2.1.1        VERSION2.2.0        VERSION2.2.1
+VERSION2.2.2       VERSION2.2.3        VERSION2.2.4        VERSION2.2.5
+VERSION2.2.6       VERSION2.2.7        VERSION2.2.8        VERSION2.2.9
+VERSION2.2.10      VERSION2.2.11       VERSION2.3.0        VERSION2.3.1
+VERSION2.3.2       VERSION2.3.3        VERSION2.3.4        VERSION2.3.5
+VERSION2.3.6       VERSION2.3.7        VERSION2.3.8        VERSION2.3.9
+VERSION2.3.10      VERSION2.3.11       VERSION2.4.0        VERSION2.4.1
+VERSION2.4.1a      VERSION2.4.1b       VERSION2.4.2        VERSION2.4.3
+VERSION2.4.4       VERSION2.4.5        VERSION2.4.6        VERSION2.4.7
+VERSION2.4.8       VERSION2.4.9        VERSION2.4.10       VERSION2.4.11
+VERSION2.4.12      VERSION2.4.13       VERSION2.4.14       VERSION2.4.15
+VERSION2.4.16      VERSION2.4.17       VERSION2.4.18       VERSION2.4.19
+VERSION2.4.20      VERSION2.4.21       VERSION2.4.22       VERSION2.4.23
+VERSION2.5.0       VERSION2.5.1        VERSION2.5.2        VERSION2.5.3
+VERSION2.5.4       VERSION2.5.5        VERSION2.5.6        VERSION2.5.7
+VERSION2.5.8       VERSION2.5.9        VERSION2.6.0
+~
+1 VERSION2.1.0~
+&Cv2.1.0
+&R* &YAdded dreaming messages.
+&w- &WWhen mortals sleep they will occasionally see a random dream message.
+&R* &YAltered exp tnl calculations.
+&R* &YRemoved several flags that would show up on immortals in
+&Y  a 'who' listing.
+&R* &YChanged 'Drazuk' to 'Darwin' for sacrifice message.
+&R* &YChanged 'Drazuk' to 'Medea' for level gain message.
+&R* &YEdited the way flags are displayed on mobs. Mobs with no flags are
+&Y  no longer indented.
+&R* &YModified OUTCAST so that level is not a factor.
+&w- &WThis previously would not allow a leader that was lower level to
+&W  OUTCAST another that was of a higher level. Anyone that is granted
+&W  the OUTCAST command may OUTCAST anyone else in the same following.&D
+~
+1 VERSION2.1.1~
+&Cv2.1.1
+&R* &Y'sac all' implemented.
+&w- &W'all' can now be used as an argument for the SACRIFICE command. This
+&W  will destroy any item on the ground that the player is allowed to pick
+&W  up or sacrifice individually. The output is a single line and the player
+&W  is rewarded a single gold coin for each item sacrificed.
+&R* &Yno_junk flag added to quest bags.
+&w- &WThis is to prevent players from accidentally junking their questbag
+&W  that contained all their quest eq. To get rid of bags they will have
+&W  to be dropped and sacrificed.
+&R* &YAvatars' mana should no longer be set to 0 when they die. Instead,
+&Y  they will have just as much mana as they had when they died.
+&R* &YAutosplit gold does not get split with mobs.&D
+~
+1 VERSION2.2.0~
+&Cv2.2.0
+&R* &YCharacters may now be created with names containing one(1) space
+&Y  and one(1) apostrophy.
+&w- &WNames are limited to a total of 25 characters in length.&D
+~
+1 VERSION2.2.1~
+&Cv2.2.1
+&R* &YSlight alterations in the display of some flags.
+&R* &YAdded TNL to SCORE.
+&R* &YMoved "Gold" up one line in the SCORE so that I could group XP
+&Y  and TNL together.
+&R* &YAdded permanent stats to MSTAT output.
+&R* &YAdded word replacement for number to position in MSTAT.
+&R* &YAdded EXP and TNL to MSTAT output.
+&R* &YAdded Practices to MSTAT output.
+&R* &YReduced wait time for TRANCE.&D
+~
+1 VERSION2.2.2~
+&Cv2.2.2
+&R* &YChanged "You receive x experience points" line to show "point"
+&Y  when only 1 exp is gained.
+&R* &YPCRENAME now renames the owner on quest equipment.
+&w- &WThis was done to prevent quest eq from falling off of a character
+&W  that was being renamed.
+&R* &YADVANCETIER command no longer causes the character's practices to
+&Y  be set to 20.
+&w- &WIf the player has less than 20 practices upon advancing to the next
+&W  tier, they are set to 20 practices, otherwise they keep the same amount
+&W  of practices they originally had.
+&R* &YAllowed mortals to use %c, %n and %T in prompts. See HELP PROMPT
+&Y  for meanings.
+&R* &YUpdated help files for PROMPT, IMMPROMPT and PCRENAME.&D
+~
+1 VERSION2.2.3~
+&Cv2.2.3
+&R* &YGRANTSIGHT reworked. Immortals can grantsight any player. See HELP
+&Y  GRANTSIGHT for details.
+&R* &YUpdated helpfile for GRANTSIGHT.&D
+~
+1 VERSION2.2.4~
+&Cv2.2.4
+&R* &YFixed some messages that did not properly end in a CR/LF sequence.
+&w- &WThese were messages that were not adding a blank line before the
+&W  player's prompt as it should have been doing.&D
+~
+1 VERSION2.2.5~
+&Cv2.2.5
+&R* &YFixed an issue with color codes in item short descriptions messing
+&Y  up the color of the output for the IDENTIFY spell and LOOK/EXAMINE
+&Y  <item> command.
+&R* &YAdded key words section to IDENTIFY and LOOK/EXAMINE output.
+&w- &WThe IDENTIFY output had been altered to display the item short
+&W  description instead of the item keywords. Instead of changing it
+&W  back to the way it was originally, I opted to add in an additional
+&W  line which contains all the keywords for the item being identified.
+&W  This can been seen when the item is identified or when the item is
+&W  examined.&D
+~
+1 VERSION2.2.6~
+&Cv2.2.6
+&R* &YChanged charmies code to look at caster's level instead of other
+&Y  stat that could constantly be changing.
+&R* &YChanged the order of spells payers needed to see magic levels on items.
+&w- &WThe different magic levels (Faint - Godlike) can now be able to be
+&W  seen with one or more of the detect spells.
+&R* &YMobs cannot see magic flags.
+&w- &WNo reason for this, really.&D
+~
+1 VERSION2.2.7~
+&Cv2.2.7
+&R* &YCoded in a way to create endless drink containers.
+&w- &WExamining a drink container that is set to endless will give a
+&W  message stating that it appears bottomless.
+&R* &YRemoved some safeguards that prevented immortals from casting certain
+&Y  spells on mortals due to certain restrictions.
+&w- &WThey were causing problems in testing things on the test port.
+&R* &YReduced lag time for ORDER command.
+&R* &YMob corpse weight is now determined by the mob's level.
+&w- &WThis was done to prepare for future code.&D
+&R* &YUpdated information in HELP ITEMVALUES.
+&R* &YAdded help file entry for HELP DARWIN.
+&w- &WThis contains information on how to contact Darwin.
+&R* &YQuest items are now automatically removed from questbags upon
+&Y  player death.
+&w- &WThis is to prevent the loss of quest items through a "quest bag bug"
+&W  that no one bothered to mention to me.
+&R* &YInstalled a personal study for myself into the Limbo area.
+&R* &YCreated a new mob spec: spec_sexist.
+&w- &WIf set on a mob, it will attack players of the opposite sex. Designed
+&W  with Amazons in mind.&D
+~
+1 VERSION2.2.8~
+&Cv2.2.8
+&R* &YAdded %w option to prompts.
+&w- &WThis will display a &Rx&W if the player has any kind of lag associated
+&W  with a skill, spell or command, or will display a &Go&W otherwise.
+&R* &YUpdated help file entry for HELP PROMPT.&D
+~
+1 VERSION2.2.9~
+&Cv2.2.9
+&R* &YRemoved incorrect reference to E.S.T. in TIME output.
+&R* &YAdded version number to TIME command output.
+&w- &WPlayers can now type TIME to check what the version of HoG is running.&D
+~
+1 VERSION2.2.10~
+&Cv2.2.10
+&R* &YIncreased the chance randoms have of popping on mobs.
+&w- &WThis increase will likely cause a lot of more powerful random items
+&W  to pop. There is also a higher chance of powerful artifact magic items
+&W  popping, however, they are not without penalty. See below.
+&R* &YAdded random chance of deathrot for high-level randoms.
+&w- &WRandom artifact items that pop with a (Powerful magic) level or higher
+&W  will have a random chance of having deathrot. These items have a lesser
+&W  chance of being destroyed upon player death than those items with
+&W  deathrot created by conjurers.
+&R* &YAll shops should now never close.
+&w- &WI had too many complaints about shops closing in the middle of buying or
+&W  selling items. This change renders shop open and close times in area files
+&W  obsolete.
+&R* &YSeveral help files relating to the legendary skills have been added.
+&w- &WSee HELP LEGENDARY.&D
+~
+1 VERSION2.2.11~
+&Cv2.2.11
+&R* &YCoded a new way of checking for a skill on a player.
+&w- &WThe skill still does not show up in the practice list, but the player
+&W  is able to use the skill.
+&R* &YAdded a timer to items that fall to the ground.
+&w- &WThis timer gives an item aproximately 30 minutes to exist on the
+&W  ground. After that time has expired the item will be destroyed. I have
+&W  also changed the default "<item> mysteriously vanishes" phrase to
+&W  something more unique to this realm.&D
+~
+1 VERSION2.3.0~
+&Cv2.3.0
+&R* &YFixed area economies.
+&w- &WArea economies will now be saved when they are updated. They will also
+&W  be reloaded upon mud bootup. Upon loading, the area economy gains interest
+&W  at a rate of 15%.
+&R* &YShopkeepers recieve no gold when they repop.
+&R* &YShopkeeper inventories purge upon death.
+&R* &YShopkeepers will now keep some items sold to them to be resold.
+&w- &WShopkeepers will keep random item that are sold to them. These items
+&W  will then be listed with the shopkeeper's other items.
+&R* &YMade a change to VENTRILOQUATE output.
+&w- &WThis makes the output from VENTRILOQUATE obviously different from
+&W  normal conversation text.
+&R* &YAdded in an automatic taxing system.
+&w- &WPlayers will now be taxed 5% of the amount of gold that they recieve.
+&W  The gold collected from this tax goes directly to the economy of the area
+&W  they are in.
+&R* &YPrevent steal from working on shopkeepers.
+&w- &WThis prevents any loophole that might have been created due to the above
+&W  changes to the economy and shopkeepers.&D
+~
+1 VERSION2.3.1~
+&Cv2.3.1
+&R* &YRemoved aquabread from popping on random items.
+&w- &WThis was causing a crash.&D
+~
+1 VERSION2.3.2~
+&Cv2.3.2
+&R* &YAdded check to ENCHANT WEAPON to accept artweapon as an acceptible spell
+&Y  target.
+&w- &WNon-magical artweapons can now be enchanted with the ENCHANT WEAPON
+&W  spell.
+&R* &YArtweapons that are enchanted will be given an enchant bonus.
+&w- &WThis gives a small bonus to an enchantable artweapon.
+&R* &YRemoved ENERGY DRAIN's ability to give the caster drained mana.
+&w- &WThis was done to balance out the spells. ENERGY DRAIN was being used in
+&W  such a way that a druid could exp contuously without the need to stop and
+&W  regenerate lost stats such as hp, mana and moves. This was an unfair
+&W  advantage in regards to other classes.
+&R* &YIncreased the amount of exp gained from using ENERGY DRAIN.
+&w- &WThis is compensation for the no mana return.
+&R* &YAdded check to ENCHANT ARMOR to accept artarmor as an acceptible spell
+&Y  target.
+&w- &WNon-magical artarmors can now be enchanted using the ENCHANT ARMOR
+&W  spell.
+&R* &YArtarmor that is enchanted will be given an enchant bonus.
+&w- &WThis gives a small bonus to an enchantable artarmor.
+&R* &YFixed a typo in the TELESCAPE output.&D
+~
+1 VERSION2.3.3~
+&Cv2.3.3
+&R* &YChanged the way code checks for shopkeepers.&D
+~
+1 VERSION2.3.4~
+&Cv2.3.4
+&R* &YOptimized the way AUTOGOLD works.
+&w- &WCharacters will no longer try to get gold from a corpse if it contains
+&W  no gold to begin with. This will prevent the line "You see nothing like
+&W  that in the corpse." from appearing when the corpse has no gold and the
+&W  player has AUTOGOLD turned on.
+&R* &YFixed a typo in the code that produced duplicate lines when splitting
+&Y  gold.
+&R* &YNODROP weapons can no longer be disarmed.
+&R* &YDISARM skill should now have a better chance of succeeding.
+&R* &YRoom info is now displayed in room for immortals.
+&w- &WImmortals should now see room info in the rooms such as area name, area
+&W  file name, room vnum, room flags, exits, exit vnums, exit key vnum and
+&W  sector type.
+&R* &YImmortals can now walk through closed doors.
+&R* &YReplaced mana spell in spec_cast_adept with cure critical.
+&R* &YMade some adjustments to a couple spells.
+&R* &YAdded SEEDAM to config settings.
+&w- &WSee HELP CONFIG.&D
+~
+1 VERSION2.3.5~
+&Cv2.3.5
+&R* &YCreated new spell: ENCHANT TREASURE
+&w- &WThis spell allows the caster to enchant a "treasure" or "arttreasure"
+&W  type item. The effects are +spell dam and +mana. This spell is usable on
+&W  magical or non-magical items but not enchanted items. This spell is
+&W  currently not assigned to any class.
+&R* &YFixed the problem with PKillers getting the KILLER flag when their
+&Y  victim is within range.
+&R* &YRemoved tax from players recieving gold from other players.
+&R* &YAutomatic reboots will now wait seven(7) days to reboot.
+&R* &YCreated FCHARMIE command for implementors.
+&w- &WThis command will set a mob or player to be the charmie of another mob
+&W  or player and allows the immortal to set the charm duration.
+&W  Implementors see HELP FCHARMIE for details.
+&R* &YRecreated the SKIN skill.
+&w- &WCurrently unavailable to mortals. This is being set up for use in the
+&W  future.
+&R* &YAltered OINVOKE so that the third paramter is quantity
+&w- &WImmortals with this command can now create multiples of an invoked item.
+&W  See HELP OINVOKE for details.&D
+~
+1 VERSION2.3.6~
+&Cv2.3.6
+&R* &YCharacter creation process changed.
+&w- &WPlayers will now choose RACE before choosing CLASS. Class selection will
+&W  be limited to available classes for the chosen race.
+&R* &YReduced spell lag for many spells.
+&R* &YFixed several instances of incorrect calculations of tiered levels.
+&w- &WThis fixes damage cap, spell damage cap, ability to see spell rounds and
+&W  affects in SCORE as well as the AFFECTED command.
+&R* &YRemoved random chance randoms will have DEATHROT.
+&R* &YRemoved, temporarily, the chance items with DEATHROT will be destroyed
+&Y  upon death.
+&R* &YMore changes to the SKIN skill.
+&R* &YPrevent characters under level 4 and tiered characters from becoming
+&Y  thirsty or hungry.
+&w- &WFrom the looks of it, this was intended beforehand, but it only
+&W  prevented the hunger/thirst messages from being displayed.
+&R* &YCreated new command to reset economy values that become too large due to
+&Y  numerous reboots, hotboots, and/or crashes.
+&w- &WImplementors see HELP RECONOMY for details.&D
+
+~
+1 VERSION2.3.7~
+&Cv2.3.7
+&R* &YAdded a check in ENCHANT ARMOR, ENCHANT TREASURE and ENCHANT WEAPON to
+&Y  disallow enchanting an item while it is being worn.
+&R* &YSKIN nearly completed.
+&w- &WSKIN works as intended. I still need to create a new skin object in an
+&W  area file for the skill to use. Other alterations will be required before
+&W  mortals are allowed to use this skill.
+&R* &YAdded check in FORCE command to allow implementors to force other
+&Y  implementors. (By request)
+&R* &YPlayers with should now be able to drink even with a full stomach.
+&w- &WPreviously, drinking caused a character's FULL and THIRST to increase
+&W  and would not allow a character to drink if FULL was set at maximum. This
+&W  change allows a character to drink even if FULL is at maximum but will
+&W  prevent a player from drinking if THISRT is at maximum.
+&R* &YFixed class selection for character creation.
+&w- &WA mishap caused the selection of classes to actually be the disallowed
+&W  classes for that class causing races such as human to actually list no
+&W  classes at all.
+&R* &YLow level tiered characters can now see numeric value of armor in score.
+&R* &YAdded "Eff" to tiered characters SCORE to show effectively what level
+&Y  they are.
+&w- &WThis will show in the tiered character's score next to the class name as
+&W  "Eff: #"
+&R* &YBasic outline of two new spells.&D
+~
+1 VERSION2.3.8~
+&Cv2.3.8
+&R* &YFixed a bug with the undertaker's corpse retrieval code.
+&R* &YMoved ENCHANT ARMOR to cleric/bishop.
+&R* &YGave ENCHANT TREASURE to mage/archmagi.
+&R* &YItems with DEATHROT should not purge upon death. For real this time!
+&R* &YAdded randomized data stuffs to appropriate room types.
+&w- &WThis is for future development.
+&R* &YQuaffing potions does not cause the character's stomach to become full.
+&R* &YPrevent immortals from doing Mob Masteries.
+&R* &YFixed a bug in the GROUP command that was causing crashes.
+&R* &YAdded 'height' and 'weight' options to MSET.
+&R* &YAdded a check for justified attacks.
+&w- &WIf a player is attacked or stolen from by someone not in their PK range
+&W  they will now be able to attack them without being flagged a killer.&D
+~
+1 VERSION2.3.9~
+&Cv2.3.9
+&R* &YAdded a way to list the item effects from a shoppie.
+&w- &WA new column of numbers has been added to the output from a shop's
+&W  LIST command. These numbers represent the number of the item in the shop's
+&W  inventory. You can then "LIST #" to see the values of that item.
+&R* &YPlayers can now "DISMISS ALL" to remove all charmies from their group.
+&w- &WPlayers with multiple charmies can DISMISS ALL to release all their
+&W  charmies from their control.
+&R* &YPlayers can now choose a more difficult mobmastery.
+&w- &WThis can be done by specifying <mobm start expert>. Be warned, the
+&W  target mob will become enhanced by being chosen as the target. You may
+&W  not choose an expert mobmastery until you have reached 400 regular
+&W  mobmasteries.&D
+~
+1 VERSION2.3.10~
+&Cv2.3.10
+&R* &YReduced overall lag and tick time.
+&R* &YFixed some typos.
+&R* &YFixed a bug that caused AC to become way off.
+&R* &YAdded 'acworn' option to MSET command.
+&R* &YAdded a few more checks to reset mobs from expert mobmastery failure
+&Y  or quit.
+&R* &YFixed a bug with worn items being listed in shops.
+&R* &YAdded removal of stay_area and sentinel specs from expert mobm targets.
+&R* &YAll shoppies will now buy and sell components.
+&R* &YShoppies will not buy more than one of the same item.
+&w- &WShoppies will not buy more than one of an item. This affects everything
+&W  sold to shoppies. For example, if a shoppie already has an item that is a
+&W  "shirt" it will not buy another item that is a "shirt" If a shoppie has a
+&W  boiled leather shirt, it will not buy a hard leather shirt.
+&R* &YFixed a bug in the character creation process that prevented some races
+&Y  from being selectable.
+&R* &YRemoved checks for some portal spells so that they will succeed more
+&Y  often.
+&R* &YAuto-assisting combat should be noticed in the first round of combat.
+&R* &YRemoved automatic WAR message when someone is attacked.
+&R* &YAdded names to randomly generated items in certain room types.
+&w- &WThese are visible only with the immortal RSTAT command.
+&R* &YAdded drowning messages.&D
+~
+1 VERSION2.3.11~
+&Cv2.3.11
+&R* &YRemoved fight limit.
+&R* &YFixed a bug with the undertaker creating duplicate corpses.
+&R* &YMade a change to RECONOMY command.
+&R* &YNew skills: GATHER, IGNITE, SKIN, MINE, DRY
+&w- &WGATHER - This skill obtainable to anyone at any level allows the
+&W  character to gather woods from forested areas.
+&w- &WIGNITE - This skill obtainable to anyone at any level allows the
+&W  character to ignite combustables to start a fire.
+&w- &WSKIN - This skill obtainable to anyone at any level allows the
+&W  character to skin the corpses of slain mobs.
+&w- &WMINE - This skill obtainable to anyone at any level allows the
+&W  character to mine for metals and gems in mountainous and undergound areas.
+&w- &WDRY - This skill obtainable to anyone at any level allows the
+&W  character to dry a previously obtained skin to create a hide.
+&C  The new skills are not available to mortals as of yet. More skills are
+&C  needed before they will be worth using.
+&R* &YNew command: STOKE
+&w- &WStoke allows the player to add more combustables to a fire which
+&W  increases the fire's temperature. Use "examine ignite_fire" to check the
+&W  fire's temperature.
+&R* &YThe "note" item is now no_locate. This is for quest purposes.
+&R* &YFixed the error with WEAPONSMITH DEVOUR which was adding the wrong spell
+&Y  to weapons. (Although I heard that the bears were cute.)
+&R* &YINVASION now allows immortals to specify an amount of glory to be
+&Y  awarded for killing the invader.
+&R* &YAdded a check in MURDER to prevent combat in safe rooms.
+&R* &YPlayers should now see all skills and spells that they have access to
+&Y  in their practice list. Skills not awarded by classes are still not
+&Y  able to be practiced.&D
+~
+1 VERSION2.4.0~
+&Cv2.4.0
+&R* &YAdded several failure messages to the FARSIGHT spell.
+&R* &YReduced the duration of the CURSE spell.
+&R* &YThe charm on DAEMONIC GUARDIAN will last until the mob's death.
+&R* &YCreated spells MAGIKA ARMOR, CHANNEL, ETHEREAL CLOAK, SPIRIT SYPHON,
+&Y  and MANA BURN.
+&w- &WThese spells are to be used for upcoming class reworkings.
+&R* &YCHARM PERSON no longer causes the charmie to become aggressive towards
+&Y  the charmer when the charm fades.
+&R* &YMIDAS TOUCH has been tweaked to give slightly more gold.
+&w- &WThe amount of gold awarded from MIDAS TOUCH is still less than the
+&W  item's value, but is more than it previously was.
+&R* &YMade tweak to IMPALE command.
+&w- &WSee HELP IMPALE for details.
+&R* &YAdded %L token for prompts.
+&w- &WSee HELP PROMPT for details. See Darwin if still confused.
+&R* &YPrompt will now auto refresh if you are in a wait state.
+&w- &WThis will be most notable if you are using the %w token in your prompt.
+&R* &YRemoved slight lag when moving room to room.
+&R* &YFixed the infamous "ac bug" caused by etching.
+&w- &WIf you have been previously etched and your ac is off, you may need it
+&W  fixed one last time.
+&R* &YMade some changes to player deaths regarding quest-flagged equipment.
+&w- &z1) &WPlayers who die to mobs will repop with their quest eq as normal.
+&z  2) &WPlayers who die to immortals will repop with an empty quest bag.
+&z  3) &WPlayers who die to other players will repop with an empty quest bag.
+&w- &WAt this time players cannot wear equipment that is owned by another
+&W  player. It will probably be best to return quest equipment to its owner
+&W  if you kill someone that has any such items.
+&R* &YMade changes to DONATE and FSTORE.
+&w- &WSee below.
+&R* &YMade changes to donation pits and pit room mobs.
+&w- &WTo prevent stock piles of stock equipment that has occured players may
+&W  no longer donate or fstore any item that is not flagged as random. Mobs
+&W  in pit rooms that collect items from the ground and place them in the pit
+&W  will no longer pick up stock items and will drop any stock items handed
+&W  to them. They will also not pick up any containers that have stock items
+&W  in them and will drop any containers that have stock items in them. This
+&W  change does NOT affect lockers. You can still store stock items in your
+&W  lockers if you have one.
+&W  &RWARNING: This is probably going to cause some headaches at first until
+&R  all the items in following pits are marked as randoms as the older randoms
+&R  had no such flag on them.
+&R* &YCreated immortal SETRANDOM command.
+&w- &WThis command is used to set the random flag on an item so that it may be
+&W  stored in a donation container.
+&R* &YUpdated the following help files: PROMPT, DEATH, IMPALE, FSTORE, DONATE
+&R* &YCreated the following help files: 'QUEST EQUIPMENT', SETRANDOM&D
+~
+1 VERSION2.4.1~
+&Cv2.4.1
+&R* &YAdded option AUTOUPDATE to config settings.
+&w- &WSee HELP CONFIG.
+&R* &YStock items will pop with a cost value of 0.
+&R* &YCreated spells DISRUPT GRAVITY, DISRUPT PHYSICS, KINETIC SHIELD,
+&Y  ETHEREAL STORM, SPELL SURGE, MAGIKA RAGE, DIVINE WINGS, DAEMONIC GRACE,
+&Y  SPIRIT GUIDE, DAEMONIC FLAME, DARKNESS BINDS.
+&w- &WSee individual helps. These spells are to be used for upcoming class
+&W  reworkings.
+&R* &YImpaled corpses can be sacrificed.
+&R* &YPatched a loophole in donation pit code.
+&R* &YAdded PERSONAL LOCKERS.
+&w- &WSee HELP 'PERSONAL LOCKERS'
+&R* &YAdded timestamp %t token for prompts.
+&w- &WSee HELP PROMPT.
+&R* &YThe following skills and spells created by Cahel: POLTERGIEST,
+&Y  SWORD SERENADE, WRIST SLASH, WHISPER BLADE, BLADE DANCER, LEFT HAND,
+&Y  CAPOEIRA, HIGH GUARD, TELEGRAPH, SOUTH PAW, LOW GUARD, LIQUID SWORD,
+&Y  SHELL DEFENSE, CLINCH, DEFIANCE, CELESTIAL GUARDIAN, SPIRIT CHARGER,
+&Y  ANSWERED PRAYERS, DAEMONIC SCYTHE, DIVINE AVATAR, DESPERATE PLEA,
+&Y  HEAVEN AND HELL, CATNAP, INVIGORATE, NIRVANA, GHOST STRIKE, GARROTE,
+&Y  FISHHOOK, GNAW, STREET BRAWLER, FIRE FIST, CRASHING WAVE, SHOCK STRIKE,
+&Y  ICE PALM, and PRESSURE POINT.
+&w- &WSee individual helps. These spells are to be used for upcoming class
+&W  reworkings.
+&R* &YAdded data to system settings to track number of new characters.
+&R* &YAdded an ID number to player files to uniquely identify each new
+&Y  character.
+&R* &YMSTAT now shows character ID# where Vnum was previously placed.
+&R* &YCorrected spell GOLEM WEAPON.
+&R* &YDestroying/deleting a character also deletes their locker file if
+&Y  they have one.&D
+~
+1 VERSION2.4.1A~
+&Cv2.4.1a
+&R* &YFixed an oopsie.&D
+~
+1 VERSION2.4.1b~
+&Cv2.4.1b
+&R* &YFixed another oops.&D
+~
+1 VERSION2.4.2~
+&Cv2.4.2
+&R* &YAPPLY_JUMP, APPLY_WAIT coded.
+&R* &YAdded APPLY_JUMP and APPLY_WAIT to sset options.
+&w- &WSee HELP SSET2.
+&R* &YAdded individual class if_checks to mobprogs.
+&w- &WSee HELP 'IFCHECK CLASS'
+&R* &YUpdated guildmasters in Alden with new ifchecks.
+&w- &WNew ifchecks allow a warrior-mage to enter either warrior guild
+&W  or mage guild. It also allows tiers to enter their pre-tier guilds,
+&W  such as an archmagi is able to enter mage, conjurer or druid guilds.
+&R* &YAdded more options to SSET and SPELLCOMPONENTS.
+&R* &YFollowing help files created or updated: SPELLCOMPONENTS, SSET,
+&Y  'IFCHECK CLASS', SPELLFLAGS, DICEFORMULAS, SSET2, NON-VERBAL
+&R* &YNew spells and skills: DISRUPT REALITY, MUTE, ENHANCE AURA,
+&Y  ARMOR OF LEAVES, NATURES WRATH, BLADE SPIRIT, CORRUPT ARMOR,
+&Y  DAEMONIC ARMOR, HIGHER CALLING, HOLY FLAME, IDOL, APOLOGIZE, BLITZKRIEG,
+&Y  DIE LAUGHING, DISENGAGE, FLASH BANG, HIGH JUMP, LEFT HANDED, SOUTHPAW,
+&Y  VANISH, TACTICAL RETREAT, ENHANCE AURA, ENJOYING THE GAME, RIPOSTE,
+&Y  TREAGE, SERPENT KISS, SHIELD SLAM, DAEMONIC PACT, CELESTIAL TRUPMETS,
+&Y  SKIRMISH LINE, ORDER RANKS, FINAL STAND, PINCER MOVEMENT, CLEANSE AURA,
+&Y  TENDON STRIKE
+&w- &WSee related help files.
+&R* &YCreated mob Ethereal Guardian for spell DISRUPT REALITY.
+&R* &YCreated spell flag NONVERBAL.
+&w- &WA nonverbal spell is not uttered and can be cast even if the caster
+&W  is affected by the MUTE spell.
+&R* &YThe following spells are now non-verbal: ACID BREATH, FIRE BREATH,
+&Y  FROST BREATH, GAS BREATH, LIGHTNING BREATH and TELEPORT.
+&R* &YAdded percent-based and group members operators to dice formulas.
+&w- &WThese will cause the affects or duration of a spell or skill to be based
+&W  on the player's current health, mana or moves percentages or based on
+&W  number of members in the player's group, including or excluding NPCs.
+&W  See HELP DICEFORMULAS.
+&R* &YMoved message from greeting screen telling names can include a space and
+&Y  apostrophe to new character name screen.
+&R* &YMobs summoned from spells DEMONIC BEAST, DAEMON GUARDIAN and SUMMON
+&Y  GOLEM will now be automatically grouped with the summoner.
+&R* &YSpell DEMONIC BEAST tweaked.
+&w- &WDemons summoned with this spell should be more useful and last longer.
+&D
+~
+1 VERSION2.4.3~
+&Cv2.4.3
+&R* &YModified get_exp_base function in anticipation for changes to tiers.
+&Y  (has no effect on gameplay or exp tnl yet)
+&R* &YRemoved need for questbag.
+&w- &WAll quest items will repop on you when you die, mob or pk.
+&R* &YETHEREAL GUARDIANS will vanish once their charm expires.
+&w- &WThese are mobs for a new archmagi spell not currently available.
+&R* &YCharacters under level 10 will retain their gold when they die.
+&R* &YMade changes to how conjurer-enchanted equipment functions after a pk.
+&w- &WSee HELP 'CONJURERS EQUIPMENT'
+&R* &YFixed an issue that occured when trying to give an item to yourself.
+&R* &YCharacters under level 5 can have at least 1 charmie.
+&R* &YCharacters will now see &W(&znothing&W)&Y when they have an empty wear
+&Y  slot. &RNote: &YThis may also show slots not available such as dual-wield.
+&R* &YConjurer's are limited to enchanting randoms only.
+&R* &YSeveral tweaks to the spell BOTTLE and related UNBOTTLE command.
+&w- &WBottled mobs are now owner flagged to the bottler. Players may not
+&W  unbottle a mob that does not belong to them. Bottles may be auctioned
+&W  with a starting price of at least 20,000 gold. A 50% fee is charged to the
+&W  seller to pay for change of ownership fees.
+&R* &YBottles created from the spell BOTTLE are now of type trash.
+&w- &WBottles were drink containers. Drinking from them could cause the mob to
+&W  pop out of the bottle with missing or incorrect stats.
+&R* &YAll conjurer ARMORSMITH and WEAPONSMITH spells have been tweaked.
+&R* &YRemoved the MUD's ability to write to a bugs.txt file.
+&w- &WThis file was constantly becoming corrupt, crashing the mud and further
+&W  preventing the mud from successfully rebooting.
+&R* &YHopefully fixed an odd bug where a charmed mob's charm expired and it
+&Y  would cause the player to seemingly fight themselves.
+&R* &YAdded the 'random' flag to severed body parts so they can be fstored and
+&Y  donated as randoms.
+&R* &YFixed ENHANCED DAMAGE that was incorrectly calculating a tier's level.
+&R* &YFixed ENHANCED HIT that was incorrectly calculating a tier's level.
+&R* &YRemoved an annoyance associated with 'get all' and player corpses.
+&R* &YCreated immortal command OGET.
+&w- &WSee HELP OGET&D
+~
+1 VERSION2.4.4~
+&Cv2.4.4
+&R* &YLinkdead immortals should be immediatly logged off.
+&R* &YTweak to ENCHANT TREASURE.
+&R* &YTweak OWHERE to show object id.
+&R* &YSafety tweaks to OGET.
+&R* &YSteamlined the ADVANCETIER code.
+&R* &YMade ADVANCETIER compatable with future tier setup.
+&w- &WCharacters using the ADVANCETIER command will now notice they will have
+&W  two different classes shown in their score. Their class will be the tier
+&W  class and their dualclass will be their original class.
+&R* &YTweaked can_see so any level tier can see wizinvis 50 immortals.
+&R* &YRacial stats override class stats as far as which one is higher.
+&w- &WIf a character's racial stat's max is higher than their class stat's max
+&W  thier stat's max will be the racial max. For example: A Minotaur's max
+&W  strength is 21 and a mage's max strength is 20. If the minotaur was a
+&W  mage, its strength would max at 21 since the racial stat was higher.
+&R* &YTweak class/level output in WHO command to show full class name of
+&Y  tiered characters.
+&R* &YCosmetic alteration to info message from someone becoming tiered.&D
+~
+1 VERSION2.4.5~
+&Cv2.4.5
+&R* &YAdded check so that stat max's can't exceed 25.
+&R* &YAdded check for locker room flag in "locker openold" command.&D
+~
+1 VERSION2.4.6~
+&Cv2.4.6
+&R* &Y"locker close" removes timer from items before they get saved.
+&w- &WSome of you may have seen or heard about items in the old lockers
+&W  being collected by Drazuk. That was due to the ground rot. When the
+&W  lockers were closed, the items were saved with the ground rot timer
+&W  still on them and were not reset when the locker was re-opened. This
+&W  fixes that issue.
+&R* &YAdded recursive check for "bags inside bags inside bags etc." for
+&Y  donation commands.
+&w- &WThis will prevent bags within bags (etc.) that contain stock items from
+&W  being donated, fstored or put inside donation pits.
+&P  FOLLOWING LEVEL IMMORTALS: Please take the time to check containers within
+&P  your pits and make sure they are marked random (SETRANDOM) as needed.
+&R* &YENCHANT ARMOR/TREASURE/WEAPON tweaks.
+&w- &WThese tweaks do not alter any of the affects of the spells and should
+&W  not be noticed.
+&R* &YNew tier spell PIERCE SHADOWS created.&D
+~
+1 VERSION2.4.7~
+&Cv2.4.7
+&R* &YCreated SF_NOCLASS flag for skills.
+&w- &WThis flag allows setting certain skills and spells as a non-class
+&W  specific skill, such as legendary skills.
+&R* &YIncreased the chance of practices being rewarded for completing aquests.
+&R* &YAdded a new "keyword" option to QPBUY.
+&w- &WThis option will allow a character to buy a specialized keyword for an
+&W  item using glory points. See HELP QPBUY.
+&R* &YForced a strict +/-10 level restriction on STEAL between players.
+&w- &WThis i&Rs&W the resu&Rl&Wt of a player ab&Ru&Wsing it by st&Re&Waling
+&W  from players out of his range.
+&D
+~
+1 VERSION2.4.8~
+&Cv2.4.8
+&R* &YFixed a loophole in the EMPTY command.
+&R* &YReduced prices for Kallista's services.
+&w- &WMoney used for Kallista's services are added to Alden's economy.
+&R* &YCoded new skill SALT WOUNDS.
+&R* &YPossibly fixed an issue with the anti-tanking code.
+&R* &YAdded HELP EQSWAPPING&D
+~
+1 VERSION2.4.9~
+&Cv2.4.9
+&R* &YChanged mobprog ifcheck 'isthief' to 'isathief' to remove conflict
+&Y  with class check 'isthief' for guildmasters.
+&R* &YRemoved restriction for AUTOUPDATE config setting from fighting.
+&w- &WFurther testing proved that the fight prompt was not being autoupdated
+&W  as often as it should have been.
+&R* &YChanged spell ENCHANT TREASURE to ENHANCE TREASURE.
+&R* &YMade tweaks to ENHANCE TREASURE.
+&R* &YCreated spells ENCHANT TREASURE, ENHANCE ARMOR and ENHANCE WEAPON.
+&R* &YMade tweaks to ENCHANT ARMOR and ENCHANT WEAPON.
+&w- &WEnhance spells are designed to benefit caster classes. These spells will
+&W  be given to mages. Enchant spells are designed to benefit combat oriented
+&W  classes and will be given to clerics. See related help files.
+&R* &YAdded three new act flags for mobs: Aggressive_low, Aggressive_mid and
+&Y  Aggressive_high.
+&w- &WAggressive_low: Mobs with this flag will aggressively attack players
+&W  level 15 and below only.
+&w- &WAggressive_mid: Mobs with this flag will aggressively attack players
+&W  level 16 and above only.
+&w- &WAggressive_high: Mobs with this flag will aggressively attack players
+&W  level 30 and above only.
+&R* &YObjects that are zapped from a character will stay in the character's
+&Y  inventory instead of falling to the ground.
+&R* &YAdded AUTOASSIST config option.
+&w- &WThis option, when set, will cause the character to automatically
+&W  assist group members in a fight. If not set, the character will sit
+&W  idly by while their groupmates continue the fight without them.
+&D
+~
+1 VERSION2.4.10~
+&Cv2.4.10
+&R* &YAdded config ABBAFFS (abbreviated affects) option to config settings.
+&w- &WThis setting when on will abbreviate spells seen on other characters
+&W  into a single set of single color-coded letters. This setting is off
+&W  by default. See HELP ABBAFFS for more information.
+&R* &YFixed problem with invis and imp invis showing the invis flag twice.
+&R* &YPlayers can now see the neutral align aura if they are affected by both
+&Y  detect good and detect evil.
+&R* &YCreate real random potions, pills, wands, scrolls, staves and salves.
+&R* &YPlayers with CONFIG +SEEDAM will now see a numerical value of damage
+&Y  delt to them by mobs.
+&R* &YCharmies automatically assist in combat.&D
+~
+1 VERSION2.4.11~
+&Cv2.4.11
+&R* &YFixed at least 2 errors that were causing null spells to end up on
+&Y  random magic consumables.
+&R* &YAdded spell names to keywords list of magic consumable items.
+&w- &WSince this change would make it extremely easy to locate specific
+&W  spells on these items, they are now nolocate.
+&R* &YAdded a new preset prompt 'hog1'
+&w- &WTo use this preset type: prompt hog1
+&R* &YAdded a new preset fprompt 'hog1'
+&w- &WTo use this preset type: fprompt hog1
+&D
+~
+1 VERSION2.4.12~
+&Cv2.4.12
+&R* &YImmortals can now see any level mobinvis.
+&R* &YCreated new command CONVERT.
+&w- &WThis command is mainly for tiers but can be used by any player.
+&W  See HELP CONVERT for more information.
+&R* &YAdded bonus info from a specific IDENTIFY output.
+&R* &YIncreased the amount of experience gained from physical attacks.
+&R* &YAdded level constraints to function is_legal_kill.
+&w- &WThis fixes an issue with HITALL enabling players to attack those outside
+&W  of their range. It may also fix a similar issue with some other skills.
+&R* &YFixed an issue with conjurer-enchanted equipment incorrectly getting
+&Y  the PK timer set on them.
+&R* &YAdded 'Spirit shield' to SCORE output.
+&R* &YAdded something to help players with random magic consumables.
+&D
+~
+1 VERSION2.4.13~
+&Cv2.4.13
+&R* &YRemoved immune casting on characters for spell IDENTIFY.
+&R* &YRemoved restriction that prevents AVATAR level characters from
+&Y  gaining exp.
+&R* &YIDENTIFY removes 'nolocate' flag from random items.
+&R* &YAdded more color to IDENTIFY output.
+&R* &YFixed an issue with the capitalize function messing up color codes
+&Y  in items being sold in shops.
+&R* &YAllow shoppies to buy more than one of the same type of item if
+&Y  the item is a random.
+&R* &YTweak to spell DISPEL MAGIC.
+&R* &YCreated skill CRUSH. See related help file.
+&R* &YTweak skill AMBUSH.
+&R* &YCreated skill SHADOW VENOM. See related help file.
+&D
+~
+1 CRUSH~
+Syntax: crush
+
+Use the size and weight of your own weapon to crush your opponent. This skill
+can only be used in combat and requires a two-handed blunt weapon.
+~
+1 'SHADOW VENOM'~
+Syntax: shadow <weapon>
+
+A highly skilled thief can learn ways of increasing the potency of the poison
+applied to a weapon, making it deadlier and the weapon's sting even greater.
+This skill requires some black poisoning powder and a water container.
+~
+1 VERSION2.4.14~
+&Cv2.4.14
+&R* &YMade tweaks to combat functions.
+&w- &WFixed AC calculations. Fixed level calculations for parry check,
+&W  dodge check and tumble check.
+&R* &YMobs can not disarm or parry unless wielding a weapon.
+&R* &YRemoved some spells from random potion/pill/salve list.
+&R* &YMade a run through the random generating code to make sure items have
+&Y  a value greater than 0.
+&R* &YCreated skills: SNIPE, VENOM ARROW, BARBED ARROW and NUMBING ARROW.
+&R* &YMade tweaks to the following spells: MIDAS TOUCH, HAND OF CHAOS,
+&Y  DISRUPTION, SONIC RESONANCE, SULFUROUS SPRAY, CAUSTIC FOUNT, ASTRAL RIFT,
+&Y  ACETUM PRIMUS, GALVANIC WHIP, MAGNETIC THRUST, QUANTUM SPIKE, BLACK HAND,
+&Y  BLACK FIST, BLACK LIGHTNING, EARTHQUAKE, FIREBALL, IDENTIFY and TRANSPORT.
+&w- &WTweaks mostly include adding spell damage or preventing area spells from
+&W  hitting grouped characters and illegal targets. Other tweaks not worth
+&W  mentioning.
+&D
+~
+1 SNIPE~
+Syntax: snipe <target>
+
+Using the element of surprise one can fire a bolt at their target and inflict
+a great amount of damage. This skill requires the use of a missle type weapon
+and to be in some kind of stealth mode.
+~
+1 'VENOM ARROW'~
+Syntax: cast 'venom arrow' <target>
+
+Using a stash of poisoned bolts, one can fire one at their opponent causing
+them to become poisoned and injured. This spell requires the use of a missile
+type weapon.
+~
+1 'BARBED ARROW'~
+Syntax: cast 'barbed arrow' <target>
+
+With the use of barbed bolts and a missile type weapon, one can inflict damage
+upon their opponent. The barb stays with the victim causing them to take more
+damage than usual.
+~
+1 'NUMBING ARROW'~
+Syntax: cast 'numbing arrow' <target>
+
+With the use of a missile type weapon, one can fire a special poisoned bolt at
+their opponent to inflict a great bit of damage as well as causing some form
+of paralysis.
+~
+1 VERSION2.4.15~
+&Cv2.4.15
+&R* &YFixed some typos in the IDENTIFY spell.
+&R* &YCoded in some helpful surprises for players that use, or can use,
+&Y  charmed mobs.
+&R* &YTweaked group exp gains.
+&R* &YAdded same-room check to MISTWALK.
+&D
+~
+1 VERSION2.4.16~
+&Cv2.4.16
+&R* &YCreated spell SUMMON SPIRIT.
+&R* &YCharmed mobs can be ordered to rescue.
+&R* &YCreated a "no_corpse" flag for certain mobs.
+&D
+~
+1 'SUMMON SPIRIT'~
+Syntax: cast 'summon spirit' <target>
+
+After a mob has been killed, the caster initiates a ritual that can summon the
+spirit of the slain mob. The spirit will be under the caster's control for a
+period of time and able to assist in combat. The spirit can only exist in the
+living realm for a period of time before returning to the afterlife.
+~
+1 VERSION2.4.17~
+&Cv2.4.17
+&R* &YFixed unbottled mobs HP/Max HP
+&w- &WMobs should now have 100% hp when they are unbottled.
+&R* &YFixed problem with camouflage.
+&w- &WRangers should now be able to use camouflage.
+&R* &YLowered interest rate for economy gain.
+&R* &YAdded check for silenced flag to SAY command.
+&w- &WSilenced players were still able to use the SAY channel when silenced.
+&W  This fixes that issue.
+&R* &YShow charm duration in GROUP output to master only.
+&w- &WCharacters that have charmed mobs in their group can use the GROUP
+&W  command to check the duration of the charm on their charmies. Other
+&W  characters in the group will not see the charm duration if they are not
+&W  the mob's master.
+&R* &YAllow BUG messages to be displayed - not written to file.
+&R* &YFix potential bug with FDEPOSIT.
+&w- &WFDEPOSIT did not check to see if the depositor was in a clan before
+&w- &Wdepositing the entered amount.
+&R* &YCosmetics affected by config +abbaffs setting.
+&w- &WThis change allows players using the config +abbaffs setting to see
+&W  alignment auras as a single letter surrounded by parenthesis.
+(E) = (Red Aura) : Evil alignment
+(N) = (Grey Aura) : Neutral alignment
+(G) = (Blue Aura) : Good alignment
+&D
+~
+1 VERSION2.4.18~
+&Cv2.4.18
+&R* &YIncentives to not killed one's own charmed mobs.
+&w- &WAnyone that kills a mob that they have charmed will be rewarded with
+&W  negative experience.
+&R* &YCannot disband charmies.
+&w- &WDisbanding charmies was causing some data errors.
+&R* &YFix issue with characters not able to use low level scrolls.
+&R* &YFix issues with eating and drinking.
+&R* &YSpells HAND OF CHAOS and DISRUPTION should give some exp.
+&R* &YAdded caster's name (as owner) to portal object.
+&R* &YAdded flag to allow for PLANT mobs.
+&R* &YDisabled all "affect-skill" affects from items and/or spells.
+&w- &WThis will disable any skill bonuses applied by wearing items such as the
+&W  track bonus on tracking goggles. This change may be temporary.
+&R* &YMade plant corpses for mobs marked "plant" flag.
+&w- &WCan now create plant mobs such as Ents.
+&R* &YAdded a message to indicate dropped eq/gold from mobs with "no corpse"
+&Y  flag.
+&R* &YAllow jesters to use wands.
+&D
+~
+1 VERSION2.4.19~
+&Cv2.4.19
+&R* &YFix to convert and item-skill problem.
+&R* &YAllow "affect-skill" affects from items again.
+&R* &YAdded safeguards to charm spells expiring.
+&w- &WAdded some extra safeguards to see if they will prevent the game going
+&W  into an infinite loop.
+&R* &YAdded charmed info to mobs.
+&w- &WCharmed mobs will return to where they came from once their charm has
+&W  expired and they stop following.
+&R* &YRewrote SCORE code.
+&w- &WThe SCORE command would cause the mud to freeze up by causing it to go
+&W  into an infinite loop. Hopefully this will fix that.
+&R* &YAllow conjurers to use scrolls. < as per HELP MAGICTABLE >
+&R* &YRemoved shaman ability to use staves. < as per HELP MAGICTABLE >
+&w- &WThese two changes to item usage are due to the chart found in HELP
+&W  MAGICTABLE. Everything is now set by that chart.
+&R* &YCreated spell ALCHEMY GOLD.
+&R* &YRemoved pratice gain from CONVERT command.
+&w- &WSufficiant time has passed that anyone wanting to convert and regain
+&W  some practices should have done so by now. This was also done to prevent
+&W  any other kind of misuse or abuse.
+&R* &YFix bug in SPLIT/AUTOGOLD to prevent mobs from gaining gold.
+&w- &WCharmed mobs in groups of 2 players or more would inadvertedly gain
+&W  gold. This fix prevents that.
+&D
+~
+1 VERSION2.4.20~
+&Cv2.4.20
+&R* &YCreated spell CLOUD EYES.
+&R* &YAdded ASTRALBLOCK flag to invasion mobs.
+&R* &YFixed issue with scroll level and allowed classes.
+&R* &YRemoved immediate quit for linkdead immortals.
+&R* &YFixed errors with STYLES.
+&R* &YCreated skill FOOT STOMP.
+&R* &YFix(?) player corpses becoming plant corpses.
+&R* &YFix infinite loop with astral spells.
+&R* &YFix(?) issue with colour spray adding multiple blindnesses.
+&R* &YFixed typo in aquest.
+&R* &YReduce wait time for quit mob master quest from 50 to 30 minutes.
+&D
+~
+1 VERSION2.4.21~
+&Cv2.4.21
+&R* &YFixed an issue with can_charm function.
+&R* &YMade locate object not locate items on immortals.
+&R* &YFix typos in deposit and withdraw.
+&w- &WChanged deposit tax message.
+&R* &YAdded skill quests (squest) and related commands.
+&R* &YAdded magic quest (mquest) and related commands.
+&w- &WSkill and magic quests are available from guild masters via the SQUEST
+&W  or MQUEST commands. Squest are only available to a character with a
+&W  fighter class (warrior, thug, thief, ranger, monk or jester) while Mquest
+&W  is only available to characters with a caster class (mage, cleric, druid,
+&W  conjurer, diabolist or shaman.)
+&W  These quests work in the same way that Aquests work, using the REQUEST,
+&W  REFUSE, COMPLETE, POINTS command options.
+&W  Skill quests will reward a character with skill points while magic quests
+&W  will reward a character with magic points. You will see these in your
+&W  score or by using the associated POINTS command option. (SQUEST POINTS or
+&W  MQUEST POINTS)
+&W  A character will gain one(1) point of damage roll per every 250 skill
+&W  points earned.
+&W  A character will gain one(1) point of spell damage per ever 250 magic
+&W  points earned.
+&R* &YAdded spoint, mpoint option to MSET.
+&R* &YAdded SPSET and MPSET commands.
+&w- &WThese two commands work in the same way that QPSET works.
+&D
+~
+1 VERSION2.4.22~
+&Cv2.4.22
+&R* &YAdded separate flags for magic/skill quests.
+&R* &YFixed bugs in new squest/mquest quests.
+&R* &YAdjusted wait times for squest/mquest quests.
+&D
+~
+1 VERSION2.4.23~
+&Cv2.4.23
+&R* &YAdjusted wait times for squest/mquest quests.
+&w- &WTimes have been increased slightly from 2 minutes to 5 minutes.
+&R* &YAdjusted amount of skill/magic points needed for bonus.
+&w- &WThe amount of skill or magic points needed to gain a bonus has been
+&W  increased to 350.
+&R* &YSeparated quest timers.
+&w- &WThis allows a player to do a normal quest (AQUEST) and immediatly
+&W  attempt a magic quest (MQUEST) or (SQUEST). You can still only do one
+&W  quest at a time, but they are on separate timers. The "You may quest
+&W  again" messages will show you when you can do another magic or skill
+&W  quest. For example: This will not allow you to do a magic quest and then
+&W  do another magic quest immediatly afterwards but you can do a skill quest
+&W  or regular quest instead.
+&R* &YPrevent limbo.are mobs from being targets of quests.
+&w- &WThis includes spirits, demons, animated corpses, natures
+&W  companions, etc.
+&R* &YPrevent gallery.are mobs from being normal mob mastery targets.
+&w- &WThese mobs were not meant to be killed by a single player. These mobs
+&W  are not, however, excluded from expert mob masteries.
+&R* &YAdjust dr/hr on expert mobm targets.
+&w- &WHopefully make them a bit beefier.
+&R* &YAdjust tick/pulse timers.
+&w- &WThis may have been the cause of quest timers making players wait 10 or
+&W  more minutes when the message said the wait time was much less.
+&R* &YCreate custom messages for squest/mquest.
+&w- &WSkill and magic quests have some unique quest messages that Joey
+&W  does not say.
+&R* &YAdded scorexp, scoremp, scoresp data to pc structure, save/load data.
+&R* &YAdded commands for scoremp, scoresp, scorexp.
+&w- &WCommands SCOREMP, SCORESP and SCOREXP now show rankings like the
+&W  other SCORE- commands.
+&D
+~
+1 VERSION2.5.0~
+&Cv2.5.0
+&R* &YIncreased max race so new races could be added.
+&w- &WHINT! Go vote for the race names!!
+&R* &YFix can_charm function.
+&R* &YFix bug with spelldamage and death.
+&R* &YAdded spelldam and acworn to fixchar command.
+&R* &YFix in "mquest request"
+&w- &WWas showing wrong time remaining.
+&R* &YFix some level check errors in scribe and brew.
+&R* &YPrevent renaming of PCs via mset command.
+&R* &YPrevent muted mobs from casting defense spells.
+&R* &YAllow shamans to use scrolls.&D
+~
+1 PRISMASHIELD~
+Syntax: cast prismashield
+
+By summoning up a prismatic ward of ether, the caster can protect thierself
+from the effects of the elemental shields.
+~
+1 VERSION2.5.1~
+&Cv2.5.1
+&R* &YAdded messages to MUTE spell.
+&R* &YPrevent muted mobs from casting attack spells.
+&R* &YFix typo in MQUEST REQUEST.
+&R* &YAll immortals spells will now cost 15 mana.
+&R* &YIncreased regen rates for mana, hp and moves.
+&R* &YAdded new races: SHURI, ZEPHYR, GULRAN, AHPOCK, and JINN.
+&w- &WSee related help files.
+&D
+~
+0 SHURI~
+The Shuri have long lived in seclusion in the southern continent, preferring
+to be alone rather than deal with the minotaur or wolfen. Naturally athletic
+with amazing balance and dexterity, the Shuri have survived by their natural
+prowess as hunters but also their deep attunement to the natural. Due to their
+life among the trees, lounging in the sun or stalking prey, the Shuri can
+naturally hide. Their thick fur makes them resistant to basic attacks but they
+are severely fearful and suspectible to electricity.
+
+Shuri get 95% of the normal experience award.
+
+Shuri can be a Warrior, Thug, Thief, Ranger, Monk, Druid or Shaman.
+~
+0 GULRAN~
+The Gulran have made their home in the high mountains, long since battling
+dwarves, orcs, drow, and kobols for the right to control the Ironkores. Gulran
+are massive creatures, with the most gigantic strength and constitution to
+match. However, their large size limits their dexterity a great deal. Gulran
+are quite dull, being of lowered intelligence and wisdom, but they make up for
+this with their great strength. They are naturally weak to magic and energy,
+but are very resistant to physical attacks.
+
+Gulrans get 90% of the normal experience award.
+
+Gulrans can be a Warrior, Ranger, Thug, Druid, Shaman or Diabolist.
+~
+0 ZEPHYR~
+The Zephyr have lived high in the mountains or forest tops, far away from the
+giants or Shuri. The Zephyr, being avian in origin, are naturally able to fly.
+The Zephyr are incredibly swift, intelligence, and wise. Yet to sustain flight
+they are quite fragile with limited strength and endurance. The Zephyr are
+quite well protected against lightning and draining energies but are very weak
+against crushing weapons as their bones are hollow.
+
+Zephyrs get 100% of the normal experience award.
+
+Zephyrs can be a Warrior, Ranger, Monk, Thief, Mage, Conjurer, Cleric or
+Shaman.
+~
+0 JINN~
+The Jinn are ancient creatures of pure magic. They have very little substance
+to them, made of mostly energy and air. Often used as slaves by the more
+magically inclined races, the Jinn have recently broken free and moved out
+into the world. The Jinn are by far the most intelligent and wise of any
+mortal being and are unrivaled magic users. However, they have little physical
+abilities with no strength or constitution to speak of. They are very weak to
+all forms of physical damage but are quite resistant to any form of magic.
+
+Jinns get 110% of the normal experience award.
+
+Jinns can be a Mage, Druid, Shaman, Diabolist, Cleric or Conjurer.
+~
+0 AHPOCK~
+The Ahpock, recently freed from their captivity by the Elder Spawn, have moved
+out into the world to find their place. The Ahpock are the epitome of
+soldiers, trained from birth by the spawn to be the greatest fighters. Despite
+their normal size, the Ahpock are incredibly strength, endurant, and quick.
+However, the spawn used selective breeding to ensure they were dimwitted,
+foolish, unlucky, and crude. The Ahpock are weak to magic in all aspects, a
+tool of control by the spawn, but are completely resistant to any physical
+attack.
+
+Ahphocks get 110% of the normal experience award.
+
+Ahpocks can be a Warrior, Monk, Ranger, Thief or Thug.
+~
+1 VERSION2.5.2~
+&Cv2.5.2
+&R* &YAdded short versions of new race names for WHO output.&D~
+1 VERSION2.5.3~
+&Cv2.5.3
+&R* &YFixed bug with spelled-up charmies.
+&w- &WIt is now safe to spell-up your charmies. This will no longer cause
+&W  the game to crash.&D
+~
+1 VERSION2.5.4~
+&Cv2.5.4
+&R* &YModified WHO output.
+&w- &WThis will allow all players to see any mortal currently online displayed
+&W  on the WHO command output. This will not allow players to see invis,
+&W  hidden or camouflaged players in rooms if they are not normally able to
+&W  see such players.
+&R* &YUpdated help files for SHURI, GULRAN, ZEPHYR, JINN and AHPOCK to show
+&Y  exp gain percentages.
+&D
+~
+1 VERSION2.5.5~
+&Cv2.5.5
+&R* &YModified undertaker code.
+&w- &WSee HELP CR for details.&D
+~
+1 VERSION2.5.6~
+&Cv2.5.6
+&R* &YFix bug with WHO and GS
+&R* &YFix bug with undertaker code.
+&R* &YFix error with Ahpock race name not showing up in WHO output.
+&R* &YAdded code to handle ENHANCED DUAL WIELD
+&w- &WSee HELP 'ENHANCED DUAL WIELD'&D
+
+
+~
+1 'ENHANCED DUAL WIELD'~
+This skill is automatic once learned.
+
+Enhanced dual wield allows a champion to wield a two-handed weapon as if it
+were a one-handed weapon. This means a champion can dual wield two two-handed
+weapons, or wield a two-handed weapon and wear a shield, or wield a two-handed
+weapon and wear a held item or, like dual wield, wield two one-handed weapons.
+~
+-1 GREETING2~
+.                                                           .-----.
+                                                         .'       `.
+    __   _,                 ____,                       :      ^v^  :
+   (-|__|    _      _  _   (-/  \ .-.                   :           :
+    _|  |_, (_)|_|_/_)(/_    \__/ |-                    '           '
+   (     ____                     |      |-        www   `.       .'
+        (-/  `_' |_  _     |   _        /.\       /#^^\_   `-/\--'
+          \___)  | |(_)|_| | _/_)      /#  \     /#%    \   /# \
+                                      /#%   \   /#%______\ /#%__\
+ Visit us on the web:                /#%     \   |= I I ||  |- |
+  Coming Soon                        --|---|--   |_=_-__|'  |[]|
+                                       |[] |_______\__|/_ _ |= |`.
+                                ^V^    |-  /= __   __    /-\|= | :;
+                                       |= /- /\/  /\/   /=- \.-' :;
+Based on...                            | /_.=========._/_.-._\  .:'
+ SMAUG 1.4 written by                  |= |-.'.- .'.- |  /|\ |.:'
+  Thoric (Derek Snider) With Altrag,   \  |=|:|= |:| =| |-|-||'|
+  Bodkai, Haus, Narn, Scryn,            |-|-|:| -|:|  |-|-|-||=|      ^V^
+  Swordbearer, Triclops, Gorog, Rennard,|=|=|:|- |:|- | |-|-|| |
+  Grishnakh, Fireblade and Nivek.       | |-_-__=_-__=|_^^^^^|/___
+                                        |-(=-=-=-=-=-(|=====/=_-=/\
+Original MERC 2.1 code by               | |=_-= _=- _=| -_=/=_-_/__\
+  Hatchet, Furey, and Kahn.             | |- _ =_-  _-|=_- |]#| I II
+                                        |=|_/ \_-_= - |- = |]#| I II
+Original DikuMUD code by:           jgs | /  _/ \. -_=| =__|]!!!I_II!!
+  Hans Staerfeldt, Katja Nyboe,        _|/-'/  ` \_/ \|/' _ ^^^^`.==_^.
+  Tom Madsen, Michael Seifert &      _/  _/`-./`-; `-.\_ / \_'\`. `. ===`.
+  Sebastian Hammer                  / .-'  __/_   `.   _/.' .-' `-. ; ====;\
+                                   /.   `./    \ `. \ / -  /  .-'.' ====='  >
+                                  /  \  /  .-' `--.  / .' /  `-.' ======.' /
+
+
+Enter your character's name, or type NEW:
+~
+-1 GREETING3~
+.                                                         .     .
+                                                         !!!!!!!
+    /_  _,_,    _   _        _,_/)               .       [[[|]]]    .
+  _/ (_(_/ (_/_/_)_(/_     _(_///_               !!!!!!!!|--_--|!!!!!
+                       _     _/                  [[[[[[[[\_(X)_/]]]]]
+      __  /_  _,_,    // ,   /)          .-.     /-_--__-/_--_-\-_--\
+    _(_/_/ (_(_/ (_/_(/_/_)_ `           |=|    /-_---__/__-__-_\__-_\
+     _/_                             . . |=| ._/-__-__\===========/-__\_
+    (/                               !!!!!!!!!\========[ /]]|[[\ ]=====/
+                                    /-_--_-_-_[[[[[[[[[||==  == ||]]]]]]
+ Visit us on the web:              /-_--_--_--_|=  === ||=/^|^\ ||== =|
+  Coming Soon                     /-_-/^|^\-_--| /^|^\=|| | | | ||^\= |
+                                 /_-_-| | |-_--|=| | | ||=|_|_|=||"|==|
+                                /-__--|_|_|_-_-| |_|_|=||______=||_| =|
+                               /_-__--_-__-___-|_=__=_.`---------'._=_|__
+Based on...                   /-----------------------\===========/-----/
+ SMAUG 1.4 written by:       ^^^\^^^^^^^^^^^^^^^^^^^^^^[[|]]|[[|]]=====/
+  Thoric (Derek Snider) with     |.' ..==::'"'::==.. '.[ /-----\ ]]]]]]]
+  Altrag, Blodkai, Haus, Narn,   | .'=[[[|]]|[[|]]]=`._||==  =  || =\ ]
+  Scryn, Swordbearer, Triclops,  ||== =|/ _____ \|== = ||=/^|^\=||^\ ||
+  Gorog, Rennard, Grishnakh,     || == `||-----||' = ==|| | | |=|| |=||
+  Fireblade and Nivek.           ||= == ||:^s^:|| = == ||=| | | || |=||
+                                 || = = ||:___:||= == =|| |_|_| ||_|=||
+Original MERC 2.1 code by:      _||_ = =||o---.|| = ==_||_= == =||==_||_
+  Hatchet, Furey, and Kahn.     \__/= = ||:   :||= == \__/[][][][][]\__/
+                                [||]= ==||:___:|| = = [||]\\//\\//\\[||]
+Original DikuMUD code by:        }{- --'"'-----'"'- -- }{\//\\//\\//\}{
+  Hans Staerfeldt,            __[==]__________________[==]\\//\\//\\[==]_
+  Katja Nyboe, Tom Madsen,   |`|----|================|----|--------|----||
+  Michael Seifert &       jgs|^| ^  |================|^   | ^ ^^ ^ |  ^ ||
+  Sebastian Hammer.         \|//\\/^|/==============\|/^\\\^/^.\^///\\//|///
+
+Enter your character's name, or type NEW:
+~
+1 VERSION2.5.7~
+&Cv2.5.7
+&R* &YAdded a couple new greeting screens.
+&w- &WSee HELP GREETING2 and HELP GREETING3.
+&R* &YAdded code to randomly display a different greeting screen.
+&D
+~
+-1 GREETING4~
+.,___________________________________________________________________________,
+|\'-._(   /    __   _,                 ____,       ____                     |
+| \  .'-._\   (-|__|    _      _  _   (-/  \ .-.  (-/  `_' |_  _     |   _  |
+|-.\'    .-;   _|  |_, (_)|_|_/_)(/_    \__/ |-     \___)  | |(_)|_| | _/_) |
+|   \  .' (   (                              |                              |
+|.--.\'    )                              +           __        ____        |
+|    `    (              ^V^             /^\----------][-------/ JL \   ^V^ |
+|          )                            /   \        /__\     |  ][  |      |
+|         (                            /     \      //__\\    | /__\ |      |
+|         _)                   ^V^    /       \     ||  ||   /__|  |__\     |
+|      _\(_)/_                       /         \    ||==||   |  |==|  |     |
+|       /(O)\                     __/___________\ _ ||__|| _ |__|__|__|__   |
+|                                ';===============,==========,==========;'  |
+|                                  \[]-[]-[]-[]-[]/-[]-[]-[]-|-[]-[]-[]/    |
+| Based on...                       |____________|-----------\_..--.._/     |
+|  SMAUG 1.4 written by:            || |='--'=| ||^^_^^_^^_^^| = _   =|     |
+|   Thoric (Derek Snider) with      || | .--. | ||===.---.===|._.__._.|     |
+|   Altrag, Blodkai, Haus, Narn,    || | |__| | ||   |___|  =||| || |||     |
+|   Scryn, Swordbearer, Triclops,   ||_|_|--|_|_|| = |---|   ||| || |||     |
+|   Gorog, Rennard, Grishnakh,     _/!!!!!!!!!!!!|  _|___|_- |||_||_|||     |
+|   Fireblade and Nivek.          ':""__""_"""__"| '-------' |'-'--'-'|     |
+|                                   ||__________||=_  ___-  _| =  _ = |     |
+| Original MERC 2.1 code by:        ||----------||   .---.=  |._.__._.|     |
+|   Hatchet, Furey, and Kahn.       |||.-_---_-.||   |___|  =||| || |||     |
+|                                   ||||[_]|[_]||| = |---|   ||| || |||     |
+| Original DikuMUD code by:         ||||.-.|.-.|||,,,|,,,|,,,||| || |||     |
+|   Hans Staerfeldt,                ||||| ||| ||||&&&&&&&&&&&&'-'--'-'|     |
+|   Katja Nyboe, Tom Madsen,        |||||_|||_|||||"___""___"| __= __ |     |
+|   Michael Seifert &            ___|||=========||||[_]||[_]|||[]||[]||___  |
+|   Sebastian Hammer.           |   ; =========== |!!!!!!!!!!!!!!!!!!!|   | |
+|_______________________________"jgs"""""""""""""""""""""""""""""""""""""""_|
+
+Enter your character's name, or type NEW:
+~
+1 VERSION2.5.8~
+&Cv2.5.8
+&R* &YAdded a new greeting screen.
+&w- &WSee HELP GREETING4.
+&D
+~
+1 VERSION2.5.9~
+&Cv2.5.9
+&R* &YBegan adding code to display online stats for the web site.
+&R* &YFixed message with carrying too many items or too much weight.
+&w- &WIt now displays the object's short description instead of its
+&W  first keyword.
+&R* &YAdded glory rewards for &Cwinning&Y at ACRO.
+&w- &WGlory awarded will be equal to the number of votes plus the number
+&W  of wins the player currently has. So, the more times you win, the more
+&W  glory you can be awarded. The game requires a minimum of 3 players and
+&W  you cannot vote for your own acro.
+&D
+~
+1 VERSION2.6.0~
+&Cv2.6.0
+&R* &YAdded Lua scripting engine to the source code with help
+&Y  from Nick Gammon.
+&w- &WThis allows the addition of many scriptable features such
+&W  as quests, skills, commands, etc.
+&R* &YAdded TASK command.
+&w- &WThis is a Lua script written by Nick Gammon. See HELP TASK.
+&W  The TASK system currently only has taks available for newbies
+&W  in the Alden University. Other areas will get tasks as
+&W  we get time to write them.
+&R* &YAdded WHEREIS command.
+&w- &WThis is a Lua script written by Nick Gammon with help from
+&W  Ked and Indoum. ( http://www.gammon.com.au/forum/bbshowpost.php?id=7306 )
+&W  Currently only the university and Alden have destinations
+&W  set for the WHEREIS command. Other areas (home towns or big cities)
+&W  may get destinations at a later time.
+&R* &YAdded scriptable area resets.
+&w- &WThese will allow for resets in areas to be scripted to allow a
+&W  variety of things that can happen when an area resets.
+&R* &YAdded two new dreaming messages.
+&D
+~
+1 TASK~
+Syntax:
+    task list
+    task available
+    task show [id]
+    task accept [id]
+    task finish [id]
+    task abandon [id]
+    task history
+
+task list         - Lists the current tasks you have accepted.
+task available    - Lists the tasks currently available to you in your
+                    current room.
+task show [id]    - Shows the details of a task with the given id.
+task accept [id]  - Accept the task with given id.
+task finish [id]  - Finalize the task. This is how you will recieve you
+                    rewards for finishing the task.
+task abandon [id] - Abandons a task. The task becomes available to you
+                    to accept again later.
+task history      - Displays a list of all tasks you have finished.
+~
+1 WHEREIS~
+Syntax:
+    whereis
+    whereis <location>
+
+Whereis by itself will give you a list of available destinations, if they
+exist for the area you are in.
+
+By specifying a location, one given in the list of available destinations,
+you will be given a set of directions from your current location to the
+location you specified.
+~
+0 $~
+
+#$

@@ -1,0 +1,3061 @@
+#AREA   Templar Academy~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+30 50 0 65
+$
+
+#RESETMSG The sound of marching fills the air.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 375870972
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8000
+Templar hopeful boy young~
+a Templar hopeful~
+This young boy hopes to be accepted into the academy.
+~
+This young boy looks to have been in training for most of his life.  He looks
+around nervously as he waits to here if he has been accepted into the academy.
+ He watches the cadets with envy and the Templars with awe. He is willing to
+fight anybody to prove he is ready.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8001
+Templar hopeful boy young~
+a Templar hopeful~
+This young boy hopes to be accepted into the academy.
+~
+This young boy looks to have been in training for most of his life.  He looks
+around nervously as he waits to here if he has been accepted into the academy.
+ He watches the cadets with envy and the Templars with awe. He is willing to
+fight anybody to prove he is ready.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8002
+Templar hopeful boy young~
+a Templar hopeful~
+This young boy hopes to be accepted into the academy.
+~
+This young boy looks to have been in training for most of his life.  He looks
+around nervously as he waits to here if he has been accepted into the academy.
+ He watches the cadets with envy and the Templars with awe. He is willing to
+fight anybody to prove he is ready.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8003
+Templar cadet young~
+a Templar cadet~
+This young cadet is sparring against another cadet.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+sparring with another cadet, trying to prove his battle skills as well as
+establish dominance.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8004
+Templar cadet young~
+a Templar cadet~
+This young cadet is sparring against another cadet.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+sparring with another cadet, trying to prove his battle skills as well as
+establish dominance.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8005
+Templar cadet young~
+a Templar cadet~
+This young cadet is sparring against another cadet.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+sparring with another cadet, trying to prove his battle skills as well as
+establish dominance.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8006
+Templar cadet young~
+a Templar cadet~
+This young cadet is sparring against another cadet.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+sparring with another cadet, trying to prove his battle skills as well as
+establish dominance.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8007
+Templar cadet young~
+a Templar cadet~
+This young cadet is relaxing before another training session.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+enjoying some well deserved leisure time before his next training session.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8008
+Templar cadet young~
+a Templar cadet~
+This young cadet is relaxing before another training session.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+enjoying some well deserved leisure time before his next training session.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8009
+Templar cadet young~
+a Templar cadet~
+This young cadet is relaxing before another training session.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+enjoying some well deserved leisure time before his next training session.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8010
+Templar cadet young~
+a Templar cadet~
+This young cadet is relaxing before another training session.
+~
+This young boy must be in his first year of training in the academy. His face
+is fresh and he still carries himself like a civilian.  He is currently
+enjoying some well deserved leisure time before his next training session.
+~
+16777281 0 1000 C
+30 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 112 2
+#8011
+Templar novice young~
+a Templar novice~
+This young novice is looking for another partner.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier and keeps his eyes constantly shifting, looking for another
+partner to spar.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8012
+Templar novice young~
+a Templar novice~
+This young novice is looking for another partner.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier and keeps his eyes constantly shifting, looking for another
+partner to spar.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8013
+Templar novice young~
+a Templar novice~
+This young novice is looking for another partner.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier and keeps his eyes constantly shifting, looking for another
+partner to spar.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8014
+Templar novice young~
+a Templar novice~
+This young novice is helping younger cadets get by.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier but retains a pleasant demeanor.  He is currently helping the
+new cadets find their way and how to spend their precious downtime as well as
+helping hopeful's find the Templars to be interviewed.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8015
+Templar novice young~
+a Templar novice~
+This young novice is helping younger cadets get by.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier but retains a pleasant demeanor.  He is currently helping the
+new cadets find their way and how to spend their precious downtime as well as
+helping hopeful's find the Templars to be interviewed.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8016
+Templar novice young~
+a Templar novice~
+This young novice is helping younger cadets get by.
+~
+This young boy must be in his second year at the academy.  His face is
+hardened but youthful, he has learned much in his time here.  He moves more
+like a soldier but retains a pleasant demeanor.  He is currently helping the
+new cadets find their way and how to spend their precious downtime as well as
+helping hopeful's find the Templars to be interviewed.
+~
+16777281 0 1000 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 240 2
+#8017
+Templar initiate young~
+a Templar initiate~
+This young Templar is looking for a promising novice to spar.
+~
+This boy has finally been accepted into the Alden Templars, yet his
+training here at the academy has not yet finished.  He looks around, waiting
+to find a novice that shows enough spunk to spar.  His face is hardened from
+years of training and hardship.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8018
+Templar initiate young~
+a Templar initiate~
+This young Templar is looking for a promising novice to spar.
+~
+This boy has finally been accepted into the Alden Templars, yet his
+training here at the academy has not yet finished.  He looks around, waiting
+to find a novice that shows enough spunk to spar.  His face is hardened from
+years of training and hardship.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8019
+Templar initiate young~
+a Templar initiate~
+This young Templar is looking for a promising novice to spar.
+~
+This boy has finally been accepted into the Alden Templars, yet his
+training here at the academy has not yet finished.  He looks around, waiting
+to find a novice that shows enough spunk to spar.  His face is hardened from
+years of training and hardship.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8020
+Templar initiate young~
+a Templar initiate~
+This young Templar is keeping an eye on the cadets.
+~
+This boy has finally been accepted into the Alden Templars, yet his
+training here at the academy has not yet finished.  He is busy watching over
+the cadets and novices to make sure all rules and regulations are followed.
+He roams the grounds, hoping to make a name for himself among the other
+Templars.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8021
+Templar initiate young~
+a Templar initiate~
+This young Templar is keeping an eye on the cadets.
+~
+This boy has finally been accepted into the Alden Templars, yet his
+training here at the academy has not yet finished.  He is busy watching over
+the cadets and novices to make sure all rules and regulations are followed.
+He roams the grounds, hoping to make a name for himself among the other
+Templars.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8022
+Templar instructor man~
+a Templar instructor~
+This older Templar is shouting out orders to the cadets.
+~
+This older man has been a Templar for some years.  Either due to an injury or
+simply age, he has been taken off active duty and assigned to instruct the
+cadets in the ways of war.  He shouts out criticisms and tactics to the cadets
+as they spar and gives a loud victory cheer when one cadet defeats another.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 496 3
+#8023
+Templar instructor man~
+a Templar instructor~
+This older Templar is shouting out orders to the cadets.
+~
+This older man has been a Templar for some years.  Either due to an injury or
+simply age, he has been taken off active duty and assigned to instruct the
+cadets in the ways of war.  He shouts out criticisms and tactics to the cadets
+as they spar and gives a loud victory cheer when one cadet defeats another.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 496 3
+#8024
+Templar instructor man~
+a Templar instructor~
+This older Templar is making sure no one is slacking off.
+~
+This older man has been a Templar for some years.  Either due to an injury or
+simply age, he has been taken off active duty and assigned to instruct the
+cadets in the ways of war. He patrols the grounds, making sure all the cadets
+are doing what they should and that no one is slacking off.
+~
+16777281 0 1000 C
+36 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 496 3
+#8025
+Templar Alden man~
+a Alden Templar~
+This large man is patrolling the private corridors.
+~
+This powerfully built man is making his rounds around the private corridors of
+the academy.  Numerous powerful artifacts and weapons are housed inside these
+halls and his job is to make sure no one finds them.  He sees you and can
+easily tell you are no cadet, he calls out the alarm and charges forward!
+~
+16777313 4194304&256 1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8026
+Templar Alden man~
+a Alden Templar~
+This large man is patrolling the private corridors.
+~
+This powerfully built man is making his rounds around the private corridors of
+the academy.  Numerous powerful artifacts and weapons are housed inside these
+halls and his job is to make sure no one finds them.  He sees you and can
+easily tell you are no cadet, he calls out the alarm and charges forward!
+~
+16777313 4194304&256 1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8027
+Templar Alden man~
+a Alden Templar~
+This large man is patrolling the private corridors.
+~
+This powerfully built man is making his rounds around the private corridors of
+the academy.  Numerous powerful artifacts and weapons are housed inside these
+halls and his job is to make sure no one finds them.  He sees you and can
+easily tell you are no cadet, he calls out the alarm and charges forward!
+~
+16777313 4194304&256 1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8028
+Templar Alden man~
+a Alden Templar~
+This large man is patrolling the private corridors.
+~
+This powerfully built man is making his rounds around the private corridors of
+the academy.  Numerous powerful artifacts and weapons are housed inside these
+halls and his job is to make sure no one finds them.  He sees you and can
+easily tell you are no cadet, he calls out the alarm and charges forward!
+~
+16777313 4194304&256 1000 C
+42 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8029
+Templar Alden disgruntled~
+a disgruntled Templar~
+This Templar is upset at his assignment and takes it out on you!
+~
+This Templar is constantly mumbling and whining about his assignment. He could
+care less about guarding a bunch of weapons and books, he wants to be where
+the action is.  He sees you and decides that misery loves company.
+~
+16777313 4194304&256 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8030
+Templar Alden disgruntled~
+a disgruntled Templar~
+This Templar is upset at his assignment and takes it out on you!
+~
+This Templar is constantly mumbling and whining about his assignment. He could
+care less about guarding a bunch of weapons and books, he wants to be where
+the action is.  He sees you and decides that misery loves company.
+~
+16777313 4194304&256 1000 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8031
+Templar Alden spell-sword~
+a Templar Spell-Sword~
+This Templar is bathed in energy and decides to share some with you.
+~
+This Templar is one of the rare Spell-swords, a sect of the Templars dedicated
+to the blending of magik and war.  He sees you and notices that you aren't
+under escort and certainly not a Templar and decides to show you what mages
+and steel can do.
+~
+16777313 71303168&256 1000 C
+48 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8032
+Templar Alden spell-sword~
+a Templar Spell-Sword~
+This Templar is bathed in energy and decides to share some with you.
+~
+This Templar is one of the rare Spell-swords, a sect of the Templars dedicated
+to the blending of magik and war.  He sees you and notices that you aren't
+under escort and certainly not a Templar and decides to show you what mages
+and steel can do.
+~
+20971617 71303168&256 1000 C
+48 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8033
+Templar Alden battle chief~
+a Templar Battle-Chief~
+This huge Templar sees you and screams out a war-cry.
+~
+This monstrous man looks to be one of the Templar commanders.  His armor bears
+numerous marks of devotion and distinction as well as battle scars from a
+hundred different blades.  He sees you and decides he might as well do things
+himself.
+~
+16777313 4194432&256 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8034
+Templar Alden guardian~
+a Templar Guardian~
+This Templar is charged with defending the Armory.
+~
+This Templar has drawn the duty of guarding the door to the Armory.  He seems
+almost frozen in his post until he sees you.  He looks over your shoulder for
+any sign of an escort but judging by the blood on your armor and weapon, you
+weren't invited here.  He screams out a war cry and charges.
+~
+16777315 4194304&256 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8035
+Templar Alden guardian~
+a Templar Guardian~
+This Templar is charged with defending the Armory.
+~
+This Templar has drawn the duty of guarding the door to the Armory.  He seems
+almost frozen in his post until he sees you.  He looks over your shoulder for
+any sign of an escort but judging by the blood on your armor and weapon, you
+weren't invited here.  He screams out a war cry and charges.
+~
+16777315 4194304&256 1000 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8036
+Templar Alden guardian~
+a Templar Guardian~
+This Templar is soundly asleep.
+~
+This Templar is charged with defending this secret passage.  Instead of
+vigilantly watching the door, he is sleeping quite soundly.  He barely stirs
+as you step close, despite his lethargy he looks quite large and extremely
+powerful.  You wonder if you have a better shot lifting the key from his belt
+or trying to take him on.
+~
+20971585 128&64 1000 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 496 2621443
+#8037
+cadet boy dumb~
+a mischievous cadet~
+This young cadet looks at you in horror.
+~
+This young cadet thought it would be a lark to explore this hidden passageway
+but seems you and recoils in horror.  He doesn't want to be punished for
+breaking the rules so he decides it is best you don't ever tell somebody that
+he was here.
+~
+20971617 0 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8038
+cadet boy dumb~
+a mischievous cadet~
+This young cadet looks at you in horror.
+~
+This young cadet thought it would be a lark to explore this hidden passageway
+but seems you and recoils in horror.  He doesn't want to be punished for
+breaking the rules so he decides it is best you don't ever tell somebody that
+he was here.
+~
+20971617 0 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8039
+cadet boy dumb~
+a mischievous cadet~
+This young cadet looks at you in horror.
+~
+This young cadet thought it would be a lark to explore this hidden passageway
+but seems you and recoils in horror.  He doesn't want to be punished for
+breaking the rules so he decides it is best you don't ever tell somebody that
+he was here.
+~
+20971617 0 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8040
+cadet boy dumb~
+a mischievous cadet~
+This young cadet looks at you in horror.
+~
+This young cadet thought it would be a lark to explore this hidden passageway
+but seems you and recoils in horror.  He doesn't want to be punished for
+breaking the rules so he decides it is best you don't ever tell somebody that
+he was here.
+~
+20971617 0 1000 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8041
+zanzen spy~
+a Zanzen spy~
+This man is cloaked in shadow and obviously neither a cadet nor Templar.
+~
+This man is cloaked in shadow and slowly making his way through these tunnels.
+Judging by his appearance you would say that he is from the far east and here
+on the order of Emperor Zanzen.  He spots you and makes it clear his orders
+are that none may know he was here.
+~
+20971617 65536&128 -1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 240 3
+#8043
+Templar quarter master man older~
+a Templar Quartermaster~
+This older man is handing out rations and equipment.
+~
+This man is in charge of the handing out the necessary equipment and rations
+to the cadets.  The room is filled with practice weapons and uniforms as well
+as some basic rations and water for the cadets. He is much older than any of
+the other Templars you have seen and quite a bit heavier. His glory days must
+have passed long ago.
+~
+16777283 0 1000 C
+40 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 496 3
+#8044
+Captain Valhun man Templar~
+Captain Valhun~
+This older Templar is in charge of the academy.
+~
+This Templar is the famed Captain Valhun.  His name is well known among the
+ranks of the Alden army.  After a crushing injury during a war with the
+Orcs of Glitter Cavern, he retired into this position.  Despite his injury, he
+is still renowned as one of the best fighters that Alden can call upon.
+~
+16777281 335544448 1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 1008 524295
+#8100
+Evanael Templar master large man~
+Evanael, the Templar Master~
+This large man wears the crest of the Alden Templars.
+~
+This is the famous Evanael, one of the greatest human warriors to have lived.
+Direct heir to the founder of the Alden Templars and a renowned  warrior
+and Paladin.  His hair is cut short around the sides, the thinning strawberry
+blonde tucked away under the war-helm he wears.  His armor is slightly dusty
+from the road.  He travels everywhere in search of prospective Templars.
+~
+16777217 339738752&64 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1067 0 0 0 1008 2097159
+#0
+
+
+#OBJECTS
+#8000
+cadet uniform~
+a cadet uniform~
+This uniform is laying in a heap.~
+~
+9 0 65
+2 2 0 0
+4 50 0
+E
+cadet uniform~
+This simple uniform is worn by the cadets of the Templar Academy.
+~
+#8001
+Templar breastplate~
+a Templar breastplate~
+This heavy plate of armor hangs from the wall.~
+~
+9 524352 65
+15 15 0 0
+12 1000 0
+E
+Templar breastplate~
+This ornate breastplate is worn by the mighty Templar guardians.  It nearly 
+pulsates with magic.
+~
+A
+27 32
+A
+27 64
+A
+13 15
+A
+18 2
+A
+19 2
+#8002
+Templar war helm warhelm~
+a Templar warhelm~
+This heavy helm rests neatly on a table.~
+~
+9 524352 3
+10 10 0 0
+12 1000 0
+E
+a Templar war helm~
+The mighty warhelm of a Templar guardian.  While worn in many battles, it 
+shines as if it was forged only yesterday.
+~
+A
+13 25
+A
+18 2
+A
+19 2
+#8003
+a Templar kite shield~
+a Templar kite shield~
+This heavy shield is leaning against the corner.~
+~
+9 524352 524289
+10 10 0 0
+12 1000 0
+E
+Templar kite shield~
+Marked with the runes of the Templars, this kite shield is strong, yet 
+surprisingly light weight.  It is perfect to block attacks in melee combat.
+~
+A
+27 16
+A
+13 15
+A
+18 2
+A
+19 2
+#8004
+Templar long blade~
+a Templar longblade~
+This long sword hangs neatly from a weapon rack.~
+~
+5 2 131073
+12 2 4 1
+4 0 0
+E
+Templar long blade~
+Humming with hidden magic, this Templar blade can cut through many foes 
+without ever needing to be sharpened.
+~
+A
+18 2
+A
+19 1
+#8005
+Templar war hammer~
+a Templar warhammer~
+This large warhammer is hung neatly from a rack.~
+~
+5 1 131073
+12 3 3 6
+4 0 0
+E
+Templar war hammer~
+A hefty warhammer, the valiant Templars employ these implements in battle with 
+great success.  Many skulls have been crushed by this instrument, yet it glows 
+as if brand new.
+~
+A
+18 2
+A
+19 1
+#8006
+rice cake~
+a rice cake~
+This thin cake of rice is tasteless.~
+~
+19 0 1048577
+2 0 0 0
+1 50 0
+E
+rice cake~
+Useful for long travels, this tasteless rice cake is carried by the Templars 
+on patrol.
+~
+#8007
+cold rice cup~
+a cup of cold rice~
+This cup of rice is cold and stale.~
+~
+19 0 1048577
+2 0 0 0
+1 50 0
+E
+cold rice cup~
+Cold and stale, this cup of rice isn't the best of meals, but it will sustain 
+a cadet.
+~
+#8008
+pack rations dry~
+a pack of dry rations~
+These rations will last forever, even in your stomach.~
+~
+19 0 1048577
+5 0 0 0
+1 100 0
+E
+pack rations dry~
+For long campaigns, Templar knights carry these dry, tasteless, but nutritious 
+packets of rations.  They last nearly forever.
+~
+#8009
+rusted iron key~
+a rusted iron key~
+This dirty key hasn't been used in years.~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+rusted iron key~
+The rust on this iron key means it probably hasn't been used in ages.
+~
+#8010
+Armory key~
+the armory key~
+This key opens the doors to the armory.~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+Armory key~
+This key is marked with the Templar rune for "gear".   It is probably the key 
+to the Templar armory.
+~
+#8011
+chest~
+a chest~
+A large wooden chest with an intricate lock.~
+~
+15 0 0
+100 13 0 0
+50 0 0
+E
+chest~
+This large wooden chest is quite plain, but it is apparent that the lock is 
+complex.
+~
+#8012
+trap explosion~
+an explosion trap~
+A explosion trap.~
+~
+44 0 0
+15 9 600 274
+1 0 0
+#8013
+Templar amulet~
+a Templar amulet~
+A golden amulet with the Templars seal.~
+~
+8 64 33
+0 0 0 0
+1 0 0
+E
+Templar amulet~
+A small golden amulet, marked with the seal of the Templars.  It must provide 
+some sort of magical boost in combat.
+~
+A
+18 3
+A
+20 -6
+#8100
+spell-sword tome book heavy~
+a Spell-Sword Tome~
+This heavy tome contains numerous tricks and tips.~
+~
+8 64 1048577
+0 0 0 0
+2 500 0
+E
+spell-sword tome book heavy~
+This heavy book is filled with the lore and knowledge of the Templar Academy.  
+The one who masters the tips and tricks inside would be a formidable opponent 
+indeed!
+~
+A
+12 50
+A
+24 -3
+A
+79 3
+#0
+
+
+#ROOMS
+#8000
+The Gates Of The Academy~
+The large crest on the gate proudly bears the symbol of the sword and shield,
+the crest of the Alden Templars.  Started by Kurian Tis after his wife
+founded the Battlesisters, this academy has raised up generations of great
+knights that dedicate themselves to Drazuk and the defense of his great city.
+You can hear the sound of precision marching and mock combat.
+~
+0 0 2
+D1
+~
+~
+0 0 8001
+D3
+~
+~
+0 0 210
+S
+#8001
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D1
+~
+~
+0 0 8002
+D3
+Exit description~
+~
+0 0 8000
+S
+#8002
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D1
+~
+~
+0 0 8003
+D3
+Exit description~
+~
+0 0 8001
+S
+#8003
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D0
+~
+~
+0 0 8004
+D1
+Exit description~
+~
+0 0 8026
+D2
+~
+~
+0 0 8016
+D3
+~
+~
+0 0 8002
+S
+#8004
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D0
+~
+~
+0 0 8005
+D2
+Exit description~
+~
+0 0 8003
+S
+#8005
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D0
+~
+~
+16777216 0 8006
+D2
+Exit description~
+~
+0 0 8004
+S
+#8006
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8015
+D1
+Exit description~
+~
+0 0 8007
+D2
+~
+~
+16777216 0 8005
+S
+#8007
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8014
+D1
+Exit description~
+~
+0 0 8008
+D3
+Exit description~
+~
+0 0 8006
+S
+#8008
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8013
+D1
+Exit description~
+~
+0 0 8009
+D3
+Exit description~
+~
+0 0 8007
+S
+#8009
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8012
+D1
+Exit description~
+~
+0 0 8010
+D3
+Exit description~
+~
+0 0 8008
+S
+#8010
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8011
+D3
+Exit description~
+~
+0 0 8009
+S
+#8011
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D2
+Exit description~
+~
+0 0 8010
+D3
+Exit description~
+~
+0 0 8012
+S
+#8012
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8011
+D2
+Exit description~
+~
+0 0 8009
+D3
+Exit description~
+~
+0 0 8013
+S
+#8013
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8012
+D2
+Exit description~
+~
+0 0 8008
+D3
+Exit description~
+~
+0 0 8014
+S
+#8014
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8013
+D2
+Exit description~
+~
+0 0 8007
+D3
+Exit description~
+~
+0 0 8015
+S
+#8015
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8014
+D2
+Exit description~
+~
+0 0 8006
+S
+#8016
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8003
+D2
+Exit description~
+~
+0 0 8017
+S
+#8017
+The Templar Academy~
+The Academy stretches out before you. To the east is a large building that
+must serve as the barracks and other facilities of the academy.  You can hear
+the sounds of drilling and combat to the north and south.  Those must be the
+training areas for the cadets.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8016
+D2
+Exit description~
+~
+16777216 0 8018
+S
+#8018
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+16777216 0 8017
+D1
+Exit description~
+~
+0 0 8019
+D2
+Exit description~
+~
+0 0 8025
+S
+#8019
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8020
+D2
+Exit description~
+~
+0 0 8024
+D3
+Exit description~
+~
+0 0 8018
+S
+#8020
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D1
+Exit description~
+~
+0 0 8021
+D2
+Exit description~
+~
+0 0 8023
+D3
+Exit description~
+~
+0 0 8019
+S
+#8021
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D2
+Exit description~
+~
+0 0 8022
+D3
+Exit description~
+~
+0 0 8020
+S
+#8022
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8021
+D3
+Exit description~
+~
+0 0 8023
+S
+#8023
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8020
+D1
+Exit description~
+~
+0 0 8022
+D3
+Exit description~
+~
+0 0 8024
+S
+#8024
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8019
+D1
+Exit description~
+~
+0 0 8023
+D3
+Exit description~
+~
+0 0 8025
+S
+#8025
+The Training Pit~
+This large expanse of grass and mud is referred to the Training Pit.  Numerous
+cadets are marching around the expanse of the field while older cadets and
+instructors scream out orders.  There are also numerous sparring exercises
+being done here as cadets wander about in a mock battle, choosing opponents
+and learning new ways of being lethal.
+~
+0 0 2
+D0
+Exit description~
+~
+0 0 8018
+D1
+Exit description~
+~
+0 0 8024
+S
+#8026
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8027
+D3
+Exit description~
+~
+0 0 8003
+S
+#8027
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8028
+D3
+Exit description~
+~
+0 0 8026
+S
+#8028
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8099
+D1
+Exit description~
+~
+0 0 8029
+D3
+Exit description~
+~
+0 0 8027
+S
+#8029
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8030
+D3
+Exit description~
+~
+0 0 8028
+S
+#8030
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8031
+D2
+Exit description~
+~
+0 0 8043
+D3
+Exit description~
+~
+0 0 8029
+S
+#8031
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8032
+D2
+Exit description~
+~
+0 0 8030
+S
+#8032
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams, some even look like the frame of a door.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8033
+D1
+Exit description~
+~
+8391687 0 8076
+D2
+Exit description~
+~
+0 0 8031
+S
+#8033
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8034
+D2
+Exit description~
+~
+0 0 8032
+S
+#8034
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8035
+D2
+Exit description~
+~
+0 0 8033
+S
+#8035
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8042
+D1
+Exit description~
+~
+0 0 8036
+D2
+Exit description~
+~
+0 0 8034
+S
+#8036
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8041
+D1
+Exit description~
+~
+0 0 8037
+D3
+Exit description~
+~
+0 0 8035
+S
+#8037
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8040
+D1
+Exit description~
+~
+0 0 8038
+D3
+Exit description~
+~
+0 0 8036
+S
+#8038
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8039
+D3
+Exit description~
+~
+0 0 8037
+S
+#8039
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 8038
+D3
+Exit description~
+~
+0 0 8040
+S
+#8040
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8039
+D2
+Exit description~
+~
+0 0 8037
+D3
+Exit description~
+~
+0 0 8041
+S
+#8041
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8040
+D2
+Exit description~
+~
+0 0 8036
+D3
+Exit description~
+~
+0 0 8042
+S
+#8042
+The Cadet Barracks~
+This is where the cadets sleep and live when they are not face down in the mud
+and grass.  The bunks are plain and uncomfortable.  They are simple wooden
+frames with only a thin mattress of sand atop and a few blankets.  Each cadet
+has a small chest at the foot of their bunk to house their few personal items
+and maybe a few pieces of contraband as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8041
+D2
+Exit description~
+~
+0 0 8035
+S
+#8043
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8030
+D2
+Exit description~
+~
+0 0 8044
+S
+#8044
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8043
+D2
+Exit description~
+~
+0 0 8045
+S
+#8045
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams. You smell just the faintest hint of
+incense. Judging from the scattered scars in the building, it seems that mock
+battles  are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8044
+D1
+Exit description~
+~
+0 0 8046
+D2
+Exit description~
+~
+8390695 0 8091
+S
+#8046
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D1
+Exit description~
+~
+0 0 8047
+D3
+Exit description~
+~
+0 0 8045
+S
+#8047
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D2
+Exit description~
+~
+0 0 8048
+D3
+Exit description~
+~
+0 0 8046
+S
+#8048
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8047
+D2
+Exit description~
+~
+0 0 8049
+S
+#8049
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 8 0
+D0
+Exit description~
+~
+0 0 8048
+D2
+Exit description~
+~
+0 0 8050
+S
+#8050
+Inside The Academy~
+The Academy building is made of steel and stone with an eye for defensive
+positions.  The walls seem to be at least two feet thick of solid granite
+with numerous steel support beams that also act as great defensive positions.
+Judging from the scattered scars in the building, it seems that mock battles
+are staged in here as well.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8049
+D2
+~
+~
+1063 0 8051
+S
+#8051
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+1027 0 8050
+D2
+Exit description~
+~
+0 0 8052
+S
+#8052
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8051
+D2
+Exit description~
+~
+0 0 8053
+S
+#8053
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8052
+D1
+Exit description~
+~
+0 0 8054
+S
+#8054
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8055
+D3
+Exit description~
+~
+0 0 8053
+S
+#8055
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8056
+D3
+Exit description~
+~
+0 0 8054
+S
+#8056
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8057
+D3
+Exit description~
+~
+0 0 8055
+S
+#8057
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8058
+D2
+Exit description~
+~
+0 0 8056
+S
+#8058
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8059
+D2
+Exit description~
+~
+0 0 8057
+S
+#8059
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8060
+D2
+Exit description~
+~
+0 0 8058
+S
+#8060
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8061
+D3
+Exit description~
+~
+0 0 8059
+S
+#8061
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8062
+D3
+Exit description~
+~
+0 0 8060
+S
+#8062
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D2
+Exit description~
+~
+0 0 8061
+D3
+Exit description~
+~
+0 0 8063
+S
+#8063
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8062
+D3
+Exit description~
+~
+0 0 8064
+S
+#8064
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8065
+D1
+Exit description~
+~
+0 0 8063
+S
+#8065
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8066
+D2
+Exit description~
+~
+0 0 8064
+S
+#8066
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8067
+D3
+Exit description~
+~
+0 0 8065
+S
+#8067
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8068
+D2
+Exit description~
+~
+0 0 8066
+S
+#8068
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8069
+D2
+Exit description~
+~
+0 0 8067
+S
+#8069
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8070
+D3
+Exit description~
+~
+0 0 8068
+S
+#8070
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8071
+D3
+Exit description~
+~
+0 0 8069
+S
+#8071
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8072
+D2
+Exit description~
+~
+0 0 8070
+S
+#8072
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8073
+D2
+Exit description~
+~
+0 0 8071
+S
+#8073
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8074
+D3
+Exit description~
+~
+0 0 8072
+S
+#8074
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8075
+D3
+Exit description~
+~
+0 0 8073
+S
+#8075
+The Private Corridors~
+These are the private corridors of the Academy.  They are relatively barren
+and empty as most of the Templars are off fighting against the eastern
+raiders.  The torches that line the walls are well cared for and the entire
+hallway is quite bright, probably to keep cadets or thieves from easily hiding
+in the shadows.
+~
+0 2097160 0
+D0
+~
+~
+8390183 8010 8100
+D2
+Exit description~
+~
+0 0 8074
+S
+#8076
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+~
+~
+0 0 8077
+D3
+Exit description~
+~
+8391687 0 8032
+S
+#8077
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8078
+D3
+Exit description~
+~
+0 0 8076
+S
+#8078
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8079
+D3
+Exit description~
+~
+0 0 8077
+S
+#8079
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D2
+Exit description~
+~
+0 0 8080
+D3
+Exit description~
+~
+0 0 8078
+S
+#8080
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D0
+Exit description~
+~
+0 0 8079
+D2
+Exit description~
+~
+0 0 8081
+S
+#8081
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 3145737 0
+D0
+Exit description~
+~
+0 0 8080
+D2
+~
+~
+8390183 8009 8082
+S
+#8082
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D0
+Exit description~
+~
+8390183 0 8081
+D2
+Exit description~
+~
+0 0 8083
+S
+#8083
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D0
+Exit description~
+~
+0 0 8082
+D1
+Exit description~
+~
+0 0 8084
+S
+#8084
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8085
+D3
+Exit description~
+~
+0 0 8083
+S
+#8085
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8086
+D3
+Exit description~
+~
+0 0 8084
+S
+#8086
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8087
+D3
+Exit description~
+~
+0 0 8085
+S
+#8087
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8088
+D3
+Exit description~
+~
+0 0 8086
+S
+#8088
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8089
+D3
+Exit description~
+~
+0 0 8087
+S
+#8089
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+Exit description~
+~
+0 0 8090
+D3
+Exit description~
+~
+0 0 8088
+S
+#8090
+A Forgotten Tunnel~
+This small tunnel seems to have been forgotten by most of the residents of the
+Academy.  The torch light is low and flickering.  The musk of dirt and  mold
+is heavy in the air. Judging by the faint smell of tobacco and a few old piles
+of pipe weed, some people do come in here from time to time.
+~
+0 2097161 0
+D1
+~
+~
+3111 0 8100
+D3
+Exit description~
+~
+0 0 8089
+S
+#8091
+A Hidden Corridor~
+This tiny corridor is well hidden.  There is only the faint glow of low
+torches and the slow drip of water.  The floor is slick with mold and slime
+but you can see a faint light down the way.  The smell of incense is pretty
+heavy here.
+~
+0 2097161 0
+D0
+Exit description~
+~
+2051 0 8045
+D2
+Exit description~
+~
+0 0 8092
+S
+#8092
+A Hidden Corridor~
+This tiny corridor is well hidden.  There is only the faint glow of low
+torches and the slow drip of water.  The floor is slick with mold and slime
+but you can see a faint light down the way.  The smell of incense is pretty
+heavy here.
+~
+0 2097161 0
+D0
+Exit description~
+~
+0 0 8091
+D2
+Exit description~
+~
+0 0 8093
+S
+#8093
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8092
+D2
+Exit description~
+~
+0 0 8098
+D3
+Exit description~
+~
+0 0 8094
+S
+#8094
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8093
+D2
+Exit description~
+~
+0 0 8097
+D3
+Exit description~
+~
+0 0 8095
+S
+#8095
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D1
+Exit description~
+~
+0 0 8094
+D2
+Exit description~
+~
+0 0 8096
+S
+#8096
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8095
+D1
+Exit description~
+~
+0 0 8097
+S
+#8097
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8094
+D1
+Exit description~
+~
+0 0 8098
+D3
+Exit description~
+~
+0 0 8096
+S
+#8098
+The Spell-Sword Library~
+This massive library is the personal collection of the Templar Spell-Swords.
+There are numerous books are each of the disciplines of magik.  You see volume
+after volume of books that catalogue the different spells of the world as well
+as the most effective means of stopping them.  You even see a few newer
+additions that might have come from the eastern continent.
+~
+0 2097160 0
+D0
+Exit description~
+~
+0 0 8093
+D3
+Exit description~
+~
+0 0 8097
+S
+#8099
+The Supply Room~
+This small room houses all sorts of different items that a cadet would need.
+You see practice weapons, light armor, and of course some food. You notice in
+the corner a small stash of tobacco, a bit of ale and whiskey, and other
+things that aren't allowed on the premises.  You imagine the Quartermasters'
+sales for those items are good.
+~
+0 9 0
+D2
+Exit description~
+~
+0 0 8028
+S
+#8100
+The Templar Armory~
+This huge room is filled with numerous weapons, armors, and everything else a
+soldier would need.  There is row after row of weapons, each one looks like it
+would catch a fair price at the market or make a worthy addition to your
+arsenal.  There are a few rarer items here, personal weapons of some of the
+great Templars.
+~
+0 2097160 0
+D2
+Exit description~
+~
+3 0 8075
+D3
+Exit description~
+~
+3111 0 8090
+S
+#0
+
+
+#RESETS
+D 0 8091 0 1
+D 0 8051 0 1
+D 0 8050 2 2
+D 0 8045 2 2
+D 0 8032 1 2
+D 0 8075 0 2
+D 0 8090 1 2
+D 0 8100 2 1
+D 0 8100 3 2
+O 0 8011 1 8100
+P 0 8013 1 8011
+P 0 8012 1 8011
+M 0 8003 1 8008
+M 0 8011 1 8009
+M 0 8017 1 8011
+M 0 8022 1 8014
+M 0 8004 1 8015
+M 0 8012 1 8012
+M 0 8005 1 8019
+M 0 8013 1 8021
+M 0 8023 1 8023
+M 0 8018 1 8025
+M 0 8006 1 8024
+M 0 8019 1 8022
+M 0 8000 1 8027
+M 0 8007 1 8029
+M 0 8014 1 8032
+M 0 8008 1 8034
+M 0 8020 1 8035
+M 0 8001 1 8037
+M 0 8009 1 8039
+M 0 8015 1 8041
+M 0 8021 1 8043
+M 0 8002 1 8045
+M 0 8010 1 8045
+M 0 8016 1 8048
+M 0 8024 1 8050
+M 0 8025 1 8051
+M 0 8026 1 8053
+M 0 8029 1 8055
+M 0 8031 1 8057
+M 0 8027 1 8059
+M 0 8030 1 8063
+M 0 8033 1 8066
+M 0 8028 1 8069
+M 0 8034 1 8075
+M 0 8035 1 8075
+G 1 8010 1
+M 0 8037 1 8077
+M 0 8038 1 8079
+M 0 8036 1 8081
+G 1 8009 1
+M 0 8039 1 8084
+M 0 8041 1 8086
+M 0 8040 1 8088
+M 0 8032 1 8094
+M 0 8043 1 8099
+G 1 8007 1
+G 1 8008 1
+G 1 8006 1
+G 1 8000 1
+M 0 8044 1 8033
+M 0 8100 1 8000
+O 0 8001 1 8100
+O 0 8002 1 8100
+O 0 8003 1 8100
+O 0 8004 1 8100
+O 0 8005 1 8100
+O 0 8100 1 8097
+S
+
+
+#SHOPS
+ 8043    9  5  0  0  0   120  90         7 18    ; a Templar Quartermaster
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8031 spec_cast_mage
+M  8032 spec_cast_mage
+M  8044 spec_cast_bishop
+M  8100 spec_cast_cleric
+S
+
+
+#$

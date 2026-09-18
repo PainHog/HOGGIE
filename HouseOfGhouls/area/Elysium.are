@@ -1,0 +1,161 @@
+#AREA   Elysium~
+
+
+
+#VERSION 1
+#AUTHOR Hades~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG ~
+
+#FLAGS
+5
+
+#ECONOMY 0 335102465
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7075
+Charon Reaper Souls figure dark~
+Charon, The Reaper of Souls~
+A dark grim figure beckons you towards the gates.
+~
+An astonishingly large figure stands here cloaked in robes that are black as
+the eternal abyss.  One of it's skeletal hands beckons you forward, as the
+other clutches its grim look scythe.  You look beneath the creature's hood to
+see it's face, only to discover it has none!
+~
+171966531&8 375398536&322 0 C
+1 0 -300 9d1+0 0d0+0
+0 0
+112 112 0
+20 20 20 20 20 20 20
+65 65 65 65 65
+60 15 12 5000 65537 1 5
+85 65 451 1056768 3162111 0 38797568 7866231
+#7080
+placeholder~
+placeholder~
+~
+Someone has abandoned a placeholder mob here.
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#7075
+Elysium Gate~
+A mysterious old doorway~
+A seemingly out of place door leading to nowhere.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#7076
+Ancient Boat~
+An ancient looking boat~
+This ancient boat seems to have had many passengers.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#7077
+obolus coin~
+An ancient looking coin~
+An ancient looking coin is here, what does it pay for?~
+~
+13 0 1048577
+0 0 0 0
+1 0 0
+#7078
+Honey Cake~
+A slice of honey cake~
+A delicious piece of honey cake could soothe the savage beast.~
+~
+19 64 1048577
+12 0 0 0
+1 500 0
+#7079
+Vessel of Souls~
+A vessel filled with an odd black liquid~
+A very old looking cup filled nearly to the brim with a black liquid.  When looked into, it reflects all your dead relatives...~
+~
+17 1157628224 1048577
+100 100 100 100 100 100
+1 50000 0
+#7080
+placeholder~
+placeholder~
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7075
+Before the Gates~
+You find yourself in the middle of a field of golden wheat ready for the
+harvest.  Far off in the distance large mountains ripple along the horizon.
+The sky is clear and there is a chill in the air.  As you run your hand along
+the tops of the wheat, the grains slip between your fingers.  You are suddenly
+aware that a massive doorway stands before you. The door looks like the last
+remaining ruins of a palace reduced to rubble aeons ago.  As you approach the
+door, a chill runs up your spine, yet there is something very familiar about
+this place.
+~
+0 271582216 2
+D3
+A seemingly out of place door leading to nowhere.
+~
+door~
+25166887 7077 21014
+S
+#7080
+Placeholder~
+Placeholder room
+~
+0 2393092 0
+S
+#0
+
+
+#RESETS
+O 0 7077 1 7077
+O 0 7076 1 7075
+D 0 7075 3 2
+M 0 7075 1 7075
+G 1 7079 1
+G 1 7078 1
+S
+
+
+#SHOPS
+ 7075    9 65 64 68 66   115 110         0 23    ; Charon, The Reaper of Souls
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7075 spec_executioner
+S
+
+
+#$

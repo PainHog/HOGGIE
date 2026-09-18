@@ -1,0 +1,206 @@
+#PLAYER
+Version      3
+Name         Fade~
+ID           1956
+Sex          1
+Class        14
+Dual         10
+Race         12
+Languages    1 1
+Level        50
+Played       441
+Room         21001
+HpManaMove   988 968 215 924 1047 1578
+Gold         4500034
+Exp          14529651
+Tier	       2
+Tierexp      5029494
+Height          59
+Weight          108
+Act          704644680&1036
+AffectedBy   -2144337904
+Position     112
+Style     2
+Practice     762
+SavingThrows -65 0 -10 -10 -10
+Alignment    0
+Favor	       0
+Balance      0
+Mobmaster    0
+MobMTicks    0
+NextMobM     0
+Glory        0
+MGlory       0
+Scoremobm    0
+Scoremk      0
+Scoreqp      0
+Scorepk      0
+Scoregold    0
+Scorexp      0
+Scoremp      0
+Scoresp      0
+SkillPoints  0
+MagicPoints  0
+Rent		 0
+Hitroll      70
+Damroll      70
+Armor        40
+ArmorWorn    0
+Resistant    2
+Susceptible  1
+Mentalstate  0
+Password     FaipvNJkI8t7s~
+Title         the Rogue.~
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     18 18 18 18 18 18 18
+AttrMod      0 0 0 0 0 0 0
+Condition    0 95 95 10
+Site         73.232.238.119
+Spell        95 'aqua breath'
+Spell        95 'bottle'
+Spell        95 'cause serious'
+Spell        95 'charm person'
+Spell        95 'cure light'
+Spell        95 'cure serious'
+Spell        95 'detect traps'
+Spell        95 'dispel magic'
+Spell        95 'dragon wit'
+Spell        95 'elven beauty'
+Spell        95 'enjoying the game'
+Spell        95 'extradimensional portal'
+Spell        95 'fortify'
+Spell        95 'helical flow'
+Spell        95 'improved invis'
+Spell        95 'kindred strength'
+Spell        95 'mindfog'
+Spell        95 'pierce shadows'
+Spell        95 'poltergiest'
+Spell        95 'refresh'
+Spell        95 'sagacity'
+Spell        95 'slink'
+Spell        95 'spiral blast'
+Spell        95 'sword serenade'
+Spell        95 'teleport'
+Spell        95 'telescape'
+Spell        95 'tongues'
+Spell        95 'trollish vigor'
+Spell        95 'ventriloquate'
+Spell        95 'whisper blade'
+Spell        95 'word of recall'
+Skill        95 'aggressive style'
+Skill        95 'aid'
+Skill        95 'apologize'
+Skill        95 'arm bar'
+Skill        95 'berserk style'
+Skill        95 'bladedancer'
+Skill        95 'broach'
+Skill        95 'capoeira'
+Skill        95 'catnap'
+Skill        95 'climb'
+Skill        95 'defensive style'
+Skill        95 'die laughing'
+Skill        95 'dig'
+Skill        70 'dodge'
+Skill        95 'dominate'
+Skill        95 'evasive style'
+Skill        75 'fourth attack'
+Skill        95 'grasp suspiria'
+Skill        95 'hide'
+Skill        95 'hitall'
+Skill        95 'insult'
+Skill        95 'juggle'
+Skill        95 'karate'
+Skill        95 'left handed'
+Skill        95 'mistform'
+Skill        95 'mount'
+Skill        95 'occulutus visum'
+Skill        165 'parry'
+Skill        95 'peek'
+Skill        95 'prance'
+Skill        95 'search'
+Skill        95 'second attack'
+Skill        95 'shriek'
+Skill        95 'standard style'
+Skill        95 'steal'
+Skill        95 'tendon strike'
+Skill        85 'third attack'
+Skill        95 'track'
+Skill        95 'tumble'
+Skill        95 'uppercut'
+Skill        95 'vanish'
+Skill        95 'vomica pravus'
+Skill        95 'wrist slash'
+Weapon       95 'axes'
+Weapon       95 'bludgeons'
+Weapon       95 'exotic arms'
+Weapon       95 'flexible arms'
+Weapon       95 'long blades'
+Weapon       95 'polearms'
+Weapon       95 'pugilism'
+Weapon       95 'short blades'
+Weapon       95 'talonous arms'
+Tongue       100 'ancient'
+Tongue       100 'common'
+Tongue       100 'dragon'
+Tongue       100 'dwarven'
+Tongue       100 'elvish'
+Tongue       100 'ghoulish'
+Tongue       100 'gith'
+Tongue       100 'gnomish'
+Tongue       100 'goblin'
+Tongue       100 'halfling'
+Tongue       100 'magical'
+Tongue       100 'minotaur'
+Tongue       100 'ogre'
+Tongue       100 'orcish'
+Tongue       100 'pixie'
+Tongue       100 'trollese'
+Tongue       100 'wolfen'
+AffectData   'prance' 1339 -55  20 0
+AffectData   'juggle' 1066  20  48 0
+AffectData   'juggle' 1066  20  40 0
+AffectData   'mistform' 244   0  26 1048576
+AffectData   'karate' 1623  20  19 0
+AffectData   'karate' 1623  20  18 0
+AffectData   'karate' 1623 -60  17 0
+AffectData   'bladedancer' 274 -10  20 0
+AffectData   'bladedancer' 274 -10  22 0
+AffectData   'bladedancer' 274 -10  23 0
+AffectData   'bladedancer' 274 -10  24 0
+AffectData   'left handed'  79  50  48 0
+AffectData   'left handed'  79  50  40 0
+AffectData   'left handed'  79  25  18 0
+AffectData   'left handed'  79  25  19 0
+AffectData   'enjoying the game'  88  25  19 0
+AffectData   'enjoying the game'  88  25  18 0
+MaxColors    98
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 10 14 13 15 15 15 9 11 9 31 25 10 6 6 10 6 11 9 10 1 15 13 12 7 10 13 12 10 10 12 10 3 12 9 15 11 3 14 2 5 15 9 8 2 9 12 9 2 10 15 7 7 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 9 15 10 0 
+End
+
+#OBJECT
+Name         a stylish amethyst charm~
+ShortDescr   a stylish amethyst charm~
+Description  A stylish amethyst charm lies here.~
+ActionDesc   ~
+Ovnum         29610
+ExtraFlags   320&1025
+WearLoc      24
+Cost         1750
+Values       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Affect       -1 -1 20 13 0
+Affect       -1 -1 -2 22 0
+Affect       -1 -1 10 1 0
+Affect       -1 -1 10 2 0
+Affect       -1 -1 10 5 0
+Affect       -1 -1 10 3 0
+Affect       -1 -1 10 4 0
+Affect       -1 -1 10 25 0
+Affect       -1 -1 10 31 0
+End
+
+#END

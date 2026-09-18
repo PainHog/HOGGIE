@@ -1,0 +1,1767 @@
+#AREA Opium Fields~
+
+#VERSION 1
+
+#CLIMATE 2 2 2
+
+#AUTHOR Nameless~
+
+#RANGES
+5 20 0 65
+$
+
+#RESETMSG The smell of burning silk and opium fills the air.~
+
+#FLAGS
+0 5
+
+#ECONOMY 0 0
+
+#MOBILES
+#7501
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7502
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7503
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7504
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7505
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7506
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7507
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7508
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7509
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7510
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7511
+overseer man official~
+an overseer~
+This official looking man oversees all of the fields.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7512
+overseer man official~
+an overseer~
+This official looking man oversees all of the fields.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7513
+interested man merchant~
+an interested merchant~
+This merchant is interested in purchasing some silk.
+~
+This porty fellow is a wealthy merchant.  He looks through the raw silk and
+opium and is trying to decide how much to buy to transfer over to Sahardin or
+maybe this new rumored continent to the west.
+~
+65 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7514
+interested man merchant~
+an interested merchant~
+This merchant is interested in purchasing some silk.
+~
+This porty fellow is a wealthy merchant.  He looks through the raw silk and
+opium and is trying to decide how much to buy to transfer over to Sahardin or
+maybe this new rumored continent to the west.
+~
+65 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7515
+silk worm~
+a silk worm~
+This worm is busy making silk webs.
+~
+This worm is quite large, about the size of a rat. It creates a thin stream of
+ gunk that hardened into a soft yet amazingly strong thread of silk.  It is
+busy making it's webs and has no idea they won't stay up long.
+~
+65 0 0 C
+10 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7516
+Field hand woman~
+a field hand~
+This woman is working in the fields for quick gold.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7517
+overseer man official~
+an overseer~
+This official looking man oversees all of the fields.
+~
+This woman is working hard to make as much as she can.  They seem to be paid
+by how much silk and opium they can harvest in a day.  She pushes other
+workers out of the way in order to get to the next ripe plant.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7518
+interested man merchant~
+an interested merchant~
+This merchant is interested in purchasing some silk.
+~
+This porty fellow is a wealthy merchant.  He looks through the raw silk and
+opium and is trying to decide how much to buy to transfer over to Sahardin or
+maybe this new rumored continent to the west.
+~
+65 0 0 C
+13 0 0 8d1+0 0d0+0
+0 0
+12 12 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7519
+laughing turkey~
+a laughing turkey~
+This turkey is walking around, laughing hysterically.
+~
+This large turkey is laughing as if they'll die tomorrow.  It half walks, half
+skips by as it laughs and sings and then laughs again.  It's bright yellow and
+orange body sways with an unheard music and seems to be laughing at you.
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 536903712 0 0 0 2 2
+#7520
+laughing turkey~
+a laughing turkey~
+This turkey is walking around, laughing hysterically.
+~
+This large turkey is laughing as if they'll die tomorrow.  It half walks, half
+skips by as it laughs and sings and then laughs again.  It's bright yellow and
+orange body sways with an unheard music and seems to be laughing at you.
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 536903712 0 0 0 2 2
+#7521
+rainbow turtle cat~
+a rainbow turtle-cat~
+This brightly colored cat has a turtle shell on it's back.
+~
+This animal is just, odd. It moves like a cat, with whiskers, ears, and feline
+eyes but it's back is a rainbow colored turtle shell.  You try to rub the
+smoke from your eyes but it seems like the creature is looking at you.  It
+suddenly says "Yo? Whats the matter with you?"
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7522
+rainbow turtle cat~
+a rainbow turtle-cat~
+This brightly colored cat has a turtle shell on it's back.
+~
+This animal is just, odd. It moves like a cat, with whiskers, ears, and feline
+eyes but it's back is a rainbow colored turtle shell.  You try to rub the
+smoke from your eyes but it seems like the creature is looking at you.  It
+suddenly says "Yo? Whats the matter with you?"
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7523
+rainbow turtle cat~
+a rainbow turtle-cat~
+This brightly colored cat has a turtle shell on it's back.
+~
+This animal is just, odd. It moves like a cat, with whiskers, ears, and feline
+eyes but it's back is a rainbow colored turtle shell.  You try to rub the
+smoke from your eyes but it seems like the creature is looking at you.  It
+suddenly says "Yo? Whats the matter with you?"
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7524
+cat bunny cute~
+a cat-bunny~
+This cat looking bunny is casually walking by.
+~
+This creature seems like a mix between a cute fluffy bunny and a housecat.
+It's legs and body are that of a tabby cat, but it's head is that of a rabit
+with feline eyes and teeth.  It walks by on two legs and seems to stop and
+give you a short bow and tip of it's cap before whistling back down the way.
+~
+16777281 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7525
+cat bunny cute~
+a cat-bunny~
+This cat looking bunny is casually walking by.
+~
+This creature seems like a mix between a cute fluffy bunny and a housecat.
+It's legs and body are that of a tabby cat, but it's head is that of a rabit
+with feline eyes and teeth.  It walks by on two legs and seems to stop and
+give you a short bow and tip of it's cap before whistling back down the way.
+~
+16777281 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7526
+cat bunny cute~
+a cat-bunny~
+This cat looking bunny is casually walking by.
+~
+This creature seems like a mix between a cute fluffy bunny and a housecat.
+It's legs and body are that of a tabby cat, but it's head is that of a rabit
+with feline eyes and teeth.  It walks by on two legs and seems to stop and
+give you a short bow and tip of it's cap before whistling back down the way.
+~
+16777281 0 0 C
+16 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7527
+dancing turtle~
+a dancing turtle~
+This turtle is busy dancing the time away.
+~
+This turtle seems pretty normal, except that is currently waltzing with an
+invisible partner right by you.  It makes a few elaborate dips and steps, it's
+actually a better dancer than you.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7529
+dancing turtle~
+a dancing turtle~
+This turtle is busy dancing the time away.
+~
+This turtle seems pretty normal, except that is currently waltzing with an
+invisible partner right by you.  It makes a few elaborate dips and steps, it's
+actually a better dancer than you.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7530
+flying weasel~
+a flying weasel~
+This weasel is busy soaring through the skies.
+~
+This weasel would be your average annoying varmit, except for the fact it is
+zooming by in mid air.  You wonder how on earth a weasel learned to fly other
+than a bored magician decided to play a cruel joke on a neighbor.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7532
+flying weasel~
+a flying weasel~
+This weasel is busy soaring through the skies.
+~
+This weasel would be your average annoying varmit, except for the fact it is
+zooming by in mid air.  You wonder how on earth a weasel learned to fly other
+than a bored magician decided to play a cruel joke on a neighbor.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7533
+singing shrub~
+a singing shrub~
+This shrub is busy belting out a merry tune.
+~
+This shrub is swaying back and forth and singing a drinking song. It's voice
+is loud and all together pleasant but you wonder how in the dark gods does a
+plant make a sound let alone sing? It stops and asks if you if you have a
+request.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7534
+singing shrub~
+a singing shrub~
+This shrub is busy belting out a merry tune.
+~
+This shrub is swaying back and forth and singing a drinking song. It's voice
+is loud and all together pleasant but you wonder how in the dark gods does a
+plant make a sound let alone sing? It stops and asks if you if you have a
+request.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7535
+singing shrub~
+a singing shrub~
+This shrub is busy belting out a merry tune.
+~
+This shrub is swaying back and forth and singing a drinking song. It's voice
+is loud and all together pleasant but you wonder how in the dark gods does a
+plant make a sound let alone sing? It stops and asks if you if you have a
+request.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7536
+lizard queen girl~
+the Lizard Queen~
+This young yellow girl is shouting that she is the Lizard Queen.
+~
+This young girl has starfish hair and bright yellow skin.  She waves her hands
+in the air and you notice she only has 4 fingers.  She dances and sways to an
+unheard music and screams constantly that she is the Lizard Queen. How odd.
+~
+16777281 0 0 C
+22 0 0 8d1+0 0d0+0
+0 0
+12 12 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 0 0 0 1 1 0
+0 0 1080 0 0 0 2 2
+#7600
+laughing turkey~
+a laughing turkey~
+This turkey is walking around, laughing hysterically.
+~
+This large turkey is laughing as if they'll die tomorrow.  It half walks, half
+skips by as it laughs and sings and then laughs again.  It's bright yellow and
+orange body sways with an unheard music and seems to be laughing at you.
+~
+16777281 0 0 C
+18 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 0 0 0 1 1 0
+0 0 536903712 0 0 0 2 2
+#0
+
+#OBJECTS
+#7501
+shoulder slung knapsack~
+a shoulder knapsack~
+This knapsack is slung over the shoulder.~
+~
+15 0 2049 0
+25 0 0 0
+3 0 0
+#7600
+rainbow shell~
+a rainbow turtle shell~
+This shell is quite fashionable, but is it real?~
+~
+9 64 4097 0
+2 2 0 0
+4 0 0
+A
+25 5
+#0
+
+#ROOMS
+#7501
+Walking To The Fields~
+You continue down the heavily travelled dirt roads towards the fields. You can
+see numerous silk worms busy working on their masterpieces and different opium
+plants lined in neat rows. Numerous workers, officials, and merchants stream
+through here, trying to get a sample of the goods.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 0 7502 0
+D3
+Exit description~
+~
+0 0 6210 0
+S
+#7502
+Walking To The Fields~
+You continue down the heavily travelled dirt roads towards the fields. You can
+see numerous silk worms busy working on their masterpieces and different opium
+plants lined in neat rows. Numerous workers, officials, and merchants stream
+through here, trying to get a sample of the goods.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7501 0
+D1
+~
+~
+0 0 7503 0
+S
+#7503
+Walking To The Fields~
+You continue down the heavily travelled dirt roads towards the fields. You can
+see numerous silk worms busy working on their masterpieces and different opium
+plants lined in neat rows. Numerous workers, officials, and merchants stream
+through here, trying to get a sample of the goods.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7502 0
+D1
+~
+~
+0 0 7504 0
+S
+#7504
+Walking To The Fields~
+You continue down the heavily travelled dirt roads towards the fields. You can
+see numerous silk worms busy working on their masterpieces and different opium
+plants lined in neat rows. Numerous workers, officials, and merchants stream
+through here, trying to get a sample of the goods.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7503 0
+D0
+~
+~
+0 0 7505 0
+D2
+~
+~
+0 0 7511 0
+D1
+Exit description~
+~
+0 0 7517 0
+S
+#7505
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7504 0
+D0
+~
+~
+0 0 7506 0
+D1
+~
+~
+0 0 7510 0
+S
+#7506
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7505 0
+D1
+~
+~
+0 0 7509 0
+D0
+~
+~
+0 0 7507 0
+S
+#7507
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7506 0
+D1
+~
+~
+0 0 7508 0
+S
+#7508
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7507 0
+D2
+~
+~
+0 0 7509 0
+S
+#7509
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7506 0
+D0
+Exit description~
+~
+0 0 7508 0
+D2
+~
+~
+0 0 7510 0
+S
+#7510
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7505 0
+D0
+Exit description~
+~
+0 0 7509 0
+S
+#7511
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7504 0
+D2
+~
+~
+0 0 7512 0
+D1
+~
+~
+0 0 7516 0
+S
+#7512
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 0 7511 0
+D2
+~
+~
+0 0 7513 0
+D1
+~
+~
+0 0 7515 0
+S
+#7513
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7512 0
+D1
+~
+~
+0 0 7514 0
+S
+#7514
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7513 0
+D0
+~
+~
+0 0 7515 0
+S
+#7515
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7512 0
+D2
+Exit description~
+~
+0 0 7514 0
+D0
+~
+~
+0 0 7516 0
+S
+#7516
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7511 0
+D2
+Exit description~
+~
+0 0 7515 0
+S
+#7517
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+~
+~
+0 0 7504 0
+D1
+~
+~
+0 0 7528 0
+D0
+~
+~
+0 0 7518 0
+S
+#7518
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7517 0
+D1
+~
+~
+0 0 7525 0
+D0
+~
+~
+0 0 7519 0
+S
+#7519
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7518 0
+D1
+~
+~
+0 0 7524 0
+D0
+~
+~
+0 0 7520 0
+S
+#7520
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D2
+Exit description~
+~
+0 0 7519 0
+D1
+~
+~
+0 0 7521 0
+S
+#7521
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7520 0
+D2
+~
+~
+0 0 7524 0
+D1
+~
+~
+0 0 7522 0
+S
+#7522
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7521 0
+D2
+~
+~
+0 0 7523 0
+S
+#7523
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7522 0
+D3
+~
+~
+0 0 7524 0
+D2
+~
+~
+0 0 7526 0
+S
+#7524
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7519 0
+D0
+Exit description~
+~
+0 0 7521 0
+D1
+Exit description~
+~
+0 0 7523 0
+D2
+~
+~
+0 0 7525 0
+S
+#7525
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7518 0
+D0
+Exit description~
+~
+0 0 7524 0
+D1
+~
+~
+0 0 7526 0
+D2
+~
+~
+0 0 7528 0
+S
+#7526
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7523 0
+D3
+Exit description~
+~
+0 0 7525 0
+D2
+~
+~
+0 0 7527 0
+S
+#7527
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7526 0
+D3
+~
+~
+0 0 7528 0
+S
+#7528
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7517 0
+D0
+Exit description~
+~
+0 0 7525 0
+D1
+Exit description~
+~
+0 0 7527 0
+D2
+~
+~
+0 0 7529 0
+S
+#7529
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius.  Numerous workers
+are battling each other to harvest as much as they can.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7528 0
+D2
+~
+~
+0 0 7530 0
+S
+#7530
+The Fields~
+These fields are neatly organized.  Silk worms are busy making their cocoons
+of silk all over the leaves of these opium plants.  Whoever decided to  grow
+both silk and opium in the same space is obviously a genius. To the south is a
+thick haze of smoke as a good part of the field is being burned in order to
+keep the prices high and enrich the soil.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7529 0
+D2
+Exit description~
+~
+16777216 0 7531 0
+S
+#7531
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+16777216 0 7530 0
+D2
+Exit description~
+~
+0 0 7532 0
+S
+#7532
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7531 0
+D1
+Exit description~
+~
+0 0 7533 0
+D2
+Exit description~
+~
+0 0 7539 0
+S
+#7533
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7532 0
+D1
+Exit description~
+~
+0 0 7534 0
+D2
+Exit description~
+~
+0 0 7538 0
+S
+#7534
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7533 0
+D1
+Exit description~
+~
+0 0 7535 0
+D2
+Exit description~
+~
+0 0 7537 0
+S
+#7535
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D3
+Exit description~
+~
+0 0 7534 0
+D2
+Exit description~
+~
+0 0 7536 0
+S
+#7536
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7535 0
+D3
+Exit description~
+~
+0 0 7537 0
+D2
+Exit description~
+~
+0 0 7543 0
+S
+#7537
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7534 0
+D1
+Exit description~
+~
+0 0 7536 0
+D3
+Exit description~
+~
+0 0 7538 0
+D2
+Exit description~
+~
+0 0 7542 0
+S
+#7538
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7533 0
+D1
+Exit description~
+~
+0 0 7537 0
+D2
+Exit description~
+~
+0 0 7541 0
+D3
+Exit description~
+~
+0 0 7539 0
+S
+#7539
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7532 0
+D1
+Exit description~
+~
+0 0 7538 0
+D2
+Exit description~
+~
+0 0 7540 0
+S
+#7540
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7539 0
+D1
+Exit description~
+~
+0 0 7541 0
+D2
+Exit description~
+~
+0 0 7547 0
+S
+#7541
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7538 0
+D3
+Exit description~
+~
+0 0 7540 0
+D1
+Exit description~
+~
+0 0 7542 0
+D2
+Exit description~
+~
+0 0 7546 0
+S
+#7542
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7537 0
+D3
+Exit description~
+~
+0 0 7541 0
+D1
+Exit description~
+~
+0 0 7543 0
+D2
+Exit description~
+~
+0 0 7545 0
+S
+#7543
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7536 0
+D3
+Exit description~
+~
+0 0 7542 0
+D2
+Exit description~
+~
+0 0 7544 0
+S
+#7544
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7543 0
+D3
+Exit description~
+~
+0 0 7545 0
+D2
+Exit description~
+~
+0 0 7551 0
+S
+#7545
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7542 0
+D1
+Exit description~
+~
+0 0 7544 0
+D3
+Exit description~
+~
+0 0 7546 0
+D2
+Exit description~
+~
+0 0 7550 0
+S
+#7546
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7541 0
+D1
+Exit description~
+~
+0 0 7545 0
+D3
+Exit description~
+~
+0 0 7547 0
+D2
+Exit description~
+~
+0 0 7549 0
+S
+#7547
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7540 0
+D1
+Exit description~
+~
+0 0 7546 0
+D2
+Exit description~
+~
+0 0 7548 0
+S
+#7548
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7547 0
+D1
+Exit description~
+~
+0 0 7549 0
+S
+#7549
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7546 0
+D3
+Exit description~
+~
+0 0 7548 0
+D1
+Exit description~
+~
+0 0 7550 0
+D2
+Exit description~
+~
+0 0 7600 0
+S
+#7550
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7545 0
+D3
+Exit description~
+~
+0 0 7549 0
+S
+#7551
+Inside The Opium Smoke~
+You feel warm and a bit clumsy as the smoke of the opium fills your lungs. Your
+eyes grow heavy and you start to sway silently for no reason.  You swear you
+can see the birds singing and hear the plants move back and forth in a strange
+dance.  Numerous creatures move by you, all of them rainbow colored and
+smiling. It's all just a bad trip, just a bad trip.
+~
+0 0 2 0 0 0
+D0
+Exit description~
+~
+0 0 7544 0
+S
+#7600
+Inside The Opium Smoke~
+The smoke is starting to clear and the breathe of fresh air is welcomed.  This
+seems like a safe place to sit and rest.  The hallucinations don't seem to
+come in here, or maybe they are real and just avoid this place.  For whatever
+reason, you feel you can relax here.
+~
+0 1028 2 0 0 0
+D0
+Exit description~
+~
+0 0 7549 0
+S
+#0
+
+#RESETS
+M 0 7501 1 7505  ; Mob: #7501 a field hand => #7505 The Fields
+E 1 7501 1 14  ; -- Equip: #7501 a shoulder knapsack (about)
+M 0 7506 1 7507  ; Mob: #7506 a silk worm => #7507 The Fields
+M 0 7511 1 7509  ; Mob: #7511 an overseer => #7509 The Fields
+M 0 7502 1 7512  ; Mob: #7502 a field hand => #7512 The Fields
+M 0 7507 1 7514  ; Mob: #7507 a silk worm => #7514 The Fields
+M 0 7513 1 7516  ; Mob: #7513 an interested merchant => #7516 The Fields
+M 0 7503 1 7521  ; Mob: #7503 a field hand => #7521 The Fields
+E 1 7501 1 14  ; -- Equip: #7501 a shoulder knapsack (about)
+M 0 7508 1 7519  ; Mob: #7508 a silk worm => #7519 The Fields
+M 0 7504 1 7523  ; Mob: #7504 a field hand => #7523 The Fields
+M 0 7509 1 7525  ; Mob: #7509 a silk worm => #7525 The Fields
+M 0 7505 1 7527  ; Mob: #7505 a field hand => #7527 The Fields
+M 0 7510 1 7529  ; Mob: #7510 a silk worm => #7529 The Fields
+M 0 7516 1 7530  ; Mob: #7516 a field hand => #7530 The Fields
+M 0 7515 1 7522  ; Mob: #7515 a silk worm => #7522 The Fields
+M 0 7512 1 7521  ; Mob: #7512 an overseer => #7521 The Fields
+M 0 7514 1 7526  ; Mob: #7514 an interested merchant => #7526 The Fields
+M 0 7517 1 7528  ; Mob: #7517 an overseer => #7528 The Fields
+M 0 7518 1 7524  ; Mob: #7518 an interested merchant => #7524 The Fields
+M 0 7519 1 7532  ; Mob: #7519 a laughing turkey => #7532 Inside the Opium Smoke
+M 0 7521 1 7534  ; Mob: #7521 a rainbow turtle-cat => #7534 Inside the Opium Smoke
+E 1 7600 1 15  ; -- Equip: #7600 a rainbow turtle shell (back)
+M 0 7524 1 7536  ; Mob: #7524 a cat-bunny => #7536 Inside the Opium Smoke
+M 0 7527 1 7538  ; Mob: #7527 a dancing turtle => #7538 Inside the Opium Smoke
+M 0 7530 1 7540  ; Mob: #7530 a flying weasel => #7540 Inside the Opium Smoke
+M 0 7533 1 7542  ; Mob: #7533 a singing shrub => #7542 Inside the Opium Smoke
+M 0 7520 1 7544  ; Mob: #7520 a laughing turkey => #7544 Inside the Opium Smoke
+M 0 7522 1 7546  ; Mob: #7522 a rainbow turtle-cat => #7546 Inside the Opium Smoke
+E 1 7600 1 15  ; -- Equip: #7600 a rainbow turtle shell (back)
+M 0 7525 1 7548  ; Mob: #7525 a cat-bunny => #7548 Inside the Opium Smoke
+M 0 7530 1 7550  ; Mob: #7530 a flying weasel => #7550 Inside the Opium Smoke
+M 0 7534 1 7551  ; Mob: #7534 a singing shrub => #7551 Inside the Opium Smoke
+M 0 7600 1 7549  ; Mob: #7600 a laughing turkey => #7549 Inside the Opium Smoke
+M 0 7523 1 7547  ; Mob: #7523 a rainbow turtle-cat => #7547 Inside the Opium Smoke
+M 0 7526 1 7545  ; Mob: #7526 a cat-bunny => #7545 Inside the Opium Smoke
+M 0 7529 1 7543  ; Mob: #7529 a dancing turtle => #7543 Inside the Opium Smoke
+M 0 7532 1 7541  ; Mob: #7532 a flying weasel => #7541 Inside the Opium Smoke
+M 0 7535 1 7539  ; Mob: #7535 a singing shrub => #7539 Inside the Opium Smoke
+M 0 7536 1 7543  ; Mob: #7536 the Lizard Queen => #7543 Inside the Opium Smoke
+S
+
+#SPECIALS
+S
+
+#$

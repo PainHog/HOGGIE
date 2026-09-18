@@ -1,0 +1,1568 @@
+#AREA   Trials Of Fellowship~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+50 50 0 65
+$
+
+#RESETMSG The moan of various creatures grows louder for a moment.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1327200103
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7301
+Efrit~
+an Efrit~
+This flaming creature hurls a whip of flame at you!
+~
+This massive creature is bathed in an aura of flames.  It's body is made of
+muscle and bone yet it's skin seems to nothing but solid flame. It is twice
+the size of an ogre and just as inviting.  Luckily its sheer size keeps it
+from moving too quickly inside the cavern.
+~
+4194401 38273152&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 8192 8192 0
+0 0 8 0 1 2 33554736 775
+#7302
+Efrit~
+an Efrit~
+This flaming creature hurls a whip of flame at you!
+~
+This massive creature is bathed in an aura of flames.  It's body is made of
+muscle and bone yet it's skin seems to nothing but solid flame. It is twice
+the size of an ogre and just as inviting.  Luckily its sheer size keeps it
+from moving too quickly inside the cavern.
+~
+4194401 38273152&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 8192 8192 0
+0 0 8 0 1 2 33554736 775
+#7303
+Efrit~
+an Efrit~
+This flaming creature hurls a whip of flame at you!
+~
+This massive creature is bathed in an aura of flames.  It's body is made of
+muscle and bone yet it's skin seems to nothing but solid flame. It is twice
+the size of an ogre and just as inviting.  Luckily its sheer size keeps it
+from moving too quickly inside the cavern.
+~
+4194401 38273152&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 8192 8192 0
+0 0 8 0 1 2 33554736 775
+#7304
+yeti beast~
+a Yeti~
+This hairy beast is throwing shards of ice at you!
+~
+This massive beast is covered in thick hair and is covered in what appears to
+be frost. It lumbers towards you, creating shards of ice from its breath and
+it grins with a mouth of yellow and broken teeth as it gets close.
+~
+4194401 272629888&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 512 512 0
+0 0 8 0 2 0 432 263
+#7305
+yeti beast~
+a Yeti~
+This hairy beast is throwing shards of ice at you!
+~
+This massive beast is covered in thick hair and is covered in what appears to
+be frost. It lumbers towards you, creating shards of ice from its breath and
+it grins with a mouth of yellow and broken teeth as it gets close.
+~
+4194401 272629888&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 512 512 0
+0 0 8 0 2 0 432 263
+#7306
+yeti beast~
+a Yeti~
+This hairy beast is throwing shards of ice at you!
+~
+This massive beast is covered in thick hair and is covered in what appears to
+be frost. It lumbers towards you, creating shards of ice from its breath and
+it grins with a mouth of yellow and broken teeth as it gets close.
+~
+4194401 272629888&256 0 C
+60 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 512 512 0
+0 0 8 0 2 0 432 263
+#7307
+shadow knight~
+a Shadow Knight~
+This armored soldier takes a swing at you!
+~
+This knight seems bathed in shadows. His armor is black as midnight and seems
+to radiate a thick dark mist.  His eyes are a piercing red and he howls his
+battlecry in the old tongue.  His armor is adorned in the skulls of his
+victims.
+~
+4194401 4262016&256 -1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 3 0 0 65536 65536 0
+0 0 8 0 0 12 -2147483216 524547
+#7308
+shadow knight~
+a Shadow Knight~
+This armored soldier takes a swing at you!
+~
+This knight seems bathed in shadows. His armor is black as midnight and seems
+to radiate a thick dark mist.  His eyes are a piercing red and he howls his
+battlecry in the old tongue.  His armor is adorned in the skulls of his
+victims.
+~
+4194401 4262016&256 -1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 3 0 0 65536 65536 0
+0 0 8 0 0 12 -2147483216 524547
+#7309
+shadow knight~
+a Shadow Knight~
+This armored soldier takes a swing at you!
+~
+This knight seems bathed in shadows. His armor is black as midnight and seems
+to radiate a thick dark mist.  His eyes are a piercing red and he howls his
+battlecry in the old tongue.  His armor is adorned in the skulls of his
+victims.
+~
+4194401 4262016&256 -1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 3 0 0 65536 65536 0
+0 0 8 0 0 12 -2147483216 524547
+#7310
+lesser celestial~
+a Lesser Celestial~
+This divine being sees you and screams "DEFILER"
+~
+This winged beautiful woman sees you and screams that you are trespassing! She
+obviously means business as she summons forth great bolts of energy and
+lightning to smite you back.  You doubt that she is willing to sit down and
+talk this out.
+~
+4194401 71311488&256 1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 65537 65537 0
+0 0 8 0 4 128 416 1287
+#7311
+lesser celestial~
+a Lesser Celestial~
+This divine being sees you and screams "DEFILER"
+~
+This winged beautiful woman sees you and screams that you are trespassing! She
+obviously means business as she summons forth great bolts of energy and
+lightning to smite you back.  You doubt that she is willing to sit down and
+talk this out.
+~
+4194401 71311488&256 1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 65537 65537 0
+0 0 8 0 4 128 416 1287
+#7312
+lesser celestial~
+a Lesser Celestial~
+This divine being sees you and screams "DEFILER"
+~
+This winged beautiful woman sees you and screams that you are trespassing! She
+obviously means business as she summons forth great bolts of energy and
+lightning to smite you back.  You doubt that she is willing to sit down and
+talk this out.
+~
+4194401 71311488&256 1000 C
+62 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 65537 65537 0
+0 0 8 0 4 128 416 1287
+#7313
+Revenant~
+a Revenant~
+This foul warrior rose from the grave to continue his war.
+~
+This warrior is must have suffered a massive wound at some point, his stomach
+is ripped open and his massive armor is stained with blood. He looks at you
+and cries out in some ancient tongue and aims his blade at your throat.
+~
+4194401 4194432&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 65536 65536 0
+0 0 8 1048656 0 137 0 3
+#7314
+Revenant~
+a Revenant~
+This foul warrior rose from the grave to continue his war.
+~
+This warrior is must have suffered a massive wound at some point, his stomach
+is ripped open and his massive armor is stained with blood. He looks at you
+and cries out in some ancient tongue and aims his blade at your throat.
+~
+4194401 4194432&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 65536 65536 0
+0 0 8 1048656 0 137 0 3
+#7315
+Revenant~
+a Revenant~
+This foul warrior rose from the grave to continue his war.
+~
+This warrior is must have suffered a massive wound at some point, his stomach
+is ripped open and his massive armor is stained with blood. He looks at you
+and cries out in some ancient tongue and aims his blade at your throat.
+~
+4194401 4194432&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 65536 65536 0
+0 0 8 1048656 0 137 0 3
+#7316
+Revenant~
+a Revenant~
+This foul warrior rose from the grave to continue his war.
+~
+This warrior is must have suffered a massive wound at some point, his stomach
+is ripped open and his massive armor is stained with blood. He looks at you
+and cries out in some ancient tongue and aims his blade at your throat.
+~
+4194401 4194432&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 65536 65536 0
+0 0 8 1048656 0 137 0 3
+#7317
+dream walker~
+a Dream Walker~
+This creature of air is trapped here and is not too happy about company.
+~
+This creature is made of air and whispers. It seems to sniff and lick the air
+in your direction and you have the sick feeling it is reading something out of
+it.  It looks at you and looks at the surroundings, judging from the claw
+marks, it is has been stuck here awhile and doesn't fancy your company.
+~
+4194401 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 8 1048688 0 9 67109026 3
+#7318
+dream walker~
+a Dream Walker~
+This creature of air is trapped here and is not too happy about company.
+~
+This creature is made of air and whispers. It seems to sniff and lick the air
+in your direction and you have the sick feeling it is reading something out of
+it.  It looks at you and looks at the surroundings, judging from the claw
+marks, it is has been stuck here awhile and doesn't fancy your company.
+~
+4194401 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 8 1048688 0 9 67109026 3
+#7319
+dream walker~
+a Dream Walker~
+This creature of air is trapped here and is not too happy about company.
+~
+This creature is made of air and whispers. It seems to sniff and lick the air
+in your direction and you have the sick feeling it is reading something out of
+it.  It looks at you and looks at the surroundings, judging from the claw
+marks, it is has been stuck here awhile and doesn't fancy your company.
+~
+4194401 4194304&256 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 8 1048688 0 9 67109026 3
+#7320
+hate bringer~
+the Hate-Bringer~
+This wicked creature is a mixture of blades and piercings.
+~
+This creature has blades of steel for arms and spears for legs.  It's face is
+thin and narrow, it's skin pale and cold.  It stares at you and licks its
+mouth at the sight.  From the chewed bones and mangled corpses of knights,
+celestials, and anything else, this creature lives simply to hate.
+~
+541065251 4196480&320 -1000 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 65536 65536 0
+0 0 8 64 0 16 432 2097155
+#7321
+gemni woman~
+Gemni~
+You notice this woman is standing next to her reflection, until both charge you!
+~
+At first glance it would seem this woman is simply standing next to a great
+mirror yet it becomes all too clear that the reflection is indeed coming at
+you. Her hair is a sweet honey blonde and her eyes an ice blue.  She is
+gorgeous.  Her armor is a highly polished silver and she see and her
+reflection seem intent on staining it with your blood.
+~
+4194403 339738624&320 0 C
+58 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 73728 73728 0
+0 0 8 3153920 0 0 416 2097159
+#7400
+gemni woman~
+Gemni~
+You notice this woman is standing next to her reflection, until both charge you!
+~
+At first glance it would seem this woman is simply standing next to a great
+mirror yet it becomes all too clear that the reflection is indeed coming at
+you. Her hair is a sweet honey blonde and her eyes an ice blue.  She is
+gorgeous.  Her armor is a highly polished silver and she see and her
+reflection seem intent on staining it with your blood.
+~
+4194403 339738624&320 0 C
+58 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 73728 73728 0
+0 0 8 3153920 0 0 416 2097159
+#0
+
+
+#OBJECTS
+#7301
+dark key~
+a dark key~
+This key is made of pure shadow.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+#7302
+light key~
+a key of light~
+This key is made of pure light.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+#7303
+bloodied key~
+a bloodied key~
+This key is thick with dried blood.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+#7304
+key hate~
+a key of hate~
+This key is made of razors and barbs.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+#7305
+mace shadow~
+A mace of shadow~
+This large mace seems clouded in darkness.~
+~
+5 512&16 131073
+12 5 6 8
+12 0 0
+#7306
+rusted long sword~
+a rusted longsword~
+This large sword is rusted with blood and sweat.~
+~
+5 0&16 131073
+12 5 6 3
+12 0 0
+#7307
+arm blade~
+a severed blade-arm~
+This blade is also a creature's arm.~
+~
+5 0 131073
+12 3 6 3
+12 0 0
+#7308
+plate silver~
+A mirror-like chestplate of silver~
+This beautiful plate armor is a mirror.~
+~
+9 524608 65
+14 14 0 0
+15 2000 0
+A
+22 -4
+A
+12 75
+A
+27 16
+A
+27 8
+#7309
+mirror plate leggings~
+A set of mirror-like thighguards~
+These leggings are shined to a high polish.~
+~
+9 524608 16385
+12 12 0 0
+12 2000 0
+A
+24 -4
+A
+13 75
+A
+27 128
+A
+27 32
+#7310
+aura hate~
+an aura of hate~
+This cloud smells of blood.~
+~
+9 64 2049
+5 5 0 0
+1 1000 0
+A
+24 5
+A
+22 5
+A
+25 -5
+A
+13 50
+A
+19 5
+A
+18 5
+#7311
+plaque faded~
+a faded plaque~
+This faded plaque is hanging from the door.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+plaque faded~
+This is the Trial of Fellowship.  Deep within these caverns are creatures that
+have been sealed away.  You will face ancient beasts as well as horrid beast
+that should never see the light of day again.  Yet, due to the cramped
+quarters, only Two adventurers may venture in at once. This is a test of team
+work, cooperation, and strength.  Let only the smart and mighty dare enter.
+Only avatars are advised to enter.
+
+
+-Nameless
+~
+#7400
+mirror key~
+a mirror key~
+This key is made of two mirrors.~
+~
+8 0 1048577
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7301
+A Narrow Pathway~
+The pathway leads deeper underground.  You can smell sulfur burning far off
+but also the faint hints of evergreen and jasmine.  The walls are a smooth
+marble, they also appear to be polished but the formation of the cave seems
+too natural. It is too cramped for a large party to continue.
+~
+0 1 13 0 0 2
+D1
+~
+~
+16777216 0 7302
+D4
+Exit description~
+~
+0 0 16033
+S
+#7302
+A Narrow Pathway~
+The pathway leads deeper underground.  You can smell sulfur burning far off
+but also the faint hints of evergreen and jasmine.  The walls are a smooth
+marble, they also appear to be polished but the formation of the cave seems
+too natural. It is too cramped for a large party to continue.
+~
+0 1 13 0 0 2
+D1
+~
+~
+0 0 7303
+D3
+~
+~
+0 0 7301
+S
+#7303
+A Narrow Pathway~
+The pathway leads deeper underground.  You can smell sulfur burning far off
+but also the faint hints of evergreen and jasmine.  The walls are a smooth
+marble, they also appear to be polished but the formation of the cave seems
+too natural. It is too cramped for a large party to continue. A large door
+stands to  the north.  It seems simple enough, no locks and no sign that
+anything has been trying to get in or get out. A plaque sits on the door.
+~
+0 1 13 0 0 2
+D0
+~
+~
+16777219 0 7304
+D3
+Exit description~
+~
+0 0 7302
+S
+#7304
+Inside The Trial Of Fellowship~
+The door you came through is gone.  Where it once stood is now just a mere
+shadow.  You try to touch the knob but your hands moves right through it.  You
+are in some kind of cavern, it is cramped and tight.  To the north is another
+massive door that is the color of the darkest coal. To the east you can smell
+the strong odor of sulfur but to the east you smell evergreen and cold
+mountain air.
+~
+0 137371657 13 0 0 2
+D0
+~
+~
+8390183 7301 7335
+D1
+~
+~
+16777216 0 7305
+D3
+~
+~
+16777216 0 7308
+S
+#7305
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7314
+D1
+~
+~
+0 0 7306
+D3
+Exit description~
+~
+16777216 0 7304
+S
+#7306
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+0 0 7315
+D1
+~
+~
+0 0 7307
+D3
+Exit description~
+~
+0 0 7305
+S
+#7307
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7316
+D3
+~
+~
+0 0 7306
+S
+#7308
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+0 0 7313
+D1
+Exit description~
+~
+16777216 0 7304
+D3
+~
+~
+0 0 7309
+S
+#7309
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+0 0 7312
+D1
+Exit description~
+~
+0 0 7308
+D3
+~
+~
+0 0 7310
+S
+#7310
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7311
+D1
+Exit description~
+~
+0 0 7309
+S
+#7311
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D1
+~
+~
+0 0 7312
+D2
+Exit description~
+~
+0 0 7310
+S
+#7312
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D1
+~
+~
+0 0 7313
+D2
+~
+~
+0 0 7309
+D3
+Exit description~
+~
+0 0 7311
+S
+#7313
+A Cavern Of Frost~
+It is hard to believe your eyes.  It seems as if there is mountain range
+within this cavern.  The ceiling is a soft turquoise that mimics a clear blue
+sky, snow and great trees line the cavern and it even seems to be snowing!
+This is truly a marvel.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+16777216 0 7326
+D2
+~
+~
+0 0 7308
+D3
+Exit description~
+~
+0 0 7312
+S
+#7314
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D1
+~
+~
+0 0 7315
+D2
+~
+~
+0 0 7305
+S
+#7315
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+16777216 0 7317
+D1
+~
+~
+0 0 7316
+D2
+~
+~
+0 0 7306
+D3
+Exit description~
+~
+0 0 7314
+S
+#7316
+A Cavern Of Flame~
+This cavern is not much bigger than anything else you've seen.  The walls and
+pillars are made of metal, burning bright red with the extreme heat in the
+room.  Rivers of lava and jets of flame erupt in all directions.  You better
+watch your step.   Hopefully if anything lives in here, it won't notice you.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7307
+D3
+~
+~
+0 0 7315
+S
+#7317
+The Grey Walk~
+The fires of the cavern burn away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+0 0 7318
+D2
+~
+~
+16777216 0 7315
+S
+#7318
+The Grey Walk~
+The fires of the cavern burn away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+Exit description~
+~
+16777216 0 7319
+D2
+~
+~
+0 0 7317
+S
+#7319
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7324
+D1
+~
+~
+0 0 7320
+D2
+~
+~
+16777216 0 7318
+S
+#7320
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7323
+D1
+~
+~
+0 0 7321
+D3
+Exit description~
+~
+0 0 7319
+S
+#7321
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7322
+D3
+Exit description~
+~
+0 0 7320
+S
+#7322
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7321
+D3
+~
+~
+0 0 7323
+S
+#7323
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7325
+D1
+Exit description~
+~
+0 0 7322
+D2
+Exit description~
+~
+0 0 7320
+D3
+Exit description~
+~
+0 0 7324
+S
+#7324
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D1
+~
+~
+0 0 7323
+D2
+Exit description~
+~
+0 0 7319
+S
+#7325
+A Cavern Of Shadow~
+This cavern is covered in a thick mist.  It is not a fog, but rather merely a
+darkness so thick that your breathing becomes labored just walking.  The
+shadows around you seem to leap and glide about.  The shuffling sounds that
+come from all around you do not bode well.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7323
+S
+#7326
+The Grey Walk~
+The ice of the cavern melt away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7327
+D2
+~
+~
+16777216 0 7313
+S
+#7327
+The Grey Walk~
+The ice of the cavern melt away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+16777216 0 7328
+D2
+Exit description~
+~
+0 0 7326
+S
+#7328
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7333
+D2
+Exit description~
+~
+16777216 0 7327
+D3
+~
+~
+0 0 7329
+S
+#7329
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7332
+D1
+Exit description~
+~
+0 0 7328
+D3
+~
+~
+0 0 7330
+S
+#7330
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7331
+D1
+Exit description~
+~
+0 0 7329
+S
+#7331
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D1
+~
+~
+0 0 7332
+D2
+Exit description~
+~
+0 0 7330
+S
+#7332
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7334
+D1
+Exit description~
+~
+0 0 7333
+D2
+Exit description~
+~
+0 0 7329
+D3
+Exit description~
+~
+0 0 7331
+S
+#7333
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7328
+D3
+~
+~
+0 0 7332
+S
+#7334
+A Shrine Of Light~
+This cavern, if you called it that, is beautiful.  The entire place is bathed
+in light.  You smell jasmine and honey everywhere.  Numerous statues have been
+built into the walls of the cavern, most of them of kindly creatures with
+dove's wings and smiling faces.  You hope that your prescience in this holy
+place is not taken as an insult.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7332
+S
+#7335
+Before A Gate Of Light~
+This simple gate is made of pure light.  Simply touching the thin strips that
+bar your movement north sends a great shock through your system.  There is a
+small entry place for a key.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+25167399 7302 7336
+D2
+~
+~
+25167399 7301 7304
+S
+#7336
+The Grey Walk~
+The light of the gate fades away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7337
+D2
+~
+~
+16777216 7302 7335
+S
+#7337
+The Grey Walk~
+The light of the gate fades away into a small chasm.  The walls are a muted
+gray as even the moss and fungus is an ashen color.  The walls seem solid yet
+they easily bend under the simplest pressure.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+16777216 0 7338
+D2
+Exit description~
+~
+0 0 7336
+S
+#7338
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7345
+D1
+~
+~
+0 0 7339
+D2
+Exit description~
+~
+16777216 0 7337
+S
+#7339
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7344
+D1
+~
+~
+0 0 7340
+D3
+Exit description~
+~
+0 0 7338
+S
+#7340
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7343
+D1
+~
+~
+0 0 7341
+D3
+Exit description~
+~
+0 0 7339
+S
+#7341
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7342
+D3
+Exit description~
+~
+0 0 7340
+S
+#7342
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7341
+D3
+~
+~
+0 0 7343
+S
+#7343
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7347
+D1
+Exit description~
+~
+0 0 7342
+D2
+~
+~
+0 0 7340
+D3
+~
+~
+0 0 7344
+S
+#7344
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7346
+D1
+Exit description~
+~
+0 0 7343
+D2
+Exit description~
+~
+0 0 7339
+D3
+~
+~
+0 0 7345
+S
+#7345
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D1
+Exit description~
+~
+0 0 7344
+D2
+Exit description~
+~
+0 0 7338
+S
+#7346
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+0 0 7348
+D1
+Exit description~
+~
+0 0 7347
+D2
+Exit description~
+~
+0 0 7344
+S
+#7347
+A Twisted Cavern~
+This cavern smells of rot and decay.  The floor is littered with the bodies of
+hundreds of soldiers, human and otherwise.  Some of them are slowly crawling
+their way up, disregarding their wounds and the fact they are dead to continue
+their war with anyone left.  It would be best to move quickly.
+~
+0 137371657 13 0 0 4
+D2
+Exit description~
+~
+0 0 7343
+D3
+~
+~
+0 0 7346
+S
+#7348
+A Twisted Gate~
+This gate is a twisted mass of swords, shields, and bodies.  There is a simple
+iron lock in the middle of what appears to be a bent broadsword and several
+bodies that look to have been sowed back together.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+25167399 7303 7349
+D2
+~
+~
+0 0 7346
+S
+#7349
+The Grey Walk~
+This cannon is small and tight.  The same grey walls line it.  Yet the smell
+of blood and death are even heavier here as you can see the entire area has
+been stained with war.  The deep claw marks all over the walls seem to have
+been made by the creature standing by a door of mirror.
+~
+0 137371657 13 0 0 4
+D0
+~
+~
+25167399 7304 7350
+D2
+~
+~
+25166887 7303 7348
+S
+#7350
+A Room Of Waterfalls~
+This room is filled with hundreds of different waterfalls.  You can see and
+feel the mist as they crash with the stone floor yet you see no other water.
+Surely this small cavern would have flooded long ago.  The small amounts of
+light are reflected a hundred times over through all the various waterfalls.
+~
+0 137371657 13 0 0 4
+D2
+~
+~
+25166375 7304 7349
+D5
+~
+~
+25167399 7400 7303
+S
+#0
+
+
+#RESETS
+D 0 7350 5 2
+D 0 7350 2 2
+D 0 7349 0 2
+D 0 7349 2 2
+D 0 7348 0 2
+D 0 7335 0 2
+D 0 7335 2 2
+D 0 7303 0 1
+M 0 7301 1 7306
+M 0 7304 1 7309
+M 0 7305 1 7311
+M 0 7306 1 7312
+M 0 7302 1 7314
+M 0 7303 1 7316
+M 0 7317 1 7317
+M 0 7307 1 7320
+E 1 7305 1 21
+M 0 7308 1 7322
+E 1 7305 1 21
+M 0 7309 1 7325
+G 1 7301 1
+E 1 7305 1 21
+M 0 7318 1 7327
+M 0 7310 1 7329
+M 0 7311 1 7332
+M 0 7312 1 7334
+G 1 7302 1
+M 0 7319 1 7337
+M 0 7313 1 7339
+E 1 7306 1 21
+M 0 7314 1 7341
+E 1 7306 1 21
+M 0 7315 1 7344
+E 1 7306 1 21
+M 0 7316 1 7346
+G 1 7303 1
+E 1 7306 1 21
+M 0 7320 1 7349
+G 1 7304 1
+E 1 7310 1 27
+E 1 7307 1 21
+M 0 7321 1 7350
+E 1 7308 1 7
+M 0 7400 1 7350
+G 1 7400 1
+E 1 7309 1 17
+O 0 7311 1 7303
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

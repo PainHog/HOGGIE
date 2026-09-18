@@ -1,0 +1,2986 @@
+#AREA   Srilaxa~
+
+
+
+#VERSION 1
+#AUTHOR Abatha~
+
+#RANGES
+10 35 1 65
+$
+
+#RESETMSG Powerful explosions ring off in the distance.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1078475701
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9800
+spotted owl~
+a spotted owl~
+A spotted owl peers down at you from its perch.
+~
+A spotted owl looks at you disdainfully as if you were disturbing its peace.
+~
+20971585 557568 0 C
+9 0 19 176d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 8192 8192 0
+0 0 553680921 0 0 1 512 0
+> rand_prog 2~
+emote hoots softly.~
+|
+#9801
+spotted owl~
+a spotted owl~
+A spotted owl peers down at you from its perch.
+~
+A spotted owl looks at you disdainfully as if you were disturbing its peace.
+~
+20971585 557568 0 C
+10 0 19 177d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 0 0 0 8192 8192 0
+0 0 553680921 0 0 1 512 0
+> rand_prog 2~
+emote watches you with wide eyes.~
+|
+#9802
+messenger mage young~
+a young mage messenger~
+A young mage messenger tries to look important.
+~
+This young lad wanders about the plaza trying to look as if he's on
+official Srilaxa business.  He's most likely the son of a true sorcerer or
+enchanter with little talent of his own.
+~
+193 33320 1000 C
+16 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 990 0 0 0 528 2
+> act_prog p looks at you.~
+say What are you looking at?!  I'm on official business!~
+|
+#9803
+animated fire poker~
+an animated fire poker~
+An animated fire poker is menacing any who approach it.
+~
+A fire poker?!  Who would animate this and why is it outside the stone walls?
+~
+16777313 1077968896 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8193 8192 0
+0 0 0 64 512 1048576 128 2
+#9804
+squat wooden stool~
+a squat wooden stool~
+A squat wooden stool is floating around.
+~
+It looks like an ordinary wooden stool except for the fact it's flying around
+under its own power.  Someone must have animated this and forgotten about it.
+~
+17039361 2621440 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8193 8192 0
+0 0 0 1280 1026 17 128 0
+#9805
+ladybug lady bug iridescent~
+an iridescent lady bug~
+An iridescent lady bug moves along.
+~
+The iridescent lady bug is moving along, sometimes flying and other times
+crawling along.  She doesn't appear all that dangerous.
+~
+16777281 512 0 C
+7 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32 0 0 0 0 0
+#9806
+book rudimentary spells~
+a book of rudimentary spells~
+A book of rudimentary spells is propelling itself along the ground.
+~
+What's a spellbook doing wandering around?  Perhaps someone animated it as
+a practical joke and forgot all about it.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 0 528 256 9 268435456 0
+#9807
+troll guard stinky~
+a stinky troll guard~
+A stinky troll guard patrols the plaza.
+~
+A troll guard doesn't seem too pleased to see you.  He sports two tusks that
+he keeps nicely sharpened and he smells as if he has an aversion toward
+bathing.
+~
+16777281 0 -1000 C
+18 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 21 0 0 64 64 0
+0 0 2099150 8208 0 2048 0 1
+> rand_prog 2~
+emote scratches himself lazily.~
+|
+#9808
+troll guard~
+a fierce troll guard~
+A fierce troll guard is off duty.
+~
+A troll guard doesn't seem too pleased to see you.  She sports two tusks that
+she keeps nicely sharpened and she smells as if she has an aversion toward
+bathing.
+~
+16777281 1077936128 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 21 0 0 64 64 0
+0 0 2099150 8208 0 2048 608 1
+#9809
+troll guard surly~
+a surly troll guard~
+A surly troll guard glares at everyone.
+~
+The surly troll is a rather large specimen and he scowls as if he has a
+terrible toothache.  Many scars cover his rough skin, signs he's been through
+many a battle.
+~
+67 1077936256 -1000 C
+32 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 21 0 0 64 65 0
+0 0 2099150 8208 0 0 160 524289
+> rand_prog 2~
+emote snorts and looks around suspiciously.~
+|
+#9810
+troll guard~
+a fierce troll guard~
+A fierce troll guard is off duty.
+~
+A troll guard doesn't seem too pleased to see you.  She sports two tusks that
+she keeps nicely sharpened and she smells as if she has an aversion toward
+bathing.
+~
+16777281 1077936128 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 21 0 0 64 64 0
+0 0 2099150 8208 0 2048 608 1
+#9811
+intermediate book spells~
+a book of intermediate spells~
+A book of intermediate spells is floating here.
+~
+What's a spellbook doing wandering around?  Perhaps someone animated it as
+a practical joke and forgot all about it.
+~
+16777281 67633152 -1000 C
+19 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 0 528 2304 9 672137216 0
+#9812
+intermediate book spells~
+a book of intermediate spells~
+A book of intermediate spells is floating here.
+~
+What's a spellbook doing wandering around?  Perhaps someone animated it as
+a practical joke and forgot all about it.
+~
+16777281 67633152 -1000 C
+19 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8192 8192 0
+0 0 0 528 2304 9 672137216 0
+#9813
+cloth golem~
+a cloth golem~
+A cloth golem ambles about.
+~
+This creature, made of burlap, is shaped like a man.  The mage who animated
+this golem isn't very skilled for the golem has a misshapen face and limbs
+that are uneven.  It doesn't seem very coordinated either.
+~
+65 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 7 2098192 0 65 16 0
+#9814
+bronze golem~
+a bronze golem~
+A bronze golem clangs as it moves about.
+~
+This creature, made of bronze, is shaped like a man.  It was created as the
+result of intricate rituals performed by a moderately skilled mage.  Its
+creator didn't imbue it with much grace.  At least its limbed are evenly
+matched.
+~
+16777281 4227200 1000 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 71 2098257 0 0 530 524288
+#9815
+diamond golem~
+a diamond golem~
+A diamond golem is here looking rather sharp.
+~
+This creature, made of diamond, is shaped like a woman.  It's obviously the
+creation of a master sorcerer for it moves with a fair amount of coordination
+for a magical construct.  It has exceedingly sharp nails.
+~
+16777281 40 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 326 2098240 1 20 16 4718592
+#9816
+pixie maker~
+a pixie golem maker~
+A pixie golem maker is working with burlap.
+~
+This young pixie hardly notices you for he's been put to work sorting piles of
+burlap.  He has a slight build and his wings are constantly in motion.
+~
+16777409 4194816 1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 8201 1 0
+0 0 32774 0 0 0 1048576 4194818
+#9817
+brawny human maker~
+a brawny human golem maker~
+A brawny human mage is pounding on a sheet of bronze.
+~
+This man has a physique closer to a blacksmith than one would expect to find
+in a mage.  Perhaps the fashioning of metal golems involves a fair amount of
+mundane smithing.
+~
+16777281 4194816 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8193 1 0
+0 0 30 0 0 0 1073741824 4194818
+> rand_prog 2~
+flex~
+|
+#9818
+master maker~
+a master golem maker~
+A master golem maker scrutinizes her latest creation.
+~
+The master golem maker is an elderly gnome who probably has been crafting
+golems for several decades.  Her hands are covered with little scars, signs
+she began as a novice golem maker and worked her way up to her current exalted
+status.
+~
+67 4194816 1000 C
+38 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 3 0 0 8193 1 0
+0 0 94 8192 3072 0 134217728 4194882
+> death_prog 10~
+frown
+rinvoke artifact
+~
+|
+#9819
+cloth golem~
+a cloth golem~
+A cloth golem ambles about.
+~
+This creature, made of burlap, is shaped like a man.  The mage who animated
+this golem isn't very skilled for the golem has a misshapen face and limbs
+that are uneven.  It doesn't seem very coordinated either.
+~
+65 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 7 2098192 0 65 16 0
+#9820
+cloth golem~
+a cloth golem~
+A cloth golem ambles about.
+~
+This creature, made of burlap, is shaped like a man.  The mage who animated
+this golem isn't very skilled for the golem has a misshapen face and limbs
+that are uneven.  It doesn't seem very coordinated either.
+~
+65 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 7 2098192 0 65 16 0
+#9821
+cloth golem~
+a cloth golem~
+A cloth golem ambles about.
+~
+This creature, made of burlap, is shaped like a man.  The mage who animated
+this golem isn't very skilled for the golem has a misshapen face and limbs
+that are uneven.  It doesn't seem very coordinated either.
+~
+65 0 1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 7 2098192 0 65 16 0
+#9822
+pixie maker~
+a pixie golem maker~
+A pixie golem maker is working with burlap.
+~
+This young pixie hardly notices you for he's been put to work sorting piles of
+burlap.  He has a slight build and his wings are constantly in motion.
+~
+16777409 4194816 1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 8201 1 0
+0 0 32782 0 0 0 1048576 4194818
+> rand_prog 2~
+emote flits about the room.~
+|
+#9823
+pixie maker~
+a pixie golem maker~
+A pixie golem maker is working with burlap.
+~
+This young pixie hardly notices you for he's been put to work sorting piles of
+burlap.  He has a slight build and his wings are constantly in motion.
+~
+16777409 4194816 1000 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 8201 1 0
+0 0 32782 0 0 0 1048576 4194818
+#9824
+brawny human maker~
+a brawny human golem maker~
+A brawny human mage is pounding on a sheet of bronze.
+~
+This man has a physique closer to a blacksmith than one would expect to find
+in a mage.  Perhaps the fashioning of metal golems involves a fair amount of
+mundane smithing.
+~
+16777281 4194816 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8193 1 0
+0 0 30 0 0 0 1073741824 4194818
+> rand_prog 2~
+chortle~
+|
+#9825
+brawny human maker~
+a brawny human golem maker~
+A brawny human mage is pounding on a sheet of bronze.
+~
+This man has a physique closer to a blacksmith than one would expect to find
+in a mage.  Perhaps the fashioning of metal golems involves a fair amount of
+mundane smithing.
+~
+16777281 4194816 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8193 1 0
+0 0 30 0 0 0 1073741824 4194818
+#9826
+brawny human maker~
+a brawny human golem maker~
+A brawny human mage is pounding on a sheet of bronze.
+~
+This man has a physique closer to a blacksmith than one would expect to find
+in a mage.  Perhaps the fashioning of metal golems involves a fair amount of
+mundane smithing.
+~
+16777281 4194816 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8193 1 0
+0 0 30 0 0 0 1073741824 4194818
+#9827
+diamond golem~
+a diamond golem~
+A diamond golem is here looking rather sharp.
+~
+This creature, made of diamond, is shaped like a woman.  It's obviously the
+creation of a master sorcerer for it moves with a fair amount of coordination
+for a magical construct.  It has exceedingly sharp nails.
+~
+16777281 40 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 326 2098240 1 20 16 4718592
+#9828
+diamond golem~
+a diamond golem~
+A diamond golem is here looking rather sharp.
+~
+This creature, made of diamond, is shaped like a woman.  It's obviously the
+creation of a master sorcerer for it moves with a fair amount of coordination
+for a magical construct.  It has exceedingly sharp nails.
+~
+16777281 40 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 326 2098240 1 20 16 4718592
+#9829
+diamond golem~
+a diamond golem~
+A diamond golem is here looking rather sharp.
+~
+This creature, made of diamond, is shaped like a woman.  It's obviously the
+creation of a master sorcerer for it moves with a fair amount of coordination
+for a magical construct.  It has exceedingly sharp nails.
+~
+16777281 40 1000 C
+28 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 326 2098240 1 20 16 4718592
+#9830
+Zarabess~
+Zarabess~
+Zarabess is hawking her magical wares.
+~
+Zarabess is a middle aged human dressed in a neat brown robe and comfortable
+shoes.  Being a shopkeeper, she's on her feet a lot.
+~
+1048643 4202624&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 4194303 1 0
+0 0 41 0 0 0 0 0
+> rand_prog 2~
+bow
+~
+> rand_prog 2~
+say I buy and sell magical components and items at very reasonable prices
+~
+|
+#9831
+Zusel~
+Zusel~
+Zusel is busy recharging a magical item.
+~
+Zusel is a middle aged human dressed in a dark, flame resistant robe.
+~
+1048643 4194432&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 4194303 1 0
+0 0 1162 0 0 0 0 0
+> rand_prog 2~
+look $r
+chuckle self
+~
+> rand_prog 2~
+say What do ye want to recharge?  I ain't got all day!
+grumble~
+|
+#9832
+Zarppi~
+Zarppi~
+Zarppi is holding a light and appears to be singing to it.
+~
+Zarppi is a ghoul of undetermined age dressed in a neat brown robe and
+comfortable shoes.  It is singing to a light, is it enchanting it or is it
+merely insane?
+~
+1048643 4194432&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 19 0 0 4194303 1386499 0
+0 0 1480 0 0 0 0 0
+> rand_prog 2~
+emote sings a quiet little song.~
+> rand_prog 2~
+hum self~
+|
+#9950
+Placeholder~
+Placeholder~
+Placeholder
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#9800
+parchment warning fiery ~
+a fiery parchment~
+A fiery parchment is suspended in mid air.~
+~
+12 1 0
+0 0 0 0
+1 0 0
+E
+parchment fiery warning~
+Tiny flames surround the parchment.  Two words stand out:
+&RKEEP OUT!&w  If you haven't completed the University we don't want you!
+~
+#9801
+pile leaves pit~
+a large pile of leaves~
+A large pile of leaves stands out from the rest.
+~
+~
+15 0 0
+10 0 0 0
+1 0 0
+E
+pile leaves~
+This large pile of leaves looks as if it's covering something.  Perhaps
+something could be stashed inside?
+~
+#9802
+A Tiny Key~
+a tiny key~
+Someone has discarded a tiny key to some type of lock
+~
+~
+18 0 1048577
+0 0 0 0
+1 0 0
+E
+tiny key crystal~
+This tiny key appears to be made of crystal.
+~
+#9803
+burlap loincloth~
+a burlap loincloth~
+A burlap loincloth sporting a bright blue "&BS&G" lies here.
+~
+~
+9 0 8193
+3 3 0 0
+2 150 0
+E
+burlap loincloth~
+The burlap loincloth doesn't look very comfortable, however it sports the
+letter "&BS&w" in bright blue colors, making it the height of troll fashion.
+~
+A
+18 1
+A
+17 -10
+#9804
+beaded anklet~
+a beaded anklet~
+A beaded anklet has been left here.
+~
+~
+8 64 32769
+0 0 0 0
+1 0 0
+E
+beaded anklet~
+This beaded anklet is crudely fashioned and is large enough to fit a troll.
+~
+A
+19 2
+#9805
+spring clear~
+a clear spring~
+A clear spring bubbles up from the ground.
+~
+~
+25 0 0
+0 0 0 0
+1 0 0
+E
+spring clear~
+The spring water is clear and has a sweet smell.
+~
+#9806
+ornate fountain~
+an ornately sculptured fountain~
+An ornately sculptured fountain is the plaza's centerpiece.
+~
+~
+25 1 0
+0 0 0 0
+1 0 0
+E
+ornate fountain~
+Water spouts high into the air from this ornately sculptured marble fountain.
+Obscure sigils are carved into its side.
+~
+#9807
+leather gripped great maul~
+a leather gripped great maul~
+A leather gripped great maul is discarded here.
+~
+~
+5 64&16 131073
+12 6 5 7
+12 500 0
+E
+leather gripped great maul~
+This great maul is a hefty mithril weapon designed for a strong wielder.  It
+has a worn leather grip.
+~
+A
+18 2
+A
+1 2
+#9808
+edible grub~
+an edible grub~
+An edible grub wriggles about waiting to be eaten.
+~
+~
+19 0 1048577
+10 0 0 0
+1 50 0
+E
+edible grub~
+Though unappetizing to many, this edible grub will keep the hunger pangs away,
+providing you can stomach the taste.
+~
+#9809
+badge srilaxa~
+a badge of Srilaxa~
+A badge of Srilaxa has been discarded.
+~
+~
+9 66 2097153
+1 0 0 0
+1 100 0
+E
+srilaxa badge~
+A shimmering badge with the "S" of Srilaxa on it.
+~
+A
+24 -2
+A
+3 2
+#9810
+chisel~
+a steel chisel~
+A steel chisel for cleaving gemstones is here.
+~
+~
+5 0 131073
+12 2 4 11
+5 2500 0
+E
+steel chisel~
+This steel chisel at first glance doesn't appear so mighty, but it was
+designed to cleave gemstones even ones as hard as diamond.
+~
+A
+18 2
+A
+31 2
+A
+19 4
+#9811
+table~
+a long mahogany table~
+A long mahogany table is here.
+~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+table mahogany ~
+It's a long mahogany table, ideally suited for holding council meetings.
+~
+> push_prog 100~
+search trapdoor~
+|
+#9812
+staff sparkly~
+a sparkly staff~
+A sparkly staff has been left here.
+~
+~
+4 64 1048577
+25 25 25 -1
+2 10000 0
+'faerie fog'
+#9815
+staff maple~
+a maple staff~
+A maple staff has been left here.
+~
+~
+4 64 1048577
+50 5 5 -1
+3 2500 0
+'demonic beast'
+E
+maple staff~
+Though made of maple, the staff is too thin to be used as a weapon.  One tip
+is a bit blackened as if the staff has been used before and recharged.
+~
+A
+19 2
+A
+18 2
+#9816
+chest wooden~
+an old wooden chest~
+The sole piece of furniture is an old wooden chest.
+~
+~
+15 0 0
+0 0 0 0
+5 0 0
+E
+chest wooden~
+This wooden chest is rather banged up and the hinges have rusted, leaving it
+permanently open.
+~
+#9950
+Placeholder~
+Placeholder ~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#9800
+A Narrow Forest Trail~
+A barely discernible trail leads off the Greenpath.  The thick undergrowth
+nearly hides the trail entrance.  The trail looks as if it might have been
+made by animals.
+~
+0 4 3
+D0
+~
+~
+0 0 306
+D2
+~
+~
+0 0 9950
+S
+#9801
+The Trail Continues~
+The undergrowth is rather thick on this part of the trail and appears even
+denser to the north.  Piles of leaves cover the ground, making it easy to slip
+and fall.
+~
+0 0 3
+D0
+~
+~
+0 0 9950
+D1
+~
+~
+0 0 9802
+S
+#9802
+The Trail Turns~
+As the trail turns, the thick undergrowth makes walking a little difficult and
+twigs and branches make a distinctive cracking sound when any one walks by --
+unless they're flying or floating that is.  This is not a good place to try
+sneaking around silently.
+~
+0 0 3
+D2
+~
+~
+0 0 9803
+D3
+~
+~
+0 0 9801
+S
+#9803
+The Trail Continues~
+As the trail turns, the thick undergrowth makes walking a little difficult and
+twigs and branches make a distinctive cracking sound when any one walks by --
+unless they're flying or floating that is.  This is not a good place to try
+sneaking around silently.
+
+~
+0 0 3
+D0
+~
+~
+0 0 9802
+D1
+~
+~
+0 0 9804
+S
+#9804
+A Forest Intersection~
+The forest thins here, forming a small intersection of paths.  To the west a
+trail leads into thick woods, to the south a narrow path has few footprints
+and to the north a path seems to widen.
+~
+0 4 3
+D0
+Exit description~
+~
+0 0 9811
+D2
+Exit description~
+~
+0 0 9805
+D3
+~
+~
+0 0 9803
+S
+#9805
+The Lesser Used Path~
+Tall trees loom overhead and the branches have interwined over the years,
+forming a rich canopy.  Sinewy tendrils of moss hang down and the air is
+filled with the sound of birds and insects.  Needles and leaves cover the
+ground, making following the path a challenge.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 9804
+D2
+Exit description~
+~
+0 0 9806
+S
+#9806
+The Lesser Used Path~
+Tall trees loom overhead and the branches have interwined over the years,
+forming a rich canopy.  Sinewy tendrils of moss hang down and the air is
+filled with the sound of birds and insects.  Needles and leaves cover the
+ground, making following the path a challenge.
+~
+0 0 3
+D0
+~
+~
+0 0 9805
+D1
+Exit description~
+~
+0 0 9807
+D2
+Exit description~
+~
+0 0 9807
+D3
+Exit description~
+~
+0 0 9807
+S
+#9807
+Deep In The Forest~
+There's no sign of a path here and the canopy is so thick that little sunlight
+reaches the ground which is full of spongy piles of needles and leaves.  All
+directions seem the same.  Once in awhile a soft snickering sound can be heard.
+~
+0 3219456 0
+D0
+Exit description~
+~
+0 0 9807
+D1
+Exit description~
+~
+0 0 9808
+D2
+Exit description~
+~
+0 0 9807
+D3
+Exit description~
+~
+0 0 9807
+S
+#9808
+Deep In The Forest~
+There's no sign of a path here and the canopy is so thick that little sunlight
+reaches the ground which is full of spongy piles of needles and leaves.  All
+directions seem the same.  Once in awhile a soft snickering sound can be heard.
+~
+0 3219456 3
+D0
+Exit description~
+~
+0 0 9808
+D1
+Exit description~
+~
+0 0 9808
+D2
+Exit description~
+~
+0 0 9808
+D3
+Exit description~
+~
+0 0 9809
+S
+#9809
+Deep In The Forest~
+There's no sign of a path here and the canopy is so thick that little sunlight
+reaches the ground which is full of spongy piles of needles and leaves.  All
+directions seem the same.  Once in awhile a soft snickering sound can be heard.
+~
+0 3219456 3
+D0
+Exit description~
+~
+0 0 9809
+D1
+~
+~
+0 0 9810
+D2
+Exit description~
+~
+0 0 9809
+D3
+Exit description~
+~
+0 0 9809
+S
+#9810
+Deep In The Forest~
+A small breach in the forest canopy allows more light to stream through here
+than in the surrounding forest.  A narrow path leads to the north.
+~
+0 3219456 3
+D0
+Exit description~
+~
+0 0 9806
+D1
+Exit description~
+~
+0 0 9809
+D2
+Exit description~
+~
+0 0 9809
+D3
+Exit description~
+~
+0 0 9809
+S
+#9811
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the south lies a forest intersection and to the
+north the path continues.
+~
+0 4 3
+D0
+Exit description~
+~
+0 0 9812
+D2
+Exit description~
+~
+0 0 9804
+S
+#9812
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the northeast the trees gradually diminish.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 9813
+D2
+Exit description~
+~
+0 0 9811
+S
+#9813
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the northeast the trees gradually diminish.
+~
+0 0 3
+D1
+~
+~
+0 0 9814
+D2
+Exit description~
+~
+0 0 9812
+S
+#9814
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the east the trees continue to diminish.
+~
+0 0 3
+D1
+~
+~
+0 0 9815
+D3
+~
+~
+0 0 9813
+S
+#9815
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the east the trees continue to diminish.
+~
+0 0 3
+D1
+~
+~
+0 0 9816
+D3
+~
+~
+0 0 9814
+S
+#9816
+A Smooth Path~
+This path is easy to follow as trees have been thinned and the paved stones
+are free of any debris.  To the east a stone wall looms in the distance.
+~
+0 0 3
+D1
+~
+~
+0 0 9817
+D3
+~
+~
+0 0 9815
+S
+#9817
+A Smooth Path~
+The westerly trees have given way to gentle rolling hills covered by wild
+grasses. The paved stone path is wide enough to handle carriage travel and
+remains remarkably free of any foreign objects.  To the east a stone wall
+looms in the distance.
+~
+0 0 2
+D1
+~
+~
+0 0 9818
+D3
+~
+~
+0 0 9816
+S
+#9818
+A Smooth Path~
+Gentle rolling hills are covered with varied grasses and wildflowers bloom
+with assorted colors.  This path is surprisingly clear of any foreign matter.
+A massive stone wall is nearby to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 9819
+D3
+Exit description~
+~
+0 0 9817
+S
+#9819
+Before A Crystalline Gate~
+A luminous cystalline gate blocks the way to the east.  Peering into the gate
+proves fruitless for a blue mist obscures what lies beyond.  Solid stone walls
+as tall as three giants loom overhead.  There is no way to scale over them as
+a crackling sound above reveals the presence of some sort of magic preventing
+one from flying over the walls.
+~
+0 3145732 1
+D0
+~
+~
+16777216 0 9820
+D1
+A tiny keyhole can be found in the gate.
+~
+~
+25165863 9802 9840
+D2
+~
+~
+16777216 0 9872
+D3
+~
+~
+16777216 0 9818
+S
+#9820
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 1
+D0
+~
+~
+0 0 9821
+D2
+~
+~
+0 0 9819
+S
+#9821
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+~
+~
+0 0 9822
+D2
+~
+~
+0 0 9820
+S
+#9822
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+~
+~
+0 0 9823
+D2
+~
+~
+0 0 9821
+S
+#9823
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9824
+D2
+~
+~
+0 0 9822
+S
+#9824
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9825
+D2
+~
+~
+0 0 9823
+S
+#9825
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+~
+~
+0 0 9826
+D2
+~
+~
+0 0 9824
+S
+#9826
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9827
+D3
+Exit description~
+~
+0 0 9825
+S
+#9827
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9828
+D3
+Exit description~
+~
+0 0 9826
+S
+#9828
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9829
+D3
+Exit description~
+~
+0 0 9827
+S
+#9829
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  Small chinks in the
+wall provide small hand and footholds that could allow one to climb up if they
+were skilled enough.  Oddly enough the crackling sound above the walls is not
+present here.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9830
+D3
+Exit description~
+~
+0 0 9828
+D4
+~
+~
+18942088 0 9839
+S
+#9830
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9831
+D3
+Exit description~
+~
+0 0 9829
+S
+#9831
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9832
+D3
+Exit description~
+~
+0 0 9830
+S
+#9832
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D2
+Exit description~
+~
+0 0 9833
+D3
+Exit description~
+~
+0 0 9831
+S
+#9833
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9832
+D2
+Exit description~
+~
+0 0 9834
+S
+#9834
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9833
+D2
+Exit description~
+~
+0 0 9835
+S
+#9835
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9834
+D2
+Exit description~
+~
+0 0 9836
+S
+#9836
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9835
+D2
+Exit description~
+~
+0 0 9837
+S
+#9837
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9836
+D2
+~
+~
+0 0 9838
+S
+#9838
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+~
+0 3145728 2
+D0
+~
+~
+0 0 9837
+D2
+~
+~
+0 0 9863
+S
+#9839
+Above A Stone Wall~
+Atop the stone wall provides a nice vantage point.  Looking down to the outer
+wall one can see miscellaneous animated objects wandering around.  Off in the
+distance there's a smooth path leading to a forest.  Within the walls is a
+plaza without an obvious way to reach it.
+~
+0 4 0
+D1
+~
+~
+0 0 9850
+D5
+~
+~
+16777344 0 9829
+S
+#9840
+Inside The Crystalline Gate~
+A blue mist obscures the view of what lies outside the gate to the west.  An
+eastern archway leads to a dim corridor.  As one enters the gate a booming
+voice announces: "Welcome to Srilaxa: The Sorcerers' Retreat.  As a reminder,
+practitioners of all races are welcome here to further the teaching and
+research of all magical arts!"
+~
+0 3145732 1
+D1
+~
+~
+16777216 0 9851
+D3
+~
+~
+25166887 9802 9819
+S
+#9841
+The Plaza Entry~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+~
+0 3145728 1
+D0
+~
+~
+0 0 9845
+D1
+~
+~
+0 0 9842
+D2
+~
+~
+16777216 0 9852
+D3
+~
+~
+0 0 9843
+S
+#9842
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D0
+~
+~
+0 0 9844
+D3
+~
+~
+0 0 9841
+S
+#9843
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D0
+~
+~
+0 0 9846
+D1
+~
+~
+0 0 9841
+S
+#9844
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D0
+~
+~
+0 0 9849
+D2
+~
+~
+0 0 9842
+D3
+Exit description~
+~
+0 0 9845
+S
+#9845
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D0
+~
+~
+0 0 9848
+D1
+~
+~
+0 0 9844
+D2
+~
+~
+0 0 9841
+D3
+~
+~
+0 0 9846
+S
+#9846
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D0
+~
+~
+0 0 9847
+D1
+~
+~
+0 0 9845
+D2
+~
+~
+0 0 9843
+S
+#9847
+An Ourdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.
+
+~
+0 3145728 1
+D1
+~
+~
+0 0 9848
+D2
+~
+~
+0 0 9846
+S
+#9848
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.  A log building can be entered to the north.
+
+~
+0 3145728 1
+D0
+A sturdy hardwood door keeps the elements out of the lodge.
+~
+~
+16777219 0 9900
+D1
+~
+~
+0 0 9849
+D2
+~
+~
+0 0 9845
+D3
+~
+~
+0 0 9847
+S
+#9849
+An Outdoor Plaza~
+The plaza is paved with what appears to be blocks of crystal.  No natural mine
+could have produced any mineral of this size.  Distinct clicking sounds can be
+made as one walks across the shimmering blue crystal.  Greenery is provided
+from the magically suspended hanging baskets, filled with common and exotic
+plants from all over the world.  A building can be entered to the east.
+
+~
+0 3145728 1
+D1
+Golem Workshop Entrance
+~
+~
+16777216 0 9873
+D2
+~
+~
+0 0 9844
+D3
+~
+~
+0 0 9848
+S
+#9850
+Above A Stone Wall~
+Atop the stone wall provides a nice vantage point.  Looking down to the outer
+wall one can see miscellaneous animated objects wandering around.  Off in the
+distance there's a smooth path leading to a forest.  A small rope made of
+woven vines leads down inside the massive wall.  It looks like a one way trip
+down.
+~
+0 4 0
+D3
+~
+~
+16777216 0 9839
+D5
+~
+~
+16777216 0 9849
+S
+#9851
+A Dim Corridor~
+An unkempt dim corridor has a rank odor and continues to the east.  The
+stone floor is covered by many large tracks and appears to never be swept
+clean.  The air smells much fresher to the west.
+~
+0 3145741 0
+D1
+Exit description~
+~
+0 0 9852
+D3
+~
+~
+16777216 0 9840
+S
+#9852
+A Dim Corridor~
+An unkempt dim corridor has a rank odor and it begins to slope downward.
+Numerous large tracks cover the filthy stone floor.  Unlit sconces hang on the
+walls as if whoever comes here has no need for light.  Northward leads to an
+open air plaza.
+
+
+~
+0 3145737 0
+D0
+~
+~
+16777216 0 9841
+D3
+~
+~
+0 0 9851
+D5
+~
+~
+0 0 9853
+S
+#9853
+A Dim Tunnel~
+An unkempt dim corridor has a rank odor and it begins to slope downward.
+Numerous large tracks cover the filthy stone floor.  Unlit sconces hang on the
+walls as if whoever comes here has no need for light.
+~
+0 3145737 13
+D4
+Exit description~
+~
+0 0 9852
+D5
+~
+~
+0 0 9854
+S
+#9854
+A Dim Tunnel~
+An unkempt dim corridor has a rank odor and it begins to slope downward.
+Numerous large tracks cover the filthy stone floor.  Unlit sconces hang on the
+walls as if whoever comes here has no need for light.
+~
+0 3145737 13
+D4
+Exit description~
+~
+0 0 9853
+D5
+~
+~
+0 0 9855
+S
+#9855
+A Dim Tunnel~
+An unkempt dim corridor has a rank odor and it begins to slope downward.
+Numerous large tracks cover the filthy stone floor.  Unlit sconces hang on the
+walls as if whoever comes here has no need for light.
+
+~
+0 3145737 13
+D4
+Exit description~
+~
+0 0 9854
+D5
+Exit description~
+~
+0 0 9856
+S
+#9856
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  One can leave the den by
+climbing up a dim tunnel.
+
+~
+0 3145737 13
+D0
+~
+~
+0 0 9862
+D1
+~
+~
+0 0 9857
+D3
+~
+~
+0 0 9861
+D4
+~
+~
+0 0 9855
+S
+#9857
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  Large bunks filled with
+dirty straw line the walls.
+~
+0 3145737 13
+D1
+~
+~
+0 0 9858
+D3
+Exit description~
+~
+0 0 9856
+S
+#9858
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  Large bunks filled with
+dirty straw line the walls.
+~
+0 3145737 13
+D0
+~
+~
+0 0 9859
+D3
+Exit description~
+~
+0 0 9857
+S
+#9859
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  Large bunks filled with
+dirty straw line the walls.
+~
+0 3145737 13
+D0
+~
+~
+0 0 9860
+D2
+Exit description~
+~
+0 0 9858
+S
+#9860
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  Large bunks filled with
+dirty straw line the walls.
+~
+0 3145737 13
+D2
+~
+~
+0 0 9859
+D5
+~
+~
+0 0 9861
+S
+#9861
+The Trolls Den~
+Refuse strewn about litters the packed dirt floor, providing a rank odor that
+is difficult to not notice unless one were a troll.  Large bunks filled with
+dirty straw line the walls.
+~
+0 3145737 13
+D1
+~
+~
+0 0 9856
+D4
+~
+~
+0 0 9860
+S
+#9862
+The  Armory~
+This circular chamber has less refuse than the surrounding den.  Troll weapons
+are pushed off to one side and are stacked neatly unlike everything else in
+the surrounding den.
+~
+0 3145737 13
+D2
+~
+~
+0 0 9856
+S
+#9863
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D0
+~
+~
+0 0 9838
+D2
+~
+~
+0 0 9864
+S
+#9864
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D0
+Exit description~
+~
+0 0 9863
+D3
+~
+~
+0 0 9865
+S
+#9865
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9864
+D3
+~
+~
+0 0 9866
+S
+#9866
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9865
+D3
+~
+~
+0 0 9867
+S
+#9867
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9866
+D3
+~
+~
+0 0 9868
+S
+#9868
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9867
+D3
+~
+~
+0 0 9869
+S
+#9869
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9868
+D3
+~
+~
+0 0 9870
+S
+#9870
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D1
+Exit description~
+~
+0 0 9869
+D3
+~
+~
+0 0 9871
+S
+#9871
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D0
+~
+~
+0 0 9872
+D1
+Exit description~
+~
+0 0 9870
+S
+#9872
+Outside The Stone Walls~
+Solid stone walls as tall as three giants loom overhead.  There is no way to
+scale over them as a crackling sound above reveals the presence of some sort
+of magic preventing one from flying over the walls.
+
+~
+0 3145728 2
+D0
+~
+~
+0 0 9819
+D2
+Exit description~
+~
+0 0 9871
+S
+#9873
+Golem Workshop Entrance~
+The outdoor plaza is to the west and here a slight hum can be heard.  The
+entry way is completely unbarred as if there's little concern any golems will
+escape.  The distant sound of hammering rings out every now and then.  A
+corridor leads to the east.
+~
+0 3145868 0
+D1
+~
+~
+0 0 9874
+D3
+~
+~
+16777216 0 9849
+S
+#9874
+Through A Corridor~
+Neatly stacked crates line the corridor. The distant sound of hammering rings
+out every now and then.  The corridor continues to the north and the entry
+toward the plaza is to the west.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9875
+D3
+Exit description~
+~
+16777216 0 9873
+S
+#9875
+Through A Corridor~
+Neatly stacked crates line the corridor. The distant sound of hammering rings
+out every now and then.  The corridor continues to the west and opens up to
+the north.
+~
+0 3145868 0
+D0
+~
+~
+16777216 0 9876
+D2
+Exit description~
+~
+0 0 9874
+S
+#9876
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9884
+D1
+~
+~
+0 0 9883
+D2
+Exit description~
+~
+16777216 0 9875
+D3
+~
+~
+0 0 9877
+S
+#9877
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9878
+D1
+Exit description~
+~
+0 0 9876
+S
+#9878
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9879
+D1
+~
+~
+0 0 9884
+D2
+Exit description~
+~
+0 0 9877
+S
+#9879
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D1
+~
+~
+0 0 9880
+D2
+Exit description~
+~
+0 0 9878
+S
+#9880
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D1
+~
+~
+0 0 9881
+D2
+~
+~
+0 0 9884
+D3
+Exit description~
+~
+0 0 9879
+S
+#9881
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D2
+~
+~
+0 0 9882
+D3
+Exit description~
+~
+0 0 9880
+D4
+~
+~
+16777216 0 9885
+S
+#9882
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9881
+D2
+~
+~
+0 0 9883
+D3
+~
+~
+0 0 9884
+S
+#9883
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9882
+D3
+Exit description~
+~
+0 0 9876
+S
+#9884
+Inside The Golem Workshop~
+This spacious workshop has numerous tables used in the construction of cloth
+golems.  One some tables the burlap is neatly stacked, ready to be cut.
+On other tables, partially constructed cloth golems can be found in various
+stages of completion.  Burlap dust fills the air.
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9880
+D1
+Exit description~
+~
+0 0 9882
+D2
+Exit description~
+~
+0 0 9876
+D3
+Exit description~
+~
+0 0 9878
+S
+#9885
+The Narrow Steps~
+Narrow stone steps connect the ground level to the second floor.  The
+stairs are well lit by bright orbs which are suspended on the walls.
+Hammering sounds become louder as one climbs up.
+~
+0 2097292 0
+D4
+~
+~
+16777216 0 9886
+D5
+~
+~
+16777216 0 9881
+S
+#9886
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D2
+~
+~
+0 0 9893
+D3
+~
+~
+0 0 9887
+D5
+~
+~
+16777216 0 9885
+S
+#9887
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D1
+Exit description~
+~
+0 0 9886
+D3
+~
+~
+0 0 9888
+S
+#9888
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D1
+Exit description~
+~
+0 0 9887
+D2
+~
+~
+0 0 9889
+S
+#9889
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9888
+D2
+~
+~
+0 0 9890
+S
+#9890
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9889
+D1
+~
+~
+0 0 9891
+D4
+~
+~
+16777216 0 9894
+S
+#9891
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D1
+~
+~
+0 0 9892
+D3
+~
+~
+0 0 9890
+S
+#9892
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D0
+~
+~
+0 0 9893
+D3
+Exit description~
+~
+0 0 9891
+S
+#9893
+Metallurgy Workshop~
+This workshop is spacious enough to accommodate numerous tables used in the
+construction of bronze golems.  It's rather noisy with the relentless sounds
+of metal being pounded and the sizzles of searing hot metal being placed in
+buckets of water.
+
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9886
+D2
+Exit description~
+~
+0 0 9892
+S
+#9894
+The Narrow Steps~
+Narrow stone steps connect the second floor to the top floor.  Bright orbs
+that hang along the walls provide plenty of light.  Hammering sounds grow
+louder as one climbs down.
+~
+0 2097292 0
+D4
+~
+~
+16777216 0 9895
+D5
+~
+~
+16777216 0 9890
+S
+#9895
+Top Of The Golem Workshop~
+This workshop is a place where precision golem crafting is done.  Work tables
+are meticulously clean and various instruments useful for working with
+gemstone lie neatly upon them.
+
+
+~
+0 3145736 0
+D0
+~
+~
+0 0 9896
+D5
+Exit description~
+~
+16777216 0 9894
+S
+#9896
+Top Of The Golem Workshop~
+This workshop is a place where precision golem crafting is done.  Work tables
+are meticulously clean and various instruments useful for working with
+gemstone lie neatly upon them.
+
+
+~
+0 3145736 0
+D0
+~
+~
+0 0 9897
+D2
+Exit description~
+~
+0 0 9895
+S
+#9897
+Top Of The Golem Workshop~
+This workshop is a place where precision golem crafting is done.  Work tables
+are meticulously clean and various instruments useful for working with
+gemstone lie neatly upon them.
+
+
+~
+0 3145736 0
+D1
+~
+~
+0 0 9898
+D2
+~
+~
+0 0 9896
+S
+#9898
+Top Of The Golem Workshop~
+This workshop is a place where precision golem crafting is done.  Work tables
+are meticulously clean and various instruments useful for working with
+gemstone lie neatly upon them.
+
+
+~
+0 3145736 0
+D1
+~
+~
+0 0 9899
+D3
+Exit description~
+~
+0 0 9897
+S
+#9899
+Top Of The Golem Workshop~
+This workshop is a place where precision golem crafting is done.  Work tables
+are meticulously clean and various instruments useful for working with
+gemstone lie neatly upon them.
+
+
+~
+0 3145736 0
+D3
+~
+~
+0 0 9898
+S
+#9900
+Lodge Entrance~
+The lodge entrance is a circular chamber with a roaring brick fireplace in its
+center.  The fire seems real enough yet no smoke rises from it.  The plush
+brown carpets that cover the floor show no stains or signs of wear.
+~
+0 3145740 0
+D0
+~
+~
+0 0 9901
+D2
+~
+~
+16777219 0 9848
+S
+#9901
+Gathering Room~
+This room is probably used as a social gathering place for Srilaxa residents
+and guests for it's filled with soft chairs, arranged to allow groups of
+people to sit and relax.  Plush rugs cover the floor though one rug looks a
+bit askew.
+~
+0 3145736 0
+D2
+~
+~
+16777216 0 9900
+D3
+~
+~
+0 0 9902
+D5
+A rug has been pushed aside, revealing an entrance leading down a
+stairwell.
+~
+rug~
+18876424 0 9905
+S
+#9902
+Through A Hallway~
+The hallway is illuminated by hanging orbs of light and a narrow carpet covers
+a worn wooden floor.  East leads to the gathering room and north and south are
+some shops.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9903
+D1
+~
+~
+0 0 9901
+D2
+~
+~
+0 0 9907
+S
+#9903
+Shoppe Of Magical Goods~
+Various magical items are on display throughout the shop.  The shopkeeper
+stands behind a counter, waiting for customers to make their selections.  A
+northern doorway leads to another part of the shop.
+~
+0 3145736 0
+D0
+~
+~
+0 0 9904
+D2
+~
+~
+0 0 9902
+S
+#9904
+A Back Room~
+A stone workbench is here along with all the components a wizard would need to
+recharge magical items.  The southern doorway leads back to the main portion
+of the shop.
+~
+0 3145736 0
+D2
+~
+~
+0 0 9903
+S
+#9905
+A Small Stairwell~
+This stairwell leads up to the lodge's gathering area and at the base of the
+stairs is a blank stone wall.  All sound is muffled, including footsteps.
+This is apparently a dead end.
+~
+0 5310472 0 1 9906 0
+D4
+~
+~
+0 0 9901
+S
+#9906
+Srilaxa Council Chambers~
+Tapestries depicting practitioners of all magical arts cover the walls, no
+single tapestry is larger than another.  The room is pleasantly lit though the
+source of the light is not obvious.  Beautifully embroidered chairs are neatly
+arranged around the meeting table.  A revolving door is in constant motion at
+one of the chamber corners.
+~
+0 3145736 0
+D5
+Pushing the table aside, a trapdoor has been revealed leading down.
+~
+trapdoor~
+2051 0 9908
+D10
+Entering the revolving door will take one away.
+~
+revolving door~
+131072 0 9900
+S
+#9907
+A Well Lit Shoppe~
+Lights, lights, lights!  This room is exceedingly bright for all sorts of
+lights, orbs, and lanterns are hanging almost everywhere. This is where lights
+are bought and sold.
+~
+0 3145736 0
+D0
+Exit description~
+~
+0 0 9902
+S
+#9908
+A Tiny Alcove~
+The air is musty and thick dust is caked onto the walls of this tiny, sparse
+alcove.  Dusty footprints provide the only evidence that anyone has visited
+this place at all.
+~
+0 3145737 0
+D4
+~
+~
+3 0 9906
+S
+#9910
+Through A Hallway~
+~
+0 3145740 0
+S
+#9950
+The Trail Continues~
+The undergrowth is rather thick on this part of the trail and appears even
+denser to the north.  Piles of leaves cover the ground, making it easy to slip
+and fall.
+~
+0 0 3
+D0
+~
+~
+0 0 9800
+D2
+~
+~
+0 0 9801
+S
+#0
+
+
+#RESETS
+P 0 9815 10 9816
+O 0 9816 1 9908
+D 0 9906 5 1
+D 0 9908 4 1
+D 0 9848 0 1
+D 0 9900 2 1
+O 0 9800 1 9800
+M 0 9812 3 9830
+M 0 9812 3 9830
+M 0 9812 3 9830
+M 0 9811 3 9838
+M 0 9811 3 9838
+M 0 9811 3 9838
+M 0 9807 4 9844
+E 0 9803 4 16
+M 0 9807 4 9844
+E 0 9803 4 16
+M 0 9807 4 9844
+E 0 9803 4 16
+M 0 9807 4 9844
+E 0 9803 4 16
+O 0 9808 1 9808
+M 0 9810 3 9858
+M 0 9810 3 9858
+M 0 9810 3 9858
+M 0 9808 1 9861
+E 0 9804 1 18
+O 0 9806 1 9845
+O 0 9805 1 9807
+M 0 9809 1 9845
+E 0 9809 1 25
+E 0 9807 1 21
+M 0 9801 2 9809
+M 0 9801 2 9809
+M 0 9800 2 9807
+M 0 9800 2 9807
+M 0 9804 5 9837
+M 0 9804 5 9837
+M 0 9804 5 9837
+M 0 9804 5 9837
+M 0 9804 5 9837
+M 0 9806 2 9820
+M 0 9806 2 9820
+M 0 9805 2 9803
+M 0 9805 2 9803
+M 0 9803 1 9833
+M 0 9803 1 9826
+M 0 9802 5 9845
+M 0 9802 5 9845
+M 0 9802 5 9845
+M 0 9802 5 9845
+M 0 9802 5 9845
+D 0 9840 3 2
+D 0 9819 1 2
+O 0 9801 1 9810
+P 0 9802 2 9801
+M 0 9813 3 9876
+M 0 9813 3 9876
+M 0 9813 3 9876
+M 0 9819 2 9884
+M 0 9819 2 9884
+M 0 9816 2 9884
+M 0 9816 2 9884
+M 0 9820 3 9879
+M 0 9820 3 9879
+M 0 9820 3 9879
+M 0 9822 2 9879
+M 0 9822 1 9879
+M 0 9823 1 9880
+M 0 9821 2 9882
+M 0 9821 2 9882
+M 0 9814 5 9893
+M 0 9814 5 9893
+M 0 9817 1 9887
+M 0 9814 5 9893
+M 0 9824 1 9889
+M 0 9814 5 9893
+M 0 9825 1 9891
+M 0 9814 5 9893
+M 0 9826 1 9893
+M 0 9815 1 9895
+M 0 9827 1 9896
+M 0 9828 1 9897
+M 0 9829 1 9898
+M 0 9818 1 9899
+E 0 9810 5 21
+O 0 9811 1 9906
+M 0 9830 1 9903
+G 1 21453 1
+G 1 21451 1
+G 1 35 1
+G 1 34 1
+G 1 9812 1
+M 0 9831 1 9904
+M 0 9832 1 9907
+S
+
+
+#SHOPS
+ 9830    3 63 10  2  4   120  90         7 18    ; Zarabess
+ 9832    1  8 65 66 64   120  90         7 18    ; Zarppi
+0
+
+
+#REPAIRS
+ 9831    3 11  4         100   1         0 23    ; Zusel
+0
+
+
+#SPECIALS
+M  9818 spec_cast_mage
+M  9830 spec_cast_mage
+M  9831 spec_cast_mage
+M  9832 spec_cast_mage
+S
+
+
+#$

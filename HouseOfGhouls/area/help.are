@@ -1,0 +1,428 @@
+#HELPS
+50 AMOTD~
+Congratulations Avatar!
+
+You have reached the highest level that can be reached by simple exploring
+and killing of those poor creatures out there! Go forth and build your 
+self-esteem, brave adventurer!
+~
+1 BALZHUR~
+.               ,                   \,       '-,-`,'-.' | ._
+               /|           \    ,   |\         }  )/  / `-,',
+               [ ,          |\  /|   | |        /  \|  |/`  ,`
+               | |       ,.`  `,` `, | |  _,...(   (      _',
+               \  \  __ ,-` `  ,  , `/ |,'      Y     (   \_L\
+                \  \_\,``,   ` , ,  /  |         )         _,/
+                \  '  `  ,_ _`_,-,<._.<        /         /
+                  ', `>.,`  `  `   ,., |_      |         /
+                    \/`  `,   `   ,`  | /__,.-`    _,   `\
+                -,-..\  _  \  `  /  ,  / `._) _,-\`       \
+    Balzhur-     \_,,.) /\    ` /  / ) (-,, ``    ,        |
+   the pet demon,` )  | \_\       '-`  |  `(               \
+               /  /```(   , --, ,' \   |`<`    ,            |
+              /  /_,--`\   <\  V /> ,` )<_/)  | \      _____)
+        ,-, ,`   `   (_,\ \    |   /) / __/  /   `----`
+       (-, \           ) \ ('_.-._)/ /,`    /
+       | /  `          `/ \\ V   V, /`     /
+    ,--\(        ,     <_/`\\     ||      /
+   (   ,``-     \/|         \-A.A-`|     /
+  ,>,_ )_,..(    )\          -,,_-`  _--`
+ (_ \|`   _,/_  /  \_            ,--`
+  \( `   <.,../`     `-.._   _,-`
+   `                      ```
+~
+-1 GREETING~
+.       .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+      / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+      \ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
+       \/ /`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\/ /
+       / /\.--.                                                .--./ /\
+      / /\ \.. \       Welcome to the House of Ghouls!        / .. \/\ \
+      \ \/\ \/ /                                              \ \/\ \/ /
+       \/ /\/ /           A MUD from the minds of              \/ /\/ /
+   .--./ /\/ /\            Drazuk the Ghoul King,              / /\/ /\.--.
+  / .. \/\ \/\ \              Darwin and Pain                 / /\ \/\ \.. \
+  \ \/\ `'\ `' /   Web: Coming Soon                           \ `'\ `'\ \/ /
+   \/ /`--'`--' Forums: http://houseofghoulsmud.proboards101.com`--'`--'\/ /
+   / /\            .--..--..--..--..--..--..--..--..--..--.            / /\
+  / /\ \          / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \          / /\ \
+  \ \/ /          \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /          \ \/ /
+   \/ /            \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /            \/ /
+   / /\.--..--..--./ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\.--..--..--./ /\
+  / /\ \.. \.. \.. \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \.. \.. \.. \/\ \
+  \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
+   `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+
+Based on...
+SMAUG 1.4 written by Thoric (Derek Snider) with Altrag, Blodkai, Haus, Narn,
+Scryn, Swordbearer, Tricops, Gorog, Rennard, Grishnakh, Fireblade and Nivek.
+
+ Original MERC 2.1 code by Hatchet, Furey, and Kahn.
+ Original DikuMUD code by:  Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael
+                            Seifert && Sebastian Hammer
+
+Heavily changed by Drazuk, Darwin and Pain.
+
+Enter your character's name, or type NEW:
+~
+51 IMOTD~
+1. Don't help out mortals too much.  Hints and clues are it, don't make them
+eq with outrageous affects, and things like that.  Restrings are fine with us
+though.
+
+2. Give directions to areas to PC's in general terms, and please try to avoid
+just transporting PCs to places.
+
+3. Use common sense, and if in doubt, run an idea by Medea and/or Darwin, who
+have the final word.
+
+4. If building areas, contact Medea for some guidelines, so we can keep
+things fairly balanced throughout the mud.
+
+5. Remember, You are the staff of the MUD now. While we will demand that
+players respect the Immortals, it's important that we also respect the
+players.  Without them, the MUD would be quite boring.
+
+6. All sorts of people play MUDs...some that you personally wouldn't want to
+be friends with in real life.  But as long as they follow the rules, they have
+every right to be here.
+
+7. We're here for any concerns or problems. Remember the Immortal Board in
+room 21420. Email at Pain.houseofghouls@gmail.com (Pain) if you can't contact me directly in the game.
+~
+0 MOTD~
+Welcome to House of Ghouls...
+
+Some things to keep in mind while you visit us:
+
+1. &RThis is a PK MUD!&w  All new characters created are flagged as
+"Non-Deadly" which makes them safe from player killing and player thieving.
+However, you do have the choice to change to Deadly status before level 26,
+allowing you to join in the mayhem.
+
+2. While House of Ghouls is a "finished" MUD, there are constant tweaks,
+changes, and additions, so things might break, change, and crash without any
+notice.  Know this and accept this, and you will be ok.
+
+3. People of all ages may be playing...so please watch your language
+and behave appropriately.  &RPenalties will be harsh.&w
+
+4. If you see something that doesn't seem right, contact an Immortal
+as soon as possible.  If it's right, we'll let you know, and if it's
+not, we'll fix it!
+
+5. Version updates are not posted regularly unless there is something very
+important to note. It is always a good idea to read the latest help files
+on the current and last few versions. You can check the current version by
+use of the &YVERSION&w or &YTIME&w commands. Also, check &YHELP VERSIONS&w regularly.
+
+6. &RYou are expected to know the information you get when you type "LAWS"&w.
+I highly advise you do a "&YHELP IMMRULES&w" also, even if you are not an
+Immortal...it is a good thing to know the limitations and expectations of
+those above you.  At the very least, realize that respect for the Immortals is
+not an option, and we expect the Immortals to return the favor with the
+Players.  These are the rules of the House, and ignorance is not a defense if
+you break one of the rules.  Implementors reserve the right to make final
+decisions if things become complicated.
+
+7. Have fun!
+~
+-1 M_ADVHERO_~
+You suddenly feel a strange surge of power flow through your veins!
+
+You have mastered yourself as far as mortally possible, and now
+see immortality within your grasp...
+
+Along with your new position you receive a new channel, to use this
+channel type ': <message>' or 'imm <message>'.
+~
+-1 M_BALZHUR_~
+Suddenly out of nowhere, a hideous beast appears, bringing with it the
+horrible smell of brimstone, death and decay!
+
+The demon gives you the most evil and spine tingling sneer that makes you
+fall to your knees, and release your bladder...
+
+The next second, the immense mass of slimy muscle and claws is all over you
+...shredding you to a bloody mess!
+
+Mercifully, everything goes black as it moves its widening maw towards your
+head...
+~
+-1 M_GODLVL10_~
+You are all powerful!
+~
+-1 M_GODLVL11_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL12_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL13_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL14_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL15_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL1_~
+...Everything begins to fade to black.
+
+You feel yourself leaving your body... rising up into the air, you feel
+indeed much more free than you have ever felt before...
+
+You float high into the heavens... a vortex of ever-changing curved beams
+of colored light swirling around you faster and faster...
+
+Your soul is bursting with emotions you can barely conceive...
+You feel a burning inside... both cold and hot... a tingle of electricity
+grows into a powerful buzzing surge jolting through every inch of your body.
+
+A strange chorus of voices begins to sing indecipherable and long forgotten
+words... the singing grows louder and louder... a million voices as one.
+
+You feel yourself losing touch with reality... and all goes quiet.
+~
+-1 M_GODLVL2_~
+...You suddenly feel more confident and sure of yourself and your new
+powers...
+
+You feel that you have earned some trust and respect among your peers,
+yet you know that your journey has only just begun.
+~
+-1 M_GODLVL3_~
+...You begin to feel light-headed.
+
+Your hands begin to tingle softly...
+The feeling quickly grows into a strange radiating pulse of energy!
+
+The tingle rises up your arms and into your head, filing your mind with
+visions of worlds of wonder, far off places, great towers, vast mountains,
+oceans, seas, lush valleys, dark caverns and twisted passages...
+
+You sense a feeling of wondrous potential and power in your hands...
+Enough power to build and create these visions for yourself!
+
+You feel much more powerful, eager and inspired!
+~
+-1 M_GODLVL4_~
+...You feel slightly faint as your head begins to spin.
+
+Your hands begin to tingle once more...
+A vortex of energy starts to swirl throughout your hands, going faster
+and faster... becoming almost painful!
+
+Beams of light break through your skin, one at a time, then more and
+more until the light is almost to bright to bear...
+
+As your squint your eyes, you perceive a vision of great beasts of wonder,
+dangerous and unnatural fiends, pixies, faeries, tribes and clans, peoples
+of all kinds, ancient forgotten artifacts, weapons of vast untapped powers,
+crystal balls, magick rings, staves, wands, rods, arcane tomes of untold
+secrets... your mind is bursting with inspiration...
+
+You sense a new, reborn feeling of unlimited potential and power...
+In your hands the power to build and create these visions for yourself!
+
+The bright light from your hands fades away... but strange faint glow
+remains always.
+~
+-1 M_GODLVL5_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL6_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL7_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL8_~
+You suddenly feel much more powerful!
+~
+-1 M_GODLVL9_~
+You suddenly feel much more powerful!
+~
+1 'START'~
+If you are new to the Realms, here are a few help files that will help you
+get acquainted with our world.
+
+GUIDE -       Will help you learn to use your Adventurers Guide Book.
+RULES -       Will lead you through the laws of the land.
+SPAM -        Will explain what spam is, and why you should not do it.
+CONFIG -      Will teach you about our configuration menu.
+SCORE -       Will tell you about your character's personal score sheet.
+MOVEMENT -    Will teach you various commands for moving about the Realms.
+OBJECTS -     Will teach you various commands to use your equipment.
+CONTAINER -   Will teach you about using containers to hold belongings.
+CHANNELS -    Will teach you about communication with other players.
+GROUP -       Will help you with grouping with other adventurers.
+COMBAT -      Will teach you how to choose, start and stop a fight.
+DEATH -       Will tell you about the death experience in the Realms.
+PRACTICE -    Will teach you about training spells, skills, and weapons.
+INFORMATION - Will cover ways to find certain types of information.
+
+To use these files, type HELP topic.  Type 'help' for general commands.
+~
+-1 NEW_DEATH~
+...Everything begins to fade to black.  You feel yourself leaving your body.
+Rising up into the air, you feel more free than you have ever felt before...
+
+However, before your deity comes to collect your soul, you feel a strange
+pulling sensation as strange and colorful mists swirl around you...
+
+&CA low voice fills your head with words of advice...
+"When your character dies, you are reincarnated at the altar in the Temple of
+Drazuk in Alden; should you one day become a member of a clan, guild or order
+you will be returned to your own altar."
+
+"Your corpse, however, is left behind where you were killed, together with
+ all of your equipment, so that you can attempt to return to the scene and
+ loot your corpse.  Your gold stays with you.  Corpses decay after time,
+ and when this happens the objects inside will decay with it."
+
+"Type '&Whelp death&C' for more information.  This message will appear only
+ on your first two deaths..."
+~
+-1 NMOTD~
+Greetings New Adventurer!
+
+You are about to embark upon a grand adventure in the realms of HoG!  Here's a
+few pointers to help you get started with things...
+
+1. Typing "command" will give you a list of all the commands available in the
+game.  There should be a corresponding Help file for each command, which you
+can read by type "help (commandname)".
+
+2. Other players can help answer many questions about things specific to House
+of Ghouls.  Feel free to ask questions!  Most players are quite friendly and
+are glad to help out.
+
+3. Be prepared for setbacks (:  At some point you will probably die.  Death
+here results in your corpse being left behind at the point you died with all
+your equipment on it (except in special cases).  Once you reach a certain
+level, you will also lose some experience points, but you can never lose a
+level this way.
+
+4. Have fun!  HoG is a game, and we hope you have a good time exploring the
+various areas.  If you have any suggestions to make things more enjoyable, let
+an Immortal know (type "who", they show up underneath the list of Mortals).
+~
+-1 _DIEMSG_~
+...Everything begins to fade to black.
+
+You feel yourself leaving your body... rising up into the air, you feel
+more free than you have ever felt before...
+
+However, before your deity comes to collect your soul, you feel a strange
+pulling sensation as strange and colorful mists swirl around you...
+~
+-1 GREETING2~
+.                                                           .-----.
+                                                         .'       `.
+    __   _,                 ____,                       :      ^v^  :
+   (-|__|    _      _  _   (-/  \ .-.                   :           :
+    _|  |_, (_)|_|_/_)(/_    \__/ |-                    '           '
+   (     ____                     |      |-        www   `.       .'
+        (-/  `_' |_  _     |   _        /.\       /#^^\_   `-/\--'
+          \___)  | |(_)|_| | _/_)      /#  \     /#%    \   /# \
+                                      /#%   \   /#%______\ /#%__\
+ Visit us on the web:                /#%     \   |= I I ||  |- |
+  Coming Soon                        --|---|--   |_=_-__|'  |[]|
+                                       |[] |_______\__|/_ _ |= |`.
+                                ^V^    |-  /= __   __    /-\|= | :;
+                                       |= /- /\/  /\/   /=- \.-' :;
+Based on...                            | /_.=========._/_.-._\  .:'
+ SMAUG 1.4 written by                  |= |-.'.- .'.- |  /|\ |.:'
+  Thoric (Derek Snider) With Altrag,   \  |=|:|= |:| =| |-|-||'|
+  Bodkai, Haus, Narn, Scryn,            |-|-|:| -|:|  |-|-|-||=|      ^V^
+  Swordbearer, Triclops, Gorog, Rennard,|=|=|:|- |:|- | |-|-|| |
+  Grishnakh, Fireblade and Nivek.       | |-_-__=_-__=|_^^^^^|/___
+                                        |-(=-=-=-=-=-(|=====/=_-=/\
+Original MERC 2.1 code by               | |=_-= _=- _=| -_=/=_-_/__\
+  Hatchet, Furey, and Kahn.             | |- _ =_-  _-|=_- |]#| I II
+                                        |=|_/ \_-_= - |- = |]#| I II
+Original DikuMUD code by:           jgs | /  _/ \. -_=| =__|]!!!I_II!!
+  Hans Staerfeldt, Katja Nyboe,        _|/-'/  ` \_/ \|/' _ ^^^^`.==_^.
+  Tom Madsen, Michael Seifert &      _/  _/`-./`-; `-.\_ / \_'\`. `. ===`.
+  Sebastian Hammer                  / .-'  __/_   `.   _/.' .-' `-. ; ====;\
+                                   /.   `./    \ `. \ / -  /  .-'.' ====='  >
+                                  /  \  /  .-' `--.  / .' /  `-.' ======.' /
+
+
+Enter your character's name, or type NEW:
+~
+-1 GREETING3~
+.                                                         .     .
+                                                         !!!!!!!
+    /_  _,_,    _   _        _,_/)               .       [[[|]]]    .
+  _/ (_(_/ (_/_/_)_(/_     _(_///_               !!!!!!!!|--_--|!!!!!
+                       _     _/                  [[[[[[[[\_(X)_/]]]]]
+      __  /_  _,_,    // ,   /)          .-.     /-_--__-/_--_-\-_--\
+    _(_/_/ (_(_/ (_/_(/_/_)_ `           |=|    /-_---__/__-__-_\__-_\
+     _/_                             . . |=| ._/-__-__\===========/-__\_
+    (/                               !!!!!!!!!\========[ /]]|[[\ ]=====/
+                                    /-_--_-_-_[[[[[[[[[||==  == ||]]]]]]
+ Visit us on the web:              /-_--_--_--_|=  === ||=/^|^\ ||== =|
+  Coming Soon                     /-_-/^|^\-_--| /^|^\=|| | | | ||^\= |
+                                 /_-_-| | |-_--|=| | | ||=|_|_|=||"|==|
+                                /-__--|_|_|_-_-| |_|_|=||______=||_| =|
+                               /_-__--_-__-___-|_=__=_.`---------'._=_|__
+Based on...                   /-----------------------\===========/-----/
+ SMAUG 1.4 written by:       ^^^\^^^^^^^^^^^^^^^^^^^^^^[[|]]|[[|]]=====/
+  Thoric (Derek Snider) with     |.' ..==::'"'::==.. '.[ /-----\ ]]]]]]]
+  Altrag, Blodkai, Haus, Narn,   | .'=[[[|]]|[[|]]]=`._||==  =  || =\ ]
+  Scryn, Swordbearer, Triclops,  ||== =|/ _____ \|== = ||=/^|^\=||^\ ||
+  Gorog, Rennard, Grishnakh,     || == `||-----||' = ==|| | | |=|| |=||
+  Fireblade and Nivek.           ||= == ||:^s^:|| = == ||=| | | || |=||
+                                 || = = ||:___:||= == =|| |_|_| ||_|=||
+Original MERC 2.1 code by:      _||_ = =||o---.|| = ==_||_= == =||==_||_
+  Hatchet, Furey, and Kahn.     \__/= = ||:   :||= == \__/[][][][][]\__/
+                                [||]= ==||:___:|| = = [||]\\//\\//\\[||]
+Original DikuMUD code by:        }{- --'"'-----'"'- -- }{\//\\//\\//\}{
+  Hans Staerfeldt,            __[==]__________________[==]\\//\\//\\[==]_
+  Katja Nyboe, Tom Madsen,   |`|----|================|----|--------|----||
+  Michael Seifert &       jgs|^| ^  |================|^   | ^ ^^ ^ |  ^ ||
+  Sebastian Hammer.         \|//\\/^|/==============\|/^\\\^/^.\^///\\//|///
+
+Enter your character's name, or type NEW:
+~
+-1 GREETING4~
+.,___________________________________________________________________________,
+|\'-._(   /    __   _,                 ____,       ____                     |
+| \  .'-._\   (-|__|    _      _  _   (-/  \ .-.  (-/  `_' |_  _     |   _  |
+|-.\'    .-;   _|  |_, (_)|_|_/_)(/_    \__/ |-     \___)  | |(_)|_| | _/_) |
+|   \  .'     (                              |                              |
+|.--.\'                 ^V^               +           __        ____        |
+|    (  Visit us on the web:             /^\----------][-------/ JL \   ^V^ |
+|     )   Coming Soon                   /   \        /__\     |  ][  |      |
+|    (                                 /     \      //__\\    | /__\ |      |
+|    _)                        ^V^    /       \     ||  ||   /__|  |__\     |
+|  \( )/                             /         \    ||==||   |  |==|  |     |
+|  /(O)\                          __/___________\ _ ||__|| _ |__|__|__|__   |
+|                                ';===============,==========,==========;'  |
+|                                  \[]-[]-[]-[]-[]/-[]-[]-[]-|-[]-[]-[]/    |
+| Based on...                       |____________|-----------\_..--.._/     |
+|  SMAUG 1.4 written by:            || |='--'=| ||^^_^^_^^_^^| = _   =|     |
+|   Thoric (Derek Snider) with      || | .--. | ||===.---.===|._.__._.|     |
+|   Altrag, Blodkai, Haus, Narn,    || | |__| | ||   |___|  =||| || |||     |
+|   Scryn, Swordbearer, Triclops,   ||_|_|--|_|_|| = |---|   ||| || |||     |
+|   Gorog, Rennard, Grishnakh,     _/!!!!!!!!!!!!|  _|___|_- |||_||_|||     |
+|   Fireblade and Nivek.          ':""__""_"""__"| '-------' |'-'--'-'|     |
+|                                   ||__________||=_  ___-  _| =  _ = |     |
+| Original MERC 2.1 code by:        ||----------||   .---.=  |._.__._.|     |
+|   Hatchet, Furey, and Kahn.       |||.-_---_-.||   |___|  =||| || |||     |
+|                                   ||||[_]|[_]||| = |---|   ||| || |||     |
+| Original DikuMUD code by:         ||||.-.|.-.|||,,,|,,,|,,,||| || |||     |
+|   Hans Staerfeldt,                ||||| ||| ||||&&&&&&&&&&&&'-'--'-'|     |
+|   Katja Nyboe, Tom Madsen,        |||||_|||_|||||"___""___"| __= __ |     |
+|   Michael Seifert &            ___|||=========||||[_]||[_]|||[]||[]||___  |
+|   Sebastian Hammer.           |   ; =========== |!!!!!!!!!!!!!!!!!!!|   | |
+|_______________________________"jgs"""""""""""""""""""""""""""""""""""""""_|
+
+Enter your character's name, or type NEW:
+~
+0 $~
+
+#$

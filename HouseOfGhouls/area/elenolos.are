@@ -1,0 +1,1511 @@
+#AREA   Elenolos~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 1 65
+$
+
+#RESETMSG A sweet smell floats by on the breeze...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 781927711
+
+#CLIMATE 2 1 1
+
+#MOBILES
+#1601
+Marisa queen elf elven~
+Marisa, the Elven Queen~
+Marisa, the Queen of the Elves smiles as you enter.
+~
+Marisa, the Queen of Elves, stands and smiles as you enter the throne room.
+She sends a small bow in your direction, and waits for you to speak.
+~
+16777283 4202648&256 1000 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 25 0 0 2 2 0
+0 0 15 3145728 0 0 35651584 2
+> death_prog 5~
+gasp
+say Oh Great Drazuk!  Take my soul to your side!
+rinvoke artifact
+~
+|
+#1602
+guard elite elf elven~
+an elite elf guard~
+An ornately armored elven guard stands at attention here.
+~
+This guard wears the symbol of the royal house of Elenolos, and protects the
+Queen from harm.  Be careful not to cross their path!
+~
+32835 4202536&256 1000 C
+45 0 -145 4d4+1515 3d5+35
+130 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 304 2621441
+#1603
+guard elite elf elven~
+an elite elf guard~
+An ornately armored elven guard stands at attention here.
+~
+This guard wears the symbol of the royal house of Elenolos, and protects the
+Queen from harm.  Be careful not to cross their path!
+~
+32835 4202536&256 1000 C
+45 0 -145 4d4+1515 3d5+35
+130 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 15 0 0 0 304 2621441
+#1604
+guard elf elven~
+an elven guard~
+This guard patrols his hometown and watches for trouble.
+~
+An elven guard patrols the city, watching for any trouble.  You should know
+better than to mess with the Elenolos guard.
+~
+32833 0 1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 47 0 0 0 48 1
+#1605
+guard elf elven~
+an elven guard~
+This guard patrols his hometown and watches for trouble.
+~
+An elven guard patrols the city, watching for any trouble.  You should know
+better than to mess with the Elenolos guard.
+~
+32833 0 1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 47 0 0 0 48 1
+#1606
+guard elf elven~
+an elven guard~
+This guard patrols her hometown and watches for trouble.
+~
+An elven guard patrols the city, watching for any trouble.  You should know
+better than to mess with the Elenolos guard.
+~
+32833 0 1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 47 0 0 0 48 1
+#1607
+guard elf elven~
+an elven guard~
+This guard patrols her hometown and watches for trouble.
+~
+An elven guard patrols the city, watching for any trouble.  You should know
+better than to mess with the Elenolos guard.
+~
+32833 0 1000 C
+30 0 -70 4d15+760 3d5+20
+90 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 0 0 2 2 0
+0 0 47 0 0 0 48 1
+#1608
+elf lady elven~
+an elven lady~
+This elven lady is enjoying the nice day.
+~
+This elven lady strolls about lazily, enjoying the nice day.  It doesn't look
+like much bothers her.
+~
+16777409 0 1000 C
+20 0 -20 4d8+380 3d5+10
+50 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 16 0
+#1609
+elf lady elven~
+an elven lady~
+This elven lady is enjoying the nice day.
+~
+This elven lady strolls about lazily, enjoying the nice day.  It doesn't look
+like much bothers her.
+~
+16777409 0 1000 C
+20 0 -20 4d8+380 3d5+10
+50 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 15 0 0 0 16 0
+#1610
+elf male elven~
+an elven male~
+This young elf walks with a purpose.
+~
+This young elf barely glances at you as he walks past.  He must be on some
+sort of errand or job.  He looks quite busy.
+~
+16777281 0 1000 C
+25 0 -45 4d10+540 3d5+15
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 23 0 0 0 48 0
+#1611
+bird sparrow~
+a small sparrow~
+A small sparrow flits about the branches.
+~
+A small sparrow flies from branch to branch, looking for some crumbs or seeds
+to have as a snack.
+~
+16777281 524288 0 C
+7 0 45 3d6+110 2d5+2
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 512 0
+#1612
+bird sparrow~
+a small sparrow~
+A small sparrow flits about the branches.
+~
+A small sparrow flies from branch to branch, looking for some crumbs or seeds
+to have as a snack.
+~
+16777281 524288 0 C
+7 0 45 3d6+110 2d5+2
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 512 0
+#1613
+bird sparrow~
+a small sparrow~
+A small sparrow flits about the branches.
+~
+A small sparrow flies from branch to branch, looking for some crumbs or seeds
+to have as a snack.
+~
+16777281 524288 0 C
+7 0 45 3d6+110 2d5+2
+15 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 0
+0 0 32769 0 0 0 512 0
+#1614
+sage elder old man elf elven~
+the elder sage~
+An old man, dressed in an old robe.
+~
+The robes of the elder sage seem to slowly shift from white through gray to
+black and then back again.  He looks at you sternly, as if weighing your soul.
+ "I can change your inner self, but it will cost you 25,000 coins.  You can
+switch your alignment by TELLing me "Sage, change me to (align)", using good,
+evil or neutral for the (align).  I will change your alignment, and take your
+money.  I do not check which alignment you are first, so be careful!"
+~
+20971587 4194456&256 0 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 15 0 0 3 1 0
+0 0 15 1048576 0 0 35651584 6
+> speech_prog 'Sage, change me to evil'~
+if clantype($n) == 0
+  mpechoat $n I don't think your god would be too happy with you messing with your alignment!
+else
+   if goldamt($n) < 25000
+     mpechoat $n You don't have enough money for that!
+   else
+     mpmset $n align -1000
+     mpechoat $n Your alignment is now evil!
+     mpforce $n give 25000 coins sage
+   endif
+endif~
+> speech_prog 'Sage, change me to neutral'~
+if clantype($n) == 0
+  mpechoat $n I don't think your god would be too happy with you messing with your alignment!
+else
+   if goldamt($n) < 25000
+     mpechoat $n You don't have enough money for that!
+   else
+     mpmset $n align 0
+     mpechoat $n Your alignment is now neutral!
+     mpforce $n give 25000 coins sage
+   endif
+endif~
+> speech_prog 'Sage, change me to good'~
+if clantype($n) == 0
+  mpechoat $n I don't think your god would be too happy with you messing with your alignment!
+else
+   if goldamt($n) < 25000
+     mpechoat $n You don't have enough money for that!
+   else
+     mpmset $n align 1000
+     mpechoat $n Your alignment is now good!
+     mpforce $n give 25000 coins sage
+   endif
+endif~
+|
+#1615
+Lephan elf elven smith armor elven~
+Lephan~
+Lephan, the armorsmith, is hard at work.
+~
+Lephan is a master armorsmith, and makes some of the finest elven chain in the
+whole realm.  He nods at you as you enter, but keeps busy at work until you
+need something specific.
+~
+16777283 4194456&256 1000 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 15 1048576 0 0 35651584 2
+#1616
+Elenesta elf smith weapon elven~
+Elenesta~
+The weaponsmith, Elenesta, smiles at you.
+~
+Elenesta makes some of the finest bows and long swords in the western realms.
+Even a few dwarven smiths would venture to Elenolos to watch and learn her
+skills.
+~
+16777283 4194456&256 1000 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 15 1048576 0 0 35651584 2
+#1617
+Ataran alchemist elf elven~
+Ataran~
+Ataran, the elven alchemist, works amongst many tubes and bottles.
+~
+You have heard tales about the wonderful potions Ataran can provide for you.
+From simple recall potions to amazing healing potions, he has a magical liquid
+for every need.
+~
+16777283 4194456&256 1000 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 15 1048576 0 0 35651584 2
+#1618
+Vollesta enchanter elf elven~
+Vollesta~
+Vollesta the enchanter flips through a small book.
+~
+Vollesta watches you closely as you enter his magical shop, a slight smile on
+his face when he notices your amazed looks at the items he has created.
+~
+16777283 4194456&256 1000 C
+55 0 -195 5d5+2150 4d5+48
+200 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 19 0 0 2 2 0
+0 0 15 1048576 0 0 35651584 2
+#1619
+child elf elven~
+an elven child~
+A young elven child runs about, playing in the trees.
+~
+This young child runs about happily, climbing the large trees of the forest,
+and trying to catch the sparrows.  He smiles at you as he runs past.
+~
+1 0 1000 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 1 1 0
+0 0 8 0 0 0 0 0
+#1620
+elf male elven~
+an elven male~
+This young elf walks with a purpose.
+~
+This young elf barely glances at you as he walks past.  He must be on some
+sort of errand or job.  He looks quite busy.
+~
+16777281 0 1000 C
+25 0 -45 4d10+540 3d5+15
+65 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 2 2 0
+0 0 23 0 0 0 48 0
+#1621
+child elf elven~
+an elven child~
+A young elven child runs about, playing in the trees.
+~
+This young child runs about happily, climbing the large trees of the forest,
+and trying to catch the sparrows.  She smiles at you as she runs past.
+~
+1 0 1000 C
+13 0 15 3d6+215 3d5+3
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 18 0 0 1 1 0
+0 0 8 0 0 0 0 0
+#1622
+elf druid elven Lethys Greenvine female~
+the elven druid, Lethys Greenvine~
+A tall elven female, wearing a plain tan robe, smiles as you approach.
+~
+Pretty golden elven eyes peer back at you from under the hood of this tall
+woman.  The familiar symbol of the elven druids is pinned into the cloak she
+wears.  This one seems a little more...mystical...as it were, as the small
+brooch of vines and branches actually seems to move as if growing and dancing
+in the breeze.  You suddenly realize you are in the presence of the grand
+elven druid, Lethys Greenvine.
+~
+17826817 -1839193984&256 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 15 0 0 1 1835007 0
+0 0 2047 3145728 0 0 658506224 524295
+> rand_prog 5~
+ponder
+say You know, I can "TEACH STARCLOAK" if you are advanced enough!~
+> speech_prog 'teach starcloak'~
+if isnohero($n)
+    say Sorry $n, you need to be a hero before you can learn my skill
+    smile $n
+    break
+else
+   if questpoints($n) < 15000
+       say Sorry $n, you need more quest points to learn my skill
+        smile $n
+        break
+   else
+       nod $n
+       mppractice $n starcloak 100
+       mpmset $n questpoints 15000
+       say Use your new skill wisely!
+       salute $n
+    endif
+endif
+~
+> death_prog 5~
+emote has a faraway look in her eye as she tries to envision her peaceful garden...
+emote falls to the dirty ground
+rinvoke artifact
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#1623
+daot elf steak master ranger~
+Daot the Steakmaster~
+A tall elven ranger hums as he walks the path.
+~
+That happy smile...that strange tune...those long blades...
+
+The tune triggers the memory.  That old man in the tavern was telling the tale
+of an elven ranger, who had mastered both the art of hunting and cooking the
+wild and exotic game he had tracked down.  Daot the Steakmaster they called
+him, and although he seems a jovial fellow, its rumored he had a shady past.
+~
+17826817 -2143289216&320 1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 12 0 0 1 1835007 0
+0 0 2047 3145728 0 0 620757488 524295
+> death_prog 5~
+say Steak sauce sucks!
+cackle
+rinvoke artifact
+
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#1700
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1601
+crown mithril~
+a mithril crown~
+A delicate crown, crafted from mithril.~
+~
+9 1089 3
+6 6 0 0
+1 1000 0
+A
+12 20
+A
+4 3
+A
+3 3
+#1602
+robe gossamer pastel~
+a pastel gossamer robe~
+A whispy gossamer robe shifts through several pastel colors.~
+~
+9 1088 65
+6 6 0 0
+2 150 0
+A
+79 3
+A
+13 35
+#1603
+badge Elenolos~
+a badge of Elenolos~
+A small badge with the symbol of Elenolos lies here.~
+~
+9 1280&2 2097153
+3 3 0 0
+1 0 0
+A
+18 1
+A
+25 2
+#1604
+elven chain mail armor tunic~
+an elven chainmail tunic~
+A finely crafted elven chainmail tunic sits here.~
+~
+9 256 65
+6 6 0 0
+6 900 0
+#1605
+elven chain mail armor coif~
+an elven chainmail coif~
+A finely crafted elven chainmail coif sits here.~
+~
+9 256 3
+6 6 0 0
+6 750 0
+#1606
+elven chain mail armor leggings~
+a pair of elven chainmail leggings~
+A finely crafted pair of elven chainmail leggings sit here.~
+~
+9 256 16385
+6 6 0 0
+6 800 0
+#1607
+elven chain mail armor gloves~
+a pair of elven chainmail gloves~
+A pair of finely crafted elven chainmail gloves sit here.~
+~
+9 256 513
+6 6 0 0
+6 750 0
+#1608
+elven chain mail armor bracer~
+an elven chainmail bracer~
+A finely crafted elven chainmail bracer sits here.~
+~
+9 256 257
+6 6 0 0
+6 800 0
+#1609
+elven chain mail armor sleeves~
+an set of elven chainmail sleeves~
+A set of finely crafted elven chainmail sleeves sit here.~
+~
+9 256 129
+6 6 0 0
+6 800 0
+#1610
+elven long sword~
+an elven long sword~
+A long sword, of elven design.~
+~
+5 256 131073
+12 2 5 1
+3 500 0
+#1611
+mace elven~
+an elven mace~
+A thin but sturdy mace of light metal lies here.~
+~
+5 256 131073
+12 2 5 7
+3 500 0
+#1612
+claw panther elven~
+an elven panther claw~
+An elven claw weapon, designed to look like a large cats paw.~
+~
+5 256 131073
+12 2 4 22
+3 500 0
+#1613
+elven long bow~
+an elven longbow~
+A long bow of elven design, very easy to use.~
+~
+5 256&16 131073
+12 9 4 14
+8 500 0
+#1614
+elven short sword~
+an elven short sword~
+A short sword of elven design, easy to conceal.~
+~
+5 256 131073
+12 1 7 2
+3 500 0
+#1615
+scroll enchanted~
+an enchanted scroll~
+A small scroll, with the elven rune for "enchant" written on it.~
+~
+2 66 1048577
+65 -1 -1 -1
+1 500000 0
+'enchant weapon' 'NONE' 'NONE'
+#1616
+yew branch wand~
+a small yew branch~
+A small branch of yew lies here.~
+~
+3 1089&2 1048577
+35 6 6 -1
+3 15000 0
+'dispel evil'
+#1617
+oak staff knobby~
+a knobby oak staff~
+A large oaken staff, covered in knobs, stands here.~
+~
+4 64 1048577
+40 6 6 -1
+5 25000 0
+'sanctuary'
+#1618
+white staff glowing~
+a glowing white staff~
+A glowing white staff leans in the corner.~
+~
+4 65 1048577
+45 6 6 -1
+2 75000 0
+'divinity'
+#1619
+potion recall red~
+a red recall potion~
+A small red elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 150 0
+'word of recall' 'NONE' 'NONE'
+#1620
+potion heal blue~
+a blue heal potion~
+A small blue elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 60000 0
+'divinity' 'divinity' 'divinity'
+#1621
+potion cyan heal~
+a cyan heal potion~
+A small cyan elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 12000 0
+'heal' 'NONE' 'NONE'
+#1622
+potion fiery yellow~
+a yellow fiery potion~
+A small yellow elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 9000 0
+'fireshield' 'blazeward' 'NONE'
+#1623
+potion chilly white~
+a white chilly potion~
+A small white elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 9000 0
+'iceshield' 'inner warmth' 'NONE'
+#1624
+potion elven green~
+a green elven potion~
+A small green elf-crafted bottle sits here.~
+~
+10 64 1048577
+35 -1 -1 -1
+1 7500 0
+'elven beauty' 'kindred strength' 'dragon wit'
+#1700
+Placeholder~
+Placeholder~
+Placeholder
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1601
+Path To Elenolos~
+The small dirt roads begins to twist and turn through the trees at the edge of
+the forest, headed west towards Elenolos, the home of the elves.  The slight
+breeze carries what sounds like music past your ears, and the temperature is
+comfortable.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 351
+D3
+~
+~
+0 0 1602
+S
+#1602
+Path To Elenolos~
+The small dirt roads begins to twist and turn through the trees at the edge of
+the forest, headed west towards Elenolos, the home of the elves.  The slight
+breeze carries what sounds like music past your ears, and the temperature is
+comfortable.  A larger than normal tree lays west of you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1601
+D3
+~
+~
+0 0 1603
+S
+#1603
+Entrance Tree~
+You stand at the bottom of the entrance tree to Elenolos.  Built high up in
+the branches of this ancient forest, staircases have been built into the
+larger tree's to assist your climb.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1602
+D4
+~
+~
+0 0 1604
+S
+#1604
+Entrance Tree~
+You stand at the top of the entrance tree to Elenolos.  Built high up in
+the branches of this ancient forest, staircases have been built into the
+larger tree's to assist your climb.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1611
+D2
+~
+~
+0 0 1605
+D5
+Exit description~
+~
+0 0 1603
+S
+#1605
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1604
+D3
+~
+~
+0 0 1606
+S
+#1606
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1605
+D3
+~
+~
+0 0 1607
+S
+#1607
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+~
+~
+0 0 1608
+D1
+Exit description~
+~
+0 0 1606
+S
+#1608
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+~
+~
+0 0 1609
+D2
+Exit description~
+~
+0 0 1607
+S
+#1609
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1616
+D1
+~
+~
+0 0 1610
+D2
+Exit description~
+~
+0 0 1608
+S
+#1610
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+~
+~
+0 0 1611
+D3
+Exit description~
+~
+0 0 1609
+S
+#1611
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+~
+~
+0 0 1612
+D2
+~
+~
+0 0 1604
+D3
+Exit description~
+~
+0 0 1610
+S
+#1612
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+~
+~
+0 0 1613
+D2
+Exit description~
+~
+0 0 1611
+S
+#1613
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D2
+Exit description~
+~
+0 0 1612
+D3
+~
+~
+0 0 1614
+S
+#1614
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1613
+D3
+~
+~
+0 0 1615
+S
+#1615
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1630
+D1
+Exit description~
+~
+0 0 1614
+D2
+~
+~
+0 0 1616
+S
+#1616
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1615
+D2
+~
+~
+0 0 1609
+D3
+~
+~
+0 0 1617
+S
+#1617
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1616
+D3
+~
+~
+0 0 1618
+S
+#1618
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1617
+D3
+~
+~
+0 0 1619
+S
+#1619
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+~
+~
+0 0 1620
+D1
+Exit description~
+~
+0 0 1618
+D2
+~
+~
+0 0 1625
+S
+#1620
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+~
+~
+0 0 1623
+D2
+Exit description~
+~
+0 0 1619
+D3
+~
+~
+0 0 1621
+S
+#1621
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You hear the sound of a weaponsmith in the tree above
+you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1620
+D4
+~
+~
+0 0 1622
+S
+#1622
+Weaponsmith~
+This room is dominated by a large forge, which roars with an intense fire
+inside.  A silvery anvil stands in the middle of the room, and different
+weapon templates hang about the walls.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1621
+S
+#1623
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  The clanking of an armorsmith comes from the tree
+above you.
+~
+0 0 3
+D3
+Exit description~
+~
+0 0 1620
+D4
+~
+~
+0 0 1624
+S
+#1624
+Armorsmith~
+Most of this room is taken up by a large table, and several big bins of chain
+links, crafted from some light, silvery metal.  Tools for crafting elven chain
+mail sit in their places about the room.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1623
+S
+#1625
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D0
+Exit description~
+~
+0 0 1619
+D1
+~
+~
+0 0 1628
+D3
+~
+~
+0 0 1626
+S
+#1626
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  The chemical smells of an alchemist drift down from
+the tree above you.
+~
+0 0 3
+D1
+~
+~
+0 0 1625
+D4
+~
+~
+0 0 1627
+S
+#1627
+Alchemist~
+The smell of chemicals is almost overwhelming.  The sounds of bubbling potions
+is all about you, and the air is colored with various fumes.  A large still
+stands in one corner.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1626
+S
+#1628
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  The mark of an enchanter is placed on the stairs
+leading up into the tree here.
+~
+0 0 3
+D3
+Exit description~
+~
+0 0 1625
+D4
+~
+~
+0 0 1629
+S
+#1629
+Enchanter~
+The tools of an enchanter sit all about this room.  A summoning circle is
+traced into the ground, and various reagents and metals are set on organized
+shelves.  Different half-finished products sit on the table against the north
+wall.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1628
+S
+#1630
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  You pass by small dwellings built into the trees.
+They look quite cozy and comfortable.
+~
+0 0 3
+D1
+~
+~
+0 0 1633
+D2
+~
+~
+0 0 1615
+D3
+~
+~
+0 0 1631
+S
+#1631
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  A small library is located in the tree above you.
+~
+0 0 3
+D1
+Exit description~
+~
+0 0 1630
+D4
+~
+~
+0 0 1632
+S
+#1632
+Library~
+For a library, this room seems a lot smaller than you expected.  Only a few
+bookcases stand about the walls.  As you look closer at the books, you notice
+them changing magically as different thoughts move through your head.  A small
+table is in the middle of the room, for comfortable reading.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1631
+S
+#1633
+Wandering Elenolos~
+You wander about Elenolos, the home of the elves.  You stand high above the
+forest floor, and move about the city by delicate-looking, but sturdy,
+rope-and-wood bridges.  An ornate staircase heads up into the living quarters
+of the elven royals.
+~
+0 0 3
+D3
+Exit description~
+~
+0 0 1630
+D4
+~
+~
+0 0 1634
+S
+#1634
+Throne Room~
+You enter a large throne room, carved directly in the center of this gigantic
+tree.  The wood has been polished to the point of shining, and rare artifacts
+are placed on exhibit around the room.  A pair of thrones, carved from a
+warm-colored wood sit against the east wall.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 1633
+S
+#1700
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 1623 1 1602
+M 0 1622 1 1602
+M 0 1621 3 1612
+M 0 1621 3 1612
+M 0 1621 3 1612
+M 0 1619 3 1633
+M 0 1619 3 1633
+M 0 1619 3 1633
+M 0 1620 2 1626
+M 0 1620 2 1626
+M 0 1618 1 1629
+G 1 34 1
+G 1 1618 1
+G 1 1617 1
+G 1 1616 1
+G 1 1615 1
+M 0 1617 1 1627
+G 1 35 1
+G 1 1624 1
+G 1 1623 1
+G 1 1622 1
+G 1 1621 1
+G 1 1620 1
+G 1 1619 1
+M 0 1616 1 1622
+G 1 1614 1
+G 1 1613 1
+G 1 1612 1
+G 1 1611 1
+G 1 1610 1
+M 0 1615 1 1624
+G 1 1609 1
+G 1 1608 1
+G 1 1607 1
+G 1 1606 1
+G 1 1605 1
+G 1 1604 1
+M 0 1614 1 1632
+M 0 1613 2 1618
+M 0 1613 2 1618
+M 0 1612 2 1610
+M 0 1612 2 1610
+M 0 1611 2 1601
+M 0 1611 2 1601
+M 0 1610 2 1628
+M 0 1610 2 1628
+M 0 1609 2 1623
+M 0 1609 2 1623
+M 0 1608 2 1633
+M 0 1608 2 1633
+M 0 1607 2 1630
+E 0 1611 1 21
+M 0 1607 2 1630
+E 0 1610 1 21
+M 0 1606 2 1619
+E 0 1614 1 21
+M 0 1606 2 1619
+E 0 1613 1 21
+M 0 1605 2 1607
+E 0 1612 1 21
+M 0 1605 2 1607
+E 0 1611 1 21
+M 0 1604 2 1603
+E 0 1610 1 21
+M 0 1604 2 1603
+E 0 1613 1 21
+M 0 1603 2 1633
+E 0 1608 1 9
+E 0 1603 1 25
+E 0 1604 1 7
+E 0 1614 1 21
+M 0 1603 2 1633
+E 0 1609 1 8
+E 0 1603 1 25
+E 0 1604 1 7
+E 0 1611 1 21
+M 0 1602 2 1634
+E 0 1607 1 11
+E 0 1603 1 25
+E 0 1604 1 7
+E 0 1610 1 21
+M 0 1602 2 1634
+E 0 1605 1 1
+E 0 1603 1 25
+E 0 1604 1 7
+E 0 1612 1 21
+M 0 1601 1 1634
+E 0 1602 1 7
+E 0 1601 1 1
+S
+
+
+#SHOPS
+ 1615    9 11  0  0  0   120  90         7 18    ; Lephan
+ 1616    5  8  0  0  0   120  90         7 18    ; Elenesta
+ 1617   10 32  8  0  0   120  90         7 18    ; Ataran
+ 1618    4  3  2 60  8   120  90         7 18    ; Vollesta
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1601 spec_cast_archmagi
+M  1602 spec_guard
+M  1603 spec_guard
+M  1604 spec_guard
+M  1605 spec_guard
+M  1606 spec_racist
+M  1607 spec_racist
+M  1614 spec_cast_diabolist
+M  1617 spec_cast_mage
+M  1618 spec_cast_cleric
+M  1622 spec_cast_bishop
+M  1623 spec_executioner
+S
+
+
+#$

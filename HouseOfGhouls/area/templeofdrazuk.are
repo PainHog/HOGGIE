@@ -1,0 +1,295 @@
+#AREA Temple of Drazuk~
+
+#AUTHOR Drazuk~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG An immortal presence is all about.~
+
+#FLAGS
+1 60
+
+#ECONOMY 0 0
+
+#ROOMS
+#21001
+The Temple Altar~
+This is the altar room of the Temple of Drazuk.  Adventurer's usually come
+here from the result of death or a recall spell.  Hopefully you walked here or
+used the spell, because if you died, your corpse has not traveled with you!
+There is a healer here, and a sign on the wall lets you know the prices for
+that healing.
+~
+0 1032 0 0 0 0
+D0
+~
+~
+0 -1 21002 0
+D1
+~
+~
+0 -1 21004 0
+D2
+~
+~
+0 -1 21006 0
+D3
+~
+~
+0 -1 21008 0
+D4
+~
+~
+16777216 0 21140 0
+D5
+~
+~
+16777216 -1 10300 0
+E
+sign~
+Type 'heal' to see prices for healing.  Then type 'heal (spell)' to have the
+healer cast that spell on you.
+~
+> entry_prog 100~
+if ispc($n)
+if level($n) == 1
+mpechoat $n _whi You cannot proceed until you have reached level 2!
+mpechoat $n _whi I shall return you to Eganrac promptly.
+mptransfer 0.$n 10300
+mpat 10300 mpforce 0.$n look
+endif
+endif
+~
+|
+S
+#21002
+The Temple Of Drazuk~
+You wander about the hallways of the Temple of Drazuk.  Many tapestries and
+pictures hang on the walls, showing the life and times of Drazuk, the Ghoul
+King.  You hope that perhaps your picture and tales may be seen and told
+within these halls!
+~
+0 1036 0 0 0 0
+D0
+~
+~
+0 -1 21010 0
+D1
+~
+~
+0 -1 21003 0
+D2
+~
+~
+0 -1 21001 0
+D3
+~
+~
+0 -1 21009 0
+S
+#21003
+The Temple Of Drazuk -- Meeting Room~
+You stand in the grand meeting room of the Temple of Drazuk.  Comfortable
+chairs are placed around tables in groups, for the purpose of adventurers
+meeting and planning out their next trip.  This is a good place to wait for
+friends and meet others.  A staircase is in the corner, leading up towards the
+demi-god's temples.
+~
+0 1032 0 0 0 0
+D2
+~
+~
+0 -1 21004 0
+D3
+~
+~
+0 -1 21002 0
+D4
+Exit description~
+~
+16777216 0 3751 0
+S
+#21004
+The Temple Of Drazuk~
+You wander about the hallways of the Temple of Drazuk.  Many tapestries and
+pictures hang on the walls, showing the life and times of Drazuk, the Ghoul
+King.  You hope that perhaps your picture and tales may be seen and told
+within these halls!
+~
+0 1036 0 0 0 0
+D0
+~
+~
+0 -1 21003 0
+D1
+~
+~
+0 -1 21026 0
+D2
+~
+~
+0 -1 21005 0
+D3
+~
+~
+0 -1 21001 0
+S
+#21005
+The Temple Of Drazuk -- Judgement Room~
+This dark hall has a huge desk on the south side, and many small chairs set
+facing it.  The Gods come here to deal punishment to those mortals who cross
+certain lines.  You hope you never have to come here to be sentenced!  You can
+also use the large book here to sign your name into becoming a deadly killer
+here.
+~
+0 536871944 0 0 0 0
+D0
+~
+~
+0 -1 21004 0
+D3
+~
+~
+0 -1 21006 0
+S
+#21006
+The Temple Of Drazuk~
+You wander about the hallways of the Temple of Drazuk.  Many tapestries and
+pictures hang on the walls, showing the life and times of Drazuk, the Ghoul
+King.  In addition to the usual decorations, a large portion of this wall is
+taken up by a tall oil painting of a battle between a horrible creature and
+several adventurers.  You hope that perhaps your picture and tales may be seen
+and told within these halls!
+~
+0 1036 0 0 0 0
+D0
+~
+~
+0 -1 21001 0
+D1
+~
+~
+0 -1 21005 0
+D2
+~
+~
+0 -1 21018 0
+D3
+~
+~
+0 -1 21007 0
+E
+oil painting picture fury blight nameless daemon decoration~
+Upon closer inspection you realize what this painting is depicting.  You
+shiver as you remember the tale, as it was told to you by the old man back at
+the ol' Tickler...
+
+"It was those three Scion heroes who came up with the idea.  It was pretty
+much a fairly normal night up to that point...we had just started the drinking
+for the evening, when Blight, Fury, and Nameless began discussing what lay
+beyond the horrible gate, deep in the ghoul kingdom.  Not since Drazuk himself
+was a mortal had anyone tried to enter the prison of the Elder Gods."
+
+"Defeating the Gate Guardian to gain entrance was only the first step.  Soon
+after entering, they realized there was no going back, not without cutting
+that astral thread even shorter...so they marched on together, slaying the
+evil spawn of chaos that swarmed them from all sides.  That dark experimenter
+Nyarlathotep gave them pause, but the Three swept him aside."
+
+"On the approach to Dagon, Dark Master of the Seas, disaster struck.  Mi-gos
+and Deep Ones came from nowhere and brought the mighty Fury down.  Undaunted,
+the heroes regrouped and moved forward once again.  Cutting through the
+imprisoned gods, they finally approached the Black Pentagram that kept
+Azathoth, Daemon-Sultan, imprisoned."
+
+"Ready for their foe, they battered him until he fell with a mighty roar.
+Exhausted, yet empowered with the excitement of victory, the Three gathered
+around to congratulate each other.  Much to their dismay, over the panting of
+their breath, they heard a gruff breathing behind them....they turned to see
+that by some trick of time and fate, Azathoth had been reborn, and they were
+still standing in the middle of his Pentagram, fully under his powers!"
+
+"Nameless turned and whipped wicked kicks into the daemons face, and Blight
+and Fury hammered him with equally powerful blows, while hastily calling upon
+their Goddess for symbols of her power, many of which were burned calling the
+healing power of Ashlyn down upon the stout warrior-monk.  Nameless began to
+sag under the magical onslaught of the huge beast before him, but the strength
+of the Three once again brought down their enemy."
+
+"Not wishing to fight the creature anytime soon (bad enough that apparently
+some of their belongings were left behind), they quickly moved out of the
+pentagram, and stepped into a magical world...only that's where they stopped
+their tale, and only grinned and saluted each other with another mug of ale."
+
+~
+S
+#21007
+The Temple Of Drazuk -- Donation Room~
+This portion of the temple houses a large pit, used for storing items donated
+by other adventurers.  It's worth a look to see if there is anything helpful
+located within.
+~
+0 1032 0 0 0 0
+D0
+~
+~
+0 -1 21008 0
+D1
+~
+~
+0 -1 21006 0
+S
+#21008
+The Temple Of Drazuk~
+You wander about the hallways of the Temple of Drazuk.  Many tapestries and
+pictures hang on the walls, showing the life and times of Drazuk, the Ghoul
+King.  You hope that perhaps your picture and tales may be seen and told
+within these halls!
+~
+0 1036 0 0 0 0
+D0
+~
+~
+0 -1 21009 0
+D1
+~
+~
+0 -1 21001 0
+D2
+~
+~
+0 -1 21007 0
+D3
+~
+~
+0 -1 21032 0
+S
+#21009
+The Temple Of Drazuk -- Resting Room~
+This room is set with every comfort that can be found in the realms.  The soft
+floor is covered with huge pillows.  Servants bearing food and drink come and
+go, bringing all sorts of delights.
+~
+0 1032 0 0 0 0
+D1
+~
+~
+0 -1 21002 0
+D2
+~
+~
+0 -1 21008 0
+S
+#0
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#$

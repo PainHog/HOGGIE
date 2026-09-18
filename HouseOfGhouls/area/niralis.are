@@ -1,0 +1,3291 @@
+#AREA   Niralis~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+20 50 0 65
+$
+
+#RESETMSG The hustle and bustle of the city reaches its peak.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 602809882
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#12101
+militia niralis guard~
+a Niralis militia guard~
+This minotaur is patrolling the city.
+~
+This minotaur was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 68157962 0 0 0 48 3
+#12102
+militia niralis guard~
+a Niralis militia guard~
+This minotaur is patrolling the city.
+~
+This minotaur was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 68157962 0 0 0 48 3
+#12103
+militia niralis guard~
+a Niralis militia guard~
+This minotaur is patrolling the city.
+~
+This minotaur was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+67 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 68157962 0 0 0 48 3
+#12104
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12105
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12106
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12107
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12108
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12109
+militia niralis guard~
+a Niralis militia guard~
+This goblin is patrolling the city.
+~
+This goblin was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+67 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12110
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12111
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12112
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12113
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12114
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+65 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12115
+militia niralis guard~
+a Niralis militia guard~
+This wolfen is patrolling the city.
+~
+This wolfen was picked to be on militia duty for the day.  They wear the
+standard armor of the city and watches all the arrivals in the city.  While
+they won't dare venture into the alleyways, they are content to keep the
+Zanzen slavers and adventurers from the north from getting out of line.
+~
+67 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12116
+traveller goblin ~
+a goblin traveller~
+This goblin is busy travelling around the world.
+~
+This young goblin has decided to leave the safety of the mountains to explore
+the world.  They are carefree and walk with a certain amount of pride.  They
+smile at each person they see and enjoy the sights and sounds of a new place.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 1554 0 0 0 544 2
+#12117
+traveller goblin ~
+a goblin traveller~
+This goblin is busy travelling around the world.
+~
+This young goblin has decided to leave the safety of the mountains to explore
+the world.  They are carefree and walk with a certain amount of pride.  They
+smile at each person they see and enjoy the sights and sounds of a new place.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 1554 0 0 0 544 2
+#12118
+traveller wolfen ~
+a wolfen traveller~
+This goblin is busy travelling around the world.
+~
+This young wolfen has decided to leave the safety of their village to explore
+the world.  They are carefree and walk with a certain amount of pride.  They
+smile at each person they see and enjoy the sights and sounds of a new place.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 1554 0 0 0 544 2
+#12119
+traveller wolfen ~
+a wolfen traveller~
+This goblin is busy travelling around the world.
+~
+This young wolfen has decided to leave the safety of their village to explore
+the world.  They are carefree and walk with a certain amount of pride.  They
+smile at each person they see and enjoy the sights and sounds of a new place.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 1554 0 0 0 544 2
+#12120
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is busy working to repair the ship.  They must have had one hell
+of a  fight.  They limp and are covered in cuts and blood.  It seems that most
+of the crew was lost in the battle but the ship managed to find land.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12121
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is busy working to repair the ship.  They must have had one hell
+of a  fight.  They limp and are covered in cuts and blood.  It seems that most
+of the crew was lost in the battle but the ship managed to find land.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12122
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is busy working to repair the ship.  They must have had one hell
+of a  fight.  They limp and are covered in cuts and blood.  It seems that most
+of the crew was lost in the battle but the ship managed to find land.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12123
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is exploring the port city in search of recruits for his ship.  He
+has seen battle recently and walks with a slow limp.  The Niralis militia keep
+a close eye on him and most of the residents and travellers keep their
+distance.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12124
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is exploring the port city in search of recruits for his ship.  He
+has seen battle recently and walks with a slow limp.  The Niralis militia keep
+a close eye on him and most of the residents and travellers keep their
+distance.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12125
+Zanzen sailor~
+a Zanzen sailor~
+This sailor wears the uniform of the Imperial Navy.
+~
+This sailor is exploring the port city in search of recruits for his ship.  He
+has seen battle recently and walks with a slow limp.  The Niralis militia keep
+a close eye on him and most of the residents and travellers keep their
+distance.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 160 2
+#12126
+Niralis Resident Minotaur~
+a Niralis resident~
+This minotaur resident is happily enjoying themselves.
+~
+This minotaur is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 0 0 0 1 1 0
+0 0 68157475 0 0 0 32 2
+#12127
+Niralis Resident Minotaur~
+a Niralis resident~
+This minotaur resident is happily enjoying themselves.
+~
+This minotaur is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 0 0 0 1 1 0
+0 0 68157475 0 0 0 32 2
+#12128
+Niralis Resident Minotaur~
+a Niralis resident~
+This minotaur resident is happily enjoying themselves.
+~
+This minotaur is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 0 0 0 1 1 0
+0 0 68157475 0 0 0 32 2
+#12129
+Niralis Resident goblin~
+a Niralis resident~
+This goblin resident is happily enjoying themselves.
+~
+This goblin is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12130
+Niralis Resident goblin~
+a Niralis resident~
+This goblin resident is happily enjoying themselves.
+~
+This goblin is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12131
+Niralis Resident goblin~
+a Niralis resident~
+This goblin resident is happily enjoying themselves.
+~
+This goblin is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12132
+Niralis Resident goblin~
+a Niralis resident~
+This goblin resident is happily enjoying themselves.
+~
+This goblin is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12133
+Niralis Resident goblin~
+a Niralis resident~
+This goblin resident is happily enjoying themselves.
+~
+This goblin is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12134
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12135
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12136
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12137
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12138
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12139
+Niralis Resident wolfen~
+a Niralis resident~
+This wolfen resident is happily enjoying themselves.
+~
+This wolfen is a permanent resident of the city.  They don't care for wars
+or religions, they are happy to live their life in peace.  They smile at you
+as you go past and you get the feeling that life is good here.
+~
+65 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 0 0 0 1 1 0
+0 0 35 0 0 0 32 2
+#12140
+gith sailor~
+a gith sailor~
+This gith is looking for supplies for the trip back to the sea.
+~
+This tall and gaunt gith is a sailor by trade as many gith are.  After
+generations of enslavement it seems only natural that they would enjoy their
+time in the pure freedom of life at see.  The gith looks about for any
+supplies that would be needed for their ship.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12141
+gith sailor~
+a gith sailor~
+This gith is looking for supplies for the trip back to the sea.
+~
+This tall and gaunt gith is a sailor by trade as many gith are.  After
+generations of enslavement it seems only natural that they would enjoy their
+time in the pure freedom of life at see.  The gith looks about for any
+supplies that would be needed for their ship.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12142
+gith sailor~
+a gith sailor~
+This gith is looking for supplies for the trip back to the sea.
+~
+This tall and gaunt gith is a sailor by trade as many gith are.  After
+generations of enslavement it seems only natural that they would enjoy their
+time in the pure freedom of life at see.  The gith looks about for any
+supplies that would be needed for their ship.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12143
+gith sailor~
+a gith sailor~
+This gith is looking for supplies for the trip back to the sea.
+~
+This tall and gaunt gith is a sailor by trade as many gith are.  After
+generations of enslavement it seems only natural that they would enjoy their
+time in the pure freedom of life at see.  The gith looks about for any
+supplies that would be needed for their ship.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12144
+minotaur sailor~
+a minotaur sailor~
+This minotaur is busy trying to prepare the ship.
+~
+This minotaur is a proud crew member of the Dautlus.  He is busy trying to get
+the ship sea-worthy again.  That means patching holes, getting new rope,
+sowing the sails and anything else.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12145
+minotaur sailor~
+a minotaur sailor~
+This minotaur is busy trying to prepare the ship.
+~
+This minotaur is a proud crew member of the Dautlus.  He is busy trying to get
+the ship sea-worthy again.  That means patching holes, getting new rope,
+sowing the sails and anything else.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12146
+minotaur sailor~
+a minotaur sailor~
+This minotaur is busy trying to prepare the ship.
+~
+This minotaur is a proud crew member of the Dautlus.  He is busy trying to get
+the ship sea-worthy again.  That means patching holes, getting new rope,
+sowing the sails and anything else.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12147
+minotaur sailor~
+a minotaur sailor~
+This minotaur is busy trying to prepare the ship.
+~
+This minotaur is a proud crew member of the Dautlus.  He is busy trying to get
+the ship sea-worthy again.  That means patching holes, getting new rope,
+sowing the sails and anything else.
+~
+65 0 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12148
+Zirela minotaur blacksmith~
+Zirela, the minotaur blacksmith~
+This proud minotaur woman is working on a piece of armor.
+~
+This minotaur must be considered beautiful by her kind.  She is tall and
+proud, the signs on battle written onto her skin and her horns slightly
+chipped. She hammers out a new breastplate, complete with well placed spines
+that would make close combat a bad idea.
+~
+67 4194432 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 68157962 112 0 0 496 2097411
+#12149
+Ginel goblin man~
+Ginel, the goblin scrapper~
+This goblin is examining a freshly made rapier.
+~
+This goblin is about average size for a goblin but he seems to know his
+weapons. He looks at you and grins, showing off his skill with a blade.  He
+asks you to look around and find that special item to reach out and touch
+someone.   The collection of minotaur horns and wolfen teeth on his belt mark
+him as a man with a complex.
+~
+67 4194432 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 3 2097152 16 688 2097411
+#12150
+Xozir wolfen man~
+Xozir, the wolfen shaman~
+This wolfen shaman is busy making magical supplies.
+~
+This tall wolfen shows his advanced age and his advanced skill.  He looks over
+a spell book and mixes a potion that smells of death and pain.  He makes no
+sign that he notices you but you get the distinct feeling he watches your
+every movement.
+~
+67 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12151
+Tuniz bartender goblin~
+Tuniz the bartender~
+This goblin is busy tending the bar.
+~
+This goblin knows his patrons and knows what to do.  You notice two sleek
+crossbows on his hip and his eyes on you.  He pours a quick cup of cheap ale
+and throws it to one of the brigands sitting at a table.  He doesn't look too
+friendly.
+~
+67 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 3 0 16 688 2097411
+#12152
+Zunit bar maid goblin~
+Zunit the barmiad~
+This pretty young goblin is busy serving drinks.
+~
+This pretty young goblin caters to the upstanding goblin population of the
+city.  She smiles and offers you a class of ale or wine.  She mentions that if
+you are looking for something a bit stronger, try her brother's inn inside the
+alley.  She giggles and bounces away.
+~
+67 4194304 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 554 3 0 16 688 2097411
+#12153
+Ixquit cleric wolfen woman~
+Ixquit the cleric~
+This young wolfen maid is making supplies.
+~
+This young wolfen seems to have some skill with the clerical arts.  She is
+busy making basic supplies such as food, water, and beneficial spells that are
+a necessity whether you are venturing out in the ocean or deeper into the
+untamed wilds.  She smiles at you and offers you a sample of healing balm.
+~
+67 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12154
+Xoxuna wolfen healer~
+Xoxuna the healer~
+This wolfen healer is busy making medical supplies.
+~
+This older wolfen woman is busy conjuring up several healing potions to sell
+to the constnat stream of sailors and travellers.  She smiles at you and asks
+what ails you?  She provides a small list of the supplies she sells.
+~
+75 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 3 0 0 1 1 0
+0 0 554 0 0 0 48 3
+#12155
+Siran gith bartender~
+Siran the bartender~
+This pale gith is busy tending to the bar.
+~
+This gith is blindingly pale and quite tall.  He gets along well enough with
+the minotaur and wolfen customers and seems to speak their tongues perfectly.
+He looks at you and speaks to you in the common speech, asking what your
+pleasure is.
+~
+67 0 0 C
+50 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 1 1 0
+0 0 1186 0 0 0 160 3
+#12156
+Zanzen slaver man~
+a sneaky slaver~
+This slaver sees you and tries to take you alive!
+~
+This man makes his living waiting for some poor fool to venture beyond the eye
+of the town militia.  He sees you and immediately lungs for you, trying to
+knock you out before you can call for help.
+~
+97 4194304&384 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 -2147483472 2097155
+#12157
+Zanzen slaver man~
+a sneaky slaver~
+This slaver sees you and tries to take you alive!
+~
+This man makes his living waiting for some poor fool to venture beyond the eye
+of the town militia.  He sees you and immediately lungs for you, trying to
+knock you out before you can call for help.
+~
+97 4194304&384 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1186 0 0 0 -2147483472 2097155
+#0
+
+
+#OBJECTS
+#12101
+A Niralis breastplate~
+a Niralis breastplate~
+This heavy plate of copper has a big N on it.~
+~
+9 524288 65
+8 8 0 0
+6 100 0
+#12102
+heavy wooden staff~
+a heavy wooden staff~
+This staff is carried by the militia.~
+~
+5 0&16 131073
+13 5 5 8
+5 100 0
+#12103
+sailor potion~
+a sailor's potion~
+This potion would be useful in rough waters.~
+~
+10 64 1048577
+1 -1 -1 -1
+1 500 0
+'aqua breath' 'float' 'NONE'
+#12104
+prayer Niralis~
+a prayer to Niralis~
+This prayer asks for the aid of Niralis.~
+~
+2 64 1048577
+25 -1 -1 -1
+1 1000 0
+'armor' 'balance' 'NONE'
+#12105
+mug spiced ale~
+a mug of spiced ale~
+This ale has a unique scent to it.~
+~
+17 0 1048577
+2 2 2 0
+1 250 0
+#12106
+grilled sea bass~
+a slab of grilled sea bass~
+This yummy fish has been grilled to perfection.~
+~
+19 0 1048577
+5 1 0 0
+1 200 0
+#12107
+a spiked belt~
+a spiked belt~
+This belt is covered in spikes to prevent grabbling.~
+~
+9 0 8193
+2 2 0 0
+6 20000 0
+A
+2 -2
+A
+19 3
+#12108
+razor studded bracer~
+a razor studded bracer~
+This bladed wristguard would help in battle.~
+~
+9 0 257
+2 2 0 0
+6 10000 0
+A
+19 2
+#12109
+spiked boots~
+a pair of spiked boots~
+These boots would make your kicks hurt like hell.~
+~
+9 0 65537
+2 2 0 0
+6 30000 0
+A
+18 2
+A
+19 3
+#12110
+bladed face mask~
+a bladed face-mask~
+This face-mask keeps your safe and hurts your opponent.~
+~
+9 524288 17
+8 8 0 0
+6 30000 0
+A
+19 3
+#12111
+weighted maul~
+a weighted maul~
+This weapon is basic but essential.~
+~
+5 0 131073
+13 6 5 8
+5 20000 0
+A
+19 2
+#12112
+barbed spear~
+a barbed spear~
+This spear would make a wound bleed badly.~
+~
+5 0&16 131073
+13 6 5 24
+5 20000 0
+A
+19 2
+#12113
+razor sharp rapier~
+a razor-sharp rapier~
+This elegant blade can cut with ease.~
+~
+5 0 131073
+13 3 3 11
+5 50000 0
+A
+48 10
+A
+19 2
+#12114
+escape potion~
+an escape potion~
+This will help you get home quick.~
+~
+10 64 1048577
+1 -1 -1 -1
+1 100 0
+'alertness' 'word of recall' 'NONE'
+#12115
+potion endurance~
+a potion of endurance~
+This will help you push on in your journey.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 5000 0
+'refresh' 'refresh' 'trollish vigor'
+#12116
+goblin knife potion~
+a goblin's knife potion~
+This will help you bury the dagger.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 8000 0
+'invoke stag' 'slink' 'NONE'
+#12117
+minotaur shield potion~
+a minotaur's shield potion~
+This potion will keep you safe from harm.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 10000 0
+'stone skin' 'aura of fear' 'NONE'
+#12118
+wolfen amulet potion~
+a wolfen's amulet potion~
+This potion will shield you from danger.~
+~
+10 64 1048577
+30 -1 -1 -1
+1 10000 0
+'antimagic shell' 'ethereal shield' 'scry'
+#12119
+curse spirit~
+a curse of the spirits~
+This curse will bring down the proud.~
+~
+2 64 1048577
+50 -1 -1 -1
+1 100000 0
+'warp mind' 'mindfog' 'wrath of dominus'
+#12120
+mug cheap ale~
+a mug of cheap ale~
+This will get you drunk!~
+~
+17 0 1048577
+2 2 2 0
+1 250 0
+#12121
+mug heavy ale~
+a mug of heavy ale~
+This will get you drunk!~
+~
+17 0 1048577
+2 2 2 0
+1 250 0
+#12122
+fried chicken leg~
+a leg of fried chicken~
+Its just delicious!~
+~
+19 0 1048577
+5 1 0 0
+1 200 0
+#12123
+flank steak~
+a piece of flank steak~
+Its food.~
+~
+19 0 1048577
+5 1 0 0
+1 200 0
+#0
+
+
+#ROOMS
+#12101
+Approaching The Docks~
+The sea settles and gives way to a massive port.  You can see a series of
+docks directly to the south, dozens of ships loading and unloading their
+treasures.  You cannot directly identify all of the ships bearing flags you
+are not familiar with.   The sound of seagulls and the smell of salt water and
+cooking meat fill the air.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 10212
+D2
+Exit description
+~
+~
+0 0 12102
+S
+#12102
+Approaching The Docks~
+The sea settles and gives way to a massive port.  You can see a series of
+docks directly to the south, dozens of ships loading and unloading their
+treasures.  You cannot directly identify all of the ships bearing flags you
+are not familiar with.   The sound of seagulls and the smell of salt water and
+cooking meat fill the air.
+~
+0 1 6
+D0
+Exit description~
+~
+0 0 12101
+D2
+Exit description
+~
+~
+0 0 12103
+S
+#12103
+The Docks Of Niralis~
+The sturdy wooden docks sway slightly with the soft current of the sea.  The
+planks seem to be held together with thick vines that feel like leather.
+Dozens of merchants, mercenaries, travellers, and missionaries are wandering
+about, trying to get their cargo loaded or unloaded.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12102
+D2
+Exit description
+~
+~
+0 0 12104
+D3
+Exit description
+~
+~
+16777216 0 12106
+S
+#12104
+The Docks Of Niralis~
+The sturdy wooden docks sway slightly with the soft current of the sea.  The
+planks seem to be held together with thick vines that feel like leather.
+Dozens of merchants, mercenaries, travellers, and missionaries are wandering
+about, trying to get their cargo loaded or unloaded.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12103
+D1
+Exit description
+~
+~
+16777216 0 12113
+D2
+Exit description
+~
+~
+0 0 12105
+S
+#12105
+The Docks Of Niralis~
+The sturdy wooden docks sway slightly with the soft current of the sea.  The
+planks seem to be held together with thick vines that feel like leather.
+Dozens of merchants, mercenaries, travellers, and missionaries are wandering
+about, trying to get their cargo loaded or unloaded.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12104
+D2
+Exit description
+~
+~
+0 0 12121
+S
+#12106
+A Plank~
+This thick piece of wood is wrapped in strands of steel.  It is large enough
+for a cart to be moved up and down and sturdy enough to support the several
+people climbing up to the ship or climbing down to the docks.  It is gently
+balanced against the side of the ship, secured with only a rope.
+~
+0 0 1
+D1
+Exit description
+~
+~
+16777216 0 12103
+D3
+Exit description
+~
+~
+0 0 12107
+S
+#12107
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12106
+D2
+Exit description
+~
+~
+0 0 12112
+D3
+Exit description
+~
+~
+0 0 12108
+S
+#12108
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12107
+D2
+Exit description
+~
+~
+0 0 12111
+D3
+Exit description
+~
+~
+0 0 12109
+S
+#12109
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12108
+D2
+Exit description
+~
+~
+0 0 12110
+S
+#12110
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12109
+D1
+Exit description
+~
+~
+0 0 12111
+S
+#12111
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12108
+D1
+Exit description
+~
+~
+0 0 12112
+D3
+Exit description~
+~
+0 0 12110
+S
+#12112
+The Dautlus~
+This small cruiser looks well prepared for anything.  The sides are covered in
+various shields, better to deflect the glancing blows of arrows or bolts.  The
+ship looks to be designed for the purpose of exploration and war, several
+large minotaurs patrol around, yelling out orders and securing the mast.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12107
+D3
+Exit description~
+~
+0 0 12111
+S
+#12113
+A Plank~
+This thick piece of wood is wrapped in strands of steel.  It is large enough
+for a cart to be moved up and down and sturdy enough to support the several
+people climbing up to the ship or climbing down to the docks.  It is gently
+balanced against the side of the ship, secured with only a rope.
+~
+0 0 1
+D1
+Exit description
+~
+~
+0 0 12114
+D3
+Exit description~
+~
+16777216 0 12104
+S
+#12114
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D1
+Exit description
+~
+~
+0 0 12115
+D2
+Exit description
+~
+~
+0 0 12119
+D3
+Exit description~
+~
+0 0 12113
+S
+#12115
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D1
+Exit description
+~
+~
+0 0 12116
+D2
+Exit description
+~
+~
+0 0 12118
+D3
+Exit description~
+~
+0 0 12114
+S
+#12116
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D2
+Exit description
+~
+~
+0 0 12117
+D3
+Exit description~
+~
+0 0 12115
+S
+#12117
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D0
+Exit description
+~
+~
+0 0 12116
+D3
+Exit description
+~
+~
+0 0 12118
+S
+#12118
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12115
+D1
+Exit description~
+~
+0 0 12117
+D3
+Exit description
+~
+~
+0 0 12119
+D5
+Exit description
+~
+~
+0 0 12120
+S
+#12119
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12114
+D1
+Exit description~
+~
+0 0 12118
+S
+#12120
+An Imperial Cruiser~
+This small battle cruiser looks to be manned by the Imperial forces under
+Zanzen. The sails are painted with a bright red Z and the crew all wear the
+standard Imperial armor and weaponry.  The ship looks to have taken a beating
+in some battle at sea and managed to limp its way here.  A few minotaurs and
+goblin engineers are busy trying to fix the damage while ignoring the
+rhetoric of the officers.
+~
+0 0 1
+D4
+Exit description~
+~
+0 0 12118
+S
+#12121
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12105
+D1
+Exit description
+~
+~
+0 0 12122
+D3
+Exit description~
+~
+0 0 12139
+S
+#12122
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description
+~
+~
+0 0 12123
+D3
+Exit description~
+~
+0 0 12121
+S
+#12123
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description
+~
+~
+0 0 12124
+D3
+Exit description~
+~
+0 0 12122
+S
+#12124
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description
+~
+~
+0 0 12125
+D2
+Exit description
+~
+~
+0 0 12126
+D3
+Exit description~
+~
+0 0 12123
+S
+#12125
+The Goblin's Barrel~
+This tiny bar was obviously built for the goblin clients of the city.  The
+chairs and tables are all much smaller than even a human could be comfortable
+in.  This of course does not stop the goblins from having a good time.  They
+drink and feast while singing songs of homes deep within the eastern
+mountains.   A few wolfen are taking a seat in the back, sitting on the floor
+and enjoying several plates of goblin cuisine.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12124
+S
+#12126
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12124
+D2
+Exit description
+~
+~
+0 0 12127
+S
+#12127
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12126
+D2
+Exit description
+~
+~
+0 0 12128
+S
+#12128
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12127
+D2
+Exit description
+~
+~
+0 0 12129
+D3
+Exit description
+~
+~
+16777216 0 12192
+S
+#12129
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12128
+D2
+Exit description~
+~
+0 0 12130
+S
+#12130
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12129
+D1
+Exit description~
+~
+0 0 12131
+D2
+Exit description~
+~
+0 0 12132
+S
+#12131
+The Turning Wheel~
+This cozy bar is large enough for the minotaur and wolfen travellers to
+comfortably enjoy themselves.  The smell of roasting meat and heavy ales fill
+the air.  An enchanted group of instruments provide the music and a few quite
+seductive wolfen and goblin serving girls wink as they pass by.  You notice
+the pale skinned gith working the counter.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 12130
+S
+#12132
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12130
+D3
+Exit description~
+~
+0 0 12133
+S
+#12133
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12132
+D3
+Exit description~
+~
+0 0 12134
+S
+#12134
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12135
+D1
+Exit description~
+~
+0 0 12133
+D3
+Exit description~
+~
+0 0 12136
+S
+#12135
+Ixquit's Supplies~
+The room is engulfed in the smell of incense and burning leaves.  The shop
+walls are lined with magic items as well as other basic items a traveller
+would need.   A young wolfen maid is working behind the counter, organizing
+several scrolls and spell books.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12134
+S
+#12136
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12134
+D2
+Exit description~
+~
+0 0 12137
+S
+#12137
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12136
+D2
+Exit description~
+~
+0 0 12138
+S
+#12138
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12137
+D3
+Exit description~
+~
+0 0 12156
+S
+#12139
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12121
+D3
+Exit description~
+~
+0 0 12140
+S
+#12140
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12139
+D2
+Exit description~
+~
+16777216 0 12186
+D3
+Exit description~
+~
+0 0 12141
+S
+#12141
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12140
+D3
+Exit description~
+~
+0 0 12143
+D4
+Exit description~
+~
+0 0 12142
+S
+#12142
+The Port Lookout~
+This massive tower looks far out over the ocean and the entire docks of the
+city.  The militia keep a close eye out for any trouble and keep a careful eye
+on the Zanzen forces that sometimes dock looking for mercenaries and slaves.
+You can see the rich land of rivers, jungles, and forests spread out to the
+south of the great city.
+~
+0 0 1
+D5
+Exit description~
+~
+0 0 12141
+S
+#12143
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12141
+D2
+Exit description~
+~
+0 0 12144
+S
+#12144
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12143
+D2
+Exit description~
+~
+0 0 12145
+S
+#12145
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12144
+D2
+Exit description~
+~
+0 0 12147
+D3
+Exit description~
+~
+0 0 12146
+S
+#12146
+The Altar Of Neutrality~
+This small and humble temple is dedicated to an unnamed god or goddess of
+neutrality.  You feel safe as you have ever felt, comforted by the deep magiks
+and the sanctity of the altar.  This would be an excellent place to relax
+after such a long journey.
+~
+0 1024 0
+D1
+Exit description~
+~
+0 0 12145
+S
+#12147
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12145
+D2
+Exit description~
+~
+0 0 12148
+S
+#12148
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12147
+D2
+Exit description~
+~
+0 0 12149
+S
+#12149
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12148
+D1
+Exit description~
+~
+0 0 12150
+D2
+Exit description~
+~
+0 0 12151
+S
+#12150
+The Clinic~
+This simple shop is set up to provide cheap medical supplies for the constant
+stream of travellers.  The city is host to every race and every faction,
+fights and disease are common so Niralis provides this place.  The place is
+sterile and cold.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 12149
+S
+#12151
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12149
+D1
+Exit description~
+~
+0 0 12152
+S
+#12152
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12153
+D3
+Exit description~
+~
+0 0 12151
+S
+#12153
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+16777216 0 12194
+D2
+Exit description~
+~
+0 0 12154
+D3
+Exit description~
+~
+0 0 12152
+S
+#12154
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12153
+D2
+Exit description~
+~
+0 0 12155
+S
+#12155
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12154
+D1
+Exit description~
+~
+0 0 12156
+S
+#12156
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12138
+D2
+Exit description~
+~
+0 0 12157
+D3
+Exit description~
+~
+0 0 12155
+S
+#12157
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12156
+D2
+Exit description~
+~
+0 0 12158
+S
+#12158
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12157
+D2
+Exit description~
+~
+0 0 12159
+S
+#12159
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12158
+D2
+Exit description~
+~
+0 0 12160
+S
+#12160
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12159
+D1
+Exit description~
+~
+0 0 12171
+D2
+Exit description~
+~
+0 0 12182
+D3
+Exit description~
+~
+0 0 12161
+S
+#12161
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12160
+D3
+Exit description~
+~
+0 0 12162
+S
+#12162
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12169
+D1
+Exit description~
+~
+0 0 12161
+D3
+Exit description~
+~
+0 0 12163
+S
+#12163
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12162
+D3
+Exit description~
+~
+0 0 12164
+S
+#12164
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12165
+D1
+Exit description~
+~
+0 0 12163
+S
+#12165
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12166
+D1
+Exit description~
+~
+0 0 12168
+D2
+Exit description~
+~
+0 0 12164
+S
+#12166
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 12167
+D2
+Exit description~
+~
+0 0 12165
+S
+#12167
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12168
+D3
+Exit description~
+~
+0 0 12166
+S
+#12168
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description
+~
+~
+0 0 12167
+D3
+Exit description~
+~
+0 0 12165
+S
+#12169
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12170
+D2
+Exit description~
+~
+0 0 12162
+S
+#12170
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12169
+S
+#12171
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12172
+D3
+Exit description~
+~
+0 0 12160
+S
+#12172
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12175
+D1
+Exit description~
+~
+0 0 12173
+D3
+Exit description~
+~
+0 0 12171
+S
+#12173
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12174
+D3
+Exit description~
+~
+0 0 12172
+S
+#12174
+The Niralis Ghettos~
+Beyond the alleys and the docks of the city, the residents of Niralis make
+their life in the humble houses and apartments.  There is no dominant race
+here, most are just content to live a quiet life and prosper as much as they
+can. The local militia still patrol to ensure the safety of the permanent
+residents of the city.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12179
+D3
+Exit description~
+~
+0 0 12173
+S
+#12175
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12176
+D1
+Exit description~
+~
+0 0 12178
+D2
+Exit description~
+~
+0 0 12172
+S
+#12176
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D1
+Exit description~
+~
+0 0 12177
+D2
+Exit description~
+~
+0 0 12175
+S
+#12177
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12178
+D3
+Exit description~
+~
+0 0 12176
+S
+#12178
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12177
+D3
+Exit description~
+~
+0 0 12175
+S
+#12179
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12180
+D2
+Exit description~
+~
+0 0 12174
+S
+#12180
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D0
+Exit description~
+~
+0 0 12181
+D2
+Exit description~
+~
+0 0 12179
+S
+#12181
+A Humble Home~
+This tiny house is relatively well kept despite its small size.  The houses
+are all very close together and it would be quite easy to simple walk into the
+ next house.  Children of all races run about while a few residents are here,
+cooking dinner or making trinkets to sell at the bazaar.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12180
+S
+#12182
+Inside Niralis~
+The city of Niralis expands out in all directions.  A bazaar has set up among
+the stone and clay buildings, merchants hawking their wares and a lucky few
+that have managed to set up shop in a permanent location.  You can see no sign
+of any race dominating the city, it is clear it is not controlled by any
+specific race or organization.  You see mostly wolfen and goblin travellers
+with a few minotaurs as well.  The occasional gith can be seen as well.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12160
+D2
+Exit description~
+~
+0 0 12183
+S
+#12183
+The Gate Of Niralis~
+Named after the great founder of the city, Niralis Isis, Paladin of The Grey,
+this city promises to provide shelter to all people and to all factions.  All
+are welcome but the city itself remains independent of all conflicts,
+protecting only their own city.  Many travellers pass through the gate,
+looking for supplies or perhaps just trying to catch a boat out to one of the
+far off lands beyond the sea.
+~
+0 0 1
+D0
+Exit description~
+~
+0 0 12182
+D1
+Exit description
+~
+~
+0 0 12185
+D2
+Exit description~
+~
+0 0 10601
+D3
+Exit description~
+~
+0 0 12184
+S
+#12184
+A Militia Post~
+This small collection of canvas and banners is the home of the local militia.
+All people that live within Niralis are ordered to take arms and patrol the
+city for one day a week.  The soldiers here relax and play several odd games
+with shaped stones while a few inspect travellers for anything dangerous.
+Most of them are content to twiddle the day away.
+~
+0 0 1
+D1
+Exit description~
+~
+0 0 12183
+S
+#12185
+A Militia Post~
+This small collection of canvas and banners is the home of the local militia.
+All people that live within Niralis are ordered to take arms and patrol the
+city for one day a week.  The soldiers here relax and play several odd games
+with shaped stones while a few inspect travellers for anything dangerous.
+Most of them are content to twiddle the day away.
+~
+0 0 1
+D3
+Exit description~
+~
+0 0 12183
+S
+#12186
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+16777216 0 12140
+D2
+Exit description~
+~
+0 0 12187
+S
+#12187
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 12186
+D1
+Exit description~
+~
+0 0 12195
+D2
+Exit description~
+~
+0 0 12188
+S
+#12188
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 12187
+D1
+Exit description~
+~
+0 0 12189
+S
+#12189
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 12190
+D2
+Exit description~
+~
+0 0 12193
+D3
+Exit description~
+~
+0 0 12188
+S
+#12190
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 12196
+D1
+Exit description~
+~
+0 0 12191
+D3
+Exit description~
+~
+0 0 12189
+S
+#12191
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D1
+Exit description~
+~
+0 0 12192
+D3
+Exit description~
+~
+0 0 12190
+S
+#12192
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description
+~
+~
+0 0 12198
+D1
+Exit description~
+~
+16777216 0 12128
+D3
+Exit description~
+~
+0 0 12191
+S
+#12193
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 12189
+D1
+Exit description~
+~
+0 0 12197
+D2
+Exit description~
+~
+0 0 12194
+S
+#12194
+A Dank Alley~
+The heavy torches of the city fade as you make your way through the alley. The
+militia avoid this area and for good reason.  It does not feel safe and there
+is little room to run if you are attacked.  A few people ask for a spare coin
+or if you are interested in making some quick cash while you stay in Niralis.
+~
+0 1 1
+D0
+Exit description~
+~
+0 0 12193
+D2
+Exit description~
+~
+16777216 0 12153
+S
+#12195
+A Drop Of Blood~
+This shop smells of death and acid.  An older wolfen, cloaked in white and
+with a heavy cane tends the shop.  You see a collection of potions, scrolls,
+and a few wands. Judging by the look of the supplies, they are not entirely
+friendly.
+~
+0 0 0
+D3
+Exit description
+~
+~
+0 0 12187
+S
+#12196
+The Broken Horn~
+The shop is made for goblins but the weapons inside are definitely made for
+everyone.  You see bladed crossbows that fire barbed darts, massive axes,
+twisted swords, and a few daggers that could be very easily hidden.  A heavily
+scarred goblin tends the counter, asking if you ever hunted Minotaur before.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12190
+S
+#12197
+Bone And Stone~
+The feel of heat and the smell of burning metal means only one thing, armor is
+being made.  You see suits of armor that are obviously meant for one thing,
+making anyone landing a blow being in equal pain.  None of these armors seem
+very safe for a child to train with as most are spiked, razor tipped, or just
+frightening.
+~
+0 0 0
+D3
+Exit description~
+~
+0 0 12193
+S
+#12198
+The Warrior's Inn~
+This massive inn is probably the largest of any tavern in the city but is
+mostly empty.  Only the locals and those that are not afraid of anything stay
+here.  The wooden floors are soaked in blood and a few teeth and horns are
+everywhere. The patrons all eye you with diabolical eye.  You should probably
+leave.
+~
+0 0 0
+D2
+Exit description~
+~
+0 0 12192
+D4
+Exit description~
+~
+0 0 12199
+S
+#12199
+The Warrior's Inn~
+This massive inn is probably the largest of any tavern in the city but is
+mostly empty.  Only the locals and those that are not afraid of anything stay
+here.  The wooden floors are soaked in blood and a few teeth and horns are
+everywhere. The patrons all eye you with diabolical eye.  You should probably
+leave.
+~
+0 0 0
+D5
+Exit description~
+~
+0 0 12198
+S
+#0
+
+
+#RESETS
+M 0 12101 1 12103
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12144 1 12108
+M 0 12145 1 12110
+M 0 12120 1 12115
+M 0 12121 1 12117
+M 0 12122 1 12119
+M 0 12123 1 12120
+M 0 12104 1 12122
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12116 1 12124
+M 0 12152 1 12125
+G 1 12122 1
+G 1 12121 1
+M 0 12118 1 12127
+M 0 12110 1 12130
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12155 1 12131
+G 1 12106 1
+G 1 12105 1
+M 0 12102 1 12133
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12124 1 12134
+M 0 12153 1 12135
+G 1 12103 1
+G 1 12115 1
+G 1 12114 1
+M 0 12105 1 12136
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12117 1 12138
+M 0 12125 1 12140
+M 0 12126 1 12141
+M 0 12111 1 12142
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12112 1 12142
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12146 1 12144
+M 0 12141 1 12145
+M 0 12106 1 12147
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12127 1 12149
+M 0 12154 1 12150
+G 1 12104 1
+M 0 12113 1 12152
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12147 1 12154
+M 0 12108 1 12156
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12142 1 12159
+M 0 12143 1 12159
+M 0 12128 1 12160
+M 0 12129 1 12166
+M 0 12130 1 12167
+M 0 12139 1 12169
+M 0 12138 1 12170
+M 0 12137 1 12178
+M 0 12136 1 12179
+M 0 12133 1 12181
+M 0 12103 1 12184
+M 0 12109 1 12184
+M 0 12115 1 12185
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12114 1 12185
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12156 1 12187
+E 1 12111 1 21
+M 0 12157 1 12191
+E 1 12111 1 21
+M 0 12150 1 12195
+G 1 12119 1
+G 1 12118 1
+G 1 12117 1
+G 1 12116 1
+M 0 12149 1 12196
+G 1 12112 1
+G 1 12111 1
+G 1 12113 1
+M 0 12148 1 12197
+G 1 12108 1
+G 1 12109 1
+G 1 12107 1
+G 1 12110 1
+M 0 12151 1 12198
+G 1 12123 1
+G 1 12120 1
+M 0 12117 1 12162
+M 0 12119 1 12164
+M 0 12132 1 12168
+M 0 12134 1 12169
+M 0 12135 1 12171
+M 0 12140 1 12148
+M 0 12107 1 12164
+E 1 12102 1 21
+E 1 12101 1 7
+M 0 12131 1 12172
+S
+
+
+#SHOPS
+ 12148    9 65 67 11  0   120  90         0 23    ; Zirela, the minotaur blacksmith
+ 12149   64  5  8  0  0   120  90         0 23    ; Ginel, the goblin scrapper
+ 12150   10  3  2 60  0   120  90         0 23    ; Xozir, the wolfen shaman
+ 12151    0  0  0  0  0   120  90         0 23    ; Tuniz the bartender
+ 12152    0  0  0  0  0   120  90         0 23    ; Zunit the barmiad
+ 12153    3 10 60  4  0   120  90         0 23    ; Ixquit the cleric
+ 12154   63  0  0  0  0   120  90         0 23    ; Xoxuna the healer
+ 12155    0  0  0  0  0   120  90         0 23    ; Siran the bartender
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  12101 spec_guard
+M  12102 spec_guard
+M  12103 spec_guard
+M  12104 spec_guard
+M  12105 spec_guard
+M  12106 spec_guard
+M  12107 spec_guard
+M  12108 spec_guard
+M  12109 spec_guard
+M  12110 spec_guard
+M  12111 spec_guard
+M  12112 spec_guard
+M  12113 spec_guard
+M  12114 spec_guard
+M  12150 spec_cast_mage
+M  12153 spec_cast_cleric
+M  12154 spec_cast_mage
+S
+
+
+#$

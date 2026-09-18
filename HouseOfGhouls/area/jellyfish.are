@@ -1,0 +1,5097 @@
+#AREA   Jellyfish Heaven~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+20 40 0 65
+$
+
+#RESETMSG A salty breeze brushes by your face...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 44327855
+
+#CLIMATE 3 1 1
+
+#MOBILES
+#2501
+moon jelly jellyfish pink~
+a moon jelly~
+A small pink jelly with an orange cloverleaf pattern in the center.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is a lot like L.A.
+
+~
+65 524288 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 8 0
+#2502
+moon jelly jellyfish pink~
+a moon jelly~
+A small pink jelly with an orange cloverleaf pattern in the center.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is a lot like L.A.
+~
+16777281 524288 0 C
+17 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 8 0
+#2503
+stinging nettle jellyfish white~
+a stinging nettle~
+A small jelly with small white dots and reddish-brown stripes in the center.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is full of dead jellyfish.
+~
+65 524288 0 C
+19 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2504
+stinging nettle jellyfish white~
+a stinging nettle~
+A small jelly with small white dots and reddish-brown stripes in the center.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is full of dead jellyfish.
+~
+16777281 524288 0 C
+19 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2505
+cannonball jelly jellyfish rigid milky~
+a cannonball jelly~
+A rounded, rigid jelly, milky in color with a reddish-brown pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is not like Japan.
+
+~
+65 524288 0 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2506
+cannonball jelly jellyfish rigid milky~
+a cannonball jelly~
+A rounded, rigid jelly, milky in color with a reddish-brown pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is not like Japan.
+
+~
+16777281 524288 0 C
+21 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2507
+comb jelly jellyfish small~
+a comb jelly~
+A small jelly with semi-transparent rows running the length of its body.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is not like Thailand.
+
+~
+16777281 524288 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 0 0
+#2508
+comb jelly jellyfish small~
+a comb jelly~
+A small jelly with semi-transparent rows running the length of its body.
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven is not like Thailand.
+
+~
+65 524288 0 C
+23 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 0 0
+#2509
+spotted jelly jellyfish white~
+a spotted jelly~
+A largish jelly with white spots on bell
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven in the big blue sea, where it's too cold to surf and it's too
+warm to ski.
+~
+16777281 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2510
+spotted jelly jellyfish white~
+a spotted jelly~
+A largish jelly with white spots on bell
+~
+Jellyfish heaven...where jellyfish go!
+
+Jellyfish heaven in the big blue sea, where it's too cold to surf and it's too
+warm to ski.
+~
+65 524288 0 C
+25 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2511
+purple jelly jellyfish~
+a purple jelly~
+A purple jelly with wart-like stinging structures.
+~
+Jellyfish heaven...where jellyfish go!
+
+People always saying, "I won't eat no jellyfish 'cause they ain't got no bones
+and you can't make a wish."
+~
+65 524288 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2512
+purple jelly jellyfish~
+a purple jelly~
+A purple jelly with wart-like stinging structures.
+~
+Jellyfish heaven...where jellyfish go!
+
+People always saying, "I won't eat no jellyfish 'cause they ain't got no bones
+and you can't make a wish."
+~
+16777281 524288 0 C
+27 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2513
+box jelly jellyfish clear~
+a box jelly~
+A clear jelly with four pinkish-yellow tentacles.
+~
+Jellyfish heaven...where jellyfish go!
+
+People always shouting "Don't go swimming near those things!", but when
+they're close to dying you can hear them sing.
+
+~
+65 524288 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2514
+box jelly jellyfish clear~
+a box jelly~
+A clear jelly with four pinkish-yellow tentacles.
+~
+Jellyfish heaven...where jellyfish go!
+
+People always shouting "Don't go swimming near those things!", but when
+they're close to dying you can hear them sing.
+
+~
+16777281 524288 0 C
+29 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2515
+lions mane jelly jellyfish smooth~
+a lions mane jelly~
+A smooth jelly with ragged edges resembling a many-pointed star when extended.
+~
+Jellyfish heaven...where jellyfish go!
+
+I've been dazed and confused for so long it's not true; I wanted a jellyfish,
+never bargained for you.
+
+
+~
+16777281 524288 0 C
+31 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2516
+lions mane jelly jellyfish smooth~
+a lions mane jelly~
+A smooth jelly with ragged edges resembling a many-pointed star when extended.
+~
+Jellyfish heaven...where jellyfish go!
+
+I've been dazed and confused for so long it's not true; I wanted a jellyfish,
+never bargained for you.
+
+
+~
+65 524288 0 C
+31 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2517
+big pink jelly jellyfish~
+a big pink jelly~
+A large pink jelly with frilly arms and extremely long tentacles.
+~
+Jellyfish heaven...where jellyfish go!
+
+Lot's of people talking, few of them know; the soul of a jellyfish was created
+below!
+
+
+~
+65 524288 0 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2518
+big pink jelly jellyfish~
+a big pink jelly~
+A large pink jelly with frilly arms and extremely long tentacles.
+~
+Jellyfish heaven...where jellyfish go!
+
+Lot's of people talking, few of them know; the soul of a jellyfish was created
+below!
+
+
+~
+16777281 524288 0 C
+33 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2519
+cabbagehead jelly jellyfish ball~
+a cabbagehead jelly~
+A ball-like jelly with a fancy white pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+Papa don't preach!  I'm gonna keep my jellyfish!
+
+
+~
+16777281 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2520
+cabbagehead jelly jellyfish ball~
+a cabbagehead jelly~
+A ball-like jelly with a fancy white pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+Papa don't preach!  I'm gonna keep my jellyfish!
+
+
+~
+65 524288 0 C
+35 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2521
+saucer jelly jellyfish delicate~
+a saucer jelly~
+A delicate jelly with an exquisite pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+If you're bad you'll go to hell and jellyfish will sting you and your body
+will swell.
+
+
+
+~
+65 524288 0 C
+37 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2522
+saucer jelly jellyfish delicate~
+a saucer jelly~
+A delicate jelly with an exquisite pattern.
+~
+Jellyfish heaven...where jellyfish go!
+
+If you're bad you'll go to hell and jellyfish will sting you and your body
+will swell.
+
+
+
+~
+16777281 524288 0 C
+37 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2523
+sea wasp jellyfish square colorless~
+a sea wasp jelly~
+A colorless, square-shaped jelly.
+~
+Jellyfish heaven...where jellyfish go!
+
+Gotta go somewhere when you die, so why not see the world through jellyfish
+eyes.
+
+
+
+~
+16777281 524288 0 C
+39 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2524
+sea wasp jellyfish square colorless~
+a sea wasp jelly~
+A colorless, square-shaped jelly.
+~
+Jellyfish heaven...where jellyfish go!
+
+Gotta go somewhere when you die, so why not see the world through jellyfish
+eyes.
+
+
+
+~
+65 524288 0 C
+39 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 3 0 0 1 1 0
+0 0 8192 0 0 0 131080 0
+#2525
+hydromedusae jellyfish~
+a hydromedusae~
+A large jellyfish floats about on a warm breeze.
+~
+Jellyfish heaven...where jellyfish go!
+
+Sweet jellyfish!  Sweet jellyfish!
+~
+67 524416 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 0 0 0 1 1 0
+0 0 8192 0 0 0 16908296 4
+#2526
+hydromedusae jellyfish~
+a hydromedusae~
+A large jellyfish floats about on a warm breeze.
+~
+Jellyfish heaven...where jellyfish go!
+
+Sweet jellyfish!  Sweet jellyfish!
+~
+67 524416 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 0 0 0 1 1 0
+0 0 8192 0 0 0 16908296 4
+#2527
+king jellyfish~
+King Jelly~
+A monstrous jellyfish sits in the throne, tentacles spread out around the room.
+~
+HOLY COW!  This jellyfish is huge, it can only be the King of the Jellyfish!
+~
+67 0 0 C
+55 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 24 0 0 1 1 0
+0 0 0 2097152 0 0 0 0
+> death_prog 20~
+emote collapes in a pile of shaking tentacles!
+
+~
+|
+#2528
+hydromedusae jellyfish~
+a hydromedusae~
+A large jellyfish floats about on a warm breeze.
+~
+Jellyfish heaven...where jellyfish go!
+
+Sweet jellyfish!  Sweet jellyfish!
+~
+67 524416 0 C
+45 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+51 0 0 0 1 1 0
+0 0 8192 0 0 0 16908296 4
+#2529
+Spout Mob~
+Spout Mob~
+Spout Mob
+~
+Spout Mob
+~
+14680131 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 50~
+if level($r) < 51
+  mpechoat $r You are sucked upwards by the swirling winds!
+  mpechoaround $r $r is sucked upwards by the swirling winds!
+  mptransfer $r 2502
+  mpat $r mpforce $r look
+endif
+~
+|
+#2530
+Spout Mob~
+Spout Mob~
+Spout Mob
+~
+Spout Mob
+~
+14680131 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 50~
+if level($r) < 51
+  mpechoat $r You are sucked upwards by the swirling winds!
+  mpechoaround $r $r is sucked upwards by the swirling winds!
+  mptransfer $r 2503
+  mpat $r mpforce $r look
+endif
+~
+|
+#2531
+Spout Mob~
+Spout Mob~
+Spout Mob
+~
+Spout Mob
+~
+14680131 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 50~
+if level($r) < 51
+  mpechoat $r You are sucked upwards by the swirling winds!
+  mpechoaround $r $r is sucked upwards by the swirling winds!
+  mptransfer $r 2504
+  mpat $r mpforce $r look
+endif
+
+~
+|
+#2532
+Spout Mob~
+Spout Mob~
+Spout Mob
+~
+Spout Mob
+~
+14680131 4194304&256 0 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 50~
+if level($r) < 51
+  mpechoat $r You are sucked upwards by the swirling winds!
+  mpechoaround $r $r is sucked upwards by the swirling winds!
+  mptransfer $r 2505
+  mpat $r mpforce $r look
+endif
+~
+|
+#2700
+new mob~
+Dont Change This Mob~
+A newly created mob is standing here
+~
+Someone has abandoned a new mob here
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2501
+key cartilage~
+a cartilage key~
+A strange key, carved from what looks to be bone.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#2502
+crown tentacle~
+the tentacle crown~
+A strange crown made of entwined tentacles.~
+~
+9 66 3
+5 5 0 0
+2 0 0
+A
+27 256
+A
+27 128
+A
+19 2
+#2503
+sign~
+a small sign~
+A small sign floats in the air here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+sign small~
+This small sign glows brightly, and floats with no visible support...
+
+"Thanks to the Dead Milkmen for their inspiration on this area.  Also thanks
+to the Dauphin Island Dockwatch webpage for all the jellyfish info!"
+
+The ghoulish rune for "D" is stamped into the bottom of the sign.
+~
+#2700
+Object name~
+Dont Change This Object~
+A newly created object sits here.
+~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2501
+The Waterspout~
+You float in the middle of a large swirling waterspout, the winds pulling you
+in an upward direction.  A bright light shines down from you above, and as far
+as you can tell, you are headed upwards towards a large collection of puffy
+clouds.
+~
+0 1028 9
+S
+#2502
+The Waterspout~
+You float in the middle of a large swirling waterspout, the winds pulling you
+in an upward direction.  A bright light shines down from you above, and as far
+as you can tell, you are headed upwards towards a large collection of puffy
+clouds.
+~
+0 1028 9
+S
+#2503
+The Waterspout~
+You float in the middle of a large swirling waterspout, the winds pulling you
+in an upward direction.  A bright light shines down from you above, and as far
+as you can tell, you are headed upwards towards a large collection of puffy
+clouds.
+~
+0 1028 9
+S
+#2504
+The Waterspout~
+You float in the middle of a large swirling waterspout, the winds pulling you
+in an upward direction.  A bright light shines down from you above, and as far
+as you can tell, you are headed upwards towards a large collection of puffy
+clouds.
+~
+0 1028 9
+S
+#2505
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2506
+D1
+~
+~
+0 0 2524
+D2
+~
+~
+0 0 2526
+D3
+~
+~
+0 0 2528
+D4
+~
+~
+0 0 2566
+S
+#2506
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2507
+D1
+~
+~
+0 0 2523
+D2
+Exit description~
+~
+0 0 2505
+D3
+~
+~
+0 0 2529
+D4
+~
+~
+0 0 2567
+S
+#2507
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2522
+D2
+Exit description~
+~
+0 0 2506
+D3
+~
+~
+0 0 2508
+D4
+~
+~
+0 0 2568
+S
+#2508
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2507
+D2
+~
+~
+0 0 2529
+D3
+~
+~
+0 0 2509
+D4
+~
+~
+0 0 2559
+S
+#2509
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2508
+D2
+~
+~
+0 0 2510
+D4
+~
+~
+0 0 2558
+S
+#2510
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2509
+D1
+~
+~
+0 0 2529
+D2
+~
+~
+0 0 2511
+D4
+~
+~
+0 0 2557
+S
+#2511
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2510
+D1
+~
+~
+0 0 2528
+D2
+~
+~
+0 0 2512
+D4
+~
+~
+0 0 2556
+S
+#2512
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2511
+D1
+~
+~
+0 0 2527
+D2
+~
+~
+0 0 2513
+D4
+~
+~
+0 0 2555
+S
+#2513
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2512
+D1
+~
+~
+0 0 2514
+D4
+~
+~
+0 0 2554
+S
+#2514
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2527
+D1
+~
+~
+0 0 2515
+D3
+Exit description~
+~
+0 0 2513
+D4
+~
+~
+0 0 2563
+S
+#2515
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2526
+D1
+~
+~
+0 0 2516
+D3
+Exit description~
+~
+0 0 2514
+D4
+~
+~
+0 0 2564
+S
+#2516
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2525
+D1
+~
+~
+0 0 2517
+D3
+Exit description~
+~
+0 0 2515
+D4
+~
+~
+0 0 2573
+S
+#2517
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2518
+D3
+Exit description~
+~
+0 0 2516
+D4
+~
+~
+0 0 2574
+S
+#2518
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2519
+D2
+Exit description~
+~
+0 0 2517
+D3
+~
+~
+0 0 2525
+D4
+~
+~
+0 0 2575
+S
+#2519
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2520
+D2
+Exit description~
+~
+0 0 2518
+D3
+~
+~
+0 0 2524
+D4
+~
+~
+0 0 2576
+S
+#2520
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2521
+D2
+Exit description~
+~
+0 0 2519
+D3
+~
+~
+0 0 2523
+D4
+~
+~
+0 0 2577
+S
+#2521
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D2
+Exit description~
+~
+0 0 2520
+D3
+~
+~
+0 0 2522
+D4
+~
+~
+0 0 2578
+S
+#2522
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2521
+D2
+~
+~
+0 0 2523
+D3
+Exit description~
+~
+0 0 2507
+D4
+~
+~
+0 0 2569
+S
+#2523
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2522
+D1
+Exit description~
+~
+0 0 2520
+D2
+~
+~
+0 0 2524
+D3
+Exit description~
+~
+0 0 2506
+D4
+~
+~
+0 0 2570
+S
+#2524
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2523
+D1
+Exit description~
+~
+0 0 2519
+D2
+~
+~
+0 0 2525
+D3
+Exit description~
+~
+0 0 2505
+D4
+~
+~
+0 0 2571
+S
+#2525
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2524
+D1
+Exit description~
+~
+0 0 2518
+D2
+Exit description~
+~
+0 0 2516
+D3
+~
+~
+0 0 2526
+D4
+~
+~
+0 0 2572
+S
+#2526
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2505
+D1
+Exit description~
+~
+0 0 2525
+D2
+Exit description~
+~
+0 0 2515
+D3
+~
+~
+0 0 2527
+D4
+~
+~
+0 0 2565
+S
+#2527
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2528
+D1
+Exit description~
+~
+0 0 2526
+D2
+Exit description~
+~
+0 0 2514
+D3
+Exit description~
+~
+0 0 2512
+D4
+~
+~
+0 0 2562
+S
+#2528
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2529
+D1
+Exit description~
+~
+0 0 2505
+D2
+Exit description~
+~
+0 0 2527
+D3
+Exit description~
+~
+0 0 2511
+D4
+~
+~
+0 0 2561
+S
+#2529
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2508
+D1
+Exit description~
+~
+0 0 2506
+D2
+Exit description~
+~
+0 0 2528
+D3
+Exit description~
+~
+0 0 2510
+D4
+~
+~
+0 0 2560
+S
+#2530
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2531
+D1
+~
+~
+0 0 2553
+D4
+~
+~
+0 0 2585
+S
+#2531
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2532
+D1
+~
+~
+0 0 2554
+D2
+Exit description~
+~
+0 0 2530
+D4
+~
+~
+0 0 2584
+S
+#2532
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2533
+D1
+~
+~
+0 0 2555
+D2
+Exit description~
+~
+0 0 2531
+D4
+~
+~
+0 0 2583
+S
+#2533
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2534
+D1
+~
+~
+0 0 2556
+D2
+Exit description~
+~
+0 0 2532
+D4
+~
+~
+0 0 2582
+S
+#2534
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2535
+D1
+~
+~
+0 0 2557
+D2
+Exit description~
+~
+0 0 2533
+D4
+~
+~
+0 0 2581
+S
+#2535
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2536
+D1
+~
+~
+0 0 2558
+D2
+Exit description~
+~
+0 0 2534
+D4
+~
+~
+0 0 2580
+S
+#2536
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2537
+D2
+Exit description~
+~
+0 0 2535
+D4
+~
+~
+0 0 2579
+S
+#2537
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2538
+D2
+~
+~
+0 0 2558
+D3
+Exit description~
+~
+0 0 2536
+D4
+~
+~
+0 0 2602
+S
+#2538
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2539
+D2
+~
+~
+0 0 2559
+D3
+Exit description~
+~
+0 0 2537
+D4
+~
+~
+0 0 2601
+S
+#2539
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2540
+D2
+~
+~
+0 0 2568
+D3
+Exit description~
+~
+0 0 2538
+D4
+~
+~
+0 0 2600
+S
+#2540
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2541
+D2
+~
+~
+0 0 2569
+D3
+Exit description~
+~
+0 0 2539
+D4
+~
+~
+0 0 2599
+S
+#2541
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2542
+D2
+~
+~
+0 0 2578
+D3
+Exit description~
+~
+0 0 2540
+D4
+~
+~
+0 0 2598
+S
+#2542
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D2
+~
+~
+0 0 2543
+D3
+Exit description~
+~
+0 0 2541
+D4
+~
+~
+0 0 2597
+S
+#2543
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2542
+D2
+~
+~
+0 0 2544
+D3
+~
+~
+0 0 2578
+D4
+~
+~
+0 0 2596
+S
+#2544
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2543
+D2
+~
+~
+0 0 2545
+D3
+~
+~
+0 0 2577
+D4
+~
+~
+0 0 2595
+S
+#2545
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2544
+D2
+~
+~
+0 0 2546
+D3
+~
+~
+0 0 2576
+D4
+~
+~
+0 0 2594
+S
+#2546
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2545
+D2
+~
+~
+0 0 2547
+D3
+~
+~
+0 0 2575
+D4
+~
+~
+0 0 2593
+S
+#2547
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2546
+D2
+~
+~
+0 0 2548
+D3
+~
+~
+0 0 2574
+D4
+~
+~
+0 0 2592
+S
+#2548
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2547
+D3
+~
+~
+0 0 2549
+D4
+~
+~
+0 0 2591
+S
+#2549
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2574
+D1
+Exit description~
+~
+0 0 2548
+D3
+~
+~
+0 0 2550
+D4
+~
+~
+0 0 2590
+S
+#2550
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2573
+D1
+Exit description~
+~
+0 0 2549
+D3
+~
+~
+0 0 2551
+D4
+~
+~
+0 0 2589
+S
+#2551
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2564
+D1
+Exit description~
+~
+0 0 2550
+D3
+~
+~
+0 0 2552
+D4
+~
+~
+0 0 2588
+S
+#2552
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2563
+D1
+Exit description~
+~
+0 0 2551
+D3
+~
+~
+0 0 2553
+D4
+~
+~
+0 0 2587
+S
+#2553
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2554
+D1
+Exit description~
+~
+0 0 2552
+D3
+Exit description~
+~
+0 0 2530
+D4
+~
+~
+0 0 2586
+S
+#2554
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2555
+D1
+~
+~
+0 0 2563
+D2
+Exit description~
+~
+0 0 2553
+D3
+Exit description~
+~
+0 0 2531
+D4
+~
+~
+0 0 2607
+D5
+Exit description~
+~
+0 0 2513
+S
+#2555
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2556
+D1
+~
+~
+0 0 2562
+D2
+Exit description~
+~
+0 0 2554
+D3
+Exit description~
+~
+0 0 2532
+D4
+~
+~
+0 0 2606
+D5
+Exit description~
+~
+0 0 2512
+S
+#2556
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2557
+D1
+~
+~
+0 0 2561
+D2
+Exit description~
+~
+0 0 2555
+D3
+Exit description~
+~
+0 0 2533
+D4
+~
+~
+0 0 2605
+D5
+Exit description~
+~
+0 0 2511
+S
+#2557
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2558
+D1
+~
+~
+0 0 2560
+D2
+Exit description~
+~
+0 0 2556
+D3
+Exit description~
+~
+0 0 2534
+D4
+~
+~
+0 0 2604
+D5
+Exit description~
+~
+0 0 2510
+S
+#2558
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2537
+D1
+~
+~
+0 0 2559
+D2
+Exit description~
+~
+0 0 2557
+D3
+Exit description~
+~
+0 0 2535
+D4
+~
+~
+0 0 2603
+D5
+Exit description~
+~
+0 0 2509
+S
+#2559
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2538
+D1
+~
+~
+0 0 2568
+D2
+~
+~
+0 0 2560
+D3
+Exit description~
+~
+0 0 2558
+D4
+~
+~
+0 0 2612
+D5
+Exit description~
+~
+0 0 2508
+S
+#2560
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2559
+D1
+~
+~
+0 0 2567
+D2
+~
+~
+0 0 2561
+D3
+~
+~
+0 0 2557
+D4
+~
+~
+0 0 2611
+D5
+Exit description~
+~
+0 0 2529
+S
+#2561
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2560
+D1
+~
+~
+0 0 2566
+D2
+~
+~
+0 0 2562
+D3
+Exit description~
+~
+0 0 2556
+D4
+~
+~
+0 0 2610
+D5
+Exit description~
+~
+0 0 2528
+S
+#2562
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2561
+D1
+~
+~
+0 0 2565
+D2
+~
+~
+0 0 2563
+D3
+Exit description~
+~
+0 0 2555
+D4
+~
+~
+0 0 2609
+D5
+Exit description~
+~
+0 0 2527
+S
+#2563
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2562
+D1
+~
+~
+0 0 2564
+D2
+Exit description~
+~
+0 0 2552
+D3
+Exit description~
+~
+0 0 2554
+D4
+~
+~
+0 0 2608
+D5
+Exit description~
+~
+0 0 2514
+S
+#2564
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2565
+D1
+~
+~
+0 0 2573
+D2
+Exit description~
+~
+0 0 2551
+D3
+Exit description~
+~
+0 0 2563
+D4
+~
+~
+0 0 2617
+D5
+~
+~
+0 0 2515
+S
+#2565
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2566
+D1
+~
+~
+0 0 2572
+D2
+Exit description~
+~
+0 0 2564
+D3
+Exit description~
+~
+0 0 2562
+D4
+~
+~
+0 0 2616
+D5
+Exit description~
+~
+0 0 2526
+S
+#2566
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2567
+D1
+~
+~
+0 0 2571
+D2
+Exit description~
+~
+0 0 2565
+D3
+Exit description~
+~
+0 0 2561
+D4
+~
+~
+0 0 2615
+D5
+Exit description~
+~
+0 0 2505
+S
+#2567
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2568
+D1
+~
+~
+0 0 2570
+D2
+Exit description~
+~
+0 0 2566
+D3
+Exit description~
+~
+0 0 2560
+D4
+~
+~
+0 0 2614
+D5
+Exit description~
+~
+0 0 2506
+S
+#2568
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2539
+D1
+~
+~
+0 0 2569
+D2
+Exit description~
+~
+0 0 2567
+D3
+Exit description~
+~
+0 0 2559
+D4
+~
+~
+0 0 2613
+D5
+Exit description~
+~
+0 0 2507
+S
+#2569
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2540
+D1
+~
+~
+0 0 2578
+D2
+~
+~
+0 0 2570
+D3
+Exit description~
+~
+0 0 2568
+D4
+~
+~
+0 0 2622
+D5
+Exit description~
+~
+0 0 2522
+S
+#2570
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2569
+D1
+~
+~
+0 0 2577
+D2
+~
+~
+0 0 2571
+D3
+Exit description~
+~
+0 0 2567
+D4
+~
+~
+0 0 2621
+D5
+Exit description~
+~
+0 0 2523
+S
+#2571
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2570
+D1
+~
+~
+0 0 2576
+D2
+~
+~
+0 0 2572
+D3
+Exit description~
+~
+0 0 2566
+D4
+~
+~
+0 0 2620
+D5
+Exit description~
+~
+0 0 2524
+S
+#2572
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2571
+D1
+~
+~
+0 0 2575
+D2
+~
+~
+0 0 2573
+D3
+Exit description~
+~
+0 0 2565
+D4
+~
+~
+0 0 2619
+D5
+Exit description~
+~
+0 0 2525
+S
+#2573
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2572
+D1
+~
+~
+0 0 2574
+D2
+Exit description~
+~
+0 0 2550
+D3
+Exit description~
+~
+0 0 2564
+D4
+~
+~
+0 0 2618
+D5
+Exit description~
+~
+0 0 2516
+S
+#2574
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2575
+D1
+Exit description~
+~
+0 0 2547
+D2
+Exit description~
+~
+0 0 2549
+D3
+Exit description~
+~
+0 0 2573
+D4
+~
+~
+0 0 2627
+D5
+Exit description~
+~
+0 0 2517
+S
+#2575
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2576
+D1
+Exit description~
+~
+0 0 2546
+D2
+Exit description~
+~
+0 0 2574
+D3
+Exit description~
+~
+0 0 2572
+D4
+~
+~
+0 0 2626
+D5
+Exit description~
+~
+0 0 2518
+S
+#2576
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2577
+D1
+Exit description~
+~
+0 0 2545
+D2
+Exit description~
+~
+0 0 2575
+D3
+Exit description~
+~
+0 0 2571
+D4
+~
+~
+0 0 2625
+D5
+Exit description~
+~
+0 0 2519
+S
+#2577
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2578
+D1
+Exit description~
+~
+0 0 2544
+D2
+Exit description~
+~
+0 0 2576
+D3
+Exit description~
+~
+0 0 2570
+D4
+~
+~
+0 0 2624
+D5
+Exit description~
+~
+0 0 2520
+S
+#2578
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2541
+D1
+Exit description~
+~
+0 0 2543
+D2
+Exit description~
+~
+0 0 2577
+D3
+Exit description~
+~
+0 0 2569
+D4
+~
+~
+0 0 2623
+D5
+Exit description~
+~
+0 0 2521
+S
+#2579
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2602
+D2
+~
+~
+0 0 2580
+D5
+Exit description~
+~
+0 0 2536
+S
+#2580
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2579
+D1
+~
+~
+0 0 2603
+D2
+~
+~
+0 0 2581
+D5
+Exit description~
+~
+0 0 2535
+S
+#2581
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2580
+D1
+~
+~
+0 0 2604
+D2
+~
+~
+0 0 2582
+D5
+Exit description~
+~
+0 0 2534
+S
+#2582
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2581
+D1
+~
+~
+0 0 2605
+D2
+~
+~
+0 0 2583
+D5
+Exit description~
+~
+0 0 2533
+S
+#2583
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2582
+D1
+~
+~
+0 0 2606
+D2
+~
+~
+0 0 2584
+D5
+Exit description~
+~
+0 0 2532
+S
+#2584
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2583
+D1
+~
+~
+0 0 2607
+D2
+~
+~
+0 0 2585
+D5
+Exit description~
+~
+0 0 2531
+S
+#2585
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2584
+D1
+~
+~
+0 0 2586
+D5
+Exit description~
+~
+0 0 2530
+S
+#2586
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2607
+D1
+~
+~
+0 0 2587
+D3
+Exit description~
+~
+0 0 2585
+D5
+Exit description~
+~
+0 0 2553
+S
+#2587
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2608
+D1
+~
+~
+0 0 2588
+D3
+~
+~
+0 0 2586
+D5
+Exit description~
+~
+0 0 2552
+S
+#2588
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2617
+D1
+~
+~
+0 0 2589
+D3
+Exit description~
+~
+0 0 2587
+D5
+Exit description~
+~
+0 0 2551
+S
+#2589
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2618
+D1
+~
+~
+0 0 2590
+D3
+Exit description~
+~
+0 0 2588
+D5
+Exit description~
+~
+0 0 2550
+S
+#2590
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2627
+D1
+~
+~
+0 0 2591
+D3
+Exit description~
+~
+0 0 2589
+D5
+Exit description~
+~
+0 0 2549
+S
+#2591
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2592
+D3
+Exit description~
+~
+0 0 2590
+D5
+Exit description~
+~
+0 0 2548
+S
+#2592
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2593
+D2
+Exit description~
+~
+0 0 2591
+D3
+~
+~
+0 0 2627
+D5
+Exit description~
+~
+0 0 2547
+S
+#2593
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2594
+D2
+Exit description~
+~
+0 0 2592
+D3
+~
+~
+0 0 2626
+D5
+Exit description~
+~
+0 0 2546
+S
+#2594
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2595
+D2
+Exit description~
+~
+0 0 2593
+D3
+~
+~
+0 0 2625
+D5
+Exit description~
+~
+0 0 2545
+S
+#2595
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2596
+D2
+Exit description~
+~
+0 0 2594
+D3
+~
+~
+0 0 2624
+D5
+Exit description~
+~
+0 0 2544
+S
+#2596
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2597
+D2
+Exit description~
+~
+0 0 2595
+D3
+~
+~
+0 0 2623
+D5
+Exit description~
+~
+0 0 2543
+S
+#2597
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D2
+Exit description~
+~
+0 0 2596
+D3
+~
+~
+0 0 2598
+D5
+Exit description~
+~
+0 0 2542
+S
+#2598
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2597
+D2
+~
+~
+0 0 2623
+D3
+~
+~
+0 0 2599
+D5
+Exit description~
+~
+0 0 2541
+S
+#2599
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2598
+D2
+~
+~
+0 0 2622
+D3
+~
+~
+0 0 2600
+D5
+Exit description~
+~
+0 0 2540
+S
+#2600
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2599
+D2
+~
+~
+0 0 2613
+D3
+~
+~
+0 0 2601
+D5
+~
+~
+0 0 2539
+S
+#2601
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2600
+D2
+~
+~
+0 0 2612
+D3
+~
+~
+0 0 2602
+D5
+Exit description~
+~
+0 0 2538
+S
+#2602
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2601
+D2
+~
+~
+0 0 2603
+D3
+Exit description~
+~
+0 0 2579
+D5
+Exit description~
+~
+0 0 2537
+S
+#2603
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2602
+D1
+~
+~
+0 0 2612
+D2
+~
+~
+0 0 2604
+D3
+Exit description~
+~
+0 0 2580
+D4
+~
+~
+0 0 2628
+D5
+Exit description~
+~
+0 0 2558
+S
+#2604
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2603
+D1
+~
+~
+0 0 2611
+D2
+~
+~
+0 0 2605
+D3
+Exit description~
+~
+0 0 2581
+D4
+~
+~
+0 0 2629
+D5
+Exit description~
+~
+0 0 2557
+S
+#2605
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2604
+D1
+~
+~
+0 0 2610
+D2
+~
+~
+0 0 2606
+D3
+Exit description~
+~
+0 0 2582
+D4
+~
+~
+0 0 2630
+D5
+~
+~
+0 0 2556
+S
+#2606
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2605
+D1
+~
+~
+0 0 2609
+D2
+~
+~
+0 0 2607
+D3
+Exit description~
+~
+0 0 2583
+D4
+~
+~
+0 0 2631
+D5
+Exit description~
+~
+0 0 2555
+S
+#2607
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2606
+D1
+~
+~
+0 0 2608
+D2
+Exit description~
+~
+0 0 2586
+D3
+Exit description~
+~
+0 0 2584
+D4
+~
+~
+0 0 2632
+D5
+Exit description~
+~
+0 0 2554
+S
+#2608
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2609
+D1
+~
+~
+0 0 2617
+D2
+Exit description~
+~
+0 0 2587
+D3
+Exit description~
+~
+0 0 2607
+D4
+~
+~
+0 0 2633
+D5
+Exit description~
+~
+0 0 2563
+S
+#2609
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2610
+D1
+~
+~
+0 0 2616
+D2
+Exit description~
+~
+0 0 2608
+D3
+Exit description~
+~
+0 0 2606
+D4
+~
+~
+0 0 2646
+D5
+Exit description~
+~
+0 0 2562
+S
+#2610
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2611
+D1
+~
+~
+0 0 2615
+D2
+Exit description~
+~
+0 0 2609
+D3
+Exit description~
+~
+0 0 2605
+D4
+~
+~
+0 0 2645
+D5
+Exit description~
+~
+0 0 2561
+S
+#2611
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2612
+D1
+~
+~
+0 0 2614
+D2
+Exit description~
+~
+0 0 2610
+D3
+Exit description~
+~
+0 0 2604
+D4
+~
+~
+0 0 2644
+D5
+Exit description~
+~
+0 0 2560
+S
+#2612
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2601
+D1
+~
+~
+0 0 2613
+D2
+Exit description~
+~
+0 0 2611
+D3
+Exit description~
+~
+0 0 2603
+D4
+~
+~
+0 0 2643
+D5
+Exit description~
+~
+0 0 2559
+S
+#2613
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2600
+D1
+~
+~
+0 0 2622
+D2
+~
+~
+0 0 2614
+D3
+Exit description~
+~
+0 0 2612
+D4
+~
+~
+0 0 2642
+D5
+Exit description~
+~
+0 0 2568
+S
+#2614
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2613
+D1
+~
+~
+0 0 2621
+D2
+~
+~
+0 0 2615
+D3
+Exit description~
+~
+0 0 2611
+D4
+~
+~
+0 0 2649
+D5
+Exit description~
+~
+0 0 2567
+S
+#2615
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2614
+D1
+~
+~
+0 0 2620
+D2
+~
+~
+0 0 2616
+D3
+Exit description~
+~
+0 0 2610
+D4
+~
+~
+0 0 2648
+D5
+Exit description~
+~
+0 0 2566
+S
+#2616
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2615
+D1
+~
+~
+0 0 2619
+D2
+~
+~
+0 0 2617
+D3
+Exit description~
+~
+0 0 2609
+D4
+~
+~
+0 0 2647
+D5
+Exit description~
+~
+0 0 2565
+S
+#2617
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2616
+D1
+~
+~
+0 0 2618
+D2
+Exit description~
+~
+0 0 2588
+D3
+Exit description~
+~
+0 0 2608
+D4
+~
+~
+0 0 2634
+D5
+Exit description~
+~
+0 0 2564
+S
+#2618
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2619
+D1
+~
+~
+0 0 2627
+D2
+Exit description~
+~
+0 0 2589
+D3
+Exit description~
+~
+0 0 2617
+D4
+~
+~
+0 0 2635
+D5
+Exit description~
+~
+0 0 2573
+S
+#2619
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2620
+D1
+~
+~
+0 0 2626
+D2
+Exit description~
+~
+0 0 2618
+D3
+Exit description~
+~
+0 0 2616
+D4
+~
+~
+0 0 2652
+D5
+Exit description~
+~
+0 0 2572
+S
+#2620
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2621
+D1
+~
+~
+0 0 2625
+D2
+Exit description~
+~
+0 0 2619
+D3
+Exit description~
+~
+0 0 2615
+D4
+~
+~
+0 0 2651
+D5
+Exit description~
+~
+0 0 2571
+S
+#2621
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2622
+D1
+~
+~
+0 0 2624
+D2
+Exit description~
+~
+0 0 2620
+D3
+Exit description~
+~
+0 0 2614
+D4
+~
+~
+0 0 2650
+D5
+Exit description~
+~
+0 0 2570
+S
+#2622
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2599
+D1
+~
+~
+0 0 2623
+D2
+Exit description~
+~
+0 0 2621
+D3
+Exit description~
+~
+0 0 2613
+D4
+~
+~
+0 0 2641
+D5
+Exit description~
+~
+0 0 2569
+S
+#2623
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2598
+D1
+Exit description~
+~
+0 0 2596
+D2
+~
+~
+0 0 2624
+D3
+Exit description~
+~
+0 0 2622
+D4
+~
+~
+0 0 2640
+D5
+Exit description~
+~
+0 0 2578
+S
+#2624
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2623
+D1
+Exit description~
+~
+0 0 2595
+D2
+~
+~
+0 0 2625
+D3
+Exit description~
+~
+0 0 2621
+D4
+~
+~
+0 0 2639
+D5
+Exit description~
+~
+0 0 2577
+S
+#2625
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2624
+D1
+Exit description~
+~
+0 0 2594
+D2
+~
+~
+0 0 2626
+D3
+Exit description~
+~
+0 0 2620
+D4
+~
+~
+0 0 2638
+D5
+Exit description~
+~
+0 0 2576
+S
+#2626
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2625
+D1
+Exit description~
+~
+0 0 2593
+D2
+~
+~
+0 0 2627
+D3
+Exit description~
+~
+0 0 2619
+D4
+~
+~
+0 0 2637
+D5
+Exit description~
+~
+0 0 2575
+S
+#2627
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2626
+D1
+Exit description~
+~
+0 0 2592
+D2
+Exit description~
+~
+0 0 2590
+D3
+Exit description~
+~
+0 0 2618
+D4
+~
+~
+0 0 2636
+D5
+~
+~
+0 0 2574
+S
+#2628
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+~
+~
+0 0 2643
+D2
+~
+~
+0 0 2629
+D5
+Exit description~
+~
+0 0 2603
+S
+#2629
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2628
+D1
+~
+~
+0 0 2644
+D2
+~
+~
+0 0 2630
+D5
+Exit description~
+~
+0 0 2604
+S
+#2630
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2629
+D1
+~
+~
+0 0 2645
+D2
+~
+~
+0 0 2631
+D5
+Exit description~
+~
+0 0 2605
+S
+#2631
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2630
+D1
+~
+~
+0 0 2646
+D2
+~
+~
+0 0 2632
+D5
+Exit description~
+~
+0 0 2606
+S
+#2632
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2631
+D1
+~
+~
+0 0 2633
+D5
+Exit description~
+~
+0 0 2607
+S
+#2633
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2646
+D1
+~
+~
+0 0 2634
+D3
+Exit description~
+~
+0 0 2632
+D5
+Exit description~
+~
+0 0 2608
+S
+#2634
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2647
+D1
+~
+~
+0 0 2635
+D3
+Exit description~
+~
+0 0 2633
+D5
+Exit description~
+~
+0 0 2617
+S
+#2635
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2652
+D1
+~
+~
+0 0 2636
+D3
+Exit description~
+~
+0 0 2634
+D5
+Exit description~
+~
+0 0 2618
+S
+#2636
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2637
+D3
+Exit description~
+~
+0 0 2635
+D5
+Exit description~
+~
+0 0 2627
+S
+#2637
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2638
+D2
+Exit description~
+~
+0 0 2636
+D3
+~
+~
+0 0 2652
+D5
+Exit description~
+~
+0 0 2626
+S
+#2638
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2639
+D2
+Exit description~
+~
+0 0 2637
+D3
+~
+~
+0 0 2651
+D5
+Exit description~
+~
+0 0 2625
+S
+#2639
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2640
+D2
+Exit description~
+~
+0 0 2638
+D3
+~
+~
+0 0 2650
+D5
+Exit description~
+~
+0 0 2624
+S
+#2640
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D2
+Exit description~
+~
+0 0 2639
+D3
+~
+~
+0 0 2641
+D5
+Exit description~
+~
+0 0 2623
+S
+#2641
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2640
+D2
+~
+~
+0 0 2650
+D3
+~
+~
+0 0 2642
+D5
+Exit description~
+~
+0 0 2622
+S
+#2642
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2641
+D2
+~
+~
+0 0 2649
+D3
+~
+~
+0 0 2643
+D5
+Exit description~
+~
+0 0 2613
+S
+#2643
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D1
+Exit description~
+~
+0 0 2642
+D2
+~
+~
+0 0 2644
+D3
+Exit description~
+~
+0 0 2628
+D5
+Exit description~
+~
+0 0 2612
+S
+#2644
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2643
+D1
+~
+~
+0 0 2649
+D2
+~
+~
+0 0 2645
+D3
+Exit description~
+~
+0 0 2629
+D5
+Exit description~
+~
+0 0 2611
+S
+#2645
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2644
+D1
+~
+~
+0 0 2648
+D2
+~
+~
+0 0 2646
+D3
+Exit description~
+~
+0 0 2630
+D5
+Exit description~
+~
+0 0 2610
+S
+#2646
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2645
+D1
+~
+~
+0 0 2647
+D2
+Exit description~
+~
+0 0 2633
+D3
+Exit description~
+~
+0 0 2631
+D5
+Exit description~
+~
+0 0 2609
+S
+#2647
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2648
+D1
+~
+~
+0 0 2652
+D2
+Exit description~
+~
+0 0 2634
+D3
+Exit description~
+~
+0 0 2646
+D5
+Exit description~
+~
+0 0 2616
+S
+#2648
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.  A strange, spiral cloud
+heads up higher into the sky.
+~
+0 0 9
+D0
+~
+~
+0 0 2649
+D1
+~
+~
+0 0 2651
+D2
+Exit description~
+~
+0 0 2647
+D3
+Exit description~
+~
+0 0 2645
+D4
+~
+~
+16777216 0 2653
+D5
+Exit description~
+~
+0 0 2615
+S
+#2649
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2642
+D1
+~
+~
+0 0 2650
+D2
+Exit description~
+~
+0 0 2648
+D3
+Exit description~
+~
+0 0 2644
+D5
+Exit description~
+~
+0 0 2614
+S
+#2650
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2641
+D1
+Exit description~
+~
+0 0 2639
+D2
+~
+~
+0 0 2651
+D3
+Exit description~
+~
+0 0 2649
+D5
+Exit description~
+~
+0 0 2621
+S
+#2651
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2650
+D1
+~
+~
+0 0 2638
+D2
+~
+~
+0 0 2652
+D3
+Exit description~
+~
+0 0 2648
+D5
+Exit description~
+~
+0 0 2620
+S
+#2652
+Floating Above The Sea~
+Tumbling amongst the fluffy clouds, you move amongst the wispy remains of
+happy, singing jellyfish.  Bright, warm light shines down from the blue skies
+above you.  A salty scent is carried about by the warm breeze that gently
+swirls about you as you move amongst the heavens.
+~
+0 0 9
+D0
+~
+~
+0 0 2651
+D1
+Exit description~
+~
+0 0 2637
+D2
+Exit description~
+~
+0 0 2635
+D3
+~
+~
+0 0 2647
+D5
+Exit description~
+~
+0 0 2619
+S
+#2653
+A Spiral Cloud~
+This strange, spiraling cloud connects a brightly-lit group of clouds with the
+larger cloudmass hovering over the sea.  From here, you can see what appears
+to be some sort of gate above you.
+~
+0 0 9
+D4
+~
+~
+0 0 2654
+D5
+Exit description~
+~
+0 0 2648
+S
+#2654
+A Silvery Gate~
+At the top of the cloud staircase, a large silvery gate stands, closed.
+Beyond the gate you can see what appears to be a whispy passageway, that opens
+up into chambers carved out of the clouds themselves.  The staircase heads
+back down to the large cloudmass that floats above the sea.
+~
+0 0 9
+D1
+~
+~
+7 2501 2655
+D5
+Exit description~
+~
+0 0 2653
+S
+#2655
+A Brightly Lit Cloud~
+This bright passageway tunnels down the heart of a large cloud.  The sun
+outside causes the walls to glow warmly.  Back west, you see a large silvery
+gate.  The passage continues to the east.
+~
+0 0 9
+D1
+~
+~
+0 0 2656
+D3
+~
+~
+7 2501 2654
+S
+#2656
+A Brightly Lit Cloud~
+This bright passageway tunnels down the heart of a large cloud.  The sun
+outside causes the walls to glow warmly.  The passageway leads back towards
+the west, but it opens up here into what appears to be three large chambers.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2657
+D1
+~
+~
+0 0 2659
+D2
+Exit description~
+~
+0 0 2658
+D3
+Exit description~
+~
+0 0 2655
+S
+#2657
+Cloud Chamber~
+This large chamber appears to be carved directly out of a large cloud.  The
+walls glow warmly from the sun outside.  Apparently this is some sort of place
+where souls gather when they feel like being social.
+~
+0 0 9
+D2
+Exit description~
+~
+0 0 2656
+S
+#2658
+Cloud Chamber~
+This large chamber appears to be carved directly out of a large cloud.  The
+walls glow warmly from the sun outside.  Apparently this is some sort of place
+where souls gather when they feel like being social.
+~
+0 0 9
+D0
+Exit description~
+~
+0 0 2656
+S
+#2659
+Cloud Throne Room~
+This large chamber appears to be carved directly out of a large cloud.  The
+walls glow warmly from the sun outside.  A large, whispy throne rises out of
+the cloud on the east side of the chamber.  For being created from cloud, it
+is surprisingly detailed with small sculptures of tentacled creatures.
+
+~
+0 0 9
+D3
+~
+~
+0 0 2656
+D4
+~
+~
+16777216 0 278
+S
+#2700
+Dont Change This Room~
+You stumble into a newly created room.
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 2532 1 2504
+M 0 2531 1 2503
+M 0 2530 1 2502
+M 0 2529 1 2501
+O 0 2503 1 2505
+M 0 2528 3 2659
+M 0 2528 3 2659
+M 0 2528 3 2659
+M 0 2527 1 2659
+E 0 2502 10 1
+M 0 2526 4 2658
+M 0 2526 4 2658
+M 0 2526 4 2658
+M 0 2526 4 2658
+M 0 2525 4 2657
+M 0 2525 4 2657
+M 0 2525 4 2657
+M 0 2525 4 2657
+M 0 2524 3 2598
+M 0 2524 3 2598
+M 0 2524 3 2598
+M 0 2523 3 2548
+M 0 2523 3 2548
+M 0 2523 3 2548
+M 0 2522 3 2632
+M 0 2522 3 2632
+M 0 2522 3 2632
+M 0 2521 3 2616
+M 0 2521 3 2616
+M 0 2521 3 2616
+M 0 2520 3 2621
+M 0 2520 3 2621
+M 0 2520 3 2621
+M 0 2519 3 2535
+M 0 2519 3 2535
+M 0 2519 3 2535
+M 0 2518 3 2536
+M 0 2518 3 2536
+M 0 2518 3 2536
+M 0 2517 3 2518
+M 0 2517 3 2518
+M 0 2517 3 2518
+M 0 2516 3 2554
+M 0 2516 3 2554
+M 0 2516 3 2554
+M 0 2515 3 2551
+M 0 2515 3 2551
+M 0 2515 3 2551
+M 0 2514 3 2643
+M 0 2514 3 2643
+M 0 2514 3 2643
+M 0 2513 3 2649
+M 0 2513 3 2649
+M 0 2513 3 2649
+M 0 2512 3 2519
+M 0 2512 3 2519
+M 0 2512 3 2519
+M 0 2511 3 2544
+E 0 2501 1 24
+M 0 2511 3 2544
+M 0 2511 3 2544
+M 0 2510 3 2576
+M 0 2510 3 2576
+M 0 2510 3 2576
+M 0 2509 3 2506
+M 0 2509 3 2506
+M 0 2509 3 2506
+M 0 2508 3 2578
+M 0 2508 3 2578
+M 0 2508 3 2578
+M 0 2507 3 2525
+M 0 2507 3 2525
+M 0 2507 3 2525
+M 0 2506 3 2635
+M 0 2506 3 2635
+M 0 2506 3 2635
+M 0 2505 3 2529
+M 0 2505 3 2529
+M 0 2505 3 2529
+M 0 2504 3 2561
+M 0 2504 3 2561
+M 0 2504 3 2561
+M 0 2503 3 2514
+M 0 2503 3 2514
+M 0 2503 3 2514
+M 0 2502 3 2609
+M 0 2502 3 2609
+M 0 2502 3 2609
+M 0 2501 3 2507
+M 0 2501 3 2507
+M 0 2501 3 2507
+D 0 2655 3 2
+D 0 2654 1 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2527 spec_cast_diabolist
+S
+
+
+#$

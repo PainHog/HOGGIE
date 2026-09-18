@@ -1,0 +1,1246 @@
+#AREA Opium Road~
+
+#VERSION 1
+
+#CLIMATE 2 2 3
+
+#AUTHOR Nameless~
+
+#RANGES
+15 25 0 65
+$
+
+#RESETMSG A caravan of travelers wave as they pass by.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1277204250
+
+#MOBILES
+#7000
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7001
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7002
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7003
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7004
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7005
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7006
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7007
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7008
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7009
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7010
+Traveling merchant man~
+a traveling merchant~
+This man is making his way from city to city.
+~
+This man is pulling a large cart of goods.  He is making his way to one of the
+great cities at each end of this road. He is among the many that make this
+trip almost every month in order to sell their wares.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 19 0 0 1 1 0
+0 0 1792 0 0 0 0 2
+#7011
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7012
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7013
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7014
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7015
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7016
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7017
+patrol long man guard~
+a long-patrol guard~
+This guard is making the long patrol between cities.
+~
+This man has a tough job. He must patrol the entire length of this road to
+ensure that the constant source of items between Sahardin and the capitol is
+never interrupted. Living out on the road for days on end, this guard looks
+tired.
+~
+65 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 21 0 0 1 1 0
+0 0 546 0 0 0 160 3
+#7018
+slaver man dirty~
+a dirty slaver~
+This man is making his trip to the orc village to gather more slaves.
+~
+This man is in desperate need of a shower, a shave, and a lesson in manners.
+He spits as he walks and is constantly scouring the hillside for a runaway
+slave. The heavy chains he carries must be how to can transport several
+creatures that are each twice as big as he.
+~
+16777281 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 65 1 0
+0 0 41 0 0 0 48 2
+#7019
+slaver man dirty~
+a dirty slaver~
+This man is making his trip to the orc village to gather more slaves.
+~
+This man is in desperate need of a shower, a shave, and a lesson in manners.
+He spits as he walks and is constantly scouring the hillside for a runaway
+slave. The heavy chains he carries must be how to can transport several
+creatures that are each twice as big as he.
+~
+16777281 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 65 1 0
+0 0 41 0 0 0 48 2
+#7020
+slaver man dirty~
+a dirty slaver~
+This man is making his trip to the orc village to gather more slaves.
+~
+This man is in desperate need of a shower, a shave, and a lesson in manners.
+He spits as he walks and is constantly scouring the hillside for a runaway
+slave. The heavy chains he carries must be how to can transport several
+creatures that are each twice as big as he.
+~
+16777281 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 65 1 0
+0 0 41 0 0 0 48 2
+#7021
+slaver man dirty~
+a dirty slaver~
+This man is making his trip to the orc village to gather more slaves.
+~
+This man is in desperate need of a shower, a shave, and a lesson in manners.
+He spits as he walks and is constantly scouring the hillside for a runaway
+slave. The heavy chains he carries must be how to can transport several
+creatures that are each twice as big as he.
+~
+16777281 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 65 1 0
+0 0 41 0 0 0 48 2
+#7050
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+16777281 0 -1000 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 41 0 0 0 48 2
+#0
+
+#OBJECTS
+#7000
+light leather armor~
+a set of light leather armor~
+This light leather offers protection only against the elements.~
+~
+9 0 65 0
+4 4 0 0
+4 100 0
+#7001
+light scout bow~
+a light scout's bow~
+This bow is good for hunting or taking a cheap shot~
+~
+5 0 131073 0
+12 4 3 14
+3 100 0
+#7002
+spiked heavy chains~
+a set of spiked heavy chains~
+This horrible device would keep anything in line.~
+~
+9 528384 33 0
+3 3 0 0
+4 100 0
+A
+19 -5
+A
+14 -200
+#7003
+traveller hat ~
+a traveller's hat~
+This flattened pyramid shaped hat would keep the sun off you.~
+~
+9 0 3 0
+2 2 0 0
+2 100 0
+#7050
+Placeholder~
+Placeholder~
+Placeholder~
+~
+9 0 3 0
+2 2 0 0
+2 100 0
+#0
+
+#ROOMS
+#7000
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.  To the west is the great city of
+Sahardin.
+~
+0 1 2 0 0 0
+D1
+~
+~
+0 0 7001 0
+D3
+~
+~
+0 0 4977 0
+S
+#7001
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7002 0
+D3
+~
+~
+0 0 7000 0
+S
+#7002
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7003 0
+D3
+Exit description~
+~
+0 0 7001 0
+S
+#7003
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+Exit description~
+~
+0 0 7004 0
+D3
+Exit description~
+~
+0 0 7002 0
+S
+#7004
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7003 0
+D2
+Exit description~
+~
+0 0 7005 0
+S
+#7005
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7004 0
+D1
+Exit description~
+~
+0 0 7006 0
+S
+#7006
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+Exit description~
+~
+0 0 7007 0
+D3
+Exit description~
+~
+0 0 7005 0
+S
+#7007
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7006 0
+D2
+Exit description~
+~
+0 0 7008 0
+S
+#7008
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7007 0
+D2
+Exit description~
+~
+0 0 7009 0
+S
+#7009
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7008 0
+D2
+Exit description~
+~
+0 0 7010 0
+S
+#7010
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.  The path seems to lead off into
+a smaller village to the north.
+~
+0 1 2 0 0 0
+D0
+~
+~
+0 0 7009 0
+D1
+~
+~
+0 0 5051 0
+D2
+~
+~
+0 0 7011 0
+S
+#7011
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7010 0
+D1
+Exit description~
+~
+0 0 7012 0
+S
+#7012
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7013 0
+D3
+Exit description~
+~
+0 0 7011 0
+S
+#7013
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+Exit description~
+~
+0 0 7014 0
+D3
+Exit description~
+~
+0 0 7012 0
+S
+#7014
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7013 0
+D2
+Exit description~
+~
+0 0 7015 0
+S
+#7015
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7014 0
+D2
+Exit description~
+~
+0 0 7016 0
+S
+#7016
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7015 0
+D1
+Exit description~
+~
+0 0 7017 0
+S
+#7017
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+Exit description~
+~
+0 0 7018 0
+D3
+Exit description~
+~
+0 0 7016 0
+S
+#7018
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7017 0
+D2
+Exit description~
+~
+0 0 7019 0
+S
+#7019
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.  To the east a small dirt path has
+been made.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7018 0
+D2
+Exit description~
+~
+0 0 7020 0
+S
+#7020
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7019 0
+D2
+~
+~
+0 0 7021 0
+S
+#7021
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7020 0
+D2
+Exit description~
+~
+0 0 7022 0
+S
+#7022
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7021 0
+D2
+Exit description~
+~
+0 0 7023 0
+S
+#7023
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7022 0
+D2
+Exit description~
+~
+0 0 7024 0
+S
+#7024
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7023 0
+D2
+Exit description~
+~
+0 0 7025 0
+S
+#7025
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7024 0
+D2
+Exit description~
+~
+0 0 7026 0
+S
+#7026
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7025 0
+D2
+Exit description~
+~
+0 0 7027 0
+S
+#7027
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.  To the west the road forks into
+a small grouping of trees.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7026 0
+D2
+Exit description~
+~
+0 0 7028 0
+S
+#7028
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7027 0
+D1
+Exit description~
+~
+0 0 7029 0
+S
+#7029
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7030 0
+D3
+Exit description~
+~
+0 0 7028 0
+S
+#7030
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7031 0
+D3
+Exit description~
+~
+0 0 7029 0
+S
+#7031
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7032 0
+D3
+Exit description~
+~
+0 0 7030 0
+S
+#7032
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7033 0
+D3
+Exit description~
+~
+0 0 7031 0
+S
+#7033
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7034 0
+D3
+Exit description~
+~
+0 0 7032 0
+S
+#7034
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+Exit description~
+~
+0 0 7035 0
+D3
+Exit description~
+~
+0 0 7033 0
+S
+#7035
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+Exit description~
+~
+0 0 7034 0
+D1
+Exit description~
+~
+0 0 7036 0
+S
+#7036
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7037 0
+D3
+Exit description~
+~
+0 0 7035 0
+S
+#7037
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7038 0
+D3
+Exit description~
+~
+0 0 7036 0
+S
+#7038
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D1
+Exit description~
+~
+0 0 7039 0
+D3
+Exit description~
+~
+0 0 7037 0
+S
+#7039
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D2
+~
+~
+0 0 7040 0
+D3
+Exit description~
+~
+0 0 7038 0
+S
+#7040
+Traveling The Opium Road~
+This cobblestone road cuts through the heartland of the continent. To each
+side of you wild poppies grow unchecked along the hills. The air is perfumed
+by their sweet scent and the numerous amount of travellers tell you this is
+the heart of commerce of the Empire.
+~
+0 1 2 0 0 0
+D0
+~
+~
+0 0 7039 0
+D1
+~
+~
+16777216 0 6000 0
+S
+#7050
+Placeholder~
+Placeholder
+~
+0 5 2 0 0 0
+S
+#0
+
+#RESETS
+M 0 7000 1 7003  ; Mob: #7000 a traveling merchant => #7003 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7001 1 7005  ; Mob: #7001 a traveling merchant => #7005 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7002 1 7007  ; Mob: #7002 a traveling merchant => #7007 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7003 1 7010  ; Mob: #7003 a traveling merchant => #7010 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7004 1 7014  ; Mob: #7004 a traveling merchant => #7014 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7005 1 7017  ; Mob: #7005 a traveling merchant => #7017 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7006 1 7021  ; Mob: #7006 a traveling merchant => #7021 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7007 1 7025  ; Mob: #7007 a traveling merchant => #7025 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7009 1 7030  ; Mob: #7009 a traveling merchant => #7030 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7010 1 7037  ; Mob: #7010 a traveling merchant => #7037 Traveling The Opium Road
+E 1 7003 1 1  ; -- Equip: #7003 a traveller's hat (head)
+M 0 7011 1 7038  ; Mob: #7011 a long-patrol guard => #7038 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7012 1 7034  ; Mob: #7012 a long-patrol guard => #7034 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7013 1 7031  ; Mob: #7013 a long-patrol guard => #7031 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7014 1 7027  ; Mob: #7014 a long-patrol guard => #7027 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7015 1 7023  ; Mob: #7015 a long-patrol guard => #7023 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7016 1 7018  ; Mob: #7016 a long-patrol guard => #7018 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7017 1 7010  ; Mob: #7017 a long-patrol guard => #7010 Traveling The Opium Road
+E 1 7001 1 21  ; -- Equip: #7001 a light scout's bow (wield)
+E 1 7000 1 7  ; -- Equip: #7000 a set of light leather armor (body)
+M 0 7018 1 7011  ; Mob: #7018 a dirty slaver => #7011 Traveling The Opium Road
+G 1 7002 1 ; -- Give:  #7002 a set of spiked heavy chains
+M 0 7019 1 7018  ; Mob: #7019 a dirty slaver => #7018 Traveling The Opium Road
+G 1 7002 1 ; -- Give:  #7002 a set of spiked heavy chains
+M 0 7020 1 7026  ; Mob: #7020 a dirty slaver => #7026 Traveling The Opium Road
+G 1 7002 1 ; -- Give:  #7002 a set of spiked heavy chains
+M 0 7021 1 7031  ; Mob: #7021 a dirty slaver => #7031 Traveling The Opium Road
+G 1 7002 1 ; -- Give:  #7002 a set of spiked heavy chains
+S
+
+#SPECIALS
+M 7011 spec_guard   ; a long-patrol guard
+M 7012 spec_guard   ; a long-patrol guard
+M 7013 spec_guard   ; a long-patrol guard
+M 7014 spec_guard   ; a long-patrol guard
+M 7015 spec_guard   ; a long-patrol guard
+M 7016 spec_guard   ; a long-patrol guard
+M 7017 spec_guard   ; a long-patrol guard
+S
+
+#$

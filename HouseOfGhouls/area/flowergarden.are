@@ -1,0 +1,850 @@
+#AREA   Halfling Flower Garden~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 10 0 65
+$
+
+#RESETMSG The scent of blooming flowers surrounds you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1701563141
+
+#CLIMATE 3 2 1
+
+#MOBILES
+#651
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#652
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#653
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#654
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+3 0 65 2d5+45 1d5+3
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#655
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#656
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#657
+bee worker~
+a worker bee~
+A worker bee is busy collecting pollen
+~
+This bee is busy as a...well, a bee!  It flies from flower to flower, crawling
+inside to collect the pollen used to make honey.
+~
+16777281 524288 1000 C
+6 0 50 2d5+90 2d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#658
+bee warrior~
+a warrior bee~
+A warrior bee zooms about, protecting the workers.
+~
+This large bee has a larger stinger than the rest.  It zooms about between the
+flowers, keeping watch over the workers and trying to keep them safe while
+they collect pollen.
+~
+16777281 524288 0 C
+9 0 35 3d6+140 2d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#659
+bee warrior~
+a warrior bee~
+A warrior bee zooms about, protecting the workers.
+~
+This large bee has a larger stinger than the rest.  It zooms about between the
+flowers, keeping watch over the workers and trying to keep them safe while
+they collect pollen.
+~
+16777281 524288 0 C
+9 0 35 3d6+140 2d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#660
+bee warrior~
+a warrior bee~
+A warrior bee zooms about, protecting the workers.
+~
+This large bee has a larger stinger than the rest.  It zooms about between the
+flowers, keeping watch over the workers and trying to keep them safe while
+they collect pollen.
+~
+16777281 524288 0 C
+9 0 35 3d6+140 2d5+4
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 32768 0 0 0 8 0
+#700
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#651
+can watering water~
+a watering can~
+A bright green watering can sits amongst the flowers.~
+~
+17 0 1048577
+30 30 0 0
+1 100 0
+#652
+flower rose red~
+a red rose~
+A red rose fills the air with a pleasant scent.
+~
+~
+26 64 1048577
+20 -1 -1 -1
+1 0 0
+'elven beauty' 'NONE' 'NONE'
+#653
+flower sunflower yellow~
+a yellow sunflower~
+A yellow sunflower reaches for the clouds.~
+~
+26 64 1048577
+20 -1 -1 -1
+1 0 0
+'cure serious' 'NONE' 'NONE'
+#654
+flower violet~
+a small violet~
+A purple violet blooms in the sun.~
+~
+26 64 1048577
+20 -1 -1 -1
+1 0 0
+'shield' 'NONE' 'NONE'
+#655
+flower orange poppy~
+an orange poppy~
+An orange poppy emits a spicy scent.~
+~
+26 64 1048577
+20 -1 -1 -1
+1 0 0
+'true sight' 'NONE' 'NONE'
+#656
+deep red upholstered chair~
+A deep red upholstered chair~
+A deep red upholstered chair is here. A gold "M" is embroidered onto it's back.~
+~
+12 536873490&40 0
+1161 1161 1161 1161 1161 1161
+5000 0 0
+#657
+limburger cheese~
+a slab of smelly limburger cheese~
+A slab of smelly limburger cheese is here emitting a gagging aroma.~
+~
+19 262144 1048577
+25 0 0 1
+10 0 0
+#658
+cheese chest~
+a cheese chest~
+A cheese chest is here, filled with Medea's special treats.~
+~
+15 536873489&40 0
+500 0 0 0
+500 0 0
+#659
+fountain~
+a white marble fountain~
+A white marble fountain carved in the likeness of Medea is here burbling its liquid.~
+~
+25 0 0
+5 0 0 0
+1000 0 0
+#700
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#651
+A Rock-Lined Path~
+A pretty little rock-lined path leads into a well-tended flower garden to the
+north.  The hum of bees and the sweet scent of flowers comes to you on a warm
+breeze.  To the south lies the main road to Underhill.
+~
+0 0 2
+D0
+~
+~
+0 0 652
+D2
+~
+~
+0 0 423
+S
+#652
+A Rock-Lined Path~
+A pretty little rock-lined path leads into a well-tended flower garden to the
+north.  The hum of bees and the sweet scent of flowers comes to you on a warm
+breeze.
+~
+0 0 2
+D0
+~
+~
+0 0 653
+D2
+~
+~
+0 0 651
+S
+#653
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 670
+D1
+~
+~
+0 0 668
+D2
+~
+~
+0 0 652
+D3
+~
+~
+0 0 654
+S
+#654
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 669
+D1
+~
+~
+0 0 653
+D3
+~
+~
+0 0 655
+S
+#655
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 656
+D1
+~
+~
+0 0 654
+S
+#656
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 657
+D1
+~
+~
+0 0 669
+D2
+~
+~
+0 0 655
+S
+#657
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D1
+~
+~
+0 0 658
+D2
+~
+~
+0 0 656
+S
+#658
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 659
+D1
+~
+~
+0 0 673
+D2
+~
+~
+0 0 669
+D3
+~
+~
+0 0 657
+S
+#659
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D1
+~
+~
+0 0 660
+D2
+~
+~
+0 0 658
+S
+#660
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 10901
+D1
+~
+~
+0 0 661
+D2
+~
+~
+0 0 673
+D3
+~
+~
+0 0 659
+S
+#661
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D2
+~
+~
+0 0 662
+D3
+~
+~
+0 0 660
+S
+#662
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 661
+D1
+~
+~
+0 0 663
+D2
+~
+~
+0 0 671
+D3
+~
+~
+0 0 673
+S
+#663
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D1
+~
+~
+0 0 664
+D2
+~
+~
+0 0 672
+D3
+~
+~
+0 0 662
+S
+#664
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D2
+~
+~
+0 0 665
+D3
+~
+~
+0 0 663
+S
+#665
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 664
+D2
+~
+~
+0 0 666
+D3
+~
+~
+0 0 672
+S
+#666
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 665
+D3
+~
+~
+0 0 667
+S
+#667
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 672
+D1
+~
+~
+0 0 666
+D3
+~
+~
+0 0 668
+S
+#668
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 671
+D1
+~
+~
+0 0 667
+D3
+~
+~
+0 0 653
+S
+#669
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 658
+D1
+~
+~
+0 0 670
+D2
+~
+~
+0 0 654
+D3
+~
+~
+0 0 656
+S
+#670
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 673
+D1
+~
+~
+0 0 671
+D2
+~
+~
+0 0 653
+D3
+~
+~
+0 0 669
+S
+#671
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 662
+D1
+~
+~
+0 0 672
+D2
+~
+~
+0 0 668
+D3
+~
+~
+0 0 670
+S
+#672
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 663
+D1
+~
+~
+0 0 665
+D2
+~
+~
+0 0 667
+D3
+~
+~
+0 0 671
+S
+#673
+Wandering The Flower Garden~
+You wander amongst a well-tended flower garden.  The hum of bees floating
+lazily in the warm breeze is all about you, as the busy creatures fly from
+flower to flower, collecting pollen.  The bright colors of the flowers give
+the whole area a cheery feeling.
+~
+0 0 2
+D0
+~
+~
+0 0 660
+D1
+~
+~
+0 0 662
+D2
+~
+~
+0 0 670
+D3
+~
+~
+0 0 658
+S
+#674
+Medea's Sanctuary~
+Once the air that overlooked this flower garden was clear. Now the air has
+formed into a quiet sanctuary of misty blue. The lighted walls shine in a
+spiral of rainbow colored twists that ascend to the heavens. Against one
+"wall" is a tapestry that is suspended. Woven into the colorful picture is the
+birth of the Goddess Medea. It shows how the light begot Medea. Beneath this
+chapter is a banner that reads: Quod polus erant laetabilis! Which translates
+into "And the heaven's were joyous!"
+~
+0 18883584 9
+D5
+You fall through the air landing in the middle of a flower garden.
+~
+down~
+8391723 0 666
+S
+#700
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+P 0 657 25 658
+O 0 655 1 670
+O 0 654 1 671
+O 0 653 1 673
+O 0 652 1 669
+O 0 651 1 672
+M 0 660 2 673
+M 0 660 2 673
+M 0 659 2 671
+M 0 659 2 671
+M 0 658 2 669
+M 0 658 2 669
+M 0 657 2 664
+M 0 657 2 664
+M 0 656 2 660
+M 0 656 2 660
+M 0 655 2 657
+M 0 655 2 657
+M 0 654 2 670
+M 0 654 2 670
+M 0 653 2 666
+M 0 653 2 666
+M 0 652 2 656
+M 0 652 2 656
+M 0 651 2 653
+M 0 651 2 653
+O 0 656 1 674
+O 0 658 1 674
+O 0 657 1 674
+O 0 659 1 674
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

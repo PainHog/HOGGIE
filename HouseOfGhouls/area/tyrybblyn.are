@@ -1,0 +1,3344 @@
+#AREA   Tyrybblyn~
+
+
+
+#VERSION 1
+#AUTHOR Drazuk~
+
+#RANGES
+1 50 0 65
+$
+
+#RESETMSG A quiet sigh of wind floats around you...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 31733228
+
+#CLIMATE 1 1 1
+
+#MOBILES
+#2001
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2002
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2003
+newt fire baby orange~
+a baby fire newt~
+A small orange newt scampers along the rocks.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  It looks like a fire newt, but this one is too
+young to have the ability to breathe fire.
+~
+16777281 0 0 C
+5 0 55 2d5+75 1d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2004
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 33554432 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2005
+newt fire orange~
+a fire newt~
+An orange newt sits in its own flames.
+~
+You spy a bright orange newt quickly moving across the rocks, searching for
+bugs or other things to eat.  Old enough to have its own flame, the newt basks
+in the heat radiating from its skin.
+~
+16777281 33554432 0 C
+10 0 30 3d6+155 2d5+5
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65537 1 0 0 0 0
+#2006
+drow sentry dark~
+a drow sentry~
+A dark drow patrols the homecaves.
+~
+This young male drow has been tasked with protecting the homecaves from all
+the many enemies of the dark-elves.  He watches you closely, suspicious of any
+outsiders.
+~
+32833 4227072 -1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 21 0 0 2 2 0
+0 0 31 0 0 0 0 0
+#2007
+drow sentry dark~
+a drow sentry~
+A dark drow patrols the homecaves.
+~
+This young male drow has been tasked with protecting the homecaves from all
+the many enemies of the dark-elves.  He watches you closely, suspicious of any
+outsiders.
+~
+32833 4227072 -1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 21 0 0 2 2 0
+0 0 31 0 0 0 0 0
+#2008
+drow sentry dark~
+a drow sentry~
+A dark drow patrols the homecaves.
+~
+This young male drow has been tasked with protecting the homecaves from all
+the many enemies of the dark-elves.  He watches you closely, suspicious of any
+outsiders.
+~
+16810049 4227072 -1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 21 0 0 2 2 0
+0 0 31 0 0 0 0 0
+#2009
+drow sentry dark~
+a drow sentry~
+A dark drow patrols the homecaves.
+~
+This young male drow has been tasked with protecting the homecaves from all
+the many enemies of the dark-elves.  He watches you closely, suspicious of any
+outsiders.
+~
+32833 4227072 -1000 C
+15 0 5 3d6+250 3d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 21 0 0 2 2 0
+0 0 31 0 0 0 0 0
+#2010
+drow mage robed~
+a drow mage~
+A robed drow struts past you.
+~
+Wearing the robes of a mage, this drow just walks right past you, ignoring you
+completely.  Headed in the direction of the Academy, he has no time to deal
+with you.
+~
+16777281 4227072 -1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 268435456 0
+#2011
+drow mage robed~
+a drow mage~
+A robed drow struts past you.
+~
+Wearing the robes of a mage, this drow just walks right past you, ignoring you
+completely.  Headed in the direction of the Academy, he has no time to deal
+with you.
+~
+16777281 4227072 -1000 C
+20 0 -20 4d8+380 3d5+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 536870912 0
+#2012
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777281 4227072 -1000 C
+55 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 2097152 0
+#2013
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777281 4227072 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 268435456 0
+#2014
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777281 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2015
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777281 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2016
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777281 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2017
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777281 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2018
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777283 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2019
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777283 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2020
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777283 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2021
+drow servant~
+a drow servant~
+A subservient drow performs some task for his masters.
+~
+A male drow stands with his head bowed.  Dressed in the colors of a servant,
+he is not allowed to talk or even look at one of the drow of the Upper Houses.
+~
+16777283 4194304 -1000 C
+12 0 20 3d6+200 3d5+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 17 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2022
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777283 4227072 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 1073741824 0
+#2023
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777283 4227072 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 134217728 0
+#2024
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777283 4227072 -1000 C
+25 0 -45 4d10+540 3d5+15
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 268435456 0
+#2025
+drow mage robed~
+a drow mage~
+A robed drow mutters in an arcane language.
+~
+A drow wearing mages robes stands in the dark, watching your every movement.
+You can hear him muttering some words in a strange language...probably some
+spell to defend himself with.
+~
+16777283 4227072 -1000 C
+35 0 -95 4d20+975 3d5+25
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 2 2 0
+0 0 31 0 0 0 33554432 0
+#2026
+drow priestess female~
+a drow priestess~
+A female drow glares darkly at you.
+~
+This young female drow is dressed in the robes of a priestess of Lloth.  She
+carries a scary looking whip, and wears the best armor the dark-elves can
+create.  She hates the thought of any outsiders being here.
+~
+65 4227072 -1000 C
+30 0 -45 4d10+540 3d5+15
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 67108864 0
+#2027
+drow priestess female~
+a drow priestess~
+A female drow glares darkly at you.
+~
+This young female drow is dressed in the robes of a priestess of Lloth.  She
+carries a scary looking whip, and wears the best armor the dark-elves can
+create.  She hates the thought of any outsiders being here.
+~
+16777283 4227072 -1000 C
+30 0 -45 4d10+540 3d5+15
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 134217728 0
+#2028
+drow priestess female~
+a drow priestess~
+A female drow glares darkly at you.
+~
+This young female drow is dressed in the robes of a priestess of Lloth.  She
+carries a scary looking whip, and wears the best armor the dark-elves can
+create.  She hates the thought of any outsiders being here.
+~
+16777283 4227072 -1000 C
+55 0 -45 4d10+540 3d5+15
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 2097152 0
+#2029
+drow priestess female~
+a drow priestess~
+A female drow glares darkly at you.
+~
+This young female drow is dressed in the robes of a priestess of Lloth.  She
+carries a scary looking whip, and wears the best armor the dark-elves can
+create.  She hates the thought of any outsiders being here.
+~
+16777283 4227072 -1000 C
+30 0 -45 4d10+540 3d5+15
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 4096 0
+#2030
+drow priestess female~
+a drow priestess~
+A female drow glares darkly at you.
+~
+This young female drow is dressed in the robes of a priestess of Lloth.  She
+carries a scary looking whip, and wears the best armor the dark-elves can
+create.  She hates the thought of any outsiders being here.
+~
+16777283 4227072 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 1048576 0
+#2031
+drow weaponsmith female~
+the weaponsmith~
+A strong drow female tests the edge of a newly created blade.
+~
+Feeling the razor edge of a short dirk, this female drow stares at you as you
+look about the smithy.  From the looks of her, she knows how to use the
+weapons she creates.
+~
+16777283 4227072 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 19 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2032
+drow armorer muscular~
+the armorer~
+A muscular drow hammers adamantium links together.
+~
+Tasked with creating the special armor of the drow, the armorer does not even
+pay any attention as you approach.  She must be mighty indeed, to be able to
+hammer adamantium into the small links that make up the protective gear.
+~
+16777283 4227072 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 19 0 0 2 2 0
+0 0 23 0 0 0 0 0
+#2033
+drow matron mother female karanthen~
+Matron Karanthen~
+This female wears the robes of House Karanthen.
+~
+The matron mother of House Karanthen frowns as you intrude into her private
+altar room.  Even though she heads the smallest house in Tyrybblyn, she is
+still quite powerful.  Her hand reaches for the dagger at her side.
+~
+17826883 4194432&320 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 67108864 2621440
+#2034
+drow matron mother ssin'urn female~
+Matron Ssin'urn~
+This female wears the robes of House Ssin'urn.
+~
+The matron mother of House Ssin'urn frowns as you intrude into her private
+altar room.  Her hands drip with blood from the recent sacrifice.  She mutters
+a curse as you approach.  Her hand reaches for the dagger at her side.
+~
+17826883 4194432&320 -1000 C
+40 0 -120 4d30+1255 3d5+30
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 0 0 0 67108864 2621440
+#2035
+drow matron mother belaern female~
+Matron Belaern~
+This female wears the robes of House Belaern.
+~
+The matron mother of House Belaern frowns as you intrude into her private
+altar room.  She fingers the strange whip held at her side as you come closer.
+ Her eyes narrow as she tries to decide whether or not to kill you for you
+impertinence.
+~
+17826883 4194432&320 -1000 C
+45 0 -145 4d40+1515 3d5+35
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 2097152 0 0 67108864 2621440
+> death_prog 5~
+say No!  This special magic was supposed to protect us!
+gasp
+rinvoke artifact
+~
+|
+#2036
+drow matron mother z'ress female~
+Matron Z'Ress~
+This female wears the robes of House Z'Ress.
+~
+This powerful looking female wears the elaborate robes of a City Ruler.  A
+smile comes to her lips as you approach, but the look in her eye is of pure
+evil.  An aura of danger surrounds this woman.
+~
+17826883 4194432&320 -1000 C
+50 0 -170 4d50+1805 3d5+40
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 2 2 0
+0 0 31 2097152 0 0 67108864 2621440
+> death_prog 5~
+say Fiends!  May the great Spider Goddess drink the blood of your kin!
+cackle
+rinvoke artifact
+~
+|
+#2037
+drow monk Sinzen Ral'thir figure dark~
+the drow monk, Sinzen Ral'thir~
+This dark figure stops and quietly bows as you step closer.
+~
+Normally wary of a drow in the first place, you cautiously observe the dark
+figure.  Dressed in a simple robe, and carrying nothing but a waterskin, this
+drow must be a monk, or mad to wander the realms unarmed.  You then spy the
+diamond glisten on his left hand, and realize you stand in the presence of
+Sinzen Ral'thir, master monk of the drow.
+~
+17826817 -2072999808&256 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 7 0 0 1835007 1 0
+0 0 2047 3153920 0 0 553650672 524291
+> rand_prog 5~
+ponder
+say You know, I can "TEACH WINDWALK" if you are advanced enough!
+~
+> speech_prog 'teach windwalk'~
+if isnohero($n)
+    say Sorry $n, you need to be a hero before you can learn my skill
+    smile $n
+    break
+else
+   if questpoints($n) < 15000
+       say Sorry $n, you need more quest points to learn my skill
+        smile $n
+        break
+   else
+       nod $n
+       mppractice $n windwalk 100
+       mpmset $n questpoints 15000
+       say Use your new skill wisely!
+       salute $n
+    endif
+endif
+~
+> death_prog 5~
+nod
+say For all comes Death...you shall be claimed too, at some point...
+bow
+rinvoke artifact
+
+~
+> hitprcnt_prog 5~
+snarl
+if rand(7)
+  say No, I refuse to fall!
+  else
+  if rand(13)
+     say I shall not let you slay me!
+     else
+     if rand(14)
+        say You think you are mighty?
+        else
+        if rand(17)
+           say I shall overcome my wounds!
+           else
+           if rand(20)
+              say You cannot defeat me!
+              else
+              if rand(25)
+                 say Death is not an option!
+                 else
+                 if rand(33)
+                    say Must...ignore...the...blood!
+                    else
+                    if rand(50)
+                       say Gods, I am wounded!
+                    endif
+                 endif
+              endif
+           endif
+        endif
+     endif
+   endif
+endif~
+|
+#2150
+Placeholder~
+Placeholder~
+Placeholder
+~
+Placeholder
+~
+4194305 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2001
+tunic adamantium mail~
+an adamantium mail tunic~
+A tunic crafted from a shiny metal.~
+~
+9 524288 65
+16 16 0 0
+7 500 0
+#2002
+leggings adamantium mail~
+adamantium mail leggings~
+Leggings crafted from a shiny metal.~
+~
+9 524288 16385
+16 16 0 0
+4 400 0
+#2003
+sleeves adamantium mail~
+a set of adamantium mail sleeves~
+A set of sleeves crafted from a shiny metal.~
+~
+9 524288 129
+16 16 0 0
+3 400 0
+#2004
+gauntlets adamantium mail~
+a set of adamantium mail gauntlets~
+A set of gauntlets crafted from a shiny metal.~
+~
+9 524288 513
+16 16 0 0
+2 350 0
+#2005
+helm adamantium mail~
+an adamantium mail helm~
+A helm crafted from a shiny metal.~
+~
+9 524288 3
+16 16 0 0
+2 400 0
+#2006
+boots adamantium~
+a pair of adamantium boots~
+A pair of boots crafted from a shiny metal.~
+~
+9 524288 65537
+16 16 0 0
+4 400 0
+#2007
+mask adamantium demon~
+an adamantium demon mask~
+A scary mask, crafted from a shiny metal.~
+~
+9 524288 17
+16 16 0 0
+3 300 0
+#2008
+sword thin long~
+a thin longsword~
+A long thin sword, crafted from a shiny metal.~
+~
+5 0 131073
+12 1 9 3
+5 650 0
+#2009
+whip snake head~
+a snake-head whip~
+A long whip, with what looks to be the head of snake at the end.~
+~
+5 0 131073
+12 1 9 4
+3 600 0
+#2010
+dirk~
+a dirk~
+A thin knife with a sharp point.~
+~
+5 0 131073
+12 1 7 11
+2 550 0
+#2011
+mace adamantium~
+an adamantium mace~
+A heavy mace, crafted from a shiny metal.~
+~
+5 0 131073
+12 1 9 8
+8 650 0
+#2012
+staff adamantium~
+an adamantium staff~
+A long staff, crafted from a shiny metal.~
+~
+5 0 131073
+12 1 8 7
+5 600 0
+#2013
+hand crossbow~
+a hand crossbow~
+A small crossbow, made to be fired with one hand.~
+~
+5 0 131073
+12 1 9 13
+5 700 0
+#2014
+robes priestess~
+a long priestess robe~
+A long black robe, worn by Lloth's priestesses.~
+~
+9 64 65
+4 4 0 0
+3 300 0
+A
+24 -1
+#2015
+robes priestess~
+a long priestess robe~
+A long black robe, worn by Lloth's priestesses.~
+~
+9 64 65
+4 4 0 0
+3 500 0
+A
+24 -2
+#2016
+robes priestess~
+a long priestess robe~
+A long black robe, worn by Lloth's priestesses.~
+~
+9 64 65
+5 5 0 0
+3 650 0
+A
+18 1
+A
+24 -1
+#2017
+robes priestess~
+a long priestess robe~
+A long black robe, worn by Lloth's priestesses.~
+~
+9 64 65
+5 5 0 0
+3 800 0
+A
+24 -2
+A
+18 2
+#2018
+mask adamantium demon~
+an adamantium demon mask~
+A scary mask, crafted from a shiny metal.~
+~
+9 524352 17
+16 16 0 0
+3 300 0
+A
+13 15
+A
+5 2
+#2019
+whip snake head~
+a snake-head whip~
+A long whip, with what looks to be the head of snake at the end.~
+~
+5 64 131073
+12 1 10 4
+3 600 0
+A
+4 2
+A
+18 5
+#2020
+hand crossbow~
+a hand crossbow~
+A small crossbow, made to be fired with one hand.~
+~
+5 64 131073
+12 1 10 13
+5 700 0
+A
+2 2
+A
+18 5
+#2021
+dagger spider shaped~
+a spider-shaped dagger~
+A dagger with a hilt shaped like the body of a spider.~
+~
+5 0 131073
+12 2 4 11
+2 0 0
+#2022
+robe robes matron mother~
+a matron mothers robes~
+The dark robes of a drow Matron Mother lay in a bundle here.~
+~
+9 64 65
+5 5 0 0
+4 350 0
+A
+19 1
+A
+2 1
+#2023
+robe robes matron mother~
+a matron mothers robes~
+The dark robes of a drow Matron Mother lay in a bundle here.~
+~
+9 64 65
+6 6 0 0
+4 500 0
+A
+19 2
+A
+2 2
+#2150
+Placeholder~
+Placeholder~
+Placeholder~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2001
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2002
+D2
+~
+~
+0 0 173
+S
+#2002
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2003
+D2
+Exit description~
+~
+0 0 2001
+S
+#2003
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2004
+D2
+Exit description~
+~
+0 0 2002
+S
+#2004
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2005
+D2
+~
+~
+0 0 2003
+S
+#2005
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D1
+~
+~
+0 0 2006
+D2
+~
+~
+0 0 2004
+S
+#2006
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2007
+D3
+~
+~
+0 0 2005
+S
+#2007
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.
+~
+0 0 5
+D0
+~
+~
+0 0 2008
+D2
+~
+~
+0 0 2006
+S
+#2008
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2009
+D2
+Exit description~
+~
+0 0 2007
+S
+#2009
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2010
+D2
+~
+~
+0 0 2008
+S
+#2010
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2011
+D2
+~
+~
+0 0 2009
+S
+#2011
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2012
+D2
+Exit description~
+~
+0 0 2010
+S
+#2012
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2013
+D2
+~
+~
+0 0 2011
+S
+#2013
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D2
+~
+~
+0 0 2012
+D3
+~
+~
+0 0 2014
+S
+#2014
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D1
+~
+~
+0 0 2013
+D3
+~
+~
+0 0 2015
+S
+#2015
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.
+
+~
+0 0 5
+D0
+~
+~
+0 0 2016
+D1
+~
+~
+0 0 2014
+S
+#2016
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.  A cave entrance
+can be seen to the north.
+~
+0 0 5
+D0
+~
+~
+0 0 2017
+D2
+~
+~
+0 0 2015
+S
+#2017
+A Narrow Crevasse~
+You stand in a narrow crevasse through the mountains.  There is barely enough
+room for two people to stand side-by-side on this trail.  It is unusually
+quiet here; the normal mountain creatures are nowhere to be found.  The
+temperature is cooler here than it was lower on the mountain.  A cave entrance
+can be seen to the north, leading down into the earth.
+~
+0 0 5
+D2
+Exit description~
+~
+0 0 2016
+D5
+~
+~
+0 0 2018
+S
+#2018
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 2017
+D5
+~
+~
+0 0 2019
+S
+#2019
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+~
+0 0 13
+D0
+~
+~
+0 0 2020
+D4
+Exit description~
+~
+0 0 2018
+S
+#2020
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+floor has flattened out a bit.  Perhaps you have reached the bottom of this
+cavern.
+~
+0 0 13
+D1
+~
+~
+0 0 2021
+D2
+Exit description~
+~
+0 0 2019
+S
+#2021
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+floor has flattened out a bit.  Perhaps you have reached the bottom of this
+cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 2022
+D3
+Exit description~
+~
+0 0 2020
+S
+#2022
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+floor has flattened out a bit.  Perhaps you have reached the bottom of this
+cavern.
+~
+0 0 13
+D0
+~
+~
+0 0 2023
+D2
+Exit description~
+~
+0 0 2021
+S
+#2023
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+cavern slopes downhill again here, leading further down into the earth.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2022
+D5
+~
+~
+0 0 2024
+S
+#2024
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+cavern slopes downhill again here, leading further down into the earth.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 2023
+D5
+~
+~
+0 0 2025
+S
+#2025
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+cavern slopes downhill again here, leading further down into the earth.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 2024
+D5
+~
+~
+0 0 2026
+S
+#2026
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  The
+cavern slopes downhill again here, leading further down into the earth.
+~
+0 0 13
+D0
+~
+~
+0 0 2027
+D4
+Exit description~
+~
+0 0 2025
+S
+#2027
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D0
+~
+~
+0 0 2028
+D2
+Exit description~
+~
+0 0 2026
+S
+#2028
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D0
+~
+~
+0 0 2029
+D2
+Exit description~
+~
+0 0 2027
+S
+#2029
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2028
+D3
+~
+~
+0 0 2030
+S
+#2030
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 2029
+D3
+~
+~
+0 0 2031
+S
+#2031
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D0
+~
+~
+0 0 2032
+D1
+Exit description~
+~
+0 0 2030
+S
+#2032
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+Stalactites hang from the ceiling, and the sound of slowly dripping water can
+be heard.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2031
+D5
+~
+~
+0 0 2033
+S
+#2033
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+The ground here slopes down, headed towards more dark caves.
+~
+0 0 13
+D4
+Exit description~
+~
+0 0 2032
+D5
+~
+~
+0 0 2034
+S
+#2034
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.
+The ground here slopes down, headed towards more dark caves.
+~
+0 0 13
+D0
+~
+~
+0 0 2035
+D4
+Exit description~
+~
+0 0 2033
+S
+#2035
+A Dark Cavern~
+You stand inside a dark cavern.  You cannot see any further than the limit of
+your own light.  The squeaks and chirps of bats and rats can be heard echoing
+far away, down in the caves.  A chilly breeze floats slowly about you.  You
+think you can see some sort of light coming from the north.
+~
+0 0 13
+D0
+~
+~
+0 0 2036
+D2
+Exit description~
+~
+0 0 2034
+S
+#2036
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2075
+D1
+~
+~
+0 0 2037
+D2
+Exit description~
+~
+0 0 2035
+D3
+~
+~
+0 0 2063
+S
+#2037
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2086
+D1
+~
+~
+0 0 2038
+D3
+Exit description~
+~
+0 0 2036
+S
+#2038
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2039
+D3
+Exit description~
+~
+0 0 2037
+S
+#2039
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2040
+D2
+Exit description~
+~
+0 0 2038
+D3
+~
+~
+0 0 2086
+S
+#2040
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2089
+D1
+~
+~
+0 0 2041
+D2
+Exit description~
+~
+0 0 2039
+D3
+~
+~
+0 0 2085
+S
+#2041
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2042
+D2
+Exit description~
+~
+0 0 2090
+D3
+Exit description~
+~
+0 0 2040
+S
+#2042
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2043
+D1
+~
+~
+0 0 2092
+D2
+Exit description~
+~
+0 0 2041
+D3
+~
+~
+0 0 2089
+S
+#2043
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2044
+D2
+Exit description~
+~
+0 0 2042
+D3
+~
+~
+0 0 2088
+S
+#2044
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2045
+D1
+~
+~
+0 0 2093
+D2
+Exit description~
+~
+0 0 2043
+D3
+~
+~
+0 0 2087
+S
+#2045
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2044
+D3
+~
+~
+0 0 2046
+S
+#2046
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2097
+D1
+Exit description~
+~
+0 0 2045
+D2
+~
+~
+0 0 2087
+D3
+~
+~
+0 0 2047
+S
+#2047
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2048
+D1
+Exit description~
+~
+0 0 2046
+D2
+~
+~
+0 0 2082
+D3
+~
+~
+0 0 2080
+S
+#2048
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2049
+D2
+Exit description~
+~
+0 0 2047
+D3
+~
+~
+0 0 2081
+S
+#2049
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D2
+Exit description~
+~
+0 0 2048
+D3
+~
+~
+0 0 2050
+S
+#2050
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2105
+D1
+Exit description~
+~
+0 0 2049
+D2
+~
+~
+0 0 2081
+D3
+~
+~
+0 0 2051
+S
+#2051
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2104
+D1
+Exit description~
+~
+0 0 2050
+D2
+~
+~
+0 0 2070
+D3
+~
+~
+0 0 2052
+S
+#2052
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2103
+D1
+Exit description~
+~
+0 0 2051
+D2
+~
+~
+0 0 2071
+D3
+~
+~
+0 0 2053
+S
+#2053
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D1
+Exit description~
+~
+0 0 2052
+D2
+~
+~
+0 0 2054
+S
+#2054
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2053
+D1
+~
+~
+0 0 2071
+D2
+~
+~
+0 0 2055
+D3
+~
+~
+0 0 2101
+S
+#2055
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2054
+D1
+~
+~
+0 0 2072
+D2
+~
+~
+0 0 2056
+D3
+~
+~
+0 0 2100
+S
+#2056
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2055
+D1
+~
+~
+0 0 2073
+D2
+~
+~
+0 0 2057
+D3
+~
+~
+0 0 2099
+S
+#2057
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2056
+D1
+~
+~
+0 0 2074
+D2
+~
+~
+0 0 2058
+S
+#2058
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2057
+D1
+~
+~
+0 0 2059
+S
+#2059
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2074
+D1
+~
+~
+0 0 2066
+D2
+~
+~
+0 0 2060
+D3
+Exit description~
+~
+0 0 2058
+S
+#2060
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2059
+D1
+~
+~
+0 0 2065
+D2
+~
+~
+0 0 2061
+S
+#2061
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2060
+D1
+~
+~
+0 0 2064
+D2
+~
+~
+0 0 2062
+D3
+~
+~
+0 0 2098
+S
+#2062
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2061
+D1
+~
+~
+0 0 2063
+S
+#2063
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2064
+D1
+Exit description~
+~
+0 0 2036
+D3
+Exit description~
+~
+0 0 2062
+S
+#2064
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2065
+D1
+~
+~
+0 0 2075
+D2
+Exit description~
+~
+0 0 2063
+D3
+Exit description~
+~
+0 0 2061
+S
+#2065
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2066
+D1
+~
+~
+0 0 2076
+D2
+Exit description~
+~
+0 0 2064
+D3
+Exit description~
+~
+0 0 2060
+S
+#2066
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2067
+D1
+~
+~
+0 0 2077
+D2
+Exit description~
+~
+0 0 2065
+D3
+Exit description~
+~
+0 0 2059
+S
+#2067
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2068
+D1
+~
+~
+0 0 2078
+D2
+Exit description~
+~
+0 0 2066
+D3
+~
+~
+0 0 2074
+S
+#2068
+Within Tyrybblyn~
+You stand at the center of a large cavern, the ceiling so high you cannot see
+it.  Slaves of the drow move about, doing their duty to their masters.  High
+above  you, the sound of a cruel wind can be heard, whistling about the
+stalactites  on the roof.  It is quite cold here.  A small hole, just wide
+enough to fit through, is carved into the rock floor.  The smell of smoke
+drifts up through the opening.
+~
+0 0 13
+D0
+~
+~
+0 0 2069
+D1
+~
+~
+0 0 2079
+D2
+Exit description~
+~
+0 0 2067
+D3
+~
+~
+0 0 2073
+D5
+~
+~
+0 0 2351
+S
+#2069
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2070
+D1
+~
+~
+0 0 2080
+D2
+Exit description~
+~
+0 0 2068
+D3
+~
+~
+0 0 2072
+S
+#2070
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2051
+D1
+~
+~
+0 0 2081
+D2
+Exit description~
+~
+0 0 2069
+D3
+~
+~
+0 0 2071
+S
+#2071
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2052
+D1
+Exit description~
+~
+0 0 2070
+D2
+~
+~
+0 0 2072
+D3
+Exit description~
+~
+0 0 2054
+S
+#2072
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2071
+D1
+Exit description~
+~
+0 0 2069
+D2
+~
+~
+0 0 2073
+D3
+Exit description~
+~
+0 0 2055
+S
+#2073
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2072
+D1
+Exit description~
+~
+0 0 2068
+D2
+~
+~
+0 0 2074
+D3
+Exit description~
+~
+0 0 2056
+S
+#2074
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2073
+D1
+Exit description~
+~
+0 0 2067
+D2
+Exit description~
+~
+0 0 2059
+D3
+Exit description~
+~
+0 0 2057
+S
+#2075
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2076
+D1
+~
+~
+0 0 2086
+D2
+Exit description~
+~
+0 0 2036
+D3
+Exit description~
+~
+0 0 2064
+S
+#2076
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2077
+D1
+~
+~
+0 0 2085
+D2
+Exit description~
+~
+0 0 2075
+D3
+Exit description~
+~
+0 0 2065
+S
+#2077
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2078
+D1
+~
+~
+0 0 2084
+D2
+Exit description~
+~
+0 0 2076
+D3
+Exit description~
+~
+0 0 2066
+S
+#2078
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2079
+D1
+~
+~
+0 0 2083
+D2
+Exit description~
+~
+0 0 2077
+D3
+Exit description~
+~
+0 0 2067
+S
+#2079
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2080
+D1
+~
+~
+0 0 2082
+D2
+Exit description~
+~
+0 0 2078
+D3
+~
+~
+0 0 2068
+S
+#2080
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2081
+D1
+Exit description~
+~
+0 0 2047
+D2
+Exit description~
+~
+0 0 2079
+D3
+Exit description~
+~
+0 0 2069
+S
+#2081
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2050
+D1
+Exit description~
+~
+0 0 2048
+D2
+Exit description~
+~
+0 0 2080
+D3
+Exit description~
+~
+0 0 2070
+S
+#2082
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2047
+D1
+~
+~
+0 0 2087
+D2
+~
+~
+0 0 2083
+D3
+Exit description~
+~
+0 0 2079
+S
+#2083
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2082
+D1
+~
+~
+0 0 2088
+D2
+~
+~
+0 0 2084
+D3
+Exit description~
+~
+0 0 2078
+S
+#2084
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2083
+D1
+~
+~
+0 0 2089
+D2
+~
+~
+0 0 2085
+D3
+Exit description~
+~
+0 0 2077
+S
+#2085
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2084
+D1
+~
+~
+0 0 2040
+D2
+~
+~
+0 0 2086
+D3
+Exit description~
+~
+0 0 2076
+S
+#2086
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2085
+D1
+Exit description~
+~
+0 0 2039
+D2
+Exit description~
+~
+0 0 2037
+D3
+Exit description~
+~
+0 0 2075
+S
+#2087
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+~
+~
+0 0 2046
+D1
+~
+~
+0 0 2044
+D2
+~
+~
+0 0 2088
+D3
+Exit description~
+~
+0 0 2082
+S
+#2088
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2087
+D1
+Exit description~
+~
+0 0 2043
+D2
+~
+~
+0 0 2089
+D3
+Exit description~
+~
+0 0 2083
+S
+#2089
+Within Tyrybblyn~
+You stand within a large cavern, the ceiling so high you cannot see it.
+Slaves of the drow move about, doing their duty to their masters.  High above
+you, the sound of a cruel wind can be heard, whistling about the stalactites
+on the roof.  It is quite cold here.
+~
+0 0 13
+D0
+Exit description~
+~
+0 0 2088
+D1
+Exit description~
+~
+0 0 2042
+D2
+Exit description~
+~
+0 0 2040
+D3
+Exit description~
+~
+0 0 2084
+S
+#2090
+House Karanthen~
+This small house is still quite rich, compared to some of the dwellings you've
+seen on the surface.  Pictures of a powerful drow female hang along one wall,
+probably a matron of the house.  A large table sits in the middle of the room,
+probably some sort of meeting place.
+~
+0 8 13
+D0
+~
+~
+0 0 2041
+D1
+~
+~
+0 0 2091
+S
+#2091
+House Karanthen~
+You stand within the main hall of House Karanthen.  Several small chambers
+head off of this one, probably to sleeping quarters of the drow who make up
+this house.  A small altar to the Spider Queen sits in the middle of the room.
+~
+0 8 13
+D3
+Exit description~
+~
+0 0 2090
+S
+#2092
+Sithyrr And Gear~
+This small cavern seems to house some sort of weaponsmith.  Strange weapons
+hang from the walls, from small daggers, easy to hide, to hand-held crossbows
+and their poisoned darts.  A long counter runs the length of the eastern wall.
+~
+0 8 13
+D3
+Exit description~
+~
+0 0 2042
+S
+#2093
+House Ssin'urn~
+You stand within the hall of House Ssin'urn.  Several hallways branch
+off, leading to sleeping quarters and other minor locations.  This house is
+clean and has some expensive looking artwork hanging from the walls.
+
+~
+0 8 13
+D0
+~
+~
+0 0 2094
+D3
+Exit description~
+~
+0 0 2044
+S
+#2094
+House Ssin'urn~
+You stand within the hall of House Ssin'urn.  Several hallways branch
+off, leading to sleeping quarters and other minor locations.  This house is
+clean and has some expensive looking artwork hanging from the walls.
+
+~
+0 8 13
+D0
+~
+~
+0 0 2095
+D2
+Exit description~
+~
+0 0 2093
+S
+#2095
+House Ssin'urn~
+You stand within the main hall of House Ssin'urn.  A large altar to the Spider
+Queen is placed in the northeast corner of the room.  From the blood stains on
+the floor, it looks like it has been used recently.
+~
+0 8 13
+D2
+Exit description~
+~
+0 0 2094
+D3
+~
+~
+0 0 2096
+S
+#2096
+House Ssin'urn~
+You stand within the hall of House Ssin'urn.  Several hallways branch
+off, leading to sleeping quarters and other minor locations.  This house is
+clean and has some expensive looking artwork hanging from the walls.
+
+~
+0 8 13
+D1
+Exit description~
+~
+0 0 2095
+D3
+~
+~
+0 0 2097
+S
+#2097
+House Ssin'urn~
+You stand within the hall of House Ssin'urn.  Several hallways branch
+off, leading to sleeping quarters and other minor locations.  This house is
+clean and has some expensive looking artwork hanging from the walls.
+
+~
+0 8 13
+D1
+Exit description~
+~
+0 0 2096
+D2
+Exit description~
+~
+0 0 2046
+S
+#2098
+Ky'ostal Kreations~
+The gear of an armorsmith lays about this small cave.  A huge fire burns along
+the western wall.  It must be magical, since you see no sign of wood or other
+fuels.  The delicate instruments used to shape mithril are placed on a long
+table along the south wall.
+~
+0 8 13
+D1
+Exit description~
+~
+0 0 2061
+S
+#2099
+House Belaern~
+The entrance hall of House Belaern is huge.  The ceiling stretches off into
+the distance.  Magical lights float about the stalactites, giving the room a
+strange, shifting glow.  Trophies of war stand on various pedestals about the
+room.
+~
+0 8 13
+D0
+~
+~
+0 0 2100
+D1
+Exit description~
+~
+0 0 2056
+S
+#2100
+House Belaern~
+The entrance hall of House Belaern is huge.  The ceiling stretches off into
+the distance.  Magical lights float about the stalactites, giving the room a
+strange, shifting glow.  Trophies of war stand on various pedestals about the
+room.
+~
+0 8 13
+D0
+~
+~
+0 0 2101
+D1
+Exit description~
+~
+0 0 2055
+D2
+Exit description~
+~
+0 0 2099
+D3
+~
+~
+0 0 2102
+S
+#2101
+House Belaern~
+The entrance hall of House Belaern is huge.  The ceiling stretches off into
+the distance.  Magical lights float about the stalactites, giving the room a
+strange, shifting glow.  Trophies of war stand on various pedestals about the
+room.
+~
+0 8 13
+D1
+Exit description~
+~
+0 0 2054
+D2
+Exit description~
+~
+0 0 2100
+S
+#2102
+House Belaern~
+This is the altar room of House Belaern.  The altar to Lloth that is placed
+against the western wall is carved from a giant piece of ebony.  Various
+scenes of death and war are carved into its surface.  A strong incense burns
+in the braziers surrounding the altar.
+~
+0 8 13
+D1
+Exit description~
+~
+0 0 2100
+S
+#2103
+House Z'Ress~
+From the look of this house, the drow who reside here must be the current
+rulers of Tyrybblyn.  Although gruesome and horrifying, the art on the walls
+is quite well crafted, and many valuable artifacts stand about, trophies from
+some war or another.
+~
+0 8 13
+D0
+~
+~
+0 0 2106
+D1
+~
+~
+0 0 2104
+D2
+Exit description~
+~
+0 0 2052
+S
+#2104
+House Z'Ress~
+From the look of this house, the drow who reside here must be the current
+rulers of Tyrybblyn.  Although gruesome and horrifying, the art on the walls
+is quite well crafted, and many valuable artifacts stand about, trophies from
+some war or another.
+~
+0 8 13
+D0
+~
+~
+0 0 2107
+D1
+~
+~
+0 0 2105
+D2
+Exit description~
+~
+0 0 2051
+D3
+Exit description~
+~
+0 0 2103
+S
+#2105
+House Z'Ress~
+From the look of this house, the drow who reside here must be the current
+rulers of Tyrybblyn.  Although gruesome and horrifying, the art on the walls
+is quite well crafted, and many valuable artifacts stand about, trophies from
+some war or another.
+~
+0 8 13
+D0
+~
+~
+0 0 2108
+D2
+~
+~
+0 0 2050
+D3
+Exit description~
+~
+0 0 2104
+S
+#2106
+House Z'Ress~
+You stand in the meeting room of the ruling house of Tyrybblyn.  A large ebony
+table stands in the center of the room, and intricately carved stone chairs
+sit about it at equal intervals.  The strange magical lights float about the
+ceiling of this room.
+~
+0 8 13
+D1
+~
+~
+0 0 2107
+D2
+Exit description~
+~
+0 0 2103
+S
+#2107
+House Z'Ress~
+From the look of this house, the drow who reside here must be the current
+rulers of Tyrybblyn.  Although gruesome and horrifying, the art on the walls
+is quite well crafted, and many valuable artifacts stand about, trophies from
+some war or another.
+~
+0 8 13
+D0
+~
+~
+0 0 2109
+D1
+~
+~
+0 0 2108
+D2
+Exit description~
+~
+0 0 2104
+D3
+Exit description~
+~
+0 0 2106
+S
+#2108
+House Z'Ress~
+Noticing all the beds and lockers here, you realize you must of wandered into
+the barracks of the ruling house of Tyrybblyn.  You get a very bad feeling
+when you realize that the most mighty warriors of the underworld make their
+home in this room.
+~
+0 8 13
+D2
+Exit description~
+~
+0 0 2105
+D3
+Exit description~
+~
+0 0 2107
+S
+#2109
+House Z'Ress~
+The altar room of House Z'Ress is quite impressive.  A gold and ebony altar to
+Lloth stands against the north wall, shaped like a giant spider.  Many candles
+burn brightly around the sides of the room, but the darkness still seems to
+envelop everything.  The smell of incense is very strong here.
+~
+0 8 13
+D2
+Exit description~
+~
+0 0 2107
+S
+#2150
+Placeholder~
+Placeholder
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 2037 1 2019
+M 0 2036 1 2109
+E 0 2019 1 21
+E 0 2023 1 7
+M 0 2035 1 2102
+E 0 2019 1 21
+E 0 2022 1 7
+M 0 2034 1 2095
+E 0 2021 1 21
+E 0 2022 1 7
+M 0 2033 1 2091
+E 0 2021 1 21
+E 0 2022 1 7
+M 0 2032 1 2098
+G 1 2007 1
+G 1 2006 1
+G 1 2005 1
+G 1 2004 1
+G 1 2003 1
+G 1 2002 1
+G 1 2001 1
+M 0 2031 1 2092
+G 1 2013 1
+G 1 2012 1
+G 1 2011 1
+G 1 2010 1
+G 1 2009 1
+G 1 2008 1
+M 0 2030 1 2109
+E 0 2019 1 21
+E 0 2018 1 4
+E 0 2017 1 7
+M 0 2029 1 2095
+E 0 2009 1 21
+E 0 2016 1 7
+M 0 2028 1 2102
+E 0 2009 1 21
+E 0 2015 1 7
+M 0 2027 1 2091
+E 0 2009 1 21
+E 0 2014 1 7
+M 0 2026 2 2051
+E 0 2014 1 7
+E 0 2009 1 21
+M 0 2026 2 2051
+E 0 2009 1 21
+E 0 2014 1 7
+M 0 2025 1 2107
+E 0 2020 1 21
+M 0 2024 1 2096
+E 0 2008 1 21
+M 0 2023 1 2100
+M 0 2022 1 2091
+M 0 2021 1 2104
+M 0 2020 1 2093
+M 0 2019 1 2099
+M 0 2018 1 2090
+M 0 2017 1 2089
+M 0 2016 1 2060
+M 0 2015 2 2079
+M 0 2015 2 2079
+M 0 2014 2 2025
+M 0 2014 2 2025
+M 0 2013 2 2043
+E 0 2012 1 21
+M 0 2013 2 2043
+M 0 2012 2 2058
+M 0 2012 2 2058
+E 0 2008 1 21
+M 0 2011 2 2034
+M 0 2011 2 2034
+M 0 2010 2 2062
+M 0 2010 2 2062
+M 0 2009 3 2071
+M 0 2009 3 2071
+E 0 2005 1 1
+M 0 2009 3 2071
+M 0 2008 2 2038
+M 0 2008 2 2038
+E 0 2012 1 21
+M 0 2007 2 2029
+M 0 2007 2 2029
+E 0 2007 1 4
+M 0 2006 2 2013
+M 0 2006 2 2013
+E 0 2010 1 21
+M 0 2005 2 2081
+M 0 2005 2 2081
+M 0 2004 2 2015
+M 0 2004 2 2015
+M 0 2003 2 2077
+M 0 2003 2 2077
+M 0 2002 2 2024
+M 0 2002 2 2024
+M 0 2001 2 2005
+M 0 2001 2 2005
+S
+
+
+#SHOPS
+ 2031    8  5  0  0  0   120  90         7 18    ; the weaponsmith
+ 2032    9  8 11  0  0   120  90         7 18    ; the armorer
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2006 spec_guard
+M  2007 spec_guard
+M  2008 spec_guard
+M  2009 spec_guard
+M  2010 spec_cast_mage
+M  2011 spec_cast_mage
+M  2012 spec_cast_mage
+M  2013 spec_cast_mage
+M  2022 spec_cast_mage
+M  2023 spec_cast_mage
+M  2024 spec_cast_mage
+M  2025 spec_cast_mage
+M  2026 spec_cast_undead
+M  2027 spec_cast_undead
+M  2028 spec_cast_undead
+M  2029 spec_cast_cleric
+M  2030 spec_cast_cleric
+M  2033 spec_cast_diabolist
+M  2034 spec_cast_diabolist
+M  2035 spec_cast_shaman
+M  2036 spec_cast_bishop
+M  2037 spec_executioner
+S
+
+
+#$

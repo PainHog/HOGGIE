@@ -1,0 +1,1078 @@
+#AREA   Silver Path~
+
+
+
+#VERSION 1
+#AUTHOR Nameless~
+
+#RANGES
+10 50 0 65
+$
+
+#RESETMSG The memories of the lost swirl in the wind.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 132292360
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8201
+a wandering child~
+a wandering child~
+This child is wandering far from the city.
+~
+This child has left Bazabel for an adventure along the now deserted Silver
+Path.  They don't seem scared by the ghost stories and other legends of the
+Ghouls and Elves magik that long since cursed this road.  They cheerily
+explore, hoping to find adventure.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8202
+a wandering child~
+a wandering child~
+This child is wandering far from the city.
+~
+This child has left Bazabel for an adventure along the now deserted Silver
+Path.  They don't seem scared by the ghost stories and other legends of the
+Ghouls and Elves magik that long since cursed this road.  They cheerily
+explore, hoping to find adventure.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8203
+a wandering child~
+a wandering child~
+This child is wandering far from the city.
+~
+This child has left Bazabel for an adventure along the now deserted Silver
+Path.  They don't seem scared by the ghost stories and other legends of the
+Ghouls and Elves magik that long since cursed this road.  They cheerily
+explore, hoping to find adventure.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8204
+a wandering child~
+a wandering child~
+This child is wandering far from the city.
+~
+This child has left Bazabel for an adventure along the now deserted Silver
+Path.  They don't seem scared by the ghost stories and other legends of the
+Ghouls and Elves magik that long since cursed this road.  They cheerily
+explore, hoping to find adventure.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8205
+fallen elf spirit~
+a fallen elf~
+This spirit wanders the road.
+~
+This spirit was once an elf, a beautiful one at that. But now they are a
+twisted shadow that is left to wander the road for eternity.  They are
+silently weeping and holding the wound that took their life.
+~
+16777281 0 -1000 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8206
+fallen elf spirit~
+a fallen elf~
+This spirit wanders the road.
+~
+This spirit was once an elf, a beautiful one at that. But now they are a
+twisted shadow that is left to wander the road for eternity.  They are
+silently weeping and holding the wound that took their life.
+~
+16777281 0 -1000 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8207
+fallen elf spirit~
+a fallen elf~
+This spirit wanders the road.
+~
+This spirit was once an elf, a beautiful one at that. But now they are a
+twisted shadow that is left to wander the road for eternity.  They are
+silently weeping and holding the wound that took their life.
+~
+16777281 0 -1000 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8208
+fallen elf spirit~
+a fallen elf~
+This spirit wanders the road.
+~
+This spirit was once an elf, a beautiful one at that. But now they are a
+twisted shadow that is left to wander the road for eternity.  They are
+silently weeping and holding the wound that took their life.
+~
+16777281 0 -1000 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8209
+ghoul scavenger~
+a ghoul scavenger~
+This ghoul is trying to find pieces of its home.
+~
+This ghoul is on the look out for two things, Imperial soldiers and any pieces
+it can find of it's shattered homeland.  It looks completely scared out of its
+mind but also incredibly saddened by its duty.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8210
+ghoul scavenger~
+a ghoul scavenger~
+This ghoul is trying to find pieces of its home.
+~
+This ghoul is on the look out for two things, Imperial soldiers and any pieces
+it can find of it's shattered homeland.  It looks completely scared out of its
+mind but also incredibly saddened by its duty.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8211
+ghoul scavenger~
+a ghoul scavenger~
+This ghoul is trying to find pieces of its home.
+~
+This ghoul is on the look out for two things, Imperial soldiers and any pieces
+it can find of it's shattered homeland.  It looks completely scared out of its
+mind but also incredibly saddened by its duty.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8212
+ghoul scavenger~
+a ghoul scavenger~
+This ghoul is trying to find pieces of its home.
+~
+This ghoul is on the look out for two things, Imperial soldiers and any pieces
+it can find of it's shattered homeland.  It looks completely scared out of its
+mind but also incredibly saddened by its duty.
+~
+16777281 0 0 C
+15 0 0 8d1+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8213
+scared soldier~
+a scared soldier~
+This soldier looks horrified to be on patrol.
+~
+This soldier is constantly looking over their shoulder.  He scans the treeline
+everytime he hears a noise and grips his spear a little tighter. He curses his
+luck of drawing long patrol duty along the silver path.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8214
+scared soldier~
+a scared soldier~
+This soldier looks horrified to be on patrol.
+~
+This soldier is constantly looking over their shoulder.  He scans the treeline
+everytime he hears a noise and grips his spear a little tighter. He curses his
+luck of drawing long patrol duty along the silver path.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8215
+scared soldier~
+a scared soldier~
+This soldier looks horrified to be on patrol.
+~
+This soldier is constantly looking over their shoulder.  He scans the treeline
+everytime he hears a noise and grips his spear a little tighter. He curses his
+luck of drawing long patrol duty along the silver path.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8216
+scared soldier~
+a scared soldier~
+This soldier looks horrified to be on patrol.
+~
+This soldier is constantly looking over their shoulder.  He scans the treeline
+everytime he hears a noise and grips his spear a little tighter. He curses his
+luck of drawing long patrol duty along the silver path.
+~
+16777281 0 0 C
+20 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8299
+Lu Bu warrior wandering~
+Lu Bu, the Warrior~
+This massive warrior is wandering the world.
+~
+This warrior is huge and covered in a series of bamboo and plate armor.
+Judging by the double bladed halberd he carries you guess that he is the
+legendary Lu Bu, the mercenary warlord.  In the pubs and ale houses of Bazabel
+and Sahardin you have heard his name half whispered as a man that fights for
+the sheer joy of combat and no other reason.  He watches you with a cold eye,
+hoping you will become another memory on his blade.
+~
+16777217 33556608&64 -1000 C
+65 0 0 8d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 8 3145728 0 0 432 3
+> greet_prog 100~
+look $n
+laugh $n
+say You want to test a true warrior, $n ?~
+|
+#0
+
+
+#OBJECTS
+#8201
+wooden toy~
+a wooden toy~
+This child's toy is quite dull.~
+~
+13 0 1048577
+0 0 0 0
+1 0 0
+E
+wooden toy~
+This wooden toy is worn down by the love and affection of a child.  It appears 
+to have once been carried everywhere, due to the scratches and scrapes on it.
+~
+#8202
+long spear imperial~
+an Imperial long spear~
+This long spear is quite effective against horsemen.~
+~
+5 0&16 131073
+12 5 4 24
+4 500 0
+E
+long spear imperial~
+Used by Imperial foot soldiers to unseat attacking horsemen, this long spear 
+can be used with deadly results in battle.
+~
+#8203
+double bladed halberd~
+a double-bladed halberd~
+This fearsome weapon is the trademark of Lu Bu~
+~
+5 0&16 131073
+12 6 5 12
+4 500 0
+E
+double bladed halberd~
+The trademark weapon of mighty Lu Bu, this vicious weapon sports wide blades 
+on either end of its stout handle.  In the hands of a skilled warrior, it 
+could very well dismember many victims in a single swing.
+~
+A
+18 3
+#8299
+ghoul memento~
+a ghoul memento~
+This piece of ghoulish history is priceless to some.~
+~
+8 0 1048577
+0 0 0 0
+1 200 0
+E
+ghoul memento~
+A small memento of the ancient ghouls, this might be worth something to a 
+collector somewhere.
+~
+#0
+
+
+#ROOMS
+#8201
+Beyond Bazabel~
+The massive gate behind you seems a lifetime away as you stare down the road.
+The hills and small forests seem to swallow everything.  There is considerably
+less people here than the other gates, mostly soldiers returning from patrol
+or the few random children that wanted to play beyond the city walls.
+~
+0 0 2
+D0
+~
+~
+0 0 6099
+D2
+~
+~
+0 0 8202
+S
+#8202
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8201
+D2
+~
+~
+0 0 8203
+S
+#8203
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8202
+D1
+~
+~
+0 0 8204
+S
+#8204
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8205
+D3
+Exit description~
+~
+0 0 8203
+S
+#8205
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8206
+D3
+Exit description~
+~
+0 0 8204
+S
+#8206
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8207
+D3
+Exit description~
+~
+0 0 8205
+S
+#8207
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D2
+~
+~
+0 0 8208
+D3
+Exit description~
+~
+0 0 8206
+S
+#8208
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8207
+D2
+~
+~
+0 0 8209
+S
+#8209
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8208
+D2
+~
+~
+0 0 8210
+S
+#8210
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8209
+D2
+~
+~
+0 0 8211
+S
+#8211
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8210
+D2
+~
+~
+0 0 8212
+S
+#8212
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8211
+D2
+~
+~
+0 0 8213
+S
+#8213
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8212
+D2
+~
+~
+0 0 8214
+S
+#8214
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8213
+D1
+~
+~
+0 0 8215
+S
+#8215
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8216
+D3
+Exit description~
+~
+0 0 8214
+S
+#8216
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8217
+D3
+Exit description~
+~
+0 0 8215
+S
+#8217
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D2
+~
+~
+0 0 8218
+D3
+Exit description~
+~
+0 0 8216
+S
+#8218
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8217
+D2
+~
+~
+0 0 8219
+S
+#8219
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8218
+D2
+~
+~
+0 0 8220
+S
+#8220
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8219
+D1
+~
+~
+0 0 8221
+S
+#8221
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8222
+D3
+Exit description~
+~
+0 0 8220
+S
+#8222
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8223
+D3
+Exit description~
+~
+0 0 8221
+S
+#8223
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder. To the east the
+forest thins.
+~
+0 1 3
+D2
+~
+~
+0 0 8224
+D3
+Exit description~
+~
+0 0 8222
+S
+#8224
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8223
+D2
+~
+~
+0 0 8225
+S
+#8225
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+~
+~
+0 0 8224
+D2
+~
+~
+0 0 8226
+S
+#8226
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8225
+D1
+~
+~
+0 0 8227
+S
+#8227
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8228
+D3
+Exit description~
+~
+0 0 8226
+S
+#8228
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D1
+~
+~
+0 0 8229
+D3
+Exit description~
+~
+0 0 8227
+S
+#8229
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D2
+~
+~
+0 0 8230
+D3
+Exit description~
+~
+0 0 8228
+S
+#8230
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8229
+D2
+~
+~
+0 0 8231
+S
+#8231
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder. To the west a
+copper path leads into a clearing.
+~
+0 1 3
+D0
+~
+~
+0 0 8230
+D2
+~
+~
+0 0 8232
+D3
+~
+~
+0 0 8401
+S
+#8232
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8231
+D1
+~
+~
+0 0 8233
+S
+#8233
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D2
+~
+~
+0 0 8234
+D3
+Exit description~
+~
+0 0 8232
+S
+#8234
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8233
+D2
+~
+~
+0 0 8235
+S
+#8235
+On The Silver Path~
+The forests of the south swallow the road in each direction.  The roots and
+moss of the trees has spread into the road, making it impossible for a cart to
+survive for long.  The trees are thin and pale yet so densely packed it seems
+no light can come in.  You hear the sounds of small animals and rodents making
+their living.  The air from the south is distinctly colder.
+~
+0 1 3
+D0
+Exit description~
+~
+0 0 8234
+D2
+~
+~
+0 0 8299
+S
+#8299
+Before A Great Tundra~
+The forests are long behind you and now you stand at the edge of a great
+Tundra.  All you can see is barren white fields.  The air is harsh and chill.
+To the very far south you can make out snow-covered mountains.  You wonder
+what lies buried within this forgotten wasteland.
+~
+0 0 2
+D0
+~
+~
+0 0 8235
+S
+#0
+
+
+#RESETS
+M 0 8201 1 8203
+M 0 8213 1 8206
+E 1 8202 1 21
+M 0 8202 1 8208
+G 1 8201 1
+M 0 8214 1 8210
+E 1 8202 1 21
+M 0 8205 1 8212
+M 0 8209 1 8214
+G 1 8299 1
+M 0 8203 1 8216
+M 0 8204 1 8218
+G 1 8201 1
+M 0 8206 1 8220
+M 0 8210 1 8222
+M 0 8215 1 8224
+M 0 8204 1 8226
+M 0 8207 1 8228
+M 0 8211 1 8230
+M 0 8216 1 8232
+M 0 8208 1 8235
+M 0 8212 1 8299
+M 0 8299 1 8217
+E 1 8203 1 21
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8299 spec_cast_bishop
+S
+
+
+#$
