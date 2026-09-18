@@ -24,6 +24,8 @@ import {
   type Character,
 } from "./character.ts";
 import { dispatchCommand } from "./commands.ts";
+import { PlayerFighter } from "./fighter.ts";
+import type { CombatManager } from "./combat.ts";
 import { esc, out, sendRoom, sendVitals } from "./view.ts";
 
 export interface GameServices {
@@ -32,6 +34,7 @@ export interface GameServices {
   live: LiveWorld;
   auth: Authenticator;
   db: Db | null;
+  combat: CombatManager;
 }
 
 type State = "authenticating" | "choosing" | "playing";
@@ -43,6 +46,7 @@ export class Session {
   private account: Account | null = null;
   private character: Character | null = null;
   private player: Player | null = null;
+  private fighter: PlayerFighter | null = null;
 
   constructor(
     private readonly conn: Connection,
@@ -174,6 +178,7 @@ export class Session {
     }
     this.character = character;
     this.player = { character, send: (m) => this.conn.send(m) };
+    this.fighter = new PlayerFighter(character, this.svc.world, (m) => this.conn.send(m));
     this.state = "playing";
 
     this.svc.live.enter(this.player);
@@ -191,9 +196,16 @@ export class Session {
   }
 
   private doCommand(raw: string): void {
-    if (!this.player) return;
+    if (!this.player || !this.fighter) return;
     dispatchCommand(
-      { world: this.svc.world, live: this.svc.live, player: this.player, quit: () => this.close() },
+      {
+        world: this.svc.world,
+        live: this.svc.live,
+        player: this.player,
+        combat: this.svc.combat,
+        fighter: this.fighter,
+        quit: () => this.close(),
+      },
       raw,
     );
   }
@@ -201,6 +213,7 @@ export class Session {
   /** Called on socket close or `quit`. Persists and removes the player from the world. */
   async onClose(): Promise<void> {
     if (this.state === "playing" && this.player && this.character) {
+      if (this.fighter) this.svc.combat.disengage(this.fighter);
       this.svc.live.broadcast(
         this.character.roomVnum,
         { t: "output", lines: [[{ text: `${esc(this.character.name)} fades away.`, color: "gray" }]] },
@@ -217,6 +230,7 @@ export class Session {
     }
     this.state = "authenticating";
     this.player = null;
+    this.fighter = null;
   }
 
   private close(): void {

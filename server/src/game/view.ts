@@ -3,6 +3,7 @@ import { parseColorSpans, toLines, type Line, type RoomView, type Vitals } from 
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, expToNextLevel, raceName, type Character } from "./character.ts";
+import { mobShort } from "./mobInstance.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -23,8 +24,8 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     sector: room?.sector ?? "inside",
     exits: room ? room.exits.map((e) => e.dir) : [],
     players: others,
-    mobs: [], // Phase 3
-    items: [], // Phase 3
+    mobs: live.roomMobs(ch.roomVnum).map((m) => mobShort(m)),
+    items: [], // ground items are Phase 4+
   };
 }
 
@@ -44,6 +45,10 @@ export function lookLines(live: LiveWorld, viewer: Player): Line[] {
   for (const p of live.roomPlayers(ch.roomVnum)) {
     if (p === viewer) continue;
     lines.push(parseColorSpans("&w" + esc(p.character.name) + " is here.&D"));
+  }
+  for (const mob of live.roomMobs(ch.roomVnum)) {
+    const line = mob.proto.longDesc || mobShort(mob) + " is here.";
+    lines.push(parseColorSpans("&g" + esc(line) + "&D"));
   }
   return lines;
 }

@@ -8,6 +8,7 @@
 import type { ServerMessage } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { Character } from "./character.ts";
+import type { MobInstance } from "./mobInstance.ts";
 
 /** Anything the live world can hold and message — a connected player's session implements this. */
 export interface Player {
@@ -18,8 +19,54 @@ export interface Player {
 export class LiveWorld {
   private readonly byRoom = new Map<number, Set<Player>>();
   private readonly byName = new Map<string, Player>();
+  private readonly mobsByRoom = new Map<number, Set<MobInstance>>();
+  private readonly mobsById = new Map<string, MobInstance>();
 
   constructor(readonly world: World) {}
+
+  // --- mobs ---------------------------------------------------------------
+  addMob(mob: MobInstance): void {
+    this.mobsById.set(mob.id, mob);
+    this.mobSet(mob.roomVnum).add(mob);
+  }
+
+  removeMob(mob: MobInstance): void {
+    this.mobsById.delete(mob.id);
+    const set = this.mobsByRoom.get(mob.roomVnum);
+    if (set) {
+      set.delete(mob);
+      if (set.size === 0) this.mobsByRoom.delete(mob.roomVnum);
+    }
+  }
+
+  moveMob(mob: MobInstance, toVnum: number): void {
+    this.mobSet(mob.roomVnum).delete(mob);
+    mob.roomVnum = toVnum;
+    this.mobSet(toVnum).add(mob);
+  }
+
+  roomMobs(vnum: number): MobInstance[] {
+    return [...(this.mobsByRoom.get(vnum) ?? [])];
+  }
+
+  allMobs(): MobInstance[] {
+    return [...this.mobsById.values()];
+  }
+
+  countMobProto(vnum: number): number {
+    let n = 0;
+    for (const m of this.mobsById.values()) if (m.proto.vnum === vnum) n++;
+    return n;
+  }
+
+  private mobSet(vnum: number): Set<MobInstance> {
+    let set = this.mobsByRoom.get(vnum);
+    if (!set) {
+      set = new Set();
+      this.mobsByRoom.set(vnum, set);
+    }
+    return set;
+  }
 
   online(): Player[] {
     return [...this.byName.values()];

@@ -56,16 +56,30 @@ In the client: `/create <name> <race> <class>` (races: Human/Elf/Ghoul, classes:
 Warrior/Mage/Cleric) or `/select <n>`, then play with `look`, `north`/`n` etc., `say hi`,
 `who`, `score`, `quit`. Two logged-in players in the same room see each other move and talk.
 
-`node server/scripts/smoke.mjs` runs an automated two-client end-to-end check.
+### Combat (Phase 3)
+
+Fight the extracted mobs: `kill <mob>` / `k <mob>`, `flee`, `consider <mob>`. Set your
+**stance** — the offense/defense dial — with `berserk`, `aggressive`, `normal`, `defensive`,
+`evasive`. Recover out of combat with `rest`, `sleep`, `stand`. LCK factors into every to-hit
+and drives lucky crits; rounds tick every 2 seconds; regen is fast and position-based.
+
+Two players in a room can gang up on a mob and see each other's blows. Automated checks:
+
+```bash
+node server/scripts/smoke.mjs                                   # movement + presence
+START_ROOM=21164 npx tsx server/src/index.ts &                 # start at a room with a mob
+TARGET_KEYWORD=scaly node server/scripts/smoke-combat.mjs       # two players kill it together
+```
 
 The world is loaded from `content/` JSON at boot — widen it by adding area filenames to
-`WORLD_AREAS` in `.env`, no code change. New characters start in `START_ROOM` (default 10300,
-the University of Alden).
+`WORLD_AREAS` in `.env`, no code change. Default zones are the University of Alden
+(`drazuni.are`, start room 10300) and Drazukville (`drazpost.are`, populated with mobs);
+mobs spawn from the resets in the loaded areas.
 
 ## Build phases
 
 1. Server foundation — WS server, Supabase wiring, in-memory world model, connect/echo. ✓
-2. **Accounts + world** — auth, character creation, load zones, movement, presence. ← current
-3. Combat identity — stances, ascending-hit/RIS/PLUS damage, 2s round, position regen, LCK.
+2. Accounts + world — auth, character creation, load zones, movement, presence. ✓
+3. **Combat identity** — stances, ascending-hit/RIS damage, 2s round, position regen, LCK. ← current
 4. Expo client — the real text client.
 5. Roles — player/builder/moderator/admin + builder area/vnum sandbox.

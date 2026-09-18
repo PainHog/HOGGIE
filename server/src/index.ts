@@ -13,6 +13,9 @@ import { loadWorld } from "./world/loader.ts";
 import { Authenticator } from "./auth/verify.ts";
 import { Db } from "./db/repos.ts";
 import { LiveWorld } from "./game/liveWorld.ts";
+import { CombatManager } from "./game/combat.ts";
+import { GameTick } from "./game/tick.ts";
+import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
 import { startWsServer, type WsHandle } from "./net/wsServer.ts";
 
@@ -24,9 +27,16 @@ async function main(): Promise<void> {
 
   const world = await loadWorld(cfg.contentDir, cfg.worldAreas);
   const live = new LiveWorld(world);
+  const combat = new CombatManager(world, live, cfg);
   const auth = new Authenticator(cfg);
   const serviceClient = getServiceClient(cfg);
   const db = serviceClient ? new Db(serviceClient) : null;
+
+  const spawned = populateWorld(live);
+  log.info("world populated from resets", { mobsSpawned: spawned });
+
+  const tick = new GameTick(live, combat);
+  tick.start();
 
   const health = await checkSupabase(cfg);
   if (health.reachable) log.info("Supabase reachable", { detail: health.detail });
@@ -35,7 +45,7 @@ async function main(): Promise<void> {
     log.warn("no Supabase service key — accounts/persistence disabled (set SUPABASE_SERVICE_ROLE_KEY)");
   }
 
-  const services: GameServices = { config: cfg, world, live, auth, db };
+  const services: GameServices = { config: cfg, world, live, auth, db, combat };
   const server: WsHandle = await startWsServer({
     port: cfg.port,
     createHandler: (conn) => new Session(conn, services),
@@ -47,6 +57,7 @@ async function main(): Promise<void> {
 
   const shutdown = async (signal: string) => {
     log.info(`received ${signal}, shutting down`);
+    tick.stop();
     await server.close();
     process.exit(0);
   };

@@ -6,6 +6,9 @@ import { World } from "../world/world.ts";
 import { LiveWorld, type Player } from "./liveWorld.ts";
 import { createCharacter } from "./character.ts";
 import { dispatchCommand } from "./commands.ts";
+import { CombatManager } from "./combat.ts";
+import { PlayerFighter } from "./fighter.ts";
+import type { AppConfig } from "../config.ts";
 
 let world: World;
 const START = 10300; // University of Alden entrance
@@ -43,8 +46,18 @@ function mockPlayer(cls = 3, race = 0): Mock {
   };
 }
 
-function ctx(live: LiveWorld, player: Player) {
-  return { world, live, player, quit: () => {} };
+const TEST_CONFIG: AppConfig = {
+  port: 0,
+  contentDir: "",
+  worldAreas: ["drazuni.are"],
+  startRoom: START,
+  supabase: {},
+};
+
+function ctx(live: LiveWorld, player: Mock) {
+  const combat = new CombatManager(world, live, TEST_CONFIG);
+  const fighter = new PlayerFighter(player.character, world, (m) => player.received.push(m));
+  return { world, live, player, combat, fighter, quit: () => {} };
 }
 
 describe("world load + movement + presence (Phase 2)", () => {
