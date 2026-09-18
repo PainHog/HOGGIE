@@ -1,0 +1,258 @@
+[
+ {
+  "class": "Mage",
+  "id": 0,
+  "max_title_level": 65,
+  "hp_per_level": [
+   6,
+   12
+  ],
+  "mana_per_level": 1,
+  "exp_base": 55,
+  "thac0": [
+   19,
+   2
+  ],
+  "skills_learnable": 112
+ },
+ {
+  "class": "Cleric",
+  "id": 1,
+  "max_title_level": 65,
+  "hp_per_level": [
+   7,
+   15
+  ],
+  "mana_per_level": 1,
+  "exp_base": 45,
+  "thac0": [
+   18,
+   3
+  ],
+  "skills_learnable": 112
+ },
+ {
+  "class": "Thief",
+  "id": 2,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   15
+  ],
+  "mana_per_level": 0,
+  "exp_base": 45,
+  "thac0": [
+   17,
+   4
+  ],
+  "skills_learnable": 80
+ },
+ {
+  "class": "Warrior",
+  "id": 3,
+  "max_title_level": 65,
+  "hp_per_level": [
+   10,
+   20
+  ],
+  "mana_per_level": 0,
+  "exp_base": 45,
+  "thac0": [
+   13,
+   7
+  ],
+  "skills_learnable": 68
+ },
+ {
+  "class": "Thug",
+  "id": 4,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   18
+  ],
+  "mana_per_level": 0,
+  "exp_base": 45,
+  "thac0": [
+   16,
+   5
+  ],
+  "skills_learnable": 80
+ },
+ {
+  "class": "Druid",
+  "id": 5,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   18
+  ],
+  "mana_per_level": 1,
+  "exp_base": 55,
+  "thac0": [
+   16,
+   4
+  ],
+  "skills_learnable": 99
+ },
+ {
+  "class": "Ranger",
+  "id": 6,
+  "max_title_level": 65,
+  "hp_per_level": [
+   9,
+   19
+  ],
+  "mana_per_level": 1,
+  "exp_base": 45,
+  "thac0": [
+   14,
+   5
+  ],
+  "skills_learnable": 95
+ },
+ {
+  "class": "Monk",
+  "id": 7,
+  "max_title_level": 65,
+  "hp_per_level": [
+   9,
+   17
+  ],
+  "mana_per_level": 0,
+  "exp_base": 60,
+  "thac0": [
+   13,
+   5
+  ],
+  "skills_learnable": 71
+ },
+ {
+  "class": "Diabolist",
+  "id": 8,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   15
+  ],
+  "mana_per_level": 1,
+  "exp_base": 50,
+  "thac0": [
+   19,
+   3
+  ],
+  "skills_learnable": 109
+ },
+ {
+  "class": "Conjurer",
+  "id": 9,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   15
+  ],
+  "mana_per_level": 1,
+  "exp_base": 55,
+  "thac0": [
+   19,
+   2
+  ],
+  "skills_learnable": 104
+ },
+ {
+  "class": "Jester",
+  "id": 10,
+  "max_title_level": 65,
+  "hp_per_level": [
+   8,
+   16
+  ],
+  "mana_per_level": 1,
+  "exp_base": 45,
+  "thac0": [
+   16,
+   5
+  ],
+  "skills_learnable": 84
+ },
+ {
+  "class": "Shaman",
+  "id": 11,
+  "max_title_level": 65,
+  "hp_per_level": [
+   9,
+   15
+  ],
+  "mana_per_level": 1,
+  "exp_base": 55,
+  "thac0": [
+   16,
+   4
+  ],
+  "skills_learnable": 120
+ },
+ {
+  "class": "Champion",
+  "id": 12,
+  "max_title_level": 65,
+  "hp_per_level": [
+   1,
+   4
+  ],
+  "mana_per_level": 1,
+  "exp_base": 130,
+  "thac0": [
+   12,
+   7
+  ],
+  "skills_learnable": 38
+ },
+ {
+  "class": "Bishop",
+  "id": 13,
+  "max_title_level": 65,
+  "hp_per_level": [
+   1,
+   4
+  ],
+  "mana_per_level": 1,
+  "exp_base": 150,
+  "thac0": [
+   15,
+   4
+  ],
+  "skills_learnable": 41
+ },
+ {
+  "class": "Rogue",
+  "id": 14,
+  "max_title_level": 65,
+  "hp_per_level": [
+   1,
+   4
+  ],
+  "mana_per_level": 1,
+  "exp_base": 130,
+  "thac0": [
+   15,
+   4
+  ],
+  "skills_learnable": 37
+ },
+ {
+  "class": "Archmagi",
+  "id": 15,
+  "max_title_level": 65,
+  "hp_per_level": [
+   1,
+   4
+  ],
+  "mana_per_level": 1,
+  "exp_base": 150,
+  "thac0": [
+   16,
+   4
+  ],
+  "skills_learnable": 37
+ }
+]

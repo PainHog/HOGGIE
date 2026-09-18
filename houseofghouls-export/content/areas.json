@@ -1,0 +1,2367 @@
+[
+ {
+  "file": "Elysium.are",
+  "name": "Elysium",
+  "author": "Hades",
+  "version": 1,
+  "level_range": {
+   "soft_low": 0,
+   "soft_high": 65,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [
+   "nopkill",
+   "noteleport"
+  ],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 2,
+   "objects": 6,
+   "rooms": 2,
+   "resets": 3
+  },
+  "vnum_range": [
+   7075,
+   7080
+  ]
+ },
+ {
+  "file": "Tampaqui.are",
+  "name": "The Tampaqui River",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A cool breeze offers sweet relief from the humidity rising off the river.",
+  "counts": {
+   "mobs": 85,
+   "objects": 9,
+   "rooms": 100,
+   "resets": 46
+  },
+  "vnum_range": [
+   2701,
+   2800
+  ]
+ },
+ {
+  "file": "Temple of Thor.are",
+  "name": "Temple Of Thor",
+  "author": "Thor",
+  "version": 1,
+  "level_range": {
+   "soft_low": 0,
+   "soft_high": 65,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [
+   "nopkill"
+  ],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 1,
+   "objects": 3,
+   "rooms": 1,
+   "resets": 4
+  },
+  "vnum_range": [
+   7075,
+   7077
+  ]
+ },
+ {
+  "file": "ageless.are",
+  "name": "Plane Of The Ageless",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 45,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sun bleeds black blood as a new night begins.",
+  "counts": {
+   "mobs": 50,
+   "objects": 6,
+   "rooms": 52,
+   "resets": 39
+  },
+  "vnum_range": [
+   14000,
+   14100
+  ]
+ },
+ {
+  "file": "ancient.are",
+  "name": "Temple Of The Ancients",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 40,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A low whisper fills the area, lamenting the dead.",
+  "counts": {
+   "mobs": 67,
+   "objects": 29,
+   "rooms": 110,
+   "resets": 51
+  },
+  "vnum_range": [
+   9951,
+   10100
+  ]
+ },
+ {
+  "file": "antcolony.are",
+  "name": "The Ant Colony",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Dozens of worker ants appear in the tunnels, off to find food.",
+  "counts": {
+   "mobs": 70,
+   "objects": 10,
+   "rooms": 87,
+   "resets": 51
+  },
+  "vnum_range": [
+   10801,
+   10900
+  ]
+ },
+ {
+  "file": "bazabel.are",
+  "name": "Bazabel",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A thunderous series of trumpets announces a new day.",
+  "counts": {
+   "mobs": 161,
+   "objects": 48,
+   "rooms": 204,
+   "resets": 0
+  },
+  "vnum_range": [
+   6000,
+   6250
+  ]
+ },
+ {
+  "file": "bear.are",
+  "name": "Bear Caves",
+  "author": "Sirus",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 20,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 13,
+   "objects": 6,
+   "rooms": 24,
+   "resets": 0
+  },
+  "vnum_range": [
+   7051,
+   7074
+  ]
+ },
+ {
+  "file": "beehive.are",
+  "name": "Bee Hive",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 15,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The smell of honey and the sound of buzzing fills the air.",
+  "counts": {
+   "mobs": 44,
+   "objects": 17,
+   "rooms": 89,
+   "resets": 33
+  },
+  "vnum_range": [
+   10901,
+   10999
+  ]
+ },
+ {
+  "file": "birthgrounds.are",
+  "name": "Vampire Birthing Grounds",
+  "author": "Belerik",
+  "version": 0,
+  "level_range": {
+   "soft_low": 0,
+   "soft_high": 65,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "An eerie cry pierces the air.",
+  "counts": {
+   "mobs": 4,
+   "objects": 0,
+   "rooms": 50,
+   "resets": 48
+  },
+  "vnum_range": [
+   1,
+   9903
+  ]
+ },
+ {
+  "file": "bitterpass.are",
+  "name": "Bitter Pass",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 15,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A freezing wind tries to blast you off the mountain!",
+  "counts": {
+   "mobs": 12,
+   "objects": 4,
+   "rooms": 52,
+   "resets": 28
+  },
+  "vnum_range": [
+   10500,
+   10599
+  ]
+ },
+ {
+  "file": "bladegrass.are",
+  "name": "Between Blades Of Grass",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Hums and clicks fill the air about you...",
+  "counts": {
+   "mobs": 28,
+   "objects": 19,
+   "rooms": 108,
+   "resets": 0
+  },
+  "vnum_range": [
+   1001,
+   1200
+  ]
+ },
+ {
+  "file": "boulderpass.are",
+  "name": "Boulder Pass",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 25,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The rumbling of thunder comes from overhead...",
+  "counts": {
+   "mobs": 34,
+   "objects": 9,
+   "rooms": 133,
+   "resets": 53
+  },
+  "vnum_range": [
+   801,
+   950
+  ]
+ },
+ {
+  "file": "bubblebog.are",
+  "name": "Bubbling Bog",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The strange sound of bubbling comes up through the mud below you...",
+  "counts": {
+   "mobs": 22,
+   "objects": 22,
+   "rooms": 123,
+   "resets": 34
+  },
+  "vnum_range": [
+   1801,
+   2000
+  ]
+ },
+ {
+  "file": "bullhornroad.are",
+  "name": "Bullhorn Road",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A cool breeze blows down the dirt road...",
+  "counts": {
+   "mobs": 15,
+   "objects": 11,
+   "rooms": 70,
+   "resets": 22
+  },
+  "vnum_range": [
+   10651,
+   10750
+  ]
+ },
+ {
+  "file": "campraid.are",
+  "name": "Camp Raid",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 30,
+   "soft_high": 45,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Battle-cries ring out as new reinforcements are sent into battle.",
+  "counts": {
+   "mobs": 32,
+   "objects": 9,
+   "rooms": 60,
+   "resets": 36
+  },
+  "vnum_range": [
+   7401,
+   7500
+  ]
+ },
+ {
+  "file": "celestial.are",
+  "name": "Plane Of The Celestial",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 45,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sound of silver horns call home the faithful.",
+  "counts": {
+   "mobs": 34,
+   "objects": 10,
+   "rooms": 56,
+   "resets": 30
+  },
+  "vnum_range": [
+   12000,
+   12100
+  ]
+ },
+ {
+  "file": "chicken.are",
+  "name": "Chicken Shack",
+  "author": "Zarous",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear some chickens clucking.",
+  "counts": {
+   "mobs": 15,
+   "objects": 7,
+   "rooms": 55,
+   "resets": 65
+  },
+  "vnum_range": [
+   7101,
+   7157
+  ]
+ },
+ {
+  "file": "clouds.are",
+  "name": "Floating Amongst Clouds",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 30,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A breeze brushes past your skin...",
+  "counts": {
+   "mobs": 17,
+   "objects": 2,
+   "rooms": 47,
+   "resets": 24
+  },
+  "vnum_range": [
+   3801,
+   3850
+  ]
+ },
+ {
+  "file": "coralreef.are",
+  "name": "Coral Reef",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 15,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Tiny bubbles float past you to the surface...",
+  "counts": {
+   "mobs": 18,
+   "objects": 3,
+   "rooms": 39,
+   "resets": 13
+  },
+  "vnum_range": [
+   601,
+   650
+  ]
+ },
+ {
+  "file": "crackedskull.are",
+  "name": "Cracked Skull Cave",
+  "author": "Meryk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A foul odor fills the air.",
+  "counts": {
+   "mobs": 3,
+   "objects": 12,
+   "rooms": 23,
+   "resets": 29
+  },
+  "vnum_range": [
+   1,
+   23
+  ]
+ },
+ {
+  "file": "daira.are",
+  "name": "Lake D'Aira",
+  "author": "Ashlyn+Darwin",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 15,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A soft breeze blows across the calm water.",
+  "counts": {
+   "mobs": 4,
+   "objects": 6,
+   "rooms": 18,
+   "resets": 34
+  },
+  "vnum_range": [
+   5127,
+   5145
+  ]
+ },
+ {
+  "file": "darkheart.are",
+  "name": "The Dark Heart Swamp",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 40,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The smell of rot and the memories of the fallen fill the air.",
+  "counts": {
+   "mobs": 63,
+   "objects": 13,
+   "rooms": 100,
+   "resets": 50
+  },
+  "vnum_range": [
+   2901,
+   3000
+  ]
+ },
+ {
+  "file": "deepjungle.are",
+  "name": "Deep Jungle",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the shriek of some strange animal in the distance...",
+  "counts": {
+   "mobs": 30,
+   "objects": 11,
+   "rooms": 67,
+   "resets": 48
+  },
+  "vnum_range": [
+   4101,
+   4200
+  ]
+ },
+ {
+  "file": "desertercamp.are",
+  "name": "Deserter's Camp",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 30,
+   "soft_high": 45,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The call to revolt and the groans of the wounded swirl around you.",
+  "counts": {
+   "mobs": 52,
+   "objects": 13,
+   "rooms": 86,
+   "resets": 46
+  },
+  "vnum_range": [
+   4701,
+   4800
+  ]
+ },
+ {
+  "file": "drazinvade.are",
+  "name": "Drazukville",
+  "author": "Drazuk/Nameless/Vash",
+  "version": 1,
+  "level_range": {
+   "soft_low": 50,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The howls of Elder Spawn and battle cries fill the air",
+  "counts": {
+   "mobs": 103,
+   "objects": 201,
+   "rooms": 190,
+   "resets": 347
+  },
+  "vnum_range": [
+   21001,
+   21500
+  ]
+ },
+ {
+  "file": "drazpost.are",
+  "name": "Drazukville",
+  "author": "Drazuk/Nameless/Vash",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of the reconstruction of the city fill the air.",
+  "counts": {
+   "mobs": 105,
+   "objects": 207,
+   "rooms": 184,
+   "resets": 323
+  },
+  "vnum_range": [
+   21001,
+   21500
+  ]
+ },
+ {
+  "file": "drazuni.are",
+  "name": "University Of Alden",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 5,
+   "hard_low": 1,
+   "hard_high": 5
+  },
+  "area_flags": [
+   "nopkill"
+  ],
+  "reset_msg": "The ringing of a school bell sounds in the distance",
+  "counts": {
+   "mobs": 111,
+   "objects": 42,
+   "rooms": 153,
+   "resets": 0
+  },
+  "vnum_range": [
+   10300,
+   10499
+  ]
+ },
+ {
+  "file": "drazville-christmas.are",
+  "name": "Drazukville",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the sounds of the city all about you",
+  "counts": {
+   "mobs": 130,
+   "objects": 184,
+   "rooms": 168,
+   "resets": 325
+  },
+  "vnum_range": [
+   21001,
+   21500
+  ]
+ },
+ {
+  "file": "drazville-thanksgiving.are",
+  "name": "Drazukville",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the sounds of the city all about you",
+  "counts": {
+   "mobs": 119,
+   "objects": 183,
+   "rooms": 168,
+   "resets": 329
+  },
+  "vnum_range": [
+   21001,
+   21500
+  ]
+ },
+ {
+  "file": "drazville.are",
+  "name": "Drazukville",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the sounds of the city all about you",
+  "counts": {
+   "mobs": 111,
+   "objects": 188,
+   "rooms": 172,
+   "resets": 0
+  },
+  "vnum_range": [
+   21001,
+   21500
+  ]
+ },
+ {
+  "file": "eareska.are",
+  "name": "Eareska",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A small school of fish swims past you...",
+  "counts": {
+   "mobs": 24,
+   "objects": 34,
+   "rooms": 71,
+   "resets": 47
+  },
+  "vnum_range": [
+   1701,
+   1800
+  ]
+ },
+ {
+  "file": "easterncorridor.are",
+  "name": "Eastern Corridor",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 15,
+   "soft_high": 35,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A warm wind begins to come in from the west.",
+  "counts": {
+   "mobs": 42,
+   "objects": 7,
+   "rooms": 79,
+   "resets": 24
+  },
+  "vnum_range": [
+   4801,
+   4900
+  ]
+ },
+ {
+  "file": "eastoasis.are",
+  "name": "East Desert Oasis",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A cooling breeze gives comfort in the hot sun...",
+  "counts": {
+   "mobs": 11,
+   "objects": 12,
+   "rooms": 54,
+   "resets": 23
+  },
+  "vnum_range": [
+   3901,
+   4000
+  ]
+ },
+ {
+  "file": "eldforest.are",
+  "name": "Elder Forest",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 45,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The wind suddenly picks up and whirls about you, blowing leaves and chilling the air.",
+  "counts": {
+   "mobs": 38,
+   "objects": 48,
+   "rooms": 188,
+   "resets": 78
+  },
+  "vnum_range": [
+   16000,
+   16200
+  ]
+ },
+ {
+  "file": "elenolos.are",
+  "name": "Elenolos",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A sweet smell floats by on the breeze...",
+  "counts": {
+   "mobs": 24,
+   "objects": 25,
+   "rooms": 35,
+   "resets": 45
+  },
+  "vnum_range": [
+   1601,
+   1700
+  ]
+ },
+ {
+  "file": "fangtemple.are",
+  "name": "Fang Temple",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 25,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A spooky slithery noise echos around the old stones...",
+  "counts": {
+   "mobs": 23,
+   "objects": 2,
+   "rooms": 50,
+   "resets": 32
+  },
+  "vnum_range": [
+   2451,
+   2500
+  ]
+ },
+ {
+  "file": "farmmarket.are",
+  "name": "The Farmer's Market",
+  "author": "Medea",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 20,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of the market rise on the breeze.",
+  "counts": {
+   "mobs": 80,
+   "objects": 37,
+   "rooms": 90,
+   "resets": 157
+  },
+  "vnum_range": [
+   8101,
+   8190
+  ]
+ },
+ {
+  "file": "fellowship.are",
+  "name": "Trials Of Fellowship",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 50,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The moan of various creatures grows louder for a moment.",
+  "counts": {
+   "mobs": 22,
+   "objects": 12,
+   "rooms": 50,
+   "resets": 24
+  },
+  "vnum_range": [
+   7301,
+   7400
+  ]
+ },
+ {
+  "file": "fields.are",
+  "name": "Opium Fields",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 20,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The smell of burning silk and opium fills the air.",
+  "counts": {
+   "mobs": 35,
+   "objects": 2,
+   "rooms": 52,
+   "resets": 40
+  },
+  "vnum_range": [
+   7501,
+   7600
+  ]
+ },
+ {
+  "file": "flayercaves.are",
+  "name": "Flayer Caves",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 30,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A slight chill blows through the caves...",
+  "counts": {
+   "mobs": 22,
+   "objects": 11,
+   "rooms": 83,
+   "resets": 38
+  },
+  "vnum_range": [
+   4201,
+   4300
+  ]
+ },
+ {
+  "file": "flowergarden.are",
+  "name": "Halfling Flower Garden",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The scent of blooming flowers surrounds you...",
+  "counts": {
+   "mobs": 11,
+   "objects": 10,
+   "rooms": 25,
+   "resets": 15
+  },
+  "vnum_range": [
+   651,
+   700
+  ]
+ },
+ {
+  "file": "fort.are",
+  "name": "Fort At Sorrow Mountain",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 30,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A large whistle sounds as the wall sentries change shifts.",
+  "counts": {
+   "mobs": 39,
+   "objects": 10,
+   "rooms": 51,
+   "resets": 49
+  },
+  "vnum_range": [
+   5150,
+   5200
+  ]
+ },
+ {
+  "file": "fvalley.are",
+  "name": "Valley Of Frost",
+  "author": "Dezmond",
+  "version": 1,
+  "level_range": {
+   "soft_low": 40,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 50
+  },
+  "area_flags": [],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 15,
+   "objects": 11,
+   "rooms": 79,
+   "resets": 14
+  },
+  "vnum_range": [
+   8300,
+   8378
+  ]
+ },
+ {
+  "file": "gallery.are",
+  "name": "The Gallery",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 50,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The world stops for a moment, all that can be heard is a single page turn.",
+  "counts": {
+   "mobs": 233,
+   "objects": 46,
+   "rooms": 300,
+   "resets": 563
+  },
+  "vnum_range": [
+   7648,
+   7999
+  ]
+ },
+ {
+  "file": "generic.are",
+  "name": "Generic Area",
+  "author": "Your Name Here!",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "All the mobs and objects just reset....",
+  "counts": {
+   "mobs": 2,
+   "objects": 2,
+   "rooms": 2,
+   "resets": 0
+  },
+  "vnum_range": [
+   1,
+   100
+  ]
+ },
+ {
+  "file": "glitcave.are",
+  "name": "Glitter Caverns",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 35,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Gems glitter in the darkness...",
+  "counts": {
+   "mobs": 23,
+   "objects": 28,
+   "rooms": 65,
+   "resets": 43
+  },
+  "vnum_range": [
+   1501,
+   1600
+  ]
+ },
+ {
+  "file": "greenpath.are",
+  "name": "Greenpath",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A cool, light breeze blows against your face...",
+  "counts": {
+   "mobs": 10,
+   "objects": 15,
+   "rooms": 55,
+   "resets": 33
+  },
+  "vnum_range": [
+   301,
+   400
+  ]
+ },
+ {
+  "file": "h-unki.are",
+  "name": "H'Unki",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 30,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The forges of the city fill the tunnels with an eerie light.",
+  "counts": {
+   "mobs": 57,
+   "objects": 16,
+   "rooms": 71,
+   "resets": 50
+  },
+  "vnum_range": [
+   14401,
+   14500
+  ]
+ },
+ {
+  "file": "hchurch.are",
+  "name": "Haunted Church",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The hum of protective magic grows louder for a second...",
+  "counts": {
+   "mobs": 58,
+   "objects": 77,
+   "rooms": 319,
+   "resets": 178
+  },
+  "vnum_range": [
+   15000,
+   15350
+  ]
+ },
+ {
+  "file": "help.are",
+  "name": null,
+  "author": null,
+  "version": 0,
+  "counts": {
+   "mobs": 0,
+   "objects": 0,
+   "rooms": 0,
+   "resets": 0
+  }
+ },
+ {
+  "file": "help2.are",
+  "name": null,
+  "author": null,
+  "version": 0,
+  "counts": {
+   "mobs": 0,
+   "objects": 0,
+   "rooms": 0,
+   "resets": 0
+  }
+ },
+ {
+  "file": "huntground.are",
+  "name": "Hunting Grounds",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the sound of pounding hooves in the distance...",
+  "counts": {
+   "mobs": 16,
+   "objects": 2,
+   "rooms": 60,
+   "resets": 23
+  },
+  "vnum_range": [
+   2151,
+   2250
+  ]
+ },
+ {
+  "file": "ihmines.are",
+  "name": "Ironholde Mines",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The squeeking of bats echoes down the mineshaft...",
+  "counts": {
+   "mobs": 7,
+   "objects": 6,
+   "rooms": 37,
+   "resets": 12
+  },
+  "vnum_range": [
+   3851,
+   3900
+  ]
+ },
+ {
+  "file": "ihra.are",
+  "name": "Ihra-Desh",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 40,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The moans of the restless dead fill the void.",
+  "counts": {
+   "mobs": 34,
+   "objects": 6,
+   "rooms": 73,
+   "resets": 25
+  },
+  "vnum_range": [
+   8401,
+   8500
+  ]
+ },
+ {
+  "file": "ironholde.are",
+  "name": "Ironholde",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of working dwarves echo all around you...",
+  "counts": {
+   "mobs": 28,
+   "objects": 15,
+   "rooms": 56,
+   "resets": 38
+  },
+  "vnum_range": [
+   2251,
+   2350
+  ]
+ },
+ {
+  "file": "jellyfish.are",
+  "name": "Jellyfish Heaven",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 40,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A salty breeze brushes by your face...",
+  "counts": {
+   "mobs": 33,
+   "objects": 4,
+   "rooms": 160,
+   "resets": 47
+  },
+  "vnum_range": [
+   2501,
+   2700
+  ]
+ },
+ {
+  "file": "junglepath.are",
+  "name": "Jungle Path",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 25,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of the jungle are all around you...",
+  "counts": {
+   "mobs": 7,
+   "objects": 2,
+   "rooms": 28,
+   "resets": 12
+  },
+  "vnum_range": [
+   10751,
+   10800
+  ]
+ },
+ {
+  "file": "kinter.are",
+  "name": "Kinterownt",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sound of a huge engine fills the cavern.",
+  "counts": {
+   "mobs": 67,
+   "objects": 27,
+   "rooms": 101,
+   "resets": 70
+  },
+  "vnum_range": [
+   11000,
+   11100
+  ]
+ },
+ {
+  "file": "koboldcav.are",
+  "name": "Kobold Caverns",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A cool breeze floats through the caverns...",
+  "counts": {
+   "mobs": 25,
+   "objects": 12,
+   "rooms": 81,
+   "resets": 34
+  },
+  "vnum_range": [
+   1201,
+   1300
+  ]
+ },
+ {
+  "file": "lakemotuco.are",
+  "name": "Lake M'otuco",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 30,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The still waters shiver with the wake of several passing creatures.",
+  "counts": {
+   "mobs": 61,
+   "objects": 7,
+   "rooms": 100,
+   "resets": 70
+  },
+  "vnum_range": [
+   2801,
+   2900
+  ]
+ },
+ {
+  "file": "laststand.are",
+  "name": "Last Stand",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 40,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of chaotic combat is all around you...",
+  "counts": {
+   "mobs": 37,
+   "objects": 24,
+   "rooms": 89,
+   "resets": 91
+  },
+  "vnum_range": [
+   4601,
+   4700
+  ]
+ },
+ {
+  "file": "learei.are",
+  "name": "Learei",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 25,
+   "soft_high": 35,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A few giggling pixies float by followed by their half-orc servants.",
+  "counts": {
+   "mobs": 34,
+   "objects": 13,
+   "rooms": 47,
+   "resets": 33
+  },
+  "vnum_range": [
+   7601,
+   7647
+  ]
+ },
+ {
+  "file": "limbo.are",
+  "name": "Limbo",
+  "author": "Stock+Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 65,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [
+   "nopkill"
+  ],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 26,
+   "objects": 83,
+   "rooms": 23,
+   "resets": 3
+  },
+  "vnum_range": [
+   1,
+   99
+  ]
+ },
+ {
+  "file": "magicplace.are",
+  "name": "The Place Of Magic",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You feel the dull throb of magical energy in the air...",
+  "counts": {
+   "mobs": 2,
+   "objects": 2,
+   "rooms": 2,
+   "resets": 0
+  },
+  "vnum_range": [
+   1,
+   1000
+  ]
+ },
+ {
+  "file": "mtpass.are",
+  "name": "Through The Ironkores",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Wind whips thru the small mountain pass...",
+  "counts": {
+   "mobs": 12,
+   "objects": 10,
+   "rooms": 77,
+   "resets": 20
+  },
+  "vnum_range": [
+   101,
+   200
+  ]
+ },
+ {
+  "file": "mysterria.are",
+  "name": "Mysterria Valley",
+  "author": "Sirus",
+  "version": 1,
+  "level_range": {
+   "soft_low": 45,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 50
+  },
+  "area_flags": [],
+  "reset_msg": "",
+  "counts": {
+   "mobs": 12,
+   "objects": 42,
+   "rooms": 37,
+   "resets": 105
+  },
+  "vnum_range": [
+   8601,
+   8642
+  ]
+ },
+ {
+  "file": "niralis.are",
+  "name": "Niralis",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The hustle and bustle of the city reaches its peak.",
+  "counts": {
+   "mobs": 57,
+   "objects": 23,
+   "rooms": 99,
+   "resets": 54
+  },
+  "vnum_range": [
+   12101,
+   12199
+  ]
+ },
+ {
+  "file": "ogrecamp.are",
+  "name": "Ogre Camp",
+  "author": "Sirus",
+  "version": 1,
+  "level_range": {
+   "soft_low": 35,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the grunt of an ogre.",
+  "counts": {
+   "mobs": 4,
+   "objects": 28,
+   "rooms": 56,
+   "resets": 40
+  },
+  "vnum_range": [
+   7201,
+   7256
+  ]
+ },
+ {
+  "file": "opiumfields.are",
+  "name": "Opium Fields",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 20,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The smell of burning silk and opium fills the air.",
+  "counts": {
+   "mobs": 35,
+   "objects": 2,
+   "rooms": 52,
+   "resets": 20
+  },
+  "vnum_range": [
+   7501,
+   7600
+  ]
+ },
+ {
+  "file": "opiumroad.are",
+  "name": "Opium Road",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 15,
+   "soft_high": 25,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A caravan of travelers wave as they pass by.",
+  "counts": {
+   "mobs": 23,
+   "objects": 5,
+   "rooms": 42,
+   "resets": 49
+  },
+  "vnum_range": [
+   7000,
+   7050
+  ]
+ },
+ {
+  "file": "plainsroad.are",
+  "name": "Plains Road",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A warm breeze brushes by your face...",
+  "counts": {
+   "mobs": 7,
+   "objects": 3,
+   "rooms": 63,
+   "resets": 5
+  },
+  "vnum_range": [
+   701,
+   800
+  ]
+ },
+ {
+  "file": "renegades.are",
+  "name": "Renegades",
+  "author": "Medea",
+  "version": 0,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 30,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [
+   "freekill"
+  ],
+  "reset_msg": "Quiet murmurs of fear penetrate the dark forest.",
+  "counts": {
+   "mobs": 24,
+   "objects": 9,
+   "rooms": 92,
+   "resets": 57
+  },
+  "vnum_range": [
+   9000,
+   9091
+  ]
+ },
+ {
+  "file": "sahardin.are",
+  "name": "Sahardin",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A ship's port-horn blows, signaling a new shipment.",
+  "counts": {
+   "mobs": 109,
+   "objects": 44,
+   "rooms": 102,
+   "resets": 105
+  },
+  "vnum_range": [
+   4901,
+   5050
+  ]
+ },
+ {
+  "file": "sea.are",
+  "name": "Deep Blue Sea",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The faint screaming of gulls comes from far above you...",
+  "counts": {
+   "mobs": 50,
+   "objects": 3,
+   "rooms": 408,
+   "resets": 39
+  },
+  "vnum_range": [
+   3001,
+   3500
+  ]
+ },
+ {
+  "file": "ships.are",
+  "name": "Ships At Sea",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The ring of a ships bell echoes through the air...",
+  "counts": {
+   "mobs": 41,
+   "objects": 17,
+   "rooms": 101,
+   "resets": 52
+  },
+  "vnum_range": [
+   5201,
+   5600
+  ]
+ },
+ {
+  "file": "silver.are",
+  "name": "Silver Path",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The memories of the lost swirl in the wind.",
+  "counts": {
+   "mobs": 17,
+   "objects": 4,
+   "rooms": 36,
+   "resets": 12
+  },
+  "vnum_range": [
+   8201,
+   8299
+  ]
+ },
+ {
+  "file": "smokecaves.are",
+  "name": "Smokey Caves",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 10,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You catch a whiff of sulfur and smoke in the air...",
+  "counts": {
+   "mobs": 11,
+   "objects": 2,
+   "rooms": 48,
+   "resets": 16
+  },
+  "vnum_range": [
+   2351,
+   2400
+  ]
+ },
+ {
+  "file": "sorrow.are",
+  "name": "Sorrow's Path",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A chill wind from the north brings dark memories.",
+  "counts": {
+   "mobs": 17,
+   "objects": 7,
+   "rooms": 51,
+   "resets": 18
+  },
+  "vnum_range": [
+   11101,
+   11201
+  ]
+ },
+ {
+  "file": "southroad.are",
+  "name": "Southern Road",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A warm breeze brushes past you...",
+  "counts": {
+   "mobs": 17,
+   "objects": 20,
+   "rooms": 87,
+   "resets": 23
+  },
+  "vnum_range": [
+   201,
+   300
+  ]
+ },
+ {
+  "file": "spearfangroad.are",
+  "name": "Spearfang Road",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 25,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sounds of forest critters comes from all around you...",
+  "counts": {
+   "mobs": 9,
+   "objects": 4,
+   "rooms": 42,
+   "resets": 11
+  },
+  "vnum_range": [
+   10601,
+   10650
+  ]
+ },
+ {
+  "file": "spidforest.are",
+  "name": "Spider Forest",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 25,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A strange clicking sound comes from all around...",
+  "counts": {
+   "mobs": 16,
+   "objects": 2,
+   "rooms": 67,
+   "resets": 20
+  },
+  "vnum_range": [
+   501,
+   600
+  ]
+ },
+ {
+  "file": "srilaxa.are",
+  "name": "Srilaxa",
+  "author": "Abatha",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 35,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Powerful explosions ring off in the distance.",
+  "counts": {
+   "mobs": 34,
+   "objects": 16,
+   "rooms": 111,
+   "resets": 48
+  },
+  "vnum_range": [
+   9800,
+   9950
+  ]
+ },
+ {
+  "file": "talondes.are",
+  "name": "Talon Desert",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 50,
+   "hard_low": 1,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Sand stings your eyes as it whips past your face...",
+  "counts": {
+   "mobs": 45,
+   "objects": 32,
+   "rooms": 198,
+   "resets": 66
+  },
+  "vnum_range": [
+   1301,
+   1500
+  ]
+ },
+ {
+  "file": "templar.are",
+  "name": "Templar Academy",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 30,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The sound of marching fills the air.",
+  "counts": {
+   "mobs": 45,
+   "objects": 15,
+   "rooms": 101,
+   "resets": 35
+  },
+  "vnum_range": [
+   8000,
+   8100
+  ]
+ },
+ {
+  "file": "templearea.are",
+  "name": "Temples Of The Gods",
+  "author": "Darwin",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A shooting star streaks across the sky...",
+  "counts": {
+   "mobs": 11,
+   "objects": 18,
+   "rooms": 42,
+   "resets": 18
+  },
+  "vnum_range": [
+   3651,
+   3800
+  ]
+ },
+ {
+  "file": "templeofdrazuk.are",
+  "name": "Temple of Drazuk",
+  "author": "Drazuk",
+  "version": 0,
+  "level_range": {
+   "soft_low": 0,
+   "soft_high": 65,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [
+   "nopkill"
+  ],
+  "reset_msg": "An immortal presence is all about.",
+  "counts": {
+   "mobs": 0,
+   "objects": 0,
+   "rooms": 9,
+   "resets": 0
+  },
+  "vnum_range": [
+   21001,
+   21009
+  ]
+ },
+ {
+  "file": "tenhicoal.are",
+  "name": "Tenhicoal",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 25,
+   "soft_high": 45,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The golden rooftops catch the rising sun in a prism of light.",
+  "counts": {
+   "mobs": 81,
+   "objects": 46,
+   "rooms": 132,
+   "resets": 75
+  },
+  "vnum_range": [
+   16201,
+   16350
+  ]
+ },
+ {
+  "file": "thornthiket.are",
+  "name": "Thorny Thicket",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 20,
+   "soft_high": 30,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "An eerie silence descends throughout the thicket...",
+  "counts": {
+   "mobs": 13,
+   "objects": 4,
+   "rooms": 46,
+   "resets": 18
+  },
+  "vnum_range": [
+   2401,
+   2450
+  ]
+ },
+ {
+  "file": "toadstool.are",
+  "name": "Toadstool Circle",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the faint sound of giggling in the distance...",
+  "counts": {
+   "mobs": 17,
+   "objects": 17,
+   "rooms": 28,
+   "resets": 22
+  },
+  "vnum_range": [
+   951,
+   1000
+  ]
+ },
+ {
+  "file": "towermanos.are",
+  "name": "Tower Of Manos",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 35,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "Creepy music comes from somewhere down the hall...",
+  "counts": {
+   "mobs": 63,
+   "objects": 28,
+   "rooms": 286,
+   "resets": 119
+  },
+  "vnum_range": [
+   4301,
+   4600
+  ]
+ },
+ {
+  "file": "trialspain.are",
+  "name": "Trials Of Pain",
+  "author": "Rainsng/Draz",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "An overwhelming blast of cold air steals the breath from your lungs.....",
+  "counts": {
+   "mobs": 125,
+   "objects": 13,
+   "rooms": 176,
+   "resets": 81
+  },
+  "vnum_range": [
+   14101,
+   14300
+  ]
+ },
+ {
+  "file": "troll.are",
+  "name": "Lgonlilve",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 10,
+   "soft_high": 25,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear the faint sound of tribal chanting.",
+  "counts": {
+   "mobs": 53,
+   "objects": 24,
+   "rooms": 76,
+   "resets": 64
+  },
+  "vnum_range": [
+   5051,
+   5126
+  ]
+ },
+ {
+  "file": "tyrybblyn.are",
+  "name": "Tyrybblyn",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A quiet sigh of wind floats around you...",
+  "counts": {
+   "mobs": 38,
+   "objects": 24,
+   "rooms": 110,
+   "resets": 48
+  },
+  "vnum_range": [
+   2001,
+   2150
+  ]
+ },
+ {
+  "file": "ugrove.are",
+  "name": "Unicorn Grove",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 20,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "A slight breeze rustles the leaves above you...",
+  "counts": {
+   "mobs": 17,
+   "objects": 6,
+   "rooms": 55,
+   "resets": 18
+  },
+  "vnum_range": [
+   4001,
+   4100
+  ]
+ },
+ {
+  "file": "underhill.are",
+  "name": "Underhill",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "You hear happy singing in the distance...",
+  "counts": {
+   "mobs": 24,
+   "objects": 18,
+   "rooms": 73,
+   "resets": 35
+  },
+  "vnum_range": [
+   401,
+   499
+  ]
+ },
+ {
+  "file": "universe.are",
+  "name": "Beyond Time And Space",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 53,
+   "soft_high": 65,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "All is as it should be in the Universe...",
+  "counts": {
+   "mobs": 2,
+   "objects": 409,
+   "rooms": 2,
+   "resets": 1
+  },
+  "vnum_range": [
+   29000,
+   30000
+  ]
+ },
+ {
+  "file": "woodlandroute.are",
+  "name": "Woodland Route",
+  "author": "Nameless",
+  "version": 1,
+  "level_range": {
+   "soft_low": 5,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The smell of opium fields and heavy forest grows thicker with the breeze.",
+  "counts": {
+   "mobs": 21,
+   "objects": 3,
+   "rooms": 36,
+   "resets": 17
+  },
+  "vnum_range": [
+   6251,
+   6350
+  ]
+ },
+ {
+  "file": "wulftuuf.are",
+  "name": "Wulftuuf Sea",
+  "author": "Drazuk",
+  "version": 1,
+  "level_range": {
+   "soft_low": 1,
+   "soft_high": 50,
+   "hard_low": 0,
+   "hard_high": 65
+  },
+  "area_flags": [],
+  "reset_msg": "The warm current flows around your body...",
+  "counts": {
+   "mobs": 21,
+   "objects": 2,
+   "rooms": 179,
+   "resets": 26
+  },
+  "vnum_range": [
+   10101,
+   10299
+  ]
+ }
+]

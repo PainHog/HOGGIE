@@ -1,0 +1,12133 @@
+[
+ {
+  "file": "Mage.class",
+  "skills": [
+   {
+    "skill": "acid blast",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "antimagic shell",
+    "level": 42,
+    "adept": 95
+   },
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "blazeward",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "burning hands",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "charm person",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "chill touch",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "colour spray",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "continual light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create water",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "detect invis",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "dispel magic",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "dream",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "eldritch sphere",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "enhance armor",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "enhance treasure",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "enhance weapon",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "ethereal fist",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "ethereal shield",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fog",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "farsight",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "fireball",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "fireshield",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fly",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "grant auralink",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "grounding",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "ice blast",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "iceshield",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "identify",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "improved invis",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "infravision",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "inner warmth",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "invis",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "invis object",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "knock",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "lightning bolt",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "locate object",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "magic missile",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "mass invis",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "midas touch",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "mindfog",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "pass door",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "portal",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "quantum spike",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "recharge",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "resilience",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "scorching surge",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "scry",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "shield",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "shocking grasp",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "shockshield",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "stone skin",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "sulfurous spray",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "teleport",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "tongues",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "transport",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "true sight",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "valiance",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "ventriloquate",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 75
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 60
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "cuff",
+    "level": 1,
+    "adept": 75
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 30,
+    "adept": 75
+   },
+   {
+    "skill": "engage",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "meditate",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "pelt",
+    "level": 20,
+    "adept": 80
+   },
+   {
+    "skill": "scribe",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 35,
+    "adept": 80
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "swipe",
+    "level": 35,
+    "adept": 80
+   },
+   {
+    "skill": "trance",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "axes",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "exotic arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 20,
+    "adept": 85
+   },
+   {
+    "skill": "long blades",
+    "level": 40,
+    "adept": 80
+   },
+   {
+    "skill": "missile weapons",
+    "level": 30,
+    "adept": 75
+   },
+   {
+    "skill": "polearms",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "talonous arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 5,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "mammal",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Apprentice of Magic",
+    "female": "Apprentice of Magic"
+   },
+   {
+    "level": 2,
+    "male": "Spell Student",
+    "female": "Spell Student"
+   },
+   {
+    "level": 3,
+    "male": "Scholar of Magic",
+    "female": "Scholar of Magic"
+   },
+   {
+    "level": 4,
+    "male": "Delver in Spells",
+    "female": "Delveress in Spells"
+   },
+   {
+    "level": 5,
+    "male": "Medium of Magic",
+    "female": "Medium of Magic"
+   },
+   {
+    "level": 6,
+    "male": "Scribe of Magic",
+    "female": "Scribess of Magic"
+   },
+   {
+    "level": 7,
+    "male": "Seer",
+    "female": "Seeress"
+   },
+   {
+    "level": 8,
+    "male": "Sage",
+    "female": "Sage"
+   },
+   {
+    "level": 9,
+    "male": "Illusionist",
+    "female": "Illusionist"
+   },
+   {
+    "level": 10,
+    "male": "Abjurer",
+    "female": "Abjuress"
+   },
+   {
+    "level": 11,
+    "male": "Invoker",
+    "female": "Invoker"
+   },
+   {
+    "level": 12,
+    "male": "Enchanter",
+    "female": "Enchantress"
+   },
+   {
+    "level": 13,
+    "male": "Conjurer",
+    "female": "Conjuress"
+   },
+   {
+    "level": 14,
+    "male": "Magician",
+    "female": "Witch"
+   },
+   {
+    "level": 15,
+    "male": "Maker",
+    "female": "Maker"
+   },
+   {
+    "level": 16,
+    "male": "Savant",
+    "female": "Savant"
+   },
+   {
+    "level": 17,
+    "male": "Magus",
+    "female": "Craftess"
+   },
+   {
+    "level": 18,
+    "male": "Warlock",
+    "female": "War Witch"
+   },
+   {
+    "level": 19,
+    "male": "Demi-Sorcerer",
+    "female": "Demi-Sorceress"
+   },
+   {
+    "level": 20,
+    "male": "Sorcerer",
+    "female": "Sorceress"
+   },
+   {
+    "level": 21,
+    "male": "Elder Sorcerer",
+    "female": "Elder Sorceress"
+   },
+   {
+    "level": 22,
+    "male": "Grand Sorcerer",
+    "female": "Grand Sorceress"
+   },
+   {
+    "level": 23,
+    "male": "Great Sorcerer",
+    "female": "Great Sorceress"
+   },
+   {
+    "level": 24,
+    "male": "Golem Maker",
+    "female": "Golem Maker"
+   },
+   {
+    "level": 25,
+    "male": "Greater Golem Maker",
+    "female": "Greater Golem Maker"
+   },
+   {
+    "level": 26,
+    "male": "Maker of Stones",
+    "female": "Maker of Stones"
+   },
+   {
+    "level": 27,
+    "male": "Maker of Potions",
+    "female": "Maker of Potions"
+   },
+   {
+    "level": 28,
+    "male": "Maker of Staves",
+    "female": "Maker of Staves"
+   },
+   {
+    "level": 29,
+    "male": "Green Wizard",
+    "female": "Green Wizard"
+   },
+   {
+    "level": 30,
+    "male": "Brown Wizard",
+    "female": "Brown Wizard"
+   },
+   {
+    "level": 31,
+    "male": "Blue Wizard",
+    "female": "Blue Wizard"
+   },
+   {
+    "level": 32,
+    "male": "Red Wizard",
+    "female": "Red Wizard"
+   },
+   {
+    "level": 33,
+    "male": "Grey Wizard",
+    "female": "Grey Wizard"
+   },
+   {
+    "level": 34,
+    "male": "White Wizard",
+    "female": "White Wizard"
+   },
+   {
+    "level": 35,
+    "male": "Silver Wizard",
+    "female": "Silver Wizard"
+   },
+   {
+    "level": 36,
+    "male": "Gold Wizard",
+    "female": "Gold Wizard"
+   },
+   {
+    "level": 37,
+    "male": "Platinum Wizard",
+    "female": "Platinum Wizard"
+   },
+   {
+    "level": 38,
+    "male": "Diamond Wizard",
+    "female": "Diamond Wizard"
+   },
+   {
+    "level": 39,
+    "male": "Archmage of Rods",
+    "female": "Archmage of Rods"
+   },
+   {
+    "level": 40,
+    "male": "Archmage of Wands",
+    "female": "Archmage of Wands"
+   },
+   {
+    "level": 41,
+    "male": "Archmage of Staves",
+    "female": "Archmage of Staves"
+   },
+   {
+    "level": 42,
+    "male": "Archmage of Orbs",
+    "female": "Archmage of Orbs"
+   },
+   {
+    "level": 43,
+    "male": "Demon Summoner",
+    "female": "Demon Summoner"
+   },
+   {
+    "level": 44,
+    "male": "Greater Demon Summoner",
+    "female": "Greater Demon Summoner"
+   },
+   {
+    "level": 45,
+    "male": "Dragon Charmer",
+    "female": "Dragon Charmer"
+   },
+   {
+    "level": 46,
+    "male": "Greater Dragon Charmer",
+    "female": "Greater Dragon Charmer"
+   },
+   {
+    "level": 47,
+    "male": "Master of Demons",
+    "female": "Mistress of Demons"
+   },
+   {
+    "level": 48,
+    "male": "Master of Dragons",
+    "female": "Mistress of Dragons"
+   },
+   {
+    "level": 49,
+    "male": "Master of all Magic",
+    "female": "Mistress of all Magic"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Mage",
+  "id": 0,
+  "attr_prime": "wisdom",
+  "attr_second": "dexterity",
+  "attr_tertiary": "intelligence",
+  "starting_weapon_vnum": 10312,
+  "guild_room_vnum": 3018,
+  "skill_adept_cap": 95,
+  "thac0_base": 19,
+  "thac0_mod": 2,
+  "hp_gain_min": 6,
+  "hp_gain_max": 12,
+  "mana_gain": 1,
+  "exp_base_per_level": 55,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 112,
+  "title_count": 66
+ },
+ {
+  "file": "Cleric.class",
+  "skills": [
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "armor",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "balance",
+    "level": 9,
+    "adept": 95
+   },
+   {
+    "skill": "bless",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "brotherhood",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "cause critical",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "cause light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cause serious",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "continual light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "control weather",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "corruption",
+    "level": 9,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create symbol",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create water",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cure blindness",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "cure critical",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "cure light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cure poison",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "cure serious",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "cure weakness",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "detect evil",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect good",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect hidden",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect poison",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect traps",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "dispel evil",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "dispel good",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "dispel neutral",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "divinity",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "dream",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "enchant armor",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "enchant treasure",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "enchant weapon",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fire",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "flamestrike",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "heal",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "higher calling",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "holy flame",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "holy word",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "indignation",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "infravision",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "know alignment",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "locate object",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "major invocation",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "minor invocation",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "morale",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "paralyze",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "protection",
+    "level": 9,
+    "adept": 95
+   },
+   {
+    "skill": "recharge",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "remove curse",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "restoration",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "sanctuary",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "shelter the weak",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "solar flight",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "summon",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "tongues",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "transport",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "true sight",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "uplift",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "war cry",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 55
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 45
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 33,
+    "adept": 85
+   },
+   {
+    "skill": "engage",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "meditate",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "punch",
+    "level": 10,
+    "adept": 90
+   },
+   {
+    "skill": "rescue",
+    "level": 17,
+    "adept": 90
+   },
+   {
+    "skill": "scribe",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "second attack",
+    "level": 20,
+    "adept": 90
+   },
+   {
+    "skill": "spurn",
+    "level": 20,
+    "adept": 90
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 40,
+    "adept": 75
+   },
+   {
+    "skill": "axes",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 45,
+    "adept": 60
+   },
+   {
+    "skill": "missile weapons",
+    "level": 30,
+    "adept": 70
+   },
+   {
+    "skill": "polearms",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "shieldwork",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 35,
+    "adept": 65
+   },
+   {
+    "skill": "talonous arms",
+    "level": 25,
+    "adept": 90
+   },
+   {
+    "skill": "ancient",
+    "level": 5,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Believer",
+    "female": "Believer"
+   },
+   {
+    "level": 2,
+    "male": "Attendant",
+    "female": "Attendant"
+   },
+   {
+    "level": 3,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 4,
+    "male": "Novice",
+    "female": "Novice"
+   },
+   {
+    "level": 5,
+    "male": "Missionary",
+    "female": "Missionary"
+   },
+   {
+    "level": 6,
+    "male": "Adept",
+    "female": "Adept"
+   },
+   {
+    "level": 7,
+    "male": "Deacon",
+    "female": "Deaconess"
+   },
+   {
+    "level": 8,
+    "male": "Vicar",
+    "female": "Vicaress"
+   },
+   {
+    "level": 9,
+    "male": "Priest",
+    "female": "Priestess"
+   },
+   {
+    "level": 10,
+    "male": "Minister",
+    "female": "Lady Minister"
+   },
+   {
+    "level": 11,
+    "male": "Canon",
+    "female": "Canon"
+   },
+   {
+    "level": 12,
+    "male": "Levite",
+    "female": "Levitess"
+   },
+   {
+    "level": 13,
+    "male": "Curate",
+    "female": "Curess"
+   },
+   {
+    "level": 14,
+    "male": "Monk",
+    "female": "Nun"
+   },
+   {
+    "level": 15,
+    "male": "Healer",
+    "female": "Healess"
+   },
+   {
+    "level": 16,
+    "male": "Chaplain",
+    "female": "Chaplain"
+   },
+   {
+    "level": 17,
+    "male": "Expositor",
+    "female": "Expositress"
+   },
+   {
+    "level": 18,
+    "male": "Bishop",
+    "female": "Bishop"
+   },
+   {
+    "level": 19,
+    "male": "Arch Bishop",
+    "female": "Arch Lady of the Church"
+   },
+   {
+    "level": 20,
+    "male": "Patriarch",
+    "female": "Matriarch"
+   },
+   {
+    "level": 21,
+    "male": "Elder Patriarch",
+    "female": "Elder Matriarch"
+   },
+   {
+    "level": 22,
+    "male": "Grand Patriarch",
+    "female": "Grand Matriarch"
+   },
+   {
+    "level": 23,
+    "male": "Great Patriarch",
+    "female": "Great Matriarch"
+   },
+   {
+    "level": 24,
+    "male": "Demon Killer",
+    "female": "Demon Killer"
+   },
+   {
+    "level": 25,
+    "male": "Greater Demon Killer",
+    "female": "Greater Demon Killer"
+   },
+   {
+    "level": 26,
+    "male": "Cardinal of the Sea",
+    "female": "Cardinal of the Sea"
+   },
+   {
+    "level": 27,
+    "male": "Cardinal of the Earth",
+    "female": "Cardinal of the Earth"
+   },
+   {
+    "level": 28,
+    "male": "Cardinal of the Air",
+    "female": "Cardinal of the Air"
+   },
+   {
+    "level": 29,
+    "male": "Cardinal of the Ether",
+    "female": "Cardinal of the Ether"
+   },
+   {
+    "level": 30,
+    "male": "Cardinal of the Heavens",
+    "female": "Cardinal of the Heavens"
+   },
+   {
+    "level": 31,
+    "male": "High Priest of the Sea",
+    "female": "High Priestess of the Sea"
+   },
+   {
+    "level": 32,
+    "male": "High Priest of the Earth",
+    "female": "High Priestess of the Earth"
+   },
+   {
+    "level": 33,
+    "male": "High Priest of the Air",
+    "female": "High Priestess of the Air"
+   },
+   {
+    "level": 34,
+    "male": "High Priest of the Ether",
+    "female": "High Priestess of the Ether"
+   },
+   {
+    "level": 35,
+    "male": "High Priest of the Heavens",
+    "female": "High Priestess of the Heavens"
+   },
+   {
+    "level": 36,
+    "male": "Saviour of the Sea",
+    "female": "Saviour of the Sea"
+   },
+   {
+    "level": 37,
+    "male": "Saviour of the Earth",
+    "female": "Saviour of the Earth"
+   },
+   {
+    "level": 38,
+    "male": "Saviour of the Air",
+    "female": "Saviour of the Air"
+   },
+   {
+    "level": 39,
+    "male": "Saviour of the Ether",
+    "female": "Saviour of the Ether"
+   },
+   {
+    "level": 40,
+    "male": "Saviour of the Void",
+    "female": "Saviour of the Void"
+   },
+   {
+    "level": 41,
+    "male": "Supreme Cleric of Virtue",
+    "female": "Supreme Cleric of Virtue"
+   },
+   {
+    "level": 42,
+    "male": "Supreme Cleric of Humility",
+    "female": "Supreme Cleric of Humility"
+   },
+   {
+    "level": 43,
+    "male": "Supreme Cleric of Light",
+    "female": "Supreme Cleric of Light"
+   },
+   {
+    "level": 44,
+    "male": "Supreme Cleric of Power",
+    "female": "Supreme Cleric of Power"
+   },
+   {
+    "level": 45,
+    "male": "Avatar of an Immortal",
+    "female": "Avatar of an Immortal"
+   },
+   {
+    "level": 46,
+    "male": "Avatar of a Deity",
+    "female": "Avatar of a Deity"
+   },
+   {
+    "level": 47,
+    "male": "Avatar of a Supremity",
+    "female": "Avatar of a Supremity"
+   },
+   {
+    "level": 48,
+    "male": "Avatar of an Implementor",
+    "female": "Avatar of an Implementor"
+   },
+   {
+    "level": 49,
+    "male": "Master of all Divinity",
+    "female": "Mistress of all Divinity"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Cleric",
+  "id": 1,
+  "attr_prime": "dexterity",
+  "attr_second": "constitution",
+  "attr_tertiary": "wisdom",
+  "starting_weapon_vnum": 10315,
+  "guild_room_vnum": 3003,
+  "skill_adept_cap": 95,
+  "thac0_base": 18,
+  "thac0_mod": 3,
+  "hp_gain_min": 7,
+  "hp_gain_max": 15,
+  "mana_gain": 1,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 112,
+  "title_count": 66
+ },
+ {
+  "file": "Thief.class",
+  "skills": [
+   {
+    "skill": "detect traps",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "ghost strike",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "identify",
+    "level": 15,
+    "adept": 80
+   },
+   {
+    "skill": "locate object",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "midas touch",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "pass door",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "tongues",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "ventriloquate",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "appraise",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "backstab",
+    "level": 5,
+    "adept": 90
+   },
+   {
+    "skill": "bash",
+    "level": 25,
+    "adept": 75
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "camouflage",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "catnap",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "cheapshot",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "circle",
+    "level": 15,
+    "adept": 80
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "detrap",
+    "level": 3,
+    "adept": 85
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "disarm",
+    "level": 12,
+    "adept": 90
+   },
+   {
+    "skill": "disengage",
+    "level": 43,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 4,
+    "adept": 90
+   },
+   {
+    "skill": "engage",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "garrote",
+    "level": 41,
+    "adept": 95
+   },
+   {
+    "skill": "gouge",
+    "level": 10,
+    "adept": 85
+   },
+   {
+    "skill": "grip",
+    "level": 17,
+    "adept": 85
+   },
+   {
+    "skill": "hide",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "jab",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "knee",
+    "level": 13,
+    "adept": 70
+   },
+   {
+    "skill": "leap",
+    "level": 30,
+    "adept": 85
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "parry",
+    "level": 22,
+    "adept": 80
+   },
+   {
+    "skill": "peek",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "pick lock",
+    "level": 4,
+    "adept": 95
+   },
+   {
+    "skill": "poison weapon",
+    "level": 9,
+    "adept": 85
+   },
+   {
+    "skill": "scan",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "scrutinize",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 10,
+    "adept": 90
+   },
+   {
+    "skill": "shadow venom",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "sharpen",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "shoulder",
+    "level": 40,
+    "adept": 85
+   },
+   {
+    "skill": "sneak",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "spinkick",
+    "level": 20,
+    "adept": 90
+   },
+   {
+    "skill": "stalk",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "steal",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 27,
+    "adept": 70
+   },
+   {
+    "skill": "track",
+    "level": 15,
+    "adept": 85
+   },
+   {
+    "skill": "tumble",
+    "level": 35,
+    "adept": 85
+   },
+   {
+    "skill": "vault",
+    "level": 45,
+    "adept": 90
+   },
+   {
+    "skill": "axes",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "exotic arms",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 10,
+    "adept": 75
+   },
+   {
+    "skill": "long blades",
+    "level": 15,
+    "adept": 80
+   },
+   {
+    "skill": "missile weapons",
+    "level": 15,
+    "adept": 90
+   },
+   {
+    "skill": "polearms",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 10,
+    "adept": 80
+   },
+   {
+    "skill": "ancient",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Pilferer",
+    "female": "Pilferess"
+   },
+   {
+    "level": 2,
+    "male": "Footpad",
+    "female": "Footpad"
+   },
+   {
+    "level": 3,
+    "male": "Filcher",
+    "female": "Filcheress"
+   },
+   {
+    "level": 4,
+    "male": "Pick-Pocket",
+    "female": "Pick-Pocket"
+   },
+   {
+    "level": 5,
+    "male": "Sneak",
+    "female": "Sneak"
+   },
+   {
+    "level": 6,
+    "male": "Pincher",
+    "female": "Pincheress"
+   },
+   {
+    "level": 7,
+    "male": "Cut-Purse",
+    "female": "Cut-Purse"
+   },
+   {
+    "level": 8,
+    "male": "Snatcher",
+    "female": "Snatcheress"
+   },
+   {
+    "level": 9,
+    "male": "Sharper",
+    "female": "Sharpress"
+   },
+   {
+    "level": 10,
+    "male": "Rogue",
+    "female": "Rogue"
+   },
+   {
+    "level": 11,
+    "male": "Robber",
+    "female": "Robber"
+   },
+   {
+    "level": 12,
+    "male": "Magsman",
+    "female": "Magswoman"
+   },
+   {
+    "level": 13,
+    "male": "Highwayman",
+    "female": "Highwaywoman"
+   },
+   {
+    "level": 14,
+    "male": "Burglar",
+    "female": "Burglaress"
+   },
+   {
+    "level": 15,
+    "male": "Thief",
+    "female": "Thief"
+   },
+   {
+    "level": 16,
+    "male": "Knifer",
+    "female": "Knifer"
+   },
+   {
+    "level": 17,
+    "male": "Quick-Blade",
+    "female": "Quick-Blade"
+   },
+   {
+    "level": 18,
+    "male": "Killer",
+    "female": "Murderess"
+   },
+   {
+    "level": 19,
+    "male": "Brigand",
+    "female": "Brigand"
+   },
+   {
+    "level": 20,
+    "male": "Cut-Throat",
+    "female": "Cut-Throat"
+   },
+   {
+    "level": 21,
+    "male": "Spy",
+    "female": "Spy"
+   },
+   {
+    "level": 22,
+    "male": "Grand Spy",
+    "female": "Grand Spy"
+   },
+   {
+    "level": 23,
+    "male": "Master Spy",
+    "female": "Master Spy"
+   },
+   {
+    "level": 24,
+    "male": "Assassin",
+    "female": "Assassin"
+   },
+   {
+    "level": 25,
+    "male": "Greater Assassin",
+    "female": "Greater Assassin"
+   },
+   {
+    "level": 26,
+    "male": "Master of Vision",
+    "female": "Mistress of Vision"
+   },
+   {
+    "level": 27,
+    "male": "Master of Hearing",
+    "female": "Mistress of Hearing"
+   },
+   {
+    "level": 28,
+    "male": "Master of Smell",
+    "female": "Mistress of Smell"
+   },
+   {
+    "level": 29,
+    "male": "Master of Taste",
+    "female": "Mistress of Taste"
+   },
+   {
+    "level": 30,
+    "male": "Master of Touch",
+    "female": "Mistress of Touch"
+   },
+   {
+    "level": 31,
+    "male": "Master of Reality",
+    "female": "Mistress of Reality"
+   },
+   {
+    "level": 32,
+    "male": "Guildmaster of the Unseen",
+    "female": "Guildmistress of the Unseen"
+   },
+   {
+    "level": 33,
+    "male": "Guildmaster of Stealth",
+    "female": "Guildmistress of Stealth"
+   },
+   {
+    "level": 34,
+    "male": "Guildmaster of Assassination",
+    "female": "Guildmistress of Assassination"
+   },
+   {
+    "level": 35,
+    "male": "High Guildmaster",
+    "female": "High Guildmistress"
+   },
+   {
+    "level": 36,
+    "male": "Brother of Patience",
+    "female": "Sister of Patience"
+   },
+   {
+    "level": 37,
+    "male": "Brother of the Dagger",
+    "female": "Sister of the Dagger"
+   },
+   {
+    "level": 38,
+    "male": "Brother of the Coin",
+    "female": "Sister of the Coin"
+   },
+   {
+    "level": 39,
+    "male": "Brother of the Shadows",
+    "female": "Sister of the Shadows"
+   },
+   {
+    "level": 40,
+    "male": "Brother of the Guild",
+    "female": "Sister of the Guild"
+   },
+   {
+    "level": 41,
+    "male": "Lord of the Wolf",
+    "female": "Lady of the Wolf"
+   },
+   {
+    "level": 42,
+    "male": "Lord of the Snake",
+    "female": "Lady of the Serpent"
+   },
+   {
+    "level": 43,
+    "male": "Lord of the Hawk",
+    "female": "Lady of the Hawk"
+   },
+   {
+    "level": 44,
+    "male": "Lord of the Panther",
+    "female": "Lady of the Panther"
+   },
+   {
+    "level": 45,
+    "male": "Crime Lord",
+    "female": "Crime Mistress"
+   },
+   {
+    "level": 46,
+    "male": "Infamous Crime Lord",
+    "female": "Infamous Crime Mistress"
+   },
+   {
+    "level": 47,
+    "male": "Greater Crime Lord",
+    "female": "Greater Crime Mistress"
+   },
+   {
+    "level": 48,
+    "male": "Master Crime Lord",
+    "female": "Master Crime Mistress"
+   },
+   {
+    "level": 49,
+    "male": "Godfather",
+    "female": "Godmother"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Thief",
+  "id": 2,
+  "attr_prime": "intelligence",
+  "attr_second": "31",
+  "attr_tertiary": "wisdom",
+  "starting_weapon_vnum": 10312,
+  "guild_room_vnum": 3028,
+  "skill_adept_cap": 85,
+  "thac0_base": 17,
+  "thac0_mod": 4,
+  "hp_gain_min": 8,
+  "hp_gain_max": 15,
+  "mana_gain": 0,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 80,
+  "title_count": 66
+ },
+ {
+  "file": "Warrior.class",
+  "skills": [
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bash",
+    "level": 5,
+    "adept": 90
+   },
+   {
+    "skill": "berserk",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "blitz",
+    "level": 30,
+    "adept": 85
+   },
+   {
+    "skill": "blitzkrieg",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "disarm",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 8,
+    "adept": 90
+   },
+   {
+    "skill": "doorbash",
+    "level": 6,
+    "adept": 85
+   },
+   {
+    "skill": "engage",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "enhanced damage",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fifth attack",
+    "level": 40,
+    "adept": 80
+   },
+   {
+    "skill": "final stand",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "form ranks",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "fourth attack",
+    "level": 30,
+    "adept": 85
+   },
+   {
+    "skill": "grip",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "headbutt",
+    "level": 13,
+    "adept": 85
+   },
+   {
+    "skill": "hitall",
+    "level": 45,
+    "adept": 90
+   },
+   {
+    "skill": "invigorate",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "kick",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "knee",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "lunge",
+    "level": 22,
+    "adept": 85
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "overrun",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "parry",
+    "level": 5,
+    "adept": 90
+   },
+   {
+    "skill": "pummel",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "punch",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "rescue",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "roundhouse",
+    "level": 43,
+    "adept": 90
+   },
+   {
+    "skill": "search",
+    "level": 21,
+    "adept": 85
+   },
+   {
+    "skill": "second attack",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "sharpen",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "skirmish line",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "spinkick",
+    "level": 15,
+    "adept": 80
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "stun",
+    "level": 35,
+    "adept": 80
+   },
+   {
+    "skill": "third attack",
+    "level": 15,
+    "adept": 90
+   },
+   {
+    "skill": "uppercut",
+    "level": 38,
+    "adept": 90
+   },
+   {
+    "skill": "axes",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "missile weapons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "shieldwork",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Swordpupil",
+    "female": "Swordpupil"
+   },
+   {
+    "level": 2,
+    "male": "Recruit",
+    "female": "Recruit"
+   },
+   {
+    "level": 3,
+    "male": "Sentry",
+    "female": "Sentress"
+   },
+   {
+    "level": 4,
+    "male": "Fighter",
+    "female": "Fighter"
+   },
+   {
+    "level": 5,
+    "male": "Soldier",
+    "female": "Soldier"
+   },
+   {
+    "level": 6,
+    "male": "Warrior",
+    "female": "Warrior"
+   },
+   {
+    "level": 7,
+    "male": "Veteran",
+    "female": "Veteran"
+   },
+   {
+    "level": 8,
+    "male": "Swordsman",
+    "female": "Swordswoman"
+   },
+   {
+    "level": 9,
+    "male": "Fencer",
+    "female": "Fenceress"
+   },
+   {
+    "level": 10,
+    "male": "Combatant",
+    "female": "Combatess"
+   },
+   {
+    "level": 11,
+    "male": "Hero",
+    "female": "Heroine"
+   },
+   {
+    "level": 12,
+    "male": "Myrmidon",
+    "female": "Myrmidon"
+   },
+   {
+    "level": 13,
+    "male": "Swashbuckler",
+    "female": "Swashbuckleress"
+   },
+   {
+    "level": 14,
+    "male": "Mercenary",
+    "female": "Mercenaress"
+   },
+   {
+    "level": 15,
+    "male": "Swordmaster",
+    "female": "Swordmistress"
+   },
+   {
+    "level": 16,
+    "male": "Lieutenant",
+    "female": "Lieutenant"
+   },
+   {
+    "level": 17,
+    "male": "Champion",
+    "female": "Lady Champion"
+   },
+   {
+    "level": 18,
+    "male": "Dragoon",
+    "female": "Lady Dragoon"
+   },
+   {
+    "level": 19,
+    "male": "Cavalier",
+    "female": "Lady Cavalier"
+   },
+   {
+    "level": 20,
+    "male": "Knight",
+    "female": "Lady Knight"
+   },
+   {
+    "level": 21,
+    "male": "Grand Knight",
+    "female": "Grand Knight"
+   },
+   {
+    "level": 22,
+    "male": "Master Knight",
+    "female": "Master Knight"
+   },
+   {
+    "level": 23,
+    "male": "Paladin",
+    "female": "Paladin"
+   },
+   {
+    "level": 24,
+    "male": "Grand Paladin",
+    "female": "Grand Paladin"
+   },
+   {
+    "level": 25,
+    "male": "Demon Slayer",
+    "female": "Demon Slayer"
+   },
+   {
+    "level": 26,
+    "male": "Greater Demon Slayer",
+    "female": "Greater Demon Slayer"
+   },
+   {
+    "level": 27,
+    "male": "Dragon Slayer",
+    "female": "Dragon Slayer"
+   },
+   {
+    "level": 28,
+    "male": "Greater Dragon Slayer",
+    "female": "Greater Dragon Slayer"
+   },
+   {
+    "level": 29,
+    "male": "Underlord",
+    "female": "Underlord"
+   },
+   {
+    "level": 30,
+    "male": "Overlord",
+    "female": "Overlord"
+   },
+   {
+    "level": 31,
+    "male": "Master of the Sword",
+    "female": "Mistress of the Sword"
+   },
+   {
+    "level": 32,
+    "male": "Master of the Shield",
+    "female": "Mistress of the Shield"
+   },
+   {
+    "level": 33,
+    "male": "Master of the Cross",
+    "female": "Mistress of the Cross"
+   },
+   {
+    "level": 34,
+    "male": "Master of the Rings",
+    "female": "Mistress of the Rings"
+   },
+   {
+    "level": 35,
+    "male": "Master of the Battle",
+    "female": "Mistress of the Battle"
+   },
+   {
+    "level": 36,
+    "male": "Baron of Thunder",
+    "female": "Baroness of Thunder"
+   },
+   {
+    "level": 37,
+    "male": "Baron of Storms",
+    "female": "Baroness of Storms"
+   },
+   {
+    "level": 38,
+    "male": "Baron of Tornadoes",
+    "female": "Baroness of Tornadoes"
+   },
+   {
+    "level": 39,
+    "male": "Baron of Hurricanes",
+    "female": "Baroness of Hurricanes"
+   },
+   {
+    "level": 40,
+    "male": "Baron of Meteors",
+    "female": "Baroness of Meteors"
+   },
+   {
+    "level": 41,
+    "male": "Duke of Thunder",
+    "female": "Dutchess of Thunder"
+   },
+   {
+    "level": 42,
+    "male": "Duke of Storms",
+    "female": "Dutchess of Storms"
+   },
+   {
+    "level": 43,
+    "male": "Duke of Tornadoes",
+    "female": "Dutchess of Tornadoes"
+   },
+   {
+    "level": 44,
+    "male": "Duke of Hurricanes",
+    "female": "Dutchess of Hurricanes"
+   },
+   {
+    "level": 45,
+    "male": "Duke of Meteors",
+    "female": "Dutchess of Meteors"
+   },
+   {
+    "level": 46,
+    "male": "King of Courage",
+    "female": "Queen of Courage"
+   },
+   {
+    "level": 47,
+    "male": "King of Honor",
+    "female": "Queen of Honor"
+   },
+   {
+    "level": 48,
+    "male": "King of Strength",
+    "female": "Queen of Strength"
+   },
+   {
+    "level": 49,
+    "male": "King of Humility",
+    "female": "Queen of Humility"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Warrior",
+  "id": 3,
+  "attr_prime": "strength",
+  "attr_second": "constitution",
+  "attr_tertiary": "intelligence",
+  "starting_weapon_vnum": 10313,
+  "guild_room_vnum": 3022,
+  "skill_adept_cap": 85,
+  "thac0_base": 13,
+  "thac0_mod": 7,
+  "hp_gain_min": 10,
+  "hp_gain_max": 20,
+  "mana_gain": 0,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 68,
+  "title_count": 66
+ },
+ {
+  "file": "Thug.class",
+  "skills": [
+   {
+    "skill": "detect traps",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "midas touch",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "ventriloquate",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "ambush",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "bash",
+    "level": 10,
+    "adept": 75
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bumrush",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "camouflage",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "cheapshot",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "crush",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "detrap",
+    "level": 7,
+    "adept": 85
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "disarm",
+    "level": 8,
+    "adept": 90
+   },
+   {
+    "skill": "dodge",
+    "level": 9,
+    "adept": 80
+   },
+   {
+    "skill": "doorbash",
+    "level": 3,
+    "adept": 75
+   },
+   {
+    "skill": "elbow",
+    "level": 1,
+    "adept": 60
+   },
+   {
+    "skill": "engage",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fishhook",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "fourth attack",
+    "level": 45,
+    "adept": 70
+   },
+   {
+    "skill": "gnaw",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "gouge",
+    "level": 20,
+    "adept": 90
+   },
+   {
+    "skill": "grip",
+    "level": 13,
+    "adept": 75
+   },
+   {
+    "skill": "headbutt",
+    "level": 15,
+    "adept": 60
+   },
+   {
+    "skill": "hide",
+    "level": 5,
+    "adept": 85
+   },
+   {
+    "skill": "invigorate",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "knee",
+    "level": 10,
+    "adept": 70
+   },
+   {
+    "skill": "kneecap",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "lunge",
+    "level": 25,
+    "adept": 70
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "parry",
+    "level": 16,
+    "adept": 80
+   },
+   {
+    "skill": "peek",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "pick lock",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "poison weapon",
+    "level": 14,
+    "adept": 55
+   },
+   {
+    "skill": "pummel",
+    "level": 27,
+    "adept": 60
+   },
+   {
+    "skill": "punt",
+    "level": 35,
+    "adept": 65
+   },
+   {
+    "skill": "roundhouse",
+    "level": 42,
+    "adept": 70
+   },
+   {
+    "skill": "scan",
+    "level": 22,
+    "adept": 90
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "second attack",
+    "level": 11,
+    "adept": 90
+   },
+   {
+    "skill": "sharpen",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "sneak",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "spinkick",
+    "level": 30,
+    "adept": 80
+   },
+   {
+    "skill": "stalk",
+    "level": 41,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "steal",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "street brawler",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "stun",
+    "level": 38,
+    "adept": 75
+   },
+   {
+    "skill": "third attack",
+    "level": 22,
+    "adept": 85
+   },
+   {
+    "skill": "track",
+    "level": 31,
+    "adept": 85
+   },
+   {
+    "skill": "tumble",
+    "level": 41,
+    "adept": 75
+   },
+   {
+    "skill": "vault",
+    "level": 38,
+    "adept": 75
+   },
+   {
+    "skill": "axes",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "missile weapons",
+    "level": 10,
+    "adept": 85
+   },
+   {
+    "skill": "polearms",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "talonous arms",
+    "level": 20,
+    "adept": 85
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Punk",
+    "female": "Punk"
+   },
+   {
+    "level": 2,
+    "male": "Bruiser",
+    "female": "Bruiser"
+   },
+   {
+    "level": 3,
+    "male": "Thug",
+    "female": "Thug"
+   },
+   {
+    "level": 4,
+    "male": "Brute",
+    "female": "Brute"
+   },
+   {
+    "level": 5,
+    "male": "Smasher",
+    "female": "Smasher"
+   },
+   {
+    "level": 6,
+    "male": "Bodyguard",
+    "female": "Bodyguard"
+   },
+   {
+    "level": 7,
+    "male": "Bouncer",
+    "female": "Bouncer"
+   },
+   {
+    "level": 8,
+    "male": "Guard",
+    "female": "Guard"
+   },
+   {
+    "level": 9,
+    "male": "Sharper",
+    "female": "Sharpress"
+   },
+   {
+    "level": 10,
+    "male": "Rogue",
+    "female": "Rogue"
+   },
+   {
+    "level": 11,
+    "male": "Robber",
+    "female": "Robber"
+   },
+   {
+    "level": 12,
+    "male": "Magsman",
+    "female": "Magswoman"
+   },
+   {
+    "level": 13,
+    "male": "Highwayman",
+    "female": "Highwaywoman"
+   },
+   {
+    "level": 14,
+    "male": "Burglar",
+    "female": "Burglaress"
+   },
+   {
+    "level": 15,
+    "male": "Thief",
+    "female": "Thief"
+   },
+   {
+    "level": 16,
+    "male": "Knifer",
+    "female": "Knifer"
+   },
+   {
+    "level": 17,
+    "male": "Quick-Blade",
+    "female": "Quick-Blade"
+   },
+   {
+    "level": 18,
+    "male": "Killer",
+    "female": "Murderess"
+   },
+   {
+    "level": 19,
+    "male": "Brigand",
+    "female": "Brigand"
+   },
+   {
+    "level": 20,
+    "male": "Cut-Throat",
+    "female": "Cut-Throat"
+   },
+   {
+    "level": 21,
+    "male": "Spy",
+    "female": "Spy"
+   },
+   {
+    "level": 22,
+    "male": "Grand Spy",
+    "female": "Grand Spy"
+   },
+   {
+    "level": 23,
+    "male": "Master Spy",
+    "female": "Master Spy"
+   },
+   {
+    "level": 24,
+    "male": "Assassin",
+    "female": "Assassin"
+   },
+   {
+    "level": 25,
+    "male": "Greater Assassin",
+    "female": "Greater Assassin"
+   },
+   {
+    "level": 26,
+    "male": "Master of Vision",
+    "female": "Mistress of Vision"
+   },
+   {
+    "level": 27,
+    "male": "Master of Hearing",
+    "female": "Mistress of Hearing"
+   },
+   {
+    "level": 28,
+    "male": "Master of Smell",
+    "female": "Mistress of Smell"
+   },
+   {
+    "level": 29,
+    "male": "Master of Taste",
+    "female": "Mistress of Taste"
+   },
+   {
+    "level": 30,
+    "male": "Master of Touch",
+    "female": "Mistress of Touch"
+   },
+   {
+    "level": 31,
+    "male": "Master of Reality",
+    "female": "Mistress of Reality"
+   },
+   {
+    "level": 32,
+    "male": "Guildmaster of the Unseen",
+    "female": "Guildmistress of the Unseen"
+   },
+   {
+    "level": 33,
+    "male": "Guildmaster of Stealth",
+    "female": "Guildmistress of Stealth"
+   },
+   {
+    "level": 34,
+    "male": "Guildmaster of Assassination",
+    "female": "Guildmistress of Assassination"
+   },
+   {
+    "level": 35,
+    "male": "High Guildmaster",
+    "female": "High Guildmistress"
+   },
+   {
+    "level": 36,
+    "male": "Brother of Patience",
+    "female": "Sister of Patience"
+   },
+   {
+    "level": 37,
+    "male": "Brother of the Dagger",
+    "female": "Sister of the Dagger"
+   },
+   {
+    "level": 38,
+    "male": "Brother of the Coin",
+    "female": "Sister of the Coin"
+   },
+   {
+    "level": 39,
+    "male": "Brother of the Shadows",
+    "female": "Sister of the Shadows"
+   },
+   {
+    "level": 40,
+    "male": "Brother of the Guild",
+    "female": "Sister of the Guild"
+   },
+   {
+    "level": 41,
+    "male": "Lord of the Wolf",
+    "female": "Lady of the Wolf"
+   },
+   {
+    "level": 42,
+    "male": "Lord of the Snake",
+    "female": "Lady of the Serpent"
+   },
+   {
+    "level": 43,
+    "male": "Lord of the Hawk",
+    "female": "Lady of the Hawk"
+   },
+   {
+    "level": 44,
+    "male": "Lord of the Panther",
+    "female": "Lady of the Panther"
+   },
+   {
+    "level": 45,
+    "male": "Crime Lord",
+    "female": "Crime Mistress"
+   },
+   {
+    "level": 46,
+    "male": "Infamous Crime Lord",
+    "female": "Infamous Crime Mistress"
+   },
+   {
+    "level": 47,
+    "male": "Greater Crime Lord",
+    "female": "Greater Crime Mistress"
+   },
+   {
+    "level": 48,
+    "male": "Master Crime Lord",
+    "female": "Master Crime Mistress"
+   },
+   {
+    "level": 49,
+    "male": "Godfather",
+    "female": "Godmother"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Thug",
+  "id": 4,
+  "attr_prime": "strength",
+  "attr_second": "intelligence",
+  "attr_tertiary": "31",
+  "starting_weapon_vnum": 10315,
+  "guild_room_vnum": 3028,
+  "skill_adept_cap": 70,
+  "thac0_base": 16,
+  "thac0_mod": 5,
+  "hp_gain_min": 8,
+  "hp_gain_max": 18,
+  "mana_gain": 0,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 80,
+  "title_count": 66
+ },
+ {
+  "file": "Druid.class",
+  "skills": [
+   {
+    "skill": "acetum primus",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "acid breath",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "armor of leaves",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "astral walk",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "blazebane",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "call lightning",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "caustic fount",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "charged beacon",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "continual light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "control weather",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create water",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cure poison",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "detect hidden",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect poison",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "earthquake",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "energy drain",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "ethereal funnel",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fire",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fog",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "fear",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "fire breath",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fly",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "frost breath",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "galvanic whip",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "gas breath",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "infravision",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "lethargy",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "lightning breath",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "magnetic thrust",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "natures wrath",
+    "level": 46,
+    "adept": 95
+   },
+   {
+    "skill": "nostrum",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "plant pass",
+    "level": 13,
+    "adept": 95
+   },
+   {
+    "skill": "poison",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "remove trap",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "scry",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "sleep",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "sonic resonance",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "stone skin",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "taint",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "transport",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "unravel defense",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "weaken",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 55
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "engage",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 75
+   },
+   {
+    "skill": "gouge",
+    "level": 30,
+    "adept": 90
+   },
+   {
+    "skill": "grip",
+    "level": 42,
+    "adept": 85
+   },
+   {
+    "skill": "hide",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "pelt",
+    "level": 10,
+    "adept": 90
+   },
+   {
+    "skill": "rescue",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 15,
+    "adept": 90
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "swat",
+    "level": 40,
+    "adept": 80
+   },
+   {
+    "skill": "third attack",
+    "level": 35,
+    "adept": 70
+   },
+   {
+    "skill": "track",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "axes",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "long blades",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "missile weapons",
+    "level": 15,
+    "adept": 70
+   },
+   {
+    "skill": "polearms",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "shieldwork",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 10,
+    "adept": 90
+   },
+   {
+    "skill": "talonous arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Believer",
+    "female": "Believer"
+   },
+   {
+    "level": 2,
+    "male": "Attendant",
+    "female": "Attendant"
+   },
+   {
+    "level": 3,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 4,
+    "male": "Novice",
+    "female": "Novice"
+   },
+   {
+    "level": 5,
+    "male": "Missionary",
+    "female": "Missionary"
+   },
+   {
+    "level": 6,
+    "male": "Adept",
+    "female": "Adept"
+   },
+   {
+    "level": 7,
+    "male": "Deacon",
+    "female": "Deaconess"
+   },
+   {
+    "level": 8,
+    "male": "Vicar",
+    "female": "Vicaress"
+   },
+   {
+    "level": 9,
+    "male": "Priest",
+    "female": "Priestess"
+   },
+   {
+    "level": 10,
+    "male": "Minister",
+    "female": "Lady Minister"
+   },
+   {
+    "level": 11,
+    "male": "Canon",
+    "female": "Canon"
+   },
+   {
+    "level": 12,
+    "male": "Levite",
+    "female": "Levitess"
+   },
+   {
+    "level": 13,
+    "male": "Curate",
+    "female": "Curess"
+   },
+   {
+    "level": 14,
+    "male": "Monk",
+    "female": "Nun"
+   },
+   {
+    "level": 15,
+    "male": "Healer",
+    "female": "Healess"
+   },
+   {
+    "level": 16,
+    "male": "Chaplain",
+    "female": "Chaplain"
+   },
+   {
+    "level": 17,
+    "male": "Expositor",
+    "female": "Expositress"
+   },
+   {
+    "level": 18,
+    "male": "Bishop",
+    "female": "Bishop"
+   },
+   {
+    "level": 19,
+    "male": "Arch Druid",
+    "female": "Arch Druidess"
+   },
+   {
+    "level": 20,
+    "male": "Patriarch",
+    "female": "Matriarch"
+   },
+   {
+    "level": 21,
+    "male": "Elder Druid",
+    "female": "Elder Druidess"
+   },
+   {
+    "level": 22,
+    "male": "Grand Druid",
+    "female": "Grand Druidess"
+   },
+   {
+    "level": 23,
+    "male": "Great Druid",
+    "female": "Great Druidess"
+   },
+   {
+    "level": 24,
+    "male": "Demon Killer",
+    "female": "Demon Killer"
+   },
+   {
+    "level": 25,
+    "male": "Greater Demon Killer",
+    "female": "Greater Demon Killer"
+   },
+   {
+    "level": 26,
+    "male": "Druid of the Sea",
+    "female": "Druidess of the Sea"
+   },
+   {
+    "level": 27,
+    "male": "Druid of the Earth",
+    "female": "Druidess of the Earth"
+   },
+   {
+    "level": 28,
+    "male": "Druid of the Air",
+    "female": "Druidess of the Air"
+   },
+   {
+    "level": 29,
+    "male": "Druid of the Ether",
+    "female": "Druidess of the Ether"
+   },
+   {
+    "level": 30,
+    "male": "Druid of the Heavens",
+    "female": "Druidess of the Heavens"
+   },
+   {
+    "level": 31,
+    "male": "High Druid of the Sea",
+    "female": "High Druidess of the Sea"
+   },
+   {
+    "level": 32,
+    "male": "High Druid of the Earth",
+    "female": "High Druidess of the Earth"
+   },
+   {
+    "level": 33,
+    "male": "High Druid of the Air",
+    "female": "High Druidess of the Air"
+   },
+   {
+    "level": 34,
+    "male": "High Druid of the Ether",
+    "female": "High Druidess of the Ether"
+   },
+   {
+    "level": 35,
+    "male": "High Druid of the Heavens",
+    "female": "High Druidess of the Heavens"
+   },
+   {
+    "level": 36,
+    "male": "Saviour of the Sea",
+    "female": "Saviour of the Sea"
+   },
+   {
+    "level": 37,
+    "male": "Saviour of the Earth",
+    "female": "Saviour of the Earth"
+   },
+   {
+    "level": 38,
+    "male": "Saviour of the Air",
+    "female": "Saviour of the Air"
+   },
+   {
+    "level": 39,
+    "male": "Saviour of the Ether",
+    "female": "Saviour of the Ether"
+   },
+   {
+    "level": 40,
+    "male": "Saviour of the Void",
+    "female": "Saviour of the Void"
+   },
+   {
+    "level": 41,
+    "male": "Supreme Druid of Virtue",
+    "female": "Supreme Druidess of Virtue"
+   },
+   {
+    "level": 42,
+    "male": "Supreme Druid of Humility",
+    "female": "Supreme Druidess of Humility"
+   },
+   {
+    "level": 43,
+    "male": "Supreme Druid of Light",
+    "female": "Supreme Druidess of Light"
+   },
+   {
+    "level": 44,
+    "male": "Supreme Druid of Power",
+    "female": "Supreme Druidess of Power"
+   },
+   {
+    "level": 45,
+    "male": "Avatar of an Immortal",
+    "female": "Avatar of an Immortal"
+   },
+   {
+    "level": 46,
+    "male": "Avatar of a Deity",
+    "female": "Avatar of a Deity"
+   },
+   {
+    "level": 47,
+    "male": "Avatar of a Supremity",
+    "female": "Avatar of a Supremity"
+   },
+   {
+    "level": 48,
+    "male": "Avatar of an Implementor",
+    "female": "Avatar of an Implementor"
+   },
+   {
+    "level": 49,
+    "male": "Master of all Divinity",
+    "female": "Mistress of all Divinity"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Druid",
+  "id": 5,
+  "attr_prime": "dexterity",
+  "attr_second": "strength",
+  "attr_tertiary": "constitution",
+  "starting_weapon_vnum": 10313,
+  "guild_room_vnum": 3037,
+  "skill_adept_cap": 95,
+  "thac0_base": 16,
+  "thac0_mod": 4,
+  "hp_gain_min": 8,
+  "hp_gain_max": 18,
+  "mana_gain": 1,
+  "exp_base_per_level": 55,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 99,
+  "title_count": 66
+ },
+ {
+  "file": "Ranger.class",
+  "skills": [
+   {
+    "skill": "aqua breath",
+    "level": 9,
+    "adept": 90
+   },
+   {
+    "skill": "astral walk",
+    "level": 46,
+    "adept": 95
+   },
+   {
+    "skill": "barbed arrow",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "blade shield",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "continual light",
+    "level": 4,
+    "adept": 90
+   },
+   {
+    "skill": "control weather",
+    "level": 11,
+    "adept": 90
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "cure light",
+    "level": 8,
+    "adept": 85
+   },
+   {
+    "skill": "cure serious",
+    "level": 37,
+    "adept": 85
+   },
+   {
+    "skill": "detect hidden",
+    "level": 5,
+    "adept": 90
+   },
+   {
+    "skill": "detect poison",
+    "level": 7,
+    "adept": 90
+   },
+   {
+    "skill": "detect traps",
+    "level": 10,
+    "adept": 90
+   },
+   {
+    "skill": "eyes of the hunter",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 14,
+    "adept": 90
+   },
+   {
+    "skill": "fly",
+    "level": 19,
+    "adept": 90
+   },
+   {
+    "skill": "infravision",
+    "level": 3,
+    "adept": 90
+   },
+   {
+    "skill": "locate object",
+    "level": 35,
+    "adept": 90
+   },
+   {
+    "skill": "natures companion",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "numbing arrow",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "plant pass",
+    "level": 22,
+    "adept": 90
+   },
+   {
+    "skill": "poison",
+    "level": 33,
+    "adept": 85
+   },
+   {
+    "skill": "quickening",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 2,
+    "adept": 90
+   },
+   {
+    "skill": "stone skin",
+    "level": 45,
+    "adept": 90
+   },
+   {
+    "skill": "venom arrow",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 6,
+    "adept": 90
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 65
+   },
+   {
+    "skill": "camouflage",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "catnap",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "disarm",
+    "level": 15,
+    "adept": 90
+   },
+   {
+    "skill": "disengage",
+    "level": 41,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 10,
+    "adept": 85
+   },
+   {
+    "skill": "dual wield",
+    "level": 5,
+    "adept": 90
+   },
+   {
+    "skill": "elbow",
+    "level": 10,
+    "adept": 80
+   },
+   {
+    "skill": "engage",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "enhanced hit",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 70
+   },
+   {
+    "skill": "fifth attack",
+    "level": 48,
+    "adept": 80
+   },
+   {
+    "skill": "fourth attack",
+    "level": 40,
+    "adept": 75
+   },
+   {
+    "skill": "grip",
+    "level": 30,
+    "adept": 75
+   },
+   {
+    "skill": "hide",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "jab",
+    "level": 1,
+    "adept": 85
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "overrun",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "parry",
+    "level": 20,
+    "adept": 90
+   },
+   {
+    "skill": "punch",
+    "level": 15,
+    "adept": 75
+   },
+   {
+    "skill": "rescue",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "roundhouse",
+    "level": 40,
+    "adept": 75
+   },
+   {
+    "skill": "scan",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "sharpen",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "sneak",
+    "level": 35,
+    "adept": 90
+   },
+   {
+    "skill": "snipe",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "stalk",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "strike",
+    "level": 30,
+    "adept": 80
+   },
+   {
+    "skill": "tend",
+    "level": 25,
+    "adept": 75
+   },
+   {
+    "skill": "third attack",
+    "level": 25,
+    "adept": 85
+   },
+   {
+    "skill": "track",
+    "level": 6,
+    "adept": 90
+   },
+   {
+    "skill": "axes",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 80
+   },
+   {
+    "skill": "exotic arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "missile weapons",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 30,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "insectoid",
+    "level": 35,
+    "adept": 100
+   },
+   {
+    "skill": "mammal",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "reptile",
+    "level": 10,
+    "adept": 10
+   },
+   {
+    "skill": "rodent",
+    "level": 5,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Runner",
+    "female": "Runner"
+   },
+   {
+    "level": 2,
+    "male": "Strider",
+    "female": "Strider"
+   },
+   {
+    "level": 3,
+    "male": "Scout",
+    "female": "Scout"
+   },
+   {
+    "level": 4,
+    "male": "Scout Master",
+    "female": "Scout Master"
+   },
+   {
+    "level": 5,
+    "male": "Courser",
+    "female": "Courser"
+   },
+   {
+    "level": 6,
+    "male": "Tracker",
+    "female": "Tracker"
+   },
+   {
+    "level": 7,
+    "male": "Guide",
+    "female": "Guidess"
+   },
+   {
+    "level": 8,
+    "male": "Pathfinder",
+    "female": "Pathfinder"
+   },
+   {
+    "level": 9,
+    "male": "Explorer",
+    "female": "Explorer"
+   },
+   {
+    "level": 10,
+    "male": "Hunter",
+    "female": "Huntess"
+   },
+   {
+    "level": 11,
+    "male": "Beastmaster",
+    "female": "Beastmistress"
+   },
+   {
+    "level": 12,
+    "male": "Falconer",
+    "female": "Falconess"
+   },
+   {
+    "level": 13,
+    "male": "Feralan",
+    "female": "Feralan"
+   },
+   {
+    "level": 14,
+    "male": "Guardian",
+    "female": "Guardian"
+   },
+   {
+    "level": 15,
+    "male": "Justifier",
+    "female": "Justifier"
+   },
+   {
+    "level": 16,
+    "male": "Stalker",
+    "female": "Stalker"
+   },
+   {
+    "level": 17,
+    "male": "Warden",
+    "female": "Warden"
+   },
+   {
+    "level": 18,
+    "male": "Herbalist",
+    "female": "Herbalist"
+   },
+   {
+    "level": 19,
+    "male": "Enviromentalist",
+    "female": "Enviromentalist"
+   },
+   {
+    "level": 20,
+    "male": "Journeyman",
+    "female": "Journeywoman"
+   },
+   {
+    "level": 21,
+    "male": "Traveller",
+    "female": "Traveller"
+   },
+   {
+    "level": 22,
+    "male": "Wanderer",
+    "female": "Wanderer"
+   },
+   {
+    "level": 23,
+    "male": "Ranger Squire",
+    "female": "Ranger Squiress"
+   },
+   {
+    "level": 24,
+    "male": "Ranger Knight",
+    "female": "Ranger Knight"
+   },
+   {
+    "level": 25,
+    "male": "Ranger Lord",
+    "female": "Ranger Lady"
+   },
+   {
+    "level": 26,
+    "male": "Goblin Slayer",
+    "female": "Goblin Slayer"
+   },
+   {
+    "level": 27,
+    "male": "Gnoll Slayer",
+    "female": "Gnoll Slayer"
+   },
+   {
+    "level": 28,
+    "male": "Ogre Slayer",
+    "female": "Ogre Slayer"
+   },
+   {
+    "level": 29,
+    "male": "Minotaur Slayer",
+    "female": "Minotaur Slayer"
+   },
+   {
+    "level": 30,
+    "male": "Giant Slayer",
+    "female": "Giant Slayer"
+   },
+   {
+    "level": 31,
+    "male": "Skylord",
+    "female": "Skylady"
+   },
+   {
+    "level": 32,
+    "male": "Waterlord",
+    "female": "Waterlady"
+   },
+   {
+    "level": 33,
+    "male": "Treelord",
+    "female": "Treelady"
+   },
+   {
+    "level": 34,
+    "male": "Friend of Dryads",
+    "female": "Friend of Dryads"
+   },
+   {
+    "level": 35,
+    "male": "Friend of Pixies",
+    "female": "Friend of Pixies"
+   },
+   {
+    "level": 36,
+    "male": "Friend of Elves",
+    "female": "Friend of Elves"
+   },
+   {
+    "level": 37,
+    "male": "Swamp Master",
+    "female": "Swamp Mistress"
+   },
+   {
+    "level": 38,
+    "male": "Desert Master",
+    "female": "Desert Mistress"
+   },
+   {
+    "level": 39,
+    "male": "Mountain Master",
+    "female": "Mountain Mistress"
+   },
+   {
+    "level": 40,
+    "male": "Forest Master",
+    "female": "Forest Mistress"
+   },
+   {
+    "level": 41,
+    "male": "Defender of Plants",
+    "female": "Defender of Plants"
+   },
+   {
+    "level": 42,
+    "male": "Defender of Animals",
+    "female": "Defender of Animals"
+   },
+   {
+    "level": 43,
+    "male": "Defender of the Earth",
+    "female": "Defender of the Earth"
+   },
+   {
+    "level": 44,
+    "male": "Defender of Nature",
+    "female": "Defender of Nature"
+   },
+   {
+    "level": 45,
+    "male": "Defender of the Realms",
+    "female": "Defender of the Realms"
+   },
+   {
+    "level": 46,
+    "male": "Lord of the Plants",
+    "female": "Lady of the Plants"
+   },
+   {
+    "level": 47,
+    "male": "Lord of the Animals",
+    "female": "Lady of the Animals"
+   },
+   {
+    "level": 48,
+    "male": "Lord of the Earth",
+    "female": "Lady of the Earth"
+   },
+   {
+    "level": 49,
+    "male": "Lord of Nature",
+    "female": "Lady of Nature"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Ranger",
+  "id": 6,
+  "attr_prime": "intelligence",
+  "attr_second": "strength",
+  "attr_tertiary": "wisdom",
+  "starting_weapon_vnum": 10313,
+  "guild_room_vnum": 3039,
+  "skill_adept_cap": 90,
+  "thac0_base": 14,
+  "thac0_mod": 5,
+  "hp_gain_min": 9,
+  "hp_gain_max": 19,
+  "mana_gain": 1,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 95,
+  "title_count": 66
+ },
+ {
+  "file": "Monk.class",
+  "skills": [
+   {
+    "skill": "ice blast",
+    "level": 43,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bash",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cleanse aura",
+    "level": 41,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "crane",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "crashing wave",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "disarm",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "dual wield",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "eagle",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "engage",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fifth attack",
+    "level": 42,
+    "adept": 65
+   },
+   {
+    "skill": "fire fist",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "focus",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fourth attack",
+    "level": 30,
+    "adept": 75
+   },
+   {
+    "skill": "gouge",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "hide",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "hitall",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "jab",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "judo",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "karate",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "kick",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "knee",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "leap",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "master",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 4,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "parry",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "pressure point",
+    "level": 34,
+    "adept": 95
+   },
+   {
+    "skill": "pummel",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "punch",
+    "level": 9,
+    "adept": 95
+   },
+   {
+    "skill": "rescue",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "roundhouse",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "shock strike",
+    "level": 39,
+    "adept": 95
+   },
+   {
+    "skill": "shoulder",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "sneak",
+    "level": 13,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "stun",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "tend",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 15,
+    "adept": 85
+   },
+   {
+    "skill": "tiger",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "trance",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "tumble",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "uppercut",
+    "level": 29,
+    "adept": 95
+   },
+   {
+    "skill": "vault",
+    "level": 31,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 40,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 1,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 2,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 3,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 4,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 5,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 6,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 7,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 8,
+    "male": "Neophyte.",
+    "female": "Neophyte."
+   },
+   {
+    "level": 9,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 10,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 11,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 12,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 13,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 14,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 15,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 16,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 17,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 18,
+    "male": "Monk.",
+    "female": "Monk."
+   },
+   {
+    "level": 19,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 20,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 21,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 22,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 23,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 24,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 25,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 26,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 27,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 28,
+    "male": "Crane.",
+    "female": "Crane."
+   },
+   {
+    "level": 29,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 30,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 31,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 32,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 33,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 34,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 35,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 36,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 37,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 38,
+    "male": "Tiger.",
+    "female": "Tiger."
+   },
+   {
+    "level": 39,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 40,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 41,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 42,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 43,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 44,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 45,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 46,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 47,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 48,
+    "male": "Eagle.",
+    "female": "Eagle."
+   },
+   {
+    "level": 49,
+    "male": "Master.",
+    "female": "Master."
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Monk",
+  "id": 7,
+  "attr_prime": "intelligence",
+  "attr_second": "constitution",
+  "attr_tertiary": "strength",
+  "starting_weapon_vnum": 0,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 13,
+  "thac0_mod": 5,
+  "hp_gain_min": 9,
+  "hp_gain_max": 17,
+  "mana_gain": 0,
+  "exp_base_per_level": 60,
+  "affected": 2097152,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 71,
+  "title_count": 66
+ },
+ {
+  "file": "Diabolist.class",
+  "skills": [
+   {
+    "skill": "alertness",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "animate dead",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aura of fear",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "binding darkness",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "black fist",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "black hand",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "black lightning",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "blindness",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "change sex",
+    "level": 9,
+    "adept": 95
+   },
+   {
+    "skill": "charm person",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "corrupt armor",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cure light",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "curse",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "daemon guardian",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "daemonic armor",
+    "level": 43,
+    "adept": 95
+   },
+   {
+    "skill": "demonic beast",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "demonsight",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "demonskin",
+    "level": 13,
+    "adept": 95
+   },
+   {
+    "skill": "detect evil",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect good",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect invis",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "detect poison",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "detect traps",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "disruption",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "dragonskin",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "dream",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fire",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "faerie fog",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "farsight",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "fatigue",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "fear",
+    "level": 31,
+    "adept": 95
+   },
+   {
+    "skill": "feebleness",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "hand of chaos",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "harm",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "know alignment",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "necromantic touch",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "paralyze",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "razorbait",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "shadowform",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "sleep",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "spectral furor",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "spiritual wrath",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "swordbait",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "ventriloquate",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "warp mind",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "weaken",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "winter mist",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "wrath of dominus",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cuff",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "elbow",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "engage",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "gouge",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "grip",
+    "level": 34,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "mistwalk",
+    "level": 34,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "scribe",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "sneak",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "spurn",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "swipe",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 43,
+    "adept": 75
+   },
+   {
+    "skill": "axes",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "missile weapons",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "shieldwork",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "rodent",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Man",
+    "female": "Woman"
+   },
+   {
+    "level": 1,
+    "male": "Apprentice of Magic",
+    "female": "Apprentice of Magic"
+   },
+   {
+    "level": 2,
+    "male": "Spell Student",
+    "female": "Spell Student"
+   },
+   {
+    "level": 3,
+    "male": "Scholar of Magic",
+    "female": "Scholar of Magic"
+   },
+   {
+    "level": 4,
+    "male": "Delver in Spells",
+    "female": "Delveress in Spells"
+   },
+   {
+    "level": 5,
+    "male": "Medium of Magic",
+    "female": "Medium of Magic"
+   },
+   {
+    "level": 6,
+    "male": "Scribe of Magic",
+    "female": "Scribess of Magic"
+   },
+   {
+    "level": 7,
+    "male": "Seer",
+    "female": "Seeress"
+   },
+   {
+    "level": 8,
+    "male": "Sage",
+    "female": "Sage"
+   },
+   {
+    "level": 9,
+    "male": "Illusionist",
+    "female": "Illusionist"
+   },
+   {
+    "level": 10,
+    "male": "Abjurer",
+    "female": "Abjuress"
+   },
+   {
+    "level": 11,
+    "male": "Invoker",
+    "female": "Invoker"
+   },
+   {
+    "level": 12,
+    "male": "Enchanter",
+    "female": "Enchantress"
+   },
+   {
+    "level": 13,
+    "male": "Conjurer",
+    "female": "Conjuress"
+   },
+   {
+    "level": 14,
+    "male": "Magician",
+    "female": "Witch"
+   },
+   {
+    "level": 15,
+    "male": "Maker",
+    "female": "Maker"
+   },
+   {
+    "level": 16,
+    "male": "Savant",
+    "female": "Savant"
+   },
+   {
+    "level": 17,
+    "male": "Magus",
+    "female": "Craftess"
+   },
+   {
+    "level": 18,
+    "male": "Warlock",
+    "female": "War Witch"
+   },
+   {
+    "level": 19,
+    "male": "Demi-Sorcerer",
+    "female": "Demi-Sorceress"
+   },
+   {
+    "level": 20,
+    "male": "Sorcerer",
+    "female": "Sorceress"
+   },
+   {
+    "level": 21,
+    "male": "Elder Sorcerer",
+    "female": "Elder Sorceress"
+   },
+   {
+    "level": 22,
+    "male": "Grand Sorcerer",
+    "female": "Grand Sorceress"
+   },
+   {
+    "level": 23,
+    "male": "Great Sorcerer",
+    "female": "Great Sorceress"
+   },
+   {
+    "level": 24,
+    "male": "Golem Maker",
+    "female": "Golem Maker"
+   },
+   {
+    "level": 25,
+    "male": "Greater Golem Maker",
+    "female": "Greater Golem Maker"
+   },
+   {
+    "level": 26,
+    "male": "Maker of Stones",
+    "female": "Maker of Stones"
+   },
+   {
+    "level": 27,
+    "male": "Maker of Potions",
+    "female": "Maker of Potions"
+   },
+   {
+    "level": 28,
+    "male": "Maker of Staves",
+    "female": "Maker of Staves"
+   },
+   {
+    "level": 29,
+    "male": "Green Wizard",
+    "female": "Green Wizard"
+   },
+   {
+    "level": 30,
+    "male": "Brown Wizard",
+    "female": "Brown Wizard"
+   },
+   {
+    "level": 31,
+    "male": "Blue Wizard",
+    "female": "Blue Wizard"
+   },
+   {
+    "level": 32,
+    "male": "Red Wizard",
+    "female": "Red Wizard"
+   },
+   {
+    "level": 33,
+    "male": "Grey Wizard",
+    "female": "Grey Wizard"
+   },
+   {
+    "level": 34,
+    "male": "White Wizard",
+    "female": "White Wizard"
+   },
+   {
+    "level": 35,
+    "male": "Silver Wizard",
+    "female": "Silver Wizard"
+   },
+   {
+    "level": 36,
+    "male": "Gold Wizard",
+    "female": "Gold Wizard"
+   },
+   {
+    "level": 37,
+    "male": "Platinum Wizard",
+    "female": "Platinum Wizard"
+   },
+   {
+    "level": 38,
+    "male": "Diamond Wizard",
+    "female": "Diamond Wizard"
+   },
+   {
+    "level": 39,
+    "male": "Archmage of Rods",
+    "female": "Archmage of Rods"
+   },
+   {
+    "level": 40,
+    "male": "Archmage of Wands",
+    "female": "Archmage of Wands"
+   },
+   {
+    "level": 41,
+    "male": "Archmage of Staves",
+    "female": "Archmage of Staves"
+   },
+   {
+    "level": 42,
+    "male": "Archmage of Orbs",
+    "female": "Archmage of Orbs"
+   },
+   {
+    "level": 43,
+    "male": "Demon Summoner",
+    "female": "Demon Summoner"
+   },
+   {
+    "level": 44,
+    "male": "Greater Demon Summoner",
+    "female": "Greater Demon Summoner"
+   },
+   {
+    "level": 45,
+    "male": "Dragon Charmer",
+    "female": "Dragon Charmer"
+   },
+   {
+    "level": 46,
+    "male": "Greater Dragon Charmer",
+    "female": "Greater Dragon Charmer"
+   },
+   {
+    "level": 47,
+    "male": "Master of Demons",
+    "female": "Mistress of Demons"
+   },
+   {
+    "level": 48,
+    "male": "Master of Dragons",
+    "female": "Mistress of Dragons"
+   },
+   {
+    "level": 49,
+    "male": "Master of all Magic",
+    "female": "Mistress of all Magic"
+   },
+   {
+    "level": 50,
+    "male": "Avatar",
+    "female": "Avatar"
+   },
+   {
+    "level": 51,
+    "male": "Neophyte",
+    "female": "Neophyte"
+   },
+   {
+    "level": 52,
+    "male": "Acolyte",
+    "female": "Acolyte"
+   },
+   {
+    "level": 53,
+    "male": "Creator",
+    "female": "Creator"
+   },
+   {
+    "level": 54,
+    "male": "Savior",
+    "female": "Savior"
+   },
+   {
+    "level": 55,
+    "male": "Demi God",
+    "female": "Demi Goddess"
+   },
+   {
+    "level": 56,
+    "male": "Immortal",
+    "female": "Immortal"
+   },
+   {
+    "level": 57,
+    "male": "Lesser God",
+    "female": "Lesser Goddess"
+   },
+   {
+    "level": 58,
+    "male": "God",
+    "female": "Goddess"
+   },
+   {
+    "level": 59,
+    "male": "Greater God",
+    "female": "Greater Goddess"
+   },
+   {
+    "level": 60,
+    "male": "Ascendant God",
+    "female": "Acendant Goddess"
+   },
+   {
+    "level": 61,
+    "male": "Exalted God",
+    "female": "Exalted Goddess"
+   },
+   {
+    "level": 62,
+    "male": "Ancient One",
+    "female": "Ancient One"
+   },
+   {
+    "level": 63,
+    "male": "Eternal One",
+    "female": "Eternal One"
+   },
+   {
+    "level": 64,
+    "male": "Infinite One",
+    "female": "Infinite One"
+   },
+   {
+    "level": 65,
+    "male": "Supreme Entity",
+    "female": "Supreme Entity"
+   }
+  ],
+  "name": "Diabolist",
+  "id": 8,
+  "attr_prime": "wisdom",
+  "attr_second": "25",
+  "attr_tertiary": "dexterity",
+  "starting_weapon_vnum": 10312,
+  "guild_room_vnum": 3018,
+  "skill_adept_cap": 95,
+  "thac0_base": 19,
+  "thac0_mod": 3,
+  "hp_gain_min": 8,
+  "hp_gain_max": 15,
+  "mana_gain": 1,
+  "exp_base_per_level": 50,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 109,
+  "title_count": 66
+ },
+ {
+  "file": "Conjurer.class",
+  "skills": [
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith avatar",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith barbed",
+    "level": 49,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith bladed",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith bloodstone",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith dragontear",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith magestone",
+    "level": 24,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith mirror",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith reinforced",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith shield",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith spellward",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith spiked",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith standard",
+    "level": 4,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith steel",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "armorsmith vitality",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "conjurers sword",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "continual light",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create water",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "detect invis",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "flaming blast",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "godstorm",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "golem cloak",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "golem fists",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "golem plate",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "golem shield",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "golem weapon",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "identify",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "locate object",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "mithril bolt",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "portal",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "silver arrow",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "summon golem",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith curve",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith devour",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith dragonslayer",
+    "level": 41,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith enhance",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith etch",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith etherblade",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith etherguard",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith guard",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith light",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith loyal",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith ogreslayer",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith serpent",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith serpentkiss",
+    "level": 49,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith spellward",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith swordbane",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith swordbreaker",
+    "level": 47,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith thirst",
+    "level": 29,
+    "adept": 95
+   },
+   {
+    "skill": "weaponsmith weight",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cuff",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 34,
+    "adept": 95
+   },
+   {
+    "skill": "engage",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fourth attack",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "mend",
+    "level": 4,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "pelt",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "swipe",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "trance",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "axes",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "missile weapons",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 5,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "mammal",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Conjurer.",
+    "female": "Conjurer."
+   },
+   {
+    "level": 1,
+    "male": "Conjurer.",
+    "female": "Conjurer."
+   },
+   {
+    "level": 2,
+    "male": "Conjurer.",
+    "female": "Conjurer."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Conjurer",
+  "id": 9,
+  "attr_prime": "wisdom",
+  "attr_second": "dexterity",
+  "attr_tertiary": "31",
+  "starting_weapon_vnum": 10312,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 19,
+  "thac0_mod": 2,
+  "hp_gain_min": 8,
+  "hp_gain_max": 15,
+  "mana_gain": 1,
+  "exp_base_per_level": 55,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 104,
+  "title_count": 66
+ },
+ {
+  "file": "Jester.class",
+  "skills": [
+   {
+    "skill": "aqua breath",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "bottle",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "cause serious",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "charm person",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "cure light",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "cure serious",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "detect traps",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "dispel magic",
+    "level": 31,
+    "adept": 95
+   },
+   {
+    "skill": "dragon wit",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "elven beauty",
+    "level": 16,
+    "adept": 95
+   },
+   {
+    "skill": "extradimensional portal",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fortify",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "helical flow",
+    "level": 34,
+    "adept": 95
+   },
+   {
+    "skill": "improved invis",
+    "level": 23,
+    "adept": 95
+   },
+   {
+    "skill": "kindred strength",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "mindfog",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "sagacity",
+    "level": 21,
+    "adept": 95
+   },
+   {
+    "skill": "slink",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "spiral blast",
+    "level": 24,
+    "adept": 95
+   },
+   {
+    "skill": "teleport",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "tongues",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "trollish vigor",
+    "level": 14,
+    "adept": 95
+   },
+   {
+    "skill": "ventriloquate",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "broach",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "catnap",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dominate",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fourth attack",
+    "level": 45,
+    "adept": 75
+   },
+   {
+    "skill": "grasp suspiria",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "hide",
+    "level": 7,
+    "adept": 95
+   },
+   {
+    "skill": "hitall",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "insult",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "juggle",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "karate",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "mistform",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "occulutus visum",
+    "level": 27,
+    "adept": 95
+   },
+   {
+    "skill": "parry",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "peek",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "prance",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "shriek",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "steal",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 28,
+    "adept": 85
+   },
+   {
+    "skill": "track",
+    "level": 29,
+    "adept": 95
+   },
+   {
+    "skill": "tumble",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "uppercut",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "vomica pravus",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "axes",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "pugilism",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "short blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 35,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 40,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Jester",
+    "female": "Jester"
+   },
+   {
+    "level": 1,
+    "male": "Jester",
+    "female": "Jester"
+   },
+   {
+    "level": 2,
+    "male": "(null)",
+    "female": "Not set."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Jester",
+  "id": 10,
+  "attr_prime": "25",
+  "attr_second": "intelligence",
+  "attr_tertiary": "31",
+  "starting_weapon_vnum": 10312,
+  "guild_room_vnum": 3028,
+  "skill_adept_cap": 95,
+  "thac0_base": 16,
+  "thac0_mod": 5,
+  "hp_gain_min": 8,
+  "hp_gain_max": 16,
+  "mana_gain": 1,
+  "exp_base_per_level": 45,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 84,
+  "title_count": 66
+ },
+ {
+  "file": "Shaman.class",
+  "skills": [
+   {
+    "skill": "alchemy armor",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy ashlyn",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy balance",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy bless",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy blindness",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy cahel",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy corrupt",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy critical",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy curse",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy demon",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy divinity",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy drazuk",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy eldritch",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy escape",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy fire",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy fly",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy fury",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy grace",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy heal",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy ice",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy jaren",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy level",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy light",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy mana",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy metal",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy panic",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy paul",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy piercebane",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy poison",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy protect",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy refresh",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy sanctuary",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy sebille",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy serious",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy shelter",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy shield",
+    "level": 3,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy shock",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy sight",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy slashbane",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy stone",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy travel",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy unseen",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy vash",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "alchemy waterbreath",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "aqua breath",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "astral walk",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "blade spirit",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "control weather",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "create food",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create spring",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "create water",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "cure light",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "cure poison",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "detect magic",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "dream",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "earthquake",
+    "level": 17,
+    "adept": 95
+   },
+   {
+    "skill": "fear",
+    "level": 42,
+    "adept": 95
+   },
+   {
+    "skill": "float",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "fly",
+    "level": 6,
+    "adept": 95
+   },
+   {
+    "skill": "idol",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "infravision",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "invoke dragon",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "invoke stag",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "invoke wolf",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "refresh",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "scry",
+    "level": 11,
+    "adept": 95
+   },
+   {
+    "skill": "spirit armor",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "spirit shield",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "spirit trade",
+    "level": 18,
+    "adept": 95
+   },
+   {
+    "skill": "spirit wrack",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "summon spirit",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "transport",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "voodoo doll",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "word of recall",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "aid",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dig",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "dodge",
+    "level": 28,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "hide",
+    "level": 37,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "mount",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "search",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "second attack",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "swat",
+    "level": 38,
+    "adept": 95
+   },
+   {
+    "skill": "third attack",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "trance",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "axes",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bludgeons",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "exotic arms",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "flexible arms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "long blades",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "missile weapons",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "polearms",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "talonous arms",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "ancient",
+    "level": 30,
+    "adept": 100
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "insectoid",
+    "level": 35,
+    "adept": 100
+   },
+   {
+    "skill": "mammal",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "reptile",
+    "level": 10,
+    "adept": 10
+   },
+   {
+    "skill": "rodent",
+    "level": 5,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Shaman.",
+    "female": "Shaman."
+   },
+   {
+    "level": 1,
+    "male": "Shaman.",
+    "female": "Shaman."
+   },
+   {
+    "level": 2,
+    "male": "Shaman.",
+    "female": "Shaman."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Shaman",
+  "id": 11,
+  "attr_prime": "dexterity",
+  "attr_second": "intelligence",
+  "attr_tertiary": "constitution",
+  "starting_weapon_vnum": 10313,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 16,
+  "thac0_mod": 4,
+  "hp_gain_min": 9,
+  "hp_gain_max": 15,
+  "mana_gain": 1,
+  "exp_base_per_level": 55,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 120,
+  "title_count": 66
+ },
+ {
+  "file": "Champion.class",
+  "skills": [
+   {
+    "skill": "treage",
+    "level": 32,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bloodlust",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "clinch",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defiance",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "enhanced dual wield",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "entangling block",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "high_guard",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "liquid sword",
+    "level": 24,
+    "adept": 95
+   },
+   {
+    "skill": "low guard",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "meditate",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "pincer movement",
+    "level": 43,
+    "adept": 95
+   },
+   {
+    "skill": "serpent kiss",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "shell defense",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "shield slam",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "shuriken block",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "southpaw",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "tactical retreat",
+    "level": 46,
+    "adept": 95
+   },
+   {
+    "skill": "telegraph",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Champion.",
+    "female": "Champion."
+   },
+   {
+    "level": 1,
+    "male": "Champion.",
+    "female": "Champion."
+   },
+   {
+    "level": 2,
+    "male": "Champion.",
+    "female": "Champion."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Champion",
+  "id": 12,
+  "attr_prime": "strength",
+  "attr_second": "intelligence",
+  "attr_tertiary": "constitution",
+  "starting_weapon_vnum": 10313,
+  "guild_room_vnum": 3022,
+  "skill_adept_cap": 95,
+  "thac0_base": 12,
+  "thac0_mod": 7,
+  "hp_gain_min": 1,
+  "hp_gain_max": 4,
+  "mana_gain": 1,
+  "exp_base_per_level": 130,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 38,
+  "title_count": 66
+ },
+ {
+  "file": "Bishop.class",
+  "skills": [
+   {
+    "skill": "answered prayers",
+    "level": 40,
+    "adept": 95
+   },
+   {
+    "skill": "celestial guardian",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "celestial trumpets",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "daemonic flame",
+    "level": 13,
+    "adept": 95
+   },
+   {
+    "skill": "daemonic grace",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "daemonic pact",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "daemonic scythe",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "darkness binds",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "desperate plea",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "devour soul",
+    "level": 33,
+    "adept": 95
+   },
+   {
+    "skill": "divine avatar",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "divine wings",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "heaven and hell",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "retribution",
+    "level": 45,
+    "adept": 95
+   },
+   {
+    "skill": "spirit charger",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "spirit guide",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "nirvana",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 20,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "rodent",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Bishop.",
+    "female": "Bishop."
+   },
+   {
+    "level": 1,
+    "male": "Bishop.",
+    "female": "Bishop."
+   },
+   {
+    "level": 2,
+    "male": "Bishop.",
+    "female": "Bishop."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Bishop",
+  "id": 13,
+  "attr_prime": "dexterity",
+  "attr_second": "wisdom",
+  "attr_tertiary": "25",
+  "starting_weapon_vnum": 0,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 15,
+  "thac0_mod": 4,
+  "hp_gain_min": 1,
+  "hp_gain_max": 4,
+  "mana_gain": 1,
+  "exp_base_per_level": 150,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 41,
+  "title_count": 66
+ },
+ {
+  "file": "Rogue.class",
+  "skills": [
+   {
+    "skill": "enjoying the game",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "pierce shadows",
+    "level": 46,
+    "adept": 95
+   },
+   {
+    "skill": "poltergiest",
+    "level": 8,
+    "adept": 95
+   },
+   {
+    "skill": "sword serenade",
+    "level": 13,
+    "adept": 95
+   },
+   {
+    "skill": "telescape",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "whisper blade",
+    "level": 26,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "apologize",
+    "level": 36,
+    "adept": 95
+   },
+   {
+    "skill": "arm bar",
+    "level": 44,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "bladedancer",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "capoeira",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "die laughing",
+    "level": 22,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "left handed",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "tendon strike",
+    "level": 42,
+    "adept": 95
+   },
+   {
+    "skill": "vanish",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "wrist slash",
+    "level": 19,
+    "adept": 95
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 40,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Rogue.",
+    "female": "Rogue."
+   },
+   {
+    "level": 1,
+    "male": "Rogue.",
+    "female": "Rogue."
+   },
+   {
+    "level": 2,
+    "male": "Rogue.",
+    "female": "Rogue."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Rogue",
+  "id": 14,
+  "attr_prime": "intelligence",
+  "attr_second": "31",
+  "attr_tertiary": "strength",
+  "starting_weapon_vnum": 0,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 15,
+  "thac0_mod": 4,
+  "hp_gain_min": 1,
+  "hp_gain_max": 4,
+  "mana_gain": 1,
+  "exp_base_per_level": 130,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 37,
+  "title_count": 66
+ },
+ {
+  "file": "Archmagi.class",
+  "skills": [
+   {
+    "skill": "channel",
+    "level": 5,
+    "adept": 95
+   },
+   {
+    "skill": "disrupt gravity",
+    "level": 20,
+    "adept": 95
+   },
+   {
+    "skill": "disrupt physics",
+    "level": 30,
+    "adept": 95
+   },
+   {
+    "skill": "disrupt reality",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "enhance aura",
+    "level": 42,
+    "adept": 95
+   },
+   {
+    "skill": "ethereal cloak",
+    "level": 10,
+    "adept": 95
+   },
+   {
+    "skill": "ethereal storm",
+    "level": 46,
+    "adept": 95
+   },
+   {
+    "skill": "magika armor",
+    "level": 2,
+    "adept": 95
+   },
+   {
+    "skill": "magika rage",
+    "level": 50,
+    "adept": 95
+   },
+   {
+    "skill": "mana burn",
+    "level": 15,
+    "adept": 95
+   },
+   {
+    "skill": "mute",
+    "level": 35,
+    "adept": 95
+   },
+   {
+    "skill": "prismashield",
+    "level": 48,
+    "adept": 95
+   },
+   {
+    "skill": "spirit syphon",
+    "level": 12,
+    "adept": 95
+   },
+   {
+    "skill": "aggressive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "berserk style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "climb",
+    "level": 1,
+    "adept": 90
+   },
+   {
+    "skill": "defensive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "evasive style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "nirvana",
+    "level": 25,
+    "adept": 95
+   },
+   {
+    "skill": "standard style",
+    "level": 1,
+    "adept": 95
+   },
+   {
+    "skill": "common",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "dragon",
+    "level": 10,
+    "adept": 100
+   },
+   {
+    "skill": "dwarven",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "elvish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ghoulish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gith",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "gnomish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "goblin",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "halfling",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "magical",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "minotaur",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "ogre",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "orcish",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "pixie",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "spiritual",
+    "level": 15,
+    "adept": 100
+   },
+   {
+    "skill": "trollese",
+    "level": 1,
+    "adept": 100
+   },
+   {
+    "skill": "wolfen",
+    "level": 1,
+    "adept": 100
+   }
+  ],
+  "titles": [
+   {
+    "level": 0,
+    "male": "Archmagi.",
+    "female": "Archmagi."
+   },
+   {
+    "level": 1,
+    "male": "Archmagi.",
+    "female": "Archmagi."
+   },
+   {
+    "level": 2,
+    "male": "Archmagi.",
+    "female": "Archmagi."
+   },
+   {
+    "level": 3,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 4,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 5,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 6,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 7,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 8,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 9,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 10,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 11,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 12,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 13,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 14,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 15,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 16,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 17,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 18,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 19,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 20,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 21,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 22,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 23,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 24,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 25,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 26,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 27,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 28,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 29,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 30,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 31,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 32,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 33,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 34,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 35,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 36,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 37,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 38,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 39,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 40,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 41,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 42,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 43,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 44,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 45,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 46,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 47,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 48,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 49,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 50,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 51,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 52,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 53,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 54,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 55,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 56,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 57,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 58,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 59,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 60,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 61,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 62,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 63,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 64,
+    "male": "Not set.",
+    "female": "Not set."
+   },
+   {
+    "level": 65,
+    "male": "(null)",
+    "female": "(null)"
+   }
+  ],
+  "name": "Archmagi",
+  "id": 15,
+  "attr_prime": "wisdom",
+  "attr_second": "dexterity",
+  "attr_tertiary": "intelligence",
+  "starting_weapon_vnum": 0,
+  "guild_room_vnum": 0,
+  "skill_adept_cap": 95,
+  "thac0_base": 16,
+  "thac0_mod": 4,
+  "hp_gain_min": 1,
+  "hp_gain_max": 4,
+  "mana_gain": 1,
+  "exp_base_per_level": 150,
+  "affected": 0,
+  "resist": 0,
+  "suscept": 0,
+  "skill_count": 37,
+  "title_count": 66
+ }
+]
