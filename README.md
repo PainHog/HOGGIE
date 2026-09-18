@@ -18,8 +18,8 @@ see [`houseofghouls-export/audit.md`](houseofghouls-export/audit.md).
 ```
 server/    Node/TS game server (the live game)
 shared/    wire-protocol types shared by server + client
-supabase/  SQL migrations                      (Phase 2)
-client/    Expo app                            (Phase 4)
+supabase/  SQL migrations
+client/    Expo app (web + iOS/Android) — the rich text client
 houseofghouls-export/   Step 1 extraction: content JSON + specs (the world seed + design)
 HouseOfGhouls/          legacy source tree — reference only, NOT built or shipped
 ```
@@ -76,10 +76,28 @@ The world is loaded from `content/` JSON at boot — widen it by adding area fil
 (`drazuni.are`, start room 10300) and Drazukville (`drazpost.are`, populated with mobs);
 mobs spawn from the resets in the loaded areas.
 
+### The Expo client (Phase 4) — web now, iOS/Android from the same code
+
+The real UI: command input, scrolling colored output, and panels (character vitals, room/exits,
+players present). It signs in with Supabase, then talks to the game server over WebSocket.
+
+```bash
+npm run dev                    # game server (repo root), in one terminal
+cd client
+cp .env.example .env           # public Supabase URL + anon key + ws://localhost:4100 are prefilled
+npm install
+npm run web                    # opens the client at http://localhost:8081
+#   npm start   -> also run on a phone via Expo Go (set EXPO_PUBLIC_WS_URL to your LAN IP)
+```
+
+Sign in (e.g. `tester1@hoggie.local` / `ghoulish1` after `npm run make-users`), create a
+character, and play. `client/` is a standalone Expo app (its own `node_modules`), deliberately
+outside the npm workspaces to keep Metro simple.
+
 ## Build phases
 
 1. Server foundation — WS server, Supabase wiring, in-memory world model, connect/echo. ✓
 2. Accounts + world — auth, character creation, load zones, movement, presence. ✓
-3. **Combat identity** — stances, ascending-hit/RIS damage, 2s round, position regen, LCK. ← current
-4. Expo client — the real text client.
+3. Combat identity — stances, ascending-hit/RIS damage, 2s round, position regen, LCK. ✓
+4. **Expo client** — the real text client (web + iOS/Android). ← current
 5. Roles — player/builder/moderator/admin + builder area/vnum sandbox.
