@@ -6,8 +6,14 @@ API keys, $0). Each is one of exactly three license categories, as required:
 | Asset | Source | License | Attribution required? |
 |---|---|---|---|
 | UI icons / silhouettes (43) | [game-icons.net](https://game-icons.net/) via the `@iconify-json/game-icons` npm package | **CC BY 3.0** | **Yes** — see Credits screen |
+| Scene sprites — Tiny Dungeon | [Kenney](https://kenney.nl/assets/tiny-dungeon) (bundled: `client/assets/kenney/tiny-dungeon.png` + `-License.txt`) | **CC0 1.0** | No (public domain; credited by choice) |
 | Display font — Grenze Gotisch | Google Fonts (`@expo-google-fonts/grenze-gotisch`) | **OFL 1.1** | No (bundled `LICENSE_FONT`) |
 | Body font — Spectral | Google Fonts (`@expo-google-fonts/spectral`) | **OFL 1.1** | No (bundled `LICENSE_FONT`) |
+
+**Visual overhaul (Stage 1):** the rendered room scene uses Kenney "Tiny Dungeon" (CC0) 16×16
+pixel sprites for the environment, characters and props; the atmospheric lighting (torch glow,
+depth gradients, fog, vignette) and the gothic HUD frame are drawn procedurally (no external
+asset). Sprite indices are mapped in `src/art/sprites.ts`.
 
 There is **nothing else** — no paid assets, no unlicensed art. UI chrome (panels, bars, the room
 scene, minimap) is drawn procedurally with React Native + `react-native-svg`, so it needs no

@@ -10,8 +10,8 @@ import type { GameState } from "../store";
 import { fonts, theme } from "../theme";
 import { SvgIcon, type IconName } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
-import { RoomScene } from "../game/RoomScene";
-import { VitalsHud } from "../game/VitalsHud";
+import { RoomStage } from "../game/RoomStage";
+import { StageHud } from "../game/StageHud";
 import { ActionBar } from "../game/ActionBar";
 import { Minimap } from "../game/Minimap";
 import { CharacterPanel, InventoryPanel, SkillsPanel } from "../game/panels";
@@ -46,19 +46,8 @@ export function GameScreen({
   const toggle = (p: Panel) => setPanel((cur) => (cur === p ? "none" : p));
   const inCombat = state.engagedTargetId != null;
 
-  const scene = (
-    <RoomScene
-      room={state.room}
-      vitals={state.vitals}
-      selfId={state.selfId}
-      mobHp={state.mobHp}
-      engagedTargetId={state.engagedTargetId}
-      fx={state.fx}
-      onMove={(dir) => onCmd(dir)}
-      onEngage={onEngage}
-      onCommand={onCmd}
-    />
-  );
+  // Stage 1 of the visual overhaul: the rendered atmospheric room scene (no movement yet).
+  const scene = <RoomStage room={state.room} vitals={state.vitals} />;
   const actions = (
     <ActionBar
       position={state.vitals?.position ?? "standing"}
@@ -79,7 +68,7 @@ export function GameScreen({
 
   return (
     <View style={styles.wrap}>
-      <VitalsHud vitals={state.vitals} />
+      <StageHud vitals={state.vitals} />
 
       <View style={styles.toolbar}>
         {!wide && <ToolButton icon={ICON.map} label="Map" active={panel === "map"} onPress={() => toggle("map")} />}
