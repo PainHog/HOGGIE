@@ -105,6 +105,7 @@ export interface CombatFx {
   lucky: boolean;
   fatal: boolean;
   targetHpPct: number;
+  element?: string;
 }
 
 export interface InventoryItem {
@@ -122,6 +123,8 @@ export interface SkillInfo {
   adept: number;
   available: boolean;
   description: string;
+  mana?: number;
+  category?: "damage" | "heal" | "buff" | "debuff" | "utility";
 }
 
 export type ServerMessage =

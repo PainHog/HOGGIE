@@ -4,6 +4,7 @@ import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, expToNextLevel, raceName, type Character } from "./character.ts";
 import { mobShort } from "./mobInstance.ts";
+import { affectNames } from "./affects.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -17,7 +18,7 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
   const others = live
     .roomPlayers(ch.roomVnum)
     .filter((p) => p !== viewer)
-    .map((p) => ({ id: p.character.id, name: p.character.name, level: p.character.level, effects: [] }));
+    .map((p) => ({ id: p.character.id, name: p.character.name, level: p.character.level, effects: affectNames(p.character.affects) }));
   const mobs = live.roomMobs(ch.roomVnum).map((m) => ({
     id: m.id,
     name: mobShort(m),
@@ -25,7 +26,7 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     hpPct: m.maxHp > 0 ? Math.max(0, Math.min(1, m.hp / m.maxHp)) : 0,
     position: m.position,
     keywords: m.proto.keywords.split(/\s+/).filter(Boolean),
-    effects: [] as string[],
+    effects: affectNames(m.affects),
     shopkeeper: live.world.shops.has(m.proto.vnum),
   }));
   return {
@@ -142,6 +143,8 @@ export function sendSkills(world: World, viewer: Player): void {
         adept: r.adept,
         available: r.level <= ch.level,
         description: (def?.description ?? "").trim(),
+        mana: def?.mana,
+        category: def?.category,
       };
     });
   viewer.send({ t: "skills", label, skills });

@@ -14,10 +14,13 @@ import { log } from "../log.ts";
 import type { AppConfig } from "../config.ts";
 import type { World } from "../world/world.ts";
 import type { LiveWorld } from "./liveWorld.ts";
+import type { SkillDef } from "../world/model.ts";
 import { statMod, expToReach, type Character } from "./character.ts";
 import { mobShort, type MobInstance } from "./mobInstance.ts";
 import { Rng, rng as defaultRng } from "./rng.ts";
 import { PlayerFighter, MobFighter, type Fighter } from "./fighter.ts";
+import { applyAffect, sumMods } from "./affects.ts";
+import { debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
 
 /** Stances: the offense/defense dial. Multiplier applies to damage dealt and taken. */
 export function stanceMult(position: string): number {
@@ -202,6 +205,61 @@ export class CombatManager {
     });
 
     if (victim.hp <= 0) this.handleDeath(attacker, victim);
+  }
+
+  /** The cast-failure roll (systems-spec §2.7): true = the spell fizzles (half mana lost). */
+  spellFails(difficulty: number, learned: number): boolean {
+    return this.rng.percent() + difficulty * 5 > learned;
+  }
+
+  /** HP restored by a heal spell, routed through the combat rng so tests stay deterministic. */
+  rollHeal(name: string, level: number): number {
+    return spellHeal(name, level, this.rng);
+  }
+
+  /** Saving throw vs. a spell (systems-spec §2.7): made save halves damage / resists a debuff. */
+  private savedAgainst(target: Fighter, spellLevel: number): boolean {
+    const bonus = sumMods(target.affects).saveSpell;
+    const savePct = Math.max(5, Math.min(95, 20 + (target.level - spellLevel - bonus)));
+    return this.rng.percent() <= savePct;
+  }
+
+  /**
+   * Resolve an offensive spell (damage or debuff) landing on a target. Mana + the failure roll are
+   * charged by the caller (doCast); this applies the effect: saving throw, then RIS for damage or a
+   * timed affect for debuffs, with messaging, fx, engagement, and death handling. Fresh formulas.
+   */
+  castOffensive(caster: Fighter, target: Fighter, spell: SkillDef): { dam: number; killed: boolean } {
+    this.startFight(caster, target);
+    const level = caster.level;
+    if (spell.category === "debuff") {
+      if (this.savedAgainst(target, level)) {
+        this.message(caster, target, `&c${cap(target.name)} resists your ${spell.name}.&D`, `&cYou resist ${cap(caster.name)}'s ${spell.name}.&D`, `&c${cap(target.name)} resists ${spell.name}.&D`);
+        return { dam: 0, killed: false };
+      }
+      applyAffect(target.affects, debuffAffect(spell.name, level));
+      this.message(caster, target, `&mYour ${spell.name} takes hold of ${target.name}.&D`, `&mYou are gripped by ${spell.name}!&D`, `&m${cap(target.name)} is gripped by ${spell.name}.&D`);
+      this.roomFx(caster.roomVnum, { kind: "hit", sourceId: caster.id, targetId: target.id, targetName: target.name, amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(target), element: "magic" });
+      return { dam: 0, killed: false };
+    }
+    // direct damage
+    let dam = spellDamage(level, this.rng);
+    if (this.savedAgainst(target, level)) dam = Math.floor(dam / 2);
+    if (target.immune.has("magic")) dam = 0;
+    dam = Math.max(0, this.risFilter(target, dam, spell.damageType && spell.damageType !== "none" ? spell.damageType : "energy"));
+    target.hp -= dam;
+    const el = spell.damageType && spell.damageType !== "none" ? spell.damageType : "magic";
+    this.message(
+      caster,
+      target,
+      dam > 0 ? `&mYour ${spell.name} hits ${target.name} for ${dam}.&D` : `&mYour ${spell.name} fizzles against ${target.name}.&D`,
+      dam > 0 ? `&R${cap(caster.name)}'s ${spell.name} hits you for ${dam}.&D` : `&m${cap(caster.name)}'s ${spell.name} fizzles against you.&D`,
+      `&m${cap(caster.name)}'s ${spell.name} strikes ${target.name}.&D`,
+    );
+    this.roomFx(caster.roomVnum, { kind: "hit", sourceId: caster.id, targetId: target.id, targetName: target.name, amount: Math.max(0, dam), lucky: false, fatal: target.hp <= 0, targetHpPct: hpPct(target), element: el });
+    const killed = target.hp <= 0;
+    if (killed) this.handleDeath(caster, target);
+    return { dam, killed };
   }
 
   /** Resist halves, immune negates, susceptible amplifies (systems-spec §1.5). */

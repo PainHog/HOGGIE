@@ -225,6 +225,7 @@ export interface CombatFx {
   lucky: boolean; // a lucky crit landed
   fatal: boolean; // this blow dropped the target
   targetHpPct: number; // victim hp after the blow, 0..1
+  element?: string; // for spell hits: the damage element (fire/cold/…/magic), tints the fx
 }
 
 /** A carried item, resolved for display (name/type/cost from the object prototype). */
@@ -245,6 +246,8 @@ export interface SkillInfo {
   adept: number; // practice cap (%)
   available: boolean; // level <= character level
   description: string;
+  mana?: number; // MP cost for a spell
+  category?: "damage" | "heal" | "buff" | "debuff" | "utility"; // spell effect kind (castable in combat)
 }
 
 export type ServerMessage =

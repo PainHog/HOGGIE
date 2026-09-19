@@ -4,6 +4,7 @@
  */
 import type { RaceDef, Stats } from "../world/model.ts";
 import type { World } from "../world/world.ts";
+import type { Affect } from "./affects.ts";
 
 /** A carried item — the minimal inventory the shop system needs (references an object prototype). */
 export interface ItemInstance {
@@ -40,6 +41,8 @@ export interface Character {
   position: string;
   roomVnum: number;
   title?: string;
+  /** Active spell affects (buffs/debuffs). Transient — not persisted; reset to [] on load. */
+  affects: Affect[];
 }
 
 /** v1 playable set (per architecture-plan §7.2). Widen later. */
@@ -175,6 +178,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     position: "standing",
     roomVnum: input.startRoom,
     title,
+    affects: [],
   };
 }
 

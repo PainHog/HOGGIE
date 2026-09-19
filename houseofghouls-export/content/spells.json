@@ -1,0 +1,2494 @@
+[
+ {
+  "name": "acetum primus",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "acid blast",
+  "category": "damage",
+  "damageType": "acid",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "acid breath",
+  "category": "damage",
+  "damageType": "acid",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "acidic weapon",
+  "category": "damage",
+  "damageType": "acid",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "alchemy armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "alchemy ashlyn",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy balance",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy bless",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "alchemy blindness",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "alchemy cahel",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy corrupt",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy critical",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy curse",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy demon",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy divinity",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy drazuk",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy eldritch",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy escape",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 175,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy fire",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 225,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy fly",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "alchemy fury",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy grace",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 350,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy heal",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 175,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy ice",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 225,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy jaren",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy level",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy light",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "alchemy mana",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy metal",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 275,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy panic",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 275,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy paul",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy piercebane",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy poison",
+  "category": "debuff",
+  "damageType": "poison",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "alchemy protect",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy refresh",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "alchemy sanctuary",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 175,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy sebille",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy serious",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "alchemy shelter",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "alchemy shock",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 225,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy sight",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy slashbane",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy stone",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 175,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy travel",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy unseen",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy vash",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "alchemy waterbreath",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "alertness",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "animate dead",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "answered prayers",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "antimagic blast",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "antimagic shell",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "aqua breath",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "armor of leaves",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith avatar",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 800,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith barbed",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 750,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith bladed",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 450,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith bloodstone",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 600,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith dragontear",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 500,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith magestone",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith mirror",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 650,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith reinforced",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 550,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith shield",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith spellward",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith spiked",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith standard",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith steel",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 350,
+  "difficulty": 12
+ },
+ {
+  "name": "armorsmith vitality",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 700,
+  "difficulty": 12
+ },
+ {
+  "name": "astral rift",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "astral walk",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "aura of fear",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "balance",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "barbed arrow",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "benediction",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "benefic aura",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "bethsaidean touch",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 30,
+  "difficulty": 4
+ },
+ {
+  "name": "binding darkness",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "black fist",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "black hand",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "black lightning",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "blade shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "blade spirit",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "blazebane",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "blazeward",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "bless",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "bless object",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "blindness",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "bottle",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "brotherhood",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "burning hands",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "burning weapon",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "call lightning",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cause critical",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cause light",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cause serious",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "caustic fount",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "celestial guardian",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 55,
+  "difficulty": 7
+ },
+ {
+  "name": "celestial trumpets",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "change sex",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "channel",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "charged beacon",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "charm person",
+  "category": "debuff",
+  "damageType": "drain",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "chill touch",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "colour spray",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "conjurers sword",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "continual light",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "control weather",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "corrupt armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "corruption",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "create fire",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "create food",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "create spring",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "create symbol",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "create water",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 5,
+  "difficulty": 1
+ },
+ {
+  "name": "cure blindness",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "cure critical",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cure light",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cure poison",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "cure serious",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "cure weakness",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "curse",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "daemon guardian",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 750,
+  "difficulty": 12
+ },
+ {
+  "name": "daemonic armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "daemonic flame",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "daemonic grace",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "daemonic pact",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 90,
+  "difficulty": 12
+ },
+ {
+  "name": "daemonic scythe",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "darkness binds",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "demonic beast",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "demonsight",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "demonskin",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 55,
+  "difficulty": 7
+ },
+ {
+  "name": "desperate plea",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "detect evil",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect good",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect hidden",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect invis",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect magic",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect poison",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "detect traps",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "devour soul",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "disenchant",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "dispel evil",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "dispel good",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "dispel magic",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "dispel neutral",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "disrupt gravity",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "disrupt physics",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "disrupt reality",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "disruption",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "divine avatar",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "divine wings",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "divinity",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "dragon wit",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "dragonskin",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "draining weapon",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "dream",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "earthquake",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "eldritch sphere",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "elven beauty",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "enchant armor",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "enchant treasure",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "enchant weapon",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "energy drain",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "enhance armor",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "enhance aura",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "enhance treasure",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "enhance weapon",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "enjoying the game",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "ethereal cloak",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "ethereal fist",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "ethereal funnel",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "ethereal shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "ethereal storm",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 350,
+  "difficulty": 12
+ },
+ {
+  "name": "expurgation",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "extradimensional portal",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "eyes of the hunter",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "faerie fire",
+  "category": "debuff",
+  "damageType": "fire",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "faerie fog",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "farsight",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "fatigue",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "fear",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "feebleness",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "fire breath",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "fireball",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "fireshield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "flamestrike",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "flaming blast",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "flare",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "float",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "fly",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "fortify",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "freezing weapon",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "frost breath",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "galvanic whip",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "gas breath",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "gate",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "ghost strike",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "godstorm",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "golem cloak",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "golem fists",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "golem plate",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "golem shield",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "golem weapon",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "grant auralink",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "grounding",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "hand of chaos",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "harm",
+  "category": "damage",
+  "damageType": "drain",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "heal",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 30,
+  "difficulty": 4
+ },
+ {
+  "name": "heaven and hell",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 130,
+  "difficulty": 12
+ },
+ {
+  "name": "helical flow",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 180,
+  "difficulty": 12
+ },
+ {
+  "name": "hezekiahs cure",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "higher calling",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "holy flame",
+  "category": "damage",
+  "damageType": "fire",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "holy sanctity",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "holy word",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "ice blast",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "iceshard",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "iceshield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "identify",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "idol",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "immortal grace",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "improved invis",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "indignation",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "infravision",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "inner warmth",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "invis",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "invis object",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "invoke dragon",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "invoke stag",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "invoke wolf",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "kindred strength",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "kinetic shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "knock",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "know alignment",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "lethargy",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "lightning bolt",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "lightning breath",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "locate object",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 30,
+  "difficulty": 4
+ },
+ {
+  "name": "magic missile",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "magika armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "magika rage",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "magnetic thrust",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "major invocation",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "mana burn",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "mass invis",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "midas touch",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 30,
+  "difficulty": 4
+ },
+ {
+  "name": "mindfog",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "minor invocation",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "mithril bolt",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "morale",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "mute",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "natures companion",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "natures wrath",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "necromantic touch",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "nostrum",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "numbing arrow",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 80,
+  "difficulty": 11
+ },
+ {
+  "name": "paralyze",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "pass door",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "pierce shadows",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "plant pass",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "poison",
+  "category": "debuff",
+  "damageType": "poison",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "poltergiest",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "polymorph",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 60,
+  "difficulty": 8
+ },
+ {
+  "name": "portal",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 120,
+  "difficulty": 12
+ },
+ {
+  "name": "possess",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 120,
+  "difficulty": 12
+ },
+ {
+  "name": "prismashield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 500,
+  "difficulty": 12
+ },
+ {
+  "name": "protection",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "quantum spike",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "quickening",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "razorbait",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "recharge",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "refresh",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 10,
+  "difficulty": 2
+ },
+ {
+  "name": "remove curse",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "remove trap",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "reserved",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "resilience",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "restoration",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 65,
+  "difficulty": 9
+ },
+ {
+  "name": "restore mana",
+  "category": "heal",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "retribution",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "sacral divinity",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "sagacity",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "sanctuary",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "scorching surge",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 40,
+  "difficulty": 6
+ },
+ {
+  "name": "scry",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "shadowform",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 65,
+  "difficulty": 9
+ },
+ {
+  "name": "shelter the weak",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "shocking grasp",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "shocking weapon",
+  "category": "damage",
+  "damageType": "electricity",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "shockshield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "silver arrow",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "sleep",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 45,
+  "difficulty": 6
+ },
+ {
+  "name": "slink",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "solar flight",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 80,
+  "difficulty": 11
+ },
+ {
+  "name": "solomonic invocation",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "sonic resonance",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "spectral furor",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "spell surge",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "spiral blast",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "spirit armor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "spirit charger",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "spirit guide",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "spirit shield",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "spirit syphon",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "spirit trade",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "spirit wrack",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "spiritual wrath",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 120,
+  "difficulty": 12
+ },
+ {
+  "name": "stone skin",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 30,
+  "difficulty": 4
+ },
+ {
+  "name": "sulfurous spray",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "summon",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "summon golem",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "summon spirit",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 225,
+  "difficulty": 12
+ },
+ {
+  "name": "sword serenade",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "swordbait",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 55,
+  "difficulty": 7
+ },
+ {
+  "name": "taint",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "teleport",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "telescape",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "tongues",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "torrent",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "transport",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 25,
+  "difficulty": 4
+ },
+ {
+  "name": "treage",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "trollish vigor",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "true sight",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 70,
+  "difficulty": 9
+ },
+ {
+  "name": "unravel defense",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "uplift",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "valiance",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 35,
+  "difficulty": 5
+ },
+ {
+  "name": "venom arrow",
+  "category": "debuff",
+  "damageType": "poison",
+  "mana": 50,
+  "difficulty": 7
+ },
+ {
+  "name": "ventriloquate",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 5,
+  "difficulty": 1
+ },
+ {
+  "name": "voodoo doll",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "war cry",
+  "category": "buff",
+  "damageType": "none",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "warp mind",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 75,
+  "difficulty": 10
+ },
+ {
+  "name": "weaken",
+  "category": "debuff",
+  "damageType": "none",
+  "mana": 20,
+  "difficulty": 3
+ },
+ {
+  "name": "weaponsmith curve",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 350,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith devour",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 950,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith dragonslayer",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 750,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith enhance",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 300,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith etch",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 100,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith etherblade",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 650,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith etherguard",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 700,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith guard",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 250,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith light",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 150,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith loyal",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 450,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith ogreslayer",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 800,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith serpent",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 600,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith serpentkiss",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 900,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith spellward",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 400,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith swordbane",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 500,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith swordbreaker",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 850,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith thirst",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 550,
+  "difficulty": 12
+ },
+ {
+  "name": "weaponsmith weight",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 200,
+  "difficulty": 12
+ },
+ {
+  "name": "whisper blade",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 125,
+  "difficulty": 12
+ },
+ {
+  "name": "winter mist",
+  "category": "damage",
+  "damageType": "cold",
+  "mana": 15,
+  "difficulty": 2
+ },
+ {
+  "name": "word of recall",
+  "category": "utility",
+  "damageType": "none",
+  "mana": 5,
+  "difficulty": 1
+ },
+ {
+  "name": "wrath of dominus",
+  "category": "damage",
+  "damageType": "energy",
+  "mana": 50,
+  "difficulty": 7
+ }
+]

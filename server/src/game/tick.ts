@@ -4,8 +4,9 @@
  *   - fast position-based regen every 7s,
  *   - area repop every 60s.
  */
-import { sendVitals } from "./view.ts";
+import { out, sendVitals } from "./view.ts";
 import { statMod } from "./character.ts";
+import { expireAffects } from "./affects.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import type { CombatManager } from "./combat.ts";
 import { repopWorld } from "./spawn.ts";
@@ -44,6 +45,7 @@ export class GameTick {
 
   /** Fast, position-based regen for players not currently in combat, plus idle mob healing. */
   private regen(): void {
+    this.tickAffects();
     const fighting = this.combat.engagedPlayerIds();
     for (const p of this.live.online()) {
       if (fighting.has(p.character.id)) continue;
@@ -54,6 +56,30 @@ export class GameTick {
       if (mob.hp < mob.maxHp && !this.combat.isEngaged(this.combat.fighterForMob(mob))) {
         mob.hp = Math.min(mob.maxHp, mob.hp + Math.max(1, Math.floor(mob.maxHp / 10)));
       }
+    }
+  }
+
+  /** Expire spell affects (with a "wears off" note) and apply poison-style damage-over-time. */
+  private tickAffects(): void {
+    const now = Date.now();
+    for (const p of this.live.online()) {
+      const ch = p.character;
+      if (!ch.affects.length) continue;
+      for (const gone of expireAffects(ch.affects, now)) out(p, gone.wearOff);
+      let dot = 0;
+      for (const af of ch.affects) if (af.dot) dot += af.dot.amount;
+      if (dot > 0) {
+        ch.hp = Math.max(1, ch.hp - dot); // DoT weakens but won't outright kill out of combat
+        out(p, `&gYou shudder as poison courses through you. (-${dot} hp)&D`);
+      }
+      sendVitals(this.live.world, p);
+    }
+    for (const mob of this.live.allMobs()) {
+      if (!mob.affects.length) continue;
+      expireAffects(mob.affects, now);
+      let dot = 0;
+      for (const af of mob.affects) if (af.dot) dot += af.dot.amount;
+      if (dot > 0) mob.hp = Math.max(1, mob.hp - dot);
     }
   }
 

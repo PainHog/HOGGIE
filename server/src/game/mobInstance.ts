@@ -1,6 +1,7 @@
 /** A live mob: an instance spun from a MobPrototype and placed in a room by a reset. */
 import { randomUUID } from "node:crypto";
 import type { MobPrototype } from "../world/model.ts";
+import type { Affect } from "./affects.ts";
 import { averageDice, parseDice } from "./dice.ts";
 
 export interface MobInstance {
@@ -12,6 +13,8 @@ export interface MobInstance {
   position: string;
   /** where this mob was spawned (for repop accounting). */
   spawnRoom: number;
+  /** Active spell affects (e.g. debuffs cast on it). */
+  affects: Affect[];
 }
 
 export function spawnMob(proto: MobPrototype, roomVnum: number): MobInstance {
@@ -26,6 +29,7 @@ export function spawnMob(proto: MobPrototype, roomVnum: number): MobInstance {
     maxHp,
     position: proto.defaultPosition && proto.defaultPosition !== "dead" ? proto.defaultPosition : "standing",
     spawnRoom: roomVnum,
+    affects: [],
   };
 }
 

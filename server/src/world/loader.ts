@@ -268,6 +268,7 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     racesJson,
     skillsJson,
     shopsJson,
+    spellsJson,
   ] = await Promise.all([
     readJson(contentDir, "areas.json"),
     readJson(contentDir, "rooms.json"),
@@ -278,6 +279,7 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     readJson(contentDir, "races.json"),
     readJson(contentDir, "skills.json"),
     readJson(contentDir, "shops.json"),
+    readJson(contentDir, "spells.json"),
   ]);
 
   // Resolve the area selection. `["all"]` (or an empty list) means every extracted zone except
@@ -299,6 +301,15 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
   for (const s of skillsJson) {
     const def = mapSkill(s);
     if (def.name) world.skills.set(def.name.toLowerCase(), def);
+  }
+  // Merge the spell classification (content/spells.json) onto the matching skill defs.
+  for (const sp of spellsJson) {
+    const def = world.skills.get(String(sp.name).toLowerCase());
+    if (!def) continue;
+    def.category = sp.category;
+    def.damageType = sp.damageType;
+    def.difficulty = sp.difficulty;
+    if (sp.mana != null) def.mana = sp.mana;
   }
 
   // Area metadata (all areas, cheap; only slice rooms load below).

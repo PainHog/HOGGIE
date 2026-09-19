@@ -48,12 +48,21 @@ export function GameScreen({
 
   // Stage 1 of the visual overhaul: the rendered atmospheric room scene (no movement yet).
   const scene = <RoomStage room={state.room} vitals={state.vitals} />;
+  // Castable spells for the SPELLS bar: the character's known combat spells, cheapest first.
+  const mana = state.vitals?.mana ?? 0;
+  const castable = state.skills
+    .filter((s) => s.type === "Spell" && s.available && s.category && s.category !== "utility")
+    .sort((a, b) => (a.mana ?? 0) - (b.mana ?? 0))
+    .slice(0, 6)
+    .map((s) => ({ id: s.name, name: s.name, manaCost: s.mana ?? 0, ready: mana >= (s.mana ?? 0) }));
   const actions = (
     <ActionBar
       position={state.vitals?.position ?? "standing"}
       inCombat={inCombat}
+      spells={castable}
       onStance={(cmd) => onCmd(cmd)}
       onFlee={() => onCmd("flee")}
+      onCast={(id) => onCmd(`cast ${id}`)}
     />
   );
 

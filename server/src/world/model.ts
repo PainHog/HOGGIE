@@ -230,4 +230,17 @@ export interface SkillDef {
   handlerKey?: string;
   /** The MUD's own help prose for the skill/spell (empty when the source has none). */
   description: string;
+  /** Spell classification (from content/spells.json): what the casting engine does with it. */
+  category?: "damage" | "heal" | "buff" | "debuff" | "utility";
+  damageType?: string; // RIS class for damage spells (fire/cold/…); "none" otherwise
+  difficulty?: number; // spell difficulty, drives the cast-failure roll (systems-spec §2.7)
+}
+
+/** A classified spell row from content/spells.json (merged onto the matching SkillDef at load). */
+export interface SpellRow {
+  name: string;
+  category: "damage" | "heal" | "buff" | "debuff" | "utility";
+  damageType: string;
+  mana: number;
+  difficulty: number;
 }

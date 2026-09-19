@@ -4,13 +4,16 @@
  */
 import { parseColorSpans } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
+import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
-import type { PlayerFighter } from "./fighter.ts";
+import { applyAffect } from "./affects.ts";
+import { buffAffect, spellHeal } from "./spellbook.ts";
+import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
 import { esc, out, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
@@ -62,6 +65,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "who": return doWho(ctx);
     case "score": case "sc": return doScore(ctx);
     case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
+    case "cast": case "c": return doCast(ctx, arg);
     case "advancetier": case "remort": return void doAdvanceTier(ctx);
     case "list": return doShopList(ctx);
     case "value": case "appraise": return doValue(ctx, arg);
@@ -421,8 +425,133 @@ function doSkillList(ctx: CommandContext, arg: string): void {
   if (!all && rows.length > shown.length) {
     lines.push(`&Y${rows.length - shown.length} more unlock at higher levels — type 'slist all'.&D`);
   }
-  lines.push("&d(Learning/practicing and casting are roadmap — this is the class's skill tree.)&D");
+  lines.push("&d(Spells are castable now with 'cast'. Learning/practicing is roadmap.)&D");
   out(ctx.player, ...lines);
+}
+
+const RECALL_ROOM = 21001; // Drazukville temple (systems-spec §3.3)
+
+/** The spells this character can cast now: class(+dual) tree spells at/under their level. */
+function castableSpells(ctx: CommandContext): { name: string; level: number; adept: number; def: SkillDef }[] {
+  const ch = ctx.player.character;
+  const cls = ctx.world.classes.get(ch.classId);
+  const dual = ch.dualClassId != null && ch.dualClassId !== ch.classId ? ctx.world.classes.get(ch.dualClassId) : undefined;
+  const merged = new Map<string, { skill: string; level: number; adept: number }>();
+  const add = (grants: { skill: string; level: number; adept: number }[]) => {
+    for (const g of grants) {
+      const cur = merged.get(g.skill);
+      merged.set(g.skill, cur ? { skill: g.skill, level: Math.min(cur.level, g.level), adept: Math.max(cur.adept, g.adept) } : { ...g });
+    }
+  };
+  if (cls) add(cls.skills);
+  if (dual) add(dual.skills);
+  const out: { name: string; level: number; adept: number; def: SkillDef }[] = [];
+  for (const g of merged.values()) {
+    const def = ctx.world.getSkill(g.skill);
+    if (def && def.type === "Spell" && def.category && g.level <= ch.level) {
+      out.push({ name: g.skill, level: g.level, adept: g.adept, def });
+    }
+  }
+  return out;
+}
+
+/** Pick the offensive-spell target: an explicit keyword, else the current foe, else a mob here. */
+function spellTarget(ctx: CommandContext, kw: string): Fighter | null {
+  if (kw) {
+    const mob = ctx.live.roomMobs(ctx.fighter.roomVnum).find((m) => mobMatches(m, kw));
+    return mob ? ctx.combat.fighterForMob(mob) : null;
+  }
+  if (ctx.fighter.fighting && !ctx.fighter.fighting.isPlayer) return ctx.fighter.fighting;
+  const mob = ctx.live.roomMobs(ctx.fighter.roomVnum)[0];
+  return mob ? ctx.combat.fighterForMob(mob) : null;
+}
+
+/** `cast <spell> [target]` — spend mana, roll for success (§2.7), then apply the spell's effect. */
+function doCast(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  const list = castableSpells(ctx);
+  if (!arg) {
+    if (!list.length) return out(ctx.player, "&RYou don't have any spells to cast.&D");
+    const names = list.sort((a, b) => a.name.localeCompare(b.name)).map((s) => `${esc(s.name)}&d(${s.def.mana ?? 0})&D`);
+    return out(ctx.player, "&YCast what?&D  You know:", "&w" + names.join("&D, &w") + "&D");
+  }
+  const lower = arg.toLowerCase();
+  // longest spell name that is a prefix of the argument; the remainder is the target keyword
+  let match: (typeof list)[number] | null = null;
+  let targetKw = "";
+  for (const s of [...list].sort((a, b) => b.name.length - a.name.length)) {
+    if (lower === s.name || lower.startsWith(s.name + " ")) { match = s; targetKw = arg.slice(s.name.length).trim(); break; }
+  }
+  if (!match) {
+    const partials = list.filter((s) => s.name.startsWith(lower));
+    if (partials.length === 1) match = partials[0]!;
+    else if (partials.length > 1) return out(ctx.player, "&YWhich spell?&D " + partials.map((s) => s.name).join(", "));
+  }
+  if (!match) return out(ctx.player, "&RYou don't know a spell like that.&D");
+
+  const def = match.def;
+  const cost = def.mana ?? 0;
+  if (ch.mana < cost) return out(ctx.player, "&RYou don't have enough mana.&D");
+
+  // Failure roll (interim: the grant's adept cap stands in for learned% until practising exists).
+  if (ctx.combat.spellFails(def.difficulty ?? 1, match.adept)) {
+    ch.mana = Math.max(0, ch.mana - Math.floor(cost / 2));
+    out(ctx.player, "&RYou lost your concentration.&D");
+    return sendVitals(ctx.world, ctx.player);
+  }
+  ch.mana -= cost;
+  const level = effectiveLevel(ch);
+
+  switch (def.category) {
+    case "damage":
+    case "debuff": {
+      const target = spellTarget(ctx, targetKw);
+      if (!target) { out(ctx.player, "&RCast it at what?&D"); ch.mana += cost; return; }
+      ctx.combat.castOffensive(ctx.fighter, target, def);
+      sendRoom(ctx.live, ctx.player); // refresh hp bars + effect strips
+      break;
+    }
+    case "heal": {
+      const amt = ctx.combat.rollHeal(def.name, level);
+      ch.hp = Math.min(ch.maxHp, ch.hp + amt);
+      out(ctx.player, `&GYou invoke ${esc(def.name)} and knit your wounds (+${amt} hp).&D`);
+      break;
+    }
+    case "buff": {
+      if (/refresh/.test(def.name)) ch.move = ch.maxMove;
+      applyAffect(ch.affects, buffAffect(def.name, level));
+      out(ctx.player, `&cYou are wreathed in ${esc(def.name)}.&D`);
+      sendRoom(ctx.live, ctx.player);
+      break;
+    }
+    default: { // utility
+      doUtility(ctx, def);
+      break;
+    }
+  }
+  sendVitals(ctx.world, ctx.player);
+}
+
+/** Minimal utility spells for now: recall/teleport move you; the rest report honestly. */
+function doUtility(ctx: CommandContext, def: SkillDef): void {
+  const n = def.name.toLowerCase();
+  const player = ctx.live.roomPlayers(ctx.fighter.roomVnum).find((p) => p.character.id === ctx.player.character.id) ?? ctx.player;
+  if (/recall/.test(n)) {
+    if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't recall while fighting!&D");
+    const dest = ctx.world.getRoom(RECALL_ROOM) ? RECALL_ROOM : ctx.world.getRoom(ctx.player.character.roomVnum) ? ctx.player.character.roomVnum : RECALL_ROOM;
+    ctx.live.moveTo(player, dest);
+    out(ctx.player, "&YYou pray for transport... the world blurs and you reappear at the temple.&D");
+    return sendRoom(ctx.live, ctx.player);
+  }
+  if (/teleport/.test(n)) {
+    if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't teleport while fighting!&D");
+    const rooms = [...ctx.world.rooms.keys()];
+    const dest = rooms[Math.floor(Math.random() * rooms.length)] ?? ctx.player.character.roomVnum;
+    ctx.live.moveTo(player, dest);
+    out(ctx.player, "&YReality folds — you are somewhere else entirely.&D");
+    return sendRoom(ctx.live, ctx.player);
+  }
+  out(ctx.player, `&cYou invoke ${esc(def.name)}. Its full effect is not implemented yet.&D`);
 }
 
 function doHelp(ctx: CommandContext): void {

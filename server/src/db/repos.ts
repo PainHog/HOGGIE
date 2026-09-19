@@ -54,6 +54,7 @@ function rowToCharacter(row: Record<string, unknown>): Character {
     position: row.position as string,
     roomVnum: row.room_vnum as number,
     title: (row.title as string | null) ?? undefined,
+    affects: [], // transient buffs/debuffs — not persisted
   };
 }
 
