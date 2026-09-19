@@ -46,7 +46,7 @@ cp client/.env.example client/.env   # Expo client
 |---|---|---|
 | `PORT` | pre-filled (`4100`) | WebSocket port the server listens on. |
 | `CONTENT_DIR` | optional | World JSON dir; defaults to `houseofghouls-export/content`. |
-| `WORLD_AREAS` | optional | Comma-separated zone files to load. Default: `drazuni.are,drazpost.are`. |
+| `WORLD_AREAS` | optional | Zones to load. Default `all` (the whole game). Or a comma-separated file list, e.g. `drazuni.are,drazpost.are` for just the start slice. |
 | `START_ROOM` | optional | Spawn room vnum. Default `10300` (University Entrance). |
 | `ADMIN_EMAILS` | **you** | Comma-separated emails auto-granted `admin` on login (see §6). |
 | `SUPABASE_URL` | **pre-filled** | The project URL — already in `.env.example`. |
@@ -109,10 +109,12 @@ A healthy boot logs, in order: `server booting` → `world loaded from content`
 (areas/rooms/mobs/objects) → `world populated from resets` (mobs spawned) →
 `Supabase reachable` → `ws listening` → `House of Ghouls is live on ws://localhost:4100`.
 
-> The default `WORLD_AREAS` loads the **Drazukville slice** (`drazuni` school + `drazpost`
-> town, ~337 rooms) — a self-contained, fully playable area with shops and mobs. Widen the
-> world by adding zone files to `WORLD_AREAS` (see the zone files in
-> `houseofghouls-export/content/areas.json`).
+> The default `WORLD_AREAS=all` loads the **whole game** — 88 zones, ~7,650 rooms, 113 shops
+> (~2,450 mobs spawn from resets). You start at the University Entrance in Drazukville and can
+> walk out into the wider world. (The event/seasonal Drazville variants and a few low-vnum
+> system zones are excluded because they reuse other zones' vnums — see `ALL_LOAD_EXCLUDES` in
+> `server/src/world/loader.ts`.) For a smaller, faster boot, set
+> `WORLD_AREAS=drazuni.are,drazpost.are` (the start school + town only).
 
 ---
 

@@ -225,10 +225,38 @@ function mapReset(r: Json): Reset {
   };
 }
 
-/** Load content into a fresh World. `areas` selects which area files' rooms/mobs/objects load. */
+/**
+ * Zones excluded from the `"all"` world load. Every one is either an event/seasonal COPY of
+ * another zone or a low-vnum system zone that reuses another zone's vnum range — the engine keys
+ * the world by global vnum, so these cannot coexist with the canonical zones without silently
+ * clobbering rooms. (The extracted content has ~800 such duplicate room vnums, concentrated here.)
+ *   - Drazukville variants: the canonical town is drazpost.are; drazville + the seasonal/event
+ *     copies (christmas, thanksgiving, invade) and templeofdrazuk all reuse its 21xxx range.
+ *   - opiumfields.are is an alternate copy of fields.are.
+ *   - birthgrounds/limbo/generic/magicplace are low-vnum chargen/system zones sharing vnums 1..N.
+ *   - Temple of Thor.are overlaps Elysium.are on one vnum (Elysium is the larger zone, kept).
+ * To include one of these instead, name areas explicitly in WORLD_AREAS rather than using "all".
+ */
+export const ALL_LOAD_EXCLUDES = new Set([
+  "drazville.are",
+  "drazville-christmas.are",
+  "drazville-thanksgiving.are",
+  "drazinvade.are",
+  "templeofdrazuk.are",
+  "opiumfields.are",
+  "birthgrounds.are",
+  "limbo.are",
+  "generic.are",
+  "magicplace.are",
+  "Temple of Thor.are",
+]);
+
+/**
+ * Load content into a fresh World. `areas` selects which area files' rooms/mobs/objects load.
+ * The sentinel `["all"]` loads every extracted zone except the vnum-colliding variants above.
+ */
 export async function loadWorld(contentDir: string, areas: string[]): Promise<World> {
   const world = new World();
-  const areaSet = new Set(areas);
 
   const [
     areasJson,
@@ -251,6 +279,13 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     readJson(contentDir, "skills.json"),
     readJson(contentDir, "shops.json"),
   ]);
+
+  // Resolve the area selection. `["all"]` (or an empty list) means every extracted zone except
+  // the vnum-colliding variants; otherwise the caller's explicit list is used verbatim.
+  const wantAll = areas.length === 0 || (areas.length === 1 && areas[0]!.trim().toLowerCase() === "all");
+  const areaSet = wantAll
+    ? new Set(areasJson.map((a: { file: string }) => a.file).filter((f: string) => !ALL_LOAD_EXCLUDES.has(f)))
+    : new Set(areas);
 
   // Global definitions.
   for (const c of classesJson) {

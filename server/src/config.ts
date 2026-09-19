@@ -8,9 +8,10 @@ loadDotenv({ path: ENV_FILE });
 const EnvSchema = z.object({
   PORT: z.coerce.number().int().positive().default(4100),
   CONTENT_DIR: z.string().min(1).default(DEFAULT_CONTENT_DIR),
-  /** Which MINE area files to load into the world. Widen the slice by adding names here.
-   *  drazpost.are is the populated (spawns + shops) Drazukville; drazuni is the start school. */
-  WORLD_AREAS: z.string().default("drazuni.are,drazpost.are"),
+  /** Which MINE area files to load into the world. `all` = the whole game (every extracted zone
+   *  except the vnum-colliding event/seasonal variants; see ALL_LOAD_EXCLUDES in world/loader.ts).
+   *  Or name specific files, comma-separated (e.g. `drazuni.are,drazpost.are` for the start slice). */
+  WORLD_AREAS: z.string().default("all"),
   /** Room vnum new characters spawn into (University of Alden entrance). */
   START_ROOM: z.coerce.number().int().default(10300),
   /** Emails auto-granted the admin role on login (bootstrap the owner). Comma-separated. */
