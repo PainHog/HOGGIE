@@ -18,6 +18,7 @@ import { LiveWorld, type Player } from "./liveWorld.ts";
 import {
   className,
   createCharacter,
+  dualClassName,
   raceAllowsClass,
   raceName,
   type Character,
@@ -61,7 +62,7 @@ export class Session {
       id: ch.id,
       name: ch.name,
       race: raceName(this.svc.world, ch),
-      className: className(this.svc.world, ch),
+      className: className(this.svc.world, ch) + (dualClassName(this.svc.world, ch) ? `/${dualClassName(this.svc.world, ch)}` : ""),
       level: ch.level,
     };
   }
@@ -79,7 +80,7 @@ export class Session {
       case "choosing":
         if (msg.t === "char_list") return this.sendCharList();
         if (msg.t === "char_create")
-          return this.doCreate(msg.name, msg.raceId, msg.classId);
+          return this.doCreate(msg.name, msg.raceId, msg.classId, msg.secondClassId);
         if (msg.t === "char_select") return this.doSelect(msg.characterId);
         return this.send({ t: "error", message: "choose a character first" });
 
@@ -167,7 +168,7 @@ export class Session {
     this.send({ t: "char_list", characters: chars.map((c) => this.summary(c)) });
   }
 
-  private async doCreate(name: string, raceId: number, classId: number): Promise<void> {
+  private async doCreate(name: string, raceId: number, classId: number, secondClassId?: number): Promise<void> {
     if (!this.account || !this.svc.db) return;
     if (!NAME_RE.test(name)) {
       return this.send({ t: "error", message: "name must be 2-20 letters, no spaces or symbols" });
@@ -186,6 +187,19 @@ export class Session {
     if (!raceAllowsClass(race, cls.name)) {
       return this.send({ t: "error", message: `a ${race.name} cannot be a ${cls.name}` });
     }
+    // Dual-class: a chosen second class must be a valid, race-allowed base class (prereqs enforced).
+    if (secondClassId != null && secondClassId !== classId) {
+      const second = this.svc.world.classes.get(secondClassId);
+      if (!second) {
+        return this.send({ t: "error", message: "pick a valid second class" });
+      }
+      if (second.tiered) {
+        return this.send({ t: "error", message: `${second.name} is a tier class — not a dual-class option` });
+      }
+      if (!raceAllowsClass(race, second.name)) {
+        return this.send({ t: "error", message: `a ${race.name} cannot be a ${second.name}` });
+      }
+    }
     if (await this.svc.db.isNameTaken(name)) {
       return this.send({ t: "error", message: `the name ${name} is already taken` });
     }
@@ -196,6 +210,7 @@ export class Session {
       name,
       raceId,
       classId,
+      secondClassId,
       startRoom: this.svc.config.startRoom,
     });
     try {

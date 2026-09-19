@@ -87,6 +87,8 @@ export const ClientMessageSchema = z.discriminatedUnion("t", [
     name: z.string().min(2).max(20),
     raceId: z.number().int(),
     classId: z.number().int(),
+    /** Optional dual-class pick (validated server-side; ignored if not a valid second class). */
+    secondClassId: z.number().int().optional(),
   }),
   /** Select an existing character and enter the world. */
   z.object({ t: z.literal("char_select"), characterId: z.string().uuid() }),
@@ -189,6 +191,7 @@ export interface Vitals {
   level: number;
   race: string;
   className: string;
+  dualClassName?: string; // the second class name for a dual-class character
   hp: number;
   maxHp: number;
   mana: number;

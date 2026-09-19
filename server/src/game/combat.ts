@@ -304,7 +304,9 @@ export class CombatManager {
       ch.maxHp += hpGain;
       ch.maxMana += manaGain;
       ch.maxMove += moveGain;
-      ch.practices += Math.max(1, statMod(ch.stats.wis) + 1);
+      const dual = ch.dualClassId != null && ch.dualClassId !== ch.classId;
+      ch.practices += Math.max(1, statMod(ch.stats.wis) + 1) + (dual ? 1 : 0); // +1 for dual-class
+
       ch.hp = ch.maxHp;
       ch.mana = ch.maxMana;
       ch.move = ch.maxMove;

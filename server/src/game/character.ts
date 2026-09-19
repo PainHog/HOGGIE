@@ -11,6 +11,8 @@ export interface Character {
   name: string;
   raceId: number;
   classId: number;
+  /** Optional second class chosen at creation (dual-class). Undefined = single-class. */
+  dualClassId?: number;
   level: number;
   exp: number;
   alignment: number;
@@ -92,13 +94,36 @@ export interface CreateCharacterInput {
   name: string;
   raceId: number;
   classId: number;
+  /** Optional dual-class pick; ignored unless it's a valid, different, race-allowed base class. */
+  secondClassId?: number;
   startRoom: number;
+}
+
+/** Resolve a requested second class to a valid dual-class id, or undefined (single-class). */
+export function resolveDualClass(
+  world: World,
+  race: RaceDef | undefined,
+  classId: number,
+  secondClassId: number | undefined,
+): number | undefined {
+  if (secondClassId == null || secondClassId === classId) return undefined;
+  const second = world.classes.get(secondClassId);
+  if (!second || second.tiered) return undefined; // tier classes aren't creation choices
+  if (race && !raceAllowsClass(race, second.name)) return undefined; // race must allow it too
+  return secondClassId;
+}
+
+/** The dual (second) class name, or undefined for a single-class character. */
+export function dualClassName(world: World, ch: Character): string | undefined {
+  if (ch.dualClassId == null || ch.dualClassId === ch.classId) return undefined;
+  return world.classes.get(ch.dualClassId)?.name;
 }
 
 /** Build a fresh level-1 character (full vitals). Caller persists it. */
 export function createCharacter(world: World, input: CreateCharacterInput): Character {
   const race = world.races.get(input.raceId);
   const cls = world.classes.get(input.classId);
+  const dualClassId = resolveDualClass(world, race, input.classId, input.secondClassId);
   const stats = rollStartingStats(race?.statPlus ?? {});
   const vit = startingVitals(world, input.classId, stats);
   const title = cls?.titles.find((t) => t.level === 1)?.male ?? cls?.name;
@@ -112,6 +137,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     name: input.name,
     raceId: input.raceId,
     classId: input.classId,
+    dualClassId,
     level: 1,
     exp: 0,
     alignment,

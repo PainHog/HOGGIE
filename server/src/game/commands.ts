@@ -5,7 +5,7 @@
 import { parseColorSpans } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
-import { className, raceName } from "./character.ts";
+import { className, dualClassName, raceName } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import type { CombatManager } from "./combat.ts";
 import type { PlayerFighter } from "./fighter.ts";
@@ -224,7 +224,7 @@ function doScore(ctx: CommandContext): void {
   const c = ctx.player.character;
   out(
     ctx.player,
-    `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}`,
+    `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}${dualClassName(ctx.world, c) ? `/${dualClassName(ctx.world, c)}` : ""}`,
     `&wHP &G${c.hp}&w/&G${c.maxHp}&D   Mana &C${c.mana}&w/&C${c.maxMana}&D   Move &Y${c.move}&w/&Y${c.maxMove}&D`,
     `&wSTR ${c.stats.str}  INT ${c.stats.int}  WIS ${c.stats.wis}  DEX ${c.stats.dex}  CON ${c.stats.con}  CHA ${c.stats.cha}  &YLCK ${c.stats.lck}&D`,
     `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   Align ${c.alignment}   Stance ${c.position}&D`,
@@ -232,16 +232,31 @@ function doScore(ctx: CommandContext): void {
   sendVitals(ctx.world, ctx.player);
 }
 
-/** The class's skill/spell tree: what it learns and at what level (data-driven per class). */
+/** The class's skill/spell tree: what it learns and at what level (data-driven per class).
+ *  For a dual-class character this is the UNION of both classes — usable at the lower required
+ *  level, adept cap = the higher of the two (faithful to the source). */
 function doSkillList(ctx: CommandContext, arg: string): void {
   const ch = ctx.player.character;
   const cls = ctx.world.classes.get(ch.classId);
   if (!cls) return out(ctx.player, "&RYour class has no skill list.&D");
+  const dual = ch.dualClassId != null && ch.dualClassId !== ch.classId ? ctx.world.classes.get(ch.dualClassId) : undefined;
+  const merged = new Map<string, { skill: string; level: number; adept: number }>();
+  const addGrants = (grants: { skill: string; level: number; adept: number }[]) => {
+    for (const g of grants) {
+      const cur = merged.get(g.skill);
+      merged.set(g.skill, cur
+        ? { skill: g.skill, level: Math.min(cur.level, g.level), adept: Math.max(cur.adept, g.adept) }
+        : { ...g });
+    }
+  };
+  addGrants(cls.skills);
+  if (dual) addGrants(dual.skills);
+  const label = dual ? `${cls.name}/${dual.name}` : cls.name;
   const all = arg.trim().toLowerCase() === "all";
-  const rows = [...cls.skills].sort((a, b) => a.level - b.level || a.skill.localeCompare(b.skill));
+  const rows = [...merged.values()].sort((a, b) => a.level - b.level || a.skill.localeCompare(b.skill));
   const shown = all ? rows : rows.filter((r) => r.level <= ch.level);
   const CAP = 120;
-  const lines = [`&Y--- ${cls.name}: ${all ? "all learnable" : "available now"} (${shown.length}/${rows.length}) ---&D`];
+  const lines = [`&Y--- ${label}: ${all ? "all learnable" : "available now"} (${shown.length}/${rows.length}) ---&D`];
   for (const r of shown.slice(0, CAP)) {
     const def = ctx.world.getSkill(r.skill);
     const kind = def ? def.type.toLowerCase() : "skill";

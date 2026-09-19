@@ -36,6 +36,7 @@ export function CharacterPanel({ vitals }: { vitals: Vitals | null }) {
       <Text style={styles.title}>{vitals.name}</Text>
       <Text style={styles.subtitle}>
         Level {vitals.level} {vitals.race} {vitals.className}
+        {vitals.dualClassName ? ` / ${vitals.dualClassName}` : ""}
       </Text>
 
       <View style={styles.statGrid}>

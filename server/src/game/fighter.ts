@@ -93,7 +93,14 @@ export class PlayerFighter implements Fighter {
   get ac() { return 100 + (this.race?.acPlus ?? 0); }
   get hitroll() { return statMod(this.character.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0); }
   get damroll() { return statMod(this.character.stats.str) + Math.floor(this.character.level / 8); }
-  get thac0Mod() { return this.world.classes.get(this.character.classId)?.thac0Mod ?? 0; }
+  get thac0Mod() {
+    const primary = this.world.classes.get(this.character.classId)?.thac0Mod ?? 0;
+    const dualId = this.character.dualClassId;
+    if (dualId == null || dualId === this.character.classId) return primary;
+    // Dual-class combat blend: the better base plus 0.7x the weaker (systems-spec §2).
+    const dual = this.world.classes.get(dualId)?.thac0Mod ?? 0;
+    return Math.floor(Math.max(primary, dual) + 0.7 * Math.min(primary, dual));
+  }
   get profBonus() { return -2; } // unarmed / no weapon proficiency yet
   get numAttacks() { return 1; } // extra attacks are skill-gated (roadmap)
   get damageType() { return "blunt"; }

@@ -26,7 +26,7 @@ export function CharacterScreen(props: {
   catalog: Catalog | null;
   notice: string | null;
   onSelect: (id: string) => void;
-  onCreate: (name: string, raceId: number, classId: number) => void;
+  onCreate: (name: string, raceId: number, classId: number, secondClassId?: number) => void;
   onSignOut: () => void;
   onCredits?: () => void;
 }) {
@@ -36,6 +36,7 @@ export function CharacterScreen(props: {
   // Default to Ghoul (the signature race) + Warrior when present.
   const [raceId, setRaceId] = useState<number>(() => races.find((r) => r.name === "Ghoul")?.id ?? races[0]?.id ?? 15);
   const [classId, setClassId] = useState<number>(() => classes.find((c) => c.name === "Warrior")?.id ?? classes[0]?.id ?? 3);
+  const [secondClassId, setSecondClassId] = useState<number | null>(null); // null = single-class
 
   const race = useMemo(() => races.find((r) => r.id === raceId), [races, raceId]);
   const selClass = classes.find((c) => c.id === classId);
@@ -48,6 +49,14 @@ export function CharacterScreen(props: {
       const ok = classes.find((c) => raceAllowsClass(r, c.name));
       if (ok) setClassId(ok.id);
     }
+    // Drop the dual pick if the new race forbids it.
+    const sc = classes.find((c) => c.id === secondClassId);
+    if (sc && !raceAllowsClass(r, sc.name)) setSecondClassId(null);
+  }
+
+  function pickClass(id: number) {
+    setClassId(id);
+    if (secondClassId === id) setSecondClassId(null); // the second class can't equal the primary
   }
 
   return (
@@ -115,7 +124,7 @@ export function CharacterScreen(props: {
                 label={c.name}
                 active={classId === c.id}
                 disabled={!allowed}
-                onPress={() => allowed && setClassId(c.id)}
+                onPress={() => allowed && pickClass(c.id)}
               />
             );
           })}
@@ -136,8 +145,36 @@ export function CharacterScreen(props: {
           <Text style={styles.notice}>A {race.name} cannot be a {selClass?.name}.</Text>
         )}
 
+        <Text style={styles.sub}>Second class · dual (optional)</Text>
+        <View style={styles.chips}>
+          <Chip label="None" active={secondClassId == null} onPress={() => setSecondClassId(null)} />
+          {classes
+            .filter((c) => c.id !== classId)
+            .map((c) => {
+              const allowed = raceAllowsClass(race, c.name);
+              return (
+                <Chip
+                  key={c.id}
+                  label={c.name}
+                  active={secondClassId === c.id}
+                  disabled={!allowed}
+                  onPress={() => allowed && setSecondClassId(c.id)}
+                />
+              );
+            })}
+        </View>
+        {secondClassId != null && (
+          <Text style={styles.dualNote}>
+            Dual-class: uses both classes' skills, blends combat (thac0/attacks), +1 practice per
+            level. Cannot remort.
+          </Text>
+        )}
+
         {props.notice && <Text style={styles.notice}>{props.notice}</Text>}
-        <Button label="Enter the world" onPress={() => props.onCreate(name.trim(), raceId, classId)} />
+        <Button
+          label="Enter the world"
+          onPress={() => props.onCreate(name.trim(), raceId, classId, secondClassId ?? undefined)}
+        />
       </View>
 
       <Button label="Sign out" kind="ghost" onPress={props.onSignOut} />
@@ -183,6 +220,7 @@ const styles = StyleSheet.create({
   resistK: { color: theme.accent, fontFamily: fonts.bodySemi },
   weakK: { color: theme.danger, fontFamily: fonts.bodySemi },
   loreTag: { color: theme.violet, fontFamily: fonts.bodySemi, fontSize: 11 },
+  dualNote: { color: theme.violet, fontFamily: fonts.body, fontSize: 12, fontStyle: "italic" },
   notice: { color: theme.danger, fontSize: 13, fontFamily: fonts.body },
   creditsLink: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 12, textDecorationLine: "underline" },
 });

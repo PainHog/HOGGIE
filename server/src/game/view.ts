@@ -2,7 +2,7 @@
 import { parseColorSpans, toLines, type Line, type RoomView, type Vitals } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
-import { className, expToNextLevel, raceName, type Character } from "./character.ts";
+import { className, dualClassName, expToNextLevel, raceName, type Character } from "./character.ts";
 import { mobShort } from "./mobInstance.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
@@ -68,6 +68,7 @@ export function vitalsOf(world: World, ch: Character): Vitals {
     level: ch.level,
     race: raceName(world, ch),
     className: className(world, ch),
+    dualClassName: dualClassName(world, ch),
     hp: ch.hp,
     maxHp: ch.maxHp,
     mana: ch.mana,

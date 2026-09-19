@@ -14,6 +14,7 @@ export function VitalsHud({ vitals }: { vitals: Vitals | null }) {
         <Text style={styles.name} numberOfLines={1}>{vitals.name}</Text>
         <Text style={styles.meta}>
           L{vitals.level} {vitals.race} {vitals.className}
+          {vitals.dualClassName ? ` / ${vitals.dualClassName}` : ""}
         </Text>
       </View>
       <View style={styles.bars}>

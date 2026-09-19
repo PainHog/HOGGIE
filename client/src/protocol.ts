@@ -78,6 +78,7 @@ export interface Vitals {
   level: number;
   race: string;
   className: string;
+  dualClassName?: string;
   hp: number;
   maxHp: number;
   mana: number;
@@ -123,7 +124,7 @@ export type ServerMessage =
 export type ClientMessage =
   | { t: "auth"; token: string }
   | { t: "char_list" }
-  | { t: "char_create"; name: string; raceId: number; classId: number }
+  | { t: "char_create"; name: string; raceId: number; classId: number; secondClassId?: number }
   | { t: "char_select"; characterId: string }
   | { t: "cmd"; raw: string }
   | { t: "target"; mobId: string };

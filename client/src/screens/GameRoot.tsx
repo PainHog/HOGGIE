@@ -47,8 +47,8 @@ export function GameRoot({
         catalog={state.catalog}
         notice={state.notice}
         onSelect={(id) => connRef.current?.send({ t: "char_select", characterId: id })}
-        onCreate={(name, raceId, classId) =>
-          connRef.current?.send({ t: "char_create", name, raceId, classId })
+        onCreate={(name, raceId, classId, secondClassId) =>
+          connRef.current?.send({ t: "char_create", name, raceId, classId, secondClassId })
         }
         onSignOut={onSignOut}
         onCredits={onCredits}
