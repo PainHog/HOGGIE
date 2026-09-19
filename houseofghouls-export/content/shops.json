@@ -1,0 +1,2074 @@
+[
+ {
+  "keeper_vnum": 7075,
+  "trade_types": [
+   "armor",
+   "artarmor",
+   "artweapon",
+   "artlight",
+   "arttreasure"
+  ],
+  "profit_buy": 115,
+  "profit_sell": 110,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "Elysium.are"
+ },
+ {
+  "keeper_vnum": 6028,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6082,
+  "trade_types": [
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6083,
+  "trade_types": [
+   "trash"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6084,
+  "trade_types": [
+   "trash",
+   "treasure",
+   "scroll"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6085,
+  "trade_types": [
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6086,
+  "trade_types": [
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6087,
+  "trade_types": [
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6092,
+  "trade_types": [
+   "armor",
+   "treasure",
+   "trash",
+   "weapon",
+   "wand"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6093,
+  "trade_types": [
+   "armor",
+   "food",
+   "comp",
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6094,
+  "trade_types": [
+   "armor",
+   "comp",
+   "wand",
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6095,
+  "trade_types": [
+   "comp",
+   "food",
+   "potion",
+   "scroll",
+   "wand"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6152,
+  "trade_types": [
+   "armor",
+   "food",
+   "drinkcon",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 6153,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "potion",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bazabel.are"
+ },
+ {
+  "keeper_vnum": 1818,
+  "trade_types": [
+   "armor",
+   "treasure",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bubblebog.are"
+ },
+ {
+  "keeper_vnum": 1819,
+  "trade_types": [
+   "scroll",
+   "potion",
+   "treasure",
+   "pill"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bubblebog.are"
+ },
+ {
+  "keeper_vnum": 1820,
+  "trade_types": [
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "bubblebog.are"
+ },
+ {
+  "keeper_vnum": 7105,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 110,
+  "open_hour": 6,
+  "close_hour": 20,
+  "area": "chicken.are"
+ },
+ {
+  "keeper_vnum": 7106,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 110,
+  "open_hour": 6,
+  "close_hour": 20,
+  "area": "chicken.are"
+ },
+ {
+  "keeper_vnum": 21005,
+  "trade_types": [
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21006,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21007,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21008,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21048,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21049,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21050,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21066,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21067,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "corpse"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21083,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21088,
+  "trade_types": [
+   "food",
+   "treasure",
+   "weapon",
+   "armor",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21090,
+  "trade_types": [
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21094,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21099,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazinvade.are"
+ },
+ {
+  "keeper_vnum": 21005,
+  "trade_types": [
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21006,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21007,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21008,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21048,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21049,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21050,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21066,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21067,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "corpse"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21083,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21088,
+  "trade_types": [
+   "food",
+   "treasure",
+   "weapon",
+   "armor",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21090,
+  "trade_types": [
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21094,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21099,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 21103,
+  "trade_types": [
+   "artarmor",
+   "artlight",
+   "arttreasure",
+   "artweapon",
+   "artworn"
+  ],
+  "profit_buy": 100,
+  "profit_sell": 100,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazpost.are"
+ },
+ {
+  "keeper_vnum": 10343,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazuni.are"
+ },
+ {
+  "keeper_vnum": 21005,
+  "trade_types": [
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21006,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21007,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21008,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21048,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21049,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21050,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21066,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21067,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "corpse"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21083,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21088,
+  "trade_types": [
+   "food",
+   "treasure",
+   "weapon",
+   "armor",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21090,
+  "trade_types": [
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21094,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21099,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-christmas.are"
+ },
+ {
+  "keeper_vnum": 21005,
+  "trade_types": [
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21006,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21007,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21008,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21048,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21049,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21050,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21066,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21067,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "corpse"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21083,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21088,
+  "trade_types": [
+   "food",
+   "treasure",
+   "weapon",
+   "armor",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21090,
+  "trade_types": [
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21094,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21099,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville-thanksgiving.are"
+ },
+ {
+  "keeper_vnum": 21005,
+  "trade_types": [
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21006,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21007,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21008,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21048,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21049,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21050,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21066,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21067,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "corpse"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21083,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21090,
+  "trade_types": [
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21094,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 21099,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "drazville.are"
+ },
+ {
+  "keeper_vnum": 1709,
+  "trade_types": [
+   "armor",
+   "treasure",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "eareska.are"
+ },
+ {
+  "keeper_vnum": 1710,
+  "trade_types": [
+   "treasure",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "eareska.are"
+ },
+ {
+  "keeper_vnum": 1711,
+  "trade_types": [
+   "container",
+   "treasure",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "eareska.are"
+ },
+ {
+  "keeper_vnum": 1712,
+  "trade_types": [
+   "potion",
+   "scroll",
+   "pill",
+   "salve",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "eareska.are"
+ },
+ {
+  "keeper_vnum": 1723,
+  "trade_types": [
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "eareska.are"
+ },
+ {
+  "keeper_vnum": 1615,
+  "trade_types": [
+   "armor",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "elenolos.are"
+ },
+ {
+  "keeper_vnum": 1616,
+  "trade_types": [
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "elenolos.are"
+ },
+ {
+  "keeper_vnum": 1617,
+  "trade_types": [
+   "potion",
+   "herb",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "elenolos.are"
+ },
+ {
+  "keeper_vnum": 1618,
+  "trade_types": [
+   "staff",
+   "wand",
+   "scroll",
+   "salve",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "elenolos.are"
+ },
+ {
+  "keeper_vnum": 5182,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "artarmor",
+   "artweapon",
+   "arttreasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "fort.are"
+ },
+ {
+  "keeper_vnum": 5183,
+  "trade_types": [
+   "container",
+   "food",
+   "scroll",
+   "wand"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "fort.are"
+ },
+ {
+  "keeper_vnum": 14414,
+  "trade_types": [
+   "food",
+   "pill",
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 9,
+  "close_hour": 20,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 14415,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 9,
+  "close_hour": 20,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 14440,
+  "trade_types": [
+   "drinkcon",
+   "artarmor",
+   "arttreasure",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 14,
+  "close_hour": 4,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 14443,
+  "trade_types": [
+   "artlight",
+   "light",
+   "salve",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 6,
+  "close_hour": 18,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 14446,
+  "trade_types": [
+   "artworn",
+   "boat",
+   "container",
+   "wand",
+   "trash"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 8,
+  "close_hour": 18,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 14454,
+  "trade_types": [
+   "weapon",
+   "wand",
+   "scroll"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 8,
+  "close_hour": 20,
+  "area": "h-unki.are"
+ },
+ {
+  "keeper_vnum": 15029,
+  "trade_types": [
+   "treasure",
+   "armor",
+   "weapon",
+   "wand",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "hchurch.are"
+ },
+ {
+  "keeper_vnum": 15030,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "hchurch.are"
+ },
+ {
+  "keeper_vnum": 15053,
+  "trade_types": [
+   "drinkcon",
+   "food",
+   "treasure",
+   "weapon",
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "hchurch.are"
+ },
+ {
+  "keeper_vnum": 15057,
+  "trade_types": [
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "hchurch.are"
+ },
+ {
+  "keeper_vnum": 2272,
+  "trade_types": [
+   "treasure",
+   "furniture"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "ironholde.are"
+ },
+ {
+  "keeper_vnum": 2273,
+  "trade_types": [
+   "food",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "ironholde.are"
+ },
+ {
+  "keeper_vnum": 2274,
+  "trade_types": [
+   "weapon",
+   "armor",
+   "artweapon",
+   "artarmor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "ironholde.are"
+ },
+ {
+  "keeper_vnum": 2275,
+  "trade_types": [
+   "armor",
+   "artarmor",
+   "arttreasure",
+   "artweapon",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "ironholde.are"
+ },
+ {
+  "keeper_vnum": 11057,
+  "trade_types": [
+   "food",
+   "comp",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "kinter.are"
+ },
+ {
+  "keeper_vnum": 11058,
+  "trade_types": [
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "kinter.are"
+ },
+ {
+  "keeper_vnum": 11059,
+  "trade_types": [
+   "armor",
+   "drinkcon",
+   "trash"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "kinter.are"
+ },
+ {
+  "keeper_vnum": 11060,
+  "trade_types": [
+   "comp",
+   "potion",
+   "salve",
+   "staff",
+   "wand"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "kinter.are"
+ },
+ {
+  "keeper_vnum": 11061,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "artarmor",
+   "artweapon",
+   "arttreasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "kinter.are"
+ },
+ {
+  "keeper_vnum": 7610,
+  "trade_types": [
+   "comp",
+   "pill",
+   "potion",
+   "wand"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "learei.are"
+ },
+ {
+  "keeper_vnum": 7611,
+  "trade_types": [
+   "container",
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "learei.are"
+ },
+ {
+  "keeper_vnum": 7636,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "food",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "learei.are"
+ },
+ {
+  "keeper_vnum": 7647,
+  "trade_types": [
+   "armor",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "learei.are"
+ },
+ {
+  "keeper_vnum": 12148,
+  "trade_types": [
+   "armor",
+   "artarmor",
+   "artworn",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12149,
+  "trade_types": [
+   "artweapon",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12150,
+  "trade_types": [
+   "potion",
+   "wand",
+   "scroll",
+   "salve"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12151,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12152,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12153,
+  "trade_types": [
+   "wand",
+   "potion",
+   "salve",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12154,
+  "trade_types": [
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 12155,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "niralis.are"
+ },
+ {
+  "keeper_vnum": 4995,
+  "trade_types": [
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 4996,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 4999,
+  "trade_types": [
+   "trash",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5000,
+  "trade_types": [
+   "comp",
+   "potion",
+   "pill"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5001,
+  "trade_types": [
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5002,
+  "trade_types": [
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5006,
+  "trade_types": [
+   "food",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5007,
+  "trade_types": [
+   "food",
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5008,
+  "trade_types": [
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5009,
+  "trade_types": [
+   "weapon",
+   "armor",
+   "artarmor",
+   "artweapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5010,
+  "trade_types": [
+   "armor"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5011,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 5012,
+  "trade_types": [
+   "drinkcon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "sahardin.are"
+ },
+ {
+  "keeper_vnum": 216,
+  "trade_types": [
+   "boat",
+   "treasure",
+   "potion"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "southroad.are"
+ },
+ {
+  "keeper_vnum": 9830,
+  "trade_types": [
+   "wand",
+   "comp",
+   "potion",
+   "scroll",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "srilaxa.are"
+ },
+ {
+  "keeper_vnum": 9832,
+  "trade_types": [
+   "light",
+   "treasure",
+   "artarmor",
+   "arttreasure",
+   "artweapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "srilaxa.are"
+ },
+ {
+  "keeper_vnum": 8043,
+  "trade_types": [
+   "armor",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "templar.are"
+ },
+ {
+  "keeper_vnum": 16259,
+  "trade_types": [
+   "armor",
+   "comp",
+   "drinkcon",
+   "food"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 14,
+  "close_hour": 4,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16260,
+  "trade_types": [
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16261,
+  "trade_types": [],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16263,
+  "trade_types": [
+   "pill",
+   "potion",
+   "salve"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 16,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16264,
+  "trade_types": [
+   "armor",
+   "worn",
+   "treasure",
+   "artworn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 15,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16267,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "artarmor",
+   "artweapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 8,
+  "close_hour": 18,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 16269,
+  "trade_types": [
+   "potion",
+   "pill",
+   "staff",
+   "wand",
+   "scroll"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 20,
+  "area": "tenhicoal.are"
+ },
+ {
+  "keeper_vnum": 956,
+  "trade_types": [
+   "scroll",
+   "potion",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "toadstool.are"
+ },
+ {
+  "keeper_vnum": 961,
+  "trade_types": [
+   "wand",
+   "staff",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "toadstool.are"
+ },
+ {
+  "keeper_vnum": 5100,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "troll.are"
+ },
+ {
+  "keeper_vnum": 5102,
+  "trade_types": [
+   "armor",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "troll.are"
+ },
+ {
+  "keeper_vnum": 5103,
+  "trade_types": [
+   "comp",
+   "potion",
+   "wand",
+   "scroll",
+   "staff"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "troll.are"
+ },
+ {
+  "keeper_vnum": 5104,
+  "trade_types": [
+   "armor",
+   "weapon",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "troll.are"
+ },
+ {
+  "keeper_vnum": 5105,
+  "trade_types": [
+   "armor",
+   "comp"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "troll.are"
+ },
+ {
+  "keeper_vnum": 2031,
+  "trade_types": [
+   "treasure",
+   "weapon"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "tyrybblyn.are"
+ },
+ {
+  "keeper_vnum": 2032,
+  "trade_types": [
+   "armor",
+   "treasure",
+   "worn"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "tyrybblyn.are"
+ },
+ {
+  "keeper_vnum": 415,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 7,
+  "close_hour": 18,
+  "area": "underhill.are"
+ },
+ {
+  "keeper_vnum": 416,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "underhill.are"
+ },
+ {
+  "keeper_vnum": 417,
+  "trade_types": [
+   "food",
+   "drinkcon",
+   "treasure"
+  ],
+  "profit_buy": 120,
+  "profit_sell": 90,
+  "open_hour": 0,
+  "close_hour": 23,
+  "area": "underhill.are"
+ }
+]
