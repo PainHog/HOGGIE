@@ -70,7 +70,7 @@ export function GameScreen({
   const drawerBody = (p: Panel) => {
     if (p === "map") return <Minimap rooms={state.rooms} current={state.room?.vnum ?? null} />;
     if (p === "character") return <CharacterPanel vitals={state.vitals} />;
-    if (p === "inventory") return <InventoryPanel />;
+    if (p === "inventory") return <InventoryPanel items={state.inventory} />;
     if (p === "log") return <View style={styles.logBox}><OutputPane lines={state.output} /></View>;
     return null;
   };
@@ -99,7 +99,7 @@ export function GameScreen({
           <ScrollView style={styles.rail} contentContainerStyle={styles.railContent}>
             <Minimap rooms={state.rooms} current={state.room?.vnum ?? null} />
             <CharacterPanel vitals={state.vitals} />
-            <InventoryPanel />
+            <InventoryPanel items={state.inventory} />
           </ScrollView>
         )}
       </View>

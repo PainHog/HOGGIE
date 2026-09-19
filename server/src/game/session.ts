@@ -26,7 +26,8 @@ import {
 import { dispatchCommand, engageMobById, type CommandContext } from "./commands.ts";
 import { PlayerFighter } from "./fighter.ts";
 import type { CombatManager } from "./combat.ts";
-import { esc, out, sendRoom, sendVitals } from "./view.ts";
+import type { Economy } from "./economy.ts";
+import { esc, out, sendInventory, sendRoom, sendVitals } from "./view.ts";
 
 export interface GameServices {
   config: AppConfig;
@@ -35,6 +36,7 @@ export interface GameServices {
   auth: Authenticator;
   db: Db | null;
   combat: CombatManager;
+  economy: Economy;
 }
 
 type State = "authenticating" | "choosing" | "playing";
@@ -253,6 +255,7 @@ export class Session {
     out(this.player, `&YWelcome to House of Ghouls, ${esc(character.name)}.&D`);
     sendRoom(this.svc.live, this.player);
     sendVitals(this.svc.world, this.player);
+    sendInventory(this.svc.world, this.player);
     log.info("character entered world", { name: character.name, room: character.roomVnum });
   }
 
@@ -264,6 +267,7 @@ export class Session {
       live: this.svc.live,
       player: this.player,
       combat: this.svc.combat,
+      economy: this.svc.economy,
       fighter: this.fighter,
       account: this.account,
       db: this.svc.db,

@@ -182,6 +182,17 @@ export interface RaceDef {
   description: string;
 }
 
+/** A shop (systems-spec §4.2): a keeper mob that buys/sells, with markup % and traded item-types. */
+export interface ShopDef {
+  keeperVnum: number;
+  tradeTypes: string[]; // item_type names this shop will BUY from players
+  profitBuy: number; // markup % applied to purchases
+  profitSell: number; // markup % applied to sales
+  openHour: number;
+  closeHour: number;
+  area: string;
+}
+
 /** A world reset: how the area repopulates (spawns mobs, places/gives/equips objects). */
 export interface Reset {
   area: string;

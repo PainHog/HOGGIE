@@ -3,6 +3,7 @@ import type {
   Catalog,
   CharacterSummary,
   CombatFx,
+  InventoryItem,
   Line,
   RoomExit,
   RoomView,
@@ -40,6 +41,7 @@ export interface GameState {
   output: OutputLine[];
   room: RoomView | null;
   vitals: Vitals | null;
+  inventory: InventoryItem[]; // what the character is carrying (inventory panel + shop)
   notice: string | null;
   rooms: Record<number, KnownRoom>; // explored graph for the minimap
   mobHp: Record<string, number>; // mob instance id -> live hp fraction (0..1)
@@ -55,6 +57,7 @@ export const initialState: GameState = {
   output: [],
   room: null,
   vitals: null,
+  inventory: [],
   notice: null,
   rooms: {},
   mobHp: {},
@@ -99,6 +102,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return applyRoom(state, m.room);
     case "vitals":
       return { ...state, vitals: m.vitals };
+    case "inventory":
+      return { ...state, inventory: m.items };
     case "fx":
       return applyFx(state, m.fx);
     case "system":

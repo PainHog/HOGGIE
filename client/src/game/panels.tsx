@@ -1,13 +1,25 @@
 /**
- * Side panels: a Character sheet (real stats from the server) and an Inventory grid. Equipment and
- * inventory are intentionally empty shells in v1 — the UI is real, the content (worn gear, carried
- * items) is roadmap — so the slots read as "empty", not as missing UI.
+ * Side panels: a Character sheet (real stats from the server) and an Inventory list (real carried
+ * items from the server). Equipment slots are still shells (worn gear is roadmap), but the inventory
+ * now reflects what the character is actually holding, so shops (buy/sell) are visible in the UI.
  */
-import { StyleSheet, Text, View } from "react-native";
-import type { Vitals } from "../protocol";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
+import type { InventoryItem, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 import { SvgIcon, type IconName } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
+
+/** Pick an icon for a carried item from its item_type (falls back to the knapsack glyph). */
+function iconForItem(itemType: string): IconName {
+  switch (itemType) {
+    case "armor": return ICON.slotBody;
+    case "weapon": return ICON.slotWeapon;
+    case "potion": case "scroll": case "wand": case "staff": case "pill": case "salve":
+      return "magic-swirl";
+    case "treasure": case "money": return ICON.gold;
+    default: return ICON.inventory;
+  }
+}
 
 function Stat({ label, value }: { label: string; value: number | string }) {
   return (
@@ -63,19 +75,31 @@ export function CharacterPanel({ vitals }: { vitals: Vitals | null }) {
   );
 }
 
-export function InventoryPanel() {
+export function InventoryPanel({ items }: { items: InventoryItem[] }) {
   return (
     <View style={styles.panel}>
       <View style={styles.invHead}>
         <SvgIcon name={ICON.inventory} size={18} color={theme.gold} />
         <Text style={styles.title}>Inventory</Text>
+        <Text style={styles.invCount}>{items.length}</Text>
       </View>
-      <View style={styles.invGrid}>
-        {Array.from({ length: 12 }).map((_, i) => (
-          <View key={i} style={styles.invCell} />
-        ))}
-      </View>
-      <Text style={styles.note}>Loot, carrying capacity & item stats — roadmap.</Text>
+      {items.length === 0 ? (
+        <Text style={styles.note}>Empty — buy from a shopkeeper or loot a corpse.</Text>
+      ) : (
+        <ScrollView style={styles.invList} contentContainerStyle={{ gap: 4 }}>
+          {items.map((it, i) => (
+            <View key={`${it.vnum}-${i}`} style={styles.invRow}>
+              <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
+              <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
+              <View style={styles.invPrice}>
+                <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
+                <Text style={styles.invCost}>{it.cost}</Text>
+              </View>
+            </View>
+          ))}
+        </ScrollView>
+      )}
+      <Text style={styles.note}>Worn gear & item stats — roadmap.</Text>
     </View>
   );
 }
@@ -101,9 +125,13 @@ const styles = StyleSheet.create({
   slotEmpty: { color: theme.dim, fontFamily: fonts.body, fontSize: 9, fontStyle: "italic" },
   note: { color: theme.dim, fontFamily: fonts.body, fontSize: 10, fontStyle: "italic", marginTop: 4 },
   invHead: { flexDirection: "row", alignItems: "center", gap: 6 },
-  invGrid: { flexDirection: "row", flexWrap: "wrap", gap: 6, marginTop: 4 },
-  invCell: {
-    width: 40, height: 40, borderRadius: 6, backgroundColor: theme.bgAlt,
-    borderWidth: 1, borderColor: theme.panelBorder,
+  invCount: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 12, marginLeft: "auto" },
+  invList: { maxHeight: 220, marginTop: 4 },
+  invRow: {
+    flexDirection: "row", alignItems: "center", gap: 8, backgroundColor: theme.bgAlt,
+    borderRadius: 6, borderWidth: 1, borderColor: theme.panelBorder, paddingVertical: 6, paddingHorizontal: 8,
   },
+  invName: { color: theme.bone, fontFamily: fonts.body, fontSize: 12, flex: 1 },
+  invPrice: { flexDirection: "row", alignItems: "center", gap: 3 },
+  invCost: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 11 },
 });

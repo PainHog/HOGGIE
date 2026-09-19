@@ -17,6 +17,7 @@ import type {
   RaceDef,
   Reset,
   Room,
+  ShopDef,
   SkillDef,
 } from "./model.ts";
 
@@ -197,6 +198,18 @@ function mapSkill(s: Json): SkillDef {
   };
 }
 
+function mapShop(s: Json): ShopDef {
+  return {
+    keeperVnum: s.keeper_vnum,
+    tradeTypes: s.trade_types ?? [],
+    profitBuy: s.profit_buy ?? 100,
+    profitSell: s.profit_sell ?? 100,
+    openHour: s.open_hour ?? 0,
+    closeHour: s.close_hour ?? 23,
+    area: s.area,
+  };
+}
+
 function mapReset(r: Json): Reset {
   return {
     area: r.area,
@@ -226,6 +239,7 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     classesJson,
     racesJson,
     skillsJson,
+    shopsJson,
   ] = await Promise.all([
     readJson(contentDir, "areas.json"),
     readJson(contentDir, "rooms.json"),
@@ -235,6 +249,7 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     readJson(contentDir, "classes.json"),
     readJson(contentDir, "races.json"),
     readJson(contentDir, "skills.json"),
+    readJson(contentDir, "shops.json"),
   ]);
 
   // Global definitions.
@@ -290,11 +305,26 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     if (!areaSet.has(rs.area)) continue;
     world.resets.push(mapReset(rs));
   }
+  for (const s of shopsJson) {
+    if (!areaSet.has(s.area)) continue;
+    world.shops.set(s.keeper_vnum, mapShop(s));
+  }
+  // A keeper's stock = the take-able objects reset onto it (systems-spec §4.2).
+  for (const rs of world.resets) {
+    if (rs.kind !== "give_to_mob" || rs.mobVnum == null || rs.objVnum == null) continue;
+    if (!world.shops.has(rs.mobVnum)) continue;
+    const proto = world.objPrototypes.get(rs.objVnum);
+    if (!proto) continue; // object belongs to an unloaded area
+    const stock = world.shopStock.get(rs.mobVnum) ?? [];
+    if (!stock.includes(rs.objVnum)) stock.push(rs.objVnum);
+    world.shopStock.set(rs.mobVnum, stock);
+  }
 
   log.info("world loaded from content", {
     loadedAreas: [...areaSet],
     ...world.summary(),
     resets: world.resets.length,
+    shops: world.shops.size,
   });
   return world;
 }

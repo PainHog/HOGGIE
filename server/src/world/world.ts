@@ -14,6 +14,7 @@ import type {
   RaceDef,
   Reset,
   Room,
+  ShopDef,
   SkillDef,
 } from "./model.ts";
 
@@ -38,6 +39,10 @@ export class World {
   readonly skills = new Map<string, SkillDef>();
   /** Reset instructions for loaded areas (used to repopulate the world). */
   readonly resets: Reset[] = [];
+  /** Shops keyed by keeper mob vnum (systems-spec §4.2). */
+  readonly shops = new Map<number, ShopDef>();
+  /** A keeper's stock: the object vnums given to it by resets (its sellable inventory). */
+  readonly shopStock = new Map<number, number[]>();
 
   getClassByName(name: string): ClassDef | undefined {
     const lc = name.toLowerCase();

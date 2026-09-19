@@ -15,6 +15,7 @@ import type { StaffAccount } from "./roles.ts";
 import { LiveWorld, type Player } from "./liveWorld.ts";
 import { createCharacter, effectiveLevel, expToReach, isTiered, type Character } from "./character.ts";
 import { CombatManager } from "./combat.ts";
+import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import { spawnMob } from "./mobInstance.ts";
@@ -50,7 +51,7 @@ function setup(opts: { className?: string; level?: number; gold?: number; second
   live.enter(player);
   const fighter = new PlayerFighter(ch, world, (m) => received.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, fighter, account, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, db: null, quit: () => {} };
   return { live, combat, ch, fighter, received, ctx };
 }
 const text = (received: ServerMessage[]) =>

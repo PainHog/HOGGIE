@@ -98,6 +98,20 @@ export function sendVitals(world: World, viewer: Player): void {
   viewer.send({ t: "vitals", vitals: vitalsOf(world, viewer.character) });
 }
 
+/** Send the player's carried items, resolved to name/type/cost for the inventory panel. */
+export function sendInventory(world: World, viewer: Player): void {
+  const items = viewer.character.inventory.map((it) => {
+    const p = world.getObjPrototype(it.vnum);
+    return {
+      vnum: it.vnum,
+      name: p?.shortDesc || `item ${it.vnum}`,
+      itemType: p?.itemType ?? "trash",
+      cost: p?.cost ?? 0,
+    };
+  });
+  viewer.send({ t: "inventory", items });
+}
+
 /** Send one or more already-colored raw lines as narrative output. */
 export function out(viewer: Player, ...raw: string[]): void {
   viewer.send({ t: "output", lines: raw.map(parseColorSpans) });

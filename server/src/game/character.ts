@@ -5,6 +5,11 @@
 import type { RaceDef, Stats } from "../world/model.ts";
 import type { World } from "../world/world.ts";
 
+/** A carried item — the minimal inventory the shop system needs (references an object prototype). */
+export interface ItemInstance {
+  vnum: number;
+}
+
 export interface Character {
   id: string;
   accountId: string;
@@ -29,6 +34,8 @@ export interface Character {
   maxMove: number;
   gold: number;
   practices: number;
+  /** Carried items (minimal inventory for shops). */
+  inventory: ItemInstance[];
   /** Position doubles as combat stance (standing/resting/sleeping/berserk/…). */
   position: string;
   roomVnum: number;
@@ -164,6 +171,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     maxMove: vit.maxMove,
     gold: 0,
     practices: 5,
+    inventory: [],
     position: "standing",
     roomVnum: input.startRoom,
     title,

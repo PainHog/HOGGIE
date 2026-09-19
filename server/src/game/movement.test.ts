@@ -7,6 +7,7 @@ import { LiveWorld, type Player } from "./liveWorld.ts";
 import { createCharacter } from "./character.ts";
 import { dispatchCommand } from "./commands.ts";
 import { CombatManager } from "./combat.ts";
+import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import type { AppConfig } from "../config.ts";
 
@@ -66,7 +67,7 @@ const TEST_ACCOUNT = {
 function ctx(live: LiveWorld, player: Mock) {
   const combat = new CombatManager(world, live, TEST_CONFIG);
   const fighter = new PlayerFighter(player.character, world, (m) => player.received.push(m));
-  return { world, live, player, combat, fighter, account: TEST_ACCOUNT, db: null, quit: () => {} };
+  return { world, live, player, combat, economy: new Economy(), fighter, account: TEST_ACCOUNT, db: null, quit: () => {} };
 }
 
 describe("world load + movement + presence (Phase 2)", () => {

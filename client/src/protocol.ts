@@ -106,6 +106,13 @@ export interface CombatFx {
   targetHpPct: number;
 }
 
+export interface InventoryItem {
+  vnum: number;
+  name: string;
+  itemType: string;
+  cost: number;
+}
+
 export type ServerMessage =
   | { t: "welcome"; connectionId: string; server: string; protocol: number }
   | { t: "pong" }
@@ -118,6 +125,7 @@ export type ServerMessage =
   | { t: "output"; lines: Line[] }
   | { t: "room"; room: RoomView }
   | { t: "vitals"; vitals: Vitals }
+  | { t: "inventory"; items: InventoryItem[] }
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };

@@ -445,33 +445,56 @@ def parse_area(path):
     if rs:
         r=Reader(text[rs.end():])
         resets=parse_resets(r)
-    area['counts']={'mobs':len(mobs),'objects':len(objs),'rooms':len(rooms),'resets':len(resets)}
+    shops=parse_shops(text)
+    area['counts']={'mobs':len(mobs),'objects':len(objs),'rooms':len(rooms),'resets':len(resets),'shops':len(shops)}
     # vnum span
     allv=[x['vnum'] for x in rooms]+[x['vnum'] for x in mobs]+[x['vnum'] for x in objs]
     if allv:
         area['vnum_range']=[min(allv),max(allv)]
-    return area, mobs, objs, rooms, resets
+    return area, mobs, objs, rooms, resets, shops
+
+
+def parse_shops(text):
+    """Parse a #SHOPS section: `keeper t0 t1 t2 t3 t4 profit_buy profit_sell open close ; name`.
+    Trade types are item_type numbers (0 = unused); profit_buy/sell are the shop's markup %."""
+    shops=[]; started=False
+    for ln in text.splitlines():
+        if ln.strip()=='#SHOPS': started=True; continue
+        if not started: continue
+        body=ln.split(';')[0].strip()
+        if body.startswith('#'): break
+        nums=re.findall(r'-?\d+', body)
+        if len(nums)<8: continue
+        n=[int(x) for x in nums]
+        if n[0]==0: break  # keeper 0 terminates the section
+        trades=[O_TYPES[t] for t in n[1:6] if 0<t<len(O_TYPES)]
+        shops.append({'keeper_vnum':n[0], 'trade_types':trades,
+                      'profit_buy':n[6], 'profit_sell':n[7],
+                      'open_hour':n[8] if len(n)>8 else 0, 'close_hour':n[9] if len(n)>9 else 23})
+    return shops
 
 def main():
     files=sorted(glob.glob(os.path.join(SRC,'area','*.are')))
-    areas=[]; all_mobs=[]; all_objs=[]; all_rooms=[]; spawns=[]
+    areas=[]; all_mobs=[]; all_objs=[]; all_rooms=[]; spawns=[]; all_shops=[]
     errors=[]
     for path in files:
         try:
-            area,mobs,objs,rooms,resets=parse_area(path)
+            area,mobs,objs,rooms,resets,shops=parse_area(path)
             areas.append(area)
             all_mobs+=mobs; all_objs+=objs; all_rooms+=rooms
+            for sh in shops: sh['area']=area['file']; all_shops.append(sh)
             # turn resets into self-documenting spawn records tied to area
             WEARLOC=["light","head","eyes","ears","face","neck1","neck2","body","arms",
               "wrist1","wrist2","hands","finger1","finger2","about","back","waist","legs",
               "ankle1","ankle2","feet","wield","dual","shield","hold","pride1","pride2","aura"]
+            last_mob=None  # G/E resets chain to the most recently spawned mob (SMAUG reset order)
             for rr in resets:
                 c=rr['cmd']; a1=rr['arg1']; a2=rr['arg2']; a3=rr['arg3']
                 rec={'area':area['file'],'type':c}
-                if c=='M': rec.update(kind='spawn_mob', mob_vnum=a1, max_in_world=a2, room_vnum=a3)
+                if c=='M': last_mob=a1; rec.update(kind='spawn_mob', mob_vnum=a1, max_in_world=a2, room_vnum=a3)
                 elif c=='O': rec.update(kind='place_object', obj_vnum=a1, room_vnum=a3)
-                elif c=='G': rec.update(kind='give_to_mob', obj_vnum=a1)
-                elif c=='E': rec.update(kind='equip_mob', obj_vnum=a1,
+                elif c=='G': rec.update(kind='give_to_mob', obj_vnum=a1, mob_vnum=last_mob)
+                elif c=='E': rec.update(kind='equip_mob', obj_vnum=a1, mob_vnum=last_mob,
                                         wear_loc=WEARLOC[a3] if 0<=a3<len(WEARLOC) else a3)
                 elif c=='P': rec.update(kind='put_in_container', obj_vnum=a1, container_vnum=a3)
                 elif c=='D': rec.update(kind='door_state', room_vnum=a1, door=a2, state=a3)
@@ -489,6 +512,7 @@ def main():
     dump('mobs.json',all_mobs)
     dump('objects.json',all_objs)
     dump('resets.json',spawns)
+    dump('shops.json',all_shops)
     stats={'areas':len(areas),'rooms':len(all_rooms),'mobs':len(all_mobs),
            'objects':len(all_objs),'resets':len(spawns),'errors':errors}
     dump('_extract_stats.json',stats)

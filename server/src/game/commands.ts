@@ -8,16 +8,19 @@ import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import type { CombatManager } from "./combat.ts";
+import type { Economy } from "./economy.ts";
+import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import type { PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendRoom, sendVitals } from "./view.ts";
+import { esc, out, sendInventory, sendRoom, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
   live: LiveWorld;
   player: Player;
   combat: CombatManager;
+  economy: Economy;
   fighter: PlayerFighter;
   account: StaffAccount;
   db: Db | null;
@@ -60,6 +63,11 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "score": case "sc": return doScore(ctx);
     case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
     case "advancetier": case "remort": return void doAdvanceTier(ctx);
+    case "list": return doShopList(ctx);
+    case "value": case "appraise": return doValue(ctx, arg);
+    case "buy": return void doBuy(ctx, arg);
+    case "sell": return void doSell(ctx, arg);
+    case "inventory": case "inv": case "i": return sendInventory(ctx.world, ctx.player);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -233,6 +241,100 @@ function doScore(ctx: CommandContext): void {
   sendVitals(ctx.world, ctx.player);
 }
 
+const MAX_BUY = 20;
+
+/** `list`: the shopkeeper's wares with CHA-adjusted buy prices. */
+function doShopList(ctx: CommandContext): void {
+  const ch = ctx.player.character;
+  const keeper = shopkeeperIn(ctx.world, ctx.live, ch.roomVnum);
+  if (!keeper) return out(ctx.player, "&RThere is no shopkeeper here.&D");
+  const stock = ctx.world.shopStock.get(keeper.shop.keeperVnum) ?? [];
+  if (stock.length === 0) return out(ctx.player, `&Y${cap(mobShort(keeper.mob))} has nothing for sale.&D`);
+  const lines = [`&Y--- ${cap(mobShort(keeper.mob))}'s wares ---&D`, "&d  price  item&D"];
+  for (const vnum of stock) {
+    const p = ctx.world.getObjPrototype(vnum);
+    if (!p) continue;
+    lines.push(`&W${String(buyPrice(p, keeper.shop, ch.stats.cha)).padStart(7)}&D  ${esc(p.shortDesc)} &d[${p.itemType}]&D`);
+  }
+  lines.push("&d(buy <item> [n], sell <item>, value <item> — haggle with CHA)&D");
+  out(ctx.player, ...lines);
+}
+
+/** `value <item>`: what a carried item sells for, or what a stocked item costs. */
+function doValue(ctx: CommandContext, arg: string): void {
+  if (!arg) return out(ctx.player, "Value what?");
+  const ch = ctx.player.character;
+  const keeper = shopkeeperIn(ctx.world, ctx.live, ch.roomVnum);
+  if (!keeper) return out(ctx.player, "&RThere is no shopkeeper here.&D");
+  const owned = ch.inventory.find((it) => matchInv(ctx, it.vnum, arg));
+  if (owned) {
+    const p = ctx.world.getObjPrototype(owned.vnum)!;
+    const sp = sellPrice(p, keeper.shop, ch.stats.cha);
+    return out(ctx.player, sp > 0
+      ? `&YYou could sell ${esc(p.shortDesc)} for &W${sp}&Y gold.&D`
+      : `&R${cap(mobShort(keeper.mob))} doesn't trade ${p.itemType}.&D`);
+  }
+  const stockVnum = (ctx.world.shopStock.get(keeper.shop.keeperVnum) ?? []).find((v) => matchInv(ctx, v, arg));
+  if (stockVnum != null) {
+    const p = ctx.world.getObjPrototype(stockVnum)!;
+    return out(ctx.player, `&YIt costs &W${buyPrice(p, keeper.shop, ch.stats.cha)}&Y gold to buy ${esc(p.shortDesc)}.&D`);
+  }
+  out(ctx.player, "&RThere's nothing like that here or in your pack.&D");
+}
+
+/** `buy <item> [n]`: pay gold (into the area pool) and take the item(s). */
+async function doBuy(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  const keeper = shopkeeperIn(ctx.world, ctx.live, ch.roomVnum);
+  if (!keeper) return out(ctx.player, "&RThere is no shopkeeper here.&D");
+  const [kw, nStr] = arg.split(/\s+/);
+  if (!kw) return out(ctx.player, "Buy what?");
+  const qty = Math.max(1, Math.min(MAX_BUY, parseInt(nStr ?? "1", 10) || 1));
+  const vnum = (ctx.world.shopStock.get(keeper.shop.keeperVnum) ?? []).find((v) => matchInv(ctx, v, kw));
+  if (vnum == null) return out(ctx.player, `&R${cap(mobShort(keeper.mob))} doesn't sell that.&D`);
+  const p = ctx.world.getObjPrototype(vnum)!;
+  const total = buyPrice(p, keeper.shop, ch.stats.cha) * qty;
+  if (ch.gold < total) return out(ctx.player, `&RYou can't afford that — ${total} gold for ${qty} (you have ${ch.gold}).&D`);
+  ch.gold -= total;
+  for (let i = 0; i < qty; i++) ch.inventory.push({ vnum });
+  const area = ctx.world.getRoom(ch.roomVnum)?.area;
+  if (area) ctx.economy.deposit(area, total); // buying pours gold into the area pool
+  out(ctx.player, `&YYou buy ${qty > 1 ? `${qty} x ` : ""}${esc(p.shortDesc)} for &W${total}&Y gold.&D`);
+  sendVitals(ctx.world, ctx.player);
+  sendInventory(ctx.world, ctx.player);
+  if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `sell <item>`: give a carried item, get gold from the area pool (capped at the pool). */
+async function doSell(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Sell what?");
+  const keeper = shopkeeperIn(ctx.world, ctx.live, ch.roomVnum);
+  if (!keeper) return out(ctx.player, "&RThere is no shopkeeper here.&D");
+  const idx = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, arg));
+  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const p = ctx.world.getObjPrototype(ch.inventory[idx]!.vnum)!;
+  const price = sellPrice(p, keeper.shop, ch.stats.cha);
+  if (price <= 0) return out(ctx.player, `&R${cap(mobShort(keeper.mob))} doesn't trade ${p.itemType}.&D`);
+  const area = ctx.world.getRoom(ch.roomVnum)?.area;
+  if (area && !ctx.economy.canCover(area, price)) {
+    return out(ctx.player, "&RThe local economy is too drained to cover that sale.&D");
+  }
+  const paid = area ? ctx.economy.withdraw(area, price) : price; // selling pulls gold out of the pool
+  ch.inventory.splice(idx, 1);
+  ch.gold += paid;
+  out(ctx.player, `&YYou sell ${esc(p.shortDesc)} for &W${paid}&Y gold.&D`);
+  sendVitals(ctx.world, ctx.player);
+  sendInventory(ctx.world, ctx.player);
+  if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** Match a keyword against an object prototype by vnum. */
+function matchInv(ctx: CommandContext, vnum: number, kw: string): boolean {
+  const p = ctx.world.getObjPrototype(vnum);
+  return !!p && objMatches(p, kw);
+}
+
 const TIER_COST = 500_000;
 
 /**
@@ -331,6 +433,7 @@ function doHelp(ctx: CommandContext): void {
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
     "&Wrest sleep sit stand&D (regen when out of combat)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all] (class skills)   &Wroles&D   &Whelp&D   &Wquit&D",
+    "&Winventory&D (i)   at a shop: &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
     "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );
   if (can(ctx.account.roles, "info.stat") || can(ctx.account.roles, "world.goto")) {

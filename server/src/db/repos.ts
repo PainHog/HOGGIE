@@ -3,7 +3,7 @@
  * gameplay state; these repositories are the single place that touches those tables.
  */
 import type { SupabaseClient } from "@supabase/supabase-js";
-import type { Character } from "../game/character.ts";
+import type { Character, ItemInstance } from "../game/character.ts";
 import type { Stats } from "../world/model.ts";
 
 export interface Account {
@@ -50,6 +50,7 @@ function rowToCharacter(row: Record<string, unknown>): Character {
     maxMove: row.max_move as number,
     gold: Number(row.gold),
     practices: row.practices as number,
+    inventory: (row.inventory as ItemInstance[] | null) ?? [],
     position: row.position as string,
     roomVnum: row.room_vnum as number,
     title: (row.title as string | null) ?? undefined,
@@ -78,6 +79,7 @@ function characterToRow(ch: Character): Record<string, unknown> {
     max_move: ch.maxMove,
     gold: ch.gold,
     practices: ch.practices,
+    inventory: ch.inventory ?? [],
     position: ch.position,
     room_vnum: ch.roomVnum,
     title: ch.title ?? null,
