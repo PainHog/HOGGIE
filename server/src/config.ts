@@ -13,6 +13,8 @@ const EnvSchema = z.object({
   WORLD_AREAS: z.string().default("drazuni.are,drazpost.are"),
   /** Room vnum new characters spawn into (University of Alden entrance). */
   START_ROOM: z.coerce.number().int().default(10300),
+  /** Emails auto-granted the admin role on login (bootstrap the owner). Comma-separated. */
+  ADMIN_EMAILS: z.string().default(""),
   SUPABASE_URL: z.string().url().optional(),
   SUPABASE_ANON_KEY: z.string().min(1).optional(),
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
@@ -23,6 +25,7 @@ export type AppConfig = {
   contentDir: string;
   worldAreas: string[];
   startRoom: number;
+  adminEmails: string[];
   supabase: {
     url?: string;
     anonKey?: string;
@@ -37,6 +40,7 @@ export function loadConfig(): AppConfig {
     contentDir: env.CONTENT_DIR,
     worldAreas: env.WORLD_AREAS.split(",").map((s) => s.trim()).filter(Boolean),
     startRoom: env.START_ROOM,
+    adminEmails: env.ADMIN_EMAILS.split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
     supabase: {
       url: env.SUPABASE_URL,
       anonKey: env.SUPABASE_ANON_KEY,

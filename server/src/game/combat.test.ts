@@ -14,7 +14,7 @@ import { Rng } from "./rng.ts";
 
 let world: World;
 const ROOM = 10300;
-const CONFIG: AppConfig = { port: 0, contentDir: "", worldAreas: ["drazuni.are"], startRoom: ROOM, supabase: {} };
+const CONFIG: AppConfig = { port: 0, contentDir: "", worldAreas: ["drazuni.are"], startRoom: ROOM, adminEmails: [], supabase: {} };
 
 beforeAll(async () => {
   world = await loadWorld(DEFAULT_CONTENT_DIR, ["drazuni.are"]);

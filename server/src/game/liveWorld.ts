@@ -9,10 +9,13 @@ import type { ServerMessage } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { Character } from "./character.ts";
 import type { MobInstance } from "./mobInstance.ts";
+import type { StaffAccount } from "./roles.ts";
 
 /** Anything the live world can hold and message — a connected player's session implements this. */
 export interface Player {
   readonly character: Character;
+  /** The controlling account (roles + builder scope), for staff commands like `users`. */
+  readonly account?: StaffAccount;
   send(msg: ServerMessage): void;
 }
 

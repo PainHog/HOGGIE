@@ -113,6 +113,18 @@ export class Session {
       return this.send({ t: "auth_error", message: "this account is banned" });
     }
 
+    // Bootstrap the owner: configured admin emails are granted the admin role on login.
+    const email = this.account.email?.toLowerCase();
+    if (email && this.svc.config.adminEmails.includes(email) && !this.account.roles.includes("admin")) {
+      this.account.roles = [...this.account.roles, "admin"];
+      try {
+        await this.svc.db.setAccountRoles(this.account.id, this.account.roles);
+        log.info("granted admin (bootstrap)", { email });
+      } catch (err) {
+        log.warn("admin bootstrap failed", { err: String(err) });
+      }
+    }
+
     this.state = "choosing";
     this.send({ t: "auth_ok", accountId: this.account.id, email: this.account.email });
     await this.sendCharList();
@@ -177,7 +189,7 @@ export class Session {
       character.roomVnum = this.svc.config.startRoom;
     }
     this.character = character;
-    this.player = { character, send: (m) => this.conn.send(m) };
+    this.player = { character, account: this.account ?? undefined, send: (m) => this.conn.send(m) };
     this.fighter = new PlayerFighter(character, this.svc.world, (m) => this.conn.send(m));
     this.state = "playing";
 
@@ -196,7 +208,7 @@ export class Session {
   }
 
   private doCommand(raw: string): void {
-    if (!this.player || !this.fighter) return;
+    if (!this.player || !this.fighter || !this.account) return;
     dispatchCommand(
       {
         world: this.svc.world,
@@ -204,6 +216,8 @@ export class Session {
         player: this.player,
         combat: this.svc.combat,
         fighter: this.fighter,
+        account: this.account,
+        db: this.svc.db,
         quit: () => this.close(),
       },
       raw,

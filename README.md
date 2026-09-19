@@ -76,6 +76,21 @@ The world is loaded from `content/` JSON at boot — widen it by adding area fil
 (`drazuni.are`, start room 10300) and Drazukville (`drazpost.are`, populated with mobs);
 mobs spawn from the resets in the loaded areas.
 
+### Roles & staff (Phase 5)
+
+Powers are **named capabilities granted by roles** (player / builder / moderator / admin),
+checked per command — not god level-flags. Bootstrap yourself by setting `ADMIN_EMAILS` in
+`.env` to the email you sign in with; you get the `admin` role on login.
+
+- **admin:** everything, plus `grant`/`revoke <email> <role>` and `setbuilder <email> <low> <high>`.
+- **moderator:** `goto <vnum>`, `stat`, `users`.
+- **builder:** `stat`, and `redit <name>` — but only for rooms **inside their assigned vnum
+  range** (the old area/vnum sandbox, carried forward). `setbuilder` assigns that range.
+- **player:** none of the above; `roles` shows anyone their own capabilities.
+
+Role changes take effect on the target's next login. (Full OLC and the moderation toolset are
+roadmap; this is the scaffold + the sandbox boundary.)
+
 ### The Expo client (Phase 4) — web now, iOS/Android from the same code
 
 The real UI: command input, scrolling colored output, and panels (character vitals, room/exits,
@@ -99,5 +114,9 @@ outside the npm workspaces to keep Metro simple.
 1. Server foundation — WS server, Supabase wiring, in-memory world model, connect/echo. ✓
 2. Accounts + world — auth, character creation, load zones, movement, presence. ✓
 3. Combat identity — stances, ascending-hit/RIS damage, 2s round, position regen, LCK. ✓
-4. **Expo client** — the real text client (web + iOS/Android). ← current
-5. Roles — player/builder/moderator/admin + builder area/vnum sandbox.
+4. Expo client — the real text client (web + iOS/Android). ✓
+5. Roles — player/builder/moderator/admin + builder area/vnum sandbox. ✓
+
+**The v1 vertical slice is complete.** Roadmap (designed for, not built): remort/prestige,
+area economy pools, the quest/glory loop, cross-area level gates + the recall hub, worn
+equipment/AC + PLUS-tier weapons, and live OLC content editing.

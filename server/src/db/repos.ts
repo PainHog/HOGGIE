@@ -11,6 +11,21 @@ export interface Account {
   email: string | null;
   roles: string[];
   banned: boolean;
+  builderLowVnum: number | null;
+  builderHighVnum: number | null;
+}
+
+const ACCOUNT_COLS = "id,email,roles,banned,builder_low_vnum,builder_high_vnum";
+
+function rowToAccount(row: Record<string, unknown>): Account {
+  return {
+    id: row.id as string,
+    email: (row.email as string | null) ?? null,
+    roles: (row.roles as string[]) ?? ["player"],
+    banned: Boolean(row.banned),
+    builderLowVnum: (row.builder_low_vnum as number | null) ?? null,
+    builderHighVnum: (row.builder_high_vnum as number | null) ?? null,
+  };
 }
 
 function rowToCharacter(row: Record<string, unknown>): Character {
@@ -70,19 +85,43 @@ export class Db {
   async ensureAccount(userId: string, email: string | null): Promise<Account> {
     const existing = await this.client
       .from("accounts")
-      .select("id,email,roles,banned")
+      .select(ACCOUNT_COLS)
       .eq("id", userId)
       .maybeSingle();
     if (existing.error) throw existing.error;
-    if (existing.data) return existing.data as Account;
+    if (existing.data) return rowToAccount(existing.data);
 
     const inserted = await this.client
       .from("accounts")
       .insert({ id: userId, email })
-      .select("id,email,roles,banned")
+      .select(ACCOUNT_COLS)
       .single();
     if (inserted.error) throw inserted.error;
-    return inserted.data as Account;
+    return rowToAccount(inserted.data);
+  }
+
+  async getAccountByEmail(email: string): Promise<Account | null> {
+    const res = await this.client
+      .from("accounts")
+      .select(ACCOUNT_COLS)
+      .ilike("email", email)
+      .limit(1)
+      .maybeSingle();
+    if (res.error) throw res.error;
+    return res.data ? rowToAccount(res.data) : null;
+  }
+
+  async setAccountRoles(accountId: string, roles: string[]): Promise<void> {
+    const res = await this.client.from("accounts").update({ roles }).eq("id", accountId);
+    if (res.error) throw res.error;
+  }
+
+  async setBuilderRange(accountId: string, low: number | null, high: number | null): Promise<void> {
+    const res = await this.client
+      .from("accounts")
+      .update({ builder_low_vnum: low, builder_high_vnum: high })
+      .eq("id", accountId);
+    if (res.error) throw res.error;
   }
 
   async listCharacters(accountId: string): Promise<Character[]> {

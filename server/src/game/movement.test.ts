@@ -51,13 +51,22 @@ const TEST_CONFIG: AppConfig = {
   contentDir: "",
   worldAreas: ["drazuni.are"],
   startRoom: START,
+  adminEmails: [],
   supabase: {},
+};
+
+const TEST_ACCOUNT = {
+  id: "acc",
+  email: "t@t",
+  roles: ["player"],
+  builderLowVnum: null,
+  builderHighVnum: null,
 };
 
 function ctx(live: LiveWorld, player: Mock) {
   const combat = new CombatManager(world, live, TEST_CONFIG);
   const fighter = new PlayerFighter(player.character, world, (m) => player.received.push(m));
-  return { world, live, player, combat, fighter, quit: () => {} };
+  return { world, live, player, combat, fighter, account: TEST_ACCOUNT, db: null, quit: () => {} };
 }
 
 describe("world load + movement + presence (Phase 2)", () => {
