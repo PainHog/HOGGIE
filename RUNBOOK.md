@@ -10,6 +10,28 @@ database, the server, the visual client, accounts, admin, tests, and clean shutd
 
 ---
 
+## Quickest start (one click / one command)
+
+After a one-time setup, launching is a single action.
+
+1. **Install [Node.js LTS](https://nodejs.org)** (once per machine).
+2. **Add the one secret:** open `.env` and paste your Supabase **service_role** key into
+   `SUPABASE_SERVICE_ROLE_KEY=` (see §2 for where to find it). If `.env` doesn't exist yet, the
+   launcher creates it for you on the first run — set the key, then relaunch.
+3. **Launch:**
+   - **Windows:** double-click **`Play-HouseOfGhouls.bat`**.
+   - **macOS:** double-click **`play.command`** (first time: right-click → Open).
+   - **Any OS, terminal:** `npm run play`.
+
+The launcher installs dependencies on the first run, starts the server + client together, and
+**opens the game in your browser** at `http://localhost:8081`. Close the window (or press
+`Ctrl-C`) to stop everything. Log in with a test account (`tester1@hoggie.local` / `ghoulish1`
+after running `npm run make-users` once) or create your own.
+
+The manual, step-by-step version of all of this is below.
+
+---
+
 ## 0. Prerequisites (install first)
 
 - **Node.js 20 or newer** (22 recommended) and **npm** (bundled with Node).
