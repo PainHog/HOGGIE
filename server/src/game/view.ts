@@ -69,6 +69,7 @@ export function vitalsOf(world: World, ch: Character): Vitals {
     race: raceName(world, ch),
     className: className(world, ch),
     dualClassName: dualClassName(world, ch),
+    tier: (ch.tier ?? 0) > 0 ? ch.tier : undefined,
     hp: ch.hp,
     maxHp: ch.maxHp,
     mana: ch.mana,

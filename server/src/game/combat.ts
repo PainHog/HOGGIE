@@ -297,10 +297,20 @@ export class CombatManager {
     while (ch.level < 50 && ch.exp >= expToReach(this.world, ch.classId, ch.level + 1)) {
       ch.level += 1;
       const cls = this.world.classes.get(ch.classId);
-      const conMod = statMod(ch.stats.con);
-      const hpGain = Math.max(1, (cls?.hpGainMin ?? 8) + this.rng.range(0, (cls?.hpGainMax ?? 12) - (cls?.hpGainMin ?? 8)) + conMod);
-      const manaGain = (cls?.manaGain ?? 0) > 0 ? Math.max(1, this.rng.range(Math.floor(ch.stats.int / 2), Math.floor((ch.stats.int + ch.stats.wis) / 2))) : 0;
-      const moveGain = this.rng.range(10, ch.stats.con + ch.stats.dex);
+      const hasMana = (cls?.manaGain ?? 0) > 0;
+      const tiered = (ch.tier ?? 0) > 0;
+      let hpGain: number, manaGain: number, moveGain: number;
+      if (tiered) {
+        // Re-leveling the tier track: tiny per-level gains (systems-spec §2.4); power is kept.
+        hpGain = this.rng.range(1, 4);
+        manaGain = hasMana ? this.rng.range(1, 4) : 0;
+        moveGain = this.rng.range(1, 4);
+      } else {
+        const conMod = statMod(ch.stats.con);
+        hpGain = Math.max(1, (cls?.hpGainMin ?? 8) + this.rng.range(0, (cls?.hpGainMax ?? 12) - (cls?.hpGainMin ?? 8)) + conMod);
+        manaGain = hasMana ? Math.max(1, this.rng.range(Math.floor(ch.stats.int / 2), Math.floor((ch.stats.int + ch.stats.wis) / 2))) : 0;
+        moveGain = this.rng.range(10, ch.stats.con + ch.stats.dex);
+      }
       ch.maxHp += hpGain;
       ch.maxMana += manaGain;
       ch.maxMove += moveGain;

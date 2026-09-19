@@ -13,7 +13,8 @@ export function VitalsHud({ vitals }: { vitals: Vitals | null }) {
       <View style={styles.left}>
         <Text style={styles.name} numberOfLines={1}>{vitals.name}</Text>
         <Text style={styles.meta}>
-          L{vitals.level} {vitals.race} {vitals.className}
+          L{vitals.level}
+          {vitals.tier ? ` ·T${vitals.tier}` : ""} {vitals.race} {vitals.className}
           {vitals.dualClassName ? ` / ${vitals.dualClassName}` : ""}
         </Text>
       </View>

@@ -79,6 +79,7 @@ export interface Vitals {
   race: string;
   className: string;
   dualClassName?: string;
+  tier?: number;
   hp: number;
   maxHp: number;
   mana: number;

@@ -192,6 +192,7 @@ export interface Vitals {
   race: string;
   className: string;
   dualClassName?: string; // the second class name for a dual-class character
+  tier?: number; // remort tier (0/undefined = not tiered); level then reads on the tier track
   hp: number;
   maxHp: number;
   mana: number;

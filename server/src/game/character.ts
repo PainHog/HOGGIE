@@ -15,6 +15,10 @@ export interface Character {
   dualClassId?: number;
   level: number;
   exp: number;
+  /** Remort tier: 0 = not tiered. A tiered character plays a base-2..50 track on the tier class. */
+  tier?: number;
+  /** Exp banked at the moment of tiering (kept as a record of pre-tier progress). */
+  tierExp?: number;
   alignment: number;
   stats: Stats;
   hp: number;
@@ -117,6 +121,16 @@ export function resolveDualClass(
 export function dualClassName(world: World, ch: Character): string | undefined {
   if (ch.dualClassId == null || ch.dualClassId === ch.classId) return undefined;
   return world.classes.get(ch.dualClassId)?.name;
+}
+
+/** Is this a tiered (remorted) character? */
+export function isTiered(ch: Character): boolean {
+  return (ch.tier ?? 0) > 0;
+}
+
+/** Combat/casting level: tiered characters act at 50 + level/10 (systems-spec §2.4), else raw level. */
+export function effectiveLevel(ch: Character): number {
+  return isTiered(ch) ? 50 + Math.floor(ch.level / 10) : ch.level;
 }
 
 /** Build a fresh level-1 character (full vitals). Caller persists it. */

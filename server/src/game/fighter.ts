@@ -8,7 +8,7 @@
 import { parseColorSpans, type ServerMessage } from "@hoggie/shared";
 import type { Stats } from "../world/model.ts";
 import type { World } from "../world/world.ts";
-import { statMod, type Character } from "./character.ts";
+import { effectiveLevel, statMod, type Character } from "./character.ts";
 import type { MobInstance } from "./mobInstance.ts";
 import { parseDice, rollDice } from "./dice.ts";
 import type { Rng } from "./rng.ts";
@@ -76,7 +76,8 @@ export class PlayerFighter implements Fighter {
 
   get id() { return this.character.id; }
   get name() { return this.character.name; }
-  get level() { return this.character.level; }
+  // Tiered characters fight at their effective level (50 + level/10), keeping their earned power.
+  get level() { return effectiveLevel(this.character); }
   get alignment() { return this.character.alignment; }
   get hp() { return this.character.hp; }
   set hp(v: number) { this.character.hp = v; }

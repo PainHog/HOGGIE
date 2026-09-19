@@ -5,7 +5,7 @@
 import { parseColorSpans } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
-import { className, dualClassName, raceName } from "./character.ts";
+import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import type { CombatManager } from "./combat.ts";
 import type { PlayerFighter } from "./fighter.ts";
@@ -59,6 +59,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "who": return doWho(ctx);
     case "score": case "sc": return doScore(ctx);
     case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
+    case "advancetier": case "remort": return void doAdvanceTier(ctx);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -224,12 +225,62 @@ function doScore(ctx: CommandContext): void {
   const c = ctx.player.character;
   out(
     ctx.player,
-    `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}${dualClassName(ctx.world, c) ? `/${dualClassName(ctx.world, c)}` : ""}`,
+    `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}${dualClassName(ctx.world, c) ? `/${dualClassName(ctx.world, c)}` : ""}${isTiered(c) ? ` &Y[Tier ${c.tier}, eff L${effectiveLevel(c)}]&D` : ""}`,
     `&wHP &G${c.hp}&w/&G${c.maxHp}&D   Mana &C${c.mana}&w/&C${c.maxMana}&D   Move &Y${c.move}&w/&Y${c.maxMove}&D`,
     `&wSTR ${c.stats.str}  INT ${c.stats.int}  WIS ${c.stats.wis}  DEX ${c.stats.dex}  CON ${c.stats.con}  CHA ${c.stats.cha}  &YLCK ${c.stats.lck}&D`,
     `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   Align ${c.alignment}   Stance ${c.position}&D`,
   );
   sendVitals(ctx.world, ctx.player);
+}
+
+const TIER_COST = 500_000;
+
+/**
+ * Remort: at level 50, single-class, with >=500k gold, swap into the tier class, reset to level 2,
+ * bank exp, gain +20 practices, and keep earned power (systems-spec §2.4).
+ */
+async function doAdvanceTier(ctx: CommandContext): Promise<void> {
+  const ch = ctx.player.character;
+  if (ctx.fighter.fighting) return out(ctx.player, "&RNot while you're fighting!&D");
+  const cls = ctx.world.classes.get(ch.classId);
+  if (ch.level < 50) return out(ctx.player, "&RYou must be level 50 to advance a tier.&D");
+  if (ch.dualClassId != null && ch.dualClassId !== ch.classId) {
+    return out(ctx.player, "&RDual-class characters cannot tier.&D");
+  }
+  if (!cls?.advancesTo) return out(ctx.player, "&RYour class cannot advance a tier.&D");
+  if (ch.gold < TIER_COST) {
+    return out(ctx.player, `&RYou need ${TIER_COST} gold to tier — you have ${ch.gold}.&D`);
+  }
+  const tierClass = [...ctx.world.classes.values()].find((c) => c.name === cls.advancesTo);
+  if (!tierClass) return out(ctx.player, "&RThe tier class is not available.&D");
+
+  ch.gold -= TIER_COST;
+  ch.tierExp = (ch.tierExp ?? 0) + ch.exp;
+  ch.tier = (ch.tier ?? 0) + 1;
+  ch.classId = tierClass.id;
+  ch.dualClassId = undefined; // tier overrides dual
+  ch.level = 2;
+  ch.exp = expToReach(ctx.world, tierClass.id, 2);
+  ch.practices += 20;
+  // Earned power endures: HP/mana/move maxes are kept, current pools refilled.
+  ch.hp = ch.maxHp;
+  ch.mana = ch.maxMana;
+  ch.move = ch.maxMove;
+  ch.position = "standing";
+
+  out(
+    ctx.player,
+    "&YYou ascend beyond mortal limits!&D",
+    `&YYou are reborn a &W${tierClass.name}&Y (tier ${ch.tier}) — re-leveling from 2, but your power endures.&D`,
+    `&d(effective level ${50 + Math.floor(ch.level / 10)}; +20 practices; ${TIER_COST} gold spent)&D`,
+  );
+  ctx.live.broadcast(
+    ch.roomVnum,
+    { t: "output", lines: [parseColorSpans(`&Y${esc(ch.name)} ascends to a ${tierClass.name}!&D`)] },
+    ctx.player,
+  );
+  sendVitals(ctx.world, ctx.player);
+  if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => out(ctx.player, "&r(warning: tier not yet saved)&D"));
 }
 
 /** The class's skill/spell tree: what it learns and at what level (data-driven per class).
@@ -280,6 +331,7 @@ function doHelp(ctx: CommandContext): void {
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
     "&Wrest sleep sit stand&D (regen when out of combat)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all] (class skills)   &Wroles&D   &Whelp&D   &Wquit&D",
+    "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );
   if (can(ctx.account.roles, "info.stat") || can(ctx.account.roles, "world.goto")) {
     out(

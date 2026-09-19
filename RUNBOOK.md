@@ -77,7 +77,8 @@ select a character → **tap an enemy to engage, tap a compass direction to walk
 (`berserk / aggressive / normal / defensive / evasive`) and `flee` are the live-combat controls;
 auto-attacks resolve each round once engaged. The classic command line is kept at the bottom, so
 every text command (`look`, `n s e w …`, `kill <mob>`, `rest`, `say`, `who`, `score`, `help`) still
-works. A **Credits** screen (from the sign-in / character screens and the in-game toolbar) lists the
+works — including `slist [all]` (your class's skill/spell tree, unioned for dual-class) and
+`advancetier` (remort at level 50, single-class, 500k gold → your tier class). A **Credits** screen (from the sign-in / character screens and the in-game toolbar) lists the
 game-icons.net artists — see `client/ASSETS.md` for the full license breakdown.
 
 > Tip — to land in a good Drazukville combat demo, start the server at the "scaly bartender" room:

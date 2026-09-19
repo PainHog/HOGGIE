@@ -35,7 +35,9 @@ export function CharacterPanel({ vitals }: { vitals: Vitals | null }) {
     <View style={styles.panel}>
       <Text style={styles.title}>{vitals.name}</Text>
       <Text style={styles.subtitle}>
-        Level {vitals.level} {vitals.race} {vitals.className}
+        Level {vitals.level}
+        {vitals.tier ? ` · Tier ${vitals.tier} (eff ${50 + Math.floor(vitals.level / 10)})` : ""}{" "}
+        {vitals.race} {vitals.className}
         {vitals.dualClassName ? ` / ${vitals.dualClassName}` : ""}
       </Text>
 
