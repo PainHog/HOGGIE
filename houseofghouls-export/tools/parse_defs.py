@@ -12,7 +12,60 @@ RACE_ORDER=["Human","Elf","Dwarf","Halfling","Pixie","Minotaur","Half-Ogre","Hal
  "Wolfen","Shuri","Gulran","Zephyr","Jinn","Ahpock"]
 ATTR=["none","strength","intelligence","wisdom","dexterity","constitution","charisma","luck"]
 
+# RIS bitvector -> damage/effect class (mud.h RIS_FIRE..RIS_PARALYSIS, BV00..BV21).
+# Same table the mob extractor uses, so race RIS decodes identically to mobs.
+RIS_FLAGS=["fire","cold","electricity","energy","blunt","pierce","slash","acid","poison",
+ "drain","sleep","charm","hold","nonmagic","plus1","plus2","plus3","plus4","plus5","plus6",
+ "magic","paralysis"]
+
 def read(p): return open(p,encoding="latin-1").read()
+
+def decode_bits(bits, table):
+    """Bitvector int -> list of set flag names (unknown high bits are ignored, never guessed)."""
+    if not isinstance(bits,int): return []
+    return [name for i,name in enumerate(table) if bits & (1<<i)]
+
+def _norm(s):
+    """Normalize a race name / help keyword for matching: uppercase, alnum only."""
+    return re.sub(r'[^A-Z0-9]','',s.upper())
+
+def load_race_help():
+    """Map normalized-race-keyword -> help prose, from the MUD's own help entries.
+    Primary: the Lua help files (typed race entries). Fallback: the classic .are help files
+    (help.are/help2.are), which carry the later-added races. Lua wins on any overlap."""
+    out={}
+    # 1) Lua help files (primary): keywords + type/htype="race" + text=[[...]]
+    for fn in ("lua/help_all.lua","lua/help_race.lua"):
+        path=os.path.join(SRC,fn)
+        if not os.path.exists(path): continue
+        txt=read(path)
+        for m in re.finditer(r'keywords\s*=\s*\{([^}]*)\}.*?h?type\s*=\s*"([^"]*)".*?text\s*=\s*\[\[(.*?)\]\]',txt,re.S):
+            kws,htype,body=m.group(1),m.group(2),m.group(3)
+            if htype!="race": continue
+            text=body.strip()
+            for tok in re.findall(r'"([^"]*)"',kws):
+                for part in tok.split():
+                    k=_norm(part)
+                    if k and k not in out: out[k]=text
+    # 2) Classic .are help files: "<level> KEYWORDS~" header, body lines, terminated by a lone "~".
+    for fn in ("area/help.are","area/help2.are"):
+        path=os.path.join(SRC,fn)
+        if not os.path.exists(path): continue
+        lines=read(path).splitlines()
+        i=0
+        while i<len(lines):
+            m=re.match(r'^\s*(-?\d+)\s+(\S.*?)~\s*$',lines[i])
+            if m:
+                kws=m.group(2); body=[]; i+=1
+                while i<len(lines) and lines[i].strip()!="~":
+                    body.append(lines[i]); i+=1
+                text="\n".join(body).strip()
+                if text:
+                    for part in kws.split():
+                        k=_norm(part)
+                        if k and k not in out: out[k]=text
+            i+=1
+    return out
 
 def parse_class(path):
     lines=read(path).splitlines()
@@ -117,6 +170,29 @@ def main():
     classes.sort(key=lambda c:c.get("id",999))
     races=[parse_race(p) for p in sorted(glob.glob(f"{SRC}/races/*.race"))]
     races.sort(key=lambda r:r.get("id",999))
+    # Resolve duplicate race ids: the source declares Deep-Gnome and Gnome both as Race 14, which
+    # would make one unselectable (raceId is the selection/persistence key). Keep the canonical race
+    # (the one in RACE_ORDER) on the shared id and bump the other(s) to fresh ids.
+    seen={}; next_id=max(r.get("id",0) for r in races)+1; reassigned=[]
+    for r in sorted(races, key=lambda r:(r.get("id",999), 0 if r.get("name") in RACE_ORDER else 1, r.get("name",""))):
+        rid=r.get("id")
+        if rid in seen:
+            r["id"]=next_id; reassigned.append(f"{r.get('name')} {rid}->{next_id}"); next_id+=1
+        seen[r["id"]]=r.get("name")
+    races.sort(key=lambda r:r.get("id",999))
+    if reassigned: print("race id collisions resolved:", "; ".join(reassigned))
+    # Enrich races: decode RIS bitvectors to damage-type arrays (matching mobs) + attach the
+    # MUD's own help prose as `description` (empty when the source has no help entry for a race).
+    help_by_race=load_race_help()
+    no_help=[]
+    for r in races:
+        r["resistant"]=decode_bits(r.get("resist_bits"),RIS_FLAGS)
+        r["susceptible"]=decode_bits(r.get("suscept_bits"),RIS_FLAGS)
+        desc=help_by_race.get(_norm(r.get("name","")),"")
+        r["description"]=desc
+        if not desc: no_help.append(r.get("name"))
+    print("races with help text:",len(races)-len(no_help),"/",len(races),
+          "| no source help:",", ".join(no_help) or "none")
     skills=parse_skills(f"{SRC}/system/skills.dat")
     json.dump(classes,open(f"{OUT}/classes.json","w"),indent=1,ensure_ascii=False)
     json.dump(races,open(f"{OUT}/races.json","w"),indent=1,ensure_ascii=False)

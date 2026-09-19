@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 3 as const;
+export const PROTOCOL_VERSION = 4 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -115,6 +115,33 @@ export interface CharacterSummary {
   level: number;
 }
 
+/** A selectable race for the creation screen — data-driven, so the client never hardcodes the list. */
+export interface RaceInfo {
+  id: number;
+  name: string;
+  statPlus: { str?: number; int?: number; wis?: number; dex?: number; con?: number; cha?: number; lck?: number };
+  resistant: string[];
+  susceptible: string[];
+  expMultPct: number;
+  align: number;
+  allowedClasses: string[];
+  restrictedClasses: string[];
+  description: string; // captured now (help prose); surfaced as tooltips in a later pass
+}
+
+/** A selectable class for the creation screen. */
+export interface ClassInfo {
+  id: number;
+  name: string;
+  description: string;
+}
+
+/** The character-creation catalog (what races/classes the server currently allows). */
+export interface Catalog {
+  races: RaceInfo[];
+  classes: ClassInfo[];
+}
+
 /** One walkable exit from a room (direction + destination vnum for the minimap graph). */
 export interface RoomExit {
   dir: string;
@@ -200,6 +227,8 @@ export type ServerMessage =
   | { t: "auth_ok"; accountId: string; email: string | null }
   | { t: "auth_error"; message: string }
   | { t: "char_list"; characters: CharacterSummary[] }
+  /** The creation catalog (races + classes the server allows), sent at the choosing phase. */
+  | { t: "catalog"; catalog: Catalog }
   | { t: "entered"; character: CharacterSummary }
   /** Scrolling narrative (color-parsed). Each entry is one line. */
   | { t: "output"; lines: Line[] }

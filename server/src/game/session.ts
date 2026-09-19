@@ -7,7 +7,7 @@
  * LiveWorld tracks and broadcasts to.
  */
 import { randomUUID } from "node:crypto";
-import type { CharacterSummary, ClientMessage, ServerMessage } from "@hoggie/shared";
+import type { Catalog, CharacterSummary, ClassInfo, ClientMessage, RaceInfo, ServerMessage } from "@hoggie/shared";
 import { log } from "../log.ts";
 import type { AppConfig } from "../config.ts";
 import type { World } from "../world/world.ts";
@@ -17,9 +17,9 @@ import type { Connection } from "../net/connection.ts";
 import { LiveWorld, type Player } from "./liveWorld.ts";
 import {
   V1_CLASSES,
-  V1_RACES,
   className,
   createCharacter,
+  raceAllowsClass,
   raceName,
   type Character,
 } from "./character.ts";
@@ -128,7 +128,32 @@ export class Session {
 
     this.state = "choosing";
     this.send({ t: "auth_ok", accountId: this.account.id, email: this.account.email });
+    this.sendCatalog();
     await this.sendCharList();
+  }
+
+  /** Send the data-driven creation catalog: every selectable race + the currently-open classes. */
+  private sendCatalog(): void {
+    const races: RaceInfo[] = [...this.svc.world.races.values()]
+      .sort((a, b) => a.id - b.id)
+      .map((r) => ({
+        id: r.id,
+        name: r.name,
+        statPlus: r.statPlus,
+        resistant: r.resistant,
+        susceptible: r.susceptible,
+        expMultPct: r.expMultPct,
+        align: r.align,
+        allowedClasses: r.allowedClasses,
+        restrictedClasses: r.restrictedClasses,
+        description: r.description,
+      }));
+    const classes: ClassInfo[] = [...this.svc.world.classes.values()]
+      .filter((c) => (V1_CLASSES as readonly string[]).includes(c.name))
+      .sort((a, b) => a.id - b.id)
+      .map((c) => ({ id: c.id, name: c.name, description: "" }));
+    const catalog: Catalog = { races, classes };
+    this.send({ t: "catalog", catalog });
   }
 
   private async sendCharList(): Promise<void> {
@@ -144,13 +169,14 @@ export class Session {
     }
     const race = this.svc.world.races.get(raceId);
     const cls = this.svc.world.classes.get(classId);
-    if (!race || !(V1_RACES as readonly string[]).includes(race.name)) {
-      return this.send({ t: "error", message: `pick a race: ${V1_RACES.join(", ")}` });
+    if (!race) {
+      return this.send({ t: "error", message: "pick a valid race" });
     }
+    // Classes are still the v1 trio until the classes pass; races are all open now.
     if (!cls || !(V1_CLASSES as readonly string[]).includes(cls.name)) {
       return this.send({ t: "error", message: `pick a class: ${V1_CLASSES.join(", ")}` });
     }
-    if (!race.allowedClasses.includes(cls.name)) {
+    if (!raceAllowsClass(race, cls.name)) {
       return this.send({ t: "error", message: `a ${race.name} cannot be a ${cls.name}` });
     }
     if (await this.svc.db.isNameTaken(name)) {

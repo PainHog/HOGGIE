@@ -167,8 +167,13 @@ export interface RaceDef {
   resistBits?: number;
   immuneBits?: number;
   susceptBits?: number;
+  /** Decoded damage/effect classes this race resists / is susceptible to (systems-spec §1.5). */
+  resistant: string[];
+  susceptible: string[];
   allowedClasses: string[];
   restrictedClasses: string[];
+  /** The MUD's own help prose for the race (empty when the source has no help entry). */
+  description: string;
 }
 
 /** A world reset: how the area repopulates (spawns mobs, places/gives/equips objects). */

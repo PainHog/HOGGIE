@@ -50,7 +50,10 @@
    "Rogue",
    "Archmagi"
   ],
-  "restricted_classes": []
+  "restricted_classes": [],
+  "resistant": [],
+  "susceptible": [],
+  "description": "In the beginning there were Humans, Elves and Ogres. Humans are the most\nnumerous and the plainest race in the Realms. Although possessing no special\nabilities or bonuses, they are the most adaptable and flexible race and are\nable to assume any class. Humans are bipedal creatures with two arms\nand a roundish head. Their height, weight, eye and hair color vary greatly. It\nis rare to find any two who look exactly alike. In dark times Humans and Elves\nmated creating a new race, called HALF-ELVES (see help HALF-ELF HALFELF) and\nHumans and Ogres mated created the Half-Ogre Race.  (See help HALF-OGRE, or\nhelp HALFOGRE)\n\nHumans receive the normal experience bonus, other races may receive more or\nless than human characters.\n\nHumans can be a Mage, Cleric, Thief, Warrior, Thug, Druid, Ranger, Monk,\nDiabolist, Conjurer, Jester or Shaman."
  },
  {
   "file": "Elf.race",
@@ -104,7 +107,12 @@
   "restricted_classes": [
    "Diabolist",
    "Shaman"
-  ]
+  ],
+  "resistant": [
+   "cold"
+  ],
+  "susceptible": [],
+  "description": "Also called Aquatic Elves, they are akin to mermen as land elves are\nakin to men.  Found almost exclusively among heavy weed beds in quiet,\nsheltered, salty waters, they are great friends of the dolphins.  The\nrace historically prefers to fashion caverns in lagoon bottoms and\nreefs in which to live and work, but the reality of the today's Realms\nhas forced them into the general populace.\n\nThe race is humanoid in appearance, with gill slits on the throat and\ngreenish-silver skin and green or blue-green hair.  Sea elves have an\ninate ability to notice magical auras as well as breath under water.\nThey are resistant to the colds of the deep, but fire harms them.\n\nSea-elves receive 93% of the normal experience award.\n\nSea-elves can be a Mage, Cleric, Thief, Warrior, Druid, Ranger, Monk,\nConjurer or Jester."
  },
  {
   "file": "Dwarf.race",
@@ -158,7 +166,10 @@
    "Diabolist",
    "Jester",
    "Shaman"
-  ]
+  ],
+  "resistant": [],
+  "susceptible": [],
+  "description": "Dwarves are relatively short (in Human terms), stocky and powerfully-built\ncreatures.  Long-lived and extremely sturdy, they are known equally as well\nfor their hardiness as for their cantankerous personalities.  Their thick,\nstout frames give them high strength and stamina, but does not slow them down.\nThis race has produced some legendary warriors.  Being that they spend most\nof their time underground, they have the ability of infravision.\n\nDwarves average from four foot five inches and five feet tall, with dusky\ncomplexions and thick, fur-covered torsos and limbs.  Both men and women\nproudly wear and take pride in their beards.\n\nDwarves get 96% of the normal experience award.\n\nDwarves can be a Cleric, Thief, Warrior, Thug, Druid, Ranger or Conjurer."
  },
  {
   "file": "Halfling.race",
@@ -212,7 +223,10 @@
    "Diabolist",
    "Conjurer",
    "Shaman"
-  ]
+  ],
+  "resistant": [],
+  "susceptible": [],
+  "description": "Stout, round, open-minded and very elusive the Hobbit has a level\nof dexterity which is only equal to his wit. Many enjoy the thrill of\nreading a good book, or telling stories by the fire. Many halflings,\nbecause of this, tend to avoid adventuring, though some rare hobbits\nchoose the path of the Bard, or storyteller, for their keen intellect\nserves them well. This intelligence, coupled by a surprising\ndetermination makes them a curious (though somewhat underpowered)\nally.  They have the abilities of sneak and detect evil.\n\nHalflings have compact bodies and thick, long limbs, and usually have\nvery hairy feet. Eye color range from blue, brown, green, and any shade\nin between.\n\nHalflings gain 110% of the normal experience gain.\n\nHalflings can be a Cleric, Thief, Warrior, Druid, Ranger or Jester."
  },
  {
   "file": "Pixie.race",
@@ -266,7 +280,12 @@
    "Monk",
    "Conjurer",
    "Shaman"
-  ]
+  ],
+  "resistant": [],
+  "susceptible": [
+   "blunt"
+  ],
+  "description": "Pixies are small Elfin creatures with gossamer wings.  They are very much\nmore intelligent than most other races, but their strength and constitution\nsuffers from their small size.  Because of this, the Pixie often choose the\ncalling of magic and excels especially in the arts of the Mage; the mind of\nthe Pixie knows no equal.  Pixies possess the obvious ability of flight.\nDue to their fragility, blunt weapons seem to do extra damage to them.\n\nPixies are slight of stature, standing less than 2 feet in height.  Both\ntheir skin and hair color varies from among all the colors of the rainbow.\n\nDue to their high intelligence, Pixies learn at 115% of the normal experience\nrate.\n\nPixies can be a Mage, Cleric, Thief, Druid, Diabolist and Jester."
  },
  {
   "file": "Minotaur.race",
@@ -320,7 +339,16 @@
    "Monk",
    "Conjurer",
    "Jester"
-  ]
+  ],
+  "resistant": [
+   "blunt",
+   "pierce",
+   "slash"
+  ],
+  "susceptible": [
+   "nonmagic"
+  ],
+  "description": "Living in the islands far to the south of the Realm, Minotaurs are large,\nbull-like humanoids.  Very strong and quick, they are also quite intelligent,\nand can work magic spells as well as many other races.\n\nThey have the ability to see heat in the dark, and their thick skin can resist\nthe attacks of many different weapon types.  However, they have some type of\nstrange allergies to nonmagical weapons, which counters some of that\nresistance.\n\nMinotaurs get 90% of the normal experience bonus.\n\nMinotaurs can only a Mage, Thief, Warrior, Thug, Druid, Ranger, Diabolist,\nor Shaman."
  },
  {
   "file": "Half-Ogre.race",
@@ -374,7 +402,12 @@
    "Diabolist",
    "Conjurer",
    "Jester"
-  ]
+  ],
+  "resistant": [
+   "pierce"
+  ],
+  "susceptible": [],
+  "description": "The Half-Ogre is a result of breeding during the dark days with humans,\nwhen pure-blooded Ogres were known for raping and looting Human villages.\nAs a result of this, the Half-Ogre stands from six to nine feet tall in\nheight and is known for its muscle-packed body that can weigh from three\nto four hundred pounds.  Most are relatively hairless, their bodies are\ncovered with small, boney growths, and their disproportionately long\nlimbs gives them a somewhat simian appearance.\n\nThis offspring of humans and Ogres has inherited great physical abilities:\nan aptitude for aggression from its Ogre lineage, inherent infravision to\nassist in traversing darkness, and though slightly smaller than pure-bred\nOgres it nevertheless boasts an awesome strength.  Being territorial, most\nHalf-Ogres will readily engage in battle to establish superiority over any\nit encounters.  All in all a race best suited for the role of pure fighter.\nIts rough skin resists pointy weapons, much to many a thieves surprise.\n\nHalf-Ogres are fairly dim, and only get 90% of the normal experience awards.\n\nHalf-Ogres can be a Thief, Warrior, Thug, Druid or Shaman."
  },
  {
   "file": "Half-Orc.race",
@@ -428,7 +461,10 @@
    "Monk",
    "Conjurer",
    "Jester"
-  ]
+  ],
+  "resistant": [],
+  "susceptible": [],
+  "description": "A recent mingling of Orcish and Human blood arising as the darker races\nhave encroached further upon the remaining settled areas, most members\nof this half-blooded race are distinctly more Orcish than Human in both\nappearance and behavior.  Large and dull of wit, with short but broad\nbodies, their poor mental and physical dexterity is offset by an iron\nconstitution.  Though some have dabbled in the sorcerous arts due to\ntheir human influence, brute combat is is still the natural call which\nstirs in the soul of the Half-Orc.  Half-Orcs also seem to have an uncanny\nluck about them, which explains a lot of their survival.\n\nThough not as broad nor powerful as full-blood Orcs, Half-Orcs usually\nretain their wider bodies, longer, bowed limbs and heavier musculature.\nA ridged brow crowned by bushy eyebrows conceals small, squinting eyes;\nbelow a snout-like noses opens a maw filled with crooked fangs; dark\nskin emanating a rancid odor; their presence disgusts civilized races.\nStanding from five to seven feet tall and averaging two hundred pounds,\nan altogether fearsome race.\n\nHalf-Orcs only get 95% of the normal experience award.\n\nHalf-Orcs can be a Cleric, Thief, Warrior, Thug, Druid, Diabolist or Shaman."
  },
  {
   "file": "Half-Troll.race",
@@ -482,7 +518,17 @@
    "Monk",
    "Conjurer",
    "Jester"
-  ]
+  ],
+  "resistant": [
+   "blunt",
+   "pierce",
+   "slash"
+  ],
+  "susceptible": [
+   "fire",
+   "acid"
+  ],
+  "description": "An intermingling (carried out in the darker lands of the Realms) of the\nblood of the Troll with that of Humans, the Half-troll is as deadly as\nit is hideous.  Though considerably smaller than full-blood Trolls, the\nHalf-troll often stands well over eight feet in height and carries over\nthree hundred pounds on its heavily-muscled frame.  Though naturally of\nlow wisdom, the race was sorcerously imbued with a wicked intelligence\nand the ability to see naturally in the darkness.  Half-trolls usually\nmake poor pure magic users, and suffer from an unusually low dexterity.\nYet their boundless energy and high intellect create one of the most\ncunning physical beasts of the Realms in experienced hands.\nWhile Half-Trolls can't regenerate as their full-blooded parents can, they\nare able to reduce the amount of damage done from most weapons naturally.\n\nOwing in part to the black blood which courses through their heavy veins,\nthe heavily-scaled skin of the Half-troll ranges in color from a charcoal\ngrey to a deep, blackish green.  Half-trolls revel in the fright of their\nappearance, often wearing their hair in battle-braids and emblazoning\nthemselves with brands and tattoos to accentuate the effect.\n\nHalf-Trolls get 90% of the normal experience bonus.\n\nHalf-Trolls can be a Mage, Thief, Warrior, Thug, Druid, Diabolist or Shaman."
  },
  {
   "file": "Half-Elf.race",
@@ -535,7 +581,12 @@
    "Rogue",
    "Archmagi"
   ],
-  "restricted_classes": []
+  "restricted_classes": [],
+  "resistant": [
+   "cold"
+  ],
+  "susceptible": [],
+  "description": "These beautiful creatures are the result of the mixing of human and Elven\nblood.  Though the resulting Half-Elf is not as intelligent as the pure-\nblooded Elf, nor as hardy as the full-blooded Human, this mix serves quite\nwell in a variety of classes which require the standards of both mental\nand physical prowess.  Their beautiful almond eyes enable them to discern\nobjects in the darkness.  They also resist cold like elves do.\n\nNot as tall as the pure Elf, they range from five feet six inches to six\nfeet five inches, with a heavier musculature than their ancestors.\n\nHalf-Elves gain 105% more experience than pure humans do.\n\nHalf-Elves can be a Mage, Cleric, Thief, Warrior, Thug, Druid, Ranger, Monk,\nDiabolist, Conjurer, Jester or Shaman."
  },
  {
   "file": "Gith.race",
@@ -589,7 +640,10 @@
    "Conjurer",
    "Jester",
    "Shaman"
-  ]
+  ],
+  "resistant": [],
+  "susceptible": [],
+  "description": "The Gith are a race descended from humans.  Once long ago, they were a\npeaceful civilization of humans that were captured by mind flayers and\ntormented for centuries.  Eventually, a savior named Gith led them to\nfreedom, yet their bodies had been flayed by the mental powers of the\nillithids.  The Gith found themselves, stronger, quicker, luckier and\nsmarter than average humans, yet they had lost much of their faith,\nwisdom, stamina, and charisma.  They can see the invisible.\n\nThey had yellowed skin and were very long of limb.  Sunken eyes peered\nfrom yellowed sockets, now strangely capable of naturally detecting\ninvisible things.  The Gith race has split into three distinct groups\nrecently.  The good, the Githzerai, the selfish neutral, the Pirates\nof Gith, and the evil, the Githyanki.\n\nGith gain 106% of the normal experience award.\n\nGith can be a Mage, Cleric, Thief, Warrior, Thug, Monk or Diabolist."
  },
  {
   "file": "Drow.race",
@@ -643,7 +697,12 @@
    "Conjurer",
    "Jester",
    "Shaman"
-  ]
+  ],
+  "resistant": [
+   "poison"
+  ],
+  "susceptible": [],
+  "description": "Drow are the darker, more evil cousins of Elves.  They were once part of\nthe happy community of Elves which roam the forests today, but have long\nsince moved under the ground, building vast subterranean cities and\ncomplex networks of caves.\n\nDrow have black skin and white hair, and are moderately weaker and have\na more slight constitution than average humans.  Still, like all Elves,\nthey have a slightly higher dexterity than men.  They are also resistant\nto poison.\n\nMembers of this race specialize in spell casting, and have thus developed\na very high intelligence.  Being creatures of darkness the Drow tend to\nfight more proficiently in the darkness, and have innate infravision with\nwhich to discern objects and living things in the absence of light.\n\nDrow gain 98% of the normal experience award.\n\nDrow can be a Mage, Cleric, Thief, Warrior, Thug, Monk or Diabolist."
  },
  {
   "file": "Sea-Elf.race",
@@ -697,7 +756,14 @@
    "Thug",
    "Diabolist",
    "Shaman"
-  ]
+  ],
+  "resistant": [
+   "cold"
+  ],
+  "susceptible": [
+   "fire"
+  ],
+  "description": "Also called Aquatic Elves, they are akin to mermen as land elves are\nakin to men.  Found almost exclusively among heavy weed beds in quiet,\nsheltered, salty waters, they are great friends of the dolphins.  The\nrace historically prefers to fashion caverns in lagoon bottoms and\nreefs in which to live and work, but the reality of the today's Realms\nhas forced them into the general populace.\n\nThe race is humanoid in appearance, with gill slits on the throat and\ngreenish-silver skin and green or blue-green hair.  Sea elves have an\ninate ability to notice magical auras as well as breath under water.\nThey are resistant to the colds of the deep, but fire harms them.\n\nSea-elves receive 93% of the normal experience award.\n\nSea-elves can be a Mage, Cleric, Thief, Warrior, Druid, Ranger, Monk,\nConjurer or Jester."
  },
  {
   "file": "Lizardman.race",
@@ -751,58 +817,12 @@
    "Monk",
    "Conjurer",
    "Jester"
-  ]
- },
- {
-  "file": "Deep-Gnome.race",
-  "where_name_count": 0,
-  "name": "Deep-Gnome",
-  "id": 14,
-  "str_plus": 0,
-  "dex_plus": 0,
-  "wis_plus": -1,
-  "int_plus": 1,
-  "con_plus": 0,
-  "cha_plus": -3,
-  "lck_plus": 2,
-  "hit_plus": 0,
-  "mana_plus": 0,
-  "affected_bits": 16777760,
-  "resist_bits": 0,
-  "suscept_bits": 12,
-  "language_bits": 0,
-  "align": 0,
-  "min_align": -250,
-  "max_align": 1000,
-  "ac_plus": 0,
-  "exp_mult_pct": 105,
-  "attacks_bits": 0,
-  "defenses_bits": 0,
-  "height": 38,
-  "weight": 80,
-  "hunger_mod": 0,
-  "thirst_mod": 0,
-  "class_restriction_bits": 1023,
-  "allowed_classes": [
-   "Jester",
-   "Shaman",
-   "Champion",
-   "Bishop",
-   "Rogue",
-   "Archmagi"
   ],
-  "restricted_classes": [
-   "Mage",
-   "Cleric",
-   "Thief",
-   "Warrior",
-   "Thug",
-   "Druid",
-   "Ranger",
-   "Monk",
-   "Diabolist",
-   "Conjurer"
-  ]
+  "resistant": [
+   "slash"
+  ],
+  "susceptible": [],
+  "description": "Lizardmen are semi-aquatic, breathing air but often dwelling totally\nunderwater.  They are often noted to use underwater caves as their\nlair, and are typically found in swamps, marshes, and similar places.\nMembers of this race band together in rough tribal form; they are\nomnivores, and are likely to prefer human flesh to other foods.\n\nThis race, of course, has the innate ability to breath under water.\nThey get hungry and thirsty faster than other races.  Their scaly skin\nhelps shed the blows of slashing weapons.  They can swing their spiked\ntail in combat.\n\nLizardmen get 110% of the normal experience award.\n\nLizardmen can be a Mage, Cleric, Thief, Warrior, Druid, Ranger, Diabolist\nor Shaman."
  },
  {
   "file": "Gnome.race",
@@ -856,7 +876,14 @@
    "Monk",
    "Diabolist",
    "Shaman"
-  ]
+  ],
+  "resistant": [
+   "energy"
+  ],
+  "susceptible": [
+   "fire"
+  ],
+  "description": "Gnomes are a quirky demi-human race.  Though not the mightiest of\nraces, they resist energy attacks, but are susceptible to fire.\nThey can see both magical auras and in the infrared spectrum.\n\nGnomes usually focus in the magical or clerical arts, though a few\nrogues have ventured into the arts of thieving (albeit often not\nvery well.)\n\nGnomes are a short, stocky race, similar to their dwarven cousins.\nMost often prefer an evening at home with a magical tome, a loaf of\npipeweed bread and a cup of ale over venturing out to battle.\n\nGnomes get 105% of the normal experience award.\n\nGnomes can be a Mage, Cleric, Thief, Druid, Ranger, Conjurer or Jester."
  },
  {
   "file": "Ghoul.race",
@@ -909,7 +936,13 @@
    "Rogue",
    "Archmagi"
   ],
-  "restricted_classes": []
+  "restricted_classes": [],
+  "resistant": [
+   "fire",
+   "cold"
+  ],
+  "susceptible": [],
+  "description": "Ghouls are the elder race of this world, and the first of the races\nto have mastered the skills of magic.  They have a wealth of knowledge\nlocated in their libraries.  Ghouls accidentally let Great Evil Powers into\nthe realms at one point.  After much battle, they contained these forces\nand now keep guard over them, deep under their homecaves.\n\nGhouls grow to be a bit larger than humans, and have the ability to detect\nhidden objects and creatures.  Their strange skin gives them protection\nagainst fire and cold, a useful trait when herding Deep Ones.\n\nGhouls have access to a lot of knowledge, and therefore need to experience\nthings a bit more than the other races.  They only receive 80% of the normal\nexperience point award.\n\nGhouls can be a Mage, Cleric, Thief, Warrior, Thug, Druid, Ranger, Monk,\nDiabolist, Conjurer, Jester or Shaman."
  },
  {
   "file": "Goblin.race",
@@ -963,7 +996,14 @@
    "Ranger",
    "Monk",
    "Conjurer"
-  ]
+  ],
+  "resistant": [
+   "fire"
+  ],
+  "susceptible": [
+   "cold"
+  ],
+  "description": "Goblins are small, intelligent and quick. Standing only about three feet tall,\nthey aren't much bigger than a pixie in size, yet are as strong as any human.\nTheir small stature makes them swift and agile, almost perfect thieves, and\neven though they don't look like it, their intelligence is slightly above\naverage.\n\nHaving natural low wisdom, they fail at the clerical arts, making up for it\nonly by their increased intelligence. The ways of the mage are not out of\nreach for a Goblin.\n\nMostly living in colonies, they dwell deep beneath the earth and due to their\ntime spent under ground, they have developed the ability to see better than\nothers in the dark. Working with metal and fire, much like the dwarves, they\nhave also gained the ability to resist heat better than most, yet lack the\nability to withstand the colder temperatures.\n\nGoblins receive 102% of the normal experience award.\n\nGoblins can be a Mage, Thief, Warrior, Thug, Diabolist, Jester or Shaman."
  },
  {
   "file": "Wolfen.race",
@@ -1017,7 +1057,16 @@
    "Monk",
    "Conjurer",
    "Jester"
-  ]
+  ],
+  "resistant": [
+   "cold",
+   "poison"
+  ],
+  "susceptible": [
+   "fire",
+   "energy"
+  ],
+  "description": "Wolfen are a strange race, seldom seen in the Realm.  It is said they come\nfrom a land far across the great sea, but noone has ever returned with\nproof...\n\nStronger, faster, and ever smarter than most other races, the wolfen is feared\nby others.  Their luck seems to leave them at the worst times.  Being in tune\nwith magic and nature, they can see heat in dark rooms, and can understand all\nlanguages.\n\nWolfen grow to be quite large, and due to their nature and build, are\nresistant to cold and poison.  Due to the magical nature of a wolfen, they are\nsusceptible to fire and energy.\n\nAn elder race, they hate the Ghouls with a passion and blame them for all of\ntheir troubles.  They only receive 85% of the normal experience point award.\n\nWolfen can be a Mage, Thief, Warrior, Thug, Druid, Ranger, Diabolist or\nShaman."
  },
  {
   "file": "Shuri.race",
@@ -1071,7 +1120,14 @@
    "Bishop",
    "Rogue",
    "Archmagi"
-  ]
+  ],
+  "resistant": [
+   "nonmagic"
+  ],
+  "susceptible": [
+   "electricity"
+  ],
+  "description": "The Shuri have long lived in seclusion in the southern continent, preferring\nto be alone rather than deal with the minotaur or wolfen. Naturally athletic\nwith amazing balance and dexterity, the Shuri have survived by their natural\nprowess as hunters but also their deep attunement to the natural. Due to their\nlife among the trees, lounging in the sun or stalking prey, the Shuri can\nnaturally hide. Their thick fur makes them resistant to basic attacks but they\nare severely fearful and suspectible to electricity.\n\nShuri get 95% of the normal experience award.\n\nShuri can be a Warrior, Thug, Thief, Ranger, Monk, Druid or Shaman."
  },
  {
   "file": "Gulran.race",
@@ -1125,7 +1181,17 @@
    "Bishop",
    "Rogue",
    "Archmagi"
-  ]
+  ],
+  "resistant": [
+   "blunt",
+   "pierce",
+   "nonmagic"
+  ],
+  "susceptible": [
+   "energy",
+   "magic"
+  ],
+  "description": "The Gulran have made their home in the high mountains, long since battling\ndwarves, orcs, drow, and kobols for the right to control the Ironkores. Gulran\nare massive creatures, with the most gigantic strength and constitution to\nmatch. However, their large size limits their dexterity a great deal. Gulran\nare quite dull, being of lowered intelligence and wisdom, but they make up for\nthis with their great strength. They are naturally weak to magic and energy,\nbut are very resistant to physical attacks.\n\nGulrans get 90% of the normal experience award.\n\nGulrans can be a Warrior, Ranger, Thug, Druid, Shaman or Diabolist."
  },
  {
   "file": "Zephyr.race",
@@ -1179,7 +1245,15 @@
    "Bishop",
    "Rogue",
    "Archmagi"
-  ]
+  ],
+  "resistant": [
+   "electricity",
+   "drain"
+  ],
+  "susceptible": [
+   "blunt"
+  ],
+  "description": "The Zephyr have lived high in the mountains or forest tops, far away from the\ngiants or Shuri. The Zephyr, being avian in origin, are naturally able to fly.\nThe Zephyr are incredibly swift, intelligence, and wise. Yet to sustain flight\nthey are quite fragile with limited strength and endurance. The Zephyr are\nquite well protected against lightning and draining energies but are very weak\nagainst crushing weapons as their bones are hollow.\n\nZephyrs get 100% of the normal experience award.\n\nZephyrs can be a Warrior, Ranger, Monk, Thief, Mage, Conjurer, Cleric or\nShaman."
  },
  {
   "file": "Jinn.race",
@@ -1233,7 +1307,23 @@
    "Bishop",
    "Rogue",
    "Archmagi"
-  ]
+  ],
+  "resistant": [
+   "fire",
+   "cold",
+   "electricity",
+   "energy",
+   "acid",
+   "magic"
+  ],
+  "susceptible": [
+   "blunt",
+   "pierce",
+   "slash",
+   "nonmagic",
+   "paralysis"
+  ],
+  "description": "The Jinn are ancient creatures of pure magic. They have very little substance\nto them, made of mostly energy and air. Often used as slaves by the more\nmagically inclined races, the Jinn have recently broken free and moved out\ninto the world. The Jinn are by far the most intelligent and wise of any\nmortal being and are unrivaled magic users. However, they have little physical\nabilities with no strength or constitution to speak of. They are very weak to\nall forms of physical damage but are quite resistant to any form of magic.\n\nJinns get 110% of the normal experience award.\n\nJinns can be a Mage, Druid, Shaman, Diabolist, Cleric or Conjurer."
  },
  {
   "file": "Ahpock.race",
@@ -1287,6 +1377,80 @@
    "Bishop",
    "Rogue",
    "Archmagi"
-  ]
+  ],
+  "resistant": [
+   "blunt",
+   "pierce",
+   "slash",
+   "nonmagic",
+   "paralysis"
+  ],
+  "susceptible": [
+   "fire",
+   "cold",
+   "electricity",
+   "energy",
+   "acid",
+   "drain",
+   "magic"
+  ],
+  "description": "The Ahpock, recently freed from their captivity by the Elder Spawn, have moved\nout into the world to find their place. The Ahpock are the epitome of\nsoldiers, trained from birth by the spawn to be the greatest fighters. Despite\ntheir normal size, the Ahpock are incredibly strength, endurant, and quick.\nHowever, the spawn used selective breeding to ensure they were dimwitted,\nfoolish, unlucky, and crude. The Ahpock are weak to magic in all aspects, a\ntool of control by the spawn, but are completely resistant to any physical\nattack.\n\nAhphocks get 110% of the normal experience award.\n\nAhpocks can be a Warrior, Monk, Ranger, Thief or Thug."
+ },
+ {
+  "file": "Deep-Gnome.race",
+  "where_name_count": 0,
+  "name": "Deep-Gnome",
+  "id": 23,
+  "str_plus": 0,
+  "dex_plus": 0,
+  "wis_plus": -1,
+  "int_plus": 1,
+  "con_plus": 0,
+  "cha_plus": -3,
+  "lck_plus": 2,
+  "hit_plus": 0,
+  "mana_plus": 0,
+  "affected_bits": 16777760,
+  "resist_bits": 0,
+  "suscept_bits": 12,
+  "language_bits": 0,
+  "align": 0,
+  "min_align": -250,
+  "max_align": 1000,
+  "ac_plus": 0,
+  "exp_mult_pct": 105,
+  "attacks_bits": 0,
+  "defenses_bits": 0,
+  "height": 38,
+  "weight": 80,
+  "hunger_mod": 0,
+  "thirst_mod": 0,
+  "class_restriction_bits": 1023,
+  "allowed_classes": [
+   "Jester",
+   "Shaman",
+   "Champion",
+   "Bishop",
+   "Rogue",
+   "Archmagi"
+  ],
+  "restricted_classes": [
+   "Mage",
+   "Cleric",
+   "Thief",
+   "Warrior",
+   "Thug",
+   "Druid",
+   "Ranger",
+   "Monk",
+   "Diabolist",
+   "Conjurer"
+  ],
+  "resistant": [],
+  "susceptible": [
+   "electricity",
+   "energy"
+  ],
+  "description": ""
  }
 ]

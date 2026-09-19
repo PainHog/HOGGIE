@@ -2,7 +2,7 @@
  * Runtime character: the live, in-memory representation of a player's avatar. Mirrors the
  * `characters` DB row plus live location. Persistence mapping lives in db/repos.ts.
  */
-import type { Stats } from "../world/model.ts";
+import type { RaceDef, Stats } from "../world/model.ts";
 import type { World } from "../world/world.ts";
 
 export interface Character {
@@ -35,6 +35,8 @@ export const V1_CLASSES = ["Warrior", "Mage", "Cleric"] as const;
 
 /** SMAUG's default stat baseline before racial modifiers. */
 const BASE_STAT = 13;
+
+const clamp = (n: number, lo: number, hi: number): number => Math.max(lo, Math.min(hi, n));
 
 /** A gentle stat modifier around the 13 baseline; the full app-tables land in Phase 3. */
 export function statMod(value: number): number {
@@ -100,6 +102,10 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
   const stats = rollStartingStats(race?.statPlus ?? {});
   const vit = startingVitals(world, input.classId, stats);
   const title = cls?.titles.find((t) => t.level === 1)?.male ?? cls?.name;
+  // Racial mana bonus (e.g. Elf +10, Ghoul +50) folds into the starting mana pool.
+  const maxMana = Math.max(0, vit.maxMana + (race?.manaPlus ?? 0));
+  // Starting alignment is the race default, clamped to the race's allowed band.
+  const alignment = clamp(race?.align ?? 0, race?.minAlign ?? -1000, race?.maxAlign ?? 1000);
   return {
     id: input.id,
     accountId: input.accountId,
@@ -108,12 +114,12 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     classId: input.classId,
     level: 1,
     exp: 0,
-    alignment: race?.align ?? 0,
+    alignment,
     stats,
     hp: vit.maxHp,
     maxHp: vit.maxHp,
-    mana: vit.maxMana,
-    maxMana: vit.maxMana,
+    mana: maxMana,
+    maxMana,
     move: vit.maxMove,
     maxMove: vit.maxMove,
     gold: 0,
@@ -133,6 +139,11 @@ export function expToReach(world: World, classId: number, level: number): number
 /** exp remaining until the next level (never negative). */
 export function expToNextLevel(world: World, ch: Character): number {
   return Math.max(0, expToReach(world, ch.classId, ch.level + 1) - ch.exp);
+}
+
+/** A race may take a class only if it's in its allowed set and not in its restricted set. */
+export function raceAllowsClass(race: RaceDef, className: string): boolean {
+  return !race.restrictedClasses.includes(className) && race.allowedClasses.includes(className);
 }
 
 export function raceName(world: World, ch: Character): string {

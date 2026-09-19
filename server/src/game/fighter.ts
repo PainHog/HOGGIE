@@ -61,12 +61,18 @@ function mobThac0Mod(level: number): number {
 export class PlayerFighter implements Fighter {
   readonly isPlayer = true;
   fighting: Fighter | null = null;
+  private readonly resistSet: ReadonlySet<string>;
+  private readonly susceptSet: ReadonlySet<string>;
 
   constructor(
     readonly character: Character,
     private readonly world: World,
     private readonly sendMsg: (msg: ServerMessage) => void,
-  ) {}
+  ) {
+    const race = world.races.get(character.raceId);
+    this.resistSet = new Set(race?.resistant ?? []);
+    this.susceptSet = new Set(race?.susceptible ?? []);
+  }
 
   get id() { return this.character.id; }
   get name() { return this.character.name; }
@@ -81,17 +87,19 @@ export class PlayerFighter implements Fighter {
   get stats() { return this.character.stats; }
   get alive() { return this.character.hp > 0; }
 
-  // Naked baseline; worn armor (which drives AC and damage absorption) is roadmap.
-  get ac() { return 100; }
-  get hitroll() { return statMod(this.character.stats.str) + Math.floor(this.character.level / 10); }
+  private get race() { return this.world.races.get(this.character.raceId); }
+
+  // Naked baseline + racial AC modifier; worn armor is roadmap.
+  get ac() { return 100 + (this.race?.acPlus ?? 0); }
+  get hitroll() { return statMod(this.character.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0); }
   get damroll() { return statMod(this.character.stats.str) + Math.floor(this.character.level / 8); }
   get thac0Mod() { return this.world.classes.get(this.character.classId)?.thac0Mod ?? 0; }
   get profBonus() { return -2; } // unarmed / no weapon proficiency yet
   get numAttacks() { return 1; } // extra attacks are skill-gated (roadmap)
   get damageType() { return "blunt"; }
-  get resist(): ReadonlySet<string> { return EMPTY; }
+  get resist(): ReadonlySet<string> { return this.resistSet; }
   get immune(): ReadonlySet<string> { return EMPTY; }
-  get suscept(): ReadonlySet<string> { return EMPTY; }
+  get suscept(): ReadonlySet<string> { return this.susceptSet; }
 
   rollBaseDamage(rng: Rng): number {
     // barehand dice grow slowly with level

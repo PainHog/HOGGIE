@@ -44,6 +44,7 @@ export function GameRoot({
     return (
       <CharacterScreen
         characters={state.characters}
+        catalog={state.catalog}
         notice={state.notice}
         onSelect={(id) => connRef.current?.send({ t: "char_select", characterId: id })}
         onCreate={(name, raceId, classId) =>

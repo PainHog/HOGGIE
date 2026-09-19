@@ -168,8 +168,11 @@ function mapRace(r: Json): RaceDef {
     resistBits: r.resist_bits,
     immuneBits: r.immune_bits,
     susceptBits: r.suscept_bits,
+    resistant: r.resistant ?? [],
+    susceptible: r.susceptible ?? [],
     allowedClasses: r.allowed_classes ?? [],
     restrictedClasses: r.restricted_classes ?? [],
+    description: r.description ?? "",
   };
 }
 

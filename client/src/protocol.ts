@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 3;
+export const PROTOCOL_VERSION = 4;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -13,6 +13,30 @@ export interface CharacterSummary {
   race: string;
   className: string;
   level: number;
+}
+
+export interface RaceInfo {
+  id: number;
+  name: string;
+  statPlus: { str?: number; int?: number; wis?: number; dex?: number; con?: number; cha?: number; lck?: number };
+  resistant: string[];
+  susceptible: string[];
+  expMultPct: number;
+  align: number;
+  allowedClasses: string[];
+  restrictedClasses: string[];
+  description: string;
+}
+
+export interface ClassInfo {
+  id: number;
+  name: string;
+  description: string;
+}
+
+export interface Catalog {
+  races: RaceInfo[];
+  classes: ClassInfo[];
 }
 
 export interface RoomExit {
@@ -85,6 +109,7 @@ export type ServerMessage =
   | { t: "auth_ok"; accountId: string; email: string | null }
   | { t: "auth_error"; message: string }
   | { t: "char_list"; characters: CharacterSummary[] }
+  | { t: "catalog"; catalog: Catalog }
   | { t: "entered"; character: CharacterSummary }
   | { t: "output"; lines: Line[] }
   | { t: "room"; room: RoomView }

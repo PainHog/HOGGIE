@@ -1,5 +1,6 @@
 /** Game UI state + reducer. Server messages are folded into this via applyMessage. */
 import type {
+  Catalog,
   CharacterSummary,
   CombatFx,
   Line,
@@ -34,6 +35,7 @@ export interface FxEvent {
 export interface GameState {
   phase: Phase;
   characters: CharacterSummary[];
+  catalog: Catalog | null; // selectable races/classes (data-driven creation)
   selfId: string | null; // our own character id (to tell our hits/wounds apart in fx)
   output: OutputLine[];
   room: RoomView | null;
@@ -48,6 +50,7 @@ export interface GameState {
 export const initialState: GameState = {
   phase: "connecting",
   characters: [],
+  catalog: null,
   selfId: null,
   output: [],
   room: null,
@@ -86,6 +89,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return { ...state, notice: m.message };
     case "char_list":
       return { ...state, characters: m.characters, phase: "characters" };
+    case "catalog":
+      return { ...state, catalog: m.catalog };
     case "entered":
       return { ...state, phase: "playing", notice: null, selfId: m.character.id };
     case "output":
