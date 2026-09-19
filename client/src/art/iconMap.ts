@@ -8,9 +8,18 @@ import type { IconName } from "./icons.generated";
 const KEYWORD_ICON: { match: string[]; icon: IconName }[] = [
   { match: ["rat", "vermin", "mouse", "rodent", "roach"], icon: "rat" },
   { match: ["dog", "wolf", "hound", "jackal", "hyena", "canine", "mutt", "worg"], icon: "wolf-head" },
+  { match: ["cat", "lion", "tiger", "panther", "leopard", "lynx", "feline", "cougar"], icon: "cat" },
   { match: ["snake", "serpent", "viper", "cobra", "adder", "python", "naga"], icon: "snake" },
+  { match: ["spider", "arachnid", "scorpion", "widow", "tarantula"], icon: "spider-alt" },
+  { match: ["bat", "vampire bat"], icon: "bat" },
+  { match: ["bird", "raven", "crow", "hawk", "eagle", "vulture", "owl", "falcon"], icon: "raven" },
+  { match: ["dragon", "drake", "wyrm", "wyvern", "reptile", "lizard", "salamander"], icon: "dragon-head" },
   { match: ["ghost", "spectre", "specter", "wraith", "shade", "spirit", "phantom", "ghoul", "zombie", "undead", "skeleton", "corpse", "wight", "lich"], icon: "spectre" },
   { match: ["imp", "demon", "devil", "fiend", "hellhound"], icon: "imp" },
+  { match: ["orc", "orcish"], icon: "orc-head" },
+  { match: ["goblin", "kobold", "gnoll"], icon: "goblin-head" },
+  { match: ["troll"], icon: "troll" },
+  { match: ["ogre", "giant", "titan", "cyclops", "golem"], icon: "ogre" },
   { match: ["guard", "soldier", "knight", "sentry", "watchman", "guardian", "warrior", "legionnaire"], icon: "guards" },
 ];
 
@@ -41,6 +50,7 @@ export const ICON = {
   gold: "two-coins",
   exp: "laurels",
   inventory: "knapsack",
+  skills: "magic-swirl",
   slotHead: "spartan-helmet",
   slotBody: "chest-armor",
   slotWeapon: "gladius",

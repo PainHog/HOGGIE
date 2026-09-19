@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 4 as const;
+export const PROTOCOL_VERSION = 5 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -164,6 +164,7 @@ export interface RoomMob {
   position: string; // standing / resting / sleeping / dead …
   keywords: string[]; // for client-side icon mapping (rat -> rat icon, …)
   effects?: string[]; // status-effect keys — spell-ready, empty in v1
+  shopkeeper?: boolean; // true when this mob runs a shop (drives the in-scene Trade affordance)
 }
 
 /** Another player present in the room, lightly enriched for the scene. */
@@ -232,6 +233,18 @@ export interface InventoryItem {
   name: string;
   itemType: string;
   cost: number;
+  /** The item's own description prose (empty when the source has none). Surfaced as a tooltip. */
+  description: string;
+}
+
+/** One learnable skill/spell on a character's class tree, with its help prose for tooltips. */
+export interface SkillInfo {
+  name: string;
+  type: string; // Spell | Skill | Tongue | Weapon
+  level: number; // level it unlocks
+  adept: number; // practice cap (%)
+  available: boolean; // level <= character level
+  description: string;
 }
 
 export type ServerMessage =
@@ -250,6 +263,8 @@ export type ServerMessage =
   | { t: "vitals"; vitals: Vitals }
   /** The player's carried items (for the inventory panel). */
   | { t: "inventory"; items: InventoryItem[] }
+  /** The character's class skill/spell tree (union of both classes when dual), for the skills panel. */
+  | { t: "skills"; label: string; skills: SkillInfo[] }
   /** Presentation-only combat event, paired with the narrative it visualises. */
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }

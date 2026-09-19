@@ -22,7 +22,10 @@ const SET = JSON.parse(
 );
 
 // Author's game-icons.net URL slug for building the canonical per-icon link.
-const AUTHOR_SLUG = { Delapouite: "delapouite", Lorc: "lorc", sbed: "sbed", Skoll: "skoll", Zeromancer: "zeromancer" };
+const AUTHOR_SLUG = {
+  Delapouite: "delapouite", Lorc: "lorc", sbed: "sbed", Skoll: "skoll", Zeromancer: "zeromancer",
+  "Caro Asercion": "caro-asercion", "Carl Olsen": "carl-olsen",
+};
 
 // slug -> { author (verified on game-icons.net), title, role (what the client uses it for) }.
 const USED = {
@@ -56,6 +59,26 @@ const USED = {
   "chest-armor":     { author: "Delapouite", title: "Chest armor",     role: "body equipment slot" },
   "position-marker": { author: "Delapouite", title: "Position marker", role: "minimap marker" },
   "tombstone":       { author: "sbed",       title: "Tombstone",       role: "death marker" },
+  // --- item-type glyphs (inventory panel, by item_type) ---
+  "round-potion":    { author: "Caro Asercion", title: "Round potion",    role: "potion / pill / salve item" },
+  "scroll-unfurled": { author: "Lorc",          title: "Scroll unfurled", role: "scroll item" },
+  "crystal-wand":    { author: "Lorc",          title: "Crystal wand",    role: "wand item" },
+  "wizard-staff":    { author: "Lorc",          title: "Wizard staff",    role: "staff item" },
+  "ring":            { author: "Delapouite",    title: "Ring",            role: "treasure / jewelry item" },
+  "meat":            { author: "Lorc",          title: "Meat",            role: "food item" },
+  "key":             { author: "Lorc",          title: "Key",             role: "key item" },
+  "torch":           { author: "Delapouite",    title: "Torch",           role: "light-source item" },
+  "locked-chest":    { author: "Lorc",          title: "Locked chest",    role: "container item" },
+  // --- extra creature tokens (keyword-mapped) ---
+  "bat":             { author: "Delapouite",    title: "Bat",             role: "bat enemy" },
+  "spider-alt":      { author: "Carl Olsen",    title: "Spider",          role: "spider / arachnid enemy" },
+  "raven":           { author: "Lorc",          title: "Raven",           role: "bird enemy" },
+  "dragon-head":     { author: "Lorc",          title: "Dragon head",     role: "dragon / reptile enemy" },
+  "orc-head":        { author: "Delapouite",    title: "Orc head",        role: "orc enemy" },
+  "ogre":            { author: "Delapouite",    title: "Ogre",            role: "ogre / giant enemy" },
+  "troll":           { author: "Skoll",         title: "Troll",           role: "troll enemy" },
+  "cat":             { author: "Lorc",          title: "Cat",             role: "feline enemy" },
+  "goblin-head":     { author: "Delapouite",    title: "Goblin head",     role: "goblin / kobold enemy" },
 };
 
 const viewBox = `0 0 ${SET.width ?? 512} ${SET.height ?? 512}`;

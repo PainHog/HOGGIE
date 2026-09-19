@@ -8,6 +8,7 @@ import type {
   RoomExit,
   RoomView,
   ServerMessage,
+  SkillInfo,
   Vitals,
 } from "./protocol";
 import { parseColorSpans } from "./protocol";
@@ -42,6 +43,8 @@ export interface GameState {
   room: RoomView | null;
   vitals: Vitals | null;
   inventory: InventoryItem[]; // what the character is carrying (inventory panel + shop)
+  skills: SkillInfo[]; // the character's class skill/spell tree (skills panel)
+  skillsLabel: string; // e.g. "Warrior" or "Warrior/Mage"
   notice: string | null;
   rooms: Record<number, KnownRoom>; // explored graph for the minimap
   mobHp: Record<string, number>; // mob instance id -> live hp fraction (0..1)
@@ -58,6 +61,8 @@ export const initialState: GameState = {
   room: null,
   vitals: null,
   inventory: [],
+  skills: [],
+  skillsLabel: "",
   notice: null,
   rooms: {},
   mobHp: {},
@@ -104,6 +109,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return { ...state, vitals: m.vitals };
     case "inventory":
       return { ...state, inventory: m.items };
+    case "skills":
+      return { ...state, skills: m.skills, skillsLabel: m.label };
     case "fx":
       return applyFx(state, m.fx);
     case "system":

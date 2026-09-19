@@ -5,7 +5,7 @@ API keys, $0). Each is one of exactly three license categories, as required:
 
 | Asset | Source | License | Attribution required? |
 |---|---|---|---|
-| UI icons / silhouettes (25) | [game-icons.net](https://game-icons.net/) via the `@iconify-json/game-icons` npm package | **CC BY 3.0** | **Yes** — see Credits screen |
+| UI icons / silhouettes (43) | [game-icons.net](https://game-icons.net/) via the `@iconify-json/game-icons` npm package | **CC BY 3.0** | **Yes** — see Credits screen |
 | Display font — Grenze Gotisch | Google Fonts (`@expo-google-fonts/grenze-gotisch`) | **OFL 1.1** | No (bundled `LICENSE_FONT`) |
 | Body font — Spectral | Google Fonts (`@expo-google-fonts/spectral`) | **OFL 1.1** | No (bundled `LICENSE_FONT`) |
 
@@ -27,8 +27,8 @@ game-icons.net page — plus the license.
   `src/art/credits.generated.ts`, and rendered verbatim by `src/screens/CreditsScreen.tsx`.
 - Each artist was **verified** against the icon's own game-icons.net page (not guessed).
 
-Distinct artists whose work is bundled: **Delapouite, Lorc, sbed, Skoll, Zeromancer** — all under
-CC BY 3.0.
+Distinct artists whose work is bundled: **Carl Olsen, Caro Asercion, Delapouite, Lorc, sbed,
+Skoll, Zeromancer** — all under CC BY 3.0.
 
 ## Regenerating
 

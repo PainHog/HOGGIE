@@ -18,6 +18,16 @@ const TOKEN = 56;
 /** Known status-effect keys -> icon; anything unknown shows a neutral violet mark. Empty in v1. */
 const EFFECT_ICON: Record<string, IconName> = {};
 
+/** A con-style threat color from the level gap: grey (trivial) → green → gold → red → violet (deadly). */
+function threatColor(mobLevel: number, playerLevel: number): string {
+  const d = mobLevel - playerLevel;
+  if (d <= -6) return theme.dim;
+  if (d < -2) return theme.accent;
+  if (d <= 2) return theme.gold;
+  if (d <= 6) return theme.danger;
+  return theme.violet;
+}
+
 interface Floater {
   key: number;
   text: string;
@@ -98,6 +108,8 @@ function TokenBody({
   ring,
   label,
   sub,
+  subColor,
+  badge,
   hpPct,
   hpColor,
   effects,
@@ -110,6 +122,8 @@ function TokenBody({
   ring: string | null;
   label: string;
   sub: string;
+  subColor?: string;
+  badge?: IconName | null;
   hpPct: number;
   hpColor: string;
   effects?: string[];
@@ -134,11 +148,16 @@ function TokenBody({
       >
         <Animated.View style={[styles.hitGlow, { opacity: glow }]} pointerEvents="none" />
         <SvgIcon name={dead ? ICON.death : icon} size={34} color={dead ? theme.dim : iconColor} />
+        {badge && !dead && (
+          <View style={styles.badge}>
+            <SvgIcon name={badge} size={12} color={theme.bg} />
+          </View>
+        )}
       </Animated.View>
       <Text style={styles.name} numberOfLines={1}>
         {label}
       </Text>
-      <Text style={styles.sub} numberOfLines={1}>
+      <Text style={[styles.sub, subColor ? { color: subColor } : null]} numberOfLines={1}>
         {sub}
       </Text>
       <AnimatedBar pct={hpPct} color={hpColor} width={TOKEN} height={5} />
@@ -149,6 +168,7 @@ function TokenBody({
 
 export function EnemyToken({
   mob,
+  playerLevel,
   hpPct,
   engaged,
   fx,
@@ -156,13 +176,17 @@ export function EnemyToken({
   dead,
 }: {
   mob: RoomMob;
+  playerLevel: number;
   hpPct: number;
   engaged: boolean;
   fx: FxEvent[];
   onEngage: (id: string) => void;
   dead: boolean;
 }) {
-  const icon = iconForMob(mob.keywords, mob.name);
+  const icon = mob.shopkeeper ? "cowled" : iconForMob(mob.keywords, mob.name);
+  const threat = threatColor(mob.level, playerLevel);
+  // Shopkeepers read as friendly (gold), foes carry a threat ring; the engaged target overrides to blood.
+  const ring = engaged ? theme.blood : mob.shopkeeper ? theme.gold : threat;
   return (
     <Pressable onPress={() => !dead && onEngage(mob.id)} disabled={dead} accessibilityRole="button">
       <TokenBody
@@ -170,9 +194,11 @@ export function EnemyToken({
         id={mob.id}
         icon={icon}
         iconColor={engaged ? theme.blood : theme.boneDim}
-        ring={engaged ? theme.blood : null}
+        ring={ring}
+        badge={mob.shopkeeper ? ICON.gold : null}
         label={mob.name}
         sub={`L${mob.level}`}
+        subColor={mob.shopkeeper ? theme.gold : threat}
         hpPct={hpPct}
         hpColor={theme.blood}
         effects={mob.effects}
@@ -230,6 +256,10 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   hitGlow: { position: "absolute", left: 0, right: 0, top: 0, bottom: 0, backgroundColor: theme.blood },
+  badge: {
+    position: "absolute", top: -2, right: -2, width: 18, height: 18, borderRadius: 9,
+    backgroundColor: theme.gold, alignItems: "center", justifyContent: "center", borderWidth: 1, borderColor: theme.bg,
+  },
   name: { color: theme.bone, fontFamily: fonts.bodySemi, fontSize: 12, marginTop: 3, maxWidth: TOKEN + 22 },
   sub: { color: theme.dim, fontFamily: fonts.body, fontSize: 10, marginBottom: 3 },
   effectStrip: { flexDirection: "row", gap: 3, height: 14, marginTop: 3, alignItems: "center" },

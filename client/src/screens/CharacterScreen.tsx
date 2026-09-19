@@ -3,6 +3,7 @@ import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-
 import { Button } from "../components";
 import type { Catalog, CharacterSummary, RaceInfo } from "../protocol";
 import { fonts, theme } from "../theme";
+import { InfoTip } from "../ui/InfoTip";
 
 /** A race may take a class only if it's allowed and not restricted (mirrors the server rule). */
 function raceAllowsClass(race: RaceInfo | undefined, className: string): boolean {
@@ -87,10 +88,12 @@ export function CharacterScreen(props: {
           onChangeText={setName}
         />
 
-        <Text style={styles.sub}>Race {races.length ? `(${races.length})` : ""}</Text>
+        <Text style={styles.sub}>Race {races.length ? `(${races.length})` : ""} · hover for lore</Text>
         <View style={styles.chips}>
           {races.map((r) => (
-            <Chip key={r.id} label={r.name} active={raceId === r.id} onPress={() => pickRace(r)} />
+            <InfoTip key={r.id} title={r.name} body={r.description} pressToToggle={false} width={260}>
+              <Chip label={r.name} active={raceId === r.id} onPress={() => pickRace(r)} />
+            </InfoTip>
           ))}
         </View>
 
@@ -109,23 +112,24 @@ export function CharacterScreen(props: {
                 </Text>
               )}
               <Text style={styles.traitTag}>exp {race.expMultPct}%</Text>
-              {race.description.trim().length > 0 && <Text style={styles.loreTag}>lore ✓</Text>}
             </View>
+            {race.description.trim().length > 0 && <Text style={styles.lore}>{race.description}</Text>}
           </View>
         )}
 
-        <Text style={styles.sub}>Class</Text>
+        <Text style={styles.sub}>Class · hover for lore</Text>
         <View style={styles.chips}>
           {classes.map((c) => {
             const allowed = raceAllowsClass(race, c.name);
             return (
-              <Chip
-                key={c.id}
-                label={c.name}
-                active={classId === c.id}
-                disabled={!allowed}
-                onPress={() => allowed && pickClass(c.id)}
-              />
+              <InfoTip key={c.id} title={c.name} body={c.description} pressToToggle={false} width={260}>
+                <Chip
+                  label={c.name}
+                  active={classId === c.id}
+                  disabled={!allowed}
+                  onPress={() => allowed && pickClass(c.id)}
+                />
+              </InfoTip>
             );
           })}
         </View>
@@ -137,8 +141,8 @@ export function CharacterScreen(props: {
             </Text>
             <View style={styles.traitRow}>
               <Text style={styles.traitTag}>learns {selClass.learnableCount} skills/spells</Text>
-              {selClass.description.trim().length > 0 && <Text style={styles.loreTag}>lore ✓</Text>}
             </View>
+            {selClass.description.trim().length > 0 && <Text style={styles.lore}>{selClass.description}</Text>}
           </View>
         )}
         {race && !classAllowed && (
@@ -153,13 +157,14 @@ export function CharacterScreen(props: {
             .map((c) => {
               const allowed = raceAllowsClass(race, c.name);
               return (
-                <Chip
-                  key={c.id}
-                  label={c.name}
-                  active={secondClassId === c.id}
-                  disabled={!allowed}
-                  onPress={() => allowed && setSecondClassId(c.id)}
-                />
+                <InfoTip key={c.id} title={c.name} body={c.description} pressToToggle={false} width={260}>
+                  <Chip
+                    label={c.name}
+                    active={secondClassId === c.id}
+                    disabled={!allowed}
+                    onPress={() => allowed && setSecondClassId(c.id)}
+                  />
+                </InfoTip>
               );
             })}
         </View>
@@ -219,7 +224,7 @@ const styles = StyleSheet.create({
   traitTag: { color: theme.text, fontFamily: fonts.body, fontSize: 12 },
   resistK: { color: theme.accent, fontFamily: fonts.bodySemi },
   weakK: { color: theme.danger, fontFamily: fonts.bodySemi },
-  loreTag: { color: theme.violet, fontFamily: fonts.bodySemi, fontSize: 11 },
+  lore: { color: theme.boneDim, fontFamily: fonts.body, fontSize: 12, lineHeight: 17, marginTop: 2 },
   dualNote: { color: theme.violet, fontFamily: fonts.body, fontSize: 12, fontStyle: "italic" },
   notice: { color: theme.danger, fontSize: 13, fontFamily: fonts.body },
   creditsLink: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 12, textDecorationLine: "underline" },

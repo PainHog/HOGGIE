@@ -13,7 +13,7 @@ import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import type { PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendInventory, sendRoom, sendVitals } from "./view.ts";
+import { esc, out, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
@@ -382,6 +382,7 @@ async function doAdvanceTier(ctx: CommandContext): Promise<void> {
     ctx.player,
   );
   sendVitals(ctx.world, ctx.player);
+  sendSkills(ctx.world, ctx.player); // the tier class has its own skill tree
   if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => out(ctx.player, "&r(warning: tier not yet saved)&D"));
 }
 

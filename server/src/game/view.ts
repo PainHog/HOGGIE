@@ -26,6 +26,7 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     position: m.position,
     keywords: m.proto.keywords.split(/\s+/).filter(Boolean),
     effects: [] as string[],
+    shopkeeper: live.world.shops.has(m.proto.vnum),
   }));
   return {
     vnum: ch.roomVnum,
@@ -98,7 +99,7 @@ export function sendVitals(world: World, viewer: Player): void {
   viewer.send({ t: "vitals", vitals: vitalsOf(world, viewer.character) });
 }
 
-/** Send the player's carried items, resolved to name/type/cost for the inventory panel. */
+/** Send the player's carried items, resolved to name/type/cost/description for the inventory panel. */
 export function sendInventory(world: World, viewer: Player): void {
   const items = viewer.character.inventory.map((it) => {
     const p = world.getObjPrototype(it.vnum);
@@ -107,9 +108,43 @@ export function sendInventory(world: World, viewer: Player): void {
       name: p?.shortDesc || `item ${it.vnum}`,
       itemType: p?.itemType ?? "trash",
       cost: p?.cost ?? 0,
+      description: (p?.description ?? "").trim(),
     };
   });
   viewer.send({ t: "inventory", items });
+}
+
+/** Send the character's class skill/spell tree (union of both classes when dual) for the skills panel. */
+export function sendSkills(world: World, viewer: Player): void {
+  const ch = viewer.character;
+  const cls = world.classes.get(ch.classId);
+  const dual = ch.dualClassId != null && ch.dualClassId !== ch.classId ? world.classes.get(ch.dualClassId) : undefined;
+  const merged = new Map<string, { skill: string; level: number; adept: number }>();
+  const addGrants = (grants: { skill: string; level: number; adept: number }[]) => {
+    for (const g of grants) {
+      const cur = merged.get(g.skill);
+      merged.set(g.skill, cur
+        ? { skill: g.skill, level: Math.min(cur.level, g.level), adept: Math.max(cur.adept, g.adept) }
+        : { ...g });
+    }
+  };
+  if (cls) addGrants(cls.skills);
+  if (dual) addGrants(dual.skills);
+  const label = dual ? `${cls?.name}/${dual.name}` : (cls?.name ?? "");
+  const skills = [...merged.values()]
+    .sort((a, b) => a.level - b.level || a.skill.localeCompare(b.skill))
+    .map((r) => {
+      const def = world.getSkill(r.skill);
+      return {
+        name: r.skill,
+        type: def?.type ?? "Skill",
+        level: r.level,
+        adept: r.adept,
+        available: r.level <= ch.level,
+        description: (def?.description ?? "").trim(),
+      };
+    });
+  viewer.send({ t: "skills", label, skills });
 }
 
 /** Send one or more already-colored raw lines as narrative output. */

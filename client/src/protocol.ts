@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 4;
+export const PROTOCOL_VERSION = 5;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -54,6 +54,7 @@ export interface RoomMob {
   position: string;
   keywords: string[];
   effects?: string[];
+  shopkeeper?: boolean;
 }
 
 export interface RoomPlayerLite {
@@ -111,6 +112,16 @@ export interface InventoryItem {
   name: string;
   itemType: string;
   cost: number;
+  description: string;
+}
+
+export interface SkillInfo {
+  name: string;
+  type: string;
+  level: number;
+  adept: number;
+  available: boolean;
+  description: string;
 }
 
 export type ServerMessage =
@@ -126,6 +137,7 @@ export type ServerMessage =
   | { t: "room"; room: RoomView }
   | { t: "vitals"; vitals: Vitals }
   | { t: "inventory"; items: InventoryItem[] }
+  | { t: "skills"; label: string; skills: SkillInfo[] }
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };

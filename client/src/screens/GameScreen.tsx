@@ -14,9 +14,9 @@ import { RoomScene } from "../game/RoomScene";
 import { VitalsHud } from "../game/VitalsHud";
 import { ActionBar } from "../game/ActionBar";
 import { Minimap } from "../game/Minimap";
-import { CharacterPanel, InventoryPanel } from "../game/panels";
+import { CharacterPanel, InventoryPanel, SkillsPanel } from "../game/panels";
 
-type Panel = "none" | "map" | "character" | "inventory" | "log";
+type Panel = "none" | "map" | "character" | "inventory" | "skills" | "log";
 
 function ToolButton({ icon, label, active, onPress }: { icon?: IconName; label: string; active?: boolean; onPress: () => void }) {
   return (
@@ -56,6 +56,7 @@ export function GameScreen({
       fx={state.fx}
       onMove={(dir) => onCmd(dir)}
       onEngage={onEngage}
+      onCommand={onCmd}
     />
   );
   const actions = (
@@ -69,8 +70,9 @@ export function GameScreen({
 
   const drawerBody = (p: Panel) => {
     if (p === "map") return <Minimap rooms={state.rooms} current={state.room?.vnum ?? null} />;
-    if (p === "character") return <CharacterPanel vitals={state.vitals} />;
+    if (p === "character") return <CharacterPanel vitals={state.vitals} catalog={state.catalog} />;
     if (p === "inventory") return <InventoryPanel items={state.inventory} />;
+    if (p === "skills") return <SkillsPanel skills={state.skills} label={state.skillsLabel} />;
     if (p === "log") return <View style={styles.logBox}><OutputPane lines={state.output} /></View>;
     return null;
   };
@@ -83,6 +85,7 @@ export function GameScreen({
         {!wide && <ToolButton icon={ICON.map} label="Map" active={panel === "map"} onPress={() => toggle("map")} />}
         {!wide && <ToolButton icon={ICON.player} label="Hero" active={panel === "character"} onPress={() => toggle("character")} />}
         {!wide && <ToolButton icon={ICON.inventory} label="Bag" active={panel === "inventory"} onPress={() => toggle("inventory")} />}
+        {!wide && <ToolButton icon={ICON.skills} label="Skills" active={panel === "skills"} onPress={() => toggle("skills")} />}
         <ToolButton label="Log" active={panel === "log"} onPress={() => toggle("log")} />
         <View style={{ flex: 1 }} />
         <ToolButton label="Credits" onPress={onCredits} />
@@ -98,8 +101,9 @@ export function GameScreen({
         {wide && (
           <ScrollView style={styles.rail} contentContainerStyle={styles.railContent}>
             <Minimap rooms={state.rooms} current={state.room?.vnum ?? null} />
-            <CharacterPanel vitals={state.vitals} />
+            <CharacterPanel vitals={state.vitals} catalog={state.catalog} />
             <InventoryPanel items={state.inventory} />
+            <SkillsPanel skills={state.skills} label={state.skillsLabel} />
           </ScrollView>
         )}
       </View>

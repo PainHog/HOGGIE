@@ -12,6 +12,7 @@ import { fonts, theme } from "../theme";
 import { SvgIcon } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
 import { EnemyToken, PlayerToken } from "./tokens";
+import { sectorTheme } from "./sectors";
 
 const DIR_CMD: Record<string, string> = {
   north: "n", south: "s", east: "e", west: "w", up: "u", down: "d",
@@ -85,6 +86,7 @@ export function RoomScene({
   fx,
   onMove,
   onEngage,
+  onCommand,
 }: {
   room: RoomView | null;
   vitals: Vitals | null;
@@ -94,6 +96,7 @@ export function RoomScene({
   fx: FxEvent[];
   onMove: (dir: string) => void;
   onEngage: (mobId: string) => void;
+  onCommand?: (raw: string) => void;
 }) {
   // Corpses linger briefly (death animation) then leave the scene, without a server round-trip.
   const [removed, setRemoved] = useState<Set<string>>(new Set());
@@ -119,15 +122,25 @@ export function RoomScene({
   }, [room, mobHp]);
 
   const mobs = (room?.mobs ?? []).filter((m) => !removed.has(m.id));
+  const sec = sectorTheme(room?.sector);
+  const keeper = mobs.find((m) => m.shopkeeper && (mobHp[m.id] ?? m.hpPct) > 0);
+  const playerLevel = vitals?.level ?? 1;
 
   return (
-    <View style={styles.arena}>
+    <View style={[styles.arena, { backgroundColor: sec.tint }]}>
       <View style={styles.header}>
         <Text style={styles.roomName} numberOfLines={1}>{room?.name ?? "The Void"}</Text>
-        <Text style={styles.sector}>{room?.sector ?? ""}</Text>
+        <Text style={styles.sector}>{sec.label}</Text>
       </View>
 
       <Compass exits={room?.exits ?? []} onMove={onMove} />
+
+      {keeper && onCommand && (
+        <Pressable style={({ pressed }) => [styles.tradeBtn, pressed && styles.tradePress]} onPress={() => onCommand("list")}>
+          <SvgIcon name={ICON.gold} size={14} color={theme.gold} />
+          <Text style={styles.tradeText}>Trade with {keeper.name}</Text>
+        </Pressable>
+      )}
 
       <View style={styles.enemyRow}>
         {mobs.length === 0 ? (
@@ -137,6 +150,7 @@ export function RoomScene({
             <EnemyToken
               key={mob.id}
               mob={mob}
+              playerLevel={playerLevel}
               hpPct={mobHp[mob.id] ?? mob.hpPct}
               engaged={mob.id === engagedTargetId}
               dead={(mobHp[mob.id] ?? mob.hpPct) <= 0}
@@ -149,7 +163,7 @@ export function RoomScene({
 
       <View style={styles.ground} pointerEvents="none">
         <Svg width="80%" height={40} viewBox="0 0 200 40">
-          <Ellipse cx="100" cy="20" rx="96" ry="16" fill="#000000" opacity={0.35} />
+          <Ellipse cx="100" cy="20" rx="96" ry="16" fill={sec.ground} opacity={0.45} />
         </Svg>
       </View>
 
@@ -197,6 +211,13 @@ const styles = StyleSheet.create({
   compassLabel: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 11 },
   compassHint: { color: theme.dim, fontFamily: fonts.body, fontSize: 9, marginTop: 2 },
 
+  tradeBtn: {
+    position: "absolute", top: 44, left: 10, zIndex: 4, flexDirection: "row", alignItems: "center", gap: 6,
+    backgroundColor: theme.panel, borderWidth: 1, borderColor: theme.gold, borderRadius: 16,
+    paddingVertical: 6, paddingHorizontal: 12,
+  },
+  tradePress: { backgroundColor: theme.panelAlt },
+  tradeText: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 12 },
   enemyRow: {
     flex: 1, flexDirection: "row", flexWrap: "wrap", justifyContent: "center", alignItems: "flex-start",
     gap: 6, paddingTop: 18, minHeight: 120,
