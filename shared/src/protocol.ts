@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 2 as const;
+export const PROTOCOL_VERSION = 3 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -92,6 +92,12 @@ export const ClientMessageSchema = z.discriminatedUnion("t", [
   z.object({ t: z.literal("char_select"), characterId: z.string().uuid() }),
   /** A raw command line, parsed server-side (movement, say, look, who, quit…). */
   z.object({ t: z.literal("cmd"), raw: z.string().max(MAX_TEXT) }),
+  /**
+   * Presentation-only: engage the mob with this instance id in the current room.
+   * A visual client's "click-to-engage" — resolves to the same fight the `kill`
+   * command starts; it does not add any new combat behaviour.
+   */
+  z.object({ t: z.literal("target"), mobId: z.string().min(1).max(64) }),
 ]);
 
 export type ClientMessage = z.infer<typeof ClientMessageSchema>;
@@ -109,14 +115,42 @@ export interface CharacterSummary {
   level: number;
 }
 
-/** Structured room snapshot for the client's room/exits panel. */
+/** One walkable exit from a room (direction + destination vnum for the minimap graph). */
+export interface RoomExit {
+  dir: string;
+  toVnum: number;
+}
+
+/**
+ * A creature standing in a room, enriched for the visual scene. Presentation-only:
+ * every field is derived from existing world state, none of it changes combat.
+ */
+export interface RoomMob {
+  id: string; // mob instance id — the click-to-engage / targeting handle
+  name: string; // short description, plain text
+  level: number;
+  hpPct: number; // current/max, 0..1 (for the token health bar)
+  position: string; // standing / resting / sleeping / dead …
+  keywords: string[]; // for client-side icon mapping (rat -> rat icon, …)
+  effects?: string[]; // status-effect keys — spell-ready, empty in v1
+}
+
+/** Another player present in the room, lightly enriched for the scene. */
+export interface RoomPlayerLite {
+  id: string; // character id
+  name: string;
+  level: number;
+  effects?: string[]; // status-effect keys — spell-ready, empty in v1
+}
+
+/** Structured room snapshot for the client's room/exits panel and visual scene. */
 export interface RoomView {
   vnum: number;
   name: string;
   sector: string;
-  exits: string[];
-  players: string[]; // other characters present (names)
-  mobs: string[]; // mob short descriptions present
+  exits: RoomExit[];
+  players: RoomPlayerLite[]; // other characters present
+  mobs: RoomMob[]; // creatures present
   items: string[]; // ground item short descriptions
 }
 
@@ -137,6 +171,26 @@ export interface Vitals {
   gold: number;
   position: string;
   alignment: number;
+  /** Core attributes (LCK included) for the character panel — read-only view of character.stats. */
+  stats: { str: number; int: number; wis: number; dex: number; con: number; cha: number; lck: number };
+}
+
+/**
+ * A combat visual event, emitted ALONGSIDE the existing narrative text — never instead of it.
+ * The numbers are exactly the ones the text already reports; the engine's combat math is
+ * untouched. A visual client turns these into floating damage, token hit flashes, health-bar
+ * tweens and death animations. `kind` is intentionally open to grow (heal/buff/debuff) when
+ * spellcasting is wired; v1 emits only melee hit/miss/death.
+ */
+export interface CombatFx {
+  kind: "hit" | "miss" | "death";
+  sourceId: string; // attacker fighter id (character id or mob instance id)
+  targetId: string; // victim fighter id
+  targetName: string;
+  amount: number; // damage dealt (0 for a miss)
+  lucky: boolean; // a lucky crit landed
+  fatal: boolean; // this blow dropped the target
+  targetHpPct: number; // victim hp after the blow, 0..1
 }
 
 export type ServerMessage =
@@ -151,6 +205,8 @@ export type ServerMessage =
   | { t: "output"; lines: Line[] }
   | { t: "room"; room: RoomView }
   | { t: "vitals"; vitals: Vitals }
+  /** Presentation-only combat event, paired with the narrative it visualises. */
+  | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };
 

@@ -37,6 +37,11 @@ export class GameConnection {
     this.send({ t: "cmd", raw });
   }
 
+  /** Click-to-engage: ask the server to start a fight with this mob instance. */
+  target(mobId: string): void {
+    this.send({ t: "target", mobId });
+  }
+
   close(): void {
     this.ws?.close();
   }

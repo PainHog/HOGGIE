@@ -6,7 +6,10 @@ many players present in real time, classic MUD rhythm — modern engine and inte
 - **Node.js + TypeScript authoritative game server** — holds the live world in memory (rooms,
   presence, combat, movement) and is the single source of truth. Real-time over WebSockets.
 - **Supabase (Postgres + Auth)** — persistence + accounts behind the server (not the live loop).
-- **Expo client** (web first) — a rich text client. *(Phase 4.)*
+- **Expo client** (web first, same code on iOS/Android) — a **visual 2D game**: a room scene with
+  click-to-move / click-to-engage, live combat visuals (animated bars, floating damage, stance dial,
+  flee), a vitals HUD, a minimap, and character/inventory panels. *(Phase 4 text client → Step 5
+  visual client.)*
 
 The engine is written from scratch. Original world content (zones, mobs, items, classes,
 skills) is loaded as data from [`houseofghouls-export/content/`](houseofghouls-export/content)
@@ -19,7 +22,7 @@ see [`houseofghouls-export/audit.md`](houseofghouls-export/audit.md).
 server/    Node/TS game server (the live game)
 shared/    wire-protocol types shared by server + client
 supabase/  SQL migrations
-client/    Expo app (web + iOS/Android) — the rich text client
+client/    Expo app (web + iOS/Android) — the visual 2D game client (see client/ASSETS.md)
 houseofghouls-export/   Step 1 extraction: content JSON + specs (the world seed + design)
 HouseOfGhouls/          legacy source tree — reference only, NOT built or shipped
 ```
@@ -117,6 +120,12 @@ outside the npm workspaces to keep Metro simple.
 4. Expo client — the real text client (web + iOS/Android). ✓
 5. Roles — player/builder/moderator/admin + builder area/vnum sandbox. ✓
 
-**The v1 vertical slice is complete.** Roadmap (designed for, not built): remort/prestige,
-area economy pools, the quest/glory loop, cross-area level gates + the recall hub, worn
-equipment/AC + PLUS-tier weapons, and live OLC content editing.
+**The v1 vertical slice is complete**, and Step 5 replaced the text client with a **visual 2D
+client** (room scene, click-to-move/engage, live combat visuals, minimap, character/inventory
+panels) on the unchanged engine — the server only gained presentation-only protocol additions
+(structured room entities, a combat `fx` event stream, and a click-to-engage message). See
+[`client/ASSETS.md`](client/ASSETS.md) for the (all-free) asset licenses + in-app Credits.
+
+Roadmap (designed for, not built): remort/prestige, area economy pools, the quest/glory loop,
+cross-area level gates + the recall hub, worn equipment/AC + PLUS-tier weapons, spellcasting (the
+combat UI is already spell-ready), and live OLC content editing.

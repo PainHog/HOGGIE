@@ -9,7 +9,7 @@
  *  - LCK is a real factor: it nudges to-hit for attacker and defender and drives lucky crits.
  *  - Rounds are driven by the 2-second tick (see tick.ts). Deaths award xp and can level up.
  */
-import { parseColorSpans, type ServerMessage } from "@hoggie/shared";
+import { parseColorSpans, type CombatFx, type ServerMessage } from "@hoggie/shared";
 import { log } from "../log.ts";
 import type { AppConfig } from "../config.ts";
 import type { World } from "../world/world.ts";
@@ -35,6 +35,11 @@ export const STANCES = ["berserk", "aggressive", "standing", "defensive", "evasi
 
 function cap(s: string): string {
   return s.length ? s[0]!.toUpperCase() + s.slice(1) : s;
+}
+
+/** A fighter's current health as a 0..1 fraction (for the client's token bars). */
+function hpPct(f: Fighter): number {
+  return f.maxHp > 0 ? Math.max(0, Math.min(1, f.hp / f.maxHp)) : 0;
 }
 
 function damVerb(dam: number): string {
@@ -153,6 +158,10 @@ export class CombatManager {
     const hit = roll >= 95 || roll > hitScore + victimAc;
     if (!hit) {
       this.message(attacker, victim, `&wYou miss ${victim.name}.&D`, `&w${cap(attacker.name)} misses you.&D`, `&w${cap(attacker.name)} misses ${victim.name}.&D`);
+      this.roomFx(attacker.roomVnum, {
+        kind: "miss", sourceId: attacker.id, targetId: victim.id, targetName: victim.name,
+        amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(victim),
+      });
       return;
     }
 
@@ -187,6 +196,11 @@ export class CombatManager {
       );
     }
 
+    this.roomFx(attacker.roomVnum, {
+      kind: "hit", sourceId: attacker.id, targetId: victim.id, targetName: victim.name,
+      amount: Math.max(0, dam), lucky, fatal: victim.hp <= 0, targetHpPct: hpPct(victim),
+    });
+
     if (victim.hp <= 0) this.handleDeath(attacker, victim);
   }
 
@@ -213,6 +227,10 @@ export class CombatManager {
     this.mobFighters.delete(mob.id);
 
     this.roomLine(room, `&w${cap(mobShort(mob))} is DEAD!!&D`, []);
+    this.roomFx(room, {
+      kind: "death", sourceId: killer.id, targetId: mob.id, targetName: mobShort(mob),
+      amount: 0, lucky: false, fatal: true, targetHpPct: 0,
+    });
     if (killer.isPlayer) {
       const ch = (killer as PlayerFighter).character;
       const xp = this.computeXp(ch, mob);
@@ -232,6 +250,10 @@ export class CombatManager {
     this.stopFight(playerF);
 
     this.roomLine(room, `&R${cap(ch.name)} is DEAD!!&D`, [ch.id]);
+    this.roomFx(room, {
+      kind: "death", sourceId: killer.id, targetId: ch.id, targetName: ch.name,
+      amount: 0, lucky: false, fatal: true, targetHpPct: 0,
+    });
     killer.send(`&RYou have slain ${ch.name}!&D`);
     playerF.send("&RYou have been KILLED!&D");
 
@@ -304,6 +326,16 @@ export class CombatManager {
       if (excludeIds.includes(p.character.id)) continue;
       p.send(msg);
     }
+  }
+
+  /**
+   * Broadcast a structured combat FX to everyone in the room (participants included, since
+   * a visual client draws hits on both tokens). Presentation-only — carries the same numbers
+   * the narrative already reported; nothing here feeds back into combat resolution.
+   */
+  private roomFx(vnum: number, fx: CombatFx): void {
+    const msg: ServerMessage = { t: "fx", fx };
+    for (const p of this.live.roomPlayers(vnum)) p.send(msg);
   }
 
   /** Remove a disconnecting player's fighter from combat. */

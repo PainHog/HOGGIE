@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { ActivityIndicator, StyleSheet, Text, TextInput, View } from "react-native";
+import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { supabase } from "../supabase";
 import { Button } from "../components";
-import { mono, theme } from "../theme";
+import { fonts, theme } from "../theme";
 
-export function AuthScreen() {
+export function AuthScreen({ onCredits }: { onCredits?: () => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
@@ -57,6 +57,11 @@ export function AuthScreen() {
             <Button label="Create account" kind="ghost" onPress={signUp} />
           </>
         )}
+        {onCredits && (
+          <Pressable onPress={onCredits} style={{ alignSelf: "center", marginTop: 6 }}>
+            <Text style={styles.credits}>Credits & licenses</Text>
+          </Pressable>
+        )}
       </View>
     </View>
   );
@@ -65,8 +70,9 @@ export function AuthScreen() {
 const styles = StyleSheet.create({
   wrap: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: theme.bg, padding: 16 },
   card: { width: "100%", maxWidth: 380, backgroundColor: theme.panel, borderRadius: 12, borderWidth: 1, borderColor: theme.panelBorder, padding: 22, gap: 10 },
-  title: { color: theme.accent, fontSize: 26, fontWeight: "800", fontFamily: mono, textAlign: "center" },
-  sub: { color: theme.dim, textAlign: "center", marginBottom: 10 },
-  field: { backgroundColor: theme.input, color: theme.text, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 12, fontFamily: mono, borderWidth: 1, borderColor: theme.panelBorder },
-  msg: { color: theme.gold, fontSize: 13, textAlign: "center" },
+  title: { color: theme.gold, fontSize: 32, fontFamily: fonts.display, textAlign: "center" },
+  sub: { color: theme.dim, textAlign: "center", marginBottom: 10, fontFamily: fonts.body },
+  field: { backgroundColor: theme.input, color: theme.text, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 12, fontFamily: fonts.body, borderWidth: 1, borderColor: theme.panelBorder },
+  msg: { color: theme.gold, fontSize: 13, textAlign: "center", fontFamily: fonts.body },
+  credits: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 12, textDecorationLine: "underline" },
 });

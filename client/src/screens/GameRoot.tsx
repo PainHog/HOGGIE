@@ -4,10 +4,18 @@ import { GameConnection } from "../net";
 import { initialState, reducer } from "../store";
 import { CharacterScreen } from "./CharacterScreen";
 import { GameScreen } from "./GameScreen";
-import { mono, theme } from "../theme";
+import { fonts, theme } from "../theme";
 
 /** Owns the WebSocket connection + game state, and routes to the right screen by phase. */
-export function GameRoot({ token, onSignOut }: { token: string; onSignOut: () => void }) {
+export function GameRoot({
+  token,
+  onSignOut,
+  onCredits,
+}: {
+  token: string;
+  onSignOut: () => void;
+  onCredits: () => void;
+}) {
   const [state, dispatch] = useReducer(reducer, initialState);
   const connRef = useRef<GameConnection | null>(null);
 
@@ -42,14 +50,26 @@ export function GameRoot({ token, onSignOut }: { token: string; onSignOut: () =>
           connRef.current?.send({ t: "char_create", name, raceId, classId })
         }
         onSignOut={onSignOut}
+        onCredits={onCredits}
       />
     );
   }
 
-  return <GameScreen state={state} onCmd={(raw) => connRef.current?.cmd(raw)} />;
+  return (
+    <GameScreen
+      state={state}
+      onCmd={(raw) => connRef.current?.cmd(raw)}
+      onEngage={(mobId) => {
+        connRef.current?.target(mobId);
+        dispatch({ type: "engage", mobId }); // optimistic: light the foe up the instant it's tapped
+      }}
+      onSignOut={onSignOut}
+      onCredits={onCredits}
+    />
+  );
 }
 
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: theme.bg, gap: 12 },
-  msg: { color: theme.dim, fontFamily: mono },
+  msg: { color: theme.dim, fontFamily: fonts.body },
 });

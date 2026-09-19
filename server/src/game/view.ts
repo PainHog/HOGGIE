@@ -10,21 +10,30 @@ export function esc(s: string): string {
   return s.replace(/&/g, "&&");
 }
 
-/** Structured room data for the client's room/exits panel. */
+/** Structured room data for the client's room/exits panel and visual scene. */
 export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
   const ch = viewer.character;
   const room = live.world.getRoom(ch.roomVnum);
   const others = live
     .roomPlayers(ch.roomVnum)
     .filter((p) => p !== viewer)
-    .map((p) => p.character.name);
+    .map((p) => ({ id: p.character.id, name: p.character.name, level: p.character.level, effects: [] }));
+  const mobs = live.roomMobs(ch.roomVnum).map((m) => ({
+    id: m.id,
+    name: mobShort(m),
+    level: m.proto.level,
+    hpPct: m.maxHp > 0 ? Math.max(0, Math.min(1, m.hp / m.maxHp)) : 0,
+    position: m.position,
+    keywords: m.proto.keywords.split(/\s+/).filter(Boolean),
+    effects: [] as string[],
+  }));
   return {
     vnum: ch.roomVnum,
     name: room?.name ?? "The Void",
     sector: room?.sector ?? "inside",
-    exits: room ? room.exits.map((e) => e.dir) : [],
+    exits: room ? room.exits.map((e) => ({ dir: e.dir, toVnum: e.toVnum })) : [],
     players: others,
-    mobs: live.roomMobs(ch.roomVnum).map((m) => mobShort(m)),
+    mobs,
     items: [], // ground items are Phase 4+
   };
 }
@@ -70,6 +79,10 @@ export function vitalsOf(world: World, ch: Character): Vitals {
     gold: ch.gold,
     position: ch.position,
     alignment: ch.alignment,
+    stats: {
+      str: ch.stats.str, int: ch.stats.int, wis: ch.stats.wis, dex: ch.stats.dex,
+      con: ch.stats.con, cha: ch.stats.cha, lck: ch.stats.lck,
+    },
   };
 }
 

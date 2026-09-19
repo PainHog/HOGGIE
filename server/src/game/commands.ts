@@ -6,7 +6,7 @@ import { parseColorSpans } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, raceName } from "./character.ts";
-import { mobMatches, mobShort } from "./mobInstance.ts";
+import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import type { CombatManager } from "./combat.ts";
 import type { PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
@@ -127,6 +127,22 @@ function doKill(ctx: CommandContext, arg: string): void {
   if (ctx.fighter.fighting) return out(ctx.player, "&RYou are already fighting!&D");
   const mob = ctx.live.roomMobs(ctx.fighter.roomVnum).find((m) => mobMatches(m, arg));
   if (!mob) return out(ctx.player, "&RThey aren't here.&D");
+  beginAttack(ctx, mob);
+}
+
+/**
+ * Presentation-only: engage a mob by its instance id — the visual client's click-to-engage.
+ * Resolves to exactly the fight the `kill` command starts; adds no new combat behaviour.
+ */
+export function engageMobById(ctx: CommandContext, mobId: string): void {
+  if (ctx.fighter.fighting) return out(ctx.player, "&RYou are already fighting!&D");
+  const mob = ctx.live.roomMobs(ctx.fighter.roomVnum).find((m) => m.id === mobId);
+  if (!mob) return out(ctx.player, "&RThey aren't here.&D");
+  beginAttack(ctx, mob);
+}
+
+/** Shared attack start used by both `kill <name>` and click-to-engage. */
+function beginAttack(ctx: CommandContext, mob: MobInstance): void {
   const mobF = ctx.combat.fighterForMob(mob);
   ctx.combat.startFight(ctx.fighter, mobF);
   out(ctx.player, `&YYou scream and attack ${esc(mobShort(mob))}!&D`);

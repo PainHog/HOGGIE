@@ -61,17 +61,32 @@ npm start              # one-shot run
 Boot logs report: world loaded (areas/rooms/mobs/objects/resets), Supabase reachability,
 mobs spawned from resets, and the listening port.
 
-## 4. Run the client
+## 4. Run the client (visual)
 
 ```bash
 cd client
-npm run web            # opens the web client at http://localhost:8081
+npm install            # first run only (installs react-native-svg, fonts, etc.)
+npm run web            # opens the visual web client at http://localhost:8081
 # npm start            # Expo Go on a phone (set EXPO_PUBLIC_WS_URL to your machine's LAN IP)
 ```
 
-Sign in → create/select a character → play: `look`, movement (`n s e w u d …`), `kill <mob>`,
-stances (`berserk` / `aggressive` / `normal` / `defensive` / `evasive`), `rest`/`sleep`/`stand`,
-`say`, `who`, `score`, `roles`, `help`.
+The client is a **visual 2D game** (Step 5): a room scene with clickable exits (a compass) and
+clickable enemy tokens, live combat with animated health bars + floating damage + a stance dial +
+flee, a vitals HUD, an explored-room minimap, and Character/Inventory panels. Sign in → create or
+select a character → **tap an enemy to engage, tap a compass direction to walk.** The stance dial
+(`berserk / aggressive / normal / defensive / evasive`) and `flee` are the live-combat controls;
+auto-attacks resolve each round once engaged. The classic command line is kept at the bottom, so
+every text command (`look`, `n s e w …`, `kill <mob>`, `rest`, `say`, `who`, `score`, `help`) still
+works. A **Credits** screen (from the sign-in / character screens and the in-game toolbar) lists the
+game-icons.net artists — see `client/ASSETS.md` for the full license breakdown.
+
+> Tip — to land in a good Drazukville combat demo, start the server at the "scaly bartender" room:
+> `START_ROOM=21164 npm run dev`. The bartenders are level 1 (killable at level 1); walk `west` into
+> the Homer Street cluster to watch the minimap fill in.
+
+Assets are all bundled locally and free (CC0 / OFL / CC BY 3.0-with-attribution). To change the
+icon set, edit `client/scripts/gen-icons.mjs` and run `npm run gen:icons` (regenerates the icon
+geometry + the Credits attribution list).
 
 ## 5. Create accounts & bootstrap an admin
 

@@ -23,7 +23,7 @@ import {
   raceName,
   type Character,
 } from "./character.ts";
-import { dispatchCommand } from "./commands.ts";
+import { dispatchCommand, engageMobById, type CommandContext } from "./commands.ts";
 import { PlayerFighter } from "./fighter.ts";
 import type { CombatManager } from "./combat.ts";
 import { esc, out, sendRoom, sendVitals } from "./view.ts";
@@ -86,6 +86,7 @@ export class Session {
 
       case "playing":
         if (msg.t === "cmd") return this.doCommand(msg.raw);
+        if (msg.t === "target") return this.doTarget(msg.mobId);
         return this.send({ t: "error", message: "already in the world" });
     }
   }
@@ -207,21 +208,30 @@ export class Session {
     log.info("character entered world", { name: character.name, room: character.roomVnum });
   }
 
+  /** Build the command context shared by text commands and the visual click handlers. */
+  private ctx(): CommandContext | null {
+    if (!this.player || !this.fighter || !this.account) return null;
+    return {
+      world: this.svc.world,
+      live: this.svc.live,
+      player: this.player,
+      combat: this.svc.combat,
+      fighter: this.fighter,
+      account: this.account,
+      db: this.svc.db,
+      quit: () => this.close(),
+    };
+  }
+
   private doCommand(raw: string): void {
-    if (!this.player || !this.fighter || !this.account) return;
-    dispatchCommand(
-      {
-        world: this.svc.world,
-        live: this.svc.live,
-        player: this.player,
-        combat: this.svc.combat,
-        fighter: this.fighter,
-        account: this.account,
-        db: this.svc.db,
-        quit: () => this.close(),
-      },
-      raw,
-    );
+    const ctx = this.ctx();
+    if (ctx) dispatchCommand(ctx, raw);
+  }
+
+  /** Visual click-to-engage: engage the mob with this instance id in the current room. */
+  private doTarget(mobId: string): void {
+    const ctx = this.ctx();
+    if (ctx) engageMobById(ctx, mobId);
   }
 
   /** Called on socket close or `quit`. Persists and removes the player from the world. */

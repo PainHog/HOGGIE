@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "@expo-google-fonts/grenze-gotisch": "^0.4.2",
+    "@expo-google-fonts/spectral": "^0.4.1",
     "@expo/metro-runtime": "~57.0.16",
     "@supabase/supabase-js": "^2.116.0",
     "expo": "~57.0.24",
+    "expo-font": "~57.0.4",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
+    "react-native-svg": "15.15.4",
     "react-native-web": "^0.21.2"
   },
   "devDependencies": {
+    "@iconify-json/game-icons": "^1.2.4",
     "@types/react": "~19.2.2",
     "typescript": "~6.0.3"
   },
@@ -20,7 +25,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "gen:icons": "node scripts/gen-icons.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "private": true
 }

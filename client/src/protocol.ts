@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 2;
+export const PROTOCOL_VERSION = 3;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -15,13 +15,35 @@ export interface CharacterSummary {
   level: number;
 }
 
+export interface RoomExit {
+  dir: string;
+  toVnum: number;
+}
+
+export interface RoomMob {
+  id: string;
+  name: string;
+  level: number;
+  hpPct: number;
+  position: string;
+  keywords: string[];
+  effects?: string[];
+}
+
+export interface RoomPlayerLite {
+  id: string;
+  name: string;
+  level: number;
+  effects?: string[];
+}
+
 export interface RoomView {
   vnum: number;
   name: string;
   sector: string;
-  exits: string[];
-  players: string[];
-  mobs: string[];
+  exits: RoomExit[];
+  players: RoomPlayerLite[];
+  mobs: RoomMob[];
   items: string[];
 }
 
@@ -41,6 +63,19 @@ export interface Vitals {
   gold: number;
   position: string;
   alignment: number;
+  stats: { str: number; int: number; wis: number; dex: number; con: number; cha: number; lck: number };
+}
+
+/** A combat visual event, emitted alongside the narrative text (same numbers, presentation-only). */
+export interface CombatFx {
+  kind: "hit" | "miss" | "death";
+  sourceId: string;
+  targetId: string;
+  targetName: string;
+  amount: number;
+  lucky: boolean;
+  fatal: boolean;
+  targetHpPct: number;
 }
 
 export type ServerMessage =
@@ -54,6 +89,7 @@ export type ServerMessage =
   | { t: "output"; lines: Line[] }
   | { t: "room"; room: RoomView }
   | { t: "vitals"; vitals: Vitals }
+  | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };
 
@@ -62,18 +98,19 @@ export type ClientMessage =
   | { t: "char_list" }
   | { t: "char_create"; name: string; raceId: number; classId: number }
   | { t: "char_select"; characterId: string }
-  | { t: "cmd"; raw: string };
+  | { t: "cmd"; raw: string }
+  | { t: "target"; mobId: string };
 
-/** Semantic color token -> CSS hex used by the client renderer. */
+/** Semantic color token -> hex used by the log renderer (tuned to the gothic palette). */
 export const COLOR_HEX: Record<string, string> = {
-  red: "#ff6b6b",
-  green: "#69db7c",
-  yellow: "#ffd43b",
-  blue: "#4dabf7",
-  magenta: "#f783ac",
-  cyan: "#3bc9db",
-  gray: "#adb5bd",
-  white: "#f8f9fa",
+  red: "#c8433a",
+  green: "#7db34a",
+  yellow: "#c9a227",
+  blue: "#5a7bb0",
+  magenta: "#9a7bc0",
+  cyan: "#6aa9b8",
+  gray: "#8a8577",
+  white: "#e8e0d0",
 };
 
 const COLOR_CODES: Record<string, string> = {
