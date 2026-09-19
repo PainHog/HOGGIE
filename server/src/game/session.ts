@@ -16,7 +16,6 @@ import type { Db, Account } from "../db/repos.ts";
 import type { Connection } from "../net/connection.ts";
 import { LiveWorld, type Player } from "./liveWorld.ts";
 import {
-  V1_CLASSES,
   className,
   createCharacter,
   raceAllowsClass,
@@ -149,9 +148,15 @@ export class Session {
         description: r.description,
       }));
     const classes: ClassInfo[] = [...this.svc.world.classes.values()]
-      .filter((c) => (V1_CLASSES as readonly string[]).includes(c.name))
+      .filter((c) => !c.tiered) // tier classes are reached via advancetier, not creation
       .sort((a, b) => a.id - b.id)
-      .map((c) => ({ id: c.id, name: c.name, description: "" }));
+      .map((c) => ({
+        id: c.id,
+        name: c.name,
+        description: c.description,
+        attrPrime: c.attrPrime,
+        learnableCount: c.skills.length,
+      }));
     const catalog: Catalog = { races, classes };
     this.send({ t: "catalog", catalog });
   }
@@ -172,9 +177,11 @@ export class Session {
     if (!race) {
       return this.send({ t: "error", message: "pick a valid race" });
     }
-    // Classes are still the v1 trio until the classes pass; races are all open now.
-    if (!cls || !(V1_CLASSES as readonly string[]).includes(cls.name)) {
-      return this.send({ t: "error", message: `pick a class: ${V1_CLASSES.join(", ")}` });
+    if (!cls) {
+      return this.send({ t: "error", message: "pick a valid class" });
+    }
+    if (cls.tiered) {
+      return this.send({ t: "error", message: `${cls.name} is a tier class — reach it with advancetier, not at creation` });
     }
     if (!raceAllowsClass(race, cls.name)) {
       return this.send({ t: "error", message: `a ${race.name} cannot be a ${cls.name}` });

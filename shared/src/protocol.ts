@@ -134,6 +134,8 @@ export interface ClassInfo {
   id: number;
   name: string;
   description: string;
+  attrPrime?: string; // primary attribute (e.g. "strength")
+  learnableCount: number; // how many skills/spells the class can learn over its career
 }
 
 /** The character-creation catalog (what races/classes the server currently allows). */

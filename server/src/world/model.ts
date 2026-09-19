@@ -151,6 +151,12 @@ export interface ClassDef {
   skillAdeptCap: number;
   skills: ClassSkillGrant[];
   titles: { level: number; male: string; female: string }[];
+  /** Tier (remort) classes aren't creation choices — they're reached via `advancetier` (§2.4). */
+  tiered: boolean;
+  tierOf?: string[]; // for a tier class: the base classes that advance into it
+  advancesTo?: string; // for a base class: the tier class it becomes
+  /** The MUD's own help prose for the class (empty when the source has none). */
+  description: string;
 }
 
 export interface RaceDef {
@@ -211,4 +217,6 @@ export interface SkillDef {
   flags?: number;
   /** Original SMAUG handler name, kept only as a mapping key to a fresh TS function. */
   handlerKey?: string;
+  /** The MUD's own help prose for the skill/spell (empty when the source has none). */
+  description: string;
 }

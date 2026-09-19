@@ -142,6 +142,10 @@ function mapClass(c: Json): ClassDef {
       male: t.male,
       female: t.female,
     })),
+    tiered: c.tiered ?? false,
+    tierOf: c.tier_of,
+    advancesTo: c.advances_to,
+    description: c.description ?? "",
   };
 }
 
@@ -189,6 +193,7 @@ function mapSkill(s: Json): SkillDef {
     damageNoun: s.damage_noun,
     flags: s.flags,
     handlerKey: s.code_fn,
+    description: s.description ?? "",
   };
 }
 

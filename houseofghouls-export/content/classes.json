@@ -913,7 +913,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 112,
-  "title_count": 66
+  "title_count": 66,
+  "description": "A mage is one of the weakest classes when it comes to body, but the mage\nis a being of pure magic.  Their minds revolve around crafting spells that\ndamage others in combat and spells that protect them from the elements\nand spells wielded against them.  Poor in physical combat, a mage that\nis allowed to fire off a few spells will do some serious damage indeed.\n\nIntelligence is a mages prime attribute, with wisdom the secondary.  Dexterity\nis their tertiary skill.\n\nThe races of Human, Elf, Pixie, Half-elf, Half-troll, Gith, Sea-elf, Drow,\nGnome, Ghoul, Goblin, Wolfen, Minotaur and Lizardman are allowed to be mages.",
+  "tiered": false,
+  "advances_to": "Archmagi"
  },
  {
   "file": "Cleric.class",
@@ -1829,7 +1832,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 112,
-  "title_count": 66
+  "title_count": 66,
+  "description": "A cleric is a mighty healer and protector of the weak.  Led with a mission\nto heal and teach, Clerics have many  varied and sundry healing spells at\ntheir command. While clerics possess some combat spells and magic to affect\none's chances in battle, their main goal is self preservation.  They\naccelerate in wisdom and knowledge as they gain in level and experience.\n\nThe wisdom of the cleric in the ways of magic and the art of healing, make\nthem a desirable asset for any group.\n\nWisdom is a clerics prime attribute, and constitution their secondary.\nIntelligence is their tertiary statistic.\n\nThe races of Human, Dwarf, Elf, Halfling, Pixie, Half-elf, Half-orc, Gith,\nSea-elf, Drow, Gnome, Ghoul and Lizardman are allowed to be a clerics.",
+  "tiered": false,
+  "advances_to": "Bishop"
  },
  {
   "file": "Thief.class",
@@ -2585,7 +2591,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 80,
-  "title_count": 66
+  "title_count": 66,
+  "description": "The thief is a dark character which makes use of many skills often deemed\nimproper by the rest of society. Known to haunt the darkest roads and\nalleys. The skills of the thief reflect his way of life, be it sneaking,\npeeking into others' inventories, picking locks, or attacking from behind\nwith deadly backstabs. With amazing dexterity they have the ability to\ncircle around an enemy, but for living such a dark life, thieves have\nalways had a bad reputation so don't be surprised if you are always under\nsuspicion. Thieves start off fairly weak, but as they gain skills such as\nbackstab and circle they soon become dangerous foes.  A thief is always\nuseful when there is  a lock that needs pryed, or an item that one wishes\nto acquire without detection.\n\nDexterity is of course the thieves prime attribute, and luck is their\nsecond.  Intelligence is the thieves tertiary statistic.\n\nThe races of Human, Dwarf, Elf, Halfing, Pixie, Half-elf, Half-ogre, Half-orc,\nHalf-troll, Gith, Sea-elf, Drow, Gnome, Ghoul, Goblin, Wolfen, Minotaur, and\nLizardman are allowed to be thieves.",
+  "tiered": false,
+  "advances_to": "Rogue"
  },
  {
   "file": "Warrior.class",
@@ -3281,7 +3290,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 68,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Warriors are the epitome of fighters, able to use all weaponry and armour\nin the exercise of their most lethal of combat skills.  A warrior must be\nstrong in body to survive his dangerous lifestyle, and though he has no\nmagic and limited skills he is nevertheless a formidable force with which\nto be reckoned.  Warriors learn no magic, and have no use for mana.\n\nTheir prime statistic is strength, and constitution is secondary.  Dexterity\nis the tertiary statistic.\n\nThe races of Human, Dwarf, Elf, Halfling, Half-elf, Half-ogre, Half-orc,\nHalf-troll, Gith, Sea-elf, Drow, Ghoul, Goblin, Wolfen, Minotaur and Lizardman\nare allowed to be warriors.",
+  "tiered": false,
+  "advances_to": "Champion"
  },
  {
   "file": "Thug.class",
@@ -4037,7 +4049,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 80,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Not quite the sneakiness of a thief and not quite the strength in\ncombat of a warrior, the thug is that adventurer who learned from the\nschool of hard knocks instead of the Guilds.  His thieving skills\nare not quite as honed as a true Guilded thief, but they are there\nwhen he needs them. Thugs are limited to two-handed weapons, prefering the weight and heft of the larger swords, axes and polearms.\n\nWith some formidable combat skills, including the ability to circle\nbehind their opponent in the chaos of combat, inflicting massive damage,\nthey can hold their own in a brawl.  Due to their unique raising on\nthe streets, thugs don't learn from teachers or guildmasters as well\nas the more \"educated\" classes.  Thats OK with the thug...he'll just\nmug those book-learned fools one night in an alley.\n\nStrength is the thugs prime attribute, and dexterity is the\nsecond.  Charisma is the thugs tertiary statistic.\n\nThe races of Human, Dwarf, Elf, Half-elf, Half-ogre, Half-orc, Half-troll,\nGith, Drow, Ghoul, Goblin, Minotaur and Wolfen are allowed to be thugs.",
+  "tiered": false,
+  "advances_to": "Rogue"
  },
  {
   "file": "Druid.class",
@@ -4888,7 +4903,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 99,
-  "title_count": 66
+  "title_count": 66,
+  "description": "The druid is a lover and protector of the natural land.  Be it the forests\nfull of centaurs and deer, the streams full of fish, or the bug-infested\nswamps, a druid always strives to protect and preserve nature.  Wielding\nmighty spells from the gods themselves, druids strive hard at their work.\n\nStrong in wisdom, with a body trained to near perfection by their rugged\nlifestyle, a druid has many disciplines upon which to draw.  From powerful\nspells of healing which can bring the near dead back to full vigor, to the\nability to mystically create water and food, to the awesome power of nature\nwhich they command in battle via spells able to quake the land and split\nthe sky, druids demonstrate that mastery of magic is not just a hobby, but\na way of life for them.  Able to face many warriors on almost even footing,\nand able to shield themselves nearly as well as some mages, druids are\ntruly a gifted class.\n\nWisdom is a druids prime attribute, and strength the second.  Their tertiary\nstatistic is constitution.\n\nThe races of Human, Dwarf, Elf, Halfling, Pixie, Half-elf, Half-ogre,\nHalf-orc, Half-troll, Sea-elf, Gnome, Ghoul, Wolfen, Minotaur and Lizardman\nare allowed to be druids.",
+  "tiered": false,
+  "advances_to": "Archmagi"
  },
  {
   "file": "Ranger.class",
@@ -5719,7 +5737,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 95,
-  "title_count": 66
+  "title_count": 66,
+  "description": "A ranger is the outdoorsman and adventuresome free spirit of the times.  A\nself-sufficient person, the ranger is adaptable and can survive in almost\nany locale.  Skilled with weapons and able to utilize some of the finest\narmor available, a ranger is physically skilled enough to take on most any\nfoe.  However, for especially hardy opponents, a ranger also can cast many\nuseful spells to both hinder his opponent and aid himself.  From minor\ncurative magics to blinding his enemy, the ranger is the most adept class\nat surviving on its own.  A ranger typically travels light, but he does\nhave the mighty strength of a warrior to carry equipment needed in his\ntravels.  Like the druid (the class other than warrior that he most\nclosely resembles), his need for help from outside sources is low.\n\nDexterity is the rangers prime attribute, and Strength is his second.\nIntelligence is his tertiary statistic.\n\nThe races of Human, Dwarf, Elf, Halfling, Half-elf, Sea-elf, Gnome, Ghoul,\nWolfen, Minotaur and Lizardman are allowed to be rangers.",
+  "tiered": false,
+  "advances_to": "Champion"
  },
  {
   "file": "Monk.class",
@@ -6430,7 +6451,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 71,
-  "title_count": 66
+  "title_count": 66,
+  "description": "The monks of the realms are powerful figures.  Studying the arts of pure\noffense and pure defense, monks become masters of various combat styles, each\none more deadly than the last.  Eventually, monks become true masters of\ncombat, and can dance circles around their enemies.  Strong with powers of\nmeditation, they can also focus their own will into power that flows\nthroughout their bodies.  Monks take quite a long time to learn new skills.\nMonks can only use talonous or pugilism weapons, even if they learn other\nweapons skills.\n\nMonks need to pull on their spiritual energy to use their skills, yet don't\ngain any when they level.  This requires them to search out magic items that\nthey can draw upon in order to maximize their strengths.\n\nDexterity is a monks prime attribute, with constitution the secondary.\nStrength is their tertiary statistic.\n\nThe races of Human, Elf, Half-elf, Gith, Sea-elf, Drow and Ghoul are allowed\nto be monks.",
+  "tiered": false,
+  "advances_to": "Champion"
  },
  {
   "file": "Diabolist.class",
@@ -7331,7 +7355,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 109,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Calling upon the powers of dark and dangerous planes, the diabolist is a\nmaster of summoning and focusing the power of sinister beings.  Not all\ndiabolists are evil, but one of the perils of working so closely with the\npowers of darkness is becoming ensnared by the demons and devils of the\nnetherrealms.  Not very strong at physical combat, the diabolist starts out\nrelatively weak, but after time, becomes a powerful force, able to even summon\nmighty creatures to do its bidding.\n\nIntelligence is a diabolists prime attribute, with charisma the secondary.\nWisdom is their tertiary stat.\n\nThe races of Human, Pixie, Half-elf, Half-orc, Half-troll, Gith, Drow, Ghoul,\nGoblin, Wolfen, Minotaur and Lizardman are allowed to be diabolists.",
+  "tiered": false,
+  "advances_to": "Bishop"
  },
  {
   "file": "Conjurer.class",
@@ -8207,7 +8234,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 104,
-  "title_count": 66
+  "title_count": 66,
+  "description": "The conjurer is an odd sort of person, locking themselves in their homes for\ndays on end, perfecting magical items.  Not very gifted in combat or\nhaving a wide variety of spells at their disposal, their true strength lies in\nthe fact that they are masters of creating magical things out of the various\ncomponents found in the realm.  A conjurer with a healthy supply of components\ncan do amazing things.  From creating their own temporary weapons and armor to\nsummoning forth powerful golems, a conjurer is not to be underestimated in the\nleast.  Because they choose to spend their time studying and experimenting,\nthey are limited to small weapons and light armor.\n\nPrimary stat is int, secondary is wis, tertiary is luck.\n\nThe races of Human, Dwarf, Elf, Half-elf, Sea-elf, Gnome and Ghoul are allowed\nto be conjurers.",
+  "tiered": false,
+  "advances_to": "Archmagi"
  },
  {
   "file": "Jester.class",
@@ -8983,7 +9013,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 84,
-  "title_count": 66
+  "title_count": 66,
+  "description": "A strange class, the jester.  Master of many odd tricks, he can move about\nwith great quickness and is very strong, due to the acrobatic nature of his\nstunts.  Not the normal \"HaHa\" jester you find in the halls of Kings, these\njesters are the \"battlefield reporters\" of the Realm.  They love to roam the\ncontinents, gathering knowledge, for who knows when you'll need more\nknowledge!  A mixture of skills from all over the board, plus a few handy\nother tricks keep a jester useful all the time.\n\nCharisma is a jesters prime attribute, with dexterity the secondary.  Luck is\ntheir tertiary statistic.\n\nThe races of Human, Elf, Halfling, Pixie, Half-elf, Sea-elf, Gnome, Ghoul and\nGoblin are allowed to be jesters.",
+  "tiered": false,
+  "advances_to": "Rogue"
  },
  {
   "file": "Shaman.class",
@@ -9939,7 +9972,10 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 120,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Shamans are the witch-doctors and voodoo priests of the more tribal races.\nWhile they lack the refined magic of the cleric or conjurer, they can invoke\nthe natural spirits of the world.  Gifted with the ability to speak to\nspirits, they can invoke powerful raw energies that can aid them in almost any\nway.  From boosting their natural abilities to protecting them from danger, a\nshaman is also an important member of the a tribe, offering rare and powerful\nbeneficial spells and potions.  Shamans can also wreak havoc upon their\nenemies by channeling the natural energies of the world into a mighty spell.\n\n\nTheir primary stat is wisdom, their secondary is is dex, and their tertiary is\ncon.\n\nThe races of Human, Half-elf, Half-ogre, Half-orc, Half-troll, Ghoul, Goblin,\nWolfen, Minotaur and Lizardman are allowed to be shamans.",
+  "tiered": false,
+  "advances_to": "Bishop"
  },
  {
   "file": "Champion.class",
@@ -10485,7 +10521,14 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 38,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Tiered Class for Warriors, Rangers and Monks.\n\nChampions are the peak of physical combat. Champions are trained in all arts\nof combat, from the classical military guidelines of the Alden army to\nthe mystical arts of the Ancient Monks. Champions can wear metal armor and use\nany weapon.\n\nTheir primary stat is Strength, with Dexterity as their secondary and\nConstitution as their tertiary.",
+  "tiered": true,
+  "tier_of": [
+   "Warrior",
+   "Ranger",
+   "Monk"
+  ]
  },
  {
   "file": "Bishop.class",
@@ -11046,7 +11089,14 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 41,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Tiered Class for Clerics, Shamans and Diabolists.\n\nBishops are the spiritual leaders of the realm and endowed with an awesome\namount of power from their deity and the creatures of both the celestial and\ndemon realms. They are both healers and potent magic users, capable of\nenduring damage that would slay even the strongest of champions or archmagi.\nThey are allowed to wear metal and use two-handed weapons.\n\nTheir primary stat is Wisdom, with Intelligence the secondary and Charisma as\ntheir tertiary.",
+  "tiered": true,
+  "tier_of": [
+   "Diabolist",
+   "Cleric",
+   "Shaman"
+  ]
  },
  {
   "file": "Rogue.class",
@@ -11587,7 +11637,14 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 37,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Tiered Class for Thieves, Thugs and Jesters.\n\nRogues are the master thieves, swordsman, and trouble makers of the realm.\nQuick of wit, tongue, and sword, the rogue is both dangerous yet entertaining.\nThe rogue is the master of the unexecpted, often capable of throwing off even\nthe most observant of opponents. Because of their reliance on speed, rogues\ncan not use metal armor.\n\nTheir primary stat is Dexterity and Luck is their secondary with Strength as\ntheir tertiary statistic.",
+  "tiered": true,
+  "tier_of": [
+   "Thief",
+   "Thug",
+   "Jester"
+  ]
  },
  {
   "file": "Archmagi.class",
@@ -12128,6 +12185,13 @@
   "resist": 0,
   "suscept": 0,
   "skill_count": 37,
-  "title_count": 66
+  "title_count": 66,
+  "description": "Tiered Class for Mages, Druids and Conjurers.\n\nArchmagi are the masters of the magic realm. They gain a deep insight into the\nworkings of the world and a high level archmagi can literally alter reality\naround them. They are limited in their melee abilities and cannot wear metal\nor use two-handed weapons. However, Archmagi have no equal when it comes to\npure spell power.\n\nTheir primary stat is Intelligence and Wisdom is secondary with Dexterity as\ntheir tertiary statistic.",
+  "tiered": true,
+  "tier_of": [
+   "Mage",
+   "Druid",
+   "Conjurer"
+  ]
  }
 ]

@@ -120,6 +120,18 @@ export function CharacterScreen(props: {
             );
           })}
         </View>
+        {selClass && (
+          <View style={styles.traitBox}>
+            <Text style={styles.traitStats}>
+              {selClass.name}
+              {selClass.attrPrime ? ` · prime ${selClass.attrPrime}` : ""}
+            </Text>
+            <View style={styles.traitRow}>
+              <Text style={styles.traitTag}>learns {selClass.learnableCount} skills/spells</Text>
+              {selClass.description.trim().length > 0 && <Text style={styles.loreTag}>lore ✓</Text>}
+            </View>
+          </View>
+        )}
         {race && !classAllowed && (
           <Text style={styles.notice}>A {race.name} cannot be a {selClass?.name}.</Text>
         )}

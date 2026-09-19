@@ -7,6 +7,10 @@ OUT="/home/user/HOGGIE/houseofghouls-export/content"
 
 CLASS_ORDER=["Mage","Cleric","Thief","Warrior","Thug","Druid","Ranger","Monk",
  "Diabolist","Conjurer","Jester","Shaman","Champion","Bishop","Rogue","Archmagi"]
+# Tier (remort) classes and the base classes that advance into them (systems-spec.md §2.4).
+# Tier classes are NOT creation choices — they're reached via `advancetier` (the tier system).
+TIER_OF={"Champion":["Warrior","Ranger","Monk"], "Bishop":["Diabolist","Cleric","Shaman"],
+         "Rogue":["Thief","Thug","Jester"], "Archmagi":["Mage","Druid","Conjurer"]}
 RACE_ORDER=["Human","Elf","Dwarf","Halfling","Pixie","Minotaur","Half-Ogre","Half-Orc",
  "Half-Troll","Half-Elf","Gith","Drow","Sea-Elf","Lizardman","Gnome","Ghoul","Goblin",
  "Wolfen","Shuri","Gulran","Zephyr","Jinn","Ahpock"]
@@ -29,30 +33,31 @@ def _norm(s):
     """Normalize a race name / help keyword for matching: uppercase, alnum only."""
     return re.sub(r'[^A-Z0-9]','',s.upper())
 
-def load_race_help():
-    """Map normalized-race-keyword -> help prose, from the MUD's own help entries.
-    Primary: the Lua help files (typed race entries). Fallback: the classic .are help files
-    (help.are/help2.are), which carry the later-added races. Lua wins on any overlap."""
-    out={}
-    # 1) Lua help files (primary): keywords + type/htype="race" + text=[[...]]
-    for fn in ("lua/help_all.lua","lua/help_race.lua"):
+def _add(d, norm_keys, text):
+    for k in norm_keys:
+        if k and k not in d: d[k]=text
+
+def build_help():
+    """Index the MUD's own help entries by type -> {normalized keyword: prose}.
+    Primary: the Lua help files (typed: race/class/skill/spell). Fallback: the classic .are help
+    files (help.are/help2.are), untyped, folded into an 'any' bucket and matched by exact name.
+    Lua wins on overlap. `text = function() … end` (dynamic/category) entries are skipped."""
+    H={"race":{}, "class":{}, "skill":{}, "spell":{}, "any":{}}
+    for fn in ("lua/help_all.lua","lua/help_race.lua","lua/help_class.lua","lua/help_skill.lua","lua/help_spell.lua"):
         path=os.path.join(SRC,fn)
         if not os.path.exists(path): continue
         txt=read(path)
         for m in re.finditer(r'keywords\s*=\s*\{([^}]*)\}.*?h?type\s*=\s*"([^"]*)".*?text\s*=\s*\[\[(.*?)\]\]',txt,re.S):
             kws,htype,body=m.group(1),m.group(2),m.group(3)
-            if htype!="race": continue
             text=body.strip()
-            for tok in re.findall(r'"([^"]*)"',kws):
-                for part in tok.split():
-                    k=_norm(part)
-                    if k and k not in out: out[k]=text
-    # 2) Classic .are help files: "<level> KEYWORDS~" header, body lines, terminated by a lone "~".
+            if not text: continue
+            norm=[_norm(p) for tok in re.findall(r'"([^"]*)"',kws) for p in tok.split()]
+            if htype in H: _add(H[htype],norm,text)
+            _add(H["any"],norm,text)
     for fn in ("area/help.are","area/help2.are"):
         path=os.path.join(SRC,fn)
         if not os.path.exists(path): continue
-        lines=read(path).splitlines()
-        i=0
+        lines=read(path).splitlines(); i=0
         while i<len(lines):
             m=re.match(r'^\s*(-?\d+)\s+(\S.*?)~\s*$',lines[i])
             if m:
@@ -60,12 +65,13 @@ def load_race_help():
                 while i<len(lines) and lines[i].strip()!="~":
                     body.append(lines[i]); i+=1
                 text="\n".join(body).strip()
-                if text:
-                    for part in kws.split():
-                        k=_norm(part)
-                        if k and k not in out: out[k]=text
+                if text: _add(H["any"],[_norm(p) for p in kws.split()],text)
             i+=1
-    return out
+    return H
+
+def help_for(H, kind, name):
+    k=_norm(name)
+    return H.get(kind,{}).get(k) or H["any"].get(k) or ""
 
 def parse_class(path):
     lines=read(path).splitlines()
@@ -181,19 +187,37 @@ def main():
         seen[r["id"]]=r.get("name")
     races.sort(key=lambda r:r.get("id",999))
     if reassigned: print("race id collisions resolved:", "; ".join(reassigned))
-    # Enrich races: decode RIS bitvectors to damage-type arrays (matching mobs) + attach the
-    # MUD's own help prose as `description` (empty when the source has no help entry for a race).
-    help_by_race=load_race_help()
+    skills=parse_skills(f"{SRC}/system/skills.dat")
+    # Index the MUD's help prose once, then attach descriptions to every entity.
+    H=build_help()
+    # Races: decode RIS bitvectors to damage-type arrays (matching mobs) + help prose.
     no_help=[]
     for r in races:
         r["resistant"]=decode_bits(r.get("resist_bits"),RIS_FLAGS)
         r["susceptible"]=decode_bits(r.get("suscept_bits"),RIS_FLAGS)
-        desc=help_by_race.get(_norm(r.get("name","")),"")
-        r["description"]=desc
-        if not desc: no_help.append(r.get("name"))
+        r["description"]=help_for(H,"race",r.get("name",""))
+        if not r["description"]: no_help.append(r.get("name"))
     print("races with help text:",len(races)-len(no_help),"/",len(races),
           "| no source help:",", ".join(no_help) or "none")
-    skills=parse_skills(f"{SRC}/system/skills.dat")
+    # Classes: help prose + tier classification (tier classes aren't creation choices).
+    base_for={b:t for t,bs in TIER_OF.items() for b in bs}
+    c_no_help=[]
+    for c in classes:
+        nm=c.get("name","")
+        c["description"]=help_for(H,"class",nm)
+        c["tiered"]=nm in TIER_OF
+        if nm in TIER_OF: c["tier_of"]=TIER_OF[nm]           # tier class <- these base classes
+        elif nm in base_for: c["advances_to"]=base_for[nm]   # base class -> this tier class
+        if not c["description"]: c_no_help.append(nm)
+    print("classes with help text:",len(classes)-len(c_no_help),"/",len(classes),
+          "| no help:",", ".join(c_no_help) or "none")
+    # Skills/spells: real help prose (the numeric `info` field is NOT a description).
+    s_have=0
+    for s in skills:
+        kind="spell" if s.get("type")=="Spell" else "skill"
+        s["description"]=help_for(H,kind,s.get("name",""))
+        if s["description"]: s_have+=1
+    print(f"skills/spells with help text: {s_have} / {len(skills)}")
     json.dump(classes,open(f"{OUT}/classes.json","w"),indent=1,ensure_ascii=False)
     json.dump(races,open(f"{OUT}/races.json","w"),indent=1,ensure_ascii=False)
     json.dump(skills,open(f"{OUT}/skills.json","w"),indent=1,ensure_ascii=False)

@@ -58,6 +58,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "say": case "'": return doSay(ctx, arg);
     case "who": return doWho(ctx);
     case "score": case "sc": return doScore(ctx);
+    case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -231,6 +232,30 @@ function doScore(ctx: CommandContext): void {
   sendVitals(ctx.world, ctx.player);
 }
 
+/** The class's skill/spell tree: what it learns and at what level (data-driven per class). */
+function doSkillList(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  const cls = ctx.world.classes.get(ch.classId);
+  if (!cls) return out(ctx.player, "&RYour class has no skill list.&D");
+  const all = arg.trim().toLowerCase() === "all";
+  const rows = [...cls.skills].sort((a, b) => a.level - b.level || a.skill.localeCompare(b.skill));
+  const shown = all ? rows : rows.filter((r) => r.level <= ch.level);
+  const CAP = 120;
+  const lines = [`&Y--- ${cls.name}: ${all ? "all learnable" : "available now"} (${shown.length}/${rows.length}) ---&D`];
+  for (const r of shown.slice(0, CAP)) {
+    const def = ctx.world.getSkill(r.skill);
+    const kind = def ? def.type.toLowerCase() : "skill";
+    const avail = r.level <= ch.level;
+    lines.push(`${avail ? "&W" : "&z"}[L${String(r.level).padStart(2)}]&D ${esc(r.skill)} &d(adept ${r.adept}%)&D &c[${kind}]&D`);
+  }
+  if (shown.length > CAP) lines.push(`&z…and ${shown.length - CAP} more.&D`);
+  if (!all && rows.length > shown.length) {
+    lines.push(`&Y${rows.length - shown.length} more unlock at higher levels — type 'slist all'.&D`);
+  }
+  lines.push("&d(Learning/practicing and casting are roadmap — this is the class's skill tree.)&D");
+  out(ctx.player, ...lines);
+}
+
 function doHelp(ctx: CommandContext): void {
   out(
     ctx.player,
@@ -239,7 +264,7 @@ function doHelp(ctx: CommandContext): void {
     "&Wkill&D <mob> (k)   &Wflee&D   &Wconsider&D <mob> (con)",
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
     "&Wrest sleep sit stand&D (regen when out of combat)",
-    "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wroles&D   &Whelp&D   &Wquit&D",
+    "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all] (class skills)   &Wroles&D   &Whelp&D   &Wquit&D",
   );
   if (can(ctx.account.roles, "info.stat") || can(ctx.account.roles, "world.goto")) {
     out(

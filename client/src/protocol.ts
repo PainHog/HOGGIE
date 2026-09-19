@@ -32,6 +32,8 @@ export interface ClassInfo {
   id: number;
   name: string;
   description: string;
+  attrPrime?: string;
+  learnableCount: number;
 }
 
 export interface Catalog {
