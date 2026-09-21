@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 5 as const;
+export const PROTOCOL_VERSION = 6 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -252,6 +252,7 @@ export interface SkillInfo {
   type: string; // Spell | Skill | Tongue | Weapon
   level: number; // level it unlocks
   adept: number; // practice cap (%)
+  learned?: number; // the character's current learned% (0 until unlocked; base until practised)
   available: boolean; // level <= character level
   description: string;
   mana?: number; // MP cost for a spell

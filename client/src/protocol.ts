@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 5;
+export const PROTOCOL_VERSION = 6;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -128,6 +128,7 @@ export interface SkillInfo {
   type: string;
   level: number;
   adept: number;
+  learned?: number;
   available: boolean;
   description: string;
   mana?: number;

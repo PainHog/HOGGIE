@@ -180,7 +180,7 @@ export function GroundBar({ items, onGet }: { items: string[]; onGet: (cmd: stri
   );
 }
 
-export function SkillsPanel({ skills, label }: { skills: SkillInfo[]; label: string }) {
+export function SkillsPanel({ skills, label, onPractice }: { skills: SkillInfo[]; label: string; onPractice?: (name: string) => void }) {
   const spells = skills.filter((s) => s.type.toLowerCase() === "spell");
   const abilities = skills.filter((s) => s.type.toLowerCase() !== "spell");
   const available = skills.filter((s) => s.available).length;
@@ -191,35 +191,51 @@ export function SkillsPanel({ skills, label }: { skills: SkillInfo[]; label: str
         <Text style={styles.title}>Skills & Spells</Text>
         <Text style={styles.invCount}>{available}/{skills.length}</Text>
       </View>
-      {label ? <Text style={styles.subtitle}>{label} · hover a row for its lore</Text> : null}
+      {label ? <Text style={styles.subtitle}>{label} · tap an unlocked row to practise</Text> : null}
       {skills.length === 0 ? (
         <Text style={styles.note}>No skill tree loaded.</Text>
       ) : (
         <ScrollView style={styles.skillList} contentContainerStyle={{ gap: 3 }}>
           {abilities.length > 0 && <Text style={styles.section}>Skills</Text>}
-          {abilities.map((s) => <SkillRow key={s.name} s={s} />)}
+          {abilities.map((s) => <SkillRow key={s.name} s={s} onPractice={onPractice} />)}
           {spells.length > 0 && <Text style={styles.section}>Spells</Text>}
-          {spells.map((s) => <SkillRow key={s.name} s={s} />)}
+          {spells.map((s) => <SkillRow key={s.name} s={s} onPractice={onPractice} />)}
         </ScrollView>
       )}
-      <Text style={styles.note}>Cast combat spells from the SPELLS bar. Practising — roadmap.</Text>
+      <Text style={styles.note}>Cast from the SPELLS bar. Practise at a guildmaster to raise learned%.</Text>
     </View>
   );
 }
 
-function SkillRow({ s }: { s: SkillInfo }) {
+function SkillRow({ s, onPractice }: { s: SkillInfo; onPractice?: (name: string) => void }) {
+  const learned = s.learned ?? 0;
+  const atCap = s.available && learned >= s.adept;
+  const pct = Math.max(0, Math.min(100, s.adept > 0 ? (learned / s.adept) * 100 : 0));
   return (
     <InfoTip
       title={s.name}
-      body={s.description || `A ${s.type.toLowerCase()} learned at level ${s.level}.`}
+      body={`${s.description || `A ${s.type.toLowerCase()} learned at level ${s.level}.`}${s.available ? `\n\nLearned ${learned}% of ${s.adept}% adept cap.${atCap ? " Mastered." : " Tap to practise at a guildmaster."}` : `\n\nUnlocks at level ${s.level}.`}`}
       placement="top"
       width={250}
     >
-      <View style={[styles.skillRow, !s.available && styles.skillLocked]}>
+      <Pressable
+        disabled={!s.available || !onPractice}
+        onPress={() => onPractice?.(s.name)}
+        style={({ pressed }) => [styles.skillRow, !s.available && styles.skillLocked, pressed && s.available && { opacity: 0.7 }]}
+      >
         <Text style={[styles.skillLvl, !s.available && styles.skillDim]}>L{s.level}</Text>
-        <Text style={[styles.skillName, !s.available && styles.skillDim]} numberOfLines={1}>{s.name}</Text>
-        <Text style={styles.skillAdept}>{s.adept}%</Text>
-      </View>
+        <View style={{ flex: 1 }}>
+          <Text style={[styles.skillName, !s.available && styles.skillDim]} numberOfLines={1}>{s.name}</Text>
+          {s.available && (
+            <View style={styles.profBar}>
+              <View style={[styles.profFill, { width: `${pct}%` }, atCap && styles.profFull]} />
+            </View>
+          )}
+        </View>
+        <Text style={[styles.skillAdept, atCap && { color: theme.gold }]}>
+          {s.available ? `${learned}/${s.adept}%` : `${s.adept}%`}
+        </Text>
+      </Pressable>
     </InfoTip>
   );
 }
@@ -268,9 +284,12 @@ const styles = StyleSheet.create({
   },
   skillLocked: { borderStyle: "dashed", opacity: 0.8 },
   skillLvl: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 11, width: 30 },
-  skillName: { color: theme.bone, fontFamily: fonts.body, fontSize: 12, flex: 1 },
+  skillName: { color: theme.bone, fontFamily: fonts.body, fontSize: 12 },
   skillAdept: { color: theme.dim, fontFamily: fonts.body, fontSize: 11 },
   skillDim: { color: theme.dim },
+  profBar: { height: 3, borderRadius: 2, backgroundColor: theme.panelBorder, marginTop: 3, overflow: "hidden" },
+  profFill: { height: 3, backgroundColor: theme.accent, borderRadius: 2 },
+  profFull: { backgroundColor: theme.gold },
   ground: {
     flexDirection: "row", alignItems: "center", gap: 6, backgroundColor: theme.panel,
     borderRadius: 8, borderWidth: 1, borderColor: theme.panelBorder, paddingVertical: 6, paddingHorizontal: 8,

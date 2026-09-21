@@ -115,9 +115,10 @@ describe("cast command", () => {
   it("a successful damage cast spends mana and hurts the foe", () => {
     const s = setup();
     const { name, def } = knownDamageSpell();
-    const startMana = s.ch.mana;
+    s.ch.proficiencies[name.toLowerCase()] = 100; // fully practised so it reliably lands (§2.6)
+    const startMana = s.ch.mana = s.ch.maxMana = 500; // plenty of mana for a few attempts
     const startHp = s.mob.hp = s.mob.maxHp = 500; // give the dummy a big pool so it survives
-    // cast until one lands (each attempt spends mana; ~85% land, so this resolves fast + deterministic)
+    // cast until one lands (each attempt spends mana; a practised spell lands most of the time)
     for (let i = 0; i < 12 && s.mob.hp >= startHp; i++) dispatchCommand(s.ctx, `cast ${name}`);
     expect(s.mob.hp).toBeLessThan(startHp); // a cast connected
     expect(s.ch.mana).toBeLessThan(startMana); // mana was spent

@@ -5,6 +5,7 @@ import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, expToNextLevel, raceName, type Character } from "./character.ts";
 import { mobShort } from "./mobInstance.ts";
 import { affectNames } from "./affects.ts";
+import { learnedPct, mergedGrants } from "./skills.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -146,27 +147,17 @@ export function sendSkills(world: World, viewer: Player): void {
   const ch = viewer.character;
   const cls = world.classes.get(ch.classId);
   const dual = ch.dualClassId != null && ch.dualClassId !== ch.classId ? world.classes.get(ch.dualClassId) : undefined;
-  const merged = new Map<string, { skill: string; level: number; adept: number }>();
-  const addGrants = (grants: { skill: string; level: number; adept: number }[]) => {
-    for (const g of grants) {
-      const cur = merged.get(g.skill);
-      merged.set(g.skill, cur
-        ? { skill: g.skill, level: Math.min(cur.level, g.level), adept: Math.max(cur.adept, g.adept) }
-        : { ...g });
-    }
-  };
-  if (cls) addGrants(cls.skills);
-  if (dual) addGrants(dual.skills);
   const label = dual ? `${cls?.name}/${dual.name}` : (cls?.name ?? "");
-  const skills = [...merged.values()]
-    .sort((a, b) => a.level - b.level || a.skill.localeCompare(b.skill))
+  const skills = [...mergedGrants(world, ch).values()]
+    .sort((a, b) => a.level - b.level || a.name.localeCompare(b.name))
     .map((r) => {
-      const def = world.getSkill(r.skill);
+      const def = world.getSkill(r.name);
       return {
-        name: r.skill,
+        name: r.name,
         type: def?.type ?? "Skill",
         level: r.level,
         adept: r.adept,
+        learned: learnedPct(world, ch, r.name), // 0 until unlocked; base until practised
         available: r.level <= ch.level,
         description: (def?.description ?? "").trim(),
         mana: def?.mana,

@@ -9,6 +9,7 @@ import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
+import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -67,6 +68,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "who": return doWho(ctx);
     case "score": case "sc": return doScore(ctx);
     case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
+    case "practice": case "prac": return void doPractice(ctx, arg);
     case "cast": case "c": return doCast(ctx, arg);
     case "advancetier": case "remort": return void doAdvanceTier(ctx);
     case "list": return doShopList(ctx);
@@ -553,6 +555,72 @@ async function doAdvanceTier(ctx: CommandContext): Promise<void> {
   if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => out(ctx.player, "&r(warning: tier not yet saved)&D"));
 }
 
+/** The guildmaster or trainer standing in this room, if any (they teach/practise skills). */
+function trainerHere(ctx: CommandContext): MobInstance | undefined {
+  return ctx.live.roomMobs(ctx.player.character.roomVnum).find((m) =>
+    m.proto.actFlags.includes("guildmaster") || m.proto.actFlags.includes("trainer"));
+}
+
+/** A successful use of a skill teaches you a little (§2.6): a small chance to gain 1% toward cap. */
+function improveOnUse(ctx: CommandContext, name: string, cap: number): void {
+  const ch = ctx.player.character;
+  const cur = learnedPct(ctx.world, ch, name);
+  if (cur >= cap) return;
+  if (Math.random() < 0.12) {
+    raiseSkill(ch, name, cap, 1);
+    out(ctx.player, `&dYou feel more competent with ${esc(name)}. (${cur + 1}%)&D`);
+    if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+  }
+}
+
+/**
+ * `practice` — list your learnable skills + learned%; `practice <skill>` — spend a session at a
+ * guildmaster to raise it toward its adept cap (INT-driven gain, §2.6).
+ */
+async function doPractice(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  const grants = mergedGrants(ctx.world, ch);
+  const known = [...grants.values()].filter((g) => g.level <= ch.level).sort((a, b) => a.name.localeCompare(b.name));
+
+  if (!arg.trim()) {
+    const here = trainerHere(ctx);
+    const lines = [`&Y--- Practice (${ch.practices} session${ch.practices === 1 ? "" : "s"} left) ---&D`];
+    if (known.length === 0) lines.push("&dYou have no skills to practise yet.&D");
+    for (const g of known.slice(0, 60)) {
+      const pct = learnedPct(ctx.world, ch, g.name);
+      const mark = pct >= g.adept ? "&G(adept)" : `&W${pct}%&d/${g.adept}%`;
+      lines.push(`  ${esc(g.name)} ${mark}&D`);
+    }
+    lines.push(here
+      ? `&Y${cap(mobShort(here))} can train you — type 'practice <skill>'.&D`
+      : "&d(Find a guildmaster or trainer, then 'practice <skill>'.)&D");
+    return out(ctx.player, ...lines);
+  }
+
+  const here = trainerHere(ctx);
+  if (!here) return out(ctx.player, "&RYou can't practise here — find a guildmaster or trainer.&D");
+  if (ch.practices <= 0) return out(ctx.player, "&RYou have no practice sessions left. Gain more by leveling.&D");
+
+  const lower = arg.trim().toLowerCase();
+  const target = known.find((g) => g.name.toLowerCase() === lower)
+    ?? known.find((g) => g.name.toLowerCase().startsWith(lower));
+  if (!target) return out(ctx.player, "&RYou can't practise that — it's not on your skill list yet.&D");
+
+  const cur = learnedPct(ctx.world, ch, target.name);
+  if (cur >= target.adept) return out(ctx.player, `&YYou are already an adept at ${esc(target.name)} (${target.adept}%).&D`);
+
+  ch.practices -= 1;
+  const next = raiseSkill(ch, target.name, target.adept, practiceGain(ch.stats.int));
+  out(ctx.player,
+    `&G${cap(mobShort(here))} drills you in ${esc(target.name)}.&D`,
+    next >= target.adept
+      ? `&YYou master ${esc(target.name)} — ${next}% (adept)! (${ch.practices} sessions left)&D`
+      : `&YYour ${esc(target.name)} rises to ${next}%. (${ch.practices} sessions left)&D`);
+  sendSkills(ctx.world, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+}
+
 /** The class's skill/spell tree: what it learns and at what level (data-driven per class).
  *  For a dual-class character this is the UNION of both classes — usable at the lower required
  *  level, adept cap = the higher of the two (faithful to the source). */
@@ -582,13 +650,16 @@ function doSkillList(ctx: CommandContext, arg: string): void {
     const def = ctx.world.getSkill(r.skill);
     const kind = def ? def.type.toLowerCase() : "skill";
     const avail = r.level <= ch.level;
-    lines.push(`${avail ? "&W" : "&z"}[L${String(r.level).padStart(2)}]&D ${esc(r.skill)} &d(adept ${r.adept}%)&D &c[${kind}]&D`);
+    const prof = avail
+      ? `&W${learnedPct(ctx.world, ch, r.skill)}%&d/${r.adept}%`
+      : `&d(adept ${r.adept}%)`;
+    lines.push(`${avail ? "&W" : "&z"}[L${String(r.level).padStart(2)}]&D ${esc(r.skill)} ${prof}&D &c[${kind}]&D`);
   }
   if (shown.length > CAP) lines.push(`&z…and ${shown.length - CAP} more.&D`);
   if (!all && rows.length > shown.length) {
     lines.push(`&Y${rows.length - shown.length} more unlock at higher levels — type 'slist all'.&D`);
   }
-  lines.push("&d(Spells are castable now with 'cast'. Learning/practicing is roadmap.)&D");
+  lines.push("&d(cast <spell> to cast · practice <skill> at a guildmaster to raise your learned%.)&D");
   out(ctx.player, ...lines);
 }
 
@@ -656,13 +727,18 @@ function doCast(ctx: CommandContext, arg: string): void {
   const cost = def.mana ?? 0;
   if (ch.mana < cost) return out(ctx.player, "&RYou don't have enough mana.&D");
 
-  // Failure roll (interim: the grant's adept cap stands in for learned% until practising exists).
-  if (ctx.combat.spellFails(def.difficulty ?? 1, match.adept)) {
+  // Failure roll uses the character's own learned% for this spell (§2.7 + §2.6): a spell you've
+  // barely practised usually fizzles. Practise it up at a guildmaster to cast it reliably.
+  const learned = learnedPct(ctx.world, ch, def.name);
+  if (ctx.combat.spellFails(def.difficulty ?? 1, learned)) {
     ch.mana = Math.max(0, ch.mana - Math.floor(cost / 2));
-    out(ctx.player, "&RYou lost your concentration.&D");
+    out(ctx.player, learned <= 5
+      ? "&RYou fumble the incantation — you've barely practised this spell.&D"
+      : "&RYou lost your concentration.&D");
     return sendVitals(ctx.world, ctx.player);
   }
   ch.mana -= cost;
+  improveOnUse(ctx, def.name, match.adept); // a successful cast teaches you a little (§2.6)
   const level = effectiveLevel(ch);
 
   switch (def.category) {
@@ -725,7 +801,7 @@ function doHelp(ctx: CommandContext): void {
     "&Wkill&D <mob> (k)   &Wflee&D   &Wconsider&D <mob> (con)",
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
     "&Wrest sleep sit stand&D (regen when out of combat)",
-    "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all] (class skills)   &Wroles&D   &Whelp&D   &Wquit&D",
+    "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all]   &Wpractice&D <skill> (at a guildmaster)   &Wroles&D   &Whelp&D",
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
     "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",
     "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",

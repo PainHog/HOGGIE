@@ -39,6 +39,8 @@ export interface Character {
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */
   equipment: Record<string, ItemInstance>;
+  /** Per-skill learned% (lowercased skill name -> proficiency), raised by practising/use (§2.6). */
+  proficiencies: Record<string, number>;
   /** Position doubles as combat stance (standing/resting/sleeping/berserk/…). */
   position: string;
   roomVnum: number;
@@ -178,6 +180,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     practices: 5,
     inventory: [],
     equipment: {},
+    proficiencies: {},
     position: "standing",
     roomVnum: input.startRoom,
     title,
