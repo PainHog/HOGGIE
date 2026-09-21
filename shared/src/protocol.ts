@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 6 as const;
+export const PROTOCOL_VERSION = 7 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -203,6 +203,7 @@ export interface Vitals {
   exp: number;
   tnl: number; // exp to next level
   gold: number;
+  glory?: number; // quest points (glory), spent on practice sessions
   position: string;
   alignment: number;
   /** Core attributes (LCK included) for the character panel — read-only view of character.stats. */

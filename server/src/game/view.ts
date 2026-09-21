@@ -93,6 +93,7 @@ export function vitalsOf(world: World, ch: Character): Vitals {
     exp: ch.exp,
     tnl: expToNextLevel(world, ch),
     gold: ch.gold,
+    glory: ch.glory ?? 0,
     position: ch.position,
     alignment: ch.alignment,
     stats: {

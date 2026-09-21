@@ -312,6 +312,19 @@ export class CombatManager {
       ch.gold += gold;
       killer.send(`&YYou gain ${xp} experience points.&D`);
       if (gold > 0) killer.send(`&YYou get ${gold} gold coins from the corpse of ${mobShort(mob)}.&D`);
+      // Glory: felling a much tougher foe is a glorious deed (§3.6).
+      if (mob.proto.level >= ch.level + 5) {
+        ch.glory += 1;
+        killer.send("&YA glorious kill! (+1 glory)&D");
+      }
+      // Quest progress: does this kill count toward the active hunt?
+      if (ch.quest && ch.quest.mobVnum === mob.proto.vnum && ch.quest.killed < ch.quest.count) {
+        ch.quest.killed += 1;
+        const q = ch.quest;
+        killer.send(q.killed >= q.count
+          ? `&YQuest complete: ${q.count}/${q.count} ${esc(q.mobName)} slain — return to a questmaster to claim your reward.&D`
+          : `&YQuest: ${q.killed}/${q.count} ${esc(q.mobName)} slain.&D`);
+      }
       this.checkLevel(killer as PlayerFighter);
     }
   }

@@ -80,6 +80,7 @@ export function CharacterPanel({ vitals, catalog, equipment = [] }: { vitals: Vi
         <Stat statKey="cha" label="CHA" value={s.cha} />
         <Stat statKey="lck" label="LCK" value={s.lck} />
         <Stat statKey="align" label="ALIGN" value={vitals.alignment} />
+        <Stat statKey="glory" label="GLORY" value={vitals.glory ?? 0} />
       </View>
 
       <Text style={styles.section}>Equipment</Text>

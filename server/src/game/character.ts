@@ -5,6 +5,7 @@
 import type { RaceDef, Stats } from "../world/model.ts";
 import type { World } from "../world/world.ts";
 import type { Affect } from "./affects.ts";
+import type { QuestTarget } from "./quest.ts";
 
 /** A carried item — the minimal inventory the shop system needs (references an object prototype). */
 export interface ItemInstance {
@@ -35,6 +36,10 @@ export interface Character {
   maxMove: number;
   gold: number;
   practices: number;
+  /** Glory (quest points): earned from quests and glorious kills, spent on practice sessions (§3.6). */
+  glory: number;
+  /** The character's one active hunt quest, if any. */
+  quest?: QuestTarget;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */
@@ -178,6 +183,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     maxMove: vit.maxMove,
     gold: 0,
     practices: 5,
+    glory: 0,
     inventory: [],
     equipment: {},
     proficiencies: {},

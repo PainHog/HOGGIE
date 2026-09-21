@@ -10,6 +10,7 @@ import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceNam
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
+import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -69,6 +70,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "score": case "sc": return doScore(ctx);
     case "slist": case "skills": case "spells": return doSkillList(ctx, arg);
     case "practice": case "prac": return void doPractice(ctx, arg);
+    case "quest": case "quests": case "glory": return void doQuest(ctx, arg);
     case "cast": case "c": return doCast(ctx, arg);
     case "advancetier": case "remort": return void doAdvanceTier(ctx);
     case "list": return doShopList(ctx);
@@ -250,7 +252,10 @@ function doScore(ctx: CommandContext): void {
     `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}${dualClassName(ctx.world, c) ? `/${dualClassName(ctx.world, c)}` : ""}${isTiered(c) ? ` &Y[Tier ${c.tier}, eff L${effectiveLevel(c)}]&D` : ""}`,
     `&wHP &G${c.hp}&w/&G${c.maxHp}&D   Mana &C${c.mana}&w/&C${c.maxMana}&D   Move &Y${c.move}&w/&Y${c.maxMove}&D`,
     `&wSTR ${c.stats.str}  INT ${c.stats.int}  WIS ${c.stats.wis}  DEX ${c.stats.dex}  CON ${c.stats.con}  CHA ${c.stats.cha}  &YLCK ${c.stats.lck}&D`,
-    `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   Align ${c.alignment}   Stance ${c.position}&D`,
+    `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   &YGlory ${c.glory}&D   Practices ${c.practices}   Align ${c.alignment}   Stance ${c.position}&D`,
+    c.quest
+      ? `&wQuest: &Y${c.quest.killed}/${c.quest.count} ${esc(c.quest.mobName)}${c.quest.killed >= c.quest.count ? " (done — turn in)" : ""}&D`
+      : "&wQuest: &dnone (ask a questmaster)&D",
   );
   sendVitals(ctx.world, ctx.player);
 }
@@ -621,6 +626,102 @@ async function doPractice(ctx: CommandContext, arg: string): Promise<void> {
   if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
 }
 
+/** The questmaster or guildmaster standing in this room (the quest board), if any. */
+function questGiverHere(ctx: CommandContext): MobInstance | undefined {
+  return ctx.live.roomMobs(ctx.player.character.roomVnum).find((m) => isQuestGiver(m.proto));
+}
+
+/** Show the active quest's line (progress) or that there is none. */
+function questStatusLines(ch: CommandContext["player"]["character"]): string[] {
+  const lines = [`&Y--- Quest & Glory ---&D`, `&YGlory: &W${ch.glory}&D  &d(spend at a questmaster: 'quest buy practice')&D`];
+  if (ch.quest) {
+    const q = ch.quest;
+    const done = q.killed >= q.count;
+    lines.push(done
+      ? `&GHunt: ${q.count}/${q.count} ${esc(q.mobName)} — DONE. Return to a questmaster and 'quest complete'.&D`
+      : `&YHunt: ${q.killed}/${q.count} ${esc(q.mobName)} (seek it in ${esc(q.areaName)}).&D`);
+  } else {
+    lines.push("&dNo active quest. Ask a questmaster: 'quest request'.&D");
+  }
+  return lines;
+}
+
+/**
+ * `quest` — status; `quest request` — take a hunt from a questmaster; `quest complete` — claim it;
+ * `quest abandon` — drop it; `quest buy practice` — spend glory on a practice session (§3.6).
+ */
+async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  const sub = arg.trim().toLowerCase().split(/\s+/)[0] ?? "";
+
+  if (!sub || sub === "status" || sub === "info") return out(ctx.player, ...questStatusLines(ch));
+
+  if (sub === "request" || sub === "list" || sub === "new") {
+    const giver = questGiverHere(ctx);
+    if (!giver) return out(ctx.player, "&RThere's no questmaster here to ask.&D");
+    if (ch.quest && ch.quest.killed < ch.quest.count) {
+      return out(ctx.player, `&YYou're already on a hunt: ${ch.quest.killed}/${ch.quest.count} ${esc(ch.quest.mobName)}.&D`);
+    }
+    const q = assignQuest(ctx.world, ch, giver.proto.area);
+    if (!q) return out(ctx.player, "&RThe questmaster has nothing for you right now.&D");
+    ch.quest = q;
+    out(ctx.player,
+      `&Y${cap(mobShort(giver))} charges you with a hunt:&D`,
+      `&W  Slay ${q.count} x ${esc(q.mobName)}&D &d(seek them in ${esc(q.areaName)})&D`,
+      `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. 'quest complete' back here when it's done.&D`);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+
+  if (sub === "complete" || sub === "turn" || sub === "claim") {
+    const giver = questGiverHere(ctx);
+    if (!giver) return out(ctx.player, "&RFind a questmaster to claim a quest.&D");
+    if (!ch.quest) return out(ctx.player, "&RYou have no quest to complete.&D");
+    if (ch.quest.killed < ch.quest.count) {
+      return out(ctx.player, `&RYour hunt isn't done: ${ch.quest.killed}/${ch.quest.count} ${esc(ch.quest.mobName)}.&D`);
+    }
+    const q = ch.quest;
+    ch.gold += q.rewardGold;
+    ch.glory += q.rewardGlory;
+    ch.quest = undefined;
+    out(ctx.player,
+      `&Y${cap(mobShort(giver))} nods with respect.&D`,
+      `&YQuest complete! +${q.rewardGold} gold, +${q.rewardGlory} glory. (Glory: ${ch.glory})&D`);
+    sendVitals(ctx.world, ctx.player);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+
+  if (sub === "abandon" || sub === "drop") {
+    if (!ch.quest) return out(ctx.player, "&RYou have no quest to abandon.&D");
+    const name = ch.quest.mobName;
+    ch.quest = undefined;
+    out(ctx.player, `&YYou abandon the hunt for ${esc(name)}.&D`);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+
+  if (sub === "buy") {
+    const what = arg.trim().toLowerCase().split(/\s+/)[1] ?? "";
+    const giver = questGiverHere(ctx);
+    if (!giver) return out(ctx.player, "&RFind a questmaster to spend glory.&D");
+    if (what !== "practice" && what !== "prac") {
+      return out(ctx.player, `&YSpend glory on: &Wpractice&D (${GLORY_PER_PRACTICE} glory -> 1 session). Type 'quest buy practice'.&D`);
+    }
+    if (ch.glory < GLORY_PER_PRACTICE) {
+      return out(ctx.player, `&RYou need ${GLORY_PER_PRACTICE} glory — you have ${ch.glory}.&D`);
+    }
+    ch.glory -= GLORY_PER_PRACTICE;
+    ch.practices += 1;
+    out(ctx.player, `&YYou trade ${GLORY_PER_PRACTICE} glory for a practice session. (Glory: ${ch.glory}, practices: ${ch.practices})&D`);
+    sendVitals(ctx.world, ctx.player);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+
+  out(ctx.player, "&YQuest: 'quest' (status), 'quest request', 'quest complete', 'quest abandon', 'quest buy practice'.&D");
+}
+
 /** The class's skill/spell tree: what it learns and at what level (data-driven per class).
  *  For a dual-class character this is the UNION of both classes — usable at the lower required
  *  level, adept cap = the higher of the two (faithful to the source). */
@@ -804,6 +905,7 @@ function doHelp(ctx: CommandContext): void {
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all]   &Wpractice&D <skill> (at a guildmaster)   &Wroles&D   &Whelp&D",
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
     "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",
+    "&Wquest&D (status)   &Wquest request&D / &Wcomplete&D (at a questmaster)   &Wquest buy practice&D (glory)",
     "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
     "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );
