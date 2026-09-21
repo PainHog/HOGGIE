@@ -37,6 +37,8 @@ export interface Character {
   practices: number;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
+  /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */
+  equipment: Record<string, ItemInstance>;
   /** Position doubles as combat stance (standing/resting/sleeping/berserk/…). */
   position: string;
   roomVnum: number;
@@ -175,6 +177,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     gold: 0,
     practices: 5,
     inventory: [],
+    equipment: {},
     position: "standing",
     roomVnum: input.startRoom,
     title,

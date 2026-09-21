@@ -238,6 +238,14 @@ export interface InventoryItem {
   description: string;
 }
 
+/** A worn/wielded item (for the equipment panel). */
+export interface EquippedItem {
+  slot: string;
+  vnum: number;
+  name: string;
+  itemType: string;
+}
+
 /** One learnable skill/spell on a character's class tree, with its help prose for tooltips. */
 export interface SkillInfo {
   name: string;
@@ -266,6 +274,8 @@ export type ServerMessage =
   | { t: "vitals"; vitals: Vitals }
   /** The player's carried items (for the inventory panel). */
   | { t: "inventory"; items: InventoryItem[] }
+  /** The player's worn/wielded gear (for the equipment panel). */
+  | { t: "equipment"; items: EquippedItem[] }
   /** The character's class skill/spell tree (union of both classes when dual), for the skills panel. */
   | { t: "skills"; label: string; skills: SkillInfo[] }
   /** Presentation-only combat event, paired with the narrative it visualises. */

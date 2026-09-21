@@ -16,9 +16,16 @@ const buffer: LogEntry[] = [];
 const listeners = new Set<() => void>();
 let errorCount = 0;
 let installed = false;
+let flushScheduled = false;
 
+// Notify listeners on a microtask (coalesced) so a log emitted mid-render never triggers a
+// React setState during another component's render.
 function emit() {
-  for (const l of listeners) l();
+  if (flushScheduled) return;
+  flushScheduled = true;
+  const flush = () => { flushScheduled = false; for (const l of listeners) l(); };
+  if (typeof queueMicrotask === "function") queueMicrotask(flush);
+  else setTimeout(flush, 0);
 }
 
 function push(level: LogEntry["level"], text: string) {

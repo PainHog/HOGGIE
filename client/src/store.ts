@@ -3,6 +3,7 @@ import type {
   Catalog,
   CharacterSummary,
   CombatFx,
+  EquippedItem,
   InventoryItem,
   Line,
   RoomExit,
@@ -43,6 +44,7 @@ export interface GameState {
   room: RoomView | null;
   vitals: Vitals | null;
   inventory: InventoryItem[]; // what the character is carrying (inventory panel + shop)
+  equipment: EquippedItem[]; // worn/wielded gear
   skills: SkillInfo[]; // the character's class skill/spell tree (skills panel)
   skillsLabel: string; // e.g. "Warrior" or "Warrior/Mage"
   notice: string | null;
@@ -61,6 +63,7 @@ export const initialState: GameState = {
   room: null,
   vitals: null,
   inventory: [],
+  equipment: [],
   skills: [],
   skillsLabel: "",
   notice: null,
@@ -109,6 +112,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return { ...state, vitals: m.vitals };
     case "inventory":
       return { ...state, inventory: m.items };
+    case "equipment":
+      return { ...state, equipment: m.items };
     case "skills":
       return { ...state, skills: m.skills, skillsLabel: m.label };
     case "fx":

@@ -13,17 +13,8 @@ import type { MobInstance } from "./mobInstance.ts";
 import { parseDice, rollDice } from "./dice.ts";
 import type { Rng } from "./rng.ts";
 import { resistAdds, sumMods, type Affect } from "./affects.ts";
+import { equipTotals } from "./items.ts";
 import { vitalsOf } from "./view.ts";
-
-/** Apply affect stat modifiers to a base Stats block (for combat math). */
-function statsWithAffects(base: Stats, affects: Affect[]): Stats {
-  if (!affects.length) return base;
-  const m = sumMods(affects);
-  return {
-    str: base.str + m.str, int: base.int + m.int, wis: base.wis + m.wis, dex: base.dex + m.dex,
-    con: base.con + m.con, cha: base.cha + m.cha, lck: base.lck + m.lck,
-  };
-}
 
 const DEFAULT_STATS: Stats = { str: 13, int: 13, wis: 13, dex: 13, con: 13, cha: 13, lck: 13 };
 
@@ -49,6 +40,8 @@ export interface Fighter {
   readonly resist: ReadonlySet<string>;
   readonly immune: ReadonlySet<string>;
   readonly suscept: ReadonlySet<string>;
+  /** Total worn-armour AC (drives damage absorption); 0 for the unarmoured / mobs. */
+  readonly wornArmor: number;
   /** Active spell affects (buffs/debuffs), for combat folding + status display. */
   readonly affects: Affect[];
 
@@ -98,17 +91,25 @@ export class PlayerFighter implements Fighter {
   get position() { return this.character.position; }
   set position(v: string) { this.character.position = v; }
   get roomVnum() { return this.character.roomVnum; }
-  get stats() { return statsWithAffects(this.character.stats, this.character.affects); }
+  get stats() {
+    const base = this.character.stats, a = sumMods(this.character.affects), e = this.equip.mods;
+    return {
+      str: base.str + a.str + e.str, int: base.int + a.int + e.int, wis: base.wis + a.wis + e.wis,
+      dex: base.dex + a.dex + e.dex, con: base.con + a.con + e.con, cha: base.cha + a.cha + e.cha, lck: base.lck + a.lck + e.lck,
+    };
+  }
   get alive() { return this.character.hp > 0; }
   get affects() { return this.character.affects; }
 
   private get race() { return this.world.races.get(this.character.raceId); }
   private get mods() { return sumMods(this.character.affects); }
+  private get equip() { return equipTotals(this.character.equipment ?? {}, (v) => this.world.getObjPrototype(v)); }
 
-  // Naked baseline + racial AC modifier + affect AC; worn armor is roadmap.
-  get ac() { return 100 + (this.race?.acPlus ?? 0) + this.mods.ac; }
-  get hitroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0) + this.mods.hitroll; }
-  get damroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 8) + this.mods.damroll; }
+  // Naked baseline + racial AC modifier + affect AC + worn-armor AC.
+  get ac() { return 100 + (this.race?.acPlus ?? 0) + this.mods.ac + this.equip.acBonus; }
+  get wornArmor() { return Math.max(0, this.equip.acBonus + this.mods.ac); }
+  get hitroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0) + this.mods.hitroll + this.equip.mods.hitroll; }
+  get damroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 8) + this.mods.damroll + this.equip.mods.damroll; }
   get thac0Mod() {
     const primary = this.world.classes.get(this.character.classId)?.thac0Mod ?? 0;
     const dualId = this.character.dualClassId;
@@ -117,9 +118,9 @@ export class PlayerFighter implements Fighter {
     const dual = this.world.classes.get(dualId)?.thac0Mod ?? 0;
     return Math.floor(Math.max(primary, dual) + 0.7 * Math.min(primary, dual));
   }
-  get profBonus() { return -2; } // unarmed / no weapon proficiency yet
+  get profBonus() { return this.equip.weapon ? 0 : -2; } // wielding removes the unarmed penalty
   get numAttacks() { return 1; } // extra attacks are skill-gated (roadmap)
-  get damageType() { return "blunt"; }
+  get damageType() { return this.equip.weapon?.damageType ?? "blunt"; }
   get resist(): ReadonlySet<string> {
     const extra = resistAdds(this.character.affects);
     return extra.length ? new Set([...this.resistSet, ...extra]) : this.resistSet;
@@ -128,8 +129,9 @@ export class PlayerFighter implements Fighter {
   get suscept(): ReadonlySet<string> { return this.susceptSet; }
 
   rollBaseDamage(rng: Rng): number {
-    // barehand dice grow slowly with level
-    return rng.dice(1, 4 + Math.floor(this.character.level / 3));
+    const w = this.equip.weapon;
+    if (w) return rng.dice(w.numDice, w.sizeDice); // wielded weapon dice
+    return rng.dice(1, 4 + Math.floor(this.character.level / 3)); // barehand grows slowly
   }
 
   send(line: string): void {
@@ -164,12 +166,19 @@ export class MobFighter implements Fighter {
   get position() { return this.mob.position; }
   set position(v: string) { this.mob.position = v; }
   get roomVnum() { return this.mob.roomVnum; }
-  get stats() { return statsWithAffects(this.mob.proto.stats ?? DEFAULT_STATS, this.mob.affects); }
+  get stats() {
+    const base = this.mob.proto.stats ?? DEFAULT_STATS, m = sumMods(this.mob.affects);
+    return {
+      str: base.str + m.str, int: base.int + m.int, wis: base.wis + m.wis, dex: base.dex + m.dex,
+      con: base.con + m.con, cha: base.cha + m.cha, lck: base.lck + m.lck,
+    };
+  }
   get alive() { return this.mob.hp > 0; }
   get affects() { return this.mob.affects; }
   private get mods() { return sumMods(this.mob.affects); }
 
   get ac() { return this.mob.proto.ac + this.mods.ac; }
+  get wornArmor() { return 0; } // mobs use their proto AC directly (no worn-gear absorb)
   get hitroll() { return (this.mob.proto.hitroll ?? 0) + this.mods.hitroll; }
   get damroll() { return (this.mob.proto.damroll ?? 0) + this.mods.damroll; }
   get thac0Mod() { return mobThac0Mod(this.mob.proto.level); }

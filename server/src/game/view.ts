@@ -115,6 +115,16 @@ export function sendInventory(world: World, viewer: Player): void {
   viewer.send({ t: "inventory", items });
 }
 
+/** Send the character's worn/wielded gear for the equipment panel. */
+export function sendEquipment(world: World, viewer: Player): void {
+  const eq = viewer.character.equipment ?? {};
+  const items = Object.entries(eq).map(([slot, ref]) => {
+    const p = world.getObjPrototype(ref.vnum);
+    return { slot, vnum: ref.vnum, name: p?.shortDesc || `item ${ref.vnum}`, itemType: p?.itemType ?? "armor" };
+  });
+  viewer.send({ t: "equipment", items });
+}
+
 /** Send the character's class skill/spell tree (union of both classes when dual) for the skills panel. */
 export function sendSkills(world: World, viewer: Player): void {
   const ch = viewer.character;

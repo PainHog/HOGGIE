@@ -27,7 +27,7 @@ import { dispatchCommand, engageMobById, type CommandContext } from "./commands.
 import { PlayerFighter } from "./fighter.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
-import { esc, out, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
+import { esc, out, sendEquipment, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
 
 export interface GameServices {
   config: AppConfig;
@@ -256,6 +256,7 @@ export class Session {
     sendRoom(this.svc.live, this.player);
     sendVitals(this.svc.world, this.player);
     sendInventory(this.svc.world, this.player);
+    sendEquipment(this.svc.world, this.player);
     sendSkills(this.svc.world, this.player);
     log.info("character entered world", { name: character.name, room: character.roomVnum });
   }

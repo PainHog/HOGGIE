@@ -3,8 +3,8 @@
  * items from the server). Equipment slots are still shells (worn gear is roadmap), but the inventory
  * now reflects what the character is actually holding, so shops (buy/sell) are visible in the UI.
  */
-import { ScrollView, StyleSheet, Text, View } from "react-native";
-import type { Catalog, InventoryItem, SkillInfo, Vitals } from "../protocol";
+import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import type { Catalog, EquippedItem, InventoryItem, SkillInfo, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 import { SvgIcon, type IconName } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
@@ -42,19 +42,20 @@ function Stat({ statKey, label, value }: { statKey: string; label: string; value
   );
 }
 
-function Slot({ icon, label }: { icon: IconName; label: string }) {
+function Slot({ icon, label, item }: { icon: IconName; label: string; item?: EquippedItem }) {
   return (
-    <View style={styles.slot}>
-      <SvgIcon name={icon} size={22} color={theme.panelBorder} />
+    <View style={[styles.slot, item && styles.slotFilled]}>
+      <SvgIcon name={icon} size={22} color={item ? theme.accent : theme.panelBorder} />
       <Text style={styles.slotLabel}>{label}</Text>
-      <Text style={styles.slotEmpty}>empty</Text>
+      <Text style={item ? styles.slotItem : styles.slotEmpty} numberOfLines={1}>{item ? item.name : "empty"}</Text>
     </View>
   );
 }
 
-export function CharacterPanel({ vitals, catalog }: { vitals: Vitals | null; catalog?: Catalog | null }) {
+export function CharacterPanel({ vitals, catalog, equipment = [] }: { vitals: Vitals | null; catalog?: Catalog | null; equipment?: EquippedItem[] }) {
   if (!vitals) return null;
   const s = vitals.stats;
+  const bySlot = (slot: string) => equipment.find((e) => e.slot === slot);
   const raceLore = catalog?.races.find((r) => r.name === vitals.race)?.description ?? "";
   const classLore = catalog?.classes.find((c) => c.name === vitals.className)?.description ?? "";
   const lore = [raceLore, classLore].filter((t) => t.trim().length > 0).join("\n\n");
@@ -83,16 +84,26 @@ export function CharacterPanel({ vitals, catalog }: { vitals: Vitals | null; cat
 
       <Text style={styles.section}>Equipment</Text>
       <View style={styles.slotRow}>
-        <Slot icon={ICON.slotHead} label="Head" />
-        <Slot icon={ICON.slotBody} label="Body" />
-        <Slot icon={ICON.slotWeapon} label="Weapon" />
+        <Slot icon={ICON.slotHead} label="Head" item={bySlot("head")} />
+        <Slot icon={ICON.slotBody} label="Body" item={bySlot("body")} />
+        <Slot icon={ICON.slotWeapon} label="Weapon" item={bySlot("wield")} />
       </View>
-      <Text style={styles.note}>Worn gear & armor class — roadmap.</Text>
+      {equipment.filter((e) => !["head", "body", "wield"].includes(e.slot)).length > 0 && (
+        <View style={styles.eqExtra}>
+          {equipment.filter((e) => !["head", "body", "wield"].includes(e.slot)).map((e) => (
+            <Text key={e.slot} style={styles.eqLine} numberOfLines={1}>
+              <Text style={styles.eqSlot}>{e.slot}: </Text>{e.name}
+            </Text>
+          ))}
+        </View>
+      )}
+      <Text style={styles.note}>Tap an inventory item to wear it. `remove {"<item>"}` to take it off.</Text>
     </View>
   );
 }
 
-export function InventoryPanel({ items }: { items: InventoryItem[] }) {
+export function InventoryPanel({ items, onWear }: { items: InventoryItem[]; onWear?: (name: string) => void }) {
+  const WEARABLE = new Set(["armor", "weapon", "worn", "light", "artarmor", "artweapon", "artworn"]);
   return (
     <View style={styles.panel}>
       <View style={styles.invHead}>
@@ -104,27 +115,35 @@ export function InventoryPanel({ items }: { items: InventoryItem[] }) {
         <Text style={styles.note}>Empty — buy from a shopkeeper or loot a corpse.</Text>
       ) : (
         <ScrollView style={styles.invList} contentContainerStyle={{ gap: 4 }}>
-          {items.map((it, i) => (
-            <InfoTip
-              key={`${it.vnum}-${i}`}
-              title={it.name}
-              body={`${it.itemType} · worth ${it.cost} gold${it.description ? `\n\n${it.description}` : ""}`}
-              placement="top"
-              width={240}
-            >
-              <View style={styles.invRow}>
-                <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
-                <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
-                <View style={styles.invPrice}>
-                  <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
-                  <Text style={styles.invCost}>{it.cost}</Text>
-                </View>
-              </View>
-            </InfoTip>
-          ))}
+          {items.map((it, i) => {
+            const wearable = WEARABLE.has(it.itemType);
+            return (
+              <InfoTip
+                key={`${it.vnum}-${i}`}
+                title={it.name}
+                body={`${it.itemType} · worth ${it.cost} gold${wearable ? " · tap to equip" : ""}${it.description ? `\n\n${it.description}` : ""}`}
+                placement="top"
+                width={240}
+                pressToToggle={false}
+              >
+                <Pressable
+                  onPress={() => wearable && onWear?.(it.name)}
+                  style={({ pressed }) => [styles.invRow, wearable && styles.invWearable, pressed && wearable && { opacity: 0.7 }]}
+                >
+                  <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
+                  <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
+                  {wearable && <Text style={styles.invWear}>equip</Text>}
+                  <View style={styles.invPrice}>
+                    <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
+                    <Text style={styles.invCost}>{it.cost}</Text>
+                  </View>
+                </Pressable>
+              </InfoTip>
+            );
+          })}
         </ScrollView>
       )}
-      <Text style={styles.note}>Worn gear & item stats — roadmap.</Text>
+      <Text style={styles.note}>Tap armour/weapons to equip · {"`remove <item>`"} to take off.</Text>
     </View>
   );
 }
@@ -192,6 +211,11 @@ const styles = StyleSheet.create({
   },
   slotLabel: { color: theme.text, fontFamily: fonts.bodySemi, fontSize: 11 },
   slotEmpty: { color: theme.dim, fontFamily: fonts.body, fontSize: 9, fontStyle: "italic" },
+  slotFilled: { borderStyle: "solid", borderColor: theme.accentDim, backgroundColor: theme.panelAlt },
+  slotItem: { color: theme.bone, fontFamily: fonts.body, fontSize: 9, maxWidth: 90, textAlign: "center" },
+  eqExtra: { marginTop: 4, gap: 1 },
+  eqLine: { color: theme.boneDim, fontFamily: fonts.body, fontSize: 11 },
+  eqSlot: { color: theme.dim, fontFamily: fonts.bodySemi, textTransform: "capitalize" },
   note: { color: theme.dim, fontFamily: fonts.body, fontSize: 10, fontStyle: "italic", marginTop: 4 },
   invHead: { flexDirection: "row", alignItems: "center", gap: 6 },
   invCount: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 12, marginLeft: "auto" },
@@ -201,6 +225,8 @@ const styles = StyleSheet.create({
     borderRadius: 6, borderWidth: 1, borderColor: theme.panelBorder, paddingVertical: 6, paddingHorizontal: 8,
   },
   invName: { color: theme.bone, fontFamily: fonts.body, fontSize: 12, flex: 1 },
+  invWearable: { borderColor: theme.accentDim },
+  invWear: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 10, textTransform: "uppercase" },
   invPrice: { flexDirection: "row", alignItems: "center", gap: 3 },
   invCost: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 11 },
   skillList: { maxHeight: 320, marginTop: 4 },

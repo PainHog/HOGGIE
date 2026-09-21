@@ -174,6 +174,8 @@ export class CombatManager {
     if (victim.position === "sleeping") dam *= 2;
     dam = Math.max(1, Math.floor(dam));
     dam = this.risFilter(victim, dam, attacker.damageType);
+    // Worn armour absorbs a slice of the blow (systems-spec §1.3), never fully negating it.
+    if (dam > 0 && victim.wornArmor > 0) dam = Math.max(1, dam - Math.floor(victim.wornArmor / 10));
 
     let lucky = false;
     if (dam > 0) {

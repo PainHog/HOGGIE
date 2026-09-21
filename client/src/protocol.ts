@@ -116,6 +116,13 @@ export interface InventoryItem {
   description: string;
 }
 
+export interface EquippedItem {
+  slot: string;
+  vnum: number;
+  name: string;
+  itemType: string;
+}
+
 export interface SkillInfo {
   name: string;
   type: string;
@@ -140,6 +147,7 @@ export type ServerMessage =
   | { t: "room"; room: RoomView }
   | { t: "vitals"; vitals: Vitals }
   | { t: "inventory"; items: InventoryItem[] }
+  | { t: "equipment"; items: EquippedItem[] }
   | { t: "skills"; label: string; skills: SkillInfo[] }
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }

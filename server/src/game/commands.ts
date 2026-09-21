@@ -13,10 +13,11 @@ import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import { applyAffect } from "./affects.ts";
 import { buffAffect, spellHeal } from "./spellbook.ts";
+import { equipStats } from "./items.ts";
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
+import { esc, out, sendEquipment, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
@@ -72,6 +73,9 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "buy": return void doBuy(ctx, arg);
     case "sell": return void doSell(ctx, arg);
     case "inventory": case "inv": case "i": return sendInventory(ctx.world, ctx.player);
+    case "wear": case "wield": case "hold": return doWear(ctx, arg);
+    case "remove": case "rem": return doRemove(ctx, arg);
+    case "equipment": case "eq": case "equi": return doEquipmentList(ctx);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -337,6 +341,64 @@ async function doSell(ctx: CommandContext, arg: string): Promise<void> {
 function matchInv(ctx: CommandContext, vnum: number, kw: string): boolean {
   const p = ctx.world.getObjPrototype(vnum);
   return !!p && objMatches(p, kw);
+}
+
+const SLOT_LABEL: Record<string, string> = {
+  wield: "wielded", dual_wield: "dual-wielded", hold: "held", light: "as a light",
+};
+const short = (ctx: CommandContext, vnum: number) => ctx.world.getObjPrototype(vnum)?.shortDesc ?? `item ${vnum}`;
+
+function pushGear(ctx: CommandContext): void {
+  sendEquipment(ctx.world, ctx.player);
+  sendInventory(ctx.world, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ctx.player.character).catch(() => {});
+}
+
+/** `wear/wield <item>` — equip a carried item into its slot (auto-swapping whatever is there). */
+function doWear(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Wear what?");
+  const idx = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, arg));
+  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const it = ch.inventory[idx]!;
+  const proto = ctx.world.getObjPrototype(it.vnum)!;
+  const st = equipStats(proto);
+  if (!st.slot) return out(ctx.player, `&RYou can't wear ${esc(proto.shortDesc)}.&D`);
+  // free the slot if occupied
+  const current = ch.equipment[st.slot];
+  if (current) { ch.inventory.push(current); delete ch.equipment[st.slot]; }
+  ch.inventory.splice(idx, 1);
+  ch.equipment[st.slot] = it;
+  const how = SLOT_LABEL[st.slot] ?? `on your ${st.slot}`;
+  out(ctx.player, `&YYou ${st.wieldable ? "wield" : "wear"} ${esc(proto.shortDesc)} ${how}.&D`);
+  pushGear(ctx);
+}
+
+/** `remove <item>` — take off equipped gear back into your pack. */
+function doRemove(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Remove what?");
+  const slot = Object.keys(ch.equipment).find((s) => {
+    const ref = ch.equipment[s]!;
+    return matchInv(ctx, ref.vnum, arg);
+  });
+  if (!slot) return out(ctx.player, "&RYou aren't using that.&D");
+  const ref = ch.equipment[slot]!;
+  delete ch.equipment[slot];
+  ch.inventory.push(ref);
+  out(ctx.player, `&YYou stop using ${esc(short(ctx, ref.vnum))}.&D`);
+  pushGear(ctx);
+}
+
+/** `equipment` — list what you have worn/wielded. */
+function doEquipmentList(ctx: CommandContext): void {
+  const eq = ctx.player.character.equipment;
+  const slots = Object.keys(eq);
+  if (!slots.length) return out(ctx.player, "&YYou are wielding and wearing nothing.&D");
+  const lines = ["&Y--- Equipment ---&D"];
+  for (const slot of slots) lines.push(`&d<${slot.padEnd(10)}>&D ${esc(short(ctx, eq[slot]!.vnum))}`);
+  out(ctx.player, ...lines);
 }
 
 const TIER_COST = 500_000;
