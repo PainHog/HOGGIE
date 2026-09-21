@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 7;
+export const PROTOCOL_VERSION = 8;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -91,6 +91,8 @@ export interface Vitals {
   tnl: number;
   gold: number;
   glory?: number;
+  clan?: string;
+  pk?: boolean;
   position: string;
   alignment: number;
   stats: { str: number; int: number; wis: number; dex: number; con: number; cha: number; lck: number };

@@ -94,6 +94,8 @@ export function vitalsOf(world: World, ch: Character): Vitals {
     tnl: expToNextLevel(world, ch),
     gold: ch.gold,
     glory: ch.glory ?? 0,
+    clan: ch.clan?.name,
+    pk: ch.pk ?? false,
     position: ch.position,
     alignment: ch.alignment,
     stats: {

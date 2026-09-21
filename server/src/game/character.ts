@@ -40,6 +40,10 @@ export interface Character {
   glory: number;
   /** The character's one active hunt quest, if any. */
   quest?: QuestTarget;
+  /** Clan membership (name + rank), if any (systems-spec §5). */
+  clan?: { name: string; rank: "leader" | "member" };
+  /** Opted in to player-vs-player combat. */
+  pk: boolean;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */
@@ -184,6 +188,7 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
     gold: 0,
     practices: 5,
     glory: 0,
+    pk: false,
     inventory: [],
     equipment: {},
     proficiencies: {},

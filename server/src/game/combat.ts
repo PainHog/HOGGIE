@@ -434,6 +434,12 @@ export class CombatManager {
     });
     killer.send(`&RYou have slain ${ch.name}!&D`);
     playerF.send("&RYou have been KILLED!&D");
+    // A player-vs-player victory is a deed of glory (systems-spec §5).
+    if (killer.isPlayer) {
+      const winner = (killer as PlayerFighter).character;
+      winner.glory += 2;
+      killer.send("&YYou have proven yourself in mortal combat! (+2 glory)&D");
+    }
 
     // Exp loss for L5-49 (systems-spec §3.5); v1 newbies (<5) lose nothing.
     if (ch.level >= 5 && ch.level < 50) {

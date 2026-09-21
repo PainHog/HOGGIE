@@ -70,6 +70,13 @@ export function CharacterPanel({ vitals, catalog, equipment = [] }: { vitals: Vi
           {vitals.dualClassName ? ` / ${vitals.dualClassName}` : ""}
         </Text>
       </InfoTip>
+      {(vitals.clan || vitals.pk) && (
+        <Text style={styles.subtitle}>
+          {vitals.clan ? `Clan: ${vitals.clan}` : ""}
+          {vitals.clan && vitals.pk ? "  ·  " : ""}
+          {vitals.pk ? "PvP enabled" : ""}
+        </Text>
+      )}
 
       <View style={styles.statGrid}>
         <Stat statKey="str" label="STR" value={s.str} />

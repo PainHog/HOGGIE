@@ -240,8 +240,8 @@ export class Session {
       character.roomVnum = this.svc.config.startRoom;
     }
     this.character = character;
-    this.player = { character, account: this.account ?? undefined, send: (m) => this.conn.send(m) };
     this.fighter = new PlayerFighter(character, this.svc.world, (m) => this.conn.send(m));
+    this.player = { character, account: this.account ?? undefined, fighter: this.fighter, send: (m) => this.conn.send(m) };
     this.state = "playing";
 
     this.svc.live.enter(this.player);

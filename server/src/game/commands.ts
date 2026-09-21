@@ -12,6 +12,9 @@ import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
+import {
+  CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, inviteToClan, pendingInvite, sameClan, validClanName,
+} from "./clans.ts";
 import { RECALL_ROOM, type CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -87,6 +90,9 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "drop": return doDrop(ctx, arg);
     case "loot": return doLoot(ctx, arg);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
+    case "clan": case "clans": return void doClan(ctx, arg);
+    case "ctalk": case "clantalk": return doClanTalk(ctx, arg);
+    case "pkill": case "pk": return void doPk(ctx);
     case "recall": case "hearth": return doRecall(ctx);
     case "heal": return void doHeal(ctx, arg);
     case "flee": return doFlee(ctx);
@@ -156,8 +162,136 @@ function doKill(ctx: CommandContext, arg: string): void {
   if (!arg) return out(ctx.player, "Kill whom?");
   if (ctx.fighter.fighting) return out(ctx.player, "&RYou are already fighting!&D");
   const mob = ctx.live.roomMobs(ctx.fighter.roomVnum).find((m) => mobMatches(m, arg));
-  if (!mob) return out(ctx.player, "&RThey aren't here.&D");
-  beginAttack(ctx, mob);
+  if (mob) return beginAttack(ctx, mob);
+  // No mob by that name — maybe it's another player (PvP).
+  const kw = arg.toLowerCase();
+  const target = ctx.live.roomPlayers(ctx.fighter.roomVnum)
+    .find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(kw));
+  if (target) return beginPvp(ctx, target);
+  out(ctx.player, "&RThey aren't here.&D");
+}
+
+/** Why this PvP attack is not allowed (a message), or null if it is (systems-spec §5). */
+function pvpBlock(ctx: CommandContext, target: Player): string | null {
+  const room = ctx.world.getRoom(ctx.fighter.roomVnum);
+  const flags = room?.roomFlags ?? [];
+  if (flags.includes("safe")) return "This is a sanctuary — no fighting here.";
+  if (sameClan(ctx.player.character, target.character)) return "You can't raise a hand against a clanmate.";
+  if (flags.includes("arena")) return null; // arenas are free-for-all
+  if (!ctx.player.character.pk || !target.character.pk) {
+    return `${cap(target.character.name)} isn't open to player-combat — both of you need 'pkill' on, or fight in an arena.`;
+  }
+  if (Math.abs(effectiveLevel(ctx.player.character) - effectiveLevel(target.character)) > 10) {
+    return "The gap in power is too great for an honourable duel.";
+  }
+  return null;
+}
+
+/** Start a player-vs-player fight, once the rules allow it. */
+function beginPvp(ctx: CommandContext, target: Player): void {
+  const block = pvpBlock(ctx, target);
+  if (block) return out(ctx.player, `&R${block}&D`);
+  if (!target.fighter) return out(ctx.player, "&RYou can't reach them.&D");
+  ctx.combat.startFight(ctx.fighter, target.fighter);
+  out(ctx.player, `&RYou hurl yourself at ${esc(target.character.name)}!&D`);
+  out(target, `&R${cap(ctx.fighter.name)} attacks you!&D`);
+  const room = ctx.fighter.roomVnum;
+  for (const p of ctx.live.roomPlayers(room)) {
+    if (p === ctx.player || p === target) continue;
+    out(p, `&w${esc(ctx.fighter.name)} attacks ${esc(target.character.name)}!&D`);
+  }
+}
+
+/** `pkill` — toggle your opt-in for player-vs-player combat. */
+async function doPk(ctx: CommandContext): Promise<void> {
+  const ch = ctx.player.character;
+  if (ctx.fighter.fighting) return out(ctx.player, "&RNot in the middle of a fight!&D");
+  ch.pk = !ch.pk;
+  out(ctx.player, ch.pk
+    ? "&RYou steel yourself for player-combat. Others who are flagged may now challenge you.&D"
+    : "&YYou lower your guard — you can no longer be drawn into player-combat.&D");
+  sendVitals(ctx.world, ctx.player);
+  if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `ctalk <msg>` — speak to every online member of your clan. */
+function doClanTalk(ctx: CommandContext, msg: string): void {
+  const ch = ctx.player.character;
+  if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
+  if (!msg.trim()) return out(ctx.player, "Say what to your clan?");
+  for (const p of clanOnline(ctx.live, ch.clan.name)) {
+    out(p, `&m[${esc(ch.clan.name)}] ${esc(ch.name)}: ${esc(msg)}&D`);
+  }
+}
+
+/**
+ * `clan` — status; `clan create <name>` (costs glory); `clan invite <player>` / `clan accept`;
+ * `clan leave`; `clan who` (online members) (systems-spec §5).
+ */
+async function doClan(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  const parts = arg.trim().split(/\s+/);
+  const sub = (parts[0] ?? "").toLowerCase();
+  const rest = arg.trim().slice(parts[0]?.length ?? 0).trim();
+  const save = () => { if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {}); };
+
+  if (!sub || sub === "status" || sub === "info" || sub === "who") {
+    if (!ch.clan) return out(ctx.player, "&YYou are not in a clan. 'clan create <name>' to found one, or wait for an invite.&D");
+    const members = clanOnline(ctx.live, ch.clan.name);
+    const lines = [`&m--- ${esc(ch.clan.name)} ---&D`, `&mYou are its ${ch.clan.rank}. Online members (${members.length}):&D`];
+    for (const p of members) lines.push(`&m  ${esc(p.character.name)}${p.character.clan?.rank === "leader" ? " (leader)" : ""} — level ${p.character.level}&D`);
+    return out(ctx.player, ...lines);
+  }
+
+  if (sub === "create") {
+    if (ch.clan) return out(ctx.player, "&RYou're already in a clan — leave it first.&D");
+    if (!validClanName(rest)) return out(ctx.player, "&RClan names are 3-20 letters (spaces allowed inside).&D");
+    if (clanNameTaken(ctx.live, rest)) return out(ctx.player, "&RA clan by that name already walks the world.&D");
+    if (ch.glory < CLAN_COST_GLORY) return out(ctx.player, `&RFounding a clan costs ${CLAN_COST_GLORY} glory — you have ${ch.glory}.&D`);
+    ch.glory -= CLAN_COST_GLORY;
+    ch.clan = { name: rest, rank: "leader" };
+    out(ctx.player, `&mYou found the clan &W${esc(rest)}&m and take up its banner as leader!&D`);
+    sendVitals(ctx.world, ctx.player);
+    save();
+    return;
+  }
+
+  if (sub === "invite") {
+    if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly a clan leader can invite.&D");
+    const target = ctx.live.roomPlayers(ch.roomVnum).find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(rest.toLowerCase()));
+    if (!target) return out(ctx.player, "&RThey aren't here.&D");
+    if (target.character.clan) return out(ctx.player, "&RThey already belong to a clan.&D");
+    inviteToClan(target.character.id, ch.clan.name);
+    out(ctx.player, `&mYou invite ${esc(target.character.name)} to join ${esc(ch.clan.name)}.&D`);
+    out(target, `&m${esc(ch.name)} invites you to join the clan &W${esc(ch.clan.name)}&m. Type 'clan accept'.&D`);
+    return;
+  }
+
+  if (sub === "accept") {
+    if (ch.clan) return out(ctx.player, "&RYou're already in a clan.&D");
+    const clan = pendingInvite(ch.id);
+    if (!clan) return out(ctx.player, "&RYou have no pending clan invite.&D");
+    clearInvite(ch.id);
+    ch.clan = { name: clan, rank: "member" };
+    out(ctx.player, `&mYou join the clan &W${esc(clan)}&m!&D`);
+    for (const p of clanOnline(ctx.live, clan)) if (p !== ctx.player) out(p, `&m${esc(ch.name)} has joined the clan.&D`);
+    sendVitals(ctx.world, ctx.player);
+    save();
+    return;
+  }
+
+  if (sub === "leave") {
+    if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
+    const name = ch.clan.name;
+    ch.clan = undefined;
+    out(ctx.player, `&YYou leave the clan ${esc(name)}.&D`);
+    for (const p of clanOnline(ctx.live, name)) out(p, `&m${esc(ch.name)} has left the clan.&D`);
+    sendVitals(ctx.world, ctx.player);
+    save();
+    return;
+  }
+
+  out(ctx.player, "&YClan: 'clan' (status) · 'clan create <name>' · 'clan invite <player>' · 'clan accept' · 'clan leave' · 'ctalk <msg>'.&D");
 }
 
 /**
@@ -331,6 +465,7 @@ function doScore(ctx: CommandContext): void {
     c.quest
       ? `&wQuest: &Y${c.quest.killed}/${c.quest.count} ${esc(c.quest.mobName)}${c.quest.killed >= c.quest.count ? " (done — turn in)" : ""}&D`
       : "&wQuest: &dnone (ask a questmaster)&D",
+    `&wClan: ${c.clan ? `&m${esc(c.clan.name)} (${c.clan.rank})` : "&dnone"}&D   PvP: ${c.pk ? "&Ron" : "&doff"}&D`,
   );
   sendVitals(ctx.world, ctx.player);
 }
@@ -985,6 +1120,7 @@ function doHelp(ctx: CommandContext): void {
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
     "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",
     "&Wquest&D (status)   &Wquest request&D / &Wcomplete&D (at a questmaster)   &Wquest buy practice&D (glory)",
+    "&Wclan&D (status)   &Wclan create&D <name> / &Winvite&D <player> / &Waccept&D / &Wleave&D   &Wctalk&D <msg>   &Wpkill&D (PvP on/off)",
     "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
     "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );
