@@ -21,6 +21,8 @@ import { Rng, rng as defaultRng } from "./rng.ts";
 import { PlayerFighter, MobFighter, type Fighter } from "./fighter.ts";
 import { applyAffect, sumMods } from "./affects.ts";
 import { debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
+import { makeCorpse } from "./ground.ts";
+import { buildRoomView, esc } from "./view.ts";
 
 /** Stances: the offense/defense dial. Multiplier applies to damage dealt and taken. */
 export function stanceMult(position: string): number {
@@ -291,6 +293,17 @@ export class CombatManager {
       kind: "death", sourceId: killer.id, targetId: mob.id, targetName: mobShort(mob),
       amount: 0, lucky: false, fatal: true, targetHpPct: 0,
     });
+
+    // Leave a corpse holding the mob's carried/worn gear (systems-spec §4.7). Gold is picked up
+    // automatically; equipment must be looted. No corpse when the mob carried nothing.
+    const loot = (this.world.mobLoot.get(mob.proto.vnum) ?? []).filter((v) => this.world.getObjPrototype(v));
+    if (loot.length > 0) {
+      const kw = mob.proto.keywords.split(/\s+/).find(Boolean) ?? "corpse";
+      this.live.addCorpse(room, makeCorpse(mobShort(mob), kw, loot.map((vnum) => ({ vnum }))));
+      this.roomLine(room, `&rThe corpse of ${esc(mobShort(mob))} lies here.&D`, []);
+      for (const p of this.live.roomPlayers(room)) p.send({ t: "room", room: buildRoomView(this.live, p) });
+    }
+
     if (killer.isPlayer) {
       const ch = (killer as PlayerFighter).character;
       const xp = this.computeXp(ch, mob);

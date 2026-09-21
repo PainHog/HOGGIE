@@ -14,7 +14,7 @@ import { RoomStage } from "../game/RoomStage";
 import { StageHud } from "../game/StageHud";
 import { ActionBar } from "../game/ActionBar";
 import { Minimap } from "../game/Minimap";
-import { CharacterPanel, InventoryPanel, SkillsPanel } from "../game/panels";
+import { CharacterPanel, GroundBar, InventoryPanel, SkillsPanel } from "../game/panels";
 
 type Panel = "none" | "map" | "character" | "inventory" | "skills" | "log";
 
@@ -93,6 +93,7 @@ export function GameScreen({
       <View style={[styles.body, { flexDirection: wide ? "row" : "column" }]}>
         <View style={styles.mainCol}>
           {scene}
+          <GroundBar items={state.room?.items ?? []} onGet={(cmd) => onCmd(cmd)} />
           {actions}
         </View>
 

@@ -365,12 +365,24 @@ export async function loadWorld(contentDir: string, areas: string[]): Promise<Wo
     if (!stock.includes(rs.objVnum)) stock.push(rs.objVnum);
     world.shopStock.set(rs.mobVnum, stock);
   }
+  // A mob's loot = the objects given/equipped onto it by resets (dropped in a corpse on death).
+  // Shopkeepers are skipped — their gear is stock, not loot (systems-spec §4.7).
+  for (const rs of world.resets) {
+    if (rs.kind !== "give_to_mob" && rs.kind !== "equip_mob") continue;
+    if (rs.mobVnum == null || rs.objVnum == null) continue;
+    if (world.shops.has(rs.mobVnum)) continue;
+    if (!world.objPrototypes.has(rs.objVnum)) continue; // object belongs to an unloaded area
+    const loot = world.mobLoot.get(rs.mobVnum) ?? [];
+    loot.push(rs.objVnum);
+    world.mobLoot.set(rs.mobVnum, loot);
+  }
 
   log.info("world loaded from content", {
     loadedAreas: [...areaSet],
     ...world.summary(),
     resets: world.resets.length,
     shops: world.shops.size,
+    lootTables: world.mobLoot.size,
   });
   return world;
 }

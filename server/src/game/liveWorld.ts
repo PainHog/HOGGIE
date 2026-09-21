@@ -9,6 +9,7 @@ import type { ServerMessage } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { Character } from "./character.ts";
 import type { MobInstance } from "./mobInstance.ts";
+import type { Corpse, GroundItem } from "./ground.ts";
 import type { StaffAccount } from "./roles.ts";
 
 /** Anything the live world can hold and message — a connected player's session implements this. */
@@ -24,8 +25,83 @@ export class LiveWorld {
   private readonly byName = new Map<string, Player>();
   private readonly mobsByRoom = new Map<number, Set<MobInstance>>();
   private readonly mobsById = new Map<string, MobInstance>();
+  private readonly groundByRoom = new Map<number, GroundItem[]>();
+  private readonly corpsesByRoom = new Map<number, Corpse[]>();
 
   constructor(readonly world: World) {}
+
+  // --- ground items + corpses (loot loop) ---------------------------------
+  roomGround(vnum: number): GroundItem[] {
+    return this.groundByRoom.get(vnum) ?? [];
+  }
+
+  roomCorpses(vnum: number): Corpse[] {
+    return this.corpsesByRoom.get(vnum) ?? [];
+  }
+
+  addGround(vnum: number, item: GroundItem): void {
+    const list = this.groundByRoom.get(vnum) ?? [];
+    list.push(item);
+    this.groundByRoom.set(vnum, list);
+  }
+
+  addCorpse(vnum: number, corpse: Corpse): void {
+    const list = this.corpsesByRoom.get(vnum) ?? [];
+    list.push(corpse);
+    this.corpsesByRoom.set(vnum, list);
+  }
+
+  /** Take a loose ground item by id; returns it (removed from the floor) or undefined. */
+  takeGround(vnum: number, id: string): GroundItem | undefined {
+    const list = this.groundByRoom.get(vnum);
+    if (!list) return undefined;
+    const idx = list.findIndex((g) => g.id === id);
+    if (idx < 0) return undefined;
+    const [taken] = list.splice(idx, 1);
+    if (list.length === 0) this.groundByRoom.delete(vnum);
+    return taken;
+  }
+
+  getCorpse(vnum: number, id: string): Corpse | undefined {
+    return (this.corpsesByRoom.get(vnum) ?? []).find((c) => c.id === id);
+  }
+
+  /** Drop a corpse from a room (called once it's empty or has decayed). */
+  removeCorpse(vnum: number, id: string): void {
+    const list = this.corpsesByRoom.get(vnum);
+    if (!list) return;
+    const idx = list.findIndex((c) => c.id === id);
+    if (idx >= 0) list.splice(idx, 1);
+    if (list.length === 0) this.corpsesByRoom.delete(vnum);
+  }
+
+  /**
+   * Sweep expired ground items and corpses. Returns the rooms that changed, each with the display
+   * names that decayed, so the caller can refresh room views and narrate the rot.
+   */
+  decayGround(now: number): { vnum: number; names: string[] }[] {
+    const changed: { vnum: number; names: string[] }[] = [];
+    for (const [vnum, list] of [...this.groundByRoom]) {
+      const gone = list.filter((g) => g.decayAt <= now);
+      if (!gone.length) continue;
+      const kept = list.filter((g) => g.decayAt > now);
+      if (kept.length) this.groundByRoom.set(vnum, kept);
+      else this.groundByRoom.delete(vnum);
+      changed.push({ vnum, names: gone.map((g) => this.world.getObjPrototype(g.vnum)?.shortDesc ?? "something") });
+    }
+    for (const [vnum, list] of [...this.corpsesByRoom]) {
+      const gone = list.filter((c) => c.decayAt <= now);
+      if (!gone.length) continue;
+      const kept = list.filter((c) => c.decayAt > now);
+      if (kept.length) this.corpsesByRoom.set(vnum, kept);
+      else this.corpsesByRoom.delete(vnum);
+      const at = changed.find((e) => e.vnum === vnum);
+      const names = gone.map((c) => c.name);
+      if (at) at.names.push(...names);
+      else changed.push({ vnum, names });
+    }
+    return changed;
+  }
 
   // --- mobs ---------------------------------------------------------------
   addMob(mob: MobInstance): void {

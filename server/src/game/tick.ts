@@ -4,7 +4,7 @@
  *   - fast position-based regen every 7s,
  *   - area repop every 60s.
  */
-import { out, sendVitals } from "./view.ts";
+import { out, sendRoomView, sendVitals } from "./view.ts";
 import { statMod } from "./character.ts";
 import { expireAffects } from "./affects.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
@@ -46,6 +46,7 @@ export class GameTick {
   /** Fast, position-based regen for players not currently in combat, plus idle mob healing. */
   private regen(): void {
     this.tickAffects();
+    this.decayGround();
     const fighting = this.combat.engagedPlayerIds();
     for (const p of this.live.online()) {
       if (fighting.has(p.character.id)) continue;
@@ -80,6 +81,19 @@ export class GameTick {
       let dot = 0;
       for (const af of mob.affects) if (af.dot) dot += af.dot.amount;
       if (dot > 0) mob.hp = Math.max(1, mob.hp - dot);
+    }
+  }
+
+  /** Rot away expired corpses + dropped items; tell anyone standing in a changed room. */
+  private decayGround(): void {
+    const changed = this.live.decayGround(Date.now());
+    for (const { vnum, names } of changed) {
+      const players = this.live.roomPlayers(vnum);
+      if (players.length === 0) continue;
+      for (const p of players) {
+        for (const name of names) out(p, `&d${name} crumbles away to dust.&D`);
+        sendRoomView(this.live, p);
+      }
     }
   }
 

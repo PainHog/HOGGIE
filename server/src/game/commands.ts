@@ -6,8 +6,9 @@ import { parseColorSpans } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
-import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName } from "./character.ts";
+import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
+import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -17,7 +18,7 @@ import { equipStats } from "./items.ts";
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendEquipment, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
+import { esc, out, sendEquipment, sendInventory, sendRoom, sendRoomView, sendSkills, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
@@ -76,6 +77,9 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "wear": case "wield": case "hold": return doWear(ctx, arg);
     case "remove": case "rem": return doRemove(ctx, arg);
     case "equipment": case "eq": case "equi": return doEquipmentList(ctx);
+    case "get": case "take": return doGet(ctx, arg);
+    case "drop": return doDrop(ctx, arg);
+    case "loot": return doLoot(ctx, arg);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -401,6 +405,103 @@ function doEquipmentList(ctx: CommandContext): void {
   out(ctx.player, ...lines);
 }
 
+/** After a ground change: refresh the pack + the (silent) room scene and persist. */
+function afterGround(ctx: CommandContext): void {
+  sendInventory(ctx.world, ctx.player);
+  sendRoomView(ctx.live, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ctx.player.character).catch(() => {});
+}
+
+/** `get <item>` / `get <item> <corpse>` / `get all [corpse]` — pick up loose items or loot a corpse. */
+function doGet(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Get what?");
+  const parts = arg.split(/\s+/);
+  const whatKw = parts[0]!.toLowerCase();
+  const containerKw = parts.slice(1).join(" ").trim();
+
+  // `get <x> <corpse>` — take from a named corpse
+  if (containerKw) {
+    const corpse = ctx.live.roomCorpses(ch.roomVnum).find((c) => corpseMatches(c, containerKw));
+    if (!corpse) return out(ctx.player, "&RYou don't see that here.&D");
+    return takeFromCorpse(ctx, corpse, whatKw);
+  }
+  // `get corpse` — loot the nearest corpse whole
+  if (whatKw === "corpse") {
+    const corpse = ctx.live.roomCorpses(ch.roomVnum)[0];
+    if (!corpse) return out(ctx.player, "&RThere's no corpse here.&D");
+    return takeFromCorpse(ctx, corpse, "all");
+  }
+
+  // otherwise pick up loose items off the floor
+  const ground = ctx.live.roomGround(ch.roomVnum);
+  if (ground.length === 0) return out(ctx.player, "&RThere's nothing here to get.&D");
+  const wantAll = whatKw === "all";
+  const targets = wantAll ? [...ground] : ground.filter((g) => matchInv(ctx, g.vnum, whatKw)).slice(0, 1);
+  if (targets.length === 0) return out(ctx.player, "&RYou don't see that here.&D");
+  let got = 0;
+  for (const g of targets) {
+    const taken = ctx.live.takeGround(ch.roomVnum, g.id);
+    if (!taken) continue;
+    ch.inventory.push({ vnum: taken.vnum });
+    out(ctx.player, `&YYou pick up ${esc(short(ctx, taken.vnum))}.&D`);
+    got++;
+  }
+  if (got > 0) afterGround(ctx);
+}
+
+/** `loot [corpse]` — take everything from a corpse (the loot-loop shortcut). */
+function doLoot(ctx: CommandContext, arg: string): void {
+  const corpses = ctx.live.roomCorpses(ctx.player.character.roomVnum);
+  if (corpses.length === 0) return out(ctx.player, "&RThere's no corpse here to loot.&D");
+  const corpse = arg ? corpses.find((c) => corpseMatches(c, arg)) : corpses[0];
+  if (!corpse) return out(ctx.player, "&RYou don't see that corpse here.&D");
+  takeFromCorpse(ctx, corpse, "all");
+}
+
+/** Move matching items (or all) out of a corpse into the pack; the corpse is dropped once emptied. */
+function takeFromCorpse(ctx: CommandContext, corpse: Corpse, whatKw: string): void {
+  const ch = ctx.player.character;
+  const wantAll = !whatKw || whatKw === "all";
+  const taken: number[] = [];
+  const keep: ItemInstance[] = [];
+  for (const it of corpse.contents) {
+    const match = wantAll || matchInv(ctx, it.vnum, whatKw);
+    if (match && (wantAll || taken.length === 0)) taken.push(it.vnum);
+    else keep.push(it);
+  }
+  if (taken.length === 0) return out(ctx.player, `&RThere's nothing like that in ${esc(corpse.name)}.&D`);
+  corpse.contents = keep;
+  for (const vnum of taken) {
+    ch.inventory.push({ vnum });
+    out(ctx.player, `&YYou get ${esc(short(ctx, vnum))} from ${esc(corpse.name)}.&D`);
+  }
+  if (corpse.contents.length === 0) ctx.live.removeCorpse(ch.roomVnum, corpse.id);
+  afterGround(ctx);
+}
+
+/** `drop <item>` / `drop all` — put carried items on the floor (they decay after a while). */
+function doDrop(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Drop what?");
+  const kw = arg.toLowerCase();
+  const wantAll = kw === "all";
+  const idxs = wantAll
+    ? ch.inventory.map((_, i) => i)
+    : (() => { const i = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, kw)); return i >= 0 ? [i] : []; })();
+  if (idxs.length === 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const dropped: number[] = [];
+  for (const i of idxs.sort((a, b) => b - a)) { // splice back-to-front so indices stay valid
+    const [it] = ch.inventory.splice(i, 1);
+    if (it) dropped.push(it.vnum);
+  }
+  for (const vnum of dropped.reverse()) {
+    ctx.live.addGround(ch.roomVnum, makeGroundItem(vnum));
+    out(ctx.player, `&YYou drop ${esc(short(ctx, vnum))}.&D`);
+  }
+  afterGround(ctx);
+}
+
 const TIER_COST = 500_000;
 
 /**
@@ -625,7 +726,9 @@ function doHelp(ctx: CommandContext): void {
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
     "&Wrest sleep sit stand&D (regen when out of combat)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all] (class skills)   &Wroles&D   &Whelp&D   &Wquit&D",
-    "&Winventory&D (i)   at a shop: &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
+    "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
+    "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",
+    "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
     "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );
   if (can(ctx.account.roles, "info.stat") || can(ctx.account.roles, "world.goto")) {

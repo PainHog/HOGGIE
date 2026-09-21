@@ -43,6 +43,8 @@ export class World {
   readonly shops = new Map<number, ShopDef>();
   /** A keeper's stock: the object vnums given to it by resets (its sellable inventory). */
   readonly shopStock = new Map<number, number[]>();
+  /** A mob type's loot: object vnums it carries/wears via resets (dropped as a corpse on death). */
+  readonly mobLoot = new Map<number, number[]>();
 
   getClassByName(name: string): ClassDef | undefined {
     const lc = name.toLowerCase();

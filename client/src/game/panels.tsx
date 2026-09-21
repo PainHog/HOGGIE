@@ -148,6 +148,38 @@ export function InventoryPanel({ items, onWear }: { items: InventoryItem[]; onWe
   );
 }
 
+/** Items lying in the room (corpses + dropped gear). Tap a corpse to loot it, an item to pick it up. */
+export function GroundBar({ items, onGet }: { items: string[]; onGet: (cmd: string) => void }) {
+  if (!items || items.length === 0) return null;
+  const cmdFor = (name: string) => {
+    if (/\bcorpse\b/i.test(name)) return "loot";
+    const noun = name.trim().split(/\s+/).pop() ?? name;
+    return `get ${noun}`;
+  };
+  return (
+    <View style={styles.ground}>
+      <SvgIcon name="two-coins" size={14} color={theme.gold} />
+      <Text style={styles.groundLabel}>On the ground:</Text>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6, alignItems: "center" }}>
+        {items.map((name, i) => {
+          const corpse = /\bcorpse\b/i.test(name);
+          return (
+            <Pressable
+              key={`${name}-${i}`}
+              onPress={() => onGet(cmdFor(name))}
+              style={({ pressed }) => [styles.groundChip, corpse && styles.groundCorpse, pressed && { opacity: 0.7 }]}
+            >
+              <SvgIcon name={corpse ? "tombstone" : "knapsack"} size={13} color={corpse ? theme.blood : theme.accent} />
+              <Text style={styles.groundName} numberOfLines={1}>{name}</Text>
+              <Text style={styles.groundTake}>{corpse ? "loot" : "get"}</Text>
+            </Pressable>
+          );
+        })}
+      </ScrollView>
+    </View>
+  );
+}
+
 export function SkillsPanel({ skills, label }: { skills: SkillInfo[]; label: string }) {
   const spells = skills.filter((s) => s.type.toLowerCase() === "spell");
   const abilities = skills.filter((s) => s.type.toLowerCase() !== "spell");
@@ -170,7 +202,7 @@ export function SkillsPanel({ skills, label }: { skills: SkillInfo[]; label: str
           {spells.map((s) => <SkillRow key={s.name} s={s} />)}
         </ScrollView>
       )}
-      <Text style={styles.note}>Practising & casting — roadmap. This is the class tree.</Text>
+      <Text style={styles.note}>Cast combat spells from the SPELLS bar. Practising — roadmap.</Text>
     </View>
   );
 }
@@ -239,4 +271,16 @@ const styles = StyleSheet.create({
   skillName: { color: theme.bone, fontFamily: fonts.body, fontSize: 12, flex: 1 },
   skillAdept: { color: theme.dim, fontFamily: fonts.body, fontSize: 11 },
   skillDim: { color: theme.dim },
+  ground: {
+    flexDirection: "row", alignItems: "center", gap: 6, backgroundColor: theme.panel,
+    borderRadius: 8, borderWidth: 1, borderColor: theme.panelBorder, paddingVertical: 6, paddingHorizontal: 8,
+  },
+  groundLabel: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 11 },
+  groundChip: {
+    flexDirection: "row", alignItems: "center", gap: 5, backgroundColor: theme.bgAlt,
+    borderRadius: 14, borderWidth: 1, borderColor: theme.accentDim, paddingVertical: 4, paddingHorizontal: 9,
+  },
+  groundCorpse: { borderColor: theme.blood },
+  groundName: { color: theme.bone, fontFamily: fonts.body, fontSize: 11, maxWidth: 150 },
+  groundTake: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 9, textTransform: "uppercase" },
 });

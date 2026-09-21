@@ -29,6 +29,10 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     effects: affectNames(m.affects),
     shopkeeper: live.world.shops.has(m.proto.vnum),
   }));
+  const items = [
+    ...live.roomCorpses(ch.roomVnum).map((c) => c.name),
+    ...live.roomGround(ch.roomVnum).map((g) => live.world.getObjPrototype(g.vnum)?.shortDesc ?? `item ${g.vnum}`),
+  ];
   return {
     vnum: ch.roomVnum,
     name: room?.name ?? "The Void",
@@ -36,7 +40,7 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     exits: room ? room.exits.map((e) => ({ dir: e.dir, toVnum: e.toVnum })) : [],
     players: others,
     mobs,
-    items: [], // ground items are Phase 4+
+    items,
   };
 }
 
@@ -60,6 +64,13 @@ export function lookLines(live: LiveWorld, viewer: Player): Line[] {
   for (const mob of live.roomMobs(ch.roomVnum)) {
     const line = mob.proto.longDesc || mobShort(mob) + " is here.";
     lines.push(parseColorSpans("&g" + esc(line) + "&D"));
+  }
+  for (const c of live.roomCorpses(ch.roomVnum)) {
+    lines.push(parseColorSpans("&r" + esc(c.name) + " lies here.&D"));
+  }
+  for (const g of live.roomGround(ch.roomVnum)) {
+    const p = live.world.getObjPrototype(g.vnum);
+    lines.push(parseColorSpans("&w" + esc(p?.shortDesc ?? "something") + " lies here.&D"));
   }
   return lines;
 }
@@ -94,6 +105,11 @@ export function vitalsOf(world: World, ch: Character): Vitals {
 export function sendRoom(live: LiveWorld, viewer: Player): void {
   viewer.send({ t: "room", room: buildRoomView(live, viewer) });
   viewer.send({ t: "output", lines: lookLines(live, viewer) });
+}
+
+/** Send only the structured room snapshot (no narrative) — for silent scene refreshes. */
+export function sendRoomView(live: LiveWorld, viewer: Player): void {
+  viewer.send({ t: "room", room: buildRoomView(live, viewer) });
 }
 
 export function sendVitals(world: World, viewer: Player): void {
