@@ -42,6 +42,12 @@ export interface Fighter {
   readonly suscept: ReadonlySet<string>;
   /** Total worn-armour AC (drives damage absorption); 0 for the unarmoured / mobs. */
   readonly wornArmor: number;
+  /** Sanctuary: incoming damage is halved while active (mob affect flag or the spell buff). */
+  readonly sanctuary: boolean;
+  /** Damage-shield elements that sear anyone who strikes this fighter (fire/cold/shock). */
+  readonly damageShields: readonly string[];
+  /** Special-attack names this fighter can unleash mid-round (mobs only; players' are roadmap). */
+  readonly specials: readonly string[];
   /** Active spell affects (buffs/debuffs), for combat folding + status display. */
   readonly affects: Affect[];
 
@@ -108,6 +114,9 @@ export class PlayerFighter implements Fighter {
   // Naked baseline + racial AC modifier + affect AC + worn-armor AC.
   get ac() { return 100 + (this.race?.acPlus ?? 0) + this.mods.ac + this.equip.acBonus; }
   get wornArmor() { return Math.max(0, this.equip.acBonus + this.mods.ac); }
+  get sanctuary() { return this.character.affects.some((a) => a.name === "sanctuary"); }
+  get damageShields(): readonly string[] { return EMPTY_ARR; } // player damage-shields are roadmap
+  get specials(): readonly string[] { return EMPTY_ARR; } // player specials are skill-gated (roadmap)
   get hitroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0) + this.mods.hitroll + this.equip.mods.hitroll; }
   get damroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 8) + this.mods.damroll + this.equip.mods.damroll; }
   get thac0Mod() {
@@ -179,6 +188,9 @@ export class MobFighter implements Fighter {
 
   get ac() { return this.mob.proto.ac + this.mods.ac; }
   get wornArmor() { return 0; } // mobs use their proto AC directly (no worn-gear absorb)
+  get sanctuary() { return this.mob.proto.affectFlags.includes("sanctuary"); }
+  get damageShields(): readonly string[] { return this.mob.proto.affectFlags.filter((f) => SHIELD_FLAGS.has(f)); }
+  get specials(): readonly string[] { return this.mob.proto.specialAttacks; }
   get hitroll() { return (this.mob.proto.hitroll ?? 0) + this.mods.hitroll; }
   get damroll() { return (this.mob.proto.damroll ?? 0) + this.mods.damroll; }
   get thac0Mod() { return mobThac0Mod(this.mob.proto.level); }
@@ -208,3 +220,8 @@ export class MobFighter implements Fighter {
 }
 
 const EMPTY: ReadonlySet<string> = new Set();
+const EMPTY_ARR: readonly string[] = [];
+/** Mob affect flags that retaliate against attackers. */
+export const SHIELD_FLAGS = new Set(["fireshield", "iceshield", "shockshield"]);
+/** Damage element each shield flag deals back. */
+export const SHIELD_ELEMENT: Record<string, string> = { fireshield: "fire", iceshield: "cold", shockshield: "lightning" };

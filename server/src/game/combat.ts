@@ -18,7 +18,7 @@ import type { SkillDef } from "../world/model.ts";
 import { statMod, expToReach, type Character } from "./character.ts";
 import { mobShort, type MobInstance } from "./mobInstance.ts";
 import { Rng, rng as defaultRng } from "./rng.ts";
-import { PlayerFighter, MobFighter, type Fighter } from "./fighter.ts";
+import { PlayerFighter, MobFighter, SHIELD_ELEMENT, type Fighter } from "./fighter.ts";
 import { applyAffect, sumMods } from "./affects.ts";
 import { debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
 import { makeCorpse } from "./ground.ts";
@@ -37,6 +37,9 @@ export function stanceMult(position: string): number {
 
 /** A stance the player can hold while fighting. */
 export const STANCES = ["berserk", "aggressive", "standing", "defensive", "evasive"] as const;
+
+/** Per-round chance (%) that a mob with special attacks unleashes one. */
+const SPECIAL_CHANCE = 20;
 
 function cap(s: string): string {
   return s.length ? s[0]!.toUpperCase() + s.slice(1) : s;
@@ -146,6 +149,68 @@ export class CombatManager {
       this.oneHit(attacker, attacker.fighting);
       if (!attacker.fighting?.alive) break;
     }
+    // A mob with special attacks may unleash one after its normal round. The roll is only made when
+    // the mob actually has specials, so plain mobs keep the exact same deterministic combat.
+    if (!attacker.isPlayer && attacker.alive && attacker.specials.length && attacker.fighting?.alive) {
+      if (this.rng.percent() <= SPECIAL_CHANCE) this.mobSpecial(attacker as MobFighter, attacker.fighting);
+    }
+  }
+
+  /**
+   * A mob unleashes one special attack (systems-spec §1.6): a knockdown (bash/trip/stun/gouge), a
+   * life drain, a heavy harm/flamestrike burst, a curse, or a bonus physical strike. `forceName`
+   * selects a specific attack (for tests); otherwise one is chosen from the mob's list.
+   */
+  mobSpecial(mob: MobFighter, victim: Fighter, forceName?: string): string | null {
+    const specials = mob.specials;
+    if (!forceName && !specials.length) return null;
+    const name = (forceName ?? specials[this.rng.range(0, specials.length - 1)]!).toLowerCase();
+    const lvl = mob.level;
+    switch (name) {
+      case "bash": case "trip": case "stun": case "gouge": {
+        this.applySpecial(mob, victim, this.rng.range(1, 6) + Math.floor(lvl / 4), "blunt", name);
+        if (victim.alive && victim.isPlayer && victim.position !== "resting" && victim.position !== "sleeping") {
+          victim.position = "resting";
+          victim.send("&RYou are knocked to the ground! (type 'stand' to get up)&D");
+        }
+        break;
+      }
+      case "drain": {
+        const dealt = this.applySpecial(mob, victim, 4 + Math.floor(lvl / 2), "energy", "life drain");
+        if (dealt > 0) mob.hp = Math.min(mob.maxHp, mob.hp + dealt); // steals the life it took
+        break;
+      }
+      case "harm":
+        this.applySpecial(mob, victim, Math.floor(lvl * 1.5) + this.rng.range(1, 8), "energy", "harm");
+        break;
+      case "flamestrike":
+        this.applySpecial(mob, victim, lvl + this.rng.dice(2, 8), "fire", "flamestrike");
+        break;
+      case "curse":
+        applyAffect(victim.affects, debuffAffect("curse", lvl));
+        this.message(mob, victim, "", "&mA vile curse settles over you!&D", `&m${cap(mob.name)} curses ${victim.name}.&D`);
+        this.roomFx(mob.roomVnum, { kind: "hit", sourceId: mob.id, targetId: victim.id, targetName: victim.name, amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(victim), element: "magic" });
+        break;
+      default: // kick / punch / bite / claws / … — a bonus physical strike
+        this.applySpecial(mob, victim, mob.rollBaseDamage(this.rng) + Math.max(0, mob.damroll), "blunt", name);
+    }
+    return name;
+  }
+
+  /** Apply a special attack's damage (RIS + armour + sanctuary), with messaging, fx and death. */
+  private applySpecial(source: Fighter, victim: Fighter, raw: number, type: string, verb: string): number {
+    let dam = this.risFilter(victim, Math.max(1, Math.floor(raw)), type);
+    if (dam > 0 && victim.wornArmor > 0) dam = Math.max(1, dam - Math.floor(victim.wornArmor / 10));
+    if (dam > 0 && victim.sanctuary) dam = Math.max(1, Math.floor(dam / 2));
+    dam = Math.max(0, dam);
+    victim.hp -= dam;
+    this.message(source, victim,
+      `&RYour ${verb} strikes ${victim.name} for ${dam}!&D`,
+      `&R${cap(source.name)}'s ${verb} hits you for ${dam}!&D`,
+      `&r${cap(source.name)}'s ${verb} hits ${victim.name}.&D`);
+    this.roomFx(source.roomVnum, { kind: "hit", sourceId: source.id, targetId: victim.id, targetName: victim.name, amount: dam, lucky: false, fatal: victim.hp <= 0, targetHpPct: hpPct(victim), element: type });
+    if (victim.hp <= 0) this.handleDeath(source, victim);
+    return dam;
   }
 
   /** A single strike: to-hit, then damage + RIS + lucky crit, then messaging and possible death. */
@@ -178,6 +243,8 @@ export class CombatManager {
     dam = this.risFilter(victim, dam, attacker.damageType);
     // Worn armour absorbs a slice of the blow (systems-spec §1.3), never fully negating it.
     if (dam > 0 && victim.wornArmor > 0) dam = Math.max(1, dam - Math.floor(victim.wornArmor / 10));
+    // Sanctuary halves incoming damage (systems-spec §1.5).
+    if (dam > 0 && victim.sanctuary) dam = Math.max(1, Math.floor(dam / 2));
 
     let lucky = false;
     if (dam > 0) {
@@ -208,7 +275,27 @@ export class CombatManager {
       amount: Math.max(0, dam), lucky, fatal: victim.hp <= 0, targetHpPct: hpPct(victim),
     });
 
-    if (victim.hp <= 0) this.handleDeath(attacker, victim);
+    if (victim.hp <= 0) return this.handleDeath(attacker, victim);
+    // Damage shields sear whoever struck (fire/ice/shock) — only mobs carrying the flag have any.
+    if (dam > 0 && victim.damageShields.length) this.shieldRetaliate(victim, attacker);
+  }
+
+  /** A struck damage-shielded fighter sears its attacker for a small elemental hit (systems-spec §1.5). */
+  private shieldRetaliate(shielded: Fighter, striker: Fighter): void {
+    const flag = shielded.damageShields[0]!; // deterministic: the first shield
+    const type = SHIELD_ELEMENT[flag] ?? "fire";
+    let d = this.risFilter(striker, Math.max(1, Math.floor(shielded.level / 4)), type);
+    if (d <= 0) return;
+    striker.hp -= d;
+    this.message(shielded, striker,
+      `&RYour ${flag} sears ${striker.name}.&D`,
+      `&R${cap(shielded.name)}'s ${flag} sears you for ${d}!&D`,
+      `&r${cap(shielded.name)}'s ${flag} sears ${striker.name}.&D`);
+    this.roomFx(striker.roomVnum, {
+      kind: "hit", sourceId: shielded.id, targetId: striker.id, targetName: striker.name,
+      amount: d, lucky: false, fatal: striker.hp <= 0, targetHpPct: hpPct(striker), element: type,
+    });
+    if (striker.hp <= 0) this.handleDeath(shielded, striker);
   }
 
   /** The cast-failure roll (systems-spec §2.7): true = the spell fizzles (half mana lost). */
