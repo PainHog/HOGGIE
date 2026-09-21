@@ -13,24 +13,33 @@ export interface GroundItem {
   decayAt: number; // epoch ms
 }
 
-/** A corpse: a decaying container holding a dead mob's carried/worn gear. */
+/** A corpse: a decaying container holding a dead mob's (or player's) gear and any dropped gold. */
 export interface Corpse {
   id: string;
   name: string; // e.g. "the corpse of a goblin"
   keyword: string; // the dead thing's primary keyword, for `get sword corpse`
   contents: ItemInstance[];
+  gold: number; // coins inside (player corpses carry the victim's gold; mob gold is auto-looted)
   decayAt: number; // epoch ms
 }
 
 export const GROUND_DECAY_MS = 5 * 60_000; // loose items linger 5 minutes
 export const CORPSE_DECAY_MS = 3 * 60_000; // mob corpses rot in 3 minutes
+export const PLAYER_CORPSE_DECAY_MS = 20 * 60_000; // a player's corpse lingers long enough to recover
 
 export function makeGroundItem(vnum: number, now: number = Date.now()): GroundItem {
   return { id: randomUUID(), vnum, decayAt: now + GROUND_DECAY_MS };
 }
 
-export function makeCorpse(who: string, keyword: string, contents: ItemInstance[], now: number = Date.now()): Corpse {
-  return { id: randomUUID(), name: `the corpse of ${who}`, keyword, contents, decayAt: now + CORPSE_DECAY_MS };
+export function makeCorpse(
+  who: string,
+  keyword: string,
+  contents: ItemInstance[],
+  now: number = Date.now(),
+  gold = 0,
+  decayMs: number = CORPSE_DECAY_MS,
+): Corpse {
+  return { id: randomUUID(), name: `the corpse of ${who}`, keyword, contents, gold, decayAt: now + decayMs };
 }
 
 /** Does `keyword` match this corpse? ("corpse" matches any; else its dead thing's keyword.) */

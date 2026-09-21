@@ -21,8 +21,12 @@ import { Rng, rng as defaultRng } from "./rng.ts";
 import { PlayerFighter, MobFighter, SHIELD_ELEMENT, type Fighter } from "./fighter.ts";
 import { applyAffect, sumMods } from "./affects.ts";
 import { debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
-import { makeCorpse } from "./ground.ts";
-import { buildRoomView, esc } from "./view.ts";
+import { makeCorpse, PLAYER_CORPSE_DECAY_MS } from "./ground.ts";
+import { buildRoomView, esc, sendEquipment, sendInventory, sendRoom } from "./view.ts";
+import type { Db } from "../db/repos.ts";
+
+/** The recall / death temple hub (systems-spec §3.3/§3.5). */
+export const RECALL_ROOM = 21001;
 
 /** Stances: the offense/defense dial. Multiplier applies to damage dealt and taken. */
 export function stanceMult(position: string): number {
@@ -70,6 +74,7 @@ export class CombatManager {
     private readonly live: LiveWorld,
     private readonly config: AppConfig,
     private readonly rng: Rng = defaultRng,
+    private readonly db: Db | null = null,
   ) {}
 
   /** Look up (or create) the persistent Fighter wrapper for a mob. */
@@ -436,21 +441,36 @@ export class CombatManager {
       ch.exp = Math.max(floorExp, ch.exp - ch.level * 75);
     }
 
-    // Respawn: resting, minimal vitals, at the start room (recall hub is roadmap).
+    // Death drops everything you carried into a corpse at the death room (systems-spec §3.5).
+    // Newbies (<5) keep their gear so a first death isn't crushing.
+    const carried = [...ch.inventory, ...Object.values(ch.equipment ?? {})];
+    if (ch.level >= 5 && (carried.length > 0 || ch.gold > 0)) {
+      const kw = ch.name.split(/\s+/)[0] ?? "corpse";
+      this.live.addCorpse(room, makeCorpse(ch.name, kw, carried.map((it) => ({ vnum: it.vnum })), Date.now(), ch.gold, PLAYER_CORPSE_DECAY_MS));
+      ch.inventory = [];
+      ch.equipment = {};
+      ch.gold = 0;
+      playerF.send("&RYour corpse and everything you carried are left behind — hurry back for it!&D");
+      for (const p of this.live.roomPlayers(room)) p.send({ t: "room", room: buildRoomView(this.live, p) });
+    }
+
+    // Respawn: resting, minimal vitals, at the temple (its altar is the death hub); start room if
+    // the temple isn't loaded.
     ch.position = "resting";
     ch.hp = 1;
     ch.mana = 1;
     ch.move = 1;
-    const dest = this.config.startRoom;
+    const dest = this.world.getRoom(RECALL_ROOM) ? RECALL_ROOM : this.config.startRoom;
     const prev = ch.roomVnum;
+    const player = this.live.roomPlayers(prev).find((p) => p.character.id === ch.id);
     if (prev !== dest) {
-      // relocate the live player
-      const player = this.live.roomPlayers(prev).find((p) => p.character.id === ch.id);
       if (player) this.live.moveTo(player, dest);
       else ch.roomVnum = dest;
     }
-    playerF.send("&YYou awaken, weak but alive, in a familiar place.&D");
+    playerF.send("&YYou awaken, weak but alive, at the temple altar.&D");
+    if (player) { sendRoom(this.live, player); sendInventory(this.world, player); sendEquipment(this.world, player); }
     playerF.afterRound();
+    if (this.db) void this.db.saveCharacter(ch).catch(() => {});
   }
 
   /** exp per kill (systems-spec §2.2). */

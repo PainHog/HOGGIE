@@ -28,11 +28,11 @@ async function main(): Promise<void> {
 
   const world = await loadWorld(cfg.contentDir, cfg.worldAreas);
   const live = new LiveWorld(world);
-  const combat = new CombatManager(world, live, cfg);
   const economy = new Economy();
   const auth = new Authenticator(cfg);
   const serviceClient = getServiceClient(cfg);
   const db = serviceClient ? new Db(serviceClient) : null;
+  const combat = new CombatManager(world, live, cfg, undefined, db);
 
   const spawned = populateWorld(live);
   log.info("world populated from resets", { mobsSpawned: spawned });

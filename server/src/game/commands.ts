@@ -12,7 +12,7 @@ import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
-import type { CombatManager } from "./combat.ts";
+import { RECALL_ROOM, type CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import { applyAffect } from "./affects.ts";
@@ -552,14 +552,19 @@ function takeFromCorpse(ctx: CommandContext, corpse: Corpse, whatKw: string): vo
     if (match && (wantAll || taken.length === 0)) taken.push(it.vnum);
     else keep.push(it);
   }
-  if (taken.length === 0) return out(ctx.player, `&RThere's nothing like that in ${esc(corpse.name)}.&D`);
+  // Looting the whole corpse also scoops up any coins inside it.
+  let gotGold = 0;
+  if (wantAll && corpse.gold > 0) { gotGold = corpse.gold; ch.gold += corpse.gold; corpse.gold = 0; }
+  if (taken.length === 0 && gotGold === 0) return out(ctx.player, `&RThere's nothing like that in ${esc(corpse.name)}.&D`);
   corpse.contents = keep;
   for (const vnum of taken) {
     ch.inventory.push({ vnum });
     out(ctx.player, `&YYou get ${esc(short(ctx, vnum))} from ${esc(corpse.name)}.&D`);
   }
-  if (corpse.contents.length === 0) ctx.live.removeCorpse(ch.roomVnum, corpse.id);
+  if (gotGold > 0) out(ctx.player, `&YYou get ${gotGold} gold coins from ${esc(corpse.name)}.&D`);
+  if (corpse.contents.length === 0 && corpse.gold === 0) ctx.live.removeCorpse(ch.roomVnum, corpse.id);
   afterGround(ctx);
+  if (gotGold > 0) sendVitals(ctx.world, ctx.player);
 }
 
 /** `drop <item>` / `drop all` — put carried items on the floor (they decay after a while). */
@@ -839,7 +844,6 @@ function doSkillList(ctx: CommandContext, arg: string): void {
   out(ctx.player, ...lines);
 }
 
-const RECALL_ROOM = 21001; // Drazukville temple (systems-spec §3.3)
 
 /** The spells this character can cast now: class(+dual) tree spells at/under their level. */
 function castableSpells(ctx: CommandContext): { name: string; level: number; adept: number; def: SkillDef }[] {
