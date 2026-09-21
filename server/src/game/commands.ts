@@ -3,6 +3,7 @@
  * verbs and the stance dial. Movement is free (sector cost is roadmap) but blocked while fighting.
  */
 import { parseColorSpans } from "@hoggie/shared";
+import type { AppConfig } from "../config.ts";
 import type { World } from "../world/world.ts";
 import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
@@ -30,6 +31,7 @@ export interface CommandContext {
   economy: Economy;
   fighter: PlayerFighter;
   account: StaffAccount;
+  config: AppConfig;
   db: Db | null;
   quit: () => void;
 }
@@ -85,6 +87,8 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "drop": return doDrop(ctx, arg);
     case "loot": return doLoot(ctx, arg);
     case "kill": case "k": case "attack": return doKill(ctx, arg);
+    case "recall": case "hearth": return doRecall(ctx);
+    case "heal": return void doHeal(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
     case "rest": return doPosition(ctx, "resting", "You sit down and rest.");
@@ -192,6 +196,77 @@ function doFlee(ctx: CommandContext): void {
   ctx.live.moveTo(ctx.player, exit.toVnum);
   ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(f.name)} arrives in a panic.&D`)] }, ctx.player);
   sendRoom(ctx.live, ctx.player);
+}
+
+/** The recall hub: the temple if it's loaded, else the world's start room (always valid). */
+function recallTarget(ctx: CommandContext): number {
+  return ctx.world.getRoom(RECALL_ROOM) ? RECALL_ROOM : ctx.config.startRoom;
+}
+
+/** `recall` — return to the recall hub from anywhere (not while fighting). Costs a slice of move. */
+function doRecall(ctx: CommandContext): void {
+  const ch = ctx.player.character;
+  if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't recall while fighting!&D");
+  const dest = recallTarget(ctx);
+  if (ch.roomVnum === dest) return out(ctx.player, "&YYou are already at your hearth.&D");
+  if (ch.move < 10) return out(ctx.player, "&RYou're too exhausted to recall — rest first.&D");
+  ch.move = Math.max(0, ch.move - 10);
+  ctx.live.broadcast(ch.roomVnum, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} disappears in a flash of light.&D`)] }, ctx.player);
+  ctx.live.moveTo(ctx.player, dest);
+  ch.position = ch.position === "sleeping" ? "resting" : ch.position;
+  out(ctx.player, "&YYou pray for transport... the world blurs and you reappear at your hearth.&D");
+  ctx.live.broadcast(dest, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} appears in a flash of light.&D`)] }, ctx.player);
+  sendRoom(ctx.live, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** The healer standing in this room, if any (they mend wounds and cure afflictions for gold). */
+function healerHere(ctx: CommandContext): MobInstance | undefined {
+  return ctx.live.roomMobs(ctx.player.character.roomVnum).find((m) => m.proto.actFlags.includes("healer"));
+}
+
+/** `heal` — at a healer, pay gold to fully restore vitals or cure poison/blindness (§3.4). */
+async function doHeal(ctx: CommandContext, arg: string): Promise<void> {
+  const ch = ctx.player.character;
+  const healer = healerHere(ctx);
+  if (!healer) return out(ctx.player, "&RThere's no healer here.&D");
+  if (ctx.fighter.fighting) return out(ctx.player, "&RNot in the middle of a fight!&D");
+  const fullPrice = Math.max(20, ch.level * 8);
+  const curePrice = Math.max(30, ch.level * 12);
+  const what = arg.trim().toLowerCase().split(/\s+/)[0] ?? "";
+
+  if (!what || what === "list") {
+    return out(ctx.player,
+      `&Y--- ${cap(mobShort(healer))}'s services ---&D`,
+      `&W  heal full&D  &d(${fullPrice} gold)&D — restore all HP, mana and move`,
+      `&W  heal cure&D  &d(${curePrice} gold)&D — lift poison, blindness and curses`,
+      `&d(you have ${ch.gold} gold)&D`);
+  }
+
+  if (what === "full" || what === "vitals") {
+    if (ch.gold < fullPrice) return out(ctx.player, `&RThat costs ${fullPrice} gold — you have ${ch.gold}.&D`);
+    ch.gold -= fullPrice;
+    ch.hp = ch.maxHp; ch.mana = ch.maxMana; ch.move = ch.maxMove;
+    out(ctx.player, `&G${cap(mobShort(healer))} lays hands on you — you are whole again.&D`);
+    sendVitals(ctx.world, ctx.player);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+  if (what === "cure" || what === "uncurse") {
+    if (ch.gold < curePrice) return out(ctx.player, `&RThat costs ${curePrice} gold — you have ${ch.gold}.&D`);
+    const before = ch.affects.length;
+    ch.affects = ch.affects.filter((a) => a.kind !== "debuff" && !a.dot && !a.blind);
+    ch.gold -= curePrice;
+    out(ctx.player, before > ch.affects.length
+      ? `&G${cap(mobShort(healer))} cleanses the afflictions from your body.&D`
+      : `&Y${cap(mobShort(healer))} finds nothing to cure, but takes the fee anyway.&D`);
+    sendVitals(ctx.world, ctx.player);
+    sendRoom(ctx.live, ctx.player);
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+  out(ctx.player, "&YHeal what? Try 'heal full' or 'heal cure'.&D");
 }
 
 function doConsider(ctx: CommandContext, arg: string): void {
@@ -878,7 +953,7 @@ function doUtility(ctx: CommandContext, def: SkillDef): void {
   const player = ctx.live.roomPlayers(ctx.fighter.roomVnum).find((p) => p.character.id === ctx.player.character.id) ?? ctx.player;
   if (/recall/.test(n)) {
     if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't recall while fighting!&D");
-    const dest = ctx.world.getRoom(RECALL_ROOM) ? RECALL_ROOM : ctx.world.getRoom(ctx.player.character.roomVnum) ? ctx.player.character.roomVnum : RECALL_ROOM;
+    const dest = recallTarget(ctx);
     ctx.live.moveTo(player, dest);
     out(ctx.player, "&YYou pray for transport... the world blurs and you reappear at the temple.&D");
     return sendRoom(ctx.live, ctx.player);
@@ -901,7 +976,7 @@ function doHelp(ctx: CommandContext): void {
     "&Wlook&D (l)   move: &Wn s e w u d ne nw se sw&D",
     "&Wkill&D <mob> (k)   &Wflee&D   &Wconsider&D <mob> (con)",
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
-    "&Wrest sleep sit stand&D (regen when out of combat)",
+    "&Wrest sleep sit stand&D (regen when out of combat)   &Wrecall&D (return to your hearth)   &Wheal&D (at a healer)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all]   &Wpractice&D <skill> (at a guildmaster)   &Wroles&D   &Whelp&D",
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
     "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",

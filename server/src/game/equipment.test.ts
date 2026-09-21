@@ -53,7 +53,7 @@ function setup() {
   live.enter(player);
   const fighter = new PlayerFighter(ch, world, (m) => received.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
   return { live, combat, ch, fighter, received, ctx };
 }
 

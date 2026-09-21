@@ -147,7 +147,7 @@ function setup(cha = 13, gold = 100_000) {
   const mob = spawnMob(proto!, ROOM);
   live.addMob(mob);
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
   return { live, combat, character, player, fighter, received, ctx, keeperVnum };
 }
 

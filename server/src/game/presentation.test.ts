@@ -54,7 +54,7 @@ function setup(mobProto: MobPrototype, seed = 12345) {
   const mob = spawnMob(mobProto, ROOM);
   live.addMob(mob);
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
   return { live, combat, character, player, fighter, mob, received, ctx };
 }
 

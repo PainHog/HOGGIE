@@ -272,6 +272,7 @@ export class Session {
       economy: this.svc.economy,
       fighter: this.fighter,
       account: this.account,
+      config: this.svc.config,
       db: this.svc.db,
       quit: () => this.close(),
     };

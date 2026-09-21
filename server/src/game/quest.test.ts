@@ -26,10 +26,10 @@ const ROOM = 10300;
 const CONFIG: AppConfig = { port: 0, contentDir: "", worldAreas: ["drazuni.are"], startRoom: ROOM, adminEmails: [], supabase: {} };
 
 const base = {
-  area: "test", longDesc: "", description: "", alignment: 0, affectFlags: [], thac0: 20, ac: 100,
+  area: "test", longDesc: "", description: "", alignment: 0, affectFlags: [] as string[], thac0: 20, ac: 100,
   gold: 3, exp: 0, position: "standing", defaultPosition: "standing", sex: "neutral",
-  resistant: [], immune: [], susceptible: [], specialAttacks: [], specialDefenses: [],
-} as const;
+  resistant: [] as string[], immune: [] as string[], susceptible: [] as string[], specialAttacks: [] as string[], specialDefenses: [] as string[],
+};
 const QMASTER: MobPrototype = { ...base, vnum: 995000, keywords: "questmaster sage", shortDesc: "the questmaster", level: 50, actFlags: ["questmaster"], hpDice: "1d1+0", damDice: "1d1+0" };
 const TARGET: MobPrototype = { ...base, vnum: 995001, keywords: "goblin", shortDesc: "a goblin raider", level: 5, actFlags: [], hpDice: "1d1+0", damDice: "1d1+0" };
 const BOSS: MobPrototype = { ...base, vnum: 995002, keywords: "ogre", shortDesc: "a hulking ogre", level: 20, actFlags: [], hpDice: "1d1+0", damDice: "1d1+0" };
@@ -53,7 +53,7 @@ function setup(level = 8) {
   live.enter(player);
   const fighter = new PlayerFighter(ch, world, (m) => received.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
   return { live, combat, ch, fighter, received, ctx };
 }
 

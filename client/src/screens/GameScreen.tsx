@@ -85,6 +85,7 @@ export function GameScreen({
         {!wide && <ToolButton icon={ICON.inventory} label="Bag" active={panel === "inventory"} onPress={() => toggle("inventory")} />}
         {!wide && <ToolButton icon={ICON.skills} label="Skills" active={panel === "skills"} onPress={() => toggle("skills")} />}
         <ToolButton label="Quest" onPress={() => { onCmd("quest"); setPanel("log"); }} />
+        {!inCombat && <ToolButton label="Recall" onPress={() => onCmd("recall")} />}
         <ToolButton label="Log" active={panel === "log"} onPress={() => toggle("log")} />
         <View style={{ flex: 1 }} />
         <ToolButton label="Credits" onPress={onCredits} />
