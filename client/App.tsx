@@ -16,7 +16,12 @@ import { supabase, supabaseConfigured } from "./src/supabase";
 import { AuthScreen } from "./src/screens/AuthScreen";
 import { GameRoot } from "./src/screens/GameRoot";
 import { CreditsScreen } from "./src/screens/CreditsScreen";
+import { DebugOverlay } from "./src/DebugOverlay";
+import { installDebugCapture } from "./src/debug";
 import { fonts, theme } from "./src/theme";
+
+// Capture console errors/warnings + uncaught errors from the very first frame.
+installDebugCapture();
 
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
@@ -79,6 +84,8 @@ export default function App() {
           <CreditsScreen onBack={() => setCredits(false)} />
         </View>
       )}
+      {/* Always-on-top debug log (bottom-right) for one-tap bug reports. */}
+      <DebugOverlay />
     </View>
   );
 }

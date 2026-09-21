@@ -23,10 +23,18 @@ After a one-time setup, launching is a single action.
    - **macOS:** double-click **`play.command`** (first time: right-click → Open).
    - **Any OS, terminal:** `npm run play`.
 
-The launcher installs dependencies on the first run, starts the server + client together, and
-**opens the game in your browser** at `http://localhost:8081`. Close the window (or press
-`Ctrl-C`) to stop everything. Log in with a test account (`tester1@hoggie.local` / `ghoulish1`
-after running `npm run make-users` once) or create your own.
+The launcher installs dependencies and **builds the app on the first run** (~1 minute, once),
+then starts the server + client and **opens the game** at `http://localhost:8081`. Later launches
+skip the build and start in a couple of seconds. Close the window (or press `Ctrl-C`) to stop
+everything. Log in with a test account (`tester1@hoggie.local` / `ghoulish1` after running
+`npm run make-users` once) or create your own.
+
+- **If something looks wrong**, click the small **Debug** button at the bottom-right of the game,
+  press **Copy**, and paste that log to me — it captures errors, warnings, and connection events.
+- **Hot-reload dev mode** (for editing code): `npm run play -- --dev` uses the Expo dev bundler
+  instead of the fast prebuilt bundle.
+- The prebuilt web app lives in `client/dist/` (gitignored); it's rebuilt automatically whenever
+  the client source changes.
 
 The manual, step-by-step version of all of this is below.
 

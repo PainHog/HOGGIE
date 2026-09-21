@@ -1,6 +1,7 @@
 /** Thin WebSocket client to the game server. The live game is this socket, not Supabase. */
 import { CONFIG } from "./config";
-import type { ClientMessage, ServerMessage } from "./protocol";
+import { PROTOCOL_VERSION, type ClientMessage, type ServerMessage } from "./protocol";
+import { logDebug } from "./debug";
 
 export class GameConnection {
   private ws: WebSocket | null = null;
@@ -11,19 +12,32 @@ export class GameConnection {
   ) {}
 
   connect(token: string): void {
+    logDebug("info", `connecting to ${CONFIG.wsUrl} (client protocol v${PROTOCOL_VERSION})`);
     const ws = new WebSocket(CONFIG.wsUrl);
     this.ws = ws;
-    ws.onopen = () => this.send({ t: "auth", token });
+    ws.onopen = () => {
+      logDebug("info", "socket open — authenticating");
+      this.send({ t: "auth", token });
+    };
     ws.onmessage = (e: MessageEvent) => {
       try {
-        this.onMessage(JSON.parse(String(e.data)) as ServerMessage);
-      } catch {
-        /* ignore malformed */
+        const msg = JSON.parse(String(e.data)) as ServerMessage;
+        if (msg.t === "welcome" && msg.protocol !== PROTOCOL_VERSION) {
+          logDebug("error", `protocol mismatch: server v${msg.protocol} vs client v${PROTOCOL_VERSION} — reload the client`);
+        }
+        if (msg.t === "auth_error") logDebug("error", `auth failed: ${msg.message}`);
+        if (msg.t === "error") logDebug("warn", `server error: ${msg.message}`);
+        this.onMessage(msg);
+      } catch (err) {
+        logDebug("error", `bad frame from server: ${String(err)}`);
       }
     };
-    ws.onclose = () => this.onClose();
+    ws.onclose = (e: CloseEvent) => {
+      logDebug("warn", `socket closed (code ${e.code}${e.reason ? ` — ${e.reason}` : ""})`);
+      this.onClose();
+    };
     ws.onerror = () => {
-      /* onclose will follow */
+      logDebug("error", `socket error connecting to ${CONFIG.wsUrl} — is the server running?`);
     };
   }
 
