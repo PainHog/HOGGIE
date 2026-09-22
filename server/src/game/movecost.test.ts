@@ -37,6 +37,7 @@ beforeAll(async () => {
 beforeEach(() => {
   world.getRoom(ROOM)!.sector = "field"; // field = cost 2
   const d = world.getRoom(destVnum)!; d.area = destArea0; d.roomFlags = [...destFlags0]; // reset dest between tests
+  world.getRoom(ROOM)!.exits.find((e) => e.dir === exitDir)!.flags = []; // reset the exit's flags
 });
 function reset() { world.getRoom(ROOM)!.sector = sector0; }
 
@@ -125,5 +126,28 @@ describe("entry blocks", () => {
     expect(s.ch.level).toBeLessThan(40);
     dispatchCommand(s.ctx, exitDir);
     expect(s.ch.roomVnum).toBe(ROOM); // too low-level to enter that area
+  });
+});
+
+describe("climb exits", () => {
+  const makeClimb = () => { world.getRoom(ROOM)!.exits.find((e) => e.dir === exitDir)!.flags = ["climb"]; };
+
+  it("a skilled climber makes it across", () => {
+    const s = setup();
+    makeClimb();
+    s.ch.proficiencies["climb"] = 100; // never slips
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(destVnum);
+  });
+
+  it("an unskilled climber slips, takes damage, and stays put", () => {
+    const s = setup();
+    makeClimb();
+    s.ch.proficiencies["climb"] = 0; // always slips
+    const hp0 = s.ch.hp;
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // didn't make it
+    expect(s.ch.hp).toBeLessThan(hp0); // took a fall
+    expect(s.ch.hp).toBeGreaterThan(0); // but a fall doesn't kill outright
   });
 });

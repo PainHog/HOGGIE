@@ -192,6 +192,20 @@ function doMove(ctx: CommandContext, dir: string): void {
   const blocked = entryBlock(ch, isStaff(ctx.account.roles));
   if (blocked) return out(ctx.player, `&R${blocked}&D`);
 
+  // Climb exits (§3.1): a failed climb roll means you slip and fall for damage instead of moving.
+  const climbExit = (exit.flags ?? []).some((f) => f === "climb" || f === "can_climb");
+  const climbFall = (who: Player): boolean => {
+    if (isStaff(who.account?.roles ?? [])) return false;
+    if (Math.random() * 100 < learnedPct(ctx.world, who.character, "climb")) return false; // made it
+    const c = who.character;
+    const dam = 2 + Math.floor(Math.random() * (c.level + 1));
+    c.hp = Math.max(1, c.hp - dam); // a fall hurts but won't kill outright
+    out(who, `&RYou lose your grip and fall, taking ${dam} damage!&D`);
+    sendVitals(ctx.world, who);
+    return true;
+  };
+  if (climbExit && climbFall(ctx.player)) return;
+
   // Each step spends `move` by the room's sector cost, scaled by how loaded you are (§3.1).
   const from = ch.roomVnum;
   const cost = moveCost(room?.sector ?? "inside", currentWeight(ctx), carryLimits(ch).maxWeight);
@@ -212,6 +226,7 @@ function doMove(ctx: CommandContext, dir: string): void {
       const pc = p.character;
       const pBlock = entryBlock(pc, isStaff(p.account?.roles ?? []));
       if (pBlock) { out(p, `&R${pBlock}&D`); continue; }
+      if (climbExit && climbFall(p)) continue; // a follower who slips falls behind
       const pCost = moveCost(room?.sector ?? "inside", currentWeight(ctx, pc), carryLimits(pc).maxWeight);
       if (pc.move < pCost) { out(p, `&RYou are too exhausted to follow ${esc(ch.name)}.&D`); continue; }
       pc.move -= pCost;
