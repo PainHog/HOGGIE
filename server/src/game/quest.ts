@@ -18,13 +18,24 @@ export interface QuestTarget {
   killed: number; // hunt progress
   itemVnum?: number; // fetch: the item to bring back
   itemName?: string;
-  expiresAt?: number; // timed quests (fetch): epoch-ms deadline
+  expiresAt?: number; // epoch-ms deadline (all quests are timed, §4.7)
   rewardGold: number;
   rewardGlory: number;
+  rewardExp: number;
+  rewardPractices: number; // bonus practice sessions (0 most of the time)
 }
 
-/** How long a timed (fetch) quest allows before it lapses. */
+/** Legacy fetch deadline; quests now use a random 15–45 min window (questDeadline). */
 export const FETCH_DEADLINE_MS = 15 * 60_000;
+
+/** A quest's time limit: 15–45 minutes (systems-spec §4.7). */
+export function questDeadline(now: number = Date.now()): number {
+  return now + (15 + Math.floor(Math.random() * 31)) * 60_000;
+}
+
+/** Cooldown before another quest may be taken: short after a success, longer after a failure. */
+export const QUEST_COOLDOWN_MS = 5 * 60_000;
+export const QUEST_FAIL_COOLDOWN_MS = 10 * 60_000;
 
 /** A timed quest that has run out of time. */
 export function questExpired(q: QuestTarget, now: number = Date.now()): boolean {
@@ -44,8 +55,8 @@ export function isQuestGiver(proto: MobPrototype): boolean {
   return proto.actFlags.some((f) => QUEST_GIVER_FLAGS.includes(f));
 }
 
-/** Glory a quest is worth = 3 glory per practice session (the spend price). */
-export const GLORY_PER_PRACTICE = 3;
+/** Glory price of one practice session (systems-spec §4.7: ≈15 glory each). */
+export const GLORY_PER_PRACTICE = 15;
 
 // Service NPCs a player should never be sent to kill.
 const PROTECTED = new Set([
@@ -87,23 +98,30 @@ export function assignQuest(world: World, ch: Character, giverArea: string): Que
   const target = pool[0]!;
   const mobName = target.shortDesc || target.keywords || `creature ${target.vnum}`;
   const areaName = world.areas.get(target.area)?.name ?? target.area;
-  const rewardGlory = Math.max(1, Math.min(20, 2 + Math.floor(target.level / 4)));
-  const rewardGold = target.level * 10 + 20;
 
-  // If the target carries gear, make it a timed FETCH quest for one of its items; else a hunt.
+  // Rewards per §4.7: gold 1000–5000, glory 35–110, exp 250–500, 25% chance of 1–3 practices.
+  const rnd = (lo: number, hi: number) => lo + Math.floor(Math.random() * (hi - lo + 1));
+  const reward = () => ({
+    rewardGold: rnd(1000, 5000),
+    rewardGlory: rnd(35, 110),
+    rewardExp: rnd(250, 500),
+    rewardPractices: Math.random() < 0.25 ? rnd(1, 3) : 0,
+  });
+
+  // If the target carries gear, make it a FETCH quest for one of its items; else a kill-mob hunt.
   const loot = (world.mobLoot.get(target.vnum) ?? []).filter((v) => world.getObjPrototype(v));
   if (loot.length > 0) {
     const itemVnum = loot[0]!;
     return {
       type: "fetch", mobVnum: target.vnum, mobName, areaName, count: 1, killed: 0,
       itemVnum, itemName: world.getObjPrototype(itemVnum)!.shortDesc || `item ${itemVnum}`,
-      expiresAt: Date.now() + FETCH_DEADLINE_MS, rewardGold: rewardGold + 20, rewardGlory: rewardGlory + 1,
+      expiresAt: questDeadline(), ...reward(),
     };
   }
 
   const count = 1 + Math.min(2, Math.floor(target.level / 10));
   return {
     type: "hunt", mobVnum: target.vnum, mobName, areaName, count, killed: 0,
-    rewardGold: rewardGold * count, rewardGlory: rewardGlory + (count - 1),
+    expiresAt: questDeadline(), ...reward(),
   };
 }

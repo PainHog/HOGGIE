@@ -15,7 +15,7 @@ import { setDoorBothSides } from "./doors.ts";
 import { moveCost } from "./movement.ts";
 import { applyOverride, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
-import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
+import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled, QUEST_COOLDOWN_MS, QUEST_FAIL_COOLDOWN_MS } from "./quest.ts";
 import {
   atWar, canManage, CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, declareWar, endWar,
   inviteToClan, pendingInvite, sameClan, validClanName, type ClanRank,
@@ -1333,6 +1333,7 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
   if (ch.quest && questExpired(ch.quest)) {
     out(ctx.player, `&rYour quest for ${esc(ch.quest.itemName ?? ch.quest.mobName)} has run out of time.&D`);
     ch.quest = undefined;
+    ch.questCooldownUntil = Date.now() + QUEST_FAIL_COOLDOWN_MS; // a lapsed quest earns the longer cooldown
     if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
   }
 
@@ -1340,19 +1341,25 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
     const giver = questGiverHere(ctx);
     if (!giver) return out(ctx.player, "&RThere's no questmaster here to ask.&D");
     if (ch.quest) return out(ctx.player, `&YYou're already on a quest — finish or 'quest abandon' it first.&D`);
+    if (ch.questCooldownUntil && Date.now() < ch.questCooldownUntil) {
+      const mins = Math.max(1, Math.ceil((ch.questCooldownUntil - Date.now()) / 60_000));
+      return out(ctx.player, `&RThe questmaster waves you off — come back in about ${mins} minute(s).&D`);
+    }
     const q = assignQuest(ctx.world, ch, giver.proto.area);
     if (!q) return out(ctx.player, "&RThe questmaster has nothing for you right now.&D");
     ch.quest = q;
+    const mins = Math.max(1, Math.round(((q.expiresAt ?? Date.now()) - Date.now()) / 60_000));
+    const rewardLine = `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory + &W${q.rewardExp}&Y exp${q.rewardPractices ? ` + &W${q.rewardPractices}&Y practice(s)` : ""}.&D`;
     if ((q.type ?? "hunt") === "fetch") {
       out(ctx.player,
         `&Y${cap(mobShort(giver))} sends you on a retrieval:&D`,
-        `&W  Recover ${esc(q.itemName!)}&D &dfrom ${esc(q.mobName)} (seek it in ${esc(q.areaName)}) within ${Math.round(FETCH_DEADLINE_MS / 60_000)} minutes&D`,
-        `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. Bring the item back and 'quest complete'.&D`);
+        `&W  Recover ${esc(q.itemName!)}&D &dfrom ${esc(q.mobName)} (seek it in ${esc(q.areaName)}) within ${mins} minutes&D`,
+        rewardLine + " Bring the item back and 'quest complete'.");
     } else {
       out(ctx.player,
         `&Y${cap(mobShort(giver))} charges you with a hunt:&D`,
-        `&W  Slay ${q.count} x ${esc(q.mobName)}&D &d(seek them in ${esc(q.areaName)})&D`,
-        `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. 'quest complete' back here when it's done.&D`);
+        `&W  Slay ${q.count} x ${esc(q.mobName)}&D &d(seek them in ${esc(q.areaName)}, within ${mins} minutes)&D`,
+        rewardLine + " 'quest complete' back here when it's done.");
     }
     if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
     return;
@@ -1373,12 +1380,17 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
       if (idx >= 0) ch.inventory.splice(idx, 1); // hand the item over
       sendInventory(ctx.world, ctx.player);
     }
+    const rExp = q.rewardExp ?? 0, rPrac = q.rewardPractices ?? 0; // coalesce for quests saved pre-retune
     ch.gold += q.rewardGold;
     ch.glory += q.rewardGlory;
+    ch.exp += rExp;
+    ch.practices += rPrac;
     ch.quest = undefined;
+    ch.questCooldownUntil = Date.now() + QUEST_COOLDOWN_MS;
+    ctx.combat.checkLevel(ctx.fighter); // quest exp may carry the player up a level
     out(ctx.player,
       `&Y${cap(mobShort(giver))} nods with respect.&D`,
-      `&YQuest complete! +${q.rewardGold} gold, +${q.rewardGlory} glory. (Glory: ${ch.glory})&D`);
+      `&YQuest complete! +${q.rewardGold} gold, +${q.rewardGlory} glory, +${rExp} exp${rPrac ? `, +${rPrac} practices` : ""}. (Glory: ${ch.glory})&D`);
     sendVitals(ctx.world, ctx.player);
     if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
     return;
@@ -1388,6 +1400,7 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
     if (!ch.quest) return out(ctx.player, "&RYou have no quest to abandon.&D");
     const name = ch.quest.mobName;
     ch.quest = undefined;
+    ch.questCooldownUntil = Date.now() + QUEST_FAIL_COOLDOWN_MS; // abandoning earns the longer cooldown
     out(ctx.player, `&YYou abandon the hunt for ${esc(name)}.&D`);
     if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
     return;

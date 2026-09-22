@@ -89,6 +89,19 @@ describe("quest assignment", () => {
     expect(s.ch.quest!.rewardGlory).toBeGreaterThan(0);
   });
 
+  it("rewards land in the spec ranges (§4.7)", () => {
+    const s = setup();
+    s.live.addMob(spawnMob(QMASTER, ROOM));
+    dispatchCommand(s.ctx, "quest request");
+    const q = s.ch.quest!;
+    expect(q.rewardGold).toBeGreaterThanOrEqual(1000);
+    expect(q.rewardGold).toBeLessThanOrEqual(5000);
+    expect(q.rewardGlory).toBeGreaterThanOrEqual(35);
+    expect(q.rewardGlory).toBeLessThanOrEqual(110);
+    expect(q.rewardExp).toBeGreaterThanOrEqual(250);
+    expect(q.rewardExp).toBeLessThanOrEqual(500);
+  });
+
   it("refuses to assign when no questmaster is present", () => {
     const s = setup();
     dispatchCommand(s.ctx, "quest request");
@@ -169,13 +182,18 @@ describe("fetch + timed quests", () => {
     expect(s.ch.glory).toBeGreaterThan(gloryBefore);
   });
 
-  it("lapses when the deadline passes", () => {
+  it("lapses when the deadline passes and puts the giver on cooldown", () => {
     const s = setup(40);
     s.live.addMob(spawnMob(QMASTER, ROOM));
     dispatchCommand(s.ctx, "quest request");
     s.ch.quest!.expiresAt = Date.now() - 1000; // force the timer out
     s.ch.inventory.push({ vnum: RELIC.vnum }); // even holding the item...
-    dispatchCommand(s.ctx, "quest request"); // ...requesting first clears the lapsed one, then re-assigns
-    expect(s.ch.quest?.expiresAt).toBeGreaterThan(Date.now()); // a fresh quest, not the lapsed one
+    dispatchCommand(s.ctx, "quest request"); // requesting clears the lapsed one
+    expect(s.ch.quest).toBeUndefined(); // the lapsed quest is gone...
+    expect(s.ch.questCooldownUntil).toBeGreaterThan(Date.now()); // ...and a failure cooldown now applies
+
+    s.ch.questCooldownUntil = 0; // once the cooldown passes, a fresh quest can be taken
+    dispatchCommand(s.ctx, "quest request");
+    expect(s.ch.quest?.expiresAt).toBeGreaterThan(Date.now());
   });
 });

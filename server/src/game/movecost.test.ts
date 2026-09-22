@@ -2,7 +2,7 @@
  * Movement cost (systems-spec §3.1): each step spends `move` by the room's sector cost, scaled by
  * encumbrance; out of `move` you're too exhausted to go.
  */
-import { beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
 import type { ServerMessage } from "@hoggie/shared";
 import type { AppConfig } from "../config.ts";
 import type { ObjPrototype } from "../world/model.ts";
@@ -160,11 +160,13 @@ describe("flight and deep water", () => {
 
 describe("climb exits", () => {
   const makeClimb = () => { world.getRoom(ROOM)!.exits.find((e) => e.dir === exitDir)!.flags = ["climb"]; };
+  afterEach(() => vi.restoreAllMocks());
 
   it("a skilled climber makes it across", () => {
     const s = setup();
     makeClimb();
-    s.ch.proficiencies["climb"] = 100; // never slips
+    s.ch.proficiencies["climb"] = 100; // trained
+    vi.spyOn(Math, "random").mockReturnValue(0); // roll 0 always clears any positive climb%
     dispatchCommand(s.ctx, exitDir);
     expect(s.ch.roomVnum).toBe(destVnum);
   });

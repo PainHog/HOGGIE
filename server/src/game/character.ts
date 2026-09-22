@@ -45,6 +45,8 @@ export interface Character {
   glory: number;
   /** The character's one active hunt quest, if any. */
   quest?: QuestTarget;
+  /** Transient (not persisted): earliest epoch-ms a new quest may be taken (post-quest cooldown). */
+  questCooldownUntil?: number;
   /** Clan membership (name + rank), if any (systems-spec §5). */
   clan?: { name: string; rank: "leader" | "officer" | "member" };
   /** Opted in to player-vs-player combat. */

@@ -661,7 +661,7 @@ export class CombatManager {
   }
 
   /** Level up while enough exp and under the mortal cap (systems-spec §2.3). */
-  private checkLevel(playerF: PlayerFighter): void {
+  checkLevel(playerF: PlayerFighter): void {
     const ch = playerF.character;
     while (ch.level < 50 && ch.exp >= expToReach(this.world, ch.classId, ch.level + 1)) {
       ch.level += 1;

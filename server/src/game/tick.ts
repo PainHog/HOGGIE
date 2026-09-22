@@ -5,7 +5,7 @@
  *   - area repop every 60s.
  */
 import { out, sendRoomView, sendVitals } from "./view.ts";
-import { questExpired } from "./quest.ts";
+import { questExpired, QUEST_FAIL_COOLDOWN_MS } from "./quest.ts";
 import { statMod } from "./character.ts";
 import { expireAffects } from "./affects.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
@@ -106,6 +106,7 @@ export class GameTick {
       const q = p.character.quest;
       if (q && questExpired(q, now)) {
         p.character.quest = undefined;
+        p.character.questCooldownUntil = now + QUEST_FAIL_COOLDOWN_MS;
         out(p, `&rYour quest for ${q.itemName ?? q.mobName} has run out of time.&D`);
       }
     }
