@@ -16,6 +16,7 @@ import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { spawnMob } from "./mobInstance.ts";
 import { Rng } from "./rng.ts";
+import { ClanStore } from "./clanStore.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -49,7 +50,7 @@ function setup() {
     const player: Player = { character: ch, fighter, send: (m) => recv.push(m) };
     live.enter(player);
     const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-    const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
+    const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, clanStore: new ClanStore(null), db: null, quit: () => {} };
     return { ch, fighter, player, recv, ctx };
   };
   return { live, combat, a: mk("Alpha", "00000000-0000-0000-0000-0000000grpa1"), b: mk("Bravo", "00000000-0000-0000-0000-0000000grpb2") };

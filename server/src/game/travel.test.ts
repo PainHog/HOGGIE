@@ -18,6 +18,7 @@ import { PlayerFighter } from "./fighter.ts";
 import { spawnMob } from "./mobInstance.ts";
 import { debuffAffect } from "./spellbook.ts";
 import { Rng } from "./rng.ts";
+import { ClanStore } from "./clanStore.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -54,7 +55,7 @@ function setup() {
   live.enter(player);
   const fighter = new PlayerFighter(ch, world, (m) => received.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
+  const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, clanStore: new ClanStore(null), db: null, quit: () => {} };
   return { live, combat, ch, fighter, received, ctx };
 }
 

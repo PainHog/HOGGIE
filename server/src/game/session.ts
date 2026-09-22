@@ -28,6 +28,7 @@ import { PlayerFighter } from "./fighter.ts";
 import { leaveGroup } from "./groups.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
+import type { ClanStore } from "./clanStore.ts";
 import { esc, out, sendEquipment, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
 
 export interface GameServices {
@@ -38,6 +39,7 @@ export interface GameServices {
   db: Db | null;
   combat: CombatManager;
   economy: Economy;
+  clanStore: ClanStore;
 }
 
 type State = "authenticating" | "choosing" | "playing";
@@ -274,6 +276,7 @@ export class Session {
       fighter: this.fighter,
       account: this.account,
       config: this.svc.config,
+      clanStore: this.svc.clanStore,
       db: this.svc.db,
       quit: () => this.close(),
     };

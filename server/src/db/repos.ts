@@ -185,6 +185,21 @@ export class Db {
     if (res.error) throw res.error;
   }
 
+  /** The clan-level record (hall + bank), or null if the clan has none yet. */
+  async getClan(name: string): Promise<{ name: string; hallVnum: number | null; bank: number } | null> {
+    const res = await this.client.from("clans").select("name, hall_vnum, bank").eq("name", name).maybeSingle();
+    if (res.error) throw res.error;
+    if (!res.data) return null;
+    const r = res.data as Record<string, unknown>;
+    return { name: r.name as string, hallVnum: (r.hall_vnum as number | null) ?? null, bank: Number(r.bank ?? 0) };
+  }
+
+  /** Create or update a clan's record (hall + bank). */
+  async upsertClan(rec: { name: string; hallVnum: number | null; bank: number }): Promise<void> {
+    const res = await this.client.from("clans").upsert({ name: rec.name, hall_vnum: rec.hallVnum, bank: rec.bank });
+    if (res.error) throw res.error;
+  }
+
   /** All members of a clan (online + offline), for a full roster. */
   async charactersInClan(clanName: string): Promise<{ name: string; level: number; rank: string }[]> {
     const res = await this.client

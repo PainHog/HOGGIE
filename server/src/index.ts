@@ -15,6 +15,7 @@ import { Db } from "./db/repos.ts";
 import { LiveWorld } from "./game/liveWorld.ts";
 import { CombatManager } from "./game/combat.ts";
 import { Economy } from "./game/economy.ts";
+import { ClanStore } from "./game/clanStore.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -47,7 +48,8 @@ async function main(): Promise<void> {
     log.warn("no Supabase service key — accounts/persistence disabled (set SUPABASE_SERVICE_ROLE_KEY)");
   }
 
-  const services: GameServices = { config: cfg, world, live, auth, db, combat, economy };
+  const clanStore = new ClanStore(db);
+  const services: GameServices = { config: cfg, world, live, auth, db, combat, economy, clanStore };
   const server: WsHandle = await startWsServer({
     port: cfg.port,
     createHandler: (conn) => new Session(conn, services),

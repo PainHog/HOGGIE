@@ -15,6 +15,7 @@ import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { Rng } from "./rng.ts";
 import { CLAN_COST_GLORY } from "./clans.ts";
+import { ClanStore } from "./clanStore.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -31,6 +32,7 @@ function text(msgs: ServerMessage[]): string {
 function setup() {
   const live = new LiveWorld(world);
   const combat = new CombatManager(world, live, CONFIG, new Rng(1));
+  const clanStore = new ClanStore(null); // shared across the group so hall/bank are consistent
   const mk = (name: string, id: string) => {
     const recv: ServerMessage[] = [];
     const ch = createCharacter(world, { id, accountId: "acc", name, raceId: 0, classId: 3, startRoom: ROOM });
@@ -39,7 +41,7 @@ function setup() {
     const player: Player = { character: ch, fighter, send: (m) => recv.push(m) };
     live.enter(player);
     const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
-    const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
+    const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, clanStore, db: null, quit: () => {} };
     return { ch, player, fighter, recv, ctx };
   };
   return { live, a: mk("Alpha", "00000000-0000-0000-0000-0000000c1aa1"), b: mk("Bravo", "00000000-0000-0000-0000-0000000c1bb2") };
@@ -128,5 +130,41 @@ describe("clan war", () => {
     dispatchCommand(s.a.ctx, "kill Bravo");
     expect(s.a.fighter.fighting).toBe(s.b.fighter); // war = fair game
     dispatchCommand(s.a.ctx, "clan peace Blues"); // clean up the module-global war registry
+  });
+});
+
+describe("clan hall + bank", () => {
+  const tick = () => new Promise((r) => setTimeout(r, 0)); // let the async clan-store paths settle
+
+  async function found(s: ReturnType<typeof setup>) {
+    s.a.ch.glory = CLAN_COST_GLORY;
+    dispatchCommand(s.a.ctx, "clan create Wolves");
+    dispatchCommand(s.a.ctx, "clan invite Bravo");
+    dispatchCommand(s.b.ctx, "clan accept");
+    await tick();
+  }
+
+  it("a shared bank: members deposit, leaders/officers withdraw", async () => {
+    const s = setup();
+    await found(s);
+    s.a.ch.gold = 1000;
+    dispatchCommand(s.a.ctx, "clan deposit 400"); await tick();
+    expect(s.a.ch.gold).toBe(600);
+    dispatchCommand(s.b.ctx, "clan withdraw 100"); await tick();
+    expect(s.b.ch.gold).toBe(0); // a plain member can't withdraw
+    dispatchCommand(s.a.ctx, "clan withdraw 400"); await tick();
+    expect(s.a.ch.gold).toBe(1000); // the leader can
+  });
+
+  it("sets a hall and recalls to it", async () => {
+    const s = setup();
+    await found(s);
+    dispatchCommand(s.a.ctx, "clan hall"); await tick(); // hall = ROOM
+    const dest = world.getRoom(ROOM)!.exits.find((e) => world.getRoom(e.toVnum))!.toVnum;
+    const liveA = s.live.roomPlayers(ROOM).find((p) => p.character.id === s.a.ch.id)!;
+    s.live.moveTo(liveA, dest);
+    expect(s.a.ch.roomVnum).toBe(dest);
+    dispatchCommand(s.a.ctx, "clan home"); await tick();
+    expect(s.a.ch.roomVnum).toBe(ROOM); // back at the hall
   });
 });

@@ -17,6 +17,7 @@ import {
   inviteToClan, pendingInvite, sameClan, validClanName, type ClanRank,
 } from "./clans.ts";
 import { groupInRoom, groupMembers, isGrouped, isLeader, leaveGroup, sameGroup } from "./groups.ts";
+import type { ClanStore } from "./clanStore.ts";
 import { RECALL_ROOM, type CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -37,6 +38,7 @@ export interface CommandContext {
   fighter: PlayerFighter;
   account: StaffAccount;
   config: AppConfig;
+  clanStore: ClanStore;
   db: Db | null;
   quit: () => void;
 }
@@ -315,7 +317,10 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     const rankTag = (r?: string) => (r && r !== "member" ? ` &Y(${r})&D` : "");
     const lines = [`&m--- ${esc(ch.clan.name)} ---&D`, `&mYou are its ${ch.clan.rank}. Online members (${members.length}):&D`];
     for (const p of members) lines.push(`&m  ${esc(p.character.name)}${rankTag(p.character.clan?.rank)} — level ${p.character.level}&D`);
-    lines.push("&d(clan roster / invite / accept / leave / kick / promote / demote / war <clan> / peace <clan>)&D");
+    const rec = await ctx.clanStore.get(ch.clan.name);
+    const hallName = rec.hallVnum != null ? (ctx.world.getRoom(rec.hallVnum)?.name ?? `room ${rec.hallVnum}`) : "not set";
+    lines.push(`&mHall: &W${esc(hallName)}&m   Bank: &W${rec.bank}&m gold&D`);
+    lines.push("&d(clan hall / home / deposit <n> / withdraw <n> / roster / invite / kick / promote / war <clan>)&D");
     return out(ctx.player, ...lines);
   }
 
@@ -379,6 +384,51 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     return;
   }
 
+  // --- clan hall + shared bank (persisted clan record) ---
+  if (sub === "hall") {
+    if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly the leader can set the clan hall.&D");
+    const rec = await ctx.clanStore.get(ch.clan.name);
+    rec.hallVnum = ch.roomVnum;
+    await ctx.clanStore.save(rec);
+    out(ctx.player, `&mYou consecrate this place as the hall of ${esc(ch.clan.name)}.&D`);
+    for (const p of clanOnline(ctx.live, ch.clan.name)) if (p !== ctx.player) out(p, `&mYour clan hall is now ${esc(ctx.world.getRoom(ch.roomVnum)?.name ?? "here")}.&D`);
+    return;
+  }
+
+  if (sub === "home" || sub === "recall") {
+    if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
+    if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't recall while fighting!&D");
+    const rec = await ctx.clanStore.get(ch.clan.name);
+    if (rec.hallVnum == null || !ctx.world.getRoom(rec.hallVnum)) return out(ctx.player, "&RYour clan has no hall set (a leader can 'clan hall').&D");
+    if (ch.roomVnum === rec.hallVnum) return out(ctx.player, "&YYou are already at the clan hall.&D");
+    ctx.live.broadcast(ch.roomVnum, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} vanishes toward their clan hall.&D`)] }, ctx.player);
+    ctx.live.moveTo(ctx.player, rec.hallVnum);
+    out(ctx.player, "&mThe banner of your clan pulls you home.&D");
+    sendRoom(ctx.live, ctx.player);
+    return;
+  }
+
+  if (sub === "deposit" || sub === "withdraw") {
+    if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
+    const amt = Math.floor(Number(rest));
+    if (!Number.isFinite(amt) || amt <= 0) return out(ctx.player, `&R${cap(sub)} how much gold?&D`);
+    const rec = await ctx.clanStore.get(ch.clan.name);
+    if (sub === "deposit") {
+      if (ch.gold < amt) return out(ctx.player, `&RYou only have ${ch.gold} gold.&D`);
+      ch.gold -= amt; rec.bank += amt;
+      out(ctx.player, `&mYou deposit ${amt} gold into the clan bank (balance: ${rec.bank}).&D`);
+    } else {
+      if (ch.clan.rank === "member") return out(ctx.player, "&ROnly a leader or officer can withdraw from the clan bank.&D");
+      if (rec.bank < amt) return out(ctx.player, `&RThe clan bank holds only ${rec.bank} gold.&D`);
+      rec.bank -= amt; ch.gold += amt;
+      out(ctx.player, `&mYou withdraw ${amt} gold from the clan bank (balance: ${rec.bank}).&D`);
+    }
+    await ctx.clanStore.save(rec);
+    sendVitals(ctx.world, ctx.player);
+    if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+    return;
+  }
+
   // The remaining subcommands act on a named clanmate (present online).
   const clanmate = (kw: string) => clanOnline(ctx.live, ch.clan?.name ?? "").find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(kw.toLowerCase()));
 
@@ -422,7 +472,7 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     return;
   }
 
-  out(ctx.player, "&YClan: status · create <name> · invite/accept · leave · roster · kick <p> · promote/demote <p> · war/peace <clan> · ctalk <msg>.&D");
+  out(ctx.player, "&YClan: status · create · invite/accept · leave · roster · kick · promote/demote · war/peace · hall · home · deposit/withdraw <n> · ctalk.&D");
 }
 
 /**
