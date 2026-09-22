@@ -17,8 +17,11 @@ import { PlayerFighter } from "./fighter.ts";
 import { spawnMob } from "./mobInstance.ts";
 import { Rng } from "./rng.ts";
 import { ClanStore } from "./clanStore.ts";
+import { buildRoomView } from "./view.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
+
+const text = (msgs: ServerMessage[]) => msgs.flatMap((m) => (m.t === "output" ? m.lines.flat().map((s) => s.text) : [])).join("\n");
 
 const ROOM = 10300;
 const MOB = 999700, OBJ = 999701;
@@ -116,11 +119,52 @@ describe("restore", () => {
   });
 });
 
+describe("slay", () => {
+  it("instantly kills a mob and leaves a corpse", () => {
+    const s = setup();
+    s.live.addMob(spawnMob(testMob, ROOM));
+    dispatchCommand(s.imm.ctx, "slay gremlin");
+    expect(s.live.roomMobs(ROOM).some((m) => m.proto.vnum === MOB)).toBe(false);
+    expect(s.live.roomCorpses(ROOM).length).toBe(1);
+  });
+});
+
+describe("echo", () => {
+  it("sends a line to every online player", () => {
+    const s = setup();
+    relocate(s, "pc", elsewhere); // even in another room
+    dispatchCommand(s.imm.ctx, "echo the gods are watching");
+    expect(text(s.pc.recv)).toContain("the gods are watching");
+  });
+});
+
+describe("at", () => {
+  it("runs a command in another room, then returns you", () => {
+    const s = setup();
+    s.live.addMob(spawnMob(testMob, elsewhere)); // a mob over there
+    dispatchCommand(s.imm.ctx, `at ${elsewhere} slay gremlin`);
+    expect(s.live.roomMobs(elsewhere).some((m) => m.proto.vnum === MOB)).toBe(false); // slain remotely
+    expect(s.imm.ch.roomVnum).toBe(ROOM); // back where we started
+  });
+});
+
+describe("wizinvis", () => {
+  it("hides staff from a mortal's room view, but not from other staff", () => {
+    const s = setup(); // both imm (admin) and pc (player) start in ROOM
+    const inList = (viewer: "imm" | "pc") =>
+      buildRoomView(s.live, s[viewer].ctx.player).players.some((p) => p.id === s.imm.ch.id);
+    expect(inList("pc")).toBe(true); // visible before
+    dispatchCommand(s.imm.ctx, "wizinvis");
+    expect(inList("pc")).toBe(false); // mortal no longer sees the immortal
+  });
+});
+
 describe("capability gate", () => {
-  it("a plain player can't purge", () => {
+  it("a plain player can't purge or slay", () => {
     const s = setup();
     s.live.addMob(spawnMob(testMob, ROOM));
     dispatchCommand(s.pc.ctx, "purge");
+    dispatchCommand(s.pc.ctx, "slay gremlin");
     expect(s.live.roomMobs(ROOM).length).toBeGreaterThan(0); // nothing happened
   });
 });

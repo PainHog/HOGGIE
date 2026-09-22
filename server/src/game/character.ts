@@ -53,6 +53,8 @@ export interface Character {
   groupLeaderId?: string;
   /** Transient (not persisted): the character id this character consents to be summoned by (§3.3). */
   consent?: string;
+  /** Transient (not persisted): a staff member hidden from mortals in room/look listings (wizinvis). */
+  wizinvis?: boolean;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */

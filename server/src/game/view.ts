@@ -6,6 +6,7 @@ import { className, dualClassName, expToNextLevel, raceName, type Character } fr
 import { mobShort } from "./mobInstance.ts";
 import { affectNames } from "./affects.ts";
 import { learnedPct, mergedGrants } from "./skills.ts";
+import { isStaff } from "./roles.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -16,9 +17,10 @@ export function esc(s: string): string {
 export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
   const ch = viewer.character;
   const room = live.world.getRoom(ch.roomVnum);
+  const viewerStaff = isStaff(viewer.account?.roles ?? []);
   const others = live
     .roomPlayers(ch.roomVnum)
-    .filter((p) => p !== viewer)
+    .filter((p) => p !== viewer && (viewerStaff || !p.character.wizinvis)) // mortals don't see wizinvis staff
     .map((p) => ({ id: p.character.id, name: p.character.name, level: p.character.level, effects: affectNames(p.character.affects) }));
   const mobs = live.roomMobs(ch.roomVnum).map((m) => ({
     id: m.id,
@@ -62,8 +64,10 @@ export function lookLines(live: LiveWorld, viewer: Player): Line[] {
   // Closed doors show in parentheses so a player sees them without walking into them.
   const exits = room.exits.map((e) => (live.doorAt(ch.roomVnum, e.dir)?.closed ? `(${e.dir})` : e.dir));
   lines.push(parseColorSpans("&c[Exits: " + (exits.length ? exits.join(" ") : "none") + "]&D"));
+  const viewerStaff = isStaff(viewer.account?.roles ?? []);
   for (const p of live.roomPlayers(ch.roomVnum)) {
     if (p === viewer) continue;
+    if (p.character.wizinvis && !viewerStaff) continue; // hidden from mortals
     lines.push(parseColorSpans("&w" + esc(p.character.name) + " is here.&D"));
   }
   for (const mob of live.roomMobs(ch.roomVnum)) {

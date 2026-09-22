@@ -17,7 +17,7 @@ export interface StaffAccount {
 const ROLE_CAPS: Record<string, string[]> = {
   player: [],
   builder: ["info.stat", "build.redit", "build.medit", "build.oedit", "world.load", "world.purge"], // build.*/world.* are vnum-range-scoped
-  moderator: ["info.stat", "info.users", "world.goto", "world.transfer", "world.restore", "world.purge", "world.load"],
+  moderator: ["info.stat", "info.users", "world.goto", "world.transfer", "world.restore", "world.purge", "world.load", "world.slay", "world.echo", "world.at", "world.wizinvis"],
   admin: ["*"],
 };
 

@@ -9,7 +9,7 @@ import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.ts";
-import { corpseMatches, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
+import { corpseMatches, makeCorpse, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
 import { setDoorBothSides } from "./doors.ts";
 import { applyOverride, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
@@ -136,6 +136,10 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "load": return staff(ctx, "world.load", () => doLoad(ctx, arg));
     case "purge": return staff(ctx, "world.purge", () => doPurge(ctx));
     case "restore": return staff(ctx, "world.restore", () => doRestore(ctx, arg));
+    case "slay": return staff(ctx, "world.slay", () => doSlay(ctx, arg));
+    case "echo": return staff(ctx, "world.echo", () => doEcho(ctx, arg));
+    case "at": return staff(ctx, "world.at", () => doAt(ctx, arg));
+    case "wizinvis": case "invis": return staff(ctx, "world.wizinvis", () => doWizinvis(ctx));
 
     default:
       out(ctx.player, "&RHuh?&D  (type &Whelp&D for commands)");
@@ -1816,4 +1820,51 @@ function doRestore(ctx: CommandContext, arg: string): void {
   sendVitals(ctx.world, target);
   out(target, "&YA warm light fills you — you are fully restored.&D");
   if (target !== ctx.player) out(ctx.player, `&YRestored ${esc(c.name)}.&D`);
+}
+
+/** `slay <mob>` — instantly kill a mob in the room, leaving its corpse (and loot) behind. */
+function doSlay(ctx: CommandContext, arg: string): void {
+  const room = ctx.player.character.roomVnum;
+  const mob = arg.trim() ? ctx.live.roomMobs(room).find((m) => mobMatches(m, arg.trim())) : undefined;
+  if (!mob) return out(ctx.player, "&RSlay whom? (name a mob in this room)&D");
+  ctx.combat.disengage(ctx.combat.fighterForMob(mob)); // stop any fight it's in first
+  const loot = (ctx.world.mobLoot.get(mob.proto.vnum) ?? []).filter((v) => ctx.world.getObjPrototype(v));
+  const kw = mob.proto.keywords.split(/\s+/).find(Boolean) ?? "corpse";
+  ctx.live.addCorpse(room, makeCorpse(mobShort(mob), kw, loot.map((v) => ({ vnum: v })), Date.now(), mob.proto.gold));
+  ctx.live.removeMob(mob);
+  ctx.live.broadcast(room, { t: "output", lines: [parseColorSpans(`&R${esc(mobShort(mob))} is blasted to ash by a bolt from on high.&D`)] }, ctx.player);
+  out(ctx.player, `&YYou slay ${esc(mobShort(mob))}.&D`);
+  for (const p of ctx.live.roomPlayers(room)) sendRoomView(ctx.live, p);
+}
+
+/** `echo <message>` — send a raw line to every online player (immortal announce). */
+function doEcho(ctx: CommandContext, arg: string): void {
+  if (!arg.trim()) return out(ctx.player, "echo <message>");
+  for (const p of ctx.live.online()) out(p, `&Y${esc(arg)}&D`);
+}
+
+/** `at <room vnum> <command>` — run a command as if standing in that room, then return. */
+function doAt(ctx: CommandContext, arg: string): void {
+  const sp = arg.indexOf(" ");
+  const vnum = parseInt(sp < 0 ? arg : arg.slice(0, sp), 10);
+  const cmd = sp < 0 ? "" : arg.slice(sp + 1).trim();
+  if (!Number.isFinite(vnum) || !cmd) return out(ctx.player, "at <room vnum> <command>");
+  if (!ctx.world.getRoom(vnum)) return out(ctx.player, "&RNo such room is loaded.&D");
+  const back = ctx.player.character.roomVnum;
+  if (vnum === back) return dispatchCommand(ctx, cmd);
+  ctx.live.moveTo(ctx.player, vnum); // silent relocate (no arrive/leave broadcast)
+  try {
+    dispatchCommand(ctx, cmd);
+  } finally {
+    ctx.live.moveTo(ctx.player, back);
+    sendRoom(ctx.live, ctx.player); // put the caller's view back where they really are
+  }
+}
+
+/** `wizinvis` — toggle staff invisibility to mortals in room/look listings. */
+function doWizinvis(ctx: CommandContext): void {
+  const ch = ctx.player.character;
+  ch.wizinvis = !ch.wizinvis;
+  out(ctx.player, ch.wizinvis ? "&YYou fade from mortal sight.&D" : "&YYou shimmer back into view.&D");
+  for (const p of ctx.live.roomPlayers(ch.roomVnum)) if (p !== ctx.player) sendRoomView(ctx.live, p);
 }
