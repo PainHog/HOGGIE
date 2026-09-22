@@ -211,10 +211,19 @@ export function GroundBar({ items, onGet }: { items: string[]; onGet: (cmd: stri
   );
 }
 
-export function SkillsPanel({ skills, label, onPractice }: { skills: SkillInfo[]; label: string; onPractice?: (name: string) => void }) {
+export function SkillsPanel({ skills, label, onCmd }: { skills: SkillInfo[]; label: string; onCmd?: (raw: string) => void }) {
+  const [sheet, setSheet] = useState<Sheet>(null);
   const spells = skills.filter((s) => s.type.toLowerCase() === "spell");
   const abilities = skills.filter((s) => s.type.toLowerCase() !== "spell");
   const available = skills.filter((s) => s.available).length;
+  const open = (s: SkillInfo) => {
+    if (!s.available || !onCmd) return;
+    const isSpell = s.type.toLowerCase() === "spell";
+    const actions: SheetAction[] = [];
+    if (isSpell) actions.push({ label: s.mana ? `Cast (${s.mana} mana)` : "Cast", tone: "good", run: () => onCmd(`cast ${s.name}`) });
+    actions.push({ label: "Practise", run: () => onCmd(`practice ${s.name}`) });
+    setSheet({ title: s.name, subtitle: `${s.type} · L${s.level} · learned ${s.learned ?? 0}/${s.adept}%`, actions });
+  };
   return (
     <View style={styles.panel}>
       <View style={styles.invHead}>
@@ -222,36 +231,38 @@ export function SkillsPanel({ skills, label, onPractice }: { skills: SkillInfo[]
         <Text style={styles.title}>Skills & Spells</Text>
         <Text style={styles.invCount}>{available}/{skills.length}</Text>
       </View>
-      {label ? <Text style={styles.subtitle}>{label} · tap an unlocked row to practise</Text> : null}
+      {label ? <Text style={styles.subtitle}>{label} · tap an unlocked spell to cast or practise</Text> : null}
       {skills.length === 0 ? (
         <Text style={styles.note}>No skill tree loaded.</Text>
       ) : (
         <ScrollView style={styles.skillList} contentContainerStyle={{ gap: 3 }}>
           {abilities.length > 0 && <Text style={styles.section}>Skills</Text>}
-          {abilities.map((s) => <SkillRow key={s.name} s={s} onPractice={onPractice} />)}
+          {abilities.map((s) => <SkillRow key={s.name} s={s} onOpen={open} />)}
           {spells.length > 0 && <Text style={styles.section}>Spells</Text>}
-          {spells.map((s) => <SkillRow key={s.name} s={s} onPractice={onPractice} />)}
+          {spells.map((s) => <SkillRow key={s.name} s={s} onOpen={open} />)}
         </ScrollView>
       )}
-      <Text style={styles.note}>Cast from the SPELLS bar. Practise at a guildmaster to raise learned%.</Text>
+      <Text style={styles.note}>Tap a spell to cast it on your foe (or yourself); practise at a guildmaster to raise learned%.</Text>
+      <ActionSheet sheet={sheet} onClose={() => setSheet(null)} />
     </View>
   );
 }
 
-function SkillRow({ s, onPractice }: { s: SkillInfo; onPractice?: (name: string) => void }) {
+function SkillRow({ s, onOpen }: { s: SkillInfo; onOpen?: (s: SkillInfo) => void }) {
   const learned = s.learned ?? 0;
   const atCap = s.available && learned >= s.adept;
   const pct = Math.max(0, Math.min(100, s.adept > 0 ? (learned / s.adept) * 100 : 0));
+  const isSpell = s.type.toLowerCase() === "spell";
   return (
     <InfoTip
       title={s.name}
-      body={`${s.description || `A ${s.type.toLowerCase()} learned at level ${s.level}.`}${s.available ? `\n\nLearned ${learned}% of ${s.adept}% adept cap.${atCap ? " Mastered." : " Tap to practise at a guildmaster."}` : `\n\nUnlocks at level ${s.level}.`}`}
+      body={`${s.description || `A ${s.type.toLowerCase()} learned at level ${s.level}.`}${s.available ? `\n\nLearned ${learned}% of ${s.adept}% adept cap.${atCap ? " Mastered." : isSpell ? " Tap to cast or practise." : " Tap to practise at a guildmaster."}` : `\n\nUnlocks at level ${s.level}.`}`}
       placement="top"
       width={250}
     >
       <Pressable
-        disabled={!s.available || !onPractice}
-        onPress={() => onPractice?.(s.name)}
+        disabled={!s.available || !onOpen}
+        onPress={() => onOpen?.(s)}
         style={({ pressed }) => [styles.skillRow, !s.available && styles.skillLocked, pressed && s.available && { opacity: 0.7 }]}
       >
         <Text style={[styles.skillLvl, !s.available && styles.skillDim]}>L{s.level}</Text>
