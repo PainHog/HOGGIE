@@ -20,7 +20,7 @@ import { mobShort, type MobInstance } from "./mobInstance.ts";
 import { Rng, rng as defaultRng } from "./rng.ts";
 import { PlayerFighter, MobFighter, SHIELD_ELEMENT, type Fighter } from "./fighter.ts";
 import { applyAffect, sumMods } from "./affects.ts";
-import { debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
+import { buffAffect, debuffAffect, spellDamage, spellHeal } from "./spellbook.ts";
 import { makeCorpse, PLAYER_CORPSE_DECAY_MS } from "./ground.ts";
 import { buildRoomView, esc, sendEquipment, sendInventory, sendRoom } from "./view.ts";
 import type { Db } from "../db/repos.ts";
@@ -44,6 +44,8 @@ export const STANCES = ["berserk", "aggressive", "standing", "defensive", "evasi
 
 /** Per-round chance (%) that a mob with special attacks unleashes one. */
 const SPECIAL_CHANCE = 20;
+/** Per-round chance (%) that a caster mob casts a spell. */
+const MOB_CAST_CHANCE = 25;
 
 function cap(s: string): string {
   return s.length ? s[0]!.toUpperCase() + s.slice(1) : s;
@@ -158,6 +160,55 @@ export class CombatManager {
     // the mob actually has specials, so plain mobs keep the exact same deterministic combat.
     if (!attacker.isPlayer && attacker.alive && attacker.specials.length && attacker.fighting?.alive) {
       if (this.rng.percent() <= SPECIAL_CHANCE) this.mobSpecial(attacker as MobFighter, attacker.fighting);
+    }
+    // A caster mob may cast a spell. Same gating: the roll only happens for mobs that actually have
+    // a spell list, so plain mobs stay bit-for-bit deterministic.
+    if (!attacker.isPlayer && attacker.alive && attacker.fighting?.alive) {
+      const spells = this.mobCastable(attacker as MobFighter);
+      if (spells.length && this.rng.percent() <= MOB_CAST_CHANCE) {
+        this.mobCast(attacker as MobFighter, attacker.fighting, spells);
+      }
+    }
+  }
+
+  /** The spells a caster mob can cast: its class's spell grants at/under its level (empty for non-casters). */
+  mobCastable(mob: MobFighter): SkillDef[] {
+    const classId = mob.mob.proto.classId;
+    if (classId == null) return [];
+    const cls = this.world.classes.get(classId);
+    if (!cls || (cls.manaGain ?? 0) <= 0) return []; // only mana-using classes cast
+    const lvl = mob.level;
+    const out: SkillDef[] = [];
+    for (const g of cls.skills) {
+      if (g.level > lvl) continue;
+      const def = this.world.getSkill(g.skill);
+      if (def?.type === "Spell" && def.category && def.category !== "utility") out.push(def);
+    }
+    return out;
+  }
+
+  /** A caster mob casts: heal itself when hurt, else buff itself, else hurl an offensive spell (§2.7). */
+  mobCast(mob: MobFighter, victim: Fighter, spells: SkillDef[]): void {
+    const heals = spells.filter((s) => s.category === "heal");
+    if (mob.hp < mob.maxHp * 0.5 && heals.length) {
+      const spell = heals[0]!;
+      const amt = spellHeal(spell.name, mob.level, this.rng);
+      mob.hp = Math.min(mob.maxHp, mob.hp + amt);
+      this.roomLine(mob.roomVnum, `&c${cap(mob.name)} chants and its wounds knit closed.&D`, []);
+      this.roomFx(mob.roomVnum, { kind: "hit", sourceId: mob.id, targetId: mob.id, targetName: mob.name, amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(mob), element: "magic" });
+      return;
+    }
+    const buffs = spells.filter((s) => s.category === "buff");
+    if (buffs.length && !mob.affects.some((a) => a.kind === "buff") && this.rng.percent() <= 40) {
+      const spell = buffs[this.rng.range(0, buffs.length - 1)]!;
+      applyAffect(mob.affects, buffAffect(spell.name, mob.level));
+      this.roomLine(mob.roomVnum, `&c${cap(mob.name)} shrouds itself in ${esc(spell.name)}.&D`, []);
+      return;
+    }
+    const offensive = spells.filter((s) => s.category === "damage" || s.category === "debuff");
+    if (offensive.length) {
+      const spell = offensive[this.rng.range(0, offensive.length - 1)]!;
+      this.castOffensive(mob, victim, spell);
     }
   }
 
