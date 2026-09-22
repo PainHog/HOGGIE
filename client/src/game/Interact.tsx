@@ -83,11 +83,17 @@ export function RoomInteractions({
             <Text style={styles.chipName} numberOfLines={1}>☺ {p.name}</Text>
           </Pressable>
         ))}
-        {(room?.items ?? []).map((it, i) => (
-          <Pressable key={`it${i}`} onPress={() => setSheet({ title: it, actions: [{ label: "Pick up", tone: "good", run: () => onCmd(`get ${itemKw(it)}`) }, { label: "Look closer", run: () => onCmd(`look ${itemKw(it)}`) }] })} style={styles.chipItem}>
-            <Text style={styles.chipItemText} numberOfLines={1}>◆ {it}</Text>
-          </Pressable>
-        ))}
+        {(room?.items ?? []).map((it, i) => {
+          const isCorpse = /\bcorpse\b/i.test(it);
+          const actions: SheetAction[] = isCorpse
+            ? [{ label: "Loot corpse", tone: "good", run: () => onCmd("loot corpse") }, { label: "Look closer", run: () => onCmd(`look ${itemKw(it)}`) }]
+            : [{ label: "Pick up", tone: "good", run: () => onCmd(`get ${itemKw(it)}`) }, { label: "Look closer", run: () => onCmd(`look ${itemKw(it)}`) }];
+          return (
+            <Pressable key={`it${i}`} onPress={() => setSheet({ title: it, actions })} style={isCorpse ? styles.chipCorpse : styles.chipItem}>
+              <Text style={styles.chipItemText} numberOfLines={1}>{isCorpse ? "☠" : "◆"} {it}</Text>
+            </Pressable>
+          );
+        })}
         {(room?.mobs?.length ?? 0) === 0 && (room?.items?.length ?? 0) === 0 && (room?.players?.length ?? 0) === 0 && (
           <Text style={styles.quiet}>Nothing stirs here.</Text>
         )}
@@ -241,6 +247,7 @@ const styles = StyleSheet.create({
   hpFill: { height: 4, backgroundColor: theme.danger },
   chipPlayer: { paddingHorizontal: 10, paddingVertical: 8, borderRadius: 8, borderWidth: 1, borderColor: theme.panelBorder, backgroundColor: theme.panel, justifyContent: "center" },
   chipItem: { paddingHorizontal: 10, paddingVertical: 8, borderRadius: 8, borderWidth: 1, borderColor: theme.panelBorder, backgroundColor: theme.bgAlt, justifyContent: "center" },
+  chipCorpse: { paddingHorizontal: 10, paddingVertical: 8, borderRadius: 8, borderWidth: 1, borderColor: theme.blood, backgroundColor: theme.bgAlt, justifyContent: "center" },
   chipItemText: { color: theme.gold, fontFamily: fonts.body, fontSize: 12 },
   quiet: { color: theme.dim, fontFamily: fonts.body, fontSize: 12, fontStyle: "italic", paddingVertical: 10 },
 
