@@ -27,7 +27,7 @@ import { applyAffect } from "./affects.ts";
 import { buffAffect, spellHeal } from "./spellbook.ts";
 import { containerInfo, equipStats, isContainer, totalWeight } from "./items.ts";
 import type { Fighter, PlayerFighter } from "./fighter.ts";
-import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
+import { can, canEditVnum, capsFor, isStaff, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
 import { esc, out, sendEquipment, sendInventory, sendRoom, sendRoomView, sendSkills, sendVitals } from "./view.ts";
 
@@ -108,6 +108,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "ungroup": return doUngroup(ctx, arg);
     case "gtell": case "gsay": case "gt": return doGroupTell(ctx, arg);
     case "recall": case "hearth": return doRecall(ctx);
+    case "consent": return doConsent(ctx, arg);
     case "heal": return void doHeal(ctx, arg);
     case "flee": return doFlee(ctx);
     case "consider": case "con": return doConsider(ctx, arg);
@@ -352,6 +353,7 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     if (ch.clan) return out(ctx.player, "&RYou're already in a clan — leave it first.&D");
     if (!validClanName(rest)) return out(ctx.player, "&RClan names are 3-20 letters (spaces allowed inside).&D");
     if (clanNameTaken(ctx.live, rest)) return out(ctx.player, "&RA clan by that name already walks the world.&D");
+    if (ctx.db && await ctx.db.clanNameExists(rest)) return out(ctx.player, "&RA clan by that name already walks the world.&D"); // catches offline founders too
     if (ch.glory < CLAN_COST_GLORY) return out(ctx.player, `&RFounding a clan costs ${CLAN_COST_GLORY} glory — you have ${ch.glory}.&D`);
     ch.glory -= CLAN_COST_GLORY;
     ch.clan = { name: rest, rank: "leader" };
@@ -1506,6 +1508,21 @@ function findOnline(ctx: CommandContext, kw: string): Player | undefined {
   return ctx.live.online().find((p) => p.character.name.toLowerCase().startsWith(lc));
 }
 
+/** `consent <player>` / `consent none` — allow (or withdraw allowing) that player to summon you (§3.3). */
+function doConsent(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  const kw = arg.trim().toLowerCase();
+  if (!kw || kw === "none" || kw === "off") {
+    ch.consent = undefined;
+    return out(ctx.player, "&YYou withdraw your consent to be summoned.&D");
+  }
+  const target = findOnline(ctx, kw);
+  if (!target || target.character.id === ch.id) return out(ctx.player, "&RNo one by that name is online.&D");
+  ch.consent = target.character.id;
+  out(ctx.player, `&YYou consent to ${esc(target.character.name)} — they may summon you.&D`);
+  out(target, `&Y${cap(ch.name)} consents to your summons.&D`);
+}
+
 /** Utility spells: recall/teleport move you; gate/portal step to a player; summon pulls one to you. */
 function doUtility(ctx: CommandContext, def: SkillDef, targetKw: string): void {
   const n = def.name.toLowerCase();
@@ -1541,6 +1558,10 @@ function doUtility(ctx: CommandContext, def: SkillDef, targetKw: string): void {
     if (target.fighter?.fighting) return out(ctx.player, "&RThey are too busy fighting to be summoned.&D");
     if (noSummon(ctx.fighter.roomVnum)) return out(ctx.player, "&RYou can't summon here.&D");
     if (noSummon(target.character.roomVnum)) return out(ctx.player, "&RThey are somewhere a summons can't reach.&D");
+    // A summons needs the target's consent (staff bypass it) — no yanking players against their will.
+    if (!isStaff(ctx.account.roles) && target.character.consent !== ctx.player.character.id) {
+      return out(ctx.player, `&R${cap(target.character.name)} hasn't consented to your summons (they must 'consent ${esc(ctx.fighter.name)}').&D`);
+    }
     ctx.live.broadcast(target.character.roomVnum, { t: "output", lines: [parseColorSpans(`&m${esc(target.character.name)} is whisked away by a summoning.&D`)] }, target);
     ctx.live.moveTo(target, ctx.fighter.roomVnum);
     out(target, `&m${cap(ctx.fighter.name)} summons you!&D`);

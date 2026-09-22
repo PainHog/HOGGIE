@@ -51,6 +51,8 @@ export interface Character {
   pk: boolean;
   /** Transient (not persisted): the character id of this character's group leader (self = leader). */
   groupLeaderId?: string;
+  /** Transient (not persisted): the character id this character consents to be summoned by (§3.3). */
+  consent?: string;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */

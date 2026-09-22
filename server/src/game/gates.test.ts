@@ -75,12 +75,21 @@ describe("summon", () => {
   // The start room is a safe/nosummon sanctuary; clear both rooms so a summons is allowed.
   const openRooms = () => { world.getRoom(ROOM)!.roomFlags = []; world.getRoom(elsewhere)!.roomFlags = []; };
 
-  it("pulls the target player to the caster's room", () => {
+  it("pulls a consenting target to the caster's room", () => {
     const s = setup();
     openRooms();
     relocate(s, "b", elsewhere);
+    dispatchCommand(s.b.ctx, "consent Alpha"); // Bravo agrees to be summoned
     dispatchCommand(s.a.ctx, "cast summon Bravo");
     expect(s.b.ch.roomVnum).toBe(ROOM); // Bravo summoned to Alpha
+  });
+
+  it("won't summon a player who hasn't consented", () => {
+    const s = setup();
+    openRooms();
+    relocate(s, "b", elsewhere);
+    dispatchCommand(s.a.ctx, "cast summon Bravo"); // no consent given
+    expect(s.b.ch.roomVnum).toBe(elsewhere); // stayed put
   });
 
   it("won't summon a player who is fighting", () => {

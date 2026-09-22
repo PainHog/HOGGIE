@@ -227,6 +227,13 @@ export class Db {
     if (res.error) throw res.error;
   }
 
+  /** Does any character (online or offline) already carry a clan of this name? (case-insensitive). */
+  async clanNameExists(name: string): Promise<boolean> {
+    const res = await this.client.from("characters").select("id").eq("deleted", false).ilike("clan->>name", name).limit(1);
+    if (res.error) throw res.error;
+    return (res.data ?? []).length > 0;
+  }
+
   /** Every OLC field override, replayed over the loaded world at boot (systems-spec §7). */
   async listOverrides(): Promise<{ kind: string; vnum: number; field: string; value: string }[]> {
     const res = await this.client.from("world_overrides").select("kind, vnum, field, value");
