@@ -3,6 +3,7 @@
  * items from the server). Equipment slots are still shells (worn gear is roadmap), but the inventory
  * now reflects what the character is actually holding, so shops (buy/sell) are visible in the UI.
  */
+import { useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import type { Catalog, EquippedItem, InventoryItem, SkillInfo, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
@@ -10,6 +11,9 @@ import { SvgIcon, type IconName } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
 import { InfoTip } from "../ui/InfoTip";
 import { STAT_INFO } from "../data/statInfo";
+import { ActionSheet, type Sheet, type SheetAction } from "./Interact";
+
+const WEARABLE = new Set(["armor", "weapon", "worn", "light", "artarmor", "artweapon", "artworn"]);
 
 /** Pick an icon for a carried item from its item_type (falls back to the knapsack glyph). */
 function iconForItem(itemType: string): IconName {
@@ -42,17 +46,22 @@ function Stat({ statKey, label, value }: { statKey: string; label: string; value
   );
 }
 
-function Slot({ icon, label, item }: { icon: IconName; label: string; item?: EquippedItem }) {
+function Slot({ icon, label, item, onRemove }: { icon: IconName; label: string; item?: EquippedItem; onRemove?: (item: EquippedItem) => void }) {
   return (
-    <View style={[styles.slot, item && styles.slotFilled]}>
+    <Pressable disabled={!item} onPress={() => item && onRemove?.(item)} style={({ pressed }) => [styles.slot, item && styles.slotFilled, pressed && item && { opacity: 0.7 }]}>
       <SvgIcon name={icon} size={22} color={item ? theme.accent : theme.panelBorder} />
       <Text style={styles.slotLabel}>{label}</Text>
       <Text style={item ? styles.slotItem : styles.slotEmpty} numberOfLines={1}>{item ? item.name : "empty"}</Text>
-    </View>
+    </Pressable>
   );
 }
 
-export function CharacterPanel({ vitals, catalog, equipment = [] }: { vitals: Vitals | null; catalog?: Catalog | null; equipment?: EquippedItem[] }) {
+export function CharacterPanel({ vitals, catalog, equipment = [], onCmd }: { vitals: Vitals | null; catalog?: Catalog | null; equipment?: EquippedItem[]; onCmd?: (raw: string) => void }) {
+  const [sheet, setSheet] = useState<Sheet>(null);
+  const removeSheet = (item: EquippedItem) => setSheet({
+    title: item.name, subtitle: `worn: ${item.slot}`,
+    actions: [{ label: "Remove", run: () => onCmd?.(`remove ${item.name}`) }, { label: "Look closer", run: () => onCmd?.(`look ${item.name}`) }],
+  });
   if (!vitals) return null;
   const s = vitals.stats;
   const bySlot = (slot: string) => equipment.find((e) => e.slot === slot);
@@ -92,26 +101,35 @@ export function CharacterPanel({ vitals, catalog, equipment = [] }: { vitals: Vi
 
       <Text style={styles.section}>Equipment</Text>
       <View style={styles.slotRow}>
-        <Slot icon={ICON.slotHead} label="Head" item={bySlot("head")} />
-        <Slot icon={ICON.slotBody} label="Body" item={bySlot("body")} />
-        <Slot icon={ICON.slotWeapon} label="Weapon" item={bySlot("wield")} />
+        <Slot icon={ICON.slotHead} label="Head" item={bySlot("head")} onRemove={removeSheet} />
+        <Slot icon={ICON.slotBody} label="Body" item={bySlot("body")} onRemove={removeSheet} />
+        <Slot icon={ICON.slotWeapon} label="Weapon" item={bySlot("wield")} onRemove={removeSheet} />
       </View>
       {equipment.filter((e) => !["head", "body", "wield"].includes(e.slot)).length > 0 && (
         <View style={styles.eqExtra}>
           {equipment.filter((e) => !["head", "body", "wield"].includes(e.slot)).map((e) => (
-            <Text key={e.slot} style={styles.eqLine} numberOfLines={1}>
-              <Text style={styles.eqSlot}>{e.slot}: </Text>{e.name}
-            </Text>
+            <Pressable key={e.slot} disabled={!onCmd} onPress={() => removeSheet(e)}>
+              <Text style={styles.eqLine} numberOfLines={1}><Text style={styles.eqSlot}>{e.slot}: </Text>{e.name}</Text>
+            </Pressable>
           ))}
         </View>
       )}
-      <Text style={styles.note}>Tap an inventory item to wear it. `remove {"<item>"}` to take it off.</Text>
+      <Text style={styles.note}>Tap a worn item to remove it.</Text>
+      <ActionSheet sheet={sheet} onClose={() => setSheet(null)} />
     </View>
   );
 }
 
-export function InventoryPanel({ items, onWear }: { items: InventoryItem[]; onWear?: (name: string) => void }) {
-  const WEARABLE = new Set(["armor", "weapon", "worn", "light", "artarmor", "artweapon", "artworn"]);
+export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd?: (raw: string) => void }) {
+  const [sheet, setSheet] = useState<Sheet>(null);
+  const openItem = (it: InventoryItem) => {
+    const actions: SheetAction[] = [];
+    if (WEARABLE.has(it.itemType)) actions.push({ label: "Equip", tone: "good", run: () => onCmd?.(`wear ${it.name}`) });
+    if (it.itemType === "container") actions.push({ label: "Look inside", run: () => onCmd?.(`look ${it.name}`) });
+    actions.push({ label: "Examine", run: () => onCmd?.(`look ${it.name}`) });
+    actions.push({ label: "Drop", tone: "attack", run: () => onCmd?.(`drop ${it.name}`) });
+    setSheet({ title: it.name, subtitle: `${it.itemType} · worth ${it.cost} gold`, actions });
+  };
   return (
     <View style={styles.panel}>
       <View style={styles.invHead}>
@@ -126,32 +144,25 @@ export function InventoryPanel({ items, onWear }: { items: InventoryItem[]; onWe
           {items.map((it, i) => {
             const wearable = WEARABLE.has(it.itemType);
             return (
-              <InfoTip
+              <Pressable
                 key={`${it.vnum}-${i}`}
-                title={it.name}
-                body={`${it.itemType} · worth ${it.cost} gold${wearable ? " · tap to equip" : ""}${it.description ? `\n\n${it.description}` : ""}`}
-                placement="top"
-                width={240}
-                pressToToggle={false}
+                onPress={() => onCmd && openItem(it)}
+                style={({ pressed }) => [styles.invRow, wearable && styles.invWearable, pressed && { opacity: 0.7 }]}
               >
-                <Pressable
-                  onPress={() => wearable && onWear?.(it.name)}
-                  style={({ pressed }) => [styles.invRow, wearable && styles.invWearable, pressed && wearable && { opacity: 0.7 }]}
-                >
-                  <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
-                  <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
-                  {wearable && <Text style={styles.invWear}>equip</Text>}
-                  <View style={styles.invPrice}>
-                    <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
-                    <Text style={styles.invCost}>{it.cost}</Text>
-                  </View>
-                </Pressable>
-              </InfoTip>
+                <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
+                <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
+                {wearable && <Text style={styles.invWear}>equip</Text>}
+                <View style={styles.invPrice}>
+                  <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
+                  <Text style={styles.invCost}>{it.cost}</Text>
+                </View>
+              </Pressable>
             );
           })}
         </ScrollView>
       )}
-      <Text style={styles.note}>Tap armour/weapons to equip · {"`remove <item>`"} to take off.</Text>
+      <Text style={styles.note}>Tap an item for actions (equip · examine · drop).</Text>
+      <ActionSheet sheet={sheet} onClose={() => setSheet(null)} />
     </View>
   );
 }

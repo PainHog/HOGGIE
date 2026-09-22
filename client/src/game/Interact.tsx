@@ -10,8 +10,8 @@ import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-nati
 import type { QuestBrief, RoomMob, RoomView, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 
-type SheetAction = { label: string; tone?: "attack" | "default" | "good"; run: () => void };
-type Sheet = { title: string; subtitle?: string; actions: SheetAction[] } | null;
+export type SheetAction = { label: string; tone?: "attack" | "default" | "good"; run: () => void };
+export type Sheet = { title: string; subtitle?: string; actions: SheetAction[] } | null;
 
 /** The primary keyword the server matches a mob/item command against. */
 const kw = (mob: RoomMob) => mob.keywords[0] ?? mob.name.split(/\s+/).pop() ?? mob.name;
