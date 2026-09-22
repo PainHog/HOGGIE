@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 9 as const;
+export const PROTOCOL_VERSION = 10 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -167,6 +167,25 @@ export interface RoomMob {
   keywords: string[]; // for client-side icon mapping (rat -> rat icon, …)
   effects?: string[]; // status-effect keys — spell-ready, empty in v1
   shopkeeper?: boolean; // true when this mob runs a shop (drives the in-scene Trade affordance)
+  // Service-NPC roles, so the client can offer the right tap-actions (talk/quest/heal/train/bank).
+  questmaster?: boolean;
+  healer?: boolean;
+  trainer?: boolean;
+  banker?: boolean;
+}
+
+/** The player's active quest, surfaced so the client can render a quest card with action buttons. */
+export interface QuestBrief {
+  kind: "hunt" | "fetch";
+  target: string; // the mob to slay or the item to recover
+  area: string; // where to seek it
+  killed?: number; // hunt progress
+  count?: number; // hunt goal
+  fulfilled: boolean; // objective met — ready to turn in
+  rewardGold: number;
+  rewardGlory: number;
+  rewardExp: number;
+  minutesLeft?: number; // time remaining before it lapses
 }
 
 /** Another player present in the room, lightly enriched for the scene. */
@@ -212,6 +231,7 @@ export interface Vitals {
   alignment: number;
   /** Core attributes (LCK included) for the character panel — read-only view of character.stats. */
   stats: { str: number; int: number; wis: number; dex: number; con: number; cha: number; lck: number };
+  quest?: QuestBrief; // the active quest, if any (drives the quest card)
 }
 
 /**

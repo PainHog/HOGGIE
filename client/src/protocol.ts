@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 9;
+export const PROTOCOL_VERSION = 10;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -57,6 +57,24 @@ export interface RoomMob {
   keywords: string[];
   effects?: string[];
   shopkeeper?: boolean;
+  questmaster?: boolean;
+  healer?: boolean;
+  trainer?: boolean;
+  banker?: boolean;
+}
+
+/** The player's active quest, for the quest card. */
+export interface QuestBrief {
+  kind: "hunt" | "fetch";
+  target: string;
+  area: string;
+  killed?: number;
+  count?: number;
+  fulfilled: boolean;
+  rewardGold: number;
+  rewardGlory: number;
+  rewardExp: number;
+  minutesLeft?: number;
 }
 
 export interface RoomPlayerLite {
@@ -98,6 +116,7 @@ export interface Vitals {
   position: string;
   alignment: number;
   stats: { str: number; int: number; wis: number; dex: number; con: number; cha: number; lck: number };
+  quest?: QuestBrief;
 }
 
 /** A combat visual event, emitted alongside the narrative text (same numbers, presentation-only). */

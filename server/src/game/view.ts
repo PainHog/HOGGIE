@@ -1,5 +1,5 @@
 /** Building the client-facing views: room snapshots, look narrative, vitals, output lines. */
-import { parseColorSpans, toLines, type Line, type RoomView, type Vitals } from "@hoggie/shared";
+import { parseColorSpans, toLines, type Line, type QuestBrief, type RoomView, type Vitals } from "@hoggie/shared";
 import type { World } from "../world/world.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { className, dualClassName, expToNextLevel, raceName, type Character } from "./character.ts";
@@ -7,6 +7,7 @@ import { mobShort } from "./mobInstance.ts";
 import { affectNames } from "./affects.ts";
 import { learnedPct, mergedGrants } from "./skills.ts";
 import { isStaff } from "./roles.ts";
+import { questFulfilled } from "./quest.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -22,16 +23,23 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     .roomPlayers(ch.roomVnum)
     .filter((p) => p !== viewer && (viewerStaff || !p.character.wizinvis)) // mortals don't see wizinvis staff
     .map((p) => ({ id: p.character.id, name: p.character.name, level: p.character.level, effects: affectNames(p.character.affects) }));
-  const mobs = live.roomMobs(ch.roomVnum).map((m) => ({
-    id: m.id,
-    name: mobShort(m),
-    level: m.proto.level,
-    hpPct: m.maxHp > 0 ? Math.max(0, Math.min(1, m.hp / m.maxHp)) : 0,
-    position: m.position,
-    keywords: m.proto.keywords.split(/\s+/).filter(Boolean),
-    effects: affectNames(m.affects),
-    shopkeeper: live.world.shops.has(m.proto.vnum),
-  }));
+  const mobs = live.roomMobs(ch.roomVnum).map((m) => {
+    const f = m.proto.actFlags;
+    return {
+      id: m.id,
+      name: mobShort(m),
+      level: m.proto.level,
+      hpPct: m.maxHp > 0 ? Math.max(0, Math.min(1, m.hp / m.maxHp)) : 0,
+      position: m.position,
+      keywords: m.proto.keywords.split(/\s+/).filter(Boolean),
+      effects: affectNames(m.affects),
+      shopkeeper: live.world.shops.has(m.proto.vnum),
+      questmaster: f.includes("questmaster") || f.includes("guildmaster"),
+      healer: f.includes("healer"),
+      trainer: f.includes("trainer"),
+      banker: f.includes("banker"),
+    };
+  });
   const items = [
     ...live.roomCorpses(ch.roomVnum).map((c) => c.name),
     ...live.roomGround(ch.roomVnum).map((g) => live.world.getObjPrototype(g.item.vnum)?.shortDesc ?? `item ${g.item.vnum}`),
@@ -110,6 +118,26 @@ export function vitalsOf(world: World, ch: Character): Vitals {
       str: ch.stats.str, int: ch.stats.int, wis: ch.stats.wis, dex: ch.stats.dex,
       con: ch.stats.con, cha: ch.stats.cha, lck: ch.stats.lck,
     },
+    quest: questBrief(ch),
+  };
+}
+
+/** Summarise the active quest for the client's quest card, or undefined when there's none. */
+function questBrief(ch: Character): QuestBrief | undefined {
+  const q = ch.quest;
+  if (!q) return undefined;
+  const kind = (q.type ?? "hunt") as "hunt" | "fetch";
+  return {
+    kind,
+    target: kind === "fetch" ? (q.itemName ?? "the item") : q.mobName,
+    area: q.areaName,
+    killed: kind === "hunt" ? q.killed : undefined,
+    count: kind === "hunt" ? q.count : undefined,
+    fulfilled: questFulfilled(q, ch),
+    rewardGold: q.rewardGold,
+    rewardGlory: q.rewardGlory,
+    rewardExp: q.rewardExp ?? 0,
+    minutesLeft: q.expiresAt != null ? Math.max(0, Math.ceil((q.expiresAt - Date.now()) / 60_000)) : undefined,
   };
 }
 
