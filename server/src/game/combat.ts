@@ -163,12 +163,21 @@ export class CombatManager {
     if (!attacker.isPlayer && attacker.alive && attacker.specials.length && attacker.fighting?.alive) {
       if (this.rng.percent() <= SPECIAL_CHANCE) this.mobSpecial(attacker as MobFighter, attacker.fighting);
     }
-    // A caster mob may cast a spell. Same gating: the roll only happens for mobs that actually have
-    // a spell list, so plain mobs stay bit-for-bit deterministic.
+    // A caster mob may cast a spell. Everything here is gated on having a spell list, so plain mobs
+    // stay bit-for-bit deterministic (no mana, no cooldown, no roll).
     if (!attacker.isPlayer && attacker.alive && attacker.fighting?.alive) {
-      const spells = this.mobCastable(attacker as MobFighter);
-      if (spells.length && this.rng.percent() <= MOB_CAST_CHANCE) {
-        this.mobCast(attacker as MobFighter, attacker.fighting, spells);
+      const mf = attacker as MobFighter;
+      const spells = this.mobCastable(mf);
+      if (spells.length) {
+        // Regenerate a little mana each round so a long fight doesn't leave the caster permanently dry.
+        mf.mob.mana = Math.min(mf.mob.maxMana, mf.mob.mana + 2 + Math.floor(mf.level / 10));
+        if (mf.mob.castRecover) {
+          mf.mob.castRecover = false; // spent last round recovering — melee only, no cast this round
+        } else if (this.rng.percent() <= MOB_CAST_CHANCE) {
+          const before = mf.mob.mana;
+          this.mobCast(mf, attacker.fighting, spells);
+          if (mf.mob.mana < before) mf.mob.castRecover = true; // only recover after an actual cast
+        }
       }
     }
     // A mob with the disarm defense may knock a wielding player's weapon loose. Rolled only when the
@@ -197,27 +206,40 @@ export class CombatManager {
     return out;
   }
 
-  /** A caster mob casts: heal itself when hurt, else buff itself, else hurl an offensive spell (§2.7). */
+  /** Mana a mob spends to cast: the spell's own cost, or a small level-scaled default. */
+  private spellCost(spell: SkillDef, level: number): number {
+    return spell.mana && spell.mana > 0 ? spell.mana : 8 + Math.floor(level / 4);
+  }
+
+  /** A caster mob casts: heal itself when hurt, else buff itself, else hurl an offensive spell (§2.7).
+   *  Only spells it can pay for are considered; casting spends the spell's mana. */
   mobCast(mob: MobFighter, victim: Fighter, spells: SkillDef[]): void {
-    const heals = spells.filter((s) => s.category === "heal");
+    const affordable = spells.filter((s) => this.spellCost(s, mob.level) <= mob.mob.mana);
+    if (!affordable.length) return; // out of mana this round — falls back to melee
+    const spend = (spell: SkillDef) => { mob.mob.mana -= this.spellCost(spell, mob.level); };
+
+    const heals = affordable.filter((s) => s.category === "heal");
     if (mob.hp < mob.maxHp * 0.5 && heals.length) {
       const spell = heals[0]!;
+      spend(spell);
       const amt = spellHeal(spell.name, mob.level, this.rng);
       mob.hp = Math.min(mob.maxHp, mob.hp + amt);
       this.roomLine(mob.roomVnum, `&c${cap(mob.name)} chants and its wounds knit closed.&D`, []);
       this.roomFx(mob.roomVnum, { kind: "hit", sourceId: mob.id, targetId: mob.id, targetName: mob.name, amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(mob), element: "magic" });
       return;
     }
-    const buffs = spells.filter((s) => s.category === "buff");
+    const buffs = affordable.filter((s) => s.category === "buff");
     if (buffs.length && !mob.affects.some((a) => a.kind === "buff") && this.rng.percent() <= 40) {
       const spell = buffs[this.rng.range(0, buffs.length - 1)]!;
+      spend(spell);
       applyAffect(mob.affects, buffAffect(spell.name, mob.level));
       this.roomLine(mob.roomVnum, `&c${cap(mob.name)} shrouds itself in ${esc(spell.name)}.&D`, []);
       return;
     }
-    const offensive = spells.filter((s) => s.category === "damage" || s.category === "debuff");
+    const offensive = affordable.filter((s) => s.category === "damage" || s.category === "debuff");
     if (offensive.length) {
       const spell = offensive[this.rng.range(0, offensive.length - 1)]!;
+      spend(spell);
       this.castOffensive(mob, victim, spell);
     }
   }

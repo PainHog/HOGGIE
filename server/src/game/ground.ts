@@ -32,6 +32,11 @@ export function makeGroundItem(item: ItemInstance, now: number = Date.now()): Gr
   return { id: randomUUID(), item, decayAt: now + GROUND_DECAY_MS };
 }
 
+/** A reset-placed object: it lies in the world until taken and never decays on the clutter timer. */
+export function makeFixedGroundItem(item: ItemInstance): GroundItem {
+  return { id: randomUUID(), item, decayAt: Number.POSITIVE_INFINITY };
+}
+
 export function makeCorpse(
   who: string,
   keyword: string,

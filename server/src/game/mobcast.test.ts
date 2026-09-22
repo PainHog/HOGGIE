@@ -83,3 +83,25 @@ describe("casting", () => {
     expect(mob.hp).toBeGreaterThan(20);
   });
 });
+
+describe("mana", () => {
+  it("a caster mob has a mana pool, and casting spends it", () => {
+    const s = setup();
+    const { mob, mf } = put(s, caster({ classId: mageId }));
+    mob.affects.push(buffAffect("bless", 30)); // already buffed → straight to an offensive spell
+    expect(mob.maxMana).toBeGreaterThan(0);
+    const before = mob.mana;
+    s.combat.mobCast(mf, s.fighter, s.combat.mobCastable(mf));
+    expect(mob.mana).toBeLessThan(before);
+  });
+
+  it("a drained caster can't cast — it falls back to melee", () => {
+    const s = setup();
+    const { mob, mf } = put(s, caster({ classId: mageId }));
+    mob.affects.push(buffAffect("bless", 30));
+    mob.mana = 0; // no mana left
+    const before = s.ch.hp;
+    s.combat.mobCast(mf, s.fighter, s.combat.mobCastable(mf));
+    expect(s.ch.hp).toBe(before); // nothing was cast
+  });
+});
