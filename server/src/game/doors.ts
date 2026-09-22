@@ -30,7 +30,9 @@ export function setDoorBothSides(live: LiveWorld, roomVnum: number, dir: string,
   live.setDoorState(roomVnum, dir, { ...state });
   const exit = live.world.getRoom(roomVnum)?.exits.find((e) => e.dir === dir);
   if (!exit) return;
-  const back = live.world.getRoom(exit.toVnum)?.exits.find((e) => e.toVnum === roomVnum || e.dir === REVERSE_DIR[dir]);
+  // Prefer the true reverse-direction exit; only fall back to "any exit leading back" if there is none.
+  const neighbour = live.world.getRoom(exit.toVnum);
+  const back = neighbour?.exits.find((e) => e.dir === REVERSE_DIR[dir]) ?? neighbour?.exits.find((e) => e.toVnum === roomVnum);
   if (back) live.setDoorState(exit.toVnum, back.dir, { ...state });
 }
 

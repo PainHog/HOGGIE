@@ -181,4 +181,16 @@ describe("climb exits", () => {
     expect(s.ch.hp).toBeLessThan(hp0); // took a fall
     expect(s.ch.hp).toBeGreaterThan(0); // but a fall doesn't kill outright
   });
+
+  it("too exhausted to climb is blocked without a fall (exhaustion gate first)", () => {
+    const s = setup();
+    makeClimb();
+    s.ch.proficiencies["climb"] = 0; // would slip if it tried
+    s.ch.move = 0; // but has no move to attempt it
+    const hp0 = s.ch.hp;
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM);
+    expect(s.ch.hp).toBe(hp0); // no fall damage — you can't be whittled down by re-trying
+    expect(text(s.recv)).toContain("too exhausted");
+  });
 });

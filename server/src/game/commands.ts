@@ -215,12 +215,12 @@ function doMove(ctx: CommandContext, dir: string): void {
     sendVitals(ctx.world, who);
     return true;
   };
-  if (climbExit && climbFall(ctx.player)) return;
-
   // Each step spends `move` by the room's sector cost, scaled by how loaded you are (§3.1).
   const from = ch.roomVnum;
   const cost = moveCost(room?.sector ?? "inside", currentWeight(ctx), carryLimits(ch).maxWeight);
   if (ch.move < cost) return out(ctx.player, "&RYou are too exhausted to move.&D");
+  // Attempt the climb only once you have the move to try it; a slip costs hp, not the move.
+  if (climbExit && climbFall(ctx.player)) return;
   ch.move -= cost;
 
   if (ch.position !== "standing") ch.position = "standing";
@@ -237,9 +237,9 @@ function doMove(ctx: CommandContext, dir: string): void {
       const pc = p.character;
       const pBlock = entryBlock(pc, isStaff(p.account?.roles ?? []));
       if (pBlock) { out(p, `&R${pBlock}&D`); continue; }
-      if (climbExit && climbFall(p)) continue; // a follower who slips falls behind
       const pCost = moveCost(room?.sector ?? "inside", currentWeight(ctx, pc), carryLimits(pc).maxWeight);
       if (pc.move < pCost) { out(p, `&RYou are too exhausted to follow ${esc(ch.name)}.&D`); continue; }
+      if (climbExit && climbFall(p)) continue; // a follower who slips falls behind (after the exhaustion gate)
       pc.move -= pCost;
       ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(pc.name)} leaves ${dir}.&D`)] }, p);
       ctx.live.moveTo(p, exit.toVnum);
@@ -1833,7 +1833,10 @@ function doDig(ctx: CommandContext, arg: string): void {
   const here = ctx.player.character.roomVnum;
   const room = ctx.world.getRoom(here);
   if (!room) return out(ctx.player, "&RYou are nowhere.&D");
-  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RVnum ${vnum} is outside your assigned build range.&D`);
+  // Digging modifies this room's exits too, so both this room and the new vnum must be in range.
+  if (!canEditVnum(ctx.account, here) || !canEditVnum(ctx.account, vnum)) {
+    return out(ctx.player, `&RBoth this room (${here}) and the new vnum (${vnum}) must be inside your build range.&D`);
+  }
   if (room.exits.some((e) => e.dir === dir)) return out(ctx.player, `&RThere's already an exit ${dir} from here.&D`);
   const back = REVERSE_DIR[dir];
   if (!back) return out(ctx.player, `&RYou can only dig a cardinal direction.&D`);

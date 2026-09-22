@@ -181,4 +181,13 @@ describe("dig", () => {
     dispatchCommand(s.ctx, `dig ${dir} 995101`);
     expect(world.getRoom(995101)).toBeUndefined();
   });
+
+  it("a builder can't dig from a room outside their range", () => {
+    // Range covers the new vnum (995102) but NOT the current room 10300, whose exits dig would edit.
+    const s = setup(["player", "builder"], 990000, 999999);
+    const used = new Set(world.getRoom(ROOM)!.exits.map((e) => e.dir));
+    const dir = ["north", "east", "south", "west", "up", "down"].find((d) => !used.has(d))!;
+    dispatchCommand(s.ctx, `dig ${dir} 995102`);
+    expect(world.getRoom(995102)).toBeUndefined(); // refused: current room is outside the sandbox
+  });
 });
