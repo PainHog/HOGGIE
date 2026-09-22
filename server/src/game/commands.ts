@@ -793,9 +793,15 @@ async function doBuy(ctx: CommandContext, arg: string): Promise<void> {
   const ch = ctx.player.character;
   const keeper = shopkeeperIn(ctx.world, ctx.live, ch.roomVnum);
   if (!keeper) return out(ctx.player, "&RThere is no shopkeeper here.&D");
-  const [kw, nStr] = arg.split(/\s+/);
+  // "buy <item> [n]" — a trailing number is the quantity; the rest is the item keyword. The item
+  // keyword may be multi-word (the client's tap-to-buy sends the full short desc), so only peel a
+  // count off the end, never split the name on spaces.
+  const parts = arg.trim().split(/\s+/).filter(Boolean);
+  let qty = 1;
+  if (parts.length > 1 && /^\d+$/.test(parts[parts.length - 1]!)) qty = parseInt(parts.pop()!, 10);
+  const kw = parts.join(" ");
   if (!kw) return out(ctx.player, "Buy what?");
-  const qty = Math.max(1, Math.min(MAX_BUY, parseInt(nStr ?? "1", 10) || 1));
+  qty = Math.max(1, Math.min(MAX_BUY, qty || 1));
   const vnum = (ctx.world.shopStock.get(keeper.shop.keeperVnum) ?? []).find((v) => matchInv(ctx, v, kw));
   if (vnum == null) return out(ctx.player, `&R${cap(mobShort(keeper.mob))} doesn't sell that.&D`);
   const p = ctx.world.getObjPrototype(vnum)!;

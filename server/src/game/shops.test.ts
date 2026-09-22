@@ -251,6 +251,18 @@ describe("shop buy/sell flow (integration)", () => {
     expect(row!.name).toBe(p.shortDesc);
   });
 
+  it("buys by the full multi-word item name (the client's tap-to-buy sends the short desc)", () => {
+    const s = setup();
+    const { armorVnum } = armorKeeper();
+    const p = world.getObjPrototype(armorVnum!)!; // e.g. "a plate mail" — several words
+    const price = buyPrice(p, world.shops.get(21007)!, s.character.stats.cha);
+    const goldBefore = s.character.gold, invBefore = s.character.inventory.length;
+    dispatchCommand(s.ctx, `buy ${p.shortDesc}`); // full name, spaces and all
+    expect(s.character.inventory.some((it) => it.vnum === armorVnum)).toBe(true); // got the right item
+    expect(s.character.inventory.length).toBe(invBefore + 1); // exactly one (name isn't parsed as a count)
+    expect(s.character.gold).toBe(goldBefore - price);
+  });
+
   it("caps a bulk buy at MAX_BUY (20)", () => {
     const s = setup(13, 100_000_000);
     const { armorVnum } = armorKeeper();
