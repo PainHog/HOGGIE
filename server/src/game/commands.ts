@@ -10,6 +10,7 @@ import type { LiveWorld, Player } from "./liveWorld.ts";
 import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
+import { setDoorBothSides } from "./doors.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
 import {
@@ -94,10 +95,10 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "put": return doPut(ctx, arg);
     case "drop": return doDrop(ctx, arg);
     case "loot": return doLoot(ctx, arg);
-    case "open": return doContainerState(ctx, arg, "open");
-    case "close": return doContainerState(ctx, arg, "close");
-    case "unlock": return doContainerState(ctx, arg, "unlock");
-    case "lock": return doContainerState(ctx, arg, "lock");
+    case "open": return doOpenable(ctx, arg, "open");
+    case "close": return doOpenable(ctx, arg, "close");
+    case "unlock": return doOpenable(ctx, arg, "unlock");
+    case "lock": return doOpenable(ctx, arg, "lock");
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "clan": case "clans": return void doClan(ctx, arg);
     case "ctalk": case "clantalk": return doClanTalk(ctx, arg);
@@ -152,6 +153,8 @@ function doMove(ctx: CommandContext, dir: string): void {
   const room = ctx.world.getRoom(ch.roomVnum);
   const exit = room?.exits.find((e) => e.dir === dir);
   if (!exit) return out(ctx.player, "&RYou can't go that way.&D");
+  const door = ctx.live.doorAt(ch.roomVnum, dir);
+  if (door?.closed) return out(ctx.player, `&RThe ${doorName(exit)} is closed.&D`);
   const dest = ctx.world.getRoom(exit.toVnum);
   if (!dest) return out(ctx.player, "&RThe way leads out of the known world for now.&D");
 
@@ -1007,6 +1010,48 @@ function doPut(ctx: CommandContext, arg: string): void {
 }
 
 /** `open`/`close`/`lock`/`unlock` <container> — manage a closeable/lockable carried container. */
+/** A door exit's short name, for messages ("the gate is closed"). */
+function doorName(exit: { keyword?: string }): string {
+  return exit.keyword?.split(/\s+/)[0] ?? "door";
+}
+
+/** Route open/close/lock/unlock: a direction with a door there → the door; otherwise a carried container. */
+function doOpenable(ctx: CommandContext, arg: string, action: "open" | "close" | "lock" | "unlock"): void {
+  const kw = arg.trim().toLowerCase();
+  const dir = DIR_ALIAS[kw] ?? (DIRECTIONS.includes(kw) ? kw : undefined);
+  if (dir && ctx.live.doorAt(ctx.player.character.roomVnum, dir)) return doDoor(ctx, dir, action);
+  return doContainerState(ctx, arg, action);
+}
+
+/** Open/close/lock/unlock a door on a room exit (two-sided; lock/unlock need the key in the pack). */
+function doDoor(ctx: CommandContext, dir: string, action: "open" | "close" | "lock" | "unlock"): void {
+  const ch = ctx.player.character;
+  const exit = ctx.world.getRoom(ch.roomVnum)?.exits.find((e) => e.dir === dir);
+  const state = exit && ctx.live.doorAt(ch.roomVnum, dir);
+  if (!exit || !state) return out(ctx.player, "&RThere's no door that way.&D");
+  const name = doorName(exit);
+  const announce = (verb: string) =>
+    ctx.live.broadcast(ch.roomVnum, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} ${verb} the ${esc(name)} ${dir}.&D`)] }, ctx.player);
+
+  if (action === "open") {
+    if (state.locked) return out(ctx.player, `&RThe ${name} is locked.&D`);
+    if (!state.closed) return out(ctx.player, `&YThe ${name} is already open.&D`);
+    setDoorBothSides(ctx.live, ch.roomVnum, dir, { closed: false, locked: false });
+    out(ctx.player, `&YYou open the ${name}.&D`); announce("opens");
+  } else if (action === "close") {
+    if (state.closed) return out(ctx.player, `&YThe ${name} is already closed.&D`);
+    setDoorBothSides(ctx.live, ch.roomVnum, dir, { closed: true, locked: state.locked });
+    out(ctx.player, `&YYou close the ${name}.&D`); announce("closes");
+  } else { // lock / unlock — needs the matching key in the pack
+    const keyVnum = exit.keyVnum ?? 0;
+    if (keyVnum <= 0) return out(ctx.player, `&RThe ${name} has no lock.&D`);
+    if (!state.closed) return out(ctx.player, `&RClose the ${name} first.&D`);
+    if (!ch.inventory.some((it) => it.vnum === keyVnum)) return out(ctx.player, "&RYou don't have the key.&D");
+    if (action === "lock") { setDoorBothSides(ctx.live, ch.roomVnum, dir, { closed: true, locked: true }); out(ctx.player, `&YYou lock the ${name}.&D`); announce("locks"); }
+    else { setDoorBothSides(ctx.live, ch.roomVnum, dir, { closed: true, locked: false }); out(ctx.player, `&YYou unlock the ${name}.&D`); announce("unlocks"); }
+  }
+}
+
 function doContainerState(ctx: CommandContext, arg: string, action: "open" | "close" | "lock" | "unlock"): void {
   const ch = ctx.player.character;
   if (!arg) return out(ctx.player, `${cap(action)} what?`);

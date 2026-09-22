@@ -10,6 +10,7 @@ import type { World } from "../world/world.ts";
 import type { Character } from "./character.ts";
 import type { MobInstance } from "./mobInstance.ts";
 import type { Corpse, GroundItem } from "./ground.ts";
+import type { DoorState } from "./doors.ts";
 import type { Fighter } from "./fighter.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -30,8 +31,20 @@ export class LiveWorld {
   private readonly mobsById = new Map<string, MobInstance>();
   private readonly groundByRoom = new Map<number, GroundItem[]>();
   private readonly corpsesByRoom = new Map<number, Corpse[]>();
+  /** Runtime door state keyed by `${roomVnum}|${dir}`; only door exits get an entry (see doors.ts). */
+  private readonly doorStates = new Map<string, DoorState>();
 
   constructor(readonly world: World) {}
+
+  // --- doors on room exits -------------------------------------------------
+  /** The door state for an exit, or undefined when it isn't a door (or doors weren't initialised). */
+  doorAt(roomVnum: number, dir: string): DoorState | undefined {
+    return this.doorStates.get(`${roomVnum}|${dir}`);
+  }
+
+  setDoorState(roomVnum: number, dir: string, state: DoorState): void {
+    this.doorStates.set(`${roomVnum}|${dir}`, state);
+  }
 
   // --- ground items + corpses (loot loop) ---------------------------------
   roomGround(vnum: number): GroundItem[] {

@@ -17,6 +17,7 @@ import { CombatManager } from "./game/combat.ts";
 import { Economy } from "./game/economy.ts";
 import { ClanStore } from "./game/clanStore.ts";
 import { loadWars } from "./game/clans.ts";
+import { initDoors } from "./game/doors.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -37,7 +38,8 @@ async function main(): Promise<void> {
   const combat = new CombatManager(world, live, cfg, undefined, db);
 
   const spawned = populateWorld(live);
-  log.info("world populated from resets", { mobsSpawned: spawned });
+  const doors = initDoors(live);
+  log.info("world populated from resets", { mobsSpawned: spawned, doors });
 
   const tick = new GameTick(live, combat);
   tick.start();
