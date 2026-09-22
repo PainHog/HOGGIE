@@ -15,6 +15,16 @@ import { ActionSheet, type Sheet, type SheetAction } from "./Interact";
 
 const WEARABLE = new Set(["armor", "weapon", "worn", "light", "artarmor", "artweapon", "artworn"]);
 
+/** Consumable/usable item types → the primary "use it" action shown on the item sheet. */
+const USE_VERB: Record<string, { label: string; cmd: string; tone?: "attack" | "good" }> = {
+  potion: { label: "Quaff", cmd: "quaff", tone: "good" },
+  scroll: { label: "Recite", cmd: "recite" },
+  pill: { label: "Eat", cmd: "eat", tone: "good" },
+  food: { label: "Eat", cmd: "eat" },
+  wand: { label: "Zap a foe", cmd: "zap", tone: "attack" },
+  staff: { label: "Brandish", cmd: "brandish", tone: "attack" },
+};
+
 /** Pick an icon for a carried item from its item_type (falls back to the knapsack glyph). */
 function iconForItem(itemType: string): IconName {
   switch (itemType) {
@@ -124,6 +134,8 @@ export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd
   const [sheet, setSheet] = useState<Sheet>(null);
   const openItem = (it: InventoryItem) => {
     const actions: SheetAction[] = [];
+    const use = USE_VERB[it.itemType];
+    if (use) actions.push({ label: use.label, tone: use.tone, run: () => onCmd?.(`${use.cmd} ${it.name}`) });
     if (WEARABLE.has(it.itemType)) actions.push({ label: "Equip", tone: "good", run: () => onCmd?.(`wear ${it.name}`) });
     if (it.itemType === "container") actions.push({ label: "Look inside", run: () => onCmd?.(`look ${it.name}`) });
     actions.push({ label: "Examine", run: () => onCmd?.(`look ${it.name}`) });
@@ -161,7 +173,7 @@ export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd
           })}
         </ScrollView>
       )}
-      <Text style={styles.note}>Tap an item for actions (equip · examine · drop).</Text>
+      <Text style={styles.note}>Tap an item to use it (quaff · equip · examine · drop).</Text>
       <ActionSheet sheet={sheet} onClose={() => setSheet(null)} />
     </View>
   );

@@ -85,6 +85,11 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "practice": case "prac": return void doPractice(ctx, arg);
     case "quest": case "quests": case "glory": return void doQuest(ctx, arg);
     case "cast": case "c": return doCast(ctx, arg);
+    case "quaff": return doConsume(ctx, arg, "quaff");
+    case "eat": return doConsume(ctx, arg, "eat");
+    case "recite": return doRecite(ctx, arg);
+    case "zap": return doDevice(ctx, arg, "zap");
+    case "brandish": return doDevice(ctx, arg, "brandish");
     case "advancetier": case "remort": return void doAdvanceTier(ctx);
     case "list": return doShopList(ctx);
     case "value": case "appraise": return doValue(ctx, arg);
@@ -1577,6 +1582,149 @@ function doCast(ctx: CommandContext, arg: string): void {
     }
   }
   sendVitals(ctx.world, ctx.player);
+}
+
+// --- consumables (potions / scrolls / pills / wands / staves) -----------------
+// Item magic (systems-spec §4.6): scrolls/potions/pills carry embedded spells + a level;
+// wands/staves carry charges. Using one casts its spell(s) through the same effect engine as
+// doCast, but with no mana cost and no failure roll — the charge already holds the magic.
+
+/** Apply one embedded item-spell by name at the item's level. Offensive spells need `target`. */
+function applyItemSpell(ctx: CommandContext, spellName: string, level: number, target: Fighter | null): void {
+  const def = ctx.world.getSkill(spellName);
+  if (!def) return out(ctx.player, "&RThe magic sputters and fades to nothing.&D");
+  const ch = ctx.player.character;
+  switch (def.category) {
+    case "damage":
+    case "debuff": {
+      if (!target) return out(ctx.player, `&RThere is nothing here for ${esc(def.name)} to strike.&D`);
+      ctx.combat.castOffensive(ctx.fighter, target, def);
+      break;
+    }
+    case "heal": {
+      const amt = ctx.combat.rollHeal(def.name, level);
+      ch.hp = Math.min(ch.maxHp, ch.hp + amt);
+      out(ctx.player, `&GSoothing magic knits your wounds (+${amt} hp).&D`);
+      break;
+    }
+    case "buff": {
+      if (/refresh/.test(def.name.toLowerCase())) ch.move = ch.maxMove;
+      applyAffect(ch.affects, buffAffect(def.name, level));
+      out(ctx.player, `&cYou are wreathed in ${esc(def.name)}.&D`);
+      break;
+    }
+    default:
+      doUtility(ctx, def, ""); // recall / teleport / etc. — an item can trigger a utility spell
+      break;
+  }
+}
+
+/** The current foe, if it's a mob — the natural target for an offensive item-spell. */
+function currentFoe(ctx: CommandContext): Fighter | null {
+  return ctx.fighter.fighting && !ctx.fighter.fighting.isPlayer ? ctx.fighter.fighting : null;
+}
+
+/** `quaff <potion>` / `eat <pill|food>` — swallow it: cast its embedded spells, then it's gone. */
+function doConsume(ctx: CommandContext, arg: string, verb: "quaff" | "eat"): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, `${cap(verb)} what?`);
+  const idx = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, arg));
+  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const it = ch.inventory[idx]!;
+  const p = ctx.world.getObjPrototype(it.vnum)!;
+  const isPotion = p.itemType === "potion";
+  const isEatable = p.itemType === "pill" || p.itemType === "food";
+  if (verb === "quaff" && !isPotion) return out(ctx.player, `&RYou can't quaff ${esc(p.shortDesc)}.&D`);
+  if (verb === "eat" && !isEatable) return out(ctx.player, `&RYou can't eat ${esc(p.shortDesc)}.&D`);
+
+  ch.inventory.splice(idx, 1); // single-use: consumed whether or not it carried a spell
+  out(ctx.player, isPotion ? `&YYou quaff ${esc(p.shortDesc)}.&D` : `&YYou eat ${esc(p.shortDesc)}.&D`);
+  const level = Math.max(1, p.values[0] || effectiveLevel(ch));
+  const spells = p.spells ?? [];
+  if (spells.length === 0 && p.itemType === "food") out(ctx.player, "&wIt's tasty and filling.&D");
+  for (const sp of spells) applyItemSpell(ctx, sp, level, currentFoe(ctx));
+
+  sendInventory(ctx.world, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  sendRoom(ctx.live, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `recite <scroll> [target]` — read it aloud: cast its embedded spells (offensive ones can be
+ *  aimed at a foe), then the scroll crumbles. */
+function doRecite(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, "Recite what?");
+  // Try the whole arg as the scroll keyword first (client taps send the full short desc); if that
+  // fails, treat the first word as the scroll and the rest as an explicit target keyword.
+  let idx = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, arg));
+  let targetKw = "";
+  if (idx < 0) {
+    const first = arg.split(/\s+/, 1)[0]!;
+    idx = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, first));
+    targetKw = arg.slice(first.length).trim();
+  }
+  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const it = ch.inventory[idx]!;
+  const p = ctx.world.getObjPrototype(it.vnum)!;
+  if (p.itemType !== "scroll") return out(ctx.player, `&RYou can't recite ${esc(p.shortDesc)}.&D`);
+
+  ch.inventory.splice(idx, 1);
+  out(ctx.player, `&YYou recite ${esc(p.shortDesc)}, which crumbles to dust.&D`);
+  const level = Math.max(1, p.values[0] || effectiveLevel(ch));
+  const target = targetKw ? spellTarget(ctx, targetKw) : currentFoe(ctx);
+  for (const sp of p.spells ?? []) applyItemSpell(ctx, sp, level, target);
+
+  sendInventory(ctx.world, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  sendRoom(ctx.live, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `zap <wand> [target]` / `brandish <staff>` — spend a charge to loose the device's spell. */
+function doDevice(ctx: CommandContext, arg: string, verb: "zap" | "brandish"): void {
+  const ch = ctx.player.character;
+  const wtype = verb === "zap" ? "wand" : "staff";
+  const isDevice = (v: number, kw: string) => { const pp = ctx.world.getObjPrototype(v); return !!pp && pp.itemType === wtype && (!kw || objMatches(pp, kw)); };
+  const held = () => Object.values(ch.equipment).find((e) => isDevice(e.vnum, "")) ?? ch.inventory.find((it) => isDevice(it.vnum, ""));
+
+  // Resolve the device + target: an explicit keyword picks the device (rest is the target); a bare
+  // command uses the held/carried one; `zap <foe>` with a held wand reads the arg as the target.
+  let device: ItemInstance | undefined;
+  let targetKw = "";
+  if (!arg) {
+    device = held();
+  } else {
+    device = ch.inventory.find((it) => isDevice(it.vnum, arg)) ?? Object.values(ch.equipment).find((e) => isDevice(e.vnum, arg));
+    if (device) {
+      const first = arg.split(/\s+/, 1)[0]!; // if the first word alone names it, the rest is the target
+      if (ch.inventory.some((it) => isDevice(it.vnum, first)) || Object.values(ch.equipment).some((e) => isDevice(e.vnum, first))) {
+        targetKw = arg.slice(first.length).trim();
+      }
+    } else if (verb === "zap") {
+      device = held();
+      targetKw = arg; // "zap <foe>" — arg was the target, not the wand
+    }
+  }
+  if (!device) return out(ctx.player, `&RYou aren't holding a ${wtype}.&D`);
+  const p = ctx.world.getObjPrototype(device.vnum)!;
+
+  const left = device.charges ?? p.values[2] ?? 0;
+  if (left <= 0) return out(ctx.player, `&R${cap(p.shortDesc)} has no charges left.&D`);
+  device.charges = left - 1;
+  const level = Math.max(1, p.values[0] || effectiveLevel(ch));
+  const spell = (p.spells ?? [])[0];
+  if (!spell) {
+    out(ctx.player, `&R${cap(p.shortDesc)} fizzles — no magic is bound to it.&D`);
+  } else {
+    out(ctx.player, verb === "zap" ? `&YYou point ${esc(p.shortDesc)} and speak the word of power.&D` : `&YYou brandish ${esc(p.shortDesc)}.&D`);
+    applyItemSpell(ctx, spell, level, spellTarget(ctx, targetKw));
+  }
+  sendInventory(ctx.world, ctx.player);
+  sendEquipment(ctx.world, ctx.player);
+  sendVitals(ctx.world, ctx.player);
+  sendRoom(ctx.live, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
 }
 
 /** An online player anywhere in the world, matched by name prefix. */

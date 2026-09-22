@@ -15,6 +15,8 @@ export interface ItemInstance {
   /** Container state (closeable/lockable containers). */
   closed?: boolean;
   locked?: boolean;
+  /** Remaining charges for a wand/staff (initialised from the prototype's value[2] on first use). */
+  charges?: number;
 }
 
 export interface Character {
