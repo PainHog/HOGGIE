@@ -249,6 +249,22 @@ export class Db {
     if (res.error) throw res.error;
   }
 
+  /** Every OLC-created prototype (mob/obj), registered into the world at boot before overrides. */
+  async listCreated(): Promise<{ kind: string; vnum: number; keywords: string; area: string }[]> {
+    const res = await this.client.from("world_created").select("kind, vnum, data");
+    if (res.error) throw res.error;
+    return (res.data ?? []).map((r: Record<string, unknown>) => {
+      const d = (r.data ?? {}) as { keywords?: string; area?: string };
+      return { kind: String(r.kind), vnum: Number(r.vnum), keywords: String(d.keywords ?? ""), area: String(d.area ?? "custom") };
+    });
+  }
+
+  /** Record a newly-created prototype (mob/obj) with its keywords + home area. */
+  async saveCreated(kind: string, vnum: number, keywords: string, area: string): Promise<void> {
+    const res = await this.client.from("world_created").upsert({ kind, vnum, data: { keywords, area } });
+    if (res.error) throw res.error;
+  }
+
   /** All members of a clan (online + offline), for a full roster. */
   async charactersInClan(clanName: string): Promise<{ name: string; level: number; rank: string }[]> {
     const res = await this.client

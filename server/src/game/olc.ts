@@ -3,9 +3,42 @@
  * mutate the in-memory World and are written through to the `world_overrides` table so they survive
  * a restart — applyOverride() is used both by the edit commands and when replaying overrides at boot.
  */
+import type { MobPrototype, ObjPrototype } from "../world/model.ts";
 import type { World } from "../world/world.ts";
 
 export type OlcKind = "room" | "mob" | "obj";
+
+/** A default, editable mob prototype for a freshly-created vnum (fields filled in later via medit). */
+export function defaultMob(vnum: number, keywords: string, area: string): MobPrototype {
+  const kw = keywords.trim() || `mob${vnum}`;
+  return {
+    vnum, area, keywords: kw, shortDesc: kw, longDesc: `${kw} is here.`, description: "",
+    level: 1, alignment: 0, actFlags: [], affectFlags: [], thac0: 20, ac: 100, hpDice: "1d6+1", damDice: "1d4",
+    gold: 0, exp: 0, position: "standing", defaultPosition: "standing", sex: "neutral",
+    resistant: [], immune: [], susceptible: [], specialAttacks: [], specialDefenses: [],
+  };
+}
+
+/** A default, editable object prototype for a freshly-created vnum (fields filled in later via oedit). */
+export function defaultObj(vnum: number, keywords: string, area: string): ObjPrototype {
+  const kw = keywords.trim() || `obj${vnum}`;
+  return {
+    vnum, area, keywords: kw, shortDesc: kw, description: "", actionDesc: "",
+    itemType: "trash", extraFlags: [], wearFlags: ["take"], values: [0, 0, 0, 0, 0], weight: 1, cost: 0, affects: [],
+  };
+}
+
+/** Register a created prototype into the world (idempotent). Returns an error if the vnum is taken. */
+export function createProto(world: World, kind: "mob" | "obj", vnum: number, keywords: string, area: string): string | null {
+  if (kind === "mob") {
+    if (world.getMobPrototype(vnum)) return `Mob ${vnum} already exists.`;
+    world.mobPrototypes.set(vnum, defaultMob(vnum, keywords, area));
+  } else {
+    if (world.getObjPrototype(vnum)) return `Object ${vnum} already exists.`;
+    world.objPrototypes.set(vnum, defaultObj(vnum, keywords, area));
+  }
+  return null;
+}
 
 /** The editable fields per kind, for usage/help text. */
 export const OLC_FIELDS: Record<OlcKind, string[]> = {

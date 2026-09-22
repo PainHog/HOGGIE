@@ -17,7 +17,7 @@ import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { Rng } from "./rng.ts";
 import { ClanStore } from "./clanStore.ts";
-import { applyOverride } from "./olc.ts";
+import { applyOverride, createProto } from "./olc.ts";
 import type { Db } from "../db/repos.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
@@ -56,14 +56,18 @@ function setup(roles: string[], low: number | null = null, high: number | null =
   const combat = new CombatManager(world, live, CONFIG, new Rng(1));
   const recv: ServerMessage[] = [];
   const saved: string[] = [];
-  const fakeDb = { saveOverride: async (k: string, v: number, f: string, val: string) => { saved.push(`${k}:${v}:${f}=${val}`); } } as unknown as Db;
+  const created: string[] = [];
+  const fakeDb = {
+    saveOverride: async (k: string, v: number, f: string, val: string) => { saved.push(`${k}:${v}:${f}=${val}`); },
+    saveCreated: async (k: string, v: number, kw: string) => { created.push(`${k}:${v}:${kw}`); },
+  } as unknown as Db;
   const ch = createCharacter(world, { id: "00000000-0000-0000-0000-0000000olc01", accountId: "acc", name: "Builder", raceId: 0, classId: 3, startRoom: ROOM });
   const player: Player = { character: ch, send: (m) => recv.push(m) };
   live.enter(player);
   const fighter = new PlayerFighter(ch, world, (m) => recv.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles, builderLowVnum: low, builderHighVnum: high };
   const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, clanStore: new ClanStore(null), db: fakeDb, quit: () => {} };
-  return { live, ch, recv, ctx, saved };
+  return { live, ch, recv, ctx, saved, created };
 }
 
 describe("applyOverride", () => {
@@ -114,5 +118,42 @@ describe("edit commands", () => {
 
     dispatchCommand(s.ctx, "medit " + MOB + " level 30"); // mob 999800 — out of range
     expect(world.getMobPrototype(MOB)!.level).toBe(5); // unchanged
+  });
+});
+
+describe("create commands", () => {
+  it("mcreate makes an editable mob prototype and persists it", () => {
+    const s = setup(["player", "admin"]);
+    dispatchCommand(s.ctx, "mcreate 995000 goblin scout");
+    expect(world.getMobPrototype(995000)?.keywords).toBe("goblin scout");
+    expect(s.created).toContain("mob:995000:goblin scout");
+    dispatchCommand(s.ctx, "medit 995000 level 12"); // the new proto is immediately editable
+    expect(world.getMobPrototype(995000)?.level).toBe(12);
+  });
+
+  it("ocreate makes an editable object prototype", () => {
+    const s = setup(["player", "admin"]);
+    dispatchCommand(s.ctx, "ocreate 995001 rusty dagger");
+    expect(world.getObjPrototype(995001)?.shortDesc).toBe("rusty dagger");
+    dispatchCommand(s.ctx, "oedit 995001 cost 40");
+    expect(world.getObjPrototype(995001)?.cost).toBe(40);
+  });
+
+  it("refuses to create over an existing vnum", () => {
+    const s = setup(["player", "admin"]);
+    dispatchCommand(s.ctx, `mcreate ${MOB} imposter`); // MOB already exists
+    expect(world.getMobPrototype(MOB)?.keywords).toBe("wretch"); // untouched
+  });
+
+  it("a builder can't create outside their range", () => {
+    const s = setup(["player", "builder"], 10000, 20000);
+    dispatchCommand(s.ctx, "mcreate 995002 orc");
+    expect(world.getMobPrototype(995002)).toBeUndefined();
+  });
+
+  it("createProto registers a default prototype (the boot-replay path)", () => {
+    expect(createProto(world, "mob", 995003, "kobold", "custom")).toBeNull();
+    expect(world.getMobPrototype(995003)?.keywords).toBe("kobold");
+    expect(createProto(world, "mob", 995003, "again", "custom")).toMatch(/already exists/);
   });
 });

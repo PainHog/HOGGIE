@@ -18,7 +18,7 @@ import { Economy } from "./game/economy.ts";
 import { ClanStore } from "./game/clanStore.ts";
 import { loadWars } from "./game/clans.ts";
 import { initDoors } from "./game/doors.ts";
-import { applyOverride, type OlcKind } from "./game/olc.ts";
+import { applyOverride, createProto, type OlcKind } from "./game/olc.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -38,8 +38,15 @@ async function main(): Promise<void> {
   const db = serviceClient ? new Db(serviceClient) : null;
   const combat = new CombatManager(world, live, cfg, undefined, db);
 
-  // Replay saved OLC edits over the freshly-loaded content before anything spawns from it.
+  // Register OLC-created prototypes, then replay saved OLC field edits over the loaded content —
+  // both before anything spawns from it.
   if (db) {
+    try {
+      const created = await db.listCreated();
+      let made = 0;
+      for (const c of created) if (!createProto(world, c.kind as "mob" | "obj", c.vnum, c.keywords, c.area)) made++;
+      if (created.length) log.info("registered OLC-created prototypes", { made, total: created.length });
+    } catch (e) { log.warn("could not load OLC-created prototypes", { detail: String(e) }); }
     try {
       const overrides = await db.listOverrides();
       let applied = 0;

@@ -13,7 +13,7 @@ import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.
 import { corpseMatches, makeCorpse, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
 import { setDoorBothSides } from "./doors.ts";
 import { moveCost } from "./movement.ts";
-import { applyOverride, OLC_FIELDS, type OlcKind } from "./olc.ts";
+import { applyOverride, createProto, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled, QUEST_COOLDOWN_MS, QUEST_FAIL_COOLDOWN_MS } from "./quest.ts";
 import {
@@ -134,6 +134,8 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "redit": return staff(ctx, "build.redit", () => doRedit(ctx, arg));
     case "medit": return staff(ctx, "build.medit", () => doEdit(ctx, "mob", arg));
     case "oedit": return staff(ctx, "build.oedit", () => doEdit(ctx, "obj", arg));
+    case "mcreate": return staff(ctx, "build.medit", () => doCreate(ctx, "mob", arg));
+    case "ocreate": return staff(ctx, "build.oedit", () => doCreate(ctx, "obj", arg));
     case "transfer": return staff(ctx, "world.transfer", () => doTransfer(ctx, arg));
     case "load": return staff(ctx, "world.load", () => doLoad(ctx, arg));
     case "purge": return staff(ctx, "world.purge", () => doPurge(ctx));
@@ -1804,6 +1806,21 @@ function doRedit(ctx: CommandContext, arg: string): void {
   persistOverride(ctx, "room", vnum, field, value);
   out(ctx.player, `&YRoom ${vnum} ${field} updated.&D`);
   sendRoom(ctx.live, ctx.player);
+}
+
+/** `mcreate <vnum> <keywords>` / `ocreate <vnum> <keywords>` — create a new, editable prototype. */
+function doCreate(ctx: CommandContext, kind: "mob" | "obj", arg: string): void {
+  const parts = arg.trim().split(/\s+/);
+  const vnum = parseInt(parts[0] ?? "", 10);
+  const keywords = parts.slice(1).join(" ");
+  const cmd = kind === "mob" ? "mcreate" : "ocreate";
+  if (!Number.isFinite(vnum) || !keywords) return out(ctx.player, `${cmd} <vnum> <keywords>`);
+  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RVnum ${vnum} is outside your assigned build range.&D`);
+  const area = ctx.world.getRoom(ctx.player.character.roomVnum)?.area ?? "custom";
+  const err = createProto(ctx.world, kind, vnum, keywords, area);
+  if (err) return out(ctx.player, `&R${esc(err)}&D`);
+  if (ctx.db) void ctx.db.saveCreated(kind, vnum, keywords, area).catch(() => {});
+  out(ctx.player, `&YCreated ${kind} ${vnum} — ${esc(keywords)}. Shape it with ${kind === "mob" ? "medit" : "oedit"} ${vnum} <field> <value>.&D`);
 }
 
 /** `medit <vnum> <field> <value>` / `oedit <vnum> <field> <value>` — edit a mob/object prototype. */
