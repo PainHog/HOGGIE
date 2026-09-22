@@ -574,7 +574,8 @@ export class CombatManager {
     const carried = [...ch.inventory, ...Object.values(ch.equipment ?? {})];
     if (ch.level >= 5 && (carried.length > 0 || ch.gold > 0)) {
       const kw = ch.name.split(/\s+/)[0] ?? "corpse";
-      this.live.addCorpse(room, makeCorpse(ch.name, kw, carried.map((it) => ({ vnum: it.vnum })), Date.now(), ch.gold, PLAYER_CORPSE_DECAY_MS));
+      // Clone each instance so the corpse keeps nested contents/open-lock state (not just the vnum).
+      this.live.addCorpse(room, makeCorpse(ch.name, kw, carried.map((it) => ({ ...it })), Date.now(), ch.gold, PLAYER_CORPSE_DECAY_MS));
       ch.inventory = [];
       ch.equipment = {};
       ch.gold = 0;

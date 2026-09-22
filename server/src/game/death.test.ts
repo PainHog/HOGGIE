@@ -91,6 +91,17 @@ describe("a mortal's death", () => {
   });
 });
 
+describe("a corpse keeps nested container contents", () => {
+  it("a carried bag holding gear still holds it in the corpse", () => {
+    const s = setup(20);
+    s.ch.inventory = [{ vnum: DAGGER, contents: [{ vnum: HELM }] }]; // a bag holding a helm
+    die(s);
+    const c = s.live.roomCorpses(ROOM)[0]!;
+    const bag = c.contents.find((it) => it.vnum === DAGGER)!;
+    expect(bag.contents?.map((it) => it.vnum)).toEqual([HELM]); // nested contents survived death
+  });
+});
+
 describe("a newbie's death", () => {
   it("keeps their gear (no corpse) below level 5", () => {
     const s = setup(3);

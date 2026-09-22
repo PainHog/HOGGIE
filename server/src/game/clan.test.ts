@@ -15,7 +15,8 @@ import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { Rng } from "./rng.ts";
 import { CLAN_COST_GLORY } from "./clans.ts";
-import { ClanStore } from "./clanStore.ts";
+import { ClanStore, type ClanRecord } from "./clanStore.ts";
+import type { Db } from "../db/repos.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -166,5 +167,40 @@ describe("clan hall + bank", () => {
     expect(s.a.ch.roomVnum).toBe(dest);
     dispatchCommand(s.a.ctx, "clan home"); await tick();
     expect(s.a.ch.roomVnum).toBe(ROOM); // back at the hall
+  });
+});
+
+describe("ClanStore bank atomicity", () => {
+  // A fake Db whose reads/writes take a real await tick — this is what exposes a read-modify-write
+  // race: without serialization, concurrent deposits each read the same stale balance and clobber.
+  function delayingDb(): { db: Db; balance: () => number } {
+    let stored: ClanRecord = { name: "Wolves", hallVnum: null, bank: 0 };
+    const delay = () => new Promise((r) => setTimeout(r, 1));
+    const db = {
+      async getClan() { await delay(); return { ...stored }; },
+      async upsertClan(rec: ClanRecord) { await delay(); stored = { ...rec }; },
+    } as unknown as Db;
+    return { db, balance: () => stored.bank };
+  }
+
+  it("serializes concurrent mutate() so no deposit is lost", async () => {
+    const { db, balance } = delayingDb();
+    const store = new ClanStore(db);
+    // 20 concurrent +5 deposits. A naive get→modify→save would land ~5–10; the lock must land all 100.
+    await Promise.all(Array.from({ length: 20 }, () => store.mutate("Wolves", (r) => { r.bank += 5; })));
+    expect(balance()).toBe(100);
+    expect((await store.get("Wolves")).bank).toBe(100);
+  });
+
+  it("a mutate that returns an error commits nothing", async () => {
+    const { db, balance } = delayingDb();
+    const store = new ClanStore(db);
+    await store.mutate("Wolves", (r) => { r.bank += 50; });
+    const err = await store.mutate("Wolves", (r) => {
+      if (r.bank < 999) return "not enough";
+      r.bank -= 999;
+    });
+    expect(err).toBe("not enough");
+    expect(balance()).toBe(50); // the failed withdrawal left the balance untouched
   });
 });

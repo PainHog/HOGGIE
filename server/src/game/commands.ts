@@ -202,12 +202,14 @@ function pvpBlock(ctx: CommandContext, target: Player): string | null {
   if (flags.includes("safe")) return "This is a sanctuary — no fighting here.";
   if (sameGroup(ctx.player.character, target.character)) return "You can't attack a groupmate.";
   if (sameClan(ctx.player.character, target.character)) return "You can't raise a hand against a clanmate.";
+  if (flags.includes("arena")) return null; // arenas are free-for-all — no opt-in, no level gate
   const myClan = ctx.player.character.clan?.name, theirClan = target.character.clan?.name;
-  if (myClan && theirClan && atWar(myClan, theirClan)) return null; // clan war = open season (sanctuaries still safe)
-  if (flags.includes("arena")) return null; // arenas are free-for-all
-  if (!ctx.player.character.pk || !target.character.pk) {
+  const atClanWar = !!(myClan && theirClan && atWar(myClan, theirClan));
+  // Clan war means enemy clans are fair game without opting in — but everything else still applies.
+  if (!atClanWar && (!ctx.player.character.pk || !target.character.pk)) {
     return `${cap(target.character.name)} isn't open to player-combat — both of you need 'pkill' on, or fight in an arena.`;
   }
+  // Level-gap protection holds even in war: no ganking fresh recruits.
   if (Math.abs(effectiveLevel(ctx.player.character) - effectiveLevel(target.character)) > 10) {
     return "The gap in power is too great for an honourable duel.";
   }
@@ -412,18 +414,25 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
     const amt = Math.floor(Number(rest));
     if (!Number.isFinite(amt) || amt <= 0) return out(ctx.player, `&R${cap(sub)} how much gold?&D`);
-    const rec = await ctx.clanStore.get(ch.clan.name);
+    // Bank moves go through clanStore.mutate so the read-check-write is atomic per clan — two
+    // members depositing/withdrawing at once can't lose or duplicate the shared gold.
+    let bank = 0;
     if (sub === "deposit") {
       if (ch.gold < amt) return out(ctx.player, `&RYou only have ${ch.gold} gold.&D`);
-      ch.gold -= amt; rec.bank += amt;
-      out(ctx.player, `&mYou deposit ${amt} gold into the clan bank (balance: ${rec.bank}).&D`);
+      ch.gold -= amt; // debit the player before the awaited write; a deposit never fails bank-side
+      await ctx.clanStore.mutate(ch.clan.name, (rec) => { rec.bank += amt; bank = rec.bank; });
+      out(ctx.player, `&mYou deposit ${amt} gold into the clan bank (balance: ${bank}).&D`);
     } else {
       if (ch.clan.rank === "member") return out(ctx.player, "&ROnly a leader or officer can withdraw from the clan bank.&D");
-      if (rec.bank < amt) return out(ctx.player, `&RThe clan bank holds only ${rec.bank} gold.&D`);
-      rec.bank -= amt; ch.gold += amt;
-      out(ctx.player, `&mYou withdraw ${amt} gold from the clan bank (balance: ${rec.bank}).&D`);
+      let ok = false;
+      const err = await ctx.clanStore.mutate(ch.clan.name, (rec) => {
+        if (rec.bank < amt) return `The clan bank holds only ${rec.bank} gold.`;
+        rec.bank -= amt; bank = rec.bank; ok = true;
+      });
+      if (err) return out(ctx.player, `&R${err}&D`);
+      if (ok) ch.gold += amt;
+      out(ctx.player, `&mYou withdraw ${amt} gold from the clan bank (balance: ${bank}).&D`);
     }
-    await ctx.clanStore.save(rec);
     sendVitals(ctx.world, ctx.player);
     if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
     return;
@@ -762,12 +771,13 @@ function currentWeight(ctx: CommandContext): number {
   return totalWeight(ch.inventory, getP) + totalWeight(Object.values(ch.equipment), getP);
 }
 
-/** Can the character pick up one more item of this vnum without overloading? (systems-spec §4.6) */
-function canCarryMore(ctx: CommandContext, vnum: number): boolean {
+/** Can the character pick up one more item without overloading? Weighs the full instance so a
+ *  stuffed bag counts its contents, not just the container (systems-spec §4.6). */
+function canCarryMore(ctx: CommandContext, item: ItemInstance): boolean {
   const ch = ctx.player.character;
   const { maxWeight, maxItems } = carryLimits(ch);
   if (ch.inventory.length >= maxItems) return false;
-  const w = Math.max(0, ctx.world.getObjPrototype(vnum)?.weight ?? 0);
+  const w = totalWeight([item], (v) => ctx.world.getObjPrototype(v));
   return currentWeight(ctx) + w <= maxWeight;
 }
 
@@ -858,15 +868,15 @@ function doGet(ctx: CommandContext, arg: string): void {
   const ground = ctx.live.roomGround(ch.roomVnum);
   if (ground.length === 0) return out(ctx.player, "&RThere's nothing here to get.&D");
   const wantAll = whatKw === "all";
-  const targets = wantAll ? [...ground] : ground.filter((g) => matchInv(ctx, g.vnum, whatKw)).slice(0, 1);
+  const targets = wantAll ? [...ground] : ground.filter((g) => matchInv(ctx, g.item.vnum, whatKw)).slice(0, 1);
   if (targets.length === 0) return out(ctx.player, "&RYou don't see that here.&D");
   let got = 0, blocked = false;
   for (const g of targets) {
-    if (!canCarryMore(ctx, g.vnum)) { blocked = true; break; }
+    if (!canCarryMore(ctx, g.item)) { blocked = true; break; }
     const taken = ctx.live.takeGround(ch.roomVnum, g.id);
     if (!taken) continue;
-    ch.inventory.push({ vnum: taken.vnum });
-    out(ctx.player, `&YYou pick up ${esc(short(ctx, taken.vnum))}.&D`);
+    ch.inventory.push(taken.item); // keep the full instance — nested contents survive the round-trip
+    out(ctx.player, `&YYou pick up ${esc(short(ctx, taken.item.vnum))}.&D`);
     got++;
   }
   if (blocked) out(ctx.player, "&RYou can't carry any more — too heavy or too full.&D");
@@ -891,7 +901,7 @@ function takeFromCorpse(ctx: CommandContext, corpse: Corpse, whatKw: string): vo
   for (const it of corpse.contents) {
     const want = (wantAll || matchInv(ctx, it.vnum, whatKw)) && (wantAll || took === 0);
     if (!want) { keep.push(it); continue; }
-    if (!canCarryMore(ctx, it.vnum)) { keep.push(it); blocked = true; continue; }
+    if (!canCarryMore(ctx, it)) { keep.push(it); blocked = true; continue; }
     ch.inventory.push(it); // push as we go so the carry check sees the growing load
     out(ctx.player, `&YYou get ${esc(short(ctx, it.vnum))} from ${esc(corpse.name)}.&D`);
     took++;
@@ -918,14 +928,14 @@ function doDrop(ctx: CommandContext, arg: string): void {
     ? ch.inventory.map((_, i) => i)
     : (() => { const i = ch.inventory.findIndex((it) => matchInv(ctx, it.vnum, kw)); return i >= 0 ? [i] : []; })();
   if (idxs.length === 0) return out(ctx.player, "&RYou aren't carrying that.&D");
-  const dropped: number[] = [];
+  const dropped: ItemInstance[] = [];
   for (const i of idxs.sort((a, b) => b - a)) { // splice back-to-front so indices stay valid
     const [it] = ch.inventory.splice(i, 1);
-    if (it) dropped.push(it.vnum);
+    if (it) dropped.push(it);
   }
-  for (const vnum of dropped.reverse()) {
-    ctx.live.addGround(ch.roomVnum, makeGroundItem(vnum));
-    out(ctx.player, `&YYou drop ${esc(short(ctx, vnum))}.&D`);
+  for (const it of dropped.reverse()) {
+    ctx.live.addGround(ch.roomVnum, makeGroundItem(it)); // full instance — a dropped bag keeps its contents
+    out(ctx.player, `&YYou drop ${esc(short(ctx, it.vnum))}.&D`);
   }
   afterGround(ctx);
 }
@@ -975,16 +985,23 @@ function doPut(ctx: CommandContext, arg: string): void {
   if (!container) return out(ctx.player, "&RYou aren't carrying a container like that.&D");
   if (container.closed) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is closed.&D`);
   const info = containerInfo(ctx.world.getObjPrototype(container.vnum)!);
-  if ((container.contents?.length ?? 0) >= info.maxItems) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is full.&D`);
+  const room = info.maxItems - (container.contents?.length ?? 0);
+  if (room <= 0) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is full.&D`);
   const wantAll = whatKw === "all";
-  const idx = wantAll
-    ? ch.inventory.findIndex((it) => it !== container && !isContainer(ctx.world.getObjPrototype(it.vnum)!))
-    : ch.inventory.findIndex((it) => it !== container && matchInv(ctx, it.vnum, whatKw));
-  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
-  const [it] = ch.inventory.splice(idx, 1);
-  if (!it) return;
-  (container.contents ??= []).push(it);
-  out(ctx.player, `&YYou put ${esc(short(ctx, it.vnum))} in ${esc(short(ctx, container.vnum))}.&D`);
+  // `put all <bag>` stows every non-container item that fits; `put <item> <bag>` stows one.
+  const matches = ch.inventory
+    .map((it, i) => ({ it, i }))
+    .filter(({ it }) => it !== container &&
+      (wantAll ? !isContainer(ctx.world.getObjPrototype(it.vnum)!) : matchInv(ctx, it.vnum, whatKw)));
+  const toStow = matches.slice(0, wantAll ? room : 1);
+  if (toStow.length === 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  for (const { i } of [...toStow].sort((a, b) => b.i - a.i)) ch.inventory.splice(i, 1); // back-to-front
+  container.contents ??= [];
+  for (const { it } of toStow) {
+    container.contents.push(it);
+    out(ctx.player, `&YYou put ${esc(short(ctx, it.vnum))} in ${esc(short(ctx, container.vnum))}.&D`);
+  }
+  if (wantAll && matches.length > room) out(ctx.player, `&R${cap(short(ctx, container.vnum))} is now full — the rest won't fit.&D`);
   sendInventory(ctx.world, ctx.player);
   if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
 }

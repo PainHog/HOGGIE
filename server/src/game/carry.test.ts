@@ -55,7 +55,7 @@ describe("weight limit", () => {
   it("refuses a pickup that would exceed the carry weight", () => {
     const s = setup();
     expect(carryLimits(s.ch).maxWeight).toBeLessThan(ANVIL.weight); // one anvil is over the limit
-    s.live.addGround(ROOM, makeGroundItem(ANVIL.vnum));
+    s.live.addGround(ROOM, makeGroundItem({ vnum: ANVIL.vnum }));
     dispatchCommand(s.ctx, "get anvil");
     expect(carrying(s.ch, ANVIL.vnum)).toBe(false); // too heavy — left on the ground
     expect(s.live.roomGround(ROOM)).toHaveLength(1);
@@ -63,7 +63,7 @@ describe("weight limit", () => {
 
   it("allows a light pickup", () => {
     const s = setup();
-    s.live.addGround(ROOM, makeGroundItem(FEATHER.vnum));
+    s.live.addGround(ROOM, makeGroundItem({ vnum: FEATHER.vnum }));
     dispatchCommand(s.ctx, "get feather");
     expect(carrying(s.ch, FEATHER.vnum)).toBe(true);
   });
@@ -74,7 +74,7 @@ describe("count limit", () => {
     const s = setup();
     const { maxItems } = carryLimits(s.ch);
     for (let i = 0; i < maxItems; i++) s.ch.inventory.push({ vnum: FEATHER.vnum }); // pack full of feathers
-    s.live.addGround(ROOM, makeGroundItem(FEATHER.vnum));
+    s.live.addGround(ROOM, makeGroundItem({ vnum: FEATHER.vnum }));
     dispatchCommand(s.ctx, "get feather");
     expect(s.ch.inventory.length).toBe(maxItems); // no more room
     expect(s.live.roomGround(ROOM)).toHaveLength(1);

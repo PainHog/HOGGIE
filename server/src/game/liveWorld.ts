@@ -90,7 +90,7 @@ export class LiveWorld {
       const kept = list.filter((g) => g.decayAt > now);
       if (kept.length) this.groundByRoom.set(vnum, kept);
       else this.groundByRoom.delete(vnum);
-      changed.push({ vnum, names: gone.map((g) => this.world.getObjPrototype(g.vnum)?.shortDesc ?? "something") });
+      changed.push({ vnum, names: gone.map((g) => this.world.getObjPrototype(g.item.vnum)?.shortDesc ?? "something") });
     }
     for (const [vnum, list] of [...this.corpsesByRoom]) {
       const gone = list.filter((c) => c.decayAt <= now);

@@ -73,6 +73,28 @@ describe("put / get", () => {
     dispatchCommand(s.ctx, "look bag");
     expect(text(s.recv)).toContain("ruby gem");
   });
+
+  it("put all stows every loose item (not just one)", () => {
+    const s = setup();
+    s.ch.inventory = [{ vnum: BAG.vnum }, { vnum: GEM.vnum }, { vnum: KEY.vnum }];
+    dispatchCommand(s.ctx, "put all bag");
+    // the bag itself is skipped; the gem and key both go in
+    expect(bag(s.ch).contents?.map((it) => it.vnum).sort()).toEqual([GEM.vnum, KEY.vnum].sort());
+    expect(s.ch.inventory.map((it) => it.vnum)).toEqual([BAG.vnum]);
+  });
+});
+
+describe("drop / get preserves nested contents", () => {
+  it("a dropped bag keeps its contents, and picking it back up restores them", () => {
+    const s = setup();
+    dispatchCommand(s.ctx, "put gem bag");           // bag now holds the gem
+    dispatchCommand(s.ctx, "drop bag");
+    expect(carrying(s.ch, BAG.vnum)).toBe(false);
+    const onFloor = s.ctx.live.roomGround(ROOM).find((g) => g.item.vnum === BAG.vnum)!;
+    expect(onFloor.item.contents?.map((it) => it.vnum)).toEqual([GEM.vnum]); // survived the drop
+    dispatchCommand(s.ctx, "get bag");
+    expect(bag(s.ch).contents?.map((it) => it.vnum)).toEqual([GEM.vnum]);    // and the round-trip back
+  });
 });
 
 describe("open / close", () => {

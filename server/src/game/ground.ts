@@ -9,7 +9,8 @@ import type { ItemInstance } from "./character.ts";
 /** A loose object lying on the floor (dropped by a player, or spilled from a decayed corpse). */
 export interface GroundItem {
   id: string;
-  vnum: number;
+  /** The full carried item — nested container contents and open/lock state survive a drop. */
+  item: ItemInstance;
   decayAt: number; // epoch ms
 }
 
@@ -27,8 +28,8 @@ export const GROUND_DECAY_MS = 5 * 60_000; // loose items linger 5 minutes
 export const CORPSE_DECAY_MS = 3 * 60_000; // mob corpses rot in 3 minutes
 export const PLAYER_CORPSE_DECAY_MS = 20 * 60_000; // a player's corpse lingers long enough to recover
 
-export function makeGroundItem(vnum: number, now: number = Date.now()): GroundItem {
-  return { id: randomUUID(), vnum, decayAt: now + GROUND_DECAY_MS };
+export function makeGroundItem(item: ItemInstance, now: number = Date.now()): GroundItem {
+  return { id: randomUUID(), item, decayAt: now + GROUND_DECAY_MS };
 }
 
 export function makeCorpse(

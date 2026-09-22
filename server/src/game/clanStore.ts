@@ -13,6 +13,8 @@ export interface ClanRecord {
 
 export class ClanStore {
   private readonly mem = new Map<string, ClanRecord>();
+  /** Per-clan promise chain: the tail of each clan's in-flight mutate() queue. */
+  private readonly tail = new Map<string, Promise<unknown>>();
 
   constructor(private readonly db: Db | null = null) {}
 
@@ -28,5 +30,26 @@ export class ClanStore {
   async save(rec: ClanRecord): Promise<void> {
     this.mem.set(rec.name.toLowerCase(), rec);
     if (this.db) await this.db.upsertClan(rec).catch(() => {});
+  }
+
+  /**
+   * Serialize a read-modify-write against one clan's record so concurrent bank deposits and
+   * withdrawals from different members can't lose or duplicate gold (get→mutate→save is atomic
+   * per clan). `apply` runs with the freshly-read record; return an error string to abort with the
+   * record untouched, or return nothing to commit the mutation. Resolves to the error, or null.
+   */
+  async mutate(name: string, apply: (rec: ClanRecord) => string | null | undefined | void): Promise<string | null> {
+    const key = name.toLowerCase();
+    const step = async (): Promise<string | null> => {
+      const rec = await this.get(name);
+      const err = apply(rec);
+      if (err) return err;
+      await this.save(rec);
+      return null;
+    };
+    const prev = this.tail.get(key) ?? Promise.resolve();
+    const run = prev.then(step, step); // run after prev settles, success or failure
+    this.tail.set(key, run.catch(() => {})); // keep the chain alive past any rejection
+    return run;
   }
 }

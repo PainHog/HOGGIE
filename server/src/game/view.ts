@@ -32,7 +32,7 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
   }));
   const items = [
     ...live.roomCorpses(ch.roomVnum).map((c) => c.name),
-    ...live.roomGround(ch.roomVnum).map((g) => live.world.getObjPrototype(g.vnum)?.shortDesc ?? `item ${g.vnum}`),
+    ...live.roomGround(ch.roomVnum).map((g) => live.world.getObjPrototype(g.item.vnum)?.shortDesc ?? `item ${g.item.vnum}`),
   ];
   return {
     vnum: ch.roomVnum,
@@ -70,7 +70,7 @@ export function lookLines(live: LiveWorld, viewer: Player): Line[] {
     lines.push(parseColorSpans("&r" + esc(c.name) + " lies here.&D"));
   }
   for (const g of live.roomGround(ch.roomVnum)) {
-    const p = live.world.getObjPrototype(g.vnum);
+    const p = live.world.getObjPrototype(g.item.vnum);
     lines.push(parseColorSpans("&w" + esc(p?.shortDesc ?? "something") + " lies here.&D"));
   }
   return lines;
