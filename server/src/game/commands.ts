@@ -8,8 +8,8 @@ import type { World } from "../world/world.ts";
 import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
 import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
-import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
-import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
+import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.ts";
+import { corpseMatches, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
 import { setDoorBothSides } from "./doors.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
@@ -128,6 +128,10 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "revoke": return staff(ctx, "admin.grant", () => void doGrant(ctx, arg, false));
     case "setbuilder": return staff(ctx, "admin.grant", () => void doSetBuilder(ctx, arg));
     case "redit": return staff(ctx, "build.redit", () => doRedit(ctx, arg));
+    case "transfer": return staff(ctx, "world.transfer", () => doTransfer(ctx, arg));
+    case "load": return staff(ctx, "world.load", () => doLoad(ctx, arg));
+    case "purge": return staff(ctx, "world.purge", () => doPurge(ctx));
+    case "restore": return staff(ctx, "world.restore", () => doRestore(ctx, arg));
 
     default:
       out(ctx.player, "&RHuh?&D  (type &Whelp&D for commands)");
@@ -1696,4 +1700,75 @@ function doRedit(ctx: CommandContext, arg: string): void {
   room.name = arg.slice(0, 60);
   out(ctx.player, `&YRoom ${vnum} renamed to "${esc(room.name)}".&D (in-memory; content persistence is roadmap)`);
   sendRoom(ctx.live, ctx.player);
+}
+
+/** `transfer <player> [room vnum]` — pull an online player to your room (or a named room). */
+function doTransfer(ctx: CommandContext, arg: string): void {
+  const parts = arg.trim().split(/\s+/).filter(Boolean);
+  const who = parts[0];
+  if (!who) return out(ctx.player, "transfer <player> [room vnum]");
+  const target = ctx.live.online().find((p) => p.character.name.toLowerCase() === who.toLowerCase());
+  if (!target) return out(ctx.player, "&RNo such player is online.&D");
+  const dest = parts[1] != null ? parseInt(parts[1], 10) : ctx.player.character.roomVnum;
+  if (!Number.isFinite(dest) || !ctx.world.getRoom(dest)) return out(ctx.player, "&RNo such room is loaded.&D");
+  if (target.character.roomVnum === dest) return out(ctx.player, `&Y${cap(target.character.name)} is already there.&D`);
+  if (target.fighter) ctx.combat.disengage(target.fighter); // pull them cleanly out of any fight
+  const from = target.character.roomVnum;
+  ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(target.character.name)} vanishes in a swirl of light.&D`)] }, target);
+  ctx.live.moveTo(target, dest);
+  ctx.live.broadcast(dest, { t: "output", lines: [parseColorSpans(`&w${esc(target.character.name)} arrives in a swirl of light.&D`)] }, target);
+  out(target, "&YYou have been transferred by the hand of a god.&D");
+  sendRoom(ctx.live, target);
+  out(ctx.player, `&YTransferred ${esc(target.character.name)} to room ${dest}.&D`);
+}
+
+/** `load <mob|obj> <vnum>` — spawn a mob or object into the room (builder-scoped to the vnum range). */
+function doLoad(ctx: CommandContext, arg: string): void {
+  const parts = arg.trim().split(/\s+/).filter(Boolean);
+  const kind = (parts[0] ?? "").toLowerCase();
+  const vnum = parseInt(parts[1] ?? "", 10);
+  if ((kind !== "mob" && kind !== "obj") || !Number.isFinite(vnum)) return out(ctx.player, "load <mob|obj> <vnum>");
+  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RVnum ${vnum} is outside your assigned range.&D`);
+  const room = ctx.player.character.roomVnum;
+  if (kind === "mob") {
+    const proto = ctx.world.getMobPrototype(vnum);
+    if (!proto) return out(ctx.player, "&RNo such mob prototype.&D");
+    const mob = spawnMob(proto, room);
+    ctx.live.addMob(mob);
+    out(ctx.player, `&YLoaded mob ${vnum} — ${esc(mobShort(mob))}.&D`);
+    for (const p of ctx.live.roomPlayers(room)) sendRoomView(ctx.live, p);
+  } else {
+    const proto = ctx.world.getObjPrototype(vnum);
+    if (!proto) return out(ctx.player, "&RNo such object prototype.&D");
+    ctx.live.addGround(room, makeFixedGroundItem({ vnum }));
+    out(ctx.player, `&YLoaded object ${vnum} — ${esc(proto.shortDesc)}.&D`);
+    for (const p of ctx.live.roomPlayers(room)) sendRoomView(ctx.live, p);
+  }
+}
+
+/** `purge` — clear the current room of all mobs, loose items, and corpses. */
+function doPurge(ctx: CommandContext): void {
+  const room = ctx.player.character.roomVnum;
+  if (!canEditVnum(ctx.account, room)) return out(ctx.player, `&RRoom ${room} is outside your assigned range.&D`);
+  const mobs = [...ctx.live.roomMobs(room)];
+  for (const m of mobs) { ctx.combat.disengage(ctx.combat.fighterForMob(m)); ctx.live.removeMob(m); }
+  const ground = [...ctx.live.roomGround(room)];
+  for (const g of ground) ctx.live.takeGround(room, g.id);
+  const corpses = [...ctx.live.roomCorpses(room)];
+  for (const c of corpses) ctx.live.removeCorpse(room, c.id);
+  out(ctx.player, `&YPurged ${mobs.length} mob(s), ${ground.length} item(s), ${corpses.length} corpse(s).&D`);
+  for (const p of ctx.live.roomPlayers(room)) sendRoomView(ctx.live, p);
+}
+
+/** `restore [player]` — fully heal yourself or a named online player (hp/mana/move to max). */
+function doRestore(ctx: CommandContext, arg: string): void {
+  const target = arg.trim()
+    ? ctx.live.online().find((p) => p.character.name.toLowerCase() === arg.trim().toLowerCase())
+    : ctx.player;
+  if (!target) return out(ctx.player, "&RNo such player is online.&D");
+  const c = target.character;
+  c.hp = c.maxHp; c.mana = c.maxMana; c.move = c.maxMove;
+  sendVitals(ctx.world, target);
+  out(target, "&YA warm light fills you — you are fully restored.&D");
+  if (target !== ctx.player) out(ctx.player, `&YRestored ${esc(c.name)}.&D`);
 }

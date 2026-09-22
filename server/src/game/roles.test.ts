@@ -27,6 +27,14 @@ describe("roles & capabilities (Phase 5)", () => {
     expect(capsFor(["builder"]).has("info.stat")).toBe(true);
   });
 
+  it("immortal command capabilities by role", () => {
+    expect(can(["moderator"], "world.transfer")).toBe(true);
+    expect(can(["moderator"], "world.restore")).toBe(true);
+    expect(can(["builder"], "world.load")).toBe(true); // range-scoped inside the command
+    expect(can(["builder"], "world.transfer")).toBe(false); // builders can't yank players
+    expect(can(["player"], "world.purge")).toBe(false);
+  });
+
   it("builder sandbox: only edits vnums inside the assigned range", () => {
     const b = acct(["player", "builder"], 21000, 21500);
     expect(canEditVnum(b, 21100)).toBe(true);

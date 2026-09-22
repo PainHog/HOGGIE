@@ -16,8 +16,8 @@ export interface StaffAccount {
 /** Capabilities each role grants. `admin` is all-powerful (handled in `can`). */
 const ROLE_CAPS: Record<string, string[]> = {
   player: [],
-  builder: ["info.stat", "build.redit"],
-  moderator: ["info.stat", "info.users", "world.goto"],
+  builder: ["info.stat", "build.redit", "world.load", "world.purge"], // world.load/purge are vnum-range-scoped
+  moderator: ["info.stat", "info.users", "world.goto", "world.transfer", "world.restore", "world.purge", "world.load"],
   admin: ["*"],
 };
 
