@@ -53,7 +53,11 @@ export function RoomInteractions({
     if (alive) actions.push({ label: "Attack", tone: "attack", run: () => onEngage(mob.id) });
     if (mob.questmaster) actions.push({ label: "Ask for a quest", tone: "good", run: () => onCmd("quest request") });
     if (mob.shopkeeper) actions.push({ label: "Browse wares", run: () => onCmd("list") });
-    if (mob.healer) actions.push({ label: "Heal me", tone: "good", run: () => onCmd("heal") });
+    if (mob.healer) {
+      const lvl = vitals?.level ?? 1;
+      actions.push({ label: `Full heal (${Math.max(20, lvl * 8)}g)`, tone: "good", run: () => onCmd("heal full") });
+      actions.push({ label: `Cure ailments (${Math.max(30, lvl * 12)}g)`, tone: "good", run: () => onCmd("heal cure") });
+    }
     if (mob.trainer) actions.push({ label: "Train / practice", run: () => onCmd("practice") });
     actions.push({ label: "Look closer", run: () => onCmd(`look ${kw(mob)}`) });
     setSheet({ title: mob.name, subtitle: `level ${mob.level}${mob.position !== "standing" ? ` · ${mob.position}` : ""}`, actions });

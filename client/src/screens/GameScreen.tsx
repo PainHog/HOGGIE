@@ -48,6 +48,7 @@ export function GameScreen({
   const [panel, setPanel] = useState<Panel>("none");
   const toggle = (p: Panel) => setPanel((cur) => (cur === p ? "none" : p));
   const inCombat = state.engagedTargetId != null;
+  const resting = ["resting", "sleeping", "sitting"].includes(state.vitals?.position ?? "standing");
 
   // Stage 1 of the visual overhaul: the rendered atmospheric room scene (no movement yet).
   const scene = <RoomStage room={state.room} vitals={state.vitals} />;
@@ -88,6 +89,7 @@ export function GameScreen({
         {!wide && <ToolButton icon={ICON.inventory} label="Bag" active={panel === "inventory"} onPress={() => toggle("inventory")} />}
         {!wide && <ToolButton icon={ICON.skills} label="Skills" active={panel === "skills"} onPress={() => toggle("skills")} />}
         <ToolButton label="Quest" onPress={() => { onCmd("quest"); setPanel("log"); }} />
+        {!inCombat && <ToolButton label={resting ? "Stand" : "Rest"} active={resting} onPress={() => onCmd(resting ? "stand" : "rest")} />}
         {!inCombat && <ToolButton label="Recall" onPress={() => onCmd("recall")} />}
         <ToolButton label="Log" active={panel === "log"} onPress={() => toggle("log")} />
         <View style={{ flex: 1 }} />
