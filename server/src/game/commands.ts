@@ -172,6 +172,26 @@ function doMove(ctx: CommandContext, dir: string): void {
   const dest = ctx.world.getRoom(exit.toVnum);
   if (!dest) return out(ctx.player, "&RThe way leads out of the known world for now.&D");
 
+  // Entry blocks (§3.1): private/solitary rooms have a capacity, and crossing into an area whose
+  // hard level range excludes you is barred. Staff walk anywhere. Returns a reason, or null.
+  const entryBlock = (character: typeof ch, staff: boolean): string | null => {
+    if (staff) return null;
+    const occ = ctx.live.roomPlayers(dest.vnum).length;
+    if (dest.roomFlags.includes("solitary") && occ >= 1) return "That room is occupied — it holds only one.";
+    if (dest.roomFlags.includes("private") && occ >= 2) return "That room is private right now.";
+    if (dest.area !== room?.area) {
+      const lr = ctx.world.areas.get(dest.area)?.levelRange;
+      if (lr) {
+        const lvl = effectiveLevel(character);
+        if (lvl < lr.hardLow) return "You aren't ready to walk that path yet.";
+        if (lvl > lr.hardHigh) return "That path holds nothing more for one of your power.";
+      }
+    }
+    return null;
+  };
+  const blocked = entryBlock(ch, isStaff(ctx.account.roles));
+  if (blocked) return out(ctx.player, `&R${blocked}&D`);
+
   // Each step spends `move` by the room's sector cost, scaled by how loaded you are (§3.1).
   const from = ch.roomVnum;
   const cost = moveCost(room?.sector ?? "inside", currentWeight(ctx), carryLimits(ch).maxWeight);
@@ -190,6 +210,8 @@ function doMove(ctx: CommandContext, dir: string): void {
     for (const p of groupInRoom(ctx.live, ch, from)) {
       if (p === ctx.player || p.character.groupLeaderId !== ch.id || p.fighter?.fighting) continue;
       const pc = p.character;
+      const pBlock = entryBlock(pc, isStaff(p.account?.roles ?? []));
+      if (pBlock) { out(p, `&R${pBlock}&D`); continue; }
       const pCost = moveCost(room?.sector ?? "inside", currentWeight(ctx, pc), carryLimits(pc).maxWeight);
       if (pc.move < pCost) { out(p, `&RYou are too exhausted to follow ${esc(ch.name)}.&D`); continue; }
       pc.move -= pCost;

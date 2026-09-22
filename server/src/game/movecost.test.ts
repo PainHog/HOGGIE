@@ -23,15 +23,21 @@ import type { StaffAccount } from "./roles.ts";
 const ROOM = 10300, HEAVY = 970900;
 const CONFIG: AppConfig = { port: 0, contentDir: "", worldAreas: ["drazuni.are"], startRoom: ROOM, adminEmails: [], supabase: {} };
 
-let world: World, exitDir: string, sector0: string;
+let world: World, exitDir: string, destVnum: number, sector0: string, destArea0: string, destFlags0: string[];
 beforeAll(async () => {
   world = await loadWorld(DEFAULT_CONTENT_DIR, ["drazuni.are"]);
-  exitDir = world.getRoom(ROOM)!.exits.find((e) => world.getRoom(e.toVnum))!.dir;
+  const e = world.getRoom(ROOM)!.exits.find((x) => world.getRoom(x.toVnum))!;
+  exitDir = e.dir; destVnum = e.toVnum;
   sector0 = world.getRoom(ROOM)!.sector;
+  destArea0 = world.getRoom(destVnum)!.area;
+  destFlags0 = [...world.getRoom(destVnum)!.roomFlags];
   const heavy: ObjPrototype = { vnum: HEAVY, area: "t", keywords: "anvil", shortDesc: "an anvil", description: "", actionDesc: "", itemType: "trash", extraFlags: [], wearFlags: ["take"], values: [0, 0, 0, 0, 0], weight: 180, cost: 1, affects: [] };
   world.objPrototypes.set(HEAVY, heavy);
 });
-beforeEach(() => { world.getRoom(ROOM)!.sector = "field"; }); // field = cost 2
+beforeEach(() => {
+  world.getRoom(ROOM)!.sector = "field"; // field = cost 2
+  const d = world.getRoom(destVnum)!; d.area = destArea0; d.roomFlags = [...destFlags0]; // reset dest between tests
+});
 function reset() { world.getRoom(ROOM)!.sector = sector0; }
 
 function setup() {
@@ -86,5 +92,38 @@ describe("moving spends move", () => {
     dispatchCommand(s.ctx, exitDir);
     expect(s.ch.roomVnum).toBe(ROOM); // stayed put
     expect(text(s.recv)).toContain("too exhausted");
+  });
+});
+
+describe("entry blocks", () => {
+  let n = 0;
+  const bystander = (s: ReturnType<typeof setup>, vnum: number) => {
+    const ch = createCharacter(world, { id: `00000000-0000-0000-0000-0000000byst${n++}`, accountId: "acc", name: `Bystander${n}`, raceId: 0, classId: 3, startRoom: vnum });
+    s.live.enter({ character: ch, send: () => {} });
+  };
+
+  it("a solitary room admits only one", () => {
+    const s = setup();
+    world.getRoom(destVnum)!.roomFlags = ["solitary"];
+    bystander(s, destVnum); // someone is already in there
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // couldn't enter the occupied solitary room
+  });
+
+  it("a private room admits two, not three", () => {
+    const s = setup();
+    world.getRoom(destVnum)!.roomFlags = ["private"];
+    bystander(s, destVnum); bystander(s, destVnum); // already two inside
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // the third is turned away
+  });
+
+  it("a cross-area level gate bars the unready", () => {
+    const s = setup();
+    world.getRoom(destVnum)!.area = "GATED.are"; // pretend the next room is a different, high-level area
+    world.areas.set("GATED.are", { file: "GATED.are", name: "Gated", author: "", version: 1, levelRange: { softLow: 40, softHigh: 50, hardLow: 40, hardHigh: 50 } });
+    expect(s.ch.level).toBeLessThan(40);
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // too low-level to enter that area
   });
 });
