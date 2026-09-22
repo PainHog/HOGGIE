@@ -475,8 +475,8 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly the leader can declare war or peace.&D");
     if (!rest) return out(ctx.player, `${cap(sub)} on which clan?`);
     if (rest.toLowerCase() === ch.clan.name.toLowerCase()) return out(ctx.player, "&RYou can't war your own clan.&D");
-    if (sub === "war") { declareWar(ch.clan.name, rest); out(ctx.player, `&R${esc(ch.clan.name)} is now at WAR with ${esc(rest)}! Their members are fair game anywhere but sanctuaries.&D`); }
-    else { endWar(ch.clan.name, rest); out(ctx.player, `&Y${esc(ch.clan.name)} makes peace with ${esc(rest)}.&D`); }
+    if (sub === "war") { declareWar(ch.clan.name, rest); if (ctx.db) void ctx.db.addClanWar(ch.clan.name, rest).catch(() => {}); out(ctx.player, `&R${esc(ch.clan.name)} is now at WAR with ${esc(rest)}! Their members are fair game anywhere but sanctuaries.&D`); }
+    else { endWar(ch.clan.name, rest); if (ctx.db) void ctx.db.removeClanWar(ch.clan.name, rest).catch(() => {}); out(ctx.player, `&Y${esc(ch.clan.name)} makes peace with ${esc(rest)}.&D`); }
     for (const p of clanOnline(ctx.live, ch.clan.name)) if (p !== ctx.player) out(p, sub === "war" ? `&RYour clan is now at war with ${esc(rest)}.&D` : `&YYour clan is at peace with ${esc(rest)}.&D`);
     return;
   }

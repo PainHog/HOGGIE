@@ -31,10 +31,13 @@ const foe: MobPrototype = {
   gold: 0, exp: 0, position: "standing", defaultPosition: "standing", sex: "neutral",
   resistant: [], immune: [], susceptible: [], specialAttacks: [], specialDefenses: [],
 };
+// Same foe but carrying coins — for the gold-split tests (101 = an odd sum, so a remainder exists).
+const richFoe: MobPrototype = { ...foe, vnum: 999601, keywords: "richfoe", shortDesc: "a rich foe", gold: 101 };
 
 beforeAll(async () => {
   world = await loadWorld(DEFAULT_CONTENT_DIR, ["drazuni.are"]);
   world.mobPrototypes.set(foe.vnum, foe);
+  world.mobPrototypes.set(richFoe.vnum, richFoe);
   const e = world.getRoom(ROOM)!.exits.find((x) => world.getRoom(x.toVnum))!;
   exitDir = e.dir; exitDest = e.toVnum;
 });
@@ -90,6 +93,32 @@ describe("shared xp", () => {
     const s0 = solo.a.ch.exp;
     killFoe(solo);
     expect(aGain).toBeLessThan(solo.a.ch.exp - s0); // grouped share < full solo xp
+  });
+});
+
+describe("shared gold", () => {
+  function killRich(s: ReturnType<typeof setup>) {
+    const mob = spawnMob(richFoe, ROOM);
+    mob.hp = mob.maxHp = 1;
+    s.live.addMob(mob);
+    for (let i = 0; i < 20 && mob.hp > 0; i++) s.combat.oneHit(s.a.fighter, s.combat.fighterForMob(mob));
+  }
+
+  it("splits a mob's gold across the group; the killer keeps the remainder", () => {
+    const s = setup();
+    dispatchCommand(s.a.ctx, "group Bravo");
+    killRich(s);
+    // 101 gold, 2 members: 50 each + a 1-coin remainder to the killer (Alpha)
+    expect(s.a.ch.gold).toBe(51);
+    expect(s.b.ch.gold).toBe(50);
+    expect(s.a.ch.gold + s.b.ch.gold).toBe(101);
+  });
+
+  it("a solo killer keeps all the gold", () => {
+    const s = setup();
+    killRich(s);
+    expect(s.a.ch.gold).toBe(101);
+    expect(s.b.ch.gold).toBe(0);
   });
 });
 

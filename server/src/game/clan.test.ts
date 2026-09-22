@@ -14,7 +14,7 @@ import { CombatManager } from "./combat.ts";
 import { Economy } from "./economy.ts";
 import { PlayerFighter } from "./fighter.ts";
 import { Rng } from "./rng.ts";
-import { CLAN_COST_GLORY } from "./clans.ts";
+import { CLAN_COST_GLORY, atWar, endWar, loadWars } from "./clans.ts";
 import { ClanStore, type ClanRecord } from "./clanStore.ts";
 import type { Db } from "../db/repos.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
@@ -167,6 +167,31 @@ describe("clan hall + bank", () => {
     expect(s.a.ch.roomVnum).toBe(dest);
     dispatchCommand(s.a.ctx, "clan home"); await tick();
     expect(s.a.ch.roomVnum).toBe(ROOM); // back at the hall
+  });
+});
+
+describe("clan war persistence", () => {
+  const tick = () => new Promise((r) => setTimeout(r, 0));
+
+  it("loadWars hydrates the registry so wars survive a restart", () => {
+    loadWars([["ashen", "gilded"]]); // as if read from the clan_wars table on startup
+    expect(atWar("Ashen", "Gilded")).toBe(true);
+    endWar("ashen", "gilded"); // clean up the module-global registry
+  });
+
+  it("declaring and ending war writes through to the DB", async () => {
+    const s = setup();
+    const calls: string[] = [];
+    const fakeDb = {
+      addClanWar: async (a: string, b: string) => { calls.push(`+${a}/${b}`); },
+      removeClanWar: async (a: string, b: string) => { calls.push(`-${a}/${b}`); },
+    } as unknown as Db;
+    s.a.ch.clan = { name: "Reds", rank: "leader" };
+    const ctx = { ...s.a.ctx, db: fakeDb };
+    dispatchCommand(ctx, "clan war Blues"); await tick();
+    dispatchCommand(ctx, "clan peace Blues"); await tick();
+    expect(calls).toEqual(["+Reds/Blues", "-Reds/Blues"]);
+    endWar("Reds", "Blues"); // clean up
   });
 });
 

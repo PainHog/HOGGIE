@@ -501,12 +501,25 @@ export class CombatManager {
     if (killer.isPlayer) {
       const killerF = killer as PlayerFighter;
       const ch = killerF.character;
-      const gold = mob.proto.gold;
-      ch.gold += gold; // gold goes to the killer (a group can 'split' it — roadmap)
-      if (gold > 0) killer.send(`&YYou get ${gold} gold coins from the corpse of ${mobShort(mob)}.&D`);
 
-      // XP is shared among group members present in the room; a solo killer keeps it all.
+      // Group members present in the room share both the gold and the xp; a solo killer keeps it all.
       const sharers = this.xpSharers(killerF, room);
+
+      // Gold is divided evenly among the sharers; the killer keeps any remainder.
+      const gold = mob.proto.gold;
+      if (gold > 0) {
+        const each = Math.floor(gold / sharers.length);
+        const remainder = gold - each * sharers.length;
+        for (const f of sharers) {
+          const share = each + (f === killerF ? remainder : 0);
+          if (share <= 0) continue;
+          f.character.gold += share;
+          f.send(sharers.length > 1
+            ? `&YYour share of the spoils is ${share} gold coins.&D`
+            : `&YYou get ${share} gold coins from the corpse of ${mobShort(mob)}.&D`);
+        }
+      }
+
       const bonus = sharers.length > 1 ? 1.1 : 1; // grouping is a little more efficient
       for (const f of sharers) {
         const xp = Math.max(1, Math.floor((this.computeXp(f.character, mob) / sharers.length) * bonus));

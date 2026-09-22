@@ -16,6 +16,7 @@ import { LiveWorld } from "./game/liveWorld.ts";
 import { CombatManager } from "./game/combat.ts";
 import { Economy } from "./game/economy.ts";
 import { ClanStore } from "./game/clanStore.ts";
+import { loadWars } from "./game/clans.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -49,6 +50,11 @@ async function main(): Promise<void> {
   }
 
   const clanStore = new ClanStore(db);
+  // Hydrate the in-memory clan-war registry from the durable table so wars survive a restart.
+  if (db) {
+    try { loadWars(await db.listClanWars()); }
+    catch (e) { log.warn("could not load clan wars", { detail: String(e) }); }
+  }
   const services: GameServices = { config: cfg, world, live, auth, db, combat, economy, clanStore };
   const server: WsHandle = await startWsServer({
     port: cfg.port,

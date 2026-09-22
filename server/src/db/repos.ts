@@ -99,6 +99,11 @@ function characterToRow(ch: Character): Record<string, unknown> {
   };
 }
 
+/** Canonical war pair: both names lowercased and sorted, so each war maps to exactly one row. */
+function warPair(a: string, b: string): [string, string] {
+  return [a.toLowerCase(), b.toLowerCase()].sort() as [string, string];
+}
+
 export class Db {
   constructor(private readonly client: SupabaseClient) {}
 
@@ -197,6 +202,28 @@ export class Db {
   /** Create or update a clan's record (hall + bank). */
   async upsertClan(rec: { name: string; hallVnum: number | null; bank: number }): Promise<void> {
     const res = await this.client.from("clans").upsert({ name: rec.name, hall_vnum: rec.hallVnum, bank: rec.bank });
+    if (res.error) throw res.error;
+  }
+
+  /** Every clan war on record, as canonical [clanA, clanB] pairs (lowercased). Hydrates the runtime
+   *  war registry on startup so wars survive a restart (systems-spec §5). */
+  async listClanWars(): Promise<[string, string][]> {
+    const res = await this.client.from("clan_wars").select("clan_a, clan_b");
+    if (res.error) throw res.error;
+    return (res.data ?? []).map((r: Record<string, unknown>) => [String(r.clan_a), String(r.clan_b)] as [string, string]);
+  }
+
+  /** Record a war between two clans (idempotent; the pair is stored canonically). */
+  async addClanWar(a: string, b: string): Promise<void> {
+    const [clanA, clanB] = warPair(a, b);
+    const res = await this.client.from("clan_wars").upsert({ clan_a: clanA, clan_b: clanB });
+    if (res.error) throw res.error;
+  }
+
+  /** Clear a war between two clans. */
+  async removeClanWar(a: string, b: string): Promise<void> {
+    const [clanA, clanB] = warPair(a, b);
+    const res = await this.client.from("clan_wars").delete().eq("clan_a", clanA).eq("clan_b", clanB);
     if (res.error) throw res.error;
   }
 

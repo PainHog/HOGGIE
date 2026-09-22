@@ -70,3 +70,8 @@ export function endWar(a: string, b: string): void { wars.delete(warKey(a, b)); 
 export function atWar(a: string, b: string): boolean {
   return a.toLowerCase() !== b.toLowerCase() && wars.has(warKey(a, b));
 }
+
+/** Hydrate the war registry from persisted pairs (called once on server startup). */
+export function loadWars(pairs: Iterable<[string, string]>): void {
+  for (const [a, b] of pairs) wars.add(warKey(a, b));
+}
