@@ -48,3 +48,25 @@ export function clanNameTaken(live: LiveWorld, name: string): boolean {
 export function validClanName(name: string): boolean {
   return /^[A-Za-z][A-Za-z ]{1,18}[A-Za-z]$/.test(name);
 }
+
+export type ClanRank = "leader" | "officer" | "member";
+
+/** Rank ordering for management checks (higher outranks lower). */
+export function rankLevel(rank: ClanRank): number {
+  return rank === "leader" ? 3 : rank === "officer" ? 2 : 1;
+}
+
+/** Can `actor` manage (kick/promote/demote) a clanmate of `targetRank`? Must outrank them. */
+export function canManage(actorRank: ClanRank, targetRank: ClanRank): boolean {
+  return rankLevel(actorRank) > rankLevel(targetRank);
+}
+
+// --- clan wars (in-memory; two clans at war can fight without the PvP opt-in) ---
+const wars = new Set<string>();
+const warKey = (a: string, b: string) => [a.toLowerCase(), b.toLowerCase()].sort().join("\u0000");
+
+export function declareWar(a: string, b: string): void { wars.add(warKey(a, b)); }
+export function endWar(a: string, b: string): void { wars.delete(warKey(a, b)); }
+export function atWar(a: string, b: string): boolean {
+  return a.toLowerCase() !== b.toLowerCase() && wars.has(warKey(a, b));
+}

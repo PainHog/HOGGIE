@@ -40,7 +40,7 @@ function setup() {
     live.enter(player);
     const account: StaffAccount = { id: "acc", email: null, roles: ["player"], builderLowVnum: null, builderHighVnum: null };
     const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, db: null, quit: () => {} };
-    return { ch, player, recv, ctx };
+    return { ch, player, fighter, recv, ctx };
   };
   return { live, a: mk("Alpha", "00000000-0000-0000-0000-0000000c1aa1"), b: mk("Bravo", "00000000-0000-0000-0000-0000000c1bb2") };
 }
@@ -86,5 +86,47 @@ describe("membership", () => {
     s.a.ch.clan = { name: "Wolves", rank: "leader" };
     dispatchCommand(s.a.ctx, "clan leave");
     expect(s.a.ch.clan).toBeUndefined();
+  });
+});
+
+describe("ranks", () => {
+  function foundWith(s: ReturnType<typeof setup>) {
+    s.a.ch.glory = CLAN_COST_GLORY;
+    dispatchCommand(s.a.ctx, "clan create Wolves");
+    dispatchCommand(s.a.ctx, "clan invite Bravo");
+    dispatchCommand(s.b.ctx, "clan accept");
+  }
+
+  it("promote raises rank, and promoting to leader hands over the banner", () => {
+    const s = setup();
+    foundWith(s);
+    dispatchCommand(s.a.ctx, "clan promote Bravo"); // member -> officer
+    expect(s.b.ch.clan?.rank).toBe("officer");
+    dispatchCommand(s.a.ctx, "clan promote Bravo"); // officer -> leader (transfer)
+    expect(s.b.ch.clan?.rank).toBe("leader");
+    expect(s.a.ch.clan?.rank).toBe("officer"); // the old leader steps down
+  });
+
+  it("a leader kicks a member out", () => {
+    const s = setup();
+    foundWith(s);
+    dispatchCommand(s.a.ctx, "clan kick Bravo");
+    expect(s.b.ch.clan).toBeUndefined();
+  });
+});
+
+describe("clan war", () => {
+  it("lets rival clans fight without the PvP opt-in", () => {
+    const s = setup();
+    world.getRoom(ROOM)!.roomFlags = []; // not a sanctuary/arena
+    s.a.ch.clan = { name: "Reds", rank: "leader" };
+    s.b.ch.clan = { name: "Blues", rank: "leader" };
+    dispatchCommand(s.a.ctx, "kill Bravo");
+    expect(s.a.fighter.fighting).toBeNull(); // neither flagged, not at war -> refused
+
+    dispatchCommand(s.a.ctx, "clan war Blues");
+    dispatchCommand(s.a.ctx, "kill Bravo");
+    expect(s.a.fighter.fighting).toBe(s.b.fighter); // war = fair game
+    dispatchCommand(s.a.ctx, "clan peace Blues"); // clean up the module-global war registry
   });
 });

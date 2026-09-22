@@ -13,7 +13,8 @@ import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
 import {
-  CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, inviteToClan, pendingInvite, sameClan, validClanName,
+  atWar, canManage, CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, declareWar, endWar,
+  inviteToClan, pendingInvite, sameClan, validClanName, type ClanRank,
 } from "./clans.ts";
 import { groupInRoom, groupMembers, isGrouped, isLeader, leaveGroup, sameGroup } from "./groups.ts";
 import { RECALL_ROOM, type CombatManager } from "./combat.ts";
@@ -199,6 +200,8 @@ function pvpBlock(ctx: CommandContext, target: Player): string | null {
   if (flags.includes("safe")) return "This is a sanctuary — no fighting here.";
   if (sameGroup(ctx.player.character, target.character)) return "You can't attack a groupmate.";
   if (sameClan(ctx.player.character, target.character)) return "You can't raise a hand against a clanmate.";
+  const myClan = ctx.player.character.clan?.name, theirClan = target.character.clan?.name;
+  if (myClan && theirClan && atWar(myClan, theirClan)) return null; // clan war = open season (sanctuaries still safe)
   if (flags.includes("arena")) return null; // arenas are free-for-all
   if (!ctx.player.character.pk || !target.character.pk) {
     return `${cap(target.character.name)} isn't open to player-combat — both of you need 'pkill' on, or fight in an arena.`;
@@ -309,8 +312,22 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
   if (!sub || sub === "status" || sub === "info" || sub === "who") {
     if (!ch.clan) return out(ctx.player, "&YYou are not in a clan. 'clan create <name>' to found one, or wait for an invite.&D");
     const members = clanOnline(ctx.live, ch.clan.name);
+    const rankTag = (r?: string) => (r && r !== "member" ? ` &Y(${r})&D` : "");
     const lines = [`&m--- ${esc(ch.clan.name)} ---&D`, `&mYou are its ${ch.clan.rank}. Online members (${members.length}):&D`];
-    for (const p of members) lines.push(`&m  ${esc(p.character.name)}${p.character.clan?.rank === "leader" ? " (leader)" : ""} — level ${p.character.level}&D`);
+    for (const p of members) lines.push(`&m  ${esc(p.character.name)}${rankTag(p.character.clan?.rank)} — level ${p.character.level}&D`);
+    lines.push("&d(clan roster / invite / accept / leave / kick / promote / demote / war <clan> / peace <clan>)&D");
+    return out(ctx.player, ...lines);
+  }
+
+  if (sub === "roster") {
+    if (!ch.clan) return out(ctx.player, "&RYou aren't in a clan.&D");
+    if (!ctx.db) { // no DB in this context — fall back to the online roster
+      const members = clanOnline(ctx.live, ch.clan.name);
+      return out(ctx.player, `&m${esc(ch.clan.name)} online: ${members.map((p) => esc(p.character.name)).join(", ") || "(none)"}&D`);
+    }
+    const all = await ctx.db.charactersInClan(ch.clan.name).catch(() => []);
+    const lines = [`&m--- ${esc(ch.clan.name)} full roster (${all.length}) ---&D`];
+    for (const m of all) lines.push(`&m  ${esc(m.name)}${m.rank !== "member" ? ` &Y(${m.rank})&D&m` : ""} — level ${m.level}&D`);
     return out(ctx.player, ...lines);
   }
 
@@ -328,7 +345,7 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
   }
 
   if (sub === "invite") {
-    if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly a clan leader can invite.&D");
+    if (!ch.clan || (ch.clan.rank !== "leader" && ch.clan.rank !== "officer")) return out(ctx.player, "&ROnly a clan leader or officer can invite.&D");
     const target = ctx.live.roomPlayers(ch.roomVnum).find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(rest.toLowerCase()));
     if (!target) return out(ctx.player, "&RThey aren't here.&D");
     if (target.character.clan) return out(ctx.player, "&RThey already belong to a clan.&D");
@@ -362,7 +379,50 @@ async function doClan(ctx: CommandContext, arg: string): Promise<void> {
     return;
   }
 
-  out(ctx.player, "&YClan: 'clan' (status) · 'clan create <name>' · 'clan invite <player>' · 'clan accept' · 'clan leave' · 'ctalk <msg>'.&D");
+  // The remaining subcommands act on a named clanmate (present online).
+  const clanmate = (kw: string) => clanOnline(ctx.live, ch.clan?.name ?? "").find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(kw.toLowerCase()));
+
+  if (sub === "kick") {
+    if (!ch.clan || (ch.clan.rank !== "leader" && ch.clan.rank !== "officer")) return out(ctx.player, "&ROnly a leader or officer can kick.&D");
+    const target = clanmate(rest);
+    if (!target) return out(ctx.player, "&RNo clanmate by that name is online.&D");
+    if (!canManage(ch.clan.rank, target.character.clan!.rank)) return out(ctx.player, "&RYou can't kick someone of that rank.&D");
+    target.character.clan = undefined;
+    out(ctx.player, `&YYou expel ${esc(target.character.name)} from ${esc(ch.clan.name)}.&D`);
+    out(target, `&RYou have been expelled from the clan.&D`);
+    sendVitals(ctx.world, target); if (ctx.db) void ctx.db.saveCharacter(target.character).catch(() => {});
+    return;
+  }
+
+  if (sub === "promote" || sub === "demote") {
+    if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly the leader can change ranks.&D");
+    const target = clanmate(rest);
+    if (!target || !target.character.clan) return out(ctx.player, "&RNo clanmate by that name is online.&D");
+    const cur = target.character.clan.rank;
+    let next: ClanRank | null = null;
+    if (sub === "promote") next = cur === "member" ? "officer" : cur === "officer" ? "leader" : null;
+    else next = cur === "leader" ? "officer" : cur === "officer" ? "member" : null;
+    if (!next) return out(ctx.player, `&R${esc(target.character.name)} can't be ${sub}d any further.&D`);
+    target.character.clan = { name: ch.clan.name, rank: next };
+    // Promoting someone to leader hands over the banner — the old leader steps down to officer.
+    if (next === "leader") ch.clan = { name: ch.clan.name, rank: "officer" };
+    out(ctx.player, `&mYou ${sub} ${esc(target.character.name)} to ${next}.&D`);
+    out(target, `&mYou are now a ${next} of ${esc(ch.clan.name)}.&D`);
+    if (ctx.db) { void ctx.db.saveCharacter(ch).catch(() => {}); void ctx.db.saveCharacter(target.character).catch(() => {}); }
+    return;
+  }
+
+  if (sub === "war" || sub === "peace") {
+    if (ch.clan?.rank !== "leader") return out(ctx.player, "&ROnly the leader can declare war or peace.&D");
+    if (!rest) return out(ctx.player, `${cap(sub)} on which clan?`);
+    if (rest.toLowerCase() === ch.clan.name.toLowerCase()) return out(ctx.player, "&RYou can't war your own clan.&D");
+    if (sub === "war") { declareWar(ch.clan.name, rest); out(ctx.player, `&R${esc(ch.clan.name)} is now at WAR with ${esc(rest)}! Their members are fair game anywhere but sanctuaries.&D`); }
+    else { endWar(ch.clan.name, rest); out(ctx.player, `&Y${esc(ch.clan.name)} makes peace with ${esc(rest)}.&D`); }
+    for (const p of clanOnline(ctx.live, ch.clan.name)) if (p !== ctx.player) out(p, sub === "war" ? `&RYour clan is now at war with ${esc(rest)}.&D` : `&YYour clan is at peace with ${esc(rest)}.&D`);
+    return;
+  }
+
+  out(ctx.player, "&YClan: status · create <name> · invite/accept · leave · roster · kick <p> · promote/demote <p> · war/peace <clan> · ctalk <msg>.&D");
 }
 
 /**

@@ -185,6 +185,23 @@ export class Db {
     if (res.error) throw res.error;
   }
 
+  /** All members of a clan (online + offline), for a full roster. */
+  async charactersInClan(clanName: string): Promise<{ name: string; level: number; rank: string }[]> {
+    const res = await this.client
+      .from("characters")
+      .select("name, level, clan")
+      .eq("deleted", false)
+      .filter("clan->>name", "eq", clanName)
+      .order("level", { ascending: false })
+      .limit(200);
+    if (res.error) throw res.error;
+    return (res.data ?? []).map((r: Record<string, unknown>) => ({
+      name: r.name as string,
+      level: r.level as number,
+      rank: ((r.clan as { rank?: string } | null)?.rank) ?? "member",
+    }));
+  }
+
   /** Write-behind save of the mutable character state. */
   async saveCharacter(ch: Character): Promise<void> {
     const row = characterToRow(ch);
