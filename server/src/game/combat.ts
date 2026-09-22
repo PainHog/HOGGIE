@@ -581,14 +581,23 @@ export class CombatManager {
     if (this.db) void this.db.saveCharacter(ch).catch(() => {});
   }
 
-  /** exp per kill (systems-spec §2.2). */
+  /**
+   * exp per kill (systems-spec §2.2, retuned for a playable curve). The level^3 exp-to-level curve
+   * (§2.1) is steep, so a kill is worth ~mob.level*(12+mob.level) — roughly quadratic in the mob's
+   * level — keeping kills-per-level bounded (~60–125) across the whole range instead of exploding.
+   * A level-difference modifier rewards fighting up and starves grossly-under-level farming.
+   */
   private computeXp(ch: Character, mob: MobInstance): number {
-    let xp = (mob.proto.level - ch.level + 10) * 10 + mob.proto.level * 2;
-    xp += ch.alignment !== mob.proto.alignment ? 25 : -25;
+    const lvl = Math.max(1, mob.proto.level);
+    const diff = mob.proto.level - ch.level;
+    let xp = lvl * (12 + lvl); // base scales with the mob's own level
+    const mod = Math.max(0.25, Math.min(2, 1 + diff * 0.08)); // +8%/level above you (cap 2x), floor 0.25x
+    xp = Math.floor(xp * mod);
+    xp += ch.alignment !== mob.proto.alignment ? 25 : -25; // opposed alignment is worth a little more
     const race = this.world.races.get(ch.raceId);
     if (race) xp = Math.floor((xp * race.expMultPct) / 100);
     xp += this.rng.range(-15, 30);
-    if (mob.proto.level - ch.level < -9) xp = 1;
+    if (diff < -9) xp = Math.max(1, Math.floor(xp * 0.1)); // grossly under-level = scraps
     return Math.max(1, xp);
   }
 
