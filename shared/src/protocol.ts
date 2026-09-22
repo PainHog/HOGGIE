@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 8 as const;
+export const PROTOCOL_VERSION = 9 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -150,6 +150,8 @@ export interface Catalog {
 export interface RoomExit {
   dir: string;
   toVnum: number;
+  /** A closed door blocks this exit until opened (systems-spec §4.7). */
+  closed?: boolean;
 }
 
 /**

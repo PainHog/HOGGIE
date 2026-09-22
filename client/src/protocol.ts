@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 8;
+export const PROTOCOL_VERSION = 9;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -44,6 +44,8 @@ export interface Catalog {
 export interface RoomExit {
   dir: string;
   toVnum: number;
+  /** A closed door blocks this exit until opened. */
+  closed?: boolean;
 }
 
 export interface RoomMob {

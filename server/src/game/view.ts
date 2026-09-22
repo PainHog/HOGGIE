@@ -38,7 +38,10 @@ export function buildRoomView(live: LiveWorld, viewer: Player): RoomView {
     vnum: ch.roomVnum,
     name: room?.name ?? "The Void",
     sector: room?.sector ?? "inside",
-    exits: room ? room.exits.map((e) => ({ dir: e.dir, toVnum: e.toVnum })) : [],
+    exits: room ? room.exits.map((e) => {
+      const closed = live.doorAt(ch.roomVnum, e.dir)?.closed;
+      return closed ? { dir: e.dir, toVnum: e.toVnum, closed: true } : { dir: e.dir, toVnum: e.toVnum };
+    }) : [],
     players: others,
     mobs,
     items,
@@ -56,7 +59,8 @@ export function lookLines(live: LiveWorld, viewer: Player): Line[] {
   }
   lines.push(parseColorSpans("&Y" + esc(room.name) + "&D"));
   for (const l of toLines(room.description)) lines.push(l);
-  const exits = room.exits.map((e) => e.dir);
+  // Closed doors show in parentheses so a player sees them without walking into them.
+  const exits = room.exits.map((e) => (live.doorAt(ch.roomVnum, e.dir)?.closed ? `(${e.dir})` : e.dir));
   lines.push(parseColorSpans("&c[Exits: " + (exits.length ? exits.join(" ") : "none") + "]&D"));
   for (const p of live.roomPlayers(ch.roomVnum)) {
     if (p === viewer) continue;

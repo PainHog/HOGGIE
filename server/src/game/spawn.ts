@@ -8,6 +8,7 @@ import { log } from "../log.ts";
 import type { ObjPrototype } from "../world/model.ts";
 import type { ItemInstance } from "./character.ts";
 import type { LiveWorld } from "./liveWorld.ts";
+import { initDoors } from "./doors.ts";
 import { makeFixedGroundItem } from "./ground.ts";
 import { containerInfo, isContainer } from "./items.ts";
 import { spawnMob } from "./mobInstance.ts";
@@ -76,10 +77,12 @@ function placeObjects(live: LiveWorld): void {
   if (placed > 0) log.debug("placed reset objects", { placed });
 }
 
-/** Repop: top up mob spawns toward their max (objects are not re-placed). Called on the repop tick. */
+/** Repop: top up mob spawns toward their max and re-close doors to their reset state (objects are
+ *  not re-placed). Called on the repop tick — the world's periodic "area reset". */
 export function repopWorld(live: LiveWorld): number {
   const before = live.allMobs().length;
   populateWorld(live, { objects: false });
+  initDoors(live); // doors reset to their content/reset state, re-closing any a player left open
   const added = live.allMobs().length - before;
   if (added > 0) log.debug("repop added mobs", { added });
   return added;

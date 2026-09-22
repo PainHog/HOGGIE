@@ -17,6 +17,8 @@ import { PlayerFighter } from "./fighter.ts";
 import { Rng } from "./rng.ts";
 import { ClanStore } from "./clanStore.ts";
 import { initDoors } from "./doors.ts";
+import { repopWorld } from "./spawn.ts";
+import { buildRoomView } from "./view.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
@@ -77,5 +79,21 @@ describe("doors", () => {
 
     dispatchCommand(s.ctx, "close down"); // close the same door from the other side
     expect(s.live.doorAt(ROOM, "up")!.closed).toBe(true); // shut on the original side too
+  });
+
+  it("a closed door shows in the room view exits", () => {
+    const s = setup();
+    const rv = buildRoomView(s.live, s.ctx.player);
+    expect(rv.exits.find((e) => e.dir === "up")?.closed).toBe(true);
+  });
+
+  it("repop re-closes a door a player left open", () => {
+    const s = setup();
+    s.ch.inventory.push({ vnum: KEY });
+    dispatchCommand(s.ctx, "unlock up");
+    dispatchCommand(s.ctx, "open up");
+    expect(s.live.doorAt(ROOM, "up")!.closed).toBe(false);
+    repopWorld(s.live); // the periodic area reset
+    expect(s.live.doorAt(ROOM, "up")!.closed).toBe(true);
   });
 });

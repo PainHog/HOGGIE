@@ -28,7 +28,7 @@ const GRID: (string | null)[][] = [
   ["southwest", "south", "southeast"],
 ];
 
-function CompassCell({ dir, has, onMove }: { dir: string | null; has: Set<string>; onMove: (d: string) => void }) {
+function CompassCell({ dir, has, closed, onMove }: { dir: string | null; has: Set<string>; closed: Set<string>; onMove: (d: string) => void }) {
   if (!dir) {
     return (
       <View style={[styles.compassCell, styles.compassHub]}>
@@ -43,20 +43,21 @@ function CompassCell({ dir, has, onMove }: { dir: string | null; has: Set<string
       onPress={() => onMove(DIR_CMD[dir]!)}
       style={({ pressed }) => [styles.compassCell, active ? styles.compassOn : styles.compassOff, pressed && active && styles.compassPress]}
     >
-      <Text style={[styles.compassLabel, !active && { color: theme.panelBorder }]}>{DIR_LABEL[dir]}</Text>
+      <Text style={[styles.compassLabel, !active && { color: theme.panelBorder }, active && closed.has(dir) && { color: theme.gold }]}>{DIR_LABEL[dir]}</Text>
     </Pressable>
   );
 }
 
 function Compass({ exits, onMove }: { exits: RoomView["exits"]; onMove: (d: string) => void }) {
   const has = new Set(exits.map((e) => e.dir));
+  const closed = new Set(exits.filter((e) => e.closed).map((e) => e.dir)); // closed doors, marked in gold
   const vert = ["up", "down"].filter((d) => has.has(d));
   return (
     <View style={styles.compass}>
       {GRID.map((row, r) => (
         <View key={r} style={styles.compassRow}>
           {row.map((dir, c) => (
-            <CompassCell key={c} dir={dir} has={has} onMove={onMove} />
+            <CompassCell key={c} dir={dir} has={has} closed={closed} onMove={onMove} />
           ))}
         </View>
       ))}
@@ -68,11 +69,11 @@ function Compass({ exits, onMove }: { exits: RoomView["exits"]; onMove: (d: stri
             onPress={() => onMove(DIR_CMD[d]!)}
             style={({ pressed }) => [styles.vertBtn, has.has(d) ? styles.compassOn : styles.compassOff, pressed && has.has(d) && styles.compassPress]}
           >
-            <Text style={[styles.compassLabel, !has.has(d) && { color: theme.panelBorder }]}>{DIR_LABEL[d]}{has.has(d) ? "" : ""}</Text>
+            <Text style={[styles.compassLabel, !has.has(d) && { color: theme.panelBorder }, has.has(d) && closed.has(d) && { color: theme.gold }]}>{DIR_LABEL[d]}</Text>
           </Pressable>
         ))}
       </View>
-      <Text style={styles.compassHint}>{vert.length ? "walk · up/down too" : "walk"}</Text>
+      <Text style={styles.compassHint}>{closed.size ? "walk · gold = closed door" : vert.length ? "walk · up/down too" : "walk"}</Text>
     </View>
   );
 }
