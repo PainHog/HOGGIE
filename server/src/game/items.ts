@@ -7,6 +7,17 @@
  */
 import type { AffectMods } from "./affects.ts";
 import type { ObjPrototype } from "../world/model.ts";
+import type { ItemInstance } from "./character.ts";
+
+/** Total weight of a set of items, including a container's nested contents. */
+export function totalWeight(items: ItemInstance[], getProto: (vnum: number) => ObjPrototype | undefined): number {
+  let w = 0;
+  for (const it of items) {
+    w += Math.max(0, getProto(it.vnum)?.weight ?? 0);
+    if (it.contents?.length) w += totalWeight(it.contents, getProto);
+  }
+  return w;
+}
 
 /** SMAUG wear-flag → the equipment slot we key gear by (one item per slot). */
 const WEAR_SLOTS = new Set([

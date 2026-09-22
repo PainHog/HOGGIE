@@ -7,7 +7,7 @@ import type { AppConfig } from "../config.ts";
 import type { World } from "../world/world.ts";
 import type { SkillDef } from "../world/model.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
-import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
+import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
@@ -23,7 +23,7 @@ import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import { applyAffect } from "./affects.ts";
 import { buffAffect, spellHeal } from "./spellbook.ts";
-import { containerInfo, equipStats, isContainer } from "./items.ts";
+import { containerInfo, equipStats, isContainer, totalWeight } from "./items.ts";
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
@@ -642,7 +642,8 @@ function doScore(ctx: CommandContext): void {
     `&Y${esc(c.name)}&D, level &W${c.level}&D ${raceName(ctx.world, c)} ${className(ctx.world, c)}${dualClassName(ctx.world, c) ? `/${dualClassName(ctx.world, c)}` : ""}${isTiered(c) ? ` &Y[Tier ${c.tier}, eff L${effectiveLevel(c)}]&D` : ""}`,
     `&wHP &G${c.hp}&w/&G${c.maxHp}&D   Mana &C${c.mana}&w/&C${c.maxMana}&D   Move &Y${c.move}&w/&Y${c.maxMove}&D`,
     `&wSTR ${c.stats.str}  INT ${c.stats.int}  WIS ${c.stats.wis}  DEX ${c.stats.dex}  CON ${c.stats.con}  CHA ${c.stats.cha}  &YLCK ${c.stats.lck}&D`,
-    `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   &YGlory ${c.glory}&D   Practices ${c.practices}   Align ${c.alignment}   Stance ${c.position}&D`,
+    `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   &YGlory ${c.glory}&D   Practices ${c.practices}   Carry &W${currentWeight(ctx)}&w/${carryLimits(c).maxWeight}&D`,
+    `&wAlign ${c.alignment}   Stance ${c.position}&D`,
     c.quest
       ? `&wQuest: &Y${(c.quest.type ?? "hunt") === "fetch" ? `fetch ${esc(c.quest.itemName ?? "an item")}` : `${c.quest.killed}/${c.quest.count} ${esc(c.quest.mobName)}`}${questFulfilled(c.quest, c) ? " (done — turn in)" : ""}&D`
       : "&wQuest: &dnone (ask a questmaster)&D",
@@ -705,6 +706,10 @@ async function doBuy(ctx: CommandContext, arg: string): Promise<void> {
   const p = ctx.world.getObjPrototype(vnum)!;
   const total = buyPrice(p, keeper.shop, ch.stats.cha) * qty;
   if (ch.gold < total) return out(ctx.player, `&RYou can't afford that — ${total} gold for ${qty} (you have ${ch.gold}).&D`);
+  const { maxWeight, maxItems } = carryLimits(ch);
+  if (ch.inventory.length + qty > maxItems || currentWeight(ctx) + Math.max(0, p.weight) * qty > maxWeight) {
+    return out(ctx.player, "&RYou couldn't carry that — too heavy or too full.&D");
+  }
   ch.gold -= total;
   for (let i = 0; i < qty; i++) ch.inventory.push({ vnum });
   const area = ctx.world.getRoom(ch.roomVnum)?.area;
@@ -749,6 +754,22 @@ const SLOT_LABEL: Record<string, string> = {
   wield: "wielded", dual_wield: "dual-wielded", hold: "held", light: "as a light",
 };
 const short = (ctx: CommandContext, vnum: number) => ctx.world.getObjPrototype(vnum)?.shortDesc ?? `item ${vnum}`;
+
+/** Current weight the character carries (pack + worn gear + any container contents). */
+function currentWeight(ctx: CommandContext): number {
+  const ch = ctx.player.character;
+  const getP = (v: number) => ctx.world.getObjPrototype(v);
+  return totalWeight(ch.inventory, getP) + totalWeight(Object.values(ch.equipment), getP);
+}
+
+/** Can the character pick up one more item of this vnum without overloading? (systems-spec §4.6) */
+function canCarryMore(ctx: CommandContext, vnum: number): boolean {
+  const ch = ctx.player.character;
+  const { maxWeight, maxItems } = carryLimits(ch);
+  if (ch.inventory.length >= maxItems) return false;
+  const w = Math.max(0, ctx.world.getObjPrototype(vnum)?.weight ?? 0);
+  return currentWeight(ctx) + w <= maxWeight;
+}
 
 function pushGear(ctx: CommandContext): void {
   sendEquipment(ctx.world, ctx.player);
@@ -839,14 +860,16 @@ function doGet(ctx: CommandContext, arg: string): void {
   const wantAll = whatKw === "all";
   const targets = wantAll ? [...ground] : ground.filter((g) => matchInv(ctx, g.vnum, whatKw)).slice(0, 1);
   if (targets.length === 0) return out(ctx.player, "&RYou don't see that here.&D");
-  let got = 0;
+  let got = 0, blocked = false;
   for (const g of targets) {
+    if (!canCarryMore(ctx, g.vnum)) { blocked = true; break; }
     const taken = ctx.live.takeGround(ch.roomVnum, g.id);
     if (!taken) continue;
     ch.inventory.push({ vnum: taken.vnum });
     out(ctx.player, `&YYou pick up ${esc(short(ctx, taken.vnum))}.&D`);
     got++;
   }
+  if (blocked) out(ctx.player, "&RYou can't carry any more — too heavy or too full.&D");
   if (got > 0) afterGround(ctx);
 }
 
@@ -863,22 +886,22 @@ function doLoot(ctx: CommandContext, arg: string): void {
 function takeFromCorpse(ctx: CommandContext, corpse: Corpse, whatKw: string): void {
   const ch = ctx.player.character;
   const wantAll = !whatKw || whatKw === "all";
-  const taken: number[] = [];
   const keep: ItemInstance[] = [];
+  let took = 0, blocked = false;
   for (const it of corpse.contents) {
-    const match = wantAll || matchInv(ctx, it.vnum, whatKw);
-    if (match && (wantAll || taken.length === 0)) taken.push(it.vnum);
-    else keep.push(it);
+    const want = (wantAll || matchInv(ctx, it.vnum, whatKw)) && (wantAll || took === 0);
+    if (!want) { keep.push(it); continue; }
+    if (!canCarryMore(ctx, it.vnum)) { keep.push(it); blocked = true; continue; }
+    ch.inventory.push(it); // push as we go so the carry check sees the growing load
+    out(ctx.player, `&YYou get ${esc(short(ctx, it.vnum))} from ${esc(corpse.name)}.&D`);
+    took++;
   }
-  // Looting the whole corpse also scoops up any coins inside it.
+  // Looting the whole corpse also scoops up any coins inside it (gold has no weight).
   let gotGold = 0;
   if (wantAll && corpse.gold > 0) { gotGold = corpse.gold; ch.gold += corpse.gold; corpse.gold = 0; }
-  if (taken.length === 0 && gotGold === 0) return out(ctx.player, `&RThere's nothing like that in ${esc(corpse.name)}.&D`);
+  if (took === 0 && gotGold === 0) return out(ctx.player, blocked ? "&RYou can't carry any more — too heavy or too full.&D" : `&RThere's nothing like that in ${esc(corpse.name)}.&D`);
   corpse.contents = keep;
-  for (const vnum of taken) {
-    ch.inventory.push({ vnum });
-    out(ctx.player, `&YYou get ${esc(short(ctx, vnum))} from ${esc(corpse.name)}.&D`);
-  }
+  if (blocked) out(ctx.player, "&RYou can't carry any more — the rest stays behind.&D");
   if (gotGold > 0) out(ctx.player, `&YYou get ${gotGold} gold coins from ${esc(corpse.name)}.&D`);
   if (corpse.contents.length === 0 && corpse.gold === 0) ctx.live.removeCorpse(ch.roomVnum, corpse.id);
   afterGround(ctx);
@@ -1401,22 +1424,60 @@ function doCast(ctx: CommandContext, arg: string): void {
       break;
     }
     default: { // utility
-      doUtility(ctx, def);
+      doUtility(ctx, def, targetKw);
       break;
     }
   }
   sendVitals(ctx.world, ctx.player);
 }
 
-/** Minimal utility spells for now: recall/teleport move you; the rest report honestly. */
-function doUtility(ctx: CommandContext, def: SkillDef): void {
+/** An online player anywhere in the world, matched by name prefix. */
+function findOnline(ctx: CommandContext, kw: string): Player | undefined {
+  const lc = kw.toLowerCase();
+  return ctx.live.online().find((p) => p.character.name.toLowerCase().startsWith(lc));
+}
+
+/** Utility spells: recall/teleport move you; gate/portal step to a player; summon pulls one to you. */
+function doUtility(ctx: CommandContext, def: SkillDef, targetKw: string): void {
   const n = def.name.toLowerCase();
   const player = ctx.live.roomPlayers(ctx.fighter.roomVnum).find((p) => p.character.id === ctx.player.character.id) ?? ctx.player;
+  const isSafe = (vnum: number) => (ctx.world.getRoom(vnum)?.roomFlags ?? []).includes("safe");
+
   if (/recall/.test(n)) {
     if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't recall while fighting!&D");
     const dest = recallTarget(ctx);
     ctx.live.moveTo(player, dest);
     out(ctx.player, "&YYou pray for transport... the world blurs and you reappear at the temple.&D");
+    return sendRoom(ctx.live, ctx.player);
+  }
+  // gate / portal — open a gate to another player and step through.
+  if (/gate|portal/.test(n)) {
+    if (ctx.fighter.fighting) return out(ctx.player, "&RYou can't gate while fighting!&D");
+    if (!targetKw) return out(ctx.player, "&RGate to whom?&D");
+    const target = findOnline(ctx, targetKw);
+    if (!target || target.character.id === ctx.player.character.id) return out(ctx.player, "&RYou can't sense anyone by that name.&D");
+    if (isSafe(target.character.roomVnum)) return out(ctx.player, "&RA sanctuary repels your gate.&D");
+    ctx.live.broadcast(player.character.roomVnum, { t: "output", lines: [parseColorSpans(`&m${esc(player.character.name)} steps through a shimmering gate and is gone.&D`)] }, player);
+    ctx.live.moveTo(player, target.character.roomVnum);
+    out(ctx.player, `&mYou open a gate and step through to ${esc(target.character.name)}.&D`);
+    ctx.live.broadcast(target.character.roomVnum, { t: "output", lines: [parseColorSpans(`&m${esc(player.character.name)} arrives through a shimmering gate.&D`)] }, player);
+    return sendRoom(ctx.live, ctx.player);
+  }
+  // summon — pull a player to you.
+  if (/summon/.test(n)) {
+    if (!targetKw) return out(ctx.player, "&RSummon whom?&D");
+    const noSummon = (vnum: number) => { const f = ctx.world.getRoom(vnum)?.roomFlags ?? []; return f.includes("safe") || f.includes("nosummon"); };
+    const target = findOnline(ctx, targetKw);
+    if (!target || target.character.id === ctx.player.character.id) return out(ctx.player, "&RYou can't reach anyone by that name.&D");
+    if (target.fighter?.fighting) return out(ctx.player, "&RThey are too busy fighting to be summoned.&D");
+    if (noSummon(ctx.fighter.roomVnum)) return out(ctx.player, "&RYou can't summon here.&D");
+    if (noSummon(target.character.roomVnum)) return out(ctx.player, "&RThey are somewhere a summons can't reach.&D");
+    ctx.live.broadcast(target.character.roomVnum, { t: "output", lines: [parseColorSpans(`&m${esc(target.character.name)} is whisked away by a summoning.&D`)] }, target);
+    ctx.live.moveTo(target, ctx.fighter.roomVnum);
+    out(target, `&m${cap(ctx.fighter.name)} summons you!&D`);
+    out(ctx.player, `&mYou summon ${esc(target.character.name)} to your side.&D`);
+    ctx.live.broadcast(ctx.fighter.roomVnum, { t: "output", lines: [parseColorSpans(`&m${esc(target.character.name)} appears, summoned.&D`)] }, ctx.player);
+    sendRoom(ctx.live, target);
     return sendRoom(ctx.live, ctx.player);
   }
   if (/teleport/.test(n)) {
@@ -1437,7 +1498,7 @@ function doHelp(ctx: CommandContext): void {
     "&Wlook&D (l)   move: &Wn s e w u d ne nw se sw&D",
     "&Wkill&D <mob> (k)   &Wflee&D   &Wconsider&D <mob> (con)",
     "&YStances:&D &Wberserk aggressive normal defensive evasive&D  (offense<->defense)",
-    "&Wrest sleep sit stand&D (regen when out of combat)   &Wrecall&D (return to your hearth)   &Wheal&D (at a healer)",
+    "&Wrest sleep sit stand&D   &Wrecall&D (hearth)   &Wheal&D (at a healer)   &Wcast gate&D/&Wsummon&D <player> (travel magic)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all]   &Wpractice&D <skill> (at a guildmaster)   &Wroles&D   &Whelp&D",
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
     "&Wget&D <item> [corpse/bag]   &Wput&D <item> <bag>   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget/put/drop all&D)",

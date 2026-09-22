@@ -206,6 +206,11 @@ export function createCharacter(world: World, input: CreateCharacterInput): Char
   };
 }
 
+/** Carry limits (systems-spec §4.6): STR drives max weight, level a modest item count. */
+export function carryLimits(ch: Character): { maxWeight: number; maxItems: number } {
+  return { maxWeight: 50 + ch.stats.str * 12, maxItems: 25 + Math.floor(ch.level / 3) };
+}
+
 /** exp needed to *reach* the given level: level^3 * 0.95 * class exp_base (systems-spec §2.1). */
 export function expToReach(world: World, classId: number, level: number): number {
   const base = world.classes.get(classId)?.expBasePerLevel ?? 100;
