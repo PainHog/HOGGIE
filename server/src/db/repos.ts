@@ -227,6 +227,21 @@ export class Db {
     if (res.error) throw res.error;
   }
 
+  /** Every OLC field override, replayed over the loaded world at boot (systems-spec §7). */
+  async listOverrides(): Promise<{ kind: string; vnum: number; field: string; value: string }[]> {
+    const res = await this.client.from("world_overrides").select("kind, vnum, field, value");
+    if (res.error) throw res.error;
+    return (res.data ?? []).map((r: Record<string, unknown>) => ({
+      kind: String(r.kind), vnum: Number(r.vnum), field: String(r.field), value: String(r.value),
+    }));
+  }
+
+  /** Write-through a single OLC field edit (idempotent per kind/vnum/field). */
+  async saveOverride(kind: string, vnum: number, field: string, value: string): Promise<void> {
+    const res = await this.client.from("world_overrides").upsert({ kind, vnum, field, value, updated_at: new Date().toISOString() });
+    if (res.error) throw res.error;
+  }
+
   /** All members of a clan (online + offline), for a full roster. */
   async charactersInClan(clanName: string): Promise<{ name: string; level: number; rank: string }[]> {
     const res = await this.client

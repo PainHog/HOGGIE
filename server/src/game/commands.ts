@@ -11,6 +11,7 @@ import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTi
 import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
 import { setDoorBothSides } from "./doors.ts";
+import { applyOverride, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
 import {
@@ -128,6 +129,8 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "revoke": return staff(ctx, "admin.grant", () => void doGrant(ctx, arg, false));
     case "setbuilder": return staff(ctx, "admin.grant", () => void doSetBuilder(ctx, arg));
     case "redit": return staff(ctx, "build.redit", () => doRedit(ctx, arg));
+    case "medit": return staff(ctx, "build.medit", () => doEdit(ctx, "mob", arg));
+    case "oedit": return staff(ctx, "build.oedit", () => doEdit(ctx, "obj", arg));
     case "transfer": return staff(ctx, "world.transfer", () => doTransfer(ctx, arg));
     case "load": return staff(ctx, "world.load", () => doLoad(ctx, arg));
     case "purge": return staff(ctx, "world.purge", () => doPurge(ctx));
@@ -1688,18 +1691,39 @@ async function doSetBuilder(ctx: CommandContext, arg: string): Promise<void> {
   out(ctx.player, `&YAssigned ${email} the builder role, range ${low}-${high}.&D (takes effect on their next login)`);
 }
 
-/** Builder demo: rename the current room, enforcing the vnum sandbox. In-memory only in v1. */
+/** Persist an OLC edit through to the world_overrides table so it survives a restart. */
+function persistOverride(ctx: CommandContext, kind: OlcKind, vnum: number, field: string, value: string): void {
+  if (ctx.db) void ctx.db.saveOverride(kind, vnum, field, value).catch(() => {});
+}
+
+/** `redit <field> <value>` — edit a field of the current room (name/desc/sector), vnum-range gated. */
 function doRedit(ctx: CommandContext, arg: string): void {
-  if (!arg) return out(ctx.player, "redit <new room name>");
   const vnum = ctx.player.character.roomVnum;
-  if (!canEditVnum(ctx.account, vnum)) {
-    return out(ctx.player, `&RRoom ${vnum} is outside your assigned build range.&D`);
-  }
-  const room = ctx.world.getRoom(vnum);
-  if (!room) return out(ctx.player, "&RNo such room.&D");
-  room.name = arg.slice(0, 60);
-  out(ctx.player, `&YRoom ${vnum} renamed to "${esc(room.name)}".&D (in-memory; content persistence is roadmap)`);
+  const sp = arg.indexOf(" ");
+  const field = (sp < 0 ? arg : arg.slice(0, sp)).trim().toLowerCase();
+  const value = sp < 0 ? "" : arg.slice(sp + 1);
+  if (!field) return out(ctx.player, `redit <${OLC_FIELDS.room.join("|")}> <value>`);
+  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RRoom ${vnum} is outside your assigned build range.&D`);
+  const err = applyOverride(ctx.world, "room", vnum, field, value);
+  if (err) return out(ctx.player, `&R${esc(err)}&D`);
+  persistOverride(ctx, "room", vnum, field, value);
+  out(ctx.player, `&YRoom ${vnum} ${field} updated.&D`);
   sendRoom(ctx.live, ctx.player);
+}
+
+/** `medit <vnum> <field> <value>` / `oedit <vnum> <field> <value>` — edit a mob/object prototype. */
+function doEdit(ctx: CommandContext, kind: "mob" | "obj", arg: string): void {
+  const parts = arg.trim().split(/\s+/);
+  const vnum = parseInt(parts[0] ?? "", 10);
+  const field = (parts[1] ?? "").toLowerCase();
+  const value = parts.slice(2).join(" ");
+  const cmd = kind === "mob" ? "medit" : "oedit";
+  if (!Number.isFinite(vnum) || !field) return out(ctx.player, `${cmd} <vnum> <${OLC_FIELDS[kind].join("|")}> <value>`);
+  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RVnum ${vnum} is outside your assigned build range.&D`);
+  const err = applyOverride(ctx.world, kind, vnum, field, value);
+  if (err) return out(ctx.player, `&R${esc(err)}&D`);
+  persistOverride(ctx, kind, vnum, field, value);
+  out(ctx.player, `&Y${cap(kind)} ${vnum} ${field} updated.&D`);
 }
 
 /** `transfer <player> [room vnum]` — pull an online player to your room (or a named room). */

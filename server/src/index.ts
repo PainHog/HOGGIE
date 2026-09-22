@@ -18,6 +18,7 @@ import { Economy } from "./game/economy.ts";
 import { ClanStore } from "./game/clanStore.ts";
 import { loadWars } from "./game/clans.ts";
 import { initDoors } from "./game/doors.ts";
+import { applyOverride, type OlcKind } from "./game/olc.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -36,6 +37,16 @@ async function main(): Promise<void> {
   const serviceClient = getServiceClient(cfg);
   const db = serviceClient ? new Db(serviceClient) : null;
   const combat = new CombatManager(world, live, cfg, undefined, db);
+
+  // Replay saved OLC edits over the freshly-loaded content before anything spawns from it.
+  if (db) {
+    try {
+      const overrides = await db.listOverrides();
+      let applied = 0;
+      for (const o of overrides) if (!applyOverride(world, o.kind as OlcKind, o.vnum, o.field, o.value)) applied++;
+      if (overrides.length) log.info("applied OLC overrides", { applied, total: overrides.length });
+    } catch (e) { log.warn("could not load OLC overrides", { detail: String(e) }); }
+  }
 
   const spawned = populateWorld(live);
   const doors = initDoors(live);
