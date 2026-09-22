@@ -15,6 +15,7 @@ import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
 import {
   CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, inviteToClan, pendingInvite, sameClan, validClanName,
 } from "./clans.ts";
+import { groupInRoom, groupMembers, isGrouped, isLeader, leaveGroup, sameGroup } from "./groups.ts";
 import { RECALL_ROOM, type CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
@@ -98,6 +99,9 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "clan": case "clans": return void doClan(ctx, arg);
     case "ctalk": case "clantalk": return doClanTalk(ctx, arg);
     case "pkill": case "pk": return void doPk(ctx);
+    case "group": case "follow": return doGroup(ctx, arg);
+    case "ungroup": return doUngroup(ctx, arg);
+    case "gtell": case "gsay": case "gt": return doGroupTell(ctx, arg);
     case "recall": case "hearth": return doRecall(ctx);
     case "heal": return void doHeal(ctx, arg);
     case "flee": return doFlee(ctx);
@@ -154,6 +158,18 @@ function doMove(ctx: CommandContext, dir: string): void {
   ctx.live.moveTo(ctx.player, exit.toVnum);
   ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} arrives.&D`)] }, ctx.player);
   sendRoom(ctx.live, ctx.player);
+
+  // A group leader's followers come along (if they're here and not mid-fight).
+  if (isLeader(ch)) {
+    for (const p of groupInRoom(ctx.live, ch, from)) {
+      if (p === ctx.player || p.character.groupLeaderId !== ch.id || p.fighter?.fighting) continue;
+      ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(p.character.name)} leaves ${dir}.&D`)] }, p);
+      ctx.live.moveTo(p, exit.toVnum);
+      out(p, `&CYou follow ${esc(ch.name)} ${dir}.&D`);
+      ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(p.character.name)} arrives.&D`)] }, p);
+      sendRoom(ctx.live, p);
+    }
+  }
 }
 
 function doSay(ctx: CommandContext, text: string): void {
@@ -181,6 +197,7 @@ function pvpBlock(ctx: CommandContext, target: Player): string | null {
   const room = ctx.world.getRoom(ctx.fighter.roomVnum);
   const flags = room?.roomFlags ?? [];
   if (flags.includes("safe")) return "This is a sanctuary — no fighting here.";
+  if (sameGroup(ctx.player.character, target.character)) return "You can't attack a groupmate.";
   if (sameClan(ctx.player.character, target.character)) return "You can't raise a hand against a clanmate.";
   if (flags.includes("arena")) return null; // arenas are free-for-all
   if (!ctx.player.character.pk || !target.character.pk) {
@@ -217,6 +234,55 @@ async function doPk(ctx: CommandContext): Promise<void> {
     : "&YYou lower your guard — you can no longer be drawn into player-combat.&D");
   sendVitals(ctx.world, ctx.player);
   if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `group` — status; `group <player>` — form/extend a group with a co-located player. */
+function doGroup(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!arg.trim()) {
+    if (!isGrouped(ch)) return out(ctx.player, "&YYou are not in a group. 'group <player>' (in the same room) to form one.&D");
+    const members = groupMembers(ctx.live, ch);
+    const lines = ["&C--- Your group ---&D"];
+    for (const p of members) {
+      const c = p.character;
+      const tag = c.groupLeaderId === c.id ? " &Y(leader)&D" : "";
+      lines.push(`&C  ${esc(c.name)}${tag} — L${c.level} ${c.hp}/${c.maxHp}hp&D`);
+    }
+    return out(ctx.player, ...lines);
+  }
+  const target = ctx.live.roomPlayers(ch.roomVnum).find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(arg.trim().toLowerCase()));
+  if (!target) return out(ctx.player, "&RThey aren't here.&D");
+  const tc = target.character;
+  if (isGrouped(ch) && !isLeader(ch)) return out(ctx.player, "&ROnly your group's leader can add members.&D");
+  if (tc.groupLeaderId != null) return out(ctx.player, "&RThey're already in a group.&D");
+  if (!isGrouped(ch)) ch.groupLeaderId = ch.id; // you become the leader of a new group
+  tc.groupLeaderId = ch.id;
+  out(ctx.player, `&CYou add ${esc(tc.name)} to your group.&D`);
+  out(target, `&C${esc(ch.name)} adds you to their group.&D`);
+}
+
+/** `ungroup [player]` — leave your group, or (as leader) remove a member. */
+function doUngroup(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  if (!isGrouped(ch)) return out(ctx.player, "&RYou aren't in a group.&D");
+  if (!arg.trim()) {
+    leaveGroup(ctx.live, ch);
+    return out(ctx.player, isLeader(ch) ? "&YYou disband the group.&D" : "&YYou leave the group.&D");
+  }
+  if (!isLeader(ch)) return out(ctx.player, "&ROnly the leader can remove members.&D");
+  const target = groupMembers(ctx.live, ch).find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(arg.trim().toLowerCase()));
+  if (!target) return out(ctx.player, "&RThey aren't in your group.&D");
+  target.character.groupLeaderId = undefined;
+  out(ctx.player, `&YYou remove ${esc(target.character.name)} from the group.&D`);
+  out(target, "&YYou have been removed from the group.&D");
+}
+
+/** `gtell <msg>` — speak to every online group member. */
+function doGroupTell(ctx: CommandContext, msg: string): void {
+  const ch = ctx.player.character;
+  if (!isGrouped(ch)) return out(ctx.player, "&RYou aren't in a group.&D");
+  if (!msg.trim()) return out(ctx.player, "Tell the group what?");
+  for (const p of groupMembers(ctx.live, ch)) out(p, `&C[group] ${esc(ch.name)}: ${esc(msg)}&D`);
 }
 
 /** `ctalk <msg>` — speak to every online member of your clan. */
@@ -1240,7 +1306,8 @@ function doHelp(ctx: CommandContext): void {
     "&Wget&D <item> [corpse/bag]   &Wput&D <item> <bag>   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget/put/drop all&D)",
     "&Wopen&D/&Wclose&D/&Wlock&D/&Wunlock&D <container>   &Wlook&D <item/bag> (examine)",
     "&Wquest&D (status)   &Wquest request&D / &Wcomplete&D (at a questmaster)   &Wquest buy practice&D (glory)",
-    "&Wclan&D (status)   &Wclan create&D <name> / &Winvite&D <player> / &Waccept&D / &Wleave&D   &Wctalk&D <msg>   &Wpkill&D (PvP on/off)",
+    "&Wclan&D (status)   &Wclan create&D <name> / &Winvite&D / &Waccept&D / &Wkick&D / &Wpromote&D / &Wwar&D   &Wctalk&D <msg>   &Wpkill&D",
+    "&Wgroup&D [player]   &Wungroup&D [player]   &Wgtell&D <msg>   (share xp; followers trail their leader)",
     "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",
     "&Wadvancetier&D — remort at L50 (single-class, 500k gold) into your tier class",
   );

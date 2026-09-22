@@ -25,6 +25,7 @@ import {
 } from "./character.ts";
 import { dispatchCommand, engageMobById, type CommandContext } from "./commands.ts";
 import { PlayerFighter } from "./fighter.ts";
+import { leaveGroup } from "./groups.ts";
 import type { CombatManager } from "./combat.ts";
 import type { Economy } from "./economy.ts";
 import { esc, out, sendEquipment, sendInventory, sendRoom, sendSkills, sendVitals } from "./view.ts";
@@ -293,6 +294,8 @@ export class Session {
   async onClose(): Promise<void> {
     if (this.state === "playing" && this.player && this.character) {
       if (this.fighter) this.svc.combat.disengage(this.fighter);
+      leaveGroup(this.svc.live, this.character); // release any group tie so it doesn't linger
+
       this.svc.live.broadcast(
         this.character.roomVnum,
         { t: "output", lines: [[{ text: `${esc(this.character.name)} fades away.`, color: "gray" }]] },

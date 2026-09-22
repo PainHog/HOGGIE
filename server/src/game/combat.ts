@@ -499,19 +499,28 @@ export class CombatManager {
     }
 
     if (killer.isPlayer) {
-      const ch = (killer as PlayerFighter).character;
-      const xp = this.computeXp(ch, mob);
+      const killerF = killer as PlayerFighter;
+      const ch = killerF.character;
       const gold = mob.proto.gold;
-      ch.exp += xp;
-      ch.gold += gold;
-      killer.send(`&YYou gain ${xp} experience points.&D`);
+      ch.gold += gold; // gold goes to the killer (a group can 'split' it — roadmap)
       if (gold > 0) killer.send(`&YYou get ${gold} gold coins from the corpse of ${mobShort(mob)}.&D`);
-      // Glory: felling a much tougher foe is a glorious deed (§3.6).
+
+      // XP is shared among group members present in the room; a solo killer keeps it all.
+      const sharers = this.xpSharers(killerF, room);
+      const bonus = sharers.length > 1 ? 1.1 : 1; // grouping is a little more efficient
+      for (const f of sharers) {
+        const xp = Math.max(1, Math.floor((this.computeXp(f.character, mob) / sharers.length) * bonus));
+        f.character.exp += xp;
+        f.send(`&YYou gain ${xp} experience points.&D`);
+        this.checkLevel(f);
+      }
+
+      // Glory: felling a much tougher foe is a glorious deed (§3.6) — to the killer.
       if (mob.proto.level >= ch.level + 5) {
         ch.glory += 1;
         killer.send("&YA glorious kill! (+1 glory)&D");
       }
-      // Quest progress: does this kill count toward the active hunt?
+      // Quest progress: does this kill count toward the killer's active hunt?
       if (ch.quest && ch.quest.mobVnum === mob.proto.vnum && ch.quest.killed < ch.quest.count) {
         ch.quest.killed += 1;
         const q = ch.quest;
@@ -519,8 +528,18 @@ export class CombatManager {
           ? `&YQuest complete: ${q.count}/${q.count} ${esc(q.mobName)} slain — return to a questmaster to claim your reward.&D`
           : `&YQuest: ${q.killed}/${q.count} ${esc(q.mobName)} slain.&D`);
       }
-      this.checkLevel(killer as PlayerFighter);
     }
+  }
+
+  /** The player fighters that share a kill's xp: co-located group members, or just the killer. */
+  private xpSharers(killerF: PlayerFighter, room: number): PlayerFighter[] {
+    const leaderId = killerF.character.groupLeaderId;
+    if (leaderId == null) return [killerF];
+    const out: PlayerFighter[] = [];
+    for (const p of this.live.roomPlayers(room)) {
+      if (p.character.groupLeaderId === leaderId && p.fighter) out.push(p.fighter as PlayerFighter);
+    }
+    return out.length ? out : [killerF];
   }
 
   private playerDies(playerF: PlayerFighter, killer: Fighter): void {

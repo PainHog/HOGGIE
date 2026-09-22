@@ -46,9 +46,11 @@ export interface Character {
   /** The character's one active hunt quest, if any. */
   quest?: QuestTarget;
   /** Clan membership (name + rank), if any (systems-spec §5). */
-  clan?: { name: string; rank: "leader" | "member" };
+  clan?: { name: string; rank: "leader" | "officer" | "member" };
   /** Opted in to player-vs-player combat. */
   pk: boolean;
+  /** Transient (not persisted): the character id of this character's group leader (self = leader). */
+  groupLeaderId?: string;
   /** Carried items (minimal inventory for shops). */
   inventory: ItemInstance[];
   /** Worn/wielded gear, keyed by slot (head/body/wield/…). Affects combat while equipped. */
