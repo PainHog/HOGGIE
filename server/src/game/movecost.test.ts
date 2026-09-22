@@ -20,10 +20,10 @@ import { encumbranceMult, moveCost, sectorMoveCost } from "./movement.ts";
 import { dispatchCommand, type CommandContext } from "./commands.ts";
 import type { StaffAccount } from "./roles.ts";
 
-const ROOM = 10300, HEAVY = 970900;
+const ROOM = 10300, HEAVY = 970900, BOAT = 970901;
 const CONFIG: AppConfig = { port: 0, contentDir: "", worldAreas: ["drazuni.are"], startRoom: ROOM, adminEmails: [], supabase: {} };
 
-let world: World, exitDir: string, destVnum: number, sector0: string, destArea0: string, destFlags0: string[];
+let world: World, exitDir: string, destVnum: number, sector0: string, destArea0: string, destFlags0: string[], destSector0: string;
 beforeAll(async () => {
   world = await loadWorld(DEFAULT_CONTENT_DIR, ["drazuni.are"]);
   const e = world.getRoom(ROOM)!.exits.find((x) => world.getRoom(x.toVnum))!;
@@ -31,12 +31,15 @@ beforeAll(async () => {
   sector0 = world.getRoom(ROOM)!.sector;
   destArea0 = world.getRoom(destVnum)!.area;
   destFlags0 = [...world.getRoom(destVnum)!.roomFlags];
+  destSector0 = world.getRoom(destVnum)!.sector;
   const heavy: ObjPrototype = { vnum: HEAVY, area: "t", keywords: "anvil", shortDesc: "an anvil", description: "", actionDesc: "", itemType: "trash", extraFlags: [], wearFlags: ["take"], values: [0, 0, 0, 0, 0], weight: 180, cost: 1, affects: [] };
+  const boat: ObjPrototype = { vnum: BOAT, area: "t", keywords: "canoe", shortDesc: "a canoe", description: "", actionDesc: "", itemType: "boat", extraFlags: [], wearFlags: ["take"], values: [0, 0, 0, 0, 0], weight: 20, cost: 1, affects: [] };
   world.objPrototypes.set(HEAVY, heavy);
+  world.objPrototypes.set(BOAT, boat);
 });
 beforeEach(() => {
   world.getRoom(ROOM)!.sector = "field"; // field = cost 2
-  const d = world.getRoom(destVnum)!; d.area = destArea0; d.roomFlags = [...destFlags0]; // reset dest between tests
+  const d = world.getRoom(destVnum)!; d.area = destArea0; d.roomFlags = [...destFlags0]; d.sector = destSector0; // reset dest between tests
   world.getRoom(ROOM)!.exits.find((e) => e.dir === exitDir)!.flags = []; // reset the exit's flags
 });
 function reset() { world.getRoom(ROOM)!.sector = sector0; }
@@ -126,6 +129,32 @@ describe("entry blocks", () => {
     expect(s.ch.level).toBeLessThan(40);
     dispatchCommand(s.ctx, exitDir);
     expect(s.ch.roomVnum).toBe(ROOM); // too low-level to enter that area
+  });
+});
+
+describe("flight and deep water", () => {
+  const flyAffect = () => ({ name: "fly", kind: "buff" as const, mods: {}, expiresAt: Date.now() + 60000, wearOff: "" });
+
+  it("air can't be entered without flying", () => {
+    const s = setup();
+    world.getRoom(destVnum)!.sector = "air";
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // grounded
+
+    s.ch.affects.push(flyAffect());
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(destVnum); // now airborne
+  });
+
+  it("deep water needs floating or a boat", () => {
+    const s = setup();
+    world.getRoom(destVnum)!.sector = "water_noswim";
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(ROOM); // would sink
+
+    s.ch.inventory.push({ vnum: BOAT });
+    dispatchCommand(s.ctx, exitDir);
+    expect(s.ch.roomVnum).toBe(destVnum); // rowed across
   });
 });
 

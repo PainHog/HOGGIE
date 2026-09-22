@@ -179,6 +179,14 @@ function doMove(ctx: CommandContext, dir: string): void {
     const occ = ctx.live.roomPlayers(dest.vnum).length;
     if (dest.roomFlags.includes("solitary") && occ >= 1) return "That room is occupied — it holds only one.";
     if (dest.roomFlags.includes("private") && occ >= 2) return "That room is private right now.";
+    // Terrain that needs flight or flotation (§3.1): air needs flying; deep water needs floating or a boat.
+    const flying = character.affects.some((a) => a.name === "fly");
+    const floating = flying || character.affects.some((a) => a.name === "float" || a.name === "levitation");
+    if (dest.sector === "air" && !flying) return "You can't fly — the open air won't hold you.";
+    if ((dest.sector === "water_noswim" || dest.sector === "underwater" || dest.sector === "oceanfloor") && !floating) {
+      const hasBoat = character.inventory.some((it) => ctx.world.getObjPrototype(it.vnum)?.itemType === "boat");
+      if (!hasBoat) return "The deep water would swallow you — you need to float or a boat.";
+    }
     if (dest.area !== room?.area) {
       const lr = ctx.world.areas.get(dest.area)?.levelRange;
       if (lr) {
