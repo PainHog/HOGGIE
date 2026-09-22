@@ -48,6 +48,8 @@ export interface Fighter {
   readonly damageShields: readonly string[];
   /** Special-attack names this fighter can unleash mid-round (mobs only; players' are roadmap). */
   readonly specials: readonly string[];
+  /** Special-defense names (dodge/parry/disarm/…) this fighter can use (mobs only; players' roadmap). */
+  readonly defenses: readonly string[];
   /** Active spell affects (buffs/debuffs), for combat folding + status display. */
   readonly affects: Affect[];
 
@@ -117,6 +119,7 @@ export class PlayerFighter implements Fighter {
   get sanctuary() { return this.character.affects.some((a) => a.name === "sanctuary"); }
   get damageShields(): readonly string[] { return EMPTY_ARR; } // player damage-shields are roadmap
   get specials(): readonly string[] { return EMPTY_ARR; } // player specials are skill-gated (roadmap)
+  get defenses(): readonly string[] { return EMPTY_ARR; } // player active defenses are skill-gated (roadmap)
   get hitroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 10) + (this.race?.hitPlus ?? 0) + this.mods.hitroll + this.equip.mods.hitroll; }
   get damroll() { return statMod(this.stats.str) + Math.floor(this.character.level / 8) + this.mods.damroll + this.equip.mods.damroll; }
   get thac0Mod() {
@@ -191,6 +194,7 @@ export class MobFighter implements Fighter {
   get sanctuary() { return this.mob.proto.affectFlags.includes("sanctuary"); }
   get damageShields(): readonly string[] { return this.mob.proto.affectFlags.filter((f) => SHIELD_FLAGS.has(f)); }
   get specials(): readonly string[] { return this.mob.proto.specialAttacks; }
+  get defenses(): readonly string[] { return this.mob.proto.specialDefenses; }
   get hitroll() { return (this.mob.proto.hitroll ?? 0) + this.mods.hitroll; }
   get damroll() { return (this.mob.proto.damroll ?? 0) + this.mods.damroll; }
   get thac0Mod() { return mobThac0Mod(this.mob.proto.level); }

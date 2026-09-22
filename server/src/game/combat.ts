@@ -46,6 +46,8 @@ export const STANCES = ["berserk", "aggressive", "standing", "defensive", "evasi
 const SPECIAL_CHANCE = 20;
 /** Per-round chance (%) that a caster mob casts a spell. */
 const MOB_CAST_CHANCE = 25;
+/** Per-round chance (%) that a disarm-capable mob disarms a wielding player. */
+const DISARM_CHANCE = 8;
 
 function cap(s: string): string {
   return s.length ? s[0]!.toUpperCase() + s.slice(1) : s;
@@ -167,6 +169,14 @@ export class CombatManager {
       const spells = this.mobCastable(attacker as MobFighter);
       if (spells.length && this.rng.percent() <= MOB_CAST_CHANCE) {
         this.mobCast(attacker as MobFighter, attacker.fighting, spells);
+      }
+    }
+    // A mob with the disarm defense may knock a wielding player's weapon loose. Rolled only when the
+    // mob actually has disarm, so plain-mob combat is unaffected.
+    if (!attacker.isPlayer && attacker.alive && attacker.defenses.includes("disarm")) {
+      const foe = attacker.fighting;
+      if (foe?.isPlayer && foe.alive && (foe as PlayerFighter).character.equipment.wield && this.rng.percent() <= DISARM_CHANCE) {
+        this.disarm(attacker as MobFighter, foe as PlayerFighter);
       }
     }
   }
@@ -291,6 +301,9 @@ export class CombatManager {
       return;
     }
 
+    // The blow landed — but the defender may dodge or parry it (mobs carrying that special defense).
+    if (this.avoided(attacker, victim)) return;
+
     // --- damage ---
     let dam = attacker.rollBaseDamage(this.rng) + attacker.damroll + Math.trunc(attacker.profBonus / 10);
     dam = dam * stanceMult(attacker.position) * stanceMult(victim.position);
@@ -334,6 +347,44 @@ export class CombatManager {
     if (victim.hp <= 0) return this.handleDeath(attacker, victim);
     // Damage shields sear whoever struck (fire/ice/shock) — only mobs carrying the flag have any.
     if (dam > 0 && victim.damageShields.length) this.shieldRetaliate(victim, attacker);
+  }
+
+  /**
+   * The defender turns a landed blow aside (systems-spec §1.6): dodge (DEX-driven) or parry.
+   * Only mobs carrying the special defense roll here, so plain-mob combat is unchanged.
+   */
+  private avoided(attacker: Fighter, victim: Fighter): boolean {
+    const defs = victim.defenses;
+    if (!defs.length) return false;
+    let chance = 0, verb = "";
+    if (defs.includes("dodge")) {
+      const c = 6 + statMod(victim.stats.dex) * 2 + Math.floor(victim.level / 8);
+      if (c > chance) { chance = c; verb = "dodges"; }
+    }
+    if (defs.includes("parry")) {
+      const c = 5 + Math.floor(victim.level / 6);
+      if (c > chance) { chance = c; verb = "parries"; }
+    }
+    if (chance <= 0) return false;
+    if (this.rng.percent() > Math.min(chance, 35)) return false; // capped so it never trivialises a fight
+    this.message(attacker, victim,
+      `&w${cap(victim.name)} ${verb} your attack.&D`,
+      `&wYou ${verb} ${attacker.name}'s attack.&D`,
+      `&w${cap(victim.name)} ${verb} ${attacker.name}'s attack.&D`);
+    this.roomFx(attacker.roomVnum, { kind: "miss", sourceId: attacker.id, targetId: victim.id, targetName: victim.name, amount: 0, lucky: false, fatal: false, targetHpPct: hpPct(victim) });
+    return true;
+  }
+
+  /** A mob with the disarm defense knocks a wielding player's weapon into their pack (systems-spec §1.6). */
+  private disarm(mob: MobFighter, playerF: PlayerFighter): void {
+    const ch = playerF.character;
+    const w = ch.equipment.wield;
+    if (!w) return;
+    delete ch.equipment.wield;
+    ch.inventory.push(w);
+    playerF.send(`&R${cap(mob.name)} disarms you — you scramble to stow your weapon!&D`);
+    const player = this.live.roomPlayers(ch.roomVnum).find((p) => p.character.id === ch.id);
+    if (player) { sendEquipment(this.world, player); sendInventory(this.world, player); }
   }
 
   /** A struck damage-shielded fighter sears its attacker for a small elemental hit (systems-spec §1.5). */

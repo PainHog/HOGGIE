@@ -6,7 +6,7 @@
 import { beforeAll, describe, expect, it } from "vitest";
 import type { ServerMessage } from "@hoggie/shared";
 import type { AppConfig } from "../config.ts";
-import type { MobPrototype } from "../world/model.ts";
+import type { MobPrototype, ObjPrototype } from "../world/model.ts";
 import { DEFAULT_CONTENT_DIR } from "../paths.ts";
 import { loadWorld } from "../world/loader.ts";
 import { World } from "../world/world.ts";
@@ -120,5 +120,35 @@ describe("special attacks", () => {
     const { mf } = mobFighter(s, brute({ specialAttacks: ["curse"] }));
     s.combat.mobSpecial(mf, s.fighter, "curse");
     expect(s.ch.affects.some((a) => a.name === "curse")).toBe(true);
+  });
+});
+
+describe("active defenses", () => {
+  it("a dodging mob avoids some blows a plain one would take", () => {
+    const damageOver = (defs: string[]) => {
+      const s = player(1);
+      const { mob } = mobFighter(s, brute({ specialDefenses: defs, ac: -80, stats: { str: 13, int: 13, wis: 13, dex: 22, con: 13, cha: 13, lck: 13 } }));
+      const mf = s.combat.fighterForMob(mob);
+      for (let i = 0; i < 60; i++) s.combat.oneHit(s.fighter, mf);
+      return mob.maxHp - mob.hp;
+    };
+    expect(damageOver(["dodge"])).toBeLessThan(damageOver([]));
+  });
+
+  it("a disarm mob knocks a wielded weapon into the pack", () => {
+    const SWORD: ObjPrototype = {
+      vnum: 997900, area: "test", keywords: "sword blade", shortDesc: "a war sword", description: "", actionDesc: "",
+      itemType: "weapon", extraFlags: [], wearFlags: ["take", "wield"], values: [0, 3, 6, 3, 0], weight: 5, cost: 100, affects: [],
+    };
+    world.objPrototypes.set(SWORD.vnum, SWORD);
+    const s = player(1);
+    s.ch.inventory.push({ vnum: SWORD.vnum });
+    s.ch.equipment.wield = { vnum: SWORD.vnum };
+    const { mf } = mobFighter(s, brute({ specialDefenses: ["disarm"], damDice: "1d1+0" }), 99999);
+    s.combat.startFight(mf, s.fighter);
+    let disarmed = false;
+    for (let i = 0; i < 400 && !disarmed && s.ch.position !== "resting"; i++) { s.combat.tick(); disarmed = !s.ch.equipment.wield; }
+    expect(disarmed).toBe(true);
+    expect(s.ch.inventory.some((it) => it.vnum === SWORD.vnum)).toBe(true); // weapon went to the pack
   });
 });
