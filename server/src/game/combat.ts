@@ -520,8 +520,9 @@ export class CombatManager {
         ch.glory += 1;
         killer.send("&YA glorious kill! (+1 glory)&D");
       }
-      // Quest progress: does this kill count toward the killer's active hunt?
-      if (ch.quest && ch.quest.mobVnum === mob.proto.vnum && ch.quest.killed < ch.quest.count) {
+      // Quest progress: does this kill count toward the killer's active HUNT? (fetch quests are
+      // completed by carrying the item, not by kill count.)
+      if (ch.quest && (ch.quest.type ?? "hunt") === "hunt" && ch.quest.mobVnum === mob.proto.vnum && ch.quest.killed < ch.quest.count) {
         ch.quest.killed += 1;
         const q = ch.quest;
         killer.send(q.killed >= q.count

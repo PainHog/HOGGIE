@@ -5,6 +5,7 @@
  *   - area repop every 60s.
  */
 import { out, sendRoomView, sendVitals } from "./view.ts";
+import { questExpired } from "./quest.ts";
 import { statMod } from "./character.ts";
 import { expireAffects } from "./affects.ts";
 import type { LiveWorld, Player } from "./liveWorld.ts";
@@ -47,6 +48,7 @@ export class GameTick {
   private regen(): void {
     this.tickAffects();
     this.decayGround();
+    this.expireQuests();
     const fighting = this.combat.engagedPlayerIds();
     for (const p of this.live.online()) {
       if (fighting.has(p.character.id)) continue;
@@ -93,6 +95,18 @@ export class GameTick {
       for (const p of players) {
         for (const name of names) out(p, `&d${name} crumbles away to dust.&D`);
         sendRoomView(this.live, p);
+      }
+    }
+  }
+
+  /** Fail any timed quests whose deadline has passed, so a lapsed quest can't be claimed. */
+  private expireQuests(): void {
+    const now = Date.now();
+    for (const p of this.live.online()) {
+      const q = p.character.quest;
+      if (q && questExpired(q, now)) {
+        p.character.quest = undefined;
+        out(p, `&rYour quest for ${q.itemName ?? q.mobName} has run out of time.&D`);
       }
     }
   }

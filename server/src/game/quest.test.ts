@@ -35,11 +35,18 @@ const QMASTER: MobPrototype = { ...base, vnum: 995000, keywords: "questmaster sa
 const TARGET: MobPrototype = { ...base, vnum: 995001, keywords: "goblin", shortDesc: "a goblin raider", level: 5, actFlags: [], hpDice: "1d1+0", damDice: "1d1+0" };
 const BOSS: MobPrototype = { ...base, vnum: 995002, keywords: "ogre", shortDesc: "a hulking ogre", level: 20, actFlags: [], hpDice: "1d1+0", damDice: "1d1+0" };
 const SPAWN: Reset = { area: "test", kind: "spawn_mob", mobVnum: TARGET.vnum, roomVnum: ROOM, maxInWorld: 20 };
+// A high-level mob that carries a relic — the only candidate a level-40 hero draws (band ±6), so it
+// yields a fetch quest without disturbing the level-8 hunt tests above.
+const THIEF: MobPrototype = { ...base, vnum: 995010, keywords: "thief", shortDesc: "a relic thief", level: 40, actFlags: [], hpDice: "1d1+0", damDice: "1d1+0" };
+const RELIC = { vnum: 995011, area: "test", keywords: "relic ruby", shortDesc: "the ruby relic", description: "", actionDesc: "", itemType: "treasure", extraFlags: [] as string[], wearFlags: ["take"] as string[], values: [0, 0, 0, 0, 0], weight: 1, cost: 500, affects: [] };
+const THIEF_SPAWN: Reset = { area: "test", kind: "spawn_mob", mobVnum: THIEF.vnum, roomVnum: ROOM, maxInWorld: 5 };
 
 beforeAll(async () => {
   world = await loadWorld(DEFAULT_CONTENT_DIR, ["drazuni.are"]);
-  for (const m of [QMASTER, TARGET, BOSS]) world.mobPrototypes.set(m.vnum, m);
-  world.resets.push(SPAWN); // so assignQuest has a killable candidate to pick
+  for (const m of [QMASTER, TARGET, BOSS, THIEF]) world.mobPrototypes.set(m.vnum, m);
+  world.objPrototypes.set(RELIC.vnum, RELIC);
+  world.resets.push(SPAWN, THIEF_SPAWN); // killable candidates for assignQuest
+  world.mobLoot.set(THIEF.vnum, [RELIC.vnum]); // the thief carries the relic -> fetch quest
 });
 
 function setup(level = 8) {
@@ -133,5 +140,42 @@ describe("glory", () => {
     dispatchCommand(s.ctx, "quest buy practice");
     expect(s.ch.glory).toBe(0);
     expect(s.ch.practices).toBe(practicesBefore + 1);
+  });
+});
+
+describe("fetch + timed quests", () => {
+  it("assigns a timed fetch quest for a mob that carries loot", () => {
+    const s = setup(40); // only the relic thief (level 40) is in band -> fetch
+    s.live.addMob(spawnMob(QMASTER, ROOM));
+    dispatchCommand(s.ctx, "quest request");
+    expect(s.ch.quest?.type).toBe("fetch");
+    expect(s.ch.quest?.itemVnum).toBe(RELIC.vnum);
+    expect(s.ch.quest?.expiresAt).toBeGreaterThan(Date.now());
+  });
+
+  it("won't complete a fetch quest without the item, and consumes it when done", () => {
+    const s = setup(40);
+    s.live.addMob(spawnMob(QMASTER, ROOM));
+    dispatchCommand(s.ctx, "quest request");
+    dispatchCommand(s.ctx, "quest complete");
+    expect(s.ch.quest).toBeTruthy(); // no item yet -> still active
+
+    s.ch.inventory.push({ vnum: RELIC.vnum });
+    const goldBefore = s.ch.gold, gloryBefore = s.ch.glory;
+    dispatchCommand(s.ctx, "quest complete");
+    expect(s.ch.quest).toBeUndefined();
+    expect(s.ch.inventory.some((it) => it.vnum === RELIC.vnum)).toBe(false); // handed over
+    expect(s.ch.gold).toBeGreaterThan(goldBefore);
+    expect(s.ch.glory).toBeGreaterThan(gloryBefore);
+  });
+
+  it("lapses when the deadline passes", () => {
+    const s = setup(40);
+    s.live.addMob(spawnMob(QMASTER, ROOM));
+    dispatchCommand(s.ctx, "quest request");
+    s.ch.quest!.expiresAt = Date.now() - 1000; // force the timer out
+    s.ch.inventory.push({ vnum: RELIC.vnum }); // even holding the item...
+    dispatchCommand(s.ctx, "quest request"); // ...requesting first clears the lapsed one, then re-assigns
+    expect(s.ch.quest?.expiresAt).toBeGreaterThan(Date.now()); // a fresh quest, not the lapsed one
   });
 });

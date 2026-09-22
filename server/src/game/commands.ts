@@ -11,7 +11,7 @@ import { className, dualClassName, effectiveLevel, expToReach, isTiered, raceNam
 import { mobMatches, mobShort, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeGroundItem, type Corpse } from "./ground.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
-import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver } from "./quest.ts";
+import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
 import {
   atWar, canManage, CLAN_COST_GLORY, clanNameTaken, clanOnline, clearInvite, declareWar, endWar,
   inviteToClan, pendingInvite, sameClan, validClanName, type ClanRank,
@@ -644,7 +644,7 @@ function doScore(ctx: CommandContext): void {
     `&wSTR ${c.stats.str}  INT ${c.stats.int}  WIS ${c.stats.wis}  DEX ${c.stats.dex}  CON ${c.stats.con}  CHA ${c.stats.cha}  &YLCK ${c.stats.lck}&D`,
     `&wGold &Y${c.gold}&D   Exp &G${c.exp}&D   &YGlory ${c.glory}&D   Practices ${c.practices}   Align ${c.alignment}   Stance ${c.position}&D`,
     c.quest
-      ? `&wQuest: &Y${c.quest.killed}/${c.quest.count} ${esc(c.quest.mobName)}${c.quest.killed >= c.quest.count ? " (done — turn in)" : ""}&D`
+      ? `&wQuest: &Y${(c.quest.type ?? "hunt") === "fetch" ? `fetch ${esc(c.quest.itemName ?? "an item")}` : `${c.quest.killed}/${c.quest.count} ${esc(c.quest.mobName)}`}${questFulfilled(c.quest, c) ? " (done — turn in)" : ""}&D`
       : "&wQuest: &dnone (ask a questmaster)&D",
     `&wClan: ${c.clan ? `&m${esc(c.clan.name)} (${c.clan.rank})` : "&dnone"}&D   PvP: ${c.pk ? "&Ron" : "&doff"}&D`,
   );
@@ -1146,10 +1146,18 @@ function questStatusLines(ch: CommandContext["player"]["character"]): string[] {
   const lines = [`&Y--- Quest & Glory ---&D`, `&YGlory: &W${ch.glory}&D  &d(spend at a questmaster: 'quest buy practice')&D`];
   if (ch.quest) {
     const q = ch.quest;
-    const done = q.killed >= q.count;
-    lines.push(done
-      ? `&GHunt: ${q.count}/${q.count} ${esc(q.mobName)} — DONE. Return to a questmaster and 'quest complete'.&D`
-      : `&YHunt: ${q.killed}/${q.count} ${esc(q.mobName)} (seek it in ${esc(q.areaName)}).&D`);
+    const done = questFulfilled(q, ch);
+    const mins = q.expiresAt != null ? Math.max(0, Math.ceil((q.expiresAt - Date.now()) / 60_000)) : null;
+    const timer = mins != null ? ` &d[${questExpired(q) ? "LAPSED" : `${mins} min left`}]&D` : "";
+    if ((q.type ?? "hunt") === "fetch") {
+      lines.push(done
+        ? `&GFetch: you hold ${esc(q.itemName ?? "the item")} — return to a questmaster and 'quest complete'.${timer}`
+        : `&YFetch: recover ${esc(q.itemName ?? "an item")} from ${esc(q.mobName)} (seek it in ${esc(q.areaName)}).${timer}`);
+    } else {
+      lines.push(done
+        ? `&GHunt: ${q.count}/${q.count} ${esc(q.mobName)} — DONE. Return to a questmaster and 'quest complete'.&D`
+        : `&YHunt: ${q.killed}/${q.count} ${esc(q.mobName)} (seek it in ${esc(q.areaName)}).&D`);
+    }
   } else {
     lines.push("&dNo active quest. Ask a questmaster: 'quest request'.&D");
   }
@@ -1166,19 +1174,31 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
 
   if (!sub || sub === "status" || sub === "info") return out(ctx.player, ...questStatusLines(ch));
 
+  // A lapsed timed quest is cleared before anything else, so a new one can be taken.
+  if (ch.quest && questExpired(ch.quest)) {
+    out(ctx.player, `&rYour quest for ${esc(ch.quest.itemName ?? ch.quest.mobName)} has run out of time.&D`);
+    ch.quest = undefined;
+    if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
+  }
+
   if (sub === "request" || sub === "list" || sub === "new") {
     const giver = questGiverHere(ctx);
     if (!giver) return out(ctx.player, "&RThere's no questmaster here to ask.&D");
-    if (ch.quest && ch.quest.killed < ch.quest.count) {
-      return out(ctx.player, `&YYou're already on a hunt: ${ch.quest.killed}/${ch.quest.count} ${esc(ch.quest.mobName)}.&D`);
-    }
+    if (ch.quest) return out(ctx.player, `&YYou're already on a quest — finish or 'quest abandon' it first.&D`);
     const q = assignQuest(ctx.world, ch, giver.proto.area);
     if (!q) return out(ctx.player, "&RThe questmaster has nothing for you right now.&D");
     ch.quest = q;
-    out(ctx.player,
-      `&Y${cap(mobShort(giver))} charges you with a hunt:&D`,
-      `&W  Slay ${q.count} x ${esc(q.mobName)}&D &d(seek them in ${esc(q.areaName)})&D`,
-      `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. 'quest complete' back here when it's done.&D`);
+    if ((q.type ?? "hunt") === "fetch") {
+      out(ctx.player,
+        `&Y${cap(mobShort(giver))} sends you on a retrieval:&D`,
+        `&W  Recover ${esc(q.itemName!)}&D &dfrom ${esc(q.mobName)} (seek it in ${esc(q.areaName)}) within ${Math.round(FETCH_DEADLINE_MS / 60_000)} minutes&D`,
+        `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. Bring the item back and 'quest complete'.&D`);
+    } else {
+      out(ctx.player,
+        `&Y${cap(mobShort(giver))} charges you with a hunt:&D`,
+        `&W  Slay ${q.count} x ${esc(q.mobName)}&D &d(seek them in ${esc(q.areaName)})&D`,
+        `&YReward: &W${q.rewardGold}&Y gold + &W${q.rewardGlory}&Y glory. 'quest complete' back here when it's done.&D`);
+    }
     if (ctx.db) await ctx.db.saveCharacter(ch).catch(() => {});
     return;
   }
@@ -1187,10 +1207,17 @@ async function doQuest(ctx: CommandContext, arg: string): Promise<void> {
     const giver = questGiverHere(ctx);
     if (!giver) return out(ctx.player, "&RFind a questmaster to claim a quest.&D");
     if (!ch.quest) return out(ctx.player, "&RYou have no quest to complete.&D");
-    if (ch.quest.killed < ch.quest.count) {
-      return out(ctx.player, `&RYour hunt isn't done: ${ch.quest.killed}/${ch.quest.count} ${esc(ch.quest.mobName)}.&D`);
+    if (!questFulfilled(ch.quest, ch)) {
+      return out(ctx.player, (ch.quest.type ?? "hunt") === "fetch"
+        ? `&RYou don't have ${esc(ch.quest.itemName ?? "the item")} yet.&D`
+        : `&RYour hunt isn't done: ${ch.quest.killed}/${ch.quest.count} ${esc(ch.quest.mobName)}.&D`);
     }
     const q = ch.quest;
+    if ((q.type ?? "hunt") === "fetch" && q.itemVnum != null) {
+      const idx = ch.inventory.findIndex((it) => it.vnum === q.itemVnum);
+      if (idx >= 0) ch.inventory.splice(idx, 1); // hand the item over
+      sendInventory(ctx.world, ctx.player);
+    }
     ch.gold += q.rewardGold;
     ch.glory += q.rewardGlory;
     ch.quest = undefined;
