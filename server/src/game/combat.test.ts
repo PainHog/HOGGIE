@@ -128,4 +128,20 @@ describe("combat identity (Phase 3)", () => {
     expect(s.character.roomVnum).toBe(ROOM);
     expect(s.fighter.fighting).toBeNull();
   });
+
+  it("armour affects to-hit: a lower-AC target is hit less often", () => {
+    // Same attacker + seed, only the target's AC differs; huge HP so it never dies mid-sample.
+    const landedHits = (ac: number) => {
+      const s = setup(makeMob({ ac, hpDice: "1d1+100000" }), 4242);
+      const mf = s.combat.fighterForMob(s.mob);
+      let landed = 0;
+      for (let i = 0; i < 300; i++) {
+        const before = s.mob.hp;
+        s.combat.oneHit(s.fighter, mf);
+        if (s.mob.hp < before) landed++;
+      }
+      return landed;
+    };
+    expect(landedHits(-300)).toBeLessThan(landedHits(300)); // heavy armour is harder to hit than none
+  });
 });

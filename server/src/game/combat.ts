@@ -308,7 +308,10 @@ export class CombatManager {
       45 + (attacker.level + attacker.thac0Mod + attacker.profBonus) + Math.floor(attacker.hitroll / 5);
     hitScore += statMod(attacker.stats.lck); // LCK: luckier attacker connects more
 
-    let victimAc = -Math.max(50, Math.abs(Math.trunc(victim.ac / 10)));
+    // Worn/natural AC shifts the to-hit bar: better (more negative) AC makes the target harder to
+    // hit, ac 0 is the neutral baseline, and the effect is capped so armour can't make a target
+    // untouchable (systems-spec §1.2). (The old form pinned this to a constant, so AC never mattered.)
+    let victimAc = -50 - Math.max(-30, Math.min(30, Math.trunc(victim.ac / 10)));
     if (!victim.isPlayer) victimAc += 20; // NPCs are easier to hit
     victimAc -= statMod(victim.stats.lck); // LCK: luckier defender is harder to hit
 
