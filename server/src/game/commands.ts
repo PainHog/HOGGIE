@@ -1,6 +1,7 @@
 /**
  * In-game command dispatch. Phase 2 gave movement/presence/social; Phase 3 adds the combat
- * verbs and the stance dial. Movement is free (sector cost is roadmap) but blocked while fighting.
+ * verbs and the stance dial. Moving spends `move` by sector cost (scaled by encumbrance) and is
+ * blocked while fighting or when too exhausted.
  */
 import { parseColorSpans } from "@hoggie/shared";
 import type { AppConfig } from "../config.ts";
@@ -11,6 +12,7 @@ import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTi
 import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeCorpse, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
 import { setDoorBothSides } from "./doors.ts";
+import { moveCost } from "./movement.ts";
 import { applyOverride, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, FETCH_DEADLINE_MS, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled } from "./quest.ts";
@@ -170,22 +172,33 @@ function doMove(ctx: CommandContext, dir: string): void {
   const dest = ctx.world.getRoom(exit.toVnum);
   if (!dest) return out(ctx.player, "&RThe way leads out of the known world for now.&D");
 
-  if (ch.position !== "standing") ch.position = "standing";
+  // Each step spends `move` by the room's sector cost, scaled by how loaded you are (§3.1).
   const from = ch.roomVnum;
+  const cost = moveCost(room?.sector ?? "inside", currentWeight(ctx), carryLimits(ch).maxWeight);
+  if (ch.move < cost) return out(ctx.player, "&RYou are too exhausted to move.&D");
+  ch.move -= cost;
+
+  if (ch.position !== "standing") ch.position = "standing";
   ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} leaves ${dir}.&D`)] }, ctx.player);
   ctx.live.moveTo(ctx.player, exit.toVnum);
   ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(ch.name)} arrives.&D`)] }, ctx.player);
   sendRoom(ctx.live, ctx.player);
+  sendVitals(ctx.world, ctx.player);
 
-  // A group leader's followers come along (if they're here and not mid-fight).
+  // A group leader's followers come along — each paying their own move (too-tired ones stay behind).
   if (isLeader(ch)) {
     for (const p of groupInRoom(ctx.live, ch, from)) {
       if (p === ctx.player || p.character.groupLeaderId !== ch.id || p.fighter?.fighting) continue;
-      ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(p.character.name)} leaves ${dir}.&D`)] }, p);
+      const pc = p.character;
+      const pCost = moveCost(room?.sector ?? "inside", currentWeight(ctx, pc), carryLimits(pc).maxWeight);
+      if (pc.move < pCost) { out(p, `&RYou are too exhausted to follow ${esc(ch.name)}.&D`); continue; }
+      pc.move -= pCost;
+      ctx.live.broadcast(from, { t: "output", lines: [parseColorSpans(`&w${esc(pc.name)} leaves ${dir}.&D`)] }, p);
       ctx.live.moveTo(p, exit.toVnum);
       out(p, `&CYou follow ${esc(ch.name)} ${dir}.&D`);
-      ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(p.character.name)} arrives.&D`)] }, p);
+      ctx.live.broadcast(exit.toVnum, { t: "output", lines: [parseColorSpans(`&w${esc(pc.name)} arrives.&D`)] }, p);
       sendRoom(ctx.live, p);
+      sendVitals(ctx.world, p);
     }
   }
 }
@@ -780,9 +793,8 @@ const SLOT_LABEL: Record<string, string> = {
 };
 const short = (ctx: CommandContext, vnum: number) => ctx.world.getObjPrototype(vnum)?.shortDesc ?? `item ${vnum}`;
 
-/** Current weight the character carries (pack + worn gear + any container contents). */
-function currentWeight(ctx: CommandContext): number {
-  const ch = ctx.player.character;
+/** Current weight a character carries (pack + worn gear + any container contents). */
+function currentWeight(ctx: CommandContext, ch: { inventory: ItemInstance[]; equipment: Record<string, ItemInstance> } = ctx.player.character): number {
   const getP = (v: number) => ctx.world.getObjPrototype(v);
   return totalWeight(ch.inventory, getP) + totalWeight(Object.values(ch.equipment), getP);
 }
