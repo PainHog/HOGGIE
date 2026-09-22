@@ -94,6 +94,35 @@ export function isEquippable(proto: ObjPrototype): boolean {
   return equipStats(proto).slot != null;
 }
 
+export interface ContainerInfo {
+  /** Rough item-count capacity (from the source's weight capacity). */
+  maxItems: number;
+  closeable: boolean;
+  closedDefault: boolean;
+  lockedDefault: boolean;
+  keyVnum: number; // 0 = no key
+}
+
+export function isContainer(proto: ObjPrototype): boolean {
+  return proto.itemType === "container";
+}
+
+/**
+ * Interpret a container's value array (SMAUG: values[0]=weight capacity, values[1]=flags
+ * [1 CLOSEABLE, 2 PICKPROOF, 4 CLOSED, 8 LOCKED], values[2]=key vnum).
+ */
+export function containerInfo(proto: ObjPrototype): ContainerInfo {
+  const cap = Math.max(0, proto.values[0] ?? 0);
+  const flags = proto.values[1] ?? 0;
+  return {
+    maxItems: Math.max(5, Math.floor(cap / 10)),
+    closeable: (flags & 1) !== 0,
+    closedDefault: (flags & 4) !== 0,
+    lockedDefault: (flags & 8) !== 0,
+    keyVnum: proto.values[2] ?? 0,
+  };
+}
+
 export interface EquipTotals {
   acBonus: number;
   mods: Required<AffectMods>;

@@ -20,7 +20,7 @@ import type { Economy } from "./economy.ts";
 import { buyPrice, objMatches, sellPrice, shopkeeperIn } from "./shops.ts";
 import { applyAffect } from "./affects.ts";
 import { buffAffect, spellHeal } from "./spellbook.ts";
-import { equipStats } from "./items.ts";
+import { containerInfo, equipStats, isContainer } from "./items.ts";
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
@@ -69,7 +69,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
   if (cmd in STANCE_CMDS) return doStance(ctx, cmd, STANCE_CMDS[cmd]!);
 
   switch (cmd) {
-    case "look": case "l": return sendRoom(ctx.live, ctx.player);
+    case "look": case "l": case "examine": case "exa": return doLook(ctx, arg);
     case "say": case "'": return doSay(ctx, arg);
     case "who": return doWho(ctx);
     case "score": case "sc": return doScore(ctx);
@@ -87,8 +87,13 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "remove": case "rem": return doRemove(ctx, arg);
     case "equipment": case "eq": case "equi": return doEquipmentList(ctx);
     case "get": case "take": return doGet(ctx, arg);
+    case "put": return doPut(ctx, arg);
     case "drop": return doDrop(ctx, arg);
     case "loot": return doLoot(ctx, arg);
+    case "open": return doContainerState(ctx, arg, "open");
+    case "close": return doContainerState(ctx, arg, "close");
+    case "unlock": return doContainerState(ctx, arg, "unlock");
+    case "lock": return doContainerState(ctx, arg, "lock");
     case "kill": case "k": case "attack": return doKill(ctx, arg);
     case "clan": case "clans": return void doClan(ctx, arg);
     case "ctalk": case "clantalk": return doClanTalk(ctx, arg);
@@ -637,11 +642,13 @@ function doGet(ctx: CommandContext, arg: string): void {
   const whatKw = parts[0]!.toLowerCase();
   const containerKw = parts.slice(1).join(" ").trim();
 
-  // `get <x> <corpse>` — take from a named corpse
+  // `get <x> <corpse|container>` — take from a named corpse or a carried container
   if (containerKw) {
     const corpse = ctx.live.roomCorpses(ch.roomVnum).find((c) => corpseMatches(c, containerKw));
-    if (!corpse) return out(ctx.player, "&RYou don't see that here.&D");
-    return takeFromCorpse(ctx, corpse, whatKw);
+    if (corpse) return takeFromCorpse(ctx, corpse, whatKw);
+    const cont = findCarriedContainer(ctx, containerKw);
+    if (cont) return getFromContainer(ctx, cont, whatKw);
+    return out(ctx.player, "&RYou don't see that here.&D");
   }
   // `get corpse` — loot the nearest corpse whole
   if (whatKw === "corpse") {
@@ -722,6 +729,118 @@ function doDrop(ctx: CommandContext, arg: string): void {
     out(ctx.player, `&YYou drop ${esc(short(ctx, vnum))}.&D`);
   }
   afterGround(ctx);
+}
+
+// --- containers (bags/chests) -------------------------------------------------
+
+/** Find a carried container item matching a keyword. */
+function findCarriedContainer(ctx: CommandContext, kw: string): ItemInstance | undefined {
+  return ctx.player.character.inventory.find((it) => {
+    const p = ctx.world.getObjPrototype(it.vnum);
+    return !!p && isContainer(p) && objMatches(p, kw);
+  });
+}
+
+/** Take matching item(s) out of a carried container into the pack. */
+function getFromContainer(ctx: CommandContext, container: ItemInstance, whatKw: string): void {
+  const ch = ctx.player.character;
+  if (container.closed) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is closed.&D`);
+  const inside = container.contents ?? [];
+  if (inside.length === 0) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is empty.&D`);
+  const wantAll = !whatKw || whatKw === "all";
+  const taken: ItemInstance[] = [];
+  const keep: ItemInstance[] = [];
+  for (const it of inside) {
+    const match = wantAll || matchInv(ctx, it.vnum, whatKw);
+    if (match && (wantAll || taken.length === 0)) taken.push(it);
+    else keep.push(it);
+  }
+  if (taken.length === 0) return out(ctx.player, `&RThere's nothing like that in ${esc(short(ctx, container.vnum))}.&D`);
+  container.contents = keep;
+  for (const it of taken) {
+    ch.inventory.push(it);
+    out(ctx.player, `&YYou get ${esc(short(ctx, it.vnum))} from ${esc(short(ctx, container.vnum))}.&D`);
+  }
+  sendInventory(ctx.world, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `put <item> <container>` — stow a carried item inside a carried container. */
+function doPut(ctx: CommandContext, arg: string): void {
+  const ch = ctx.player.character;
+  const parts = arg.trim().split(/\s+/);
+  const whatKw = (parts[0] ?? "").toLowerCase();
+  const containerKw = parts.slice(1).join(" ").trim();
+  if (!whatKw || !containerKw) return out(ctx.player, "Put what in what? (put <item> <container>)");
+  const container = findCarriedContainer(ctx, containerKw);
+  if (!container) return out(ctx.player, "&RYou aren't carrying a container like that.&D");
+  if (container.closed) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is closed.&D`);
+  const info = containerInfo(ctx.world.getObjPrototype(container.vnum)!);
+  if ((container.contents?.length ?? 0) >= info.maxItems) return out(ctx.player, `&R${cap(short(ctx, container.vnum))} is full.&D`);
+  const wantAll = whatKw === "all";
+  const idx = wantAll
+    ? ch.inventory.findIndex((it) => it !== container && !isContainer(ctx.world.getObjPrototype(it.vnum)!))
+    : ch.inventory.findIndex((it) => it !== container && matchInv(ctx, it.vnum, whatKw));
+  if (idx < 0) return out(ctx.player, "&RYou aren't carrying that.&D");
+  const [it] = ch.inventory.splice(idx, 1);
+  if (!it) return;
+  (container.contents ??= []).push(it);
+  out(ctx.player, `&YYou put ${esc(short(ctx, it.vnum))} in ${esc(short(ctx, container.vnum))}.&D`);
+  sendInventory(ctx.world, ctx.player);
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `open`/`close`/`lock`/`unlock` <container> — manage a closeable/lockable carried container. */
+function doContainerState(ctx: CommandContext, arg: string, action: "open" | "close" | "lock" | "unlock"): void {
+  const ch = ctx.player.character;
+  if (!arg) return out(ctx.player, `${cap(action)} what?`);
+  const container = findCarriedContainer(ctx, arg.trim());
+  if (!container) return out(ctx.player, "&RYou aren't carrying a container like that.&D");
+  const proto = ctx.world.getObjPrototype(container.vnum)!;
+  const info = containerInfo(proto);
+  const name = esc(short(ctx, container.vnum));
+  if (!info.closeable) return out(ctx.player, `&R${cap(name)} can't be opened or closed.&D`);
+
+  if (action === "open") {
+    if (container.locked) return out(ctx.player, `&R${cap(name)} is locked.&D`);
+    if (!container.closed) return out(ctx.player, `&Y${cap(name)} is already open.&D`);
+    container.closed = false;
+    out(ctx.player, `&YYou open ${name}.&D`);
+  } else if (action === "close") {
+    if (container.closed) return out(ctx.player, `&Y${cap(name)} is already closed.&D`);
+    container.closed = true;
+    out(ctx.player, `&YYou close ${name}.&D`);
+  } else { // lock / unlock — needs the matching key in the pack
+    if (info.keyVnum <= 0) return out(ctx.player, `&R${cap(name)} has no lock.&D`);
+    if (!container.closed) return out(ctx.player, `&RClose ${name} first.&D`);
+    const hasKey = ch.inventory.some((it) => it.vnum === info.keyVnum);
+    if (!hasKey) return out(ctx.player, "&RYou don't have the key.&D");
+    if (action === "lock") { container.locked = true; out(ctx.player, `&YYou lock ${name}.&D`); }
+    else { container.locked = false; out(ctx.player, `&YYou unlock ${name}.&D`); }
+  }
+  if (ctx.db) void ctx.db.saveCharacter(ch).catch(() => {});
+}
+
+/** `look`/`examine [target]` — the room, or a carried container's contents. */
+function doLook(ctx: CommandContext, arg: string): void {
+  if (!arg.trim()) return sendRoom(ctx.live, ctx.player);
+  const container = findCarriedContainer(ctx, arg.trim());
+  if (container) {
+    const name = esc(short(ctx, container.vnum));
+    if (container.closed) return out(ctx.player, `&Y${cap(name)} is closed.&D`);
+    const inside = container.contents ?? [];
+    if (inside.length === 0) return out(ctx.player, `&Y${cap(name)} is empty.&D`);
+    const lines = [`&Y${cap(name)} holds:&D`];
+    for (const it of inside) lines.push(`  &w${esc(short(ctx, it.vnum))}&D`);
+    return out(ctx.player, ...lines);
+  }
+  // a carried/equipped item's description, else just re-show the room
+  const owned = ctx.player.character.inventory.find((it) => matchInv(ctx, it.vnum, arg.trim()));
+  if (owned) {
+    const p = ctx.world.getObjPrototype(owned.vnum)!;
+    return out(ctx.player, `&Y${esc(p.shortDesc)}&D`, (p.description || "You see nothing special.").trim());
+  }
+  sendRoom(ctx.live, ctx.player);
 }
 
 const TIER_COST = 500_000;
@@ -1118,7 +1237,8 @@ function doHelp(ctx: CommandContext): void {
     "&Wrest sleep sit stand&D (regen when out of combat)   &Wrecall&D (return to your hearth)   &Wheal&D (at a healer)",
     "&Wsay&D <text>   &Wwho&D   &Wscore&D (sc)   &Wslist&D [all]   &Wpractice&D <skill> (at a guildmaster)   &Wroles&D   &Whelp&D",
     "&Winventory&D (i)   &Wequipment&D (eq)   &Wwear&D/&Wwield&D <item>   &Wremove&D <item>",
-    "&Wget&D <item> [corpse]   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget all&D / &Wdrop all&D)",
+    "&Wget&D <item> [corpse/bag]   &Wput&D <item> <bag>   &Wloot&D [corpse]   &Wdrop&D <item>   (&Wget/put/drop all&D)",
+    "&Wopen&D/&Wclose&D/&Wlock&D/&Wunlock&D <container>   &Wlook&D <item/bag> (examine)",
     "&Wquest&D (status)   &Wquest request&D / &Wcomplete&D (at a questmaster)   &Wquest buy practice&D (glory)",
     "&Wclan&D (status)   &Wclan create&D <name> / &Winvite&D <player> / &Waccept&D / &Wleave&D   &Wctalk&D <msg>   &Wpkill&D (PvP on/off)",
     "&Wat a shop:&D &Wlist&D  &Wbuy&D <item> [n]  &Wsell&D <item>  &Wvalue&D <item>",

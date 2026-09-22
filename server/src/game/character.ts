@@ -7,9 +7,14 @@ import type { World } from "../world/world.ts";
 import type { Affect } from "./affects.ts";
 import type { QuestTarget } from "./quest.ts";
 
-/** A carried item — the minimal inventory the shop system needs (references an object prototype). */
+/** A carried item — references an object prototype; containers hold nested items + open/lock state. */
 export interface ItemInstance {
   vnum: number;
+  /** For a container: the items inside it. */
+  contents?: ItemInstance[];
+  /** Container state (closeable/lockable containers). */
+  closed?: boolean;
+  locked?: boolean;
 }
 
 export interface Character {

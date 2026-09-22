@@ -124,12 +124,15 @@ export function sendVitals(world: World, viewer: Player): void {
 export function sendInventory(world: World, viewer: Player): void {
   const items = viewer.character.inventory.map((it) => {
     const p = world.getObjPrototype(it.vnum);
+    const isBag = p?.itemType === "container";
+    const held = it.contents?.length ?? 0;
+    const bagNote = isBag ? `${it.closed ? "(closed) " : ""}Holds ${held} item${held === 1 ? "" : "s"}.` : "";
     return {
       vnum: it.vnum,
-      name: p?.shortDesc || `item ${it.vnum}`,
+      name: (p?.shortDesc || `item ${it.vnum}`) + (isBag && held > 0 ? ` [${held}]` : ""),
       itemType: p?.itemType ?? "trash",
       cost: p?.cost ?? 0,
-      description: (p?.description ?? "").trim(),
+      description: [bagNote, (p?.description ?? "").trim()].filter(Boolean).join("\n"),
     };
   });
   viewer.send({ t: "inventory", items });
