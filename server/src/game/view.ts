@@ -174,6 +174,21 @@ export function sendInventory(world: World, viewer: Player): void {
   viewer.send({ t: "inventory", items });
 }
 
+/** Send a shopkeeper's priced stock for the tap-to-buy modal (prices are CHA-adjusted per buyer). */
+export function sendShop(world: World, viewer: Player, keeperName: string, items: { vnum: number; price: number }[]): void {
+  const rows = items.map(({ vnum, price }) => {
+    const p = world.getObjPrototype(vnum);
+    return {
+      vnum,
+      name: p?.shortDesc || `item ${vnum}`,
+      itemType: p?.itemType ?? "trash",
+      price,
+      description: (p?.description ?? "").trim(),
+    };
+  });
+  viewer.send({ t: "shop", shop: { keeper: keeperName, items: rows } });
+}
+
 /** Send the character's worn/wielded gear for the equipment panel. */
 export function sendEquipment(world: World, viewer: Player): void {
   const eq = viewer.character.equipment ?? {};

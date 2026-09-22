@@ -237,6 +237,20 @@ describe("shop buy/sell flow (integration)", () => {
     expect(s.character.inventory.some((it) => it.vnum === armorVnum)).toBe(true); // still carried
   });
 
+  it("`list` emits a structured shop message with CHA-adjusted prices for tap-to-buy", () => {
+    const s = setup();
+    dispatchCommand(s.ctx, "list");
+    const shopMsg = s.received.find((m): m is Extract<ServerMessage, { t: "shop" }> => m.t === "shop");
+    expect(shopMsg).toBeDefined();
+    expect(shopMsg!.shop.items.length).toBeGreaterThan(0);
+    const { armorVnum } = armorKeeper();
+    const row = shopMsg!.shop.items.find((it) => it.vnum === armorVnum);
+    expect(row).toBeDefined();
+    const p = world.getObjPrototype(armorVnum!)!;
+    expect(row!.price).toBe(buyPrice(p, world.shops.get(21007)!, s.character.stats.cha));
+    expect(row!.name).toBe(p.shortDesc);
+  });
+
   it("caps a bulk buy at MAX_BUY (20)", () => {
     const s = setup(13, 100_000_000);
     const { armorVnum } = armorKeeper();

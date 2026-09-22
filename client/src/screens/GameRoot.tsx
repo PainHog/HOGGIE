@@ -64,6 +64,7 @@ export function GameRoot({
         connRef.current?.target(mobId);
         dispatch({ type: "engage", mobId }); // optimistic: light the foe up the instant it's tapped
       }}
+      onCloseShop={() => dispatch({ type: "closeShop" })}
       onSignOut={onSignOut}
       onCredits={onCredits}
     />

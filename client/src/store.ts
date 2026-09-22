@@ -9,6 +9,7 @@ import type {
   RoomExit,
   RoomView,
   ServerMessage,
+  ShopView,
   SkillInfo,
   Vitals,
 } from "./protocol";
@@ -52,6 +53,7 @@ export interface GameState {
   mobHp: Record<string, number>; // mob instance id -> live hp fraction (0..1)
   engagedTargetId: string | null; // the mob we're currently fighting (drives combat UI)
   fx: FxEvent[]; // recent combat fx for the scene to animate
+  shop: ShopView | null; // open storefront (tap-to-buy), cleared on leaving the room
 }
 
 export const initialState: GameState = {
@@ -71,6 +73,7 @@ export const initialState: GameState = {
   mobHp: {},
   engagedTargetId: null,
   fx: [],
+  shop: null,
 };
 
 const MAX_OUTPUT = 500;
@@ -86,11 +89,13 @@ function appendLines(state: GameState, lines: Line[]): OutputLine[] {
 export type Action =
   | { type: "server"; msg: ServerMessage }
   | { type: "engage"; mobId: string } // optimistic: the moment the player clicks a foe
+  | { type: "closeShop" } // dismiss the storefront modal
   | { type: "reset" };
 
 export function reducer(state: GameState, action: Action): GameState {
   if (action.type === "reset") return { ...initialState };
   if (action.type === "engage") return { ...state, engagedTargetId: action.mobId };
+  if (action.type === "closeShop") return { ...state, shop: null };
 
   const m = action.msg;
   switch (m.t) {
@@ -116,6 +121,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return { ...state, equipment: m.items };
     case "skills":
       return { ...state, skills: m.skills, skillsLabel: m.label };
+    case "shop":
+      return { ...state, shop: m.shop };
     case "fx":
       return applyFx(state, m.fx);
     case "system":
@@ -132,10 +139,13 @@ function applyRoom(state: GameState, room: RoomView): GameState {
   const mobHp: Record<string, number> = {};
   for (const mob of room.mobs) mobHp[mob.id] = mob.hpPct;
   const stillHere = room.mobs.some((mob) => mob.id === state.engagedTargetId);
+  // A new room (moved) closes any open storefront; a silent same-room refresh keeps it.
+  const shop = room.vnum === state.room?.vnum ? state.shop : null;
   return {
     ...state,
     room,
     mobHp,
+    shop,
     engagedTargetId: stillHere ? state.engagedTargetId : null,
     rooms: {
       ...state.rooms,

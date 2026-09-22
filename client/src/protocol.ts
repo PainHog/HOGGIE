@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 10;
+export const PROTOCOL_VERSION = 11;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -147,6 +147,19 @@ export interface EquippedItem {
   itemType: string;
 }
 
+export interface ShopItem {
+  vnum: number;
+  name: string;
+  itemType: string;
+  price: number;
+  description: string;
+}
+
+export interface ShopView {
+  keeper: string;
+  items: ShopItem[];
+}
+
 export interface SkillInfo {
   name: string;
   type: string;
@@ -174,6 +187,7 @@ export type ServerMessage =
   | { t: "inventory"; items: InventoryItem[] }
   | { t: "equipment"; items: EquippedItem[] }
   | { t: "skills"; label: string; skills: SkillInfo[] }
+  | { t: "shop"; shop: ShopView }
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };

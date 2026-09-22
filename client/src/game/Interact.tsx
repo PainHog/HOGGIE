@@ -7,7 +7,7 @@
  */
 import { useState } from "react";
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import type { QuestBrief, RoomMob, RoomView, Vitals } from "../protocol";
+import type { QuestBrief, RoomMob, RoomView, ShopView, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 
 export type SheetAction = { label: string; tone?: "attack" | "default" | "good"; run: () => void };
@@ -157,6 +157,51 @@ function QuestCard({ quest, hasQuestmaster, onCmd }: { quest?: QuestBrief; hasQu
   );
 }
 
+/** The tap-to-buy storefront: a shopkeeper's priced stock, each row a Buy button. */
+export function ShopModal({ shop, gold, onBuy, onClose }: { shop: ShopView | null; gold: number; onBuy: (name: string) => void; onClose: () => void }) {
+  return (
+    <Modal transparent visible={!!shop} animationType="slide" onRequestClose={onClose}>
+      <Pressable style={styles.overlay} onPress={onClose}>
+        <Pressable style={styles.shop} onPress={() => {}}>
+          {shop && (
+            <>
+              <View style={styles.shopHead}>
+                <Text style={styles.sheetTitle} numberOfLines={1}>{shop.keeper}</Text>
+                <Text style={styles.shopGold}>{gold} gold</Text>
+              </View>
+              {shop.items.length === 0 ? (
+                <Text style={styles.sheetSub}>Nothing for sale right now.</Text>
+              ) : (
+                <ScrollView style={styles.shopList} contentContainerStyle={{ gap: 6 }}>
+                  {shop.items.map((it, i) => {
+                    const afford = gold >= it.price;
+                    return (
+                      <View key={`${it.vnum}-${i}`} style={styles.shopRow}>
+                        <View style={styles.shopInfo}>
+                          <Text style={styles.shopName} numberOfLines={1}>{it.name}</Text>
+                          <Text style={styles.shopType}>{it.itemType}</Text>
+                        </View>
+                        <Pressable
+                          disabled={!afford}
+                          onPress={() => onBuy(it.name)}
+                          style={({ pressed }) => [styles.buyBtn, !afford && styles.buyPoor, pressed && afford && styles.sheetPress]}
+                        >
+                          <Text style={[styles.buyText, !afford && { color: theme.dim }]}>{it.price}g</Text>
+                        </Pressable>
+                      </View>
+                    );
+                  })}
+                </ScrollView>
+              )}
+              <Pressable onPress={onClose} style={styles.sheetCancel}><Text style={styles.sheetCancelText}>Done</Text></Pressable>
+            </>
+          )}
+        </Pressable>
+      </Pressable>
+    </Modal>
+  );
+}
+
 export function ActionSheet({ sheet, onClose }: { sheet: Sheet; onClose: () => void }) {
   return (
     <Modal transparent visible={!!sheet} animationType="fade" onRequestClose={onClose}>
@@ -229,4 +274,16 @@ const styles = StyleSheet.create({
   sheetBtnText: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 15 },
   sheetCancel: { paddingVertical: 10, alignItems: "center" },
   sheetCancelText: { color: theme.dim, fontFamily: fonts.body, fontSize: 14 },
+
+  shop: { backgroundColor: theme.bgAlt, borderTopLeftRadius: 16, borderTopRightRadius: 16, borderWidth: 1, borderColor: theme.panelBorder, padding: 14, gap: 8, maxHeight: "70%" },
+  shopHead: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  shopGold: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 14 },
+  shopList: { flexGrow: 0 },
+  shopRow: { flexDirection: "row", alignItems: "center", gap: 10, backgroundColor: theme.panel, borderRadius: 8, borderWidth: 1, borderColor: theme.panelBorder, padding: 10 },
+  shopInfo: { flex: 1, gap: 2 },
+  shopName: { color: theme.bone, fontFamily: fonts.bodySemi, fontSize: 14 },
+  shopType: { color: theme.dim, fontFamily: fonts.body, fontSize: 11 },
+  buyBtn: { paddingVertical: 8, paddingHorizontal: 16, borderRadius: 8, borderWidth: 1, borderColor: theme.gold, backgroundColor: theme.panel },
+  buyPoor: { borderColor: theme.panelBorder, backgroundColor: theme.bg },
+  buyText: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 14 },
 });

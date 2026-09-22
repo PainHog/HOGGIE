@@ -15,7 +15,7 @@ import { StageHud } from "../game/StageHud";
 import { ActionBar } from "../game/ActionBar";
 import { Minimap } from "../game/Minimap";
 import { CharacterPanel, InventoryPanel, SkillsPanel } from "../game/panels";
-import { RoomInteractions } from "../game/Interact";
+import { RoomInteractions, ShopModal } from "../game/Interact";
 
 type Panel = "none" | "map" | "character" | "inventory" | "skills" | "log";
 
@@ -32,12 +32,14 @@ export function GameScreen({
   state,
   onCmd,
   onEngage,
+  onCloseShop,
   onSignOut,
   onCredits,
 }: {
   state: GameState;
   onCmd: (raw: string) => void;
   onEngage: (mobId: string) => void;
+  onCloseShop: () => void;
   onSignOut: () => void;
   onCredits: () => void;
 }) {
@@ -124,6 +126,13 @@ export function GameScreen({
           {drawerBody(panel)}
         </ScrollView>
       )}
+
+      <ShopModal
+        shop={state.shop}
+        gold={state.vitals?.gold ?? 0}
+        onBuy={(name) => onCmd(`buy ${name}`)}
+        onClose={onCloseShop}
+      />
 
       <CommandInput onSubmit={onCmd} />
     </View>

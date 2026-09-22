@@ -31,7 +31,7 @@ import { containerInfo, equipStats, isContainer, totalWeight } from "./items.ts"
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, isStaff, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendEquipment, sendInventory, sendRoom, sendRoomView, sendSkills, sendVitals } from "./view.ts";
+import { esc, out, sendEquipment, sendInventory, sendRoom, sendRoomView, sendShop, sendSkills, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
@@ -753,13 +753,17 @@ function doShopList(ctx: CommandContext): void {
   const stock = ctx.world.shopStock.get(keeper.shop.keeperVnum) ?? [];
   if (stock.length === 0) return out(ctx.player, `&Y${cap(mobShort(keeper.mob))} has nothing for sale.&D`);
   const lines = [`&Y--- ${cap(mobShort(keeper.mob))}'s wares ---&D`, "&d  price  item&D"];
+  const priced: { vnum: number; price: number }[] = [];
   for (const vnum of stock) {
     const p = ctx.world.getObjPrototype(vnum);
     if (!p) continue;
-    lines.push(`&W${String(buyPrice(p, keeper.shop, ch.stats.cha)).padStart(7)}&D  ${esc(p.shortDesc)} &d[${p.itemType}]&D`);
+    const price = buyPrice(p, keeper.shop, ch.stats.cha);
+    priced.push({ vnum, price });
+    lines.push(`&W${String(price).padStart(7)}&D  ${esc(p.shortDesc)} &d[${p.itemType}]&D`);
   }
   lines.push("&d(buy <item> [n], sell <item>, value <item> — haggle with CHA)&D");
   out(ctx.player, ...lines);
+  sendShop(ctx.world, ctx.player, cap(mobShort(keeper.mob)), priced); // structured stock for tap-to-buy
 }
 
 /** `value <item>`: what a carried item sells for, or what a stocked item costs. */

@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 10 as const;
+export const PROTOCOL_VERSION = 11 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -271,6 +271,21 @@ export interface EquippedItem {
   itemType: string;
 }
 
+/** One line of a shopkeeper's stock, priced for this buyer (CHA-adjusted). */
+export interface ShopItem {
+  vnum: number;
+  name: string;
+  itemType: string;
+  price: number;
+  description: string;
+}
+
+/** A shopkeeper's storefront, for the tap-to-buy shop modal. */
+export interface ShopView {
+  keeper: string;
+  items: ShopItem[];
+}
+
 /** One learnable skill/spell on a character's class tree, with its help prose for tooltips. */
 export interface SkillInfo {
   name: string;
@@ -304,6 +319,8 @@ export type ServerMessage =
   | { t: "equipment"; items: EquippedItem[] }
   /** The character's class skill/spell tree (union of both classes when dual), for the skills panel. */
   | { t: "skills"; label: string; skills: SkillInfo[] }
+  /** A shopkeeper's priced stock, sent alongside the `list` narrative for the tap-to-buy modal. */
+  | { t: "shop"; shop: ShopView }
   /** Presentation-only combat event, paired with the narrative it visualises. */
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
