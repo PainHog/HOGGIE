@@ -28,6 +28,24 @@ export function defaultObj(vnum: number, keywords: string, area: string): ObjPro
   };
 }
 
+/** Register a newly-dug room into the world. Returns an error if the vnum is taken. */
+export function createRoom(world: World, vnum: number, name: string, sector: string, area: string): string | null {
+  if (world.getRoom(vnum)) return `Room ${vnum} already exists.`;
+  world.rooms.set(vnum, { vnum, area, name: name.slice(0, 60), description: "", sector, roomFlags: [], exits: [] });
+  return null;
+}
+
+/** Add or replace a directional exit on `from` pointing at `to`. */
+export function linkExit(world: World, fromVnum: number, dir: string, toVnum: number): string | null {
+  const from = world.getRoom(fromVnum);
+  if (!from) return `No room ${fromVnum} is loaded.`;
+  if (!world.getRoom(toVnum)) return `No room ${toVnum} is loaded.`;
+  const existing = from.exits.find((e) => e.dir === dir);
+  if (existing) existing.toVnum = toVnum;
+  else from.exits.push({ dir, toVnum });
+  return null;
+}
+
 /** Register a created prototype into the world (idempotent). Returns an error if the vnum is taken. */
 export function createProto(world: World, kind: "mob" | "obj", vnum: number, keywords: string, area: string): string | null {
   if (kind === "mob") {

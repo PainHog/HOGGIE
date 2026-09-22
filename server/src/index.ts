@@ -18,7 +18,7 @@ import { Economy } from "./game/economy.ts";
 import { ClanStore } from "./game/clanStore.ts";
 import { loadWars } from "./game/clans.ts";
 import { initDoors } from "./game/doors.ts";
-import { applyOverride, createProto, type OlcKind } from "./game/olc.ts";
+import { applyOverride, createProto, createRoom, linkExit, type OlcKind } from "./game/olc.ts";
 import { GameTick } from "./game/tick.ts";
 import { populateWorld } from "./game/spawn.ts";
 import { Session, type GameServices } from "./game/session.ts";
@@ -44,9 +44,18 @@ async function main(): Promise<void> {
     try {
       const created = await db.listCreated();
       let made = 0;
-      for (const c of created) if (!createProto(world, c.kind as "mob" | "obj", c.vnum, c.keywords, c.area)) made++;
-      if (created.length) log.info("registered OLC-created prototypes", { made, total: created.length });
-    } catch (e) { log.warn("could not load OLC-created prototypes", { detail: String(e) }); }
+      for (const c of created) {
+        const d = c.data;
+        const err = c.kind === "room"
+          ? createRoom(world, c.vnum, String(d.name ?? "An unfinished room"), String(d.sector ?? "inside"), String(d.area ?? "custom"))
+          : createProto(world, c.kind as "mob" | "obj", c.vnum, String(d.keywords ?? ""), String(d.area ?? "custom"));
+        if (!err) made++;
+      }
+      // Dug exits link created/existing rooms; apply after rooms exist.
+      let linked = 0;
+      for (const e of await db.listExits()) if (!linkExit(world, e.from, e.dir, e.to)) linked++;
+      if (created.length || linked) log.info("registered OLC-created content", { made, linked, total: created.length });
+    } catch (e) { log.warn("could not load OLC-created content", { detail: String(e) }); }
     try {
       const overrides = await db.listOverrides();
       let applied = 0;

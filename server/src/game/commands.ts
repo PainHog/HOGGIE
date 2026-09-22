@@ -11,9 +11,9 @@ import type { LiveWorld, Player } from "./liveWorld.ts";
 import { carryLimits, className, dualClassName, effectiveLevel, expToReach, isTiered, raceName, type ItemInstance } from "./character.ts";
 import { mobMatches, mobShort, spawnMob, type MobInstance } from "./mobInstance.ts";
 import { corpseMatches, makeCorpse, makeFixedGroundItem, makeGroundItem, type Corpse } from "./ground.ts";
-import { setDoorBothSides } from "./doors.ts";
+import { REVERSE_DIR, setDoorBothSides } from "./doors.ts";
 import { moveCost } from "./movement.ts";
-import { applyOverride, createProto, OLC_FIELDS, type OlcKind } from "./olc.ts";
+import { applyOverride, createProto, createRoom, linkExit, OLC_FIELDS, type OlcKind } from "./olc.ts";
 import { learnedPct, mergedGrants, practiceGain, raiseSkill } from "./skills.ts";
 import { assignQuest, GLORY_PER_PRACTICE, isQuestGiver, questExpired, questFulfilled, QUEST_COOLDOWN_MS, QUEST_FAIL_COOLDOWN_MS } from "./quest.ts";
 import {
@@ -136,6 +136,7 @@ export function dispatchCommand(ctx: CommandContext, raw: string): void {
     case "oedit": return staff(ctx, "build.oedit", () => doEdit(ctx, "obj", arg));
     case "mcreate": return staff(ctx, "build.medit", () => doCreate(ctx, "mob", arg));
     case "ocreate": return staff(ctx, "build.oedit", () => doCreate(ctx, "obj", arg));
+    case "dig": return staff(ctx, "build.redit", () => doDig(ctx, arg));
     case "transfer": return staff(ctx, "world.transfer", () => doTransfer(ctx, arg));
     case "load": return staff(ctx, "world.load", () => doLoad(ctx, arg));
     case "purge": return staff(ctx, "world.purge", () => doPurge(ctx));
@@ -1819,8 +1820,34 @@ function doCreate(ctx: CommandContext, kind: "mob" | "obj", arg: string): void {
   const area = ctx.world.getRoom(ctx.player.character.roomVnum)?.area ?? "custom";
   const err = createProto(ctx.world, kind, vnum, keywords, area);
   if (err) return out(ctx.player, `&R${esc(err)}&D`);
-  if (ctx.db) void ctx.db.saveCreated(kind, vnum, keywords, area).catch(() => {});
+  if (ctx.db) void ctx.db.saveCreated(kind, vnum, { keywords, area }).catch(() => {});
   out(ctx.player, `&YCreated ${kind} ${vnum} — ${esc(keywords)}. Shape it with ${kind === "mob" ? "medit" : "oedit"} ${vnum} <field> <value>.&D`);
+}
+
+/** `dig <dir> <vnum>` — carve a new room in a direction, linked both ways to the current room. */
+function doDig(ctx: CommandContext, arg: string): void {
+  const parts = arg.trim().split(/\s+/);
+  const dir = DIR_ALIAS[(parts[0] ?? "").toLowerCase()] ?? (parts[0] ?? "").toLowerCase();
+  const vnum = parseInt(parts[1] ?? "", 10);
+  if (!DIRECTIONS.includes(dir) || !Number.isFinite(vnum)) return out(ctx.player, `dig <${DIRECTIONS.slice(0, 6).join("|")}|...> <new room vnum>`);
+  const here = ctx.player.character.roomVnum;
+  const room = ctx.world.getRoom(here);
+  if (!room) return out(ctx.player, "&RYou are nowhere.&D");
+  if (!canEditVnum(ctx.account, vnum)) return out(ctx.player, `&RVnum ${vnum} is outside your assigned build range.&D`);
+  if (room.exits.some((e) => e.dir === dir)) return out(ctx.player, `&RThere's already an exit ${dir} from here.&D`);
+  const back = REVERSE_DIR[dir];
+  if (!back) return out(ctx.player, `&RYou can only dig a cardinal direction.&D`);
+  const err = createRoom(ctx.world, vnum, "An unfinished room", room.sector, room.area);
+  if (err) return out(ctx.player, `&R${esc(err)}&D`);
+  linkExit(ctx.world, here, dir, vnum);
+  linkExit(ctx.world, vnum, back, here);
+  if (ctx.db) {
+    void ctx.db.saveCreated("room", vnum, { name: "An unfinished room", sector: room.sector, area: room.area }).catch(() => {});
+    void ctx.db.saveExit(here, dir, vnum).catch(() => {});
+    void ctx.db.saveExit(vnum, back, here).catch(() => {});
+  }
+  out(ctx.player, `&YYou carve a new room ${dir} (vnum ${vnum}). 'redit name/desc/sector' to shape it, walk ${dir} to visit.&D`);
+  sendRoom(ctx.live, ctx.player);
 }
 
 /** `medit <vnum> <field> <value>` / `oedit <vnum> <field> <value>` — edit a mob/object prototype. */

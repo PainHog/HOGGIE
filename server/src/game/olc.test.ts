@@ -57,9 +57,11 @@ function setup(roles: string[], low: number | null = null, high: number | null =
   const recv: ServerMessage[] = [];
   const saved: string[] = [];
   const created: string[] = [];
+  const exits: string[] = [];
   const fakeDb = {
     saveOverride: async (k: string, v: number, f: string, val: string) => { saved.push(`${k}:${v}:${f}=${val}`); },
-    saveCreated: async (k: string, v: number, kw: string) => { created.push(`${k}:${v}:${kw}`); },
+    saveCreated: async (k: string, v: number, data: Record<string, unknown>) => { created.push(`${k}:${v}:${data.keywords ?? data.name}`); },
+    saveExit: async (from: number, dir: string, to: number) => { exits.push(`${from}:${dir}->${to}`); },
   } as unknown as Db;
   const ch = createCharacter(world, { id: "00000000-0000-0000-0000-0000000olc01", accountId: "acc", name: "Builder", raceId: 0, classId: 3, startRoom: ROOM });
   const player: Player = { character: ch, send: (m) => recv.push(m) };
@@ -67,7 +69,7 @@ function setup(roles: string[], low: number | null = null, high: number | null =
   const fighter = new PlayerFighter(ch, world, (m) => recv.push(m));
   const account: StaffAccount = { id: "acc", email: null, roles, builderLowVnum: low, builderHighVnum: high };
   const ctx: CommandContext = { world, live, player, combat, economy: new Economy(), fighter, account, config: CONFIG, clanStore: new ClanStore(null), db: fakeDb, quit: () => {} };
-  return { live, ch, recv, ctx, saved, created };
+  return { live, ch, recv, ctx, saved, created, exits };
 }
 
 describe("applyOverride", () => {
@@ -155,5 +157,28 @@ describe("create commands", () => {
     expect(createProto(world, "mob", 995003, "kobold", "custom")).toBeNull();
     expect(world.getMobPrototype(995003)?.keywords).toBe("kobold");
     expect(createProto(world, "mob", 995003, "again", "custom")).toMatch(/already exists/);
+  });
+});
+
+describe("dig", () => {
+  const back: Record<string, string> = { north: "south", east: "west", south: "north", west: "east", up: "down", down: "up" };
+
+  it("carves a two-way-linked room and persists both the room and its exits", () => {
+    const s = setup(["player", "admin"]);
+    const used = new Set(world.getRoom(ROOM)!.exits.map((e) => e.dir));
+    const dir = ["north", "east", "south", "west", "up", "down"].find((d) => !used.has(d))!;
+    dispatchCommand(s.ctx, `dig ${dir} 995100`);
+    expect(world.getRoom(995100)).toBeDefined();
+    expect(world.getRoom(ROOM)!.exits.find((e) => e.dir === dir)?.toVnum).toBe(995100); // here -> new
+    expect(world.getRoom(995100)!.exits.find((e) => e.dir === back[dir])?.toVnum).toBe(ROOM); // new -> here
+    expect(s.created).toContain("room:995100:An unfinished room");
+    expect(s.exits.length).toBe(2); // both directions persisted
+  });
+
+  it("won't dig where an exit already exists", () => {
+    const s = setup(["player", "admin"]);
+    const dir = world.getRoom(ROOM)!.exits[0]!.dir; // a direction already taken
+    dispatchCommand(s.ctx, `dig ${dir} 995101`);
+    expect(world.getRoom(995101)).toBeUndefined();
   });
 });

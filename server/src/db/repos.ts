@@ -249,19 +249,31 @@ export class Db {
     if (res.error) throw res.error;
   }
 
-  /** Every OLC-created prototype (mob/obj), registered into the world at boot before overrides. */
-  async listCreated(): Promise<{ kind: string; vnum: number; keywords: string; area: string }[]> {
+  /** Every OLC-created record (mob/obj prototype, or dug room), registered at boot before overrides. */
+  async listCreated(): Promise<{ kind: string; vnum: number; data: Record<string, unknown> }[]> {
     const res = await this.client.from("world_created").select("kind, vnum, data");
     if (res.error) throw res.error;
-    return (res.data ?? []).map((r: Record<string, unknown>) => {
-      const d = (r.data ?? {}) as { keywords?: string; area?: string };
-      return { kind: String(r.kind), vnum: Number(r.vnum), keywords: String(d.keywords ?? ""), area: String(d.area ?? "custom") };
-    });
+    return (res.data ?? []).map((r: Record<string, unknown>) => ({
+      kind: String(r.kind), vnum: Number(r.vnum), data: (r.data ?? {}) as Record<string, unknown>,
+    }));
   }
 
-  /** Record a newly-created prototype (mob/obj) with its keywords + home area. */
-  async saveCreated(kind: string, vnum: number, keywords: string, area: string): Promise<void> {
-    const res = await this.client.from("world_created").upsert({ kind, vnum, data: { keywords, area } });
+  /** Record a newly-created mob/obj prototype or dug room (data holds the kind's fields). */
+  async saveCreated(kind: string, vnum: number, data: Record<string, unknown>): Promise<void> {
+    const res = await this.client.from("world_created").upsert({ kind, vnum, data });
+    if (res.error) throw res.error;
+  }
+
+  /** Every OLC-created exit link (from `dig`), applied at boot after created rooms exist. */
+  async listExits(): Promise<{ from: number; dir: string; to: number }[]> {
+    const res = await this.client.from("world_exits").select("from_vnum, dir, to_vnum");
+    if (res.error) throw res.error;
+    return (res.data ?? []).map((r: Record<string, unknown>) => ({ from: Number(r.from_vnum), dir: String(r.dir), to: Number(r.to_vnum) }));
+  }
+
+  /** Record (or replace) a directional exit between two rooms. */
+  async saveExit(from: number, dir: string, to: number): Promise<void> {
+    const res = await this.client.from("world_exits").upsert({ from_vnum: from, dir, to_vnum: to });
     if (res.error) throw res.error;
   }
 
