@@ -6,6 +6,7 @@ import type {
   EquippedItem,
   InventoryItem,
   Line,
+  PartyView,
   RoomExit,
   RoomView,
   ServerMessage,
@@ -54,6 +55,7 @@ export interface GameState {
   engagedTargetId: string | null; // the mob we're currently fighting (drives combat UI)
   fx: FxEvent[]; // recent combat fx for the scene to animate
   shop: ShopView | null; // open storefront (tap-to-buy), cleared on leaving the room
+  party: PartyView | null; // the viewer's group roster (null/empty = solo)
 }
 
 export const initialState: GameState = {
@@ -74,6 +76,7 @@ export const initialState: GameState = {
   engagedTargetId: null,
   fx: [],
   shop: null,
+  party: null,
 };
 
 const MAX_OUTPUT = 500;
@@ -123,6 +126,8 @@ export function reducer(state: GameState, action: Action): GameState {
       return { ...state, skills: m.skills, skillsLabel: m.label };
     case "shop":
       return { ...state, shop: m.shop };
+    case "party":
+      return { ...state, party: m.party.members.length ? m.party : null };
     case "fx":
       return applyFx(state, m.fx);
     case "system":

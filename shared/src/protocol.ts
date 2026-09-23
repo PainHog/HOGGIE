@@ -7,7 +7,7 @@
  */
 import { z } from "zod";
 
-export const PROTOCOL_VERSION = 11 as const;
+export const PROTOCOL_VERSION = 12 as const;
 
 /** Max characters accepted in any single inbound text field (abuse guard). */
 export const MAX_TEXT = 4000;
@@ -253,6 +253,13 @@ export interface CombatFx {
   element?: string; // for spell hits: the damage element (fire/cold/…/magic), tints the fx
 }
 
+/** One item nested inside a carried container. */
+export interface ContainedItem {
+  vnum: number;
+  name: string;
+  itemType: string;
+}
+
 /** A carried item, resolved for display (name/type/cost from the object prototype). */
 export interface InventoryItem {
   vnum: number;
@@ -261,6 +268,12 @@ export interface InventoryItem {
   cost: number;
   /** The item's own description prose (empty when the source has none). Surfaced as a tooltip. */
   description: string;
+  /** True when this item is a container (bag/chest) — drives the bag manager. */
+  container?: boolean;
+  /** A closeable container's open/closed state. */
+  closed?: boolean;
+  /** A container's resolved contents (present only for containers). */
+  contents?: ContainedItem[];
 }
 
 /** A worn/wielded item (for the equipment panel). */
@@ -278,6 +291,26 @@ export interface ShopItem {
   itemType: string;
   price: number;
   description: string;
+}
+
+/** A member of the viewer's party (group), for the party panel. */
+export interface PartyMember {
+  id: string;
+  name: string;
+  level: number;
+  hpPct: number;
+  manaPct: number;
+  /** In the same room as the viewer right now. */
+  here: boolean;
+  /** The group's leader. */
+  leader: boolean;
+  /** This is the viewer themselves. */
+  self: boolean;
+}
+
+/** The viewer's party. Empty `members` means "not in a group" (clears the panel). */
+export interface PartyView {
+  members: PartyMember[];
 }
 
 /** A shopkeeper's storefront, for the tap-to-buy shop modal. */
@@ -321,6 +354,8 @@ export type ServerMessage =
   | { t: "skills"; label: string; skills: SkillInfo[] }
   /** A shopkeeper's priced stock, sent alongside the `list` narrative for the tap-to-buy modal. */
   | { t: "shop"; shop: ShopView }
+  /** The viewer's party (group) membership + each member's vitals, for the party panel. */
+  | { t: "party"; party: PartyView }
   /** Presentation-only combat event, paired with the narrative it visualises. */
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }

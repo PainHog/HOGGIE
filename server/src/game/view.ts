@@ -8,6 +8,7 @@ import { affectNames } from "./affects.ts";
 import { learnedPct, mergedGrants } from "./skills.ts";
 import { isStaff } from "./roles.ts";
 import { questFulfilled } from "./quest.ts";
+import { groupMembers } from "./groups.ts";
 
 /** Escape user-supplied text so it can't inject `&`-color codes. */
 export function esc(s: string): string {
@@ -163,15 +164,49 @@ export function sendInventory(world: World, viewer: Player): void {
     const isBag = p?.itemType === "container";
     const held = it.contents?.length ?? 0;
     const bagNote = isBag ? `${it.closed ? "(closed) " : ""}Holds ${held} item${held === 1 ? "" : "s"}.` : "";
+    const contents = isBag
+      ? (it.contents ?? []).map((c) => {
+          const cp = world.getObjPrototype(c.vnum);
+          return { vnum: c.vnum, name: cp?.shortDesc || `item ${c.vnum}`, itemType: cp?.itemType ?? "trash" };
+        })
+      : undefined;
     return {
       vnum: it.vnum,
       name: (p?.shortDesc || `item ${it.vnum}`) + (isBag && held > 0 ? ` [${held}]` : ""),
       itemType: p?.itemType ?? "trash",
       cost: p?.cost ?? 0,
       description: [bagNote, (p?.description ?? "").trim()].filter(Boolean).join("\n"),
+      container: isBag || undefined,
+      closed: it.closed || undefined,
+      contents,
     };
   });
   viewer.send({ t: "inventory", items });
+}
+
+/** Send the viewer's party roster + each member's vitals (empty members = ungrouped). */
+export function sendParty(live: LiveWorld, viewer: Player): void {
+  const ch = viewer.character;
+  if (!ch.groupLeaderId) return viewer.send({ t: "party", party: { members: [] } });
+  const members = groupMembers(live, ch).map((p) => {
+    const c = p.character;
+    return {
+      id: c.id,
+      name: c.name,
+      level: c.level,
+      hpPct: c.maxHp > 0 ? Math.max(0, Math.min(1, c.hp / c.maxHp)) : 0,
+      manaPct: c.maxMana > 0 ? Math.max(0, Math.min(1, c.mana / c.maxMana)) : 0,
+      here: c.roomVnum === ch.roomVnum,
+      leader: c.groupLeaderId === c.id,
+      self: c.id === ch.id,
+    };
+  });
+  viewer.send({ t: "party", party: { members } });
+}
+
+/** Refresh the party panel for every online member of a character's group. */
+export function sendPartyToGroup(live: LiveWorld, ch: Character): void {
+  for (const p of groupMembers(live, ch)) sendParty(live, p);
 }
 
 /** Send a shopkeeper's priced stock for the tap-to-buy modal (prices are CHA-adjusted per buyer). */

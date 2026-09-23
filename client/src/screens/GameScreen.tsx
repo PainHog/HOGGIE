@@ -14,10 +14,10 @@ import { RoomStage } from "../game/RoomStage";
 import { StageHud } from "../game/StageHud";
 import { ActionBar } from "../game/ActionBar";
 import { Minimap } from "../game/Minimap";
-import { CharacterPanel, InventoryPanel, SkillsPanel } from "../game/panels";
+import { CharacterPanel, InventoryPanel, PartyPanel, SkillsPanel } from "../game/panels";
 import { RoomInteractions, ShopModal } from "../game/Interact";
 
-type Panel = "none" | "map" | "character" | "inventory" | "skills" | "log";
+type Panel = "none" | "map" | "character" | "inventory" | "skills" | "party" | "log";
 
 function ToolButton({ icon, label, active, onPress }: { icon?: IconName; label: string; active?: boolean; onPress: () => void }) {
   return (
@@ -75,6 +75,7 @@ export function GameScreen({
     if (p === "character") return <CharacterPanel vitals={state.vitals} catalog={state.catalog} equipment={state.equipment} onCmd={onCmd} />;
     if (p === "inventory") return <InventoryPanel items={state.inventory} onCmd={onCmd} />;
     if (p === "skills") return <SkillsPanel skills={state.skills} label={state.skillsLabel} onCmd={onCmd} />;
+    if (p === "party") return <PartyPanel party={state.party} onCmd={onCmd} />;
     if (p === "log") return <View style={styles.logBox}><OutputPane lines={state.output} /></View>;
     return null;
   };
@@ -88,6 +89,7 @@ export function GameScreen({
         {!wide && <ToolButton icon={ICON.player} label="Hero" active={panel === "character"} onPress={() => toggle("character")} />}
         {!wide && <ToolButton icon={ICON.inventory} label="Bag" active={panel === "inventory"} onPress={() => toggle("inventory")} />}
         {!wide && <ToolButton icon={ICON.skills} label="Skills" active={panel === "skills"} onPress={() => toggle("skills")} />}
+        {!wide && state.party && <ToolButton icon={ICON.player} label="Party" active={panel === "party"} onPress={() => toggle("party")} />}
         <ToolButton label="Quest" onPress={() => { onCmd("quest"); setPanel("log"); }} />
         {!inCombat && <ToolButton label={resting ? "Stand" : "Rest"} active={resting} onPress={() => onCmd(resting ? "stand" : "rest")} />}
         {!inCombat && <ToolButton label="Recall" onPress={() => onCmd("recall")} />}
@@ -115,6 +117,7 @@ export function GameScreen({
         {wide && (
           <ScrollView style={styles.rail} contentContainerStyle={styles.railContent}>
             <Minimap rooms={state.rooms} current={state.room?.vnum ?? null} />
+            {state.party && <PartyPanel party={state.party} onCmd={onCmd} />}
             <CharacterPanel vitals={state.vitals} catalog={state.catalog} equipment={state.equipment} onCmd={onCmd} />
             <InventoryPanel items={state.inventory} onCmd={onCmd} />
             <SkillsPanel skills={state.skills} label={state.skillsLabel} onCmd={onCmd} />

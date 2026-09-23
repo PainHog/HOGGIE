@@ -5,13 +5,13 @@
  */
 import { useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import type { Catalog, EquippedItem, InventoryItem, SkillInfo, Vitals } from "../protocol";
+import type { Catalog, EquippedItem, InventoryItem, PartyView, SkillInfo, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 import { SvgIcon, type IconName } from "../art/SvgIcon";
 import { ICON } from "../art/iconMap";
 import { InfoTip } from "../ui/InfoTip";
 import { STAT_INFO } from "../data/statInfo";
-import { ActionSheet, type Sheet, type SheetAction } from "./Interact";
+import { ActionSheet, BagModal, type Sheet, type SheetAction } from "./Interact";
 
 const WEARABLE = new Set(["armor", "weapon", "worn", "light", "artarmor", "artweapon", "artworn"]);
 
@@ -132,16 +132,19 @@ export function CharacterPanel({ vitals, catalog, equipment = [], onCmd }: { vit
 
 export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd?: (raw: string) => void }) {
   const [sheet, setSheet] = useState<Sheet>(null);
+  const [bagVnum, setBagVnum] = useState<number | null>(null);
   const openItem = (it: InventoryItem) => {
+    if (it.container) { setBagVnum(it.vnum); return; } // a bag opens the manager, not a sheet
     const actions: SheetAction[] = [];
     const use = USE_VERB[it.itemType];
     if (use) actions.push({ label: use.label, tone: use.tone, run: () => onCmd?.(`${use.cmd} ${it.name}`) });
     if (WEARABLE.has(it.itemType)) actions.push({ label: "Equip", tone: "good", run: () => onCmd?.(`wear ${it.name}`) });
-    if (it.itemType === "container") actions.push({ label: "Look inside", run: () => onCmd?.(`look ${it.name}`) });
     actions.push({ label: "Examine", run: () => onCmd?.(`look ${it.name}`) });
     actions.push({ label: "Drop", tone: "attack", run: () => onCmd?.(`drop ${it.name}`) });
     setSheet({ title: it.name, subtitle: `${it.itemType} · worth ${it.cost} gold`, actions });
   };
+  // Re-derive the open bag from the latest items each render so its contents stay live after get/put.
+  const bag = bagVnum != null ? items.find((i) => i.vnum === bagVnum && i.container) ?? null : null;
   return (
     <View style={styles.panel}>
       <View style={styles.invHead}>
@@ -163,7 +166,7 @@ export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd
               >
                 <SvgIcon name={iconForItem(it.itemType)} size={18} color={theme.accent} />
                 <Text style={styles.invName} numberOfLines={1}>{it.name}</Text>
-                {wearable && <Text style={styles.invWear}>equip</Text>}
+                {it.container ? <Text style={styles.invWear}>open</Text> : wearable ? <Text style={styles.invWear}>equip</Text> : null}
                 <View style={styles.invPrice}>
                   <SvgIcon name={ICON.gold} size={12} color={theme.gold} />
                   <Text style={styles.invCost}>{it.cost}</Text>
@@ -173,8 +176,39 @@ export function InventoryPanel({ items, onCmd }: { items: InventoryItem[]; onCmd
           })}
         </ScrollView>
       )}
-      <Text style={styles.note}>Tap an item to use it (quaff · equip · examine · drop).</Text>
+      <Text style={styles.note}>Tap an item to use it · tap a bag to open it.</Text>
       <ActionSheet sheet={sheet} onClose={() => setSheet(null)} />
+      <BagModal bag={bag} pack={items} onCmd={(raw) => onCmd?.(raw)} onClose={() => setBagVnum(null)} />
+    </View>
+  );
+}
+
+/** The party roster: each group member's live HP, who leads, and who's in the room with you. */
+export function PartyPanel({ party, onCmd }: { party: PartyView | null; onCmd?: (raw: string) => void }) {
+  if (!party || party.members.length === 0) return null;
+  const iLead = !!party.members.find((m) => m.self)?.leader;
+  return (
+    <View style={styles.panel}>
+      <View style={styles.invHead}>
+        <SvgIcon name={ICON.player} size={18} color={theme.accent} />
+        <Text style={styles.title}>Party</Text>
+        <Text style={styles.invCount}>{party.members.length}</Text>
+      </View>
+      {party.members.map((m) => (
+        <View key={m.id} style={[styles.partyRow, m.self && styles.partySelf]}>
+          <View style={{ flex: 1, gap: 3 }}>
+            <Text style={styles.partyName} numberOfLines={1}>{m.leader ? "♦ " : ""}{m.name}{m.self ? " (you)" : ""} <Text style={styles.partyLvl}>L{m.level}</Text></Text>
+            <View style={styles.partyTrack}><View style={[styles.partyHp, { width: `${Math.round(Math.max(0, Math.min(1, m.hpPct)) * 100)}%` }]} /></View>
+          </View>
+          <Text style={[styles.partyHere, { color: m.here ? theme.accent : theme.dim }]}>{m.here ? "here" : "away"}</Text>
+          {iLead && !m.self && (
+            <Pressable onPress={() => onCmd?.(`ungroup ${m.name}`)} style={({ pressed }) => [styles.partyKick, pressed && { opacity: 0.6 }]}><Text style={styles.partyKickText}>✕</Text></Pressable>
+          )}
+        </View>
+      ))}
+      <Pressable onPress={() => onCmd?.("ungroup")} style={({ pressed }) => [styles.partyLeave, pressed && { opacity: 0.7 }]}>
+        <Text style={styles.partyLeaveText}>{iLead ? "Disband group" : "Leave group"}</Text>
+      </Pressable>
     </View>
   );
 }
@@ -319,6 +353,20 @@ const styles = StyleSheet.create({
   invWear: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 10, textTransform: "uppercase" },
   invPrice: { flexDirection: "row", alignItems: "center", gap: 3 },
   invCost: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 11 },
+  partyRow: {
+    flexDirection: "row", alignItems: "center", gap: 8, backgroundColor: theme.bgAlt,
+    borderRadius: 6, borderWidth: 1, borderColor: theme.panelBorder, paddingVertical: 6, paddingHorizontal: 8, marginTop: 4,
+  },
+  partySelf: { borderColor: theme.accent },
+  partyName: { color: theme.bone, fontFamily: fonts.bodySemi, fontSize: 12 },
+  partyLvl: { color: theme.dim, fontFamily: fonts.body, fontSize: 11 },
+  partyTrack: { height: 5, borderRadius: 3, backgroundColor: theme.bg, overflow: "hidden" },
+  partyHp: { height: 5, backgroundColor: theme.danger },
+  partyHere: { fontFamily: fonts.bodySemi, fontSize: 10, textTransform: "uppercase" },
+  partyKick: { width: 22, height: 22, borderRadius: 6, borderWidth: 1, borderColor: theme.danger, alignItems: "center", justifyContent: "center" },
+  partyKickText: { color: theme.danger, fontFamily: fonts.bodySemi, fontSize: 12 },
+  partyLeave: { marginTop: 8, paddingVertical: 8, borderRadius: 6, borderWidth: 1, borderColor: theme.bloodDim, backgroundColor: theme.bg, alignItems: "center" },
+  partyLeaveText: { color: theme.blood, fontFamily: fonts.bodySemi, fontSize: 12 },
   skillList: { maxHeight: 320, marginTop: 4 },
   skillRow: {
     flexDirection: "row", alignItems: "center", gap: 8, backgroundColor: theme.bgAlt,

@@ -31,7 +31,7 @@ import { containerInfo, equipStats, isContainer, totalWeight } from "./items.ts"
 import type { Fighter, PlayerFighter } from "./fighter.ts";
 import { can, canEditVnum, capsFor, isStaff, ROLE_NAMES, type StaffAccount } from "./roles.ts";
 import type { Db } from "../db/repos.ts";
-import { esc, out, sendEquipment, sendInventory, sendRoom, sendRoomView, sendShop, sendSkills, sendVitals } from "./view.ts";
+import { esc, out, sendEquipment, sendInventory, sendParty, sendPartyToGroup, sendRoom, sendRoomView, sendShop, sendSkills, sendVitals } from "./view.ts";
 
 export interface CommandContext {
   world: World;
@@ -254,6 +254,7 @@ function doMove(ctx: CommandContext, dir: string): void {
       sendVitals(ctx.world, p);
     }
   }
+  if (isGrouped(ch)) sendPartyToGroup(ctx.live, ch); // refresh here/away + hp after the move
 }
 
 function doSay(ctx: CommandContext, text: string): void {
@@ -347,6 +348,7 @@ function doGroup(ctx: CommandContext, arg: string): void {
   tc.groupLeaderId = ch.id;
   out(ctx.player, `&CYou add ${esc(tc.name)} to your group.&D`);
   out(target, `&C${esc(ch.name)} adds you to their group.&D`);
+  sendPartyToGroup(ctx.live, ch); // refresh the party panel for everyone in the group
 }
 
 /** `ungroup [player]` — leave your group, or (as leader) remove a member. */
@@ -354,8 +356,12 @@ function doUngroup(ctx: CommandContext, arg: string): void {
   const ch = ctx.player.character;
   if (!isGrouped(ch)) return out(ctx.player, "&RYou aren't in a group.&D");
   if (!arg.trim()) {
+    const affected = groupMembers(ctx.live, ch); // capture before the tie is cut
+    const wasLeader = isLeader(ch);
     leaveGroup(ctx.live, ch);
-    return out(ctx.player, isLeader(ch) ? "&YYou disband the group.&D" : "&YYou leave the group.&D");
+    out(ctx.player, wasLeader ? "&YYou disband the group.&D" : "&YYou leave the group.&D");
+    for (const p of affected) sendParty(ctx.live, p); // the leaver clears; the rest re-roster
+    return;
   }
   if (!isLeader(ch)) return out(ctx.player, "&ROnly the leader can remove members.&D");
   const target = groupMembers(ctx.live, ch).find((p) => p !== ctx.player && p.character.name.toLowerCase().startsWith(arg.trim().toLowerCase()));
@@ -363,6 +369,8 @@ function doUngroup(ctx: CommandContext, arg: string): void {
   target.character.groupLeaderId = undefined;
   out(ctx.player, `&YYou remove ${esc(target.character.name)} from the group.&D`);
   out(target, "&YYou have been removed from the group.&D");
+  sendParty(ctx.live, target); // removed member clears their panel
+  sendPartyToGroup(ctx.live, ch); // remaining members re-roster
 }
 
 /** `gtell <msg>` — speak to every online group member. */

@@ -60,6 +60,7 @@ function setup() {
 }
 
 const text = (m: ServerMessage[]) => m.flatMap((x) => (x.t === "output" ? x.lines.flat().map((s) => s.text) : [])).join("\n");
+const lastParty = (m: ServerMessage[]) => [...m].reverse().find((x): x is Extract<ServerMessage, { t: "party" }> => x.t === "party")?.party ?? null;
 function killFoe(s: ReturnType<typeof setup>) {
   const mob = spawnMob(foe, ROOM);
   mob.hp = mob.maxHp = 1;
@@ -129,6 +130,32 @@ describe("following", () => {
     dispatchCommand(s.a.ctx, exitDir);
     expect(s.a.ch.roomVnum).toBe(exitDest);
     expect(s.b.ch.roomVnum).toBe(exitDest); // Bravo followed
+  });
+});
+
+describe("party panel messages", () => {
+  it("group sends both members a roster with leader / self / here flags", () => {
+    const s = setup();
+    dispatchCommand(s.a.ctx, "group Bravo");
+    const pa = lastParty(s.a.recv), pb = lastParty(s.b.recv);
+    expect(pa?.members.length).toBe(2);
+    expect(pb?.members.length).toBe(2);
+    const aSelf = pa!.members.find((x) => x.self);
+    expect(aSelf?.name).toBe("Alpha");
+    expect(aSelf?.leader).toBe(true); // Alpha leads
+    expect(pa!.members.every((x) => x.here)).toBe(true); // both in the start room
+    const bSelf = pb!.members.find((x) => x.self);
+    expect(bSelf?.name).toBe("Bravo");
+    expect(bSelf?.leader).toBe(false); // Bravo is a follower
+    expect(aSelf?.hpPct).toBeGreaterThan(0);
+  });
+
+  it("ungroup clears the leaver's roster (empty members)", () => {
+    const s = setup();
+    dispatchCommand(s.a.ctx, "group Bravo");
+    s.b.recv.length = 0;
+    dispatchCommand(s.b.ctx, "ungroup");
+    expect(lastParty(s.b.recv)?.members.length).toBe(0);
   });
 });
 

@@ -7,7 +7,7 @@
  */
 import { useState } from "react";
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import type { QuestBrief, RoomMob, RoomView, ShopView, Vitals } from "../protocol";
+import type { InventoryItem, QuestBrief, RoomMob, RoomView, ShopView, Vitals } from "../protocol";
 import { fonts, theme } from "../theme";
 
 export type SheetAction = { label: string; tone?: "attack" | "default" | "good"; run: () => void };
@@ -212,6 +212,57 @@ export function ShopModal({ shop, gold, onBuy, onClose }: { shop: ShopView | nul
   );
 }
 
+/** The last noun-ish word of an item name — a keyword the server's get/put matches on. */
+const nounKw = (name: string) => name.replace(/[^a-zA-Z ]/g, "").trim().split(/\s+/).pop() ?? name;
+
+/** The bag manager: a container's contents (take out) + your loose pack (put in). */
+export function BagModal({ bag, pack, onCmd, onClose }: { bag: InventoryItem | null; pack: InventoryItem[]; onCmd: (raw: string) => void; onClose: () => void }) {
+  const bagKw = bag ? nounKw(bag.name) : "";
+  const contents = bag?.contents ?? [];
+  const stowable = pack.filter((it) => it.vnum !== bag?.vnum && !it.container);
+  return (
+    <Modal transparent visible={!!bag} animationType="slide" onRequestClose={onClose}>
+      <Pressable style={styles.overlay} onPress={onClose}>
+        <Pressable style={styles.shop} onPress={() => {}}>
+          {bag && (
+            <>
+              <View style={styles.shopHead}>
+                <Text style={styles.sheetTitle} numberOfLines={1}>{bag.name}</Text>
+                <Text style={styles.shopGold}>{bag.closed ? "closed" : `${contents.length} inside`}</Text>
+              </View>
+              {bag.closed ? (
+                <Pressable onPress={() => { onCmd(`open ${bagKw}`); }} style={({ pressed }) => [styles.sheetBtn, styles.sheetGood, pressed && styles.sheetPress]}>
+                  <Text style={styles.sheetBtnText}>Open it</Text>
+                </Pressable>
+              ) : (
+                <ScrollView style={styles.shopList} contentContainerStyle={{ gap: 6 }}>
+                  {contents.length === 0 ? (
+                    <Text style={styles.sheetSub}>It's empty.</Text>
+                  ) : contents.map((it, i) => (
+                    <View key={`c${i}`} style={styles.shopRow}>
+                      <View style={styles.shopInfo}><Text style={styles.shopName} numberOfLines={1}>{it.name}</Text><Text style={styles.shopType}>{it.itemType}</Text></View>
+                      <Pressable onPress={() => onCmd(`get ${nounKw(it.name)} ${bagKw}`)} style={({ pressed }) => [styles.buyBtn, pressed && styles.sheetPress]}><Text style={styles.buyText}>Take</Text></Pressable>
+                    </View>
+                  ))}
+                  {contents.length > 1 && <Pressable onPress={() => onCmd(`get all ${bagKw}`)} style={({ pressed }) => [styles.bagAll, pressed && styles.sheetPress]}><Text style={styles.buyText}>Take everything</Text></Pressable>}
+                  {stowable.length > 0 && <Text style={styles.bagSection}>Stow from your pack</Text>}
+                  {stowable.map((it, i) => (
+                    <View key={`s${i}`} style={styles.shopRow}>
+                      <View style={styles.shopInfo}><Text style={styles.shopName} numberOfLines={1}>{it.name}</Text><Text style={styles.shopType}>{it.itemType}</Text></View>
+                      <Pressable onPress={() => onCmd(`put ${nounKw(it.name)} ${bagKw}`)} style={({ pressed }) => [styles.putBtn, pressed && styles.sheetPress]}><Text style={styles.putText}>Put in</Text></Pressable>
+                    </View>
+                  ))}
+                </ScrollView>
+              )}
+              <Pressable onPress={onClose} style={styles.sheetCancel}><Text style={styles.sheetCancelText}>Done</Text></Pressable>
+            </>
+          )}
+        </Pressable>
+      </Pressable>
+    </Modal>
+  );
+}
+
 export function ActionSheet({ sheet, onClose }: { sheet: Sheet; onClose: () => void }) {
   return (
     <Modal transparent visible={!!sheet} animationType="fade" onRequestClose={onClose}>
@@ -297,4 +348,9 @@ const styles = StyleSheet.create({
   buyBtn: { paddingVertical: 8, paddingHorizontal: 16, borderRadius: 8, borderWidth: 1, borderColor: theme.gold, backgroundColor: theme.panel },
   buyPoor: { borderColor: theme.panelBorder, backgroundColor: theme.bg },
   buyText: { color: theme.gold, fontFamily: fonts.bodySemi, fontSize: 14 },
+
+  bagAll: { paddingVertical: 10, borderRadius: 8, borderWidth: 1, borderColor: theme.accent, backgroundColor: theme.panel, alignItems: "center" },
+  bagSection: { color: theme.dim, fontFamily: fonts.bodySemi, fontSize: 11, textTransform: "uppercase", marginTop: 8 },
+  putBtn: { paddingVertical: 8, paddingHorizontal: 16, borderRadius: 8, borderWidth: 1, borderColor: theme.accent, backgroundColor: theme.panel },
+  putText: { color: theme.accent, fontFamily: fonts.bodySemi, fontSize: 14 },
 });

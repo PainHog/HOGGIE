@@ -2,7 +2,7 @@
  * Client-side copy of the wire protocol (kept self-contained so Expo/Metro doesn't need to
  * resolve the server workspace). Must stay in sync with shared/src/protocol.ts.
  */
-export const PROTOCOL_VERSION = 11;
+export const PROTOCOL_VERSION = 12;
 
 export type Span = { text: string; color?: string };
 export type Line = Span[];
@@ -132,12 +132,21 @@ export interface CombatFx {
   element?: string;
 }
 
+export interface ContainedItem {
+  vnum: number;
+  name: string;
+  itemType: string;
+}
+
 export interface InventoryItem {
   vnum: number;
   name: string;
   itemType: string;
   cost: number;
   description: string;
+  container?: boolean;
+  closed?: boolean;
+  contents?: ContainedItem[];
 }
 
 export interface EquippedItem {
@@ -158,6 +167,21 @@ export interface ShopItem {
 export interface ShopView {
   keeper: string;
   items: ShopItem[];
+}
+
+export interface PartyMember {
+  id: string;
+  name: string;
+  level: number;
+  hpPct: number;
+  manaPct: number;
+  here: boolean;
+  leader: boolean;
+  self: boolean;
+}
+
+export interface PartyView {
+  members: PartyMember[];
 }
 
 export interface SkillInfo {
@@ -188,6 +212,7 @@ export type ServerMessage =
   | { t: "equipment"; items: EquippedItem[] }
   | { t: "skills"; label: string; skills: SkillInfo[] }
   | { t: "shop"; shop: ShopView }
+  | { t: "party"; party: PartyView }
   | { t: "fx"; fx: CombatFx }
   | { t: "system"; text: string }
   | { t: "error"; message: string };
